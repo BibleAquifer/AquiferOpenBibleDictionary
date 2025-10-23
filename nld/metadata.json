@@ -1,0 +1,169 @@
+{
+  "resource_metadata": {
+    "aquifer_type": "Dictionary",
+    "resource_type": "Bible Dictionary",
+    "title": "Aquifer Open Bible Dictionary",
+    "aquifer_name": "Bible Dictionary (Tyndale)",
+    "collection_title": "Bible Dictionary (Tyndale)",
+    "short_name": "TBD",
+    "license_info": {
+      "title": "Tyndale Open Bible Dictionary",
+      "copyright": {
+        "dates": "2023",
+        "holder": {
+          "name": "Tyndale House Publishers",
+          "url": "https://tyndaleopenresources.com/"
+        }
+      },
+      "licenses": [
+        {
+          "eng": {
+            "name": "CC BY-SA 4.0 license",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+          }
+        }
+      ],
+      "showAdaptationNoticeForEnglish": true,
+      "showAdaptationNoticeForNonEnglish": true
+    },
+    "adaptation_notice": "<p><b>Tyndale Open Bible Dictionary: Aquifer Edition</b></p><p>This work is an adaptation of <cite>Tyndale Open Bible Dictionary</cite> © 2023 Tyndale House Publishers, licensed under the CC BY-SA 4.0 license. The adaptation, <cite>Aquifer Open Bible Dictionary</cite>, was created by BiblioNexus and is also licensed under CC BY-SA 4.0.</p><p>This resource has been adapted into multiple languages, including English, Tok Pisin, Arabic (عربي), French (Français), Hindi (हिंदी), Indonesian (Bahasa Indonesia), Portuguese (Português), Russian (Русский), Spanish (Español), Swahili (Kiswahili), and Simplified Chinese (简体中文).</p>",
+    "resource_code": "TyndaleBibleDictionary",
+    "date_created": "2025-10-22",
+    "language": "nld",
+    "localizations": [
+      "eng",
+      "arb",
+      "fra",
+      "hin",
+      "por",
+      "spa",
+      "swh",
+      "zht"
+    ],
+    "order": "alphabetical",
+    "content_type": "Html"
+  },
+  "scripture_burrito": {
+    "format": "scripture burrito",
+    "meta": {
+      "version": "1.0.0",
+      "category": "source",
+      "defaultLocale": "en",
+      "dateCreated": "2025-10-22T15:00:36.201903"
+    },
+    "idAuthorities": {
+      "aquifer": {
+        "id": "https://aquifer.bible",
+        "name": {
+          "en": "Bible Aquifer"
+        }
+      }
+    },
+    "identification": {
+      "primary": {
+        "aquifer": {
+          "TyndaleBibleDictionary": {
+            "timestamp": "2025-10-22T15:00:36.201903"
+          }
+        }
+      },
+      "name": {
+        "nl": "Tyndale Open Bible Dictionary"
+      },
+      "abbreviation": {
+        "nl": "TBD"
+      }
+    },
+    "languages": [
+      {
+        "tag": "nl",
+        "name": {
+          "nl": "Dutch"
+        }
+      }
+    ],
+    "type": {
+      "flavorType": {
+        "name": "peripheral",
+        "flavor": {
+          "name": "textAquiferAlphabetical",
+          "audience": "common"
+        },
+        "currentScope": {}
+      }
+    },
+    "ingredients": {
+      "json/000001.content.json": {
+        "mimeType": "text/json",
+        "size": 8375
+      },
+      "md/000001.content.md": {
+        "mimeType": "text/markdown",
+        "size": 4434
+      }
+    },
+    "copyright": {
+      "licenses": [
+        {
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+        }
+      ],
+      "shortStatements": [
+        {
+          "statement": "<p>Tyndale Open Bible Dictionary © 2023 Tyndale House Publishers.</p>",
+          "mimetype": "text/html",
+          "lang": "nl"
+        }
+      ]
+    }
+  },
+  "article_metadata": {
+    "757010": {
+      "content_id": 757010,
+      "reference_id": 7363,
+      "index_reference": "zee",
+      "localizations": {
+        "eng": {
+          "content_id": 8195,
+          "language": "eng",
+          "title": "Sea"
+        },
+        "arb": {
+          "content_id": 124570,
+          "language": "arb",
+          "title": "البحر"
+        },
+        "fra": {
+          "content_id": 341292,
+          "language": "fra",
+          "title": "Mer"
+        },
+        "hin": {
+          "content_id": 180544,
+          "language": "hin",
+          "title": "समुद्र"
+        },
+        "por": {
+          "content_id": 125328,
+          "language": "por",
+          "title": "Mar"
+        },
+        "spa": {
+          "content_id": 658302,
+          "language": "spa",
+          "title": "Mar"
+        },
+        "swh": {
+          "content_id": 713739,
+          "language": "swh",
+          "title": "Bahari"
+        },
+        "zht": {
+          "content_id": 471346,
+          "language": "zht",
+          "title": "海"
+        }
+      }
+    }
+  }
+}
