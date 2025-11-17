@@ -4,7 +4,7 @@
     "resource_type": "Bible Dictionary",
     "title": "Bible Dictionary (Tyndale)",
     "aquifer_name": "قاموس الكتاب المقدس (Tyndale)",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "collection_title": "Bible Dictionary (Tyndale)",
     "short_name": "TBD",
     "license_info": {
@@ -29,7 +29,7 @@
     },
     "adaptation_notice": "",
     "resource_code": "TyndaleBibleDictionary",
-    "date_created": "2025-11-06",
+    "date_created": "2025-11-17",
     "language": "apd",
     "localizations": [
       "eng",
@@ -51,7 +51,7 @@
       "version": "1.0.0",
       "category": "source",
       "defaultLocale": "en",
-      "dateCreated": "2025-11-06T13:10:16.474113"
+      "dateCreated": "2025-11-17T09:29:24.279411"
     },
     "idAuthorities": {
       "aquifer": {
@@ -65,7 +65,7 @@
       "primary": {
         "aquifer": {
           "TyndaleBibleDictionary": {
-            "timestamp": "2025-11-06T13:10:16.474113"
+            "timestamp": "2025-11-17T09:29:24.279411"
           }
         }
       },
@@ -95,29 +95,32 @@
       }
     },
     "ingredients": {
-      "json/000001.content.json": {
+      "json/001.content.json": {
         "mimeType": "text/json",
-        "size": 92818
+        "size": 92847,
+        "scope": {
+          "ا": [
+            "الإنجيل، البشارة"
+          ]
+        }
       },
-      "json/000002.content.json": {
+      "json/002.content.json": {
         "mimeType": "text/json",
-        "size": 13802
+        "size": 36500,
+        "scope": {
+          "م": [
+            "المسيح",
+            "المعمودية"
+          ]
+        }
       },
-      "json/000003.content.json": {
-        "mimeType": "text/json",
-        "size": 22643
-      },
-      "md/000001.content.md": {
+      "md/001.content.md": {
         "mimeType": "text/markdown",
-        "size": 52402
+        "size": 52442
       },
-      "md/000002.content.md": {
+      "md/002.content.md": {
         "mimeType": "text/markdown",
-        "size": 6358
-      },
-      "md/000003.content.md": {
-        "mimeType": "text/markdown",
-        "size": 13759
+        "size": 19721
       }
     },
     "copyright": {
