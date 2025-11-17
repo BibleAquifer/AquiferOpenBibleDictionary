@@ -4,7 +4,7 @@
     "resource_type": "Bible Dictionary",
     "title": "Aquifer Open Bible Dictionary",
     "aquifer_name": "Bible Dictionary (Tyndale)",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "collection_title": "Bible Dictionary (Tyndale)",
     "short_name": "TBD",
     "license_info": {
@@ -29,7 +29,7 @@
     },
     "adaptation_notice": "<p><b>Aquifer Open Bible Dictionary</b></p><p>This work is an adaptation of <cite>Tyndale Open Bible Dictionary</cite> © 2023 Tyndale House Publishers, licensed under the CC BY-SA 4.0 license. The adaptation, <cite>Aquifer Open Bible Dictionary</cite>, was created by Mission Mutual and is also licensed under CC BY-SA 4.0.</p><p>This resource has been adapted into multiple languages, including English, Tok Pisin, Arabic (عربي), French (Français), Hindi (हिंदी), Indonesian (Bahasa Indonesia), Portuguese (Português), Russian (Русский), Spanish (Español), Swahili (Kiswahili), and Simplified Chinese (简体中文).</p>",
     "resource_code": "TyndaleBibleDictionary",
-    "date_created": "2025-11-06",
+    "date_created": "2025-11-17",
     "language": "nld",
     "localizations": [
       "eng",
@@ -50,7 +50,7 @@
       "version": "1.0.0",
       "category": "source",
       "defaultLocale": "en",
-      "dateCreated": "2025-11-06T13:11:21.503298"
+      "dateCreated": "2025-11-17T09:29:54.174589"
     },
     "idAuthorities": {
       "aquifer": {
@@ -64,7 +64,7 @@
       "primary": {
         "aquifer": {
           "TyndaleBibleDictionary": {
-            "timestamp": "2025-11-06T13:11:21.503298"
+            "timestamp": "2025-11-17T09:29:54.174589"
           }
         }
       },
@@ -94,17 +94,27 @@
       }
     },
     "ingredients": {
-      "json/000001.content.json": {
+      "json/001.content.json": {
         "mimeType": "text/json",
-        "size": 8400
+        "size": 8429,
+        "scope": {
+          "z": [
+            "Zee"
+          ]
+        }
       },
-      "md/000001.content.md": {
+      "md/001.content.md": {
         "mimeType": "text/markdown",
-        "size": 4420
+        "size": 4417
       },
-      "pdf/000001.content.pdf": {
+      "pdf/001.content.pdf": {
         "mimeType": "application/pdf",
-        "size": 239920
+        "size": 237004,
+        "scope": {
+          "z": [
+            "Zee"
+          ]
+        }
       }
     },
     "copyright": {
