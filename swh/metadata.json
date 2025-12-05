@@ -2,7 +2,7 @@
   "resource_metadata": {
     "aquifer_type": "Dictionary",
     "resource_type": "Bible Dictionary",
-    "title": "Bible Dictionary (Tyndale)",
+    "title": "Aquifer Open Bible Dictionary",
     "aquifer_name": "Kamusi ya Biblia (Tyndale)",
     "version": "1.0.1",
     "collection_title": "Bible Dictionary (Tyndale)",
@@ -27,9 +27,9 @@
       "showAdaptationNoticeForEnglish": true,
       "showAdaptationNoticeForNonEnglish": true
     },
-    "adaptation_notice": "",
+    "adaptation_notice": "<p><b>Aquifer Open Bible Dictionary</b></p><p>This work is an adaptation of <cite>Tyndale Open Bible Dictionary</cite> © 2023 Tyndale House Publishers, licensed under the CC BY-SA 4.0 license. The adaptation, <cite>Aquifer Open Bible Dictionary</cite>, was created by Mission Mutual and is also licensed under CC BY-SA 4.0.</p><p>This resource has been adapted into multiple languages, including English, Tok Pisin, Arabic (عربي), French (Français), Hindi (हिंदी), Indonesian (Bahasa Indonesia), Portuguese (Português), Russian (Русский), Spanish (Español), Swahili (Kiswahili), and Simplified Chinese (简体中文).</p>",
     "resource_code": "TyndaleBibleDictionary",
-    "date_created": "2025-11-17",
+    "date_created": "2025-12-04",
     "language": "swh",
     "localizations": [
       "eng",
@@ -55,7 +55,7 @@
       "version": "1.0.0",
       "category": "source",
       "defaultLocale": "en",
-      "dateCreated": "2025-11-17T09:30:03.422279"
+      "dateCreated": "2025-12-04T20:23:07.091918"
     },
     "idAuthorities": {
       "aquifer": {
@@ -69,7 +69,7 @@
       "primary": {
         "aquifer": {
           "TyndaleBibleDictionary": {
-            "timestamp": "2025-11-17T09:30:03.422279"
+            "timestamp": "2025-12-04T20:23:07.091918"
           }
         }
       },
@@ -113,30 +113,44 @@
       },
       "json/002.content.json": {
         "mimeType": "text/json",
-        "size": 423487,
+        "size": 507772,
         "scope": {
           "a": [
             "Abeli (Mtu)",
             "Abiathari",
+            "Abimaeli",
             "Ada",
             "Adamu (Mtu)",
+            "Adhabu",
+            "Adma",
+            "Agano",
             "Agano, Jipya",
             "Ahadi",
             "Aina",
+            "Akadi",
             "Akeldama",
             "Akeldama",
             "Ala za Muziki",
             "Aleksanda",
             "Alfayo",
+            "Almodadi",
+            "Anamim, Anamites",
             "Anania",
             "Anasi",
             "Andrea, Mtume",
             "Apokaliptiki",
             "Apokrifa",
+            "Aramu (Mtu)",
+            "Ararati",
             "Ardhi",
+            "Arfaksadi",
             "Arkeolojia na Biblia",
             "Artemas",
+            "Arvadi, Mwarvadi",
             "Asali",
+            "Ashkenazi",
+            "Ashuru",
+            "Ashuru, Waashuri",
             "Asia",
             "Askofu",
             "Astronomia"
@@ -145,9 +159,10 @@
       },
       "json/003.content.json": {
         "mimeType": "text/json",
-        "size": 437272,
+        "size": 440527,
         "scope": {
           "b": [
+            "Babeli",
             "Bahari",
             "Bahari ya Galilaya",
             "Baraba",
@@ -185,7 +200,7 @@
       },
       "json/005.content.json": {
         "mimeType": "text/json",
-        "size": 157965,
+        "size": 160407,
         "scope": {
           "d": [
             "Daktari",
@@ -195,10 +210,12 @@
             "Damu, Shamba la",
             "Daudi",
             "Dawa na Mazoezi ya Tiba",
+            "Dedani (Mtu)",
             "Dekapoli",
             "Dhambi",
             "Dhambi isiyosameheka",
             "Dhamiri",
+            "Dikla",
             "Divai",
             "Dunia"
           ]
@@ -206,13 +223,18 @@
       },
       "json/006.content.json": {
         "mimeType": "text/json",
-        "size": 53696,
+        "size": 85675,
         "scope": {
           "e": [
+            "Eberi",
             "Edeni",
+            "Edomu, Waedomu",
             "Elamu (Mahali), Waelamu",
+            "Elamu (Mtu)",
             "Elimu",
+            "Elisha",
             "Enoshi",
+            "Ereki",
             "Eskatolojia"
           ]
         }
@@ -233,33 +255,42 @@
       },
       "json/008.content.json": {
         "mimeType": "text/json",
-        "size": 76525,
+        "size": 95572,
         "scope": {
           "g": [
             "Gadara, Wagadarene",
             "Galilaya",
             "Gamalieli",
             "Gaulanitis",
+            "Gaza",
             "Genesareti",
+            "Gerari",
             "Gerasa, Wagerasene",
+            "Getheri",
             "Gharika",
-            "Giza"
+            "Giza",
+            "Gomeri"
           ]
         }
       },
       "json/009.content.json": {
         "mimeType": "text/json",
-        "size": 358239,
+        "size": 388452,
         "scope": {
           "h": [
             "Hadesi",
             "Hadithi za Matamko",
             "Hadithi za Uumbaji",
+            "Hadoramu",
+            "Haki",
             "Hali ya Kati ya Maisha na Ufufuo",
+            "Hamathi",
             "Hamu (Mtu)",
+            "Hasarmawethi",
             "Hasira",
             "Hatia ya damu",
             "Havila (Eneo)",
+            "Havila (Mtu)",
             "Hawa",
             "Hekalu",
             "Hema",
@@ -271,13 +302,14 @@
             "Historia ya Israeli",
             "Hofu",
             "Hukumu",
+            "Huli",
             "Huzuni"
           ]
         }
       },
       "json/010.content.json": {
         "mimeType": "text/json",
-        "size": 134097,
+        "size": 136076,
         "scope": {
           "i": [
             "Imani",
@@ -285,7 +317,8 @@
             "Injili",
             "Injili za Sinoptiki",
             "Iradi",
-            "ishara"
+            "ishara",
+            "Iturea, Trakoniti"
           ]
         }
       },
@@ -305,11 +338,15 @@
       },
       "json/012.content.json": {
         "mimeType": "text/json",
-        "size": 806677,
+        "size": 933740,
         "scope": {
           "k": [
             "Kabila la Walawi",
+            "Kaftori, Mkaftori, Wakaftori",
             "Kaini (Mtu)",
+            "Kala",
+            "Kalne",
+            "Kanaani, Mkanaani",
             "kanisa",
             "Kanuni kuhusu Usafi na Uchafu",
             "Kapadokia",
@@ -327,12 +364,14 @@
             "Kipro",
             "Kirene, Wakirene",
             "Kitabu cha Ezekieli",
+            "Kitabu cha Hesabu",
             "Kitabu cha Matendo ya Mitume, Kitabu cha",
             "Kitabu cha Mwanzo",
             "Kitabu cha Ruthu",
             "Kitabu cha Yoeli",
             "Kiti cha enzi",
             "Kiti cha kuweka miguu",
+            "Kitimu",
             "Klopa",
             "Krenio",
             "Krete",
@@ -350,7 +389,9 @@
             "Kupiga magoti",
             "Kuponya, Uponyaji",
             "Kupooza, Aliyepooza, Amepooza",
+            "Kushi",
             "Kushi (Mahali)",
+            "Kushi (Mtu)",
             "Kusulubiwa",
             "Kuteua, Upadrisho",
             "Kutokuwa na dhambi kwa Kristo",
@@ -362,18 +403,21 @@
       },
       "json/013.content.json": {
         "mimeType": "text/json",
-        "size": 110300,
+        "size": 116121,
         "scope": {
           "l": [
             "Laana, Kulaaniwa",
             "Lameki",
             "Lango Zuli",
+            "Lasha",
             "Lawi (Mtu)",
             "Lea",
             "Lebanoni",
             "Legioni",
+            "Lehabimu, Lehabiti",
             "Libya, Walibia",
             "Lita",
+            "Ludi, Ludimu, Waludi",
             "Lugha ya Kiebrania",
             "Lugha ya Kigiriki",
             "Lugha za Moto"
@@ -382,7 +426,7 @@
       },
       "json/014.content.json": {
         "mimeType": "text/json",
-        "size": 1876175,
+        "size": 1971622,
         "scope": {
           "m": [
             "Maarifa ya awali",
@@ -390,14 +434,19 @@
             "Mabadiliko",
             "Mabaharia",
             "Machukizo",
+            "Madai",
+            "Madhabahu",
             "Madini na Metali",
             "Mafuta",
+            "Magogu",
             "Magonjwa",
             "Mahakama na Kesi",
             "Mahalaleel, Mahalaleli",
+            "Mahali pa Wafu",
             "Maisha ya Familia na Mahusiano",
             "Maji",
             "Majina, Umuhimu wa",
+            "Majitu",
             "Makaeru",
             "Makuhani na Walawi",
             "Malaika",
@@ -419,6 +468,7 @@
             "Mavazi",
             "Mawe, Ya Thamani",
             "Mbadilishaji wa fedha",
+            "Mbao za Mvinje",
             "Mbingu",
             "Mbingu",
             "Mbingu Mpya na Dunia Mpya",
@@ -426,6 +476,9 @@
             "Mchungaji",
             "Mchungaji",
             "Mehuyaeli",
+            "Mesha (Mahali)",
+            "Mesheki",
+            "Mesheki",
             "Mesopotamia",
             "Methusaeli",
             "Methusela",
@@ -436,18 +489,24 @@
             "Mfuko",
             "Mfululizo wa Matukio ya Biblia(Agano Jipya)",
             "Mfupa",
+            "Mhiti",
             "Mikutano ya Kanisa",
             "Milenia",
             "Mimea",
+            "Mizabibu, Shamba la mizabibu",
             "Mizani na Vipimo",
+            "Mizraimu",
             "Mji",
             "Mjumbe",
             "Mkalimani",
+            "Mkasluhi, Wakasluhi",
             "Mkate",
             "Mkate wa Uwepo",
             "Mkoma, Ukoma",
             "Mkono",
+            "Mlima Ebali",
             "Mlima wa Mizeituni",
+            "Mlipiza kisasi wa Damu",
             "Mnazareti",
             "Mnyama",
             "Mose",
@@ -490,14 +549,16 @@
       },
       "json/015.content.json": {
         "mimeType": "text/json",
-        "size": 384443,
+        "size": 457640,
         "scope": {
           "n": [
             "Naama (Mtu)",
             "Nabii, Nabii wa kike",
             "Nambari na Numerolojia",
+            "Naphtuhimu, Wanaftuhi",
             "Nathanaeli",
             "Nazareti",
+            "Ndege",
             "Ndoa, Desturi za Ndoa",
             "Ndugu",
             "Ndugu (na Dada)",
@@ -510,7 +571,10 @@
             "Nguzo ya Moto na Wingu",
             "Nicopolis",
             "Nidhamu",
+            "Nimrodi",
+            "Ninawi, Mninewi",
             "Njia",
+            "Njiwa",
             "Noa",
             "Nobu",
             "Nodi",
@@ -526,27 +590,34 @@
       },
       "json/016.content.json": {
         "mimeType": "text/json",
-        "size": 10253,
+        "size": 17795,
         "scope": {
           "o": [
+            "Obali",
+            "Obali",
+            "Ofiri (Mahali)",
+            "Ofiri (Mtu)",
             "Ombaomba"
           ]
         }
       },
       "json/017.content.json": {
         "mimeType": "text/json",
-        "size": 347335,
+        "size": 411580,
         "scope": {
           "p": [
+            "Palestina",
             "Pamfiliya",
             "Parthia, Waparthia",
             "Paulo, Mtume",
+            "Pelegi",
             "Pentekoste",
             "Pepo",
             "Peponi",
             "Perea",
             "Petro, Barua ya Kwanza ya",
             "Petro, Mtume",
+            "Philistia, Wafilisti",
             "Philo, Myahudi",
             "Pishoni",
             "Pontio",
@@ -554,29 +625,43 @@
             "Power",
             "Presbiteri",
             "Protevangelium",
-            "Pumziko"
+            "Pumziko",
+            "Putu",
+            "Putu (Eneo)",
+            "Putu (Mtu)"
           ]
         }
       },
       "json/018.content.json": {
         "mimeType": "text/json",
-        "size": 170100,
+        "size": 186350,
         "scope": {
           "r": [
+            "Raama",
             "Rangi",
             "Rehema",
+            "Rehoboth-iri",
+            "Rehobothi",
+            "Reseni",
+            "Rhodes",
+            "Rifathi",
+            "Rodanimu",
             "Roho",
+            "Roho iliyo Gerezani",
             "Roho wa Mungu",
-            "Roho wa Yesu Kristo"
+            "Roho wa Yesu Kristo",
+            "Ronadimu"
           ]
         }
       },
       "json/019.content.json": {
         "mimeType": "text/json",
-        "size": 492192,
+        "size": 556668,
         "scope": {
           "s": [
             "Sabato",
+            "Sabta",
+            "Sabteka",
             "Sadaka na Dhabihu",
             "Safari",
             "Safari ya Siku",
@@ -588,16 +673,29 @@
             "Samani",
             "Samweli (Mtu)",
             "Sanhedrin",
+            "Seba",
+            "Seboimu",
+            "Seboimu",
+            "Sefari",
             "Sensa",
             "Seremala",
             "Sethi",
             "Shahidi",
+            "Sheba (Mtu)",
+            "Shekina",
+            "SHELA",
+            "Shela",
+            "Shelefu",
             "Shema",
             "Shemasi, Shemasi wa kike",
             "Shemu",
+            "Sheria kuhusu chakula",
             "Sheria, Dhana ya Kibiblia ya",
             "Shetani",
             "Shimo la Kuzimu",
+            "Shinari",
+            "Sidoni (Mahali), Msidoni",
+            "Sidoni (Mtu)",
             "Siku",
             "Siku ya Bwana",
             "Siku ya Bwana",
@@ -617,7 +715,7 @@
       },
       "json/020.content.json": {
         "mimeType": "text/json",
-        "size": 134792,
+        "size": 140785,
         "scope": {
           "t": [
             "Talaka",
@@ -630,18 +728,21 @@
             "Theuda",
             "Tikiko",
             "Timothy, Barua ya Kwanza kwa",
+            "Tirasi",
             "Tito (Mtu)",
             "Tito, Barua kwa",
             "Toba",
+            "Togarma",
             "Tohara",
             "Tomaso, Mtume",
+            "Tubali",
             "Tubali-kaini"
           ]
         }
       },
       "json/021.content.json": {
         "mimeType": "text/json",
-        "size": 744702,
+        "size": 793464,
         "scope": {
           "u": [
             "Ubatizo",
@@ -650,6 +751,7 @@
             "Ufalme wa Mungu, Ufalme wa Mbinguni",
             "Ufinyanzi",
             "Ufufuo",
+            "Ugiriki, Kigiriki",
             "Ugumu wa Moyo",
             "uhindi",
             "Uhuru, Kuwa huru",
@@ -660,6 +762,7 @@
             "Ukuhani",
             "Ukumbi",
             "Ukumbi wa Solomoni",
+            "Ukumbusho",
             "Ukuu na Nguvu",
             "Ulemavu",
             "Umilele",
@@ -667,21 +770,28 @@
             "Unabii",
             "Ungamo",
             "Upendo",
+            "Upinde wa mvua",
             "Upole",
             "Urithi",
+            "Urithi wa mzaliwa wa kwanza",
             "Ushairi, Kibiblia",
             "Ushirika",
+            "Usi (Mahali)",
+            "Usi (Mtu)",
             "Usiku",
             "Usingizi",
             "Utajiri",
             "Utakatifu",
+            "Utasa",
             "Utawanyiko wa Wayahudi",
             "Uteuzi wa Awali",
             "Utii",
             "Utimilifu",
             "Uumbaji Mpya, Kiumbe Kipya",
             "Uvumilivu",
+            "Uwindaji",
             "Uyahudi",
+            "Uzali (Mtu)",
             "Uzima",
             "Uzima wa Milele",
             "Uzuri",
@@ -691,23 +801,33 @@
       },
       "json/022.content.json": {
         "mimeType": "text/json",
-        "size": 235685,
+        "size": 294568,
         "scope": {
           "w": [
+            "Waamori",
+            "Waariki",
             "Wachungaji",
             "Waeseni",
             "Wagirgashi",
+            "Wahamathi",
             "Waherode",
+            "Wahiti",
+            "Wahivi",
             "Wakaisari",
             "Wakeniti",
             "Wamedi, Umedi, Mumediani",
             "Wana na Binti wa Mungu",
             "Wana wa Ngurumo",
+            "Wanefili",
             "Wanyama",
+            "Wapathrusi",
+            "Waperizi",
             "Wasamaria",
+            "Wasini",
             "Waumini",
             "Wavuvi",
             "Wayahudi",
+            "Wazemari",
             "Wema",
             "Wokovu"
           ]
@@ -715,7 +835,7 @@
       },
       "json/023.content.json": {
         "mimeType": "text/json",
-        "size": 372809,
+        "size": 392397,
         "scope": {
           "y": [
             "Yabali",
@@ -725,14 +845,20 @@
             "Yakobo (Mtu)",
             "Yakobo, Barua ya",
             "Yaredi",
+            "Yavani (Mahali)",
+            "Yavani (Mtu)",
+            "Yebusi, wayebusi",
+            "Yera",
             "Yeshuruni",
             "Yesu Kristo",
             "Yesu Kristo, Mafundisho ya",
+            "Yobabu",
             "Yoeli (Mtu)",
             "Yohana (Mtu)",
             "Yohana Marko",
             "Yohana Mbatizaji",
             "Yohana, Mtume",
+            "Yoktani",
             "Yose",
             "Yosefu",
             "Yuda",
@@ -759,103 +885,103 @@
       },
       "md/001.content.md": {
         "mimeType": "text/markdown",
-        "size": 52953
+        "size": 53206
       },
       "md/002.content.md": {
         "mimeType": "text/markdown",
-        "size": 308207
+        "size": 365411
       },
       "md/003.content.md": {
         "mimeType": "text/markdown",
-        "size": 277066
+        "size": 279384
       },
       "md/004.content.md": {
         "mimeType": "text/markdown",
-        "size": 48282
+        "size": 48535
       },
       "md/005.content.md": {
         "mimeType": "text/markdown",
-        "size": 88880
+        "size": 90131
       },
       "md/006.content.md": {
         "mimeType": "text/markdown",
-        "size": 36455
+        "size": 53813
       },
       "md/007.content.md": {
         "mimeType": "text/markdown",
-        "size": 38546
+        "size": 38799
       },
       "md/008.content.md": {
         "mimeType": "text/markdown",
-        "size": 39854
+        "size": 50942
       },
       "md/009.content.md": {
         "mimeType": "text/markdown",
-        "size": 230943
+        "size": 244774
       },
       "md/010.content.md": {
         "mimeType": "text/markdown",
-        "size": 69724
+        "size": 71314
       },
       "md/011.content.md": {
         "mimeType": "text/markdown",
-        "size": 46497
+        "size": 46750
       },
       "md/012.content.md": {
         "mimeType": "text/markdown",
-        "size": 451317
+        "size": 522709
       },
       "md/013.content.md": {
         "mimeType": "text/markdown",
-        "size": 65738
+        "size": 68752
       },
       "md/014.content.md": {
         "mimeType": "text/markdown",
-        "size": 1012111
+        "size": 1058242
       },
       "md/015.content.md": {
         "mimeType": "text/markdown",
-        "size": 207548
+        "size": 238208
       },
       "md/016.content.md": {
         "mimeType": "text/markdown",
-        "size": 5656
+        "size": 9263
       },
       "md/017.content.md": {
         "mimeType": "text/markdown",
-        "size": 198262
+        "size": 236807
       },
       "md/018.content.md": {
         "mimeType": "text/markdown",
-        "size": 72287
+        "size": 80970
       },
       "md/019.content.md": {
         "mimeType": "text/markdown",
-        "size": 252092
+        "size": 280626
       },
       "md/020.content.md": {
         "mimeType": "text/markdown",
-        "size": 75064
+        "size": 77806
       },
       "md/021.content.md": {
         "mimeType": "text/markdown",
-        "size": 391706
+        "size": 415852
       },
       "md/022.content.md": {
         "mimeType": "text/markdown",
-        "size": 95135
+        "size": 127402
       },
       "md/023.content.md": {
         "mimeType": "text/markdown",
-        "size": 214297
+        "size": 223756
       },
       "md/024.content.md": {
         "mimeType": "text/markdown",
-        "size": 62132
+        "size": 62385
       },
       "pdf/001.content.pdf": {
         "mimeType": "application/pdf",
-        "size": 386183,
+        "size": 423530,
         "scope": {
           " ": [
             "Kitabu cha ufunuo",
@@ -867,30 +993,44 @@
       },
       "pdf/002.content.pdf": {
         "mimeType": "application/pdf",
-        "size": 1053211,
+        "size": 1252861,
         "scope": {
           "a": [
             "Abeli (Mtu)",
             "Abiathari",
+            "Abimaeli",
             "Ada",
             "Adamu (Mtu)",
+            "Adhabu",
+            "Adma",
+            "Agano",
             "Agano, Jipya",
             "Ahadi",
             "Aina",
+            "Akadi",
             "Akeldama",
             "Akeldama",
             "Ala za Muziki",
             "Aleksanda",
             "Alfayo",
+            "Almodadi",
+            "Anamim, Anamites",
             "Anania",
             "Anasi",
             "Andrea, Mtume",
             "Apokaliptiki",
             "Apokrifa",
+            "Aramu (Mtu)",
+            "Ararati",
             "Ardhi",
+            "Arfaksadi",
             "Arkeolojia na Biblia",
             "Artemas",
+            "Arvadi, Mwarvadi",
             "Asali",
+            "Ashkenazi",
+            "Ashuru",
+            "Ashuru, Waashuri",
             "Asia",
             "Askofu",
             "Astronomia"
@@ -899,9 +1039,10 @@
       },
       "pdf/003.content.pdf": {
         "mimeType": "application/pdf",
-        "size": 1153886,
+        "size": 1180873,
         "scope": {
           "b": [
+            "Babeli",
             "Bahari",
             "Bahari ya Galilaya",
             "Baraba",
@@ -928,7 +1069,7 @@
       },
       "pdf/004.content.pdf": {
         "mimeType": "application/pdf",
-        "size": 363360,
+        "size": 400499,
         "scope": {
           "c": [
             "Chagua, Uchaguzi",
@@ -939,7 +1080,7 @@
       },
       "pdf/005.content.pdf": {
         "mimeType": "application/pdf",
-        "size": 531470,
+        "size": 572461,
         "scope": {
           "d": [
             "Daktari",
@@ -949,10 +1090,12 @@
             "Damu, Shamba la",
             "Daudi",
             "Dawa na Mazoezi ya Tiba",
+            "Dedani (Mtu)",
             "Dekapoli",
             "Dhambi",
             "Dhambi isiyosameheka",
             "Dhamiri",
+            "Dikla",
             "Divai",
             "Dunia"
           ]
@@ -960,20 +1103,25 @@
       },
       "pdf/006.content.pdf": {
         "mimeType": "application/pdf",
-        "size": 277472,
+        "size": 403055,
         "scope": {
           "e": [
+            "Eberi",
             "Edeni",
+            "Edomu, Waedomu",
             "Elamu (Mahali), Waelamu",
+            "Elamu (Mtu)",
             "Elimu",
+            "Elisha",
             "Enoshi",
+            "Ereki",
             "Eskatolojia"
           ]
         }
       },
       "pdf/007.content.pdf": {
         "mimeType": "application/pdf",
-        "size": 359361,
+        "size": 396950,
         "scope": {
           "f": [
             "Fidia",
@@ -987,33 +1135,42 @@
       },
       "pdf/008.content.pdf": {
         "mimeType": "application/pdf",
-        "size": 343383,
+        "size": 418658,
         "scope": {
           "g": [
             "Gadara, Wagadarene",
             "Galilaya",
             "Gamalieli",
             "Gaulanitis",
+            "Gaza",
             "Genesareti",
+            "Gerari",
             "Gerasa, Wagerasene",
+            "Getheri",
             "Gharika",
-            "Giza"
+            "Giza",
+            "Gomeri"
           ]
         }
       },
       "pdf/009.content.pdf": {
         "mimeType": "application/pdf",
-        "size": 980243,
+        "size": 1076805,
         "scope": {
           "h": [
             "Hadesi",
             "Hadithi za Matamko",
             "Hadithi za Uumbaji",
+            "Hadoramu",
+            "Haki",
             "Hali ya Kati ya Maisha na Ufufuo",
+            "Hamathi",
             "Hamu (Mtu)",
+            "Hasarmawethi",
             "Hasira",
             "Hatia ya damu",
             "Havila (Eneo)",
+            "Havila (Mtu)",
             "Hawa",
             "Hekalu",
             "Hema",
@@ -1025,13 +1182,14 @@
             "Historia ya Israeli",
             "Hofu",
             "Hukumu",
+            "Huli",
             "Huzuni"
           ]
         }
       },
       "pdf/010.content.pdf": {
         "mimeType": "application/pdf",
-        "size": 517381,
+        "size": 560478,
         "scope": {
           "i": [
             "Imani",
@@ -1039,13 +1197,14 @@
             "Injili",
             "Injili za Sinoptiki",
             "Iradi",
-            "ishara"
+            "ishara",
+            "Iturea, Trakoniti"
           ]
         }
       },
       "pdf/011.content.pdf": {
         "mimeType": "application/pdf",
-        "size": 383293,
+        "size": 420756,
         "scope": {
           "j": [
             "Jangwa",
@@ -1059,11 +1218,15 @@
       },
       "pdf/012.content.pdf": {
         "mimeType": "application/pdf",
-        "size": 1813746,
+        "size": 2108838,
         "scope": {
           "k": [
             "Kabila la Walawi",
+            "Kaftori, Mkaftori, Wakaftori",
             "Kaini (Mtu)",
+            "Kala",
+            "Kalne",
+            "Kanaani, Mkanaani",
             "kanisa",
             "Kanuni kuhusu Usafi na Uchafu",
             "Kapadokia",
@@ -1081,12 +1244,14 @@
             "Kipro",
             "Kirene, Wakirene",
             "Kitabu cha Ezekieli",
+            "Kitabu cha Hesabu",
             "Kitabu cha Matendo ya Mitume, Kitabu cha",
             "Kitabu cha Mwanzo",
             "Kitabu cha Ruthu",
             "Kitabu cha Yoeli",
             "Kiti cha enzi",
             "Kiti cha kuweka miguu",
+            "Kitimu",
             "Klopa",
             "Krenio",
             "Krete",
@@ -1104,7 +1269,9 @@
             "Kupiga magoti",
             "Kuponya, Uponyaji",
             "Kupooza, Aliyepooza, Amepooza",
+            "Kushi",
             "Kushi (Mahali)",
+            "Kushi (Mtu)",
             "Kusulubiwa",
             "Kuteua, Upadrisho",
             "Kutokuwa na dhambi kwa Kristo",
@@ -1116,18 +1283,21 @@
       },
       "pdf/013.content.pdf": {
         "mimeType": "application/pdf",
-        "size": 418449,
+        "size": 469608,
         "scope": {
           "l": [
             "Laana, Kulaaniwa",
             "Lameki",
             "Lango Zuli",
+            "Lasha",
             "Lawi (Mtu)",
             "Lea",
             "Lebanoni",
             "Legioni",
+            "Lehabimu, Lehabiti",
             "Libya, Walibia",
             "Lita",
+            "Ludi, Ludimu, Waludi",
             "Lugha ya Kiebrania",
             "Lugha ya Kigiriki",
             "Lugha za Moto"
@@ -1136,7 +1306,7 @@
       },
       "pdf/014.content.pdf": {
         "mimeType": "application/pdf",
-        "size": 3992659,
+        "size": 4224544,
         "scope": {
           "m": [
             "Maarifa ya awali",
@@ -1144,14 +1314,19 @@
             "Mabadiliko",
             "Mabaharia",
             "Machukizo",
+            "Madai",
+            "Madhabahu",
             "Madini na Metali",
             "Mafuta",
+            "Magogu",
             "Magonjwa",
             "Mahakama na Kesi",
             "Mahalaleel, Mahalaleli",
+            "Mahali pa Wafu",
             "Maisha ya Familia na Mahusiano",
             "Maji",
             "Majina, Umuhimu wa",
+            "Majitu",
             "Makaeru",
             "Makuhani na Walawi",
             "Malaika",
@@ -1173,6 +1348,7 @@
             "Mavazi",
             "Mawe, Ya Thamani",
             "Mbadilishaji wa fedha",
+            "Mbao za Mvinje",
             "Mbingu",
             "Mbingu",
             "Mbingu Mpya na Dunia Mpya",
@@ -1180,6 +1356,9 @@
             "Mchungaji",
             "Mchungaji",
             "Mehuyaeli",
+            "Mesha (Mahali)",
+            "Mesheki",
+            "Mesheki",
             "Mesopotamia",
             "Methusaeli",
             "Methusela",
@@ -1190,18 +1369,24 @@
             "Mfuko",
             "Mfululizo wa Matukio ya Biblia(Agano Jipya)",
             "Mfupa",
+            "Mhiti",
             "Mikutano ya Kanisa",
             "Milenia",
             "Mimea",
+            "Mizabibu, Shamba la mizabibu",
             "Mizani na Vipimo",
+            "Mizraimu",
             "Mji",
             "Mjumbe",
             "Mkalimani",
+            "Mkasluhi, Wakasluhi",
             "Mkate",
             "Mkate wa Uwepo",
             "Mkoma, Ukoma",
             "Mkono",
+            "Mlima Ebali",
             "Mlima wa Mizeituni",
+            "Mlipiza kisasi wa Damu",
             "Mnazareti",
             "Mnyama",
             "Mose",
@@ -1244,14 +1429,16 @@
       },
       "pdf/015.content.pdf": {
         "mimeType": "application/pdf",
-        "size": 981904,
+        "size": 1128553,
         "scope": {
           "n": [
             "Naama (Mtu)",
             "Nabii, Nabii wa kike",
             "Nambari na Numerolojia",
+            "Naphtuhimu, Wanaftuhi",
             "Nathanaeli",
             "Nazareti",
+            "Ndege",
             "Ndoa, Desturi za Ndoa",
             "Ndugu",
             "Ndugu (na Dada)",
@@ -1264,7 +1451,10 @@
             "Nguzo ya Moto na Wingu",
             "Nicopolis",
             "Nidhamu",
+            "Nimrodi",
+            "Ninawi, Mninewi",
             "Njia",
+            "Njiwa",
             "Noa",
             "Nobu",
             "Nodi",
@@ -1280,27 +1470,34 @@
       },
       "pdf/016.content.pdf": {
         "mimeType": "application/pdf",
-        "size": 178699,
+        "size": 234260,
         "scope": {
           "o": [
+            "Obali",
+            "Obali",
+            "Ofiri (Mahali)",
+            "Ofiri (Mtu)",
             "Ombaomba"
           ]
         }
       },
       "pdf/017.content.pdf": {
         "mimeType": "application/pdf",
-        "size": 969148,
+        "size": 1144229,
         "scope": {
           "p": [
+            "Palestina",
             "Pamfiliya",
             "Parthia, Waparthia",
             "Paulo, Mtume",
+            "Pelegi",
             "Pentekoste",
             "Pepo",
             "Peponi",
             "Perea",
             "Petro, Barua ya Kwanza ya",
             "Petro, Mtume",
+            "Philistia, Wafilisti",
             "Philo, Myahudi",
             "Pishoni",
             "Pontio",
@@ -1308,29 +1505,43 @@
             "Power",
             "Presbiteri",
             "Protevangelium",
-            "Pumziko"
+            "Pumziko",
+            "Putu",
+            "Putu (Eneo)",
+            "Putu (Mtu)"
           ]
         }
       },
       "pdf/018.content.pdf": {
         "mimeType": "application/pdf",
-        "size": 516967,
+        "size": 586421,
         "scope": {
           "r": [
+            "Raama",
             "Rangi",
             "Rehema",
+            "Rehoboth-iri",
+            "Rehobothi",
+            "Reseni",
+            "Rhodes",
+            "Rifathi",
+            "Rodanimu",
             "Roho",
+            "Roho iliyo Gerezani",
             "Roho wa Mungu",
-            "Roho wa Yesu Kristo"
+            "Roho wa Yesu Kristo",
+            "Ronadimu"
           ]
         }
       },
       "pdf/019.content.pdf": {
         "mimeType": "application/pdf",
-        "size": 1170822,
+        "size": 1327642,
         "scope": {
           "s": [
             "Sabato",
+            "Sabta",
+            "Sabteka",
             "Sadaka na Dhabihu",
             "Safari",
             "Safari ya Siku",
@@ -1342,16 +1553,29 @@
             "Samani",
             "Samweli (Mtu)",
             "Sanhedrin",
+            "Seba",
+            "Seboimu",
+            "Seboimu",
+            "Sefari",
             "Sensa",
             "Seremala",
             "Sethi",
             "Shahidi",
+            "Sheba (Mtu)",
+            "Shekina",
+            "SHELA",
+            "Shela",
+            "Shelefu",
             "Shema",
             "Shemasi, Shemasi wa kike",
             "Shemu",
+            "Sheria kuhusu chakula",
             "Sheria, Dhana ya Kibiblia ya",
             "Shetani",
             "Shimo la Kuzimu",
+            "Shinari",
+            "Sidoni (Mahali), Msidoni",
+            "Sidoni (Mtu)",
             "Siku",
             "Siku ya Bwana",
             "Siku ya Bwana",
@@ -1371,7 +1595,7 @@
       },
       "pdf/020.content.pdf": {
         "mimeType": "application/pdf",
-        "size": 472280,
+        "size": 520492,
         "scope": {
           "t": [
             "Talaka",
@@ -1384,18 +1608,21 @@
             "Theuda",
             "Tikiko",
             "Timothy, Barua ya Kwanza kwa",
+            "Tirasi",
             "Tito (Mtu)",
             "Tito, Barua kwa",
             "Toba",
+            "Togarma",
             "Tohara",
             "Tomaso, Mtume",
+            "Tubali",
             "Tubali-kaini"
           ]
         }
       },
       "pdf/021.content.pdf": {
         "mimeType": "application/pdf",
-        "size": 1683686,
+        "size": 1819989,
         "scope": {
           "u": [
             "Ubatizo",
@@ -1404,6 +1631,7 @@
             "Ufalme wa Mungu, Ufalme wa Mbinguni",
             "Ufinyanzi",
             "Ufufuo",
+            "Ugiriki, Kigiriki",
             "Ugumu wa Moyo",
             "uhindi",
             "Uhuru, Kuwa huru",
@@ -1414,6 +1642,7 @@
             "Ukuhani",
             "Ukumbi",
             "Ukumbi wa Solomoni",
+            "Ukumbusho",
             "Ukuu na Nguvu",
             "Ulemavu",
             "Umilele",
@@ -1421,21 +1650,28 @@
             "Unabii",
             "Ungamo",
             "Upendo",
+            "Upinde wa mvua",
             "Upole",
             "Urithi",
+            "Urithi wa mzaliwa wa kwanza",
             "Ushairi, Kibiblia",
             "Ushirika",
+            "Usi (Mahali)",
+            "Usi (Mtu)",
             "Usiku",
             "Usingizi",
             "Utajiri",
             "Utakatifu",
+            "Utasa",
             "Utawanyiko wa Wayahudi",
             "Uteuzi wa Awali",
             "Utii",
             "Utimilifu",
             "Uumbaji Mpya, Kiumbe Kipya",
             "Uvumilivu",
+            "Uwindaji",
             "Uyahudi",
+            "Uzali (Mtu)",
             "Uzima",
             "Uzima wa Milele",
             "Uzuri",
@@ -1445,23 +1681,33 @@
       },
       "pdf/022.content.pdf": {
         "mimeType": "application/pdf",
-        "size": 510802,
+        "size": 666270,
         "scope": {
           "w": [
+            "Waamori",
+            "Waariki",
             "Wachungaji",
             "Waeseni",
             "Wagirgashi",
+            "Wahamathi",
             "Waherode",
+            "Wahiti",
+            "Wahivi",
             "Wakaisari",
             "Wakeniti",
             "Wamedi, Umedi, Mumediani",
             "Wana na Binti wa Mungu",
             "Wana wa Ngurumo",
+            "Wanefili",
             "Wanyama",
+            "Wapathrusi",
+            "Waperizi",
             "Wasamaria",
+            "Wasini",
             "Waumini",
             "Wavuvi",
             "Wayahudi",
+            "Wazemari",
             "Wema",
             "Wokovu"
           ]
@@ -1469,7 +1715,7 @@
       },
       "pdf/023.content.pdf": {
         "mimeType": "application/pdf",
-        "size": 969066,
+        "size": 1049808,
         "scope": {
           "y": [
             "Yabali",
@@ -1479,14 +1725,20 @@
             "Yakobo (Mtu)",
             "Yakobo, Barua ya",
             "Yaredi",
+            "Yavani (Mahali)",
+            "Yavani (Mtu)",
+            "Yebusi, wayebusi",
+            "Yera",
             "Yeshuruni",
             "Yesu Kristo",
             "Yesu Kristo, Mafundisho ya",
+            "Yobabu",
             "Yoeli (Mtu)",
             "Yohana (Mtu)",
             "Yohana Marko",
             "Yohana Mbatizaji",
             "Yohana, Mtume",
+            "Yoktani",
             "Yose",
             "Yosefu",
             "Yuda",
@@ -1496,7 +1748,7 @@
       },
       "pdf/024.content.pdf": {
         "mimeType": "application/pdf",
-        "size": 427824,
+        "size": 465927,
         "scope": {
           "z": [
             "Zaburi za laana",
@@ -1740,6 +1992,48 @@
         }
       }
     },
+    "833353": {
+      "content_id": 833353,
+      "reference_id": 2472,
+      "index_reference": "abimaeli",
+      "localizations": {
+        "eng": {
+          "content_id": 3304,
+          "language": "eng",
+          "title": "Abimael"
+        },
+        "arb": {
+          "content_id": 443535,
+          "language": "arb",
+          "title": "أَبِيمَايِل"
+        },
+        "fra": {
+          "content_id": 805951,
+          "language": "fra",
+          "title": "Abimaël"
+        },
+        "hin": {
+          "content_id": 381271,
+          "language": "hin",
+          "title": "अबीमाएल"
+        },
+        "por": {
+          "content_id": 658595,
+          "language": "por",
+          "title": "Abimael"
+        },
+        "spa": {
+          "content_id": 826862,
+          "language": "spa",
+          "title": "Abimael"
+        },
+        "nep": {
+          "content_id": 722559,
+          "language": "nep",
+          "title": "अबिमाएल"
+        }
+      }
+    },
     "800564": {
       "content_id": 800564,
       "reference_id": 2526,
@@ -1816,6 +2110,122 @@
           "content_id": 727236,
           "language": "nep",
           "title": "आदम (व्यक्ति)"
+        }
+      }
+    },
+    "833442": {
+      "content_id": 833442,
+      "reference_id": 7025,
+      "index_reference": "adhabu",
+      "localizations": {
+        "eng": {
+          "content_id": 7857,
+          "language": "eng",
+          "title": "Punishment"
+        },
+        "arb": {
+          "content_id": 443967,
+          "language": "arb",
+          "title": "العقاب"
+        },
+        "fra": {
+          "content_id": 806107,
+          "language": "fra",
+          "title": "Châtiment"
+        },
+        "hin": {
+          "content_id": 381792,
+          "language": "hin",
+          "title": "दण्ड"
+        },
+        "por": {
+          "content_id": 658713,
+          "language": "por",
+          "title": "Punição"
+        },
+        "spa": {
+          "content_id": 827381,
+          "language": "spa",
+          "title": "Castigo"
+        }
+      }
+    },
+    "833355": {
+      "content_id": 833355,
+      "reference_id": 2552,
+      "index_reference": "adma",
+      "localizations": {
+        "eng": {
+          "content_id": 3384,
+          "language": "eng",
+          "title": "Admah"
+        },
+        "arb": {
+          "content_id": 443542,
+          "language": "arb",
+          "title": "أَدْمَة"
+        },
+        "fra": {
+          "content_id": 805955,
+          "language": "fra",
+          "title": "Adma"
+        },
+        "hin": {
+          "content_id": 381279,
+          "language": "hin",
+          "title": "अदमा"
+        },
+        "por": {
+          "content_id": 658598,
+          "language": "por",
+          "title": "Admá"
+        },
+        "spa": {
+          "content_id": 826870,
+          "language": "spa",
+          "title": "Adma"
+        },
+        "nep": {
+          "content_id": 727486,
+          "language": "nep",
+          "title": "अदमा"
+        }
+      }
+    },
+    "833377": {
+      "content_id": 833377,
+      "reference_id": 3842,
+      "index_reference": "agano",
+      "localizations": {
+        "eng": {
+          "content_id": 4674,
+          "language": "eng",
+          "title": "Covenant"
+        },
+        "arb": {
+          "content_id": 335233,
+          "language": "arb",
+          "title": "العهد"
+        },
+        "fra": {
+          "content_id": 800686,
+          "language": "fra",
+          "title": "Alliance"
+        },
+        "hin": {
+          "content_id": 381404,
+          "language": "hin",
+          "title": "वाचा"
+        },
+        "por": {
+          "content_id": 658625,
+          "language": "por",
+          "title": "Aliança"
+        },
+        "spa": {
+          "content_id": 826992,
+          "language": "spa",
+          "title": "Pacto"
         }
       }
     },
@@ -1927,6 +2337,48 @@
           "content_id": 315544,
           "language": "zht",
           "title": "預像"
+        }
+      }
+    },
+    "833354": {
+      "content_id": 833354,
+      "reference_id": 2498,
+      "index_reference": "akadi",
+      "localizations": {
+        "eng": {
+          "content_id": 3330,
+          "language": "eng",
+          "title": "Accad"
+        },
+        "arb": {
+          "content_id": 443539,
+          "language": "arb",
+          "title": "أَكَّد"
+        },
+        "fra": {
+          "content_id": 805954,
+          "language": "fra",
+          "title": "Accad"
+        },
+        "hin": {
+          "content_id": 381275,
+          "language": "hin",
+          "title": "अक्कद"
+        },
+        "por": {
+          "content_id": 658596,
+          "language": "por",
+          "title": "Acade"
+        },
+        "spa": {
+          "content_id": 826866,
+          "language": "spa",
+          "title": "Acad"
+        },
+        "nep": {
+          "content_id": 727239,
+          "language": "nep",
+          "title": "अक्कद"
         }
       }
     },
@@ -2115,6 +2567,80 @@
         }
       }
     },
+    "833356": {
+      "content_id": 833356,
+      "reference_id": 2687,
+      "index_reference": "almodadi",
+      "localizations": {
+        "eng": {
+          "content_id": 3519,
+          "language": "eng",
+          "title": "Almodad"
+        },
+        "arb": {
+          "content_id": 443554,
+          "language": "arb",
+          "title": "ألْمُودَاد"
+        },
+        "fra": {
+          "content_id": 805958,
+          "language": "fra",
+          "title": "Almodad"
+        },
+        "hin": {
+          "content_id": 381292,
+          "language": "hin",
+          "title": "अल्मोदाद"
+        },
+        "por": {
+          "content_id": 658600,
+          "language": "por",
+          "title": "Almodá"
+        },
+        "spa": {
+          "content_id": 826883,
+          "language": "spa",
+          "title": "Almodad"
+        }
+      }
+    },
+    "833359": {
+      "content_id": 833359,
+      "reference_id": 2757,
+      "index_reference": "anamim, anamites",
+      "localizations": {
+        "eng": {
+          "content_id": 3589,
+          "language": "eng",
+          "title": "Anamim, Anamites"
+        },
+        "arb": {
+          "content_id": 443563,
+          "language": "arb",
+          "title": "عَنَامِيم"
+        },
+        "fra": {
+          "content_id": 805963,
+          "language": "fra",
+          "title": "Anamim, Ananim"
+        },
+        "hin": {
+          "content_id": 381302,
+          "language": "hin",
+          "title": "अनामी, अनामवंशी"
+        },
+        "por": {
+          "content_id": 658603,
+          "language": "por",
+          "title": "Anamim, Anamitas"
+        },
+        "spa": {
+          "content_id": 826892,
+          "language": "spa",
+          "title": "Anamim, Anamitas"
+        }
+      }
+    },
     "811702": {
       "content_id": 811702,
       "reference_id": 2761,
@@ -2290,6 +2816,80 @@
         }
       }
     },
+    "833360": {
+      "content_id": 833360,
+      "reference_id": 2868,
+      "index_reference": "aramu (mtu)",
+      "localizations": {
+        "eng": {
+          "content_id": 3700,
+          "language": "eng",
+          "title": "Aram (Person)"
+        },
+        "arb": {
+          "content_id": 335166,
+          "language": "arb",
+          "title": "أرام (شخص)"
+        },
+        "fra": {
+          "content_id": 805967,
+          "language": "fra",
+          "title": "Aram (Personne)"
+        },
+        "hin": {
+          "content_id": 381308,
+          "language": "hin",
+          "title": "अराम (व्यक्ति)"
+        },
+        "por": {
+          "content_id": 658604,
+          "language": "por",
+          "title": "Arã (Pessoa)"
+        },
+        "spa": {
+          "content_id": 826897,
+          "language": "spa",
+          "title": "Aram (Persona)"
+        }
+      }
+    },
+    "833361": {
+      "content_id": 833361,
+      "reference_id": 2872,
+      "index_reference": "ararati",
+      "localizations": {
+        "eng": {
+          "content_id": 3704,
+          "language": "eng",
+          "title": "Ararat"
+        },
+        "arb": {
+          "content_id": 443569,
+          "language": "arb",
+          "title": "أَرَارَاط"
+        },
+        "fra": {
+          "content_id": 805968,
+          "language": "fra",
+          "title": "Ararat"
+        },
+        "hin": {
+          "content_id": 381310,
+          "language": "hin",
+          "title": "अरारात"
+        },
+        "por": {
+          "content_id": 658605,
+          "language": "por",
+          "title": "Ararat"
+        },
+        "spa": {
+          "content_id": 826899,
+          "language": "spa",
+          "title": "Ararat"
+        }
+      }
+    },
     "778863": {
       "content_id": 778863,
       "reference_id": 5846,
@@ -2324,6 +2924,43 @@
           "content_id": 800768,
           "language": "zht",
           "title": "土地"
+        }
+      }
+    },
+    "833363": {
+      "content_id": 833363,
+      "reference_id": 2931,
+      "index_reference": "arfaksadi",
+      "localizations": {
+        "eng": {
+          "content_id": 3763,
+          "language": "eng",
+          "title": "Arphaxad"
+        },
+        "arb": {
+          "content_id": 335169,
+          "language": "arb",
+          "title": "أرفكشاد"
+        },
+        "fra": {
+          "content_id": 805971,
+          "language": "fra",
+          "title": "Arpacschad, Arphaxad"
+        },
+        "hin": {
+          "content_id": 381321,
+          "language": "hin",
+          "title": "अर्पक्षद"
+        },
+        "por": {
+          "content_id": 658607,
+          "language": "por",
+          "title": "Arfaxade"
+        },
+        "spa": {
+          "content_id": 826910,
+          "language": "spa",
+          "title": "Arfaxad"
         }
       }
     },
@@ -2396,6 +3033,43 @@
         }
       }
     },
+    "833364": {
+      "content_id": 833364,
+      "reference_id": 2941,
+      "index_reference": "arvadi, mwarvadi",
+      "localizations": {
+        "eng": {
+          "content_id": 3773,
+          "language": "eng",
+          "title": "Arvad, Arvadite"
+        },
+        "arb": {
+          "content_id": 443581,
+          "language": "arb",
+          "title": "إِرْوَاد، أَرْوَادِيّ"
+        },
+        "fra": {
+          "content_id": 805972,
+          "language": "fra",
+          "title": "Arvad, Arvadien"
+        },
+        "hin": {
+          "content_id": 381323,
+          "language": "hin",
+          "title": "अर्वद, अर्वदी"
+        },
+        "por": {
+          "content_id": 658609,
+          "language": "por",
+          "title": "Arvade, Arvadita"
+        },
+        "spa": {
+          "content_id": 826912,
+          "language": "spa",
+          "title": "Arvad, Arvadita"
+        }
+      }
+    },
     "689584": {
       "content_id": 689584,
       "reference_id": 5059,
@@ -2425,6 +3099,122 @@
           "content_id": 340954,
           "language": "zht",
           "title": "蜜"
+        }
+      }
+    },
+    "833365": {
+      "content_id": 833365,
+      "reference_id": 2973,
+      "index_reference": "ashkenazi",
+      "localizations": {
+        "eng": {
+          "content_id": 3805,
+          "language": "eng",
+          "title": "Ashkenaz"
+        },
+        "arb": {
+          "content_id": 443585,
+          "language": "arb",
+          "title": "أَشْكَنَاز"
+        },
+        "fra": {
+          "content_id": 805973,
+          "language": "fra",
+          "title": "Aschkenaz"
+        },
+        "hin": {
+          "content_id": 381328,
+          "language": "hin",
+          "title": "अश्कनज"
+        },
+        "por": {
+          "content_id": 658610,
+          "language": "por",
+          "title": "Asquenaz"
+        },
+        "spa": {
+          "content_id": 826917,
+          "language": "spa",
+          "title": "Asquenaz"
+        }
+      }
+    },
+    "833366": {
+      "content_id": 833366,
+      "reference_id": 3003,
+      "index_reference": "ashuru",
+      "localizations": {
+        "eng": {
+          "content_id": 3835,
+          "language": "eng",
+          "title": "Asshur"
+        },
+        "arb": {
+          "content_id": 443589,
+          "language": "arb",
+          "title": "أَشُّور"
+        },
+        "fra": {
+          "content_id": 805976,
+          "language": "fra",
+          "title": "Assur"
+        },
+        "hin": {
+          "content_id": 381332,
+          "language": "hin",
+          "title": "अश्शूर"
+        },
+        "por": {
+          "content_id": 658611,
+          "language": "por",
+          "title": "Assur"
+        },
+        "spa": {
+          "content_id": 826921,
+          "language": "spa",
+          "title": "Assur"
+        }
+      }
+    },
+    "833367": {
+      "content_id": 833367,
+      "reference_id": 3009,
+      "index_reference": "ashuru, waashuri",
+      "localizations": {
+        "eng": {
+          "content_id": 3841,
+          "language": "eng",
+          "title": "Assyria, Assyrians"
+        },
+        "arb": {
+          "content_id": 443590,
+          "language": "arb",
+          "title": "أَشُّور، الْأَشُّوريُّون"
+        },
+        "fra": {
+          "content_id": 800677,
+          "language": "fra",
+          "title": "Assyrie, Assyriens"
+        },
+        "hin": {
+          "content_id": 381333,
+          "language": "hin",
+          "title": "अश्शूर, अश्शूरी"
+        },
+        "por": {
+          "content_id": 481510,
+          "language": "por",
+          "title": "Assíria, assírios"
+        },
+        "spa": {
+          "content_id": 826922,
+          "language": "spa",
+          "title": "Asiria, asirios"
+        },
+        "zht": {
+          "content_id": 826009,
+          "language": "zht",
+          "title": "亞述、亞述人"
         }
       }
     },
@@ -2551,6 +3341,43 @@
           "content_id": 800751,
           "language": "zht",
           "title": "天文學"
+        }
+      }
+    },
+    "833369": {
+      "content_id": 833369,
+      "reference_id": 3124,
+      "index_reference": "babeli",
+      "localizations": {
+        "eng": {
+          "content_id": 3956,
+          "language": "eng",
+          "title": "Babel"
+        },
+        "arb": {
+          "content_id": 443595,
+          "language": "arb",
+          "title": "بَابِل"
+        },
+        "fra": {
+          "content_id": 805978,
+          "language": "fra",
+          "title": "Babel"
+        },
+        "hin": {
+          "content_id": 381339,
+          "language": "hin",
+          "title": "बाबेल"
+        },
+        "por": {
+          "content_id": 658613,
+          "language": "por",
+          "title": "Babel"
+        },
+        "spa": {
+          "content_id": 826928,
+          "language": "spa",
+          "title": "Babel"
         }
       }
     },
@@ -3781,6 +4608,43 @@
         }
       }
     },
+    "833380": {
+      "content_id": 833380,
+      "reference_id": 3961,
+      "index_reference": "dedani (mtu)",
+      "localizations": {
+        "eng": {
+          "content_id": 4793,
+          "language": "eng",
+          "title": "Dedan (Person)"
+        },
+        "arb": {
+          "content_id": 443654,
+          "language": "arb",
+          "title": "دَدَان (شخص)"
+        },
+        "fra": {
+          "content_id": 805997,
+          "language": "fra",
+          "title": "Dedan (Personne)"
+        },
+        "hin": {
+          "content_id": 381412,
+          "language": "hin",
+          "title": "ददान (व्यक्ति)"
+        },
+        "por": {
+          "content_id": 658627,
+          "language": "por",
+          "title": "Dedã (Pessoa)"
+        },
+        "spa": {
+          "content_id": 826999,
+          "language": "spa",
+          "title": "Dedán (Persona)"
+        }
+      }
+    },
     "713690": {
       "content_id": 713690,
       "reference_id": 3958,
@@ -3934,6 +4798,43 @@
         }
       }
     },
+    "833382": {
+      "content_id": 833382,
+      "reference_id": 4010,
+      "index_reference": "dikla",
+      "localizations": {
+        "eng": {
+          "content_id": 4842,
+          "language": "eng",
+          "title": "Diklah"
+        },
+        "arb": {
+          "content_id": 443656,
+          "language": "arb",
+          "title": "دِقْلَة"
+        },
+        "fra": {
+          "content_id": 805998,
+          "language": "fra",
+          "title": "Dikla"
+        },
+        "hin": {
+          "content_id": 381414,
+          "language": "hin",
+          "title": "दिक्ला"
+        },
+        "por": {
+          "content_id": 658628,
+          "language": "por",
+          "title": "Dicla"
+        },
+        "spa": {
+          "content_id": 827001,
+          "language": "spa",
+          "title": "Dicla"
+        }
+      }
+    },
     "419820": {
       "content_id": 419820,
       "reference_id": 8240,
@@ -4013,6 +4914,43 @@
         }
       }
     },
+    "833386": {
+      "content_id": 833386,
+      "reference_id": 4095,
+      "index_reference": "eberi",
+      "localizations": {
+        "eng": {
+          "content_id": 4927,
+          "language": "eng",
+          "title": "Eber"
+        },
+        "arb": {
+          "content_id": 335252,
+          "language": "arb",
+          "title": "عابر"
+        },
+        "fra": {
+          "content_id": 806002,
+          "language": "fra",
+          "title": "Héber, Éber"
+        },
+        "hin": {
+          "content_id": 381428,
+          "language": "hin",
+          "title": "एबेर"
+        },
+        "por": {
+          "content_id": 658632,
+          "language": "por",
+          "title": "Éber"
+        },
+        "spa": {
+          "content_id": 827014,
+          "language": "spa",
+          "title": "Heber"
+        }
+      }
+    },
     "800582": {
       "content_id": 800582,
       "reference_id": 4107,
@@ -4042,6 +4980,43 @@
           "content_id": 481529,
           "language": "por",
           "title": "Éden"
+        }
+      }
+    },
+    "833387": {
+      "content_id": 833387,
+      "reference_id": 4112,
+      "index_reference": "edomu, waedomu",
+      "localizations": {
+        "eng": {
+          "content_id": 4944,
+          "language": "eng",
+          "title": "Edom, Edomites"
+        },
+        "arb": {
+          "content_id": 443671,
+          "language": "arb",
+          "title": "أَدُوم، الأَدُومِيُّون"
+        },
+        "fra": {
+          "content_id": 806004,
+          "language": "fra",
+          "title": "Édom, Édomites"
+        },
+        "hin": {
+          "content_id": 381433,
+          "language": "hin",
+          "title": "एदोम, एदोमियों"
+        },
+        "por": {
+          "content_id": 658633,
+          "language": "por",
+          "title": "Edom, Edomitas"
+        },
+        "spa": {
+          "content_id": 827019,
+          "language": "spa",
+          "title": "Edom, edomitas"
         }
       }
     },
@@ -4087,6 +5062,43 @@
         }
       }
     },
+    "833388": {
+      "content_id": 833388,
+      "reference_id": 4132,
+      "index_reference": "elamu (mtu)",
+      "localizations": {
+        "eng": {
+          "content_id": 4964,
+          "language": "eng",
+          "title": "Elam (Person)"
+        },
+        "arb": {
+          "content_id": 443674,
+          "language": "arb",
+          "title": "عِيلَام (شخص)"
+        },
+        "fra": {
+          "content_id": 806005,
+          "language": "fra",
+          "title": "Élam (Personne)"
+        },
+        "hin": {
+          "content_id": 381437,
+          "language": "hin",
+          "title": "एलाम (व्यक्ति)"
+        },
+        "por": {
+          "content_id": 658634,
+          "language": "por",
+          "title": "Elam (Pessoa)"
+        },
+        "spa": {
+          "content_id": 827023,
+          "language": "spa",
+          "title": "Elam (Persona)"
+        }
+      }
+    },
     "689575": {
       "content_id": 689575,
       "reference_id": 4114,
@@ -4124,6 +5136,43 @@
         }
       }
     },
+    "833389": {
+      "content_id": 833389,
+      "reference_id": 4190,
+      "index_reference": "elisha",
+      "localizations": {
+        "eng": {
+          "content_id": 5022,
+          "language": "eng",
+          "title": "Elishah"
+        },
+        "arb": {
+          "content_id": 443681,
+          "language": "arb",
+          "title": "أَلِيشَة"
+        },
+        "fra": {
+          "content_id": 806009,
+          "language": "fra",
+          "title": "Élischa"
+        },
+        "hin": {
+          "content_id": 381445,
+          "language": "hin",
+          "title": "एलीशा"
+        },
+        "por": {
+          "content_id": 658636,
+          "language": "por",
+          "title": "Elisá"
+        },
+        "spa": {
+          "content_id": 827031,
+          "language": "spa",
+          "title": "Elisa"
+        }
+      }
+    },
     "800585": {
       "content_id": 800585,
       "reference_id": 4258,
@@ -4153,6 +5202,43 @@
           "content_id": 658639,
           "language": "por",
           "title": "Enos"
+        }
+      }
+    },
+    "833390": {
+      "content_id": 833390,
+      "reference_id": 4302,
+      "index_reference": "ereki",
+      "localizations": {
+        "eng": {
+          "content_id": 5134,
+          "language": "eng",
+          "title": "Erech"
+        },
+        "arb": {
+          "content_id": 443697,
+          "language": "arb",
+          "title": "أَرَك"
+        },
+        "fra": {
+          "content_id": 806016,
+          "language": "fra",
+          "title": "Érec"
+        },
+        "hin": {
+          "content_id": 381463,
+          "language": "hin",
+          "title": "एरेख"
+        },
+        "por": {
+          "content_id": 658640,
+          "language": "por",
+          "title": "Ereque"
+        },
+        "spa": {
+          "content_id": 827048,
+          "language": "spa",
+          "title": "Erec"
         }
       }
     },
@@ -4568,6 +5654,43 @@
         }
       }
     },
+    "833392": {
+      "content_id": 833392,
+      "reference_id": 4551,
+      "index_reference": "gaza",
+      "localizations": {
+        "eng": {
+          "content_id": 5383,
+          "language": "eng",
+          "title": "Gaza"
+        },
+        "arb": {
+          "content_id": 331838,
+          "language": "arb",
+          "title": "غزة"
+        },
+        "fra": {
+          "content_id": 769257,
+          "language": "fra",
+          "title": "Gaza"
+        },
+        "hin": {
+          "content_id": 381097,
+          "language": "hin",
+          "title": "गाज़ा"
+        },
+        "por": {
+          "content_id": 658642,
+          "language": "por",
+          "title": "Gaza"
+        },
+        "spa": {
+          "content_id": 806615,
+          "language": "spa",
+          "title": "Gaza"
+        }
+      }
+    },
     "713696": {
       "content_id": 713696,
       "reference_id": 4586,
@@ -4610,6 +5733,43 @@
         }
       }
     },
+    "833393": {
+      "content_id": 833393,
+      "reference_id": 4592,
+      "index_reference": "gerari",
+      "localizations": {
+        "eng": {
+          "content_id": 5424,
+          "language": "eng",
+          "title": "Gerar"
+        },
+        "arb": {
+          "content_id": 443718,
+          "language": "arb",
+          "title": "جَرَار"
+        },
+        "fra": {
+          "content_id": 806022,
+          "language": "fra",
+          "title": "Guérar"
+        },
+        "hin": {
+          "content_id": 381491,
+          "language": "hin",
+          "title": "गरार"
+        },
+        "por": {
+          "content_id": 658643,
+          "language": "por",
+          "title": "Gerar"
+        },
+        "spa": {
+          "content_id": 827075,
+          "language": "spa",
+          "title": "Gerar"
+        }
+      }
+    },
     "713697": {
       "content_id": 713697,
       "reference_id": 4593,
@@ -4639,6 +5799,43 @@
           "content_id": 573998,
           "language": "zht",
           "title": "格拉森，格拉森人"
+        }
+      }
+    },
+    "833394": {
+      "content_id": 833394,
+      "reference_id": 4604,
+      "index_reference": "getheri",
+      "localizations": {
+        "eng": {
+          "content_id": 5436,
+          "language": "eng",
+          "title": "Gether"
+        },
+        "arb": {
+          "content_id": 443721,
+          "language": "arb",
+          "title": "جَاثَر"
+        },
+        "fra": {
+          "content_id": 806024,
+          "language": "fra",
+          "title": "Guéter"
+        },
+        "hin": {
+          "content_id": 381495,
+          "language": "hin",
+          "title": "गेतेर"
+        },
+        "por": {
+          "content_id": 658644,
+          "language": "por",
+          "title": "Geter"
+        },
+        "spa": {
+          "content_id": 827079,
+          "language": "spa",
+          "title": "Geter"
         }
       }
     },
@@ -4718,6 +5915,43 @@
           "content_id": 800757,
           "language": "zht",
           "title": "黑暗"
+        }
+      }
+    },
+    "833396": {
+      "content_id": 833396,
+      "reference_id": 4677,
+      "index_reference": "gomeri",
+      "localizations": {
+        "eng": {
+          "content_id": 5509,
+          "language": "eng",
+          "title": "Gomer"
+        },
+        "arb": {
+          "content_id": 443726,
+          "language": "arb",
+          "title": "جُومَر"
+        },
+        "fra": {
+          "content_id": 806027,
+          "language": "fra",
+          "title": "Gomer"
+        },
+        "hin": {
+          "content_id": 381500,
+          "language": "hin",
+          "title": "गोमेर"
+        },
+        "por": {
+          "content_id": 658646,
+          "language": "por",
+          "title": "Gômer"
+        },
+        "spa": {
+          "content_id": 827084,
+          "language": "spa",
+          "title": "Gomer"
         }
       }
     },
@@ -4837,6 +6071,80 @@
         }
       }
     },
+    "833399": {
+      "content_id": 833399,
+      "reference_id": 4746,
+      "index_reference": "hadoramu",
+      "localizations": {
+        "eng": {
+          "content_id": 5578,
+          "language": "eng",
+          "title": "Hadoram"
+        },
+        "arb": {
+          "content_id": 443735,
+          "language": "arb",
+          "title": "هَدُورَام"
+        },
+        "fra": {
+          "content_id": 806028,
+          "language": "fra",
+          "title": "Hadoram"
+        },
+        "hin": {
+          "content_id": 381509,
+          "language": "hin",
+          "title": "हदोराम"
+        },
+        "por": {
+          "content_id": 658648,
+          "language": "por",
+          "title": "Adorão"
+        },
+        "spa": {
+          "content_id": 827094,
+          "language": "spa",
+          "title": "Adoram"
+        }
+      }
+    },
+    "833451": {
+      "content_id": 833451,
+      "reference_id": 7205,
+      "index_reference": "haki",
+      "localizations": {
+        "eng": {
+          "content_id": 8037,
+          "language": "eng",
+          "title": "Righteousness"
+        },
+        "arb": {
+          "content_id": 335487,
+          "language": "arb",
+          "title": "بِر"
+        },
+        "fra": {
+          "content_id": 800736,
+          "language": "fra",
+          "title": "Droiture"
+        },
+        "hin": {
+          "content_id": 381816,
+          "language": "hin",
+          "title": "धार्मिकता "
+        },
+        "por": {
+          "content_id": 658722,
+          "language": "por",
+          "title": "Retidão"
+        },
+        "spa": {
+          "content_id": 827406,
+          "language": "spa",
+          "title": "Justicia"
+        }
+      }
+    },
     "778860": {
       "content_id": 778860,
       "reference_id": 5205,
@@ -4869,6 +6177,43 @@
         }
       }
     },
+    "833401": {
+      "content_id": 833401,
+      "reference_id": 4785,
+      "index_reference": "hamathi",
+      "localizations": {
+        "eng": {
+          "content_id": 5617,
+          "language": "eng",
+          "title": "Hamath"
+        },
+        "arb": {
+          "content_id": 443740,
+          "language": "arb",
+          "title": "حَمَاة"
+        },
+        "fra": {
+          "content_id": 806032,
+          "language": "fra",
+          "title": "Hamath"
+        },
+        "hin": {
+          "content_id": 381515,
+          "language": "hin",
+          "title": "हमात"
+        },
+        "por": {
+          "content_id": 658650,
+          "language": "por",
+          "title": "Hamate"
+        },
+        "spa": {
+          "content_id": 827100,
+          "language": "spa",
+          "title": "Hamat"
+        }
+      }
+    },
     "800591": {
       "content_id": 800591,
       "reference_id": 4798,
@@ -4898,6 +6243,43 @@
           "content_id": 658651,
           "language": "por",
           "title": "Cam (Pessoa)"
+        }
+      }
+    },
+    "833403": {
+      "content_id": 833403,
+      "reference_id": 4898,
+      "index_reference": "hasarmawethi",
+      "localizations": {
+        "eng": {
+          "content_id": 5730,
+          "language": "eng",
+          "title": "Hazarmaveth"
+        },
+        "arb": {
+          "content_id": 443750,
+          "language": "arb",
+          "title": "حَضَرْمَوْت"
+        },
+        "fra": {
+          "content_id": 806036,
+          "language": "fra",
+          "title": "Hatsarmaveth"
+        },
+        "hin": {
+          "content_id": 381525,
+          "language": "hin",
+          "title": "हसर्मावेत"
+        },
+        "por": {
+          "content_id": 658653,
+          "language": "por",
+          "title": "Hazar-Mavé"
+        },
+        "spa": {
+          "content_id": 827110,
+          "language": "spa",
+          "title": "Hazar-maveth"
         }
       }
     },
@@ -4999,6 +6381,43 @@
           "content_id": 481542,
           "language": "por",
           "title": "Havilá (Lugar)"
+        }
+      }
+    },
+    "833402": {
+      "content_id": 833402,
+      "reference_id": 4887,
+      "index_reference": "havila (mtu)",
+      "localizations": {
+        "eng": {
+          "content_id": 5719,
+          "language": "eng",
+          "title": "Havilah (Person)"
+        },
+        "arb": {
+          "content_id": 443748,
+          "language": "arb",
+          "title": "حَوِيلَة (شخص)"
+        },
+        "fra": {
+          "content_id": 806035,
+          "language": "fra",
+          "title": "Havila (Personne)"
+        },
+        "hin": {
+          "content_id": 381523,
+          "language": "hin",
+          "title": "हवीला (व्यक्ति)"
+        },
+        "por": {
+          "content_id": 658652,
+          "language": "por",
+          "title": "Havilá (Pessoa)"
+        },
+        "spa": {
+          "content_id": 827108,
+          "language": "spa",
+          "title": "Havila (Persona)"
         }
       }
     },
@@ -5399,6 +6818,43 @@
         }
       }
     },
+    "833407": {
+      "content_id": 833407,
+      "reference_id": 5107,
+      "index_reference": "huli",
+      "localizations": {
+        "eng": {
+          "content_id": 5939,
+          "language": "eng",
+          "title": "Hul"
+        },
+        "arb": {
+          "content_id": 443770,
+          "language": "arb",
+          "title": "حُول"
+        },
+        "fra": {
+          "content_id": 806046,
+          "language": "fra",
+          "title": "Hul"
+        },
+        "hin": {
+          "content_id": 381548,
+          "language": "hin",
+          "title": "हूल"
+        },
+        "por": {
+          "content_id": 658657,
+          "language": "por",
+          "title": "Hul"
+        },
+        "spa": {
+          "content_id": 827134,
+          "language": "spa",
+          "title": "Hul"
+        }
+      }
+    },
     "713700": {
       "content_id": 713700,
       "reference_id": 4708,
@@ -5678,6 +7134,43 @@
         }
       }
     },
+    "833470": {
+      "content_id": 833470,
+      "reference_id": 8075,
+      "index_reference": "iturea, trakoniti",
+      "localizations": {
+        "eng": {
+          "content_id": 8907,
+          "language": "eng",
+          "title": "Trachonitis, Traconitis"
+        },
+        "arb": {
+          "content_id": 335543,
+          "language": "arb",
+          "title": "تَرَاخُونِيتِس, تَرَاكونِيتِس"
+        },
+        "fra": {
+          "content_id": 806151,
+          "language": "fra",
+          "title": "Trachonite"
+        },
+        "hin": {
+          "content_id": 381903,
+          "language": "hin",
+          "title": "त्रखोनीतिस, त्राकोनिटिस"
+        },
+        "por": {
+          "content_id": 658744,
+          "language": "por",
+          "title": "Traconites, Traconitis"
+        },
+        "spa": {
+          "content_id": 827494,
+          "language": "spa",
+          "title": "Traconita, Traconite"
+        }
+      }
+    },
     "689573": {
       "content_id": 689573,
       "reference_id": 3984,
@@ -5942,6 +7435,43 @@
         }
       }
     },
+    "833375": {
+      "content_id": 833375,
+      "reference_id": 3586,
+      "index_reference": "kaftori, mkaftori, wakaftori",
+      "localizations": {
+        "eng": {
+          "content_id": 4418,
+          "language": "eng",
+          "title": "Caphtor, Caphtorim, Caphtorites"
+        },
+        "arb": {
+          "content_id": 443637,
+          "language": "arb",
+          "title": "كَفْتُور*، كَفْتُورِيم*، الْكَفْتُورِيُّون"
+        },
+        "fra": {
+          "content_id": 805990,
+          "language": "fra",
+          "title": "Caphtor, Caphtorim, Caphtorites"
+        },
+        "hin": {
+          "content_id": 381390,
+          "language": "hin",
+          "title": "कप्तोर, कप्तोरी, कप्तोरियों"
+        },
+        "por": {
+          "content_id": 658622,
+          "language": "por",
+          "title": "Caftor, Caftorim, Caftoritas"
+        },
+        "spa": {
+          "content_id": 826978,
+          "language": "spa",
+          "title": "Caftor, Caftorim, Caftoritas"
+        }
+      }
+    },
     "800574": {
       "content_id": 800574,
       "reference_id": 3551,
@@ -5971,6 +7501,122 @@
           "content_id": 658619,
           "language": "por",
           "title": "Caim (Pessoa)"
+        }
+      }
+    },
+    "833372": {
+      "content_id": 833372,
+      "reference_id": 3553,
+      "index_reference": "kala",
+      "localizations": {
+        "eng": {
+          "content_id": 4385,
+          "language": "eng",
+          "title": "Calah"
+        },
+        "arb": {
+          "content_id": 443635,
+          "language": "arb",
+          "title": "كَالَح"
+        },
+        "fra": {
+          "content_id": 805988,
+          "language": "fra",
+          "title": "Calach"
+        },
+        "hin": {
+          "content_id": 381388,
+          "language": "hin",
+          "title": "कालह"
+        },
+        "por": {
+          "content_id": 658620,
+          "language": "por",
+          "title": "Calá"
+        },
+        "spa": {
+          "content_id": 826976,
+          "language": "spa",
+          "title": "Calah"
+        }
+      }
+    },
+    "833373": {
+      "content_id": 833373,
+      "reference_id": 3565,
+      "index_reference": "kalne",
+      "localizations": {
+        "eng": {
+          "content_id": 4397,
+          "language": "eng",
+          "title": "Calneh"
+        },
+        "arb": {
+          "content_id": 443636,
+          "language": "arb",
+          "title": "كَلْنَة"
+        },
+        "fra": {
+          "content_id": 805989,
+          "language": "fra",
+          "title": "Calné"
+        },
+        "hin": {
+          "content_id": 381389,
+          "language": "hin",
+          "title": "कलने"
+        },
+        "por": {
+          "content_id": 658621,
+          "language": "por",
+          "title": "Calné"
+        },
+        "spa": {
+          "content_id": 826977,
+          "language": "spa",
+          "title": "Calneh"
+        }
+      }
+    },
+    "833374": {
+      "content_id": 833374,
+      "reference_id": 3572,
+      "index_reference": "kanaani, mkanaani",
+      "localizations": {
+        "eng": {
+          "content_id": 4404,
+          "language": "eng",
+          "title": "Canaan, Canaanite"
+        },
+        "arb": {
+          "content_id": 159097,
+          "language": "arb",
+          "title": "كنعان، كنعاني"
+        },
+        "fra": {
+          "content_id": 602041,
+          "language": "fra",
+          "title": "Canaan, cananéen(ne)"
+        },
+        "hin": {
+          "content_id": 184882,
+          "language": "hin",
+          "title": "कनान, कनानी"
+        },
+        "por": {
+          "content_id": 161789,
+          "language": "por",
+          "title": "Canaã, Cananeus"
+        },
+        "spa": {
+          "content_id": 689498,
+          "language": "spa",
+          "title": "Cananeo, cananeo"
+        },
+        "zht": {
+          "content_id": 573972,
+          "language": "zht",
+          "title": "迦南，迦南人"
         }
       }
     },
@@ -6598,6 +8244,43 @@
         }
       }
     },
+    "833430": {
+      "content_id": 833430,
+      "reference_id": 6601,
+      "index_reference": "kitabu cha hesabu",
+      "localizations": {
+        "eng": {
+          "content_id": 7433,
+          "language": "eng",
+          "title": "Numbers, Book of"
+        },
+        "arb": {
+          "content_id": 331911,
+          "language": "arb",
+          "title": "سفر العدد"
+        },
+        "fra": {
+          "content_id": 769274,
+          "language": "fra",
+          "title": "Nombres, Livre des"
+        },
+        "hin": {
+          "content_id": 381168,
+          "language": "hin",
+          "title": "गिनती की पुस्तक"
+        },
+        "por": {
+          "content_id": 658699,
+          "language": "por",
+          "title": "Números, Livro de"
+        },
+        "spa": {
+          "content_id": 806641,
+          "language": "spa",
+          "title": "Libro de Números"
+        }
+      }
+    },
     "468160": {
       "content_id": 468160,
       "reference_id": 2523,
@@ -6852,6 +8535,43 @@
           "content_id": 615734,
           "language": "zht",
           "title": "腳凳"
+        }
+      }
+    },
+    "833415": {
+      "content_id": 833415,
+      "reference_id": 5800,
+      "index_reference": "kitimu",
+      "localizations": {
+        "eng": {
+          "content_id": 6632,
+          "language": "eng",
+          "title": "Kittim"
+        },
+        "arb": {
+          "content_id": 443849,
+          "language": "arb",
+          "title": "كِتِّيم"
+        },
+        "fra": {
+          "content_id": 806072,
+          "language": "fra",
+          "title": "Kittim"
+        },
+        "hin": {
+          "content_id": 381643,
+          "language": "hin",
+          "title": "कित्ती"
+        },
+        "por": {
+          "content_id": 658673,
+          "language": "por",
+          "title": "Quitim"
+        },
+        "spa": {
+          "content_id": 827230,
+          "language": "spa",
+          "title": "Kittim"
         }
       }
     },
@@ -7534,6 +9254,43 @@
         }
       }
     },
+    "833391": {
+      "content_id": 833391,
+      "reference_id": 4341,
+      "index_reference": "kushi",
+      "localizations": {
+        "eng": {
+          "content_id": 5173,
+          "language": "eng",
+          "title": "Ethiopia"
+        },
+        "arb": {
+          "content_id": 331816,
+          "language": "arb",
+          "title": "إثيوبيا"
+        },
+        "fra": {
+          "content_id": 756949,
+          "language": "fra",
+          "title": "Éthiopie"
+        },
+        "hin": {
+          "content_id": 381076,
+          "language": "hin",
+          "title": "इथियोपिया"
+        },
+        "por": {
+          "content_id": 658641,
+          "language": "por",
+          "title": "Etiópia"
+        },
+        "spa": {
+          "content_id": 806609,
+          "language": "spa",
+          "title": "Etiopía"
+        }
+      }
+    },
     "778843": {
       "content_id": 778843,
       "reference_id": 3888,
@@ -7563,6 +9320,43 @@
           "content_id": 481523,
           "language": "por",
           "title": "Cuxe (Lugar)"
+        }
+      }
+    },
+    "833378": {
+      "content_id": 833378,
+      "reference_id": 3887,
+      "index_reference": "kushi (mtu)",
+      "localizations": {
+        "eng": {
+          "content_id": 4719,
+          "language": "eng",
+          "title": "Cush (Person)"
+        },
+        "arb": {
+          "content_id": 443650,
+          "language": "arb",
+          "title": "كُوش (شخص)"
+        },
+        "fra": {
+          "content_id": 805995,
+          "language": "fra",
+          "title": "Cusch (Personne)"
+        },
+        "hin": {
+          "content_id": 381407,
+          "language": "hin",
+          "title": "कूश (व्यक्ति)"
+        },
+        "por": {
+          "content_id": 658626,
+          "language": "por",
+          "title": "Cuxe (Pessoa)"
+        },
+        "spa": {
+          "content_id": 826995,
+          "language": "spa",
+          "title": "Cus (Persona)"
         }
       }
     },
@@ -7894,6 +9688,43 @@
         }
       }
     },
+    "833416": {
+      "content_id": 833416,
+      "reference_id": 5854,
+      "index_reference": "lasha",
+      "localizations": {
+        "eng": {
+          "content_id": 6686,
+          "language": "eng",
+          "title": "Lasha"
+        },
+        "arb": {
+          "content_id": 443855,
+          "language": "arb",
+          "title": "لَاشَع"
+        },
+        "fra": {
+          "content_id": 806073,
+          "language": "fra",
+          "title": "Léscha"
+        },
+        "hin": {
+          "content_id": 381651,
+          "language": "hin",
+          "title": "लाशा"
+        },
+        "por": {
+          "content_id": 658674,
+          "language": "por",
+          "title": "Lasa"
+        },
+        "spa": {
+          "content_id": 827238,
+          "language": "spa",
+          "title": "Lasa"
+        }
+      }
+    },
     "689594": {
       "content_id": 689594,
       "reference_id": 5897,
@@ -8042,6 +9873,43 @@
         }
       }
     },
+    "833417": {
+      "content_id": 833417,
+      "reference_id": 5884,
+      "index_reference": "lehabimu, lehabiti",
+      "localizations": {
+        "eng": {
+          "content_id": 6716,
+          "language": "eng",
+          "title": "Lehabim, Lehabites"
+        },
+        "arb": {
+          "content_id": 443857,
+          "language": "arb",
+          "title": "لَهَابِيم، اللُّوبِيُّون"
+        },
+        "fra": {
+          "content_id": 806074,
+          "language": "fra",
+          "title": "Lehabim"
+        },
+        "hin": {
+          "content_id": 381654,
+          "language": "hin",
+          "title": "लहाबी, लूबियों"
+        },
+        "por": {
+          "content_id": 658675,
+          "language": "por",
+          "title": "Leabim, Leabitas"
+        },
+        "spa": {
+          "content_id": 827241,
+          "language": "spa",
+          "title": "Lehabim, Laabim"
+        }
+      }
+    },
     "811750": {
       "content_id": 811750,
       "reference_id": 5909,
@@ -8118,6 +9986,43 @@
           "content_id": 471325,
           "language": "zht",
           "title": "蒲式耳"
+        }
+      }
+    },
+    "833418": {
+      "content_id": 833418,
+      "reference_id": 5959,
+      "index_reference": "ludi, ludimu, waludi",
+      "localizations": {
+        "eng": {
+          "content_id": 6791,
+          "language": "eng",
+          "title": "Lud, Ludim, Ludites"
+        },
+        "arb": {
+          "content_id": 443862,
+          "language": "arb",
+          "title": "لُود، لُودِيم، اللُّودِيُّون"
+        },
+        "fra": {
+          "content_id": 806076,
+          "language": "fra",
+          "title": "Lud, Ludim"
+        },
+        "hin": {
+          "content_id": 381661,
+          "language": "hin",
+          "title": "लूद, लूदी*, लूदियों"
+        },
+        "por": {
+          "content_id": 658676,
+          "language": "por",
+          "title": "Lude, Ludim, Luditas"
+        },
+        "spa": {
+          "content_id": 827248,
+          "language": "spa",
+          "title": "Lud, Ludim, Luditas"
         }
       }
     },
@@ -8417,6 +10322,80 @@
         }
       }
     },
+    "833419": {
+      "content_id": 833419,
+      "reference_id": 6008,
+      "index_reference": "madai",
+      "localizations": {
+        "eng": {
+          "content_id": 6840,
+          "language": "eng",
+          "title": "Madai"
+        },
+        "arb": {
+          "content_id": 443868,
+          "language": "arb",
+          "title": "مَادَاي"
+        },
+        "fra": {
+          "content_id": 806077,
+          "language": "fra",
+          "title": "Madaï"
+        },
+        "hin": {
+          "content_id": 381667,
+          "language": "hin",
+          "title": "मादै"
+        },
+        "por": {
+          "content_id": 658677,
+          "language": "por",
+          "title": "Madai"
+        },
+        "spa": {
+          "content_id": 827254,
+          "language": "spa",
+          "title": "Madaí"
+        }
+      }
+    },
+    "833357": {
+      "content_id": 833357,
+      "reference_id": 2697,
+      "index_reference": "madhabahu",
+      "localizations": {
+        "eng": {
+          "content_id": 3529,
+          "language": "eng",
+          "title": "Altar"
+        },
+        "arb": {
+          "content_id": 335159,
+          "language": "arb",
+          "title": "مذبح"
+        },
+        "fra": {
+          "content_id": 805959,
+          "language": "fra",
+          "title": "Autel"
+        },
+        "hin": {
+          "content_id": 381293,
+          "language": "hin",
+          "title": "वेदी"
+        },
+        "por": {
+          "content_id": 658601,
+          "language": "por",
+          "title": "Altar"
+        },
+        "spa": {
+          "content_id": 761377,
+          "language": "spa",
+          "title": "Altar"
+        }
+      }
+    },
     "800607": {
       "content_id": 800607,
       "reference_id": 6313,
@@ -8493,6 +10472,43 @@
           "content_id": 574035,
           "language": "zht",
           "title": "油"
+        }
+      }
+    },
+    "833420": {
+      "content_id": 833420,
+      "reference_id": 6025,
+      "index_reference": "magogu",
+      "localizations": {
+        "eng": {
+          "content_id": 6857,
+          "language": "eng",
+          "title": "Magog"
+        },
+        "arb": {
+          "content_id": 443870,
+          "language": "arb",
+          "title": "مَاجُوج"
+        },
+        "fra": {
+          "content_id": 806078,
+          "language": "fra",
+          "title": "Magog"
+        },
+        "hin": {
+          "content_id": 381669,
+          "language": "hin",
+          "title": "मागोग"
+        },
+        "por": {
+          "content_id": 658678,
+          "language": "por",
+          "title": "Magogue"
+        },
+        "spa": {
+          "content_id": 827256,
+          "language": "spa",
+          "title": "Magog"
         }
       }
     },
@@ -8594,6 +10610,48 @@
           "content_id": 658679,
           "language": "por",
           "title": "Maalalel, Maalaleel"
+        }
+      }
+    },
+    "833379": {
+      "content_id": 833379,
+      "reference_id": 3945,
+      "index_reference": "mahali pa wafu",
+      "localizations": {
+        "eng": {
+          "content_id": 4777,
+          "language": "eng",
+          "title": "Place of the Dead"
+        },
+        "arb": {
+          "content_id": 159107,
+          "language": "arb",
+          "title": "عالم الموتى"
+        },
+        "fra": {
+          "content_id": 662285,
+          "language": "fra",
+          "title": "séjour des morts"
+        },
+        "hin": {
+          "content_id": 184901,
+          "language": "hin",
+          "title": "मृतकों का स्थान"
+        },
+        "por": {
+          "content_id": 161799,
+          "language": "por",
+          "title": "Mortos, Lugar Dos"
+        },
+        "spa": {
+          "content_id": 717353,
+          "language": "spa",
+          "title": "Lugar de los muertos"
+        },
+        "zht": {
+          "content_id": 573982,
+          "language": "zht",
+          "title": "死者之地"
         }
       }
     },
@@ -8705,6 +10763,43 @@
           "content_id": 761417,
           "language": "spa",
           "title": "Nombres, Significado de los"
+        }
+      }
+    },
+    "833395": {
+      "content_id": 833395,
+      "reference_id": 4612,
+      "index_reference": "majitu",
+      "localizations": {
+        "eng": {
+          "content_id": 5444,
+          "language": "eng",
+          "title": "Giants"
+        },
+        "arb": {
+          "content_id": 443722,
+          "language": "arb",
+          "title": "الْجَبَابِرَة"
+        },
+        "fra": {
+          "content_id": 800697,
+          "language": "fra",
+          "title": "Géants"
+        },
+        "hin": {
+          "content_id": 381496,
+          "language": "hin",
+          "title": "दानव"
+        },
+        "por": {
+          "content_id": 658645,
+          "language": "por",
+          "title": "Gigantes"
+        },
+        "spa": {
+          "content_id": 827080,
+          "language": "spa",
+          "title": "Gigantes"
         }
       }
     },
@@ -9545,6 +11640,43 @@
         }
       }
     },
+    "833397": {
+      "content_id": 833397,
+      "reference_id": 4680,
+      "index_reference": "mbao za mvinje",
+      "localizations": {
+        "eng": {
+          "content_id": 5512,
+          "language": "eng",
+          "title": "Gopher Wood"
+        },
+        "arb": {
+          "content_id": 443728,
+          "language": "arb",
+          "title": "خَشَب جُفْر"
+        },
+        "fra": {
+          "content_id": 800698,
+          "language": "fra",
+          "title": "Bois de gopher"
+        },
+        "hin": {
+          "content_id": 381502,
+          "language": "hin",
+          "title": "गोपेर की लकड़ी"
+        },
+        "por": {
+          "content_id": 658647,
+          "language": "por",
+          "title": "Madeira de Gofer"
+        },
+        "spa": {
+          "content_id": 827086,
+          "language": "spa",
+          "title": "Madera de Gopher"
+        }
+      }
+    },
     "778849": {
       "content_id": 778849,
       "reference_id": 4431,
@@ -9811,6 +11943,117 @@
           "content_id": 658681,
           "language": "por",
           "title": "Meujael"
+        }
+      }
+    },
+    "833423": {
+      "content_id": 833423,
+      "reference_id": 6247,
+      "index_reference": "mesha (mahali)",
+      "localizations": {
+        "eng": {
+          "content_id": 7079,
+          "language": "eng",
+          "title": "Mesha (Place)"
+        },
+        "arb": {
+          "content_id": 443889,
+          "language": "arb",
+          "title": "مِيشَا (مكان)"
+        },
+        "fra": {
+          "content_id": 806083,
+          "language": "fra",
+          "title": "Méscha (Lieu)"
+        },
+        "hin": {
+          "content_id": 381693,
+          "language": "hin",
+          "title": "मेशा (स्थान)"
+        },
+        "por": {
+          "content_id": 658683,
+          "language": "por",
+          "title": "Messa (Lugar)"
+        },
+        "spa": {
+          "content_id": 827280,
+          "language": "spa",
+          "title": "Mesa (Lugar)"
+        }
+      }
+    },
+    "833421": {
+      "content_id": 833421,
+      "reference_id": 6133,
+      "index_reference": "mesheki",
+      "localizations": {
+        "eng": {
+          "content_id": 6965,
+          "language": "eng",
+          "title": "Mash"
+        },
+        "arb": {
+          "content_id": 443880,
+          "language": "arb",
+          "title": "مَاش"
+        },
+        "fra": {
+          "content_id": 806081,
+          "language": "fra",
+          "title": "Masch"
+        },
+        "hin": {
+          "content_id": 381683,
+          "language": "hin",
+          "title": "मश"
+        },
+        "por": {
+          "content_id": 658680,
+          "language": "por",
+          "title": "Más"
+        },
+        "spa": {
+          "content_id": 827270,
+          "language": "spa",
+          "title": "Mas"
+        }
+      }
+    },
+    "833424": {
+      "content_id": 833424,
+      "reference_id": 6248,
+      "index_reference": "mesheki",
+      "localizations": {
+        "eng": {
+          "content_id": 7080,
+          "language": "eng",
+          "title": "Meshech"
+        },
+        "arb": {
+          "content_id": 443890,
+          "language": "arb",
+          "title": "مَاشِك"
+        },
+        "fra": {
+          "content_id": 806084,
+          "language": "fra",
+          "title": "Méschec"
+        },
+        "hin": {
+          "content_id": 381694,
+          "language": "hin",
+          "title": "मेशेक"
+        },
+        "por": {
+          "content_id": 658684,
+          "language": "por",
+          "title": "Meseque"
+        },
+        "spa": {
+          "content_id": 827281,
+          "language": "spa",
+          "title": "Mesec"
         }
       }
     },
@@ -10199,6 +12442,43 @@
         }
       }
     },
+    "833404": {
+      "content_id": 833404,
+      "reference_id": 4998,
+      "index_reference": "mhiti",
+      "localizations": {
+        "eng": {
+          "content_id": 5830,
+          "language": "eng",
+          "title": "Heth"
+        },
+        "arb": {
+          "content_id": 443761,
+          "language": "arb",
+          "title": "حِثّ"
+        },
+        "fra": {
+          "content_id": 806041,
+          "language": "fra",
+          "title": "Heth"
+        },
+        "hin": {
+          "content_id": 381537,
+          "language": "hin",
+          "title": "हित्त"
+        },
+        "por": {
+          "content_id": 658654,
+          "language": "por",
+          "title": "Hete"
+        },
+        "spa": {
+          "content_id": 827122,
+          "language": "spa",
+          "title": "Heth"
+        }
+      }
+    },
     "419782": {
       "content_id": 419782,
       "reference_id": 3725,
@@ -10315,6 +12595,48 @@
         }
       }
     },
+    "833475": {
+      "content_id": 833475,
+      "reference_id": 8182,
+      "index_reference": "mizabibu, shamba la mizabibu",
+      "localizations": {
+        "eng": {
+          "content_id": 9014,
+          "language": "eng",
+          "title": "Vines, Vineyard"
+        },
+        "arb": {
+          "content_id": 201534,
+          "language": "arb",
+          "title": "كرم، كروم العنب"
+        },
+        "fra": {
+          "content_id": 662329,
+          "language": "fra",
+          "title": "vigne(s), vignoble"
+        },
+        "hin": {
+          "content_id": 185031,
+          "language": "hin",
+          "title": "दाखलता, दाख की बारी "
+        },
+        "por": {
+          "content_id": 658750,
+          "language": "por",
+          "title": "Videiras, Vinhedo"
+        },
+        "spa": {
+          "content_id": 724649,
+          "language": "spa",
+          "title": "Viñas, Viñedo"
+        },
+        "zht": {
+          "content_id": 615755,
+          "language": "zht",
+          "title": "葡萄樹與葡萄園"
+        }
+      }
+    },
     "713752": {
       "content_id": 713752,
       "reference_id": 8219,
@@ -10354,6 +12676,43 @@
           "content_id": 471357,
           "language": "zht",
           "title": "度量衡"
+        }
+      }
+    },
+    "833425": {
+      "content_id": 833425,
+      "reference_id": 6348,
+      "index_reference": "mizraimu",
+      "localizations": {
+        "eng": {
+          "content_id": 7180,
+          "language": "eng",
+          "title": "Mizraim"
+        },
+        "arb": {
+          "content_id": 443901,
+          "language": "arb",
+          "title": "مِصْرَايِم"
+        },
+        "fra": {
+          "content_id": 806087,
+          "language": "fra",
+          "title": "Mitsraïm"
+        },
+        "hin": {
+          "content_id": 381707,
+          "language": "hin",
+          "title": "मिस्र"
+        },
+        "por": {
+          "content_id": 658689,
+          "language": "por",
+          "title": "Mizraim"
+        },
+        "spa": {
+          "content_id": 827294,
+          "language": "spa",
+          "title": "Mizraim"
         }
       }
     },
@@ -10465,6 +12824,43 @@
           "content_id": 796470,
           "language": "spa",
           "title": "Intérprete"
+        }
+      }
+    },
+    "833376": {
+      "content_id": 833376,
+      "reference_id": 3609,
+      "index_reference": "mkasluhi, wakasluhi",
+      "localizations": {
+        "eng": {
+          "content_id": 4441,
+          "language": "eng",
+          "title": "Casluhim, Casluhites"
+        },
+        "arb": {
+          "content_id": 443640,
+          "language": "arb",
+          "title": "كسلوحيم،  بنو كَسْلُوحِيم"
+        },
+        "fra": {
+          "content_id": 805991,
+          "language": "fra",
+          "title": "Casluhim"
+        },
+        "hin": {
+          "content_id": 381393,
+          "language": "hin",
+          "title": "कसलूही, कसलूहियों"
+        },
+        "por": {
+          "content_id": 658623,
+          "language": "por",
+          "title": "Casluim, Casluítas"
+        },
+        "spa": {
+          "content_id": 826981,
+          "language": "spa",
+          "title": "Casluhim, Casluhitas"
         }
       }
     },
@@ -10626,6 +13022,43 @@
         }
       }
     },
+    "833384": {
+      "content_id": 833384,
+      "reference_id": 4090,
+      "index_reference": "mlima ebali",
+      "localizations": {
+        "eng": {
+          "content_id": 4922,
+          "language": "eng",
+          "title": "Mount Ebal"
+        },
+        "arb": {
+          "content_id": 443665,
+          "language": "arb",
+          "title": "جبل عِيبَال"
+        },
+        "fra": {
+          "content_id": 806000,
+          "language": "fra",
+          "title": "Mont Ébal"
+        },
+        "hin": {
+          "content_id": 381426,
+          "language": "hin",
+          "title": "एबाल पर्वत"
+        },
+        "por": {
+          "content_id": 658630,
+          "language": "por",
+          "title": "Monte Ebal"
+        },
+        "spa": {
+          "content_id": 827012,
+          "language": "spa",
+          "title": "Monte Ebal"
+        }
+      }
+    },
     "468203": {
       "content_id": 468203,
       "reference_id": 6649,
@@ -10670,6 +13103,43 @@
           "content_id": 615745,
           "language": "zht",
           "title": "橄欖山"
+        }
+      }
+    },
+    "833368": {
+      "content_id": 833368,
+      "reference_id": 3052,
+      "index_reference": "mlipiza kisasi wa damu",
+      "localizations": {
+        "eng": {
+          "content_id": 3884,
+          "language": "eng",
+          "title": "Avenger of Blood"
+        },
+        "arb": {
+          "content_id": 443592,
+          "language": "arb",
+          "title": "وَلِيّ الدَّم"
+        },
+        "fra": {
+          "content_id": 805977,
+          "language": "fra",
+          "title": "Vengeur du Sang"
+        },
+        "hin": {
+          "content_id": 381336,
+          "language": "hin",
+          "title": "लहू का पलटा लेनेवाले"
+        },
+        "por": {
+          "content_id": 658612,
+          "language": "por",
+          "title": "Vingador de sangue"
+        },
+        "spa": {
+          "content_id": 826925,
+          "language": "spa",
+          "title": "Vengador de Sangre"
         }
       }
     },
@@ -12238,6 +14708,43 @@
         }
       }
     },
+    "833426": {
+      "content_id": 833426,
+      "reference_id": 6475,
+      "index_reference": "naphtuhimu, wanaftuhi",
+      "localizations": {
+        "eng": {
+          "content_id": 7307,
+          "language": "eng",
+          "title": "Naphtuhim, Naphtuhites"
+        },
+        "arb": {
+          "content_id": 443914,
+          "language": "arb",
+          "title": "نَفْتُوحِيم، بنو نَفْتُوحِيم"
+        },
+        "fra": {
+          "content_id": 806091,
+          "language": "fra",
+          "title": "Naphtuhim, Naphtuhites"
+        },
+        "hin": {
+          "content_id": 381724,
+          "language": "hin",
+          "title": "नप्तूही, नप्तुहीताई"
+        },
+        "por": {
+          "content_id": 658693,
+          "language": "por",
+          "title": "Naftuim, naftuítas"
+        },
+        "spa": {
+          "content_id": 827310,
+          "language": "spa",
+          "title": "Naftuhim, Naftuhitas"
+        }
+      }
+    },
     "713724": {
       "content_id": 713724,
       "reference_id": 6479,
@@ -12314,6 +14821,43 @@
           "content_id": 340980,
           "language": "zht",
           "title": "拿撒勒"
+        }
+      }
+    },
+    "833371": {
+      "content_id": 833371,
+      "reference_id": 3418,
+      "index_reference": "ndege",
+      "localizations": {
+        "eng": {
+          "content_id": 4250,
+          "language": "eng",
+          "title": "Birds"
+        },
+        "arb": {
+          "content_id": 331748,
+          "language": "arb",
+          "title": "الطيور"
+        },
+        "fra": {
+          "content_id": 769241,
+          "language": "fra",
+          "title": "Oiseaux"
+        },
+        "hin": {
+          "content_id": 381014,
+          "language": "hin",
+          "title": "पक्षी"
+        },
+        "por": {
+          "content_id": 658615,
+          "language": "por",
+          "title": "Pássaros"
+        },
+        "spa": {
+          "content_id": 817490,
+          "language": "spa",
+          "title": "Aves"
         }
       }
     },
@@ -12801,6 +15345,80 @@
         }
       }
     },
+    "833428": {
+      "content_id": 833428,
+      "reference_id": 6575,
+      "index_reference": "nimrodi",
+      "localizations": {
+        "eng": {
+          "content_id": 7407,
+          "language": "eng",
+          "title": "Nimrod"
+        },
+        "arb": {
+          "content_id": 443920,
+          "language": "arb",
+          "title": "نِمْرُود"
+        },
+        "fra": {
+          "content_id": 806093,
+          "language": "fra",
+          "title": "Nimrod"
+        },
+        "hin": {
+          "content_id": 381732,
+          "language": "hin",
+          "title": "निम्रोद"
+        },
+        "por": {
+          "content_id": 658695,
+          "language": "por",
+          "title": "Ninrode"
+        },
+        "spa": {
+          "content_id": 827318,
+          "language": "spa",
+          "title": "Nimrod"
+        }
+      }
+    },
+    "833429": {
+      "content_id": 833429,
+      "reference_id": 6577,
+      "index_reference": "ninawi, mninewi",
+      "localizations": {
+        "eng": {
+          "content_id": 7409,
+          "language": "eng",
+          "title": "Nineveh, Ninevite"
+        },
+        "arb": {
+          "content_id": 335439,
+          "language": "arb",
+          "title": "نِينَوَى، نِينَوِيٌّ (شخصٌ من أَهْلِ نِينَوَى)*"
+        },
+        "fra": {
+          "content_id": 806094,
+          "language": "fra",
+          "title": "Ninive, Ninivite"
+        },
+        "hin": {
+          "content_id": 381733,
+          "language": "hin",
+          "title": "नीनवे, नीनवियों"
+        },
+        "por": {
+          "content_id": 658696,
+          "language": "por",
+          "title": "Nínive, Ninivita"
+        },
+        "spa": {
+          "content_id": 827319,
+          "language": "spa",
+          "title": "Nínive, Nínivita"
+        }
+      }
+    },
     "689607": {
       "content_id": 689607,
       "reference_id": 6775,
@@ -12835,6 +15453,43 @@
           "content_id": 340983,
           "language": "zht",
           "title": "道路"
+        }
+      }
+    },
+    "833440": {
+      "content_id": 833440,
+      "reference_id": 6899,
+      "index_reference": "njiwa",
+      "localizations": {
+        "eng": {
+          "content_id": 7731,
+          "language": "eng",
+          "title": "Pigeon"
+        },
+        "arb": {
+          "content_id": 511902,
+          "language": "arb",
+          "title": "حمامة"
+        },
+        "fra": {
+          "content_id": 806105,
+          "language": "fra",
+          "title": "Pigeon, Colombe"
+        },
+        "hin": {
+          "content_id": 733684,
+          "language": "hin",
+          "title": "कबूतर"
+        },
+        "por": {
+          "content_id": 806258,
+          "language": "por",
+          "title": "Pombo"
+        },
+        "spa": {
+          "content_id": 827363,
+          "language": "spa",
+          "title": "Paloma"
         }
       }
     },
@@ -13213,6 +15868,154 @@
         }
       }
     },
+    "833385": {
+      "content_id": 833385,
+      "reference_id": 4091,
+      "index_reference": "obali",
+      "localizations": {
+        "eng": {
+          "content_id": 4923,
+          "language": "eng",
+          "title": "Ebal"
+        },
+        "arb": {
+          "content_id": 443666,
+          "language": "arb",
+          "title": "عَيْبَال"
+        },
+        "fra": {
+          "content_id": 806001,
+          "language": "fra",
+          "title": "Ébal"
+        },
+        "hin": {
+          "content_id": 381427,
+          "language": "hin",
+          "title": "एबाल"
+        },
+        "por": {
+          "content_id": 658631,
+          "language": "por",
+          "title": "Ebal"
+        },
+        "spa": {
+          "content_id": 827013,
+          "language": "spa",
+          "title": "Ebal"
+        }
+      }
+    },
+    "833431": {
+      "content_id": 833431,
+      "reference_id": 6619,
+      "index_reference": "obali",
+      "localizations": {
+        "eng": {
+          "content_id": 7451,
+          "language": "eng",
+          "title": "Obal"
+        },
+        "arb": {
+          "content_id": 443927,
+          "language": "arb",
+          "title": "عُوبَال"
+        },
+        "fra": {
+          "content_id": 806097,
+          "language": "fra",
+          "title": "Obal"
+        },
+        "hin": {
+          "content_id": 381742,
+          "language": "hin",
+          "title": "ओबाल"
+        },
+        "por": {
+          "content_id": 658700,
+          "language": "por",
+          "title": "Obal"
+        },
+        "spa": {
+          "content_id": 827328,
+          "language": "spa",
+          "title": "Obal"
+        }
+      }
+    },
+    "833433": {
+      "content_id": 833433,
+      "reference_id": 6675,
+      "index_reference": "ofiri (mahali)",
+      "localizations": {
+        "eng": {
+          "content_id": 7507,
+          "language": "eng",
+          "title": "Ophir (Place)"
+        },
+        "arb": {
+          "content_id": 443936,
+          "language": "arb",
+          "title": "أُوفِير (مكان)"
+        },
+        "fra": {
+          "content_id": 806099,
+          "language": "fra",
+          "title": "Ophir (Lieu)"
+        },
+        "hin": {
+          "content_id": 381751,
+          "language": "hin",
+          "title": "ओपीर (स्थान)"
+        },
+        "por": {
+          "content_id": 658703,
+          "language": "por",
+          "title": "Ofir (Lugar)"
+        },
+        "spa": {
+          "content_id": 827338,
+          "language": "spa",
+          "title": "Ofir (Lugar)"
+        }
+      }
+    },
+    "833432": {
+      "content_id": 833432,
+      "reference_id": 6674,
+      "index_reference": "ofiri (mtu)",
+      "localizations": {
+        "eng": {
+          "content_id": 7506,
+          "language": "eng",
+          "title": "Ophir (Person)"
+        },
+        "arb": {
+          "content_id": 443935,
+          "language": "arb",
+          "title": "أُوفِير (شخص)"
+        },
+        "fra": {
+          "content_id": 806098,
+          "language": "fra",
+          "title": "Ophir (Personne)"
+        },
+        "hin": {
+          "content_id": 381750,
+          "language": "hin",
+          "title": "ओपीर (व्यक्ति)"
+        },
+        "por": {
+          "content_id": 658702,
+          "language": "por",
+          "title": "Ofir (Pessoa)"
+        },
+        "spa": {
+          "content_id": 827337,
+          "language": "spa",
+          "title": "Ofir (Persona)"
+        }
+      }
+    },
     "811708": {
       "content_id": 811708,
       "reference_id": 3245,
@@ -13252,6 +16055,43 @@
           "content_id": 573961,
           "language": "zht",
           "title": "乞丐"
+        }
+      }
+    },
+    "833434": {
+      "content_id": 833434,
+      "reference_id": 6726,
+      "index_reference": "palestina",
+      "localizations": {
+        "eng": {
+          "content_id": 7558,
+          "language": "eng",
+          "title": "Palestine"
+        },
+        "arb": {
+          "content_id": 331914,
+          "language": "arb",
+          "title": "فلسطين"
+        },
+        "fra": {
+          "content_id": 788738,
+          "language": "fra",
+          "title": "Palestine"
+        },
+        "hin": {
+          "content_id": 381171,
+          "language": "hin",
+          "title": "फ़िलिस्तीन"
+        },
+        "por": {
+          "content_id": 658705,
+          "language": "por",
+          "title": "Palestina"
+        },
+        "spa": {
+          "content_id": 817611,
+          "language": "spa",
+          "title": "Palestina"
         }
       }
     },
@@ -13388,6 +16228,43 @@
           "content_id": 315532,
           "language": "zht",
           "title": "使徒保羅"
+        }
+      }
+    },
+    "833436": {
+      "content_id": 833436,
+      "reference_id": 6800,
+      "index_reference": "pelegi",
+      "localizations": {
+        "eng": {
+          "content_id": 7632,
+          "language": "eng",
+          "title": "Peleg"
+        },
+        "arb": {
+          "content_id": 335456,
+          "language": "arb",
+          "title": "فالج"
+        },
+        "fra": {
+          "content_id": 806101,
+          "language": "fra",
+          "title": "Péleg"
+        },
+        "hin": {
+          "content_id": 381761,
+          "language": "hin",
+          "title": "पेलेग"
+        },
+        "por": {
+          "content_id": 658707,
+          "language": "por",
+          "title": "Pelegue"
+        },
+        "spa": {
+          "content_id": 827348,
+          "language": "spa",
+          "title": "Peleg"
         }
       }
     },
@@ -13620,6 +16497,43 @@
           "content_id": 340984,
           "language": "zht",
           "title": "使徒彼得"
+        }
+      }
+    },
+    "833438": {
+      "content_id": 833438,
+      "reference_id": 6881,
+      "index_reference": "philistia, wafilisti",
+      "localizations": {
+        "eng": {
+          "content_id": 7713,
+          "language": "eng",
+          "title": "Philistia, Philistines"
+        },
+        "arb": {
+          "content_id": 443952,
+          "language": "arb",
+          "title": "فلستة (فِلسطين)، الفلستيون (الْفِلِسْطِينِيِّون)"
+        },
+        "fra": {
+          "content_id": 806103,
+          "language": "fra",
+          "title": "Philistie, Philistins"
+        },
+        "hin": {
+          "content_id": 381772,
+          "language": "hin",
+          "title": "पलिश्ती, पलिश्तीन"
+        },
+        "por": {
+          "content_id": 658709,
+          "language": "por",
+          "title": "Filístia, filisteus"
+        },
+        "spa": {
+          "content_id": 827359,
+          "language": "spa",
+          "title": "Filistea, Filisteos"
         }
       }
     },
@@ -13914,6 +16828,149 @@
         }
       }
     },
+    "833439": {
+      "content_id": 833439,
+      "reference_id": 6893,
+      "index_reference": "putu",
+      "localizations": {
+        "eng": {
+          "content_id": 7725,
+          "language": "eng",
+          "title": "Phut"
+        },
+        "arb": {
+          "content_id": 443953,
+          "language": "arb",
+          "title": "فُوط"
+        },
+        "hin": {
+          "content_id": 381774,
+          "language": "hin",
+          "title": "पूत "
+        },
+        "por": {
+          "content_id": 658710,
+          "language": "por",
+          "title": "Fute"
+        },
+        "spa": {
+          "content_id": 827361,
+          "language": "spa",
+          "title": "Fut"
+        }
+      }
+    },
+    "833444": {
+      "content_id": 833444,
+      "reference_id": 7039,
+      "index_reference": "putu (eneo)",
+      "localizations": {
+        "eng": {
+          "content_id": 7871,
+          "language": "eng",
+          "title": "Put (Place)"
+        },
+        "arb": {
+          "content_id": 443969,
+          "language": "arb",
+          "title": "فوط (مكان)"
+        },
+        "fra": {
+          "content_id": 806109,
+          "language": "fra",
+          "title": "Puth (Lieu)"
+        },
+        "hin": {
+          "content_id": 381794,
+          "language": "hin",
+          "title": "पूत (स्थान)"
+        },
+        "por": {
+          "content_id": 658715,
+          "language": "por",
+          "title": "Pute (Lugar)"
+        },
+        "spa": {
+          "content_id": 827383,
+          "language": "spa",
+          "title": "Fut (Lugar)"
+        }
+      }
+    },
+    "833443": {
+      "content_id": 833443,
+      "reference_id": 7038,
+      "index_reference": "putu (mtu)",
+      "localizations": {
+        "eng": {
+          "content_id": 7870,
+          "language": "eng",
+          "title": "Put (Person)"
+        },
+        "arb": {
+          "content_id": 443968,
+          "language": "arb",
+          "title": "فُوط (شخص)"
+        },
+        "fra": {
+          "content_id": 806108,
+          "language": "fra",
+          "title": "Puth (Personne)"
+        },
+        "hin": {
+          "content_id": 381793,
+          "language": "hin",
+          "title": "पूत (व्यक्ति)"
+        },
+        "por": {
+          "content_id": 658714,
+          "language": "por",
+          "title": "Pute (Pessoa)"
+        },
+        "spa": {
+          "content_id": 827382,
+          "language": "spa",
+          "title": "Fut (Persona)"
+        }
+      }
+    },
+    "833445": {
+      "content_id": 833445,
+      "reference_id": 7057,
+      "index_reference": "raama",
+      "localizations": {
+        "eng": {
+          "content_id": 7889,
+          "language": "eng",
+          "title": "Raama, Raamah"
+        },
+        "arb": {
+          "content_id": 443972,
+          "language": "arb",
+          "title": "رَعَمَا*، رَعْمَة"
+        },
+        "fra": {
+          "content_id": 806110,
+          "language": "fra",
+          "title": "Raema"
+        },
+        "hin": {
+          "content_id": 381797,
+          "language": "hin",
+          "title": "रामाह, रामाह"
+        },
+        "por": {
+          "content_id": 658716,
+          "language": "por",
+          "title": "Raamá, Raama"
+        },
+        "spa": {
+          "content_id": 827386,
+          "language": "spa",
+          "title": "Raama"
+        }
+      }
+    },
     "468176": {
       "content_id": 468176,
       "reference_id": 3781,
@@ -13998,6 +17055,228 @@
         }
       }
     },
+    "833447": {
+      "content_id": 833447,
+      "reference_id": 7150,
+      "index_reference": "rehoboth-iri",
+      "localizations": {
+        "eng": {
+          "content_id": 7982,
+          "language": "eng",
+          "title": "Rehoboth-Ir"
+        },
+        "arb": {
+          "content_id": 443977,
+          "language": "arb",
+          "title": "رَحُوبُوت-عَيْر"
+        },
+        "fra": {
+          "content_id": 806112,
+          "language": "fra",
+          "title": "Rehoboth Hir"
+        },
+        "hin": {
+          "content_id": 381805,
+          "language": "hin",
+          "title": "रहोबोतीर"
+        },
+        "por": {
+          "content_id": 658718,
+          "language": "por",
+          "title": "Reobote-Ir"
+        },
+        "spa": {
+          "content_id": 827395,
+          "language": "spa",
+          "title": "Rehobot-Ir"
+        }
+      }
+    },
+    "833448": {
+      "content_id": 833448,
+      "reference_id": 7151,
+      "index_reference": "rehobothi",
+      "localizations": {
+        "eng": {
+          "content_id": 7983,
+          "language": "eng",
+          "title": "Rehoboth"
+        },
+        "arb": {
+          "content_id": 443978,
+          "language": "arb",
+          "title": "رَحُوبُوت"
+        },
+        "fra": {
+          "content_id": 806113,
+          "language": "fra",
+          "title": "Rehoboth"
+        },
+        "hin": {
+          "content_id": 381806,
+          "language": "hin",
+          "title": "रहोबोत"
+        },
+        "por": {
+          "content_id": 658719,
+          "language": "por",
+          "title": "Reobote"
+        },
+        "spa": {
+          "content_id": 827396,
+          "language": "spa",
+          "title": "Rehobot"
+        }
+      }
+    },
+    "833449": {
+      "content_id": 833449,
+      "reference_id": 7176,
+      "index_reference": "reseni",
+      "localizations": {
+        "eng": {
+          "content_id": 8008,
+          "language": "eng",
+          "title": "Resen"
+        },
+        "arb": {
+          "content_id": 443981,
+          "language": "arb",
+          "title": "رَسَن"
+        },
+        "fra": {
+          "content_id": 806115,
+          "language": "fra",
+          "title": "Résen"
+        },
+        "hin": {
+          "content_id": 381809,
+          "language": "hin",
+          "title": "रेसेन"
+        },
+        "por": {
+          "content_id": 658720,
+          "language": "por",
+          "title": "Resém"
+        },
+        "spa": {
+          "content_id": 827399,
+          "language": "spa",
+          "title": "Resén"
+        }
+      }
+    },
+    "833450": {
+      "content_id": 833450,
+      "reference_id": 7198,
+      "index_reference": "rhodes",
+      "localizations": {
+        "eng": {
+          "content_id": 8030,
+          "language": "eng",
+          "title": "Rhodes"
+        },
+        "arb": {
+          "content_id": 331953,
+          "language": "arb",
+          "title": "رُودُس"
+        },
+        "fra": {
+          "content_id": 788750,
+          "language": "fra",
+          "title": "Rhodes"
+        },
+        "hin": {
+          "content_id": 381208,
+          "language": "hin",
+          "title": "रुदुस"
+        },
+        "por": {
+          "content_id": 658721,
+          "language": "por",
+          "title": "Rodes"
+        },
+        "spa": {
+          "content_id": 817640,
+          "language": "spa",
+          "title": "Rodas"
+        }
+      }
+    },
+    "833452": {
+      "content_id": 833452,
+      "reference_id": 7213,
+      "index_reference": "rifathi",
+      "localizations": {
+        "eng": {
+          "content_id": 8045,
+          "language": "eng",
+          "title": "Riphath"
+        },
+        "arb": {
+          "content_id": 443987,
+          "language": "arb",
+          "title": "رِيفَاث "
+        },
+        "fra": {
+          "content_id": 806117,
+          "language": "fra",
+          "title": "Riphat"
+        },
+        "hin": {
+          "content_id": 381818,
+          "language": "hin",
+          "title": "रीपत"
+        },
+        "por": {
+          "content_id": 658723,
+          "language": "por",
+          "title": "Rifate"
+        },
+        "spa": {
+          "content_id": 827408,
+          "language": "spa",
+          "title": "Rifat"
+        }
+      }
+    },
+    "833453": {
+      "content_id": 833453,
+      "reference_id": 7223,
+      "index_reference": "rodanimu",
+      "localizations": {
+        "eng": {
+          "content_id": 8055,
+          "language": "eng",
+          "title": "Rodanim"
+        },
+        "arb": {
+          "content_id": 443989,
+          "language": "arb",
+          "title": "دُودَانِيم"
+        },
+        "fra": {
+          "content_id": 806119,
+          "language": "fra",
+          "title": "Rodanim"
+        },
+        "hin": {
+          "content_id": 381820,
+          "language": "hin",
+          "title": "रोदानी"
+        },
+        "por": {
+          "content_id": 658724,
+          "language": "por",
+          "title": "Rodanim"
+        },
+        "spa": {
+          "content_id": 827410,
+          "language": "spa",
+          "title": "Rodanim"
+        }
+      }
+    },
     "778889": {
       "content_id": 778889,
       "reference_id": 7757,
@@ -14042,6 +17321,38 @@
           "content_id": 574054,
           "language": "zht",
           "title": "靈魂"
+        }
+      }
+    },
+    "833467": {
+      "content_id": 833467,
+      "reference_id": 7773,
+      "index_reference": "roho iliyo gerezani",
+      "localizations": {
+        "eng": {
+          "content_id": 8605,
+          "language": "eng",
+          "title": "Spirits in Prison"
+        },
+        "arb": {
+          "content_id": 444040,
+          "language": "arb",
+          "title": "الْأَرْوَاحِ الَّتِي فِي السِّجْن"
+        },
+        "fra": {
+          "content_id": 800740,
+          "language": "fra",
+          "title": "Esprits en prison"
+        },
+        "hin": {
+          "content_id": 381881,
+          "language": "hin",
+          "title": "कैदी आत्माये "
+        },
+        "por": {
+          "content_id": 658741,
+          "language": "por",
+          "title": "Espíritos em prisão"
         }
       }
     },
@@ -14119,6 +17430,43 @@
         }
       }
     },
+    "833383": {
+      "content_id": 833383,
+      "reference_id": 4043,
+      "index_reference": "ronadimu",
+      "localizations": {
+        "eng": {
+          "content_id": 4875,
+          "language": "eng",
+          "title": "Dodanim"
+        },
+        "arb": {
+          "content_id": 443661,
+          "language": "arb",
+          "title": "دُودَانِيم"
+        },
+        "fra": {
+          "content_id": 805999,
+          "language": "fra",
+          "title": "Dodanim"
+        },
+        "hin": {
+          "content_id": 381420,
+          "language": "hin",
+          "title": "दोदानी"
+        },
+        "por": {
+          "content_id": 658629,
+          "language": "por",
+          "title": "Dodanim"
+        },
+        "spa": {
+          "content_id": 827007,
+          "language": "spa",
+          "title": "Dodanim"
+        }
+      }
+    },
     "689613": {
       "content_id": 689613,
       "reference_id": 7250,
@@ -14153,6 +17501,80 @@
           "content_id": 340990,
           "language": "zht",
           "title": "安息日"
+        }
+      }
+    },
+    "833454": {
+      "content_id": 833454,
+      "reference_id": 7252,
+      "index_reference": "sabta",
+      "localizations": {
+        "eng": {
+          "content_id": 8084,
+          "language": "eng",
+          "title": "Sabta, Sabtah"
+        },
+        "arb": {
+          "content_id": 443991,
+          "language": "arb",
+          "title": "سَبْتَا*، سَبْتَة"
+        },
+        "fra": {
+          "content_id": 806120,
+          "language": "fra",
+          "title": "Sabta"
+        },
+        "hin": {
+          "content_id": 381823,
+          "language": "hin",
+          "title": "सबता"
+        },
+        "por": {
+          "content_id": 658725,
+          "language": "por",
+          "title": "Sabtá, Sabtah"
+        },
+        "spa": {
+          "content_id": 827413,
+          "language": "spa",
+          "title": "Sabta, Sabtha"
+        }
+      }
+    },
+    "833455": {
+      "content_id": 833455,
+      "reference_id": 7253,
+      "index_reference": "sabteka",
+      "localizations": {
+        "eng": {
+          "content_id": 8085,
+          "language": "eng",
+          "title": "Sabteca"
+        },
+        "arb": {
+          "content_id": 443992,
+          "language": "arb",
+          "title": "سَبْتَكَا"
+        },
+        "fra": {
+          "content_id": 806121,
+          "language": "fra",
+          "title": "Sabteca"
+        },
+        "hin": {
+          "content_id": 381824,
+          "language": "hin",
+          "title": "सब्तका"
+        },
+        "por": {
+          "content_id": 658726,
+          "language": "por",
+          "title": "Sabtecá"
+        },
+        "spa": {
+          "content_id": 827414,
+          "language": "spa",
+          "title": "Sabteca"
         }
       }
     },
@@ -14578,6 +18000,144 @@
         }
       }
     },
+    "833457": {
+      "content_id": 833457,
+      "reference_id": 7366,
+      "index_reference": "seba",
+      "localizations": {
+        "eng": {
+          "content_id": 8198,
+          "language": "eng",
+          "title": "Seba"
+        },
+        "arb": {
+          "content_id": 444001,
+          "language": "arb",
+          "title": "سَبَا"
+        },
+        "fra": {
+          "content_id": 806126,
+          "language": "fra",
+          "title": "Saba"
+        },
+        "hin": {
+          "content_id": 381835,
+          "language": "hin",
+          "title": "शेबा"
+        },
+        "por": {
+          "content_id": 658729,
+          "language": "por",
+          "title": "Sebá"
+        },
+        "spa": {
+          "content_id": 827425,
+          "language": "spa",
+          "title": "Seba"
+        }
+      }
+    },
+    "833476": {
+      "content_id": 833476,
+      "reference_id": 8327,
+      "index_reference": "seboimu",
+      "localizations": {
+        "eng": {
+          "content_id": 9159,
+          "language": "eng",
+          "title": "Zeboiim"
+        },
+        "arb": {
+          "content_id": 444073,
+          "language": "arb",
+          "title": "صَبُويِيم"
+        },
+        "fra": {
+          "content_id": 806158,
+          "language": "fra",
+          "title": "Tseboïm"
+        },
+        "hin": {
+          "content_id": 381923,
+          "language": "hin",
+          "title": "सबोयीम"
+        },
+        "por": {
+          "content_id": 658751,
+          "language": "por",
+          "title": "Zeboim"
+        },
+        "spa": {
+          "content_id": 827515,
+          "language": "spa",
+          "title": "Zeboim"
+        }
+      }
+    },
+    "833477": {
+      "content_id": 833477,
+      "reference_id": 8328,
+      "index_reference": "seboimu",
+      "localizations": {
+        "eng": {
+          "content_id": 9160,
+          "language": "eng",
+          "title": "Zeboim"
+        },
+        "arb": {
+          "content_id": 444074,
+          "language": "arb",
+          "title": "صَبُوعِيم"
+        },
+        "hin": {
+          "content_id": 381924,
+          "language": "hin",
+          "title": "सबोईम"
+        },
+        "spa": {
+          "content_id": 827516,
+          "language": "spa",
+          "title": "Zeboim"
+        }
+      }
+    },
+    "833458": {
+      "content_id": 833458,
+      "reference_id": 7398,
+      "index_reference": "sefari",
+      "localizations": {
+        "eng": {
+          "content_id": 8230,
+          "language": "eng",
+          "title": "Sephar"
+        },
+        "arb": {
+          "content_id": 444004,
+          "language": "arb",
+          "title": "سَفَار"
+        },
+        "fra": {
+          "content_id": 806128,
+          "language": "fra",
+          "title": "Sephar"
+        },
+        "hin": {
+          "content_id": 381838,
+          "language": "hin",
+          "title": "सपारा"
+        },
+        "por": {
+          "content_id": 658730,
+          "language": "por",
+          "title": "Sefar"
+        },
+        "spa": {
+          "content_id": 827428,
+          "language": "spa",
+          "title": "Sefar"
+        }
+      }
+    },
     "811715": {
       "content_id": 811715,
       "reference_id": 3625,
@@ -14736,6 +18296,186 @@
         }
       }
     },
+    "833459": {
+      "content_id": 833459,
+      "reference_id": 7481,
+      "index_reference": "sheba (mtu)",
+      "localizations": {
+        "eng": {
+          "content_id": 8313,
+          "language": "eng",
+          "title": "Sheba (Person)"
+        },
+        "arb": {
+          "content_id": 444012,
+          "language": "arb",
+          "title": "شَبَا- شَبَع (شخص)"
+        },
+        "fra": {
+          "content_id": 806132,
+          "language": "fra",
+          "title": "Séba, Schéba (Personne)"
+        },
+        "hin": {
+          "content_id": 381849,
+          "language": "hin",
+          "title": "शेबा (व्यक्ति)"
+        },
+        "por": {
+          "content_id": 658732,
+          "language": "por",
+          "title": "Sebá (Pessoa)"
+        },
+        "spa": {
+          "content_id": 827439,
+          "language": "spa",
+          "title": "Seba (Persona)"
+        }
+      }
+    },
+    "833460": {
+      "content_id": 833460,
+      "reference_id": 7500,
+      "index_reference": "shekina",
+      "localizations": {
+        "eng": {
+          "content_id": 8332,
+          "language": "eng",
+          "title": "Shekinah"
+        },
+        "arb": {
+          "content_id": 331966,
+          "language": "arb",
+          "title": "شكينة"
+        },
+        "fra": {
+          "content_id": 769284,
+          "language": "fra",
+          "title": "Shekinah"
+        },
+        "hin": {
+          "content_id": 381220,
+          "language": "hin",
+          "title": "शेकिनाह"
+        },
+        "por": {
+          "content_id": 658733,
+          "language": "por",
+          "title": "Shekinah"
+        },
+        "spa": {
+          "content_id": 761426,
+          "language": "spa",
+          "title": "Shekinah"
+        }
+      }
+    },
+    "833456": {
+      "content_id": 833456,
+      "reference_id": 7267,
+      "index_reference": "shela",
+      "localizations": {
+        "eng": {
+          "content_id": 8099,
+          "language": "eng",
+          "title": "Salah"
+        },
+        "arb": {
+          "content_id": 443993,
+          "language": "arb",
+          "title": "شَالَح"
+        },
+        "hin": {
+          "content_id": 381826,
+          "language": "hin",
+          "title": "शेलह"
+        },
+        "por": {
+          "content_id": 658727,
+          "language": "por",
+          "title": "Salá"
+        },
+        "spa": {
+          "content_id": 827416,
+          "language": "spa",
+          "title": "Sala"
+        }
+      }
+    },
+    "833461": {
+      "content_id": 833461,
+      "reference_id": 7502,
+      "index_reference": "shela",
+      "localizations": {
+        "eng": {
+          "content_id": 8334,
+          "language": "eng",
+          "title": "Shelah"
+        },
+        "arb": {
+          "content_id": 335512,
+          "language": "arb",
+          "title": "شالح / شيله"
+        },
+        "fra": {
+          "content_id": 806134,
+          "language": "fra",
+          "title": "Schélach, Schéla"
+        },
+        "hin": {
+          "content_id": 381852,
+          "language": "hin",
+          "title": "शेला"
+        },
+        "por": {
+          "content_id": 658734,
+          "language": "por",
+          "title": "Selá"
+        },
+        "spa": {
+          "content_id": 827442,
+          "language": "spa",
+          "title": "Sela"
+        }
+      }
+    },
+    "833462": {
+      "content_id": 833462,
+      "reference_id": 7505,
+      "index_reference": "shelefu",
+      "localizations": {
+        "eng": {
+          "content_id": 8337,
+          "language": "eng",
+          "title": "Sheleph"
+        },
+        "arb": {
+          "content_id": 444015,
+          "language": "arb",
+          "title": "شَالَف"
+        },
+        "fra": {
+          "content_id": 806135,
+          "language": "fra",
+          "title": "Schéleph"
+        },
+        "hin": {
+          "content_id": 381853,
+          "language": "hin",
+          "title": "शेलेप"
+        },
+        "por": {
+          "content_id": 658735,
+          "language": "por",
+          "title": "Selefe"
+        },
+        "spa": {
+          "content_id": 827443,
+          "language": "spa",
+          "title": "Selef"
+        }
+      }
+    },
     "778885": {
       "content_id": 778885,
       "reference_id": 7517,
@@ -14857,6 +18597,48 @@
         }
       }
     },
+    "833381": {
+      "content_id": 833381,
+      "reference_id": 4009,
+      "index_reference": "sheria kuhusu chakula",
+      "localizations": {
+        "eng": {
+          "content_id": 4841,
+          "language": "eng",
+          "title": "Dietary Laws"
+        },
+        "arb": {
+          "content_id": 331798,
+          "language": "arb",
+          "title": "شرائع النظام الغذائي"
+        },
+        "fra": {
+          "content_id": 769251,
+          "language": "fra",
+          "title": "Lois alimentaires"
+        },
+        "hin": {
+          "content_id": 381060,
+          "language": "hin",
+          "title": "आहार सम्बन्धी नियम"
+        },
+        "por": {
+          "content_id": 481526,
+          "language": "por",
+          "title": "Leis dietéticas"
+        },
+        "spa": {
+          "content_id": 817529,
+          "language": "spa",
+          "title": "Leyes dietéticas"
+        },
+        "zht": {
+          "content_id": 800759,
+          "language": "zht",
+          "title": "飲食律例"
+        }
+      }
+    },
     "419799": {
       "content_id": 419799,
       "reference_id": 5864,
@@ -14975,6 +18757,112 @@
           "content_id": 800753,
           "language": "zht",
           "title": "深淵"
+        }
+      }
+    },
+    "833463": {
+      "content_id": 833463,
+      "reference_id": 7591,
+      "index_reference": "shinari",
+      "localizations": {
+        "eng": {
+          "content_id": 8423,
+          "language": "eng",
+          "title": "Shinar"
+        },
+        "arb": {
+          "content_id": 444024,
+          "language": "arb",
+          "title": "شِنْعَار"
+        },
+        "fra": {
+          "content_id": 806138,
+          "language": "fra",
+          "title": "Schinear"
+        },
+        "hin": {
+          "content_id": 381863,
+          "language": "hin",
+          "title": "शिनार"
+        },
+        "por": {
+          "content_id": 658736,
+          "language": "por",
+          "title": "Sinar"
+        }
+      }
+    },
+    "833465": {
+      "content_id": 833465,
+      "reference_id": 7650,
+      "index_reference": "sidoni (mahali), msidoni",
+      "localizations": {
+        "eng": {
+          "content_id": 8482,
+          "language": "eng",
+          "title": "Sidon (Place), Sidonian"
+        },
+        "arb": {
+          "content_id": 331967,
+          "language": "arb",
+          "title": "صِيدُون (مكان)، صيدوني"
+        },
+        "fra": {
+          "content_id": 788753,
+          "language": "fra",
+          "title": "Sidon (Lieu), Sidonien"
+        },
+        "hin": {
+          "content_id": 381221,
+          "language": "hin",
+          "title": "सीदोन (स्थान), सीदोनी"
+        },
+        "por": {
+          "content_id": 658738,
+          "language": "por",
+          "title": "Sidom (Lugar), Sidônio"
+        },
+        "spa": {
+          "content_id": 817652,
+          "language": "spa",
+          "title": "Sidón (Lugar), Sidonio"
+        }
+      }
+    },
+    "833464": {
+      "content_id": 833464,
+      "reference_id": 7649,
+      "index_reference": "sidoni (mtu)",
+      "localizations": {
+        "eng": {
+          "content_id": 8481,
+          "language": "eng",
+          "title": "Sidon (Person)"
+        },
+        "arb": {
+          "content_id": 444033,
+          "language": "arb",
+          "title": "صِيْدُون (شخص)"
+        },
+        "fra": {
+          "content_id": 806141,
+          "language": "fra",
+          "title": "Sidon (Personne)"
+        },
+        "hin": {
+          "content_id": 381872,
+          "language": "hin",
+          "title": "सीदोन (व्यक्ति)"
+        },
+        "por": {
+          "content_id": 658737,
+          "language": "por",
+          "title": "Sidom (Pessoa)"
+        },
+        "spa": {
+          "content_id": 827462,
+          "language": "spa",
+          "title": "Sidón (Persona)"
         }
       }
     },
@@ -15966,6 +19854,43 @@
         }
       }
     },
+    "833468": {
+      "content_id": 833468,
+      "reference_id": 8027,
+      "index_reference": "tirasi",
+      "localizations": {
+        "eng": {
+          "content_id": 8859,
+          "language": "eng",
+          "title": "Tiras"
+        },
+        "arb": {
+          "content_id": 444056,
+          "language": "arb",
+          "title": "تِيرَاس"
+        },
+        "fra": {
+          "content_id": 806148,
+          "language": "fra",
+          "title": "Tiras"
+        },
+        "hin": {
+          "content_id": 381899,
+          "language": "hin",
+          "title": "तीरास"
+        },
+        "por": {
+          "content_id": 658742,
+          "language": "por",
+          "title": "Tiras, Tirás"
+        },
+        "spa": {
+          "content_id": 827490,
+          "language": "spa",
+          "title": "Tiras"
+        }
+      }
+    },
     "419816": {
       "content_id": 419816,
       "reference_id": 8041,
@@ -16087,6 +20012,43 @@
         }
       }
     },
+    "833469": {
+      "content_id": 833469,
+      "reference_id": 8051,
+      "index_reference": "togarma",
+      "localizations": {
+        "eng": {
+          "content_id": 8883,
+          "language": "eng",
+          "title": "Togarmah"
+        },
+        "arb": {
+          "content_id": 444057,
+          "language": "arb",
+          "title": "تُوجَرْمَة"
+        },
+        "fra": {
+          "content_id": 806150,
+          "language": "fra",
+          "title": "Togarma"
+        },
+        "hin": {
+          "content_id": 381901,
+          "language": "hin",
+          "title": "तोगर्मा"
+        },
+        "por": {
+          "content_id": 658743,
+          "language": "por",
+          "title": "Togarma"
+        },
+        "spa": {
+          "content_id": 827492,
+          "language": "spa",
+          "title": "Togorma"
+        }
+      }
+    },
     "419783": {
       "content_id": 419783,
       "reference_id": 3734,
@@ -16183,6 +20145,43 @@
           "content_id": 471353,
           "language": "zht",
           "title": "使徒多馬"
+        }
+      }
+    },
+    "833471": {
+      "content_id": 833471,
+      "reference_id": 8107,
+      "index_reference": "tubali",
+      "localizations": {
+        "eng": {
+          "content_id": 8939,
+          "language": "eng",
+          "title": "Tubal"
+        },
+        "arb": {
+          "content_id": 444063,
+          "language": "arb",
+          "title": "تُوبَال"
+        },
+        "fra": {
+          "content_id": 806152,
+          "language": "fra",
+          "title": "Tubal"
+        },
+        "hin": {
+          "content_id": 381908,
+          "language": "hin",
+          "title": "तूबल"
+        },
+        "por": {
+          "content_id": 658746,
+          "language": "por",
+          "title": "Tubal"
+        },
+        "spa": {
+          "content_id": 827500,
+          "language": "spa",
+          "title": "Tubal"
         }
       }
     },
@@ -16427,6 +20426,48 @@
           "content_id": 574047,
           "language": "zht",
           "title": "復活"
+        }
+      }
+    },
+    "833398": {
+      "content_id": 833398,
+      "reference_id": 4705,
+      "index_reference": "ugiriki, kigiriki",
+      "localizations": {
+        "eng": {
+          "content_id": 5537,
+          "language": "eng",
+          "title": "Greece, Greek"
+        },
+        "arb": {
+          "content_id": 159127,
+          "language": "arb",
+          "title": "اليونان، اليونانية"
+        },
+        "fra": {
+          "content_id": 602051,
+          "language": "fra",
+          "title": "Grèce, Grec"
+        },
+        "hin": {
+          "content_id": 184932,
+          "language": "hin",
+          "title": "यूनान, यूनानी "
+        },
+        "por": {
+          "content_id": 161819,
+          "language": "por",
+          "title": "Grécia, Grego"
+        },
+        "spa": {
+          "content_id": 689514,
+          "language": "spa",
+          "title": "Grecia, griego"
+        },
+        "zht": {
+          "content_id": 574002,
+          "language": "zht",
+          "title": " 希臘，希臘人"
         }
       }
     },
@@ -16785,6 +20826,43 @@
         }
       }
     },
+    "833422": {
+      "content_id": 833422,
+      "reference_id": 6209,
+      "index_reference": "ukumbusho",
+      "localizations": {
+        "eng": {
+          "content_id": 7041,
+          "language": "eng",
+          "title": "Memorial"
+        },
+        "arb": {
+          "content_id": 335404,
+          "language": "arb",
+          "title": "نَصب تذكاري"
+        },
+        "fra": {
+          "content_id": 806082,
+          "language": "fra",
+          "title": "Souvenir"
+        },
+        "hin": {
+          "content_id": 381690,
+          "language": "hin",
+          "title": "स्मरण"
+        },
+        "por": {
+          "content_id": 658682,
+          "language": "por",
+          "title": "Memorial"
+        },
+        "spa": {
+          "content_id": 827277,
+          "language": "spa",
+          "title": "Memorial"
+        }
+      }
+    },
     "419808": {
       "content_id": 419808,
       "reference_id": 6986,
@@ -17029,6 +21107,43 @@
         }
       }
     },
+    "833446": {
+      "content_id": 833446,
+      "reference_id": 7081,
+      "index_reference": "upinde wa mvua",
+      "localizations": {
+        "eng": {
+          "content_id": 7913,
+          "language": "eng",
+          "title": "Rainbow"
+        },
+        "arb": {
+          "content_id": 443973,
+          "language": "arb",
+          "title": "قَوسُ قُزَح"
+        },
+        "fra": {
+          "content_id": 806111,
+          "language": "fra",
+          "title": "Arc-en-ciel"
+        },
+        "hin": {
+          "content_id": 381800,
+          "language": "hin",
+          "title": "मेघधनुष"
+        },
+        "por": {
+          "content_id": 658717,
+          "language": "por",
+          "title": "Arco-íris"
+        },
+        "spa": {
+          "content_id": 827389,
+          "language": "spa",
+          "title": "Arcoíris"
+        }
+      }
+    },
     "419790": {
       "content_id": 419790,
       "reference_id": 4589,
@@ -17095,6 +21210,43 @@
           "content_id": 315522,
           "language": "zht",
           "title": "產業"
+        }
+      }
+    },
+    "833441": {
+      "content_id": 833441,
+      "reference_id": 6985,
+      "index_reference": "urithi wa mzaliwa wa kwanza",
+      "localizations": {
+        "eng": {
+          "content_id": 7817,
+          "language": "eng",
+          "title": "Primogeniture"
+        },
+        "arb": {
+          "content_id": 443964,
+          "language": "arb",
+          "title": "البُكُورِيَّة"
+        },
+        "fra": {
+          "content_id": 806106,
+          "language": "fra",
+          "title": "Primogéniture"
+        },
+        "hin": {
+          "content_id": 381787,
+          "language": "hin",
+          "title": "पहलौठे का अधिकार"
+        },
+        "por": {
+          "content_id": 658712,
+          "language": "por",
+          "title": "Primogenitura"
+        },
+        "spa": {
+          "content_id": 827376,
+          "language": "spa",
+          "title": "Primogenitura"
         }
       }
     },
@@ -17169,6 +21321,80 @@
           "content_id": 724604,
           "language": "spa",
           "title": "Compañerismo"
+        }
+      }
+    },
+    "833474": {
+      "content_id": 833474,
+      "reference_id": 8154,
+      "index_reference": "usi (mahali)",
+      "localizations": {
+        "eng": {
+          "content_id": 8986,
+          "language": "eng",
+          "title": "Uz (Place)"
+        },
+        "arb": {
+          "content_id": 444068,
+          "language": "arb",
+          "title": "عَوْص (مكان)"
+        },
+        "fra": {
+          "content_id": 806156,
+          "language": "fra",
+          "title": "Uts (Lieu)"
+        },
+        "hin": {
+          "content_id": 381913,
+          "language": "hin",
+          "title": "ऊस (स्थान)"
+        },
+        "por": {
+          "content_id": 658749,
+          "language": "por",
+          "title": "Uz (Lugar)"
+        },
+        "spa": {
+          "content_id": 827505,
+          "language": "spa",
+          "title": "Uz (Lugar)"
+        }
+      }
+    },
+    "833473": {
+      "content_id": 833473,
+      "reference_id": 8153,
+      "index_reference": "usi (mtu)",
+      "localizations": {
+        "eng": {
+          "content_id": 8985,
+          "language": "eng",
+          "title": "Uz (Person)"
+        },
+        "arb": {
+          "content_id": 444067,
+          "language": "arb",
+          "title": "عُوص (شخص)"
+        },
+        "fra": {
+          "content_id": 806155,
+          "language": "fra",
+          "title": "Uts (Personne)"
+        },
+        "hin": {
+          "content_id": 381912,
+          "language": "hin",
+          "title": "ऊस (व्यक्ति)"
+        },
+        "por": {
+          "content_id": 658748,
+          "language": "por",
+          "title": "Uz (Pessoa)"
+        },
+        "spa": {
+          "content_id": 827504,
+          "language": "spa",
+          "title": "Uz (Persona)"
         }
       }
     },
@@ -17337,6 +21563,43 @@
           "content_id": 574009,
           "language": "zht",
           "title": "聖潔"
+        }
+      }
+    },
+    "833370": {
+      "content_id": 833370,
+      "reference_id": 3182,
+      "index_reference": "utasa",
+      "localizations": {
+        "eng": {
+          "content_id": 4014,
+          "language": "eng",
+          "title": "Barrenness"
+        },
+        "arb": {
+          "content_id": 335182,
+          "language": "arb",
+          "title": "العُقم"
+        },
+        "fra": {
+          "content_id": 805979,
+          "language": "fra",
+          "title": "Stérilité"
+        },
+        "hin": {
+          "content_id": 381344,
+          "language": "hin",
+          "title": "बांझपन"
+        },
+        "por": {
+          "content_id": 658614,
+          "language": "por",
+          "title": "Esterilidade"
+        },
+        "spa": {
+          "content_id": 826933,
+          "language": "spa",
+          "title": "Esterilidad"
         }
       }
     },
@@ -17577,6 +21840,43 @@
         }
       }
     },
+    "833408": {
+      "content_id": 833408,
+      "reference_id": 5113,
+      "index_reference": "uwindaji",
+      "localizations": {
+        "eng": {
+          "content_id": 5945,
+          "language": "eng",
+          "title": "Hunting"
+        },
+        "arb": {
+          "content_id": 443771,
+          "language": "arb",
+          "title": "صَّيْد"
+        },
+        "fra": {
+          "content_id": 806047,
+          "language": "fra",
+          "title": "Chasse"
+        },
+        "hin": {
+          "content_id": 381549,
+          "language": "hin",
+          "title": "शिकार करना"
+        },
+        "por": {
+          "content_id": 658658,
+          "language": "por",
+          "title": "Caça"
+        },
+        "spa": {
+          "content_id": 827135,
+          "language": "spa",
+          "title": "Caza"
+        }
+      }
+    },
     "689590": {
       "content_id": 689590,
       "reference_id": 5646,
@@ -17611,6 +21911,43 @@
           "content_id": 340963,
           "language": "zht",
           "title": "猶太教"
+        }
+      }
+    },
+    "833472": {
+      "content_id": 833472,
+      "reference_id": 8151,
+      "index_reference": "uzali (mtu)",
+      "localizations": {
+        "eng": {
+          "content_id": 8983,
+          "language": "eng",
+          "title": "Uzal (Person)"
+        },
+        "arb": {
+          "content_id": 444066,
+          "language": "arb",
+          "title": "أُوزَال (شخص)"
+        },
+        "fra": {
+          "content_id": 806154,
+          "language": "fra",
+          "title": "Uzal (Personne)"
+        },
+        "hin": {
+          "content_id": 381911,
+          "language": "hin",
+          "title": "ऊजाल (व्यक्ति)"
+        },
+        "por": {
+          "content_id": 658747,
+          "language": "por",
+          "title": "Uzal (Pessoa)"
+        },
+        "spa": {
+          "content_id": 827503,
+          "language": "spa",
+          "title": "Uzal (Persona)"
         }
       }
     },
@@ -17772,6 +22109,80 @@
         }
       }
     },
+    "833358": {
+      "content_id": 833358,
+      "reference_id": 2740,
+      "index_reference": "waamori",
+      "localizations": {
+        "eng": {
+          "content_id": 3572,
+          "language": "eng",
+          "title": "Amorites"
+        },
+        "arb": {
+          "content_id": 443559,
+          "language": "arb",
+          "title": "أَمُورِيّون"
+        },
+        "fra": {
+          "content_id": 805961,
+          "language": "fra",
+          "title": "Amoréens"
+        },
+        "hin": {
+          "content_id": 381298,
+          "language": "hin",
+          "title": "एमोरी"
+        },
+        "por": {
+          "content_id": 658602,
+          "language": "por",
+          "title": "Amorreus"
+        },
+        "spa": {
+          "content_id": 826888,
+          "language": "spa",
+          "title": "Amorreos"
+        }
+      }
+    },
+    "833362": {
+      "content_id": 833362,
+      "reference_id": 2911,
+      "index_reference": "waariki",
+      "localizations": {
+        "eng": {
+          "content_id": 3743,
+          "language": "eng",
+          "title": "Arkite"
+        },
+        "arb": {
+          "content_id": 443577,
+          "language": "arb",
+          "title": "الأَرَكيُّون"
+        },
+        "fra": {
+          "content_id": 805970,
+          "language": "fra",
+          "title": "Arkien"
+        },
+        "hin": {
+          "content_id": 381318,
+          "language": "hin",
+          "title": "अर्की"
+        },
+        "por": {
+          "content_id": 658606,
+          "language": "por",
+          "title": "Arqueus"
+        },
+        "spa": {
+          "content_id": 826907,
+          "language": "spa",
+          "title": "Araceos"
+        }
+      }
+    },
     "713706": {
       "content_id": 713706,
       "reference_id": 4979,
@@ -17883,6 +22294,43 @@
         }
       }
     },
+    "833400": {
+      "content_id": 833400,
+      "reference_id": 4783,
+      "index_reference": "wahamathi",
+      "localizations": {
+        "eng": {
+          "content_id": 5615,
+          "language": "eng",
+          "title": "Hamathite"
+        },
+        "arb": {
+          "content_id": 443739,
+          "language": "arb",
+          "title": "حَمَاتِيّ"
+        },
+        "fra": {
+          "content_id": 806031,
+          "language": "fra",
+          "title": "Hamathien"
+        },
+        "hin": {
+          "content_id": 381514,
+          "language": "hin",
+          "title": "हमाती"
+        },
+        "por": {
+          "content_id": 658649,
+          "language": "por",
+          "title": "Hamateu"
+        },
+        "spa": {
+          "content_id": 827099,
+          "language": "spa",
+          "title": "Hamateo"
+        }
+      }
+    },
     "713708": {
       "content_id": 713708,
       "reference_id": 4990,
@@ -17917,6 +22365,80 @@
           "content_id": 471332,
           "language": "zht",
           "title": "希律黨人"
+        }
+      }
+    },
+    "833405": {
+      "content_id": 833405,
+      "reference_id": 5029,
+      "index_reference": "wahiti",
+      "localizations": {
+        "eng": {
+          "content_id": 5861,
+          "language": "eng",
+          "title": "Hittites"
+        },
+        "arb": {
+          "content_id": 443764,
+          "language": "arb",
+          "title": "حِثِّيُّون"
+        },
+        "fra": {
+          "content_id": 806042,
+          "language": "fra",
+          "title": "Héthiens, Hittites"
+        },
+        "hin": {
+          "content_id": 381541,
+          "language": "hin",
+          "title": "हित्तियों"
+        },
+        "por": {
+          "content_id": 658655,
+          "language": "por",
+          "title": "Hititas"
+        },
+        "spa": {
+          "content_id": 827126,
+          "language": "spa",
+          "title": "Heteos, Hititas"
+        }
+      }
+    },
+    "833406": {
+      "content_id": 833406,
+      "reference_id": 5030,
+      "index_reference": "wahivi",
+      "localizations": {
+        "eng": {
+          "content_id": 5862,
+          "language": "eng",
+          "title": "Hivites"
+        },
+        "arb": {
+          "content_id": 443765,
+          "language": "arb",
+          "title": "حِوِّيُّون"
+        },
+        "fra": {
+          "content_id": 806043,
+          "language": "fra",
+          "title": "Héviens"
+        },
+        "hin": {
+          "content_id": 381542,
+          "language": "hin",
+          "title": "हिब्बी"
+        },
+        "por": {
+          "content_id": 658656,
+          "language": "por",
+          "title": "Heveus"
+        },
+        "spa": {
+          "content_id": 827127,
+          "language": "spa",
+          "title": "Heveos"
         }
       }
     },
@@ -18110,6 +22632,43 @@
         }
       }
     },
+    "833427": {
+      "content_id": 833427,
+      "reference_id": 6524,
+      "index_reference": "wanefili",
+      "localizations": {
+        "eng": {
+          "content_id": 7356,
+          "language": "eng",
+          "title": "Nephilim"
+        },
+        "arb": {
+          "content_id": 335432,
+          "language": "arb",
+          "title": "نيفيليم (الجبابرة)"
+        },
+        "fra": {
+          "content_id": 800723,
+          "language": "fra",
+          "title": "Nephilim"
+        },
+        "hin": {
+          "content_id": 381729,
+          "language": "hin",
+          "title": "नेफिलिम"
+        },
+        "por": {
+          "content_id": 658694,
+          "language": "por",
+          "title": "Nefilins"
+        },
+        "spa": {
+          "content_id": 827315,
+          "language": "spa",
+          "title": "Nefilim"
+        }
+      }
+    },
     "689560": {
       "content_id": 689560,
       "reference_id": 2782,
@@ -18139,6 +22698,80 @@
           "content_id": 340924,
           "language": "zht",
           "title": "動物"
+        }
+      }
+    },
+    "833435": {
+      "content_id": 833435,
+      "reference_id": 6774,
+      "index_reference": "wapathrusi",
+      "localizations": {
+        "eng": {
+          "content_id": 7606,
+          "language": "eng",
+          "title": "Pathrusites"
+        },
+        "arb": {
+          "content_id": 443941,
+          "language": "arb",
+          "title": "الفَتْروسيميون"
+        },
+        "fra": {
+          "content_id": 806100,
+          "language": "fra",
+          "title": "Patrusim"
+        },
+        "hin": {
+          "content_id": 381757,
+          "language": "hin",
+          "title": "पत्रूसी"
+        },
+        "por": {
+          "content_id": 658706,
+          "language": "por",
+          "title": "Patrusitas"
+        },
+        "spa": {
+          "content_id": 827344,
+          "language": "spa",
+          "title": "Patrusitas"
+        }
+      }
+    },
+    "833437": {
+      "content_id": 833437,
+      "reference_id": 6838,
+      "index_reference": "waperizi",
+      "localizations": {
+        "eng": {
+          "content_id": 7670,
+          "language": "eng",
+          "title": "Perizzite"
+        },
+        "arb": {
+          "content_id": 443948,
+          "language": "arb",
+          "title": "ٱلْفِرِزِّيُّون"
+        },
+        "fra": {
+          "content_id": 756975,
+          "language": "fra",
+          "title": "Phérézien"
+        },
+        "hin": {
+          "content_id": 381767,
+          "language": "hin",
+          "title": "परिज्जी"
+        },
+        "por": {
+          "content_id": 658708,
+          "language": "por",
+          "title": "Fereseus"
+        },
+        "spa": {
+          "content_id": 827354,
+          "language": "spa",
+          "title": "Ferezeos"
         }
       }
     },
@@ -18181,6 +22814,43 @@
           "content_id": 796496,
           "language": "spa",
           "title": "Samaritanos"
+        }
+      }
+    },
+    "833466": {
+      "content_id": 833466,
+      "reference_id": 7684,
+      "index_reference": "wasini",
+      "localizations": {
+        "eng": {
+          "content_id": 8516,
+          "language": "eng",
+          "title": "Sinite"
+        },
+        "arb": {
+          "content_id": 444035,
+          "language": "arb",
+          "title": "السِّينِيّ"
+        },
+        "fra": {
+          "content_id": 806142,
+          "language": "fra",
+          "title": "Sinien"
+        },
+        "hin": {
+          "content_id": 381874,
+          "language": "hin",
+          "title": "सीनी"
+        },
+        "por": {
+          "content_id": 658739,
+          "language": "por",
+          "title": "Sineus"
+        },
+        "spa": {
+          "content_id": 827464,
+          "language": "spa",
+          "title": "Sineos"
         }
       }
     },
@@ -18297,6 +22967,43 @@
           "content_id": 796473,
           "language": "spa",
           "title": "Judaizantes"
+        }
+      }
+    },
+    "833478": {
+      "content_id": 833478,
+      "reference_id": 8346,
+      "index_reference": "wazemari",
+      "localizations": {
+        "eng": {
+          "content_id": 9178,
+          "language": "eng",
+          "title": "Zemarites"
+        },
+        "arb": {
+          "content_id": 444076,
+          "language": "arb",
+          "title": "الصَّمَّارِيَّون"
+        },
+        "fra": {
+          "content_id": 806160,
+          "language": "fra",
+          "title": "Tsemariens"
+        },
+        "hin": {
+          "content_id": 381927,
+          "language": "hin",
+          "title": "समारीयों"
+        },
+        "por": {
+          "content_id": 658753,
+          "language": "por",
+          "title": "Zemareus"
+        },
+        "spa": {
+          "content_id": 827519,
+          "language": "spa",
+          "title": "Zemaritas"
         }
       }
     },
@@ -18608,6 +23315,154 @@
         }
       }
     },
+    "833410": {
+      "content_id": 833410,
+      "reference_id": 5410,
+      "index_reference": "yavani (mahali)",
+      "localizations": {
+        "eng": {
+          "content_id": 6242,
+          "language": "eng",
+          "title": "Javan (Place)"
+        },
+        "arb": {
+          "content_id": 443808,
+          "language": "arb",
+          "title": "يَاوَان (مكان)"
+        },
+        "fra": {
+          "content_id": 806054,
+          "language": "fra",
+          "title": "Javan (Lieu)"
+        },
+        "hin": {
+          "content_id": 381594,
+          "language": "hin",
+          "title": "यावान (स्थान)"
+        },
+        "por": {
+          "content_id": 658665,
+          "language": "por",
+          "title": "Javã (Lugar)"
+        },
+        "spa": {
+          "content_id": 827180,
+          "language": "spa",
+          "title": "Javán (Lugar)"
+        }
+      }
+    },
+    "833409": {
+      "content_id": 833409,
+      "reference_id": 5409,
+      "index_reference": "yavani (mtu)",
+      "localizations": {
+        "eng": {
+          "content_id": 6241,
+          "language": "eng",
+          "title": "Javan (Person)"
+        },
+        "arb": {
+          "content_id": 443807,
+          "language": "arb",
+          "title": "يَاوَان (شخص)"
+        },
+        "fra": {
+          "content_id": 806053,
+          "language": "fra",
+          "title": "Javan (Personne)"
+        },
+        "hin": {
+          "content_id": 381593,
+          "language": "hin",
+          "title": "यावान (व्यक्ति)"
+        },
+        "por": {
+          "content_id": 658664,
+          "language": "por",
+          "title": "Javã (Pessoa)"
+        },
+        "spa": {
+          "content_id": 827179,
+          "language": "spa",
+          "title": "Javán (Persona)"
+        }
+      }
+    },
+    "833411": {
+      "content_id": 833411,
+      "reference_id": 5418,
+      "index_reference": "yebusi, wayebusi",
+      "localizations": {
+        "eng": {
+          "content_id": 6250,
+          "language": "eng",
+          "title": "Jebus, Jebusite"
+        },
+        "arb": {
+          "content_id": 443809,
+          "language": "arb",
+          "title": "يَبُوس، الْيَبُوسِيُّون"
+        },
+        "fra": {
+          "content_id": 806055,
+          "language": "fra",
+          "title": "Jebus, Jébusien"
+        },
+        "hin": {
+          "content_id": 381595,
+          "language": "hin",
+          "title": "यबूस, यबूसी"
+        },
+        "por": {
+          "content_id": 658666,
+          "language": "por",
+          "title": "Jebus, Jebuseus"
+        },
+        "spa": {
+          "content_id": 827181,
+          "language": "spa",
+          "title": "Jebus, Jebuseo"
+        }
+      }
+    },
+    "833412": {
+      "content_id": 833412,
+      "reference_id": 5478,
+      "index_reference": "yera",
+      "localizations": {
+        "eng": {
+          "content_id": 6310,
+          "language": "eng",
+          "title": "Jerah"
+        },
+        "arb": {
+          "content_id": 443813,
+          "language": "arb",
+          "title": "يَارَح"
+        },
+        "fra": {
+          "content_id": 806056,
+          "language": "fra",
+          "title": "Jérach"
+        },
+        "hin": {
+          "content_id": 381599,
+          "language": "hin",
+          "title": "येरह"
+        },
+        "por": {
+          "content_id": 658667,
+          "language": "por",
+          "title": "Jerá"
+        },
+        "spa": {
+          "content_id": 827185,
+          "language": "spa",
+          "title": "Jera"
+        }
+      }
+    },
     "689587": {
       "content_id": 689587,
       "reference_id": 5514,
@@ -18701,6 +23556,43 @@
           "content_id": 340959,
           "language": "zht",
           "title": "耶穌基督的教導"
+        }
+      }
+    },
+    "833413": {
+      "content_id": 833413,
+      "reference_id": 5561,
+      "index_reference": "yobabu",
+      "localizations": {
+        "eng": {
+          "content_id": 6393,
+          "language": "eng",
+          "title": "Jobab"
+        },
+        "arb": {
+          "content_id": 443822,
+          "language": "arb",
+          "title": "يُوبَاب"
+        },
+        "fra": {
+          "content_id": 806059,
+          "language": "fra",
+          "title": "Jobab"
+        },
+        "hin": {
+          "content_id": 381610,
+          "language": "hin",
+          "title": "योबाब"
+        },
+        "por": {
+          "content_id": 658668,
+          "language": "por",
+          "title": "Jobabe"
+        },
+        "spa": {
+          "content_id": 827196,
+          "language": "spa",
+          "title": "Jobab"
         }
       }
     },
@@ -18881,6 +23773,43 @@
           "content_id": 340961,
           "language": "zht",
           "title": "使徒約翰"
+        }
+      }
+    },
+    "833414": {
+      "content_id": 833414,
+      "reference_id": 5593,
+      "index_reference": "yoktani",
+      "localizations": {
+        "eng": {
+          "content_id": 6425,
+          "language": "eng",
+          "title": "Joktan"
+        },
+        "arb": {
+          "content_id": 443825,
+          "language": "arb",
+          "title": "يَقْطَان"
+        },
+        "fra": {
+          "content_id": 806060,
+          "language": "fra",
+          "title": "Jokthan"
+        },
+        "hin": {
+          "content_id": 381613,
+          "language": "hin",
+          "title": "योक्तान"
+        },
+        "por": {
+          "content_id": 658669,
+          "language": "por",
+          "title": "Joctã"
+        },
+        "spa": {
+          "content_id": 827199,
+          "language": "spa",
+          "title": "Joctán"
         }
       }
     },
