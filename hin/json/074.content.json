@@ -2,7 +2,7 @@
   {
     "content_id": "620646",
     "reference_id": 3963,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "स्थापन पर्व",
     "media_type": "Text",
     "index_reference": "स्थापन पर्व",
@@ -18,13 +18,22 @@
           "end_ref_usfm": "JHN 10:22"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Jerusalem",
+          "type": "place",
+          "preferred_label": "यरूशलेम",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "733238",
     "reference_id": 5199,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "स्थापन भेंट",
     "media_type": "Text",
     "index_reference": "स्थापन भेंट",
@@ -41,7 +50,8 @@
           "label": "भेंट और बलिदान",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   }
 ]

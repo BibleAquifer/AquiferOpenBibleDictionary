@@ -2,7 +2,7 @@
   {
     "content_id": "340966",
     "reference_id": 5871,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "皮革",
     "media_type": "Text",
     "index_reference": "皮革",
@@ -138,7 +138,23 @@
           "end_ref_usfm": "EZK 3:3"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "realia:Leather",
+          "type": "realia",
+          "preferred_label": "Leather",
+          "confidence": 0.9394,
+          "match_method": "embedding"
+        },
+        {
+          "id": "realia:Skin",
+          "type": "realia",
+          "preferred_label": "Skin",
+          "confidence": 0.8053,
+          "match_method": "embedding"
+        }
+      ]
     }
   }
 ]

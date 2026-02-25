@@ -2,7 +2,7 @@
   {
     "content_id": "826034",
     "reference_id": 7796,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "珍貴的寶石",
     "media_type": "Text",
     "index_reference": "珍貴的寶石",
@@ -336,13 +336,14 @@
           "end_ref_usfm": "REV 21:19"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "826010",
     "reference_id": 3209,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "珍珠",
     "media_type": "Text",
     "index_reference": "珍珠",
@@ -372,13 +373,14 @@
           "label": "植物",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "574033",
     "reference_id": 6507,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "針",
     "media_type": "Text",
     "index_reference": "針",
@@ -424,13 +426,22 @@
           "end_ref_usfm": "LUK 18:23"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "realia:Needle",
+          "type": "realia",
+          "preferred_label": "Needle",
+          "confidence": 0.8225,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "864966",
     "reference_id": 7006,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "箴言",
     "media_type": "Text",
     "index_reference": "箴言",
@@ -1516,7 +1527,8 @@
           "label": "聖經的詩歌",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   }
 ]

@@ -2,7 +2,7 @@
   {
     "content_id": "159169",
     "reference_id": 7063,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "الرابي",
     "media_type": "Text",
     "index_reference": "الرابي",
@@ -72,13 +72,14 @@
           "end_ref_usfm": "MAT 23:8"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "159177",
     "reference_id": 7535,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "الرَّاعِي",
     "media_type": "Text",
     "index_reference": "الرَّاعِي",
@@ -292,13 +293,29 @@
           "end_ref_usfm": "EZK 34:22"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:JezreelValley",
+          "type": "place",
+          "preferred_label": "ٱلْوَادِي",
+          "confidence": 0.8164,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:ValleyGate",
+          "type": "place",
+          "preferred_label": "ٱلْوَادِي",
+          "confidence": 0.8164,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "201449",
     "reference_id": 2906,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "الرَّامَة",
     "media_type": "Text",
     "index_reference": "الرَّامَة",
@@ -338,13 +355,36 @@
           "end_ref_usfm": "JHN 19:38"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Arimathea",
+          "type": "place",
+          "preferred_label": "ٱلرَّامَةِ",
+          "confidence": 0.786,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Ramah",
+          "type": "place",
+          "preferred_label": "ٱلرَّامَةِ",
+          "confidence": 0.626,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jeroham",
+          "type": "person",
+          "preferred_label": "يَروحَامَ",
+          "confidence": 0.509,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "512007",
     "reference_id": 7091,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "الرَّامَتَائِيم",
     "media_type": "Text",
     "index_reference": "الرَّامَتَائِيم",
@@ -368,13 +408,50 @@
           "label": "رَّامَتَائِيمُ ",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "deity:Seraph",
+          "type": "deity",
+          "preferred_label": "ٱلسَّرَافِيم",
+          "confidence": 0.8445,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Paddan-aram",
+          "type": "place",
+          "preferred_label": "ٱلْأَرَامِيِّ",
+          "confidence": 0.832,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Aramitess",
+          "type": "person",
+          "preferred_label": "ٱلْأَرَامِيَّة",
+          "confidence": 0.8163,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Amram",
+          "type": "person",
+          "preferred_label": "ٱلْعَمْرَامِيِّينَ",
+          "confidence": 0.8117,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Amram.2",
+          "type": "person",
+          "preferred_label": "ٱلْعَمْرَامِيِّينَ",
+          "confidence": 0.8117,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "512008",
     "reference_id": 7092,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "الرَّامِيّ",
     "media_type": "Text",
     "index_reference": "الرَّامِيّ",
@@ -390,13 +467,43 @@
           "end_ref_usfm": "1CH 27:27"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Shimei.12",
+          "type": "person",
+          "preferred_label": "شِمْعِي",
+          "confidence": 0.7885,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Zabdi.3",
+          "type": "person",
+          "preferred_label": "زَبْدِي",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Shiphmites",
+          "type": "group",
+          "preferred_label": "Shiphmites",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Ramathites",
+          "type": "group",
+          "preferred_label": "Ramathites",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "443572",
     "reference_id": 2884,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "الرَّامي، الرِمَاية",
     "media_type": "Text",
     "index_reference": "الرَّامي، الرِمَاية",
@@ -510,13 +617,14 @@
           "label": "دروع وأسلحة",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "509446",
     "reference_id": 2828,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "الرؤيوي",
     "media_type": "Text",
     "index_reference": "الرؤيوي",
@@ -533,13 +641,14 @@
           "label": "الأسفار المنحولة \"الأبوكريفا\"",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "509447",
     "reference_id": 2829,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "الرؤيوي",
     "media_type": "Text",
     "index_reference": "الرؤيوي",
@@ -570,13 +679,14 @@
           "label": "سَِفْرُ الرُّؤْيا",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "232592",
     "reference_id": 5948,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "الرب",
     "media_type": "Text",
     "index_reference": "الرب",
@@ -933,13 +1043,22 @@
           "label": "الرب (يهوه)",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "ٱلرَّبِّ",
+          "confidence": 0.8213,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "512723",
     "reference_id": 8269,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "الرب (يهوه)",
     "media_type": "Text",
     "index_reference": "الرب (يهوه)",
@@ -956,13 +1075,22 @@
           "label": "أسماءُ الله",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "ٱلرَّبِّ",
+          "confidence": 0.8213,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "512101",
     "reference_id": 7256,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "الرَّباب",
     "media_type": "Text",
     "index_reference": "الرَّباب",
@@ -986,13 +1114,14 @@
           "label": "الآلات الموسيقية",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "512616",
     "reference_id": 8095,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "الرَّبَابُ",
     "media_type": "Text",
     "index_reference": "الرَّبَابُ",
@@ -1016,13 +1145,22 @@
           "label": "الآلات الموسيقية",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Arabia",
+          "type": "place",
+          "preferred_label": "ٱلْعَرَبِ",
+          "confidence": 0.8005,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "511962",
     "reference_id": 7011,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "الرَبَابَة",
     "media_type": "Text",
     "index_reference": "الرَبَابَة",
@@ -1039,13 +1177,14 @@
           "label": "الآلات الموسيقية",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "335195",
     "reference_id": 3415,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "الربط والحل",
     "media_type": "Text",
     "index_reference": "الربط والحل",
@@ -1135,13 +1274,14 @@
           "label": "مَفَاتِيحَ الملكوت",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "159156",
     "reference_id": 6405,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "الرثاء",
     "media_type": "Text",
     "index_reference": "الرثاء",
@@ -1514,13 +1654,14 @@
           "label": "العادات الجنائزية",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "511841",
     "reference_id": 6770,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "الرسائل الرعوية",
     "media_type": "Text",
     "index_reference": "الرسائل الرعوية",
@@ -1558,13 +1699,14 @@
           "label": "تيموثاوس، الرسالة الثانية إلى ",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "510322",
     "reference_id": 4298,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "الرسائل، غير القانونية",
     "media_type": "Text",
     "index_reference": "الرسائل، غير القانونية",
@@ -1581,13 +1723,14 @@
           "label": "الأسفار المنحولة \"الأبوكريفا\"",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "852631",
     "reference_id": 213083,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "الرسالة الثالثة إلى كورنثوس",
     "media_type": "Text",
     "index_reference": "الرسالة الثالثة إلى كورنثوس",
@@ -1604,13 +1747,14 @@
           "label": "الرسالة الثانية إلى كنيسة كورنثوس",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "331782",
     "reference_id": 3819,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "الرسالة الثانية إلى كنيسة كورنثوس",
     "media_type": "Text",
     "index_reference": "الرسالة الثانية إلى كنيسة كورنثوس",
@@ -2111,13 +2255,14 @@
           "label": "بولس، الرسول",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "232579",
     "reference_id": 4927,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "الرسالة إلى العبرانيين",
     "media_type": "Text",
     "index_reference": "الرسالة إلى العبرانيين",
@@ -3075,13 +3220,14 @@
           "end_ref_usfm": "HEB 13:7"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "800783",
     "reference_id": 7229,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "الرسالة إلى أهل رومية",
     "media_type": "Text",
     "index_reference": "الرسالة إلى أهل رومية",
@@ -3789,13 +3935,14 @@
           "label": "بولس، الرسول",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "511313",
     "reference_id": 5869,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "الرَّصَاص",
     "media_type": "Text",
     "index_reference": "الرَّصَاص",
@@ -3812,13 +3959,36 @@
           "label": "المَعادِن والفِلزَّات",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Rab-saris",
+          "type": "person",
+          "preferred_label": "ٱلْخِصْيَانِ",
+          "confidence": 0.8407,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Rab-saris.2",
+          "type": "person",
+          "preferred_label": "ٱلْخِصْيَانِ",
+          "confidence": 0.8407,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:FoundationGate",
+          "type": "place",
+          "preferred_label": "ٱلْأَسَاسِ",
+          "confidence": 0.8078,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "443980",
     "reference_id": 7171,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "الرَّفَائِيِّون-الْأَخِيلَة",
     "media_type": "Text",
     "index_reference": "الرَّفَائِيِّون-الْأَخِيلَة",
@@ -3932,13 +4102,36 @@
           "label": "الْجَبَابِرَة",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Aiah.2",
+          "type": "person",
+          "preferred_label": "أَيَّةَ",
+          "confidence": 0.6261,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Ashtaroth",
+          "type": "place",
+          "preferred_label": "فِي",
+          "confidence": 0.6174,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Zela",
+          "type": "place",
+          "preferred_label": "فِي",
+          "confidence": 0.6087,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "124529",
     "reference_id": 5801,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "الركوع",
     "media_type": "Text",
     "index_reference": "الركوع",
@@ -4134,13 +4327,14 @@
           "end_ref_usfm": "HEB 12:12"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "510791",
     "reference_id": 5053,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "الروح القدس",
     "media_type": "Text",
     "index_reference": "الروح القدس",
@@ -4157,13 +4351,14 @@
           "label": "روح الله",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "512165",
     "reference_id": 7376,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رائي",
     "media_type": "Text",
     "index_reference": "رائي",
@@ -4187,13 +4382,14 @@
           "label": "نَبِيّ، نَبِيَّة",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "512030",
     "reference_id": 7124,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَآيَا",
     "media_type": "Text",
     "index_reference": "رَآيَا",
@@ -4233,13 +4429,29 @@
           "end_ref_usfm": "NEH 7:50"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Reaiah.3",
+          "type": "person",
+          "preferred_label": "رَآيَا",
+          "confidence": 0.76,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Reaiah.2",
+          "type": "person",
+          "preferred_label": "رَآيَا",
+          "confidence": 0.68,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "490630",
     "reference_id": 7127,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَابِع",
     "media_type": "Text",
     "index_reference": "رَابِع",
@@ -4261,13 +4473,64 @@
           "end_ref_usfm": "JOS 13:21"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Reba",
+          "type": "person",
+          "preferred_label": "رَابِعَ",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rekem",
+          "type": "person",
+          "preferred_label": "رَاقَم",
+          "confidence": 0.8515,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Evi",
+          "type": "person",
+          "preferred_label": "أَوِيَ",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hur.3",
+          "type": "person",
+          "preferred_label": "حور",
+          "confidence": 0.649,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Zur.2",
+          "type": "person",
+          "preferred_label": "صورَ",
+          "confidence": 0.649,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Midian",
+          "type": "place",
+          "preferred_label": "مِدْيَانَ",
+          "confidence": 0.5935,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Balaam",
+          "type": "person",
+          "preferred_label": "بَلْعَامَ",
+          "confidence": 0.5195,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "511990",
     "reference_id": 7065,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رابماغ، رئيس المجوس*",
     "media_type": "Text",
     "index_reference": "رابماغ، رئيس المجوس*",
@@ -4289,13 +4552,43 @@
           "end_ref_usfm": "JER 39:13"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rab-mag",
+          "type": "person",
+          "preferred_label": "ٱلْمَجوسِ",
+          "confidence": 0.721,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rab-saris.2",
+          "type": "person",
+          "preferred_label": "ٱلْخِصْيَانِ",
+          "confidence": 0.676,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nergal-shar-ezer.2",
+          "type": "person",
+          "preferred_label": "Nergal-shar-ezer",
+          "confidence": 0.604,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Babylon",
+          "type": "place",
+          "preferred_label": "بَابِلَ",
+          "confidence": 0.5125,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "335473",
     "reference_id": 7070,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "راحاب (راخاب)",
     "media_type": "Text",
     "index_reference": "راحاب (راخاب)",
@@ -4319,13 +4612,36 @@
           "label": "راحاب (شخص)",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Rahab",
+          "type": "person",
+          "preferred_label": "رَاحَاب",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Boaz",
+          "type": "person",
+          "preferred_label": "بوعَز",
+          "confidence": 0.64,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Obed",
+          "type": "person",
+          "preferred_label": "عوبِيدَ",
+          "confidence": 0.631,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "335477",
     "reference_id": 7078,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "راحاب (شخص)",
     "media_type": "Text",
     "index_reference": "راحاب (شخص)",
@@ -4380,13 +4696,22 @@
           "label": "سِفْرُ يَشُوع",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Rahab",
+          "type": "person",
+          "preferred_label": "رَاحَاب",
+          "confidence": 0.856,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "335482",
     "reference_id": 7178,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "راحة",
     "media_type": "Text",
     "index_reference": "راحة",
@@ -4550,13 +4875,14 @@
           "label": "سَبت",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "335475",
     "reference_id": 7073,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَاحِيل",
     "media_type": "Text",
     "index_reference": "رَاحِيل",
@@ -4628,13 +4954,22 @@
           "label": "يعقوب",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Rachel",
+          "type": "person",
+          "preferred_label": "رَاحِيل",
+          "confidence": 0.9333,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "511993",
     "reference_id": 7068,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَاخَال",
     "media_type": "Text",
     "index_reference": "رَاخَال",
@@ -4650,13 +4985,29 @@
           "end_ref_usfm": "1SA 30:29"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Jerahmeel",
+          "type": "person",
+          "preferred_label": "يَرْحَمْئِيل",
+          "confidence": 0.739,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Jerahmeel",
+          "type": "group",
+          "preferred_label": "Jerahmeelites",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "512029",
     "reference_id": 7122,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رازيس",
     "media_type": "Text",
     "index_reference": "رازيس",
@@ -4672,13 +5023,14 @@
           "end_ref_usfm": "2MA 14:46"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "159129",
     "reference_id": 4914,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رأس",
     "media_type": "Text",
     "index_reference": "رأس",
@@ -4964,13 +5316,14 @@
           "end_ref_usfm": "EPH 1:22"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "511601",
     "reference_id": 6366,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رأس الشهر",
     "media_type": "Text",
     "index_reference": "رأس الشهر",
@@ -5001,13 +5354,14 @@
           "label": "القمر",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "510063",
     "reference_id": 3843,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رأس، غطاء الـ",
     "media_type": "Text",
     "index_reference": "رأس، غطاء الـ",
@@ -5073,13 +5427,14 @@
           "label": "رِسَالَةُ الرَّسُولِ بُولُس الأُولَى إِلَى أَهْلِ كُورِنْثُوس",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "512025",
     "reference_id": 7118,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "راسيس، الراسيسيون",
     "media_type": "Text",
     "index_reference": "راسيس، الراسيسيون",
@@ -5095,13 +5450,14 @@
           "end_ref_usfm": "JDT 2:23"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "335491",
     "reference_id": 7244,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "راعوث (شخص)",
     "media_type": "Text",
     "index_reference": "راعوث (شخص)",
@@ -5150,13 +5506,22 @@
           "label": "سِفْر راعوث",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Ruth",
+          "type": "person",
+          "preferred_label": "رَاعوث",
+          "confidence": 0.5745,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "443975",
     "reference_id": 7114,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَافَا",
     "media_type": "Text",
     "index_reference": "رَافَا",
@@ -5192,13 +5557,64 @@
           "label": "رَفَايَا",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Raphah",
+          "type": "person",
+          "preferred_label": "رَافَةَ",
+          "confidence": 0.6568,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Naaman",
+          "type": "person",
+          "preferred_label": "نعْمَان",
+          "confidence": 0.6237,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Gera",
+          "type": "person",
+          "preferred_label": "جِيرَا",
+          "confidence": 0.5848,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Becher",
+          "type": "person",
+          "preferred_label": "لِبَاكَرَ",
+          "confidence": 0.5398,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ard",
+          "type": "person",
+          "preferred_label": "أَرْدَ",
+          "confidence": 0.5308,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rosh",
+          "type": "person",
+          "preferred_label": "روش",
+          "confidence": 0.5157,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Bela",
+          "type": "person",
+          "preferred_label": "بَالَع",
+          "confidence": 0.5083,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "512020",
     "reference_id": 7111,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رافائيل",
     "media_type": "Text",
     "index_reference": "رافائيل",
@@ -5274,13 +5690,22 @@
           "end_ref_usfm": "TOB 11:18"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rephael",
+          "type": "person",
+          "preferred_label": "رَفَائِيل",
+          "confidence": 0.8239,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "512022",
     "reference_id": 7113,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رافانا",
     "media_type": "Text",
     "index_reference": "رافانا",
@@ -5297,13 +5722,22 @@
           "label": "تحالف المدن العشر*",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Ravenna",
+          "type": "place",
+          "preferred_label": "Ravenna",
+          "confidence": 0.8349,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "335227",
     "reference_id": 3790,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رأفة",
     "media_type": "Text",
     "index_reference": "رأفة",
@@ -5493,13 +5927,78 @@
           "end_ref_usfm": "ISA 54:8"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rebekah",
+          "type": "person",
+          "preferred_label": "رِفْقَة",
+          "confidence": 0.861,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Rizpah",
+          "type": "person",
+          "preferred_label": "رِصْفَة",
+          "confidence": 0.8338,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Orpah",
+          "type": "person",
+          "preferred_label": "عرْفَة",
+          "confidence": 0.8187,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Taphath",
+          "type": "person",
+          "preferred_label": "طَافَة",
+          "confidence": 0.8154,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Ephah",
+          "type": "person",
+          "preferred_label": "عِيفَة",
+          "confidence": 0.8147,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Ephah.2",
+          "type": "person",
+          "preferred_label": "عِيفَة",
+          "confidence": 0.8147,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Ephah.3",
+          "type": "person",
+          "preferred_label": "عِيفَة",
+          "confidence": 0.8147,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Ephah",
+          "type": "place",
+          "preferred_label": "عِيفَة",
+          "confidence": 0.8147,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Rezeph",
+          "type": "place",
+          "preferred_label": "رَصْفَ",
+          "confidence": 0.8005,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "512021",
     "reference_id": 7112,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَافَة",
     "media_type": "Text",
     "index_reference": "رَافَة",
@@ -5523,13 +6022,50 @@
           "label": "رَفَايَا",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Raphah",
+          "type": "person",
+          "preferred_label": "رَافَةَ",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Eleasah.2",
+          "type": "person",
+          "preferred_label": "أَلِعَاسَةَ",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Binea",
+          "type": "person",
+          "preferred_label": "بِنْعَةَ",
+          "confidence": 0.757,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Azel",
+          "type": "person",
+          "preferred_label": "آصِيلَ",
+          "confidence": 0.631,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Moza.2",
+          "type": "person",
+          "preferred_label": "موصَا",
+          "confidence": 0.562,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "490628",
     "reference_id": 7116,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَافو",
     "media_type": "Text",
     "index_reference": "رَافو",
@@ -5545,13 +6081,43 @@
           "end_ref_usfm": "NUM 13:9"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Raphu",
+          "type": "person",
+          "preferred_label": "رَافو",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Palti",
+          "type": "person",
+          "preferred_label": "لِفَلْطِي",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Benjamin",
+          "type": "group",
+          "preferred_label": "بَنْيَامِينَ",
+          "confidence": 0.5125,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Benjamin",
+          "type": "person",
+          "preferred_label": "بَنْيَامِينَ",
+          "confidence": 0.5125,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "512023",
     "reference_id": 7115,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رافون",
     "media_type": "Text",
     "index_reference": "رافون",
@@ -5567,13 +6133,14 @@
           "end_ref_usfm": "1MA 5:43"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "511997",
     "reference_id": 7079,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَاقَم",
     "media_type": "Text",
     "index_reference": "رَاقَم",
@@ -5589,13 +6156,50 @@
           "end_ref_usfm": "1CH 2:44"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rekem.2",
+          "type": "person",
+          "preferred_label": "رَاقَم",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Raham",
+          "type": "person",
+          "preferred_label": "رَاقَمَ",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shammai.2",
+          "type": "person",
+          "preferred_label": "شَمَّايَ",
+          "confidence": 0.8515,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jorkeam",
+          "type": "person",
+          "preferred_label": "يَرقْعَامَ",
+          "confidence": 0.7885,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shema",
+          "type": "person",
+          "preferred_label": "شَامِعَ",
+          "confidence": 0.775,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "512002",
     "reference_id": 7085,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَاقَم",
     "media_type": "Text",
     "index_reference": "رَاقَم",
@@ -5611,13 +6215,57 @@
           "end_ref_usfm": "1CH 7:16"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rakem",
+          "type": "person",
+          "preferred_label": "رَاقَم",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Sheresh",
+          "type": "person",
+          "preferred_label": "شَارَش",
+          "confidence": 0.82,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Peresh",
+          "type": "person",
+          "preferred_label": "فَرَشَ",
+          "confidence": 0.7975,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Maacah.5",
+          "type": "person",
+          "preferred_label": "مَعْكَة",
+          "confidence": 0.757,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Machir",
+          "type": "person",
+          "preferred_label": "مَاكِيرَ",
+          "confidence": 0.7465,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ulam",
+          "type": "person",
+          "preferred_label": "أولَام",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "512053",
     "reference_id": 7157,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَاقَم (اسم مكان)",
     "media_type": "Text",
     "index_reference": "رَاقَم (اسم مكان)",
@@ -5633,13 +6281,36 @@
           "end_ref_usfm": "JOS 18:27"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Rekem",
+          "type": "place",
+          "preferred_label": "رَاقَم",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Taralah",
+          "type": "place",
+          "preferred_label": "تَرَالَةَ",
+          "confidence": 0.8065,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Irpeel",
+          "type": "place",
+          "preferred_label": "يَرَفْئِيلَ",
+          "confidence": 0.721,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "490632",
     "reference_id": 7156,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَاقَم (شخص)",
     "media_type": "Text",
     "index_reference": "رَاقَم (شخص)",
@@ -5667,13 +6338,64 @@
           "end_ref_usfm": "1CH 2:44"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rekem",
+          "type": "person",
+          "preferred_label": "رَاقَم",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rekem.2",
+          "type": "person",
+          "preferred_label": "رَاقَم",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Raham",
+          "type": "person",
+          "preferred_label": "رَاقَمَ",
+          "confidence": 0.7,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Reba",
+          "type": "person",
+          "preferred_label": "رَابِعَ",
+          "confidence": 0.6515,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shema",
+          "type": "person",
+          "preferred_label": "شَامِعَ",
+          "confidence": 0.575,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shammai.2",
+          "type": "person",
+          "preferred_label": "شَمَّايَ",
+          "confidence": 0.5515,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Evi",
+          "type": "person",
+          "preferred_label": "أَوِيَ",
+          "confidence": 0.512,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "335480",
     "reference_id": 7104,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رام (شخص)",
     "media_type": "Text",
     "index_reference": "رام (شخص)",
@@ -5727,13 +6449,22 @@
           "label": "نسب يسوع المسيح",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Ram",
+          "type": "person",
+          "preferred_label": "رَامَ",
+          "confidence": 0.6465,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "335479",
     "reference_id": 7096,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "راما (الرامة)",
     "media_type": "Text",
     "index_reference": "راما (الرامة)",
@@ -5757,13 +6488,14 @@
           "label": "رَّامَة",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "335478",
     "reference_id": 7089,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَّامَة",
     "media_type": "Text",
     "index_reference": "رَّامَة",
@@ -5968,13 +6700,29 @@
           "label": "رَاموت جلعاد",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Ramah",
+          "type": "place",
+          "preferred_label": "ٱلرَّامَةِ",
+          "confidence": 0.6299,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Adamah",
+          "type": "place",
+          "preferred_label": "أَدَامَة",
+          "confidence": 0.5171,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "512011",
     "reference_id": 7095,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رامة الجنوب",
     "media_type": "Text",
     "index_reference": "رامة الجنوب",
@@ -5998,13 +6746,50 @@
           "label": " بَعْلَةِ بَئْرِ",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Negeb",
+          "type": "place",
+          "preferred_label": "ٱلْجَنوبِ",
+          "confidence": 0.6385,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Baalath-beer",
+          "type": "place",
+          "preferred_label": "Baalath-beer",
+          "confidence": 0.5905,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Ramah.2",
+          "type": "place",
+          "preferred_label": "Ramah",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Simeon.5",
+          "type": "person",
+          "preferred_label": "شِمْعونَ",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Simeon",
+          "type": "group",
+          "preferred_label": "شِمْعونَ",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "512010",
     "reference_id": 7094,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَامَةُ الْمِصْفَاةِ",
     "media_type": "Text",
     "index_reference": "رَامَةُ الْمِصْفَاةِ",
@@ -6028,13 +6813,36 @@
           "label": "الْمِصْفَاة",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Betonim",
+          "type": "place",
+          "preferred_label": "بطونِيمَ",
+          "confidence": 0.622,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Ramath-mizpeh",
+          "type": "place",
+          "preferred_label": "Ramath-mizpeh",
+          "confidence": 0.5815,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Mahanaim",
+          "type": "place",
+          "preferred_label": "مَحَنَايِمَ",
+          "confidence": 0.571,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "512026",
     "reference_id": 7119,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَّامَتَائِيمُ",
     "media_type": "Text",
     "index_reference": "رَّامَتَائِيمُ",
@@ -6086,13 +6894,22 @@
           "end_ref_usfm": "1MA 11:34"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Ramah",
+          "type": "place",
+          "preferred_label": "ٱلرَّامَةِ",
+          "confidence": 0.5464,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "512006",
     "reference_id": 7090,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَامَتَايِمُ صُوفِيمَ",
     "media_type": "Text",
     "index_reference": "رَامَتَايِمُ صُوفِيمَ",
@@ -6116,13 +6933,71 @@
           "label": "رَّامَة",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Jeroham",
+          "type": "person",
+          "preferred_label": "يَروحَامَ",
+          "confidence": 0.784,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Ephraim",
+          "type": "group",
+          "preferred_label": "أَفْرَايِمَ",
+          "confidence": 0.7375,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ephraim",
+          "type": "person",
+          "preferred_label": "أَفْرَايِمَ",
+          "confidence": 0.7375,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Ramah",
+          "type": "place",
+          "preferred_label": "ٱلرَّامَةِ",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Elkanah.2",
+          "type": "person",
+          "preferred_label": "أَلْقَانَة",
+          "confidence": 0.703,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Zuph",
+          "type": "person",
+          "preferred_label": "صوفٍ",
+          "confidence": 0.6715,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Elihu",
+          "type": "person",
+          "preferred_label": "أَلِيهو",
+          "confidence": 0.6535,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tohu",
+          "type": "person",
+          "preferred_label": "توحوَ",
+          "confidence": 0.6265,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "512016",
     "reference_id": 7103,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَامُوت (المكان)",
     "media_type": "Text",
     "index_reference": "رَامُوت (المكان)",
@@ -6166,13 +7041,22 @@
           "label": "رَاموت جلعاد",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Remeth",
+          "type": "place",
+          "preferred_label": "رَمَةَ",
+          "confidence": 0.575,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "512014",
     "reference_id": 7101,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "راموت النقب، راموت الجنوب",
     "media_type": "Text",
     "index_reference": "راموت النقب، راموت الجنوب",
@@ -6196,13 +7080,36 @@
           "label": " بَعْلَةِ بَئْرِ",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Negeb",
+          "type": "place",
+          "preferred_label": "ٱلْجَنوبِ",
+          "confidence": 0.607,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Bethel.2",
+          "type": "place",
+          "preferred_label": "Bethel",
+          "confidence": 0.586,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Jattir",
+          "type": "place",
+          "preferred_label": "يَتِّير",
+          "confidence": 0.5125,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "490626",
     "reference_id": 7100,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَاموت جلعاد",
     "media_type": "Text",
     "index_reference": "رَاموت جلعاد",
@@ -6281,13 +7188,22 @@
           "label": "مدن اللاويين",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Ramoth-gilead",
+          "type": "place",
+          "preferred_label": "رَاموتَ",
+          "confidence": 0.686,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "512015",
     "reference_id": 7102,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَامُوث (شخص)",
     "media_type": "Text",
     "index_reference": "رَامُوث (شخص)",
@@ -6311,13 +7227,64 @@
           "label": "يَرِيمُوث",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Meshullam.11",
+          "type": "person",
+          "preferred_label": "مَشلَّام",
+          "confidence": 0.8065,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jeremoth.5",
+          "type": "person",
+          "preferred_label": "يَرِيموت",
+          "confidence": 0.7885,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Malluch.2",
+          "type": "person",
+          "preferred_label": "مَلّوخ",
+          "confidence": 0.757,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Bani",
+          "type": "person",
+          "preferred_label": "بَانِيَ",
+          "confidence": 0.757,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Adaiah.5",
+          "type": "person",
+          "preferred_label": "عَدَايَا",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jashub.2",
+          "type": "person",
+          "preferred_label": "يَاشوب",
+          "confidence": 0.6895,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Sheal",
+          "type": "person",
+          "preferred_label": "شَآل",
+          "confidence": 0.631,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "509853",
     "reference_id": 3486,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رامي السهام",
     "media_type": "Text",
     "index_reference": "رامي السهام",
@@ -6334,13 +7301,14 @@
           "label": "الرَّامي، الرِمَاية",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "443982",
     "reference_id": 7181,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَأُوبَيْن (شخص)",
     "media_type": "Text",
     "index_reference": "رَأُوبَيْن (شخص)",
@@ -6413,13 +7381,22 @@
           "label": "سبط رَأُوبَيْن",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Reuben",
+          "type": "person",
+          "preferred_label": "رَأوبَيْنَ",
+          "confidence": 0.7411,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "490635",
     "reference_id": 7182,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَأوبَيْن (مكان)",
     "media_type": "Text",
     "index_reference": "رَأوبَيْن (مكان)",
@@ -6450,13 +7427,29 @@
           "label": "سبط رَأُوبَيْن",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "group:Reuben",
+          "type": "group",
+          "preferred_label": "رَأوبَيْنَ",
+          "confidence": 0.5262,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Reuben",
+          "type": "person",
+          "preferred_label": "رَأوبَيْنَ",
+          "confidence": 0.5262,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "490634",
     "reference_id": 7180,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رأوبيني",
     "media_type": "Text",
     "index_reference": "رأوبيني",
@@ -6486,13 +7479,29 @@
           "label": "سبط رَأُوبَيْن",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "group:Reuben",
+          "type": "group",
+          "preferred_label": "رَأوبَيْنَ",
+          "confidence": 0.829,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Reuben",
+          "type": "person",
+          "preferred_label": "رَأوبَيْنَ",
+          "confidence": 0.679,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "443985",
     "reference_id": 7185,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَؤُومَة",
     "media_type": "Text",
     "index_reference": "رَؤُومَة",
@@ -6508,13 +7517,50 @@
           "end_ref_usfm": "GEN 22:24"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Reumah",
+          "type": "person",
+          "preferred_label": "رَؤومَة",
+          "confidence": 0.9685,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Maacah",
+          "type": "person",
+          "preferred_label": "مَعْكَة",
+          "confidence": 0.8515,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Gaham",
+          "type": "person",
+          "preferred_label": "جَاحَمَ",
+          "confidence": 0.7435,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tebah",
+          "type": "person",
+          "preferred_label": "طَابَحَ",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tahash",
+          "type": "person",
+          "preferred_label": "تَاحَشَ",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "852623",
     "reference_id": 213075,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رؤيا برثولماوس",
     "media_type": "Text",
     "index_reference": "رؤيا برثولماوس",
@@ -6523,13 +7569,14 @@
     "content": "<h1><strong>رؤيا برثولماوس</strong></h1><p>تشبه هذه الشذرات القبطية ما يُعرَف بـ«إنجيل برثولماوس»، وهو نصّ قديم من الأسفار المنحولة (أي من الكتابات غير المدرجة في قانون الكتاب المقدّس العبري، لكنها مقبولة لدى بعض الجماعات المسيحية). وقد ظنّ بعض الدارسين في وقتٍ سابق أن هذه الشذرات تمثّل كتابين مختلفين: إنجيلًا ورؤيا. غير أن معظم الباحثين اليوم لم يعودوا يتبنّون هذا الرأي، مع أن بعضهم لا يزال يطلق على هذه الشذرات اسم <strong>رؤيا برثولماوس</strong>.</p><p><em>انظر أيضًا</em> <span data-bnType=\"resourceReference\" data-resourceId=\"2831\" data-resourceType=\"TyndaleBibleDictionary\">الأبوكريفا</span>؛ <span data-bnType=\"resourceReference\" data-resourceId=\"3184\" data-resourceType=\"TyndaleBibleDictionary\">الرسول برثولماوس</span>؛ <span data-bnType=\"resourceReference\" data-resourceId=\"213077\" data-resourceType=\"TyndaleBibleDictionary\">إنجيل برثولماوس</span>.</p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "852660",
     "reference_id": 213112,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رؤيا بولس",
     "media_type": "Text",
     "index_reference": "رؤيا بولس",
@@ -6538,13 +7585,14 @@
     "content": "<h1>رؤيا بولس</h1><p>يُعدّ رؤيا بولس نص مسيحيّ يعود إلى أواخر القرن الرابع الميلادي. تتوسع القصة في الوصف الموجز الوارد في <a href=\"https://ref.ly/2Cor12:2-2Cor12:4\">2 كورنثوس 12:2–4</a>، حيث يذكر بولس رجلاً اختُطف إلى &quot;السماء الثالثة&quot;. ويفترض المؤلف (مجهول الهويّة) أن بولس كان يصف تجربته الشخصية، فيتخيّل ما قد يكون قد شاهده بولس وسمعه خلال تلك الرؤيا.</p><p>يصف المؤلف بالتفصيل العقوبات التي يعاني منها في الجحيم كل من القسيس والأسقف والشماس (الفصول 34–36). كما يثني على إيمان وتفاني الرهبان والراهبات (الفصول 7–9) وأولئك الذين يعيشون حياة العفة أو البتوليّة (أصحاح 22). ويبدو من المرجح أن المؤلف كان راهباً يمقت المظاهر الدينية الزائفة والرياء الذي لمسه لدى عامة الناس والقادة الكنسيين على حد سواء.</p><p>كُتبت رؤيا بولس في الأصل باللغة اليونانية، وتوجد اليوم في شكل كامل نسبياً باللغة اللاتينية. وحقيقة ترجمتها إلى اللغات الإثيوبية، والقبطية، والسريانية، واللاتينية تُظهر مدى الشعبية الكبيرة التي حظيت بها في العصور القديمة.</p><p>الكتاب مُنظم بشكل غير محكم ويتألّف من سبعة أقسام.</p><ol><li><p>ييبدأ الكتاب بمقدمة موجزة تشرح الأسباب التي جعلت هذا العمل مجهولاً منذ القرن الأول وحتى القرن الرابع الميلادي (الأصحاحات 1–2). وتدور أحداث القصة في عهد الإمبراطور ثيودوسيوس الأول الملقب &quot;بالعظيم&quot; وكينيجيوس، مما يشير إلى أن الوثيقة ربما كُتبت في عام 388م. ووفقًا للقصة، تلقى شخص محترم غير معروف وحيًا من ملاك في ذلك الوقت. كان هذا الرجل يعيش في طرسوس، في منزل يُقال إنه كان مسكن الرسول بولس. أمره الملاك بالحفر في أساسات المنزل ونشر ما سيعثر عليه. وعدما تقاعس عن الطاعة، عاقبه الملاك. ثم قام أخيرًا بالحفر في الأساسات واكتشف صندوقًا من الرخام، فسلمه على الفور إلى الإمبراطور. وعندما فتحه الإمبراطور، وجد النسخة الأصلية من رؤيا بولس (التي قم بنسخها)، إلى جانب زوج من الأحذية التي استخدمها بولس في رحلاته التبشيرية. ثم يستمر الكتاب بعد ذلك في سرد محتوى هذه الوثيقة الغامضة.</p></li><li><p>في الفصول 3–6، يتلقى بولس رسالة من الله توضح أن الخليقة بأكملها تخضع لسلطان الله وسيطرته، باستثناء البشر.</p></li><li><p>تصف الفصول 7–10 كيف أن الملائكة الحارسة لكل رجل وامرأة ترفع تقاريرها إلى الله كل صباح ومساء حول أعمالهم، حيث كان بعضهم صالحون جدًا، والبعض الآخر في شرٍ مُطلَق.</p></li><li><p>في الفصول 11–18، يُؤخذ بولس إلى السماء الثالثة بالروح القدس. ويطلب بولس أن يرى أرواح الأبرار والخطاة لحظة مغادرتهم لهذا العالم. فيُريه الملاك المُرافق له إنسانًا بارًا يفارق العالم، وآخر فاجرًا، وروح شخص كان يعتقد أنه بار ولكنه لم يكن كذلك.</p></li><li><p>تصف الفصول 19–30 بولس وهو يُرفع إلى السماء الثالثة (انظر <a href=\"https://ref.ly/2Cor12:2-2Cor12:4\">كورنثوس الثانية 12:2–4</a>)، حيث رأى هناك بوابة ذهبية قائمة بين أعمدة من ذهب. وعلى قمة هذه الأعمدة وُضعت ألواح ذهبية نُقشت عليها أسماء الأبرار.</p><p>واستقبله في &quot;الفردوس&quot; أخنوخ وإيليّا وأرياه أمورًا لم يكن مسموحًا له بمشاركتها مع الآخرين (أصحاح 21؛ قارن مع <a href=\"https://ref.ly/2Cor12:4\">2&nbsp;كورنثوس 12:4</a>). ومن هناك، انتقل إلى السماء الثانية، ثم إلى الجَلَد المحاط بالمحيط العظيم (أصحاح 21). وفي ذلك الموضع، شاهد مياه بحيرة أخيروزيا التي كانت بيضاء كالحليب. وهناك كانت مدينة المسيح. قم نُقل بولس إلى المدينة في قارب ذهبي بينما كان ثلاثة آلاف ملاك يترنمون. وعند نهر العسل، التقى بإشعياء، وإرميا، وحزقيال، وغيرهم من الأنبياء (أصحاح 25).</p><p>وعند نهر الحليب، رأى الأطفال الرضع الذين قتلهم هيرودس (الأصحاح 26). وعند نهر الخمر، التقى بإبراهيم وإسحق ويعقوب ولوط وأيوب (الأصحاح 27). أما عند نهر الزيت، فقد التقى بأولئك الذين كرسوا حياتهم بالكامل لله (الأصحاح 28). وفي وسط المدينة، وبجانب مذبح عظيم، كان الملك داود يترنم &quot;بالهليلويا&quot; لله.</p></li><li><p>تُفصّل جولة بولس في الجحيم في الفصول 31–44؛ وهو مكان يطغى عليه الحزن والضيق، ويجري فيه نهر من نار تغلي. وفي هذا النهر، يغمر الماء (المغلي) بعض المحكوم عليهم في الجحيم حتى ركبهم، بينما يصل لدى آخرين إلى مستوى المعدة أو الشفتين، وذلك بحسب جسامة خطاياهم (الأصحاح 31). وتصف الفصول 34–36 العذابات التي يقاسيها كل من الكاهن والأسقف والشماس. ويبدو أن هذا القسم يتلذذ في تفصيل أشنع أنواع التعذيب التي يمكن للمرء أن يتخيلها. وأخيرًا، في أصحاح 44، يقرر المسيح إكرامًا لبولس إيقاف التعذيب في أيام الآحاد منذ ذلك الوقت فصاعدًا.</p></li><li><p>كان دليل بولس في رحلته إلى الفردوس ملاكًا (الأصحاحات 45–51)، حيث يتسابق الأبرار من كل العصور للقائه والترحيب به. فيلتقي بالعذراء مريم (أصحاح 46)، وإبراهيم، وإسحاق، ويعقوب، ومعهم أبناء يعقوب الاثني عشر (أصحاح 47).</p><p>كما يلتقي بموسى، الذي يظهر وهو يبكي على اليهود الذين لم يؤمنوا بالمسيحية (أصحاح 48). ويلتقي بإشعياء، وإرميا، وحزقيال، حيث وصف كل منهم قصة استشهاده. بالإضافة إلى ذلك، يلتقي بلوط وأيوب (أصحاح 49)، ونوح (أصحاح 50)، وإيليا، وأليشع، وزكريا وابنه يوحنا المعمدان، وآدم (أصحاح 51).</p><p>قد تنتهي الوثيقة عند هذا الحد، ولكن في نسخ أخرى، تنتهي برحلة إعجازية لبولس إلى جبل الزيتون، حيث يتلقى هو وبقية التلاميذ المأمورية العُظمى.</p></li></ol><p>تتضمن اتحتوي هذه الوثيقة على العديد من التناقضات والتضاربات. كما أن العديد من النسخ المترجمة لا تتفق مع بعضها البعض في كافة التفاصيل. تكمن الفائدة الرئيسية لهذه الوثيقة في تقديم رؤى كاشفة حول طريقة تفكير بعض المسيحيين في أواخر القرن الرابع الميلادي.</p><p><em>انظر أيضًا</em> <span data-bnType=\"resourceReference\" data-resourceId=\"2831\" data-resourceType=\"TyndaleBibleDictionary\">أبوكريفا</span>؛ <span data-bnType=\"resourceReference\" data-resourceId=\"6782\" data-resourceType=\"TyndaleBibleDictionary\">الرسول بولس</span>.</p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "852648",
     "reference_id": 213100,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رؤيا يعقوب",
     "media_type": "Text",
     "index_reference": "رؤيا يعقوب",
@@ -6568,13 +7616,14 @@
           "label": "يعقوب (شخص)",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "512674",
     "reference_id": 8187,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رُؤْيَا، رؤى",
     "media_type": "Text",
     "index_reference": "رُؤْيَا، رؤى",
@@ -6732,13 +7781,14 @@
           "label": "النُّبُوَّةُ",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "511991",
     "reference_id": 7066,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رئيس الخصيان، ربساريس*",
     "media_type": "Text",
     "index_reference": "رئيس الخصيان، ربساريس*",
@@ -6778,13 +7828,14 @@
           "end_ref_usfm": "DAN 1:7"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "509980",
     "reference_id": 3688,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رئيس الكهنة",
     "media_type": "Text",
     "index_reference": "رئيس الكهنة",
@@ -6801,13 +7852,14 @@
           "label": "كهنة ولاويون",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "510763",
     "reference_id": 5017,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رئيس الكهنة",
     "media_type": "Text",
     "index_reference": "رئيس الكهنة",
@@ -6831,13 +7883,14 @@
           "label": "كهنة ولاويون",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "159174",
     "reference_id": 7239,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رئيس المجمع*",
     "media_type": "Text",
     "index_reference": "رئيس المجمع*",
@@ -6891,13 +7944,14 @@
           "label": "المجمع",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "159185",
     "reference_id": 7967,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رئيس ربع*",
     "media_type": "Text",
     "index_reference": "رئيس ربع*",
@@ -6949,13 +8003,22 @@
           "end_ref_usfm": "ACT 13:1"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Herod.2",
+          "type": "person",
+          "preferred_label": "هِيرودسَ",
+          "confidence": 0.6144,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "201448",
     "reference_id": 2830,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رؤيوي*",
     "media_type": "Text",
     "index_reference": "رؤيوي*",
@@ -7123,13 +8186,14 @@
           "label": "الأسفار المنحولة \"الأبوكريفا\"",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "510815",
     "reference_id": 5092,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رب الجنود",
     "media_type": "Text",
     "index_reference": "رب الجنود",
@@ -7153,13 +8217,14 @@
           "label": "جُنْد، جُنْدُ ٱلسَّمَاءِ",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "511350",
     "reference_id": 5944,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رب الجنود",
     "media_type": "Text",
     "index_reference": "رب الجنود",
@@ -7176,13 +8241,14 @@
           "label": "أسماءُ الله",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "510884",
     "reference_id": 5204,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ربا",
     "media_type": "Text",
     "index_reference": "ربا",
@@ -7213,13 +8279,14 @@
           "label": "مال",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "490623",
     "reference_id": 7060,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ربة العمونيين",
     "media_type": "Text",
     "index_reference": "ربة العمونيين",
@@ -7316,13 +8383,22 @@
           "label": "فِيلَادَلْفِيَا",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Ammon",
+          "type": "place",
+          "preferred_label": "ٱلْعَمّونِيِّينَ",
+          "confidence": 0.5479,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "511992",
     "reference_id": 7067,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَبْشَاقَى",
     "media_type": "Text",
     "index_reference": "رَبْشَاقَى",
@@ -7368,13 +8444,22 @@
           "end_ref_usfm": "ISA 36:22"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rabshakeh",
+          "type": "person",
+          "preferred_label": "رَبْشَاقَى",
+          "confidence": 0.7391,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "490636",
     "reference_id": 7201,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَبْلَة",
     "media_type": "Text",
     "index_reference": "رَبْلَة",
@@ -7432,13 +8517,36 @@
           "end_ref_usfm": "JER 52:27"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Riblah.2",
+          "type": "place",
+          "preferred_label": "رَبْلَةَ",
+          "confidence": 0.9667,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Riblah",
+          "type": "place",
+          "preferred_label": "رَبْلَةَ",
+          "confidence": 0.6333,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Babylon",
+          "type": "place",
+          "preferred_label": "بَابِلَ",
+          "confidence": 0.6015,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "159170",
     "reference_id": 7064,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَبُّونِي*",
     "media_type": "Text",
     "index_reference": "رَبُّونِي*",
@@ -7468,13 +8576,29 @@
           "label": "الرابي",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Jesus.2",
+          "type": "person",
+          "preferred_label": "يَسوع",
+          "confidence": 0.607,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Marymagdalene",
+          "type": "person",
+          "preferred_label": "مَرْيَم",
+          "confidence": 0.5375,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "511989",
     "reference_id": 7062,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَبِّيت",
     "media_type": "Text",
     "index_reference": "رَبِّيت",
@@ -7516,13 +8640,36 @@
           "label": "دَبْرَةُ",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Daberath",
+          "type": "place",
+          "preferred_label": "ٱلدَّبْرَةِ",
+          "confidence": 0.7515,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Rabbith",
+          "type": "place",
+          "preferred_label": "رَبِّيتَ",
+          "confidence": 0.7,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Kishion",
+          "type": "place",
+          "preferred_label": "قِشْيونَ",
+          "confidence": 0.657,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "509872",
     "reference_id": 3518,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رتَمَة",
     "media_type": "Text",
     "index_reference": "رتَمَة",
@@ -7546,13 +8693,29 @@
           "label": "نباتات",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "flora:Broom",
+          "type": "flora",
+          "preferred_label": "Broom",
+          "confidence": 0.604,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "ٱلرَّبِّ",
+          "confidence": 0.562,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "511301",
     "reference_id": 5842,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رثاء، مَرثاة",
     "media_type": "Text",
     "index_reference": "رثاء، مَرثاة",
@@ -7569,13 +8732,14 @@
           "label": "الرثاء",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "490640",
     "reference_id": 7215,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رِثْمَة",
     "media_type": "Text",
     "index_reference": "رِثْمَة",
@@ -7599,13 +8763,22 @@
           "label": "التيه في البرية",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Rithmah",
+          "type": "place",
+          "preferred_label": "رِثْمَةَ",
+          "confidence": 1.0,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "510796",
     "reference_id": 5062,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رجاء",
     "media_type": "Text",
     "index_reference": "رجاء",
@@ -7657,13 +8830,14 @@
           "end_ref_usfm": "1CO 15:28"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "125354",
     "reference_id": 2487,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رِجْس",
     "media_type": "Text",
     "index_reference": "رِجْس",
@@ -7766,13 +8940,22 @@
           "label": "شرائع النظام الغذائي",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Rissah",
+          "type": "place",
+          "preferred_label": "رِسَّةَ",
+          "confidence": 0.823,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "512047",
     "reference_id": 7146,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَجَم",
     "media_type": "Text",
     "index_reference": "رَجَم",
@@ -7788,13 +8971,64 @@
           "end_ref_usfm": "1CH 2:47"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Regem",
+          "type": "person",
+          "preferred_label": "رَجَم",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Geshan",
+          "type": "person",
+          "preferred_label": "جِيشَان",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Pelet",
+          "type": "person",
+          "preferred_label": "فَالَط",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shaaph",
+          "type": "person",
+          "preferred_label": "شَاعَف",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ephah.3",
+          "type": "person",
+          "preferred_label": "عِيفَة",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jahdai",
+          "type": "person",
+          "preferred_label": "يَهْدَايَ",
+          "confidence": 0.6895,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jotham.3",
+          "type": "person",
+          "preferred_label": "يوثَام",
+          "confidence": 0.631,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "512436",
     "reference_id": 7797,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَّجم",
     "media_type": "Text",
     "index_reference": "رَّجم",
@@ -7811,13 +9045,14 @@
           "label": "الناموس الجنائي والعقوبة",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "512046",
     "reference_id": 7145,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَجَمَ مَلِكَ",
     "media_type": "Text",
     "index_reference": "رَجَمَ مَلِكَ",
@@ -7833,13 +9068,36 @@
           "end_ref_usfm": "ZEC 7:2"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Sharezer.2",
+          "type": "person",
+          "preferred_label": "شَرَآصَر",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Regem-melech",
+          "type": "person",
+          "preferred_label": "Regem-melech",
+          "confidence": 0.595,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "ٱلرَّبِّ",
+          "confidence": 0.5305,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "512092",
     "reference_id": 7238,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رُحَامَةَ",
     "media_type": "Text",
     "index_reference": "رُحَامَةَ",
@@ -7873,13 +9131,78 @@
           "end_ref_usfm": "HOS 2:23"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Rithmah",
+          "type": "place",
+          "preferred_label": "رِثْمَةَ",
+          "confidence": 0.8835,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Reumah",
+          "type": "person",
+          "preferred_label": "رَؤومَة",
+          "confidence": 0.8488,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Hamath",
+          "type": "place",
+          "preferred_label": "حَمَاةَ",
+          "confidence": 0.8413,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Remeth",
+          "type": "place",
+          "preferred_label": "رَمَةَ",
+          "confidence": 0.8329,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Rissah",
+          "type": "place",
+          "preferred_label": "رِسَّةَ",
+          "confidence": 0.8312,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Rehoboam",
+          "type": "person",
+          "preferred_label": "رَحبْعَامَ",
+          "confidence": 0.8213,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Rinnah",
+          "type": "person",
+          "preferred_label": "رِنَّة",
+          "confidence": 0.81,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Recah",
+          "type": "place",
+          "preferred_label": "رَيْكَةَ",
+          "confidence": 0.8066,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Ramiah",
+          "type": "person",
+          "preferred_label": "رَمْيَا",
+          "confidence": 0.8013,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "512049",
     "reference_id": 7149,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَحبْعَام",
     "media_type": "Text",
     "index_reference": "رَحبْعَام",
@@ -7983,13 +9306,29 @@
           "label": "تاريخ إسرائيل",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Rehoboam",
+          "type": "person",
+          "preferred_label": "رَحبْعَامَ",
+          "confidence": 0.6542,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jeroboam",
+          "type": "person",
+          "preferred_label": "يَربْعَام",
+          "confidence": 0.5349,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "335488",
     "reference_id": 7221,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رحبعام (روبعام)",
     "media_type": "Text",
     "index_reference": "رحبعام (روبعام)",
@@ -8013,13 +9352,36 @@
           "label": "رَحبْعَام",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Rehoboam",
+          "type": "person",
+          "preferred_label": "رَحبْعَامَ",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Abijah.4",
+          "type": "person",
+          "preferred_label": "أَبِيَّا",
+          "confidence": 0.6175,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Solomon",
+          "type": "person",
+          "preferred_label": "سلَيْمَانَ",
+          "confidence": 0.5215,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "512048",
     "reference_id": 7148,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَحَبْيَا",
     "media_type": "Text",
     "index_reference": "رَحَبْيَا",
@@ -8047,13 +9409,43 @@
           "end_ref_usfm": "1CH 26:25"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rehabiah",
+          "type": "person",
+          "preferred_label": "رَحَبْيَا",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Isshiah.4",
+          "type": "person",
+          "preferred_label": "يَشِّيَّا",
+          "confidence": 0.7542,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Eliezer.3",
+          "type": "person",
+          "preferred_label": "أَلِيعَزَرَ",
+          "confidence": 0.7002,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Zichri.6",
+          "type": "person",
+          "preferred_label": "زِكْرِي",
+          "confidence": 0.5623,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "510028",
     "reference_id": 3765,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رحِم مُغلق",
     "media_type": "Text",
     "index_reference": "رحِم مُغلق",
@@ -8070,13 +9462,14 @@
           "label": "العُقم",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "124539",
     "reference_id": 6232,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رحمة",
     "media_type": "Text",
     "index_reference": "رحمة",
@@ -8540,13 +9933,36 @@
           "label": "حب، محبة",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Mercy",
+          "type": "keyterm",
+          "preferred_label": "Mercy",
+          "confidence": 0.8639,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Raamah",
+          "type": "person",
+          "preferred_label": "رَعْمَة",
+          "confidence": 0.8426,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Raamah",
+          "type": "place",
+          "preferred_label": "رَعْمَة",
+          "confidence": 0.8426,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "512050",
     "reference_id": 7152,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رحوبَ (شخص)",
     "media_type": "Text",
     "index_reference": "رحوبَ (شخص)",
@@ -8574,13 +9990,36 @@
           "end_ref_usfm": "NEH 10:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rehob",
+          "type": "person",
+          "preferred_label": "رَحوبَ",
+          "confidence": 0.7182,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Zobah",
+          "type": "place",
+          "preferred_label": "صوبَةَ",
+          "confidence": 0.6147,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rehob.2",
+          "type": "person",
+          "preferred_label": "رَحوبَ",
+          "confidence": 0.5848,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "490631",
     "reference_id": 7153,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رحوب (مكان)",
     "media_type": "Text",
     "index_reference": "رحوب (مكان)",
@@ -8647,13 +10086,71 @@
           "label": "مدن اللاويين",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Rehum",
+          "type": "person",
+          "preferred_label": "رَحوم",
+          "confidence": 0.8419,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Rehum.2",
+          "type": "person",
+          "preferred_label": "رَحوم",
+          "confidence": 0.8419,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Rehum.3",
+          "type": "person",
+          "preferred_label": "رَحوم",
+          "confidence": 0.8419,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Rehum.4",
+          "type": "person",
+          "preferred_label": "رَحوم",
+          "confidence": 0.8419,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Rehob",
+          "type": "person",
+          "preferred_label": "رَحوبَ",
+          "confidence": 0.8251,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Rehob.2",
+          "type": "person",
+          "preferred_label": "رَحوبَ",
+          "confidence": 0.8251,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Rehob.2",
+          "type": "place",
+          "preferred_label": "رَحوبَ",
+          "confidence": 0.8251,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Rehob.3",
+          "type": "place",
+          "preferred_label": "رَحوبَ",
+          "confidence": 0.8251,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "443978",
     "reference_id": 7151,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَحُوبُوت",
     "media_type": "Text",
     "index_reference": "رَحُوبُوت",
@@ -8695,13 +10192,22 @@
           "label": "رَحُوبُوت-عَيْر",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Samlah",
+          "type": "person",
+          "preferred_label": "سَمْلَة",
+          "confidence": 0.521,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "443977",
     "reference_id": 7150,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَحُوبُوت-عَيْر",
     "media_type": "Text",
     "index_reference": "رَحُوبُوت-عَيْر",
@@ -8717,13 +10223,29 @@
           "end_ref_usfm": "GEN 10:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Nineveh",
+          "type": "place",
+          "preferred_label": "نِينَوَى",
+          "confidence": 0.766,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Calah",
+          "type": "place",
+          "preferred_label": "كَالَحَ",
+          "confidence": 0.694,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "512051",
     "reference_id": 7154,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَحُوم",
     "media_type": "Text",
     "index_reference": "رَحُوم",
@@ -8784,13 +10306,43 @@
           "label": "نحوم",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Rehum.2",
+          "type": "person",
+          "preferred_label": "رَحوم",
+          "confidence": 0.6357,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rehum",
+          "type": "person",
+          "preferred_label": "رَحوم",
+          "confidence": 0.6166,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rehum.3",
+          "type": "person",
+          "preferred_label": "رَحوم",
+          "confidence": 0.5785,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rehum.4",
+          "type": "person",
+          "preferred_label": "رَحوم",
+          "confidence": 0.5785,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "335409",
     "reference_id": 6310,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَّحَى/ مِطْحَنَة",
     "media_type": "Text",
     "index_reference": "رَّحَى/ مِطْحَنَة",
@@ -8882,13 +10434,14 @@
           "label": "الطعام وإعداد الطعام",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "511437",
     "reference_id": 6107,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رُخَام",
     "media_type": "Text",
     "index_reference": "رُخَام",
@@ -8912,13 +10465,106 @@
           "label": "الأحجار الكريمة",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Rehum",
+          "type": "person",
+          "preferred_label": "رَحوم",
+          "confidence": 0.8676,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Rehum.2",
+          "type": "person",
+          "preferred_label": "رَحوم",
+          "confidence": 0.8676,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Rehum.3",
+          "type": "person",
+          "preferred_label": "رَحوم",
+          "confidence": 0.8676,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Rehum.4",
+          "type": "person",
+          "preferred_label": "رَحوم",
+          "confidence": 0.8676,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Rezeph",
+          "type": "place",
+          "preferred_label": "رَصْفَ",
+          "confidence": 0.847,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Resheph",
+          "type": "person",
+          "preferred_label": "رَشَف",
+          "confidence": 0.835,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Ramiah",
+          "type": "person",
+          "preferred_label": "رَمْيَا",
+          "confidence": 0.8188,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Reumah",
+          "type": "person",
+          "preferred_label": "رَؤومَة",
+          "confidence": 0.8184,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Rizpah",
+          "type": "person",
+          "preferred_label": "رِصْفَة",
+          "confidence": 0.8122,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Rohgah",
+          "type": "person",
+          "preferred_label": "رهْجَة",
+          "confidence": 0.812,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Damascus",
+          "type": "place",
+          "preferred_label": "دِمَشْقَ",
+          "confidence": 0.8062,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Humtah",
+          "type": "place",
+          "preferred_label": "حمْطَة",
+          "confidence": 0.806,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Recah",
+          "type": "place",
+          "preferred_label": "رَيْكَةَ",
+          "confidence": 0.8058,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "510027",
     "reference_id": 3763,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رداء",
     "media_type": "Text",
     "index_reference": "رداء",
@@ -8935,13 +10581,22 @@
           "label": "ملابس",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Robe",
+          "type": "realia",
+          "preferred_label": "Robe",
+          "confidence": 0.83,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "511995",
     "reference_id": 7074,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَدَّاي",
     "media_type": "Text",
     "index_reference": "رَدَّاي",
@@ -8957,13 +10612,29 @@
           "end_ref_usfm": "1CH 2:14"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Raddai",
+          "type": "person",
+          "preferred_label": "رَدَّايَ",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nethanel.2",
+          "type": "person",
+          "preferred_label": "نَثَنْئِيل",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "512070",
     "reference_id": 7194,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَزون",
     "media_type": "Text",
     "index_reference": "رَزون",
@@ -8979,13 +10650,22 @@
           "end_ref_usfm": "1KI 11:25"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rezon",
+          "type": "person",
+          "preferred_label": "رَزونَ",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "509927",
     "reference_id": 3615,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رسائل الكاثوليكون (الرسائل الجامعة)",
     "media_type": "Text",
     "index_reference": "رسائل الكاثوليكون (الرسائل الجامعة)",
@@ -9030,13 +10710,14 @@
           "label": "بطرس الأولى، رسالة",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "852596",
     "reference_id": 213048,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رسائل المسيح وأبجر",
     "media_type": "Text",
     "index_reference": "رسائل المسيح وأبجر",
@@ -9045,13 +10726,14 @@
     "content": "<h1>رسائل المسيح وأبجر</h1><p>يشتمل هذا العمل المنحول على رسالتين قصيرتين؛ تزعم إحداهما أنها خُطت بيد الملك السوري &quot;أبجر&quot; (أو أبجاروس)، بينما تدعي الأخرى أنها ردٌ من يسوع عليه.</p><p>ويذكر المؤرخ الكنسي الأول &quot;يوسابيوس&quot; أنه عثر على هاتين الرسالتين في الأرشيف الملكي بمدينة &quot;الرها&quot;، فنقلهما من السريانية إلى اليونانية، مُضَمّنًا إياهما قصةً حول أعمال الرسول &quot;تداوس&quot;.</p><p>وتروي الأسطورة أن الملك &quot;أبجر&quot; كان يكابد مرضًا عضالًا، فحين تناهت إلى سمعه معجزات يسوع، أوفد رسولًا يحمل رسالةً يرجوه فيها القدوم لشفائه، عارضًا عليه ملاذًا آمنًا بعيدًا عن الأخطار المحدقة به في أورشليم.</p><p>وبعث يسوع رسالةً جوابيةً اعتذر فيها عن قبول الملاذ، واعدًا إياه بإجابة طلبه عقب صعوده عبر إرسال أحد تلاميذه (وقد عُدّلت الرسالة في الرواية لاحقًا لتصبح ردًا شفويًا توفيقًا للقصة مع التقليد القائل بأن يسوع لم يترك آثارًا كتابيةً)؛ وبالفعل، توجه الرسول &quot;تاديوس&quot; لاحقًا إلى &quot;الرها&quot; وشفى &quot;أبجر&quot;، فصار أهل البيت الملكي من أتباع المسيح.</p><p>وتظهر نسخةٌ متأخرةٌ من القصة في وثيقةٍ تُدعى &quot;تعليم أدي&quot; (كُتبت حوالي عام 400م)، حيث يأتي رد يسوع فيها منطوقًا لا مكتوبًا، ويعود رسول &quot;أبجر&quot; حاملًا صورةً مرسومةً ليسوع بدلًا من الرسالة، وُضعت لاحقًا في قصر الملك.</p><p>وتتشابه هذه الأسطورة مع تلك الواردة في &quot;أعمال تاديوس&quot; اليونانية التي ترجع للقرن الخامس أو السادس الميلادي، غير أن &quot;حنانيا&quot; (رسول أبجر) في سفر الأعمال هذا يعود بمنديلٍ طُبعت عليه صورة وجه المسيح بشكلٍ إعجازي.</p><p><em>انظر أيضًا</em> <span data-bnType=\"resourceReference\" data-resourceId=\"2831\" data-resourceType=\"TyndaleBibleDictionary\">الأبوكريفا</span>.</p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "511290",
     "reference_id": 5825,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رسائل لَخِيش",
     "media_type": "Text",
     "index_reference": "رسائل لَخِيش",
@@ -9105,13 +10787,29 @@
           "label": "كتابة الرسائل قديمًا",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Lachish",
+          "type": "place",
+          "preferred_label": "لَخِيشَ",
+          "confidence": 0.6444,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uriah.2",
+          "type": "person",
+          "preferred_label": "لِأورِيَّا",
+          "confidence": 0.5398,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "510323",
     "reference_id": 4299,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رسالة",
     "media_type": "Text",
     "index_reference": "رسالة",
@@ -9128,13 +10826,14 @@
           "label": "كتابة الرسائل قديمًا",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "511326",
     "reference_id": 5892,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رسالة إرميا",
     "media_type": "Text",
     "index_reference": "رسالة إرميا",
@@ -9158,13 +10857,14 @@
           "label": "سِفر بَارُوخ",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "159101",
     "reference_id": 3818,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رِسَالَةُ الرَّسُولِ بُولُس الأُولَى إِلَى أَهْلِ كُورِنْثُوس",
     "media_type": "Text",
     "index_reference": "رِسَالَةُ الرَّسُولِ بُولُس الأُولَى إِلَى أَهْلِ كُورِنْثُوس",
@@ -9971,13 +11671,29 @@
           "label": "بولس، الرسول",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Chloe",
+          "type": "person",
+          "preferred_label": "أَهْلِ",
+          "confidence": 0.6008,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Alexander.3",
+          "type": "person",
+          "preferred_label": "ٱلْإِسْكَنْدَرِ",
+          "confidence": 0.5018,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "852639",
     "reference_id": 213091,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رسالة أوغنوستوس",
     "media_type": "Text",
     "index_reference": "رسالة أوغنوستوس",
@@ -9986,13 +11702,14 @@
     "content": "<h1>رسالة أوغنوستوس</h1><p>تُعدُّ رسالة أوغنوستوس عملاً غنوصيًا اكتُشف بالقرب من منطقة نجع حمادي في مصر. والرسالةُ مكتوبةٌ باللغة القبطية، وهي عبارة عن خطابٍ مُوجّهٍ من معلمٍ إلى تلميذه. ولا يزال اسم المؤلف الحقيقي وتاريخ الكتابة الدقيق طيَّ المجهول. </p><p>تُعد رسالة أوغنوستوس نموذجاً مبكراً للكتابات الغنوصية غير المسيحية. ويُرجّح أنَّ مؤلف كتاب «حكمة يسوع المسيح» (وهو عمل غنوصي مسيحي) قد استند في عمله إلى هذه الرسالة. يسعى النصُّ إلى تفسير وجود عالم روحي غير منظور، كما تؤكّد على بُعد الله وتعاليه عن البشر.</p><p><em>انظر كذلك</em> <span data-bnType=\"resourceReference\" data-resourceId=\"2831\" data-resourceType=\"TyndaleBibleDictionary\">الأبوكريفا</span>.</p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "852619",
     "reference_id": 213071,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رسالة برنابا",
     "media_type": "Text",
     "index_reference": "رسالة برنابا",
@@ -10009,13 +11726,14 @@
           "label": "برنابا",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "335459",
     "reference_id": 6847,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رسالة بطرس الثانية",
     "media_type": "Text",
     "index_reference": "رسالة بطرس الثانية",
@@ -10201,13 +11919,14 @@
           "label": "بطرس الرسول",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "852664",
     "reference_id": 213116,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رسالة بطرس إلى فيلبّس",
     "media_type": "Text",
     "index_reference": "رسالة بطرس إلى فيلبّس",
@@ -10224,13 +11943,14 @@
           "label": "فِيلُبُّس",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "852656",
     "reference_id": 213108,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رسالة لنتولوس",
     "media_type": "Text",
     "index_reference": "رسالة لنتولوس",
@@ -10239,13 +11959,14 @@
     "content": "<h1>رسالة لنتولوس</h1><p>تزعمُ هذه الرسالةُ أنها كُتبت بيد رجلٍ يُدعى «لنتولوس»، قيل إنه عاش في الحقبة التي سبقت ولاية بيلاطس البنطي. تُقدم الرسالةُ نفسَها باعتبارها تقريراً مرفوعاً إلى مجلس الشيوخ الروماني، ويقوم فيها لنتولوس بوصف يسوع وصفاً دقيقاً ومفصلاً؛ حيث يذكر أنَّ يسوع كان &quot;طويلاً ووسيمَ الطلعة، ذا وجهٍ يبعثُ في النفس المهابة والمحبة والخوف معاً. شعرهُ داكنٌ ولامعٌ ومتموج، ينسدلُ مفروقاً من المنتصف، وفي وجهه حمرةٌ رقيقة.&quot;</p><p>يشك العديد من العلماء في أصالة هذه الرسالة. ,من المحتمل أنها كُتبت بعد زمن يسوع بفترة طويلة، ولذلك لا تُعتبر مصدرًا تاريخيًا موثوقًا.</p><p><em>انظر كذلك</em> <span data-bnType=\"resourceReference\" data-resourceId=\"2831\" data-resourceType=\"TyndaleBibleDictionary\">الأبوكريفا</span>.</p><h3></h3>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "159139",
     "reference_id": 5369,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رسالة يعقوب",
     "media_type": "Text",
     "index_reference": "رسالة يعقوب",
@@ -10852,13 +12573,14 @@
           "label": "يعقوب (شخص)",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "125379",
     "reference_id": 6680,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رسامة، يُرسَم",
     "media_type": "Text",
     "index_reference": "رسامة، يُرسَم",
@@ -11266,13 +12988,14 @@
           "label": "سبق التعيين",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "490639",
     "reference_id": 7214,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رِسَّةَ",
     "media_type": "Text",
     "index_reference": "رِسَّةَ",
@@ -11296,13 +13019,36 @@
           "label": "التيه في البرية",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Rissah",
+          "type": "place",
+          "preferred_label": "رِسَّةَ",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Libnah",
+          "type": "place",
+          "preferred_label": "لِبْنَةَ",
+          "confidence": 0.575,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Kehelathah",
+          "type": "place",
+          "preferred_label": "قهَيْلَاتَةَ",
+          "confidence": 0.521,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "510321",
     "reference_id": 4297,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رسل، رسالة الـ",
     "media_type": "Text",
     "index_reference": "رسل، رسالة الـ",
@@ -11319,13 +13065,14 @@
           "label": "الأسفار المنحولة \"الأبوكريفا\"",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "443981",
     "reference_id": 7176,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَسَن",
     "media_type": "Text",
     "index_reference": "رَسَن",
@@ -11341,13 +13088,36 @@
           "end_ref_usfm": "GEN 10:12"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Resen",
+          "type": "place",
+          "preferred_label": "رَسَنَ",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Calah",
+          "type": "place",
+          "preferred_label": "كَالَحَ",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Nineveh",
+          "type": "place",
+          "preferred_label": "نِينَوَى",
+          "confidence": 0.607,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "124540",
     "reference_id": 6258,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رسول",
     "media_type": "Text",
     "index_reference": "رسول",
@@ -11467,13 +13237,22 @@
           "label": "ملاك",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Persis",
+          "type": "person",
+          "preferred_label": "بَرْسِيسَ",
+          "confidence": 0.8429,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "124472",
     "reference_id": 2838,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رسول، رسولية",
     "media_type": "Text",
     "index_reference": "رسول، رسولية",
@@ -11762,13 +13541,14 @@
           "label": "بولس، الرسول",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "512428",
     "reference_id": 7780,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رشُّ الدم",
     "media_type": "Text",
     "index_reference": "رشُّ الدم",
@@ -11785,13 +13565,22 @@
           "label": "التَّقْدِمَات والذَّبَائِح",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:SheddingOfBlood",
+          "type": "keyterm",
+          "preferred_label": "Shedding of Blood",
+          "confidence": 0.827,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "512065",
     "reference_id": 7177,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَشَف",
     "media_type": "Text",
     "index_reference": "رَشَف",
@@ -11807,13 +13596,43 @@
           "end_ref_usfm": "1CH 7:25"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Resheph",
+          "type": "person",
+          "preferred_label": "رَشَف",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rephah",
+          "type": "person",
+          "preferred_label": "رَفَح",
+          "confidence": 0.91,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Telah",
+          "type": "person",
+          "preferred_label": "تَلَح",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tahan.2",
+          "type": "person",
+          "preferred_label": "تَاحَن",
+          "confidence": 0.712,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "490287",
     "reference_id": 3503,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رشوة",
     "media_type": "Text",
     "index_reference": "رشوة",
@@ -11907,13 +13726,14 @@
           "end_ref_usfm": "MIC 3:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "512067",
     "reference_id": 7191,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَصْفَ",
     "media_type": "Text",
     "index_reference": "رَصْفَ",
@@ -11935,13 +13755,43 @@
           "end_ref_usfm": "ISA 37:12"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Rezeph",
+          "type": "place",
+          "preferred_label": "رَصْفَ",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Telassar",
+          "type": "place",
+          "preferred_label": "فِي",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Eden",
+          "type": "place",
+          "preferred_label": "عَدَن",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Haran",
+          "type": "place",
+          "preferred_label": "حَارَانَ",
+          "confidence": 0.625,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "512080",
     "reference_id": 7219,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رِصْفَة",
     "media_type": "Text",
     "index_reference": "رِصْفَة",
@@ -11963,13 +13813,29 @@
           "end_ref_usfm": "2SA 3:10"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rizpah",
+          "type": "person",
+          "preferred_label": "رِصْفَة",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Aiah.2",
+          "type": "person",
+          "preferred_label": "أَيَّةَ",
+          "confidence": 0.575,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "512079",
     "reference_id": 7218,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَصِيَا",
     "media_type": "Text",
     "index_reference": "رَصِيَا",
@@ -11985,13 +13851,43 @@
           "end_ref_usfm": "1CH 7:39"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rizia",
+          "type": "person",
+          "preferred_label": "رَصِيَا",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hanniel.2",
+          "type": "person",
+          "preferred_label": "حَنِيئِيل",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Arah",
+          "type": "person",
+          "preferred_label": "آرَحَ",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shual",
+          "type": "person",
+          "preferred_label": "شوعَال",
+          "confidence": 0.6895,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "512069",
     "reference_id": 7193,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَصِين",
     "media_type": "Text",
     "index_reference": "رَصِين",
@@ -12043,13 +13939,29 @@
           "end_ref_usfm": "ISA 8:8"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rezin",
+          "type": "person",
+          "preferred_label": "رَصِينَ",
+          "confidence": 0.6533,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rezin.2",
+          "type": "person",
+          "preferred_label": "رَصِينَ",
+          "confidence": 0.6267,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "335467",
     "reference_id": 6966,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رطل",
     "media_type": "Text",
     "index_reference": "رطل",
@@ -12103,13 +14015,14 @@
           "label": "الأوزان والمقاييس",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "159131",
     "reference_id": 4979,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رُعَاة مَوَاشٍ",
     "media_type": "Text",
     "index_reference": "رُعَاة مَوَاشٍ",
@@ -12161,13 +14074,14 @@
           "end_ref_usfm": "JHN 10:16"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "512044",
     "reference_id": 7143,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رعلايا",
     "media_type": "Text",
     "index_reference": "رعلايا",
@@ -12197,13 +14111,99 @@
           "label": "رَعَمْيَا",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Reelaiah",
+          "type": "person",
+          "preferred_label": "رَعْلَايَا",
+          "confidence": 0.721,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Bigvai",
+          "type": "person",
+          "preferred_label": "بِغْوَايَ",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mordecai",
+          "type": "person",
+          "preferred_label": "مرْدَخَاي",
+          "confidence": 0.6715,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nehemiah",
+          "type": "person",
+          "preferred_label": "نَحَمْيَا",
+          "confidence": 0.6715,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rehum",
+          "type": "person",
+          "preferred_label": "رَحوم",
+          "confidence": 0.631,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Baanah.3",
+          "type": "person",
+          "preferred_label": "بَعْنَةَ",
+          "confidence": 0.6175,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Bilshan",
+          "type": "person",
+          "preferred_label": "بِلْشَان",
+          "confidence": 0.613,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mispar",
+          "type": "person",
+          "preferred_label": "مِسْفَار",
+          "confidence": 0.613,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joshua.5",
+          "type": "person",
+          "preferred_label": "يَشوع",
+          "confidence": 0.562,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Azariah.18",
+          "type": "person",
+          "preferred_label": "عَزَرْيَا",
+          "confidence": 0.53,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Zerubbabel.2",
+          "type": "person",
+          "preferred_label": "زَربَّابِل",
+          "confidence": 0.5215,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Israel",
+          "type": "person",
+          "preferred_label": "إِسْرَائِيلَ",
+          "confidence": 0.508,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "443972",
     "reference_id": 7057,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَعَمَا*، رَعْمَة",
     "media_type": "Text",
     "index_reference": "رَعَمَا*، رَعْمَة",
@@ -12231,13 +14231,71 @@
           "end_ref_usfm": "EZK 27:22"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Raamah",
+          "type": "person",
+          "preferred_label": "رَعْمَة",
+          "confidence": 0.8667,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Raamah",
+          "type": "place",
+          "preferred_label": "رَعْمَة",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Sabteca",
+          "type": "person",
+          "preferred_label": "سَبْتَكَا",
+          "confidence": 0.6687,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Sabtah",
+          "type": "person",
+          "preferred_label": "سَبْتَة",
+          "confidence": 0.6417,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Havilah",
+          "type": "person",
+          "preferred_label": "حَوِيلَةَ",
+          "confidence": 0.6282,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Seba",
+          "type": "person",
+          "preferred_label": "سَبَا",
+          "confidence": 0.6102,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Sheba",
+          "type": "person",
+          "preferred_label": "شَبَا",
+          "confidence": 0.6102,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Dedan",
+          "type": "person",
+          "preferred_label": "دَدَانَ",
+          "confidence": 0.5562,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "490625",
     "reference_id": 7098,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَعَمْسِيس (مكان)",
     "media_type": "Text",
     "index_reference": "رَعَمْسِيس (مكان)",
@@ -12280,13 +14338,36 @@
           "label": "فِيثوم",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Rameses",
+          "type": "place",
+          "preferred_label": "رَعَمْسِيسَ",
+          "confidence": 0.8667,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Raamses",
+          "type": "place",
+          "preferred_label": "رَعَمْسِيسَ",
+          "confidence": 0.5833,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Israel",
+          "type": "person",
+          "preferred_label": "إِسْرَائِيلَ",
+          "confidence": 0.5682,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "511986",
     "reference_id": 7058,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَعَمْيَا",
     "media_type": "Text",
     "index_reference": "رَعَمْيَا",
@@ -12316,13 +14397,113 @@
           "label": "رعلايا",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Nehemiah",
+          "type": "person",
+          "preferred_label": "نَحَمْيَا",
+          "confidence": 0.901,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Reelaiah",
+          "type": "person",
+          "preferred_label": "رَعْلَايَا",
+          "confidence": 0.883,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mispar",
+          "type": "person",
+          "preferred_label": "مِسْفَار",
+          "confidence": 0.8695,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mordecai",
+          "type": "person",
+          "preferred_label": "مرْدَخَاي",
+          "confidence": 0.802,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Baanah.3",
+          "type": "person",
+          "preferred_label": "بَعْنَةَ",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Bilshan",
+          "type": "person",
+          "preferred_label": "بِلْشَان",
+          "confidence": 0.7615,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Bigvai",
+          "type": "person",
+          "preferred_label": "بِغْوَايَ",
+          "confidence": 0.7615,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Azariah.18",
+          "type": "person",
+          "preferred_label": "عَزَرْيَا",
+          "confidence": 0.7505,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rehum",
+          "type": "person",
+          "preferred_label": "رَحوم",
+          "confidence": 0.7435,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nahamani",
+          "type": "person",
+          "preferred_label": "نَحَمَانِي",
+          "confidence": 0.683,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Israel",
+          "type": "person",
+          "preferred_label": "إِسْرَائِيلَ",
+          "confidence": 0.67,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Zerubbabel.2",
+          "type": "person",
+          "preferred_label": "زَربَّابِل",
+          "confidence": 0.652,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Seraiah.6",
+          "type": "person",
+          "preferred_label": "سَرَايَا",
+          "confidence": 0.6155,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joshua.5",
+          "type": "person",
+          "preferred_label": "يَشوع",
+          "confidence": 0.5935,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "335483",
     "reference_id": 7186,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رعو",
     "media_type": "Text",
     "index_reference": "رعو",
@@ -12358,13 +14539,29 @@
           "label": "نسب يسوع المسيح",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Reu",
+          "type": "person",
+          "preferred_label": "رَعوَ",
+          "confidence": 0.937,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Serug",
+          "type": "person",
+          "preferred_label": "سَروجَ",
+          "confidence": 0.575,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "335476",
     "reference_id": 7075,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رعو (رجو)",
     "media_type": "Text",
     "index_reference": "رعو (رجو)",
@@ -12388,13 +14585,50 @@
           "label": "رعو",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Reu",
+          "type": "person",
+          "preferred_label": "رَعوَ",
+          "confidence": 0.937,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Serug",
+          "type": "person",
+          "preferred_label": "سَروجَ",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Eber",
+          "type": "person",
+          "preferred_label": "عَابِر",
+          "confidence": 0.748,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shelah.2",
+          "type": "person",
+          "preferred_label": "شِيلَةَ",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Peleg",
+          "type": "person",
+          "preferred_label": "فَالَج",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "490624",
     "reference_id": 7076,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَعُوئِيل",
     "media_type": "Text",
     "index_reference": "رَعُوئِيل",
@@ -12424,13 +14658,36 @@
           "label": "يَثْرون",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Jethro",
+          "type": "person",
+          "preferred_label": "يَثْرونَ",
+          "confidence": 0.575,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hobab",
+          "type": "person",
+          "preferred_label": "لِحوبَابَ",
+          "confidence": 0.5615,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Israel",
+          "type": "person",
+          "preferred_label": "إِسْرَائِيلَ",
+          "confidence": 0.515,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "443984",
     "reference_id": 7184,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَعُوئِيل",
     "media_type": "Text",
     "index_reference": "رَعُوئِيل",
@@ -12497,13 +14754,43 @@
           "label": "يَثْرون",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Reuel.3",
+          "type": "person",
+          "preferred_label": "رَعوئِيلَ",
+          "confidence": 0.6873,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Reuel.4",
+          "type": "person",
+          "preferred_label": "رَعوئِيلَ",
+          "confidence": 0.6016,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Deuel",
+          "type": "person",
+          "preferred_label": "دَعوئِيلَ",
+          "confidence": 0.5476,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Eliphaz",
+          "type": "person",
+          "preferred_label": "أَلِيفَاز",
+          "confidence": 0.5194,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "331795",
     "reference_id": 3985,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رغبة",
     "media_type": "Text",
     "index_reference": "رغبة",
@@ -12567,13 +14854,14 @@
           "end_ref_usfm": "JHN 2:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "512059",
     "reference_id": 7167,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَفَائِيل",
     "media_type": "Text",
     "index_reference": "رَفَائِيل",
@@ -12589,13 +14877,57 @@
           "end_ref_usfm": "1CH 26:8"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rephael",
+          "type": "person",
+          "preferred_label": "رَفَائِيل",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shemaiah.9",
+          "type": "person",
+          "preferred_label": "شِمْعِيَا",
+          "confidence": 0.602,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Semachiah",
+          "type": "person",
+          "preferred_label": "سَمَكْيَا",
+          "confidence": 0.602,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Elzabad.2",
+          "type": "person",
+          "preferred_label": "أَلْزَابَاد",
+          "confidence": 0.575,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Othni",
+          "type": "person",
+          "preferred_label": "عَثْنِي",
+          "confidence": 0.575,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Elihu.3",
+          "type": "person",
+          "preferred_label": "أَلِيهو",
+          "confidence": 0.521,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "512061",
     "reference_id": 7169,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَفَايَا",
     "media_type": "Text",
     "index_reference": "رَفَايَا",
@@ -12641,13 +14973,50 @@
           "end_ref_usfm": "1CH 7:2"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rephaiah.2",
+          "type": "person",
+          "preferred_label": "رَفَايَا",
+          "confidence": 0.65,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rephaiah.4",
+          "type": "person",
+          "preferred_label": "رَفَايَا",
+          "confidence": 0.65,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rephaiah.3",
+          "type": "person",
+          "preferred_label": "رَفَايَا",
+          "confidence": 0.65,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rephaiah.5",
+          "type": "person",
+          "preferred_label": "رَفَايَا",
+          "confidence": 0.65,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Raphah",
+          "type": "person",
+          "preferred_label": "رَافَةَ",
+          "confidence": 0.5065,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "512062",
     "reference_id": 7170,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَفَايِم، وادي",
     "media_type": "Text",
     "index_reference": "رَفَايِم، وادي",
@@ -12687,13 +15056,22 @@
           "end_ref_usfm": "2SA 5:22"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:RephaimValley",
+          "type": "place",
+          "preferred_label": "وَادِي",
+          "confidence": 0.6057,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "512060",
     "reference_id": 7168,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَفَح",
     "media_type": "Text",
     "index_reference": "رَفَح",
@@ -12709,13 +15087,43 @@
           "end_ref_usfm": "1CH 7:25"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rephah",
+          "type": "person",
+          "preferred_label": "رَفَح",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Resheph",
+          "type": "person",
+          "preferred_label": "رَشَف",
+          "confidence": 0.91,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Telah",
+          "type": "person",
+          "preferred_label": "تَلَح",
+          "confidence": 0.82,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tahan.2",
+          "type": "person",
+          "preferred_label": "تَاحَن",
+          "confidence": 0.7975,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "443976",
     "reference_id": 7128,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رِفْقَة",
     "media_type": "Text",
     "index_reference": "رِفْقَة",
@@ -12775,13 +15183,22 @@
           "label": "إسحاق",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Rebekah",
+          "type": "person",
+          "preferred_label": "رِفْقَة",
+          "confidence": 0.6574,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "490633",
     "reference_id": 7174,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَفِيدِيم",
     "media_type": "Text",
     "index_reference": "رَفِيدِيم",
@@ -12817,13 +15234,22 @@
           "label": "التيه في البرية",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Rephidim",
+          "type": "place",
+          "preferred_label": "رَفِيدِيمَ",
+          "confidence": 0.7091,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "335472",
     "reference_id": 7069,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَقَا",
     "media_type": "Text",
     "index_reference": "رَقَا",
@@ -12869,13 +15295,57 @@
           "end_ref_usfm": "MAT 5:22"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rhoda",
+          "type": "person",
+          "preferred_label": "رَوْدَا",
+          "confidence": 0.8504,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Rapha",
+          "type": "person",
+          "preferred_label": "رَافَا",
+          "confidence": 0.8384,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Raham",
+          "type": "person",
+          "preferred_label": "رَاقَمَ",
+          "confidence": 0.8294,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Regem",
+          "type": "person",
+          "preferred_label": "رَجَم",
+          "confidence": 0.8174,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Recah",
+          "type": "place",
+          "preferred_label": "رَيْكَةَ",
+          "confidence": 0.8145,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Reu",
+          "type": "person",
+          "preferred_label": "رَعوَ",
+          "confidence": 0.8143,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "512003",
     "reference_id": 7086,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَقَّة",
     "media_type": "Text",
     "index_reference": "رَقَّة",
@@ -12891,13 +15361,50 @@
           "end_ref_usfm": "JOS 19:35"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Zer",
+          "type": "place",
+          "preferred_label": "صَيْر",
+          "confidence": 0.82,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Tiberias",
+          "type": "place",
+          "preferred_label": "طَبَرِيَّةَ",
+          "confidence": 0.7375,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Ziddim",
+          "type": "place",
+          "preferred_label": "ٱلصِّدِّيم",
+          "confidence": 0.6895,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Hammath",
+          "type": "place",
+          "preferred_label": "مِنْ",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Chinnereth",
+          "type": "place",
+          "preferred_label": "مِنْ",
+          "confidence": 0.5125,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "510104",
     "reference_id": 3912,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رقص",
     "media_type": "Text",
     "index_reference": "رقص",
@@ -12914,13 +15421,14 @@
           "label": "موسيقى",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "511826",
     "reference_id": 6750,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رُّقُوق",
     "media_type": "Text",
     "index_reference": "رُّقُوق",
@@ -12944,13 +15452,50 @@
           "label": "كتابة",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Akkub",
+          "type": "person",
+          "preferred_label": "عَقّوب",
+          "confidence": 0.8262,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Akkub.2",
+          "type": "person",
+          "preferred_label": "عَقّوب",
+          "confidence": 0.8262,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Akkub.3",
+          "type": "person",
+          "preferred_label": "عَقّوب",
+          "confidence": 0.8262,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Akkub.4",
+          "type": "person",
+          "preferred_label": "عَقّوب",
+          "confidence": 0.8262,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Arpachshad",
+          "type": "person",
+          "preferred_label": "أَرْفَكْشَاد",
+          "confidence": 0.8061,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "512004",
     "reference_id": 7087,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَّقّون",
     "media_type": "Text",
     "index_reference": "رَّقّون",
@@ -12966,13 +15511,36 @@
           "end_ref_usfm": "JOS 19:46"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Rakkon",
+          "type": "place",
+          "preferred_label": "ٱلرَّقّونَ",
+          "confidence": 0.937,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Me-jarkon",
+          "type": "place",
+          "preferred_label": "Me-jarkon",
+          "confidence": 0.631,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Joppa",
+          "type": "place",
+          "preferred_label": "يَافَا",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "510873",
     "reference_id": 5183,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رُّقْية",
     "media_type": "Text",
     "index_reference": "رُّقْية",
@@ -12989,13 +15557,246 @@
           "label": "سِحْر",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Rebekah",
+          "type": "person",
+          "preferred_label": "رِفْقَة",
+          "confidence": 0.9302,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Rinnah",
+          "type": "person",
+          "preferred_label": "رِنَّة",
+          "confidence": 0.9264,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Rizpah",
+          "type": "person",
+          "preferred_label": "رِصْفَة",
+          "confidence": 0.8967,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Achsah",
+          "type": "person",
+          "preferred_label": "عَكْسَة",
+          "confidence": 0.8865,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Achsah.2",
+          "type": "person",
+          "preferred_label": "عَكْسَة",
+          "confidence": 0.8865,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Haradah",
+          "type": "place",
+          "preferred_label": "حَرَادَةَ",
+          "confidence": 0.8807,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Rithmah",
+          "type": "place",
+          "preferred_label": "رِثْمَةَ",
+          "confidence": 0.879,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Tikvah",
+          "type": "person",
+          "preferred_label": "تِقْوَةَ",
+          "confidence": 0.8763,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Tikvah.2",
+          "type": "person",
+          "preferred_label": "تِقْوَةَ",
+          "confidence": 0.8763,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Zeruah",
+          "type": "person",
+          "preferred_label": "صَروعَة",
+          "confidence": 0.8672,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Damascus",
+          "type": "place",
+          "preferred_label": "دِمَشْقَ",
+          "confidence": 0.8464,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Tirhakah",
+          "type": "person",
+          "preferred_label": "ترْهَاقَةَ",
+          "confidence": 0.8462,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Bozkath",
+          "type": "place",
+          "preferred_label": "بَصْقَة",
+          "confidence": 0.8454,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Reumah",
+          "type": "person",
+          "preferred_label": "رَؤومَة",
+          "confidence": 0.8397,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Antioch",
+          "type": "place",
+          "preferred_label": "أَنْطَاكِيَةِ",
+          "confidence": 0.8314,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Antioch.2",
+          "type": "place",
+          "preferred_label": "أَنْطَاكِيَةِ",
+          "confidence": 0.8314,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Zillah",
+          "type": "person",
+          "preferred_label": "صِلَّة",
+          "confidence": 0.8301,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Phrygia",
+          "type": "place",
+          "preferred_label": "فَرِيجِيَّةَ",
+          "confidence": 0.8269,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Rissah",
+          "type": "place",
+          "preferred_label": "رِسَّةَ",
+          "confidence": 0.8253,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:SinaiWilderness",
+          "type": "place",
+          "preferred_label": "بَرِّيَّةِ",
+          "confidence": 0.8244,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Nazareth",
+          "type": "place",
+          "preferred_label": "نَاصِرَة",
+          "confidence": 0.8214,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Ephah",
+          "type": "person",
+          "preferred_label": "عِيفَة",
+          "confidence": 0.8195,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Ephah.2",
+          "type": "person",
+          "preferred_label": "عِيفَة",
+          "confidence": 0.8195,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Ephah.3",
+          "type": "person",
+          "preferred_label": "عِيفَة",
+          "confidence": 0.8195,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Ephah",
+          "type": "place",
+          "preferred_label": "عِيفَة",
+          "confidence": 0.8195,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Humtah",
+          "type": "place",
+          "preferred_label": "حمْطَة",
+          "confidence": 0.8168,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Taralah",
+          "type": "place",
+          "preferred_label": "تَرَالَةَ",
+          "confidence": 0.8152,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Dophkah",
+          "type": "place",
+          "preferred_label": "دفْقَةَ",
+          "confidence": 0.8139,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Diklah",
+          "type": "person",
+          "preferred_label": "دِقْلَةَ",
+          "confidence": 0.8126,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Naarah",
+          "type": "person",
+          "preferred_label": "نَعْرَة",
+          "confidence": 0.8124,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Recah",
+          "type": "place",
+          "preferred_label": "رَيْكَةَ",
+          "confidence": 0.8111,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Laadah",
+          "type": "person",
+          "preferred_label": "لَعْدَة",
+          "confidence": 0.8059,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Mithkah",
+          "type": "place",
+          "preferred_label": "مِثْقَةَ",
+          "confidence": 0.8002,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "512035",
     "reference_id": 7131,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رِكاب",
     "media_type": "Text",
     "index_reference": "رِكاب",
@@ -13029,13 +15830,29 @@
           "end_ref_usfm": "2KI 10:27"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rechab.2",
+          "type": "person",
+          "preferred_label": "رَكَابٍ",
+          "confidence": 0.5808,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rechab",
+          "type": "person",
+          "preferred_label": "رَكَابٍ",
+          "confidence": 0.5157,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "512037",
     "reference_id": 7133,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَكَابُ، الرَّكَابِيُّ",
     "media_type": "Text",
     "index_reference": "رَكَابُ، الرَّكَابِيُّ",
@@ -13059,13 +15876,14 @@
           "label": "رِكاب",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "512034",
     "reference_id": 7130,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَكَابيّ",
     "media_type": "Text",
     "index_reference": "رَكَابيّ",
@@ -13089,13 +15907,29 @@
           "label": "رِكاب",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Rechab.2",
+          "type": "person",
+          "preferred_label": "رَكَابٍ",
+          "confidence": 0.7522,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jonadab",
+          "type": "person",
+          "preferred_label": "يونَادَاب",
+          "confidence": 0.5162,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "335172",
     "reference_id": 2969,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَمَاد",
     "media_type": "Text",
     "index_reference": "رَمَاد",
@@ -13221,13 +16055,57 @@
           "label": "الرثاء",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Ramiah",
+          "type": "person",
+          "preferred_label": "رَمْيَا",
+          "confidence": 0.8227,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Rehum",
+          "type": "person",
+          "preferred_label": "رَحوم",
+          "confidence": 0.8176,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Rehum.2",
+          "type": "person",
+          "preferred_label": "رَحوم",
+          "confidence": 0.8176,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Rehum.3",
+          "type": "person",
+          "preferred_label": "رَحوم",
+          "confidence": 0.8176,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Rehum.4",
+          "type": "person",
+          "preferred_label": "رَحوم",
+          "confidence": 0.8176,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Raddai",
+          "type": "person",
+          "preferred_label": "رَدَّايَ",
+          "confidence": 0.8083,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "511927",
     "reference_id": 6940,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رُمَّان",
     "media_type": "Text",
     "index_reference": "رُمَّان",
@@ -13244,13 +16122,71 @@
           "label": "نباتات",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "deity:Rimmon",
+          "type": "deity",
+          "preferred_label": "رِمّونَ",
+          "confidence": 0.855,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Rimmon",
+          "type": "person",
+          "preferred_label": "رِمّونَ",
+          "confidence": 0.855,
+          "match_method": "embedding"
+        },
+        {
+          "id": "deity:Rephan",
+          "type": "deity",
+          "preferred_label": "رَمْفَانَ",
+          "confidence": 0.8368,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Rehum",
+          "type": "person",
+          "preferred_label": "رَحوم",
+          "confidence": 0.814,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Rehum.2",
+          "type": "person",
+          "preferred_label": "رَحوم",
+          "confidence": 0.814,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Rehum.3",
+          "type": "person",
+          "preferred_label": "رَحوم",
+          "confidence": 0.814,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Rehum.4",
+          "type": "person",
+          "preferred_label": "رَحوم",
+          "confidence": 0.814,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Ramiah",
+          "type": "person",
+          "preferred_label": "رَمْيَا",
+          "confidence": 0.8117,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "512056",
     "reference_id": 7160,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رمة",
     "media_type": "Text",
     "index_reference": "رمة",
@@ -13280,13 +16216,29 @@
           "label": "يَرْموت",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Remeth",
+          "type": "place",
+          "preferred_label": "رَمَةَ",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:En-gannim.2",
+          "type": "place",
+          "preferred_label": "En-gannim",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "511387",
     "reference_id": 6020,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رِّمَّة",
     "media_type": "Text",
     "index_reference": "رِّمَّة",
@@ -13316,13 +16268,22 @@
           "label": "حيوانات",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Maggot",
+          "type": "fauna",
+          "preferred_label": "Worm",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "512009",
     "reference_id": 7093,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَمَتُ لَحْيٍ",
     "media_type": "Text",
     "index_reference": "رَمَتُ لَحْيٍ",
@@ -13346,13 +16307,22 @@
           "label": " لَحْيٍ",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Ramath-lehi",
+          "type": "place",
+          "preferred_label": "Ramath-lehi",
+          "confidence": 0.5905,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "512418",
     "reference_id": 7763,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رمحٌ، رامحٌ",
     "media_type": "Text",
     "index_reference": "رمحٌ، رامحٌ",
@@ -13369,13 +16339,14 @@
           "label": "دروع وأسلحة",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "512017",
     "reference_id": 7106,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رمسيس (اسم مكان)",
     "media_type": "Text",
     "index_reference": "رمسيس (اسم مكان)",
@@ -13392,13 +16363,14 @@
           "label": "رَعَمْسِيس (مكان)",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "490627",
     "reference_id": 7105,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رمسيس (شخص)",
     "media_type": "Text",
     "index_reference": "رمسيس (شخص)",
@@ -13422,13 +16394,14 @@
           "label": "مصر، مصري",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "331948",
     "reference_id": 7165,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَمْفَانَ",
     "media_type": "Text",
     "index_reference": "رَمْفَانَ",
@@ -13452,13 +16425,36 @@
           "label": "ريفان/رَمْفَانَ",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "deity:Rephan",
+          "type": "deity",
+          "preferred_label": "رَمْفَانَ",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Babylon",
+          "type": "place",
+          "preferred_label": "بَابِلَ",
+          "confidence": 0.5935,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Molech",
+          "type": "deity",
+          "preferred_label": "لِمولَكَ",
+          "confidence": 0.58,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "512055",
     "reference_id": 7159,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رمليا",
     "media_type": "Text",
     "index_reference": "رمليا",
@@ -13480,13 +16476,22 @@
           "end_ref_usfm": "2KI 15:37"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Remaliah",
+          "type": "person",
+          "preferred_label": "رَمَلْيَا",
+          "confidence": 0.5071,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "512058",
     "reference_id": 7163,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رِمُّون",
     "media_type": "Text",
     "index_reference": "رِمُّون",
@@ -13510,13 +16515,36 @@
           "label": "عين رمون",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Ain.2",
+          "type": "place",
+          "preferred_label": "عَيْنَ",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Ether",
+          "type": "place",
+          "preferred_label": "عَاتَر",
+          "confidence": 0.625,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Ashan",
+          "type": "place",
+          "preferred_label": "عَاشَان",
+          "confidence": 0.5395,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "512075",
     "reference_id": 7210,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رِمُّونَ (اسم مكان)",
     "media_type": "Text",
     "index_reference": "رِمُّونَ (اسم مكان)",
@@ -13570,13 +16598,22 @@
           "label": "عين رمون",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Dimnah",
+          "type": "place",
+          "preferred_label": "دِمْنَة",
+          "confidence": 0.529,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "512074",
     "reference_id": 7209,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رِمّون (شخص)",
     "media_type": "Text",
     "index_reference": "رِمّون (شخص)",
@@ -13618,13 +16655,50 @@
           "label": "سوريَّة، سوريُّون",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Rimmon",
+          "type": "person",
+          "preferred_label": "رِمّونَ",
+          "confidence": 0.9,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Rimmon",
+          "type": "deity",
+          "preferred_label": "رِمّونَ",
+          "confidence": 0.7,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rechab",
+          "type": "person",
+          "preferred_label": "رَكَابٍ",
+          "confidence": 0.675,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Baanah",
+          "type": "person",
+          "preferred_label": "بَعْنَةَ",
+          "confidence": 0.657,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Beeroth",
+          "type": "place",
+          "preferred_label": "بَئِيروت",
+          "confidence": 0.6435,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "490638",
     "reference_id": 7208,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رِمُّونَ فَارِصَ",
     "media_type": "Text",
     "index_reference": "رِمُّونَ فَارِصَ",
@@ -13648,13 +16722,36 @@
           "label": "التيه في البرية",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Rithmah",
+          "type": "place",
+          "preferred_label": "رِثْمَةَ",
+          "confidence": 0.62,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Rimmon-perez",
+          "type": "place",
+          "preferred_label": "Rimmon-perez",
+          "confidence": 0.586,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Libnah",
+          "type": "place",
+          "preferred_label": "لِبْنَةَ",
+          "confidence": 0.53,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "512057",
     "reference_id": 7162,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رِمُّونُ ميثورَ",
     "media_type": "Text",
     "index_reference": "رِمُّونُ ميثورَ",
@@ -13678,13 +16775,43 @@
           "label": "رِمُّونَ (اسم مكان)",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Neah",
+          "type": "place",
+          "preferred_label": "إِلَى",
+          "confidence": 0.658,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Dimnah",
+          "type": "place",
+          "preferred_label": "دِمْنَة",
+          "confidence": 0.6385,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Eth-kazin",
+          "type": "place",
+          "preferred_label": "Eth-kazin",
+          "confidence": 0.595,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Gath-hepher",
+          "type": "place",
+          "preferred_label": "Gath-hepher",
+          "confidence": 0.5905,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "512073",
     "reference_id": 7207,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رِمُّونُو",
     "media_type": "Text",
     "index_reference": "رِمُّونُو",
@@ -13700,13 +16827,50 @@
           "end_ref_usfm": "1CH 6:77"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Dimnah",
+          "type": "place",
+          "preferred_label": "دِمْنَة",
+          "confidence": 0.7015,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Merari",
+          "type": "person",
+          "preferred_label": "مَرَارِي",
+          "confidence": 0.679,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Chesulloth",
+          "type": "place",
+          "preferred_label": "ٱلْكِسْلوتِ",
+          "confidence": 0.598,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Zebulun",
+          "type": "group",
+          "preferred_label": "زَبولونَ",
+          "confidence": 0.58,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Zebulun",
+          "type": "person",
+          "preferred_label": "زَبولونَ",
+          "confidence": 0.58,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "512013",
     "reference_id": 7099,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَمْيَا",
     "media_type": "Text",
     "index_reference": "رَمْيَا",
@@ -13722,13 +16886,71 @@
           "end_ref_usfm": "EZR 10:25"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Ramiah",
+          "type": "person",
+          "preferred_label": "رَمْيَا",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Malchijah.4",
+          "type": "person",
+          "preferred_label": "مَلْكِيَّا",
+          "confidence": 0.9235,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mijamin.2",
+          "type": "person",
+          "preferred_label": "مِيَّامِين",
+          "confidence": 0.8875,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Izziah",
+          "type": "person",
+          "preferred_label": "يِزِّيَّا",
+          "confidence": 0.8875,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Benaiah.8",
+          "type": "person",
+          "preferred_label": "بَنَايَا",
+          "confidence": 0.7885,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Eleazar.7",
+          "type": "person",
+          "preferred_label": "أَلِعَازَار",
+          "confidence": 0.748,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Parosh",
+          "type": "person",
+          "preferred_label": "فَرْعوشَ",
+          "confidence": 0.7435,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Israel",
+          "type": "person",
+          "preferred_label": "إِسْرَائِيلَ",
+          "confidence": 0.7015,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "512077",
     "reference_id": 7212,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رِنَّة",
     "media_type": "Text",
     "index_reference": "رِنَّة",
@@ -13744,13 +16966,71 @@
           "end_ref_usfm": "1CH 4:20"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rinnah",
+          "type": "person",
+          "preferred_label": "رِنَّة",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Amnon.2",
+          "type": "person",
+          "preferred_label": "أَمْنون",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ishi.2",
+          "type": "person",
+          "preferred_label": "يِشْعِي",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shimon",
+          "type": "person",
+          "preferred_label": "شِيمونَ",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tilon",
+          "type": "person",
+          "preferred_label": "تِيلون",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Zoheth",
+          "type": "person",
+          "preferred_label": "زوحَيْت",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ben-hanan",
+          "type": "person",
+          "preferred_label": "Ben-hanan",
+          "confidence": 0.613,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ben-zoheth",
+          "type": "person",
+          "preferred_label": "Ben-zoheth",
+          "confidence": 0.6085,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "511996",
     "reference_id": 7077,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَهَبَ (وحش)",
     "media_type": "Text",
     "index_reference": "رَهَبَ (وحش)",
@@ -13804,13 +17084,64 @@
           "label": "مصر، مصري",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Raham",
+          "type": "person",
+          "preferred_label": "رَاقَمَ",
+          "confidence": 0.8742,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Ram",
+          "type": "person",
+          "preferred_label": "رَامَ",
+          "confidence": 0.8512,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Ram.2",
+          "type": "person",
+          "preferred_label": "رَامَ",
+          "confidence": 0.8512,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Ram.3",
+          "type": "person",
+          "preferred_label": "رَامَ",
+          "confidence": 0.8512,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Rapha",
+          "type": "person",
+          "preferred_label": "رَافَا",
+          "confidence": 0.8483,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Regem",
+          "type": "person",
+          "preferred_label": "رَجَم",
+          "confidence": 0.8331,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Hagab",
+          "type": "person",
+          "preferred_label": "حَاجَابَ",
+          "confidence": 0.8128,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "512085",
     "reference_id": 7226,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رُهْجَة",
     "media_type": "Text",
     "index_reference": "رُهْجَة",
@@ -13826,13 +17157,50 @@
           "end_ref_usfm": "1CH 7:34"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rohgah",
+          "type": "person",
+          "preferred_label": "رهْجَة",
+          "confidence": 0.964,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jehubbah",
+          "type": "person",
+          "preferred_label": "يَحبَّة",
+          "confidence": 0.757,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Aram.3",
+          "type": "person",
+          "preferred_label": "أَرَامَ",
+          "confidence": 0.757,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shomer.2",
+          "type": "person",
+          "preferred_label": "شومَيْرَ",
+          "confidence": 0.7435,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ahi.2",
+          "type": "person",
+          "preferred_label": "آخِي",
+          "confidence": 0.631,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "232607",
     "reference_id": 6948,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رواق",
     "media_type": "Text",
     "index_reference": "رواق",
@@ -13894,13 +17262,14 @@
           "label": "الهيكل",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "512096",
     "reference_id": 7247,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رِوَاقَ ٱلسَّبْتِ",
     "media_type": "Text",
     "index_reference": "رِوَاقَ ٱلسَّبْتِ",
@@ -13916,13 +17285,22 @@
           "end_ref_usfm": "2KI 16:18"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "ٱلرَّبِّ",
+          "confidence": 0.589,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "232619",
     "reference_id": 7733,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رواق سليمان",
     "media_type": "Text",
     "index_reference": "رواق سليمان",
@@ -13958,13 +17336,22 @@
           "label": "الهيكل",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Porch",
+          "type": "realia",
+          "preferred_label": "Porch",
+          "confidence": 0.586,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "511936",
     "reference_id": 6952,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رِوَاقُ سُلَيْمَان",
     "media_type": "Text",
     "index_reference": "رِوَاقُ سُلَيْمَان",
@@ -13995,13 +17382,14 @@
           "label": "الهيكل",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "331979",
     "reference_id": 7794,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رِّوَاقِيِّة*، رِّوَاقِيِّون",
     "media_type": "Text",
     "index_reference": "رِّوَاقِيِّة*، رِّوَاقِيِّون",
@@ -14038,13 +17426,14 @@
           "label": "فلسفة",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "512084",
     "reference_id": 7225,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رُوجَلِيمَ",
     "media_type": "Text",
     "index_reference": "رُوجَلِيمَ",
@@ -14066,13 +17455,50 @@
           "end_ref_usfm": "2SA 19:31"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Barzillai",
+          "type": "person",
+          "preferred_label": "بَرْزِلَّايَ",
+          "confidence": 0.7885,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Gilead",
+          "type": "place",
+          "preferred_label": "جِلْعَادَ",
+          "confidence": 0.6655,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Rogelim",
+          "type": "place",
+          "preferred_label": "مِنْ",
+          "confidence": 0.6265,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ammiel.2",
+          "type": "person",
+          "preferred_label": "عَمِّيئِيلَ",
+          "confidence": 0.548,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Machir.2",
+          "type": "person",
+          "preferred_label": "مَاكِيرَ",
+          "confidence": 0.521,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "335522",
     "reference_id": 7778,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "روح",
     "media_type": "Text",
     "index_reference": "روح",
@@ -14100,13 +17526,22 @@
           "end_ref_usfm": "JHN 4:24"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "keyterm:Spirit.2",
+          "type": "keyterm",
+          "preferred_label": "Spirit",
+          "confidence": 0.8826,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "335521",
     "reference_id": 7771,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "روح الإنسان",
     "media_type": "Text",
     "index_reference": "روح الإنسان",
@@ -14158,13 +17593,14 @@
           "end_ref_usfm": "1TH 5:23"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "124580",
     "reference_id": 7769,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "روح الله",
     "media_type": "Text",
     "index_reference": "روح الله",
@@ -15230,13 +18666,14 @@
           "end_ref_usfm": "EPH 4:16"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "510363",
     "reference_id": 4365,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "روح شرير",
     "media_type": "Text",
     "index_reference": "روح شرير",
@@ -15260,13 +18697,14 @@
           "label": "شيطان (أو روح شرير)",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "510493",
     "reference_id": 4609,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "روح قدس",
     "media_type": "Text",
     "index_reference": "روح قدس",
@@ -15283,13 +18721,14 @@
           "label": "الروح القدس",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "331977",
     "reference_id": 7770,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "روح يسوع المسيح",
     "media_type": "Text",
     "index_reference": "روح يسوع المسيح",
@@ -15583,13 +19022,14 @@
           "label": "القيامة",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "512426",
     "reference_id": 7777,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "روحانِيّة",
     "media_type": "Text",
     "index_reference": "روحانِيّة",
@@ -15606,13 +19046,14 @@
           "label": "التقديس",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "331952",
     "reference_id": 7197,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَوْدَا",
     "media_type": "Text",
     "index_reference": "رَوْدَا",
@@ -15628,13 +19069,22 @@
           "end_ref_usfm": "ACT 12:15"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rhoda",
+          "type": "person",
+          "preferred_label": "رَوْدَا",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "331953",
     "reference_id": 7198,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رُودُس",
     "media_type": "Text",
     "index_reference": "رُودُس",
@@ -15668,13 +19118,29 @@
           "end_ref_usfm": "ACT 21:1"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Tarshish",
+          "type": "person",
+          "preferred_label": "تَرْشِيشَ",
+          "confidence": 0.5435,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Rhodes",
+          "type": "place",
+          "preferred_label": "رودسَ",
+          "confidence": 0.52,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "512071",
     "reference_id": 7199,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رودوكوس",
     "media_type": "Text",
     "index_reference": "رودوكوس",
@@ -15690,13 +19156,14 @@
           "end_ref_usfm": "2MA 13:21"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "443990",
     "reference_id": 7234,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رُوش",
     "media_type": "Text",
     "index_reference": "رُوش",
@@ -15712,13 +19179,85 @@
           "end_ref_usfm": "GEN 46:21"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rosh",
+          "type": "person",
+          "preferred_label": "روش",
+          "confidence": 0.937,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ard",
+          "type": "person",
+          "preferred_label": "أَرْدَ",
+          "confidence": 0.748,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Becher",
+          "type": "person",
+          "preferred_label": "لِبَاكَرَ",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ashbel",
+          "type": "person",
+          "preferred_label": "أَشْبِيل",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Muppim",
+          "type": "person",
+          "preferred_label": "مفِّيم",
+          "confidence": 0.649,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Huppim",
+          "type": "person",
+          "preferred_label": "حفِّيم",
+          "confidence": 0.649,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ehi",
+          "type": "person",
+          "preferred_label": "إِيحِي",
+          "confidence": 0.64,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Gera",
+          "type": "person",
+          "preferred_label": "جِيرَا",
+          "confidence": 0.64,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Bela",
+          "type": "person",
+          "preferred_label": "بَالَع",
+          "confidence": 0.64,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Naaman",
+          "type": "person",
+          "preferred_label": "نعْمَان",
+          "confidence": 0.631,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "201519",
     "reference_id": 7237,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رُوفُس",
     "media_type": "Text",
     "index_reference": "رُوفُس",
@@ -15740,13 +19279,50 @@
           "end_ref_usfm": "ROM 16:13"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Alexander",
+          "type": "person",
+          "preferred_label": "ٱلْإِسْكَنْدَرِ",
+          "confidence": 0.6515,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rufus",
+          "type": "person",
+          "preferred_label": "روفسَ",
+          "confidence": 0.62,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rufus.2",
+          "type": "person",
+          "preferred_label": "روفسَ",
+          "confidence": 0.62,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Cyrene",
+          "type": "place",
+          "preferred_label": "قَيْرَوَانِيًّا",
+          "confidence": 0.548,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Simon.5",
+          "type": "person",
+          "preferred_label": "سِمْعَان",
+          "confidence": 0.5435,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "201518",
     "reference_id": 7230,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "روما، مدينة",
     "media_type": "Text",
     "index_reference": "روما، مدينة",
@@ -16011,13 +19587,14 @@
           "label": "الرسالة إلى أهل رومية",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "512093",
     "reference_id": 7241,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رُومَةَ",
     "media_type": "Text",
     "index_reference": "رُومَةَ",
@@ -16039,13 +19616,22 @@
           "end_ref_usfm": "2KI 23:36"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Zebidah",
+          "type": "person",
+          "preferred_label": "زَبِيدَة",
+          "confidence": 0.5435,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "512087",
     "reference_id": 7228,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رُومَمْتِي عَزَرُ",
     "media_type": "Text",
     "index_reference": "رُومَمْتِي عَزَرُ",
@@ -16067,13 +19653,92 @@
           "end_ref_usfm": "1CH 25:31"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Mattaniah.2",
+          "type": "person",
+          "preferred_label": "مَتَّنْيَا",
+          "confidence": 0.6695,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mallothi",
+          "type": "person",
+          "preferred_label": "مَلوثِي",
+          "confidence": 0.62,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Heman.3",
+          "type": "person",
+          "preferred_label": "هَيْمَان",
+          "confidence": 0.5975,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jerimoth.4",
+          "type": "person",
+          "preferred_label": "يَرِيموث",
+          "confidence": 0.5975,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Romamti-ezer",
+          "type": "person",
+          "preferred_label": "Romamti-ezer",
+          "confidence": 0.586,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mahazioth",
+          "type": "person",
+          "preferred_label": "مَحْزِيوث",
+          "confidence": 0.584,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Giddalti",
+          "type": "person",
+          "preferred_label": "جِدَّلْتِي",
+          "confidence": 0.584,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joshbekashah",
+          "type": "person",
+          "preferred_label": "يشْبَقَاشَة",
+          "confidence": 0.53,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hananiah.3",
+          "type": "person",
+          "preferred_label": "حَنَنِيَّا",
+          "confidence": 0.521,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hanani.2",
+          "type": "person",
+          "preferred_label": "حَنَانِي",
+          "confidence": 0.512,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uzziel.4",
+          "type": "person",
+          "preferred_label": "عزِّيئِيل",
+          "confidence": 0.512,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "510896",
     "reference_id": 5222,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ريّ",
     "media_type": "Text",
     "index_reference": "ريّ",
@@ -16090,13 +19755,14 @@
           "label": "زراعة",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "124561",
     "reference_id": 6986,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رياسات وسلاطين",
     "media_type": "Text",
     "index_reference": "رياسات وسلاطين",
@@ -16232,13 +19898,14 @@
           "end_ref_usfm": "TIT 3:1"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "510562",
     "reference_id": 4722,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رياضيّة، مدرسة الألعاب الـ (جيمنازيوم)،",
     "media_type": "Text",
     "index_reference": "رياضيّة، مدرسة الألعاب الـ (جيمنازيوم)،",
@@ -16290,13 +19957,14 @@
           "end_ref_usfm": "1MA 1:15"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "512072",
     "reference_id": 7200,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رِيبَاي",
     "media_type": "Text",
     "index_reference": "رِيبَاي",
@@ -16318,13 +19986,57 @@
           "end_ref_usfm": "1CH 11:31"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Ribai",
+          "type": "person",
+          "preferred_label": "رِيبَايَ",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ittai.2",
+          "type": "person",
+          "preferred_label": "إِتَّاي",
+          "confidence": 0.829,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Benaiah.2",
+          "type": "person",
+          "preferred_label": "بَنَايَا",
+          "confidence": 0.6515,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Benjamin",
+          "type": "person",
+          "preferred_label": "بَنْيَامِينَ",
+          "confidence": 0.598,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Benjamin",
+          "type": "group",
+          "preferred_label": "بَنْيَامِينَ",
+          "confidence": 0.598,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Heleb",
+          "type": "person",
+          "preferred_label": "خَالَب",
+          "confidence": 0.557,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "331807",
     "reference_id": 4089,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ريح شرقية",
     "media_type": "Text",
     "index_reference": "ريح شرقية",
@@ -16394,13 +20106,14 @@
           "end_ref_usfm": "PSA 103:16"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "335485",
     "reference_id": 7196,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ريسا",
     "media_type": "Text",
     "index_reference": "ريسا",
@@ -16424,13 +20137,50 @@
           "label": "نسب يسوع المسيح",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Rhesa",
+          "type": "person",
+          "preferred_label": "رِيسَا",
+          "confidence": 0.82,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Neri",
+          "type": "person",
+          "preferred_label": "نِيرِي",
+          "confidence": 0.64,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joanan",
+          "type": "person",
+          "preferred_label": "يوحَنَّا",
+          "confidence": 0.631,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Zerubbabel",
+          "type": "person",
+          "preferred_label": "زَربَّابِل",
+          "confidence": 0.6175,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shealtiel",
+          "type": "person",
+          "preferred_label": "شَأَلْتِيئِيل",
+          "confidence": 0.604,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "512052",
     "reference_id": 7155,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رِِيعِي",
     "media_type": "Text",
     "index_reference": "رِِيعِي",
@@ -16446,13 +20196,57 @@
           "end_ref_usfm": "1KI 1:8"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rei",
+          "type": "person",
+          "preferred_label": "رِيعِي",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shimei.6",
+          "type": "person",
+          "preferred_label": "شِمْعِي",
+          "confidence": 0.829,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jehoiada",
+          "type": "person",
+          "preferred_label": "يَهويَادَاع",
+          "confidence": 0.6115,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Benaiah",
+          "type": "person",
+          "preferred_label": "بَنَايَا",
+          "confidence": 0.5935,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Adonijah",
+          "type": "person",
+          "preferred_label": "أَدونِيَّا",
+          "confidence": 0.58,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nathan.2",
+          "type": "person",
+          "preferred_label": "نَاثَان",
+          "confidence": 0.5395,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "331951",
     "reference_id": 7195,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رِيغِيُونَ",
     "media_type": "Text",
     "index_reference": "رِيغِيُونَ",
@@ -16468,13 +20262,29 @@
           "end_ref_usfm": "ACT 28:13"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Rhegium",
+          "type": "place",
+          "preferred_label": "رِيغِيونَ",
+          "confidence": 0.919,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Puteoli",
+          "type": "place",
+          "preferred_label": "بوطِيولِي",
+          "confidence": 0.802,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "443987",
     "reference_id": 7213,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رِيفَاث",
     "media_type": "Text",
     "index_reference": "رِيفَاث",
@@ -16496,13 +20306,43 @@
           "end_ref_usfm": "1CH 1:6"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Riphath",
+          "type": "person",
+          "preferred_label": "رِيفَاث",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Togarmah",
+          "type": "person",
+          "preferred_label": "توجَرْمَة",
+          "confidence": 0.721,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ashkenaz",
+          "type": "person",
+          "preferred_label": "أَشْكَنَاز",
+          "confidence": 0.7075,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Gomer",
+          "type": "person",
+          "preferred_label": "جومَرَ",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "331949",
     "reference_id": 7173,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ريفان/رَمْفَانَ",
     "media_type": "Text",
     "index_reference": "ريفان/رَمْفَانَ",
@@ -16524,13 +20364,36 @@
           "end_ref_usfm": "ACT 7:43"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "deity:Rephan",
+          "type": "deity",
+          "preferred_label": "رَمْفَانَ",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Sikkuth",
+          "type": "deity",
+          "preferred_label": "خَيْمَةَ",
+          "confidence": 0.566,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Kiyyun",
+          "type": "deity",
+          "preferred_label": "أَصْنَامِكمْ",
+          "confidence": 0.53,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "512036",
     "reference_id": 7132,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "رَيْكَةُ",
     "media_type": "Text",
     "index_reference": "رَيْكَةُ",
@@ -16546,7 +20409,51 @@
           "end_ref_usfm": "1CH 4:12"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Recah",
+          "type": "place",
+          "preferred_label": "رَيْكَةَ",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ir-nahash",
+          "type": "person",
+          "preferred_label": "مَدِينَةِ",
+          "confidence": 0.8515,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tehinnah",
+          "type": "person",
+          "preferred_label": "تَحِنَّةَ",
+          "confidence": 0.8065,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Paseah",
+          "type": "person",
+          "preferred_label": "فَاسِيحَ",
+          "confidence": 0.7435,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Eshton",
+          "type": "person",
+          "preferred_label": "أَشْتونَ",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Beth-rapha",
+          "type": "person",
+          "preferred_label": "Beth-rapha",
+          "confidence": 0.604,
+          "match_method": "scored"
+        }
+      ]
     }
   }
 ]

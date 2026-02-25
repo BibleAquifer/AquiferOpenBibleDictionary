@@ -2,7 +2,7 @@
   {
     "content_id": "573978",
     "reference_id": 3880,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "杯",
     "media_type": "Text",
     "index_reference": "杯",
@@ -168,13 +168,22 @@
           "end_ref_usfm": "REV 18:6"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "realia:Cup",
+          "type": "realia",
+          "preferred_label": "Cup",
+          "confidence": 0.8948,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "471329",
     "reference_id": 4708,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "悲傷",
     "media_type": "Text",
     "index_reference": "悲傷",
@@ -330,13 +339,14 @@
           "label": "哀悼",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "340937",
     "reference_id": 3976,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "被鬼附",
     "media_type": "Text",
     "index_reference": "被鬼附",
@@ -588,7 +598,8 @@
           "label": "鬼",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   }
 ]

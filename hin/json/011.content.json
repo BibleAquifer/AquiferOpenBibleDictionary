@@ -2,7 +2,7 @@
   {
     "content_id": "732414",
     "reference_id": 2580,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ऐऑन",
     "media_type": "Text",
     "index_reference": "ऐऑन",
@@ -19,13 +19,64 @@
           "label": "आयु",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Ahian",
+          "type": "person",
+          "preferred_label": "अहिअन",
+          "confidence": 0.8912,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Onan",
+          "type": "person",
+          "preferred_label": "ओनान",
+          "confidence": 0.8549,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Aenon",
+          "type": "place",
+          "preferred_label": "ऐनोन",
+          "confidence": 0.8517,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Oren",
+          "type": "person",
+          "preferred_label": "ओरेन",
+          "confidence": 0.8315,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Ijon",
+          "type": "place",
+          "preferred_label": "इय्योन",
+          "confidence": 0.8313,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:On",
+          "type": "person",
+          "preferred_label": "ओन",
+          "confidence": 0.8089,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:On",
+          "type": "place",
+          "preferred_label": "ओन",
+          "confidence": 0.8089,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "732549",
     "reference_id": 3030,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ऐथबैश",
     "media_type": "Text",
     "index_reference": "ऐथबैश",
@@ -53,13 +104,22 @@
           "end_ref_usfm": "JER 51:41"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Babylon",
+          "type": "place",
+          "preferred_label": "बेबीलोन",
+          "confidence": 0.58,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "594351",
     "reference_id": 2646,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ऐन",
     "media_type": "Text",
     "index_reference": "ऐन",
@@ -114,13 +174,29 @@
           "label": "ऐन रिम्मोन",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Ain.2",
+          "type": "place",
+          "preferred_label": "ऐन",
+          "confidence": 0.84,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Ain",
+          "type": "place",
+          "preferred_label": "ऐन",
+          "confidence": 0.68,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "648668",
     "reference_id": 4259,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ऐन रिम्मोन",
     "media_type": "Text",
     "index_reference": "ऐन रिम्मोन",
@@ -160,13 +236,29 @@
           "end_ref_usfm": "ZEC 14:10"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Ain.2",
+          "type": "place",
+          "preferred_label": "ऐन",
+          "confidence": 0.92,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Ain",
+          "type": "place",
+          "preferred_label": "ऐन",
+          "confidence": 0.53,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "380975",
     "reference_id": 2578,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ऐनियास",
     "media_type": "Text",
     "index_reference": "ऐनियास",
@@ -182,13 +274,22 @@
           "end_ref_usfm": "ACT 9:35"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Aeneas",
+          "type": "person",
+          "preferred_label": "ऐनियास",
+          "confidence": 0.8667,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "620596",
     "reference_id": 2579,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ऐनोन",
     "media_type": "Text",
     "index_reference": "ऐनोन",
@@ -204,13 +305,36 @@
           "end_ref_usfm": "JHN 3:23"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Aenon",
+          "type": "place",
+          "preferred_label": "ऐनोन",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:John",
+          "type": "person",
+          "preferred_label": "यूहन्ना",
+          "confidence": 0.67,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Salim",
+          "type": "place",
+          "preferred_label": "सालेम",
+          "confidence": 0.649,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "732415",
     "reference_id": 2581,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ऐसोरा",
     "media_type": "Text",
     "index_reference": "ऐसोरा",
@@ -226,7 +350,8 @@
           "end_ref_usfm": "JDT 4:4"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   }
 ]

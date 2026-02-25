@@ -2,7 +2,7 @@
   {
     "content_id": "369078",
     "reference_id": 5260,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Israel, Sejarah",
     "media_type": "Text",
     "index_reference": "israel, sejarah",
@@ -454,6 +454,29 @@
           "resource_code": "TyndaleBibleDictionary",
           "label": "Yahudi",
           "language": "ind"
+        }
+      ],
+      "acai": [
+        {
+          "id": "person:Israel",
+          "type": "person",
+          "preferred_label": "Israel",
+          "confidence": 0.6392,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Israel",
+          "type": "group",
+          "preferred_label": "Israelites",
+          "confidence": 0.6005,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "Tuhan",
+          "confidence": 0.5553,
+          "match_method": "scored"
         }
       ]
     }

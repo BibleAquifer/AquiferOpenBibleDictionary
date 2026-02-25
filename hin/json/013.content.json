@@ -2,7 +2,7 @@
   {
     "content_id": "381002",
     "reference_id": 3046,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "औगुस्तुस का सैन्य-दल",
     "media_type": "Text",
     "index_reference": "औगुस्तुस का सैन्य-दल",
@@ -26,13 +26,43 @@
           "label": "युद्ध",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Augustus",
+          "type": "person",
+          "preferred_label": "औगुस्तुस",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Julius",
+          "type": "person",
+          "preferred_label": "यूलियुस",
+          "confidence": 0.8875,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Italy",
+          "type": "place",
+          "preferred_label": "इतालिया",
+          "confidence": 0.766,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Paul",
+          "type": "person",
+          "preferred_label": "पौलुस",
+          "confidence": 0.58,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "732557",
     "reference_id": 3045,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "औगुस्तुस कैसर",
     "media_type": "Text",
     "index_reference": "औगुस्तुस कैसर",
@@ -49,13 +79,14 @@
           "label": "कैसर",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "732558",
     "reference_id": 3048,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "औरानस",
     "media_type": "Text",
     "index_reference": "औरानस",
@@ -71,7 +102,8 @@
           "end_ref_usfm": "2MA 4:40"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   }
 ]

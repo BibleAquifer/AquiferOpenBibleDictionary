@@ -2,7 +2,7 @@
   {
     "content_id": "800782",
     "reference_id": 8254,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "女人",
     "media_type": "Text",
     "index_reference": "女人",
@@ -163,6 +163,22 @@
           "resource_code": "TyndaleBibleDictionary",
           "label": "人",
           "language": "zht"
+        }
+      ],
+      "acai": [
+        {
+          "id": "group:GenericFemales",
+          "type": "group",
+          "preferred_label": "Women",
+          "confidence": 0.9005,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:GenericFemale",
+          "type": "person",
+          "preferred_label": "A Woman",
+          "confidence": 0.8496,
+          "match_method": "embedding"
         }
       ]
     }

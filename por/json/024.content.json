@@ -2,7 +2,7 @@
   {
     "content_id": "760045",
     "reference_id": 8192,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Wadi",
     "media_type": "Text",
     "index_reference": "wadi",
@@ -42,7 +42,16 @@
           "end_ref_usfm": "ISA 27:12"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:BrookOfEgypt",
+          "type": "place",
+          "preferred_label": "Ribeiro do Egito",
+          "confidence": 1.0,
+          "match_method": "scored"
+        }
+      ]
     }
   }
 ]

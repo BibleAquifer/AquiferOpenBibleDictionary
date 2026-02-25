@@ -2,7 +2,7 @@
   {
     "content_id": "369041",
     "reference_id": 3589,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Kapadokia",
     "media_type": "Text",
     "index_reference": "kapadokia",
@@ -42,13 +42,22 @@
           "end_ref_usfm": "ACT 2:13"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Cappadocia",
+          "type": "place",
+          "preferred_label": "Kapadokia",
+          "confidence": 0.6615,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "369083",
     "reference_id": 5647,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "KAUM YUDAIS",
     "media_type": "Text",
     "index_reference": "kaum yudais",
@@ -285,13 +294,14 @@
           "label": "Yahudi",
           "language": "ind"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "369120",
     "reference_id": 7179,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Kebangkitan",
     "media_type": "Text",
     "index_reference": "kebangkitan",
@@ -736,13 +746,22 @@
           "label": "Kedatangan Kristus Kali Kedua",
           "language": "ind"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Resurrection",
+          "type": "keyterm",
+          "preferred_label": "kebangkitan",
+          "confidence": 0.6268,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "369060",
     "reference_id": 4369,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Kebangkitan Yesus",
     "media_type": "Text",
     "index_reference": "kebangkitan yesus",
@@ -1088,13 +1107,29 @@
           "end_ref_usfm": "HEB 10:18"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "keyterm:Resurrection",
+          "type": "keyterm",
+          "preferred_label": "kebangkitan",
+          "confidence": 0.6417,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jesus.2",
+          "type": "person",
+          "preferred_label": "Yesus",
+          "confidence": 0.5583,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "369124",
     "reference_id": 7370,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Kedatangan Kristus Kali Kedua",
     "media_type": "Text",
     "index_reference": "kedatangan kristus kali kedua",
@@ -1433,13 +1468,14 @@
           "label": "Kebangkitan",
           "language": "ind"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "369062",
     "reference_id": 4403,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Kehidupan Dan Hubungan Keluarga",
     "media_type": "Text",
     "index_reference": "kehidupan dan hubungan keluarga",
@@ -2235,13 +2271,22 @@
           "end_ref_usfm": "1SA 9:13"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Dan",
+          "type": "person",
+          "preferred_label": "Dan",
+          "confidence": 0.6009,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "369031",
     "reference_id": 2953,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Kenaikan Kristus",
     "media_type": "Text",
     "index_reference": "kenaikan kristus",
@@ -2431,13 +2476,14 @@
           "end_ref_usfm": "HEB 4:16"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "369109",
     "reference_id": 6841,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Ketekunan",
     "media_type": "Text",
     "index_reference": "ketekunan",
@@ -2741,13 +2787,14 @@
           "end_ref_usfm": "HEB 6:8"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "369048",
     "reference_id": 3896,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Kirene, Orang Kirene",
     "media_type": "Text",
     "index_reference": "kirene, orang kirene",
@@ -2787,13 +2834,22 @@
           "end_ref_usfm": "ACT 13:1"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Cyrene",
+          "type": "place",
+          "preferred_label": "Kirene",
+          "confidence": 1.0,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "207173",
     "reference_id": 2741,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Kitab Amos",
     "media_type": "Text",
     "index_reference": "kitab amos",
@@ -3358,13 +3414,22 @@
           "label": "Nabi, Nabiah",
           "language": "ind"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Amos.3",
+          "type": "person",
+          "preferred_label": "Amos",
+          "confidence": 0.6136,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "369061",
     "reference_id": 4383,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Kitab Yehezkiel",
     "media_type": "Text",
     "index_reference": "kitab yehezkiel",
@@ -4804,13 +4869,22 @@
           "label": "Diaspora orang Yahudi",
           "language": "ind"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Ezekiel",
+          "type": "person",
+          "preferred_label": "Yehezkiel",
+          "confidence": 0.6005,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "207171",
     "reference_id": 2523,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Kitab, Kisah Para Rasul",
     "media_type": "Text",
     "index_reference": "kitab, kisah para rasul",
@@ -5442,13 +5516,14 @@
           "label": "Teofilus",
           "language": "ind"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "369045",
     "reference_id": 3764,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Klopas",
     "media_type": "Text",
     "index_reference": "klopas",
@@ -5500,13 +5575,43 @@
           "end_ref_usfm": "ACT 1:13"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Cleopas",
+          "type": "person",
+          "preferred_label": "Kleopas",
+          "confidence": 0.6783,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Alphaeus",
+          "type": "person",
+          "preferred_label": "Alfeus",
+          "confidence": 0.5779,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Thomas",
+          "type": "person",
+          "preferred_label": "Tomas",
+          "confidence": 0.5689,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:James.2",
+          "type": "person",
+          "preferred_label": "Yakobus",
+          "confidence": 0.5284,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "369115",
     "reference_id": 6968,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Kuasa",
     "media_type": "Text",
     "index_reference": "kuasa",
@@ -5943,6 +6048,15 @@
           "resource_code": "TyndaleBibleDictionary",
           "label": "Allah, Pribadi dan Sifat-Sifat-Nya",
           "language": "ind"
+        }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Authority.2",
+          "type": "keyterm",
+          "preferred_label": "kekuasaan",
+          "confidence": 0.5121,
+          "match_method": "scored"
         }
       ]
     }

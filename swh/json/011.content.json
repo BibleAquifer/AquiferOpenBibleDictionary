@@ -2,7 +2,7 @@
   {
     "content_id": "689573",
     "reference_id": 3984,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Jangwa",
     "media_type": "Text",
     "index_reference": "jangwa",
@@ -428,13 +428,14 @@
           "label": "Nyika",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "713704",
     "reference_id": 4957,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Jehanamu",
     "media_type": "Text",
     "index_reference": "jehanamu",
@@ -909,13 +910,64 @@
           "label": "Hali ya Kati ya Maisha na Ufufuo",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Jeroham",
+          "type": "person",
+          "preferred_label": "Yerohamu",
+          "confidence": 0.8021,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Jeroham.2",
+          "type": "person",
+          "preferred_label": "Yerohamu",
+          "confidence": 0.8021,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Jeroham.3",
+          "type": "person",
+          "preferred_label": "Yerohamu",
+          "confidence": 0.8021,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Jeroham.4",
+          "type": "person",
+          "preferred_label": "Yerohamu",
+          "confidence": 0.8021,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Jeroham.5",
+          "type": "person",
+          "preferred_label": "Yerohamu",
+          "confidence": 0.8021,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Jeroham.6",
+          "type": "person",
+          "preferred_label": "Yerohamu",
+          "confidence": 0.8021,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Jeroham.7",
+          "type": "person",
+          "preferred_label": "Yerohamu",
+          "confidence": 0.8021,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "811771",
     "reference_id": 7230,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Jiji la Rumi",
     "media_type": "Text",
     "index_reference": "jiji la rumi ",
@@ -1180,13 +1232,14 @@
           "label": "Barua kwa Warumi",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "811717",
     "reference_id": 3825,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Jiwe la Pembeni",
     "media_type": "Text",
     "index_reference": "jiwe la pembeni",
@@ -1280,13 +1333,14 @@
           "end_ref_usfm": "1PE 2:8"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "778892",
     "reference_id": 7822,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Jua",
     "media_type": "Text",
     "index_reference": "jua",
@@ -1468,13 +1522,14 @@
           "label": "Mwezi",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "713714",
     "reference_id": 5648,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Juda (Mtu)",
     "media_type": "Text",
     "index_reference": "juda (mtu)",
@@ -1532,7 +1587,37 @@
           "end_ref_usfm": "JUD 1:25"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Jude",
+          "type": "person",
+          "preferred_label": "Yuda",
+          "confidence": 0.625,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joda",
+          "type": "person",
+          "preferred_label": "Yuda",
+          "confidence": 0.6125,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Judah.3",
+          "type": "person",
+          "preferred_label": "Yuda",
+          "confidence": 0.6125,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Judah.4",
+          "type": "person",
+          "preferred_label": "Yuda",
+          "confidence": 0.5,
+          "match_method": "scored"
+        }
+      ]
     }
   }
 ]

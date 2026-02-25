@@ -2,7 +2,7 @@
   {
     "content_id": "184888",
     "reference_id": 3781,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रंग",
     "media_type": "Text",
     "index_reference": "रंग",
@@ -1065,13 +1065,14 @@
           "label": "रंजक, रंगाई, रंजयिता",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "381247",
     "reference_id": 7977,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रंगशाला",
     "media_type": "Text",
     "index_reference": "रंगशाला",
@@ -1095,13 +1096,14 @@
           "label": "Architecture",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "381065",
     "reference_id": 4076,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रंजक, रंगाई, रंजयिता",
     "media_type": "Text",
     "index_reference": "रंजक, रंगाई, रंजयिता",
@@ -1137,13 +1139,14 @@
           "label": "कपड़ा एवं कपड़ा निर्माण",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "649484",
     "reference_id": 7086,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रक्कत",
     "media_type": "Text",
     "index_reference": "रक्कत",
@@ -1159,13 +1162,50 @@
           "end_ref_usfm": "JOS 19:35"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Hammath",
+          "type": "place",
+          "preferred_label": "हम्मत",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Chinnereth",
+          "type": "place",
+          "preferred_label": "किन्नेरेत",
+          "confidence": 0.7015,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Zer",
+          "type": "place",
+          "preferred_label": "सेर",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Ziddim",
+          "type": "place",
+          "preferred_label": "सिद्दीम",
+          "confidence": 0.64,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Tiberias",
+          "type": "place",
+          "preferred_label": "तिबिरियास",
+          "confidence": 0.5935,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "649485",
     "reference_id": 7087,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रक्कोन",
     "media_type": "Text",
     "index_reference": "रक्कोन",
@@ -1181,13 +1221,29 @@
           "end_ref_usfm": "JOS 19:46"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Rakkon",
+          "type": "place",
+          "preferred_label": "रक्कोन",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Me-jarkon",
+          "type": "place",
+          "preferred_label": "मेयर्कोन",
+          "confidence": 0.8695,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "594758",
     "reference_id": 7076,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रगुएल",
     "media_type": "Text",
     "index_reference": "रगुएल",
@@ -1217,13 +1273,29 @@
           "label": "यित्रो",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Jethro",
+          "type": "person",
+          "preferred_label": "यित्रो",
+          "confidence": 0.53,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Israel",
+          "type": "person",
+          "preferred_label": "इस्राएल",
+          "confidence": 0.5015,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "733762",
     "reference_id": 7122,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रज़ीस",
     "media_type": "Text",
     "index_reference": "रज़ीस",
@@ -1239,13 +1311,22 @@
           "end_ref_usfm": "2MA 14:46"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Rissah",
+          "type": "place",
+          "preferred_label": "रिस्सा",
+          "confidence": 0.807,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "649521",
     "reference_id": 7194,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रजोन",
     "media_type": "Text",
     "index_reference": "रजोन",
@@ -1261,13 +1342,22 @@
           "end_ref_usfm": "1KI 11:25"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rezon",
+          "type": "person",
+          "preferred_label": "रजोन",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "732751",
     "reference_id": 3652,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रथ",
     "media_type": "Text",
     "index_reference": "रथ",
@@ -1291,13 +1381,14 @@
           "label": "युद्ध",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "649479",
     "reference_id": 7074,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रद्दैं",
     "media_type": "Text",
     "index_reference": "रद्दैं",
@@ -1313,13 +1404,29 @@
           "end_ref_usfm": "1CH 2:14"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Raddai",
+          "type": "person",
+          "preferred_label": "रद्दैं",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nethanel.2",
+          "type": "person",
+          "preferred_label": "नतनेल",
+          "confidence": 0.649,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "649516",
     "reference_id": 7170,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रपाईम की तराई",
     "media_type": "Text",
     "index_reference": "रपाईम की तराई",
@@ -1359,13 +1466,14 @@
           "end_ref_usfm": "2SA 5:22"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "734077",
     "reference_id": 8169,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रपाईम की तराई",
     "media_type": "Text",
     "index_reference": "रपाईम की तराई",
@@ -1382,13 +1490,14 @@
           "label": "रपाईम की तराई",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "649513",
     "reference_id": 7167,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रपाएल",
     "media_type": "Text",
     "index_reference": "रपाएल",
@@ -1404,13 +1513,36 @@
           "end_ref_usfm": "1CH 26:8"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rephael",
+          "type": "person",
+          "preferred_label": "रपाएल",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Elihu.3",
+          "type": "person",
+          "preferred_label": "एलीहू",
+          "confidence": 0.6515,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Elzabad.2",
+          "type": "person",
+          "preferred_label": "एलजाबाद",
+          "confidence": 0.575,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "649515",
     "reference_id": 7169,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रपायाह",
     "media_type": "Text",
     "index_reference": "रपायाह",
@@ -1456,13 +1588,99 @@
           "end_ref_usfm": "1CH 7:2"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rephaiah.2",
+          "type": "person",
+          "preferred_label": "रपायाह",
+          "confidence": 0.65,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rephaiah.4",
+          "type": "person",
+          "preferred_label": "रपायाह",
+          "confidence": 0.65,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rephaiah.3",
+          "type": "person",
+          "preferred_label": "रपायाह",
+          "confidence": 0.65,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rephaiah.5",
+          "type": "person",
+          "preferred_label": "रपायाह",
+          "confidence": 0.65,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Pelatiah",
+          "type": "person",
+          "preferred_label": "पलत्याह",
+          "confidence": 0.5465,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Neariah.2",
+          "type": "person",
+          "preferred_label": "नार्याह",
+          "confidence": 0.5465,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Pelatiah.2",
+          "type": "person",
+          "preferred_label": "पलत्याह",
+          "confidence": 0.5465,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shecaniah.2",
+          "type": "person",
+          "preferred_label": "शकन्याह",
+          "confidence": 0.5015,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Obadiah.2",
+          "type": "person",
+          "preferred_label": "ओबद्याह",
+          "confidence": 0.5015,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jeshaiah.2",
+          "type": "person",
+          "preferred_label": "यशायाह",
+          "confidence": 0.5015,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hananiah",
+          "type": "person",
+          "preferred_label": "हनन्याह",
+          "confidence": 0.5015,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hur.4",
+          "type": "person",
+          "preferred_label": "हूर",
+          "confidence": 0.5015,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "594765",
     "reference_id": 7174,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रपीदीम",
     "media_type": "Text",
     "index_reference": "रपीदीम",
@@ -1498,13 +1716,22 @@
           "label": "जंगल में भटकना",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Rephidim",
+          "type": "place",
+          "preferred_label": "रपीदीम",
+          "confidence": 0.7091,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "733747",
     "reference_id": 7065,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रबमग",
     "media_type": "Text",
     "index_reference": "रबमग",
@@ -1526,13 +1753,36 @@
           "end_ref_usfm": "JER 39:13"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rab-saris.2",
+          "type": "person",
+          "preferred_label": "Rab-saris",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nergal-shar-ezer.2",
+          "type": "person",
+          "preferred_label": "Nergal-shar-ezer",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rab-mag",
+          "type": "person",
+          "preferred_label": "Rab-mag",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "649476",
     "reference_id": 7067,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रबशाके",
     "media_type": "Text",
     "index_reference": "रबशाके",
@@ -1578,13 +1828,22 @@
           "end_ref_usfm": "ISA 36:22"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rabshakeh",
+          "type": "person",
+          "preferred_label": "रबशाके",
+          "confidence": 0.7391,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "649475",
     "reference_id": 7066,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रबसारीस",
     "media_type": "Text",
     "index_reference": "रबसारीस",
@@ -1624,13 +1883,14 @@
           "end_ref_usfm": "DAN 1:7"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "649473",
     "reference_id": 7061,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रब्बाह",
     "media_type": "Text",
     "index_reference": "रब्बाह",
@@ -1646,13 +1906,29 @@
           "end_ref_usfm": "JOS 15:60"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Ammon",
+          "type": "place",
+          "preferred_label": "अम्मोन",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Kiriath-jearim",
+          "type": "place",
+          "preferred_label": "किर्यत्यारीम",
+          "confidence": 0.5125,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "184996",
     "reference_id": 7063,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रब्बी",
     "media_type": "Text",
     "index_reference": "रब्बी",
@@ -1722,13 +1998,29 @@
           "end_ref_usfm": "MAT 23:8"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Ribai",
+          "type": "person",
+          "preferred_label": "रीबै",
+          "confidence": 0.8477,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Rabbith",
+          "type": "place",
+          "preferred_label": "रब्बीत",
+          "confidence": 0.8441,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "732430",
     "reference_id": 2652,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रब्बी अकीबा",
     "media_type": "Text",
     "index_reference": "रब्बी अकीबा",
@@ -1752,13 +2044,14 @@
           "label": "तालमुद",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "649474",
     "reference_id": 7062,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रब्बीत",
     "media_type": "Text",
     "index_reference": "रब्बीत",
@@ -1800,13 +2093,36 @@
           "label": "दाबरात",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Daberath",
+          "type": "place",
+          "preferred_label": "दाबरात",
+          "confidence": 0.7515,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Rabbith",
+          "type": "place",
+          "preferred_label": "रब्बीत",
+          "confidence": 0.7,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Kishion",
+          "type": "place",
+          "preferred_label": "किश्योन",
+          "confidence": 0.5895,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "184997",
     "reference_id": 7064,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रब्बूनी",
     "media_type": "Text",
     "index_reference": "रब्बूनी",
@@ -1836,13 +2152,29 @@
           "label": "रब्बी",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "group:Reuben",
+          "type": "group",
+          "preferred_label": "रूबेन",
+          "confidence": 0.8248,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Reuben",
+          "type": "person",
+          "preferred_label": "रूबेन",
+          "confidence": 0.8248,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "649509",
     "reference_id": 7159,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रमल्याह",
     "media_type": "Text",
     "index_reference": "रमल्याह",
@@ -1864,13 +2196,29 @@
           "end_ref_usfm": "2KI 15:37"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Remaliah",
+          "type": "person",
+          "preferred_label": "रमल्याह",
+          "confidence": 0.7636,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Janoah",
+          "type": "place",
+          "preferred_label": "यानोह",
+          "confidence": 0.5057,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "733752",
     "reference_id": 7099,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रम्याह",
     "media_type": "Text",
     "index_reference": "रम्याह",
@@ -1886,13 +2234,71 @@
           "end_ref_usfm": "EZR 10:25"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Ramiah",
+          "type": "person",
+          "preferred_label": "रम्याह",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Izziah",
+          "type": "person",
+          "preferred_label": "यिज्जियाह",
+          "confidence": 0.8875,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Malchijah.4",
+          "type": "person",
+          "preferred_label": "मल्किय्याह",
+          "confidence": 0.8695,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Benaiah.8",
+          "type": "person",
+          "preferred_label": "बनायाह",
+          "confidence": 0.8515,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mijamin.2",
+          "type": "person",
+          "preferred_label": "मिय्यामीन",
+          "confidence": 0.7975,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Parosh",
+          "type": "person",
+          "preferred_label": "परोश",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Eleazar.7",
+          "type": "person",
+          "preferred_label": "एलीआजर",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Israel",
+          "type": "person",
+          "preferred_label": "इस्राएल",
+          "confidence": 0.5395,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "733962",
     "reference_id": 7820,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रविवार",
     "media_type": "Text",
     "index_reference": "रविवार",
@@ -1909,13 +2315,14 @@
           "label": "प्रभु का दिन",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "649520",
     "reference_id": 7193,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रसीन",
     "media_type": "Text",
     "index_reference": "रसीन",
@@ -1967,13 +2374,29 @@
           "end_ref_usfm": "ISA 8:8"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rezin",
+          "type": "person",
+          "preferred_label": "रसीन",
+          "confidence": 0.6533,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rezin.2",
+          "type": "person",
+          "preferred_label": "रसीन",
+          "confidence": 0.6267,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "733349",
     "reference_id": 5796,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रसोई",
     "media_type": "Text",
     "index_reference": "रसोई",
@@ -1982,13 +2405,14 @@
     "content": "<h1>रसोई</h1><p><em>देखें  </em><span data-bnType=\"resourceReference\" data-resourceId=\"4454\" data-resourceType=\"TyndaleBibleDictionary\">भोजन और भोजन की तैयारी</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"5057\" data-resourceType=\"TyndaleBibleDictionary\">घर और निवास स्थान</span>। </p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "647785",
     "reference_id": 7077,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रहब (अजगर )",
     "media_type": "Text",
     "index_reference": "रहब (अजगर )",
@@ -2042,13 +2466,92 @@
           "label": "मिस्र, मिस्री",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Rehob",
+          "type": "person",
+          "preferred_label": "रहोब",
+          "confidence": 0.9373,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Rehob.2",
+          "type": "person",
+          "preferred_label": "रहोब",
+          "confidence": 0.9373,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Rehob.2",
+          "type": "place",
+          "preferred_label": "रहोब",
+          "confidence": 0.9373,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Rehob.3",
+          "type": "place",
+          "preferred_label": "रहोब",
+          "confidence": 0.9373,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Rehoboam",
+          "type": "person",
+          "preferred_label": "रहबाम",
+          "confidence": 0.8941,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Rehabiah",
+          "type": "person",
+          "preferred_label": "रहब्याह",
+          "confidence": 0.8766,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Rahab",
+          "type": "person",
+          "preferred_label": "राहाब",
+          "confidence": 0.8393,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Raham",
+          "type": "person",
+          "preferred_label": "रहम",
+          "confidence": 0.8175,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Rehoboth",
+          "type": "place",
+          "preferred_label": "रहोबोत",
+          "confidence": 0.8094,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Rehoboth.2",
+          "type": "place",
+          "preferred_label": "रहोबोत",
+          "confidence": 0.8094,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Ribai",
+          "type": "person",
+          "preferred_label": "रीबै",
+          "confidence": 0.8086,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "649505",
     "reference_id": 7149,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रहबाम",
     "media_type": "Text",
     "index_reference": "रहबाम",
@@ -2152,13 +2655,22 @@
           "label": "इस्राएल का इतिहास ",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Rehoboam",
+          "type": "person",
+          "preferred_label": "रहबाम",
+          "confidence": 0.6542,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "649504",
     "reference_id": 7148,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रहब्याह",
     "media_type": "Text",
     "index_reference": "रहब्याह",
@@ -2186,13 +2698,43 @@
           "end_ref_usfm": "1CH 26:25"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rehabiah",
+          "type": "person",
+          "preferred_label": "रहब्याह",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Isshiah.4",
+          "type": "person",
+          "preferred_label": "यिश्शिय्याह",
+          "confidence": 0.7542,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Eliezer.3",
+          "type": "person",
+          "preferred_label": "एलीएजेर",
+          "confidence": 0.5472,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joram.4",
+          "type": "person",
+          "preferred_label": "योराम",
+          "confidence": 0.5083,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "649480",
     "reference_id": 7079,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रहम",
     "media_type": "Text",
     "index_reference": "रहम",
@@ -2208,13 +2750,50 @@
           "end_ref_usfm": "1CH 2:44"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Raham",
+          "type": "person",
+          "preferred_label": "रहम",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shema",
+          "type": "person",
+          "preferred_label": "शेमा",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shammai.2",
+          "type": "person",
+          "preferred_label": "शम्मै",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rekem.2",
+          "type": "person",
+          "preferred_label": "रेकेम",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jorkeam",
+          "type": "person",
+          "preferred_label": "योर्काम",
+          "confidence": 0.64,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "733774",
     "reference_id": 7154,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रहूम",
     "media_type": "Text",
     "index_reference": "रहूम",
@@ -2275,13 +2854,43 @@
           "label": "नहूम",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Rehum.2",
+          "type": "person",
+          "preferred_label": "रहूम",
+          "confidence": 0.6762,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rehum",
+          "type": "person",
+          "preferred_label": "रहूम",
+          "confidence": 0.6571,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rehum.3",
+          "type": "person",
+          "preferred_label": "रहूम",
+          "confidence": 0.619,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rehum.4",
+          "type": "person",
+          "preferred_label": "रहूम",
+          "confidence": 0.619,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "649506",
     "reference_id": 7152,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रहोब (व्यक्ति)",
     "media_type": "Text",
     "index_reference": "रहोब (व्यक्ति)",
@@ -2309,13 +2918,43 @@
           "end_ref_usfm": "NEH 10:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rehob",
+          "type": "person",
+          "preferred_label": "रहोब",
+          "confidence": 0.8667,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rehob.2",
+          "type": "person",
+          "preferred_label": "रहोब",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Zobah",
+          "type": "place",
+          "preferred_label": "सोबा",
+          "confidence": 0.6732,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hadadezer",
+          "type": "person",
+          "preferred_label": "हदादेजेर",
+          "confidence": 0.6417,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "594763",
     "reference_id": 7153,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रहोब (स्थान)",
     "media_type": "Text",
     "index_reference": "रहोब (स्थान)",
@@ -2382,13 +3021,43 @@
           "label": "लेवियों के नगर",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Rehob.2",
+          "type": "place",
+          "preferred_label": "रहोब",
+          "confidence": 0.6364,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Rehob.3",
+          "type": "place",
+          "preferred_label": "रहोब",
+          "confidence": 0.5955,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Ahlab",
+          "type": "place",
+          "preferred_label": "अहलाब",
+          "confidence": 0.5242,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Helbah",
+          "type": "place",
+          "preferred_label": "हेलबा",
+          "confidence": 0.5239,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "381806",
     "reference_id": 7151,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रहोबोत",
     "media_type": "Text",
     "index_reference": "रहोबोत",
@@ -2430,13 +3099,29 @@
           "label": "रहोबोतीर",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Rehoboth.2",
+          "type": "place",
+          "preferred_label": "रहोबोत",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Rehoboth",
+          "type": "place",
+          "preferred_label": "रहोबोत",
+          "confidence": 0.7,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "381805",
     "reference_id": 7150,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रहोबोतीर",
     "media_type": "Text",
     "index_reference": "रहोबोतीर",
@@ -2452,13 +3137,29 @@
           "end_ref_usfm": "GEN 10:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Calah",
+          "type": "place",
+          "preferred_label": "कालह",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Nineveh",
+          "type": "place",
+          "preferred_label": "नीनवे",
+          "confidence": 0.6265,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "620748",
     "reference_id": 6417,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "राई",
     "media_type": "Text",
     "index_reference": "राई",
@@ -2482,13 +3183,22 @@
           "label": "पौधे",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "flora:Mustard",
+          "type": "flora",
+          "preferred_label": "Mustard",
+          "confidence": 0.604,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "594757",
     "reference_id": 7069,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "राका",
     "media_type": "Text",
     "index_reference": "राका",
@@ -2534,13 +3244,36 @@
           "end_ref_usfm": "MAT 5:22"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Recah",
+          "type": "place",
+          "preferred_label": "रेका",
+          "confidence": 0.8679,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Rapha",
+          "type": "person",
+          "preferred_label": "रापा",
+          "confidence": 0.8211,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Raphah",
+          "type": "person",
+          "preferred_label": "रापा",
+          "confidence": 0.8211,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "649477",
     "reference_id": 7068,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "राकाल",
     "media_type": "Text",
     "index_reference": "राकाल",
@@ -2556,13 +3289,43 @@
           "end_ref_usfm": "1SA 30:29"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "group:Jerahmeel",
+          "type": "group",
+          "preferred_label": "यरहमेलियों",
+          "confidence": 0.829,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jerahmeel",
+          "type": "person",
+          "preferred_label": "यरहमेल",
+          "confidence": 0.7975,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Carmel",
+          "type": "place",
+          "preferred_label": "कर्मेल",
+          "confidence": 0.7285,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Kenite",
+          "type": "group",
+          "preferred_label": "केनी",
+          "confidence": 0.625,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "649478",
     "reference_id": 7071,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "राकाल",
     "media_type": "Text",
     "index_reference": "राकाल",
@@ -2586,13 +3349,43 @@
           "label": "राकाल",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "group:Jerahmeel",
+          "type": "group",
+          "preferred_label": "यरहमेलियों",
+          "confidence": 0.829,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jerahmeel",
+          "type": "person",
+          "preferred_label": "यरहमेल",
+          "confidence": 0.7975,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Carmel",
+          "type": "place",
+          "preferred_label": "कर्मेल",
+          "confidence": 0.7285,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Kenite",
+          "type": "group",
+          "preferred_label": "केनी",
+          "confidence": 0.625,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "649483",
     "reference_id": 7085,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "राकेम",
     "media_type": "Text",
     "index_reference": "राकेम",
@@ -2608,13 +3401,57 @@
           "end_ref_usfm": "1CH 7:16"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rakem",
+          "type": "person",
+          "preferred_label": "राकेम",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Maacah.5",
+          "type": "person",
+          "preferred_label": "माका",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Machir",
+          "type": "person",
+          "preferred_label": "माकीर",
+          "confidence": 0.85,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Peresh",
+          "type": "person",
+          "preferred_label": "पेरेश",
+          "confidence": 0.82,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Sheresh",
+          "type": "person",
+          "preferred_label": "शेरेश",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ulam",
+          "type": "person",
+          "preferred_label": "ऊलाम",
+          "confidence": 0.748,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "381327",
     "reference_id": 2969,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "राख",
     "media_type": "Text",
     "index_reference": "राख",
@@ -2740,13 +3577,22 @@
           "label": "शोक",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Chorazin",
+          "type": "place",
+          "preferred_label": "खुराजीन",
+          "confidence": 0.6148,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "620776",
     "reference_id": 7070,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "राखाब",
     "media_type": "Text",
     "index_reference": "राखाब",
@@ -2770,13 +3616,50 @@
           "label": "राहाब (व्यक्ति)",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Rahab",
+          "type": "person",
+          "preferred_label": "राहाब",
+          "confidence": 0.91,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Boaz",
+          "type": "person",
+          "preferred_label": "बोअज",
+          "confidence": 0.748,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Obed",
+          "type": "person",
+          "preferred_label": "ओबेद",
+          "confidence": 0.748,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ruth",
+          "type": "person",
+          "preferred_label": "रूत",
+          "confidence": 0.625,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jesse",
+          "type": "person",
+          "preferred_label": "यिशै",
+          "confidence": 0.5125,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "620777",
     "reference_id": 7075,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रागाऊ",
     "media_type": "Text",
     "index_reference": "रागाऊ",
@@ -2800,13 +3683,50 @@
           "label": "रू",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Serug",
+          "type": "person",
+          "preferred_label": "सरूग",
+          "confidence": 0.8515,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Peleg",
+          "type": "person",
+          "preferred_label": "पेलेग",
+          "confidence": 0.82,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Eber",
+          "type": "person",
+          "preferred_label": "एबेर",
+          "confidence": 0.748,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Reu",
+          "type": "person",
+          "preferred_label": "रऊ",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shelah.2",
+          "type": "person",
+          "preferred_label": "शेला",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "381832",
     "reference_id": 7333,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "राजदण्ड",
     "media_type": "Text",
     "index_reference": "राजदण्ड",
@@ -2894,13 +3814,14 @@
           "end_ref_usfm": "HEB 1:8"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "647136",
     "reference_id": 2716,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "राजदूत",
     "media_type": "Text",
     "index_reference": "राजदूत",
@@ -2940,13 +3861,22 @@
           "end_ref_usfm": "EPH 6:20"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Ambassador",
+          "type": "person",
+          "preferred_label": "Ambassador",
+          "confidence": 0.8897,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "649432",
     "reference_id": 6722,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "राजभवन",
     "media_type": "Text",
     "index_reference": "राजभवन",
@@ -3220,13 +4150,14 @@
           "end_ref_usfm": "1SA 16:22"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "649277",
     "reference_id": 6135,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "राजमिस्त्री, चिनाई",
     "media_type": "Text",
     "index_reference": "राजमिस्त्री, चिनाई",
@@ -3278,13 +4209,29 @@
           "end_ref_usfm": "1KI 5:18"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Tyre",
+          "type": "place",
+          "preferred_label": "सोर",
+          "confidence": 0.6,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Tyre",
+          "type": "group",
+          "preferred_label": "सोरी",
+          "confidence": 0.5,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "594681",
     "reference_id": 6125,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "राजहँस",
     "media_type": "Text",
     "index_reference": "राजहँस",
@@ -3314,13 +4261,22 @@
           "label": "पक्षी",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:BarnOwl",
+          "type": "fauna",
+          "preferred_label": "Barn Owl",
+          "confidence": 0.613,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "368609",
     "reference_id": 5763,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "राजा",
     "media_type": "Text",
     "index_reference": "राजा",
@@ -3680,13 +4636,14 @@
           "label": "इस्राएल का इतिहास ",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "733341",
     "reference_id": 5761,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "राजा का कुण्ड",
     "media_type": "Text",
     "index_reference": "राजा का कुण्ड",
@@ -3708,13 +4665,29 @@
           "end_ref_usfm": "NEH 3:15"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:FountainGate",
+          "type": "place",
+          "preferred_label": "Fountain Gate",
+          "confidence": 0.658,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Col-hozeh",
+          "type": "person",
+          "preferred_label": "कोल्होजे",
+          "confidence": 0.629,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "733181",
     "reference_id": 5018,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "राजा का राजमार्ग",
     "media_type": "Text",
     "index_reference": "राजा का राजमार्ग",
@@ -3731,13 +4704,22 @@
           "label": "राजा का राजमार्ग",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:KingsHighway",
+          "type": "place",
+          "preferred_label": "King’s Highway",
+          "confidence": 0.8919,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "381638",
     "reference_id": 5760,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "राजा का राजमार्ग",
     "media_type": "Text",
     "index_reference": "राजा का राजमार्ग",
@@ -3807,13 +4789,22 @@
           "end_ref_usfm": "GEN 14:24"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:KingsHighway",
+          "type": "place",
+          "preferred_label": "King’s Highway",
+          "confidence": 0.8919,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "381637",
     "reference_id": 5758,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "राजा की तराई",
     "media_type": "Text",
     "index_reference": "राजा की तराई",
@@ -3837,13 +4828,36 @@
           "label": "राजा की तराई",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:KingsValley",
+          "type": "place",
+          "preferred_label": "King’s Valley",
+          "confidence": 0.6445,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Chedorlaomer",
+          "type": "person",
+          "preferred_label": "कदोर्लाओमेर",
+          "confidence": 0.6385,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Shaveh",
+          "type": "place",
+          "preferred_label": "Valley of Shaveh",
+          "confidence": 0.6175,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "381639",
     "reference_id": 5762,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "राजा की तराई",
     "media_type": "Text",
     "index_reference": "राजा की तराई",
@@ -3865,13 +4879,22 @@
           "end_ref_usfm": "2SA 18:18"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:KingsValley",
+          "type": "place",
+          "preferred_label": "King’s Valley",
+          "confidence": 0.6445,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "649193",
     "reference_id": 5759,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "राजा की बारी",
     "media_type": "Text",
     "index_reference": "राजा की बारी",
@@ -3905,13 +4928,29 @@
           "end_ref_usfm": "JER 52:7"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Col-hozeh",
+          "type": "person",
+          "preferred_label": "कोल्होजे",
+          "confidence": 0.5695,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Arabah",
+          "type": "place",
+          "preferred_label": "अराबा",
+          "confidence": 0.5475,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "620706",
     "reference_id": 5737,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "राज्य की कुँजियाँ",
     "media_type": "Text",
     "index_reference": "राज्य की कुँजियाँ",
@@ -3963,13 +5002,14 @@
           "end_ref_usfm": "REV 3:7"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "381099",
     "reference_id": 4688,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "राज्यपाल",
     "media_type": "Text",
     "index_reference": "राज्यपाल",
@@ -4117,13 +5157,14 @@
           "end_ref_usfm": "1MA 14:47"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "381194",
     "reference_id": 6996,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "राज्यपाल",
     "media_type": "Text",
     "index_reference": "राज्यपाल",
@@ -4173,13 +5214,14 @@
           "label": "पीलातुस, पुन्तियुस",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "180521",
     "reference_id": 6571,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रात",
     "media_type": "Text",
     "index_reference": "रात",
@@ -4311,13 +5353,14 @@
           "label": "दिन",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "733580",
     "reference_id": 6569,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रात का बाज़",
     "media_type": "Text",
     "index_reference": "रात का बाज़",
@@ -4334,13 +5377,14 @@
           "label": "पक्षी",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "381201",
     "reference_id": 7053,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रानी",
     "media_type": "Text",
     "index_reference": "रानी",
@@ -4440,13 +5484,22 @@
           "end_ref_usfm": "1KI 1:31"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Kidron",
+          "type": "place",
+          "preferred_label": "किद्रोन",
+          "confidence": 0.6136,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "649495",
     "reference_id": 7112,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रापा",
     "media_type": "Text",
     "index_reference": "रापा",
@@ -4470,13 +5523,50 @@
           "label": "रपायाह",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Raphah",
+          "type": "person",
+          "preferred_label": "रापा",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Binea",
+          "type": "person",
+          "preferred_label": "बिना",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Azel",
+          "type": "person",
+          "preferred_label": "आसेल",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Eleasah.2",
+          "type": "person",
+          "preferred_label": "एलासा",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Moza.2",
+          "type": "person",
+          "preferred_label": "मोसा",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "381803",
     "reference_id": 7114,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रापा",
     "media_type": "Text",
     "index_reference": "रापा",
@@ -4512,13 +5602,64 @@
           "label": "रपायाह",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Raphah",
+          "type": "person",
+          "preferred_label": "रापा",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rosh",
+          "type": "person",
+          "preferred_label": "रोश",
+          "confidence": 0.7182,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Gera",
+          "type": "person",
+          "preferred_label": "गेरा",
+          "confidence": 0.5848,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Muppim",
+          "type": "person",
+          "preferred_label": "मुप्पीम",
+          "confidence": 0.5848,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Naaman",
+          "type": "person",
+          "preferred_label": "नामान",
+          "confidence": 0.5652,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Huppim",
+          "type": "person",
+          "preferred_label": "हुप्पीम",
+          "confidence": 0.5083,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Becher",
+          "type": "person",
+          "preferred_label": "बेकेर",
+          "confidence": 0.5083,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "381808",
     "reference_id": 7171,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रापाइयों या मरे हुए लोग",
     "media_type": "Text",
     "index_reference": "रापाइयों या मरे हुए लोग",
@@ -4632,13 +5773,29 @@
           "label": "दानव",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Rapha",
+          "type": "person",
+          "preferred_label": "रापा",
+          "confidence": 0.6522,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rizpah",
+          "type": "person",
+          "preferred_label": "रिस्पा",
+          "confidence": 0.5136,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "594760",
     "reference_id": 7116,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रापू",
     "media_type": "Text",
     "index_reference": "रापू",
@@ -4654,13 +5811,29 @@
           "end_ref_usfm": "NUM 13:9"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Raphu",
+          "type": "person",
+          "preferred_label": "रापू",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Palti",
+          "type": "person",
+          "preferred_label": "पेलेती",
+          "confidence": 0.775,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "733757",
     "reference_id": 7113,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "राफ़ानाह",
     "media_type": "Text",
     "index_reference": "राफ़ानाह",
@@ -4669,13 +5842,14 @@
     "content": "<h1>राफ़ानाह</h1><p>63 ईसा पूर्व के आसपास फिलिस्तीन और सीरिया पर पोम्पी की विजय के बाद रोम द्वारा पुनर्निर्माण किए गए मूल 10 यूनानी शहरों में से एक। राफ़ानाह (जिसे रफाना भी लिखा जाता है) <span>दिकापुलिस</span> क्षेत्र में स्थित था। </p><p><em>देखें</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3958\" data-resourceType=\"TyndaleBibleDictionary\">दिकापुलिस</span>।</p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "733756",
     "reference_id": 7111,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "राफेल",
     "media_type": "Text",
     "index_reference": "राफेल",
@@ -4751,13 +5925,14 @@
           "end_ref_usfm": "TOB 11:18"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "733758",
     "reference_id": 7115,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "राफ़ोन",
     "media_type": "Text",
     "index_reference": "राफ़ोन",
@@ -4773,13 +5948,14 @@
           "end_ref_usfm": "1MA 5:43"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "620780",
     "reference_id": 7104,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "राम (व्यक्ति)",
     "media_type": "Text",
     "index_reference": "राम (व्यक्ति)",
@@ -4833,13 +6009,64 @@
           "label": "यीशु मसीह की वंशावली",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Ram",
+          "type": "person",
+          "preferred_label": "राम",
+          "confidence": 0.84,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ram.2",
+          "type": "person",
+          "preferred_label": "राम",
+          "confidence": 0.68,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ram.3",
+          "type": "person",
+          "preferred_label": "राम",
+          "confidence": 0.64,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tamar",
+          "type": "person",
+          "preferred_label": "तामार",
+          "confidence": 0.64,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hezron.2",
+          "type": "person",
+          "preferred_label": "हेस्रोन",
+          "confidence": 0.575,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Amminadab",
+          "type": "person",
+          "preferred_label": "अम्मीनादाब",
+          "confidence": 0.535,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jerahmeel",
+          "type": "person",
+          "preferred_label": "यरहमेल",
+          "confidence": 0.508,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "649490",
     "reference_id": 7094,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रामत-मिस्पे",
     "media_type": "Text",
     "index_reference": "रामत-मिस्पे",
@@ -4863,13 +6090,43 @@
           "label": "मिस्पा",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Betonim",
+          "type": "place",
+          "preferred_label": "बतोनीम्",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Ramath-mizpeh",
+          "type": "place",
+          "preferred_label": "Ramath-mizpeh",
+          "confidence": 0.5905,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Mahanaim",
+          "type": "place",
+          "preferred_label": "महनैम",
+          "confidence": 0.58,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Heshbon",
+          "type": "place",
+          "preferred_label": "हेशबोन",
+          "confidence": 0.5125,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "649489",
     "reference_id": 7093,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रामत-लही",
     "media_type": "Text",
     "index_reference": "रामत-लही",
@@ -4893,13 +6150,22 @@
           "label": "लही",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Ramath-lehi",
+          "type": "place",
+          "preferred_label": "Ramath-lehi",
+          "confidence": 0.5995,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "578931",
     "reference_id": 7105,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रामसेस (व्यक्ति)",
     "media_type": "Text",
     "index_reference": "रामसेस (व्यक्ति)",
@@ -4923,13 +6189,36 @@
           "label": "मिस्र, मिस्री",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Rameses",
+          "type": "place",
+          "preferred_label": "रामसेस",
+          "confidence": 0.6,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Raamses",
+          "type": "place",
+          "preferred_label": "रामसेस",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Egypt",
+          "type": "place",
+          "preferred_label": "मिस्र",
+          "confidence": 0.5095,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "578930",
     "reference_id": 7098,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रामसेस (स्थान)",
     "media_type": "Text",
     "index_reference": "रामसेस (स्थान)",
@@ -4972,13 +6261,57 @@
           "label": "पितोम",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Rameses",
+          "type": "place",
+          "preferred_label": "रामसेस",
+          "confidence": 0.8667,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Raamses",
+          "type": "place",
+          "preferred_label": "रामसेस",
+          "confidence": 0.5833,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Israel",
+          "type": "person",
+          "preferred_label": "इस्राएल",
+          "confidence": 0.5457,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Egypt",
+          "type": "place",
+          "preferred_label": "मिस्र",
+          "confidence": 0.5428,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Egypt",
+          "type": "group",
+          "preferred_label": "मिस्री",
+          "confidence": 0.5428,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Succoth.2",
+          "type": "place",
+          "preferred_label": "सुक्कोत",
+          "confidence": 0.5308,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "649488",
     "reference_id": 7092,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रामाई",
     "media_type": "Text",
     "index_reference": "रामाई",
@@ -4994,13 +6327,43 @@
           "end_ref_usfm": "1CH 27:27"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Shimei.12",
+          "type": "person",
+          "preferred_label": "शिमी",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Zabdi.3",
+          "type": "person",
+          "preferred_label": "जब्दी",
+          "confidence": 0.649,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Shiphmites",
+          "type": "group",
+          "preferred_label": "Shiphmites",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Ramathites",
+          "type": "group",
+          "preferred_label": "Ramathites",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "733750",
     "reference_id": 7091,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रामातैम",
     "media_type": "Text",
     "index_reference": "रामातैम",
@@ -5024,13 +6387,64 @@
           "label": "रामातैम ",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Ram",
+          "type": "person",
+          "preferred_label": "राम",
+          "confidence": 0.8544,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Ram.2",
+          "type": "person",
+          "preferred_label": "राम",
+          "confidence": 0.8544,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Ram.3",
+          "type": "person",
+          "preferred_label": "राम",
+          "confidence": 0.8544,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Raamah",
+          "type": "person",
+          "preferred_label": "रामाह",
+          "confidence": 0.8318,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Raamah",
+          "type": "place",
+          "preferred_label": "रामाह",
+          "confidence": 0.8318,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Ramah",
+          "type": "place",
+          "preferred_label": "रामाह",
+          "confidence": 0.8318,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Remeth",
+          "type": "place",
+          "preferred_label": "रामोत",
+          "confidence": 0.8227,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "649496",
     "reference_id": 7119,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रामातैम",
     "media_type": "Text",
     "index_reference": "रामातैम",
@@ -5082,13 +6496,22 @@
           "end_ref_usfm": "1MA 11:34"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Ramah",
+          "type": "place",
+          "preferred_label": "रामाह",
+          "confidence": 0.6814,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "649487",
     "reference_id": 7090,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रामातैम सोपीम",
     "media_type": "Text",
     "index_reference": "रामातैम सोपीम",
@@ -5112,13 +6535,71 @@
           "label": "रामाह",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Ramah",
+          "type": "place",
+          "preferred_label": "रामाह",
+          "confidence": 0.8875,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jeroham",
+          "type": "person",
+          "preferred_label": "यरोहाम",
+          "confidence": 0.7885,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tohu",
+          "type": "person",
+          "preferred_label": "तोहू",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Zuph",
+          "type": "person",
+          "preferred_label": "सूफ",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Ephraim",
+          "type": "group",
+          "preferred_label": "एप्रैम",
+          "confidence": 0.7015,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ephraim",
+          "type": "person",
+          "preferred_label": "एप्रैम",
+          "confidence": 0.7015,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Elkanah.2",
+          "type": "person",
+          "preferred_label": "एल्काना",
+          "confidence": 0.6715,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Elihu",
+          "type": "person",
+          "preferred_label": "एलीहू",
+          "confidence": 0.6175,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "381801",
     "reference_id": 7089,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रामाह",
     "media_type": "Text",
     "index_reference": "रामाह",
@@ -5323,13 +6804,50 @@
           "label": " गिलाद का रामोत",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Ramah",
+          "type": "place",
+          "preferred_label": "रामाह",
+          "confidence": 0.6929,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jeroham",
+          "type": "person",
+          "preferred_label": "यरोहाम",
+          "confidence": 0.5666,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rachel",
+          "type": "person",
+          "preferred_label": "राहेल",
+          "confidence": 0.5457,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joram.3",
+          "type": "person",
+          "preferred_label": "योराम",
+          "confidence": 0.5243,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Hazor.4",
+          "type": "place",
+          "preferred_label": "हासोर",
+          "confidence": 0.5171,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "620779",
     "reference_id": 7096,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रामाह",
     "media_type": "Text",
     "index_reference": "रामाह",
@@ -5353,13 +6871,29 @@
           "label": "रामाह",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Rachel",
+          "type": "person",
+          "preferred_label": "राहेल",
+          "confidence": 0.76,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Ramah",
+          "type": "place",
+          "preferred_label": "रामाह",
+          "confidence": 0.6,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "381797",
     "reference_id": 7057,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रामाह, रामाह",
     "media_type": "Text",
     "index_reference": "रामाह, रामाह",
@@ -5387,13 +6921,57 @@
           "end_ref_usfm": "EZK 27:22"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Raamah",
+          "type": "person",
+          "preferred_label": "रामाह",
+          "confidence": 0.8667,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Raamah",
+          "type": "place",
+          "preferred_label": "रामाह",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Havilah",
+          "type": "person",
+          "preferred_label": "हवीला",
+          "confidence": 0.6147,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Sheba",
+          "type": "person",
+          "preferred_label": "शेबा",
+          "confidence": 0.5292,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Dedan",
+          "type": "person",
+          "preferred_label": "ददान",
+          "confidence": 0.5157,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Sabteca",
+          "type": "person",
+          "preferred_label": "सब्तका",
+          "confidence": 0.5067,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "649493",
     "reference_id": 7103,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रामोत (स्थान)",
     "media_type": "Text",
     "index_reference": "रामोत (स्थान)",
@@ -5437,13 +7015,43 @@
           "label": " गिलाद का रामोत",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Remeth",
+          "type": "place",
+          "preferred_label": "रामोत",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Bethel.2",
+          "type": "place",
+          "preferred_label": "बेतेल",
+          "confidence": 0.62,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:En-gannim.2",
+          "type": "place",
+          "preferred_label": "एनगन्नीम",
+          "confidence": 0.557,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Jattir",
+          "type": "place",
+          "preferred_label": "यत्तीर",
+          "confidence": 0.5375,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "733745",
     "reference_id": 7058,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "राम्याह",
     "media_type": "Text",
     "index_reference": "राम्याह",
@@ -5473,13 +7081,106 @@
           "label": "रेलायाह",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Reelaiah",
+          "type": "person",
+          "preferred_label": "रेलायाह",
+          "confidence": 0.937,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nehemiah",
+          "type": "person",
+          "preferred_label": "नहेम्याह",
+          "confidence": 0.9235,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rehum",
+          "type": "person",
+          "preferred_label": "रहूम",
+          "confidence": 0.8785,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mispar",
+          "type": "person",
+          "preferred_label": "मिस्पार",
+          "confidence": 0.8695,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mordecai",
+          "type": "person",
+          "preferred_label": "मोर्दकै",
+          "confidence": 0.8515,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Baanah.3",
+          "type": "person",
+          "preferred_label": "बानाह",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Seraiah.6",
+          "type": "person",
+          "preferred_label": "सरायाह",
+          "confidence": 0.6965,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Bilshan",
+          "type": "person",
+          "preferred_label": "बिलशान",
+          "confidence": 0.6895,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Azariah.18",
+          "type": "person",
+          "preferred_label": "अजर्याह",
+          "confidence": 0.6695,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Bigvai",
+          "type": "person",
+          "preferred_label": "बिगवै",
+          "confidence": 0.631,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Israel",
+          "type": "person",
+          "preferred_label": "इस्राएल",
+          "confidence": 0.5935,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joshua.5",
+          "type": "person",
+          "preferred_label": "यहोशू",
+          "confidence": 0.562,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Zerubbabel.2",
+          "type": "person",
+          "preferred_label": "जरूब्बाबेल",
+          "confidence": 0.5395,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "649497",
     "reference_id": 7124,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रायाह",
     "media_type": "Text",
     "index_reference": "रायाह",
@@ -5519,13 +7220,36 @@
           "end_ref_usfm": "NEH 7:50"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Reaiah.3",
+          "type": "person",
+          "preferred_label": "रायाह",
+          "confidence": 0.76,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Reaiah.2",
+          "type": "person",
+          "preferred_label": "रायाह",
+          "confidence": 0.68,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Haroeh",
+          "type": "person",
+          "preferred_label": "हारोए",
+          "confidence": 0.67,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "649498",
     "reference_id": 7125,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रायाह",
     "media_type": "Text",
     "index_reference": "रायाह",
@@ -5549,13 +7273,36 @@
           "label": "रायाह",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Reaiah.2",
+          "type": "person",
+          "preferred_label": "रायाह",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Baal.2",
+          "type": "person",
+          "preferred_label": "बाल",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Micah.4",
+          "type": "person",
+          "preferred_label": "मीका",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "733693",
     "reference_id": 6920,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "राल",
     "media_type": "Text",
     "index_reference": "राल",
@@ -5579,13 +7326,14 @@
           "label": "डामर",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "733459",
     "reference_id": 6163,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "राशि",
     "media_type": "Text",
     "index_reference": "राशि",
@@ -5615,13 +7363,14 @@
           "label": "खगोल-विज्ञान",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "734151",
     "reference_id": 8421,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "राशि चक्र",
     "media_type": "Text",
     "index_reference": "राशि चक्र",
@@ -5652,13 +7401,14 @@
           "label": "नक्षत्र",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "733759",
     "reference_id": 7118,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रासिस, रासिस वंशज",
     "media_type": "Text",
     "index_reference": "रासिस, रासिस वंशज",
@@ -5674,13 +7424,14 @@
           "end_ref_usfm": "JDT 2:23"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "620778",
     "reference_id": 7078,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "राहाब (व्यक्ति)",
     "media_type": "Text",
     "index_reference": "राहाब (व्यक्ति)",
@@ -5735,13 +7486,22 @@
           "label": "यहोशू की पुस्तक",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Rahab",
+          "type": "person",
+          "preferred_label": "राहाब",
+          "confidence": 0.6291,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "381799",
     "reference_id": 7073,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "राहेल",
     "media_type": "Text",
     "index_reference": "राहेल",
@@ -5813,13 +7573,22 @@
           "label": "याकूब",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Rachel",
+          "type": "person",
+          "preferred_label": "राहेल",
+          "confidence": 0.9333,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "381798",
     "reference_id": 7072,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "राहेल की कब्र",
     "media_type": "Text",
     "index_reference": "राहेल की कब्र",
@@ -5865,13 +7634,22 @@
           "end_ref_usfm": "GEN 35:20"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rachel",
+          "type": "person",
+          "preferred_label": "राहेल",
+          "confidence": 1.0,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "594772",
     "reference_id": 7215,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रित्मा",
     "media_type": "Text",
     "index_reference": "रित्मा",
@@ -5895,13 +7673,36 @@
           "label": "जंगल में भटकना",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Rithmah",
+          "type": "place",
+          "preferred_label": "रित्मा",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Rimmon-perez",
+          "type": "place",
+          "preferred_label": "रिम्मोनपेरेस",
+          "confidence": 0.6875,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Hazeroth",
+          "type": "place",
+          "preferred_label": "हसेरोत",
+          "confidence": 0.5375,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "649527",
     "reference_id": 7212,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रिन्ना",
     "media_type": "Text",
     "index_reference": "रिन्ना",
@@ -5917,13 +7718,71 @@
           "end_ref_usfm": "1CH 4:20"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rinnah",
+          "type": "person",
+          "preferred_label": "रिन्ना",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Amnon.2",
+          "type": "person",
+          "preferred_label": "अम्नोन",
+          "confidence": 0.8065,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shimon",
+          "type": "person",
+          "preferred_label": "शिमोन",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tilon",
+          "type": "person",
+          "preferred_label": "तोलोन",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ben-hanan",
+          "type": "person",
+          "preferred_label": "बेन्हानान",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ben-zoheth",
+          "type": "person",
+          "preferred_label": "बेनजोहेत",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ishi.2",
+          "type": "person",
+          "preferred_label": "यिशी",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Zoheth",
+          "type": "person",
+          "preferred_label": "जोहेत",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "733776",
     "reference_id": 7172,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रिफाई वंशी",
     "media_type": "Text",
     "index_reference": "रिफाई वंशी",
@@ -5940,13 +7799,14 @@
           "label": "रापाइयों या मरे हुए लोग",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "381204",
     "reference_id": 7173,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रिफान",
     "media_type": "Text",
     "index_reference": "रिफान",
@@ -5968,13 +7828,22 @@
           "end_ref_usfm": "ACT 7:43"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "deity:Rephan",
+          "type": "deity",
+          "preferred_label": "रिफान",
+          "confidence": 0.8,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "381804",
     "reference_id": 7128,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रिबका, रिबका",
     "media_type": "Text",
     "index_reference": "रिबका, रिबका",
@@ -6034,13 +7903,29 @@
           "label": "इसहाक",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Rebekah",
+          "type": "person",
+          "preferred_label": "रिबका",
+          "confidence": 0.6574,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Beeri",
+          "type": "person",
+          "preferred_label": "बेरी",
+          "confidence": 0.5391,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "594769",
     "reference_id": 7201,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रिबला",
     "media_type": "Text",
     "index_reference": "रिबला",
@@ -6098,13 +7983,29 @@
           "end_ref_usfm": "JER 52:27"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Riblah.2",
+          "type": "place",
+          "preferred_label": "रिबला",
+          "confidence": 0.9667,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Riblah",
+          "type": "place",
+          "preferred_label": "रिबला",
+          "confidence": 0.6333,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "649511",
     "reference_id": 7162,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रिम्मोन",
     "media_type": "Text",
     "index_reference": "रिम्मोन",
@@ -6128,13 +8029,43 @@
           "label": "रिम्मोन (स्थान)",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Gath-hepher",
+          "type": "place",
+          "preferred_label": "गथेपेर",
+          "confidence": 0.7975,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Neah",
+          "type": "place",
+          "preferred_label": "नेआ",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Dimnah",
+          "type": "place",
+          "preferred_label": "दिम्ना",
+          "confidence": 0.76,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Eth-kazin",
+          "type": "place",
+          "preferred_label": "इत्कासीन",
+          "confidence": 0.757,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "649512",
     "reference_id": 7163,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रिम्मोन",
     "media_type": "Text",
     "index_reference": "रिम्मोन",
@@ -6158,13 +8089,36 @@
           "label": "ऐन रिम्मोन",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Ain.2",
+          "type": "place",
+          "preferred_label": "ऐन",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Ashan",
+          "type": "place",
+          "preferred_label": "आशान",
+          "confidence": 0.598,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Ether",
+          "type": "place",
+          "preferred_label": "एतेर",
+          "confidence": 0.598,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "649523",
     "reference_id": 7207,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रिम्मोन",
     "media_type": "Text",
     "index_reference": "रिम्मोन",
@@ -6180,13 +8134,50 @@
           "end_ref_usfm": "1CH 6:77"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Dimnah",
+          "type": "place",
+          "preferred_label": "दिम्ना",
+          "confidence": 0.76,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Merari",
+          "type": "person",
+          "preferred_label": "मरारी",
+          "confidence": 0.7015,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Zebulun",
+          "type": "group",
+          "preferred_label": "जबूलून",
+          "confidence": 0.6475,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Zebulun",
+          "type": "person",
+          "preferred_label": "जबूलून",
+          "confidence": 0.6475,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Chesulloth",
+          "type": "place",
+          "preferred_label": "कसुल्लोत",
+          "confidence": 0.562,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "649524",
     "reference_id": 7209,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रिम्मोन (व्यक्ति)",
     "media_type": "Text",
     "index_reference": "रिम्मोन (व्यक्ति)",
@@ -6228,13 +8219,50 @@
           "label": "सीरिया, सीरिया वासी",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Rimmon",
+          "type": "person",
+          "preferred_label": "रिम्मोन",
+          "confidence": 0.9,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Beeroth",
+          "type": "place",
+          "preferred_label": "बेरोत",
+          "confidence": 0.72,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Baanah",
+          "type": "person",
+          "preferred_label": "बानाह",
+          "confidence": 0.72,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rechab",
+          "type": "person",
+          "preferred_label": "रेकाब",
+          "confidence": 0.72,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Rimmon",
+          "type": "deity",
+          "preferred_label": "रिम्मोन",
+          "confidence": 0.7,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "649525",
     "reference_id": 7210,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रिम्मोन (स्थान)",
     "media_type": "Text",
     "index_reference": "रिम्मोन (स्थान)",
@@ -6288,13 +8316,22 @@
           "label": "ऐन रिम्मोन",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Dimnah",
+          "type": "place",
+          "preferred_label": "दिम्ना",
+          "confidence": 0.61,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "649526",
     "reference_id": 7211,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रिम्मोन नामक चट्टान",
     "media_type": "Text",
     "index_reference": "रिम्मोन नामक चट्टान",
@@ -6324,13 +8361,22 @@
           "label": "रिम्मोन (स्थान)",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Rimmon.3",
+          "type": "place",
+          "preferred_label": "Rock of Rimmon",
+          "confidence": 0.5175,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "594770",
     "reference_id": 7208,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रिम्मोनपेरेस",
     "media_type": "Text",
     "index_reference": "रिम्मोनपेरेस",
@@ -6354,13 +8400,36 @@
           "label": "जंगल में भटकना",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Rimmon-perez",
+          "type": "place",
+          "preferred_label": "रिम्मोनपेरेस",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Rithmah",
+          "type": "place",
+          "preferred_label": "रित्मा",
+          "confidence": 0.6875,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Libnah",
+          "type": "place",
+          "preferred_label": "लिब्ना",
+          "confidence": 0.557,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "649529",
     "reference_id": 7219,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रिस्पा",
     "media_type": "Text",
     "index_reference": "रिस्पा",
@@ -6382,13 +8451,22 @@
           "end_ref_usfm": "2SA 3:10"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rizpah",
+          "type": "person",
+          "preferred_label": "रिस्पा",
+          "confidence": 0.8,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "649519",
     "reference_id": 7192,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रिस्या",
     "media_type": "Text",
     "index_reference": "रिस्या",
@@ -6412,13 +8490,43 @@
           "label": "रिस्या",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Rizia",
+          "type": "person",
+          "preferred_label": "रिस्या",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hanniel.2",
+          "type": "person",
+          "preferred_label": "हन्नीएल",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Arah",
+          "type": "person",
+          "preferred_label": "आरह",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shual",
+          "type": "person",
+          "preferred_label": "शूआल",
+          "confidence": 0.649,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "649528",
     "reference_id": 7218,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रिस्या",
     "media_type": "Text",
     "index_reference": "रिस्या",
@@ -6434,13 +8542,43 @@
           "end_ref_usfm": "1CH 7:39"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rizia",
+          "type": "person",
+          "preferred_label": "रिस्या",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hanniel.2",
+          "type": "person",
+          "preferred_label": "हन्नीएल",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Arah",
+          "type": "person",
+          "preferred_label": "आरह",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shual",
+          "type": "person",
+          "preferred_label": "शूआल",
+          "confidence": 0.649,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "594771",
     "reference_id": 7214,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रिस्सा",
     "media_type": "Text",
     "index_reference": "रिस्सा",
@@ -6464,13 +8602,22 @@
           "label": "जंगल में भटकना",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Rissah",
+          "type": "place",
+          "preferred_label": "रिस्सा",
+          "confidence": 1.0,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "732613",
     "reference_id": 3214,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रीछ (पशु)",
     "media_type": "Text",
     "index_reference": "रीछ (पशु)",
@@ -6479,13 +8626,14 @@
     "content": "<h1>रीछ (पशु)</h1><p>एक बड़ा, भारी, बड़े सिर वाला स्तनपायी प्राणी जिसके छोटे, मजबूत पैर, छोटी पूँछ, और छोटी आँखें और कान होते हैं। रीछ पूरे पैर (तलवा और एड़ी दोनों) से चलते हैं, जैसे मनुष्य चलते हैं।</p><p>फिलीस्तीनी रीछ, भूरा रीछ (<em>उर्सुस आर्क्टोस सिरियाकस</em>) की एक अरामी जाति है। यह 1.8 मीटर (छः फीट) तक ऊँचा हो सकता है और इसका वजन 227 किलोग्राम (500 पाउण्ड) तक हो सकता है। यह अभी भी सीरिया (अराम) और तुर्की में पाया जाता है, लेकिन अब इस्राएल में नहीं पाया जाता।</p><p>रीछों की घ्राण शक्ति बहुत तीव्र होती है, लेकिन उनकी दृष्टि और सुनने की शक्ति कमजोर होती है। वे किसी भी प्रकार का भोजन ग्रहण करते हैं:</p><ul><li><p>घास</p></li><li><p>फल</p></li><li><p>कीड़े</p></li><li><p>मछली</p></li></ul><p>रीछ सामान्यतः लोगों पर हमला नहीं करते। हालाँकि, रीछ अपने आप को बचाने के लिये जोरदार लड़ाई करते हैं (<a href=\"https://ref.ly/Lam3:10\">विल 3:10</a>)। वे अपने बच्चों की रक्षा के लिये भी लड़ते हैं (<a href=\"https://ref.ly/2Sam17:8\">2&nbsp;शमू 17:8</a>; <a href=\"https://ref.ly/Prov17:12\">नीति 17:12</a>; <a href=\"https://ref.ly/Hos13:8\">होश 13:8</a>)। दाऊद ने एक भालू को मारने के विषय में गर्व से बताया (<a href=\"https://ref.ly/1Sam17:34-1Sam17:37\">1&nbsp;शमू 17:34–37</a>)। भालू के पंजे की एक ही मार से एक व्यक्ति की मृत्यु हो सकती है। इसलिए, एक जवान चरवाहे के रूप में दाऊद की हिम्मत और ताकत, जो एक भालू के पीछे दौड़कर एक भेड़ को उसके जबड़ों से बचाने में अत्यन्त प्रभावशाली थी।</p><p>कुछ बाइबल के गद्यांश ऐसा प्रतीत होते हैं कि रीछ बिना किसी कारण के हमला करते थे (उदाहरण के लिये, <a href=\"https://ref.ly/Prov28:15\">नीति 28:15</a>; <a href=\"https://ref.ly/Amos5:19\">आमो 5:19</a>)। कभी-कभी, वे परमेश्वर के दण्ड के साधन होते थे। यह एलीशा और दो रीछनियों की कहानी में देखा जाता है (<a href=\"https://ref.ly/2Kgs2:24\">2&nbsp;रा 2:24</a>)। बाइबल प्रायः भालू और सिंह का एक साथ उल्लेख करती है (<a href=\"https://ref.ly/1Sam17:37\">1&nbsp;शमू 17:37</a>)। वे पवित्र भूमि के दो सबसे बड़े और सबसे मजबूत शिकारी थे। इस प्रकार वे शक्ति और डर दोनों का प्रतीक थे (<a href=\"https://ref.ly/Amos5:19\">आमो 5:19</a>)।</p><p>बाइबल के समय में, ऐसा प्रतीत होता है कि रीछ पूरे फिलिस्तीन में घूमते थे। आज, वे केवल लेबनान और एंटी-लेबनान पहाड़ों में पाए जाते हैं। वहाँ भी वे दुर्लभ हैं।</p><p></p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "381818",
     "reference_id": 7213,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रीपत",
     "media_type": "Text",
     "index_reference": "रीपत",
@@ -6507,13 +8655,43 @@
           "end_ref_usfm": "1CH 1:6"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Riphath",
+          "type": "person",
+          "preferred_label": "रीपत",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Togarmah",
+          "type": "person",
+          "preferred_label": "तोगर्मा",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ashkenaz",
+          "type": "person",
+          "preferred_label": "अश्कनज",
+          "confidence": 0.64,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Gomer",
+          "type": "person",
+          "preferred_label": "गोमेर",
+          "confidence": 0.598,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "649522",
     "reference_id": 7200,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रीबै",
     "media_type": "Text",
     "index_reference": "रीबै",
@@ -6535,13 +8713,64 @@
           "end_ref_usfm": "1CH 11:31"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Ribai",
+          "type": "person",
+          "preferred_label": "रीबै",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ittai.2",
+          "type": "person",
+          "preferred_label": "इत्तै",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Benjamin",
+          "type": "person",
+          "preferred_label": "बिन्यामीन",
+          "confidence": 0.625,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Benjamin",
+          "type": "group",
+          "preferred_label": "बिन्यामीन",
+          "confidence": 0.625,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Baanah.2",
+          "type": "person",
+          "preferred_label": "बानाह",
+          "confidence": 0.575,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Heleb",
+          "type": "person",
+          "preferred_label": "हेलेब",
+          "confidence": 0.575,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Benaiah.2",
+          "type": "person",
+          "preferred_label": "बनायाह",
+          "confidence": 0.548,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "381208",
     "reference_id": 7198,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रुदुस",
     "media_type": "Text",
     "index_reference": "रुदुस",
@@ -6575,13 +8804,43 @@
           "end_ref_usfm": "ACT 21:1"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Rhodes",
+          "type": "place",
+          "preferred_label": "रुदुस",
+          "confidence": 0.7,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Dodanim",
+          "type": "group",
+          "preferred_label": "दोदानी",
+          "confidence": 0.575,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tarshish",
+          "type": "person",
+          "preferred_label": "तर्शीश",
+          "confidence": 0.548,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Javan",
+          "type": "person",
+          "preferred_label": "यावान",
+          "confidence": 0.53,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "733790",
     "reference_id": 7238,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रुहामा",
     "media_type": "Text",
     "index_reference": "रुहामा",
@@ -6615,13 +8874,22 @@
           "end_ref_usfm": "HOS 2:23"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Lo-ruhamah",
+          "type": "person",
+          "preferred_label": "लोरुहामा",
+          "confidence": 0.8,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "381815",
     "reference_id": 7186,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रू",
     "media_type": "Text",
     "index_reference": "रू",
@@ -6657,13 +8925,36 @@
           "label": "यीशु मसीह की वंशावली",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Reu",
+          "type": "person",
+          "preferred_label": "रऊ",
+          "confidence": 0.8515,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Eber",
+          "type": "person",
+          "preferred_label": "एबेर",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Serug",
+          "type": "person",
+          "preferred_label": "सरूग",
+          "confidence": 0.53,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "381813",
     "reference_id": 7184,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रूएल",
     "media_type": "Text",
     "index_reference": "रूएल",
@@ -6730,13 +9021,50 @@
           "label": "यित्रो",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Reuel.3",
+          "type": "person",
+          "preferred_label": "रूएल",
+          "confidence": 0.7143,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Elah.5",
+          "type": "person",
+          "preferred_label": "एला",
+          "confidence": 0.6286,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Reuel.4",
+          "type": "person",
+          "preferred_label": "रूएल",
+          "confidence": 0.6286,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Eliphaz",
+          "type": "person",
+          "preferred_label": "एलीपज",
+          "confidence": 0.6229,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Deuel",
+          "type": "person",
+          "preferred_label": "दूएल",
+          "confidence": 0.5161,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "620786",
     "reference_id": 7244,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रूत (व्यक्ति)",
     "media_type": "Text",
     "index_reference": "रूत (व्यक्ति)",
@@ -6785,13 +9113,22 @@
           "label": "रूत की पुस्तक",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Ruth",
+          "type": "person",
+          "preferred_label": "रूत",
+          "confidence": 0.696,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "381822",
     "reference_id": 7243,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रूत की पुस्तक",
     "media_type": "Text",
     "index_reference": "रूत की पुस्तक",
@@ -6873,13 +9210,29 @@
           "end_ref_usfm": "DEU 25:19"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Ruth",
+          "type": "person",
+          "preferred_label": "रूत",
+          "confidence": 0.6276,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Perez",
+          "type": "person",
+          "preferred_label": "पेरेस",
+          "confidence": 0.6138,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "381207",
     "reference_id": 7197,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रूदे",
     "media_type": "Text",
     "index_reference": "रूदे",
@@ -6895,13 +9248,22 @@
           "end_ref_usfm": "ACT 12:15"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rhoda",
+          "type": "person",
+          "preferred_label": "रूदे",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "180564",
     "reference_id": 8079,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रूपान्तरण",
     "media_type": "Text",
     "index_reference": "रूपान्तरण",
@@ -7025,13 +9387,14 @@
           "end_ref_usfm": "MRK 9:8"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "185002",
     "reference_id": 7237,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रूफस",
     "media_type": "Text",
     "index_reference": "रूफस",
@@ -7053,13 +9416,43 @@
           "end_ref_usfm": "ROM 16:13"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rufus",
+          "type": "person",
+          "preferred_label": "रूफुस",
+          "confidence": 0.7505,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rufus.2",
+          "type": "person",
+          "preferred_label": "रूफुस",
+          "confidence": 0.7505,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Cyrene",
+          "type": "place",
+          "preferred_label": "कुरेने",
+          "confidence": 0.548,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Alexander",
+          "type": "person",
+          "preferred_label": "सिकन्दर",
+          "confidence": 0.512,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "381811",
     "reference_id": 7181,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रूबेन (व्यक्ति)",
     "media_type": "Text",
     "index_reference": "रूबेन (व्यक्ति)",
@@ -7132,13 +9525,22 @@
           "label": "रूबेन का गोत्र",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Reuben",
+          "type": "person",
+          "preferred_label": "रूबेन",
+          "confidence": 0.7636,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "594767",
     "reference_id": 7182,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रूबेन (स्थान)",
     "media_type": "Text",
     "index_reference": "रूबेन (स्थान)",
@@ -7169,13 +9571,50 @@
           "label": "रूबेन का गोत्र",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Dibon",
+          "type": "place",
+          "preferred_label": "दीबोन",
+          "confidence": 0.529,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Reuben",
+          "type": "group",
+          "preferred_label": "रूबेन",
+          "confidence": 0.5262,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Reuben",
+          "type": "person",
+          "preferred_label": "रूबेन",
+          "confidence": 0.5262,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Beth-nimrah",
+          "type": "place",
+          "preferred_label": "बेतनिम्रा",
+          "confidence": 0.5155,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Baal-meon",
+          "type": "place",
+          "preferred_label": "बालमोन",
+          "confidence": 0.5065,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "381812",
     "reference_id": 7183,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रूबेन का गोत्र",
     "media_type": "Text",
     "index_reference": "रूबेन का गोत्र",
@@ -7323,13 +9762,36 @@
           "end_ref_usfm": "JOS 22:6"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Reuben",
+          "type": "person",
+          "preferred_label": "रूबेन",
+          "confidence": 0.8133,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Reuben",
+          "type": "group",
+          "preferred_label": "रूबेन",
+          "confidence": 0.7733,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Dathan",
+          "type": "person",
+          "preferred_label": "दातान",
+          "confidence": 0.5008,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "594766",
     "reference_id": 7180,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रूबेनी",
     "media_type": "Text",
     "index_reference": "रूबेनी",
@@ -7359,13 +9821,29 @@
           "label": "रूबेन का गोत्र",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "group:Reuben",
+          "type": "group",
+          "preferred_label": "रूबेन",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Reuben",
+          "type": "person",
+          "preferred_label": "रूबेन",
+          "confidence": 0.85,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "381814",
     "reference_id": 7185,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रूमा",
     "media_type": "Text",
     "index_reference": "रूमा",
@@ -7381,13 +9859,50 @@
           "end_ref_usfm": "GEN 22:24"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Reumah",
+          "type": "person",
+          "preferred_label": "रूमा",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Maacah",
+          "type": "person",
+          "preferred_label": "माका",
+          "confidence": 0.8515,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Gaham",
+          "type": "person",
+          "preferred_label": "गहम",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tebah",
+          "type": "person",
+          "preferred_label": "तेबह",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tahash",
+          "type": "person",
+          "preferred_label": "तहश",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "649533",
     "reference_id": 7241,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रूमावासी",
     "media_type": "Text",
     "index_reference": "रूमावासी",
@@ -7409,13 +9924,22 @@
           "end_ref_usfm": "2KI 23:36"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Arumah",
+          "type": "place",
+          "preferred_label": "अरूमा",
+          "confidence": 0.5975,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "732843",
     "reference_id": 3851,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रेंगती हुई चीजें",
     "media_type": "Text",
     "index_reference": "रेंगती हुई चीजें",
@@ -7460,13 +9984,14 @@
           "label": "साँप",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "732846",
     "reference_id": 3857,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रेंगने वाले जीव",
     "media_type": "Text",
     "index_reference": "रेंगने वाले जीव",
@@ -7475,13 +10000,14 @@
     "content": "<h1>रेंगने वाले जीव</h1><p>कीटों, सरीसृपों और कुछ अन्य जानवरों का संदर्भ जो पेट के बल रेंगते हैं या चार या अधिक पैरों पर रेंगते हैं। <em>देखें</em> <span data-bnType=\"resourceReference\" data-resourceId=\"2782\" data-resourceType=\"TyndaleBibleDictionary\">प्राणी</span>। </p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "734157",
     "reference_id": 209533,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रेंड़ का पौधा (तेल)",
     "media_type": "Text",
     "index_reference": "रेंड़ का पौधा (तेल)",
@@ -7490,13 +10016,14 @@
     "content": "<h1>रेंड़ का पौधा (तेल)</h1><p>उष्णकटिबंधीय अफ्रीका और एशिया में पाया जाने वाला एक बड़ा पौधा। रेंड़ का पौधा (<em>रिकिनस कम्युनिस</em>) अपनी उपस्थिति और इसके बीजों से निकलने वाले तेल दोनों के लिए उगाया जाता है। <a href=\"https://ref.ly/Jonah4:6-Jonah4:7\">योना 4:6–7</a> में वर्णित <span>रेंड़ का पेड़</span> संभवतः यही पौधा था।  </p><p>रेंड़ का पेड़ एक मुलायम तने वाली झाड़ी है जो 0.9 से 3.7 मीटर (3 से 12 फीट लंबी) तक बढ़ती है। इसकी पत्तियाँ बहुत बड़ी होती हैं जो खुले हुए मानव हाथ की तरह दिखती हैं। यह पौधा बंजर जगहों पर, खास तौर पर पानी के पास उगता हुआ पाया जा सकता है। लोग लेबनान और इस्राएल और आस-पास के इलाकों में रेंड़ का पौधा उगाते हैं। गर्म जलवायु में, यह एक पेड़ जितना लंबा हो सकता है और इसकी कई बड़ी, छतरी जैसी पत्तियों की वजह से यह अच्छी छाया प्रदान करता है। एशिया के देशों में, यह इस बात के लिए जाना जाता है कि यह कितनी तेज़ी से बढ़ता है।</p><p>रेंड़ के बीजों से निकाले गए तेल का उपयोग यहूदी लोग धार्मिक समारोहों में करते थे। रब्बी परंपरा ने इसे ऐसे उपयोग के लिए अनुमत पाँच प्रकार के तेलों में से एक के रूप में स्वीकार किया। यह ध्यान रखना महत्वपूर्ण है कि तेल तो उपयोगी है, लेकिन बीज खाने पर ज़हरीले होते हैं।</p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "649507",
     "reference_id": 7155,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रेई",
     "media_type": "Text",
     "index_reference": "रेई",
@@ -7512,13 +10039,50 @@
           "end_ref_usfm": "1KI 1:8"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rei",
+          "type": "person",
+          "preferred_label": "रेई",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shimei.6",
+          "type": "person",
+          "preferred_label": "शिमी",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nathan.2",
+          "type": "person",
+          "preferred_label": "नातान",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:David",
+          "type": "person",
+          "preferred_label": "दाऊद",
+          "confidence": 0.5305,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Zadok.2",
+          "type": "person",
+          "preferred_label": "सादोक",
+          "confidence": 0.5125,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "649500",
     "reference_id": 7132,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रेका",
     "media_type": "Text",
     "index_reference": "रेका",
@@ -7534,13 +10098,57 @@
           "end_ref_usfm": "1CH 4:12"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Recah",
+          "type": "place",
+          "preferred_label": "रेका",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tehinnah",
+          "type": "person",
+          "preferred_label": "तहिन्ना",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Eshton",
+          "type": "person",
+          "preferred_label": "एशतोन",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Paseah",
+          "type": "person",
+          "preferred_label": "पासेह",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ir-nahash",
+          "type": "person",
+          "preferred_label": "ईर्नाहाश",
+          "confidence": 0.631,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Beth-rapha",
+          "type": "person",
+          "preferred_label": "Beth-rapha",
+          "confidence": 0.6175,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "649501",
     "reference_id": 7134,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रेका",
     "media_type": "Text",
     "index_reference": "रेका",
@@ -7564,13 +10172,57 @@
           "label": "रेका",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Recah",
+          "type": "place",
+          "preferred_label": "रेका",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tehinnah",
+          "type": "person",
+          "preferred_label": "तहिन्ना",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Eshton",
+          "type": "person",
+          "preferred_label": "एशतोन",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Paseah",
+          "type": "person",
+          "preferred_label": "पासेह",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ir-nahash",
+          "type": "person",
+          "preferred_label": "ईर्नाहाश",
+          "confidence": 0.631,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Beth-rapha",
+          "type": "person",
+          "preferred_label": "Beth-rapha",
+          "confidence": 0.6175,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "649499",
     "reference_id": 7131,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रेकाब",
     "media_type": "Text",
     "index_reference": "रेकाब",
@@ -7604,13 +10256,43 @@
           "end_ref_usfm": "2KI 10:27"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rechab.2",
+          "type": "person",
+          "preferred_label": "रेकाब",
+          "confidence": 0.7023,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Rechab",
+          "type": "group",
+          "preferred_label": "रेकाबियों",
+          "confidence": 0.6372,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rechab",
+          "type": "person",
+          "preferred_label": "रेकाब",
+          "confidence": 0.6372,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Beeroth",
+          "type": "place",
+          "preferred_label": "बेरोत",
+          "confidence": 0.5472,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "733765",
     "reference_id": 7130,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रेकाबियों",
     "media_type": "Text",
     "index_reference": "रेकाबियों",
@@ -7634,13 +10316,36 @@
           "label": "रेकाब",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Rechab.2",
+          "type": "person",
+          "preferred_label": "रेकाब",
+          "confidence": 0.7882,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Rechab",
+          "type": "group",
+          "preferred_label": "रेकाबियों",
+          "confidence": 0.6941,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jonadab",
+          "type": "person",
+          "preferred_label": "योनादाब",
+          "confidence": 0.6107,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "594764",
     "reference_id": 7156,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रेकेम (व्यक्ति)",
     "media_type": "Text",
     "index_reference": "रेकेम (व्यक्ति)",
@@ -7668,13 +10373,71 @@
           "end_ref_usfm": "1CH 2:44"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rekem",
+          "type": "person",
+          "preferred_label": "रेकेम",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rekem.2",
+          "type": "person",
+          "preferred_label": "रेकेम",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jorkeam",
+          "type": "person",
+          "preferred_label": "योर्काम",
+          "confidence": 0.7,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Zur.2",
+          "type": "person",
+          "preferred_label": "सूर",
+          "confidence": 0.575,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Reba",
+          "type": "person",
+          "preferred_label": "रेबा",
+          "confidence": 0.575,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shema",
+          "type": "person",
+          "preferred_label": "शेमा",
+          "confidence": 0.575,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hur.3",
+          "type": "person",
+          "preferred_label": "हूर",
+          "confidence": 0.575,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Korah.4",
+          "type": "person",
+          "preferred_label": "कोरह",
+          "confidence": 0.5515,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "649508",
     "reference_id": 7157,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रेकेम (स्थान)",
     "media_type": "Text",
     "index_reference": "रेकेम (स्थान)",
@@ -7690,13 +10453,36 @@
           "end_ref_usfm": "JOS 18:27"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Rekem",
+          "type": "place",
+          "preferred_label": "रेकेम",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Irpeel",
+          "type": "place",
+          "preferred_label": "यिर्पेल",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Taralah",
+          "type": "place",
+          "preferred_label": "तरला",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "381206",
     "reference_id": 7195,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रेगियुम",
     "media_type": "Text",
     "index_reference": "रेगियुम",
@@ -7712,13 +10498,29 @@
           "end_ref_usfm": "ACT 28:13"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Rhegium",
+          "type": "place",
+          "preferred_label": "रेगियुम",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Puteoli",
+          "type": "place",
+          "preferred_label": "पुतियुली",
+          "confidence": 0.8065,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "649503",
     "reference_id": 7146,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रेगेम",
     "media_type": "Text",
     "index_reference": "रेगेम",
@@ -7734,13 +10536,64 @@
           "end_ref_usfm": "1CH 2:47"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Regem",
+          "type": "person",
+          "preferred_label": "रेगेम",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jotham.3",
+          "type": "person",
+          "preferred_label": "योताम",
+          "confidence": 0.82,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Geshan",
+          "type": "person",
+          "preferred_label": "गेशान",
+          "confidence": 0.82,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Pelet",
+          "type": "person",
+          "preferred_label": "पेलेत",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shaaph",
+          "type": "person",
+          "preferred_label": "शाप",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jahdai",
+          "type": "person",
+          "preferred_label": "याहदै",
+          "confidence": 0.649,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ephah.3",
+          "type": "person",
+          "preferred_label": "एपा",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "733773",
     "reference_id": 7145,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रेगेम्मेलेक",
     "media_type": "Text",
     "index_reference": "रेगेम्मेलेक",
@@ -7756,13 +10609,36 @@
           "end_ref_usfm": "ZEC 7:2"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Regem-melech",
+          "type": "person",
+          "preferred_label": "रेगेम्मेलेक",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Sharezer.2",
+          "type": "person",
+          "preferred_label": "शरेसेर",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Bethel",
+          "type": "place",
+          "preferred_label": "बेतेल",
+          "confidence": 0.5935,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "733808",
     "reference_id": 7301,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रेत छिपकली",
     "media_type": "Text",
     "index_reference": "रेत छिपकली",
@@ -7771,13 +10647,14 @@
     "content": "<h1>रेत छिपकली</h1><p><em>देखें</em> <span data-bnType=\"resourceReference\" data-resourceId=\"2782\" data-resourceType=\"TyndaleBibleDictionary\">जानवर (छिपकली)।</span></p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "649514",
     "reference_id": 7168,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रेपा",
     "media_type": "Text",
     "index_reference": "रेपा",
@@ -7793,13 +10670,43 @@
           "end_ref_usfm": "1CH 7:25"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Resheph",
+          "type": "person",
+          "preferred_label": "रेशेप",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rephah",
+          "type": "person",
+          "preferred_label": "रेपा",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Telah",
+          "type": "person",
+          "preferred_label": "तेलह",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tahan.2",
+          "type": "person",
+          "preferred_label": "तहन",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "594762",
     "reference_id": 7127,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रेबा",
     "media_type": "Text",
     "index_reference": "रेबा",
@@ -7821,13 +10728,57 @@
           "end_ref_usfm": "JOS 13:21"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Reba",
+          "type": "person",
+          "preferred_label": "रेबा",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hur.3",
+          "type": "person",
+          "preferred_label": "हूर",
+          "confidence": 0.8515,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Zur.2",
+          "type": "person",
+          "preferred_label": "सूर",
+          "confidence": 0.8515,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rekem",
+          "type": "person",
+          "preferred_label": "रेकेम",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Evi",
+          "type": "person",
+          "preferred_label": "एवी",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Beor.2",
+          "type": "person",
+          "preferred_label": "बओर",
+          "confidence": 0.5015,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "649510",
     "reference_id": 7160,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रेमेत",
     "media_type": "Text",
     "index_reference": "रेमेत",
@@ -7857,13 +10808,36 @@
           "label": "यर्मूत",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Remeth",
+          "type": "place",
+          "preferred_label": "रामोत",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:En-gannim.2",
+          "type": "place",
+          "preferred_label": "एनगन्नीम",
+          "confidence": 0.757,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Beth-pazzez",
+          "type": "place",
+          "preferred_label": "बेत्पस्सेस",
+          "confidence": 0.557,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "733771",
     "reference_id": 7143,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रेलायाह",
     "media_type": "Text",
     "index_reference": "रेलायाह",
@@ -7893,13 +10867,106 @@
           "label": "राम्याह",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Reelaiah",
+          "type": "person",
+          "preferred_label": "रेलायाह",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nehemiah",
+          "type": "person",
+          "preferred_label": "नहेम्याह",
+          "confidence": 0.8515,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mispar",
+          "type": "person",
+          "preferred_label": "मिस्पार",
+          "confidence": 0.8065,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rehum",
+          "type": "person",
+          "preferred_label": "रहूम",
+          "confidence": 0.7975,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Baanah.3",
+          "type": "person",
+          "preferred_label": "बानाह",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Bilshan",
+          "type": "person",
+          "preferred_label": "बिलशान",
+          "confidence": 0.757,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mordecai",
+          "type": "person",
+          "preferred_label": "मोर्दकै",
+          "confidence": 0.757,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Seraiah.6",
+          "type": "person",
+          "preferred_label": "सरायाह",
+          "confidence": 0.6965,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Zerubbabel.2",
+          "type": "person",
+          "preferred_label": "जरूब्बाबेल",
+          "confidence": 0.679,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Azariah.18",
+          "type": "person",
+          "preferred_label": "अजर्याह",
+          "confidence": 0.6695,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Israel",
+          "type": "person",
+          "preferred_label": "इस्राएल",
+          "confidence": 0.6565,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Bigvai",
+          "type": "person",
+          "preferred_label": "बिगवै",
+          "confidence": 0.631,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joshua.5",
+          "type": "person",
+          "preferred_label": "यहोशू",
+          "confidence": 0.562,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "733901",
     "reference_id": 7658,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रेशम",
     "media_type": "Text",
     "index_reference": "रेशम",
@@ -7929,13 +10996,14 @@
           "label": "कपड़ा एवं कपड़ा निर्माण",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "649517",
     "reference_id": 7177,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रेशेप",
     "media_type": "Text",
     "index_reference": "रेशेप",
@@ -7951,13 +11019,43 @@
           "end_ref_usfm": "1CH 7:25"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Resheph",
+          "type": "person",
+          "preferred_label": "रेशेप",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rephah",
+          "type": "person",
+          "preferred_label": "रेपा",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Telah",
+          "type": "person",
+          "preferred_label": "तेलह",
+          "confidence": 0.649,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tahan.2",
+          "type": "person",
+          "preferred_label": "तहन",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "620782",
     "reference_id": 7196,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रेसा",
     "media_type": "Text",
     "index_reference": "रेसा",
@@ -7981,13 +11079,50 @@
           "label": "यीशु मसीह की वंशावली",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Rhesa",
+          "type": "person",
+          "preferred_label": "रेसा",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Neri",
+          "type": "person",
+          "preferred_label": "नेरी",
+          "confidence": 0.8515,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Zerubbabel",
+          "type": "person",
+          "preferred_label": "जरूब्बाबेल",
+          "confidence": 0.748,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joanan",
+          "type": "person",
+          "preferred_label": "यूहन्ना",
+          "confidence": 0.649,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shealtiel",
+          "type": "person",
+          "preferred_label": "शालतीएल",
+          "confidence": 0.64,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "381809",
     "reference_id": 7176,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रेसेन",
     "media_type": "Text",
     "index_reference": "रेसेन",
@@ -8003,13 +11138,36 @@
           "end_ref_usfm": "GEN 10:12"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Resen",
+          "type": "place",
+          "preferred_label": "रेसेन",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Calah",
+          "type": "place",
+          "preferred_label": "कालह",
+          "confidence": 0.649,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Nineveh",
+          "type": "place",
+          "preferred_label": "नीनवे",
+          "confidence": 0.598,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "649518",
     "reference_id": 7191,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रेसेप",
     "media_type": "Text",
     "index_reference": "रेसेप",
@@ -8031,13 +11189,50 @@
           "end_ref_usfm": "ISA 37:12"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Rezeph",
+          "type": "place",
+          "preferred_label": "रेसेप",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Telassar",
+          "type": "place",
+          "preferred_label": "तलस्सार",
+          "confidence": 0.8875,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Haran",
+          "type": "place",
+          "preferred_label": "हारान",
+          "confidence": 0.67,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Gozan",
+          "type": "place",
+          "preferred_label": "गोजान",
+          "confidence": 0.58,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Eden",
+          "type": "place",
+          "preferred_label": "अदन",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "733228",
     "reference_id": 5166,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रोग",
     "media_type": "Text",
     "index_reference": "रोग",
@@ -8054,13 +11249,22 @@
           "label": "चिकित्सा विज्ञान और चिकित्सा पद्धति",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Rogelim",
+          "type": "place",
+          "preferred_label": "रोगलीमवासी",
+          "confidence": 0.8062,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "649530",
     "reference_id": 7225,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रोगलीम",
     "media_type": "Text",
     "index_reference": "रोगलीम",
@@ -8082,13 +11286,57 @@
           "end_ref_usfm": "2SA 19:31"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Rogelim",
+          "type": "place",
+          "preferred_label": "रोगलीमवासी",
+          "confidence": 0.91,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Barzillai",
+          "type": "person",
+          "preferred_label": "बर्जिल्लै",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Machir.2",
+          "type": "person",
+          "preferred_label": "माकीर",
+          "confidence": 0.6875,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Gilead",
+          "type": "place",
+          "preferred_label": "गिलाद",
+          "confidence": 0.6475,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ammiel.2",
+          "type": "person",
+          "preferred_label": "अम्मीएल",
+          "confidence": 0.557,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nahash.4",
+          "type": "person",
+          "preferred_label": "नाहाश",
+          "confidence": 0.512,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "184876",
     "reference_id": 3498,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रोटी",
     "media_type": "Text",
     "index_reference": "रोटी",
@@ -8403,13 +11651,14 @@
           "label": "भोजन का महत्व",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "732693",
     "reference_id": 3500,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रोटी तोड़ना",
     "media_type": "Text",
     "index_reference": "रोटी तोड़ना",
@@ -8426,13 +11675,14 @@
           "label": "प्रभु भोज",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "733779",
     "reference_id": 7199,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रोडोकस",
     "media_type": "Text",
     "index_reference": "रोडोकस",
@@ -8448,13 +11698,14 @@
           "end_ref_usfm": "2MA 13:21"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "381820",
     "reference_id": 7223,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रोदानी",
     "media_type": "Text",
     "index_reference": "रोदानी",
@@ -8476,13 +11727,50 @@
           "end_ref_usfm": "1CH 1:7"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "group:Dodanim",
+          "type": "group",
+          "preferred_label": "दोदानी",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Javan",
+          "type": "person",
+          "preferred_label": "यावान",
+          "confidence": 0.82,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Kittim",
+          "type": "group",
+          "preferred_label": "कित्ती",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tarshish",
+          "type": "person",
+          "preferred_label": "तर्शीश",
+          "confidence": 0.649,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Elishah",
+          "type": "person",
+          "preferred_label": "Elishah",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "381739",
     "reference_id": 6612,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रोने का बांज वृक्ष",
     "media_type": "Text",
     "index_reference": "रोने का बांज वृक्ष",
@@ -8498,13 +11786,50 @@
           "end_ref_usfm": "GEN 35:8"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Allon-bacuth",
+          "type": "place",
+          "preferred_label": "अल्लोनबक्कूत",
+          "confidence": 0.766,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Deborah",
+          "type": "person",
+          "preferred_label": "दबोरा",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "flora:Oak",
+          "type": "flora",
+          "preferred_label": "Oak",
+          "confidence": 0.6265,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rebekah",
+          "type": "person",
+          "preferred_label": "रिबका",
+          "confidence": 0.58,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Bethel",
+          "type": "place",
+          "preferred_label": "बेतेल",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "620784",
     "reference_id": 7221,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रोबाम",
     "media_type": "Text",
     "index_reference": "रोबाम",
@@ -8528,13 +11853,36 @@
           "label": "रहबाम",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Rehoboam",
+          "type": "person",
+          "preferred_label": "रहबाम",
+          "confidence": 0.82,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Abijah.4",
+          "type": "person",
+          "preferred_label": "अबिय्याह",
+          "confidence": 0.7975,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Solomon",
+          "type": "person",
+          "preferred_label": "सुलैमान",
+          "confidence": 0.625,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "732810",
     "reference_id": 3758,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रोम के क्लेमेंट",
     "media_type": "Text",
     "index_reference": "रोम के क्लेमेंट",
@@ -8551,13 +11899,14 @@
           "label": "क्लेमेंस का पहला पत्र",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "649532",
     "reference_id": 7228,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रोममतीएजेर",
     "media_type": "Text",
     "index_reference": "रोममतीएजेर",
@@ -8579,13 +11928,71 @@
           "end_ref_usfm": "1CH 25:31"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Romamti-ezer",
+          "type": "person",
+          "preferred_label": "रोममतीएजेर",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jerimoth.4",
+          "type": "person",
+          "preferred_label": "यरीमोत",
+          "confidence": 0.6065,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Eliathah",
+          "type": "person",
+          "preferred_label": "एलियातह",
+          "confidence": 0.5885,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mattaniah.2",
+          "type": "person",
+          "preferred_label": "मत्तन्याह",
+          "confidence": 0.5615,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Heman.3",
+          "type": "person",
+          "preferred_label": "हेमान",
+          "confidence": 0.557,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hothir",
+          "type": "person",
+          "preferred_label": "होतीर",
+          "confidence": 0.557,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mallothi",
+          "type": "person",
+          "preferred_label": "मल्लोती",
+          "confidence": 0.5435,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uzziel.4",
+          "type": "person",
+          "preferred_label": "उज्जीएल",
+          "confidence": 0.53,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "733785",
     "reference_id": 7229,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रोमियों के नाम पत्री",
     "media_type": "Text",
     "index_reference": "रोमियों के नाम पत्री",
@@ -9285,13 +12692,50 @@
           "end_ref_usfm": "ROM 14:23"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Greece",
+          "type": "place",
+          "preferred_label": "यूनान",
+          "confidence": 0.6008,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Cain",
+          "type": "person",
+          "preferred_label": "कैन",
+          "confidence": 0.6008,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Cyrene",
+          "type": "place",
+          "preferred_label": "कुरेने",
+          "confidence": 0.6008,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nereus",
+          "type": "person",
+          "preferred_label": "नेर्युस",
+          "confidence": 0.5243,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Sopater",
+          "type": "person",
+          "preferred_label": "सोपत्रुस",
+          "confidence": 0.5116,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "381821",
     "reference_id": 7234,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रोश",
     "media_type": "Text",
     "index_reference": "रोश",
@@ -9307,13 +12751,85 @@
           "end_ref_usfm": "GEN 46:21"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rosh",
+          "type": "person",
+          "preferred_label": "रोश",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Gera",
+          "type": "person",
+          "preferred_label": "गेरा",
+          "confidence": 0.8515,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ard",
+          "type": "person",
+          "preferred_label": "अर्द",
+          "confidence": 0.8065,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Becher",
+          "type": "person",
+          "preferred_label": "बेकेर",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Muppim",
+          "type": "person",
+          "preferred_label": "मुप्पीम",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Naaman",
+          "type": "person",
+          "preferred_label": "नामान",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Bela",
+          "type": "person",
+          "preferred_label": "बेला",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ashbel",
+          "type": "person",
+          "preferred_label": "अशबेल",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Huppim",
+          "type": "person",
+          "preferred_label": "हुप्पीम",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ehi",
+          "type": "person",
+          "preferred_label": "एही",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "733787",
     "reference_id": 7232,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रोसेटा पत्थर",
     "media_type": "Text",
     "index_reference": "रोसेटा पत्थर",
@@ -9322,13 +12838,14 @@
     "content": "<h1>रोसेटा पत्थर</h1><p>रोसेटा पत्थर इसलिए प्रसिद्ध हुआ क्योंकि इसने विद्वानों को प्राचीन मिस्र के लेखन को समझने में मदद की। &quot;रोसेटा&quot; नाम मिस्र के एक शहर रशीद से आया है, जहाँ यह पत्थर पाया गया था। यह शहर उस जगह के पास है जहाँ नील नदी की एक शाखा समुद्र में बहती है।</p><p>यह पत्थर काले बेसाल्ट चट्टान से बना है। यह लगभग 3 फीट 9 इंच (1.1 मीटर) लंबा, 2 फीट 4.5 इंच (0.7 मीटर) चौड़ा और 11 इंच (27.9 सेंटीमीटर) मोटा है। जब यह पाया गया, तो यह क्षतिग्रस्त था। शीर्ष के कोने गायब थे। विशेषज्ञों का मानना ​​है कि इसका मूल पत्थर अब की तुलना में कम से कम 12 इंच (30.5 सेंटीमीटर) लंबा था।</p><p>यह पत्थर 1799 में खोजा गया था जब नेपोलियन की सेना ने मिस्र पर आक्रमण किया था। इसे कैसे पाया गया, इसके बारे में दो कहानियाँ हैं। एक कहानी कहती है कि सैनिकों ने इसे ज़मीन पर पड़ा हुआ पाया। दूसरी कहानी कहती है कि यह एक दीवार का हिस्सा था जिसे किला बनाने के लिए तोड़ा जा रहा था (जिसे बाद में फ़ोर्ट जूलियन कहा गया)। बूचार्ड नामक एक फ्रांसीसी अधिकारी ने यह पत्थर पाया, जो एक इंजीनियर था। उसने देखा कि इस पर तीन अलग-अलग लिपियों में लिखा था और सोचा कि यह प्राचीन इतिहास के अध्ययन के लिए बहुत महत्वपूर्ण हो सकता है।</p><p>पत्थर के निचले हिस्से पर यूनानी लेखन था। बूचार्ड और उनके सहयोगियों ने सोचा कि यह शीर्ष पर रहस्यमय लेखन का अनुवाद हो सकता है। उन्होंने पत्थर को नेपोलियन को दिखाया, जिसने विद्वानों के अध्ययन के लिए यूरोप में प्रतियां भेजने का आदेश दिया। दो फ्रांसीसी, जीन-जोसेफ मार्सेल और रेमी रेजने ने, जल्द ही महसूस किया कि चित्र लेखन (चित्रलिपि) और यूनानी पाठ के बीच की मध्य लिपि, मिस्र के लेखन का एक सरल रूप थी। विद्वान इसे &quot;डेमोटिक&quot; लेखन कहते हैं। यह लेखन का एक सामान्य, रोज़मर्रा का रूप था जिसमें शॉर्टकट का उपयोग किया जाता था, पुजारियों द्वारा उपयोग किए जाने वाले अधिक जटिल &quot;हेराटिक&quot; लेखन के विपरीत।</p><p>क्षतिग्रस्त पत्थर पर अब 14 पंक्तियाँ चित्रलिपि पाठ, 32 पंक्तियाँ डेमोटिक पाठ और 54 पंक्तियाँ यूनानी में हैं। यूनानी की अंतिम 26 पंक्तियाँ सिरों पर क्षतिग्रस्त हैं।सौभाग्य से, विद्वान अन्य स्थानों से समान शिलालेखों का उपयोग करके लापता चित्रलिपि पाठ के अधिकांश भाग को भरने में सक्षम थे।</p><p>रेव. स्टीफन वेस्टन नामक व्यक्ति ने सबसे पहले यूनानी पाठ का अंग्रेजी में अनुवाद किया। &quot;सिटिजन डू थील&quot; नामक एक फ्रांसीसी विद्वान ने इसका फ्रेंच में अनुवाद किया। दो अन्य विद्वानों, सिल्वेस्टर डी सैसी और एक स्वीडिश राजनयिक एकरब्लैड ने डेमोटिक लिपि का अध्ययन किया। एकरब्लैड डेमोटिक पाठ में सभी उचित नामों की पहचान करने वाले पहले व्यक्ति थे जो यूनानी पाठ से मेल खाते थे। उन्होंने &quot;मंदिरों,&quot; &quot;यूनानियों,&quot; और &quot;वह&quot; जैसे शब्दों की भी पहचान की।</p><p>थॉमस यंग से एक महत्वपूर्ण सुराग मिला, जो प्रकाश पर अपने काम के लिए भी जाने जाते हैं। उन्होंने पाया कि प्राचीन मिस्र के लेखन में ध्वनियों का प्रतिनिधित्व करने वाले चिन्हों का उपयोग किया जाता था। पहली सफलता चित्रलिपि में लिखे गए &quot;क्लियोपेट्रा&quot; नाम की पहचान करना था। इससे विद्वानों को &quot;टॉलेमी&quot; नाम की पहचान करने में मदद मिली, सिवाय नाम के चारों ओर के घेरे में अंतिम कुछ चिह्नों (जिसे कार्टूचे कहा जाता है) के। उन्होंने अनुमान लगाया कि ये अंतिम चित्रलिपि यूनानी पाठ में शाही शीर्षकों से मेल खाते हैं। अक्षरों को मिलाकर, विद्वान &quot;हमेशा जीवित, पथाह के प्रिय&quot; शीर्षक का अनुवाद करने में सक्षम हुए।</p><p>थॉमस यंग की खोज कि चित्रलिपि ध्वनि का प्रतिनिधित्व करती है, जीन-फ्रांकोइस चैम्पोलियन के काम के साथ मिलकर प्राचीन मिस्र के लेखन के रहस्य को सुलझाने में मदद की। 1822 तक, यंग ने चित्रलिपि वर्णों की एक सूची बना ली थी। चैम्पोलियन ने इस सूची का विस्तार किया और उसमें सुधार किया। चैम्पोलियन ने भाषा के व्याकरण का भी पता लगाया। उनके काम ने प्राचीन मिस्र के बाद के विशेषज्ञों के लिए आधार तैयार किया।</p><p>अब हम जानते हैं कि पत्थर पर एक आदेश लिखा हुआ है। यह आदेश मिस्र के पुजारियों द्वारा बनाया गया था जो मेम्फिस में मिले थे। यह उस वर्षगांठ का जश्न मनाता है जब टॉलेमी पाँचवा, जिसे एपिफेन्स भी कहा जाता है, पूरे मिस्र का राजा बन गया था। तिथि संभवतः 196 ईसा पूर्व की वसंत है। विद्वानों का मानना ​​है कि मूल पाठ यूनानी में था, और डेमोटिक और चित्रलिपि संस्करण अनुवाद थे।</p><p>यह आदेश राजा की प्रशंसा करते हुए शुरू होता है, उसकी उपाधियों को सूचीबद्ध करता है और बताता है कि वह अपने लोगों और देश से कितना प्यार करता था। फिर, इसमें मंदिरों, पुजारियों और जनता के लिए राजा द्वारा किए गए अच्छे कामों को सूचीबद्ध किया गया है। इनमें अपराधियों को माफ करना और करों को कम करना शामिल है। राजा की दयालुता के लिए उसे धन्यवाद देने के लिए, पुजारी परिषद ने &quot;मंदिरों में सदा-जीवित टॉलेमी को दिए जाने वाले सम्मान के औपचारिक अनुष्ठानों को बढ़ाने का फैसला किया।&quot;</p><p>पुजारियों ने ये काम करने का फैसला किया:</p><ol><li><p>मिस्र के मुक्तिदाता के रूप में टॉलेमी की मूर्तियाँ बनाएँ।</p></li><li><p>देवताओं के बगल में मंदिरों में टॉलेमी की मूर्तियाँ रखें।</p></li><li><p>उनके मंदिर पर सोने के 10 दोहरे मुकुट रखें।</p></li><li><p>राजा के जन्मदिन और राज्याभिषेक के दिन को सार्वजनिक अवकाश बनाएँ।</p></li><li><p>थोथ महीने के पहले पाँच दिनों को उत्सव का दिन बनाएँ जब सभी लोग मालाएँ पहनें।</p></li><li><p>पुजारियों की उपाधि में &quot;पृथ्वी पर प्रकट होने वाले परोपकारी देवता टॉलेमी एपिफेनस के पुजारी&quot; जोड़ें।</p></li><li><p>नागरिकों को अपने घरों और जुलूस के लिए टॉलेमी की मंदिर की आकृतियाँ उधार लेने की अनुमति दें।</p></li><li><p>मंदिरों में &quot;सदा जीवित रहने वाले देवता टॉलेमी की मूर्ति के साथ-साथ&quot; स्थापित किए जाने वाले बेसाल्ट के स्लैब पर आदेश की प्रतियां बनाएं।</p></li></ol><p>1801 में हस्ताक्षरित एक संधि के कारण यह पत्थर इंग्लैंड ले जाया गया। अब यह लंदन के ब्रिटिश संग्रहालय में प्रदर्शित है।</p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "649531",
     "reference_id": 7226,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "रोहगा",
     "media_type": "Text",
     "index_reference": "रोहगा",
@@ -9344,7 +12861,44 @@
           "end_ref_usfm": "1CH 7:34"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Rohgah",
+          "type": "person",
+          "preferred_label": "रोहगा",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jehubbah",
+          "type": "person",
+          "preferred_label": "यहुब्बा",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Aram.3",
+          "type": "person",
+          "preferred_label": "अराम",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shomer.2",
+          "type": "person",
+          "preferred_label": "शोमेर",
+          "confidence": 0.748,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ahi.2",
+          "type": "person",
+          "preferred_label": "अही",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        }
+      ]
     }
   }
 ]

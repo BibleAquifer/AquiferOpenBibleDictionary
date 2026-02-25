@@ -2,7 +2,7 @@
   {
     "content_id": "615745",
     "reference_id": 6649,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "橄欖山",
     "media_type": "Text",
     "index_reference": "橄欖山",
@@ -108,7 +108,16 @@
           "end_ref_usfm": "JHN 11:44"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:OlivesMount",
+          "type": "place",
+          "preferred_label": "Mount of Olives",
+          "confidence": 0.8422,
+          "match_method": "embedding"
+        }
+      ]
     }
   }
 ]

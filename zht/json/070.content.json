@@ -2,7 +2,7 @@
   {
     "content_id": "315546",
     "reference_id": 8240,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "酒",
     "media_type": "Text",
     "index_reference": "酒",
@@ -302,13 +302,29 @@
           "label": "葡萄樹與葡萄園",
           "language": "zht"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Wine",
+          "type": "realia",
+          "preferred_label": "Wine",
+          "confidence": 0.837,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Beer",
+          "type": "place",
+          "preferred_label": "Beer",
+          "confidence": 0.8262,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "315537",
     "reference_id": 7287,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "救恩",
     "media_type": "Text",
     "index_reference": "救恩",
@@ -687,13 +703,14 @@
           "label": "救主",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "574046",
     "reference_id": 7137,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "救贖者，救贖",
     "media_type": "Text",
     "index_reference": "救贖者，救贖",
@@ -916,13 +933,14 @@
           "label": "救恩",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "315538",
     "reference_id": 7328,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "救主",
     "media_type": "Text",
     "index_reference": "救主",
@@ -1222,13 +1240,22 @@
           "label": "救恩",
           "language": "zht"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Savior",
+          "type": "keyterm",
+          "preferred_label": "Savior",
+          "confidence": 0.8349,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "800771",
     "reference_id": 6096,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "舊人與新人",
     "media_type": "Text",
     "index_reference": "舊人與新人",
@@ -1381,7 +1408,8 @@
           "label": "人",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   }
 ]

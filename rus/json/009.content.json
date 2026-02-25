@@ -2,7 +2,7 @@
   {
     "content_id": "124422",
     "reference_id": 3220,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Красота",
     "media_type": "Text",
     "index_reference": "красота",
@@ -216,13 +216,14 @@
           "end_ref_usfm": "REV 22:21"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "124421",
     "reference_id": 3165,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Крещение",
     "media_type": "Text",
     "index_reference": "крещение",
@@ -478,13 +479,22 @@
           "end_ref_usfm": "1PE 3:21"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "keyterm:Circumcision",
+          "type": "keyterm",
+          "preferred_label": "Circumcision",
+          "confidence": 0.8011,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "124428",
     "reference_id": 3859,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Крит",
     "media_type": "Text",
     "index_reference": "крит",
@@ -530,13 +540,29 @@
           "end_ref_usfm": "TIT 1:12"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Crete",
+          "type": "place",
+          "preferred_label": "Крит",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Cretan",
+          "type": "group",
+          "preferred_label": "критянин",
+          "confidence": 0.5182,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "124434",
     "reference_id": 4589,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Кротость",
     "media_type": "Text",
     "index_reference": "кротость",
@@ -678,7 +704,8 @@
           "end_ref_usfm": "1PE 3:15"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   }
 ]

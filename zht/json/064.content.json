@@ -2,7 +2,7 @@
   {
     "content_id": "573993",
     "reference_id": 4503,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "加大拉，加大拉人",
     "media_type": "Text",
     "index_reference": "加大拉，加大拉人",
@@ -51,13 +51,22 @@
           "label": "格拉森，格拉森人",
           "language": "zht"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Gerasa",
+          "type": "place",
+          "preferred_label": "Gerasa",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "340949",
     "reference_id": 4522,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "加利利",
     "media_type": "Text",
     "index_reference": "加利利",
@@ -393,13 +402,22 @@
           "label": "加利利海",
           "language": "zht"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Galilee",
+          "type": "place",
+          "preferred_label": "Galilee",
+          "confidence": 0.8448,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "340993",
     "reference_id": 7353,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "加利利海",
     "media_type": "Text",
     "index_reference": "加利利海",
@@ -585,13 +603,29 @@
           "label": "加利利",
           "language": "zht"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:GalileeSea",
+          "type": "place",
+          "preferred_label": "Sea of Galilee",
+          "confidence": 0.8736,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Galilee",
+          "type": "place",
+          "preferred_label": "Galilee",
+          "confidence": 0.8286,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "340930",
     "reference_id": 3583,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "迦百農",
     "media_type": "Text",
     "index_reference": "迦百農",
@@ -679,13 +713,14 @@
           "end_ref_usfm": "LUK 7:2"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "864904",
     "reference_id": 4513,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "迦含",
     "media_type": "Text",
     "index_reference": "迦含",
@@ -701,13 +736,50 @@
           "end_ref_usfm": "GEN 22:24"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Maacah",
+          "type": "person",
+          "preferred_label": "Maacah",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tebah",
+          "type": "person",
+          "preferred_label": "Tebah",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Gaham",
+          "type": "person",
+          "preferred_label": "Gaham",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Reumah",
+          "type": "person",
+          "preferred_label": "Reumah",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tahash",
+          "type": "person",
+          "preferred_label": "Tahash",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "573972",
     "reference_id": 3572,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "迦南，迦南人",
     "media_type": "Text",
     "index_reference": "迦南，迦南人",
@@ -801,13 +873,14 @@
           "end_ref_usfm": "EXO 34:16"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "471347",
     "reference_id": 7675,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "迦南人西門",
     "media_type": "Text",
     "index_reference": "迦南人西門",
@@ -837,13 +910,29 @@
           "label": "西門",
           "language": "zht"
         }
+      ],
+      "acai": [
+        {
+          "id": "group:Zealot",
+          "type": "group",
+          "preferred_label": "Zealots",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Simon.2",
+          "type": "person",
+          "preferred_label": "Simon",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "853307",
     "reference_id": 3609,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "迦斯路希人，迦斯路希族",
     "media_type": "Text",
     "index_reference": "迦斯路希人，迦斯路希族",
@@ -865,13 +954,43 @@
           "end_ref_usfm": "1CH 1:12"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "group:Pathrusim",
+          "type": "group",
+          "preferred_label": "Pathrusim",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Caphtorim",
+          "type": "group",
+          "preferred_label": "Caphtorim",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Philistine",
+          "type": "person",
+          "preferred_label": "Philistine",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Casluhim",
+          "type": "group",
+          "preferred_label": "Casluhim",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "471328",
     "reference_id": 4492,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "家具",
     "media_type": "Text",
     "index_reference": "家具",
@@ -1229,13 +1348,14 @@
           "end_ref_usfm": "EZK 40:43"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "315515",
     "reference_id": 4581,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "家譜",
     "media_type": "Text",
     "index_reference": "家譜",
@@ -1737,13 +1857,14 @@
           "end_ref_usfm": "NEH 12:42"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "315514",
     "reference_id": 4403,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "家庭生活與關係",
     "media_type": "Text",
     "index_reference": "家庭生活與關係",
@@ -2568,13 +2689,14 @@
           "label": "女人",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "615730",
     "reference_id": 4401,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "假基督，假彌賽亞",
     "media_type": "Text",
     "index_reference": "假基督，假彌賽亞",
@@ -2614,7 +2736,8 @@
           "end_ref_usfm": "MRK 13:25"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   }
 ]

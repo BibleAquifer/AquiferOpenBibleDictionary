@@ -2,7 +2,7 @@
   {
     "content_id": "727236",
     "reference_id": 2531,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "आदम (व्यक्ति)",
     "media_type": "Text",
     "index_reference": "आदम (व्यक्ति)",
@@ -606,13 +606,14 @@
           "end_ref_usfm": "EPH 2:16"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "727485",
     "reference_id": 2526,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "आदा",
     "media_type": "Text",
     "index_reference": "आदा",
@@ -640,13 +641,14 @@
           "end_ref_usfm": "GEN 36:16"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "722558",
     "reference_id": 2460,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "आबिदा",
     "media_type": "Text",
     "index_reference": "आबिदा",
@@ -674,7 +676,16 @@
           "end_ref_usfm": "1CH 1:33"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Midian",
+          "type": "person",
+          "preferred_label": "Midian",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   }
 ]

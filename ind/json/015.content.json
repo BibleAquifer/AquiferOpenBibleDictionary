@@ -2,7 +2,7 @@
   {
     "content_id": "369087",
     "reference_id": 5763,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Raja",
     "media_type": "Text",
     "index_reference": "raja",
@@ -362,13 +362,36 @@
           "label": "Israel, Sejarah",
           "language": "ind"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Hammelech",
+          "type": "person",
+          "preferred_label": "raja",
+          "confidence": 0.893,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Jehoiachin",
+          "type": "person",
+          "preferred_label": "raja",
+          "confidence": 0.893,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:KingsValley",
+          "type": "place",
+          "preferred_label": "raja",
+          "confidence": 0.893,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "369030",
     "reference_id": 2838,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Rasul, Kerasulan",
     "media_type": "Text",
     "index_reference": "rasul, kerasulan",
@@ -657,13 +680,14 @@
           "label": "Paulus, Rasul",
           "language": "ind"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "369121",
     "reference_id": 7230,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Roma, Kota",
     "media_type": "Text",
     "index_reference": "roma, kota",
@@ -913,13 +937,22 @@
           "end_ref_usfm": "ACT 21:33"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Rome",
+          "type": "place",
+          "preferred_label": "Roma",
+          "confidence": 0.6465,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "369074",
     "reference_id": 5057,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Rumah dan Tempat Tinggal",
     "media_type": "Text",
     "index_reference": "rumah dan tempat tinggal",
@@ -1063,7 +1096,8 @@
           "label": "Arsitektur",
           "language": "ind"
         }
-      ]
+      ],
+      "acai": []
     }
   }
 ]

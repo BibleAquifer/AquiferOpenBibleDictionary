@@ -2,7 +2,7 @@
   {
     "content_id": "369136",
     "reference_id": 8061,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Bahasa Roh, Berbicara dalam",
     "media_type": "Text",
     "index_reference": "bahasa roh, berbicara dalam",
@@ -96,13 +96,22 @@
           "end_ref_usfm": "ACT 8:17"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "deity:HolySpirit",
+          "type": "deity",
+          "preferred_label": "Roh",
+          "confidence": 0.5333,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "369033",
     "reference_id": 3183,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Barsabas, Barsabbas",
     "media_type": "Text",
     "index_reference": "barsabas, barsabbas",
@@ -139,13 +148,29 @@
           "label": "Yudas",
           "language": "ind"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Joseph.9",
+          "type": "person",
+          "preferred_label": "Yusuf",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Judas.5",
+          "type": "person",
+          "preferred_label": "Yudas",
+          "confidence": 0.8,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "369034",
     "reference_id": 3184,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Bartolomeus, Rasul",
     "media_type": "Text",
     "index_reference": "bartolomeus, rasul",
@@ -198,6 +223,15 @@
           "resource_code": "TyndaleBibleDictionary",
           "label": "Rasul, Kerasulan",
           "language": "ind"
+        }
+      ],
+      "acai": [
+        {
+          "id": "person:Bartholomew",
+          "type": "person",
+          "preferred_label": "Bartolomeus",
+          "confidence": 0.6889,
+          "match_method": "scored"
         }
       ]
     }

@@ -2,7 +2,7 @@
   {
     "content_id": "733643",
     "reference_id": 6751,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "क्षमा",
     "media_type": "Text",
     "index_reference": "क्षमा",
@@ -11,13 +11,22 @@
     "content": "<h1>क्षमा</h1><p><em>देखिए</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4462\" data-resourceType=\"TyndaleBibleDictionary\">क्षमा</span>।</p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "keyterm:Forgive",
+          "type": "keyterm",
+          "preferred_label": "Forgive",
+          "confidence": 0.8439,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "594466",
     "reference_id": 3808,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "क्षय रोग",
     "media_type": "Text",
     "index_reference": "क्षय रोग",
@@ -47,13 +56,14 @@
           "label": "चिकित्सा विज्ञान और चिकित्सा पद्धति",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "732423",
     "reference_id": 2601,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "क्षयर्ष",
     "media_type": "Text",
     "index_reference": "क्षयर्ष",
@@ -109,13 +119,22 @@
           "label": "फारस, फारसी",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Ahasuerus",
+          "type": "person",
+          "preferred_label": "क्षयर्ष",
+          "confidence": 0.9,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "734127",
     "reference_id": 8267,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "क्षयर्ष",
     "media_type": "Text",
     "index_reference": "क्षयर्ष",
@@ -138,6 +157,36 @@
           "resource_code": "TyndaleBibleDictionary",
           "label": "क्षयर्ष ",
           "language": "hin"
+        }
+      ],
+      "acai": [
+        {
+          "id": "person:Ahasuerus",
+          "type": "person",
+          "preferred_label": "क्षयर्ष",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Jerusalem",
+          "type": "place",
+          "preferred_label": "यरूशलेम",
+          "confidence": 0.5935,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Judah.4",
+          "type": "person",
+          "preferred_label": "यहूदा",
+          "confidence": 0.562,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Judah",
+          "type": "group",
+          "preferred_label": "यहूदा",
+          "confidence": 0.562,
+          "match_method": "scored"
         }
       ]
     }

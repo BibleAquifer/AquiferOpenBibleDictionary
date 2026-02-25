@@ -2,7 +2,7 @@
   {
     "content_id": "7876",
     "reference_id": 7044,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Qere",
     "media_type": "Text",
     "index_reference": "qere",
@@ -11,13 +11,14 @@
     "content": "<h1>QERE</h1><p>An Aramaic word meaning “what is&nbsp;to be read.” Until the time of the Masoretes (medieval Jewish scribes), the Hebrew Bible was written only with consonants. The Masoretes, however, thought that the vowels would make the Scriptures easier to read. So, they began to write them&nbsp;with the vowels. </p><p>When they copied a word they thought was unclear as it was written, they would put the word in the margin with other vowels, changing the meaning or intent. The word that was written in the text was called the &quot;Ketib,” and what was to be read was “Qere.” The qere was the word written in the margins.</p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "7877",
     "reference_id": 7045,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Qesitah",
     "media_type": "Text",
     "index_reference": "qesitah",
@@ -53,13 +54,22 @@
           "label": "Money",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:PieceOfMoney",
+          "type": "realia",
+          "preferred_label": "Piece of Money",
+          "confidence": 0.937,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "7878",
     "reference_id": 7046,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Qoheleth",
     "media_type": "Text",
     "index_reference": "qoheleth",
@@ -76,13 +86,22 @@
           "label": "Book of Ecclesiastes",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Kehelathah",
+          "type": "place",
+          "preferred_label": "Kehelathah",
+          "confidence": 0.8112,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "7879",
     "reference_id": 7047,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quadratus, Apology of",
     "media_type": "Text",
     "index_reference": "quadratus, apology of",
@@ -91,13 +110,14 @@
     "content": "<h1>QUADRATUS, Apology of</h1><p>Around AD 125 Quadratus wrote an early Christian defense (or apology) of Christianity to emperor Hadrian. The writings of Eusebius preserve the&nbsp;only surviving fragment of this apology. The fragment says the following:</p><p>“But the works of our Savior were always present (for&nbsp;they were genuine): namely, those who healed, those who rose from the dead; who were not only seen in the act of being healed or raised, but were also always present; and not merely when the Savior was on earth, but after his departure as well, they lived for a considerable time; insomuch that some of&nbsp;them survived even to our own day.”</p><p>According to Eusebius, Quadratus wrote the apology to defend the church. Eusebius wrote, “Certain evil men tried to trouble those who belonged to us.” Quadratus also hoped to persuade Hadrian of the truthfulness of Christianity. If Quadratus could assure Hadrian of the pure&nbsp;intentions of the Christians, Hadrian might end the&nbsp;persecutions. The apology of Quadratus is sometimes mistakenly identified with the “Letter to Diognetus.”</p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "7880",
     "reference_id": 7048,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quail",
     "media_type": "Text",
     "index_reference": "quail",
@@ -139,13 +159,22 @@
           "label": "Birds",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Quail",
+          "type": "fauna",
+          "preferred_label": "Quail",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "7882",
     "reference_id": 7050,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quart",
     "media_type": "Text",
     "index_reference": "quart",
@@ -162,13 +191,22 @@
           "label": "Weights and Measures",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Quart",
+          "type": "realia",
+          "preferred_label": "Quart",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "7881",
     "reference_id": 7049,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quartus",
     "media_type": "Text",
     "index_reference": "quartus",
@@ -184,13 +222,43 @@
           "end_ref_usfm": "ROM 16:23"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Quartus",
+          "type": "person",
+          "preferred_label": "Quartus",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Erastus",
+          "type": "person",
+          "preferred_label": "Erastus",
+          "confidence": 0.8065,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Gaius.3",
+          "type": "person",
+          "preferred_label": "Gaius",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Church",
+          "type": "keyterm",
+          "preferred_label": "Church",
+          "confidence": 0.5395,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "7883",
     "reference_id": 7051,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quaternion",
     "media_type": "Text",
     "index_reference": "quaternion",
@@ -214,13 +282,29 @@
           "label": "Warfare",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Prison",
+          "type": "realia",
+          "preferred_label": "Prison",
+          "confidence": 0.625,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Passover",
+          "type": "keyterm",
+          "preferred_label": "Passover",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "7885",
     "reference_id": 7053,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Queen",
     "media_type": "Text",
     "index_reference": "queen",
@@ -320,13 +404,22 @@
           "end_ref_usfm": "1KI 1:31"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:QueenOfSheba",
+          "type": "person",
+          "preferred_label": "Queen of Sheba",
+          "confidence": 0.6203,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "7884",
     "reference_id": 7052,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Queen of Heaven",
     "media_type": "Text",
     "index_reference": "queen of heaven",
@@ -368,13 +461,14 @@
           "label": "Canaanite Deities and Religion",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "718704",
     "reference_id": 209685,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quince",
     "media_type": "Text",
     "index_reference": "quince",
@@ -383,13 +477,14 @@
     "content": "<h1>Quince</h1><p>The quince is a tree native to western Asia. It has white flowers and fruit that looks like apples. The fruit can only be eaten when cooked. Some scholars believe that the &quot;apples&quot; mentioned in the Old Testament were actually quinces, <em>Cydonia oblonga</em>.</p><p>The quince tree is quite common in the region of Palestine, though mainly as a cultivated tree rather than growing wild. It may be found growing naturally in the northern parts of Syria. The quince is native to northern Persia and Asia Minor (modern-day Turkey).</p><p>The fruit is yellowish in color and has a strong, pleasant smell. It was this fragrance that made the quince highly valued by people in ancient times.</p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "7886",
     "reference_id": 7054,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quirinius",
     "media_type": "Text",
     "index_reference": "quirinius",
@@ -432,13 +527,22 @@
           "label": "Chronology of the Bible (New Testament)",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Quirinius",
+          "type": "person",
+          "preferred_label": "Quirinius",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "7887",
     "reference_id": 7055,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Qumran",
     "media_type": "Text",
     "index_reference": "qumran",
@@ -460,13 +564,22 @@
           "end_ref_usfm": "2CH 26:10"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Qumran",
+          "type": "place",
+          "preferred_label": "Qumran",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
+      ]
     }
   },
   {
     "content_id": "7888",
     "reference_id": 7056,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quotations of the Old Testament in the New Testament",
     "media_type": "Text",
     "index_reference": "quotations of the old testament in the new testament",
@@ -483,7 +596,8 @@
           "label": "Bible, Quotations of the Old Testament in the New Testament",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   }
 ]

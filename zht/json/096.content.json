@@ -2,7 +2,7 @@
   {
     "content_id": "340976",
     "reference_id": 6259,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "彌賽亞",
     "media_type": "Text",
     "index_reference": "彌賽亞",
@@ -911,13 +911,29 @@
           "label": "神的兒子",
           "language": "zht"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Maaziah",
+          "type": "person",
+          "preferred_label": "Maaziah",
+          "confidence": 0.8118,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Maaziah.2",
+          "type": "person",
+          "preferred_label": "Maaziah",
+          "confidence": 0.8118,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "864946",
     "reference_id": 6271,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "米比衫",
     "media_type": "Text",
     "index_reference": "米比衫",
@@ -945,13 +961,14 @@
           "end_ref_usfm": "1CH 4:25"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "864944",
     "reference_id": 6175,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "米但",
     "media_type": "Text",
     "index_reference": "米但",
@@ -973,13 +990,57 @@
           "end_ref_usfm": "1CH 1:32"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Zimran",
+          "type": "person",
+          "preferred_label": "Zimran",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ishbak",
+          "type": "person",
+          "preferred_label": "Ishbak",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shuah",
+          "type": "person",
+          "preferred_label": "Shuah",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jokshan",
+          "type": "person",
+          "preferred_label": "Jokshan",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Medan",
+          "type": "person",
+          "preferred_label": "Medan",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Midian",
+          "type": "person",
+          "preferred_label": "Midian",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "838337",
     "reference_id": 6189,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "米戶雅利",
     "media_type": "Text",
     "index_reference": "米戶雅利",
@@ -995,13 +1056,50 @@
           "end_ref_usfm": "GEN 4:18"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Lamech",
+          "type": "person",
+          "preferred_label": "Lamech",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mehujael",
+          "type": "person",
+          "preferred_label": "Mehujael",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Irad",
+          "type": "person",
+          "preferred_label": "Irad",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Methushael",
+          "type": "person",
+          "preferred_label": "Methushael",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Enoch",
+          "type": "person",
+          "preferred_label": "Enoch",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "864948",
     "reference_id": 6332,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "米施瑪",
     "media_type": "Text",
     "index_reference": "米施瑪",
@@ -1041,13 +1139,43 @@
           "end_ref_usfm": "1CH 4:43"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Mishma",
+          "type": "person",
+          "preferred_label": "Mishma",
+          "confidence": 0.872,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Mishma.2",
+          "type": "person",
+          "preferred_label": "Mishma",
+          "confidence": 0.872,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Misham",
+          "type": "person",
+          "preferred_label": "Misham",
+          "confidence": 0.8484,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Michmash",
+          "type": "place",
+          "preferred_label": "Michmash",
+          "confidence": 0.8181,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "340954",
     "reference_id": 5059,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "蜜",
     "media_type": "Text",
     "index_reference": "蜜",
@@ -1137,7 +1265,8 @@
           "label": "食物和食物準備",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   }
 ]

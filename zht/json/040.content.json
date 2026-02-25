@@ -2,7 +2,7 @@
   {
     "content_id": "340950",
     "reference_id": 4685,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "福音",
     "media_type": "Text",
     "index_reference": "福音",
@@ -1356,13 +1356,14 @@
           "end_ref_usfm": "1PE 4:6"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "574047",
     "reference_id": 7179,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "復活",
     "media_type": "Text",
     "index_reference": "復活",
@@ -1806,6 +1807,15 @@
           "resource_code": "TyndaleBibleDictionary",
           "label": "基督的再來",
           "language": "zht"
+        }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Resurrection",
+          "type": "keyterm",
+          "preferred_label": "Resurrection",
+          "confidence": 0.8294,
+          "match_method": "embedding"
         }
       ]
     }

@@ -2,7 +2,7 @@
   {
     "content_id": "340952",
     "reference_id": 4918,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "心",
     "media_type": "Text",
     "index_reference": "心",
@@ -666,13 +666,22 @@
           "end_ref_usfm": "2CO 3:3"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "keyterm:Heart",
+          "type": "keyterm",
+          "preferred_label": "Heart",
+          "confidence": 0.9063,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "864986",
     "reference_id": 8395,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "心蘭",
     "media_type": "Text",
     "index_reference": "心蘭",
@@ -694,13 +703,57 @@
           "end_ref_usfm": "1CH 1:32"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Zimran",
+          "type": "person",
+          "preferred_label": "Zimran",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ishbak",
+          "type": "person",
+          "preferred_label": "Ishbak",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shuah",
+          "type": "person",
+          "preferred_label": "Shuah",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jokshan",
+          "type": "person",
+          "preferred_label": "Jokshan",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Medan",
+          "type": "person",
+          "preferred_label": "Medan",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Midian",
+          "type": "person",
+          "preferred_label": "Midian",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "864987",
     "reference_id": 8397,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "心利 (地點)",
     "media_type": "Text",
     "index_reference": "心利 (地點)",
@@ -722,13 +775,14 @@
           "end_ref_usfm": "JER 25:25"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "471330",
     "reference_id": 4831,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "心硬",
     "media_type": "Text",
     "index_reference": "心硬",
@@ -927,13 +981,14 @@
           "label": "重生",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "800775",
     "reference_id": 6548,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "新的創造，新的受造物",
     "media_type": "Text",
     "index_reference": "新的創造，新的受造物",
@@ -1416,13 +1471,14 @@
           "label": "舊人與新人",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "615738",
     "reference_id": 5500,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "新耶路撒冷",
     "media_type": "Text",
     "index_reference": "新耶路撒冷",
@@ -1636,13 +1692,14 @@
           "end_ref_usfm": "REV 21:26"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "340936",
     "reference_id": 3841,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "新約",
     "media_type": "Text",
     "index_reference": "新約",
@@ -2060,13 +2117,14 @@
           "end_ref_usfm": "GAL 5:25"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "340943",
     "reference_id": 4397,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "信心",
     "media_type": "Text",
     "index_reference": "信心",
@@ -2358,7 +2416,23 @@
           "end_ref_usfm": "GAL 4:31"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "keyterm:Confidence",
+          "type": "keyterm",
+          "preferred_label": "Confidence",
+          "confidence": 0.9018,
+          "match_method": "embedding"
+        },
+        {
+          "id": "keyterm:LeanOn",
+          "type": "keyterm",
+          "preferred_label": "Trust",
+          "confidence": 0.8792,
+          "match_method": "embedding"
+        }
+      ]
     }
   }
 ]

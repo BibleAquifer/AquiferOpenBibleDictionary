@@ -2,7 +2,7 @@
   {
     "content_id": "340944",
     "reference_id": 4437,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "漁夫",
     "media_type": "Text",
     "index_reference": "漁夫",
@@ -108,13 +108,14 @@
           "end_ref_usfm": "LUK 5:5"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "838352",
     "reference_id": 7164,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "餘民",
     "media_type": "Text",
     "index_reference": "餘民",
@@ -370,13 +371,14 @@
           "end_ref_usfm": "EZK 36:27"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "315544",
     "reference_id": 8116,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "預像",
     "media_type": "Text",
     "index_reference": "預像",
@@ -488,13 +490,14 @@
           "end_ref_usfm": "HEB 9:22"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "340987",
     "reference_id": 6998,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "預言",
     "media_type": "Text",
     "index_reference": "預言",
@@ -1784,13 +1787,22 @@
           "label": "先知，女先知",
           "language": "zht"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Promise",
+          "type": "keyterm",
+          "preferred_label": "Promise",
+          "confidence": 0.8049,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "838323",
     "reference_id": 4458,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "預知",
     "media_type": "Text",
     "index_reference": "預知",
@@ -1994,7 +2006,8 @@
           "label": "選舉",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   }
 ]

@@ -2,7 +2,7 @@
   {
     "content_id": "800774",
     "reference_id": 6363,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "一神論",
     "media_type": "Text",
     "index_reference": "一神論",
@@ -140,13 +140,14 @@
           "label": "神的存在與屬性",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "826013",
     "reference_id": 4107,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "伊甸",
     "media_type": "Text",
     "index_reference": "伊甸",
@@ -180,13 +181,14 @@
           "end_ref_usfm": "GEN 3:24"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "826018",
     "reference_id": 4534,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "伊甸園",
     "media_type": "Text",
     "index_reference": "伊甸園",
@@ -250,13 +252,14 @@
           "label": "生命樹",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "864922",
     "reference_id": 5529,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "伊突，伊突人",
     "media_type": "Text",
     "index_reference": "伊突，伊突人",
@@ -298,13 +301,14 @@
           "label": "以土利亞（Ituraea），以土利亞（Iturea），以土利亞人",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "340933",
     "reference_id": 3767,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "衣服",
     "media_type": "Text",
     "index_reference": "衣服",
@@ -512,13 +516,22 @@
           "end_ref_usfm": "JHN 19:24"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "realia:Clothing",
+          "type": "realia",
+          "preferred_label": "Clothing",
+          "confidence": 0.9286,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "340985",
     "reference_id": 6897,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "醫生",
     "media_type": "Text",
     "index_reference": "醫生",
@@ -596,13 +609,14 @@
           "label": "醫學與醫療實踐",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "574029",
     "reference_id": 6179,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "醫學與醫療實踐",
     "media_type": "Text",
     "index_reference": "醫學與醫療實踐",
@@ -795,13 +809,14 @@
           "label": "醫生",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "340951",
     "reference_id": 4915,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "醫治、醫病",
     "media_type": "Text",
     "index_reference": "醫治、醫病",
@@ -1213,13 +1228,14 @@
           "end_ref_usfm": "ACT 20:10"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "853319",
     "reference_id": 4091,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "以巴錄",
     "media_type": "Text",
     "index_reference": "以巴錄",
@@ -1253,13 +1269,14 @@
           "end_ref_usfm": "1CH 1:40"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "573988",
     "reference_id": 4278,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "以法大",
     "media_type": "Text",
     "index_reference": "以法大",
@@ -1275,13 +1292,14 @@
           "end_ref_usfm": "MRK 7:34"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "826014",
     "reference_id": 4273,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "以弗所書",
     "media_type": "Text",
     "index_reference": "以弗所書",
@@ -1755,13 +1773,14 @@
           "label": "使徒保羅",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "853329",
     "reference_id": 4204,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "以拉撒",
     "media_type": "Text",
     "index_reference": "以拉撒",
@@ -1783,13 +1802,64 @@
           "end_ref_usfm": "GEN 14:9"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Amraphel",
+          "type": "person",
+          "preferred_label": "Amraphel",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Arioch",
+          "type": "person",
+          "preferred_label": "Arioch",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Goiim",
+          "type": "group",
+          "preferred_label": "Goiim",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tidal",
+          "type": "person",
+          "preferred_label": "Tidal",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Chedorlaomer",
+          "type": "person",
+          "preferred_label": "Chedorlaomer",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Ellasar",
+          "type": "place",
+          "preferred_label": "Ellasar",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Elam",
+          "type": "place",
+          "preferred_label": "Elam",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "838326",
     "reference_id": 5212,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "以拿",
     "media_type": "Text",
     "index_reference": "以拿",
@@ -1805,13 +1875,50 @@
           "end_ref_usfm": "GEN 4:18"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Lamech",
+          "type": "person",
+          "preferred_label": "Lamech",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mehujael",
+          "type": "person",
+          "preferred_label": "Mehujael",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Irad",
+          "type": "person",
+          "preferred_label": "Irad",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Methushael",
+          "type": "person",
+          "preferred_label": "Methushael",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Enoch",
+          "type": "person",
+          "preferred_label": "Enoch",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "838320",
     "reference_id": 4258,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "以挪士",
     "media_type": "Text",
     "index_reference": "以挪士",
@@ -1845,13 +1952,22 @@
           "end_ref_usfm": "GEN 5:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Enosh",
+          "type": "person",
+          "preferred_label": "Enosh",
+          "confidence": 0.5056,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "838319",
     "reference_id": 4257,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "以諾（地點）",
     "media_type": "Text",
     "index_reference": "以諾（地點）",
@@ -1867,13 +1983,22 @@
           "end_ref_usfm": "GEN 4:17"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Enoch",
+          "type": "person",
+          "preferred_label": "Enoch",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "838318",
     "reference_id": 4256,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "以諾（人物）",
     "media_type": "Text",
     "index_reference": "以諾（人物）",
@@ -1907,13 +2032,14 @@
           "end_ref_usfm": "GEN 5:24"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "864916",
     "reference_id": 5226,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "以撒",
     "media_type": "Text",
     "index_reference": "以撒",
@@ -2057,13 +2183,14 @@
           "label": "族長時期",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "471327",
     "reference_id": 4416,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "以色列的筵席和節期",
     "media_type": "Text",
     "index_reference": "以色列的筵席和節期",
@@ -2837,13 +2964,14 @@
           "label": "聖殿",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "864918",
     "reference_id": 5261,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "以色列人",
     "media_type": "Text",
     "index_reference": "以色列人",
@@ -2880,13 +3008,36 @@
           "label": "猶太教",
           "language": "zht"
         }
+      ],
+      "acai": [
+        {
+          "id": "group:Israel",
+          "type": "group",
+          "preferred_label": "Israelites",
+          "confidence": 0.8642,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Israel",
+          "type": "person",
+          "preferred_label": "Israel",
+          "confidence": 0.8191,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Israel",
+          "type": "place",
+          "preferred_label": "Israel",
+          "confidence": 0.8191,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "853336",
     "reference_id": 4316,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "以實各（人物）",
     "media_type": "Text",
     "index_reference": "以實各（人物）",
@@ -2908,13 +3059,29 @@
           "end_ref_usfm": "GEN 14:24"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Eshcol",
+          "type": "person",
+          "preferred_label": "Eshcol",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Aner",
+          "type": "person",
+          "preferred_label": "Aner",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "864919",
     "reference_id": 5285,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "以土利亞（Ituraea），以土利亞（Iturea），以土利亞人",
     "media_type": "Text",
     "index_reference": "以土利亞（Ituraea），以土利亞（Iturea），以土利亞人",
@@ -2942,13 +3109,22 @@
           "end_ref_usfm": "1CH 5:20"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Ituraea",
+          "type": "place",
+          "preferred_label": "Ituraea",
+          "confidence": 0.8,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "853375",
     "reference_id": 5229,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "亦迦",
     "media_type": "Text",
     "index_reference": "亦迦",
@@ -2964,13 +3140,43 @@
           "end_ref_usfm": "GEN 11:29"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Iscah",
+          "type": "person",
+          "preferred_label": "Iscah",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Milcah",
+          "type": "person",
+          "preferred_label": "Milcah",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Sarah",
+          "type": "person",
+          "preferred_label": "Sarah",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Haran",
+          "type": "person",
+          "preferred_label": "Haran",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "615741",
     "reference_id": 6312,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "意念",
     "media_type": "Text",
     "index_reference": "意念",
@@ -3122,7 +3328,8 @@
           "label": "靈魂",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   }
 ]

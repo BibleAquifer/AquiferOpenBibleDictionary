@@ -2,7 +2,7 @@
   {
     "content_id": "732923",
     "reference_id": 4079,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "उकाब",
     "media_type": "Text",
     "index_reference": "उकाब",
@@ -39,13 +39,22 @@
           "label": "उकाब",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Vulture",
+          "type": "fauna",
+          "preferred_label": "Vulture",
+          "confidence": 0.604,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "733148",
     "reference_id": 4890,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "उकाब",
     "media_type": "Text",
     "index_reference": "उकाब",
@@ -83,13 +92,22 @@
           "label": "चील",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Uphaz",
+          "type": "place",
+          "preferred_label": "ऊफाज",
+          "confidence": 0.8271,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "647799",
     "reference_id": 8119,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "उक्काल",
     "media_type": "Text",
     "index_reference": "उक्काल",
@@ -105,13 +123,43 @@
           "end_ref_usfm": "PRO 30:1"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Ucal",
+          "type": "person",
+          "preferred_label": "उक्काल",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jakeh",
+          "type": "person",
+          "preferred_label": "याके",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ithiel.2",
+          "type": "person",
+          "preferred_label": "ईतीएल",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Agur",
+          "type": "person",
+          "preferred_label": "आगूर",
+          "confidence": 0.64,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "649766",
     "reference_id": 8121,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "उगारित",
     "media_type": "Text",
     "index_reference": "उगारित",
@@ -141,13 +189,22 @@
           "label": "शिलालेख",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Isaiah",
+          "type": "person",
+          "preferred_label": "यशायाह",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "733179",
     "reference_id": 5015,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "उच्च परिषद",
     "media_type": "Text",
     "index_reference": "उच्च परिषद",
@@ -164,13 +221,14 @@
           "label": "महासभा ",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "594856",
     "reference_id": 8155,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "उज्जा",
     "media_type": "Text",
     "index_reference": "उज्जा",
@@ -204,13 +262,29 @@
           "end_ref_usfm": "1CH 13:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Uzzah",
+          "type": "person",
+          "preferred_label": "उज्जा",
+          "confidence": 0.8133,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uzzah.2",
+          "type": "person",
+          "preferred_label": "उज्जा",
+          "confidence": 0.6267,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "649775",
     "reference_id": 8156,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "उज्जा",
     "media_type": "Text",
     "index_reference": "उज्जा",
@@ -270,13 +344,50 @@
           "label": "उज्जा",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Uzzah",
+          "type": "person",
+          "preferred_label": "उज्जा",
+          "confidence": 0.7455,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Uzza",
+          "type": "place",
+          "preferred_label": "उज्जा",
+          "confidence": 0.6727,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uzza.2",
+          "type": "person",
+          "preferred_label": "उज्जा",
+          "confidence": 0.6727,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uzza",
+          "type": "person",
+          "preferred_label": "उज्जा",
+          "confidence": 0.6364,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uzzah.2",
+          "type": "person",
+          "preferred_label": "उज्जा",
+          "confidence": 0.6364,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "647800",
     "reference_id": 8158,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "उज्जियाह",
     "media_type": "Text",
     "index_reference": "उज्जियाह",
@@ -394,13 +505,50 @@
           "end_ref_usfm": "2CH 27:8"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Uzziah",
+          "type": "person",
+          "preferred_label": "उज्जियाह",
+          "confidence": 0.76,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uzziah.5",
+          "type": "person",
+          "preferred_label": "उज्जियाह",
+          "confidence": 0.6089,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uzziah.3",
+          "type": "person",
+          "preferred_label": "उज्जियाह",
+          "confidence": 0.6089,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uzziah.4",
+          "type": "person",
+          "preferred_label": "उज्जियाह",
+          "confidence": 0.6089,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uzziah.2",
+          "type": "person",
+          "preferred_label": "उज्जियाह",
+          "confidence": 0.6089,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "649777",
     "reference_id": 8159,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "उज्जियाह",
     "media_type": "Text",
     "index_reference": "उज्जियाह",
@@ -416,13 +564,64 @@
           "end_ref_usfm": "1CH 11:44"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Uzzia",
+          "type": "person",
+          "preferred_label": "उज्जियाह",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hotham.2",
+          "type": "person",
+          "preferred_label": "होताम",
+          "confidence": 0.757,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jeiel.3",
+          "type": "person",
+          "preferred_label": "यीएल",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Ashtaroth",
+          "type": "group",
+          "preferred_label": "अश्तारोती",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shama",
+          "type": "person",
+          "preferred_label": "शामा",
+          "confidence": 0.631,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Aroer",
+          "type": "group",
+          "preferred_label": "अरोएरी",
+          "confidence": 0.6175,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Ashtaroth",
+          "type": "place",
+          "preferred_label": "अश्तारोत",
+          "confidence": 0.5305,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "649778",
     "reference_id": 8161,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "उज्जी",
     "media_type": "Text",
     "index_reference": "उज्जी",
@@ -486,13 +685,71 @@
           "end_ref_usfm": "1CH 7:3"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Uzzi",
+          "type": "person",
+          "preferred_label": "उज्जी",
+          "confidence": 0.7455,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uzzi.2",
+          "type": "person",
+          "preferred_label": "उज्जी",
+          "confidence": 0.6727,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uzzi.3",
+          "type": "person",
+          "preferred_label": "उज्जी",
+          "confidence": 0.6364,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uzzi.4",
+          "type": "person",
+          "preferred_label": "उज्जी",
+          "confidence": 0.6364,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uzzi.5",
+          "type": "person",
+          "preferred_label": "उज्जी",
+          "confidence": 0.6364,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uzziel.3",
+          "type": "person",
+          "preferred_label": "उज्जीएल",
+          "confidence": 0.6364,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uzzi.7",
+          "type": "person",
+          "preferred_label": "उज्जी",
+          "confidence": 0.6364,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uzzi.6",
+          "type": "person",
+          "preferred_label": "उज्जी",
+          "confidence": 0.6364,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "578944",
     "reference_id": 8160,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "उज्जीएल",
     "media_type": "Text",
     "index_reference": "उज्जीएल",
@@ -598,13 +855,71 @@
           "end_ref_usfm": "NEH 3:8"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Uzziel",
+          "type": "person",
+          "preferred_label": "उज्जीएल",
+          "confidence": 0.825,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uzziel.4",
+          "type": "person",
+          "preferred_label": "उज्जीएल",
+          "confidence": 0.65,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Uzziel",
+          "type": "group",
+          "preferred_label": "उज्जीएलियों",
+          "confidence": 0.65,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uzzi.3",
+          "type": "person",
+          "preferred_label": "उज्जी",
+          "confidence": 0.625,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uzziel.3",
+          "type": "person",
+          "preferred_label": "उज्जीएल",
+          "confidence": 0.625,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uzziel.6",
+          "type": "person",
+          "preferred_label": "उज्जीएल",
+          "confidence": 0.625,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uzziel.5",
+          "type": "person",
+          "preferred_label": "उज्जीएल",
+          "confidence": 0.625,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uzziel.2",
+          "type": "person",
+          "preferred_label": "उज्जीएल",
+          "confidence": 0.625,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "649776",
     "reference_id": 8157,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "उज्जेनशेरा",
     "media_type": "Text",
     "index_reference": "उज्जेनशेरा",
@@ -620,13 +935,36 @@
           "end_ref_usfm": "1CH 7:24"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Uzzen-sheerah",
+          "type": "place",
+          "preferred_label": "उज्जेनशेरा",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Sheerah",
+          "type": "person",
+          "preferred_label": "शेरा",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Beth-horonUpper",
+          "type": "place",
+          "preferred_label": "Upper Beth-horon",
+          "confidence": 0.6445,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "733587",
     "reference_id": 6596,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "उत्तर, उत्तर देश",
     "media_type": "Text",
     "index_reference": "उत्तर, उत्तर देश",
@@ -635,13 +973,14 @@
     "content": "<h1>उत्तर, उत्तर देश</h1><p>दक्षिण के विपरीत दिशा में एक मुख्य बिंदु, जिसे अक्सर &quot;अंधकार&quot; के अर्थ में समझा जाता है, शायद इसलिए क्योंकि उत्तर दिशा अक्सर छाया में होता है। बाइबल साहित्य में, विशेष रूप से यहोशू और यहेजकेल की पुस्तकों में, “उत्तर” शब्द का प्रयोग अक्सर दिशा को निर्दिष्ट करने के लिए किया जाता है, चाहे वह गोत्रों की सीमाओं की हो या मन्दिर की।</p><p>यिर्मयाह, यहेजकेल, दानिय्येल और जकर्याह की भविष्यवाणियों में उत्तर दिशा से आने वाले शत्रु का कम से कम 40 बार उल्लेख किया गया है। बँधुआई के समय (यिर्मयाह और यहेजकेल) में, यह उन आक्रमणकारियों को संदर्भित करता है जो पूर्व से आए, सीरियाई रेगिस्तान के उत्तर में पश्चिम की ओर बढ़े, और फिर उत्तर से यहूदा पर आक्रमण करने के लिए दक्षिण की ओर मुड़ गए। इसलिए, उन्हें “उत्तरी देश” से आक्रमण करने वाला माना जाता था; यह उत्तरार्द्ध वाक्यांश यिर्मयाह और जकर्याह में कम से कम 10 बार आता है।</p><p>यरूशलेम केवल उत्तर से ही असुरक्षित है। देश की स्थलाकृति ऐसी है कि इतिहास में शायद ही कभी किसी आक्रमणकारी ने पवित्र नगर पर उत्तरी दिशा के अलावा किसी अन्य दिशा से विजय प्राप्त की हो। नगर की रक्षा अन्य तीनों ओर गहरी घाटियों द्वारा की जाती थी। बाइबल के समय में केवल मिस्रियों और पलिश्तियों ने ही यरूशलेम को पश्चिम से ख़तरा पैदा किया था; यहाँ तक कि शाऊल के समय में पलिश्तियों को भी यरूशलेम के उत्तरी क्षेत्रों में ही सफलता मिली थी। दानिय्येल में &quot;उत्तर का राजा&quot; निस्संदेह सीरियाई सेनाओं को संदर्भित करता है, जो &quot;दक्षिण के राजा&quot; (मिस्र) के साथ प्राणघातक युद्ध में हैं।</p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "184925",
     "reference_id": 4582,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "उत्पत्ति की पुस्तक",
     "media_type": "Text",
     "index_reference": "उत्पत्ति की पुस्तक",
@@ -1588,13 +1927,43 @@
           "label": "कुलपितायों का युग",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "group:Kittim",
+          "type": "group",
+          "preferred_label": "कित्ती",
+          "confidence": 0.6005,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Succoth",
+          "type": "place",
+          "preferred_label": "सुक्कोत",
+          "confidence": 0.6005,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Put",
+          "type": "person",
+          "preferred_label": "पूत",
+          "confidence": 0.6005,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Pathrusim",
+          "type": "group",
+          "preferred_label": "पत्रूसी",
+          "confidence": 0.5105,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "184986",
     "reference_id": 6839,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "उत्पीड़न",
     "media_type": "Text",
     "index_reference": "उत्पीड़न",
@@ -2069,13 +2438,14 @@
           "label": "क्लेश",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "732907",
     "reference_id": 4049,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "उदास प्राणी",
     "media_type": "Text",
     "index_reference": "उदास प्राणी",
@@ -2099,13 +2469,22 @@
           "label": "पक्षी",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Owl",
+          "type": "fauna",
+          "preferred_label": "Owl",
+          "confidence": 0.5995,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "647199",
     "reference_id": 6664,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "उनेसिफुरूस",
     "media_type": "Text",
     "index_reference": "उनेसिफुरूस",
@@ -2127,13 +2506,29 @@
           "end_ref_usfm": "2TI 4:19"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Onesiphorus",
+          "type": "person",
+          "preferred_label": "उनेसिफुरूस",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Priscilla",
+          "type": "person",
+          "preferred_label": "प्रिस्किल्ला",
+          "confidence": 0.6155,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "647198",
     "reference_id": 6663,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "उनेसिमुस",
     "media_type": "Text",
     "index_reference": "उनेसिमुस",
@@ -2163,13 +2558,22 @@
           "label": "को पत्री, फिलेमोन",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Onesimus",
+          "type": "person",
+          "preferred_label": "उनेसिमुस",
+          "confidence": 1.0,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "649770",
     "reference_id": 8133,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "उन्नी",
     "media_type": "Text",
     "index_reference": "उन्नी",
@@ -2199,13 +2603,43 @@
           "label": "उन्नो ",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Unni",
+          "type": "person",
+          "preferred_label": "उन्नी",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Unni.2",
+          "type": "person",
+          "preferred_label": "उन्नी",
+          "confidence": 0.7,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Benaiah.4",
+          "type": "person",
+          "preferred_label": "बनायाह",
+          "confidence": 0.53,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ben",
+          "type": "person",
+          "preferred_label": "बेन",
+          "confidence": 0.5065,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "734065",
     "reference_id": 8134,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "उन्नो",
     "media_type": "Text",
     "index_reference": "उन्नो",
@@ -2221,13 +2655,29 @@
           "end_ref_usfm": "NEH 12:9"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Unni.2",
+          "type": "person",
+          "preferred_label": "उन्नी",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Bakbukiah",
+          "type": "person",
+          "preferred_label": "बकबुक्याह",
+          "confidence": 0.6175,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "381081",
     "reference_id": 4372,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "उपदेश",
     "media_type": "Text",
     "index_reference": "उपदेश",
@@ -2299,13 +2749,14 @@
           "label": "आत्मिक वरदान ",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "381402",
     "reference_id": 3793,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "उपपत्नीत्व, उपपत्नियाँ",
     "media_type": "Text",
     "index_reference": "उपपत्नीत्व, उपपत्नियाँ",
@@ -2474,13 +2925,22 @@
           "label": "विवाह, विवाह की प्रथाएँ",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "group:Benjamin",
+          "type": "group",
+          "preferred_label": "बिन्यामीन",
+          "confidence": 0.5147,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "594524",
     "reference_id": 4407,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "उपवास",
     "media_type": "Text",
     "index_reference": "उपवास",
@@ -2684,13 +3144,14 @@
           "label": "प्रार्थना",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "594840",
     "reference_id": 7866,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "उपस्थिति की रोटी",
     "media_type": "Text",
     "index_reference": "उपस्थिति की रोटी",
@@ -2706,13 +3167,14 @@
           "end_ref_usfm": "EXO 25:30"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "734066",
     "reference_id": 8136,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "उफ़ार्सिन",
     "media_type": "Text",
     "index_reference": "उफ़ार्सिन",
@@ -2736,13 +3198,14 @@
           "label": "मने, मने, तकेल, ऊपर्सीन",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "649769",
     "reference_id": 8126,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "उम्मा",
     "media_type": "Text",
     "index_reference": "उम्मा",
@@ -2758,13 +3221,36 @@
           "end_ref_usfm": "JOS 19:30"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Ummah",
+          "type": "place",
+          "preferred_label": "उम्मा",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Aphek.2",
+          "type": "place",
+          "preferred_label": "Aphek",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Rehob.3",
+          "type": "place",
+          "preferred_label": "रहोब",
+          "confidence": 0.5125,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "647231",
     "reference_id": 8140,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "उरबानुस",
     "media_type": "Text",
     "index_reference": "उरबानुस",
@@ -2780,13 +3266,36 @@
           "end_ref_usfm": "ROM 16:9"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Urbanus",
+          "type": "person",
+          "preferred_label": "उरबानुस",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Stachys",
+          "type": "person",
+          "preferred_label": "इस्तखुस",
+          "confidence": 0.7435,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Beloved",
+          "type": "keyterm",
+          "preferred_label": "Beloved",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "620823",
     "reference_id": 8142,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "उरियास",
     "media_type": "Text",
     "index_reference": "उरियास",
@@ -2810,13 +3319,43 @@
           "label": "ऊरिय्याह",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Uriah",
+          "type": "person",
+          "preferred_label": "ऊरिय्याह",
+          "confidence": 0.8515,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Solomon",
+          "type": "person",
+          "preferred_label": "सुलैमान",
+          "confidence": 0.757,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:David",
+          "type": "person",
+          "preferred_label": "दाऊद",
+          "confidence": 0.64,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jesse",
+          "type": "person",
+          "preferred_label": "यिशै",
+          "confidence": 0.625,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "734068",
     "reference_id": 8144,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "उरियाह",
     "media_type": "Text",
     "index_reference": "उरियाह",
@@ -2833,13 +3372,50 @@
           "label": "ऊरिय्याह",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Uriah",
+          "type": "person",
+          "preferred_label": "ऊरिय्याह",
+          "confidence": 0.894,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Uriah.2",
+          "type": "person",
+          "preferred_label": "ऊरिय्याह",
+          "confidence": 0.894,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Uriah.3",
+          "type": "person",
+          "preferred_label": "ऊरिय्याह",
+          "confidence": 0.894,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Uriah.4",
+          "type": "person",
+          "preferred_label": "ऊरिय्याह",
+          "confidence": 0.894,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Uriah.5",
+          "type": "person",
+          "preferred_label": "ऊरिय्याह",
+          "confidence": 0.894,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "733005",
     "reference_id": 4420,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "उर्वरता के पंथ",
     "media_type": "Text",
     "index_reference": "उर्वरता के पंथ",
@@ -2856,13 +3432,14 @@
           "label": "कनानी देवता और धर्म",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "647197",
     "reference_id": 6651,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "उलुम्पास",
     "media_type": "Text",
     "index_reference": "उलुम्पास",
@@ -2878,13 +3455,43 @@
           "end_ref_usfm": "ROM 16:15"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Olympas",
+          "type": "person",
+          "preferred_label": "उलुम्पास",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nereus",
+          "type": "person",
+          "preferred_label": "नेर्युस",
+          "confidence": 0.7885,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Philologus",
+          "type": "person",
+          "preferred_label": "फिलुलुगुस",
+          "confidence": 0.7885,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Julia",
+          "type": "person",
+          "preferred_label": "यूलिया",
+          "confidence": 0.631,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "734050",
     "reference_id": 8089,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "उल्लंघन",
     "media_type": "Text",
     "index_reference": "उल्लंघन",
@@ -2914,13 +3521,14 @@
           "label": "पाप",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "649768",
     "reference_id": 8125,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "उल्ला",
     "media_type": "Text",
     "index_reference": "उल्ला",
@@ -2936,13 +3544,43 @@
           "end_ref_usfm": "1CH 7:39"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Shual",
+          "type": "person",
+          "preferred_label": "शूआल",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hanniel.2",
+          "type": "person",
+          "preferred_label": "हन्नीएल",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rizia",
+          "type": "person",
+          "preferred_label": "रिस्या",
+          "confidence": 0.649,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Arah",
+          "type": "person",
+          "preferred_label": "आरह",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "733624",
     "reference_id": 6706,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "उल्लू",
     "media_type": "Text",
     "index_reference": "उल्लू",
@@ -2993,13 +3631,29 @@
           "label": "उल्लू",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:TawnyOwl",
+          "type": "fauna",
+          "preferred_label": "Tawny Owl",
+          "confidence": 0.6175,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Owl.2",
+          "type": "fauna",
+          "preferred_label": "Owl",
+          "confidence": 0.613,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "733824",
     "reference_id": 7339,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "उल्लू",
     "media_type": "Text",
     "index_reference": "उल्लू",
@@ -3008,7 +3662,30 @@
     "content": "<h1><span>उल्लू (</span>चीख़ने वाला उल्लू)</h1><p><em>देखें</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3418\" data-resourceType=\"TyndaleBibleDictionary\">पक्षी (उल्लू, खलिहान का उल्लू, स्कोप्स)</span><span>।</span></p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Sallu",
+          "type": "person",
+          "preferred_label": "सल्लू",
+          "confidence": 0.8727,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Sallu.2",
+          "type": "person",
+          "preferred_label": "सल्लू",
+          "confidence": 0.8727,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Sallu.3",
+          "type": "person",
+          "preferred_label": "सल्लू",
+          "confidence": 0.8727,
+          "match_method": "embedding"
+        }
+      ]
     }
   }
 ]

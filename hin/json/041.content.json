@@ -2,7 +2,7 @@
   {
     "content_id": "381903",
     "reference_id": 8075,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "त्रखोनीतिस, त्राकोनिटिस",
     "media_type": "Text",
     "index_reference": "त्रखोनीतिस, त्राकोनिटिस",
@@ -24,13 +24,64 @@
           "end_ref_usfm": "LUK 3:1"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Trachonitis",
+          "type": "place",
+          "preferred_label": "त्रखोनीतिस",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Gether",
+          "type": "person",
+          "preferred_label": "गेतेर",
+          "confidence": 0.6875,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tiberius",
+          "type": "person",
+          "preferred_label": "तिबिरियुस",
+          "confidence": 0.6695,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Augustus",
+          "type": "person",
+          "preferred_label": "औगुस्तुस",
+          "confidence": 0.6515,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Lysanias",
+          "type": "person",
+          "preferred_label": "लिसानियास",
+          "confidence": 0.62,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Ituraea",
+          "type": "place",
+          "preferred_label": "इतूरैया",
+          "confidence": 0.53,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Philip.3",
+          "type": "person",
+          "preferred_label": "फिलिप्पुस",
+          "confidence": 0.521,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "620820",
     "reference_id": 8096,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "त्रिएक्ता",
     "media_type": "Text",
     "index_reference": "त्रिएक्ता",
@@ -139,13 +190,14 @@
           "label": "आत्मा",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "647227",
     "reference_id": 8094,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "त्रिकोणमिति (ट्राइकोटोमी)",
     "media_type": "Text",
     "index_reference": "त्रिकोणमिति (ट्राइकोटोमी)",
@@ -169,13 +221,22 @@
           "label": "मनुष्य",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Blameless",
+          "type": "keyterm",
+          "preferred_label": "Be Blameless",
+          "confidence": 0.6175,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "381261",
     "reference_id": 8100,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "त्रुफिमुस",
     "media_type": "Text",
     "index_reference": "त्रुफिमुस",
@@ -209,13 +270,43 @@
           "end_ref_usfm": "2CO 8:24"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Trophimus",
+          "type": "person",
+          "preferred_label": "त्रुफिमुस",
+          "confidence": 0.7,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Miletus",
+          "type": "place",
+          "preferred_label": "मीलेतुस",
+          "confidence": 0.5568,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Pyrrhus",
+          "type": "person",
+          "preferred_label": "पुरूर्स",
+          "confidence": 0.5208,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Titus",
+          "type": "person",
+          "preferred_label": "तीतुस",
+          "confidence": 0.5167,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "647228",
     "reference_id": 8104,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "त्रूफैना, त्रूफोसा",
     "media_type": "Text",
     "index_reference": "त्रूफैना, त्रूफोसा",
@@ -239,13 +330,36 @@
           "label": "सेवक, सेविका",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Tryphosa",
+          "type": "person",
+          "preferred_label": "त्रूफोसा",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tryphaena",
+          "type": "person",
+          "preferred_label": "त्रूफैना",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Persis",
+          "type": "person",
+          "preferred_label": "पिरसिस",
+          "confidence": 0.7885,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "647229",
     "reference_id": 8105,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "त्रूफोसा",
     "media_type": "Text",
     "index_reference": "त्रूफोसा",
@@ -269,13 +383,36 @@
           "label": "सेवक, सेविका",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Tryphosa",
+          "type": "person",
+          "preferred_label": "त्रूफोसा",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tryphaena",
+          "type": "person",
+          "preferred_label": "त्रूफैना",
+          "confidence": 0.937,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Persis",
+          "type": "person",
+          "preferred_label": "पिरसिस",
+          "confidence": 0.829,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "381259",
     "reference_id": 8098,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "त्रोआस",
     "media_type": "Text",
     "index_reference": "त्रोआस",
@@ -321,13 +458,22 @@
           "end_ref_usfm": "ACT 20:12"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Troas",
+          "type": "place",
+          "preferred_label": "त्रोआस",
+          "confidence": 0.5833,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "381260",
     "reference_id": 8099,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "त्रोगिलियम",
     "media_type": "Text",
     "index_reference": "त्रोगिलियम",
@@ -343,7 +489,30 @@
           "end_ref_usfm": "ACT 20:15"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Miletus",
+          "type": "place",
+          "preferred_label": "मीलेतुस",
+          "confidence": 0.8695,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Chios",
+          "type": "place",
+          "preferred_label": "खियुस",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Samos",
+          "type": "place",
+          "preferred_label": "सामुस",
+          "confidence": 0.6895,
+          "match_method": "scored"
+        }
+      ]
     }
   }
 ]

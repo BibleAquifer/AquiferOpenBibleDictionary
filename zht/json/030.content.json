@@ -2,7 +2,7 @@
   {
     "content_id": "471357",
     "reference_id": 8219,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "度量衡",
     "media_type": "Text",
     "index_reference": "度量衡",
@@ -390,13 +390,14 @@
           "end_ref_usfm": "LEV 14:24"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "864895",
     "reference_id": 4071,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "度瑪（人物）",
     "media_type": "Text",
     "index_reference": "度瑪（人物）",
@@ -418,7 +419,30 @@
           "end_ref_usfm": "1CH 1:30"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Mishma",
+          "type": "person",
+          "preferred_label": "Mishma",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Dumah",
+          "type": "person",
+          "preferred_label": "Dumah",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Massa",
+          "type": "person",
+          "preferred_label": "Massa",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   }
 ]

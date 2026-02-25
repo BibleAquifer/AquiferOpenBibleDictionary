@@ -2,7 +2,7 @@
   {
     "content_id": "340962",
     "reference_id": 5583,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "施洗約翰",
     "media_type": "Text",
     "index_reference": "施洗約翰",
@@ -588,13 +588,14 @@
           "end_ref_usfm": "ACT 19:7"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "864968",
     "reference_id": 7009,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "詩篇",
     "media_type": "Text",
     "index_reference": "詩篇",
@@ -2231,13 +2232,14 @@
           "label": "會幕",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "864990",
     "reference_id": 213118,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "十二族長遺訓",
     "media_type": "Text",
     "index_reference": "十二族長遺訓",
@@ -2274,13 +2276,14 @@
           "label": "利未（人名）",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "340945",
     "reference_id": 4454,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "食物和食物準備",
     "media_type": "Text",
     "index_reference": "食物和食物準備",
@@ -2939,13 +2942,14 @@
           "label": "聚餐（餐食）的重要性",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "340947",
     "reference_id": 4486,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "時候滿足",
     "media_type": "Text",
     "index_reference": "時候滿足",
@@ -3009,13 +3013,14 @@
           "end_ref_usfm": "EPH 3:5"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "471321",
     "reference_id": 2838,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "使徒、使徒職分",
     "media_type": "Text",
     "index_reference": "使徒、使徒職分",
@@ -3304,13 +3309,14 @@
           "label": "使徒保羅",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "340923",
     "reference_id": 2772,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "使徒安得烈",
     "media_type": "Text",
     "index_reference": "使徒安得烈",
@@ -3496,13 +3502,14 @@
           "label": "使徒、使徒職分",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "471322",
     "reference_id": 3184,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "使徒巴多羅買",
     "media_type": "Text",
     "index_reference": "使徒巴多羅買",
@@ -3556,13 +3563,14 @@
           "label": "使徒、使徒職分",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "315532",
     "reference_id": 6782,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "使徒保羅",
     "media_type": "Text",
     "index_reference": "使徒保羅",
@@ -5228,13 +5236,22 @@
           "end_ref_usfm": "ACT 2:13"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Paul",
+          "type": "person",
+          "preferred_label": "Paul",
+          "confidence": 0.8173,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "340984",
     "reference_id": 6848,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "使徒彼得",
     "media_type": "Text",
     "index_reference": "使徒彼得",
@@ -5874,13 +5891,14 @@
           "end_ref_usfm": "ACT 12:4"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "471352",
     "reference_id": 7969,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "使徒達太",
     "media_type": "Text",
     "index_reference": "使徒達太",
@@ -5922,13 +5940,29 @@
           "label": "使徒、使徒職分",
           "language": "zht"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Judas",
+          "type": "person",
+          "preferred_label": "Judas",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:James.2",
+          "type": "person",
+          "preferred_label": "James",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "471353",
     "reference_id": 7989,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "使徒多馬",
     "media_type": "Text",
     "index_reference": "使徒多馬",
@@ -6000,13 +6034,22 @@
           "label": "使徒、使徒職分",
           "language": "zht"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Thomas",
+          "type": "person",
+          "preferred_label": "Thomas",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "232627",
     "reference_id": 2523,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "使徒行傳, 書",
     "media_type": "Text",
     "index_reference": "使徒行傳, 書",
@@ -6631,13 +6674,14 @@
           "label": "使徒保羅",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "340961",
     "reference_id": 5582,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "使徒約翰",
     "media_type": "Text",
     "index_reference": "使徒約翰",
@@ -6941,13 +6985,43 @@
           "end_ref_usfm": "ACT 5:18"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:John",
+          "type": "person",
+          "preferred_label": "John",
+          "confidence": 0.818,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:John.2",
+          "type": "person",
+          "preferred_label": "John",
+          "confidence": 0.818,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:John.3",
+          "type": "person",
+          "preferred_label": "John",
+          "confidence": 0.818,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:John.4",
+          "type": "person",
+          "preferred_label": "John",
+          "confidence": 0.818,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "340975",
     "reference_id": 6258,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "使者",
     "media_type": "Text",
     "index_reference": "使者",
@@ -7059,13 +7133,14 @@
           "end_ref_usfm": "2CH 36:16"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "573956",
     "reference_id": 2589,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "世代",
     "media_type": "Text",
     "index_reference": "世代",
@@ -7189,13 +7264,14 @@
           "end_ref_usfm": "ECC 12:6"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "574025",
     "reference_id": 6117,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "市場、市集",
     "media_type": "Text",
     "index_reference": "市場、市集",
@@ -7247,13 +7323,14 @@
           "end_ref_usfm": "ACT 17:17"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "615749",
     "reference_id": 7517,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "示瑪(Shema)",
     "media_type": "Text",
     "index_reference": "示瑪(Shema)",
@@ -7295,13 +7372,14 @@
           "label": "申命記",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "864956",
     "reference_id": 6616,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "誓言",
     "media_type": "Text",
     "index_reference": "誓言",
@@ -7468,6 +7546,22 @@
           "resource_code": "TyndaleBibleDictionary",
           "label": "許願、願",
           "language": "zht"
+        }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Promise",
+          "type": "keyterm",
+          "preferred_label": "Promise",
+          "confidence": 0.8999,
+          "match_method": "embedding"
+        },
+        {
+          "id": "keyterm:Oath",
+          "type": "keyterm",
+          "preferred_label": "Oath",
+          "confidence": 0.8382,
+          "match_method": "embedding"
         }
       ]
     }

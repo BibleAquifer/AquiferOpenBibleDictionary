@@ -2,7 +2,7 @@
   {
     "content_id": "800764",
     "reference_id": 4922,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "天",
     "media_type": "Text",
     "index_reference": "天",
@@ -444,13 +444,14 @@
           "end_ref_usfm": "REV 19:4"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "615718",
     "reference_id": 2830,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "天啟",
     "media_type": "Text",
     "index_reference": "天啟",
@@ -610,13 +611,14 @@
           "end_ref_usfm": "GEN 5:24"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "838306",
     "reference_id": 2779,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "天使",
     "media_type": "Text",
     "index_reference": "天使",
@@ -955,13 +957,29 @@
           "label": "撒但",
           "language": "zht"
         }
+      ],
+      "acai": [
+        {
+          "id": "group:Angels",
+          "type": "group",
+          "preferred_label": "Angels",
+          "confidence": 0.849,
+          "match_method": "embedding"
+        },
+        {
+          "id": "deity:Angel",
+          "type": "deity",
+          "preferred_label": "An Angel",
+          "confidence": 0.8085,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "800751",
     "reference_id": 3014,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "天文學",
     "media_type": "Text",
     "index_reference": "天文學",
@@ -1037,7 +1055,8 @@
           "end_ref_usfm": "GEN 1:19"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   }
 ]

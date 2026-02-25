@@ -2,7 +2,7 @@
   {
     "content_id": "443856",
     "reference_id": 5862,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "الضَّحِك",
     "media_type": "Text",
     "index_reference": "الضَّحِك",
@@ -138,13 +138,29 @@
           "end_ref_usfm": "HAB 1:9"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Pi-hahiroth",
+          "type": "place",
+          "preferred_label": "ٱلْحِيروثِ",
+          "confidence": 0.8115,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:HallOfJudgment",
+          "type": "place",
+          "preferred_label": "ٱلْقَضَاءِ",
+          "confidence": 0.8057,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "201529",
     "reference_id": 7921,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "الضريبة، جمع الضرائب",
     "media_type": "Text",
     "index_reference": "الضريبة، جمع الضرائب",
@@ -380,13 +396,14 @@
           "label": "عَشَّار (جامع ضرائب)",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "443647",
     "reference_id": 3804,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "الضَّمِير",
     "media_type": "Text",
     "index_reference": "الضَّمِير",
@@ -480,13 +497,14 @@
           "end_ref_usfm": "1CO 10:33"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "201532",
     "reference_id": 8091,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "الضيقة",
     "media_type": "Text",
     "index_reference": "الضيقة",
@@ -632,13 +650,14 @@
           "label": "معاناة",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "510554",
     "reference_id": 4707,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ضَامِرُ ٱلشَّاكِلَة، الدِّيكُ المُتَبَاهِي",
     "media_type": "Text",
     "index_reference": "ضَامِرُ ٱلشَّاكِلَة، الدِّيكُ المُتَبَاهِي",
@@ -662,13 +681,22 @@
           "label": "الطيور",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Rooster",
+          "type": "fauna",
+          "preferred_label": "Rooster",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "490403",
     "reference_id": 4701,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ضَّبّ",
     "media_type": "Text",
     "index_reference": "ضَّبّ",
@@ -692,13 +720,36 @@
           "label": "الْوَرَل",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Lizard",
+          "type": "fauna",
+          "preferred_label": "Lizard",
+          "confidence": 0.6175,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Mongoose",
+          "type": "fauna",
+          "preferred_label": "Mongoose",
+          "confidence": 0.5995,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Mouse",
+          "type": "fauna",
+          "preferred_label": "Mouse",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "510843",
     "reference_id": 5132,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ضَبْع",
     "media_type": "Text",
     "index_reference": "ضَبْع",
@@ -715,13 +766,127 @@
           "label": "حيوانات",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Zebah",
+          "type": "person",
+          "preferred_label": "زَبَح",
+          "confidence": 0.8861,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Damascus",
+          "type": "place",
+          "preferred_label": "دِمَشْقَ",
+          "confidence": 0.8808,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Dophkah",
+          "type": "place",
+          "preferred_label": "دفْقَةَ",
+          "confidence": 0.8674,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Bozkath",
+          "type": "place",
+          "preferred_label": "بَصْقَة",
+          "confidence": 0.8385,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Humtah",
+          "type": "place",
+          "preferred_label": "حمْطَة",
+          "confidence": 0.8359,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Pekah",
+          "type": "person",
+          "preferred_label": "فَقْح",
+          "confidence": 0.8306,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Rezeph",
+          "type": "place",
+          "preferred_label": "رَصْفَ",
+          "confidence": 0.8245,
+          "match_method": "embedding"
+        },
+        {
+          "id": "deity:Zeus",
+          "type": "deity",
+          "preferred_label": "زَفْسَ",
+          "confidence": 0.8161,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Zaavan",
+          "type": "person",
+          "preferred_label": "زَعْان",
+          "confidence": 0.8132,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Zilpah",
+          "type": "person",
+          "preferred_label": "زِلْفَةَ",
+          "confidence": 0.8076,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Zebidah",
+          "type": "person",
+          "preferred_label": "زَبِيدَة",
+          "confidence": 0.8065,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Zibiah",
+          "type": "person",
+          "preferred_label": "ظَبْيَة",
+          "confidence": 0.8047,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Hasshub",
+          "type": "person",
+          "preferred_label": "حَشّوب",
+          "confidence": 0.8025,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Hasshub.2",
+          "type": "person",
+          "preferred_label": "حَشّوب",
+          "confidence": 0.8025,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Hasshub.3",
+          "type": "person",
+          "preferred_label": "حَشّوب",
+          "confidence": 0.8025,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Hasshub.4",
+          "type": "person",
+          "preferred_label": "حَشّوب",
+          "confidence": 0.8025,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "509421",
     "reference_id": 2798,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ضِدَّ ٱلْمَسِيح",
     "media_type": "Text",
     "index_reference": "ضِدَّ ٱلْمَسِيح",
@@ -797,13 +962,14 @@
           "label": "سمة-خَتْم الله، وسمة الوحش",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "490613",
     "reference_id": 6925,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ضربات على مِصْرَ",
     "media_type": "Text",
     "index_reference": "ضربات على مِصْرَ",
@@ -1112,13 +1278,22 @@
           "label": "طاعون/ وَبَأ/ ضربة",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Egypt",
+          "type": "place",
+          "preferred_label": "مِصْرَ",
+          "confidence": 0.5711,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "335296",
     "reference_id": 4774,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ضريبة نصف الشاقل",
     "media_type": "Text",
     "index_reference": "ضريبة نصف الشاقل",
@@ -1134,13 +1309,14 @@
           "end_ref_usfm": "MAT 17:25"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "490380",
     "reference_id": 4479,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ضفدع",
     "media_type": "Text",
     "index_reference": "ضفدع",
@@ -1188,6 +1364,29 @@
           "resource_code": "Unknown",
           "label": "ضربات على مِصْرَ",
           "language": "arb"
+        }
+      ],
+      "acai": [
+        {
+          "id": "person:Shashak",
+          "type": "person",
+          "preferred_label": "شَاشَق",
+          "confidence": 0.8133,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Nepheg",
+          "type": "person",
+          "preferred_label": "نَافَج",
+          "confidence": 0.802,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Nepheg.2",
+          "type": "person",
+          "preferred_label": "نَافَج",
+          "confidence": 0.802,
+          "match_method": "embedding"
         }
       ]
     }

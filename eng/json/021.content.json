@@ -2,7 +2,7 @@
   {
     "content_id": "8951",
     "reference_id": 8119,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Ucal",
     "media_type": "Text",
     "index_reference": "ucal",
@@ -18,13 +18,50 @@
           "end_ref_usfm": "PRO 30:1"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Ucal",
+          "type": "person",
+          "preferred_label": "Ucal",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Agur",
+          "type": "person",
+          "preferred_label": "Agur",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jakeh",
+          "type": "person",
+          "preferred_label": "Jakeh",
+          "confidence": 0.649,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ithiel.2",
+          "type": "person",
+          "preferred_label": "Ithiel",
+          "confidence": 0.64,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Utterance",
+          "type": "keyterm",
+          "preferred_label": "Utterance",
+          "confidence": 0.58,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "8952",
     "reference_id": 8120,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Uel",
     "media_type": "Text",
     "index_reference": "uel",
@@ -40,13 +77,43 @@
           "end_ref_usfm": "EZR 10:34"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Uel",
+          "type": "person",
+          "preferred_label": "Uel",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Amram.2",
+          "type": "person",
+          "preferred_label": "Amram",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Maadai",
+          "type": "person",
+          "preferred_label": "Maadai",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Bani.5",
+          "type": "person",
+          "preferred_label": "Bani",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "8953",
     "reference_id": 8121,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Ugarit",
     "media_type": "Text",
     "index_reference": "ugarit",
@@ -76,13 +143,36 @@
           "label": "Inscriptions",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "flora:Fig",
+          "type": "flora",
+          "preferred_label": "Fig",
+          "confidence": 0.5935,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Isaiah",
+          "type": "person",
+          "preferred_label": "Isaiah",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:FigCake",
+          "type": "realia",
+          "preferred_label": "Fig Cake",
+          "confidence": 0.5305,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "8954",
     "reference_id": 8122,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Ulai",
     "media_type": "Text",
     "index_reference": "ulai",
@@ -98,13 +188,22 @@
           "end_ref_usfm": "DAN 8:16"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Ulai",
+          "type": "place",
+          "preferred_label": "Ulai",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
+      ]
     }
   },
   {
     "content_id": "8955",
     "reference_id": 8123,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Ulam",
     "media_type": "Text",
     "index_reference": "ulam",
@@ -126,13 +225,29 @@
           "end_ref_usfm": "1CH 8:40"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Ulam.2",
+          "type": "person",
+          "preferred_label": "Ulam",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Ulam",
+          "type": "person",
+          "preferred_label": "Ulam",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
+      ]
     }
   },
   {
     "content_id": "8956",
     "reference_id": 8124,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Ulcer",
     "media_type": "Text",
     "index_reference": "ulcer",
@@ -149,13 +264,14 @@
           "label": "Sore",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "8957",
     "reference_id": 8125,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Ulla",
     "media_type": "Text",
     "index_reference": "ulla",
@@ -171,13 +287,43 @@
           "end_ref_usfm": "1CH 7:39"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Shual",
+          "type": "person",
+          "preferred_label": "Shual",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Arah",
+          "type": "person",
+          "preferred_label": "Arah",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rizia",
+          "type": "person",
+          "preferred_label": "Rizia",
+          "confidence": 0.649,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hanniel.2",
+          "type": "person",
+          "preferred_label": "Hanniel",
+          "confidence": 0.64,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "8958",
     "reference_id": 8126,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Ummah",
     "media_type": "Text",
     "index_reference": "ummah",
@@ -193,13 +339,29 @@
           "end_ref_usfm": "JOS 19:30"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Ummah",
+          "type": "place",
+          "preferred_label": "Ummah",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "place:Aphek.2",
+          "type": "place",
+          "preferred_label": "Aphek",
+          "confidence": 0.73,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "8959",
     "reference_id": 8127,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Uncircumcision",
     "media_type": "Text",
     "index_reference": "uncircumcision",
@@ -289,13 +451,22 @@
           "label": "Circumcision",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Circumcision",
+          "type": "keyterm",
+          "preferred_label": "Circumcision",
+          "confidence": 0.8307,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "8960",
     "reference_id": 8128,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Unclean, Uncleanness",
     "media_type": "Text",
     "index_reference": "unclean, uncleanness",
@@ -312,13 +483,14 @@
           "label": "Cleanness and Uncleanness, Regulations Concerning",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "8961",
     "reference_id": 8129,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Unforgivable Sin",
     "media_type": "Text",
     "index_reference": "unforgivable sin",
@@ -335,13 +507,14 @@
           "label": "Unpardonable Sin, the",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "8962",
     "reference_id": 8130,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Unicorn",
     "media_type": "Text",
     "index_reference": "unicorn",
@@ -371,13 +544,22 @@
           "label": "Wild Ox",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:WildOx",
+          "type": "fauna",
+          "preferred_label": "Wild Ox",
+          "confidence": 0.775,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "8964",
     "reference_id": 8132,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Unleavened Bread",
     "media_type": "Text",
     "index_reference": "unleavened bread",
@@ -451,13 +633,22 @@
           "label": "Leaven",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:UnleavenedBread",
+          "type": "realia",
+          "preferred_label": "Unleavened Bread",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "8963",
     "reference_id": 8131,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Unleavened Bread, Festival of",
     "media_type": "Text",
     "index_reference": "unleavened bread, festival of",
@@ -474,13 +665,22 @@
           "label": "Feasts and Festivals of Israel",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:UnleavenedBread",
+          "type": "realia",
+          "preferred_label": "Unleavened Bread",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "8965",
     "reference_id": 8133,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Unni",
     "media_type": "Text",
     "index_reference": "unni",
@@ -510,13 +710,36 @@
           "label": "Unno",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Unni.2",
+          "type": "person",
+          "preferred_label": "Unni",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Unni",
+          "type": "person",
+          "preferred_label": "Unni",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Benaiah.4",
+          "type": "person",
+          "preferred_label": "Benaiah",
+          "confidence": 0.512,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "8966",
     "reference_id": 8134,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Unno",
     "media_type": "Text",
     "index_reference": "unno",
@@ -532,13 +755,29 @@
           "end_ref_usfm": "NEH 12:9"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Unni.2",
+          "type": "person",
+          "preferred_label": "Unni",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Bakbukiah",
+          "type": "person",
+          "preferred_label": "Bakbukiah",
+          "confidence": 0.6175,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "8967",
     "reference_id": 8135,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Unpardonable Sin, the",
     "media_type": "Text",
     "index_reference": "unpardonable sin, the",
@@ -695,13 +934,14 @@
           "label": "Sin unto Death",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "8968",
     "reference_id": 8136,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Upharsin",
     "media_type": "Text",
     "index_reference": "upharsin",
@@ -725,13 +965,22 @@
           "label": "Mene, Mene, Tekel, Parsin",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Mina",
+          "type": "realia",
+          "preferred_label": "Mina",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "8969",
     "reference_id": 8137,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Uphaz",
     "media_type": "Text",
     "index_reference": "uphaz",
@@ -761,13 +1010,22 @@
           "label": "Ophir (Place)",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Uphaz",
+          "type": "place",
+          "preferred_label": "Uphaz",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "8970",
     "reference_id": 8138,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Upper Gate",
     "media_type": "Text",
     "index_reference": "upper gate",
@@ -801,13 +1059,29 @@
           "end_ref_usfm": "EZK 9:2"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "LORD",
+          "confidence": 0.525,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:House",
+          "type": "realia",
+          "preferred_label": "House",
+          "confidence": 0.525,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "8971",
     "reference_id": 8139,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Upper Room",
     "media_type": "Text",
     "index_reference": "upper room",
@@ -886,13 +1160,22 @@
           "label": "Homes and Dwellings",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:UpstairsRoom",
+          "type": "realia",
+          "preferred_label": "Upstairs Room",
+          "confidence": 0.5703,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "8979",
     "reference_id": 8147,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Ur (Person)",
     "media_type": "Text",
     "index_reference": "ur (person)",
@@ -914,13 +1197,22 @@
           "end_ref_usfm": "1CH 11:35"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Ur",
+          "type": "person",
+          "preferred_label": "Ur",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
+      ]
     }
   },
   {
     "content_id": "8980",
     "reference_id": 8148,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Ur (Place)",
     "media_type": "Text",
     "index_reference": "ur (place)",
@@ -954,13 +1246,36 @@
           "end_ref_usfm": "NEH 9:7"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Ur",
+          "type": "place",
+          "preferred_label": "Ur",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "place:Chaldea",
+          "type": "place",
+          "preferred_label": "Chaldea",
+          "confidence": 0.6175,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Chaldea",
+          "type": "group",
+          "preferred_label": "Chaldeans",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "8972",
     "reference_id": 8140,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Urbanus",
     "media_type": "Text",
     "index_reference": "urbanus",
@@ -976,13 +1291,50 @@
           "end_ref_usfm": "ROM 16:9"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Urbanus",
+          "type": "person",
+          "preferred_label": "Urbanus",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Stachys",
+          "type": "person",
+          "preferred_label": "Stachys",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Beloved",
+          "type": "keyterm",
+          "preferred_label": "Beloved",
+          "confidence": 0.631,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jesus.2",
+          "type": "person",
+          "preferred_label": "Jesus",
+          "confidence": 0.58,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:InChrist",
+          "type": "keyterm",
+          "preferred_label": "In Christ",
+          "confidence": 0.5125,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "8978",
     "reference_id": 8146,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Uri",
     "media_type": "Text",
     "index_reference": "uri",
@@ -1034,13 +1386,43 @@
           "end_ref_usfm": "EZR 10:24"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Uri.2",
+          "type": "person",
+          "preferred_label": "Uri",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Uri.3",
+          "type": "person",
+          "preferred_label": "Uri",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Uri",
+          "type": "person",
+          "preferred_label": "Uri",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Hur.2",
+          "type": "person",
+          "preferred_label": "Hur",
+          "confidence": 0.7372,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "8973",
     "reference_id": 8141,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Uriah",
     "media_type": "Text",
     "index_reference": "uriah",
@@ -1131,13 +1513,50 @@
           "label": "Genealogy of Jesus Christ",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Uriah.2",
+          "type": "person",
+          "preferred_label": "Uriah",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Uriah.3",
+          "type": "person",
+          "preferred_label": "Uriah",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Uriah.4",
+          "type": "person",
+          "preferred_label": "Uriah",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Uriah.5",
+          "type": "person",
+          "preferred_label": "Uriah",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Uriah",
+          "type": "person",
+          "preferred_label": "Uriah",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "8974",
     "reference_id": 8142,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Urias",
     "media_type": "Text",
     "index_reference": "urias",
@@ -1161,13 +1580,36 @@
           "label": "Uriah",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Uriah",
+          "type": "person",
+          "preferred_label": "Uriah",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Solomon",
+          "type": "person",
+          "preferred_label": "Solomon",
+          "confidence": 0.6895,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:David",
+          "type": "person",
+          "preferred_label": "David",
+          "confidence": 0.64,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "8975",
     "reference_id": 8143,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Uriel",
     "media_type": "Text",
     "index_reference": "uriel",
@@ -1201,13 +1643,43 @@
           "end_ref_usfm": "1CH 15:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Uriel.2",
+          "type": "person",
+          "preferred_label": "Uriel",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Uriel.3",
+          "type": "person",
+          "preferred_label": "Uriel",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Uriel",
+          "type": "person",
+          "preferred_label": "Uriel",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Eliel.7",
+          "type": "person",
+          "preferred_label": "Eliel",
+          "confidence": 0.5,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "8976",
     "reference_id": 8144,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Urijah",
     "media_type": "Text",
     "index_reference": "urijah",
@@ -1224,13 +1696,50 @@
           "label": "Uriah",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Uriah",
+          "type": "person",
+          "preferred_label": "Uriah",
+          "confidence": 0.864,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Uriah.2",
+          "type": "person",
+          "preferred_label": "Uriah",
+          "confidence": 0.864,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Uriah.3",
+          "type": "person",
+          "preferred_label": "Uriah",
+          "confidence": 0.864,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Uriah.4",
+          "type": "person",
+          "preferred_label": "Uriah",
+          "confidence": 0.864,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Uriah.5",
+          "type": "person",
+          "preferred_label": "Uriah",
+          "confidence": 0.864,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "8977",
     "reference_id": 8145,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Urim and Thummim",
     "media_type": "Text",
     "index_reference": "urim and thummim",
@@ -1284,13 +1793,14 @@
           "label": "Lots, Casting of",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "8981",
     "reference_id": 8149,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Uthai",
     "media_type": "Text",
     "index_reference": "uthai",
@@ -1312,13 +1822,43 @@
           "end_ref_usfm": "EZR 8:14"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Uthai.2",
+          "type": "person",
+          "preferred_label": "Uthai",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Uthai",
+          "type": "person",
+          "preferred_label": "Uthai",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Bani.4",
+          "type": "person",
+          "preferred_label": "Bani",
+          "confidence": 0.548,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Bigvai.2",
+          "type": "person",
+          "preferred_label": "Bigvai",
+          "confidence": 0.512,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "8985",
     "reference_id": 8153,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Uz (Person)",
     "media_type": "Text",
     "index_reference": "uz (person)",
@@ -1358,13 +1898,43 @@
           "end_ref_usfm": "1CH 1:42"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Uz.2",
+          "type": "person",
+          "preferred_label": "Uz",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Uz.3",
+          "type": "person",
+          "preferred_label": "Uz",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Uz",
+          "type": "person",
+          "preferred_label": "Uz",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Buz",
+          "type": "person",
+          "preferred_label": "Buz",
+          "confidence": 0.59,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "8986",
     "reference_id": 8154,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Uz (Place)",
     "media_type": "Text",
     "index_reference": "uz (place)",
@@ -1410,13 +1980,29 @@
           "end_ref_usfm": "LAM 4:21"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Uz",
+          "type": "place",
+          "preferred_label": "Uz",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Uz",
+          "type": "person",
+          "preferred_label": "Uz",
+          "confidence": 0.6667,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "8982",
     "reference_id": 8150,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Uzai",
     "media_type": "Text",
     "index_reference": "uzai",
@@ -1432,13 +2018,50 @@
           "end_ref_usfm": "NEH 3:25"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Uzai",
+          "type": "person",
+          "preferred_label": "Uzai",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Pedaiah.4",
+          "type": "person",
+          "preferred_label": "Pedaiah",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Palal",
+          "type": "person",
+          "preferred_label": "Palal",
+          "confidence": 0.649,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Parosh.3",
+          "type": "person",
+          "preferred_label": "Parosh",
+          "confidence": 0.64,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:House",
+          "type": "realia",
+          "preferred_label": "House",
+          "confidence": 0.5395,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "8983",
     "reference_id": 8151,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Uzal (Person)",
     "media_type": "Text",
     "index_reference": "uzal (person)",
@@ -1460,13 +2083,36 @@
           "end_ref_usfm": "1CH 1:21"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Uzal",
+          "type": "person",
+          "preferred_label": "Uzal",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Diklah",
+          "type": "person",
+          "preferred_label": "Diklah",
+          "confidence": 0.64,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hadoram.2",
+          "type": "person",
+          "preferred_label": "Hadoram",
+          "confidence": 0.631,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "8984",
     "reference_id": 8152,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Uzal (Place)",
     "media_type": "Text",
     "index_reference": "uzal (place)",
@@ -1482,13 +2128,43 @@
           "end_ref_usfm": "EZK 27:19"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Uzal",
+          "type": "place",
+          "preferred_label": "Izal",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "flora:Calamus",
+          "type": "flora",
+          "preferred_label": "Calamus",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Vedan",
+          "type": "place",
+          "preferred_label": "Vedan",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "flora:Cassia",
+          "type": "flora",
+          "preferred_label": "Cassia",
+          "confidence": 0.64,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "8988",
     "reference_id": 8156,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Uzza",
     "media_type": "Text",
     "index_reference": "uzza",
@@ -1548,13 +2224,57 @@
           "label": "Uzzah",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Uzza.2",
+          "type": "person",
+          "preferred_label": "Uzza",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Uzza",
+          "type": "person",
+          "preferred_label": "Uzza",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "place:Uzza",
+          "type": "place",
+          "preferred_label": "Uzza",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Uzzah",
+          "type": "person",
+          "preferred_label": "Uzzah",
+          "confidence": 0.7455,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Perez-uzza",
+          "type": "place",
+          "preferred_label": "Perez-uzzah",
+          "confidence": 0.6364,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uzzah.2",
+          "type": "person",
+          "preferred_label": "Uzzah",
+          "confidence": 0.6364,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "8987",
     "reference_id": 8155,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Uzzah",
     "media_type": "Text",
     "index_reference": "uzzah",
@@ -1588,13 +2308,36 @@
           "end_ref_usfm": "1CH 13:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Uzzah.2",
+          "type": "person",
+          "preferred_label": "Uzzah",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Uzzah",
+          "type": "person",
+          "preferred_label": "Uzzah",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "place:Perez-uzza",
+          "type": "place",
+          "preferred_label": "Perez-uzzah",
+          "confidence": 0.6267,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "8989",
     "reference_id": 8157,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Uzzen-Sheerah",
     "media_type": "Text",
     "index_reference": "uzzen-sheerah",
@@ -1610,13 +2353,43 @@
           "end_ref_usfm": "1CH 7:24"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Uzzen-sheerah",
+          "type": "place",
+          "preferred_label": "Uzzen-sheerah",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Sheerah",
+          "type": "person",
+          "preferred_label": "Sheerah",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Beth-horonUpper",
+          "type": "place",
+          "preferred_label": "Upper Beth-horon",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Beth-horonLower",
+          "type": "place",
+          "preferred_label": "Lower Beth-horon",
+          "confidence": 0.5575,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "8993",
     "reference_id": 8161,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Uzzi",
     "media_type": "Text",
     "index_reference": "uzzi",
@@ -1680,13 +2453,71 @@
           "end_ref_usfm": "1CH 7:3"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Uzzi.2",
+          "type": "person",
+          "preferred_label": "Uzzi",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Uzzi.3",
+          "type": "person",
+          "preferred_label": "Uzzi",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Uzzi.4",
+          "type": "person",
+          "preferred_label": "Uzzi",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Uzzi.5",
+          "type": "person",
+          "preferred_label": "Uzzi",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Uzzi.6",
+          "type": "person",
+          "preferred_label": "Uzzi",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Uzzi.7",
+          "type": "person",
+          "preferred_label": "Uzzi",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Uzzi",
+          "type": "person",
+          "preferred_label": "Uzzi",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Uzziel.3",
+          "type": "person",
+          "preferred_label": "Uzziel",
+          "confidence": 0.5464,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "8991",
     "reference_id": 8159,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Uzzia",
     "media_type": "Text",
     "index_reference": "uzzia",
@@ -1702,13 +2533,57 @@
           "end_ref_usfm": "1CH 11:44"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Uzzia",
+          "type": "person",
+          "preferred_label": "Uzzia",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "group:Aroer",
+          "type": "group",
+          "preferred_label": "Aroerites",
+          "confidence": 0.64,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Ashtaroth",
+          "type": "group",
+          "preferred_label": "Ashterathites",
+          "confidence": 0.64,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jeiel.3",
+          "type": "person",
+          "preferred_label": "Jeiel",
+          "confidence": 0.64,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shama",
+          "type": "person",
+          "preferred_label": "Shama",
+          "confidence": 0.64,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hotham.2",
+          "type": "person",
+          "preferred_label": "Hotham",
+          "confidence": 0.631,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "8990",
     "reference_id": 8158,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Uzziah",
     "media_type": "Text",
     "index_reference": "uzziah",
@@ -1826,13 +2701,50 @@
           "end_ref_usfm": "2CH 27:8"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Uzziah.2",
+          "type": "person",
+          "preferred_label": "Uzziah",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Uzziah.3",
+          "type": "person",
+          "preferred_label": "Uzziah",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Uzziah.4",
+          "type": "person",
+          "preferred_label": "Uzziah",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Uzziah.5",
+          "type": "person",
+          "preferred_label": "Uzziah",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Uzziah",
+          "type": "person",
+          "preferred_label": "Uzziah",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
+      ]
     }
   },
   {
     "content_id": "8992",
     "reference_id": 8160,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Uzziel",
     "media_type": "Text",
     "index_reference": "uzziel",
@@ -1938,7 +2850,65 @@
           "end_ref_usfm": "NEH 3:8"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Uzziel.2",
+          "type": "person",
+          "preferred_label": "Uzziel",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Uzziel.3",
+          "type": "person",
+          "preferred_label": "Uzziel",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Uzziel.4",
+          "type": "person",
+          "preferred_label": "Uzziel",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Uzziel.5",
+          "type": "person",
+          "preferred_label": "Uzziel",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Uzziel.6",
+          "type": "person",
+          "preferred_label": "Uzziel",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Uzziel",
+          "type": "person",
+          "preferred_label": "Uzziel",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "group:Uzziel",
+          "type": "group",
+          "preferred_label": "Uzzielites",
+          "confidence": 0.65,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uzzi.3",
+          "type": "person",
+          "preferred_label": "Uzzi",
+          "confidence": 0.535,
+          "match_method": "scored"
+        }
+      ]
     }
   }
 ]

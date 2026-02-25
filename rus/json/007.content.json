@@ -2,7 +2,7 @@
   {
     "content_id": "124443",
     "reference_id": 5864,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Закон, Библейское Понятие",
     "media_type": "Text",
     "index_reference": "закон, библейское понятие",
@@ -1320,13 +1320,14 @@
           "end_ref_usfm": "PSA 15:2"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "124465",
     "reference_id": 8320,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Зилот",
     "media_type": "Text",
     "index_reference": "зилот",
@@ -1447,13 +1448,22 @@
           "label": "Спасение",
           "language": "rus"
         }
+      ],
+      "acai": [
+        {
+          "id": "group:Zealot",
+          "type": "group",
+          "preferred_label": "Зилот",
+          "confidence": 0.6267,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "124466",
     "reference_id": 8349,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Зина",
     "media_type": "Text",
     "index_reference": "зина",
@@ -1469,7 +1479,16 @@
           "end_ref_usfm": "TIT 3:13"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Zenas",
+          "type": "person",
+          "preferred_label": "Зина",
+          "confidence": 1.0,
+          "match_method": "scored"
+        }
+      ]
     }
   }
 ]

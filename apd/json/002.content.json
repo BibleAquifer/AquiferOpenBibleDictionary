@@ -2,7 +2,7 @@
   {
     "content_id": "724662",
     "reference_id": 3717,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "المسيح",
     "media_type": "Text",
     "index_reference": "المسيح",
@@ -264,13 +264,22 @@
           "end_ref_usfm": "HEB 7:28"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Jesus.2",
+          "type": "person",
+          "preferred_label": "Jesus",
+          "confidence": 0.852,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "724661",
     "reference_id": 3165,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "المعمودية",
     "media_type": "Text",
     "index_reference": "المعمودية",
@@ -526,7 +535,8 @@
           "end_ref_usfm": "1PE 3:21"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   }
 ]

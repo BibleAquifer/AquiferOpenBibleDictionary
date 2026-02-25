@@ -2,7 +2,7 @@
   {
     "content_id": "594525",
     "reference_id": 4419,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "(फेरेट) छिपकली",
     "media_type": "Text",
     "index_reference": "(फेरेट) छिपकली",
@@ -33,13 +33,50 @@
           "label": "छिपकली",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Lizard",
+          "type": "fauna",
+          "preferred_label": "Lizard",
+          "confidence": 0.6085,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Skink",
+          "type": "fauna",
+          "preferred_label": "Skink",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Gecko",
+          "type": "fauna",
+          "preferred_label": "Gecko",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Iguana",
+          "type": "fauna",
+          "preferred_label": "Monitor",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Chameleon",
+          "type": "fauna",
+          "preferred_label": "Chameleon",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "594823",
     "reference_id": 7718,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फंदा",
     "media_type": "Text",
     "index_reference": "फंदा",
@@ -61,13 +98,22 @@
           "end_ref_usfm": "ECC 7:26"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "यहोवा",
+          "confidence": 0.5305,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "734116",
     "reference_id": 8241,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फटकने वाला",
     "media_type": "Text",
     "index_reference": "फटकने वाला",
@@ -84,13 +130,29 @@
           "label": "खेती",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "deity:Tartak",
+          "type": "deity",
+          "preferred_label": "तर्त्ताक",
+          "confidence": 0.8143,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Taanach",
+          "type": "place",
+          "preferred_label": "तानाक",
+          "confidence": 0.8061,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "620773",
     "reference_id": 6858,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फनूएल",
     "media_type": "Text",
     "index_reference": "फनूएल",
@@ -106,13 +168,29 @@
           "end_ref_usfm": "LUK 2:36"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Phanuel",
+          "type": "person",
+          "preferred_label": "फनूएल",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Anna",
+          "type": "person",
+          "preferred_label": "हन्नाह",
+          "confidence": 0.712,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "733497",
     "reference_id": 6303,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फफूँद",
     "media_type": "Text",
     "index_reference": "फफूँद",
@@ -121,13 +199,22 @@
     "content": "<h1><strong>फफूँद</strong></h1><p>फफूँद के द्वारा जीवित पौधों या जैविक पदार्थों पर उत्पन्न की गई सतही वृद्धि। फफूँद फिलिस्तीन में पाए जाने वाले एक सामान्य फंगस, पुकिनिया ग्रैमिनिस के कारण उत्पन्न होती थी, और इसे अवज्ञा के लिए ईश्वरीय दण्ड माना जाता था। इब्रानी शब्द का मूल अर्थ है “हल्का हरा-पीला।”</p><p></p><p></p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Purah",
+          "type": "person",
+          "preferred_label": "फूरा",
+          "confidence": 0.8155,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "732608",
     "reference_id": 3203,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फरसा",
     "media_type": "Text",
     "index_reference": "फरसा",
@@ -144,13 +231,14 @@
           "label": "कवच और हथियार",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "381470",
     "reference_id": 4354,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फरात नदी",
     "media_type": "Text",
     "index_reference": "फरात नदी",
@@ -271,13 +359,22 @@
           "label": "मेसोपोटामिया",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Euphrates",
+          "type": "place",
+          "preferred_label": "Euphrates River",
+          "confidence": 0.5773,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "184987",
     "reference_id": 6864,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फरीसी",
     "media_type": "Text",
     "index_reference": "फरीसी",
@@ -397,13 +494,29 @@
           "label": "मौखिक परम्परा ",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "group:Pharisee",
+          "type": "group",
+          "preferred_label": "फरीसी",
+          "confidence": 0.6528,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Tyre",
+          "type": "place",
+          "preferred_label": "सोर",
+          "confidence": 0.5521,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "733028",
     "reference_id": 4483,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फल",
     "media_type": "Text",
     "index_reference": "फल",
@@ -420,13 +533,14 @@
           "label": "पौधे",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "649456",
     "reference_id": 6856,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फलतीएल",
     "media_type": "Text",
     "index_reference": "फलतीएल",
@@ -450,13 +564,36 @@
           "label": "पलती",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Laish",
+          "type": "person",
+          "preferred_label": "लैश",
+          "confidence": 0.748,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Palti.2",
+          "type": "person",
+          "preferred_label": "पेलेती",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ish-bosheth",
+          "type": "person",
+          "preferred_label": "ईशबोशेत",
+          "confidence": 0.5395,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "733650",
     "reference_id": 6769,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फसह",
     "media_type": "Text",
     "index_reference": "फसह",
@@ -473,13 +610,14 @@
           "label": "भोजन का महत्व",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "733039",
     "reference_id": 4526,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फांसी का खम्भा",
     "media_type": "Text",
     "index_reference": "फांसी का खम्भा",
@@ -496,13 +634,14 @@
           "label": "आपराधिक कानून और दण्ड",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "732992",
     "reference_id": 4371,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फाँसी का दण्ड",
     "media_type": "Text",
     "index_reference": "फाँसी का दण्ड",
@@ -519,13 +658,14 @@
           "label": "आपराधिक कानून और दण्ड",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "733044",
     "reference_id": 4544,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फाटक",
     "media_type": "Text",
     "index_reference": "फाटक",
@@ -549,13 +689,14 @@
           "label": "नगर",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "733672",
     "reference_id": 6842,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फारस, फारसी",
     "media_type": "Text",
     "index_reference": "फारस, फारसी",
@@ -700,13 +841,29 @@
           "label": "निर्वासन उपरांत अवधि",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Persia",
+          "type": "place",
+          "preferred_label": "फारस",
+          "confidence": 0.6762,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Cyrus",
+          "type": "person",
+          "preferred_label": "कुस्रू",
+          "confidence": 0.515,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "732487",
     "reference_id": 2821,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फ़ारसी, अपर्सतकी, अफ़ारसी",
     "media_type": "Text",
     "index_reference": "फ़ारसी, अपर्सतकी, अफ़ारसी",
@@ -734,13 +891,29 @@
           "end_ref_usfm": "EZR 6:6"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Shethar-bozenai",
+          "type": "person",
+          "preferred_label": "शतर्बोजनै",
+          "confidence": 0.5337,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tattenai",
+          "type": "person",
+          "preferred_label": "तत्तनै",
+          "confidence": 0.5067,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "620772",
     "reference_id": 6854,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फालेक",
     "media_type": "Text",
     "index_reference": "फालेक",
@@ -764,13 +937,50 @@
           "label": "पेलेग",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Peleg",
+          "type": "person",
+          "preferred_label": "पेलेग",
+          "confidence": 0.82,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shelah.2",
+          "type": "person",
+          "preferred_label": "शेला",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Eber",
+          "type": "person",
+          "preferred_label": "एबेर",
+          "confidence": 0.649,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Serug",
+          "type": "person",
+          "preferred_label": "सरूग",
+          "confidence": 0.649,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Reu",
+          "type": "person",
+          "preferred_label": "रऊ",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "620662",
     "reference_id": 4430,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फिरकिन",
     "media_type": "Text",
     "index_reference": "फिरकिन",
@@ -794,13 +1004,36 @@
           "label": "वजन और मापदण्ड",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:ClayJar",
+          "type": "realia",
+          "preferred_label": "Clay Jar",
+          "confidence": 0.613,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:StoneJar",
+          "type": "realia",
+          "preferred_label": "Stone Jar",
+          "confidence": 0.6085,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:Measure",
+          "type": "realia",
+          "preferred_label": "Measure",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "381770",
     "reference_id": 6862,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फ़िरौन",
     "media_type": "Text",
     "index_reference": "फ़िरौन",
@@ -878,13 +1111,22 @@
           "label": "मिस्र, मिस्री",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Pharaoh.7",
+          "type": "person",
+          "preferred_label": "फ़िरौन",
+          "confidence": 0.72,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "381178",
     "reference_id": 6861,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फ़िरौन की बेटी",
     "media_type": "Text",
     "index_reference": "फ़िरौन की बेटी",
@@ -954,13 +1196,29 @@
           "end_ref_usfm": "EXO 2:10"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Pharaoh.5",
+          "type": "person",
+          "preferred_label": "फ़िरौन",
+          "confidence": 0.7867,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Pharaoh.7",
+          "type": "person",
+          "preferred_label": "फ़िरौन",
+          "confidence": 0.61,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "733676",
     "reference_id": 6859,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फ़िरौन होप्रा",
     "media_type": "Text",
     "index_reference": "फ़िरौन होप्रा",
@@ -984,13 +1242,64 @@
           "label": "होप्रा",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Hophra",
+          "type": "person",
+          "preferred_label": "होप्रा",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nebuchadnezzar",
+          "type": "person",
+          "preferred_label": "नबूकदनेस्सर",
+          "confidence": 0.625,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Zedekiah.3",
+          "type": "person",
+          "preferred_label": "सिदकिय्याह",
+          "confidence": 0.6115,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Babylon",
+          "type": "place",
+          "preferred_label": "बेबीलोन",
+          "confidence": 0.5935,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Egypt",
+          "type": "place",
+          "preferred_label": "मिस्र",
+          "confidence": 0.5935,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Judah.4",
+          "type": "person",
+          "preferred_label": "यहूदा",
+          "confidence": 0.5395,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Judah",
+          "type": "group",
+          "preferred_label": "यहूदा",
+          "confidence": 0.5395,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "649458",
     "reference_id": 6860,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फ़िरौन-नखो, फ़िरौन-नखोह, फ़िरौन-नको, फ़िरौन-नकोह",
     "media_type": "Text",
     "index_reference": "फ़िरौन-नखो, फ़िरौन-नखोह, फ़िरौन-नको, फ़िरौन-नकोह",
@@ -1014,13 +1323,36 @@
           "label": "नको",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Neco",
+          "type": "person",
+          "preferred_label": "नको",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Josiah",
+          "type": "person",
+          "preferred_label": "योशियाह",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Egypt",
+          "type": "place",
+          "preferred_label": "मिस्र",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "647205",
     "reference_id": 6887,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फिलगोन",
     "media_type": "Text",
     "index_reference": "फिलगोन",
@@ -1036,13 +1368,50 @@
           "end_ref_usfm": "ROM 16:14"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Phlegon",
+          "type": "person",
+          "preferred_label": "फिलगोन",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hermas",
+          "type": "person",
+          "preferred_label": "हर्मास",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hermes",
+          "type": "person",
+          "preferred_label": "हिर्मेस",
+          "confidence": 0.6895,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Patrobas",
+          "type": "person",
+          "preferred_label": "पत्रुबास",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Asyncritus",
+          "type": "person",
+          "preferred_label": "असुंक्रितुस",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "733681",
     "reference_id": 6874,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फिलदिलफिया",
     "media_type": "Text",
     "index_reference": "फिलदिलफिया",
@@ -1064,13 +1433,29 @@
           "end_ref_usfm": "REV 3:13"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Philadelphia",
+          "type": "place",
+          "preferred_label": "फिलदिलफिया",
+          "confidence": 0.7,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Laodicea",
+          "type": "place",
+          "preferred_label": "लौदीकिया",
+          "confidence": 0.5375,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "381182",
     "reference_id": 6878,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फिलिप्पियों की पत्री",
     "media_type": "Text",
     "index_reference": "फिलिप्पियों की पत्री",
@@ -1520,13 +1905,36 @@
           "label": "फिलिप्पी",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Philippi",
+          "type": "place",
+          "preferred_label": "फिलिप्पी",
+          "confidence": 0.6056,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Cilicia",
+          "type": "place",
+          "preferred_label": "किलिकिया",
+          "confidence": 0.6028,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Philippi",
+          "type": "group",
+          "preferred_label": "फिलिप्पियों",
+          "confidence": 0.6,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "381183",
     "reference_id": 6879,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फिलिप्पी",
     "media_type": "Text",
     "index_reference": "फिलिप्पी",
@@ -1584,13 +1992,22 @@
           "end_ref_usfm": "ACT 16:15"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Lydia",
+          "type": "person",
+          "preferred_label": "लुदिया",
+          "confidence": 0.5,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "180530",
     "reference_id": 6880,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फिलिप्पुस",
     "media_type": "Text",
     "index_reference": "फिलिप्पुस",
@@ -1740,13 +2157,50 @@
           "label": "हेरोदेस, हेरोदिय परिवार",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Philip",
+          "type": "person",
+          "preferred_label": "फिलिप्पुस",
+          "confidence": 0.6519,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Philip.4",
+          "type": "person",
+          "preferred_label": "फिलिप्पुस",
+          "confidence": 0.6481,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Philip.2",
+          "type": "person",
+          "preferred_label": "फिलिप्पुस",
+          "confidence": 0.6074,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Philip.3",
+          "type": "person",
+          "preferred_label": "फिलिप्पुस",
+          "confidence": 0.6037,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Felix",
+          "type": "person",
+          "preferred_label": "फेलिक्स",
+          "confidence": 0.5407,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "381171",
     "reference_id": 6726,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फ़िलिस्तीन",
     "media_type": "Text",
     "index_reference": "फ़िलिस्तीन",
@@ -2058,13 +2512,14 @@
           "label": "यरदन पार",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "647204",
     "reference_id": 6883,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फिलुलुगुस",
     "media_type": "Text",
     "index_reference": "फिलुलुगुस",
@@ -2080,13 +2535,43 @@
           "end_ref_usfm": "ROM 16:15"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Philologus",
+          "type": "person",
+          "preferred_label": "फिलुलुगुस",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nereus",
+          "type": "person",
+          "preferred_label": "नेर्युस",
+          "confidence": 0.8065,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Olympas",
+          "type": "person",
+          "preferred_label": "उलुम्पास",
+          "confidence": 0.7885,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Julia",
+          "type": "person",
+          "preferred_label": "यूलिया",
+          "confidence": 0.775,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "647203",
     "reference_id": 6877,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फिलेतुस",
     "media_type": "Text",
     "index_reference": "फिलेतुस",
@@ -2116,13 +2601,29 @@
           "label": "हुमिनयुस",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Philetus",
+          "type": "person",
+          "preferred_label": "फिलेतुस",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hymenaeus",
+          "type": "person",
+          "preferred_label": "हुमिनयुस",
+          "confidence": 0.5885,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "381181",
     "reference_id": 6876,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फिलेमोन (व्यक्ति)",
     "media_type": "Text",
     "index_reference": "फिलेमोन (व्यक्ति)",
@@ -2176,13 +2677,22 @@
           "label": "को पत्री, फिलेमोन",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Philemon",
+          "type": "person",
+          "preferred_label": "फिलेमोन",
+          "confidence": 0.65,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "381773",
     "reference_id": 6882,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फिलो*, यहूदी",
     "media_type": "Text",
     "index_reference": "फिलो*, यहूदी",
@@ -2210,13 +2720,22 @@
           "end_ref_usfm": "JHN 1:4"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "यहोवा",
+          "confidence": 0.5682,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "733682",
     "reference_id": 6884,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फिलोमेटर",
     "media_type": "Text",
     "index_reference": "फिलोमेटर",
@@ -2240,13 +2759,14 @@
           "label": "प्टोलेमिक साम्राज्य ",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "381186",
     "reference_id": 6890,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फीनिक्स",
     "media_type": "Text",
     "index_reference": "फीनिक्स",
@@ -2268,13 +2788,22 @@
           "end_ref_usfm": "ACT 27:17"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Phoenix",
+          "type": "place",
+          "preferred_label": "फीनिक्स",
+          "confidence": 0.6444,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "381179",
     "reference_id": 6871,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फीनीके",
     "media_type": "Text",
     "index_reference": "फीनीके",
@@ -2317,13 +2846,36 @@
           "label": "फीनिक्स",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Phoenicia",
+          "type": "place",
+          "preferred_label": "फीनीके",
+          "confidence": 0.8667,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Phoenix",
+          "type": "place",
+          "preferred_label": "फीनिक्स",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Antioch",
+          "type": "place",
+          "preferred_label": "अन्ताकिया",
+          "confidence": 0.5623,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "381180",
     "reference_id": 6872,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फीनीके",
     "media_type": "Text",
     "index_reference": "फीनीके",
@@ -2347,13 +2899,22 @@
           "label": "फीनीके, फीनीकेवासी",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Phoenicia",
+          "type": "place",
+          "preferred_label": "फीनीके",
+          "confidence": 1.0,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "381185",
     "reference_id": 6889,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फीनीके, फीनीकेवासी",
     "media_type": "Text",
     "index_reference": "फीनीके, फीनीकेवासी",
@@ -2425,13 +2986,29 @@
           "label": "कनानी देवता और धर्म",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Phoenicia",
+          "type": "place",
+          "preferred_label": "फीनीके",
+          "confidence": 0.6033,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Sidon",
+          "type": "place",
+          "preferred_label": "सीदोन",
+          "confidence": 0.5137,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "647202",
     "reference_id": 6870,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फीबे",
     "media_type": "Text",
     "index_reference": "फीबे",
@@ -2455,13 +3032,29 @@
           "label": "फीबे",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Phoebe",
+          "type": "person",
+          "preferred_label": "फीबे",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Cenchreae",
+          "type": "place",
+          "preferred_label": "Cenchreae",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "647206",
     "reference_id": 6888,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फीबे",
     "media_type": "Text",
     "index_reference": "फीबे",
@@ -2501,13 +3094,22 @@
           "end_ref_usfm": "ROM 16:2"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Phoebe",
+          "type": "person",
+          "preferred_label": "फीबे",
+          "confidence": 0.6667,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "594420",
     "reference_id": 3311,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फीरोजा",
     "media_type": "Text",
     "index_reference": "फीरोजा",
@@ -2544,13 +3146,14 @@
           "label": "बहुमूल्य पत्थर",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "732798",
     "reference_id": 3721,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फीरोजे रत्न",
     "media_type": "Text",
     "index_reference": "फीरोजे रत्न",
@@ -2587,13 +3190,14 @@
           "label": "बहुमूल्य पत्थर",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "647207",
     "reference_id": 6895,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फूगिलुस, हिरमुगिनेस",
     "media_type": "Text",
     "index_reference": "फूगिलुस, हिरमुगिनेस",
@@ -2617,13 +3221,29 @@
           "label": "हिरमुगिनेस",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Hermogenes",
+          "type": "person",
+          "preferred_label": "हिरमुगिनेस",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Phygelus",
+          "type": "person",
+          "preferred_label": "फूगिलुस",
+          "confidence": 1.0,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "647169",
     "reference_id": 4466,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फूरतूनातुस",
     "media_type": "Text",
     "index_reference": "फूरतूनातुस",
@@ -2639,13 +3259,36 @@
           "end_ref_usfm": "1CO 16:17"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Fortunatus",
+          "type": "person",
+          "preferred_label": "फूरतूनातुस",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Stephanas",
+          "type": "person",
+          "preferred_label": "स्तिफनास",
+          "confidence": 0.8515,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Achaicus",
+          "type": "person",
+          "preferred_label": "अखइकुस",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "649471",
     "reference_id": 7028,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फूरा",
     "media_type": "Text",
     "index_reference": "फूरा",
@@ -2661,13 +3304,22 @@
           "end_ref_usfm": "JDG 7:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Purah",
+          "type": "person",
+          "preferred_label": "फूरा",
+          "confidence": 1.0,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "649460",
     "reference_id": 6892,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फूराह",
     "media_type": "Text",
     "index_reference": "फूराह",
@@ -2691,13 +3343,22 @@
           "label": "फूरा",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Purah",
+          "type": "person",
+          "preferred_label": "फूरा",
+          "confidence": 1.0,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "733022",
     "reference_id": 4450,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फूल",
     "media_type": "Text",
     "index_reference": "फूल",
@@ -2714,13 +3375,14 @@
           "label": "पौधे",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "733680",
     "reference_id": 6869,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फेज़िरोन",
     "media_type": "Text",
     "index_reference": "फेज़िरोन",
@@ -2736,13 +3398,71 @@
           "end_ref_usfm": "1MA 9:66"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Pharaoh.10",
+          "type": "person",
+          "preferred_label": "फ़िरौन",
+          "confidence": 0.8177,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Pharaoh.3",
+          "type": "person",
+          "preferred_label": "फ़िरौन",
+          "confidence": 0.8177,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Pharaoh.4",
+          "type": "person",
+          "preferred_label": "फ़िरौन",
+          "confidence": 0.8177,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Pharaoh.5",
+          "type": "person",
+          "preferred_label": "फ़िरौन",
+          "confidence": 0.8177,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Pharaoh.6",
+          "type": "person",
+          "preferred_label": "फ़िरौन",
+          "confidence": 0.8177,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Pharaoh.7",
+          "type": "person",
+          "preferred_label": "फ़िरौन",
+          "confidence": 0.8177,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Pharaoh.8",
+          "type": "person",
+          "preferred_label": "फ़िरौन",
+          "confidence": 0.8177,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Pharaoh.9",
+          "type": "person",
+          "preferred_label": "फ़िरौन",
+          "confidence": 0.8177,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "381087",
     "reference_id": 4417,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फेलिक्स, आंतोनिउस",
     "media_type": "Text",
     "index_reference": "फेलिक्स, आंतोनिउस",
@@ -2764,13 +3484,43 @@
           "end_ref_usfm": "ACT 24:27"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Felix",
+          "type": "person",
+          "preferred_label": "फेलिक्स",
+          "confidence": 0.6718,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Festus",
+          "type": "person",
+          "preferred_label": "फेस्तुस",
+          "confidence": 0.6103,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tertullus",
+          "type": "person",
+          "preferred_label": "तिरतुल्लुस",
+          "confidence": 0.517,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Lysias",
+          "type": "person",
+          "preferred_label": "लूसियास",
+          "confidence": 0.508,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "381088",
     "reference_id": 4422,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फेस्तुस, पुरकियुस",
     "media_type": "Text",
     "index_reference": "फेस्तुस, पुरकियुस",
@@ -2816,13 +3566,22 @@
           "end_ref_usfm": "ACT 25:12"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Festus",
+          "type": "person",
+          "preferred_label": "फेस्तुस",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "733003",
     "reference_id": 4413,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फैयूम",
     "media_type": "Text",
     "index_reference": "फैयूम",
@@ -2831,13 +3590,14 @@
     "content": "<h1>फैयूम </h1><p>मिस्र का सबसे बड़ा मरुद्यान, काहिरा से लगभग 70 मील (112.6 किलोमीटर) दक्षिण-पश्चिम में स्थित है। इसके केंद्र में लेक करुन है, जो मिस्र की एकमात्र बड़ी अंतर्देशीय झील है, जो वर्तमान में 90 वर्ग मील (144.8 वर्ग किलोमीटर) में फैली हुई है, लगभग 17 फीट (5.2 मीटर) गहरी है, और महासागर के स्तर से 147 फीट (44.8 मीटर) नीचे है। लेक करुन के चारों ओर लगभग <span>पाँच</span> लाख एकड़ कृषि भूमि है। प्राचीन काल में करुन स्पष्ट रूप से आज की तुलना में बहुत बड़ा था।</p><p>कई प्राचीन लेखकों ने, पाँचवीं शताब्दी ई.पू. के यूनानी इतिहासकार हेरोडोटस का अनुसरण करते हुए, यह माना कि झील, जिसने फैयूम को संभव बनाया, एक कृत्रिम निर्माण थी। लेकिन आधुनिक जांचों ने निष्कर्ष निकाला है कि यह झरने से पोषित थी। 2000 ई.पू. के बाद, मिस्र के मध्य राज्य काल के दौरान, एक नहर बनाई गई थी जिसमें जल मार्ग थे जो लेक कारुन और नील नदी को जोड़ते थे। उस अवधि के शासकों ने एक सिंचाई प्रणाली का भी निर्माण किया और क्षेत्र के अधिकांश हिस्से को खेती के अधीन लाया।</p><p>फैयूम की समृद्धि में गिरावट आई जब रामसेस द्वितीय और अन्य लोगों ने इस क्षेत्र के भवनों का उपयोग पत्थर की खदानों के लिए किया। तीसरी और दूसरी शताब्दी ई.पू. के दौरान, जब कई यूनानी उपनिवेशवादी आए, तो टॉलेमी ने इसकी समृद्धि को पुनर्स्थापित किया। फैयूम के स्मारकों की खोज के अलावा, पुरातत्वविदों ने यूनानी में लिखित पपीरस साहित्य की बड़ी मात्रा का उत्खनन किया है। इन पपीरस लेखों ने नये नियम में प्रयुक्त कुछ शब्दों के अर्थ को स्पष्ट करने में सहायता की है।</p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "578868",
     "reference_id": 3460,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फोड़ा",
     "media_type": "Text",
     "index_reference": "फोड़ा",
@@ -2916,13 +3676,14 @@
           "label": "मिस्र पर विपत्तियाँ",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "734061",
     "reference_id": 8124,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "फोड़ा",
     "media_type": "Text",
     "index_reference": "फोड़ा",
@@ -2939,7 +3700,8 @@
           "label": "घाव",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   }
 ]

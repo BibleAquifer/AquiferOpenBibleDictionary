@@ -2,7 +2,7 @@
   {
     "content_id": "866282",
     "reference_id": 6431,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Naam",
     "media_type": "Text",
     "index_reference": "naam",
@@ -18,13 +18,50 @@
           "end_ref_usfm": "1CH 4:15"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Naam",
+          "type": "person",
+          "preferred_label": "Naam",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Kenaz.4",
+          "type": "person",
+          "preferred_label": "Kenaz",
+          "confidence": 0.748,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Elah.4",
+          "type": "person",
+          "preferred_label": "Éla",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jephunneh",
+          "type": "person",
+          "preferred_label": "Jephunné",
+          "confidence": 0.631,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Iru",
+          "type": "person",
+          "preferred_label": "Iru",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "840197",
     "reference_id": 6427,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Naama (Lieu)",
     "media_type": "Text",
     "index_reference": "naama (lieu)",
@@ -40,13 +77,43 @@
           "end_ref_usfm": "JOS 15:41"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Naamah",
+          "type": "place",
+          "preferred_label": "Naama",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Beth-dagon",
+          "type": "place",
+          "preferred_label": "Beth-Dagon",
+          "confidence": 0.6085,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Makkedah",
+          "type": "place",
+          "preferred_label": "Makkéda",
+          "confidence": 0.562,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Gederoth",
+          "type": "place",
+          "preferred_label": "Guedéroth",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "800721",
     "reference_id": 6426,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Naama (Personne)",
     "media_type": "Text",
     "index_reference": "naama (personne)",
@@ -86,13 +153,29 @@
           "end_ref_usfm": "1KI 14:24"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Naamah",
+          "type": "person",
+          "preferred_label": "Naama",
+          "confidence": 0.7714,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Naamah.2",
+          "type": "person",
+          "preferred_label": "Naama",
+          "confidence": 0.6571,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "823015",
     "reference_id": 6428,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Naaman",
     "media_type": "Text",
     "index_reference": "naaman",
@@ -150,13 +233,50 @@
           "end_ref_usfm": "2KI 5:27"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Naaman.3",
+          "type": "person",
+          "preferred_label": "Naaman",
+          "confidence": 0.6291,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Naaman.2",
+          "type": "person",
+          "preferred_label": "Naaman",
+          "confidence": 0.6053,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Naaman.4",
+          "type": "person",
+          "preferred_label": "Naaman",
+          "confidence": 0.6026,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Naaman",
+          "type": "person",
+          "preferred_label": "Naaman",
+          "confidence": 0.6026,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Naaman",
+          "type": "group",
+          "preferred_label": "Naamite; Naamanite",
+          "confidence": 0.6026,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "833147",
     "reference_id": 6430,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Naamanite",
     "media_type": "Text",
     "index_reference": "naamanite",
@@ -180,13 +300,50 @@
           "label": "Naaman",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "group:Naaman",
+          "type": "group",
+          "preferred_label": "Naamite; Naamanite",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Naaman.2",
+          "type": "person",
+          "preferred_label": "Naaman",
+          "confidence": 0.946,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Ard",
+          "type": "group",
+          "preferred_label": "Ardite",
+          "confidence": 0.7885,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ard.2",
+          "type": "person",
+          "preferred_label": "Ard",
+          "confidence": 0.7885,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Bela",
+          "type": "person",
+          "preferred_label": "Béla",
+          "confidence": 0.775,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "866283",
     "reference_id": 6432,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Naara (Personne)",
     "media_type": "Text",
     "index_reference": "naara (personne)",
@@ -210,13 +367,43 @@
           "label": "jeune fille, jeune femme",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Naarah",
+          "type": "person",
+          "preferred_label": "Naara",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ashhur",
+          "type": "person",
+          "preferred_label": "Aschchur",
+          "confidence": 0.53,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Haahashtari",
+          "type": "person",
+          "preferred_label": "Achaschthari",
+          "confidence": 0.521,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ahuzzam",
+          "type": "person",
+          "preferred_label": "Achuzzam",
+          "confidence": 0.512,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "853060",
     "reference_id": 6434,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Naaraï",
     "media_type": "Text",
     "index_reference": "naaraï",
@@ -238,13 +425,64 @@
           "end_ref_usfm": "1CH 11:37"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Naarai",
+          "type": "person",
+          "preferred_label": "Naaraï",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hezro",
+          "type": "person",
+          "preferred_label": "Hetsraï",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Paarai",
+          "type": "person",
+          "preferred_label": "Paaraï",
+          "confidence": 0.71,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Carmel",
+          "type": "place",
+          "preferred_label": "Carmel",
+          "confidence": 0.58,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Carmel",
+          "type": "group",
+          "preferred_label": "de Karmel",
+          "confidence": 0.5305,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Arabia",
+          "type": "group",
+          "preferred_label": "Arbite",
+          "confidence": 0.5015,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Arabia",
+          "type": "place",
+          "preferred_label": "Arabie",
+          "confidence": 0.5015,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "866284",
     "reference_id": 6435,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Naaran",
     "media_type": "Text",
     "index_reference": "naaran",
@@ -268,13 +506,43 @@
           "label": "Naaratha (Lieu)",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Naaran",
+          "type": "place",
+          "preferred_label": "Naaran",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Bethel",
+          "type": "place",
+          "preferred_label": "Bethel",
+          "confidence": 0.58,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Gaza",
+          "type": "place",
+          "preferred_label": "Gaza",
+          "confidence": 0.58,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Gezer",
+          "type": "place",
+          "preferred_label": "Guézer",
+          "confidence": 0.562,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "840198",
     "reference_id": 6433,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Naaratha (Lieu)",
     "media_type": "Text",
     "index_reference": "naaratha (lieu)",
@@ -296,13 +564,36 @@
           "end_ref_usfm": "1CH 7:28"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Naaran",
+          "type": "place",
+          "preferred_label": "Naaran",
+          "confidence": 0.9685,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Ataroth.2",
+          "type": "place",
+          "preferred_label": "Atharoth",
+          "confidence": 0.6515,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Janoah.2",
+          "type": "place",
+          "preferred_label": "Janoah",
+          "confidence": 0.5435,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "853061",
     "reference_id": 6439,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nabal",
     "media_type": "Text",
     "index_reference": "nabal",
@@ -324,13 +615,29 @@
           "end_ref_usfm": "1SA 25:44"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Nabal",
+          "type": "person",
+          "preferred_label": "Nabal",
+          "confidence": 0.7273,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Abigail",
+          "type": "person",
+          "preferred_label": "Abigaïl",
+          "confidence": 0.5603,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "833148",
     "reference_id": 6441,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Naboth",
     "media_type": "Text",
     "index_reference": "naboth",
@@ -376,13 +683,22 @@
           "end_ref_usfm": "1KI 22:40"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Naboth",
+          "type": "person",
+          "preferred_label": "Naboth",
+          "confidence": 0.7185,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "866285",
     "reference_id": 6453,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nacham",
     "media_type": "Text",
     "index_reference": "nacham",
@@ -398,13 +714,64 @@
           "end_ref_usfm": "1CH 4:19"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Naham",
+          "type": "person",
+          "preferred_label": "Nacham",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hodiah",
+          "type": "person",
+          "preferred_label": "Hodija",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Garmites",
+          "type": "group",
+          "preferred_label": "Garmites",
+          "confidence": 0.6895,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Maacah",
+          "type": "place",
+          "preferred_label": "Maaca",
+          "confidence": 0.679,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Maacah",
+          "type": "group",
+          "preferred_label": "Maakatite",
+          "confidence": 0.679,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Eshtemoa",
+          "type": "place",
+          "preferred_label": "Eschthemoa",
+          "confidence": 0.571,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Keilah",
+          "type": "place",
+          "preferred_label": "Keïla",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "869008",
     "reference_id": 6452,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nachamani",
     "media_type": "Text",
     "index_reference": "nachamani",
@@ -426,13 +793,106 @@
           "end_ref_usfm": "NEH 7:7"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Nehemiah",
+          "type": "person",
+          "preferred_label": "Néhémie",
+          "confidence": 0.8065,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nahamani",
+          "type": "person",
+          "preferred_label": "Nachamani",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Reelaiah",
+          "type": "person",
+          "preferred_label": "Reélaja",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Bilshan",
+          "type": "person",
+          "preferred_label": "Bilschan",
+          "confidence": 0.7615,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rehum",
+          "type": "person",
+          "preferred_label": "Rehum",
+          "confidence": 0.7435,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Baanah.3",
+          "type": "person",
+          "preferred_label": "Baana",
+          "confidence": 0.7435,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mordecai",
+          "type": "person",
+          "preferred_label": "Mardochée",
+          "confidence": 0.7075,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Bigvai",
+          "type": "person",
+          "preferred_label": "Bigvaï",
+          "confidence": 0.6715,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mispar",
+          "type": "person",
+          "preferred_label": "Mispar",
+          "confidence": 0.6715,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Zerubbabel.2",
+          "type": "person",
+          "preferred_label": "Zorobabel",
+          "confidence": 0.535,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Israel",
+          "type": "person",
+          "preferred_label": "Israël",
+          "confidence": 0.5305,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Azariah.18",
+          "type": "person",
+          "preferred_label": "Azaria",
+          "confidence": 0.53,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joshua.5",
+          "type": "person",
+          "preferred_label": "Josué",
+          "confidence": 0.5215,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "853065",
     "reference_id": 6455,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nachasch",
     "media_type": "Text",
     "index_reference": "nachasch",
@@ -484,13 +944,50 @@
           "end_ref_usfm": "1CH 19:2"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Nahash",
+          "type": "person",
+          "preferred_label": "Nachasch",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nahash.2",
+          "type": "person",
+          "preferred_label": "Nachasch",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nahash.4",
+          "type": "person",
+          "preferred_label": "Nachasch",
+          "confidence": 0.6444,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nahash.3",
+          "type": "person",
+          "preferred_label": "Nachasch",
+          "confidence": 0.6444,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Ammon",
+          "type": "place",
+          "preferred_label": "Ammon",
+          "confidence": 0.5046,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "833150",
     "reference_id": 6457,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nachbi",
     "media_type": "Text",
     "index_reference": "nachbi",
@@ -506,13 +1003,43 @@
           "end_ref_usfm": "NUM 13:14"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Nahbi",
+          "type": "person",
+          "preferred_label": "Nachbi",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Vophsi",
+          "type": "person",
+          "preferred_label": "Vophsi",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Naphtali",
+          "type": "group",
+          "preferred_label": "Nephthali",
+          "confidence": 0.6565,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Naphtali",
+          "type": "person",
+          "preferred_label": "Nephthali",
+          "confidence": 0.6565,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "811853",
     "reference_id": 6459,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nachor (Lieu)",
     "media_type": "Text",
     "index_reference": "nachor (lieu)",
@@ -536,13 +1063,36 @@
           "label": "Nachor (Personne)",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Nahor.2",
+          "type": "person",
+          "preferred_label": "Nachor",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Camel",
+          "type": "fauna",
+          "preferred_label": "Camel",
+          "confidence": 0.6715,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Mesopotamia",
+          "type": "place",
+          "preferred_label": "Mésopotamie",
+          "confidence": 0.589,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "806090",
     "reference_id": 6458,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nachor (Personne)",
     "media_type": "Text",
     "index_reference": "nachor (personne)",
@@ -620,13 +1170,29 @@
           "label": "Nachor (Lieu)",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Nahor.2",
+          "type": "person",
+          "preferred_label": "Nachor",
+          "confidence": 0.6647,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nahor",
+          "type": "person",
+          "preferred_label": "Nachor",
+          "confidence": 0.6412,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "853063",
     "reference_id": 6444,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nacon",
     "media_type": "Text",
     "index_reference": "nacon",
@@ -654,13 +1220,29 @@
           "end_ref_usfm": "1CH 13:9"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Nacon",
+          "type": "person",
+          "preferred_label": "Nacon",
+          "confidence": 0.8667,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uzzah",
+          "type": "person",
+          "preferred_label": "Uzza",
+          "confidence": 0.649,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "831806",
     "reference_id": 6445,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nadab",
     "media_type": "Text",
     "index_reference": "nadab",
@@ -778,13 +1360,50 @@
           "end_ref_usfm": "1CH 2:30"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Nadab",
+          "type": "person",
+          "preferred_label": "Nadab",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nadab.4",
+          "type": "person",
+          "preferred_label": "Nadab",
+          "confidence": 0.6296,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nadab.3",
+          "type": "person",
+          "preferred_label": "Nadab",
+          "confidence": 0.6296,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nadab.2",
+          "type": "person",
+          "preferred_label": "Nadab",
+          "confidence": 0.6296,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Amminadab",
+          "type": "person",
+          "preferred_label": "Amminadab",
+          "confidence": 0.5113,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "840200",
     "reference_id": 6448,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nahalal",
     "media_type": "Text",
     "index_reference": "nahalal",
@@ -820,13 +1439,29 @@
           "label": "Villes lévitiques",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Nahalal",
+          "type": "place",
+          "preferred_label": "Nahalal",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Kitron",
+          "type": "place",
+          "preferred_label": "Kitron",
+          "confidence": 0.5562,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "833149",
     "reference_id": 6449,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nahaliel",
     "media_type": "Text",
     "index_reference": "nahaliel",
@@ -850,13 +1485,36 @@
           "label": "Errances dans le désert",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Lasha",
+          "type": "place",
+          "preferred_label": "Léscha",
+          "confidence": 0.85,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Mattanah",
+          "type": "place",
+          "preferred_label": "Matthana",
+          "confidence": 0.721,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Bamoth",
+          "type": "place",
+          "preferred_label": "Bamoth",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "840202",
     "reference_id": 6451,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nahalol",
     "media_type": "Text",
     "index_reference": "nahalol",
@@ -880,13 +1538,57 @@
           "label": "Nahalal",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Nahalal",
+          "type": "place",
+          "preferred_label": "Nahalal",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Kitron",
+          "type": "place",
+          "preferred_label": "Kitron",
+          "confidence": 0.6895,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Canaan",
+          "type": "group",
+          "preferred_label": "Canaan",
+          "confidence": 0.607,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Canaan",
+          "type": "place",
+          "preferred_label": "Canaan",
+          "confidence": 0.607,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Zebulun",
+          "type": "group",
+          "preferred_label": "Zabulon",
+          "confidence": 0.5935,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Zebulun",
+          "type": "person",
+          "preferred_label": "Zabulon",
+          "confidence": 0.5935,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "853064",
     "reference_id": 6454,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Naharai",
     "media_type": "Text",
     "index_reference": "naharai",
@@ -908,13 +1610,57 @@
           "end_ref_usfm": "1CH 11:39"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Naharai",
+          "type": "person",
+          "preferred_label": "Naharaï",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Ammon",
+          "type": "place",
+          "preferred_label": "Ammon",
+          "confidence": 0.58,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Zelek",
+          "type": "person",
+          "preferred_label": "Tsélek",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Zeruiah",
+          "type": "person",
+          "preferred_label": "Tseruja",
+          "confidence": 0.5305,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Ammon",
+          "type": "group",
+          "preferred_label": "Amos",
+          "confidence": 0.5215,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Beeroth",
+          "type": "place",
+          "preferred_label": "Beéroth",
+          "confidence": 0.5125,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "823016",
     "reference_id": 6456,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nahath",
     "media_type": "Text",
     "index_reference": "nahath",
@@ -954,13 +1700,71 @@
           "end_ref_usfm": "2CH 31:13"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Nahath",
+          "type": "person",
+          "preferred_label": "Nahath",
+          "confidence": 0.84,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tohu",
+          "type": "person",
+          "preferred_label": "Thohu",
+          "confidence": 0.68,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nahath.2",
+          "type": "person",
+          "preferred_label": "Nahath",
+          "confidence": 0.68,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mahath.3",
+          "type": "person",
+          "preferred_label": "Machath",
+          "confidence": 0.6035,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shammah.2",
+          "type": "person",
+          "preferred_label": "Schamma",
+          "confidence": 0.597,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Zerah",
+          "type": "person",
+          "preferred_label": "Zérach",
+          "confidence": 0.552,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mizzah",
+          "type": "person",
+          "preferred_label": "Mizza",
+          "confidence": 0.5385,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Benaiah.7",
+          "type": "person",
+          "preferred_label": "Benaja",
+          "confidence": 0.509,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "831646",
     "reference_id": 6462,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nahum (homme biblique)",
     "media_type": "Text",
     "index_reference": "nahum (homme biblique)",
@@ -1010,13 +1814,29 @@
           "label": "prophète, prophétesse",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Nahum",
+          "type": "person",
+          "preferred_label": "Nahum",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nahum.2",
+          "type": "person",
+          "preferred_label": "Nahum",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "831807",
     "reference_id": 6461,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nahum, Livre de",
     "media_type": "Text",
     "index_reference": "nahum, livre de",
@@ -1239,13 +2059,22 @@
           "label": "prophète, prophétesse",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Nahum.2",
+          "type": "person",
+          "preferred_label": "Nahum",
+          "confidence": 0.6069,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "853066",
     "reference_id": 6464,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Najoth",
     "media_type": "Text",
     "index_reference": "najoth",
@@ -1291,13 +2120,22 @@
           "end_ref_usfm": "1SA 20:1"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Naioth",
+          "type": "place",
+          "preferred_label": "Najoth",
+          "confidence": 0.6741,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "853067",
     "reference_id": 6468,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Naomi",
     "media_type": "Text",
     "index_reference": "naomi",
@@ -1337,13 +2175,22 @@
           "end_ref_usfm": "RUT 4:22"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Naomi",
+          "type": "person",
+          "preferred_label": "Naomi",
+          "confidence": 0.6964,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "840203",
     "reference_id": 6469,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Naphath-Dor",
     "media_type": "Text",
     "index_reference": "naphath-dor",
@@ -1373,13 +2220,36 @@
           "label": "Dor",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Dor",
+          "type": "place",
+          "preferred_label": "Dor",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Taphath",
+          "type": "person",
+          "preferred_label": "Thaphath",
+          "confidence": 0.6515,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Goiim",
+          "type": "group",
+          "preferred_label": "Goiim",
+          "confidence": 0.539,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "811854",
     "reference_id": 6470,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Naphisch",
     "media_type": "Text",
     "index_reference": "naphisch",
@@ -1407,13 +2277,29 @@
           "end_ref_usfm": "1CH 5:19"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Naphish",
+          "type": "person",
+          "preferred_label": "Naphisch",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Kedemah",
+          "type": "person",
+          "preferred_label": "Kedma",
+          "confidence": 0.6895,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "806091",
     "reference_id": 6475,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Naphtuhim, Naphtuhites",
     "media_type": "Text",
     "index_reference": "naphtuhim, naphtuhites",
@@ -1435,13 +2321,57 @@
           "end_ref_usfm": "1CH 1:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "group:Naphtuhim",
+          "type": "group",
+          "preferred_label": "Naphtuhim",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Anamim",
+          "type": "group",
+          "preferred_label": "Anamim",
+          "confidence": 0.685,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Egypt",
+          "type": "person",
+          "preferred_label": "Égypte",
+          "confidence": 0.6535,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Ludim",
+          "type": "group",
+          "preferred_label": "Lud",
+          "confidence": 0.6535,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Lehabim",
+          "type": "group",
+          "preferred_label": "Lehabim",
+          "confidence": 0.6445,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Lud",
+          "type": "person",
+          "preferred_label": "Lud",
+          "confidence": 0.5035,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "831648",
     "reference_id": 6481,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nathan",
     "media_type": "Text",
     "index_reference": "nathan",
@@ -1627,13 +2557,99 @@
           "label": "Généalogie de Jésus-Christ",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Nathan.2",
+          "type": "person",
+          "preferred_label": "Nathan",
+          "confidence": 0.6309,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nathan",
+          "type": "person",
+          "preferred_label": "Nathan",
+          "confidence": 0.6062,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nathan.3",
+          "type": "person",
+          "preferred_label": "Nathan",
+          "confidence": 0.6025,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nathan.5",
+          "type": "person",
+          "preferred_label": "Nathan",
+          "confidence": 0.6012,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nathan.6",
+          "type": "person",
+          "preferred_label": "Nathan",
+          "confidence": 0.6012,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nathan.4",
+          "type": "person",
+          "preferred_label": "Nathan",
+          "confidence": 0.6012,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:FatherOfNathan",
+          "type": "person",
+          "preferred_label": "Father of Nathan",
+          "confidence": 0.6,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jonathan.4",
+          "type": "person",
+          "preferred_label": "Jonathan",
+          "confidence": 0.5444,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jonadab.2",
+          "type": "person",
+          "preferred_label": "Jonadab",
+          "confidence": 0.5419,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Elnathan.4",
+          "type": "person",
+          "preferred_label": "Elnathan",
+          "confidence": 0.5382,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Elnathan.2",
+          "type": "person",
+          "preferred_label": "Elnathan",
+          "confidence": 0.5382,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Elnathan.3",
+          "type": "person",
+          "preferred_label": "Elnathan",
+          "confidence": 0.5382,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "341279",
     "reference_id": 6479,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nathanaël",
     "media_type": "Text",
     "index_reference": "nathanaël",
@@ -1747,13 +2763,22 @@
           "label": "Apôtre, Apôtre",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Nathanael",
+          "type": "person",
+          "preferred_label": "Nathanaël",
+          "confidence": 0.6074,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "341280",
     "reference_id": 6482,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nations",
     "media_type": "Text",
     "index_reference": "nations",
@@ -2021,13 +3046,22 @@
           "end_ref_usfm": "ACT 15:29"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "group:Gentile",
+          "type": "group",
+          "preferred_label": "nation; peuple",
+          "confidence": 0.6102,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "788735",
     "reference_id": 6485,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nazaréens",
     "media_type": "Text",
     "index_reference": "nazaréens",
@@ -2043,13 +3077,36 @@
           "end_ref_usfm": "ACT 24:5"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Nazareth",
+          "type": "place",
+          "preferred_label": "Nazareth",
+          "confidence": 0.796,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Jews",
+          "type": "group",
+          "preferred_label": "Jews",
+          "confidence": 0.58,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Ability",
+          "type": "keyterm",
+          "preferred_label": "capacité",
+          "confidence": 0.5215,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "785230",
     "reference_id": 6488,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Naziréen, Naziréat",
     "media_type": "Text",
     "index_reference": "naziréen, naziréat",
@@ -2131,13 +3188,22 @@
           "end_ref_usfm": "1MA 3:51"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "group:Nazirite",
+          "type": "group",
+          "preferred_label": "Nazirites",
+          "confidence": 0.5686,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "840206",
     "reference_id": 6489,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Néa",
     "media_type": "Text",
     "index_reference": "néa",
@@ -2153,13 +3219,43 @@
           "end_ref_usfm": "JOS 19:13"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Neah",
+          "type": "place",
+          "preferred_label": "Neah",
+          "confidence": 0.8515,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Dimnah",
+          "type": "place",
+          "preferred_label": "Dimna",
+          "confidence": 0.6565,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Eth-kazin",
+          "type": "place",
+          "preferred_label": "Itta-Qatsîn",
+          "confidence": 0.631,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Gath-hepher",
+          "type": "place",
+          "preferred_label": "Gath-Hépher",
+          "confidence": 0.6265,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "785231",
     "reference_id": 6490,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Néapolis",
     "media_type": "Text",
     "index_reference": "néapolis",
@@ -2175,13 +3271,36 @@
           "end_ref_usfm": "ACT 16:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Neapolis",
+          "type": "place",
+          "preferred_label": "Néapolis",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Samothrace",
+          "type": "place",
+          "preferred_label": "Samothrace",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Troas",
+          "type": "place",
+          "preferred_label": "Troas",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "866286",
     "reference_id": 6491,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nearia",
     "media_type": "Text",
     "index_reference": "nearia",
@@ -2203,13 +3322,71 @@
           "end_ref_usfm": "1CH 3:23"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Neariah",
+          "type": "person",
+          "preferred_label": "Nearia",
+          "confidence": 0.8667,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Neariah.2",
+          "type": "person",
+          "preferred_label": "Nearia",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Bariah",
+          "type": "person",
+          "preferred_label": "Bariach",
+          "confidence": 0.5848,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Azrikam",
+          "type": "person",
+          "preferred_label": "Azrikam",
+          "confidence": 0.5623,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shemaiah.2",
+          "type": "person",
+          "preferred_label": "Schemaeja",
+          "confidence": 0.5398,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rephaiah.3",
+          "type": "person",
+          "preferred_label": "Rephaja",
+          "confidence": 0.5398,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Pelatiah.2",
+          "type": "person",
+          "preferred_label": "Pelathia",
+          "confidence": 0.5398,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shecaniah.2",
+          "type": "person",
+          "preferred_label": "Schecania",
+          "confidence": 0.5218,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "869009",
     "reference_id": 6493,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nébaï",
     "media_type": "Text",
     "index_reference": "nébaï",
@@ -2225,13 +3402,36 @@
           "end_ref_usfm": "NEH 10:19"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Nebai",
+          "type": "person",
+          "preferred_label": "Névaï",
+          "confidence": 0.8875,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Anathoth.2",
+          "type": "person",
+          "preferred_label": "Anathoth",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hariph",
+          "type": "person",
+          "preferred_label": "Hariph",
+          "confidence": 0.649,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "811855",
     "reference_id": 6492,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nebajoth",
     "media_type": "Text",
     "index_reference": "nebajoth",
@@ -2271,13 +3471,36 @@
           "end_ref_usfm": "ISA 60:7"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Nebaioth",
+          "type": "person",
+          "preferred_label": "Nebajoth",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mahalath",
+          "type": "person",
+          "preferred_label": "Mahalath",
+          "confidence": 0.535,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Kedar",
+          "type": "person",
+          "preferred_label": "Kédar",
+          "confidence": 0.5295,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "869010",
     "reference_id": 6494,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Neballath",
     "media_type": "Text",
     "index_reference": "neballath",
@@ -2293,13 +3516,36 @@
           "end_ref_usfm": "NEH 11:34"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Neballat",
+          "type": "place",
+          "preferred_label": "Neballath",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Zeboim",
+          "type": "place",
+          "preferred_label": "Tseboïm",
+          "confidence": 0.6715,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Hadid",
+          "type": "place",
+          "preferred_label": "Hadid",
+          "confidence": 0.613,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "853069",
     "reference_id": 6495,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nebath",
     "media_type": "Text",
     "index_reference": "nebath",
@@ -2315,13 +3561,64 @@
           "end_ref_usfm": "1KI 11:26"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Nebat",
+          "type": "person",
+          "preferred_label": "Nebath",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Zeruah",
+          "type": "person",
+          "preferred_label": "Tserua",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Ephraim",
+          "type": "group",
+          "preferred_label": "Éphraïm",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Zeredah.2",
+          "type": "place",
+          "preferred_label": "Zeredah",
+          "confidence": 0.757,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jeroboam",
+          "type": "person",
+          "preferred_label": "Jéroboam",
+          "confidence": 0.7435,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ephraim",
+          "type": "person",
+          "preferred_label": "Éphraïm",
+          "confidence": 0.625,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Solomon",
+          "type": "person",
+          "preferred_label": "Salomon",
+          "confidence": 0.5935,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "833152",
     "reference_id": 6499,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nebo (Lieu)",
     "media_type": "Text",
     "index_reference": "nebo (lieu)",
@@ -2379,13 +3676,36 @@
           "end_ref_usfm": "JER 48:22"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Nebo",
+          "type": "place",
+          "preferred_label": "Nebo",
+          "confidence": 0.9,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:NeboMount",
+          "type": "place",
+          "preferred_label": "mont Nebo",
+          "confidence": 0.7,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Baal-meon",
+          "type": "place",
+          "preferred_label": "Baal-Meon",
+          "confidence": 0.525,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "869011",
     "reference_id": 6498,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nebo (Personne)",
     "media_type": "Text",
     "index_reference": "nebo (personne)",
@@ -2413,13 +3733,29 @@
           "end_ref_usfm": "NEH 7:33"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Nebo.2",
+          "type": "place",
+          "preferred_label": "Nebo",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Nebo.3",
+          "type": "place",
+          "preferred_label": "Nebo",
+          "confidence": 0.6,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "853070",
     "reference_id": 6500,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nebucadnestar",
     "media_type": "Text",
     "index_reference": "nebucadnestar",
@@ -2552,13 +3888,22 @@
           "label": "Livre de Daniel",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Nebuchadnezzar",
+          "type": "person",
+          "preferred_label": "Nebucadnetsar",
+          "confidence": 0.612,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "853071",
     "reference_id": 6502,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nebuzaradan",
     "media_type": "Text",
     "index_reference": "nebuzaradan",
@@ -2604,13 +3949,29 @@
           "end_ref_usfm": "JER 39:13"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Nebuzaradan",
+          "type": "person",
+          "preferred_label": "Nebuzaradan",
+          "confidence": 0.7436,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nebushazban",
+          "type": "person",
+          "preferred_label": "Nebuschazban",
+          "confidence": 0.6103,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "853072",
     "reference_id": 6503,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Néco",
     "media_type": "Text",
     "index_reference": "néco",
@@ -2678,13 +4039,22 @@
           "label": "Josias",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Neco",
+          "type": "person",
+          "preferred_label": "Néco",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "840208",
     "reference_id": 6505,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nécromancien, Nécromancie",
     "media_type": "Text",
     "index_reference": "nécromancien, nécromancie",
@@ -2715,13 +4085,22 @@
           "label": "Médiums",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Spirit",
+          "type": "keyterm",
+          "preferred_label": "outre",
+          "confidence": 0.8245,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "866287",
     "reference_id": 6506,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nedabia",
     "media_type": "Text",
     "index_reference": "nedabia",
@@ -2737,13 +4116,57 @@
           "end_ref_usfm": "1CH 3:18"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Nedabiah",
+          "type": "person",
+          "preferred_label": "Nedabia",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Pedaiah.2",
+          "type": "person",
+          "preferred_label": "Pedaja",
+          "confidence": 0.8695,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jekamiah.2",
+          "type": "person",
+          "preferred_label": "Yeqamya",
+          "confidence": 0.7885,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Malchiram",
+          "type": "person",
+          "preferred_label": "Malkiram",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shenazzar",
+          "type": "person",
+          "preferred_label": "Schénatsar",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hoshama",
+          "type": "person",
+          "preferred_label": "Hoschama",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "806092",
     "reference_id": 6508,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Néguev, Négueb",
     "media_type": "Text",
     "index_reference": "néguev, négueb",
@@ -2783,13 +4206,22 @@
           "end_ref_usfm": "GEN 13:2"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Negeb",
+          "type": "place",
+          "preferred_label": "Negev",
+          "confidence": 0.7623,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "869013",
     "reference_id": 6512,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Néhémie (Personne)",
     "media_type": "Text",
     "index_reference": "néhémie (personne)",
@@ -2936,13 +4368,36 @@
           "label": "Néhémie, Livre de",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Nehemiah",
+          "type": "person",
+          "preferred_label": "Néhémie",
+          "confidence": 0.6075,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nehemiah.2",
+          "type": "person",
+          "preferred_label": "Néhémie",
+          "confidence": 0.6075,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nehemiah.3",
+          "type": "person",
+          "preferred_label": "Néhémie",
+          "confidence": 0.6038,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "869012",
     "reference_id": 6511,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Néhémie, Livre de",
     "media_type": "Text",
     "index_reference": "néhémie, livre de",
@@ -3266,13 +4721,29 @@
           "label": "Période postexilique",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Nehemiah.2",
+          "type": "person",
+          "preferred_label": "Néhémie",
+          "confidence": 0.6062,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nehemiah.3",
+          "type": "person",
+          "preferred_label": "Néhémie",
+          "confidence": 0.6012,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "869014",
     "reference_id": 6514,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nehum",
     "media_type": "Text",
     "index_reference": "nehum",
@@ -3302,13 +4773,99 @@
           "label": "Rehum",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Rehum",
+          "type": "person",
+          "preferred_label": "Rehum",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nehemiah",
+          "type": "person",
+          "preferred_label": "Néhémie",
+          "confidence": 0.829,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Baanah.3",
+          "type": "person",
+          "preferred_label": "Baana",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Reelaiah",
+          "type": "person",
+          "preferred_label": "Reélaja",
+          "confidence": 0.6895,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mispar",
+          "type": "person",
+          "preferred_label": "Mispar",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joshua.5",
+          "type": "person",
+          "preferred_label": "Josué",
+          "confidence": 0.6475,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Bilshan",
+          "type": "person",
+          "preferred_label": "Bilschan",
+          "confidence": 0.6265,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mordecai",
+          "type": "person",
+          "preferred_label": "Mardochée",
+          "confidence": 0.6175,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Israel",
+          "type": "person",
+          "preferred_label": "Israël",
+          "confidence": 0.607,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nahamani",
+          "type": "person",
+          "preferred_label": "Nachamani",
+          "confidence": 0.557,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Bigvai",
+          "type": "person",
+          "preferred_label": "Bigvaï",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Zerubbabel.2",
+          "type": "person",
+          "preferred_label": "Zorobabel",
+          "confidence": 0.5215,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "853073",
     "reference_id": 6515,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nehuschtan",
     "media_type": "Text",
     "index_reference": "nehuschtan",
@@ -3332,13 +4889,78 @@
           "label": "Serpent de bronze",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "deity:Nehushtan",
+          "type": "deity",
+          "preferred_label": "Nehuschtan",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:SacredPillar",
+          "type": "realia",
+          "preferred_label": "Sacred Pillar",
+          "confidence": 0.667,
+          "match_method": "scored"
+        },
+        {
+          "id": "flora:Pine",
+          "type": "flora",
+          "preferred_label": "Stone Pine",
+          "confidence": 0.625,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Israel",
+          "type": "person",
+          "preferred_label": "Israël",
+          "confidence": 0.598,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Asherah",
+          "type": "deity",
+          "preferred_label": "Ashéra",
+          "confidence": 0.58,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:SacredPole",
+          "type": "realia",
+          "preferred_label": "Sacred Pole",
+          "confidence": 0.5575,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Moses",
+          "type": "person",
+          "preferred_label": "Moïse",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:HighPlace",
+          "type": "realia",
+          "preferred_label": "High Place",
+          "confidence": 0.535,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Snake",
+          "type": "fauna",
+          "preferred_label": "Snake",
+          "confidence": 0.5215,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "853074",
     "reference_id": 6516,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nehuschtha",
     "media_type": "Text",
     "index_reference": "nehuschtha",
@@ -3354,13 +4976,29 @@
           "end_ref_usfm": "2KI 24:15"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Nehushta",
+          "type": "person",
+          "preferred_label": "Nehuschtha",
+          "confidence": 0.65,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Babylon",
+          "type": "place",
+          "preferred_label": "Babylone",
+          "confidence": 0.5615,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "840209",
     "reference_id": 6517,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Neïel",
     "media_type": "Text",
     "index_reference": "neïel",
@@ -3376,13 +5014,64 @@
           "end_ref_usfm": "JOS 19:27"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Neah",
+          "type": "place",
+          "preferred_label": "Neah",
+          "confidence": 0.8005,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Beth-emek",
+          "type": "place",
+          "preferred_label": "Beth-Dagon",
+          "confidence": 0.6895,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:IphtahelValley",
+          "type": "place",
+          "preferred_label": "vallée de Yiftah-El",
+          "confidence": 0.6715,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Cabul",
+          "type": "place",
+          "preferred_label": "Cabul",
+          "confidence": 0.649,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Beth-dagon.2",
+          "type": "place",
+          "preferred_label": "Beth-Dagon",
+          "confidence": 0.613,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Zebulun",
+          "type": "group",
+          "preferred_label": "Zabulon",
+          "confidence": 0.562,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Zebulun",
+          "type": "person",
+          "preferred_label": "Zabulon",
+          "confidence": 0.562,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "869015",
     "reference_id": 6520,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nekoda",
     "media_type": "Text",
     "index_reference": "nekoda",
@@ -3416,13 +5105,29 @@
           "end_ref_usfm": "NEH 7:62"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Nekoda.2",
+          "type": "person",
+          "preferred_label": "Nekoda",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nekoda",
+          "type": "person",
+          "preferred_label": "Nekoda",
+          "confidence": 0.8,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "823019",
     "reference_id": 6522,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nemuel",
     "media_type": "Text",
     "index_reference": "nemuel",
@@ -3464,13 +5169,57 @@
           "label": "Jemuel",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Jemuel",
+          "type": "person",
+          "preferred_label": "Jemuel",
+          "confidence": 0.9,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nemuel.2",
+          "type": "person",
+          "preferred_label": "Nemuel",
+          "confidence": 0.7,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Nemuelite",
+          "type": "group",
+          "preferred_label": "Nemouélite",
+          "confidence": 0.6235,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jamin",
+          "type": "person",
+          "preferred_label": "Jamin",
+          "confidence": 0.5805,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jachin",
+          "type": "person",
+          "preferred_label": "Jakin",
+          "confidence": 0.5715,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shaul.2",
+          "type": "person",
+          "preferred_label": "Shaul",
+          "confidence": 0.512,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "823018",
     "reference_id": 6521,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nemuelite",
     "media_type": "Text",
     "index_reference": "nemuelite",
@@ -3500,13 +5249,78 @@
           "label": "Jemuel",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Jemuel",
+          "type": "person",
+          "preferred_label": "Jemuel",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Nemuelite",
+          "type": "group",
+          "preferred_label": "Nemouélite",
+          "confidence": 0.7775,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jamin",
+          "type": "person",
+          "preferred_label": "Jamin",
+          "confidence": 0.7615,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jachin",
+          "type": "person",
+          "preferred_label": "Jakin",
+          "confidence": 0.748,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Simeon.5",
+          "type": "person",
+          "preferred_label": "Siméon",
+          "confidence": 0.652,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shaul.2",
+          "type": "person",
+          "preferred_label": "Shaul",
+          "confidence": 0.6155,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Zerah.6",
+          "type": "person",
+          "preferred_label": "Zérach",
+          "confidence": 0.5615,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Jachin",
+          "type": "group",
+          "preferred_label": "Yakinite",
+          "confidence": 0.5615,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Jamin",
+          "type": "group",
+          "preferred_label": "Yaminite",
+          "confidence": 0.5615,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "831808",
     "reference_id": 6523,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Népheg",
     "media_type": "Text",
     "index_reference": "népheg",
@@ -3540,13 +5354,43 @@
           "end_ref_usfm": "1CH 14:6"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Nepheg.2",
+          "type": "person",
+          "preferred_label": "Népheg",
+          "confidence": 0.9,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nepheg",
+          "type": "person",
+          "preferred_label": "Népheg",
+          "confidence": 0.7,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Japhia.2",
+          "type": "person",
+          "preferred_label": "Japhia",
+          "confidence": 0.612,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nogah",
+          "type": "person",
+          "preferred_label": "Noga",
+          "confidence": 0.548,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "800723",
     "reference_id": 6524,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nephilim",
     "media_type": "Text",
     "index_reference": "nephilim",
@@ -3600,13 +5444,22 @@
           "label": "Géants",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "group:Nephilim",
+          "type": "group",
+          "preferred_label": "Nephilim",
+          "confidence": 0.6889,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "823017",
     "reference_id": 6473,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nephthali (Personne)",
     "media_type": "Text",
     "index_reference": "nephthali (personne)",
@@ -3664,13 +5517,29 @@
           "end_ref_usfm": "1CH 7:13"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Naphtali",
+          "type": "person",
+          "preferred_label": "Nephthali",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Naphtali",
+          "type": "group",
+          "preferred_label": "Nephthali",
+          "confidence": 0.8,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "840205",
     "reference_id": 6472,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nephthali, Montagne de",
     "media_type": "Text",
     "index_reference": "nephthali, montagne de",
@@ -3701,13 +5570,92 @@
           "label": "Nephthali, Tribu de",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "group:Naphtali",
+          "type": "group",
+          "preferred_label": "Nephthali",
+          "confidence": 0.85,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Naphtali",
+          "type": "person",
+          "preferred_label": "Nephthali",
+          "confidence": 0.85,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Kedesh",
+          "type": "place",
+          "preferred_label": "Kédesch",
+          "confidence": 0.6745,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Ephraim",
+          "type": "group",
+          "preferred_label": "Éphraïm",
+          "confidence": 0.5755,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ephraim",
+          "type": "person",
+          "preferred_label": "Éphraïm",
+          "confidence": 0.5755,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Judah",
+          "type": "group",
+          "preferred_label": "Juda",
+          "confidence": 0.553,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Galilee",
+          "type": "place",
+          "preferred_label": "Galilée",
+          "confidence": 0.553,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Shechem",
+          "type": "place",
+          "preferred_label": "Sichem",
+          "confidence": 0.5395,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Judah.4",
+          "type": "person",
+          "preferred_label": "Juda",
+          "confidence": 0.526,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Hebron",
+          "type": "place",
+          "preferred_label": "Hébron",
+          "confidence": 0.508,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Holy",
+          "type": "keyterm",
+          "preferred_label": "saint",
+          "confidence": 0.5035,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "833151",
     "reference_id": 6474,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nephthali, Tribu de",
     "media_type": "Text",
     "index_reference": "nephthali, tribu de",
@@ -3861,13 +5809,29 @@
           "end_ref_usfm": "MAT 4:15"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Naphtali",
+          "type": "person",
+          "preferred_label": "Nephthali",
+          "confidence": 0.7169,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Naphtali",
+          "type": "group",
+          "preferred_label": "Nephthali",
+          "confidence": 0.7034,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "840211",
     "reference_id": 6528,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nephthoach, Eaux de",
     "media_type": "Text",
     "index_reference": "nephthoach, eaux de",
@@ -3889,13 +5853,36 @@
           "end_ref_usfm": "JOS 18:15"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Nephtoah",
+          "type": "place",
+          "preferred_label": "eaux de Nephthoach",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:EphronMount",
+          "type": "place",
+          "preferred_label": "la montagne d'Éphron",
+          "confidence": 0.7705,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Kiriath-jearim",
+          "type": "place",
+          "preferred_label": "Kirjath-Jearim",
+          "confidence": 0.703,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "869016",
     "reference_id": 6525,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nephusim, Nephischsim",
     "media_type": "Text",
     "index_reference": "nephusim, nephischsim",
@@ -3917,13 +5904,29 @@
           "end_ref_usfm": "NEH 7:52"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "group:Nephushesim",
+          "type": "group",
+          "preferred_label": "Nephushesim",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Meunim",
+          "type": "group",
+          "preferred_label": "Meunim",
+          "confidence": 0.748,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "853076",
     "reference_id": 6537,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Ner",
     "media_type": "Text",
     "index_reference": "ner",
@@ -3987,13 +5990,36 @@
           "end_ref_usfm": "1CH 9:36"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Ner.2",
+          "type": "person",
+          "preferred_label": "Ner",
+          "confidence": 0.8182,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Abiel.2",
+          "type": "person",
+          "preferred_label": "Abiel",
+          "confidence": 0.7455,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Abner",
+          "type": "person",
+          "preferred_label": "Abner",
+          "confidence": 0.6693,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "853075",
     "reference_id": 6533,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nergal",
     "media_type": "Text",
     "index_reference": "nergal",
@@ -4023,13 +6049,50 @@
           "label": "Assyrie, Assyriens",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "deity:Nergal",
+          "type": "deity",
+          "preferred_label": "Nergal",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Babylon",
+          "type": "place",
+          "preferred_label": "Babylone",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Cuthah",
+          "type": "place",
+          "preferred_label": "Cuth",
+          "confidence": 0.6265,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Hamath",
+          "type": "place",
+          "preferred_label": "Hamath",
+          "confidence": 0.5665,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Sepharvaim",
+          "type": "place",
+          "preferred_label": "Sepharvaïm",
+          "confidence": 0.53,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "831650",
     "reference_id": 6535,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Néri",
     "media_type": "Text",
     "index_reference": "néri",
@@ -4053,13 +6116,50 @@
           "label": "Généalogie de Jésus-Christ",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Neri",
+          "type": "person",
+          "preferred_label": "Néri",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rhesa",
+          "type": "person",
+          "preferred_label": "Rhésa",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joanan",
+          "type": "person",
+          "preferred_label": "Joanan",
+          "confidence": 0.649,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Zerubbabel",
+          "type": "person",
+          "preferred_label": "Zorobabel",
+          "confidence": 0.6265,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shealtiel",
+          "type": "person",
+          "preferred_label": "Schealthiel",
+          "confidence": 0.6265,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "866289",
     "reference_id": 6538,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Netaïm",
     "media_type": "Text",
     "index_reference": "netaïm",
@@ -4075,13 +6175,29 @@
           "end_ref_usfm": "1CH 4:23"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Netaim",
+          "type": "place",
+          "preferred_label": "Netaïm",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Gederah",
+          "type": "place",
+          "preferred_label": "Gederah",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "853068",
     "reference_id": 6480,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nethan-Mélec",
     "media_type": "Text",
     "index_reference": "nethan-mélec",
@@ -4097,13 +6213,57 @@
           "end_ref_usfm": "2KI 23:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Nathan-melech",
+          "type": "person",
+          "preferred_label": "Netân-Mèlek",
+          "confidence": 0.9235,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "Éternel",
+          "confidence": 0.589,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:House",
+          "type": "realia",
+          "preferred_label": "House",
+          "confidence": 0.5575,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:Chariot",
+          "type": "realia",
+          "preferred_label": "Chariot",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Judah",
+          "type": "group",
+          "preferred_label": "Juda",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Horse",
+          "type": "fauna",
+          "preferred_label": "Horse",
+          "confidence": 0.544,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "833153",
     "reference_id": 6539,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nethaneel",
     "media_type": "Text",
     "index_reference": "nethaneel",
@@ -4197,13 +6357,85 @@
           "end_ref_usfm": "NEH 12:36"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Nethanel",
+          "type": "person",
+          "preferred_label": "Nethaneel",
+          "confidence": 0.7429,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nethanel.3",
+          "type": "person",
+          "preferred_label": "Nethaneel",
+          "confidence": 0.6286,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nethanel.9",
+          "type": "person",
+          "preferred_label": "Nethaneel",
+          "confidence": 0.6286,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nethanel.5",
+          "type": "person",
+          "preferred_label": "Nethaneel",
+          "confidence": 0.6286,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nethanel.8",
+          "type": "person",
+          "preferred_label": "Nethaneel",
+          "confidence": 0.6286,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nethanel.4",
+          "type": "person",
+          "preferred_label": "Nethaneel",
+          "confidence": 0.6286,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nethanel.6",
+          "type": "person",
+          "preferred_label": "Nethaneel",
+          "confidence": 0.6286,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nethanel.7",
+          "type": "person",
+          "preferred_label": "Nethaneel",
+          "confidence": 0.6286,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nethanel.10",
+          "type": "person",
+          "preferred_label": "Nethaneel",
+          "confidence": 0.6286,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nethanel.2",
+          "type": "person",
+          "preferred_label": "Nethaneel",
+          "confidence": 0.6286,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "853077",
     "reference_id": 6540,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nethania",
     "media_type": "Text",
     "index_reference": "nethania",
@@ -4255,13 +6487,57 @@
           "end_ref_usfm": "JER 40:15"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Nethaniah",
+          "type": "person",
+          "preferred_label": "Nethania",
+          "confidence": 0.7939,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nethaniah.2",
+          "type": "person",
+          "preferred_label": "Nethania",
+          "confidence": 0.6242,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nethaniah.4",
+          "type": "person",
+          "preferred_label": "Nethania",
+          "confidence": 0.6121,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nethaniah.3",
+          "type": "person",
+          "preferred_label": "Nethania",
+          "confidence": 0.6121,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Gedaliah.2",
+          "type": "person",
+          "preferred_label": "Guedalia",
+          "confidence": 0.6053,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ishmael.2",
+          "type": "person",
+          "preferred_label": "Ismaël",
+          "confidence": 0.5319,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "833154",
     "reference_id": 6541,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Néthiniens",
     "media_type": "Text",
     "index_reference": "néthiniens",
@@ -4379,13 +6655,14 @@
           "end_ref_usfm": "JOS 9:27"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "853078",
     "reference_id": 6542,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nethopha, Netophatien",
     "media_type": "Text",
     "index_reference": "nethopha, netophatien",
@@ -4455,13 +6732,29 @@
           "end_ref_usfm": "1CH 27:15"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Netophah",
+          "type": "place",
+          "preferred_label": "Nethopha",
+          "confidence": 0.9692,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Netophah",
+          "type": "group",
+          "preferred_label": "Netofatite",
+          "confidence": 0.7592,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "869018",
     "reference_id": 6558,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Netsiach",
     "media_type": "Text",
     "index_reference": "netsiach",
@@ -4483,13 +6776,29 @@
           "end_ref_usfm": "NEH 7:56"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Neziah",
+          "type": "person",
+          "preferred_label": "Netsiach",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hatipha",
+          "type": "person",
+          "preferred_label": "Hathipha",
+          "confidence": 0.73,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "840212",
     "reference_id": 6559,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Netsib",
     "media_type": "Text",
     "index_reference": "netsib",
@@ -4505,13 +6814,29 @@
           "end_ref_usfm": "JOS 15:43"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Nezib",
+          "type": "place",
+          "preferred_label": "Netsib",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Iphtah",
+          "type": "place",
+          "preferred_label": "Jiphthach",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "853079",
     "reference_id": 6560,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nibchaz",
     "media_type": "Text",
     "index_reference": "nibchaz",
@@ -4527,13 +6852,71 @@
           "end_ref_usfm": "2KI 17:31"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "deity:Nibhaz",
+          "type": "deity",
+          "preferred_label": "Nibchaz",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Anammelech",
+          "type": "person",
+          "preferred_label": "Anammélec",
+          "confidence": 0.7075,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Tartak",
+          "type": "deity",
+          "preferred_label": "Tharthak",
+          "confidence": 0.6715,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Adrammelech",
+          "type": "person",
+          "preferred_label": "Adrammélec",
+          "confidence": 0.649,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Avva",
+          "type": "group",
+          "preferred_label": "Avvites",
+          "confidence": 0.631,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Ivvah",
+          "type": "place",
+          "preferred_label": "Ivva",
+          "confidence": 0.562,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "Éternel",
+          "confidence": 0.562,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Sepharvaim",
+          "type": "place",
+          "preferred_label": "Sepharvaïm",
+          "confidence": 0.5215,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "840213",
     "reference_id": 6561,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nibschan",
     "media_type": "Text",
     "index_reference": "nibschan",
@@ -4549,13 +6932,36 @@
           "end_ref_usfm": "JOS 15:62"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Nibshan",
+          "type": "place",
+          "preferred_label": "Nibschan",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:CityOfSalt",
+          "type": "place",
+          "preferred_label": "City of Salt",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Engedi",
+          "type": "place",
+          "preferred_label": "En-Guédi",
+          "confidence": 0.5305,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "728138",
     "reference_id": 6562,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nicanor",
     "media_type": "Text",
     "index_reference": "nicanor",
@@ -4589,13 +6995,22 @@
           "end_ref_usfm": "1MA 3:59"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Nicanor",
+          "type": "person",
+          "preferred_label": "Nicanor",
+          "confidence": 0.616,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "728139",
     "reference_id": 6564,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nicolaitans",
     "media_type": "Text",
     "index_reference": "nicolaitans",
@@ -4695,13 +7110,29 @@
           "end_ref_usfm": "REV 2:15"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "group:Nicolaitans",
+          "type": "group",
+          "preferred_label": "Nicolaïte",
+          "confidence": 0.6186,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nicolaus",
+          "type": "person",
+          "preferred_label": "Nicolas",
+          "confidence": 0.5103,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "728140",
     "reference_id": 6565,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nicolas",
     "media_type": "Text",
     "index_reference": "nicolas",
@@ -4743,13 +7174,29 @@
           "label": "Le diacre, la diaconesse",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Nicolaus",
+          "type": "person",
+          "preferred_label": "Nicolas",
+          "confidence": 0.68,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Serve",
+          "type": "keyterm",
+          "preferred_label": "servir",
+          "confidence": 0.57,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "785232",
     "reference_id": 6567,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Niger",
     "media_type": "Text",
     "index_reference": "niger",
@@ -4773,13 +7220,57 @@
           "label": "Siméon (Personne)",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Simeon.4",
+          "type": "person",
+          "preferred_label": "Siméon",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Antioch",
+          "type": "place",
+          "preferred_label": "Antioche",
+          "confidence": 0.757,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Herod.2",
+          "type": "person",
+          "preferred_label": "Hérode Antipas",
+          "confidence": 0.748,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Manaen",
+          "type": "person",
+          "preferred_label": "Manahen",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Church",
+          "type": "keyterm",
+          "preferred_label": "église",
+          "confidence": 0.58,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Cyrene",
+          "type": "place",
+          "preferred_label": "Cyrène",
+          "confidence": 0.58,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "823020",
     "reference_id": 6572,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nil (Fleuve)",
     "media_type": "Text",
     "index_reference": "nil (fleuve)",
@@ -4947,13 +7438,29 @@
           "label": "Égypte, Égyptien",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Nile",
+          "type": "place",
+          "preferred_label": "Nile River",
+          "confidence": 0.6214,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Egypt",
+          "type": "place",
+          "preferred_label": "Égypte",
+          "confidence": 0.5475,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "833155",
     "reference_id": 6573,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nimra",
     "media_type": "Text",
     "index_reference": "nimra",
@@ -4977,13 +7484,50 @@
           "label": "Beth-Nimra",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Beth-nimrah",
+          "type": "place",
+          "preferred_label": "Beth-Nimra",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Baal-meon",
+          "type": "place",
+          "preferred_label": "Baal-Meon",
+          "confidence": 0.649,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Sebam",
+          "type": "place",
+          "preferred_label": "Sebam",
+          "confidence": 0.6475,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Ataroth",
+          "type": "place",
+          "preferred_label": "Atharoth",
+          "confidence": 0.6265,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Dibon",
+          "type": "place",
+          "preferred_label": "Dibon",
+          "confidence": 0.5305,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "806093",
     "reference_id": 6575,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nimrod",
     "media_type": "Text",
     "index_reference": "nimrod",
@@ -5023,13 +7567,29 @@
           "end_ref_usfm": "GEN 10:9"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Nimrod",
+          "type": "person",
+          "preferred_label": "Nimrod",
+          "confidence": 0.7231,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Nimrod",
+          "type": "place",
+          "preferred_label": "Nimrod",
+          "confidence": 0.6,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "853080",
     "reference_id": 6576,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nimschi",
     "media_type": "Text",
     "index_reference": "nimschi",
@@ -5057,13 +7617,22 @@
           "end_ref_usfm": "2KI 9:20"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Nimshi",
+          "type": "person",
+          "preferred_label": "Nimschi",
+          "confidence": 0.6952,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "806094",
     "reference_id": 6577,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Ninive, Ninivite",
     "media_type": "Text",
     "index_reference": "ninive, ninivite",
@@ -5201,13 +7770,29 @@
           "label": "Assyrie, Assyriens",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Nineveh",
+          "type": "place",
+          "preferred_label": "Ninive",
+          "confidence": 0.6359,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Nineveh",
+          "type": "group",
+          "preferred_label": "Ninive",
+          "confidence": 0.6083,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "756972",
     "reference_id": 6578,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nisan",
     "media_type": "Text",
     "index_reference": "nisan",
@@ -5237,13 +7822,14 @@
           "label": "Calendriers, Anciens et modernes",
           "language": "fra"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "853081",
     "reference_id": 6579,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nisroc",
     "media_type": "Text",
     "index_reference": "nisroc",
@@ -5273,13 +7859,64 @@
           "label": "Assyrie, Assyriens",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "deity:Nisroch",
+          "type": "deity",
+          "preferred_label": "Nisroc",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Esarhaddon",
+          "type": "person",
+          "preferred_label": "Asarhaddôn",
+          "confidence": 0.721,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Ararat",
+          "type": "place",
+          "preferred_label": "Ararat",
+          "confidence": 0.6895,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Sharezer",
+          "type": "person",
+          "preferred_label": "Scharetser",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Adrammelech.2",
+          "type": "person",
+          "preferred_label": "Adrammélec",
+          "confidence": 0.6715,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "Éternel",
+          "confidence": 0.6475,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:House",
+          "type": "realia",
+          "preferred_label": "House",
+          "confidence": 0.5215,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "869019",
     "reference_id": 6580,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Noadia",
     "media_type": "Text",
     "index_reference": "noadia",
@@ -5301,13 +7938,57 @@
           "end_ref_usfm": "NEH 6:14"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Noadiah.2",
+          "type": "person",
+          "preferred_label": "Noadia",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Noadiah",
+          "type": "person",
+          "preferred_label": "Noadia",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "Éternel",
+          "confidence": 0.598,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jozabad.6",
+          "type": "person",
+          "preferred_label": "Jozabad",
+          "confidence": 0.557,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uriah.4",
+          "type": "person",
+          "preferred_label": "Urie",
+          "confidence": 0.512,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Eleazar.6",
+          "type": "person",
+          "preferred_label": "Éléazar",
+          "confidence": 0.512,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "341281",
     "reference_id": 6585,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nob",
     "media_type": "Text",
     "index_reference": "nob",
@@ -5359,13 +8040,29 @@
           "end_ref_usfm": "MRK 2:28"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Nob",
+          "type": "place",
+          "preferred_label": "Nob",
+          "confidence": 1.0,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Nobah.2",
+          "type": "place",
+          "preferred_label": "Nobah",
+          "confidence": 0.8157,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "833157",
     "reference_id": 6584,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nobach (Lieu)",
     "media_type": "Text",
     "index_reference": "nobach (lieu)",
@@ -5402,13 +8099,36 @@
           "label": "Kanatha",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Kenath",
+          "type": "place",
+          "preferred_label": "Kenath",
+          "confidence": 0.9595,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nobah",
+          "type": "person",
+          "preferred_label": "Nobach",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Jogbehah",
+          "type": "place",
+          "preferred_label": "Jogbeha",
+          "confidence": 0.6065,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "833156",
     "reference_id": 6583,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nobach (Personne)",
     "media_type": "Text",
     "index_reference": "nobach (personne)",
@@ -5424,13 +8144,29 @@
           "end_ref_usfm": "NUM 32:42"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Nobah",
+          "type": "person",
+          "preferred_label": "Nobach",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Kenath",
+          "type": "place",
+          "preferred_label": "Kenath",
+          "confidence": 0.9595,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "840214",
     "reference_id": 6591,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nocha (Lieu)",
     "media_type": "Text",
     "index_reference": "nocha (lieu)",
@@ -5446,13 +8182,36 @@
           "end_ref_usfm": "JDG 20:43"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Manahath",
+          "type": "place",
+          "preferred_label": "Manahath",
+          "confidence": 0.76,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Benjamin",
+          "type": "person",
+          "preferred_label": "Benjamin",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Benjamin",
+          "type": "group",
+          "preferred_label": "Benjamin",
+          "confidence": 0.5395,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "866291",
     "reference_id": 6590,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nocha (Personne)",
     "media_type": "Text",
     "index_reference": "nocha (personne)",
@@ -5468,13 +8227,29 @@
           "end_ref_usfm": "1CH 8:2"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Naaman",
+          "type": "person",
+          "preferred_label": "Naaman",
+          "confidence": 0.91,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rosh",
+          "type": "person",
+          "preferred_label": "Rosch",
+          "confidence": 0.91,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "800725",
     "reference_id": 6587,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nod",
     "media_type": "Text",
     "index_reference": "nod",
@@ -5490,13 +8265,43 @@
           "end_ref_usfm": "GEN 4:16"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Nod",
+          "type": "place",
+          "preferred_label": "Nod",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "Éternel",
+          "confidence": 0.7015,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Cain",
+          "type": "person",
+          "preferred_label": "Caïn",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Eden.2",
+          "type": "place",
+          "preferred_label": "Garden of Eden",
+          "confidence": 0.5305,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "811856",
     "reference_id": 6586,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nodab",
     "media_type": "Text",
     "index_reference": "nodab",
@@ -5518,13 +8323,22 @@
           "end_ref_usfm": "GEN 25:15"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Kedemah",
+          "type": "person",
+          "preferred_label": "Kedma",
+          "confidence": 0.8,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "800724",
     "reference_id": 6581,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Noé, Noa",
     "media_type": "Text",
     "index_reference": "noé, noa",
@@ -5638,13 +8452,29 @@
           "label": "Déluge, Le",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Noah.2",
+          "type": "person",
+          "preferred_label": "Noa",
+          "confidence": 0.611,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Noah",
+          "type": "person",
+          "preferred_label": "Noah",
+          "confidence": 0.5104,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "866290",
     "reference_id": 6589,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Noga",
     "media_type": "Text",
     "index_reference": "noga",
@@ -5666,13 +8496,36 @@
           "end_ref_usfm": "1CH 14:6"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Nogah",
+          "type": "person",
+          "preferred_label": "Noga",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nepheg.2",
+          "type": "person",
+          "preferred_label": "Népheg",
+          "confidence": 0.748,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Japhia.2",
+          "type": "person",
+          "preferred_label": "Japhia",
+          "confidence": 0.64,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "713661",
     "reference_id": 6600,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nombres et numérologie",
     "media_type": "Text",
     "index_reference": "nombres et numérologie",
@@ -6162,13 +9015,14 @@
           "end_ref_usfm": "REV 11:19"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "769274",
     "reference_id": 6601,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nombres, Livre des",
     "media_type": "Text",
     "index_reference": "nombres, livre des",
@@ -7641,13 +10495,14 @@
           "label": "Genèse, livre de la",
           "language": "fra"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "833158",
     "reference_id": 6593,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nophach",
     "media_type": "Text",
     "index_reference": "nophach",
@@ -7669,13 +10524,29 @@
           "end_ref_usfm": "JDG 8:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Kenath",
+          "type": "place",
+          "preferred_label": "Kenath",
+          "confidence": 0.814,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Jogbehah",
+          "type": "place",
+          "preferred_label": "Jogbeha",
+          "confidence": 0.5885,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "788736",
     "reference_id": 6595,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nord-est",
     "media_type": "Text",
     "index_reference": "nord-est",
@@ -7691,13 +10562,14 @@
           "end_ref_usfm": "ACT 27:14"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "811857",
     "reference_id": 6604,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nourrice",
     "media_type": "Text",
     "index_reference": "nourrice",
@@ -7785,13 +10657,14 @@
           "end_ref_usfm": "1SA 1:24"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "734276",
     "reference_id": 6557,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "nouveau, nouvelle",
     "media_type": "Text",
     "index_reference": "nouveau, nouvelle",
@@ -8046,13 +10919,14 @@
           "label": "Nouvelle création, Nouvelle créature",
           "language": "fra"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "728137",
     "reference_id": 6550,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nouveaux Cieux et Nouvelle Terre",
     "media_type": "Text",
     "index_reference": "nouveaux cieux et nouvelle terre",
@@ -8198,13 +11072,14 @@
           "label": "Nouvelle création, Nouvelle créature",
           "language": "fra"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "788776",
     "reference_id": 6548,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nouvelle création, Nouvelle créature",
     "media_type": "Text",
     "index_reference": "nouvelle création, nouvelle créature",
@@ -8694,13 +11569,14 @@
           "label": "Humanité, Ancienne et nouvelle",
           "language": "fra"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "390339",
     "reference_id": 6571,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nuit",
     "media_type": "Text",
     "index_reference": "nuit",
@@ -8832,13 +11708,14 @@
           "label": "Jour",
           "language": "fra"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "831809",
     "reference_id": 6603,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nun",
     "media_type": "Text",
     "index_reference": "nun",
@@ -8878,13 +11755,29 @@
           "end_ref_usfm": "JDG 2:8"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Nun",
+          "type": "person",
+          "preferred_label": "Nun",
+          "confidence": 0.85,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joshua.2",
+          "type": "person",
+          "preferred_label": "Josué",
+          "confidence": 0.5305,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "806095",
     "reference_id": 6607,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Nuzi, Tablettes de Nuzi",
     "media_type": "Text",
     "index_reference": "nuzi, tablettes de nuzi",
@@ -8986,7 +11879,8 @@
           "label": "Inscriptions",
           "language": "fra"
         }
-      ]
+      ],
+      "acai": []
     }
   }
 ]

@@ -2,7 +2,7 @@
   {
     "content_id": "573973",
     "reference_id": 3604,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "木匠",
     "media_type": "Text",
     "index_reference": "木匠",
@@ -66,13 +66,22 @@
           "end_ref_usfm": "MRK 6:3"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "realia:Craftsman",
+          "type": "realia",
+          "preferred_label": "Craftsman",
+          "confidence": 0.8075,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "574006",
     "reference_id": 4979,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "牧人",
     "media_type": "Text",
     "index_reference": "牧人",
@@ -124,13 +133,14 @@
           "end_ref_usfm": "JHN 10:16"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "574052",
     "reference_id": 7535,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "牧人",
     "media_type": "Text",
     "index_reference": "牧人",
@@ -344,13 +354,14 @@
           "end_ref_usfm": "EZK 34:22"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "315531",
     "reference_id": 6771,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "牧師",
     "media_type": "Text",
     "index_reference": "牧師",
@@ -450,7 +461,8 @@
           "label": "牧人",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   }
 ]

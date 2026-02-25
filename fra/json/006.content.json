@@ -2,7 +2,7 @@
   {
     "content_id": "785270",
     "reference_id": 7954,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Faiseur de tentes",
     "media_type": "Text",
     "index_reference": "faiseur de tentes",
@@ -36,13 +36,14 @@
           "end_ref_usfm": "2CO 11:10"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "734261",
     "reference_id": 4404,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "famine",
     "media_type": "Text",
     "index_reference": "famine",
@@ -202,13 +203,14 @@
           "end_ref_usfm": "2KI 25:3"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "833028",
     "reference_id": 4449,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Farine",
     "media_type": "Text",
     "index_reference": "farine",
@@ -224,13 +226,36 @@
           "end_ref_usfm": "LEV 2:16"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "keyterm:Offering",
+          "type": "keyterm",
+          "preferred_label": "offrande",
+          "confidence": 0.6565,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:OliveOil",
+          "type": "realia",
+          "preferred_label": "Olive Oil",
+          "confidence": 0.5435,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "Éternel",
+          "confidence": 0.5,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "833025",
     "reference_id": 4398,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Faucon, Crécerelle",
     "media_type": "Text",
     "index_reference": "faucon, crécerelle",
@@ -273,13 +298,29 @@
           "label": "Milan",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Falcon",
+          "type": "fauna",
+          "preferred_label": "Falcon",
+          "confidence": 0.7525,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:BlackKite",
+          "type": "fauna",
+          "preferred_label": "Black Kite",
+          "confidence": 0.5202,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "823011",
     "reference_id": 6325,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fausse couche",
     "media_type": "Text",
     "index_reference": "fausse couche",
@@ -357,13 +398,14 @@
           "label": "Stérilité",
           "language": "fra"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "734260",
     "reference_id": 4401,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "faux christs, faux messies",
     "media_type": "Text",
     "index_reference": "faux christs, faux messies",
@@ -403,13 +445,14 @@
           "end_ref_usfm": "MRK 13:25"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "788722",
     "reference_id": 4417,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Félix, Antonius",
     "media_type": "Text",
     "index_reference": "félix, antonius",
@@ -431,13 +474,22 @@
           "end_ref_usfm": "ACT 24:27"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Felix",
+          "type": "person",
+          "preferred_label": "Félix",
+          "confidence": 0.6718,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "788783",
     "reference_id": 8254,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Femme",
     "media_type": "Text",
     "index_reference": "femme",
@@ -606,13 +658,29 @@
           "label": "Être humain",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "group:GenericFemales",
+          "type": "group",
+          "preferred_label": "Women",
+          "confidence": 0.9161,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:GenericFemale",
+          "type": "person",
+          "preferred_label": "A Woman",
+          "confidence": 0.8702,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "788723",
     "reference_id": 4422,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Festus, Porcius",
     "media_type": "Text",
     "index_reference": "festus, porcius",
@@ -658,13 +726,22 @@
           "end_ref_usfm": "ACT 25:12"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Festus",
+          "type": "person",
+          "preferred_label": "Festus",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "833083",
     "reference_id": 5189,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fête de la Récolte",
     "media_type": "Text",
     "index_reference": "fête de la récolte",
@@ -688,13 +765,22 @@
           "label": "Fêtes et festivals d'Israël",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "Éternel",
+          "confidence": 0.545,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "832975",
     "reference_id": 3473,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fête des Tabernacles",
     "media_type": "Text",
     "index_reference": "fête des tabernacles",
@@ -718,13 +804,22 @@
           "label": "Fêtes et festivals d'Israël",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "Éternel",
+          "confidence": 0.563,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "341259",
     "reference_id": 4416,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fêtes et festivals d'Israël",
     "media_type": "Text",
     "index_reference": "fêtes et festivals d'israël",
@@ -1519,13 +1614,14 @@
           "label": "Tabernacle",
           "language": "fra"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "833024",
     "reference_id": 4396,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fidélité",
     "media_type": "Text",
     "index_reference": "fidélité",
@@ -1631,13 +1727,22 @@
           "end_ref_usfm": "HEB 11:10"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "keyterm:Kindness",
+          "type": "keyterm",
+          "preferred_label": "bonté",
+          "confidence": 0.6098,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "852840",
     "reference_id": 4058,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fiente de pigeon",
     "media_type": "Text",
     "index_reference": "fiente de pigeon",
@@ -1653,13 +1758,43 @@
           "end_ref_usfm": "2KI 6:25"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "fauna:Donkey",
+          "type": "fauna",
+          "preferred_label": "Donkey",
+          "confidence": 0.5755,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:Kab",
+          "type": "realia",
+          "preferred_label": "Kab",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Samaria",
+          "type": "place",
+          "preferred_label": "Samarie",
+          "confidence": 0.526,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:Money",
+          "type": "realia",
+          "preferred_label": "Money",
+          "confidence": 0.5215,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "785242",
     "reference_id": 6981,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fierté, orgueil",
     "media_type": "Text",
     "index_reference": "fierté, orgueil",
@@ -1897,13 +2032,14 @@
           "end_ref_usfm": "LUK 1:52"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "832919",
     "reference_id": 2594,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fièvre",
     "media_type": "Text",
     "index_reference": "fièvre",
@@ -1933,13 +2069,14 @@
           "label": "Médecine et pratique médicale",
           "language": "fra"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "769276",
     "reference_id": 6861,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fille de Pharaon",
     "media_type": "Text",
     "index_reference": "fille de pharaon",
@@ -2009,13 +2146,29 @@
           "end_ref_usfm": "EXO 2:10"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Pharaoh.5",
+          "type": "person",
+          "preferred_label": "Pharaon",
+          "confidence": 0.7867,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Pharaoh.7",
+          "type": "person",
+          "preferred_label": "Pharaon",
+          "confidence": 0.61,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "341297",
     "reference_id": 7740,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fils de l'homme",
     "media_type": "Text",
     "index_reference": "fils de l'homme",
@@ -2477,13 +2630,14 @@
           "label": "Christologie",
           "language": "fra"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "823033",
     "reference_id": 6820,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fils de l'orient",
     "media_type": "Text",
     "index_reference": "fils de l'orient",
@@ -2547,13 +2701,22 @@
           "end_ref_usfm": "EZK 25:10"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:East",
+          "type": "place",
+          "preferred_label": "l'orient",
+          "confidence": 0.6278,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "853189",
     "reference_id": 7742,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fils des Prophètes",
     "media_type": "Text",
     "index_reference": "fils des prophètes",
@@ -2619,13 +2782,14 @@
           "label": "prophète, prophétesse",
           "language": "fra"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "341298",
     "reference_id": 7743,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fils du tonnerre",
     "media_type": "Text",
     "index_reference": "fils du tonnerre",
@@ -2649,13 +2813,43 @@
           "label": "Boanerges",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:John.2",
+          "type": "person",
+          "preferred_label": "Jean",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:James",
+          "type": "person",
+          "preferred_label": "Jacques",
+          "confidence": 0.6265,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Name",
+          "type": "keyterm",
+          "preferred_label": "nom",
+          "confidence": 0.544,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Zebedee",
+          "type": "person",
+          "preferred_label": "Zébédée",
+          "confidence": 0.517,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "788781",
     "reference_id": 7741,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fils et filles de Dieu",
     "media_type": "Text",
     "index_reference": "fils et filles de dieu",
@@ -2737,13 +2931,14 @@
           "end_ref_usfm": "EPH 1:23"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "831654",
     "reference_id": 6667,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fils unique (venu du Père)",
     "media_type": "Text",
     "index_reference": "fils unique (venu du père)",
@@ -2833,13 +3028,14 @@
           "label": "Christologie",
           "language": "fra"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "788768",
     "reference_id": 4431,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Firmament",
     "media_type": "Text",
     "index_reference": "firmament",
@@ -2891,13 +3087,14 @@
           "end_ref_usfm": "EZK 1:26"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "806118",
     "reference_id": 7216,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fleuve d'Égypte",
     "media_type": "Text",
     "index_reference": "fleuve d'égypte",
@@ -2921,13 +3118,43 @@
           "label": "Torrent d'Égypte",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Egypt",
+          "type": "place",
+          "preferred_label": "Égypte",
+          "confidence": 0.85,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Euphrates",
+          "type": "place",
+          "preferred_label": "Euphrate",
+          "confidence": 0.7525,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "Éternel",
+          "confidence": 0.5755,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Covenant",
+          "type": "keyterm",
+          "preferred_label": "alliance",
+          "confidence": 0.5215,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "831787",
     "reference_id": 5930,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Foie",
     "media_type": "Text",
     "index_reference": "foie",
@@ -2979,13 +3206,14 @@
           "end_ref_usfm": "EZK 21:21"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "839963",
     "reference_id": 4280,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Forêt d'Éphraïm",
     "media_type": "Text",
     "index_reference": "forêt d'éphraïm",
@@ -3013,13 +3241,36 @@
           "end_ref_usfm": "JOS 17:18"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "group:Ephraim",
+          "type": "group",
+          "preferred_label": "Éphraïm",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ephraim",
+          "type": "person",
+          "preferred_label": "Éphraïm",
+          "confidence": 0.65,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:ForestEphraim",
+          "type": "place",
+          "preferred_label": "forêt d'Éphraïm",
+          "confidence": 0.6333,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "800704",
     "reference_id": 5219,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Forgeron",
     "media_type": "Text",
     "index_reference": "forgeron",
@@ -3091,13 +3342,14 @@
           "label": "Minéraux et Métaux",
           "language": "fra"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "785260",
     "reference_id": 7714,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Forgeron",
     "media_type": "Text",
     "index_reference": "forgeron",
@@ -3181,13 +3433,22 @@
           "label": "Minéraux et Métaux",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Craftsman",
+          "type": "realia",
+          "preferred_label": "Craftsman",
+          "confidence": 0.5537,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "831730",
     "reference_id": 3812,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Forgeron d'airain",
     "media_type": "Text",
     "index_reference": "forgeron d'airain",
@@ -3253,13 +3514,14 @@
           "label": "Minéraux et Métaux",
           "language": "fra"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "852877",
     "reference_id": 4465,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fort, Fortification",
     "media_type": "Text",
     "index_reference": "fort, fortification",
@@ -3339,13 +3601,29 @@
           "label": "Tour",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Fortress",
+          "type": "realia",
+          "preferred_label": "Fortress",
+          "confidence": 0.6321,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "Éternel",
+          "confidence": 0.5136,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "788724",
     "reference_id": 4467,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Forum",
     "media_type": "Text",
     "index_reference": "forum",
@@ -3369,13 +3647,36 @@
           "label": "Forum d'Appius",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:ForumOfAppius",
+          "type": "place",
+          "preferred_label": "Forum d'Appius",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:ThreeTaverns",
+          "type": "place",
+          "preferred_label": "Trois Tavernes",
+          "confidence": 0.6085,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "Éternel",
+          "confidence": 0.598,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "788699",
     "reference_id": 2847,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Forum d'Appius",
     "media_type": "Text",
     "index_reference": "forum d'appius",
@@ -3406,13 +3707,43 @@
           "label": "Forum",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:ForumOfAppius",
+          "type": "place",
+          "preferred_label": "Forum d'Appius",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:ThreeTaverns",
+          "type": "place",
+          "preferred_label": "Trois Tavernes",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "Éternel",
+          "confidence": 0.5755,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:Inn",
+          "type": "realia",
+          "preferred_label": "Inn",
+          "confidence": 0.5125,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "852879",
     "reference_id": 4485,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Foulon",
     "media_type": "Text",
     "index_reference": "foulon",
@@ -3440,13 +3771,22 @@
           "end_ref_usfm": "ISA 36:2"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:WashersField",
+          "type": "place",
+          "preferred_label": "champ du foulon",
+          "confidence": 1.0,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "811812",
     "reference_id": 4491,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fournaise",
     "media_type": "Text",
     "index_reference": "fournaise",
@@ -3570,13 +3910,22 @@
           "end_ref_usfm": "JER 6:30"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "realia:Kiln",
+          "type": "realia",
+          "preferred_label": "Kiln",
+          "confidence": 0.6111,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "869022",
     "reference_id": 6703,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fours, Tour des",
     "media_type": "Text",
     "index_reference": "fours, tour des",
@@ -3598,13 +3947,22 @@
           "end_ref_usfm": "NEH 12:38"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:TowerOfTheOvens",
+          "type": "place",
+          "preferred_label": "tour des fours",
+          "confidence": 1.0,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "839978",
     "reference_id": 4478,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Frange",
     "media_type": "Text",
     "index_reference": "frange",
@@ -3620,13 +3978,14 @@
           "end_ref_usfm": "DEU 22:12"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "602040",
     "reference_id": 3521,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "frère",
     "media_type": "Text",
     "index_reference": "frère",
@@ -3794,13 +4153,14 @@
           "label": "frères (et sœurs)",
           "language": "fra"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "662275",
     "reference_id": 3519,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "frères (et sœurs)",
     "media_type": "Text",
     "index_reference": "frères (et sœurs)",
@@ -3912,13 +4272,14 @@
           "end_ref_usfm": "1JN 4:21"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "341254",
     "reference_id": 3520,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Frères de Jésus",
     "media_type": "Text",
     "index_reference": "frères de jésus",
@@ -4058,13 +4419,22 @@
           "label": "Marie",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Jesus.2",
+          "type": "person",
+          "preferred_label": "Jésus",
+          "confidence": 0.5125,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "788759",
     "reference_id": 8114,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Frères jumeaux",
     "media_type": "Text",
     "index_reference": "frères jumeaux",
@@ -4088,13 +4458,36 @@
           "label": "Dioscures",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Emblem",
+          "type": "realia",
+          "preferred_label": "Emblem",
+          "confidence": 0.7435,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Alexandria",
+          "type": "place",
+          "preferred_label": "Alexandrie",
+          "confidence": 0.6265,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:Ship",
+          "type": "realia",
+          "preferred_label": "Ship",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "831752",
     "reference_id": 4480,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Frontal",
     "media_type": "Text",
     "index_reference": "frontal",
@@ -4167,13 +4560,14 @@
           "label": "Phylactère",
           "language": "fra"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "868870",
     "reference_id": 4074,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fumier, Porte du",
     "media_type": "Text",
     "index_reference": "fumier, porte du",
@@ -4203,13 +4597,36 @@
           "label": "Jérusalem",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:DungGate",
+          "type": "place",
+          "preferred_label": "porte du fumier",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:ValleyGate",
+          "type": "place",
+          "preferred_label": "porte de la vallée",
+          "confidence": 0.602,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:DragonSpring",
+          "type": "place",
+          "preferred_label": "Dragon Spring",
+          "confidence": 0.5345,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "833026",
     "reference_id": 4419,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Furet",
     "media_type": "Text",
     "index_reference": "furet",
@@ -4232,6 +4649,43 @@
           "resource_code": "TyndaleBibleDictionary",
           "label": "Gecko",
           "language": "fra"
+        }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Lizard",
+          "type": "fauna",
+          "preferred_label": "Lizard",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Gecko",
+          "type": "fauna",
+          "preferred_label": "Gecko",
+          "confidence": 0.64,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Iguana",
+          "type": "fauna",
+          "preferred_label": "Monitor",
+          "confidence": 0.631,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Chameleon",
+          "type": "fauna",
+          "preferred_label": "Chameleon",
+          "confidence": 0.631,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Skink",
+          "type": "fauna",
+          "preferred_label": "Skink",
+          "confidence": 0.55,
+          "match_method": "scored"
         }
       ]
     }

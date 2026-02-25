@@ -2,7 +2,7 @@
   {
     "content_id": "760050",
     "reference_id": 8256,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lã",
     "media_type": "Text",
     "index_reference": "lã",
@@ -86,13 +86,22 @@
           "label": "Tecido e fabricação de tecidos",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Wool",
+          "type": "realia",
+          "preferred_label": "Wool",
+          "confidence": 0.5561,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "829728",
     "reference_id": 5829,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Laade",
     "media_type": "Text",
     "index_reference": "laade",
@@ -108,13 +117,57 @@
           "end_ref_usfm": "1CH 4:2"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Lahad",
+          "type": "person",
+          "preferred_label": "Laade",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Haroeh",
+          "type": "person",
+          "preferred_label": "Haroé",
+          "confidence": 0.91,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jahath",
+          "type": "person",
+          "preferred_label": "Jaate",
+          "confidence": 0.82,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ahumai",
+          "type": "person",
+          "preferred_label": "Aumai",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Zorathites",
+          "type": "group",
+          "preferred_label": "Zorathites",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shobal.2",
+          "type": "person",
+          "preferred_label": "Sobal",
+          "confidence": 0.64,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "829729",
     "reference_id": 5831,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Laamas",
     "media_type": "Text",
     "index_reference": "laamas",
@@ -130,13 +183,36 @@
           "end_ref_usfm": "JOS 15:40"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Lahmam",
+          "type": "place",
+          "preferred_label": "Laamás",
+          "confidence": 0.9595,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Cabbon",
+          "type": "place",
+          "preferred_label": "Cabom",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Chitlish",
+          "type": "place",
+          "preferred_label": "Quitlis",
+          "confidence": 0.6895,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "759867",
     "reference_id": 5824,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Labão (local)",
     "media_type": "Text",
     "index_reference": "labão (local)",
@@ -158,13 +234,29 @@
           "end_ref_usfm": "NUM 33:21"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Laban",
+          "type": "place",
+          "preferred_label": "Labão",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Libnah",
+          "type": "place",
+          "preferred_label": "Libna",
+          "confidence": 0.6147,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "683011",
     "reference_id": 5823,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Labão (Pessoa)",
     "media_type": "Text",
     "index_reference": "labão (pessoa)",
@@ -272,13 +364,22 @@
           "label": "Jacó",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Laban",
+          "type": "person",
+          "preferred_label": "Labão",
+          "confidence": 0.7565,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "829734",
     "reference_id": 5837,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lacum",
     "media_type": "Text",
     "index_reference": "lacum",
@@ -294,13 +395,64 @@
           "end_ref_usfm": "JOS 19:33"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Lakkum",
+          "type": "place",
+          "preferred_label": "Lacum",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Allon",
+          "type": "place",
+          "preferred_label": "Alom",
+          "confidence": 0.748,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Adami-nekeb",
+          "type": "place",
+          "preferred_label": "Adami-nequebe",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Zaanannim",
+          "type": "place",
+          "preferred_label": "Zaananim",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Heleph",
+          "type": "place",
+          "preferred_label": "Helefe",
+          "confidence": 0.631,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Jabneel.2",
+          "type": "place",
+          "preferred_label": "Jabneel",
+          "confidence": 0.6265,
+          "match_method": "scored"
+        },
+        {
+          "id": "flora:Oak",
+          "type": "flora",
+          "preferred_label": "Oak",
+          "confidence": 0.5125,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "829723",
     "reference_id": 5821,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lada",
     "media_type": "Text",
     "index_reference": "lada",
@@ -316,13 +468,85 @@
           "end_ref_usfm": "1CH 4:21"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Laadah",
+          "type": "person",
+          "preferred_label": "Lada",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mareshah.2",
+          "type": "person",
+          "preferred_label": "Maressa",
+          "confidence": 0.91,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Lecah",
+          "type": "person",
+          "preferred_label": "Leca",
+          "confidence": 0.91,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shelah",
+          "type": "person",
+          "preferred_label": "Selá",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Beth-ashbea",
+          "type": "place",
+          "preferred_label": "Bete-Asbeia",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:Linen",
+          "type": "realia",
+          "preferred_label": "Linen",
+          "confidence": 0.6475,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Judah.4",
+          "type": "person",
+          "preferred_label": "Judá",
+          "confidence": 0.625,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Work",
+          "type": "keyterm",
+          "preferred_label": "work",
+          "confidence": 0.598,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Judah",
+          "type": "group",
+          "preferred_label": "Judá",
+          "confidence": 0.598,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Er.3",
+          "type": "person",
+          "preferred_label": "Er",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "829727",
     "reference_id": 5827,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Ladã",
     "media_type": "Text",
     "index_reference": "ladã",
@@ -358,13 +582,36 @@
           "label": "Libni",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Ladan",
+          "type": "person",
+          "preferred_label": "Ladã",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Libni",
+          "type": "person",
+          "preferred_label": "Libni",
+          "confidence": 0.6042,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ammihud",
+          "type": "person",
+          "preferred_label": "Amiúde",
+          "confidence": 0.5083,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "830560",
     "reference_id": 7220,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Ladrão, roubo",
     "media_type": "Text",
     "index_reference": "ladrão, roubo",
@@ -381,13 +628,14 @@
           "label": "Direito penal e punição",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "759868",
     "reference_id": 5828,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lael",
     "media_type": "Text",
     "index_reference": "lael",
@@ -403,13 +651,29 @@
           "end_ref_usfm": "NUM 3:24"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Lael",
+          "type": "person",
+          "preferred_label": "Lael",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Eliasaph.2",
+          "type": "person",
+          "preferred_label": "Eliasafe",
+          "confidence": 0.775,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "831206",
     "reference_id": 8238,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lagar",
     "media_type": "Text",
     "index_reference": "lagar",
@@ -494,13 +758,14 @@
           "label": "Vinho",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "828310",
     "reference_id": 3614,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lagarta",
     "media_type": "Text",
     "index_reference": "lagarta",
@@ -524,13 +789,14 @@
           "label": "Gafanhotos",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "759766",
     "reference_id": 4562,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lagartixa",
     "media_type": "Text",
     "index_reference": "lagartixa",
@@ -561,13 +827,50 @@
           "label": "Lagarto",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Lizard",
+          "type": "fauna",
+          "preferred_label": "Lizard",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Iguana",
+          "type": "fauna",
+          "preferred_label": "Monitor",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Chameleon",
+          "type": "fauna",
+          "preferred_label": "Chameleon",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Skink",
+          "type": "fauna",
+          "preferred_label": "Skink",
+          "confidence": 0.613,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Gecko",
+          "type": "fauna",
+          "preferred_label": "Gecko",
+          "confidence": 0.613,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "829777",
     "reference_id": 5931,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lagarto",
     "media_type": "Text",
     "index_reference": "lagarto",
@@ -591,13 +894,14 @@
           "label": "Lagartixa",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "830607",
     "reference_id": 7301,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lagarto-da-areia",
     "media_type": "Text",
     "index_reference": "lagarto-da-areia",
@@ -614,13 +918,14 @@
           "label": "Animais",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "161836",
     "reference_id": 5836,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lago De Fogo",
     "media_type": "Text",
     "index_reference": "lago de fogo",
@@ -741,13 +1046,14 @@
           "label": "Juízo final",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "829731",
     "reference_id": 5833,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Laís",
     "media_type": "Text",
     "index_reference": "laís",
@@ -763,13 +1069,29 @@
           "end_ref_usfm": "ISA 10:30"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Laishah",
+          "type": "place",
+          "preferred_label": "Laís",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Gallim",
+          "type": "place",
+          "preferred_label": "Galim",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "829733",
     "reference_id": 5835,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Laís (lugar)",
     "media_type": "Text",
     "index_reference": "laís (lugar)",
@@ -818,13 +1140,29 @@
           "label": "Laís",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Laishah",
+          "type": "place",
+          "preferred_label": "Laís",
+          "confidence": 0.6667,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Dan",
+          "type": "place",
+          "preferred_label": "Dã",
+          "confidence": 0.6042,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "829732",
     "reference_id": 5834,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Laís (pessoa)",
     "media_type": "Text",
     "index_reference": "laís (pessoa)",
@@ -846,13 +1184,29 @@
           "end_ref_usfm": "2SA 3:16"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Laish",
+          "type": "person",
+          "preferred_label": "Laís",
+          "confidence": 0.8667,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Palti.2",
+          "type": "person",
+          "preferred_label": "Palti",
+          "confidence": 0.5292,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "759869",
     "reference_id": 5841,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lamentações, Livro de",
     "media_type": "Text",
     "index_reference": "lamentações, livro de",
@@ -1201,13 +1555,14 @@
           "label": "Jeremias (Pessoa)",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "829736",
     "reference_id": 5842,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lamento, lamentação",
     "media_type": "Text",
     "index_reference": "lamento, lamentação",
@@ -1224,13 +1579,14 @@
           "label": "Luto",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "481552",
     "reference_id": 5840,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lameque",
     "media_type": "Text",
     "index_reference": "lameque",
@@ -1302,13 +1658,29 @@
           "label": "Genealogia de Jesus Cristo",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Lamech.2",
+          "type": "person",
+          "preferred_label": "Lameque",
+          "confidence": 0.7217,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Lamech",
+          "type": "person",
+          "preferred_label": "Lameque",
+          "confidence": 0.6696,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "829730",
     "reference_id": 5832,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lami",
     "media_type": "Text",
     "index_reference": "lami",
@@ -1330,13 +1702,71 @@
           "end_ref_usfm": "1CH 20:5"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Lahmi",
+          "type": "person",
+          "preferred_label": "Lami",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:WeaversBeam",
+          "type": "realia",
+          "preferred_label": "Weavers Beam",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Elhanan",
+          "type": "person",
+          "preferred_label": "Elanã",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jaare-oregim",
+          "type": "person",
+          "preferred_label": "Jaaré-Oregim",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Goliath",
+          "type": "person",
+          "preferred_label": "Golias",
+          "confidence": 0.58,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Philistine",
+          "type": "place",
+          "preferred_label": "Filístia",
+          "confidence": 0.562,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Philistine",
+          "type": "group",
+          "preferred_label": "Filisteu",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Gath",
+          "type": "place",
+          "preferred_label": "Gate",
+          "confidence": 0.5125,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "717136",
     "reference_id": 5843,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lâmpada, Candelabro",
     "media_type": "Text",
     "index_reference": "lâmpada, candelabro",
@@ -1474,13 +1904,14 @@
           "label": "Menorá",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "829737",
     "reference_id": 5844,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lança",
     "media_type": "Text",
     "index_reference": "lança",
@@ -1497,13 +1928,14 @@
           "label": "Armadura e armas",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "830909",
     "reference_id": 7763,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lança, Lançador",
     "media_type": "Text",
     "index_reference": "lança, lançador",
@@ -1520,13 +1952,14 @@
           "label": "Armadura e armas",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "829738",
     "reference_id": 5847,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Laodiceia, laodicenses",
     "media_type": "Text",
     "index_reference": "laodiceia, laodicenses",
@@ -1550,13 +1983,29 @@
           "label": "Apocalipse, Livro de",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "group:Laodicea",
+          "type": "group",
+          "preferred_label": "Laodiceans",
+          "confidence": 0.8569,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Laodicea",
+          "type": "place",
+          "preferred_label": "Laodiceia",
+          "confidence": 0.8401,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "829740",
     "reference_id": 5849,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lapidote",
     "media_type": "Text",
     "index_reference": "lapidote",
@@ -1572,13 +2021,36 @@
           "end_ref_usfm": "JDG 4:4"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Lappidoth",
+          "type": "person",
+          "preferred_label": "Lapidote",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Deborah.2",
+          "type": "person",
+          "preferred_label": "Débora",
+          "confidence": 0.6895,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Israel",
+          "type": "person",
+          "preferred_label": "Israel",
+          "confidence": 0.6115,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "830337",
     "reference_id": 6809,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lápis",
     "media_type": "Text",
     "index_reference": "lápis",
@@ -1594,13 +2066,50 @@
           "end_ref_usfm": "ISA 44:13"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "realia:Chisel",
+          "type": "realia",
+          "preferred_label": "Chisel",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:Stylus.2",
+          "type": "realia",
+          "preferred_label": "Stylus",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:Compass",
+          "type": "realia",
+          "preferred_label": "Compass",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:House",
+          "type": "realia",
+          "preferred_label": "House",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:MeasuringReed",
+          "type": "realia",
+          "preferred_label": "Measuring Reed",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "829739",
     "reference_id": 5848,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lápis-lazúli",
     "media_type": "Text",
     "index_reference": "lápis-lazúli",
@@ -1624,13 +2133,14 @@
           "label": "Pedras preciosas",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "829726",
     "reference_id": 5826,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Laquis",
     "media_type": "Text",
     "index_reference": "laquis",
@@ -1690,13 +2200,29 @@
           "label": "Cartas de Laquis",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Lachish",
+          "type": "place",
+          "preferred_label": "Laquis",
+          "confidence": 0.6875,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hezekiah",
+          "type": "person",
+          "preferred_label": "Ezequias",
+          "confidence": 0.5815,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "829115",
     "reference_id": 4917,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lareira",
     "media_type": "Text",
     "index_reference": "lareira",
@@ -1713,13 +2239,14 @@
           "label": "Casas E Habitações",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "658674",
     "reference_id": 5854,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lasa",
     "media_type": "Text",
     "index_reference": "lasa",
@@ -1735,13 +2262,78 @@
           "end_ref_usfm": "GEN 10:19"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Lasha",
+          "type": "place",
+          "preferred_label": "Lasa",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Gaza",
+          "type": "place",
+          "preferred_label": "Gaza",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Sidon",
+          "type": "place",
+          "preferred_label": "Sidom",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Gomorrah",
+          "type": "place",
+          "preferred_label": "Gomorra",
+          "confidence": 0.631,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Canaan",
+          "type": "place",
+          "preferred_label": "Canaã",
+          "confidence": 0.625,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Admah",
+          "type": "place",
+          "preferred_label": "Admá",
+          "confidence": 0.598,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Sodom",
+          "type": "place",
+          "preferred_label": "Sodoma",
+          "confidence": 0.58,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Canaan",
+          "type": "group",
+          "preferred_label": "cananeu",
+          "confidence": 0.58,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Zeboiim",
+          "type": "place",
+          "preferred_label": "Zeboim",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "829741",
     "reference_id": 5853,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lasarom",
     "media_type": "Text",
     "index_reference": "lasarom",
@@ -1757,13 +2349,29 @@
           "end_ref_usfm": "JOS 12:18"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Lasharon",
+          "type": "place",
+          "preferred_label": "Lasarom",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Aphek",
+          "type": "place",
+          "preferred_label": "Afeca",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "161837",
     "reference_id": 5851,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lascívia*",
     "media_type": "Text",
     "index_reference": "lascívia*",
@@ -1827,13 +2435,14 @@
           "end_ref_usfm": "2PE 2:19"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "815999",
     "reference_id": 5852,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Laseia",
     "media_type": "Text",
     "index_reference": "laseia",
@@ -1849,13 +2458,29 @@
           "end_ref_usfm": "ACT 27:8"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Lasea",
+          "type": "place",
+          "preferred_label": "Laséia",
+          "confidence": 0.9595,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:FairHavens",
+          "type": "place",
+          "preferred_label": "Fair Havens",
+          "confidence": 0.7075,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "828241",
     "reference_id": 3495,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Latão",
     "media_type": "Text",
     "index_reference": "latão",
@@ -1872,13 +2497,14 @@
           "label": "Minerais e metais",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "829744",
     "reference_id": 5859,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Latim",
     "media_type": "Text",
     "index_reference": "latim",
@@ -1914,13 +2540,14 @@
           "label": "Bíblia, Versões (Antigas) da",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "828829",
     "reference_id": 4485,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lavandeiro",
     "media_type": "Text",
     "index_reference": "lavandeiro",
@@ -1948,13 +2575,22 @@
           "end_ref_usfm": "ISA 36:2"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:WashersField",
+          "type": "place",
+          "preferred_label": "Launderer’s Field",
+          "confidence": 0.748,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "828828",
     "reference_id": 4484,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lavandeiro, Campo do",
     "media_type": "Text",
     "index_reference": "lavandeiro, campo do",
@@ -2008,13 +2644,22 @@
           "label": "Jerusalém",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:WashersField",
+          "type": "place",
+          "preferred_label": "Launderer’s Field",
+          "confidence": 0.548,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "829749",
     "reference_id": 5868,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lázaro",
     "media_type": "Text",
     "index_reference": "lázaro",
@@ -2090,13 +2735,29 @@
           "end_ref_usfm": "JHN 12:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Lazarus.2",
+          "type": "person",
+          "preferred_label": "Lázaro",
+          "confidence": 0.6494,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Lazarus",
+          "type": "person",
+          "preferred_label": "Lázaro",
+          "confidence": 0.618,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "658675",
     "reference_id": 5884,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Leabim, Leabitas",
     "media_type": "Text",
     "index_reference": "leabim, leabitas",
@@ -2142,13 +2803,22 @@
           "end_ref_usfm": "NAM 3:9"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "group:Lehabim",
+          "type": "group",
+          "preferred_label": "Lehabim",
+          "confidence": 0.5308,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "829775",
     "reference_id": 5928,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Leão",
     "media_type": "Text",
     "index_reference": "leão",
@@ -2165,13 +2835,22 @@
           "label": "Animais",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Lion",
+          "type": "fauna",
+          "preferred_label": "Lion",
+          "confidence": 0.9323,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "717146",
     "reference_id": 5927,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Leão da tribo de Judá",
     "media_type": "Text",
     "index_reference": "leão da tribo de judá",
@@ -2235,13 +2914,22 @@
           "end_ref_usfm": "DAN 7:4"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Judah.4",
+          "type": "person",
+          "preferred_label": "Judá",
+          "confidence": 0.6923,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "829751",
     "reference_id": 5873,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lebana",
     "media_type": "Text",
     "index_reference": "lebana",
@@ -2263,13 +2951,29 @@
           "end_ref_usfm": "NEH 7:48"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Lebanah",
+          "type": "person",
+          "preferred_label": "Lebana",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hagabah",
+          "type": "person",
+          "preferred_label": "Hagaba",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "829752",
     "reference_id": 5875,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lebaote",
     "media_type": "Text",
     "index_reference": "lebaote",
@@ -2297,13 +3001,36 @@
           "end_ref_usfm": "1CH 4:31"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Lebaoth",
+          "type": "place",
+          "preferred_label": "Lebaote",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Beth-lebaoth",
+          "type": "place",
+          "preferred_label": "Bete-Lebaote",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Sharuhen",
+          "type": "place",
+          "preferred_label": "Saruém",
+          "confidence": 0.6715,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "829753",
     "reference_id": 5876,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lebeu",
     "media_type": "Text",
     "index_reference": "lebeu",
@@ -2327,13 +3054,64 @@
           "label": "Tadeu, O apóstolo",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Judas",
+          "type": "person",
+          "preferred_label": "Judas",
+          "confidence": 0.8965,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Alphaeus",
+          "type": "person",
+          "preferred_label": "Alfeu",
+          "confidence": 0.82,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Bartholomew",
+          "type": "person",
+          "preferred_label": "Bartolomeu",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Philip",
+          "type": "person",
+          "preferred_label": "Filipe",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:James.2",
+          "type": "person",
+          "preferred_label": "Tiago",
+          "confidence": 0.64,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Thomas",
+          "type": "person",
+          "preferred_label": "Tomé",
+          "confidence": 0.6265,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Matthew",
+          "type": "person",
+          "preferred_label": "Mateus",
+          "confidence": 0.598,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "759872",
     "reference_id": 5877,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lebo-Hamate",
     "media_type": "Text",
     "index_reference": "lebo-hamate",
@@ -2375,13 +3153,22 @@
           "label": "Hamate",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Hamath",
+          "type": "place",
+          "preferred_label": "Hamate",
+          "confidence": 0.85,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "829754",
     "reference_id": 5878,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lebona",
     "media_type": "Text",
     "index_reference": "lebona",
@@ -2397,13 +3184,43 @@
           "end_ref_usfm": "JDG 21:19"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Lebonah",
+          "type": "place",
+          "preferred_label": "Lebona",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "SENHOR",
+          "confidence": 0.607,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Shiloh",
+          "type": "place",
+          "preferred_label": "Siló",
+          "confidence": 0.58,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Bethel",
+          "type": "place",
+          "preferred_label": "Betel",
+          "confidence": 0.58,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "759702",
     "reference_id": 3795,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lebre",
     "media_type": "Text",
     "index_reference": "lebre",
@@ -2433,13 +3250,36 @@
           "label": "Animais",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Hyrax",
+          "type": "fauna",
+          "preferred_label": "Hyrax",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Defilement",
+          "type": "keyterm",
+          "preferred_label": "defilement",
+          "confidence": 0.58,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Hare",
+          "type": "fauna",
+          "preferred_label": "Hare",
+          "confidence": 0.548,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "759792",
     "reference_id": 4834,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lebre",
     "media_type": "Text",
     "index_reference": "lebre",
@@ -2469,13 +3309,29 @@
           "label": "Animais",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Hare",
+          "type": "fauna",
+          "preferred_label": "Hare",
+          "confidence": 0.748,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Defilement",
+          "type": "keyterm",
+          "preferred_label": "defilement",
+          "confidence": 0.58,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "829755",
     "reference_id": 5879,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Leca",
     "media_type": "Text",
     "index_reference": "leca",
@@ -2491,13 +3347,85 @@
           "end_ref_usfm": "1CH 4:21"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Lecah",
+          "type": "person",
+          "preferred_label": "Leca",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Laadah",
+          "type": "person",
+          "preferred_label": "Lada",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shelah",
+          "type": "person",
+          "preferred_label": "Selá",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Beth-ashbea",
+          "type": "place",
+          "preferred_label": "Bete-Asbeia",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mareshah.2",
+          "type": "person",
+          "preferred_label": "Maressa",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Er.3",
+          "type": "person",
+          "preferred_label": "Er",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Work",
+          "type": "keyterm",
+          "preferred_label": "work",
+          "confidence": 0.598,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:Linen",
+          "type": "realia",
+          "preferred_label": "Linen",
+          "confidence": 0.598,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Judah",
+          "type": "group",
+          "preferred_label": "Judá",
+          "confidence": 0.562,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Judah.4",
+          "type": "person",
+          "preferred_label": "Judá",
+          "confidence": 0.5125,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "161839",
     "reference_id": 5883,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Legião",
     "media_type": "Text",
     "index_reference": "legião",
@@ -2563,13 +3491,22 @@
           "label": "Guerra",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "deity:Legion",
+          "type": "deity",
+          "preferred_label": "Legião",
+          "confidence": 0.7,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "830442",
     "reference_id": 7022,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Legume",
     "media_type": "Text",
     "index_reference": "legume",
@@ -2599,13 +3536,22 @@
           "label": "Plantas",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Melzar",
+          "type": "person",
+          "preferred_label": "Melzar",
+          "confidence": 0.512,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "829756",
     "reference_id": 5885,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Leí",
     "media_type": "Text",
     "index_reference": "leí",
@@ -2639,13 +3585,29 @@
           "end_ref_usfm": "JDG 15:19"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Lehi",
+          "type": "place",
+          "preferred_label": "Leí",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Ramath-lehi",
+          "type": "place",
+          "preferred_label": "Ramate-Leí",
+          "confidence": 0.7,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "124394",
     "reference_id": 5864,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lei, Conceito Bíblico De",
     "media_type": "Text",
     "index_reference": "lei, conceito bíblico de",
@@ -4034,13 +4996,22 @@
           "label": "Carta aos Romanos",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Law",
+          "type": "keyterm",
+          "preferred_label": "lei",
+          "confidence": 0.6026,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "481526",
     "reference_id": 4009,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Leis dietéticas",
     "media_type": "Text",
     "index_reference": "leis dietéticas",
@@ -4407,13 +5378,14 @@
           "label": "Levítico, Livro de",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "830024",
     "reference_id": 6306,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Leite",
     "media_type": "Text",
     "index_reference": "leite",
@@ -4430,13 +5402,14 @@
           "label": "Comida E Preparação De Alimentos",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "806236",
     "reference_id": 5886,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lemuel",
     "media_type": "Text",
     "index_reference": "lemuel",
@@ -4452,13 +5425,22 @@
           "end_ref_usfm": "PRO 31:9"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Lemuel",
+          "type": "person",
+          "preferred_label": "Lemuel",
+          "confidence": 0.6889,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "829757",
     "reference_id": 5887,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lentilha",
     "media_type": "Text",
     "index_reference": "lentilha",
@@ -4482,13 +5464,22 @@
           "label": "Plantas",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "flora:Lentil",
+          "type": "flora",
+          "preferred_label": "Lentil",
+          "confidence": 0.8432,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "829758",
     "reference_id": 5888,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Leopardo",
     "media_type": "Text",
     "index_reference": "leopardo",
@@ -4505,13 +5496,22 @@
           "label": "Animais",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Leopard",
+          "type": "fauna",
+          "preferred_label": "Leopard",
+          "confidence": 0.9353,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "125291",
     "reference_id": 5889,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Leproso, Lepra",
     "media_type": "Text",
     "index_reference": "leproso, lepra",
@@ -4566,13 +5566,14 @@
           "label": "Praga",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "830044",
     "reference_id": 6337,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lepto",
     "media_type": "Text",
     "index_reference": "lepto",
@@ -4603,13 +5604,29 @@
           "label": "Dinheiro",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Lepton",
+          "type": "realia",
+          "preferred_label": "Lepton",
+          "confidence": 0.9595,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:Quadrans",
+          "type": "realia",
+          "preferred_label": "Quadrans",
+          "confidence": 0.64,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "829759",
     "reference_id": 5890,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lesém",
     "media_type": "Text",
     "index_reference": "lesém",
@@ -4633,13 +5650,36 @@
           "label": "Dã (Lugar)",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Dan",
+          "type": "place",
+          "preferred_label": "Dã",
+          "confidence": 0.91,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Dan",
+          "type": "group",
+          "preferred_label": "Dã",
+          "confidence": 0.562,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Dispossess",
+          "type": "keyterm",
+          "preferred_label": "dispossess",
+          "confidence": 0.5305,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "829760",
     "reference_id": 5891,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lethech, meio ômer",
     "media_type": "Text",
     "index_reference": "lethech, meio ômer",
@@ -4656,13 +5696,14 @@
           "label": "Pesos E Medidas",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "683014",
     "reference_id": 5894,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Letusim, Letuseus",
     "media_type": "Text",
     "index_reference": "letusim, letuseus",
@@ -4678,13 +5719,57 @@
           "end_ref_usfm": "GEN 25:3"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "group:Letushim",
+          "type": "group",
+          "preferred_label": "Letushim",
+          "confidence": 0.811,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Leummim",
+          "type": "group",
+          "preferred_label": "Leummites",
+          "confidence": 0.7435,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Asshurim",
+          "type": "group",
+          "preferred_label": "Asshurim",
+          "confidence": 0.739,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Sheba.3",
+          "type": "person",
+          "preferred_label": "Seba",
+          "confidence": 0.64,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Dedan.2",
+          "type": "person",
+          "preferred_label": "Dedã",
+          "confidence": 0.5995,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jokshan",
+          "type": "person",
+          "preferred_label": "Jocsã",
+          "confidence": 0.595,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "683015",
     "reference_id": 5895,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Leumim, Leumeus",
     "media_type": "Text",
     "index_reference": "leumim, leumeus",
@@ -4700,13 +5785,57 @@
           "end_ref_usfm": "GEN 25:3"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "group:Leummim",
+          "type": "group",
+          "preferred_label": "Leummites",
+          "confidence": 0.8515,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Letushim",
+          "type": "group",
+          "preferred_label": "Letushim",
+          "confidence": 0.7975,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Asshurim",
+          "type": "group",
+          "preferred_label": "Asshurim",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Sheba.3",
+          "type": "person",
+          "preferred_label": "Seba",
+          "confidence": 0.649,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Dedan.2",
+          "type": "person",
+          "preferred_label": "Dedã",
+          "confidence": 0.604,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jokshan",
+          "type": "person",
+          "preferred_label": "Jocsã",
+          "confidence": 0.5995,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "831226",
     "reference_id": 8271,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Levedura",
     "media_type": "Text",
     "index_reference": "levedura",
@@ -4723,13 +5852,14 @@
           "label": "Fermento*",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "125292",
     "reference_id": 5897,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Levi (Pessoa)",
     "media_type": "Text",
     "index_reference": "levi (pessoa)",
@@ -4815,13 +5945,36 @@
           "label": "Mateus (Pessoa)",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Matthew",
+          "type": "person",
+          "preferred_label": "Mateus",
+          "confidence": 0.6267,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Levi",
+          "type": "group",
+          "preferred_label": "Levi",
+          "confidence": 0.6178,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Levi",
+          "type": "person",
+          "preferred_label": "Levi",
+          "confidence": 0.6089,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "806237",
     "reference_id": 5896,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Leviatã",
     "media_type": "Text",
     "index_reference": "leviatã",
@@ -4870,13 +6023,29 @@
           "label": "Crocodilo",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:GiantCroccodile",
+          "type": "fauna",
+          "preferred_label": "Leviathan",
+          "confidence": 0.91,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Dragon",
+          "type": "fauna",
+          "preferred_label": "Dragon",
+          "confidence": 0.508,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "829763",
     "reference_id": 5899,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Levitas",
     "media_type": "Text",
     "index_reference": "levitas",
@@ -4907,13 +6076,14 @@
           "label": "Sacerdotes E Levitas",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "717139",
     "reference_id": 5901,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Levítico, Livro de",
     "media_type": "Text",
     "index_reference": "levítico, livro de",
@@ -5416,13 +6586,14 @@
           "label": "Templo",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "481554",
     "reference_id": 5870,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lia",
     "media_type": "Text",
     "index_reference": "lia",
@@ -5536,13 +6707,22 @@
           "label": "Jacó",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Leah",
+          "type": "person",
+          "preferred_label": "Lia",
+          "confidence": 0.6819,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "829764",
     "reference_id": 5903,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Libação",
     "media_type": "Text",
     "index_reference": "libação",
@@ -5559,13 +6739,14 @@
           "label": "Ofertas e sacrifícios",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "125290",
     "reference_id": 5874,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Líbano",
     "media_type": "Text",
     "index_reference": "líbano",
@@ -5833,13 +7014,36 @@
           "end_ref_usfm": "EXO 39:29"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:LebanonValley",
+          "type": "place",
+          "preferred_label": "Vale do Líbano",
+          "confidence": 0.6034,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:HermonMount",
+          "type": "place",
+          "preferred_label": "Monte Hermom",
+          "confidence": 0.5372,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:HouseOfTheForestOfLebanon",
+          "type": "place",
+          "preferred_label": "House of the Forest of Lebanon",
+          "confidence": 0.5338,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "828824",
     "reference_id": 4474,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Liberdade",
     "media_type": "Text",
     "index_reference": "liberdade",
@@ -5856,13 +7060,14 @@
           "label": "Liberdade",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "717140",
     "reference_id": 5905,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Liberdade",
     "media_type": "Text",
     "index_reference": "liberdade",
@@ -6054,13 +7259,14 @@
           "label": "Escravo, Escravidão",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "716989",
     "reference_id": 3972,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Libertação, libertador",
     "media_type": "Text",
     "index_reference": "libertação, libertador",
@@ -6175,13 +7381,14 @@
           "label": "Redentor, Redenção",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "829765",
     "reference_id": 5910,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Libertinagem",
     "media_type": "Text",
     "index_reference": "libertinagem",
@@ -6198,13 +7405,22 @@
           "label": "Lascívia*",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Liberation",
+          "type": "keyterm",
+          "preferred_label": "libertação",
+          "confidence": 0.8022,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "816003",
     "reference_id": 5904,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Libertinos",
     "media_type": "Text",
     "index_reference": "libertinos",
@@ -6234,13 +7450,22 @@
           "label": "Libertos",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "group:Freedmen",
+          "type": "group",
+          "preferred_label": "Freedmen",
+          "confidence": 0.6121,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "815967",
     "reference_id": 4473,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Libertos",
     "media_type": "Text",
     "index_reference": "libertos",
@@ -6264,13 +7489,64 @@
           "label": "Libertinos",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "group:Freedmen",
+          "type": "group",
+          "preferred_label": "Freedmen",
+          "confidence": 0.901,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Alexandria",
+          "type": "group",
+          "preferred_label": "Alexandrians",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Alexandria",
+          "type": "place",
+          "preferred_label": "Alexandria",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Stephen",
+          "type": "person",
+          "preferred_label": "Estevão",
+          "confidence": 0.5935,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Asia",
+          "type": "place",
+          "preferred_label": "Asia",
+          "confidence": 0.571,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Cilicia",
+          "type": "place",
+          "preferred_label": "Cilícia",
+          "confidence": 0.5305,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Cyrene",
+          "type": "place",
+          "preferred_label": "Cirene",
+          "confidence": 0.5305,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "816004",
     "reference_id": 5909,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Líbia, Líbios",
     "media_type": "Text",
     "index_reference": "líbia, líbios",
@@ -6340,13 +7616,29 @@
           "end_ref_usfm": "ACT 2:10"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Libya",
+          "type": "place",
+          "preferred_label": "Líbia",
+          "confidence": 0.84,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Put",
+          "type": "place",
+          "preferred_label": "Pute",
+          "confidence": 0.5085,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "759875",
     "reference_id": 5906,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Libna",
     "media_type": "Text",
     "index_reference": "libna",
@@ -6448,13 +7740,29 @@
           "label": "Peregrinações no deserto",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Libnah.2",
+          "type": "place",
+          "preferred_label": "Libnah",
+          "confidence": 0.8654,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Libnah",
+          "type": "place",
+          "preferred_label": "Libna",
+          "confidence": 0.6471,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "717141",
     "reference_id": 5908,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Libni",
     "media_type": "Text",
     "index_reference": "libni",
@@ -6512,13 +7820,43 @@
           "end_ref_usfm": "1CH 23:9"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Libni",
+          "type": "person",
+          "preferred_label": "Libni",
+          "confidence": 0.92,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Libni.2",
+          "type": "person",
+          "preferred_label": "Libni",
+          "confidence": 0.64,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Libni",
+          "type": "group",
+          "preferred_label": "Libnites",
+          "confidence": 0.64,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shimei.4",
+          "type": "person",
+          "preferred_label": "Simei",
+          "confidence": 0.57,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "759876",
     "reference_id": 5907,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Libnitas",
     "media_type": "Text",
     "index_reference": "libnitas",
@@ -6548,13 +7886,64 @@
           "label": "Libni",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "group:Libni",
+          "type": "group",
+          "preferred_label": "Libnites",
+          "confidence": 0.946,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Libni",
+          "type": "person",
+          "preferred_label": "Libni",
+          "confidence": 0.76,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Mahli",
+          "type": "group",
+          "preferred_label": "Mahlites",
+          "confidence": 0.575,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Shimei",
+          "type": "group",
+          "preferred_label": "Shimeites",
+          "confidence": 0.5615,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Gershon",
+          "type": "group",
+          "preferred_label": "Gershonites",
+          "confidence": 0.539,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shimei.4",
+          "type": "person",
+          "preferred_label": "Simei",
+          "confidence": 0.53,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Mushi",
+          "type": "group",
+          "preferred_label": "Mushites",
+          "confidence": 0.521,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "830421",
     "reference_id": 6966,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Libra",
     "media_type": "Text",
     "index_reference": "libra",
@@ -6608,13 +7997,22 @@
           "label": "Pesos E Medidas",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Mina",
+          "type": "realia",
+          "preferred_label": "Mina",
+          "confidence": 0.6337,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "816011",
     "reference_id": 5966,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lícia",
     "media_type": "Text",
     "index_reference": "lícia",
@@ -6642,13 +8040,29 @@
           "end_ref_usfm": "ACT 27:7"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Lycia",
+          "type": "place",
+          "preferred_label": "Lícia",
+          "confidence": 0.68,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Cilicia",
+          "type": "place",
+          "preferred_label": "Cilícia",
+          "confidence": 0.59,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "816010",
     "reference_id": 5965,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Licônia",
     "media_type": "Text",
     "index_reference": "licônia",
@@ -6694,13 +8108,29 @@
           "end_ref_usfm": "ACT 16:5"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Lycaonia",
+          "type": "place",
+          "preferred_label": "Licônia",
+          "confidence": 0.6471,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Iconium",
+          "type": "place",
+          "preferred_label": "Icônio",
+          "confidence": 0.5256,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "816012",
     "reference_id": 5967,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lida",
     "media_type": "Text",
     "index_reference": "lida",
@@ -6724,13 +8154,14 @@
           "label": "Lode",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "829794",
     "reference_id": 5969,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lídia (lugar)",
     "media_type": "Text",
     "index_reference": "lídia (lugar)",
@@ -6766,13 +8197,43 @@
           "label": "Lude, Ludim, Luditas",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Lud",
+          "type": "person",
+          "preferred_label": "Lude",
+          "confidence": 0.9505,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Put",
+          "type": "place",
+          "preferred_label": "Pute",
+          "confidence": 0.8515,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Libya",
+          "type": "place",
+          "preferred_label": "Líbia",
+          "confidence": 0.6208,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:SmallShield",
+          "type": "realia",
+          "preferred_label": "Small Shield",
+          "confidence": 0.5967,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "816013",
     "reference_id": 5968,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lídia (Pessoa)",
     "media_type": "Text",
     "index_reference": "lídia (pessoa)",
@@ -6794,13 +8255,29 @@
           "end_ref_usfm": "ACT 16:40"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Lydia",
+          "type": "person",
+          "preferred_label": "Lídia",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Thyatira",
+          "type": "place",
+          "preferred_label": "Tiatira",
+          "confidence": 0.512,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "828197",
     "reference_id": 3415,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Ligar e desligar",
     "media_type": "Text",
     "index_reference": "ligar e desligar",
@@ -6890,13 +8367,14 @@
           "label": "Chaves do Reino",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "717144",
     "reference_id": 5918,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Ligúria",
     "media_type": "Text",
     "index_reference": "ligúria",
@@ -6926,13 +8404,14 @@
           "label": "Pedras preciosas",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "829769",
     "reference_id": 5920,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lilith",
     "media_type": "Text",
     "index_reference": "lilith",
@@ -6948,13 +8427,29 @@
           "end_ref_usfm": "ISA 34:14"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "fauna:Hyena",
+          "type": "fauna",
+          "preferred_label": "Hyena",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:TawnyOwl.2",
+          "type": "fauna",
+          "preferred_label": "Tawny Owl",
+          "confidence": 0.6715,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "124388",
     "reference_id": 4706,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Língua Grega",
     "media_type": "Text",
     "index_reference": "língua grega",
@@ -6994,13 +8489,14 @@
           "end_ref_usfm": "TIT 1:12"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "481544",
     "reference_id": 4926,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Língua Hebraica",
     "media_type": "Text",
     "index_reference": "língua hebraica",
@@ -7148,13 +8644,14 @@
           "end_ref_usfm": "GEN 3:1"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "816121",
     "reference_id": 8060,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Línguas de fogo",
     "media_type": "Text",
     "index_reference": "línguas de fogo",
@@ -7190,13 +8687,22 @@
           "label": "Pentecostes",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Sandal",
+          "type": "realia",
+          "preferred_label": "Sandal",
+          "confidence": 0.5067,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "816122",
     "reference_id": 8061,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Línguas, Falar em",
     "media_type": "Text",
     "index_reference": "línguas, falar em",
@@ -7305,13 +8811,14 @@
           "label": "Dons espirituais",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "830398",
     "reference_id": 6933,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Linha de Prumo, Prumo",
     "media_type": "Text",
     "index_reference": "linha de prumo, prumo",
@@ -7320,13 +8827,14 @@
     "content": "<h1>LINHA DE PRUMO, PRUMO*</h1><p>Corda com um peso anexado, usada para garantir que uma parede esteja reta.</p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "829773",
     "reference_id": 5924,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Linho",
     "media_type": "Text",
     "index_reference": "linho",
@@ -7343,13 +8851,14 @@
           "label": "Tecido e fabricação de tecidos",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "828813",
     "reference_id": 4442,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Linho (Planta)",
     "media_type": "Text",
     "index_reference": "linho (planta)",
@@ -7373,13 +8882,14 @@
           "label": "Plantas",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "829774",
     "reference_id": 5926,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lino",
     "media_type": "Text",
     "index_reference": "lino",
@@ -7395,13 +8905,43 @@
           "end_ref_usfm": "2TI 4:21"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Linus",
+          "type": "person",
+          "preferred_label": "Lino",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Eubulus",
+          "type": "person",
+          "preferred_label": "Êubulo",
+          "confidence": 0.748,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Claudia",
+          "type": "person",
+          "preferred_label": "Cláudia",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Pudens",
+          "type": "person",
+          "preferred_label": "Prudente",
+          "confidence": 0.64,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "829768",
     "reference_id": 5919,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Liqui",
     "media_type": "Text",
     "index_reference": "liqui",
@@ -7417,13 +8957,50 @@
           "end_ref_usfm": "1CH 7:19"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Likhi",
+          "type": "person",
+          "preferred_label": "Liqui",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shechem.3",
+          "type": "person",
+          "preferred_label": "Siquém",
+          "confidence": 0.82,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ahian",
+          "type": "person",
+          "preferred_label": "Aiã",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shemida",
+          "type": "person",
+          "preferred_label": "Semida",
+          "confidence": 0.6715,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Aniam",
+          "type": "person",
+          "preferred_label": "Anião",
+          "confidence": 0.649,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "829796",
     "reference_id": 5971,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lira",
     "media_type": "Text",
     "index_reference": "lira",
@@ -7440,13 +9017,14 @@
           "label": "Instrumentos Musicais",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "829771",
     "reference_id": 5922,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lírio",
     "media_type": "Text",
     "index_reference": "lírio",
@@ -7470,13 +9048,14 @@
           "label": "Lírio d'água ",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "831185",
     "reference_id": 8206,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lírio d'água",
     "media_type": "Text",
     "index_reference": "lírio d'água ",
@@ -7500,13 +9079,14 @@
           "label": "Plantas",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "829797",
     "reference_id": 5972,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lisânias",
     "media_type": "Text",
     "index_reference": "lisânias",
@@ -7522,13 +9102,92 @@
           "end_ref_usfm": "LUK 3:1"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Lysanias",
+          "type": "person",
+          "preferred_label": "Lisânias",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Ituraea",
+          "type": "place",
+          "preferred_label": "Itureia",
+          "confidence": 0.7435,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Herod.2",
+          "type": "person",
+          "preferred_label": "Herodes Antipas",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tiberius",
+          "type": "person",
+          "preferred_label": "Tibério",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Augustus",
+          "type": "person",
+          "preferred_label": "Augusto",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Trachonitis",
+          "type": "place",
+          "preferred_label": "Traconites",
+          "confidence": 0.7075,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Philip.3",
+          "type": "person",
+          "preferred_label": "Filipe",
+          "confidence": 0.6895,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Abilene",
+          "type": "place",
+          "preferred_label": "Abilene",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Galilee",
+          "type": "place",
+          "preferred_label": "Galileia",
+          "confidence": 0.6385,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Pilate",
+          "type": "person",
+          "preferred_label": "Pilatos",
+          "confidence": 0.5935,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Judea",
+          "type": "place",
+          "preferred_label": "Judeia",
+          "confidence": 0.571,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "816014",
     "reference_id": 5973,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lísias",
     "media_type": "Text",
     "index_reference": "lísias",
@@ -7558,13 +9217,22 @@
           "label": "Cláudio Lísias",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Lysias",
+          "type": "person",
+          "preferred_label": "Lísias",
+          "confidence": 0.65,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "829798",
     "reference_id": 5974,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lisímaco",
     "media_type": "Text",
     "index_reference": "lisímaco",
@@ -7573,13 +9241,14 @@
     "content": "<h1>LISÍMACO</h1><p>1. De acordo com as Adições a Ester, ele é o filho de Ptolemeu de Jerusalém e tradutor do livro de Ester para o grego.</p><p>2. Menelau nomeou seu irmão Lisímaco para atuar como seu substituto no sumo sacerdócio. Ele próprio havia suplantado Jasão como sumo sacerdote. Sendo um homem mau, Menelau consentiu em atos de sacrilégio cometidos por Lisímaco contra o templo, incluindo o roubo de muitos vasos de ouro. O povo reagiu contra Lisímaco, que então tentou subjugá-los com 3.000 homens. Ele falhou. No processo, o povo, usando pedras e blocos de madeira, derrotou Lisímaco e seus homens, matando Lisímaco perto do repositório de riquezas.</p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "816015",
     "reference_id": 5975,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Listra",
     "media_type": "Text",
     "index_reference": "listra",
@@ -7625,13 +9294,22 @@
           "end_ref_usfm": "ACT 14:21"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Lystra",
+          "type": "place",
+          "preferred_label": "Listra",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "829776",
     "reference_id": 5929,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Liteira",
     "media_type": "Text",
     "index_reference": "liteira",
@@ -7661,13 +9339,14 @@
           "label": "Viagens",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "806286",
     "reference_id": 8242,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Literatura de sabedoria",
     "media_type": "Text",
     "index_reference": "literatura de sabedoria",
@@ -7725,13 +9404,14 @@
           "end_ref_usfm": "JOB 42:17"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "829534",
     "reference_id": 5534,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Literatura judaica, extrabíblica",
     "media_type": "Text",
     "index_reference": "literatura judaica, extrabíblica",
@@ -7762,13 +9442,14 @@
           "label": "Targum",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "716950",
     "reference_id": 3472,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Livro",
     "media_type": "Text",
     "index_reference": "livro",
@@ -7864,13 +9545,14 @@
           "label": "Escrita",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "716949",
     "reference_id": 3469,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Livro da Aliança",
     "media_type": "Text",
     "index_reference": "livro da aliança",
@@ -7997,13 +9679,14 @@
           "label": "Lei, Conceito Bíblico De",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "828225",
     "reference_id": 3471,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Livro da Lei",
     "media_type": "Text",
     "index_reference": "livro da lei",
@@ -8020,13 +9703,14 @@
           "label": "Livro da Aliança",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "716948",
     "reference_id": 3467,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Livro da Vida",
     "media_type": "Text",
     "index_reference": "livro da vida",
@@ -8140,13 +9824,14 @@
           "label": "Livro de Memorial",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "828040",
     "reference_id": 3186,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Livro de Baruque",
     "media_type": "Text",
     "index_reference": "livro de baruque",
@@ -8198,13 +9883,14 @@
           "end_ref_usfm": "ISA 45:25"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "828609",
     "reference_id": 4103,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Livro de Eclesiastes",
     "media_type": "Text",
     "index_reference": "livro de eclesiastes",
@@ -8572,13 +10258,14 @@
           "label": "Sabedoria",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "828784",
     "reference_id": 4390,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Livro de Esdras",
     "media_type": "Text",
     "index_reference": "livro de esdras",
@@ -8819,13 +10506,14 @@
           "label": "Período Pós-exílico",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "828747",
     "reference_id": 4330,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Livro de Ester",
     "media_type": "Text",
     "index_reference": "livro de ester",
@@ -9006,13 +10694,22 @@
           "label": "Pérsia, Persas",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Esther",
+          "type": "person",
+          "preferred_label": "Ester",
+          "confidence": 0.661,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "161808",
     "reference_id": 4374,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Livro de Êxodo",
     "media_type": "Text",
     "index_reference": "livro de êxodo",
@@ -9717,13 +11414,14 @@
           "label": "Templo",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "828977",
     "reference_id": 4725,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Livro de Habacuque",
     "media_type": "Text",
     "index_reference": "livro de habacuque",
@@ -10002,13 +11700,22 @@
           "label": "Profeta, Profetisa",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Habakkuk",
+          "type": "person",
+          "preferred_label": "Habacuque",
+          "confidence": 0.6121,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "717113",
     "reference_id": 5397,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Livro de Jasar",
     "media_type": "Text",
     "index_reference": "livro de jasar",
@@ -10054,13 +11761,14 @@
           "end_ref_usfm": "1KI 8:53"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "829498",
     "reference_id": 5481,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Livro de Jeremias",
     "media_type": "Text",
     "index_reference": "livro de jeremias",
@@ -10831,13 +12539,36 @@
           "label": "Profeta, Profetisa",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Jeremiah.6",
+          "type": "person",
+          "preferred_label": "Jeremias",
+          "confidence": 0.6218,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jeremiah",
+          "type": "person",
+          "preferred_label": "Jeremias",
+          "confidence": 0.6004,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jeremiah.8",
+          "type": "person",
+          "preferred_label": "Jeremias",
+          "confidence": 0.6002,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "829556",
     "reference_id": 5562,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Livro de Jó",
     "media_type": "Text",
     "index_reference": "livro de jó",
@@ -11361,13 +13092,22 @@
           "label": "Sabedoria",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Job",
+          "type": "person",
+          "preferred_label": "Jó",
+          "confidence": 0.6186,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "815987",
     "reference_id": 5568,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Livro de Joel",
     "media_type": "Text",
     "index_reference": "livro de joel",
@@ -11639,13 +13379,22 @@
           "label": "Profeta, Profetisa",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Joel.14",
+          "type": "person",
+          "preferred_label": "Joel",
+          "confidence": 0.605,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "806227",
     "reference_id": 5596,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Livro de Jonas",
     "media_type": "Text",
     "index_reference": "livro de jonas",
@@ -12031,13 +13780,22 @@
           "label": "Profeta, Profetisa",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Jonah.2",
+          "type": "person",
+          "preferred_label": "Jonas",
+          "confidence": 0.6966,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "828223",
     "reference_id": 3468,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Livro de Memorial",
     "media_type": "Text",
     "index_reference": "livro de memorial",
@@ -12061,13 +13819,29 @@
           "label": "Livro da Vida",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "SENHOR",
+          "confidence": 0.625,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:Scroll",
+          "type": "realia",
+          "preferred_label": "Scroll",
+          "confidence": 0.5845,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "830151",
     "reference_id": 6511,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Livro de Neemias",
     "media_type": "Text",
     "index_reference": "livro de neemias",
@@ -12391,13 +14165,29 @@
           "label": "Período Pós-exílico",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Nehemiah.2",
+          "type": "person",
+          "preferred_label": "Neemias",
+          "confidence": 0.6062,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nehemiah.3",
+          "type": "person",
+          "preferred_label": "Neemias",
+          "confidence": 0.6012,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "161813",
     "reference_id": 4582,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Livro De, Gênesis,",
     "media_type": "Text",
     "index_reference": "livro de, gênesis,",
@@ -13351,13 +15141,14 @@
           "label": "Jacó",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "828224",
     "reference_id": 3470,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Livro dos Mortos",
     "media_type": "Text",
     "index_reference": "livro dos mortos",
@@ -13366,13 +15157,14 @@
     "content": "<h1>LIVRO DOS MORTOS</h1><p>O termo &quot;livro dos mortos&quot; é um nome moderno para textos funerários do antigo Egito. Trata-se de uma coleção de textos encontrados em paredes de pirâmides, caixões ou papiros, que descrevem a jornada de uma pessoa desta vida para a próxima. Às vezes, refere-se a uma coleção menor de textos escritos em papiros (uma forma de papel à base de plantas).</p><p>O nome egípcio antigo para esses textos era &quot;Capítulos de saída para a luz do dia&quot;. Eles foram escritos para qualquer pessoa importante que tivesse falecido. No entanto, em tempos posteriores, foram produzidos em massa com espaços deixados para o nome da pessoa. Para pessoas influentes, esses papiros podiam ter até 30,5 metros de comprimento e eram frequentemente ricamente ilustrados com cenas que retratavam suas experiências após a morte.</p><p>O objetivo final do falecido era alcançar o Outro Mundo, o reino de Osíris, e se tornar um deus. Para chegar lá, a alma precisava passar por vários portões, conhecendo os nomes dos guardiões para ser admitida. Os textos forneciam essa informação crucial. Uma fase importante era o julgamento no Salão da Verdade, onde o coração da pessoa era pesado contra a pena da verdade e justiça. A alma fazia uma &quot;confissão negativa&quot;, negando qualquer culpa, especialmente em relação a roubo e relacionamentos sociais. Se o coração fosse tão leve quanto a pena, era declarado verdadeiro. Caso contrário, era destruído. Os textos também incluíam hinos e orações para ajudar a alma em sua jornada, enfatizando mais a magia e o ritual do que o caráter moral.</p><p></p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "683017",
     "reference_id": 5953,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Ló",
     "media_type": "Text",
     "index_reference": "ló",
@@ -13432,13 +15224,22 @@
           "label": "Sodoma e Gomorra",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Lot",
+          "type": "person",
+          "preferred_label": "Ló",
+          "confidence": 0.7135,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "829778",
     "reference_id": 5932,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lo-Ami",
     "media_type": "Text",
     "index_reference": "lo-ami",
@@ -13462,13 +15263,22 @@
           "label": "Ammi",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Lo-ammi",
+          "type": "person",
+          "preferred_label": "Lo-Ami",
+          "confidence": 1.0,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "829781",
     "reference_id": 5935,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lo-Debar",
     "media_type": "Text",
     "index_reference": "lo-debar",
@@ -13498,13 +15308,22 @@
           "label": "Debir (Lugar)",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Lo-debar",
+          "type": "place",
+          "preferred_label": "Lo-Debar",
+          "confidence": 1.0,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "829787",
     "reference_id": 5949,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lo-Ruama",
     "media_type": "Text",
     "index_reference": "lo-ruama",
@@ -13528,13 +15347,22 @@
           "label": "Lo-Ruama",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Lo-ruhamah",
+          "type": "person",
+          "preferred_label": "Lo-Ruama",
+          "confidence": 0.8667,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "830574",
     "reference_id": 7238,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lo-Ruama",
     "media_type": "Text",
     "index_reference": "lo-ruama",
@@ -13568,13 +15396,22 @@
           "end_ref_usfm": "HOS 2:23"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Lo-ruhamah",
+          "type": "person",
+          "preferred_label": "Lo-Ruama",
+          "confidence": 0.8,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "830640",
     "reference_id": 7351,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lobas",
     "media_type": "Text",
     "index_reference": "lobas",
@@ -13598,13 +15435,29 @@
           "label": "Animais",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Ostrich",
+          "type": "fauna",
+          "preferred_label": "Ostrich",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Jackal",
+          "type": "fauna",
+          "preferred_label": "Jackal",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "831217",
     "reference_id": 8253,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lobo",
     "media_type": "Text",
     "index_reference": "lobo",
@@ -13628,13 +15481,14 @@
           "label": "Cão",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "816005",
     "reference_id": 5936,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lode",
     "media_type": "Text",
     "index_reference": "lode",
@@ -13674,13 +15528,22 @@
           "end_ref_usfm": "ACT 9:35"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Lod",
+          "type": "place",
+          "preferred_label": "Lode",
+          "confidence": 0.9,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "829782",
     "reference_id": 5937,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Logia",
     "media_type": "Text",
     "index_reference": "logia",
@@ -13697,13 +15560,14 @@
           "label": "Jesus Cristo, Ensinamentos De",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "829783",
     "reference_id": 5938,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Logos",
     "media_type": "Text",
     "index_reference": "logos",
@@ -13752,13 +15616,22 @@
           "label": "Palavra, Palavra De Deus, Palavras De Deus",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "SENHOR",
+          "confidence": 0.525,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "759878",
     "reference_id": 5939,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Logue",
     "media_type": "Text",
     "index_reference": "logue",
@@ -13782,13 +15655,22 @@
           "label": "Pesos E Medidas",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Log",
+          "type": "realia",
+          "preferred_label": "Log",
+          "confidence": 0.5226,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "816006",
     "reference_id": 5941,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Loide, Lóide",
     "media_type": "Text",
     "index_reference": "loide, lóide",
@@ -13816,13 +15698,22 @@
           "end_ref_usfm": "ACT 14:28"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Lois",
+          "type": "person",
+          "preferred_label": "Loide",
+          "confidence": 0.6133,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "717148",
     "reference_id": 5940,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lombos",
     "media_type": "Text",
     "index_reference": "lombos",
@@ -13898,13 +15789,14 @@
           "end_ref_usfm": "1PE 1:13"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "717149",
     "reference_id": 5942,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Longanimidade",
     "media_type": "Text",
     "index_reference": "longanimidade",
@@ -13962,13 +15854,22 @@
           "end_ref_usfm": "1PE 3:20"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "keyterm:Kindness",
+          "type": "keyterm",
+          "preferred_label": "kindness",
+          "confidence": 0.634,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "717151",
     "reference_id": 5950,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lotã",
     "media_type": "Text",
     "index_reference": "lotã",
@@ -14002,13 +15903,43 @@
           "end_ref_usfm": "1CH 1:39"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Lotan",
+          "type": "person",
+          "preferred_label": "Lotã",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hori",
+          "type": "person",
+          "preferred_label": "Hori",
+          "confidence": 0.668,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Zibeon.2",
+          "type": "person",
+          "preferred_label": "Zibeão",
+          "confidence": 0.5025,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shobal",
+          "type": "person",
+          "preferred_label": "Sobal",
+          "confidence": 0.5025,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "717240",
     "reference_id": 6970,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Louvor",
     "media_type": "Text",
     "index_reference": "louvor",
@@ -14371,13 +16302,14 @@
           "label": "Templo",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "481561",
     "reference_id": 6367,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lua",
     "media_type": "Text",
     "index_reference": "lua",
@@ -14625,13 +16557,14 @@
           "label": "Festas E Festivais De Israel",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "830183",
     "reference_id": 6553,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lua Nova",
     "media_type": "Text",
     "index_reference": "lua nova",
@@ -14655,13 +16588,14 @@
           "label": "Lua",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "830058",
     "reference_id": 6366,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lua, Nova",
     "media_type": "Text",
     "index_reference": "lua, nova",
@@ -14692,13 +16626,14 @@
           "label": "Lua",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "816009",
     "reference_id": 5962,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lucas (Pessoa)",
     "media_type": "Text",
     "index_reference": "lucas (pessoa)",
@@ -14786,13 +16721,22 @@
           "end_ref_usfm": "ACT 21:18"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Luke",
+          "type": "person",
+          "preferred_label": "Lucas",
+          "confidence": 0.6113,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "759880",
     "reference_id": 5961,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lucas, Evangelho de",
     "media_type": "Text",
     "index_reference": "lucas, evangelho de",
@@ -15143,13 +17087,22 @@
           "label": "Lucas (Pessoa)",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Luke",
+          "type": "person",
+          "preferred_label": "Lucas",
+          "confidence": 0.6007,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "829791",
     "reference_id": 5957,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lúcifer",
     "media_type": "Text",
     "index_reference": "lúcifer",
@@ -15209,13 +17162,22 @@
           "label": "Satanás",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "deity:Lucifer",
+          "type": "deity",
+          "preferred_label": "Lúcifer",
+          "confidence": 0.6018,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "816008",
     "reference_id": 5958,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lúcio",
     "media_type": "Text",
     "index_reference": "lúcio",
@@ -15255,13 +17217,22 @@
           "end_ref_usfm": "COL 4:14"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Simeon.4",
+          "type": "person",
+          "preferred_label": "Simeão",
+          "confidence": 0.5089,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "658676",
     "reference_id": 5959,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lude, Ludim, Luditas",
     "media_type": "Text",
     "index_reference": "lude, ludim, luditas",
@@ -15309,13 +17280,29 @@
           "label": "Lídia (lugar)",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Lud",
+          "type": "person",
+          "preferred_label": "Lude",
+          "confidence": 0.6667,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Ludim",
+          "type": "group",
+          "preferred_label": "Lude",
+          "confidence": 0.6222,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "759813",
     "reference_id": 5016,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lugar Alto",
     "media_type": "Text",
     "index_reference": "lugar alto",
@@ -15558,13 +17545,22 @@
           "label": "Ídolos, Idolatria",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:HighPlace",
+          "type": "realia",
+          "preferred_label": "High Place",
+          "confidence": 0.8606,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "830070",
     "reference_id": 6385,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lugar santíssimo",
     "media_type": "Text",
     "index_reference": "lugar santíssimo",
@@ -15588,13 +17584,57 @@
           "label": "Templo",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:MostHolyPlace",
+          "type": "place",
+          "preferred_label": "Lugar Santíssimo",
+          "confidence": 0.9594,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:HolyPlace",
+          "type": "place",
+          "preferred_label": "Holy Place",
+          "confidence": 0.916,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:HolyPlace.2",
+          "type": "place",
+          "preferred_label": "Holy Place",
+          "confidence": 0.916,
+          "match_method": "embedding"
+        },
+        {
+          "id": "realia:TheHolyPlace",
+          "type": "realia",
+          "preferred_label": "The Holy Place",
+          "confidence": 0.8943,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:MostHolyPlace.1",
+          "type": "place",
+          "preferred_label": "Most Holy Place",
+          "confidence": 0.8434,
+          "match_method": "embedding"
+        },
+        {
+          "id": "realia:MostHolyPlace",
+          "type": "realia",
+          "preferred_label": "Most Holy Place",
+          "confidence": 0.8434,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "829203",
     "reference_id": 5052,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lugar santo",
     "media_type": "Text",
     "index_reference": "lugar santo",
@@ -15618,13 +17658,43 @@
           "label": "Templo",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:HolyPlace",
+          "type": "place",
+          "preferred_label": "Holy Place",
+          "confidence": 0.9407,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:HolyPlace.2",
+          "type": "place",
+          "preferred_label": "Holy Place",
+          "confidence": 0.9407,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:MostHolyPlace",
+          "type": "place",
+          "preferred_label": "Lugar Santíssimo",
+          "confidence": 0.9246,
+          "match_method": "embedding"
+        },
+        {
+          "id": "realia:TheHolyPlace",
+          "type": "realia",
+          "preferred_label": "The Holy Place",
+          "confidence": 0.9086,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "829792",
     "reference_id": 5960,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Luíte",
     "media_type": "Text",
     "index_reference": "luíte",
@@ -15640,13 +17710,43 @@
           "end_ref_usfm": "ISA 15:5"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Luhith",
+          "type": "place",
+          "preferred_label": "Luíte",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Zoar",
+          "type": "place",
+          "preferred_label": "Zoar",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Horonaim",
+          "type": "place",
+          "preferred_label": "Horonaim",
+          "confidence": 0.604,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Moab",
+          "type": "place",
+          "preferred_label": "Moabe",
+          "confidence": 0.562,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "161848",
     "reference_id": 6405,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Luto",
     "media_type": "Text",
     "index_reference": "luto",
@@ -16019,13 +18119,22 @@
           "label": "Costumes funerários",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Lute",
+          "type": "realia",
+          "preferred_label": "Lute",
+          "confidence": 0.901,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "481555",
     "reference_id": 5916,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Luz",
     "media_type": "Text",
     "index_reference": "luz",
@@ -16481,13 +18590,22 @@
           "label": "Escuridão",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Luz.2",
+          "type": "place",
+          "preferred_label": "Luz",
+          "confidence": 1.0,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "683018",
     "reference_id": 5964,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Luz",
     "media_type": "Text",
     "index_reference": "luz",
@@ -16534,6 +18652,22 @@
           "resource_code": "TyndaleBibleDictionary",
           "label": "Betel (Lugar), Betelita",
           "language": "por"
+        }
+      ],
+      "acai": [
+        {
+          "id": "place:Bethel",
+          "type": "place",
+          "preferred_label": "Betel",
+          "confidence": 0.85,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Luz.2",
+          "type": "place",
+          "preferred_label": "Luz",
+          "confidence": 0.65,
+          "match_method": "scored"
         }
       ]
     }

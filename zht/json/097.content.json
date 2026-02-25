@@ -2,7 +2,7 @@
   {
     "content_id": "864950",
     "reference_id": 6374,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "摩利亞",
     "media_type": "Text",
     "index_reference": "摩利亞",
@@ -36,13 +36,22 @@
           "end_ref_usfm": "1CH 21:30"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Moriah",
+          "type": "place",
+          "preferred_label": "Moriah",
+          "confidence": 0.8138,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "574030",
     "reference_id": 6383,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "摩西",
     "media_type": "Text",
     "index_reference": "摩西",
@@ -739,13 +748,22 @@
           "label": "聖殿",
           "language": "zht"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Mushi",
+          "type": "person",
+          "preferred_label": "Mushi",
+          "confidence": 0.825,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "864949",
     "reference_id": 6352,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "摩押，摩押人",
     "media_type": "Text",
     "index_reference": "摩押，摩押人",
@@ -995,13 +1013,14 @@
           "end_ref_usfm": "NUM 25:5"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "864947",
     "reference_id": 6310,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "磨",
     "media_type": "Text",
     "index_reference": "磨",
@@ -1093,7 +1112,8 @@
           "label": "食物和食物準備",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   }
 ]

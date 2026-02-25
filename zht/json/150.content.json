@@ -2,7 +2,7 @@
   {
     "content_id": "315516",
     "reference_id": 4589,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "溫柔",
     "media_type": "Text",
     "index_reference": "溫柔",
@@ -144,13 +144,22 @@
           "end_ref_usfm": "1PE 3:15"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "keyterm:Gentle",
+          "type": "keyterm",
+          "preferred_label": "Gentle",
+          "confidence": 0.8756,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "340992",
     "reference_id": 7340,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "文士",
     "media_type": "Text",
     "index_reference": "文士",
@@ -667,7 +676,8 @@
           "label": "法利賽人",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   }
 ]

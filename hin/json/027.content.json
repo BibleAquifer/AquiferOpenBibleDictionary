@@ -2,7 +2,7 @@
   {
     "content_id": "733914",
     "reference_id": 7705,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "छः सौ छियासठ",
     "media_type": "Text",
     "index_reference": "छः सौ छियासठ",
@@ -33,13 +33,14 @@
           "label": "परमेश्वर की मुहर, पशु का छाप",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "733511",
     "reference_id": 6357,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "छछून्दर",
     "media_type": "Text",
     "index_reference": "छछून्दर",
@@ -55,13 +56,29 @@
           "end_ref_usfm": "ISA 2:20"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "fauna:MoleRat",
+          "type": "fauna",
+          "preferred_label": "Mole Rat",
+          "confidence": 0.6085,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Bat",
+          "type": "fauna",
+          "preferred_label": "Bat",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "594539",
     "reference_id": 4562,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "छिपकली",
     "media_type": "Text",
     "index_reference": "छिपकली",
@@ -85,13 +102,50 @@
           "label": "छिपकली",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Lizard",
+          "type": "fauna",
+          "preferred_label": "Lizard",
+          "confidence": 0.6085,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Skink",
+          "type": "fauna",
+          "preferred_label": "Skink",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Gecko",
+          "type": "fauna",
+          "preferred_label": "Gecko",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Iguana",
+          "type": "fauna",
+          "preferred_label": "Monitor",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Chameleon",
+          "type": "fauna",
+          "preferred_label": "Chameleon",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "733388",
     "reference_id": 5931,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "छिपकली",
     "media_type": "Text",
     "index_reference": "छिपकली",
@@ -108,13 +162,14 @@
           "label": "छिपकली",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "381053",
     "reference_id": 3972,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "छुटकारा, छुड़ानेवाला",
     "media_type": "Text",
     "index_reference": "छुटकारा, छुड़ानेवाला",
@@ -229,13 +284,14 @@
           "label": "छुड़ानेवाला, छुटकारा",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "184998",
     "reference_id": 7137,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "छुड़ानेवाला, छुटकारा",
     "media_type": "Text",
     "index_reference": "छुड़ानेवाला, छुटकारा",
@@ -451,13 +507,14 @@
           "label": "प्रायश्चित",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "594761",
     "reference_id": 7123,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "छुरा",
     "media_type": "Text",
     "index_reference": "छुरा",
@@ -515,13 +572,22 @@
           "end_ref_usfm": "EZK 5:1"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "realia:Razor",
+          "type": "realia",
+          "preferred_label": "Razor",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "732700",
     "reference_id": 3522,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "छोटी ढाल",
     "media_type": "Text",
     "index_reference": "छोटी ढाल",
@@ -538,7 +604,8 @@
           "label": "कवच और हथियार",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   }
 ]

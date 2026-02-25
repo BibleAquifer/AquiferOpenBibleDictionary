@@ -2,7 +2,7 @@
   {
     "content_id": "369079",
     "reference_id": 5535,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Yahudi",
     "media_type": "Text",
     "index_reference": "yahudi",
@@ -316,13 +316,36 @@
           "label": "KAUM YUDAIS",
           "language": "ind"
         }
+      ],
+      "acai": [
+        {
+          "id": "group:Jews",
+          "type": "group",
+          "preferred_label": "Jews",
+          "confidence": 0.9272,
+          "match_method": "embedding"
+        },
+        {
+          "id": "group:Judea",
+          "type": "group",
+          "preferred_label": "Judeans",
+          "confidence": 0.8423,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Jehudi",
+          "type": "person",
+          "preferred_label": "Yehudi",
+          "confidence": 0.8009,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "369081",
     "reference_id": 5569,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Yoel (Orang)",
     "media_type": "Text",
     "index_reference": "yoel (orang)",
@@ -466,13 +489,120 @@
           "label": "Yoel, Kitab",
           "language": "ind"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Joel",
+          "type": "person",
+          "preferred_label": "Yoël",
+          "confidence": 0.5941,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joel.8",
+          "type": "person",
+          "preferred_label": "Yoël",
+          "confidence": 0.5656,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joel.14",
+          "type": "person",
+          "preferred_label": "Yoël",
+          "confidence": 0.5656,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joel.10",
+          "type": "person",
+          "preferred_label": "Yoël",
+          "confidence": 0.5513,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joel.3",
+          "type": "person",
+          "preferred_label": "Yoël",
+          "confidence": 0.5513,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joel.7",
+          "type": "person",
+          "preferred_label": "Yoël",
+          "confidence": 0.5513,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joel.5",
+          "type": "person",
+          "preferred_label": "Yoël",
+          "confidence": 0.5513,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joel.6",
+          "type": "person",
+          "preferred_label": "Yoël",
+          "confidence": 0.5513,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joel.11",
+          "type": "person",
+          "preferred_label": "Yoël",
+          "confidence": 0.5513,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joel.4",
+          "type": "person",
+          "preferred_label": "Yoël",
+          "confidence": 0.5513,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joel.12",
+          "type": "person",
+          "preferred_label": "Yoël",
+          "confidence": 0.5513,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joel.13",
+          "type": "person",
+          "preferred_label": "Yoël",
+          "confidence": 0.5513,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joel.2",
+          "type": "person",
+          "preferred_label": "Yoël",
+          "confidence": 0.5513,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joel.9",
+          "type": "person",
+          "preferred_label": "Yoël",
+          "confidence": 0.5513,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shaul.3",
+          "type": "person",
+          "preferred_label": "Saul",
+          "confidence": 0.5018,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "369080",
     "reference_id": 5568,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Yoel, Kitab",
     "media_type": "Text",
     "index_reference": "yoel, kitab",
@@ -737,13 +867,14 @@
           "label": "Nabi, Nabiah",
           "language": "ind"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "369084",
     "reference_id": 5654,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Yudas",
     "media_type": "Text",
     "index_reference": "yudas",
@@ -936,13 +1067,57 @@
           "label": "Tadeus, Rasul",
           "language": "ind"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Judas.2",
+          "type": "person",
+          "preferred_label": "Yudas",
+          "confidence": 0.6417,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Judas",
+          "type": "person",
+          "preferred_label": "Yudas",
+          "confidence": 0.6123,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Judas.5",
+          "type": "person",
+          "preferred_label": "Yudas",
+          "confidence": 0.6074,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jude",
+          "type": "person",
+          "preferred_label": "Yudas",
+          "confidence": 0.6049,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Judas.4",
+          "type": "person",
+          "preferred_label": "Yudas",
+          "confidence": 0.6025,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Judas.3",
+          "type": "person",
+          "preferred_label": "Yudas",
+          "confidence": 0.6025,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "369085",
     "reference_id": 5656,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Yudas, Surat",
     "media_type": "Text",
     "index_reference": "yudas, surat",
@@ -1218,13 +1393,29 @@
           "label": "Saudara-saudara Yesus",
           "language": "ind"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Judas",
+          "type": "person",
+          "preferred_label": "Yudas",
+          "confidence": 0.6022,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jude",
+          "type": "person",
+          "preferred_label": "Yudas",
+          "confidence": 0.6011,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "369086",
     "reference_id": 5673,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Yustus",
     "media_type": "Text",
     "index_reference": "yustus",
@@ -1266,13 +1457,50 @@
           "label": "Yusuf",
           "language": "ind"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Justus.2",
+          "type": "person",
+          "preferred_label": "Yustus",
+          "confidence": 0.7,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Justus.3",
+          "type": "person",
+          "preferred_label": "Yustus",
+          "confidence": 0.7,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joseph.9",
+          "type": "person",
+          "preferred_label": "Yusuf",
+          "confidence": 0.6235,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Erastus",
+          "type": "person",
+          "preferred_label": "Erastus",
+          "confidence": 0.529,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Quartus",
+          "type": "person",
+          "preferred_label": "Kwartus",
+          "confidence": 0.529,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "369082",
     "reference_id": 5617,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Yusuf",
     "media_type": "Text",
     "index_reference": "yusuf",
@@ -1728,6 +1956,78 @@
           "resource_code": "TyndaleBibleDictionary",
           "label": "Israel, Sejarah",
           "language": "ind"
+        }
+      ],
+      "acai": [
+        {
+          "id": "person:Joseph.10",
+          "type": "person",
+          "preferred_label": "Yusuf",
+          "confidence": 0.7048,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joseph.4",
+          "type": "person",
+          "preferred_label": "Yusuf",
+          "confidence": 0.6214,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joseph.6",
+          "type": "person",
+          "preferred_label": "Yusuf",
+          "confidence": 0.6064,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joseph.12",
+          "type": "person",
+          "preferred_label": "Yusuf",
+          "confidence": 0.6043,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joseph.9",
+          "type": "person",
+          "preferred_label": "Yusuf",
+          "confidence": 0.6021,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joseph.14",
+          "type": "person",
+          "preferred_label": "Yusuf",
+          "confidence": 0.6021,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joseph.8",
+          "type": "person",
+          "preferred_label": "Yusuf",
+          "confidence": 0.6021,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joseph.3",
+          "type": "person",
+          "preferred_label": "Yusuf",
+          "confidence": 0.6021,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joseph.11",
+          "type": "person",
+          "preferred_label": "Yusuf",
+          "confidence": 0.6021,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joseph.13",
+          "type": "person",
+          "preferred_label": "Yusuf",
+          "confidence": 0.6021,
+          "match_method": "scored"
         }
       ]
     }

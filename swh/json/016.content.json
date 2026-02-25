@@ -2,7 +2,7 @@
   {
     "content_id": "833385",
     "reference_id": 4091,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Obali",
     "media_type": "Text",
     "index_reference": "obali",
@@ -36,13 +36,64 @@
           "end_ref_usfm": "1CH 1:40"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Obal",
+          "type": "person",
+          "preferred_label": "Obali",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shobal",
+          "type": "person",
+          "preferred_label": "Shobali",
+          "confidence": 0.7235,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ebal",
+          "type": "person",
+          "preferred_label": "Ebali",
+          "confidence": 0.71,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Abimael",
+          "type": "person",
+          "preferred_label": "Abimaeli",
+          "confidence": 0.629,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Alvan",
+          "type": "person",
+          "preferred_label": "Alvani",
+          "confidence": 0.62,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Onam",
+          "type": "person",
+          "preferred_label": "Onamu",
+          "confidence": 0.548,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Sheba.2",
+          "type": "person",
+          "preferred_label": "Sheba",
+          "confidence": 0.53,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "833431",
     "reference_id": 6619,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Obali",
     "media_type": "Text",
     "index_reference": "obali",
@@ -66,13 +117,36 @@
           "label": "Obali",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Obal",
+          "type": "person",
+          "preferred_label": "Obali",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Abimael",
+          "type": "person",
+          "preferred_label": "Abimaeli",
+          "confidence": 0.829,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Sheba.2",
+          "type": "person",
+          "preferred_label": "Sheba",
+          "confidence": 0.73,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "833433",
     "reference_id": 6675,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Ofiri (Mahali)",
     "media_type": "Text",
     "index_reference": "ofiri (mahali)",
@@ -136,13 +210,29 @@
           "end_ref_usfm": "1KI 9:28"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Ophir",
+          "type": "place",
+          "preferred_label": "Ofiri",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ophir",
+          "type": "person",
+          "preferred_label": "Ofiri",
+          "confidence": 0.6667,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "833432",
     "reference_id": 6674,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Ofiri (Mtu)",
     "media_type": "Text",
     "index_reference": "ofiri (mtu)",
@@ -164,13 +254,43 @@
           "end_ref_usfm": "1CH 1:23"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Ophir",
+          "type": "person",
+          "preferred_label": "Ofiri",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jobab",
+          "type": "person",
+          "preferred_label": "Yobabu",
+          "confidence": 0.64,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Havilah.2",
+          "type": "person",
+          "preferred_label": "Havila",
+          "confidence": 0.631,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joktan",
+          "type": "person",
+          "preferred_label": "Yoktani",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "811708",
     "reference_id": 3245,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Ombaomba",
     "media_type": "Text",
     "index_reference": "ombaomba",
@@ -338,7 +458,8 @@
           "label": "Maskini",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   }
 ]

@@ -2,7 +2,7 @@
   {
     "content_id": "9098",
     "reference_id": 8266,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Xanthicus",
     "media_type": "Text",
     "index_reference": "xanthicus",
@@ -26,13 +26,14 @@
           "label": "Calendars, Ancient and Modern",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "9099",
     "reference_id": 8267,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Xerxes",
     "media_type": "Text",
     "index_reference": "xerxes",
@@ -56,13 +57,36 @@
           "label": "Ahasuerus",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Ahasuerus",
+          "type": "person",
+          "preferred_label": "Ahasuerus",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Jerusalem",
+          "type": "place",
+          "preferred_label": "Jerusalem",
+          "confidence": 0.5935,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Judah",
+          "type": "group",
+          "preferred_label": "Tribe of Judah",
+          "confidence": 0.5395,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "9100",
     "reference_id": 8268,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Xestes",
     "media_type": "Text",
     "index_reference": "xestes",
@@ -79,7 +103,8 @@
           "label": "Weights and Measures",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   }
 ]

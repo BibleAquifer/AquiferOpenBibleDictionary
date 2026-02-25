@@ -2,7 +2,7 @@
   {
     "content_id": "419787",
     "reference_id": 4149,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Chagua, Uchaguzi",
     "media_type": "Text",
     "index_reference": "chagua, uchaguzi",
@@ -237,13 +237,14 @@
           "label": "Uteuzi wa Awali",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "713717",
     "reference_id": 5947,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Chakula cha Bwana,",
     "media_type": "Text",
     "index_reference": "chakula cha bwana, ",
@@ -613,13 +614,22 @@
           "end_ref_usfm": "1CO 10:4"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "BWANA",
+          "confidence": 0.5365,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "689578",
     "reference_id": 4454,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Chakula na Maandalizi ya Chakula",
     "media_type": "Text",
     "index_reference": "chakula na maandalizi ya chakula",
@@ -1264,13 +1274,14 @@
           "label": "Mimea",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "852489",
     "reference_id": 3707,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Choba",
     "media_type": "Text",
     "index_reference": "choba",
@@ -1298,7 +1309,16 @@
           "end_ref_usfm": "JDT 15:5"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Hobah",
+          "type": "place",
+          "preferred_label": "Hoba",
+          "confidence": 0.6505,
+          "match_method": "scored"
+        }
+      ]
     }
   }
 ]

@@ -2,7 +2,7 @@
   {
     "content_id": "800762",
     "reference_id": 4431,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "穹蒼",
     "media_type": "Text",
     "index_reference": "穹蒼",
@@ -54,13 +54,14 @@
           "end_ref_usfm": "EZK 1:26"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "574041",
     "reference_id": 6945,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "窮人",
     "media_type": "Text",
     "index_reference": "窮人",
@@ -342,6 +343,15 @@
           "resource_code": "TyndaleBibleDictionary",
           "label": "財富",
           "language": "zht"
+        }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Poor",
+          "type": "keyterm",
+          "preferred_label": "Poor",
+          "confidence": 0.8221,
+          "match_method": "embedding"
         }
       ]
     }

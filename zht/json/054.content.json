@@ -2,7 +2,7 @@
   {
     "content_id": "864911",
     "reference_id": 5085,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "何西阿書",
     "media_type": "Text",
     "index_reference": "何西阿書",
@@ -951,13 +951,14 @@
           "label": "先知，女先知",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "615737",
     "reference_id": 5084,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "和撒那",
     "media_type": "Text",
     "index_reference": "和撒那",
@@ -1023,13 +1024,14 @@
           "label": "彌賽亞",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "853366",
     "reference_id": 4998,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "赫",
     "media_type": "Text",
     "index_reference": "赫",
@@ -1051,7 +1053,30 @@
           "end_ref_usfm": "1CH 1:13"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Sidon",
+          "type": "person",
+          "preferred_label": "Sidon",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Heth",
+          "type": "person",
+          "preferred_label": "Heth",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Canaan",
+          "type": "person",
+          "preferred_label": "Canaan",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   }
 ]

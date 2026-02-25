@@ -2,7 +2,7 @@
   {
     "content_id": "573955",
     "reference_id": 2572,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "姦淫",
     "media_type": "Text",
     "index_reference": "姦淫",
@@ -268,13 +268,14 @@
           "label": "婚姻、婚姻習俗",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "471341",
     "reference_id": 6841,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "堅持",
     "media_type": "Text",
     "index_reference": "堅持",
@@ -578,13 +579,29 @@
           "end_ref_usfm": "HEB 6:8"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Tahan",
+          "type": "person",
+          "preferred_label": "Tahan",
+          "confidence": 0.8053,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Tahan.2",
+          "type": "person",
+          "preferred_label": "Tahan",
+          "confidence": 0.8053,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "315506",
     "reference_id": 3424,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "監督",
     "media_type": "Text",
     "index_reference": "監督",
@@ -676,13 +693,14 @@
           "label": "長老",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "315530",
     "reference_id": 6705,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "監督",
     "media_type": "Text",
     "index_reference": "監督",
@@ -791,13 +809,14 @@
           "label": "長老",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "574068",
     "reference_id": 8250,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "見證",
     "media_type": "Text",
     "index_reference": "見證",
@@ -993,13 +1012,36 @@
           "end_ref_usfm": "1CO 15:8"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "keyterm:Proof",
+          "type": "keyterm",
+          "preferred_label": "Proof",
+          "confidence": 0.8615,
+          "match_method": "embedding"
+        },
+        {
+          "id": "keyterm:Witness.2",
+          "type": "keyterm",
+          "preferred_label": "Testimony",
+          "confidence": 0.8606,
+          "match_method": "embedding"
+        },
+        {
+          "id": "keyterm:Witness",
+          "type": "keyterm",
+          "preferred_label": "Witness",
+          "confidence": 0.8585,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "232630",
     "reference_id": 2888,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "建築",
     "media_type": "Text",
     "index_reference": "建築",
@@ -1132,7 +1174,8 @@
           "label": "聖殿",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   }
 ]

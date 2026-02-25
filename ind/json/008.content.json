@@ -2,7 +2,7 @@
   {
     "content_id": "369117",
     "reference_id": 6997,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Janji",
     "media_type": "Text",
     "index_reference": "janji",
@@ -393,13 +393,22 @@
           "label": "Nabi, Nabiah",
           "language": "ind"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Promise",
+          "type": "keyterm",
+          "preferred_label": "janji",
+          "confidence": 0.6311,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "369072",
     "reference_id": 4918,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Jantung/Hati",
     "media_type": "Text",
     "index_reference": "jantung/hati",
@@ -1063,13 +1072,22 @@
           "end_ref_usfm": "2CO 3:3"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "keyterm:Heart",
+          "type": "keyterm",
+          "preferred_label": "hati",
+          "confidence": 0.7803,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "369129",
     "reference_id": 7757,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Jiwa",
     "media_type": "Text",
     "index_reference": "jiwa",
@@ -1541,13 +1559,14 @@
           "end_ref_usfm": "LUK 1:47"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "369077",
     "reference_id": 5206,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Juru Bahasa",
     "media_type": "Text",
     "index_reference": "juru bahasa",
@@ -1641,7 +1660,8 @@
           "end_ref_usfm": "NEH 8:9"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   }
 ]

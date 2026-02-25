@@ -2,7 +2,7 @@
   {
     "content_id": "124464",
     "reference_id": 8240,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Вино",
     "media_type": "Text",
     "index_reference": "вино",
@@ -294,13 +294,29 @@
           "end_ref_usfm": "MAT 26:29"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "realia:Wine",
+          "type": "realia",
+          "preferred_label": "Wine",
+          "confidence": 0.932,
+          "match_method": "embedding"
+        },
+        {
+          "id": "flora:Vine",
+          "type": "flora",
+          "preferred_label": "Vine",
+          "confidence": 0.8445,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "124463",
     "reference_id": 8208,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Вода",
     "media_type": "Text",
     "index_reference": "вода",
@@ -418,13 +434,14 @@
           "end_ref_usfm": "DEU 11:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "124454",
     "reference_id": 7147,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Возрождение*",
     "media_type": "Text",
     "index_reference": "возрождение*",
@@ -586,13 +603,14 @@
           "label": "Спасение",
           "language": "rus"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "124457",
     "reference_id": 7370,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Второе Пришествие Христа*",
     "media_type": "Text",
     "index_reference": "второе пришествие христа*",
@@ -902,13 +920,14 @@
           "end_ref_usfm": "2TH 1:10"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "124453",
     "reference_id": 7109,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Выкуп",
     "media_type": "Text",
     "index_reference": "выкуп",
@@ -1236,7 +1255,8 @@
           "end_ref_usfm": "NUM 3:48"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   }
 ]

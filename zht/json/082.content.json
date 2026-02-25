@@ -2,7 +2,7 @@
   {
     "content_id": "471335",
     "reference_id": 5874,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "黎巴嫩",
     "media_type": "Text",
     "index_reference": "黎巴嫩",
@@ -270,13 +270,22 @@
           "end_ref_usfm": "EXO 39:29"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Lebanon",
+          "type": "place",
+          "preferred_label": "Lebanon",
+          "confidence": 0.8352,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "864937",
     "reference_id": 5894,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "利都是族，利都是人",
     "media_type": "Text",
     "index_reference": "利都是族，利都是人",
@@ -292,13 +301,57 @@
           "end_ref_usfm": "GEN 25:3"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "group:Leummim",
+          "type": "group",
+          "preferred_label": "Leummites",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Sheba.3",
+          "type": "person",
+          "preferred_label": "Sheba",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Letushim",
+          "type": "group",
+          "preferred_label": "Letushim",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Asshurim",
+          "type": "group",
+          "preferred_label": "Asshurim",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Dedan.2",
+          "type": "person",
+          "preferred_label": "Dedan",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jokshan",
+          "type": "person",
+          "preferred_label": "Jokshan",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "340968",
     "reference_id": 5897,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "利未（人名）",
     "media_type": "Text",
     "index_reference": "利未（人名）",
@@ -370,13 +423,14 @@
           "label": "馬太（人物）",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "864938",
     "reference_id": 5895,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "利烏米族，利烏米人",
     "media_type": "Text",
     "index_reference": "利烏米族，利烏米人",
@@ -392,13 +446,57 @@
           "end_ref_usfm": "GEN 25:3"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "group:Leummim",
+          "type": "group",
+          "preferred_label": "Leummites",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Sheba.3",
+          "type": "person",
+          "preferred_label": "Sheba",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Letushim",
+          "type": "group",
+          "preferred_label": "Letushim",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Asshurim",
+          "type": "group",
+          "preferred_label": "Asshurim",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Dedan.2",
+          "type": "person",
+          "preferred_label": "Dedan",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jokshan",
+          "type": "person",
+          "preferred_label": "Jokshan",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "838335",
     "reference_id": 5870,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "利亞",
     "media_type": "Text",
     "index_reference": "利亞",
@@ -504,13 +602,22 @@
           "end_ref_usfm": "GEN 30:17"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Leah",
+          "type": "person",
+          "preferred_label": "Leah",
+          "confidence": 0.8333,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "864970",
     "reference_id": 7128,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "麗貝卡，利百加",
     "media_type": "Text",
     "index_reference": "麗貝卡，利百加",
@@ -570,7 +677,8 @@
           "label": "以撒",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   }
 ]

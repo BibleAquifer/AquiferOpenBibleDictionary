@@ -2,7 +2,7 @@
   {
     "content_id": "647222",
     "reference_id": 7791,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "स्तिफनास",
     "media_type": "Text",
     "index_reference": "स्तिफनास",
@@ -24,13 +24,29 @@
           "end_ref_usfm": "1CO 16:17"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Stephanas",
+          "type": "person",
+          "preferred_label": "स्तिफनास",
+          "confidence": 0.9,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Fortunatus",
+          "type": "person",
+          "preferred_label": "फूरतूनातुस",
+          "confidence": 0.5515,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "368645",
     "reference_id": 7792,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "स्तिफनुस",
     "media_type": "Text",
     "index_reference": "स्तिफनुस",
@@ -112,13 +128,22 @@
           "end_ref_usfm": "ACT 8:3"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Stephen",
+          "type": "person",
+          "preferred_label": "स्तिफनुस",
+          "confidence": 0.625,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "381189",
     "reference_id": 6970,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "स्तुति",
     "media_type": "Text",
     "index_reference": "स्तुति",
@@ -480,6 +505,15 @@
           "resource_code": "TyndaleBibleDictionary",
           "label": "आराधना",
           "language": "hin"
+        }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Praise",
+          "type": "keyterm",
+          "preferred_label": "Praise",
+          "confidence": 0.8404,
+          "match_method": "embedding"
         }
       ]
     }

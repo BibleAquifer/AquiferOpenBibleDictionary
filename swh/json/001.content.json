@@ -2,7 +2,7 @@
   {
     "content_id": "852570",
     "reference_id": 7471,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Bonde la Shaveh",
     "media_type": "Text",
     "index_reference": " bonde la shaveh",
@@ -26,13 +26,43 @@
           "label": "Bonde la Mfalme",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Shaveh",
+          "type": "place",
+          "preferred_label": "Shawe",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:KingsValley",
+          "type": "place",
+          "preferred_label": "mfalme",
+          "confidence": 0.8425,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Chedorlaomer",
+          "type": "person",
+          "preferred_label": "Kedorlaoma",
+          "confidence": 0.544,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Sodom",
+          "type": "place",
+          "preferred_label": "Sodoma",
+          "confidence": 0.5305,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "778882",
     "reference_id": 7187,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Kitabu cha ufunuo",
     "media_type": "Text",
     "index_reference": " kitabu cha ufunuo",
@@ -1054,13 +1084,14 @@
           "label": "Yohana, Mtume",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "811785",
     "reference_id": 8061,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Kuzungumza kwa lugha",
     "media_type": "Text",
     "index_reference": " kuzungumza kwa lugha ",
@@ -1162,13 +1193,14 @@
           "label": "Ubatizo wa Roho Mtakatifu",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "811710",
     "reference_id": 3260,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mwanafunzi Mpendwa",
     "media_type": "Text",
     "index_reference": " mwanafunzi mpendwa",
@@ -1282,13 +1314,14 @@
           "label": "Yohana, Mtume",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "778879",
     "reference_id": 6916,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Pisoni",
     "media_type": "Text",
     "index_reference": " pisoni",
@@ -1311,6 +1344,15 @@
           "resource_code": "TyndaleBibleDictionary",
           "label": "Pishoni",
           "language": "swh"
+        }
+      ],
+      "acai": [
+        {
+          "id": "place:Havilah",
+          "type": "place",
+          "preferred_label": "Havila",
+          "confidence": 0.6265,
+          "match_method": "scored"
         }
       ]
     }

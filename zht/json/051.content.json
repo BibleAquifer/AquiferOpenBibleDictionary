@@ -2,7 +2,7 @@
   {
     "content_id": "826019",
     "reference_id": 4888,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "哈腓拉（地名）",
     "media_type": "Text",
     "index_reference": "哈腓拉（地名）",
@@ -24,13 +24,14 @@
           "end_ref_usfm": "GEN 2:12"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "853360",
     "reference_id": 4887,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "哈腓拉（人物）",
     "media_type": "Text",
     "index_reference": "哈腓拉（人物）",
@@ -64,13 +65,14 @@
           "end_ref_usfm": "1CH 1:23"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "853355",
     "reference_id": 4783,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "哈馬人",
     "media_type": "Text",
     "index_reference": "哈馬人",
@@ -92,13 +94,36 @@
           "end_ref_usfm": "1CH 1:16"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "group:Arvadites",
+          "type": "group",
+          "preferred_label": "Arvadites",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Hamathites",
+          "type": "group",
+          "preferred_label": "Hamathites",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Zemarites",
+          "type": "group",
+          "preferred_label": "Zemarites",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "853357",
     "reference_id": 4799,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "哈麥（地點）",
     "media_type": "Text",
     "index_reference": "哈麥（地點）",
@@ -114,13 +139,36 @@
           "end_ref_usfm": "GEN 14:5"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Ashteroth-karnaim",
+          "type": "place",
+          "preferred_label": "Ashteroth-karnaim",
+          "confidence": 0.5905,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Emim",
+          "type": "group",
+          "preferred_label": "Emim",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Zuzim",
+          "type": "group",
+          "preferred_label": "Zuzim",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "853363",
     "reference_id": 4907,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "哈洗遜‧他瑪",
     "media_type": "Text",
     "index_reference": "哈洗遜‧他瑪",
@@ -136,7 +184,8 @@
           "end_ref_usfm": "GEN 14:7"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   }
 ]

@@ -2,7 +2,7 @@
   {
     "content_id": "864934",
     "reference_id": 5823,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "拉班（人物）",
     "media_type": "Text",
     "index_reference": "拉班（人物）",
@@ -110,13 +110,14 @@
           "label": "雅各",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "574044",
     "reference_id": 7063,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "拉比",
     "media_type": "Text",
     "index_reference": "拉比",
@@ -186,13 +187,14 @@
           "end_ref_usfm": "MAT 23:8"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "574045",
     "reference_id": 7064,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "拉波尼",
     "media_type": "Text",
     "index_reference": "拉波尼",
@@ -222,13 +224,14 @@
           "label": "拉比",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "864935",
     "reference_id": 5830,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "拉海‧萊 （Lahai-Roi）",
     "media_type": "Text",
     "index_reference": "拉海‧萊 （Lahai-Roi）",
@@ -250,13 +253,22 @@
           "end_ref_usfm": "GEN 25:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Beer-lahai-roi",
+          "type": "place",
+          "preferred_label": "Beer-lahai-roi",
+          "confidence": 1.0,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "838334",
     "reference_id": 5840,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "拉麥",
     "media_type": "Text",
     "index_reference": "拉麥",
@@ -320,7 +332,8 @@
           "end_ref_usfm": "GEN 5:31"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   }
 ]

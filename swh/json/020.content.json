@@ -2,7 +2,7 @@
   {
     "content_id": "778845",
     "reference_id": 4039,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Talaka",
     "media_type": "Text",
     "index_reference": "talaka",
@@ -189,13 +189,14 @@
           "label": "Ngono, Ujinsia",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "713746",
     "reference_id": 7889,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Talitha Cumi",
     "media_type": "Text",
     "index_reference": "talitha cumi",
@@ -265,13 +266,14 @@
           "end_ref_usfm": "MRK 11:10"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "811719",
     "reference_id": 3844,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Tamaa, shauku",
     "media_type": "Text",
     "index_reference": "tamaa, shauku",
@@ -485,13 +487,14 @@
           "end_ref_usfm": "ROM 7:8"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "713710",
     "reference_id": 5268,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Tatizo la Damu",
     "media_type": "Text",
     "index_reference": "tatizo la damu",
@@ -521,13 +524,14 @@
           "label": "Kutokwa na damu ",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "852580",
     "reference_id": 7956,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Tera (Mtu)",
     "media_type": "Text",
     "index_reference": "tera (mtu)",
@@ -593,13 +597,36 @@
           "label": "Abrahamu",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Terah",
+          "type": "person",
+          "preferred_label": "Tera",
+          "confidence": 0.85,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Abraham",
+          "type": "person",
+          "preferred_label": "Abrahamu",
+          "confidence": 0.598,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Haran",
+          "type": "place",
+          "preferred_label": "Harani",
+          "confidence": 0.548,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "713747",
     "reference_id": 7967,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Tetrarki",
     "media_type": "Text",
     "index_reference": "tetrarki",
@@ -651,13 +678,22 @@
           "end_ref_usfm": "ACT 13:1"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Herod.2",
+          "type": "person",
+          "preferred_label": "Herode",
+          "confidence": 0.6324,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "468219",
     "reference_id": 7969,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Thadayo, Mtume",
     "media_type": "Text",
     "index_reference": "thadayo, mtume",
@@ -699,13 +735,64 @@
           "label": "Mtume, Utume",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Judas",
+          "type": "person",
+          "preferred_label": "Yuda",
+          "confidence": 0.7525,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:James.2",
+          "type": "person",
+          "preferred_label": "Yakobo",
+          "confidence": 0.649,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Alphaeus",
+          "type": "person",
+          "preferred_label": "Alfayo",
+          "confidence": 0.639,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Thomas",
+          "type": "person",
+          "preferred_label": "Tomaso",
+          "confidence": 0.639,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Bartholomew",
+          "type": "person",
+          "preferred_label": "Bartholomayo",
+          "confidence": 0.63,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Philip",
+          "type": "person",
+          "preferred_label": "Filipo",
+          "confidence": 0.5895,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Matthew",
+          "type": "person",
+          "preferred_label": "Mathayo",
+          "confidence": 0.57,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "468220",
     "reference_id": 7983,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Theofilo",
     "media_type": "Text",
     "index_reference": "theofilo",
@@ -745,13 +832,22 @@
           "end_ref_usfm": "ACT 24:3"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Theophilus",
+          "type": "person",
+          "preferred_label": "Theofilo",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "811782",
     "reference_id": 7987,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Theuda",
     "media_type": "Text",
     "index_reference": "theuda",
@@ -767,13 +863,36 @@
           "end_ref_usfm": "ACT 5:36"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Theudas",
+          "type": "person",
+          "preferred_label": "Theuda",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Persuade",
+          "type": "keyterm",
+          "preferred_label": "Persuade",
+          "confidence": 0.7435,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Heart",
+          "type": "keyterm",
+          "preferred_label": "Heart",
+          "confidence": 0.6475,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "852581",
     "reference_id": 8004,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Tidali",
     "media_type": "Text",
     "index_reference": "tidali",
@@ -789,13 +908,22 @@
           "end_ref_usfm": "GEN 14:9"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Tidal",
+          "type": "person",
+          "preferred_label": "Tidali",
+          "confidence": 0.6889,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "419817",
     "reference_id": 8115,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Tikiko",
     "media_type": "Text",
     "index_reference": "tikiko",
@@ -841,13 +969,22 @@
           "end_ref_usfm": "2CO 8:24"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Tychicus",
+          "type": "person",
+          "preferred_label": "Tikiko",
+          "confidence": 0.7429,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "419814",
     "reference_id": 8022,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Timothy, Barua ya Kwanza kwa",
     "media_type": "Text",
     "index_reference": "timothy, barua ya kwanza kwa",
@@ -1027,13 +1164,22 @@
           "label": "Tito, Barua kwa",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Timothy",
+          "type": "person",
+          "preferred_label": "Timotheo",
+          "confidence": 0.6144,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "833468",
     "reference_id": 8027,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Tirasi",
     "media_type": "Text",
     "index_reference": "tirasi",
@@ -1055,13 +1201,71 @@
           "end_ref_usfm": "1CH 1:5"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Tiras",
+          "type": "person",
+          "preferred_label": "Tirasi",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tubal",
+          "type": "person",
+          "preferred_label": "Tubali",
+          "confidence": 0.9595,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Magog",
+          "type": "person",
+          "preferred_label": "Magogu",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Madai",
+          "type": "person",
+          "preferred_label": "Madai",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Javan",
+          "type": "person",
+          "preferred_label": "Yavani",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Gomer",
+          "type": "person",
+          "preferred_label": "Gomeri",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Japheth",
+          "type": "person",
+          "preferred_label": "Yafethi",
+          "confidence": 0.6895,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Meshech.2",
+          "type": "person",
+          "preferred_label": "Mesheki",
+          "confidence": 0.6895,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "419816",
     "reference_id": 8041,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Tito (Mtu)",
     "media_type": "Text",
     "index_reference": "tito (mtu)",
@@ -1170,13 +1374,22 @@
           "label": "Tito, Barua kwa",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Titus",
+          "type": "person",
+          "preferred_label": "Tito",
+          "confidence": 0.6459,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "419815",
     "reference_id": 8040,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Tito, Barua kwa",
     "media_type": "Text",
     "index_reference": "tito, barua kwa",
@@ -1394,13 +1607,22 @@
           "label": "Tito (Mtu)",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Titus",
+          "type": "person",
+          "preferred_label": "Tito",
+          "confidence": 0.6358,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "689612",
     "reference_id": 7166,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Toba",
     "media_type": "Text",
     "index_reference": "toba",
@@ -1512,13 +1734,22 @@
           "label": "Msamaha",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Tob",
+          "type": "place",
+          "preferred_label": "Tobu",
+          "confidence": 0.8121,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "833469",
     "reference_id": 8051,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Togarma",
     "media_type": "Text",
     "index_reference": "togarma",
@@ -1558,13 +1789,29 @@
           "end_ref_usfm": "GEN 10:32"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Beth-togarmah",
+          "type": "place",
+          "preferred_label": "nyumba",
+          "confidence": 0.5914,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Togarmah",
+          "type": "person",
+          "preferred_label": "Togama",
+          "confidence": 0.5914,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "419783",
     "reference_id": 3734,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Tohara",
     "media_type": "Text",
     "index_reference": "tohara",
@@ -2141,13 +2388,14 @@
           "label": "Kanuni kuhusu Usafi na Uchafu",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "468221",
     "reference_id": 7989,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Tomaso, Mtume",
     "media_type": "Text",
     "index_reference": "tomaso, mtume",
@@ -2226,13 +2474,22 @@
           "label": "Mtume, Utume",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Thomas",
+          "type": "person",
+          "preferred_label": "Tomaso",
+          "confidence": 1.0,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "852583",
     "reference_id": 8065,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Torati",
     "media_type": "Text",
     "index_reference": "torati",
@@ -2311,13 +2568,14 @@
           "label": "Sheria, Dhana ya Kibiblia ya",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "833471",
     "reference_id": 8107,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Tubali",
     "media_type": "Text",
     "index_reference": "tubali",
@@ -2375,13 +2633,36 @@
           "end_ref_usfm": "EZK 38:3"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Tubal",
+          "type": "place",
+          "preferred_label": "Tubali",
+          "confidence": 0.85,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Meshech",
+          "type": "place",
+          "preferred_label": "Mesheki",
+          "confidence": 0.7595,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tubal",
+          "type": "person",
+          "preferred_label": "Tubali",
+          "confidence": 0.7,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "800626",
     "reference_id": 8106,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Tubali-kaini",
     "media_type": "Text",
     "index_reference": "tubali-kaini",
@@ -2409,7 +2690,30 @@
           "end_ref_usfm": "GEN 4:22"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Tubal-cain",
+          "type": "person",
+          "preferred_label": "Tubal-kaini",
+          "confidence": 0.7153,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jubal",
+          "type": "person",
+          "preferred_label": "Yubali",
+          "confidence": 0.5353,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jabal",
+          "type": "person",
+          "preferred_label": "Yabali",
+          "confidence": 0.5353,
+          "match_method": "scored"
+        }
+      ]
     }
   }
 ]

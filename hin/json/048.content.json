@@ -2,7 +2,7 @@
   {
     "content_id": "381620",
     "reference_id": 5663,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "न्याय",
     "media_type": "Text",
     "index_reference": "न्याय",
@@ -179,13 +179,14 @@
           "label": "परमेश्वर का क्रोध",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "381122",
     "reference_id": 5662,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "न्याय आसन",
     "media_type": "Text",
     "index_reference": "न्याय आसन",
@@ -313,13 +314,14 @@
           "label": "अंतिम न्याय ",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "184952",
     "reference_id": 5661,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "न्याय कक्ष",
     "media_type": "Text",
     "index_reference": "न्याय कक्ष",
@@ -365,13 +367,22 @@
           "end_ref_usfm": "ACT 23:35"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "realia:Palace",
+          "type": "realia",
+          "preferred_label": "Palace",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "734073",
     "reference_id": 8165,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "न्याय की तराई",
     "media_type": "Text",
     "index_reference": "न्याय की तराई",
@@ -401,13 +412,22 @@
           "label": "यहोशापात की तराई",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Kidron",
+          "type": "place",
+          "preferred_label": "किद्रोन",
+          "confidence": 0.7195,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "184951",
     "reference_id": 5660,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "न्यायाधीश",
     "media_type": "Text",
     "index_reference": "न्यायाधीश",
@@ -517,13 +537,22 @@
           "label": "न्यायियों की पुस्तक ",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Judge",
+          "type": "keyterm",
+          "preferred_label": "Judge",
+          "confidence": 0.8915,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "381147",
     "reference_id": 6022,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "न्यायाधीश",
     "media_type": "Text",
     "index_reference": "न्यायाधीश",
@@ -557,13 +586,22 @@
           "end_ref_usfm": "ACT 16:38"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "keyterm:Judge",
+          "type": "keyterm",
+          "preferred_label": "Judge",
+          "confidence": 0.8915,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "368577",
     "reference_id": 3837,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "न्यायालय और मुकदमे",
     "media_type": "Text",
     "index_reference": "न्यायालय और मुकदमे",
@@ -861,13 +899,14 @@
           "label": "नागरिक व्यवस्था और न्याय",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "733316",
     "reference_id": 5659,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "न्यायियों की अवधि",
     "media_type": "Text",
     "index_reference": "न्यायियों की अवधि",
@@ -884,13 +923,14 @@
           "label": "न्यायियों की पुस्तक ",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "381619",
     "reference_id": 5658,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "न्यायियों की पुस्तक",
     "media_type": "Text",
     "index_reference": "न्यायियों की पुस्तक",
@@ -1978,13 +2018,71 @@
           "label": "शिमशोन",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Nun",
+          "type": "person",
+          "preferred_label": "नून",
+          "confidence": 0.6034,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Kenite",
+          "type": "group",
+          "preferred_label": "केनी",
+          "confidence": 0.6012,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Zaphon",
+          "type": "place",
+          "preferred_label": "सापोन",
+          "confidence": 0.6006,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Japhia",
+          "type": "place",
+          "preferred_label": "यापी",
+          "confidence": 0.6003,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Socoh.2",
+          "type": "place",
+          "preferred_label": "सोको",
+          "confidence": 0.6003,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Japhia",
+          "type": "person",
+          "preferred_label": "यापी",
+          "confidence": 0.6003,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Kinah",
+          "type": "place",
+          "preferred_label": "कीना",
+          "confidence": 0.6003,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Kishion",
+          "type": "place",
+          "preferred_label": "किश्योन",
+          "confidence": 0.5241,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "381125",
     "reference_id": 5672,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "न्यायीकरण, न्यायी ठहराया जाना",
     "media_type": "Text",
     "index_reference": "न्यायीकरण, न्यायी ठहराया जाना",
@@ -2207,7 +2305,8 @@
           "label": "पवित्रीकरण",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   }
 ]

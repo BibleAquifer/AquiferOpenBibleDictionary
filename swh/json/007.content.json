@@ -2,7 +2,7 @@
   {
     "content_id": "852560",
     "reference_id": 6862,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Farao",
     "media_type": "Text",
     "index_reference": "farao",
@@ -72,13 +72,22 @@
           "end_ref_usfm": "1KI 3:2"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Pharaoh.7",
+          "type": "person",
+          "preferred_label": "Farao",
+          "confidence": 0.72,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "419809",
     "reference_id": 7109,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fidia",
     "media_type": "Text",
     "index_reference": "fidia",
@@ -406,13 +415,14 @@
           "end_ref_usfm": "NUM 3:48"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "713732",
     "reference_id": 6880,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Filipo",
     "media_type": "Text",
     "index_reference": "filipo",
@@ -569,13 +579,43 @@
           "label": "Herode, Familia ya Herode",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Philip",
+          "type": "person",
+          "preferred_label": "Filipo",
+          "confidence": 0.6519,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Philip.4",
+          "type": "person",
+          "preferred_label": "Filipo",
+          "confidence": 0.6481,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Philip.2",
+          "type": "person",
+          "preferred_label": "Filipo",
+          "confidence": 0.6074,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Philip.3",
+          "type": "person",
+          "preferred_label": "Filipo",
+          "confidence": 0.6037,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "811761",
     "reference_id": 6891,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Frigia",
     "media_type": "Text",
     "index_reference": "frigia",
@@ -603,13 +643,22 @@
           "end_ref_usfm": "ACT 2:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Phrygia",
+          "type": "place",
+          "preferred_label": "Frigia",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "800571",
     "reference_id": 3156,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fukuza, Kufukuzwa",
     "media_type": "Text",
     "index_reference": "fukuza, kufukuzwa",
@@ -753,13 +802,14 @@
           "label": "Utawanyiko wa Wayahudi",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "713723",
     "reference_id": 6425,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fumbo",
     "media_type": "Text",
     "index_reference": "fumbo",
@@ -1057,13 +1107,14 @@
           "end_ref_usfm": "COL 1:29"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "800570",
     "reference_id": 2937,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fundi",
     "media_type": "Text",
     "index_reference": "fundi",
@@ -1105,13 +1156,14 @@
           "label": "Kazi",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "852582",
     "reference_id": 8037,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fungu la Kumi, Kutoa Fungu la Kumi",
     "media_type": "Text",
     "index_reference": "fungu la kumi, kutoa fungu la kumi",
@@ -1201,7 +1253,8 @@
           "label": "Sadaka na Dhabihu",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   }
 ]

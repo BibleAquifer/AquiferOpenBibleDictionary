@@ -2,7 +2,7 @@
   {
     "content_id": "800589",
     "reference_id": 4458,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Maarifa ya awali",
     "media_type": "Text",
     "index_reference": "maarifa ya awali",
@@ -213,13 +213,14 @@
           "label": "Uteuzi wa Awali",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "778875",
     "reference_id": 6778,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mababa wa Imani, Kipindi cha",
     "media_type": "Text",
     "index_reference": "mababa wa imani, kipindi cha ",
@@ -353,13 +354,14 @@
           "label": "Yosefu",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "689570",
     "reference_id": 3809,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mabadiliko",
     "media_type": "Text",
     "index_reference": "mabadiliko",
@@ -673,13 +675,14 @@
           "label": "Toba",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "689614",
     "reference_id": 7263,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mabaharia",
     "media_type": "Text",
     "index_reference": "mabaharia",
@@ -817,13 +820,29 @@
           "label": "Safari",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Ship",
+          "type": "realia",
+          "preferred_label": "Ship",
+          "confidence": 0.5425,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:AdriaticSea",
+          "type": "place",
+          "preferred_label": "bahari",
+          "confidence": 0.5162,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "852488",
     "reference_id": 3646,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Machafuko, Maji ya",
     "media_type": "Text",
     "index_reference": "machafuko, maji ya",
@@ -845,13 +864,22 @@
           "end_ref_usfm": "GEN 1:7"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "BWANA",
+          "confidence": 0.5575,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "419774",
     "reference_id": 2487,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Machukizo",
     "media_type": "Text",
     "index_reference": "machukizo",
@@ -947,13 +975,14 @@
           "label": "Kanuni kuhusu Usafi na Uchafu",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "833419",
     "reference_id": 6008,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Madai",
     "media_type": "Text",
     "index_reference": "madai",
@@ -975,13 +1004,71 @@
           "end_ref_usfm": "1CH 1:5"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Magog",
+          "type": "person",
+          "preferred_label": "Magogu",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Madai",
+          "type": "person",
+          "preferred_label": "Madai",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Javan",
+          "type": "person",
+          "preferred_label": "Yavani",
+          "confidence": 0.7975,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tubal",
+          "type": "person",
+          "preferred_label": "Tubali",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tiras",
+          "type": "person",
+          "preferred_label": "Tirasi",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Gomer",
+          "type": "person",
+          "preferred_label": "Gomeri",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Japheth",
+          "type": "person",
+          "preferred_label": "Yafethi",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Meshech.2",
+          "type": "person",
+          "preferred_label": "Mesheki",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "833357",
     "reference_id": 2697,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Madhabahu",
     "media_type": "Text",
     "index_reference": "madhabahu",
@@ -1252,13 +1339,14 @@
           "label": "Hekalu",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "800607",
     "reference_id": 6313,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Madini na Metali",
     "media_type": "Text",
     "index_reference": "madini na metali",
@@ -2249,13 +2337,14 @@
           "label": "Mawe, Ya Thamani",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "713727",
     "reference_id": 6640,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mafuta",
     "media_type": "Text",
     "index_reference": "mafuta",
@@ -2444,13 +2533,22 @@
           "label": "Mimea",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:OliveOil",
+          "type": "realia",
+          "preferred_label": "Olive Oil",
+          "confidence": 0.5244,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "833420",
     "reference_id": 6025,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Magogu",
     "media_type": "Text",
     "index_reference": "magogu",
@@ -2526,13 +2624,36 @@
           "end_ref_usfm": "EZK 38:6"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Magog",
+          "type": "place",
+          "preferred_label": "Magogu",
+          "confidence": 0.6174,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Magog",
+          "type": "person",
+          "preferred_label": "Magogu",
+          "confidence": 0.6116,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Hamon-gogValley",
+          "type": "place",
+          "preferred_label": "Gogu",
+          "confidence": 0.5216,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "689574",
     "reference_id": 4028,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Magonjwa",
     "media_type": "Text",
     "index_reference": "magonjwa",
@@ -2772,13 +2893,14 @@
           "label": "Dawa na Mazoezi ya Tiba",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "811718",
     "reference_id": 3837,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mahakama na Kesi",
     "media_type": "Text",
     "index_reference": "mahakama na kesi",
@@ -3048,13 +3170,14 @@
           "label": "Sanhedrin",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "800602",
     "reference_id": 6031,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mahalaleel, Mahalaleli",
     "media_type": "Text",
     "index_reference": "mahalaleel, mahalaleli",
@@ -3088,13 +3211,29 @@
           "end_ref_usfm": "GEN 5:17"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Mahalalel",
+          "type": "person",
+          "preferred_label": "Mahalaleli",
+          "confidence": 0.9111,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mahalalel.2",
+          "type": "person",
+          "preferred_label": "Mahalaleli",
+          "confidence": 0.6444,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "833379",
     "reference_id": 3945,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mahali pa Wafu",
     "media_type": "Text",
     "index_reference": "mahali pa wafu",
@@ -3704,13 +3843,14 @@
           "label": "Peponi",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "419788",
     "reference_id": 4403,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Maisha ya Familia na Mahusiano",
     "media_type": "Text",
     "index_reference": "maisha ya familia na mahusiano",
@@ -4535,13 +4675,14 @@
           "label": "Mwanamke",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "419819",
     "reference_id": 8208,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Maji",
     "media_type": "Text",
     "index_reference": "maji",
@@ -4659,13 +4800,22 @@
           "end_ref_usfm": "DEU 11:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:WaterGate",
+          "type": "place",
+          "preferred_label": "maji",
+          "confidence": 0.8817,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "778872",
     "reference_id": 6466,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Majina, Umuhimu wa",
     "media_type": "Text",
     "index_reference": "majina, umuhimu wa",
@@ -4881,13 +5031,14 @@
           "label": "Mungu, Majina ya",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "833395",
     "reference_id": 4612,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Majitu",
     "media_type": "Text",
     "index_reference": "majitu",
@@ -5001,13 +5152,22 @@
           "label": "Wanefili",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "group:Philistine",
+          "type": "group",
+          "preferred_label": "Wafilisti",
+          "confidence": 0.5088,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "713718",
     "reference_id": 5999,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Makaeru",
     "media_type": "Text",
     "index_reference": "makaeru",
@@ -5041,13 +5201,14 @@
           "end_ref_usfm": "LUK 7:20"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "689609",
     "reference_id": 6984,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Makuhani na Walawi",
     "media_type": "Text",
     "index_reference": "makuhani na walawi",
@@ -5473,13 +5634,29 @@
           "label": "Ukuhani",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Levi.3",
+          "type": "person",
+          "preferred_label": "Walawi",
+          "confidence": 0.6686,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Levi",
+          "type": "group",
+          "preferred_label": "Walawi",
+          "confidence": 0.5186,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "800567",
     "reference_id": 2779,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Malaika",
     "media_type": "Text",
     "index_reference": "malaika",
@@ -5818,13 +5995,14 @@
           "label": "Shetani",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "689596",
     "reference_id": 6058,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Malaki, Kitabu cha",
     "media_type": "Text",
     "index_reference": "malaki, kitabu cha",
@@ -6330,13 +6508,14 @@
           "label": "Nabii, Nabii wa kike",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "852550",
     "reference_id": 6080,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mamre (Mahali)",
     "media_type": "Text",
     "index_reference": "mamre (mahali)",
@@ -6382,13 +6561,36 @@
           "end_ref_usfm": "GEN 18:33"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Mamre",
+          "type": "place",
+          "preferred_label": "Mamre",
+          "confidence": 0.6345,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mamre",
+          "type": "person",
+          "preferred_label": "Mamre",
+          "confidence": 0.6069,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:FatherOfMamre",
+          "type": "person",
+          "preferred_label": "Father of Mamre",
+          "confidence": 0.6,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "852549",
     "reference_id": 6079,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mamre (Mtu)",
     "media_type": "Text",
     "index_reference": "mamre (mtu)",
@@ -6404,13 +6606,85 @@
           "end_ref_usfm": "GEN 14:13"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Mamre",
+          "type": "person",
+          "preferred_label": "Mamre",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Mamre",
+          "type": "place",
+          "preferred_label": "Mamre",
+          "confidence": 0.85,
+          "match_method": "scored"
+        },
+        {
+          "id": "flora:Oak",
+          "type": "flora",
+          "preferred_label": "Oak",
+          "confidence": 0.85,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Aner",
+          "type": "person",
+          "preferred_label": "Aneri",
+          "confidence": 0.748,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Hebrews",
+          "type": "group",
+          "preferred_label": "Hebrews",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Amorites",
+          "type": "group",
+          "preferred_label": "Amorites",
+          "confidence": 0.7015,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Eshcol",
+          "type": "person",
+          "preferred_label": "Eshkoli",
+          "confidence": 0.631,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:FatherOfMamre",
+          "type": "person",
+          "preferred_label": "Father of Mamre",
+          "confidence": 0.6,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Abraham",
+          "type": "person",
+          "preferred_label": "Abrahamu",
+          "confidence": 0.58,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Covenant",
+          "type": "keyterm",
+          "preferred_label": "Covenant",
+          "confidence": 0.562,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "811778",
     "reference_id": 7416,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Maneno Saba ya Mwisho ya Yesu",
     "media_type": "Text",
     "index_reference": "maneno saba ya mwisho ya yesu",
@@ -6590,13 +6864,22 @@
           "label": "Kusulubiwa",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Jesus.2",
+          "type": "person",
+          "preferred_label": "Yesu",
+          "confidence": 0.5352,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "713722",
     "reference_id": 6405,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Maomboleza",
     "media_type": "Text",
     "index_reference": "maomboleza",
@@ -6954,13 +7237,14 @@
           "end_ref_usfm": "MRK 5:39"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "852577",
     "reference_id": 7711,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mapango ya Lami",
     "media_type": "Text",
     "index_reference": "mapango ya lami",
@@ -6984,13 +7268,29 @@
           "label": "Bonde la Sidimu",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Gomorrah",
+          "type": "place",
+          "preferred_label": "Gomora",
+          "confidence": 0.5305,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:SiddimValley",
+          "type": "place",
+          "preferred_label": "bonde",
+          "confidence": 0.5305,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "468198",
     "reference_id": 6129,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Maria",
     "media_type": "Text",
     "index_reference": "maria",
@@ -7210,13 +7510,71 @@
           "end_ref_usfm": "JHN 12:8"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Marymagdalene",
+          "type": "person",
+          "preferred_label": "Mariamu",
+          "confidence": 0.573,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mary",
+          "type": "person",
+          "preferred_label": "Mariamu",
+          "confidence": 0.5616,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mary.3",
+          "type": "person",
+          "preferred_label": "Mariamu",
+          "confidence": 0.5502,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mary.2",
+          "type": "person",
+          "preferred_label": "Mariamu",
+          "confidence": 0.5464,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mary.4",
+          "type": "person",
+          "preferred_label": "Mariamu",
+          "confidence": 0.5273,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mary.6",
+          "type": "person",
+          "preferred_label": "Mariamu",
+          "confidence": 0.5273,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mary.5",
+          "type": "person",
+          "preferred_label": "Mariamu",
+          "confidence": 0.5273,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Martha",
+          "type": "person",
+          "preferred_label": "Martha",
+          "confidence": 0.5014,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "689597",
     "reference_id": 6118,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Marko, injili ya",
     "media_type": "Text",
     "index_reference": "marko, injili ya",
@@ -7963,13 +8321,22 @@
           "label": "Injili za Sinoptiki",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Mark",
+          "type": "person",
+          "preferred_label": "Marko",
+          "confidence": 0.6012,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "811773",
     "reference_id": 7259,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Masadukayo",
     "media_type": "Text",
     "index_reference": "masadukayo",
@@ -8114,13 +8481,14 @@
           "label": "Uyahudi",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "468201",
     "reference_id": 6259,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Masihi",
     "media_type": "Text",
     "index_reference": "masihi",
@@ -9022,13 +9390,14 @@
           "label": "Mwana wa Mwanadamu",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "811764",
     "reference_id": 6945,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Maskini",
     "media_type": "Text",
     "index_reference": "maskini",
@@ -9304,13 +9673,14 @@
           "label": "Utajiri",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "713725",
     "reference_id": 6482,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mataifa",
     "media_type": "Text",
     "index_reference": "mataifa",
@@ -9578,13 +9948,29 @@
           "end_ref_usfm": "ACT 15:29"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Harosheth-hagoyim",
+          "type": "place",
+          "preferred_label": "Mataifa",
+          "confidence": 1.0,
+          "match_method": "embedding"
+        },
+        {
+          "id": "realia:Stater",
+          "type": "realia",
+          "preferred_label": "Stater",
+          "confidence": 0.8312,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "468204",
     "reference_id": 6768,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mateso",
     "media_type": "Text",
     "index_reference": "mateso",
@@ -9852,13 +10238,14 @@
           "end_ref_usfm": "ACT 3:21"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "800615",
     "reference_id": 6839,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mateso",
     "media_type": "Text",
     "index_reference": "mateso",
@@ -10326,13 +10713,14 @@
           "label": "Mateso",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "800623",
     "reference_id": 7814,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mateso",
     "media_type": "Text",
     "index_reference": "mateso",
@@ -10524,13 +10912,14 @@
           "label": "Mateso",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "468199",
     "reference_id": 6157,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mathayo (Mtu)",
     "media_type": "Text",
     "index_reference": "mathayo (mtu)",
@@ -10624,13 +11013,36 @@
           "end_ref_usfm": "MRK 2:14"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Matthew",
+          "type": "person",
+          "preferred_label": "Mathayo",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Alphaeus",
+          "type": "person",
+          "preferred_label": "Alfayo",
+          "confidence": 0.5433,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Bartholomew",
+          "type": "person",
+          "preferred_label": "Bartholomayo",
+          "confidence": 0.5192,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "689598",
     "reference_id": 6156,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mathayo, Injili ya",
     "media_type": "Text",
     "index_reference": "mathayo, injili ya",
@@ -11923,13 +12335,22 @@
           "label": "Injili za Sinoptiki",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Matthew",
+          "type": "person",
+          "preferred_label": "Mathayo",
+          "confidence": 0.6017,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "468200",
     "reference_id": 6158,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mathiya",
     "media_type": "Text",
     "index_reference": "mathiya",
@@ -11953,13 +12374,22 @@
           "label": "Mtume, Utume",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Matthias",
+          "type": "person",
+          "preferred_label": "Mathiya",
+          "confidence": 0.8,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "689568",
     "reference_id": 3767,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mavazi",
     "media_type": "Text",
     "index_reference": "mavazi",
@@ -12167,13 +12597,14 @@
           "end_ref_usfm": "JHN 19:24"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "778891",
     "reference_id": 7796,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mawe, Ya Thamani",
     "media_type": "Text",
     "index_reference": "mawe, ya thamani",
@@ -12515,13 +12946,14 @@
           "label": "Madini na Metali",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "852486",
     "reference_id": 3531,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mazishi, Desturi za Mazishi",
     "media_type": "Text",
     "index_reference": "mazishi, desturi za mazishi",
@@ -12737,13 +13169,14 @@
           "label": "Maomboleza",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "689602",
     "reference_id": 6361,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mbadilishaji wa fedha",
     "media_type": "Text",
     "index_reference": "mbadilishaji wa fedha",
@@ -12843,13 +13276,14 @@
           "end_ref_usfm": "MAT 17:26"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "833397",
     "reference_id": 4680,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mbao za Mvinje",
     "media_type": "Text",
     "index_reference": "mbao za mvinje",
@@ -12873,13 +13307,22 @@
           "label": "Mimea",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Ship",
+          "type": "realia",
+          "preferred_label": "Ship",
+          "confidence": 0.739,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "778849",
     "reference_id": 4431,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mbingu",
     "media_type": "Text",
     "index_reference": "mbingu",
@@ -12931,13 +13374,14 @@
           "end_ref_usfm": "EZK 1:26"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "468186",
     "reference_id": 4922,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mbingu",
     "media_type": "Text",
     "index_reference": "mbingu",
@@ -13394,13 +13838,14 @@
           "label": "Peponi",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "811757",
     "reference_id": 6550,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mbingu Mpya na Dunia Mpya",
     "media_type": "Text",
     "index_reference": "mbingu mpya na dunia mpya",
@@ -13553,13 +13998,14 @@
           "label": "Uumbaji Mpya, Kiumbe Kipya",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "800590",
     "reference_id": 4666,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mcha Mungu",
     "media_type": "Text",
     "index_reference": "mcha mungu",
@@ -13757,13 +14203,14 @@
           "label": "Hofu",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "419805",
     "reference_id": 6771,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mchungaji",
     "media_type": "Text",
     "index_reference": "mchungaji",
@@ -13863,13 +14310,14 @@
           "label": "Mchungaji",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "713740",
     "reference_id": 7535,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mchungaji",
     "media_type": "Text",
     "index_reference": "mchungaji",
@@ -14083,13 +14531,14 @@
           "end_ref_usfm": "EZK 34:22"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "800603",
     "reference_id": 6189,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mehuyaeli",
     "media_type": "Text",
     "index_reference": "mehuyaeli",
@@ -14105,13 +14554,50 @@
           "end_ref_usfm": "GEN 4:18"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Mehujael",
+          "type": "person",
+          "preferred_label": "Mehuyaeli",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Methushael",
+          "type": "person",
+          "preferred_label": "Methushaeli",
+          "confidence": 0.91,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Lamech",
+          "type": "person",
+          "preferred_label": "Lameki",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Irad",
+          "type": "person",
+          "preferred_label": "Iradi",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Enoch",
+          "type": "person",
+          "preferred_label": "Henoko",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "852551",
     "reference_id": 6199,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Melkizedeki",
     "media_type": "Text",
     "index_reference": "melkizedeki",
@@ -14268,13 +14754,22 @@
           "label": "Makuhani na Walawi",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Melchizedek",
+          "type": "person",
+          "preferred_label": "Melkizedeki",
+          "confidence": 0.6632,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "833423",
     "reference_id": 6247,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mesha (Mahali)",
     "media_type": "Text",
     "index_reference": "mesha (mahali)",
@@ -14290,13 +14785,29 @@
           "end_ref_usfm": "GEN 10:30"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Mesha",
+          "type": "place",
+          "preferred_label": "Mesha",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Sephar",
+          "type": "place",
+          "preferred_label": "Sefari",
+          "confidence": 0.7975,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "833421",
     "reference_id": 6133,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mesheki",
     "media_type": "Text",
     "index_reference": "mesheki",
@@ -14326,13 +14837,50 @@
           "label": "Mesheki",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Mash",
+          "type": "person",
+          "preferred_label": "Mashi",
+          "confidence": 0.8695,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Gether",
+          "type": "person",
+          "preferred_label": "Getheri",
+          "confidence": 0.8065,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uz",
+          "type": "person",
+          "preferred_label": "Usi",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hul",
+          "type": "person",
+          "preferred_label": "Huli",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Aram",
+          "type": "person",
+          "preferred_label": "Aramu",
+          "confidence": 0.631,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "833424",
     "reference_id": 6248,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mesheki",
     "media_type": "Text",
     "index_reference": "mesheki",
@@ -14390,13 +14938,43 @@
           "end_ref_usfm": "EZK 38:3"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Meshech",
+          "type": "place",
+          "preferred_label": "Mesheki",
+          "confidence": 0.8222,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Meshech.2",
+          "type": "person",
+          "preferred_label": "Mesheki",
+          "confidence": 0.6444,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Meshech-tubal",
+          "type": "place",
+          "preferred_label": "Mesheki",
+          "confidence": 0.6444,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mash",
+          "type": "person",
+          "preferred_label": "Mashi",
+          "confidence": 0.5584,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "778869",
     "reference_id": 6257,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mesopotamia",
     "media_type": "Text",
     "index_reference": "mesopotamia",
@@ -14466,13 +15044,29 @@
           "end_ref_usfm": "GEN 2:14"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Mesopotamia",
+          "type": "place",
+          "preferred_label": "Mesopotamia",
+          "confidence": 0.6091,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Aram-naharaim",
+          "type": "place",
+          "preferred_label": "Aram-naharaim",
+          "confidence": 0.6,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "800604",
     "reference_id": 6262,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Methusaeli",
     "media_type": "Text",
     "index_reference": "methusaeli",
@@ -14496,13 +15090,50 @@
           "label": "Methushaeli",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Methushael",
+          "type": "person",
+          "preferred_label": "Methushaeli",
+          "confidence": 0.9775,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mehujael",
+          "type": "person",
+          "preferred_label": "Mehuyaeli",
+          "confidence": 0.928,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Lamech",
+          "type": "person",
+          "preferred_label": "Lameki",
+          "confidence": 0.721,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Irad",
+          "type": "person",
+          "preferred_label": "Iradi",
+          "confidence": 0.6715,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Enoch",
+          "type": "person",
+          "preferred_label": "Henoko",
+          "confidence": 0.6715,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "800605",
     "reference_id": 6263,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Methusela",
     "media_type": "Text",
     "index_reference": "methusela",
@@ -14530,13 +15161,29 @@
           "end_ref_usfm": "GEN 5:27"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Methuselah",
+          "type": "person",
+          "preferred_label": "Methusela",
+          "confidence": 0.9111,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Enoch.2",
+          "type": "person",
+          "preferred_label": "Henoko",
+          "confidence": 0.5472,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "800606",
     "reference_id": 6264,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Methushaeli",
     "media_type": "Text",
     "index_reference": "methushaeli",
@@ -14552,13 +15199,50 @@
           "end_ref_usfm": "GEN 4:18"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Methushael",
+          "type": "person",
+          "preferred_label": "Methushaeli",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mehujael",
+          "type": "person",
+          "preferred_label": "Mehuyaeli",
+          "confidence": 0.91,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Lamech",
+          "type": "person",
+          "preferred_label": "Lameki",
+          "confidence": 0.7075,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Irad",
+          "type": "person",
+          "preferred_label": "Iradi",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Enoch",
+          "type": "person",
+          "preferred_label": "Henoko",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "811747",
     "reference_id": 5763,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mfalme",
     "media_type": "Text",
     "index_reference": "mfalme",
@@ -14925,13 +15609,29 @@
           "label": "Ufalme wa Mungu, Ufalme wa Mbinguni",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Hammelech",
+          "type": "person",
+          "preferred_label": "Mfalme",
+          "confidence": 1.0,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:KingsValley",
+          "type": "place",
+          "preferred_label": "mfalme",
+          "confidence": 0.8998,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "713728",
     "reference_id": 6742,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mfano",
     "media_type": "Text",
     "index_reference": "mfano",
@@ -15037,13 +15737,14 @@
           "end_ref_usfm": "2SA 12:7"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "778858",
     "reference_id": 5168,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mfano wa Mungu",
     "media_type": "Text",
     "index_reference": "mfano wa mungu",
@@ -15200,13 +15901,14 @@
           "label": "Mwanamke",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "713735",
     "reference_id": 7033,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mfuko",
     "media_type": "Text",
     "index_reference": "mfuko",
@@ -15300,13 +16002,22 @@
           "end_ref_usfm": "LUK 22:36"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "realia:Bag",
+          "type": "realia",
+          "preferred_label": "Bag",
+          "confidence": 0.6272,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "468174",
     "reference_id": 3719,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mfululizo wa Matukio ya Biblia(Agano Jipya)",
     "media_type": "Text",
     "index_reference": "mfululizo wa matukio ya biblia(agano jipya)",
@@ -15903,13 +16614,14 @@
           "label": "Yesu Kristo, Mafundisho ya",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "778840",
     "reference_id": 3466,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mfupa",
     "media_type": "Text",
     "index_reference": "mfupa",
@@ -16033,13 +16745,14 @@
           "end_ref_usfm": "JHN 19:37"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "852513",
     "reference_id": 4457,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mgeni",
     "media_type": "Text",
     "index_reference": "mgeni",
@@ -16397,13 +17110,14 @@
           "end_ref_usfm": "EPH 2:19"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "833404",
     "reference_id": 4998,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mhiti",
     "media_type": "Text",
     "index_reference": "mhiti",
@@ -16433,13 +17147,36 @@
           "label": "Wahiti",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Heth",
+          "type": "person",
+          "preferred_label": "Mhiti",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Sidon",
+          "type": "person",
+          "preferred_label": "Wasidoni",
+          "confidence": 0.6895,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Canaan",
+          "type": "person",
+          "preferred_label": "Wakanaani",
+          "confidence": 0.613,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "852559",
     "reference_id": 6614,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mialoni ya Mamre",
     "media_type": "Text",
     "index_reference": "mialoni ya mamre",
@@ -16463,13 +17200,78 @@
           "label": "Mamre (Mahali)",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Mamre",
+          "type": "place",
+          "preferred_label": "Mamre",
+          "confidence": 0.85,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Hebron",
+          "type": "place",
+          "preferred_label": "Hebroni",
+          "confidence": 0.7435,
+          "match_method": "scored"
+        },
+        {
+          "id": "flora:Oak",
+          "type": "flora",
+          "preferred_label": "Oak",
+          "confidence": 0.652,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "BWANA",
+          "confidence": 0.58,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:TabernacleAltar",
+          "type": "realia",
+          "preferred_label": "Tabernacle Altar",
+          "confidence": 0.571,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:StoneAltar",
+          "type": "realia",
+          "preferred_label": "Stone Altar",
+          "confidence": 0.5665,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:TempleAltar",
+          "type": "realia",
+          "preferred_label": "Temple Altar",
+          "confidence": 0.562,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Abraham",
+          "type": "person",
+          "preferred_label": "Abrahamu",
+          "confidence": 0.5575,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:Altar",
+          "type": "realia",
+          "preferred_label": "Altar",
+          "confidence": 0.553,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "852552",
     "reference_id": 6290,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Midiani, Mmidiani",
     "media_type": "Text",
     "index_reference": "midiani, mmidiani",
@@ -16689,13 +17491,29 @@
           "end_ref_usfm": "NUM 22:7"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Midian",
+          "type": "place",
+          "preferred_label": "Midiani",
+          "confidence": 0.696,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Midian",
+          "type": "person",
+          "preferred_label": "Midiani",
+          "confidence": 0.608,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "852490",
     "reference_id": 3739,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Miji ya Uwanda",
     "media_type": "Text",
     "index_reference": "miji ya uwanda",
@@ -16759,13 +17577,14 @@
           "end_ref_usfm": "EZK 16:56"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "419782",
     "reference_id": 3725,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mikutano ya Kanisa",
     "media_type": "Text",
     "index_reference": "mikutano ya kanisa",
@@ -17071,13 +17890,14 @@
           "label": "kanisa",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "811755",
     "reference_id": 6307,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Milenia",
     "media_type": "Text",
     "index_reference": "milenia",
@@ -17183,13 +18003,14 @@
           "label": " Kitabu cha ufunuo",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "852553",
     "reference_id": 6301,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Milka",
     "media_type": "Text",
     "index_reference": "milka",
@@ -17241,13 +18062,29 @@
           "end_ref_usfm": "JOS 17:4"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Milcah",
+          "type": "person",
+          "preferred_label": "Milka",
+          "confidence": 0.6393,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Milcah.2",
+          "type": "person",
+          "preferred_label": "Milka",
+          "confidence": 0.6262,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "713733",
     "reference_id": 6929,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mimea",
     "media_type": "Text",
     "index_reference": "mimea",
@@ -18909,13 +19746,14 @@
           "label": "Bedola",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "833475",
     "reference_id": 8182,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mizabibu, Shamba la mizabibu",
     "media_type": "Text",
     "index_reference": "mizabibu, shamba la mizabibu",
@@ -19120,13 +19958,14 @@
           "label": "Mimea",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "713752",
     "reference_id": 8219,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mizani na Vipimo",
     "media_type": "Text",
     "index_reference": "mizani na vipimo",
@@ -19514,13 +20353,14 @@
           "end_ref_usfm": "LEV 14:24"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "833425",
     "reference_id": 6348,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mizraimu",
     "media_type": "Text",
     "index_reference": "mizraimu",
@@ -19548,13 +20388,29 @@
           "end_ref_usfm": "ISA 11:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Egypt",
+          "type": "person",
+          "preferred_label": "Misri",
+          "confidence": 0.7018,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ham",
+          "type": "person",
+          "preferred_label": "Hamu",
+          "confidence": 0.5083,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "800576",
     "reference_id": 3746,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mji",
     "media_type": "Text",
     "index_reference": "mji",
@@ -19668,13 +20524,36 @@
           "label": "Arkeolojia na Biblia",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Ai",
+          "type": "place",
+          "preferred_label": "mji",
+          "confidence": 0.9134,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Ai.2",
+          "type": "place",
+          "preferred_label": "mji",
+          "confidence": 0.9134,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Lycia",
+          "type": "place",
+          "preferred_label": "mji",
+          "confidence": 0.9134,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "689600",
     "reference_id": 6258,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mjumbe",
     "media_type": "Text",
     "index_reference": "mjumbe",
@@ -19794,13 +20673,14 @@
           "label": "Malaika",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "811740",
     "reference_id": 5206,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mkalimani",
     "media_type": "Text",
     "index_reference": "mkalimani",
@@ -19894,13 +20774,14 @@
           "end_ref_usfm": "NEH 8:9"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "833376",
     "reference_id": 3609,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mkasluhi, Wakasluhi",
     "media_type": "Text",
     "index_reference": "mkasluhi, wakasluhi",
@@ -19922,13 +20803,43 @@
           "end_ref_usfm": "1CH 1:12"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "group:Casluhim",
+          "type": "group",
+          "preferred_label": "Casluhim",
+          "confidence": 0.8065,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Philistine",
+          "type": "person",
+          "preferred_label": "Wafilisti",
+          "confidence": 0.7165,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Pathrusim",
+          "type": "group",
+          "preferred_label": "Pathrusim",
+          "confidence": 0.685,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Caphtorim",
+          "type": "group",
+          "preferred_label": "Caphtorim",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "713687",
     "reference_id": 3498,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mkate",
     "media_type": "Text",
     "index_reference": "mkate",
@@ -20229,13 +21140,14 @@
           "label": "Chakula na Maandalizi ya Chakula",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "689564",
     "reference_id": 3497,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mkate wa Uwepo",
     "media_type": "Text",
     "index_reference": "mkate wa uwepo",
@@ -20368,13 +21280,14 @@
           "label": "Hekalu",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "689593",
     "reference_id": 5889,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mkoma, Ukoma",
     "media_type": "Text",
     "index_reference": "mkoma, ukoma",
@@ -20422,13 +21335,14 @@
           "label": "Dawa na Mazoezi ya Tiba",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "713701",
     "reference_id": 4812,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mkono",
     "media_type": "Text",
     "index_reference": "mkono",
@@ -20762,13 +21676,14 @@
           "end_ref_usfm": "LUK 13:13"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "833384",
     "reference_id": 4090,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mlima Ebali",
     "media_type": "Text",
     "index_reference": "mlima ebali",
@@ -20844,13 +21759,29 @@
           "end_ref_usfm": "DEU 28:68"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:EbalMount",
+          "type": "place",
+          "preferred_label": "Ebali",
+          "confidence": 0.6198,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ebal",
+          "type": "person",
+          "preferred_label": "Ebali",
+          "confidence": 0.6079,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "852516",
     "reference_id": 4596,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mlima Gerizimu",
     "media_type": "Text",
     "index_reference": "mlima gerizimu",
@@ -20908,13 +21839,22 @@
           "end_ref_usfm": "JOS 24:27"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:GerizimMount",
+          "type": "place",
+          "preferred_label": "Gerizimu",
+          "confidence": 0.6119,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "468203",
     "reference_id": 6649,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mlima wa Mizeituni",
     "media_type": "Text",
     "index_reference": "mlima wa mizeituni",
@@ -21020,13 +21960,22 @@
           "end_ref_usfm": "JHN 11:44"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:OlivesMount",
+          "type": "place",
+          "preferred_label": "Mizeituni",
+          "confidence": 0.6165,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "833368",
     "reference_id": 3052,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mlipiza kisasi wa Damu",
     "media_type": "Text",
     "index_reference": "mlipiza kisasi wa damu",
@@ -21090,13 +22039,14 @@
           "end_ref_usfm": "2SA 14:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "689603",
     "reference_id": 6486,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mnazareti",
     "media_type": "Text",
     "index_reference": "mnazareti",
@@ -21264,13 +22214,22 @@
           "label": "Nazareti",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Nazareth",
+          "type": "place",
+          "preferred_label": "Nazareti",
+          "confidence": 0.7937,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "778839",
     "reference_id": 3217,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mnyama",
     "media_type": "Text",
     "index_reference": "mnyama",
@@ -21450,13 +22409,14 @@
           "label": " Kitabu cha ufunuo",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "811756",
     "reference_id": 6383,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mose",
     "media_type": "Text",
     "index_reference": "mose",
@@ -22167,13 +23127,29 @@
           "label": "Hekalu",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Moses",
+          "type": "person",
+          "preferred_label": "Musa",
+          "confidence": 0.6151,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "BWANA",
+          "confidence": 0.5613,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "689583",
     "reference_id": 4918,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Moyo",
     "media_type": "Text",
     "index_reference": "moyo",
@@ -22837,13 +23813,22 @@
           "end_ref_usfm": "2CO 3:3"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "keyterm:Life",
+          "type": "keyterm",
+          "preferred_label": "Life",
+          "confidence": 0.8225,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "419794",
     "reference_id": 4936,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mrithi",
     "media_type": "Text",
     "index_reference": "mrithi",
@@ -22969,13 +23954,14 @@
           "label": "Urithi",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "689579",
     "reference_id": 4462,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Msamaha",
     "media_type": "Text",
     "index_reference": "msamaha",
@@ -23348,13 +24334,29 @@
           "label": "Toba",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Mishma",
+          "type": "person",
+          "preferred_label": "Mishma",
+          "confidence": 0.8064,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Mishma.2",
+          "type": "person",
+          "preferred_label": "Mishma",
+          "confidence": 0.8064,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "689611",
     "reference_id": 7161,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Msamaha wa Dhambi",
     "media_type": "Text",
     "index_reference": "msamaha wa dhambi",
@@ -23480,13 +24482,29 @@
           "label": "Msamaha",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Sin",
+          "type": "keyterm",
+          "preferred_label": "To Sin",
+          "confidence": 0.5266,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Forgive",
+          "type": "keyterm",
+          "preferred_label": "Forgive",
+          "confidence": 0.5193,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "419804",
     "reference_id": 6705,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Msimamizi",
     "media_type": "Text",
     "index_reference": "msimamizi",
@@ -23595,13 +24613,14 @@
           "label": "Mzee",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "811772",
     "reference_id": 7240,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mtawala",
     "media_type": "Text",
     "index_reference": "mtawala",
@@ -23859,13 +24878,14 @@
           "label": "Mfalme",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "852584",
     "reference_id": 8087,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mti",
     "media_type": "Text",
     "index_reference": "mti",
@@ -23915,13 +24935,14 @@
           "label": "Mti wa Uzima",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "778894",
     "reference_id": 8085,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mti wa Maarifa ya Mema na Mabaya",
     "media_type": "Text",
     "index_reference": "mti wa maarifa ya mema na mabaya",
@@ -24003,13 +25024,14 @@
           "label": "Mti wa Uzima",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "778895",
     "reference_id": 8086,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mti wa Uzima",
     "media_type": "Text",
     "index_reference": "mti wa uzima",
@@ -24139,13 +25161,14 @@
           "label": "Mti wa Maarifa ya Mema na Mabaya",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "852508",
     "reference_id": 4354,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mto Frati",
     "media_type": "Text",
     "index_reference": "mto frati",
@@ -24259,13 +25282,22 @@
           "label": "Mesopotamia",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Euphrates",
+          "type": "place",
+          "preferred_label": "Mto",
+          "confidence": 0.9778,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "778893",
     "reference_id": 8006,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mto Tigrisi",
     "media_type": "Text",
     "index_reference": "mto tigrisi",
@@ -24293,13 +25325,29 @@
           "end_ref_usfm": "NAM 2:6"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Tigris",
+          "type": "place",
+          "preferred_label": "Hidekeli",
+          "confidence": 0.7362,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Euphrates",
+          "type": "place",
+          "preferred_label": "Mto",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "852563",
     "reference_id": 7216,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mto wa Misri",
     "media_type": "Text",
     "index_reference": "mto wa misri",
@@ -24323,13 +25371,43 @@
           "label": "Kijito cha Misri",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Euphrates",
+          "type": "place",
+          "preferred_label": "Mto",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Egypt",
+          "type": "place",
+          "preferred_label": "Misri",
+          "confidence": 0.85,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "BWANA",
+          "confidence": 0.5845,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Abraham",
+          "type": "person",
+          "preferred_label": "Abrahamu",
+          "confidence": 0.508,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "689621",
     "reference_id": 7920,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mtoza Ushuru",
     "media_type": "Text",
     "index_reference": "mtoza ushuru",
@@ -24369,13 +25447,14 @@
           "end_ref_usfm": "MRK 2:16"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "468164",
     "reference_id": 2838,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mtume, Utume",
     "media_type": "Text",
     "index_reference": "mtume, utume",
@@ -24664,13 +25743,14 @@
           "label": "Paulo, Mtume",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "689617",
     "reference_id": 7412,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mtumishi",
     "media_type": "Text",
     "index_reference": "mtumishi",
@@ -24980,13 +26060,29 @@
           "end_ref_usfm": "LUK 7:10"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:GenericServant",
+          "type": "person",
+          "preferred_label": "A Servant",
+          "confidence": 0.8386,
+          "match_method": "embedding"
+        },
+        {
+          "id": "group:GenericServants",
+          "type": "group",
+          "preferred_label": "Servants",
+          "confidence": 0.8229,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "811777",
     "reference_id": 7411,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mtumishi wa Bwana",
     "media_type": "Text",
     "index_reference": "mtumishi wa bwana",
@@ -25224,13 +26320,22 @@
           "end_ref_usfm": "JER 33:26"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "BWANA",
+          "confidence": 0.6318,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "852576",
     "reference_id": 7709,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mtumwa, Utumwa",
     "media_type": "Text",
     "index_reference": "mtumwa, utumwa",
@@ -25476,13 +26581,14 @@
           "label": "Uhuru, Kuwa huru",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "800593",
     "reference_id": 5219,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Muhunzi",
     "media_type": "Text",
     "index_reference": "muhunzi",
@@ -25554,13 +26660,14 @@
           "label": "Madini na Metali",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "713699",
     "reference_id": 4667,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mungu, Majina ya",
     "media_type": "Text",
     "index_reference": "mungu, majina ya",
@@ -26445,13 +27552,22 @@
           "label": "Majina, Umuhimu wa",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "BWANA",
+          "confidence": 0.5294,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "419791",
     "reference_id": 4665,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mungu, Uwepo na Sifa za",
     "media_type": "Text",
     "index_reference": "mungu, uwepo na sifa za",
@@ -27307,13 +28423,14 @@
           "end_ref_usfm": "EXO 33:19"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "689601",
     "reference_id": 6321,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Muujiza",
     "media_type": "Text",
     "index_reference": "muujiza",
@@ -27919,13 +29036,14 @@
           "label": "ishara",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "852468",
     "reference_id": 2681,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Muungano",
     "media_type": "Text",
     "index_reference": "muungano",
@@ -28091,13 +29209,14 @@
           "end_ref_usfm": "ISA 30:16"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "800609",
     "reference_id": 6416,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Muziki",
     "media_type": "Text",
     "index_reference": "muziki",
@@ -28965,13 +30084,14 @@
           "end_ref_usfm": "LUK 4:20"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "778861",
     "reference_id": 5641,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mwaka wa Yubilei",
     "media_type": "Text",
     "index_reference": "mwaka wa yubilei",
@@ -29121,13 +30241,14 @@
           "label": "Karamu na Sikukuu za Israeli",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "689622",
     "reference_id": 7923,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mwalimu",
     "media_type": "Text",
     "index_reference": "mwalimu",
@@ -29401,13 +30522,14 @@
           "end_ref_usfm": "1CO 12:29"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "852555",
     "reference_id": 6371,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mwaloni wa More",
     "media_type": "Text",
     "index_reference": "mwaloni wa more",
@@ -29429,13 +30551,57 @@
           "end_ref_usfm": "DEU 11:30"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Moreh",
+          "type": "place",
+          "preferred_label": "More",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "flora:Oak",
+          "type": "flora",
+          "preferred_label": "Oak",
+          "confidence": 0.793,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Canaan",
+          "type": "group",
+          "preferred_label": "Canaanites",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Canaan",
+          "type": "place",
+          "preferred_label": "Wakanaani",
+          "confidence": 0.589,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Shechem",
+          "type": "place",
+          "preferred_label": "Shekemu",
+          "confidence": 0.53,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Gilgal.2",
+          "type": "place",
+          "preferred_label": "Gilgal",
+          "confidence": 0.5255,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "689619",
     "reference_id": 7739,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mwana wa Mungu",
     "media_type": "Text",
     "index_reference": "mwana wa mungu",
@@ -29791,13 +30957,14 @@
           "label": "Mwana wa Mwanadamu",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "468216",
     "reference_id": 7740,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mwana wa Mwanadamu",
     "media_type": "Text",
     "index_reference": "mwana wa mwanadamu",
@@ -30273,13 +31440,14 @@
           "label": "Mwana wa Mungu",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "778867",
     "reference_id": 6099,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mwanadamu",
     "media_type": "Text",
     "index_reference": "mwanadamu",
@@ -30443,13 +31611,22 @@
           "label": "Binadamu, wa Zamani na Mpya",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Adam",
+          "type": "person",
+          "preferred_label": "Adamu",
+          "confidence": 0.5032,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "468180",
     "reference_id": 4026,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mwanafunzi",
     "media_type": "Text",
     "index_reference": "mwanafunzi",
@@ -30633,13 +31810,14 @@
           "end_ref_usfm": "1JN 3:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "778896",
     "reference_id": 8254,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mwanamke",
     "media_type": "Text",
     "index_reference": "mwanamke",
@@ -30808,13 +31986,36 @@
           "label": "Mwanadamu",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:GenericFemale",
+          "type": "person",
+          "preferred_label": "A Woman",
+          "confidence": 0.9245,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:CanaaniteWoman",
+          "type": "person",
+          "preferred_label": "mwanamke",
+          "confidence": 0.9164,
+          "match_method": "embedding"
+        },
+        {
+          "id": "group:GenericFemales",
+          "type": "group",
+          "preferred_label": "Women",
+          "confidence": 0.9126,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "689615",
     "reference_id": 7340,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mwandishi",
     "media_type": "Text",
     "index_reference": "mwandishi",
@@ -31324,13 +32525,14 @@
           "label": "Uyahudi",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "778857",
     "reference_id": 5091,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mwenyeji, Mwenyeji wa Mbinguni",
     "media_type": "Text",
     "index_reference": "mwenyeji, mwenyeji wa mbinguni",
@@ -31538,13 +32740,14 @@
           "end_ref_usfm": "DAN 8:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "778871",
     "reference_id": 6367,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mwezi",
     "media_type": "Text",
     "index_reference": "mwezi",
@@ -31785,13 +32988,36 @@
           "label": "Karamu na Sikukuu za Israeli",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Arza",
+          "type": "person",
+          "preferred_label": "mwa",
+          "confidence": 0.8287,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Narcissus",
+          "type": "person",
+          "preferred_label": "mwa",
+          "confidence": 0.8287,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:AvenValley",
+          "type": "place",
+          "preferred_label": "mwa",
+          "confidence": 0.8287,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "800625",
     "reference_id": 7990,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mwiba",
     "media_type": "Text",
     "index_reference": "mwiba",
@@ -31813,13 +33039,43 @@
           "end_ref_usfm": "MAT 27:29"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "flora:Brier",
+          "type": "flora",
+          "preferred_label": "Brier",
+          "confidence": 0.548,
+          "match_method": "scored"
+        },
+        {
+          "id": "flora:Acacia",
+          "type": "flora",
+          "preferred_label": "Acacia",
+          "confidence": 0.512,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:Crown.2",
+          "type": "realia",
+          "preferred_label": "Crown",
+          "confidence": 0.512,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:Crown",
+          "type": "realia",
+          "preferred_label": "Crown",
+          "confidence": 0.512,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "713686",
     "reference_id": 3458,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mwili",
     "media_type": "Text",
     "index_reference": "mwili",
@@ -31983,13 +33239,22 @@
           "label": "Ufufuo",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Body.3",
+          "type": "keyterm",
+          "preferred_label": "Body",
+          "confidence": 0.9517,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "468182",
     "reference_id": 4358,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mwinjilisti",
     "media_type": "Text",
     "index_reference": "mwinjilisti",
@@ -32029,13 +33294,14 @@
           "end_ref_usfm": "EPH 4:12"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "419812",
     "reference_id": 7328,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mwokozi",
     "media_type": "Text",
     "index_reference": "mwokozi",
@@ -32335,13 +33601,14 @@
           "label": "Wokovu",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "811742",
     "reference_id": 5535,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Myahudi",
     "media_type": "Text",
     "index_reference": "myahudi",
@@ -32662,13 +33929,22 @@
           "label": "Wayahudi",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Jehudijah",
+          "type": "person",
+          "preferred_label": "Myahudi",
+          "confidence": 1.0,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "852512",
     "reference_id": 4432,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mzaliwa wa kwanza",
     "media_type": "Text",
     "index_reference": "mzaliwa wa kwanza",
@@ -32946,13 +34222,14 @@
           "label": "Urithi wa mzaliwa wa kwanza",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "419786",
     "reference_id": 4143,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Mzee",
     "media_type": "Text",
     "index_reference": "mzee",
@@ -33410,6 +34687,15 @@
           "resource_code": "TyndaleBibleDictionary",
           "label": "Presbiteri",
           "language": "swh"
+        }
+      ],
+      "acai": [
+        {
+          "id": "group:GenericElders",
+          "type": "group",
+          "preferred_label": "Elders",
+          "confidence": 0.817,
+          "match_method": "embedding"
         }
       ]
     }

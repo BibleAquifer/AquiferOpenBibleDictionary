@@ -2,7 +2,7 @@
   {
     "content_id": "207170",
     "reference_id": 2488,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Abraham",
     "media_type": "Text",
     "index_reference": "abraham",
@@ -206,13 +206,22 @@
           "label": "Israel, Sejarah",
           "language": "ind"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Abraham",
+          "type": "person",
+          "preferred_label": "Abraham",
+          "confidence": 0.7443,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "207172",
     "reference_id": 2671,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Aleksandria",
     "media_type": "Text",
     "index_reference": "aleksandria",
@@ -246,13 +255,29 @@
           "end_ref_usfm": "ACT 28:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Alexandria",
+          "type": "place",
+          "preferred_label": "Aleksandria",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Alexandria",
+          "type": "group",
+          "preferred_label": "Alexandrians",
+          "confidence": 0.737,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "369029",
     "reference_id": 2696,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Alfeus",
     "media_type": "Text",
     "index_reference": "alfeus",
@@ -304,13 +329,78 @@
           "end_ref_usfm": "ACT 1:13"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Alphaeus",
+          "type": "person",
+          "preferred_label": "Alfeus",
+          "confidence": 0.8286,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Matthew",
+          "type": "person",
+          "preferred_label": "Matius",
+          "confidence": 0.7179,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Alphaeus.2",
+          "type": "person",
+          "preferred_label": "Alfeus",
+          "confidence": 0.6571,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:James.2",
+          "type": "person",
+          "preferred_label": "Yakobus",
+          "confidence": 0.6261,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Bartholomew",
+          "type": "person",
+          "preferred_label": "Bartolomeus",
+          "confidence": 0.5869,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Judas",
+          "type": "person",
+          "preferred_label": "Yudas",
+          "confidence": 0.5779,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Thomas",
+          "type": "person",
+          "preferred_label": "Tomas",
+          "confidence": 0.5406,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Philip",
+          "type": "person",
+          "preferred_label": "Filipus",
+          "confidence": 0.5284,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Simon.2",
+          "type": "person",
+          "preferred_label": "Simon",
+          "confidence": 0.5284,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "207175",
     "reference_id": 3393,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Alkitab, Inspirasi dari",
     "media_type": "Text",
     "index_reference": "alkitab, inspirasi dari",
@@ -494,13 +584,14 @@
           "end_ref_usfm": "1CO 2:13"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "369070",
     "reference_id": 4667,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Allah, Nama-nama",
     "media_type": "Text",
     "index_reference": "allah, nama-nama",
@@ -1364,13 +1455,29 @@
           "label": "Allah, Pribadi dan Sifat-Sifat-Nya",
           "language": "ind"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Name",
+          "type": "keyterm",
+          "preferred_label": "nama",
+          "confidence": 0.6044,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "Tuhan",
+          "confidence": 0.5519,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "369069",
     "reference_id": 4665,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Allah, Pribadi dan Sifat-Sifat-Nya",
     "media_type": "Text",
     "index_reference": "allah, pribadi dan sifat-sifat-nya",
@@ -2226,13 +2333,22 @@
           "end_ref_usfm": "EXO 33:19"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "Tuhan",
+          "confidence": 0.507,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "369128",
     "reference_id": 7740,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Anak Manusia",
     "media_type": "Text",
     "index_reference": "anak manusia",
@@ -2686,13 +2802,29 @@
           "end_ref_usfm": "JHN 5:27"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Adam",
+          "type": "person",
+          "preferred_label": "Manusia",
+          "confidence": 0.842,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Adam",
+          "type": "place",
+          "preferred_label": "Manusia",
+          "confidence": 0.842,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "369101",
     "reference_id": 6600,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Angka-Angka dan Numerologi",
     "media_type": "Text",
     "index_reference": "angka-angka dan numerologi",
@@ -3182,13 +3314,14 @@
           "end_ref_usfm": "REV 11:19"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "207174",
     "reference_id": 2888,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Arsitektur",
     "media_type": "Text",
     "index_reference": "arsitektur",
@@ -3314,13 +3447,14 @@
           "label": "Rumah dan Tempat Tinggal",
           "language": "ind"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "369032",
     "reference_id": 2988,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Asia",
     "media_type": "Text",
     "index_reference": "asia",
@@ -3468,7 +3602,30 @@
           "end_ref_usfm": "ACT 20:14"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Asia",
+          "type": "place",
+          "preferred_label": "Asia",
+          "confidence": 0.7939,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Asia",
+          "type": "group",
+          "preferred_label": "Asians",
+          "confidence": 0.6121,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:AsiaMinor",
+          "type": "place",
+          "preferred_label": "Asia Minor",
+          "confidence": 0.6,
+          "match_method": "scored"
+        }
+      ]
     }
   }
 ]
