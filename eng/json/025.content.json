@@ -2,7 +2,7 @@
   {
     "content_id": "9101",
     "reference_id": 8269,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Yahweh (Yhwh)",
     "media_type": "Text",
     "index_reference": "yahweh (yhwh)",
@@ -19,13 +19,22 @@
           "label": "God, Names of",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "LORD",
+          "confidence": 0.8678,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "9102",
     "reference_id": 8270,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Year",
     "media_type": "Text",
     "index_reference": "year",
@@ -42,13 +51,14 @@
           "label": "Calendars, Ancient and Modern",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "9103",
     "reference_id": 8271,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Yeast",
     "media_type": "Text",
     "index_reference": "yeast",
@@ -65,13 +75,14 @@
           "label": "Leaven",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "9104",
     "reference_id": 8272,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Yellow",
     "media_type": "Text",
     "index_reference": "yellow",
@@ -88,13 +99,14 @@
           "label": "Color",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "9105",
     "reference_id": 8273,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Yiron",
     "media_type": "Text",
     "index_reference": "yiron",
@@ -110,13 +122,50 @@
           "end_ref_usfm": "JOS 19:38"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Yiron",
+          "type": "place",
+          "preferred_label": "Iron",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Horem",
+          "type": "place",
+          "preferred_label": "Horem",
+          "confidence": 0.64,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Migdal-el",
+          "type": "place",
+          "preferred_label": "Migdal-el",
+          "confidence": 0.613,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Beth-anath",
+          "type": "place",
+          "preferred_label": "Beth-anath",
+          "confidence": 0.6085,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Beth-shemesh.3",
+          "type": "place",
+          "preferred_label": "Beth-shemesh",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "9106",
     "reference_id": 8274,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Yoke",
     "media_type": "Text",
     "index_reference": "yoke",
@@ -222,13 +271,22 @@
           "end_ref_usfm": "JER 27:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "realia:Yoke",
+          "type": "realia",
+          "preferred_label": "Yoke",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
+      ]
     }
   },
   {
     "content_id": "9107",
     "reference_id": 8275,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Yom Kippur",
     "media_type": "Text",
     "index_reference": "yom kippur",
@@ -252,7 +310,8 @@
           "label": "Feasts and Festivals of Israel",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   }
 ]

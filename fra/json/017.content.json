@@ -2,7 +2,7 @@
   {
     "content_id": "390343",
     "reference_id": 7054,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quirinius",
     "media_type": "Text",
     "index_reference": "quirinius",
@@ -45,13 +45,22 @@
           "label": "Chronologie de la Bible (Nouveau Testament)",
           "language": "fra"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Quirinius",
+          "type": "person",
+          "preferred_label": "Quirinius",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "840235",
     "reference_id": 7055,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Qumran",
     "media_type": "Text",
     "index_reference": "qumran",
@@ -73,7 +82,16 @@
           "end_ref_usfm": "2CH 26:10"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Qumran",
+          "type": "place",
+          "preferred_label": "Qumran",
+          "confidence": 1.0,
+          "match_method": "embedding"
+        }
+      ]
     }
   }
 ]

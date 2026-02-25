@@ -2,7 +2,7 @@
   {
     "content_id": "8994",
     "reference_id": 8162,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vaizatha, Vajezatha",
     "media_type": "Text",
     "index_reference": "vaizatha, vajezatha",
@@ -18,13 +18,43 @@
           "end_ref_usfm": "EST 9:9"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Vaizatha",
+          "type": "person",
+          "preferred_label": "Vaizatha",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Parmashta",
+          "type": "person",
+          "preferred_label": "Parmashta",
+          "confidence": 0.7165,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Aridai",
+          "type": "person",
+          "preferred_label": "Aridai",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Arisai",
+          "type": "person",
+          "preferred_label": "Arisai",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "8995",
     "reference_id": 8163,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Valley Gate",
     "media_type": "Text",
     "index_reference": "valley gate",
@@ -46,13 +76,43 @@
           "end_ref_usfm": "NEH 2:14"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:ValleyGate",
+          "type": "place",
+          "preferred_label": "Valley Gate",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "place:DungGate",
+          "type": "place",
+          "preferred_label": "Dung Gate",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:CornerGate",
+          "type": "place",
+          "preferred_label": "Corner Gate",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:FountainGate",
+          "type": "place",
+          "preferred_label": "Fountain Gate",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "8996",
     "reference_id": 8164,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Valley of Craftsmen",
     "media_type": "Text",
     "index_reference": "valley of craftsmen",
@@ -76,13 +136,29 @@
           "label": "Ge-Harashim",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Ge-harashim",
+          "type": "place",
+          "preferred_label": "Ge-harashim",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Ono",
+          "type": "place",
+          "preferred_label": "Ono",
+          "confidence": 0.7375,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4791",
     "reference_id": 3959,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Valley of Decision",
     "media_type": "Text",
     "index_reference": "valley of decision",
@@ -112,13 +188,29 @@
           "label": "Jehoshaphat, Valley of",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:ValleyOfDecision",
+          "type": "place",
+          "preferred_label": "Valley of Decision",
+          "confidence": 0.6,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Kidron",
+          "type": "place",
+          "preferred_label": "Kidron",
+          "confidence": 0.5015,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "8997",
     "reference_id": 8165,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Valley of Decision",
     "media_type": "Text",
     "index_reference": "valley of decision",
@@ -148,13 +240,29 @@
           "label": "Jehoshaphat, Valley of",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:ValleyOfDecision",
+          "type": "place",
+          "preferred_label": "Valley of Decision",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "place:Kidron",
+          "type": "place",
+          "preferred_label": "Kidron",
+          "confidence": 0.7015,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "5344",
     "reference_id": 4512,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Valley of Gad",
     "media_type": "Text",
     "index_reference": "valley of gad",
@@ -170,13 +278,50 @@
           "end_ref_usfm": "2SA 24:5"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Gad.2",
+          "type": "person",
+          "preferred_label": "Gad",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Gad",
+          "type": "person",
+          "preferred_label": "Gad",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "place:Jordan",
+          "type": "place",
+          "preferred_label": "Jordan River",
+          "confidence": 0.6835,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Aroer",
+          "type": "place",
+          "preferred_label": "Aroer",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Jazer",
+          "type": "place",
+          "preferred_label": "Jazer",
+          "confidence": 0.544,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "8998",
     "reference_id": 8166,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Valley of Hinnom",
     "media_type": "Text",
     "index_reference": "valley of hinnom",
@@ -193,13 +338,22 @@
           "label": "Gehenna",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:HinnomValley",
+          "type": "place",
+          "preferred_label": "Valley of Hinnom",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "8999",
     "reference_id": 8167,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Valley of Jehoshaphat",
     "media_type": "Text",
     "index_reference": "valley of jehoshaphat",
@@ -216,13 +370,22 @@
           "label": "Jehoshaphat, Valley of",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Kidron",
+          "type": "place",
+          "preferred_label": "Kidron",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "9000",
     "reference_id": 8168,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Valley of Jezreel",
     "media_type": "Text",
     "index_reference": "valley of jezreel",
@@ -239,13 +402,22 @@
           "label": "Jezreel Valley",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:JezreelValley",
+          "type": "place",
+          "preferred_label": "Valley of Jezreel",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "8002",
     "reference_id": 7170,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Valley of Rephaim",
     "media_type": "Text",
     "index_reference": "valley of rephaim",
@@ -285,13 +457,29 @@
           "end_ref_usfm": "2SA 5:22"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "group:Rephaim",
+          "type": "group",
+          "preferred_label": "Rephaim",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "place:RephaimValley",
+          "type": "place",
+          "preferred_label": "Valley of Rephaim",
+          "confidence": 0.8667,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "9001",
     "reference_id": 8169,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Valley of Rephaim",
     "media_type": "Text",
     "index_reference": "valley of rephaim",
@@ -308,13 +496,22 @@
           "label": "Valley of Rephaim",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:RephaimValley",
+          "type": "place",
+          "preferred_label": "Valley of Rephaim",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "8116",
     "reference_id": 7284,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Valley of Salt",
     "media_type": "Text",
     "index_reference": "valley of salt",
@@ -348,13 +545,29 @@
           "end_ref_usfm": "2CH 25:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:SaltValley",
+          "type": "place",
+          "preferred_label": "Valley of Salt",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Edom",
+          "type": "place",
+          "preferred_label": "Edom",
+          "confidence": 0.525,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "9002",
     "reference_id": 8170,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Valley of Shaveh",
     "media_type": "Text",
     "index_reference": "valley of shaveh",
@@ -378,13 +591,36 @@
           "label": "King’s Valley",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Shaveh",
+          "type": "place",
+          "preferred_label": "Valley of Shaveh",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "place:KingsValley",
+          "type": "place",
+          "preferred_label": "King’s Valley",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Chedorlaomer",
+          "type": "person",
+          "preferred_label": "Chedorlaomer",
+          "confidence": 0.5305,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "9003",
     "reference_id": 8171,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Valley of Siddim",
     "media_type": "Text",
     "index_reference": "valley of siddim",
@@ -401,13 +637,22 @@
           "label": "Siddim Valley",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:SiddimValley",
+          "type": "place",
+          "preferred_label": "Valley of Siddim",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "9004",
     "reference_id": 8172,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vaniah",
     "media_type": "Text",
     "index_reference": "vaniah",
@@ -423,13 +668,36 @@
           "end_ref_usfm": "EZR 10:36"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Vaniah",
+          "type": "person",
+          "preferred_label": "Vaniah",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Eliashib.6",
+          "type": "person",
+          "preferred_label": "Eliashib",
+          "confidence": 0.7435,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Meremoth.2",
+          "type": "person",
+          "preferred_label": "Meremoth",
+          "confidence": 0.613,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "9005",
     "reference_id": 8173,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vashni",
     "media_type": "Text",
     "index_reference": "vashni",
@@ -453,13 +721,36 @@
           "label": "Joel (Person)",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Joel",
+          "type": "person",
+          "preferred_label": "Joel",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Abijah.2",
+          "type": "person",
+          "preferred_label": "Abijah",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Samuel",
+          "type": "person",
+          "preferred_label": "Samuel",
+          "confidence": 0.5395,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "9006",
     "reference_id": 8174,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vashti",
     "media_type": "Text",
     "index_reference": "vashti",
@@ -475,13 +766,22 @@
           "end_ref_usfm": "EST 1:19"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Vashti",
+          "type": "person",
+          "preferred_label": "Vashti",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
+      ]
     }
   },
   {
     "content_id": "9007",
     "reference_id": 8175,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vegetable",
     "media_type": "Text",
     "index_reference": "vegetable",
@@ -519,13 +819,14 @@
           "label": "Plants",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "9008",
     "reference_id": 8176,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Veil of the Temple",
     "media_type": "Text",
     "index_reference": "veil of the temple",
@@ -549,13 +850,29 @@
           "label": "Tabernacle",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Curtain",
+          "type": "realia",
+          "preferred_label": "Curtain",
+          "confidence": 0.8667,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:HolyPlace",
+          "type": "place",
+          "preferred_label": "Holy Place",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4229",
     "reference_id": 3397,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Versions of the Bible (Ancient)",
     "media_type": "Text",
     "index_reference": "versions of the bible (ancient)",
@@ -577,13 +894,29 @@
           "end_ref_usfm": "JUD 1:14"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "LORD",
+          "confidence": 0.598,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Instruction",
+          "type": "keyterm",
+          "preferred_label": "Instruction",
+          "confidence": 0.521,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4230",
     "reference_id": 3398,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Versions of the Bible (English)",
     "media_type": "Text",
     "index_reference": "versions of the bible (english)",
@@ -623,13 +956,14 @@
           "end_ref_usfm": "JHN 8:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "9009",
     "reference_id": 8177,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vespasian",
     "media_type": "Text",
     "index_reference": "vespasian",
@@ -646,13 +980,14 @@
           "label": "The Caesars",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "9010",
     "reference_id": 8178,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vestments",
     "media_type": "Text",
     "index_reference": "vestments",
@@ -669,13 +1004,22 @@
           "label": "Priests and Levites",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Clothing",
+          "type": "realia",
+          "preferred_label": "Clothing",
+          "confidence": 0.8484,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "9013",
     "reference_id": 8181,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vine of Sodom",
     "media_type": "Text",
     "index_reference": "vine of sodom",
@@ -699,13 +1043,43 @@
           "label": "Plants",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Sodom",
+          "type": "place",
+          "preferred_label": "Sodom",
+          "confidence": 0.85,
+          "match_method": "scored"
+        },
+        {
+          "id": "flora:Vine",
+          "type": "flora",
+          "preferred_label": "Vine",
+          "confidence": 0.85,
+          "match_method": "scored"
+        },
+        {
+          "id": "flora:Colocynth",
+          "type": "flora",
+          "preferred_label": "Colocynth",
+          "confidence": 0.7075,
+          "match_method": "scored"
+        },
+        {
+          "id": "flora:Chicory",
+          "type": "flora",
+          "preferred_label": "Bitter Herbs",
+          "confidence": 0.622,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "9066",
     "reference_id": 8234,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vine, Wild Vine",
     "media_type": "Text",
     "index_reference": "vine, wild vine",
@@ -736,13 +1110,14 @@
           "label": "Wine",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "9011",
     "reference_id": 8179,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vinedresser",
     "media_type": "Text",
     "index_reference": "vinedresser",
@@ -759,13 +1134,14 @@
           "label": "Vines, Vineyard",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "9012",
     "reference_id": 8180,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vinegar",
     "media_type": "Text",
     "index_reference": "vinegar",
@@ -782,13 +1158,22 @@
           "label": "Food and Food Preparation",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "flora:Vine",
+          "type": "flora",
+          "preferred_label": "Vine",
+          "confidence": 0.8017,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "9014",
     "reference_id": 8182,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vines, Vineyard",
     "media_type": "Text",
     "index_reference": "vines, vineyard",
@@ -993,13 +1378,22 @@
           "label": "Plants",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "flora:Vine",
+          "type": "flora",
+          "preferred_label": "Vine",
+          "confidence": 0.7778,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "9015",
     "reference_id": 8183,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Viol",
     "media_type": "Text",
     "index_reference": "viol",
@@ -1041,13 +1435,22 @@
           "label": "Musical Instruments",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Lyre",
+          "type": "realia",
+          "preferred_label": "Lyre",
+          "confidence": 0.598,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "9016",
     "reference_id": 8184,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Viper",
     "media_type": "Text",
     "index_reference": "viper",
@@ -1084,13 +1487,36 @@
           "label": "Animals",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Viper",
+          "type": "fauna",
+          "preferred_label": "Viper",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "fauna:Cobra",
+          "type": "fauna",
+          "preferred_label": "Cobra",
+          "confidence": 0.65,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Snake",
+          "type": "fauna",
+          "preferred_label": "Snake",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "9018",
     "reference_id": 8186,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Virgin",
     "media_type": "Text",
     "index_reference": "virgin",
@@ -1226,13 +1652,14 @@
           "label": "Woman",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "9017",
     "reference_id": 8185,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Virgin Birth of Jesus",
     "media_type": "Text",
     "index_reference": "virgin birth of jesus",
@@ -1349,13 +1776,22 @@
           "label": "Virgin",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Jesus.2",
+          "type": "person",
+          "preferred_label": "Jesus",
+          "confidence": 0.6383,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "9019",
     "reference_id": 8187,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vision, Visions",
     "media_type": "Text",
     "index_reference": "vision, visions",
@@ -1513,13 +1949,14 @@
           "label": "Prophecy",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "9020",
     "reference_id": 8188,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vophsi",
     "media_type": "Text",
     "index_reference": "vophsi",
@@ -1535,13 +1972,43 @@
           "end_ref_usfm": "NUM 13:14"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Vophsi",
+          "type": "person",
+          "preferred_label": "Vophsi",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Nahbi",
+          "type": "person",
+          "preferred_label": "Nahbi",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Naphtali",
+          "type": "group",
+          "preferred_label": "Tribe of Naphtali",
+          "confidence": 0.5935,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Naphtali",
+          "type": "person",
+          "preferred_label": "Naphtali",
+          "confidence": 0.5935,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "9021",
     "reference_id": 8189,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vow, Vows",
     "media_type": "Text",
     "index_reference": "vow, vows",
@@ -1674,13 +2141,22 @@
           "label": "Oath",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Vow",
+          "type": "keyterm",
+          "preferred_label": "Vow",
+          "confidence": 0.7032,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "9022",
     "reference_id": 8190,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vulgate, the",
     "media_type": "Text",
     "index_reference": "vulgate, the",
@@ -1697,13 +2173,14 @@
           "label": "Bible, Versions of the (Ancient)",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "9023",
     "reference_id": 8191,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vulture",
     "media_type": "Text",
     "index_reference": "vulture",
@@ -1726,6 +2203,15 @@
           "resource_code": "TyndaleBibleDictionary",
           "label": "Eagle",
           "language": "eng"
+        }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Vulture",
+          "type": "fauna",
+          "preferred_label": "Vulture",
+          "confidence": 1.0,
+          "match_method": "content_id"
         }
       ]
     }

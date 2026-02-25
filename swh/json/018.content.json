@@ -2,7 +2,7 @@
   {
     "content_id": "833445",
     "reference_id": 7057,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Raama",
     "media_type": "Text",
     "index_reference": "raama",
@@ -30,13 +30,71 @@
           "end_ref_usfm": "EZK 27:22"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Raamah",
+          "type": "person",
+          "preferred_label": "Raama",
+          "confidence": 0.8667,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Raamah",
+          "type": "place",
+          "preferred_label": "Raama",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Sabtah",
+          "type": "person",
+          "preferred_label": "Sabta",
+          "confidence": 0.5967,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Havilah",
+          "type": "person",
+          "preferred_label": "Havila",
+          "confidence": 0.5787,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Sheba",
+          "type": "person",
+          "preferred_label": "Sheba",
+          "confidence": 0.5787,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Sabteca",
+          "type": "person",
+          "preferred_label": "Sabteka",
+          "confidence": 0.5652,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Seba",
+          "type": "person",
+          "preferred_label": "Seba",
+          "confidence": 0.5157,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Dedan",
+          "type": "person",
+          "preferred_label": "Dedani",
+          "confidence": 0.5067,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "468176",
     "reference_id": 3781,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Rangi",
     "media_type": "Text",
     "index_reference": "rangi",
@@ -1084,13 +1142,14 @@
           "end_ref_usfm": "REV 17:4"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "689599",
     "reference_id": 6232,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Rehema",
     "media_type": "Text",
     "index_reference": "rehema",
@@ -1554,13 +1613,14 @@
           "label": "Upendo",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "833447",
     "reference_id": 7150,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Rehoboth-iri",
     "media_type": "Text",
     "index_reference": "rehoboth-iri",
@@ -1576,13 +1636,29 @@
           "end_ref_usfm": "GEN 10:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Nineveh",
+          "type": "place",
+          "preferred_label": "Ninawi",
+          "confidence": 0.982,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Calah",
+          "type": "place",
+          "preferred_label": "Kala",
+          "confidence": 0.604,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "833448",
     "reference_id": 7151,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Rehobothi",
     "media_type": "Text",
     "index_reference": "rehobothi",
@@ -1624,13 +1700,36 @@
           "label": "Rehoboth-iri",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Rehoboth.2",
+          "type": "place",
+          "preferred_label": "Rehobothi",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Rehoboth",
+          "type": "place",
+          "preferred_label": "Rehobothi",
+          "confidence": 0.7,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Nineveh",
+          "type": "place",
+          "preferred_label": "Ninawi",
+          "confidence": 0.61,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "833449",
     "reference_id": 7176,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Reseni",
     "media_type": "Text",
     "index_reference": "reseni",
@@ -1646,13 +1745,36 @@
           "end_ref_usfm": "GEN 10:12"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Resen",
+          "type": "place",
+          "preferred_label": "Reseni",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Calah",
+          "type": "place",
+          "preferred_label": "Kala",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Nineveh",
+          "type": "place",
+          "preferred_label": "Ninawi",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "852562",
     "reference_id": 7186,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Reu",
     "media_type": "Text",
     "index_reference": "reu",
@@ -1688,13 +1810,36 @@
           "label": "Ukoo wa Yesu Kristo",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Reu",
+          "type": "person",
+          "preferred_label": "Reu",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Serug",
+          "type": "person",
+          "preferred_label": "Serugi",
+          "confidence": 0.575,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Peleg",
+          "type": "person",
+          "preferred_label": "Pelegi",
+          "confidence": 0.5292,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "833450",
     "reference_id": 7198,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Rhodes",
     "media_type": "Text",
     "index_reference": "rhodes",
@@ -1728,13 +1873,50 @@
           "end_ref_usfm": "ACT 21:1"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Rhodes",
+          "type": "place",
+          "preferred_label": "Rodo",
+          "confidence": 0.7,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Dodanim",
+          "type": "group",
+          "preferred_label": "Dodanim",
+          "confidence": 0.6515,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Dedan",
+          "type": "place",
+          "preferred_label": "Dedani",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tarshish",
+          "type": "person",
+          "preferred_label": "Tarshishi",
+          "confidence": 0.5435,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Javan",
+          "type": "person",
+          "preferred_label": "Yavani",
+          "confidence": 0.512,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "833452",
     "reference_id": 7213,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Rifathi",
     "media_type": "Text",
     "index_reference": "rifathi",
@@ -1756,13 +1938,43 @@
           "end_ref_usfm": "1CH 1:6"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Riphath",
+          "type": "person",
+          "preferred_label": "Rifathi",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Togarmah",
+          "type": "person",
+          "preferred_label": "Togama",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ashkenaz",
+          "type": "person",
+          "preferred_label": "Ashkenazi",
+          "confidence": 0.721,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Gomer",
+          "type": "person",
+          "preferred_label": "Gomeri",
+          "confidence": 0.5395,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "833453",
     "reference_id": 7223,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Rodanimu",
     "media_type": "Text",
     "index_reference": "rodanimu",
@@ -1784,13 +1996,50 @@
           "end_ref_usfm": "1CH 1:7"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "group:Dodanim",
+          "type": "group",
+          "preferred_label": "Dodanim",
+          "confidence": 0.9685,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Javan",
+          "type": "person",
+          "preferred_label": "Yavani",
+          "confidence": 0.7435,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Kittim",
+          "type": "group",
+          "preferred_label": "kwa",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tarshish",
+          "type": "person",
+          "preferred_label": "Tarshishi",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Elishah",
+          "type": "person",
+          "preferred_label": "Elisha",
+          "confidence": 0.613,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "778889",
     "reference_id": 7757,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Roho",
     "media_type": "Text",
     "index_reference": "roho",
@@ -2270,13 +2519,29 @@
           "label": "Mwanadamu",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "deity:HolySpirit",
+          "type": "deity",
+          "preferred_label": "Roho",
+          "confidence": 1.0,
+          "match_method": "embedding"
+        },
+        {
+          "id": "keyterm:Spirit.2",
+          "type": "keyterm",
+          "preferred_label": "Spirit",
+          "confidence": 0.8669,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "833467",
     "reference_id": 7773,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Roho iliyo Gerezani",
     "media_type": "Text",
     "index_reference": "roho iliyo gerezani",
@@ -2330,13 +2595,14 @@
           "label": "Petro, Barua ya Kwanza ya",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "468217",
     "reference_id": 7769,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Roho wa Mungu",
     "media_type": "Text",
     "index_reference": "roho wa mungu",
@@ -3402,13 +3668,22 @@
           "end_ref_usfm": "EPH 4:16"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "deity:HolySpirit",
+          "type": "deity",
+          "preferred_label": "Roho",
+          "confidence": 0.716,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "778890",
     "reference_id": 7770,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Roho wa Yesu Kristo",
     "media_type": "Text",
     "index_reference": "roho wa yesu kristo",
@@ -3702,13 +3977,29 @@
           "label": "Ufufuo",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "deity:HolySpirit",
+          "type": "deity",
+          "preferred_label": "Roho",
+          "confidence": 0.653,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jesus.2",
+          "type": "person",
+          "preferred_label": "Yesu",
+          "confidence": 0.576,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "833383",
     "reference_id": 4043,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Ronadimu",
     "media_type": "Text",
     "index_reference": "ronadimu",
@@ -3737,6 +4028,43 @@
           "resource_code": "TyndaleBibleDictionary",
           "label": "Rodanimu",
           "language": "swh"
+        }
+      ],
+      "acai": [
+        {
+          "id": "group:Dodanim",
+          "type": "group",
+          "preferred_label": "Dodanim",
+          "confidence": 0.8515,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Javan",
+          "type": "person",
+          "preferred_label": "Yavani",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Kittim",
+          "type": "group",
+          "preferred_label": "kwa",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tarshish",
+          "type": "person",
+          "preferred_label": "Tarshishi",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Elishah",
+          "type": "person",
+          "preferred_label": "Elisha",
+          "confidence": 0.613,
+          "match_method": "scored"
         }
       ]
     }

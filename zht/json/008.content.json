@@ -2,7 +2,7 @@
   {
     "content_id": "574037",
     "reference_id": 6839,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "逼迫",
     "media_type": "Text",
     "index_reference": "逼迫",
@@ -470,13 +470,14 @@
           "label": "患難",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "471340",
     "reference_id": 6828,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "比利亞",
     "media_type": "Text",
     "index_reference": "比利亞",
@@ -576,13 +577,14 @@
           "end_ref_usfm": "JHN 1:29"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "826028",
     "reference_id": 6914,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "比遜河",
     "media_type": "Text",
     "index_reference": "比遜河",
@@ -598,13 +600,22 @@
           "end_ref_usfm": "GEN 2:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Havilah",
+          "type": "place",
+          "preferred_label": "Havilah",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "826029",
     "reference_id": 6916,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "比遜河",
     "media_type": "Text",
     "index_reference": "比遜河",
@@ -628,13 +639,22 @@
           "label": "比遜河",
           "language": "zht"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Havilah",
+          "type": "place",
+          "preferred_label": "Havilah",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "471339",
     "reference_id": 6742,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "比喻",
     "media_type": "Text",
     "index_reference": "比喻",
@@ -740,13 +760,14 @@
           "end_ref_usfm": "2SA 12:7"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "800777",
     "reference_id": 6847,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "彼得後書",
     "media_type": "Text",
     "index_reference": "彼得後書",
@@ -932,13 +953,14 @@
           "label": "使徒彼得",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "471342",
     "reference_id": 6846,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "彼得前書",
     "media_type": "Text",
     "index_reference": "彼得前書",
@@ -2102,13 +2124,14 @@
           "label": "使徒彼得",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "864962",
     "reference_id": 6903,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "必達",
     "media_type": "Text",
     "index_reference": "必達",
@@ -2124,13 +2147,43 @@
           "end_ref_usfm": "GEN 22:22"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Chesed",
+          "type": "person",
+          "preferred_label": "Chesed",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jidlaph",
+          "type": "person",
+          "preferred_label": "Jidlaph",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Pildash",
+          "type": "person",
+          "preferred_label": "Pildash",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hazo",
+          "type": "person",
+          "preferred_label": "Hazo",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "864942",
     "reference_id": 6049,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "婢女、少女",
     "media_type": "Text",
     "index_reference": "婢女、少女",
@@ -2260,7 +2313,8 @@
           "end_ref_usfm": "MAT 9:25"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   }
 ]

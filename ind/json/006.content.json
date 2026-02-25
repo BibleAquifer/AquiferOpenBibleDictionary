@@ -2,7 +2,7 @@
   {
     "content_id": "369071",
     "reference_id": 4743,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Hades",
     "media_type": "Text",
     "index_reference": "hades",
@@ -186,13 +186,29 @@
           "end_ref_usfm": "JON 2:3"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "keyterm:WorldOfTheDead",
+          "type": "keyterm",
+          "preferred_label": "alam maut",
+          "confidence": 0.68,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Hell",
+          "type": "place",
+          "preferred_label": "Hell",
+          "confidence": 0.6722,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "369027",
     "reference_id": 2501,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Hakal-Dama / AKELDAMA",
     "media_type": "Text",
     "index_reference": "hakal-dama / akeldama",
@@ -216,13 +232,36 @@
           "label": "Darah, Tanah",
           "language": "ind"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Akeldama",
+          "type": "place",
+          "preferred_label": "Akeldama",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Jerusalem",
+          "type": "place",
+          "preferred_label": "Yerusalem",
+          "confidence": 0.562,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Blood",
+          "type": "keyterm",
+          "preferred_label": "darah",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "369028",
     "reference_id": 2651,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Hakal-Dama / AKELDAMA",
     "media_type": "Text",
     "index_reference": "hakal-dama / akeldama",
@@ -246,13 +285,36 @@
           "label": "Darah, Tanah",
           "language": "ind"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Akeldama",
+          "type": "place",
+          "preferred_label": "Akeldama",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Jerusalem",
+          "type": "place",
+          "preferred_label": "Yerusalem",
+          "confidence": 0.562,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Blood",
+          "type": "keyterm",
+          "preferred_label": "darah",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "369052",
     "reference_id": 3943,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Hari",
     "media_type": "Text",
     "index_reference": "hari",
@@ -577,13 +639,14 @@
           "label": "Eskatologi",
           "language": "ind"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "369050",
     "reference_id": 3940,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Hari Tuhan",
     "media_type": "Text",
     "index_reference": "hari tuhan",
@@ -794,13 +857,22 @@
           "label": "Hari-hari Terakhir",
           "language": "ind"
         }
+      ],
+      "acai": [
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "Tuhan",
+          "confidence": 0.5919,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "369091",
     "reference_id": 5945,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Hari Tuhan",
     "media_type": "Text",
     "index_reference": "hari tuhan",
@@ -918,13 +990,14 @@
           "end_ref_usfm": "JHN 20:28"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "369088",
     "reference_id": 5855,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Hari-hari Terakhir",
     "media_type": "Text",
     "index_reference": "hari-hari terakhir",
@@ -1165,13 +1238,14 @@
           "label": "Kedatangan Kristus Kali Kedua",
           "language": "ind"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "369089",
     "reference_id": 5864,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Hukum, Konsep Alkitabiah",
     "media_type": "Text",
     "index_reference": "hukum, konsep alkitabiah",
@@ -2496,6 +2570,22 @@
           "resource_code": "TyndaleBibleDictionary",
           "label": "Surat kepada Jemaat di Galatia",
           "language": "ind"
+        }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Witness.2",
+          "type": "keyterm",
+          "preferred_label": "hukum",
+          "confidence": 0.6033,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Law",
+          "type": "keyterm",
+          "preferred_label": "hukum",
+          "confidence": 0.6026,
+          "match_method": "scored"
         }
       ]
     }

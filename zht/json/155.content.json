@@ -2,7 +2,7 @@
   {
     "content_id": "615742",
     "reference_id": 6337,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "小錢",
     "media_type": "Text",
     "index_reference": "小錢",
@@ -26,13 +26,29 @@
           "label": "銀錢",
           "language": "zht"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Quadrans",
+          "type": "realia",
+          "preferred_label": "Quadrans",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:Lepton",
+          "type": "realia",
+          "preferred_label": "Lepton",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "864936",
     "reference_id": 5862,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "笑",
     "media_type": "Text",
     "index_reference": "笑",
@@ -168,7 +184,8 @@
           "end_ref_usfm": "HAB 1:9"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   }
 ]

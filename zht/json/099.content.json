@@ -2,7 +2,7 @@
   {
     "content_id": "471337",
     "reference_id": 6479,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "拿但業",
     "media_type": "Text",
     "index_reference": "拿但業",
@@ -116,13 +116,14 @@
           "label": "使徒、使徒職分",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "864952",
     "reference_id": 6470,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "拿非施",
     "media_type": "Text",
     "index_reference": "拿非施",
@@ -150,13 +151,29 @@
           "end_ref_usfm": "1CH 5:19"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Naphish",
+          "type": "person",
+          "preferred_label": "Naphish",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Kedemah",
+          "type": "person",
+          "preferred_label": "Kedemah",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "864951",
     "reference_id": 6459,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "拿鶴（地點）",
     "media_type": "Text",
     "index_reference": "拿鶴（地點）",
@@ -172,13 +189,29 @@
           "end_ref_usfm": "GEN 24:10"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "fauna:Camel",
+          "type": "fauna",
+          "preferred_label": "Camel",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nahor.2",
+          "type": "person",
+          "preferred_label": "Nahor",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "838344",
     "reference_id": 6426,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "拿瑪（人物）",
     "media_type": "Text",
     "index_reference": "拿瑪（人物）",
@@ -218,13 +251,14 @@
           "end_ref_usfm": "1KI 14:24"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "340980",
     "reference_id": 6487,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "拿撒勒",
     "media_type": "Text",
     "index_reference": "拿撒勒",
@@ -344,13 +378,14 @@
           "label": "拿撒勒人",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "340979",
     "reference_id": 6486,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "拿撒勒人",
     "media_type": "Text",
     "index_reference": "拿撒勒人",
@@ -518,13 +553,14 @@
           "label": "拿撒勒",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "864960",
     "reference_id": 6821,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "那地的人",
     "media_type": "Text",
     "index_reference": "那地的人",
@@ -618,7 +654,8 @@
           "end_ref_usfm": "NEH 10:31"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   }
 ]

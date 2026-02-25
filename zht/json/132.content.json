@@ -2,7 +2,7 @@
   {
     "content_id": "574058",
     "reference_id": 7869,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "他泊山",
     "media_type": "Text",
     "index_reference": "他泊山",
@@ -54,13 +54,14 @@
           "end_ref_usfm": "JDG 4:24"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "864978",
     "reference_id": 7880,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "他轄（Tahash）",
     "media_type": "Text",
     "index_reference": "他轄（Tahash）",
@@ -76,13 +77,50 @@
           "end_ref_usfm": "GEN 22:24"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Tahash",
+          "type": "person",
+          "preferred_label": "Tahash",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Maacah",
+          "type": "person",
+          "preferred_label": "Maacah",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tebah",
+          "type": "person",
+          "preferred_label": "Tebah",
+          "confidence": 0.7435,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Gaham",
+          "type": "person",
+          "preferred_label": "Gaham",
+          "confidence": 0.7435,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Reumah",
+          "type": "person",
+          "preferred_label": "Reumah",
+          "confidence": 0.6715,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "864982",
     "reference_id": 7970,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "他轄（Thahash）",
     "media_type": "Text",
     "index_reference": "他轄（Thahash）",
@@ -106,13 +144,50 @@
           "label": "他轄（Tahash）",
           "language": "zht"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Tahash",
+          "type": "person",
+          "preferred_label": "Tahash",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Maacah",
+          "type": "person",
+          "preferred_label": "Maacah",
+          "confidence": 0.7615,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tebah",
+          "type": "person",
+          "preferred_label": "Tebah",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Gaham",
+          "type": "person",
+          "preferred_label": "Gaham",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Reumah",
+          "type": "person",
+          "preferred_label": "Reumah",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "574059",
     "reference_id": 7892,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "塔木德",
     "media_type": "Text",
     "index_reference": "塔木德",
@@ -169,7 +244,8 @@
           "label": "傳統",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   }
 ]

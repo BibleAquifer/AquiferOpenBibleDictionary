@@ -2,7 +2,7 @@
   {
     "content_id": "833358",
     "reference_id": 2740,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Waamori",
     "media_type": "Text",
     "index_reference": "waamori",
@@ -270,13 +270,22 @@
           "end_ref_usfm": "AMO 2:10"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "group:Amorites",
+          "type": "group",
+          "preferred_label": "Amorites",
+          "confidence": 0.5906,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "852537",
     "reference_id": 5658,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Waamuzi, Kitabu cha",
     "media_type": "Text",
     "index_reference": "waamuzi, kitabu cha",
@@ -1342,13 +1351,29 @@
           "end_ref_usfm": "JDG 21:15"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:EphronMount",
+          "type": "place",
+          "preferred_label": "cha",
+          "confidence": 0.6006,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:LebanonMount",
+          "type": "place",
+          "preferred_label": "cha",
+          "confidence": 0.6003,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "833362",
     "reference_id": 2911,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Waariki",
     "media_type": "Text",
     "index_reference": "waariki",
@@ -1376,13 +1401,50 @@
           "end_ref_usfm": "1CH 1:15"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "group:Arkites",
+          "type": "group",
+          "preferred_label": "Arkites",
+          "confidence": 0.6957,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Archites",
+          "type": "group",
+          "preferred_label": "Archites",
+          "confidence": 0.5623,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Hivites",
+          "type": "group",
+          "preferred_label": "Hivites",
+          "confidence": 0.5562,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Sinites",
+          "type": "group",
+          "preferred_label": "Sinites",
+          "confidence": 0.5562,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Ataroth.2",
+          "type": "place",
+          "preferred_label": "Atarothi",
+          "confidence": 0.5218,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "713706",
     "reference_id": 4979,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Wachungaji",
     "media_type": "Text",
     "index_reference": "wachungaji",
@@ -1434,13 +1496,14 @@
           "end_ref_usfm": "JHN 10:16"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "811728",
     "reference_id": 4328,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Waeseni",
     "media_type": "Text",
     "index_reference": "waeseni",
@@ -1506,13 +1569,14 @@
           "label": "Uyahudi",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "713698",
     "reference_id": 4644,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Wagirgashi",
     "media_type": "Text",
     "index_reference": "wagirgashi",
@@ -1582,13 +1646,36 @@
           "end_ref_usfm": "LUK 8:26"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "group:Girgashites",
+          "type": "group",
+          "preferred_label": "Girgashites",
+          "confidence": 0.79,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Amorites",
+          "type": "group",
+          "preferred_label": "Amorites",
+          "confidence": 0.5875,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Jebusites",
+          "type": "group",
+          "preferred_label": "Jebusites",
+          "confidence": 0.529,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "833400",
     "reference_id": 4783,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Wahamathi",
     "media_type": "Text",
     "index_reference": "wahamathi",
@@ -1618,13 +1705,36 @@
           "label": "Hamathi",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "group:Hamathites",
+          "type": "group",
+          "preferred_label": "Hamathites",
+          "confidence": 0.901,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Arvadites",
+          "type": "group",
+          "preferred_label": "Arvadites",
+          "confidence": 0.7075,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Zemarites",
+          "type": "group",
+          "preferred_label": "Zemarites",
+          "confidence": 0.7075,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "713708",
     "reference_id": 4990,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Waherode",
     "media_type": "Text",
     "index_reference": "waherode",
@@ -1678,13 +1788,22 @@
           "label": "Herode, Familia ya Herode",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "group:Herodian",
+          "type": "group",
+          "preferred_label": "Herodians",
+          "confidence": 0.6155,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "833405",
     "reference_id": 5029,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Wahiti",
     "media_type": "Text",
     "index_reference": "wahiti",
@@ -1828,13 +1947,29 @@
           "label": "Philistia, Wafilisti",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Heth",
+          "type": "person",
+          "preferred_label": "Mhiti",
+          "confidence": 0.6185,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Hittite",
+          "type": "group",
+          "preferred_label": "Hittites",
+          "confidence": 0.5065,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "833406",
     "reference_id": 5030,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Wahivi",
     "media_type": "Text",
     "index_reference": "wahivi",
@@ -1952,13 +2087,22 @@
           "end_ref_usfm": "1KI 9:21"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "group:Hivites",
+          "type": "group",
+          "preferred_label": "Hivites",
+          "confidence": 0.5289,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "852527",
     "reference_id": 5071,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Wahoriți",
     "media_type": "Text",
     "index_reference": "wahoriți",
@@ -2048,13 +2192,29 @@
           "label": "Wahivi",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Hori",
+          "type": "person",
+          "preferred_label": "Wahori",
+          "confidence": 0.697,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Hori",
+          "type": "group",
+          "preferred_label": "Horites",
+          "confidence": 0.5715,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "852540",
     "reference_id": 5680,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Wakadmoni",
     "media_type": "Text",
     "index_reference": "wakadmoni",
@@ -2094,13 +2254,22 @@
           "end_ref_usfm": "JOB 1:3"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "group:Kadmonites",
+          "type": "group",
+          "preferred_label": "Kadmonites",
+          "confidence": 0.581,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "811712",
     "reference_id": 3548,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Wakaisari",
     "media_type": "Text",
     "index_reference": "wakaisari",
@@ -2238,13 +2407,22 @@
           "label": "Jiji la Rumi ",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Caesarea",
+          "type": "place",
+          "preferred_label": "Kaisaria",
+          "confidence": 0.5375,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "800599",
     "reference_id": 5718,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Wakeniti",
     "media_type": "Text",
     "index_reference": "wakeniti",
@@ -2320,13 +2498,22 @@
           "end_ref_usfm": "NUM 10:31"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "group:Kenite",
+          "type": "group",
+          "preferred_label": "Kenites",
+          "confidence": 0.5071,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "852543",
     "reference_id": 5719,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Wakenizi",
     "media_type": "Text",
     "index_reference": "wakenizi",
@@ -2396,13 +2583,57 @@
           "end_ref_usfm": "JDG 1:13"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Kenaz.3",
+          "type": "person",
+          "preferred_label": "Kenazi",
+          "confidence": 0.5926,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Kenaz",
+          "type": "group",
+          "preferred_label": "Kenizzites",
+          "confidence": 0.5438,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Kenaz",
+          "type": "person",
+          "preferred_label": "Kenazi",
+          "confidence": 0.531,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Caleb",
+          "type": "person",
+          "preferred_label": "Kalebu",
+          "confidence": 0.5056,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Kenizzites",
+          "type": "group",
+          "preferred_label": "Kenizzites",
+          "confidence": 0.5003,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Kenaz.4",
+          "type": "person",
+          "preferred_label": "Kenazi",
+          "confidence": 0.5003,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "811754",
     "reference_id": 6177,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Wamedi, Umedi, Mumediani",
     "media_type": "Text",
     "index_reference": "wamedi, umedi, mumediani",
@@ -2496,13 +2727,36 @@
           "end_ref_usfm": "EST 1:7"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Medan",
+          "type": "person",
+          "preferred_label": "Wamedi",
+          "confidence": 0.8667,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Media",
+          "type": "place",
+          "preferred_label": "Umedi",
+          "confidence": 0.6444,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Mede",
+          "type": "group",
+          "preferred_label": "Medes",
+          "confidence": 0.5832,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "778888",
     "reference_id": 7741,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Wana na Binti wa Mungu",
     "media_type": "Text",
     "index_reference": "wana na binti wa mungu",
@@ -2584,13 +2838,14 @@
           "end_ref_usfm": "EPH 1:23"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "713743",
     "reference_id": 7743,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Wana wa Ngurumo",
     "media_type": "Text",
     "index_reference": "wana wa ngurumo",
@@ -2614,13 +2869,36 @@
           "label": "Boanerges",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:John.2",
+          "type": "person",
+          "preferred_label": "Yohana",
+          "confidence": 0.721,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:James",
+          "type": "person",
+          "preferred_label": "Yakobo",
+          "confidence": 0.595,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Name",
+          "type": "keyterm",
+          "preferred_label": "Name",
+          "confidence": 0.544,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "833427",
     "reference_id": 6524,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Wanefili",
     "media_type": "Text",
     "index_reference": "wanefili",
@@ -2674,13 +2952,22 @@
           "label": "Majitu",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "group:Nephilim",
+          "type": "group",
+          "preferred_label": "Nephilim",
+          "confidence": 0.5179,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "689560",
     "reference_id": 2782,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Wanyama",
     "media_type": "Text",
     "index_reference": "wanyama",
@@ -5618,13 +5905,14 @@
           "label": "Sadaka na Dhabihu",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "833435",
     "reference_id": 6774,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Wapathrusi",
     "media_type": "Text",
     "index_reference": "wapathrusi",
@@ -5646,13 +5934,43 @@
           "end_ref_usfm": "1CH 1:12"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "group:Pathrusim",
+          "type": "group",
+          "preferred_label": "Pathrusim",
+          "confidence": 0.928,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Philistine",
+          "type": "person",
+          "preferred_label": "Wafilisti",
+          "confidence": 0.928,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Caphtorim",
+          "type": "group",
+          "preferred_label": "Caphtorim",
+          "confidence": 0.82,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Casluhim",
+          "type": "group",
+          "preferred_label": "Casluhim",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "833437",
     "reference_id": 6838,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Waperizi",
     "media_type": "Text",
     "index_reference": "waperizi",
@@ -5832,13 +6150,22 @@
           "label": "Kanaani, Mkanaani",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "group:Perizzites",
+          "type": "group",
+          "preferred_label": "Perizzites",
+          "confidence": 0.6187,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "852561",
     "reference_id": 7171,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Warefai",
     "media_type": "Text",
     "index_reference": "warefai",
@@ -5952,13 +6279,22 @@
           "label": "Majitu",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Rapha",
+          "type": "person",
+          "preferred_label": "Mrefai",
+          "confidence": 0.5487,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "468212",
     "reference_id": 7289,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Wasamaria",
     "media_type": "Text",
     "index_reference": "wasamaria",
@@ -6184,13 +6520,22 @@
           "end_ref_usfm": "JHN 4:18"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "group:Samaritan",
+          "type": "group",
+          "preferred_label": "Samaritans",
+          "confidence": 0.5666,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "833466",
     "reference_id": 7684,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Wasini",
     "media_type": "Text",
     "index_reference": "wasini",
@@ -6212,13 +6557,36 @@
           "end_ref_usfm": "1CH 1:15"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "group:Sinites",
+          "type": "group",
+          "preferred_label": "Sinites",
+          "confidence": 0.8515,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Hivites",
+          "type": "group",
+          "preferred_label": "Hivites",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Arkites",
+          "type": "group",
+          "preferred_label": "Arkites",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "811709",
     "reference_id": 3257,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Waumini",
     "media_type": "Text",
     "index_reference": "waumini",
@@ -6282,13 +6650,22 @@
           "end_ref_usfm": "1TI 4:12"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Ammon",
+          "type": "place",
+          "preferred_label": "Waamoni",
+          "confidence": 0.8029,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "689577",
     "reference_id": 4437,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Wavuvi",
     "media_type": "Text",
     "index_reference": "wavuvi",
@@ -6394,13 +6771,14 @@
           "end_ref_usfm": "LUK 5:5"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "811746",
     "reference_id": 5647,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Wayahudi",
     "media_type": "Text",
     "index_reference": "wayahudi",
@@ -6637,13 +7015,78 @@
           "label": "Myahudi",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "group:Jews",
+          "type": "group",
+          "preferred_label": "Jews",
+          "confidence": 0.9218,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Abihud",
+          "type": "person",
+          "preferred_label": "Abihudi",
+          "confidence": 0.8476,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Abiud",
+          "type": "person",
+          "preferred_label": "Abihudi",
+          "confidence": 0.8476,
+          "match_method": "embedding"
+        },
+        {
+          "id": "group:Judea",
+          "type": "group",
+          "preferred_label": "Judeans",
+          "confidence": 0.8283,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Ammihud",
+          "type": "person",
+          "preferred_label": "Amihudi",
+          "confidence": 0.816,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Ammihud.2",
+          "type": "person",
+          "preferred_label": "Amihudi",
+          "confidence": 0.816,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Ammihud.3",
+          "type": "person",
+          "preferred_label": "Amihudi",
+          "confidence": 0.816,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Ammihud.4",
+          "type": "person",
+          "preferred_label": "Amihudi",
+          "confidence": 0.816,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Ammihud.5",
+          "type": "person",
+          "preferred_label": "Amihudi",
+          "confidence": 0.816,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "833478",
     "reference_id": 8346,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Wazemari",
     "media_type": "Text",
     "index_reference": "wazemari",
@@ -6677,13 +7120,14 @@
           "end_ref_usfm": "1CH 1:54"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "419798",
     "reference_id": 5754,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Wema",
     "media_type": "Text",
     "index_reference": "wema",
@@ -6789,13 +7233,29 @@
           "end_ref_usfm": "NEH 9:31"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "keyterm:Good",
+          "type": "keyterm",
+          "preferred_label": "Good",
+          "confidence": 0.8456,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:FairHavens",
+          "type": "place",
+          "preferred_label": "Nzuri",
+          "confidence": 0.8285,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "419811",
     "reference_id": 7287,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Wokovu",
     "media_type": "Text",
     "index_reference": "wokovu",
@@ -7167,7 +7627,8 @@
           "label": "Mwokozi",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   }
 ]

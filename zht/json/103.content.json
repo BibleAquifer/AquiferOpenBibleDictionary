@@ -2,7 +2,7 @@
   {
     "content_id": "340981",
     "reference_id": 6585,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "挪伯",
     "media_type": "Text",
     "index_reference": "挪伯",
@@ -54,13 +54,14 @@
           "end_ref_usfm": "MRK 2:28"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "864954",
     "reference_id": 6586,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "挪答， 挪答人",
     "media_type": "Text",
     "index_reference": "挪答， 挪答人",
@@ -82,13 +83,14 @@
           "end_ref_usfm": "GEN 25:15"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "838346",
     "reference_id": 6587,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "挪得",
     "media_type": "Text",
     "index_reference": "挪得",
@@ -104,13 +106,22 @@
           "end_ref_usfm": "GEN 4:16"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Nod",
+          "type": "place",
+          "preferred_label": "Nod",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "838345",
     "reference_id": 6581,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "挪亞",
     "media_type": "Text",
     "index_reference": "挪亞",
@@ -224,7 +235,8 @@
           "label": "洪水",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   }
 ]

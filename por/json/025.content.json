@@ -2,7 +2,7 @@
   {
     "content_id": "831221",
     "reference_id": 8266,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Xântico",
     "media_type": "Text",
     "index_reference": "xântico",
@@ -26,13 +26,14 @@
           "label": "Calendários, Antigos e modernos",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "831222",
     "reference_id": 8267,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Xerxes",
     "media_type": "Text",
     "index_reference": "xerxes",
@@ -56,13 +57,36 @@
           "label": "Assuero",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Ahasuerus",
+          "type": "person",
+          "preferred_label": "Assuero",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Jerusalem",
+          "type": "place",
+          "preferred_label": "Jerusalém",
+          "confidence": 0.5935,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Judah",
+          "type": "group",
+          "preferred_label": "Judá",
+          "confidence": 0.5395,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "831223",
     "reference_id": 8268,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Xestes",
     "media_type": "Text",
     "index_reference": "xestes",
@@ -79,7 +103,8 @@
           "label": "Pesos E Medidas",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   }
 ]

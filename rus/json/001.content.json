@@ -2,7 +2,7 @@
   {
     "content_id": "207152",
     "reference_id": 2488,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Авраам",
     "media_type": "Text",
     "index_reference": "авраам",
@@ -198,13 +198,29 @@
           "end_ref_usfm": "GEN 22:24"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Abraham",
+          "type": "person",
+          "preferred_label": "Авраам",
+          "confidence": 0.7443,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Aram.2",
+          "type": "person",
+          "preferred_label": "Арам",
+          "confidence": 0.5118,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "207155",
     "reference_id": 2741,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Амос, Книга пророка Амоса",
     "media_type": "Text",
     "index_reference": "амос, книга пророка амоса",
@@ -754,13 +770,22 @@
           "end_ref_usfm": "AMO 9:14"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Amos.3",
+          "type": "person",
+          "preferred_label": "Амос",
+          "confidence": 0.6136,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "124420",
     "reference_id": 2935,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Артёма",
     "media_type": "Text",
     "index_reference": "артёма",
@@ -776,13 +801,29 @@
           "end_ref_usfm": "TIT 3:12"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Artemas",
+          "type": "person",
+          "preferred_label": "Артем",
+          "confidence": 0.8785,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Nicopolis",
+          "type": "place",
+          "preferred_label": "Никополь",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "207156",
     "reference_id": 2888,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Архитектура",
     "media_type": "Text",
     "index_reference": "архитектура",
@@ -900,7 +941,8 @@
           "end_ref_usfm": "GEN 22:24"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   }
 ]

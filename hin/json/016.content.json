@@ -2,7 +2,7 @@
   {
     "content_id": "648576",
     "reference_id": 3891,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "क्यानमो",
     "media_type": "Text",
     "index_reference": "क्यानमो",
@@ -24,7 +24,23 @@
           "end_ref_usfm": "JDT 7:3"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Jokneam",
+          "type": "place",
+          "preferred_label": "योकनाम",
+          "confidence": 0.5735,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Carmel",
+          "type": "place",
+          "preferred_label": "कर्मेल",
+          "confidence": 0.5015,
+          "match_method": "scored"
+        }
+      ]
     }
   }
 ]

@@ -2,7 +2,7 @@
   {
     "content_id": "369114",
     "reference_id": 6945,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Orang Miskin",
     "media_type": "Text",
     "index_reference": "orang miskin",
@@ -270,13 +270,22 @@
           "end_ref_usfm": "LUK 12:21"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "keyterm:Poor",
+          "type": "keyterm",
+          "preferred_label": "miskin",
+          "confidence": 0.6035,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "369035",
     "reference_id": 3257,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Orang Percaya",
     "media_type": "Text",
     "index_reference": "orang percaya",
@@ -340,13 +349,22 @@
           "end_ref_usfm": "1TI 4:12"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "keyterm:Believe",
+          "type": "keyterm",
+          "preferred_label": "percaya",
+          "confidence": 0.7611,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "369123",
     "reference_id": 7289,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Orang Samaria",
     "media_type": "Text",
     "index_reference": "orang samaria",
@@ -572,7 +590,37 @@
           "end_ref_usfm": "JHN 4:18"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "group:Samaritan",
+          "type": "group",
+          "preferred_label": "Samaritans",
+          "confidence": 0.6206,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Cuthah",
+          "type": "place",
+          "preferred_label": "orang-orang",
+          "confidence": 0.6046,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Samaria.2",
+          "type": "place",
+          "preferred_label": "Samaria",
+          "confidence": 0.6,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Samaria",
+          "type": "place",
+          "preferred_label": "Samaria",
+          "confidence": 0.5071,
+          "match_method": "scored"
+        }
+      ]
     }
   }
 ]

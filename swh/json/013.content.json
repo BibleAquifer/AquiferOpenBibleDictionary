@@ -2,7 +2,7 @@
   {
     "content_id": "800579",
     "reference_id": 3881,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Laana, Kulaaniwa",
     "media_type": "Text",
     "index_reference": "laana, kulaaniwa",
@@ -546,13 +546,14 @@
           "end_ref_usfm": "GAL 3:14"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "800600",
     "reference_id": 5840,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lameki",
     "media_type": "Text",
     "index_reference": "lameki",
@@ -616,13 +617,29 @@
           "end_ref_usfm": "GEN 5:31"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Lamech.2",
+          "type": "person",
+          "preferred_label": "Lameki",
+          "confidence": 0.7217,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Lamech",
+          "type": "person",
+          "preferred_label": "Lameki",
+          "confidence": 0.6696,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "852484",
     "reference_id": 3431,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "LAMI",
     "media_type": "Text",
     "index_reference": "lami",
@@ -658,13 +675,14 @@
           "label": "Madini na Metali",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "811707",
     "reference_id": 3219,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lango Zuli",
     "media_type": "Text",
     "index_reference": "lango zuli",
@@ -694,13 +712,29 @@
           "label": "Hekalu",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:BeautifulGate",
+          "type": "place",
+          "preferred_label": "Mzuri",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:Temple",
+          "type": "realia",
+          "preferred_label": "Temple",
+          "confidence": 0.544,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "833416",
     "reference_id": 5854,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lasha",
     "media_type": "Text",
     "index_reference": "lasha",
@@ -716,13 +750,78 @@
           "end_ref_usfm": "GEN 10:19"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Lasha",
+          "type": "place",
+          "preferred_label": "Lasha",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Gaza",
+          "type": "place",
+          "preferred_label": "Gaza",
+          "confidence": 0.748,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Sidon",
+          "type": "place",
+          "preferred_label": "Wasidoni",
+          "confidence": 0.6895,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Gomorrah",
+          "type": "place",
+          "preferred_label": "Gomora",
+          "confidence": 0.6895,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Zeboiim",
+          "type": "place",
+          "preferred_label": "Seboimu",
+          "confidence": 0.6265,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Admah",
+          "type": "place",
+          "preferred_label": "Adma",
+          "confidence": 0.598,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Sodom",
+          "type": "place",
+          "preferred_label": "Sodoma",
+          "confidence": 0.562,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Canaan",
+          "type": "group",
+          "preferred_label": "Canaanites",
+          "confidence": 0.562,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Canaan",
+          "type": "place",
+          "preferred_label": "Wakanaani",
+          "confidence": 0.562,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "689594",
     "reference_id": 5897,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lawi (Mtu)",
     "media_type": "Text",
     "index_reference": "lawi (mtu)",
@@ -801,13 +900,29 @@
           "label": "Mathayo (Mtu)",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "group:Levi",
+          "type": "group",
+          "preferred_label": "Walawi",
+          "confidence": 0.5278,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Levi",
+          "type": "person",
+          "preferred_label": "Walawi",
+          "confidence": 0.5189,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "800601",
     "reference_id": 5870,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lea",
     "media_type": "Text",
     "index_reference": "lea",
@@ -913,13 +1028,22 @@
           "end_ref_usfm": "GEN 30:17"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Leah",
+          "type": "person",
+          "preferred_label": "Lea",
+          "confidence": 0.6819,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "713715",
     "reference_id": 5874,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lebanoni",
     "media_type": "Text",
     "index_reference": "lebanoni",
@@ -1187,13 +1311,36 @@
           "end_ref_usfm": "EXO 39:29"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:HermonMount",
+          "type": "place",
+          "preferred_label": "Hermoni",
+          "confidence": 0.5822,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:HouseOfTheForestOfLebanon",
+          "type": "place",
+          "preferred_label": "nyumba",
+          "confidence": 0.5788,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Lebanon",
+          "type": "place",
+          "preferred_label": "Lebanoni",
+          "confidence": 0.5218,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "713716",
     "reference_id": 5883,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Legioni",
     "media_type": "Text",
     "index_reference": "legioni",
@@ -1251,13 +1398,22 @@
           "end_ref_usfm": "HEB 1:14"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "deity:Legion",
+          "type": "deity",
+          "preferred_label": "Legioni",
+          "confidence": 0.7,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "833417",
     "reference_id": 5884,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lehabimu, Lehabiti",
     "media_type": "Text",
     "index_reference": "lehabimu, lehabiti",
@@ -1303,13 +1459,22 @@
           "end_ref_usfm": "NAM 3:9"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "group:Lehabim",
+          "type": "group",
+          "preferred_label": "Lehabim",
+          "confidence": 0.5443,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "811750",
     "reference_id": 5909,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Libya, Walibia",
     "media_type": "Text",
     "index_reference": "libya, walibia",
@@ -1379,13 +1544,29 @@
           "end_ref_usfm": "ACT 2:10"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Libya",
+          "type": "place",
+          "preferred_label": "Walubi",
+          "confidence": 0.84,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Put",
+          "type": "place",
+          "preferred_label": "Putu",
+          "confidence": 0.72,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "713688",
     "reference_id": 3534,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lita",
     "media_type": "Text",
     "index_reference": "lita",
@@ -1421,13 +1602,22 @@
           "label": "Mizani na Vipimo",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Lampstand.2",
+          "type": "realia",
+          "preferred_label": "Lampstand",
+          "confidence": 0.607,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "852548",
     "reference_id": 5953,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Loti",
     "media_type": "Text",
     "index_reference": "loti",
@@ -1487,13 +1677,22 @@
           "label": "Sodoma na Gomora",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Lot",
+          "type": "person",
+          "preferred_label": "Lutu",
+          "confidence": 0.6505,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "833418",
     "reference_id": 5959,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Ludi, Ludimu, Waludi",
     "media_type": "Text",
     "index_reference": "ludi, ludimu, waludi",
@@ -1533,13 +1732,29 @@
           "end_ref_usfm": "GEN 10:32"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Lud",
+          "type": "person",
+          "preferred_label": "Ludi",
+          "confidence": 0.6667,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Ludim",
+          "type": "group",
+          "preferred_label": "Ludi",
+          "confidence": 0.6222,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "778855",
     "reference_id": 4926,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lugha ya Kiebrania",
     "media_type": "Text",
     "index_reference": "lugha ya kiebrania",
@@ -1687,13 +1902,14 @@
           "end_ref_usfm": "GEN 3:1"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "419793",
     "reference_id": 4706,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lugha ya Kigiriki",
     "media_type": "Text",
     "index_reference": "lugha ya kigiriki",
@@ -1733,13 +1949,22 @@
           "end_ref_usfm": "TIT 1:12"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Greece",
+          "type": "place",
+          "preferred_label": "Kigiriki",
+          "confidence": 0.8805,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "811784",
     "reference_id": 8060,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Lugha za Moto",
     "media_type": "Text",
     "index_reference": "lugha za moto",
@@ -1774,6 +1999,15 @@
           "resource_code": "TyndaleBibleDictionary",
           "label": "Pentekoste",
           "language": "swh"
+        }
+      ],
+      "acai": [
+        {
+          "id": "realia:Sandal",
+          "type": "realia",
+          "preferred_label": "Sandal",
+          "confidence": 0.5247,
+          "match_method": "scored"
         }
       ]
     }

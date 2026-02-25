@@ -2,7 +2,7 @@
   {
     "content_id": "124438",
     "reference_id": 4936,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Наследник",
     "media_type": "Text",
     "index_reference": "наследник",
@@ -128,13 +128,14 @@
           "label": "Наследство",
           "language": "rus"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "124440",
     "reference_id": 5190,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Наследство",
     "media_type": "Text",
     "index_reference": "наследство",
@@ -836,13 +837,14 @@
           "label": "Наследник",
           "language": "rus"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "124452",
     "reference_id": 6986,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Начальства И Силы*",
     "media_type": "Text",
     "index_reference": "начальства и силы*",
@@ -978,13 +980,14 @@
           "end_ref_usfm": "TIT 3:1"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "124445",
     "reference_id": 6566,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Никополь",
     "media_type": "Text",
     "index_reference": "никополь",
@@ -1006,7 +1009,16 @@
           "end_ref_usfm": "TIT 3:12"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Nicopolis",
+          "type": "place",
+          "preferred_label": "Никополь",
+          "confidence": 0.8,
+          "match_method": "scored"
+        }
+      ]
     }
   }
 ]

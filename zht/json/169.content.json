@@ -2,7 +2,7 @@
   {
     "content_id": "838343",
     "reference_id": 6416,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "音樂",
     "media_type": "Text",
     "index_reference": "音樂",
@@ -870,13 +870,14 @@
           "end_ref_usfm": "LUK 4:20"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "864974",
     "reference_id": 7529,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "陰間（Sheol）",
     "media_type": "Text",
     "index_reference": "陰間（Sheol）",
@@ -1029,13 +1030,22 @@
           "label": "中間狀態",
           "language": "zht"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Hell",
+          "type": "place",
+          "preferred_label": "Hell",
+          "confidence": 0.5466,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "574020",
     "reference_id": 5851,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "淫蕩",
     "media_type": "Text",
     "index_reference": "淫蕩",
@@ -1099,13 +1109,14 @@
           "end_ref_usfm": "2PE 2:19"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "615726",
     "reference_id": 3779,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "銀錢",
     "media_type": "Text",
     "index_reference": "銀錢",
@@ -1231,13 +1242,22 @@
           "label": "兌換銀錢之人",
           "language": "zht"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Money",
+          "type": "realia",
+          "preferred_label": "Money",
+          "confidence": 0.8003,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "615746",
     "reference_id": 6813,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "銀錢",
     "media_type": "Text",
     "index_reference": "銀錢",
@@ -1321,13 +1341,22 @@
           "label": "銀錢",
           "language": "zht"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Money",
+          "type": "realia",
+          "preferred_label": "Money",
+          "confidence": 0.8003,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "800759",
     "reference_id": 4009,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "飲食律例",
     "media_type": "Text",
     "index_reference": "飲食律例",
@@ -1687,13 +1716,14 @@
           "label": "關於潔淨與不潔淨的條例",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "826021",
     "reference_id": 5187,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "印度",
     "media_type": "Text",
     "index_reference": "印度",
@@ -1751,7 +1781,16 @@
           "end_ref_usfm": "1MA 8:8"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:India",
+          "type": "place",
+          "preferred_label": "India",
+          "confidence": 0.9635,
+          "match_method": "embedding"
+        }
+      ]
     }
   }
 ]

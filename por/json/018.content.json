@@ -2,7 +2,7 @@
   {
     "content_id": "830452",
     "reference_id": 7044,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Qere",
     "media_type": "Text",
     "index_reference": "qere",
@@ -11,13 +11,14 @@
     "content": "<h1>QERE</h1><p>Uma palavra aramaica que significa &quot;o que deve ser lido&quot;. Até a época dos massoretas (escribas judeus medievais), a Bíblia Hebraica era escrita apenas com consoantes. No entanto, os massoretas acreditavam que as vogais tornariam as Escrituras mais fáceis de ler. Assim, eles começaram a escrevê-las com as vogais.</p><p>Quando copiavam uma palavra que achavam estar pouco clara como estava escrita, colocavam a palavra na margem com outras vogais, mudando o significado ou a intenção. A palavra que estava escrita no texto era chamada de &quot;Ketib&quot;, e o que deveria ser lido era &quot;Qere&quot;. O Qere era a palavra escrita nas margens.</p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "830453",
     "reference_id": 7046,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Qohelet",
     "media_type": "Text",
     "index_reference": "qohelet",
@@ -34,13 +35,14 @@
           "label": "Livro de Eclesiastes",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "830454",
     "reference_id": 7047,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quadrato, Apologia de",
     "media_type": "Text",
     "index_reference": "quadrato, apologia de",
@@ -49,13 +51,14 @@
     "content": "<h1>QUADRATO, Apologia de</h1><p>Por volta de 125 d.C., Quadrato escreveu uma defesa cristã inicial (ou apologia) do Cristianismo para o imperador Adriano. Os escritos de Eusébio preservam o único fragmento remanescente desta apologia. O fragmento diz o seguinte:</p><p>“Mas as obras de nosso Salvador estavam sempre presentes (pois eram genuínas): a saber, aqueles que foram curados, aqueles que ressuscitaram dos mortos; que não foram apenas vistos no ato de serem curados ou ressuscitados, mas também estavam sempre presentes; e não apenas quando o Salvador estava na terra, mas também após sua partida, viveram por um tempo considerável; de modo que alguns deles sobreviveram até os nossos dias”.</p><p>Segundo Eusébio, Quadrato escreveu a apologia para defender a igreja. Eusébio afirmou: “Certos homens maus tentaram perturbar aqueles que pertenciam a nós”. Quadrato também esperava persuadir Adriano sobre a veracidade do Cristianismo. Se Quadrato pudesse assegurar a Adriano as intenções puras dos cristãos, Adriano poderia acabar com as perseguições. A apologia de Quadrato é às vezes erroneamente identificada com a “Carta a Diogneto”.</p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "830455",
     "reference_id": 7049,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quarto",
     "media_type": "Text",
     "index_reference": "quarto",
@@ -71,13 +74,43 @@
           "end_ref_usfm": "ROM 16:23"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Quartus",
+          "type": "person",
+          "preferred_label": "Quarto",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Erastus",
+          "type": "person",
+          "preferred_label": "Erasto",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Gaius.3",
+          "type": "person",
+          "preferred_label": "Gaio",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Church",
+          "type": "keyterm",
+          "preferred_label": "igreja",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "830456",
     "reference_id": 7050,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quarto",
     "media_type": "Text",
     "index_reference": "quarto",
@@ -94,13 +127,43 @@
           "label": "Pesos E Medidas",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Quartus",
+          "type": "person",
+          "preferred_label": "Quarto",
+          "confidence": 1.0,
+          "match_method": "embedding"
+        },
+        {
+          "id": "realia:Room",
+          "type": "realia",
+          "preferred_label": "Room",
+          "confidence": 0.9323,
+          "match_method": "embedding"
+        },
+        {
+          "id": "realia:GuestRoom",
+          "type": "realia",
+          "preferred_label": "Guest Room",
+          "confidence": 0.8765,
+          "match_method": "embedding"
+        },
+        {
+          "id": "realia:Bedroom",
+          "type": "realia",
+          "preferred_label": "Bedroom",
+          "confidence": 0.8166,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "816072",
     "reference_id": 7051,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quaterno",
     "media_type": "Text",
     "index_reference": "quaterno",
@@ -124,13 +187,29 @@
           "label": "Guerra",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Prison",
+          "type": "realia",
+          "preferred_label": "Prison",
+          "confidence": 0.58,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Passover",
+          "type": "keyterm",
+          "preferred_label": "passover",
+          "confidence": 0.571,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "829721",
     "reference_id": 5819,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Que",
     "media_type": "Text",
     "index_reference": "que",
@@ -158,13 +237,29 @@
           "end_ref_usfm": "EZK 27:14"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Kue",
+          "type": "place",
+          "preferred_label": "Cilícia",
+          "confidence": 0.8667,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Horse",
+          "type": "fauna",
+          "preferred_label": "Horse",
+          "confidence": 0.5305,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "829644",
     "reference_id": 5695,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quebar",
     "media_type": "Text",
     "index_reference": "quebar",
@@ -222,13 +317,22 @@
           "end_ref_usfm": "EZK 43:3"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Chebar",
+          "type": "place",
+          "preferred_label": "Quebar",
+          "confidence": 1.0,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "759928",
     "reference_id": 6695,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quebrantosso",
     "media_type": "Text",
     "index_reference": "quebrantosso",
@@ -258,13 +362,22 @@
           "label": "Pássaros",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Vulture",
+          "type": "fauna",
+          "preferred_label": "Vulture",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "481533",
     "reference_id": 4399,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Queda do homem",
     "media_type": "Text",
     "index_reference": "queda do homem",
@@ -320,13 +433,14 @@
           "label": "Pecado",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "682996",
     "reference_id": 5696,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quedar",
     "media_type": "Text",
     "index_reference": "quedar",
@@ -414,13 +528,22 @@
           "end_ref_usfm": "NEH 6:6"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Kedar",
+          "type": "person",
+          "preferred_label": "Quedar",
+          "confidence": 0.8,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "682997",
     "reference_id": 5697,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quedemá",
     "media_type": "Text",
     "index_reference": "quedemá",
@@ -442,13 +565,43 @@
           "end_ref_usfm": "1CH 1:31"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Kedemah",
+          "type": "person",
+          "preferred_label": "Quedemá",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jetur",
+          "type": "person",
+          "preferred_label": "Jetur",
+          "confidence": 0.631,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Naphish",
+          "type": "person",
+          "preferred_label": "Nafis",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tema",
+          "type": "person",
+          "preferred_label": "Tema",
+          "confidence": 0.53,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "759854",
     "reference_id": 5698,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quedemote",
     "media_type": "Text",
     "index_reference": "quedemote",
@@ -490,13 +643,29 @@
           "label": "Cidades levitas",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Kedemoth",
+          "type": "place",
+          "preferred_label": "Quedemote",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Mephaath",
+          "type": "place",
+          "preferred_label": "Mefaate",
+          "confidence": 0.621,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "829645",
     "reference_id": 5699,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quedes",
     "media_type": "Text",
     "index_reference": "quedes",
@@ -581,13 +750,29 @@
           "label": "Cidades levitas",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Kedesh",
+          "type": "place",
+          "preferred_label": "Quedes",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Kishion",
+          "type": "place",
+          "preferred_label": "Quisião",
+          "confidence": 0.5315,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "682998",
     "reference_id": 5700,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quedorlaomer",
     "media_type": "Text",
     "index_reference": "quedorlaomer",
@@ -609,13 +794,22 @@
           "end_ref_usfm": "GEN 14:24"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Chedorlaomer",
+          "type": "person",
+          "preferred_label": "Quedorlaomer",
+          "confidence": 0.6833,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "759855",
     "reference_id": 5701,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Queelata",
     "media_type": "Text",
     "index_reference": "queelata",
@@ -631,13 +825,22 @@
           "end_ref_usfm": "NUM 33:23"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Kehelathah",
+          "type": "place",
+          "preferred_label": "Queelata",
+          "confidence": 1.0,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "829657",
     "reference_id": 5720,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quefar-Amonai",
     "media_type": "Text",
     "index_reference": "quefar-amonai",
@@ -653,13 +856,36 @@
           "end_ref_usfm": "JOS 18:24"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Chephar-ammoni",
+          "type": "place",
+          "preferred_label": "Quefar-Amonai",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Ophni",
+          "type": "place",
+          "preferred_label": "Ofni",
+          "confidence": 0.7075,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Geba",
+          "type": "place",
+          "preferred_label": "Geba",
+          "confidence": 0.544,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "829658",
     "reference_id": 5721,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quefira",
     "media_type": "Text",
     "index_reference": "quefira",
@@ -701,13 +927,36 @@
           "label": "Cefira",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Chephirah",
+          "type": "place",
+          "preferred_label": "Cefira",
+          "confidence": 0.8965,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Beeroth",
+          "type": "place",
+          "preferred_label": "Beerote",
+          "confidence": 0.612,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Kiriath-jearim",
+          "type": "place",
+          "preferred_label": "Quiriate-Jearim",
+          "confidence": 0.5025,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "828341",
     "reference_id": 3661,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Queijo",
     "media_type": "Text",
     "index_reference": "queijo",
@@ -731,13 +980,14 @@
           "label": "Comida E Preparação De Alimentos",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "829647",
     "reference_id": 5703,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Queila (lugar)",
     "media_type": "Text",
     "index_reference": "queila (lugar)",
@@ -771,13 +1021,22 @@
           "end_ref_usfm": "NEH 3:18"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Keilah",
+          "type": "place",
+          "preferred_label": "Queila",
+          "confidence": 0.9556,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "829646",
     "reference_id": 5702,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Queila (pessoa)",
     "media_type": "Text",
     "index_reference": "queila (pessoa)",
@@ -793,13 +1052,50 @@
           "end_ref_usfm": "1CH 4:19"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Keilah",
+          "type": "place",
+          "preferred_label": "Queila",
+          "confidence": 0.85,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hodiah",
+          "type": "person",
+          "preferred_label": "Hodias",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Naham",
+          "type": "person",
+          "preferred_label": "Naã",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Garmites",
+          "type": "group",
+          "preferred_label": "Garmites",
+          "confidence": 0.6175,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Eshtemoa",
+          "type": "place",
+          "preferred_label": "Estemoa",
+          "confidence": 0.5395,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "829648",
     "reference_id": 5704,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quelaías",
     "media_type": "Text",
     "index_reference": "quelaías",
@@ -839,13 +1135,36 @@
           "end_ref_usfm": "1ES 9:48"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Pelaiah",
+          "type": "person",
+          "preferred_label": "Pelaías",
+          "confidence": 0.6565,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Kelita.2",
+          "type": "person",
+          "preferred_label": "Quelita",
+          "confidence": 0.6295,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Pethahiah.2",
+          "type": "person",
+          "preferred_label": "Petaías",
+          "confidence": 0.509,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "828342",
     "reference_id": 3662,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quelal",
     "media_type": "Text",
     "index_reference": "quelal",
@@ -861,13 +1180,78 @@
           "end_ref_usfm": "EZR 10:30"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Chelal",
+          "type": "person",
+          "preferred_label": "Quelal",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Bezalel.2",
+          "type": "person",
+          "preferred_label": "Bezalel",
+          "confidence": 0.757,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Benaiah.9",
+          "type": "person",
+          "preferred_label": "Benaia",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Maaseiah.9",
+          "type": "person",
+          "preferred_label": "Maaséias",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Adna",
+          "type": "person",
+          "preferred_label": "Adna",
+          "confidence": 0.64,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Binnui.3",
+          "type": "person",
+          "preferred_label": "Binui",
+          "confidence": 0.631,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Manasseh.3",
+          "type": "person",
+          "preferred_label": "Manassés",
+          "confidence": 0.6175,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mattaniah.7",
+          "type": "person",
+          "preferred_label": "Matanias",
+          "confidence": 0.613,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Pahath-moab",
+          "type": "person",
+          "preferred_label": "Paate-Moabe",
+          "confidence": 0.508,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "829650",
     "reference_id": 5706,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quelita",
     "media_type": "Text",
     "index_reference": "quelita",
@@ -884,13 +1268,22 @@
           "label": "Quelaías",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Kelita.2",
+          "type": "person",
+          "preferred_label": "Quelita",
+          "confidence": 1.0,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "828346",
     "reference_id": 3666,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quelubai",
     "media_type": "Text",
     "index_reference": "quelubai",
@@ -926,13 +1319,29 @@
           "label": "Calebe",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Caleb.2",
+          "type": "person",
+          "preferred_label": "Calebe",
+          "confidence": 0.8875,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jerahmeel",
+          "type": "person",
+          "preferred_label": "Jerameel",
+          "confidence": 0.5517,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "828347",
     "reference_id": 3667,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quelube",
     "media_type": "Text",
     "index_reference": "quelube",
@@ -954,13 +1363,29 @@
           "end_ref_usfm": "1CH 27:26"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Chelub",
+          "type": "person",
+          "preferred_label": "Quelube",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Chelub.2",
+          "type": "person",
+          "preferred_label": "Quelube",
+          "confidence": 0.8,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "829652",
     "reference_id": 5708,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quelube",
     "media_type": "Text",
     "index_reference": "quelube",
@@ -977,13 +1402,29 @@
           "label": "Quelube",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Chelub",
+          "type": "person",
+          "preferred_label": "Quelube",
+          "confidence": 1.0,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Chelub.2",
+          "type": "person",
+          "preferred_label": "Quelube",
+          "confidence": 1.0,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "829653",
     "reference_id": 5709,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Queluí",
     "media_type": "Text",
     "index_reference": "queluí",
@@ -999,13 +1440,36 @@
           "end_ref_usfm": "EZR 10:35"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Cheluhi",
+          "type": "person",
+          "preferred_label": "Queluí",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Bedeiah",
+          "type": "person",
+          "preferred_label": "Bedias",
+          "confidence": 0.631,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Benaiah.10",
+          "type": "person",
+          "preferred_label": "Benaia",
+          "confidence": 0.631,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "828345",
     "reference_id": 3665,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quelus",
     "media_type": "Text",
     "index_reference": "quelus",
@@ -1021,13 +1485,14 @@
           "end_ref_usfm": "JDT 1:9"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "828348",
     "reference_id": 3668,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quemarim, Quemarins",
     "media_type": "Text",
     "index_reference": "quemarim, quemarins",
@@ -1055,13 +1520,14 @@
           "end_ref_usfm": "ZEP 1:4"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "759695",
     "reference_id": 3669,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quemos",
     "media_type": "Text",
     "index_reference": "quemos",
@@ -1098,13 +1564,22 @@
           "label": "Moabe, Moabitas",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "deity:Chemosh",
+          "type": "deity",
+          "preferred_label": "Quemos",
+          "confidence": 0.85,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "682999",
     "reference_id": 5710,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quemuel",
     "media_type": "Text",
     "index_reference": "quemuel",
@@ -1132,13 +1607,36 @@
           "end_ref_usfm": "1CH 27:17"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Kemuel.2",
+          "type": "person",
+          "preferred_label": "Quemuel",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Kemuel",
+          "type": "person",
+          "preferred_label": "Quemuel",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Kemuel.3",
+          "type": "person",
+          "preferred_label": "Quemuel",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "829654",
     "reference_id": 5711,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quenaana",
     "media_type": "Text",
     "index_reference": "quenaana",
@@ -1178,13 +1676,36 @@
           "end_ref_usfm": "1CH 7:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Chenaanah",
+          "type": "person",
+          "preferred_label": "Quenaana",
+          "confidence": 0.8667,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Chenaanah.2",
+          "type": "person",
+          "preferred_label": "Quenaana",
+          "confidence": 0.6667,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Zedekiah.2",
+          "type": "person",
+          "preferred_label": "Zedequias",
+          "confidence": 0.5742,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "829656",
     "reference_id": 5713,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quenani",
     "media_type": "Text",
     "index_reference": "quenani",
@@ -1200,13 +1721,92 @@
           "end_ref_usfm": "NEH 9:4"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Chenani",
+          "type": "person",
+          "preferred_label": "Chenani",
+          "confidence": 0.8965,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Bunni",
+          "type": "person",
+          "preferred_label": "Buni",
+          "confidence": 0.8515,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Bani.8",
+          "type": "person",
+          "preferred_label": "Bani",
+          "confidence": 0.7975,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Bani.11",
+          "type": "person",
+          "preferred_label": "Bani",
+          "confidence": 0.7975,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shebaniah.2",
+          "type": "person",
+          "preferred_label": "Sebanias",
+          "confidence": 0.7885,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Kadmiel",
+          "type": "person",
+          "preferred_label": "Cadmiel",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Sherebiah",
+          "type": "person",
+          "preferred_label": "Serebias",
+          "confidence": 0.6715,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "SENHOR",
+          "confidence": 0.5935,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Levi.3",
+          "type": "person",
+          "preferred_label": "Levi",
+          "confidence": 0.562,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Levi",
+          "type": "group",
+          "preferred_label": "Levi",
+          "confidence": 0.562,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jeshua.4",
+          "type": "person",
+          "preferred_label": "Jesua",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "829655",
     "reference_id": 5712,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quenanias",
     "media_type": "Text",
     "index_reference": "quenanias",
@@ -1240,13 +1840,22 @@
           "end_ref_usfm": "1CH 15:3"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Chenaniah",
+          "type": "person",
+          "preferred_label": "Quenanias",
+          "confidence": 0.8,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "759856",
     "reference_id": 5715,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quenate",
     "media_type": "Text",
     "index_reference": "quenate",
@@ -1276,13 +1885,29 @@
           "label": "Kanata",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Kenath",
+          "type": "place",
+          "preferred_label": "Quenate",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nobah",
+          "type": "person",
+          "preferred_label": "Noba",
+          "confidence": 0.512,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "683000",
     "reference_id": 5716,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quenaz",
     "media_type": "Text",
     "index_reference": "quenaz",
@@ -1366,13 +1991,43 @@
           "label": "Quenezeus",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Kenaz.3",
+          "type": "person",
+          "preferred_label": "Quenaz",
+          "confidence": 0.7538,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Kenaz",
+          "type": "person",
+          "preferred_label": "Quenaz",
+          "confidence": 0.6923,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Kenaz.2",
+          "type": "person",
+          "preferred_label": "Quenaz",
+          "confidence": 0.6615,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Kenaz.4",
+          "type": "person",
+          "preferred_label": "Quenaz",
+          "confidence": 0.6308,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "658672",
     "reference_id": 5718,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Queneus",
     "media_type": "Text",
     "index_reference": "queneus",
@@ -1448,13 +2103,22 @@
           "end_ref_usfm": "NUM 10:31"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "group:Kenite",
+          "type": "group",
+          "preferred_label": "Kenites",
+          "confidence": 0.5251,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "683001",
     "reference_id": 5719,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quenezeus",
     "media_type": "Text",
     "index_reference": "quenezeus",
@@ -1524,13 +2188,29 @@
           "end_ref_usfm": "JDG 1:13"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Kenaz.3",
+          "type": "person",
+          "preferred_label": "Quenaz",
+          "confidence": 0.5746,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Kenaz",
+          "type": "person",
+          "preferred_label": "Quenaz",
+          "confidence": 0.513,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "828384",
     "reference_id": 3708,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Queniz",
     "media_type": "Text",
     "index_reference": "queniz",
@@ -1554,13 +2234,43 @@
           "label": "Pesos E Medidas",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Denarius",
+          "type": "realia",
+          "preferred_label": "Denarius",
+          "confidence": 0.7435,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:Quart",
+          "type": "realia",
+          "preferred_label": "Quart",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:Wine",
+          "type": "realia",
+          "preferred_label": "Wine",
+          "confidence": 0.5575,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:OliveOil",
+          "type": "realia",
+          "preferred_label": "Olive Oil",
+          "confidence": 0.5305,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "828354",
     "reference_id": 3675,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Querã",
     "media_type": "Text",
     "index_reference": "querã",
@@ -1569,13 +2279,22 @@
     "content": "<h1>QUERÃ</h1><p>Querã era filho de Disom. Ele era membro da tribo dos horeus durante o tempo de Esaú (<a href=\"https://ref.ly/Gen36:26\">Gn 36.26</a>; <a href=\"https://ref.ly/1Chr1:41\">1Cr 1.41</a>).</p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Cheran",
+          "type": "person",
+          "preferred_label": "Querã",
+          "confidence": 1.0,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "828323",
     "reference_id": 3632,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quéreas",
     "media_type": "Text",
     "index_reference": "quéreas",
@@ -1597,13 +2316,14 @@
           "end_ref_usfm": "2MA 10:37"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "829659",
     "reference_id": 5723,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quéren-Hapuque",
     "media_type": "Text",
     "index_reference": "quéren-hapuque",
@@ -1619,13 +2339,36 @@
           "end_ref_usfm": "JOB 42:14"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Keren-happuch",
+          "type": "person",
+          "preferred_label": "Quéren-Hapuque",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Keziah",
+          "type": "person",
+          "preferred_label": "Quezia",
+          "confidence": 0.694,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jemimah",
+          "type": "person",
+          "preferred_label": "Jemima",
+          "confidence": 0.5995,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "829660",
     "reference_id": 5724,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Queretitas",
     "media_type": "Text",
     "index_reference": "queretitas",
@@ -1695,13 +2438,29 @@
           "end_ref_usfm": "EZK 25:17"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "group:Cherethite",
+          "type": "group",
+          "preferred_label": "Cherethites",
+          "confidence": 0.7848,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Pelethites",
+          "type": "group",
+          "preferred_label": "Pelethites",
+          "confidence": 0.5867,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "829665",
     "reference_id": 5730,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Querigma",
     "media_type": "Text",
     "index_reference": "querigma",
@@ -1725,13 +2484,14 @@
           "label": "Evangelho",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "759858",
     "reference_id": 5726,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Queriote",
     "media_type": "Text",
     "index_reference": "queriote",
@@ -1789,13 +2549,22 @@
           "end_ref_usfm": "ISA 16:14"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Kerioth-hezron",
+          "type": "place",
+          "preferred_label": "Queriote-Hezrom",
+          "confidence": 0.6044,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "829661",
     "reference_id": 5725,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Queriote-Hezrom",
     "media_type": "Text",
     "index_reference": "queriote-hezrom",
@@ -1819,13 +2588,36 @@
           "label": "Queriote",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Kerioth-hezron",
+          "type": "place",
+          "preferred_label": "Queriote-Hezrom",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Hazor.3",
+          "type": "place",
+          "preferred_label": "Hazor",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Hazor-hadattah",
+          "type": "place",
+          "preferred_label": "Hazor-Hadata",
+          "confidence": 0.73,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "828356",
     "reference_id": 3677,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Querite, o riacho de",
     "media_type": "Text",
     "index_reference": "querite, o riacho de",
@@ -1834,13 +2626,14 @@
     "content": "<h1>QUERITE, O riacho de</h1><p>Um riacho ou vale onde o Senhor disse ao profeta Elias para se esconder do rei Acabe. Isso aconteceu durante um período em que não havia chuva e havia muito pouca comida na terra, conforme Elias havia predito. Enquanto Elias permanecia junto a este riacho, ele tinha água para beber, e Deus enviava pássaros (corvos) para lhe trazer comida todas as manhãs e noites (<a href=\"https://ref.ly/1Kgs17:2-1Kgs17:6\">1Rs 17.2–6</a>).</p><p>O riacho estava localizado a leste do Rio Jordão (<a href=\"https://ref.ly/1Kgs17:3\">1Rs 17.3</a>). Algumas pessoas acreditam que estava em um vale chamado Wadi Qelt, perto da cidade de Jericó. No entanto, é mais provável que estivesse na região de Gileade, de onde Elias veio. O Riacho de Querite às vezes é chamado de &quot;Vale de Querite&quot; ou &quot;Ravina de Querite&quot;.</p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "829663",
     "reference_id": 5728,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Queros",
     "media_type": "Text",
     "index_reference": "queros",
@@ -1862,13 +2655,36 @@
           "end_ref_usfm": "NEH 7:47"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Keros",
+          "type": "person",
+          "preferred_label": "Queros",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Siaha",
+          "type": "person",
+          "preferred_label": "Sia",
+          "confidence": 0.649,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Padon",
+          "type": "person",
+          "preferred_label": "Padom",
+          "confidence": 0.631,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "828357",
     "reference_id": 3679,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Querube (Lugar)",
     "media_type": "Text",
     "index_reference": "querube (lugar)",
@@ -1877,13 +2693,22 @@
     "content": "<h1>QUERUBE (Local)</h1><p>Uma das cinco cidades babilônicas. Os israelitas que vieram de lá não puderam provar sua ascendência, e eles retornaram para lá após o exílio (<a href=\"https://ref.ly/Ezra2:59\">Ed 2.59</a>; <a href=\"https://ref.ly/Neh7:61\">Ne 7.61</a>).</p><p><em>Veja também</em> <span data-bnType=\"resourceReference\" data-resourceId=\"5729\" data-resourceType=\"TyndaleBibleDictionary\">Querube</span>.</p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Cherub",
+          "type": "place",
+          "preferred_label": "Querube",
+          "confidence": 1.0,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "481518",
     "reference_id": 3678,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Querubim, querubins",
     "media_type": "Text",
     "index_reference": "querubim, querubins",
@@ -2100,13 +2925,14 @@
           "label": "Serafim, serafins",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "828358",
     "reference_id": 3680,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quesalom",
     "media_type": "Text",
     "index_reference": "quesalom",
@@ -2115,13 +2941,14 @@
     "content": "<h1>QUESALOM</h1><p>Uma cidade no norte de Judá, perto da fronteira do território de Dã. A cidade foi construída no lado norte do monte Jearim. Hoje, acredita-se que este lugar seja um local chamado Kesla, que fica a cerca de 14,5 quilômetros a oeste de Jerusalém.</p><p>A Bíblia menciona Quesalom apenas uma vez, ao descrever como os israelitas, liderados por Josué, tomaram o controle da terra de Canaã (<a href=\"https://ref.ly/Josh15:10\">Js 15.10</a>).</p><p><em>Veja também</em> <span data-bnType=\"resourceReference\" data-resourceId=\"5415\" data-resourceType=\"TyndaleBibleDictionary\">Jearim, Monte</span>.</p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "828359",
     "reference_id": 3681,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quesede",
     "media_type": "Text",
     "index_reference": "quesede",
@@ -2138,13 +2965,22 @@
           "label": "Quesede",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Chesed",
+          "type": "person",
+          "preferred_label": "Quésede",
+          "confidence": 0.9263,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "683002",
     "reference_id": 5732,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quesede",
     "media_type": "Text",
     "index_reference": "quesede",
@@ -2168,13 +3004,50 @@
           "label": "Quesede",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Chesed",
+          "type": "person",
+          "preferred_label": "Quésede",
+          "confidence": 0.964,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Pildash",
+          "type": "person",
+          "preferred_label": "Pildas",
+          "confidence": 0.6175,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jidlaph",
+          "type": "person",
+          "preferred_label": "Jidlaph",
+          "confidence": 0.613,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hazo",
+          "type": "person",
+          "preferred_label": "Hazo",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Bethuel",
+          "type": "person",
+          "preferred_label": "Betuel",
+          "confidence": 0.5395,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "828360",
     "reference_id": 3682,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quesil",
     "media_type": "Text",
     "index_reference": "quesil",
@@ -2183,13 +3056,22 @@
     "content": "<h1>QUESIL </h1><p>Uma cidade nas fronteiras de Edom no Neguebe. Foi dada à tribo de Judá (<a href=\"https://ref.ly/Josh15:30\">Js 15.30</a>). Em outra lista de cidades, Quesil é substituída por:</p><ol><li><p>Betul (<a href=\"https://ref.ly/Josh19:4\">Js 19.4</a>);</p></li><li><p>Betuel (<a href=\"https://ref.ly/1Chr4:30\">1Cr 4.30</a>);</p></li><li><p>Talvez Betel, embora não o Betel ao norte de Jerusalém (<a href=\"https://ref.ly/1Sam30:27\">1Sm 30.27</a>).</p></li></ol><p>Betuel ou Betul é considerado por muitos estudiosos como o nome original, com Quesil sendo um erro posterior.</p><p><em>Veja também</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3376\" data-resourceType=\"TyndaleBibleDictionary\">Betuel, Betul (Lugar)</span>.</p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Chesil",
+          "type": "place",
+          "preferred_label": "Quesil",
+          "confidence": 1.0,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "717249",
     "reference_id": 7045,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quesitá",
     "media_type": "Text",
     "index_reference": "quesitá",
@@ -2225,13 +3107,22 @@
           "label": "Dinheiro",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:PieceOfMoney",
+          "type": "realia",
+          "preferred_label": "Piece of Money",
+          "confidence": 0.829,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "828361",
     "reference_id": 3684,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quesulote",
     "media_type": "Text",
     "index_reference": "quesulote",
@@ -2240,13 +3131,22 @@
     "content": "<h1>QUESULOTE</h1><p>Uma cidade em Issacar (<a href=\"https://ref.ly/Josh19:18\">Js 19.18</a>). Também é chamada de Quislote-Tabor em <a href=\"https://ref.ly/Josh19:12\">Josué 19.12</a>. Quesulote é provavelmente a moderna vila de Iksal, cerca de 4,8 quilômetros a sudeste de Nazaré.</p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Chesulloth",
+          "type": "place",
+          "preferred_label": "Quesulote",
+          "confidence": 1.0,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "683003",
     "reference_id": 5736,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quetura",
     "media_type": "Text",
     "index_reference": "quetura",
@@ -2318,13 +3218,22 @@
           "label": "Abraão",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Keturah",
+          "type": "person",
+          "preferred_label": "Quetura",
+          "confidence": 0.6182,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "829670",
     "reference_id": 5738,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quézia",
     "media_type": "Text",
     "index_reference": "quézia",
@@ -2340,13 +3249,36 @@
           "end_ref_usfm": "JOB 42:14"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Keziah",
+          "type": "person",
+          "preferred_label": "Quezia",
+          "confidence": 0.9595,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jemimah",
+          "type": "person",
+          "preferred_label": "Jemima",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Keren-happuch",
+          "type": "person",
+          "preferred_label": "Quéren-Hapuque",
+          "confidence": 0.649,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "828362",
     "reference_id": 3685,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quezibe",
     "media_type": "Text",
     "index_reference": "quezibe",
@@ -2363,13 +3295,14 @@
           "label": "Quezibe",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "717129",
     "reference_id": 5739,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quezibe",
     "media_type": "Text",
     "index_reference": "quezibe",
@@ -2400,13 +3333,29 @@
           "label": "Quezibe",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Shelah",
+          "type": "person",
+          "preferred_label": "Selá",
+          "confidence": 0.721,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Achzib",
+          "type": "place",
+          "preferred_label": "Aczibe",
+          "confidence": 0.679,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "828484",
     "reference_id": 3891,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quiamon",
     "media_type": "Text",
     "index_reference": "quiamon",
@@ -2428,13 +3377,14 @@
           "end_ref_usfm": "JDT 7:3"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "759859",
     "reference_id": 5741,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quibrote-Hataavá",
     "media_type": "Text",
     "index_reference": "quibrote-hataavá",
@@ -2470,13 +3420,29 @@
           "label": "Peregrinações no deserto",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Kibroth-hattaavah",
+          "type": "place",
+          "preferred_label": "Quibrote-Hataavá",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Hazeroth",
+          "type": "place",
+          "preferred_label": "Hazerote",
+          "confidence": 0.544,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "829672",
     "reference_id": 5742,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quibzaim",
     "media_type": "Text",
     "index_reference": "quibzaim",
@@ -2498,13 +3464,22 @@
           "end_ref_usfm": "1CH 6:68"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Kibzaim",
+          "type": "place",
+          "preferred_label": "Quibzaim",
+          "confidence": 1.0,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "828364",
     "reference_id": 3687,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quidom",
     "media_type": "Text",
     "index_reference": "quidom",
@@ -2521,13 +3496,29 @@
           "label": "Nacom",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "deity:Kiyyun",
+          "type": "deity",
+          "preferred_label": "Quium",
+          "confidence": 0.8318,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Kishon",
+          "type": "place",
+          "preferred_label": "Quisom",
+          "confidence": 0.8123,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "828371",
     "reference_id": 3694,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quileabe",
     "media_type": "Text",
     "index_reference": "quileabe",
@@ -2544,13 +3535,22 @@
           "label": "Daluia",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Chileab",
+          "type": "person",
+          "preferred_label": "Quileabe",
+          "confidence": 1.0,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "828372",
     "reference_id": 3695,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quiliom",
     "media_type": "Text",
     "index_reference": "quiliom",
@@ -2559,13 +3559,29 @@
     "content": "<h1>QUILIOM</h1><p>Um dos dois filhos de Elimeleque e Noemi (<a href=\"https://ref.ly/Ruth1:2\">Rute 1.2</a>). Quiliom casou-se com uma moabita chamada Orfa (versículo <a href=\"https://ref.ly/Ruth1:4\">4</a>). Quiliom mais tarde morreu em Moabe (versículo <a href=\"https://ref.ly/Ruth1:5\">5</a>).</p><p></p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Chilion",
+          "type": "person",
+          "preferred_label": "Quiliom",
+          "confidence": 1.0,
+          "match_method": "embedding"
+        },
+        {
+          "id": "deity:Kiyyun",
+          "type": "deity",
+          "preferred_label": "Quium",
+          "confidence": 0.8107,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "828373",
     "reference_id": 3696,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quilmade",
     "media_type": "Text",
     "index_reference": "quilmade",
@@ -2574,13 +3590,22 @@
     "content": "<h1>QUILMADE</h1><p>Uma cidade mesopotâmica listada junto com Harã, Cane, Éden e Assur como aquelas que comerciavam com Tiro (<a href=\"https://ref.ly/Ezek27:23\">Ez 27.23</a>).</p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Chilmad",
+          "type": "place",
+          "preferred_label": "Quilmade",
+          "confidence": 1.0,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "828374",
     "reference_id": 3697,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quimã",
     "media_type": "Text",
     "index_reference": "quimã",
@@ -2589,13 +3614,22 @@
     "content": "<h1>QUIMÃ</h1><p>Um filho de Barzilai, segundo o historiador judeu Josefo. Quimã era um homem muito rico que forneceu comida ao rei Davi e seus homens. Isso aconteceu enquanto eles estavam em Maanaim, quando Davi estava fugindo de seu filho Absalão (<a href=\"https://ref.ly/2Sam19:32\">2Sm 19.32</a>). Davi convidou Barzilai para voltar com ele a Jerusalém, mas Barzilai recusou essa oferta. Em vez disso, ele pediu que Davi mostrasse bondade a Quimã (versículos <a href=\"https://ref.ly/2Sam19:37-2Sam19:40\">37–40</a>). Davi concordou com esse pedido. Mais tarde, ele instruiu seu filho Salomão a dar constante apoio do palácio a Quimã (<a href=\"https://ref.ly/1Kgs2:7\">1Rs 2.7</a>).</p><p>Seu nome aparece séculos depois em um lugar chamado Gerute-Quimã, que estava localizado perto de Belém. É neste local que as pessoas que Joanã havia resgatado de Ismael ficaram temporariamente, antes de planejarem continuar sua jornada para o Egito (<a href=\"https://ref.ly/Jer41:17\">Jr 41.17</a>).</p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Chimham",
+          "type": "person",
+          "preferred_label": "Quimã",
+          "confidence": 1.0,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "829682",
     "reference_id": 5753,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quiná",
     "media_type": "Text",
     "index_reference": "quiná",
@@ -2617,13 +3651,36 @@
           "end_ref_usfm": "JDG 1:16"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Kinah",
+          "type": "place",
+          "preferred_label": "Quiná",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Dimonah",
+          "type": "place",
+          "preferred_label": "Dimona",
+          "confidence": 0.53,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Kenite",
+          "type": "group",
+          "preferred_label": "Kenites",
+          "confidence": 0.512,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "828375",
     "reference_id": 3698,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quinerete",
     "media_type": "Text",
     "index_reference": "quinerete",
@@ -2640,13 +3697,22 @@
           "label": "Quinerete",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Chinnereth",
+          "type": "place",
+          "preferred_label": "Quinerete",
+          "confidence": 1.0,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "759860",
     "reference_id": 5764,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quinerete",
     "media_type": "Text",
     "index_reference": "quinerete",
@@ -2712,13 +3778,29 @@
           "label": "Quinerete",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Chinnereth",
+          "type": "place",
+          "preferred_label": "Quinerete",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:GalileeSea",
+          "type": "place",
+          "preferred_label": "Sea of Galilee",
+          "confidence": 0.588,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "828376",
     "reference_id": 3699,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quios",
     "media_type": "Text",
     "index_reference": "quios",
@@ -2727,13 +3809,22 @@
     "content": "<h1>QUIOS</h1><p>Uma ilha rochosa e montanhosa na parte leste-central do Mar Egeu. Durante a terceira viagem missionária de Paulo, seu navio ancorou em frente a Quios entre as paradas em Mitilene e Samos enquanto ele viajava para Jerusalém (<a href=\"https://ref.ly/Acts20:15\">At 20.15</a>). Embora a ilha não fosse muito fértil, Quios era conhecida por produzir vinho, figos e goma mastique. A ilha é separada do continente por um estreito de 8 quilômetros. No tempo de Paulo, a principal cidade da ilha, também chamada Quios (atualmente Scio), era uma cidade livre na província romana da Ásia.</p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Chios",
+          "type": "place",
+          "preferred_label": "Quios",
+          "confidence": 1.0,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "829700",
     "reference_id": 5786,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quir",
     "media_type": "Text",
     "index_reference": "quir",
@@ -2785,13 +3876,22 @@
           "end_ref_usfm": "AMO 9:7"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Kir",
+          "type": "place",
+          "preferred_label": "Quir",
+          "confidence": 1.0,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "829686",
     "reference_id": 5767,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quir-Haresete",
     "media_type": "Text",
     "index_reference": "quir-haresete",
@@ -2808,13 +3908,14 @@
           "label": "Quir",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "683008",
     "reference_id": 5768,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quiriataim",
     "media_type": "Text",
     "index_reference": "quiriataim",
@@ -2880,13 +3981,29 @@
           "label": "Cidades levitas",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Kiriathaim",
+          "type": "place",
+          "preferred_label": "Quiriataim",
+          "confidence": 0.9,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Kiriathaim.2",
+          "type": "place",
+          "preferred_label": "Quiriataim",
+          "confidence": 0.65,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "683009",
     "reference_id": 5769,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quiriate-Arba",
     "media_type": "Text",
     "index_reference": "quiriate-arba",
@@ -2922,13 +4039,29 @@
           "label": "Hebrom (lugar)",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Hebron",
+          "type": "place",
+          "preferred_label": "Hebrom",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Anak",
+          "type": "person",
+          "preferred_label": "Anaque",
+          "confidence": 0.5218,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "829687",
     "reference_id": 5770,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quiriate-Arim",
     "media_type": "Text",
     "index_reference": "quiriate-arim",
@@ -2952,13 +4085,36 @@
           "label": "Quiriate-Jearim",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Kiriath-jearim",
+          "type": "place",
+          "preferred_label": "Quiriate-Jearim",
+          "confidence": 0.8185,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Beeroth",
+          "type": "place",
+          "preferred_label": "Beerote",
+          "confidence": 0.562,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Chephirah",
+          "type": "place",
+          "preferred_label": "Cefira",
+          "confidence": 0.544,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "829688",
     "reference_id": 5771,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quiriate-Baal",
     "media_type": "Text",
     "index_reference": "quiriate-baal",
@@ -2988,13 +4144,22 @@
           "label": "Quiriate-Jearim",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Kiriath-jearim",
+          "type": "place",
+          "preferred_label": "Quiriate-Jearim",
+          "confidence": 0.91,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "759862",
     "reference_id": 5772,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quiriate-Huzote",
     "media_type": "Text",
     "index_reference": "quiriate-huzote",
@@ -3010,13 +4175,29 @@
           "end_ref_usfm": "NUM 22:39"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Kiriath-huzoth",
+          "type": "place",
+          "preferred_label": "Quiriate-Huzote",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Balak",
+          "type": "person",
+          "preferred_label": "Balaque",
+          "confidence": 0.5215,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "829689",
     "reference_id": 5773,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quiriate-Jearim",
     "media_type": "Text",
     "index_reference": "quiriate-jearim",
@@ -3086,13 +4267,22 @@
           "end_ref_usfm": "JER 26:23"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Kiriath-jearim",
+          "type": "place",
+          "preferred_label": "Quiriate-Jearim",
+          "confidence": 0.6542,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "829690",
     "reference_id": 5774,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quiriate-Sana",
     "media_type": "Text",
     "index_reference": "quiriate-sana",
@@ -3116,13 +4306,29 @@
           "label": "Debir (Lugar)",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Debir",
+          "type": "place",
+          "preferred_label": "Debir",
+          "confidence": 0.7465,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Dannah",
+          "type": "place",
+          "preferred_label": "Daná",
+          "confidence": 0.694,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "829691",
     "reference_id": 5775,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quiriate-Sefer",
     "media_type": "Text",
     "index_reference": "quiriate-sefer",
@@ -3146,13 +4352,22 @@
           "label": "Debir (Lugar)",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Debir",
+          "type": "place",
+          "preferred_label": "Debir",
+          "confidence": 0.7195,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "816073",
     "reference_id": 7054,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quirino",
     "media_type": "Text",
     "index_reference": "quirino",
@@ -3195,13 +4410,22 @@
           "label": "Cronologia da Bíblia (Novo Testamento)",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Quirinius",
+          "type": "person",
+          "preferred_label": "Quirino",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "829692",
     "reference_id": 5776,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quiriote",
     "media_type": "Text",
     "index_reference": "quiriote",
@@ -3225,13 +4449,36 @@
           "label": "Queriote",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Kiriathaim",
+          "type": "place",
+          "preferred_label": "Quiriataim",
+          "confidence": 0.7015,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Moab",
+          "type": "place",
+          "preferred_label": "Moabe",
+          "confidence": 0.58,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:RamsHorn",
+          "type": "realia",
+          "preferred_label": "Rams Horn",
+          "confidence": 0.535,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "815998",
     "reference_id": 5790,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quis",
     "media_type": "Text",
     "index_reference": "quis",
@@ -3313,13 +4560,43 @@
           "end_ref_usfm": "1CH 23:22"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Kish",
+          "type": "person",
+          "preferred_label": "Quis",
+          "confidence": 0.8154,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Kish.2",
+          "type": "person",
+          "preferred_label": "Quis",
+          "confidence": 0.6923,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Kish.4",
+          "type": "person",
+          "preferred_label": "Quis",
+          "confidence": 0.6308,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Kish.3",
+          "type": "person",
+          "preferred_label": "Quis",
+          "confidence": 0.6308,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "829702",
     "reference_id": 5788,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quisi",
     "media_type": "Text",
     "index_reference": "quisi",
@@ -3341,13 +4618,36 @@
           "end_ref_usfm": "1CH 15:17"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Kishi",
+          "type": "person",
+          "preferred_label": "Quisi",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Berechiah.2",
+          "type": "person",
+          "preferred_label": "Berequias",
+          "confidence": 0.6065,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joel",
+          "type": "person",
+          "preferred_label": "Joel",
+          "confidence": 0.512,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "829701",
     "reference_id": 5787,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quisião",
     "media_type": "Text",
     "index_reference": "quisião",
@@ -3377,13 +4677,22 @@
           "label": "Cidades levitas",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Kishion",
+          "type": "place",
+          "preferred_label": "Quisião",
+          "confidence": 1.0,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "829703",
     "reference_id": 5791,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quisleu",
     "media_type": "Text",
     "index_reference": "quisleu",
@@ -3400,13 +4709,22 @@
           "label": "Calendários, Antigos e modernos",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Chislon",
+          "type": "person",
+          "preferred_label": "Quislom",
+          "confidence": 0.8056,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "828378",
     "reference_id": 3701,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quislom",
     "media_type": "Text",
     "index_reference": "quislom",
@@ -3415,13 +4733,29 @@
     "content": "<h1>QUISLOM</h1><p>O pai de Elidade era um líder da tribo de Benjamim durante as peregrinações no deserto de Israel. Elidade foi um dos escolhidos por Moisés para dividir a terra de Canaã entre as tribos (<a href=\"https://ref.ly/Num34:21\">Nm 34.21</a>).</p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Chislon",
+          "type": "person",
+          "preferred_label": "Quislom",
+          "confidence": 1.0,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Kishon",
+          "type": "place",
+          "preferred_label": "Quisom",
+          "confidence": 0.8017,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "828379",
     "reference_id": 3702,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quislote-Tabor",
     "media_type": "Text",
     "index_reference": "quislote-tabor",
@@ -3438,13 +4772,14 @@
           "label": "Quesulote",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "806231",
     "reference_id": 5789,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quisom",
     "media_type": "Text",
     "index_reference": "quisom",
@@ -3492,13 +4827,29 @@
           "label": "Quisião",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Kishon",
+          "type": "place",
+          "preferred_label": "Quisom",
+          "confidence": 0.6345,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Kishion",
+          "type": "place",
+          "preferred_label": "Quisião",
+          "confidence": 0.5304,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "828381",
     "reference_id": 3704,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quitim",
     "media_type": "Text",
     "index_reference": "quitim",
@@ -3515,13 +4866,22 @@
           "label": "Quitim",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "group:Kittim",
+          "type": "group",
+          "preferred_label": "Quitim",
+          "confidence": 1.0,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "658673",
     "reference_id": 5800,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quitim",
     "media_type": "Text",
     "index_reference": "quitim",
@@ -3551,13 +4911,36 @@
           "label": "Chipre",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "group:Kittim",
+          "type": "group",
+          "preferred_label": "Quitim",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tarshish",
+          "type": "person",
+          "preferred_label": "Társis",
+          "confidence": 0.512,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Cyprus",
+          "type": "place",
+          "preferred_label": "Chipre",
+          "confidence": 0.5015,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "828380",
     "reference_id": 3703,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quitlis",
     "media_type": "Text",
     "index_reference": "quitlis",
@@ -3566,13 +4949,22 @@
     "content": "<h1>QUITLIS</h1><p>Uma cidade atribuída à tribo de Judá (<a href=\"https://ref.ly/Josh15:40\">Js 15.40</a>). Quitlis estava localizada na área de planície de Judá, também conhecida como Sefelá. Não sabemos a localização exata de Quitlis.</p><p></p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Chitlish",
+          "type": "place",
+          "preferred_label": "Quitlis",
+          "confidence": 1.0,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "829707",
     "reference_id": 5799,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quitrom",
     "media_type": "Text",
     "index_reference": "quitrom",
@@ -3602,13 +4994,36 @@
           "label": "Catate",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Kitron",
+          "type": "place",
+          "preferred_label": "Quitrom",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Shimron",
+          "type": "place",
+          "preferred_label": "Sinrom",
+          "confidence": 0.629,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Nahalal",
+          "type": "place",
+          "preferred_label": "Naalal",
+          "confidence": 0.613,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "829633",
     "reference_id": 5683,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Quium",
     "media_type": "Text",
     "index_reference": "quium",
@@ -3632,13 +5047,43 @@
           "label": "Sicute",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "deity:Kiyyun",
+          "type": "deity",
+          "preferred_label": "Quium",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Sikkuth",
+          "type": "deity",
+          "preferred_label": "Sicute",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:Image",
+          "type": "realia",
+          "preferred_label": "Image",
+          "confidence": 0.58,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "SENHOR",
+          "confidence": 0.562,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "759953",
     "reference_id": 7055,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Qumran",
     "media_type": "Text",
     "index_reference": "qumran",
@@ -3660,7 +5105,16 @@
           "end_ref_usfm": "2CH 26:10"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Qumran",
+          "type": "place",
+          "preferred_label": "Qumran",
+          "confidence": 1.0,
+          "match_method": "embedding"
+        }
+      ]
     }
   }
 ]

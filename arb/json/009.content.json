@@ -2,7 +2,7 @@
   {
     "content_id": "510433",
     "reference_id": 4506,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "الذباب المزعج",
     "media_type": "Text",
     "index_reference": "الذباب المزعج",
@@ -26,13 +26,22 @@
           "label": "حيوانات",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Gadfly",
+          "type": "fauna",
+          "preferred_label": "Gadfly",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "510358",
     "reference_id": 4359,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "الذبيحة المسائية",
     "media_type": "Text",
     "index_reference": "الذبيحة المسائية",
@@ -49,13 +58,14 @@
           "label": "التَّقْدِمَات والذَّبَائِح",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "510056",
     "reference_id": 3827,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "الذرة",
     "media_type": "Text",
     "index_reference": "الذرة",
@@ -79,13 +89,22 @@
           "label": "حنطة",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "flora:Wheat",
+          "type": "flora",
+          "preferred_label": "Wheat",
+          "confidence": 0.8109,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "512715",
     "reference_id": 8253,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ذِئْب",
     "media_type": "Text",
     "index_reference": "ذِئْب",
@@ -109,13 +128,43 @@
           "label": "كَلب",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Zeeb",
+          "type": "person",
+          "preferred_label": "ذِئْبًا",
+          "confidence": 0.8384,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Zibia",
+          "type": "person",
+          "preferred_label": "ظِبْيَا",
+          "confidence": 0.8227,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Ashvath",
+          "type": "person",
+          "preferred_label": "عَشْة",
+          "confidence": 0.8102,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Zaavan",
+          "type": "person",
+          "preferred_label": "زَعْان",
+          "confidence": 0.8083,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "512768",
     "reference_id": 8339,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ذِئْبٌ",
     "media_type": "Text",
     "index_reference": "ذِئْبٌ",
@@ -131,13 +180,50 @@
           "end_ref_usfm": "JDG 7:25"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Zeeb",
+          "type": "person",
+          "preferred_label": "ذِئْبًا",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Oreb",
+          "type": "person",
+          "preferred_label": "غرَابًا",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Gideon",
+          "type": "person",
+          "preferred_label": "جِدْعونَ",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Midian",
+          "type": "place",
+          "preferred_label": "مِدْيَانَ",
+          "confidence": 0.5395,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Jordan",
+          "type": "place",
+          "preferred_label": "ٱلْأرْدنِّ",
+          "confidence": 0.5395,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "510410",
     "reference_id": 4452,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ذباب",
     "media_type": "Text",
     "index_reference": "ذباب",
@@ -167,13 +253,22 @@
           "label": "حيوانات",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Fly",
+          "type": "fauna",
+          "preferred_label": "Fly",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "512102",
     "reference_id": 7258,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ذبيحة",
     "media_type": "Text",
     "index_reference": "ذبيحة",
@@ -197,13 +292,14 @@
           "label": "التَّقْدِمَات والذَّبَائِح",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "510559",
     "reference_id": 4715,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ذبيحة الإثم",
     "media_type": "Text",
     "index_reference": "ذبيحة الإثم",
@@ -220,13 +316,14 @@
           "label": "التَّقْدِمَات والذَّبَائِح",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "512611",
     "reference_id": 8088,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ذبيحة الإثم",
     "media_type": "Text",
     "index_reference": "ذبيحة الإثم",
@@ -243,13 +340,14 @@
           "label": "التَّقْدِمَات والذَّبَائِح",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "510880",
     "reference_id": 5199,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ذبيحة التنصيب والتكريس",
     "media_type": "Text",
     "index_reference": "ذبيحة التنصيب والتكريس",
@@ -266,13 +364,14 @@
           "label": "التَّقْدِمَات والذَّبَائِح",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "512371",
     "reference_id": 7687,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ذَبِيحَةِ الْخَطِيَّةِ",
     "media_type": "Text",
     "index_reference": "ذَبِيحَةِ الْخَطِيَّةِ",
@@ -289,13 +388,14 @@
           "label": "التَّقْدِمَات والذَّبَائِح",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "512544",
     "reference_id": 7973,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ذبيحة السلامة",
     "media_type": "Text",
     "index_reference": "ذبيحة السلامة",
@@ -312,13 +412,14 @@
           "label": "التَّقْدِمَات والذَّبَائِح",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "511847",
     "reference_id": 6787,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ذبيحةُ السلامة",
     "media_type": "Text",
     "index_reference": "ذبيحةُ السلامة",
@@ -335,13 +436,14 @@
           "label": "التَّقْدِمَات والذَّبَائِح",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "490291",
     "reference_id": 3533,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ذبيحة المحرقة",
     "media_type": "Text",
     "index_reference": "ذبيحة المحرقة",
@@ -365,13 +467,14 @@
           "label": "التَّقْدِمَات والذَّبَائِح",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "510078",
     "reference_id": 3871,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ذراع",
     "media_type": "Text",
     "index_reference": "ذراع",
@@ -388,13 +491,14 @@
           "label": "الأوزان والمقاييس",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "512430",
     "reference_id": 7784,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ذَكَر الأيّل",
     "media_type": "Text",
     "index_reference": "ذَكَر الأيّل",
@@ -418,13 +522,14 @@
           "label": "الْأَيَائِل",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "510538",
     "reference_id": 4674,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ذهب",
     "media_type": "Text",
     "index_reference": "ذهب",
@@ -455,13 +560,14 @@
           "label": "مال",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "510537",
     "reference_id": 4672,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ذهبي، العِجل الـ",
     "media_type": "Text",
     "index_reference": "ذهبي، العِجل الـ",
@@ -478,13 +584,14 @@
           "label": "العِجل الذهبي",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "511683",
     "reference_id": 6509,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ذَوَاتِ ٱلْأَوْتَارِ (نيجينه، نيجينوث)",
     "media_type": "Text",
     "index_reference": "ذَوَاتِ ٱلْأَوْتَارِ (نيجينه، نيجينوث)",
@@ -538,13 +645,14 @@
           "label": "موسيقى",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "511687",
     "reference_id": 6513,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ذَوَاتِ ٱلنَّفْخ (نهيلوث)",
     "media_type": "Text",
     "index_reference": "ذَوَاتِ ٱلنَّفْخ (نهيلوث)",
@@ -568,13 +676,14 @@
           "label": "موسيقى",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "490337",
     "reference_id": 4040,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ذِي ذَهَب",
     "media_type": "Text",
     "index_reference": "ذِي ذَهَب",
@@ -590,7 +699,72 @@
           "end_ref_usfm": "DEU 1:1"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Hazeroth",
+          "type": "place",
+          "preferred_label": "حَضَيْروتَ",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Laban",
+          "type": "place",
+          "preferred_label": "لَابَان",
+          "confidence": 0.7435,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Tophel",
+          "type": "place",
+          "preferred_label": "توفَلَ",
+          "confidence": 0.6265,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Suph",
+          "type": "place",
+          "preferred_label": "سوفَ",
+          "confidence": 0.613,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Arabah",
+          "type": "place",
+          "preferred_label": "ٱلْعَرَبَةِ",
+          "confidence": 0.6115,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Israel",
+          "type": "person",
+          "preferred_label": "إِسْرَائِيلَ",
+          "confidence": 0.598,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Dizahab",
+          "type": "place",
+          "preferred_label": "Dizahab",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Paran",
+          "type": "place",
+          "preferred_label": "فَارَانَ",
+          "confidence": 0.5305,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Jordan",
+          "type": "place",
+          "preferred_label": "ٱلْأرْدنِّ",
+          "confidence": 0.5215,
+          "match_method": "scored"
+        }
+      ]
     }
   }
 ]

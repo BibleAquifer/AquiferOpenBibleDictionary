@@ -2,7 +2,7 @@
   {
     "content_id": "4732",
     "reference_id": 3900,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dabareh",
     "media_type": "Text",
     "index_reference": "dabareh",
@@ -26,13 +26,43 @@
           "label": "Daberath",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Daberath",
+          "type": "place",
+          "preferred_label": "Daberath",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Kishion",
+          "type": "place",
+          "preferred_label": "Kishion",
+          "confidence": 0.757,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Issachar",
+          "type": "group",
+          "preferred_label": "Tribe of Issachar",
+          "confidence": 0.589,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Issachar",
+          "type": "person",
+          "preferred_label": "Issachar",
+          "confidence": 0.58,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4733",
     "reference_id": 3901,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dabbesheth",
     "media_type": "Text",
     "index_reference": "dabbesheth",
@@ -54,13 +84,22 @@
           "end_ref_usfm": "ISA 30:6"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Dabbesheth",
+          "type": "place",
+          "preferred_label": "Dabbesheth",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
+      ]
     }
   },
   {
     "content_id": "4734",
     "reference_id": 3902,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Daberath",
     "media_type": "Text",
     "index_reference": "daberath",
@@ -90,13 +129,43 @@
           "label": "Levitical Cities",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Daberath",
+          "type": "place",
+          "preferred_label": "Daberath",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "place:Kishion",
+          "type": "place",
+          "preferred_label": "Kishion",
+          "confidence": 0.7435,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Issachar",
+          "type": "group",
+          "preferred_label": "Tribe of Issachar",
+          "confidence": 0.535,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Issachar",
+          "type": "person",
+          "preferred_label": "Issachar",
+          "confidence": 0.5125,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4735",
     "reference_id": 3903,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dagger",
     "media_type": "Text",
     "index_reference": "dagger",
@@ -113,13 +182,14 @@
           "label": "Armor and Weapons",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4736",
     "reference_id": 3904,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dagon",
     "media_type": "Text",
     "index_reference": "dagon",
@@ -167,13 +237,43 @@
           "label": "Canaanite Deities and Religion",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "deity:Dagon",
+          "type": "deity",
+          "preferred_label": "Dagon",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "place:Beth-dagon.2",
+          "type": "place",
+          "preferred_label": "Beth-dagon",
+          "confidence": 0.64,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Beth-dagon",
+          "type": "place",
+          "preferred_label": "Beth-dagon",
+          "confidence": 0.64,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "LORD",
+          "confidence": 0.505,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4737",
     "reference_id": 3905,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dalaiah",
     "media_type": "Text",
     "index_reference": "dalaiah",
@@ -197,13 +297,71 @@
           "label": "Delaiah",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Delaiah",
+          "type": "person",
+          "preferred_label": "Delaiah",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Pelaiah.2",
+          "type": "person",
+          "preferred_label": "Pelaiah",
+          "confidence": 0.8695,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hodaviah",
+          "type": "person",
+          "preferred_label": "Hodaviah",
+          "confidence": 0.8695,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Eliashib",
+          "type": "person",
+          "preferred_label": "Eliashib",
+          "confidence": 0.7885,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Anani",
+          "type": "person",
+          "preferred_label": "Anani",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Elioenai",
+          "type": "person",
+          "preferred_label": "Elioenai",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Johanan.6",
+          "type": "person",
+          "preferred_label": "Johanan",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Akkub",
+          "type": "person",
+          "preferred_label": "Akkub",
+          "confidence": 0.6265,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4738",
     "reference_id": 3906,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dalmanutha",
     "media_type": "Text",
     "index_reference": "dalmanutha",
@@ -246,13 +404,22 @@
           "label": "Magdala",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Magadan",
+          "type": "place",
+          "preferred_label": "Magadan",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "4739",
     "reference_id": 3907,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dalmatia",
     "media_type": "Text",
     "index_reference": "dalmatia",
@@ -268,13 +435,71 @@
           "end_ref_usfm": "2TI 4:10"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Dalmatia",
+          "type": "place",
+          "preferred_label": "Dalmatia",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "place:Galatia",
+          "type": "place",
+          "preferred_label": "Galatia",
+          "confidence": 0.76,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Demas",
+          "type": "person",
+          "preferred_label": "Demas",
+          "confidence": 0.757,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Always",
+          "type": "keyterm",
+          "preferred_label": "Always",
+          "confidence": 0.5935,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Ability",
+          "type": "keyterm",
+          "preferred_label": "Ability",
+          "confidence": 0.58,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Thessalonica",
+          "type": "place",
+          "preferred_label": "Thessalonica",
+          "confidence": 0.58,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Crescens",
+          "type": "person",
+          "preferred_label": "Crescens",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Titus",
+          "type": "person",
+          "preferred_label": "Titus",
+          "confidence": 0.5395,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4740",
     "reference_id": 3908,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dalphon",
     "media_type": "Text",
     "index_reference": "dalphon",
@@ -290,13 +515,36 @@
           "end_ref_usfm": "EST 9:7"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Dalphon",
+          "type": "person",
+          "preferred_label": "Dalphon",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Aspatha",
+          "type": "person",
+          "preferred_label": "Aspatha",
+          "confidence": 0.7435,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Parshandatha",
+          "type": "person",
+          "preferred_label": "Parshandatha",
+          "confidence": 0.694,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4741",
     "reference_id": 3909,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Damaris",
     "media_type": "Text",
     "index_reference": "damaris",
@@ -324,13 +572,22 @@
           "end_ref_usfm": "ACT 17:34"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Damaris",
+          "type": "person",
+          "preferred_label": "Damaris",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
+      ]
     }
   },
   {
     "content_id": "4742",
     "reference_id": 3910,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Damascus",
     "media_type": "Text",
     "index_reference": "damascus",
@@ -456,13 +713,22 @@
           "label": "Syria, Syrians",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Damascus",
+          "type": "place",
+          "preferred_label": "Damascus",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "4743",
     "reference_id": 3911,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Damnation",
     "media_type": "Text",
     "index_reference": "damnation",
@@ -486,13 +752,22 @@
           "label": "Judgment",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Hell",
+          "type": "place",
+          "preferred_label": "Hell",
+          "confidence": 0.8362,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "4751",
     "reference_id": 3919,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dan (Person)",
     "media_type": "Text",
     "index_reference": "dan (person)",
@@ -571,13 +846,36 @@
           "label": "Dan, Tribe of",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Dan",
+          "type": "person",
+          "preferred_label": "Dan",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "group:Dan",
+          "type": "group",
+          "preferred_label": "Tribe of Dan",
+          "confidence": 0.65,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Dan",
+          "type": "place",
+          "preferred_label": "Dan",
+          "confidence": 0.65,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4752",
     "reference_id": 3920,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dan (Place)",
     "media_type": "Text",
     "index_reference": "dan (place)",
@@ -675,13 +973,43 @@
           "label": "Uzal (Place)",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Dan",
+          "type": "place",
+          "preferred_label": "Dan",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "place:Vedan",
+          "type": "place",
+          "preferred_label": "Vedan",
+          "confidence": 0.6286,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Dan",
+          "type": "group",
+          "preferred_label": "Tribe of Dan",
+          "confidence": 0.6214,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Mede",
+          "type": "group",
+          "preferred_label": "Medes",
+          "confidence": 0.5161,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4749",
     "reference_id": 3917,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dan-jaan",
     "media_type": "Text",
     "index_reference": "dan-jaan",
@@ -697,13 +1025,57 @@
           "end_ref_usfm": "2SA 24:6"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Ijon",
+          "type": "place",
+          "preferred_label": "Ijon",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "group:Dan",
+          "type": "group",
+          "preferred_label": "Tribe of Dan",
+          "confidence": 0.85,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Dan",
+          "type": "place",
+          "preferred_label": "Dan",
+          "confidence": 0.85,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Kadesh",
+          "type": "place",
+          "preferred_label": "Tahtim-hodshi",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Sidon",
+          "type": "place",
+          "preferred_label": "Sidon",
+          "confidence": 0.625,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Gilead",
+          "type": "place",
+          "preferred_label": "Gilead",
+          "confidence": 0.535,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4753",
     "reference_id": 3921,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dan, Tribe of",
     "media_type": "Text",
     "index_reference": "dan, tribe of",
@@ -963,13 +1335,57 @@
           "label": "History of Israel",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Dan",
+          "type": "person",
+          "preferred_label": "Dan",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "place:Dan",
+          "type": "place",
+          "preferred_label": "Dan",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "group:Dan",
+          "type": "group",
+          "preferred_label": "Tribe of Dan",
+          "confidence": 0.6172,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Reuben",
+          "type": "group",
+          "preferred_label": "Tribe of Reuben",
+          "confidence": 0.5225,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Asher",
+          "type": "group",
+          "preferred_label": "Tribe of Asher",
+          "confidence": 0.5165,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Simeon",
+          "type": "group",
+          "preferred_label": "Tribe of Simeon",
+          "confidence": 0.5134,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4744",
     "reference_id": 3912,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dance",
     "media_type": "Text",
     "index_reference": "dance",
@@ -986,13 +1402,14 @@
           "label": "Music",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "718555",
     "reference_id": 209536,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dandelion",
     "media_type": "Text",
     "index_reference": "dandelion",
@@ -1009,13 +1426,14 @@
           "label": "Bitter Herbs",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4747",
     "reference_id": 3915,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Daniel (Person)",
     "media_type": "Text",
     "index_reference": "daniel (person)",
@@ -1168,13 +1586,36 @@
           "label": "Kileab",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Daniel.2",
+          "type": "person",
+          "preferred_label": "Daniel",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Daniel.3",
+          "type": "person",
+          "preferred_label": "Daniel",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Chileab",
+          "type": "person",
+          "preferred_label": "Chileab",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "4745",
     "reference_id": 3913,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Daniel, Additions to",
     "media_type": "Text",
     "index_reference": "daniel, additions to",
@@ -1250,13 +1691,36 @@
           "end_ref_usfm": "PSA 148:14"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Daniel.2",
+          "type": "person",
+          "preferred_label": "Daniel",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Daniel.3",
+          "type": "person",
+          "preferred_label": "Daniel",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Chileab",
+          "type": "person",
+          "preferred_label": "Chileab",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
+      ]
     }
   },
   {
     "content_id": "4748",
     "reference_id": 3916,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Danite",
     "media_type": "Text",
     "index_reference": "danite",
@@ -1286,13 +1750,29 @@
           "label": "Dan, Tribe of",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Dan",
+          "type": "place",
+          "preferred_label": "Dan",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Dan",
+          "type": "group",
+          "preferred_label": "Tribe of Dan",
+          "confidence": 0.814,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4750",
     "reference_id": 3918,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dannah",
     "media_type": "Text",
     "index_reference": "dannah",
@@ -1308,13 +1788,29 @@
           "end_ref_usfm": "JOS 15:49"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Dannah",
+          "type": "place",
+          "preferred_label": "Dannah",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "place:Debir",
+          "type": "place",
+          "preferred_label": "Debir",
+          "confidence": 0.625,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4754",
     "reference_id": 3922,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Daphne",
     "media_type": "Text",
     "index_reference": "daphne",
@@ -1330,13 +1826,22 @@
           "end_ref_usfm": "2MA 4:33"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Daphne",
+          "type": "place",
+          "preferred_label": "Daphne",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
+      ]
     }
   },
   {
     "content_id": "4755",
     "reference_id": 3923,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dara, Darda",
     "media_type": "Text",
     "index_reference": "dara, darda",
@@ -1364,13 +1869,29 @@
           "end_ref_usfm": "1KI 4:32"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Dara",
+          "type": "person",
+          "preferred_label": "Dara",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Darda",
+          "type": "person",
+          "preferred_label": "Darda",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
+      ]
     }
   },
   {
     "content_id": "4756",
     "reference_id": 3924,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Daric",
     "media_type": "Text",
     "index_reference": "daric",
@@ -1387,13 +1908,22 @@
           "label": "Coins",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Daric",
+          "type": "realia",
+          "preferred_label": "Daric",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "4757",
     "reference_id": 3925,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Darius",
     "media_type": "Text",
     "index_reference": "darius",
@@ -1508,13 +2038,36 @@
           "label": "Persia, Persians",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Darius.2",
+          "type": "person",
+          "preferred_label": "Darius",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Darius.3",
+          "type": "person",
+          "preferred_label": "Darius",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Darius",
+          "type": "person",
+          "preferred_label": "Darius",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "4758",
     "reference_id": 3926,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Darkness",
     "media_type": "Text",
     "index_reference": "darkness",
@@ -2012,13 +2565,14 @@
           "label": "Light",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4759",
     "reference_id": 3927,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Darkon",
     "media_type": "Text",
     "index_reference": "darkon",
@@ -2040,13 +2594,36 @@
           "end_ref_usfm": "NEH 7:58"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Darkon",
+          "type": "person",
+          "preferred_label": "Darkon",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Jaalah",
+          "type": "person",
+          "preferred_label": "Jaalah",
+          "confidence": 0.631,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Giddel.2",
+          "type": "person",
+          "preferred_label": "Giddel",
+          "confidence": 0.6265,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "718556",
     "reference_id": 209537,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Darnel Grass",
     "media_type": "Text",
     "index_reference": "darnel grass",
@@ -2055,13 +2632,14 @@
     "content": "<h1>Darnel Grass</h1><p>A grass that looks very similar to wheat or rye. Scholars generally agree that the &quot;weeds&quot; mentioned in <a href=\"https://ref.ly/Matt13:24-Matt13:30\">Matthew 13:24–30</a> are the annual or bearded darnel grass (<em>Lolium temulentum</em>). The seeds of darnel are much smaller than wheat or rye seeds, but it is extremely difficult to tell darnel apart from wheat or rye when the plants are young.</p><p>If darnel is not removed early but is left until harvest time, it gets cut down with the wheat. After cutting, the two plants are very difficult to separate. The seeds of darnel grass are poisonous, either because of natural chemicals they contain or because of a fungus that grows inside the seeds.</p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "4760",
     "reference_id": 3928,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dart",
     "media_type": "Text",
     "index_reference": "dart",
@@ -2078,13 +2656,14 @@
           "label": "Armor and Weapons",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4761",
     "reference_id": 3929,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Date, Date Palm",
     "media_type": "Text",
     "index_reference": "date, date palm",
@@ -2120,13 +2699,29 @@
           "label": "Palm, Date Palm",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "flora:DatePalm",
+          "type": "flora",
+          "preferred_label": "Date Palm",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "flora:Vine",
+          "type": "flora",
+          "preferred_label": "Vine",
+          "confidence": 0.58,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4762",
     "reference_id": 3930,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dathan",
     "media_type": "Text",
     "index_reference": "dathan",
@@ -2154,13 +2749,22 @@
           "end_ref_usfm": "NUM 16:27"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Dathan",
+          "type": "person",
+          "preferred_label": "Dathan",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
+      ]
     }
   },
   {
     "content_id": "4763",
     "reference_id": 3931,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dathema",
     "media_type": "Text",
     "index_reference": "dathema",
@@ -2182,13 +2786,14 @@
           "end_ref_usfm": "1MA 5:29"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "4765",
     "reference_id": 3933,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Daughter",
     "media_type": "Text",
     "index_reference": "daughter",
@@ -2205,13 +2810,22 @@
           "label": "Family Life and Relations",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:GenericDaughter",
+          "type": "person",
+          "preferred_label": "A Daughter",
+          "confidence": 0.8806,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "4764",
     "reference_id": 3932,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Daughter-in-Law",
     "media_type": "Text",
     "index_reference": "daughter-in-law",
@@ -2228,13 +2842,14 @@
           "label": "Family Life and Relations",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4769",
     "reference_id": 3937,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "David",
     "media_type": "Text",
     "index_reference": "david",
@@ -2809,13 +3424,36 @@
           "label": "History of Israel",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Judah.4",
+          "type": "person",
+          "preferred_label": "Judah",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:David",
+          "type": "person",
+          "preferred_label": "David",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "place:CityOfDavid",
+          "type": "place",
+          "preferred_label": "City of David",
+          "confidence": 0.6,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4766",
     "reference_id": 3934,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "David, City of",
     "media_type": "Text",
     "index_reference": "david, city of",
@@ -2907,13 +3545,43 @@
           "label": "Zion",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Judah.4",
+          "type": "person",
+          "preferred_label": "Judah",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:David",
+          "type": "person",
+          "preferred_label": "David",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "place:CityOfDavid",
+          "type": "place",
+          "preferred_label": "City of David",
+          "confidence": 0.6,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Jerusalem",
+          "type": "place",
+          "preferred_label": "Jerusalem",
+          "confidence": 0.526,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4767",
     "reference_id": 3935,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "David, Root of",
     "media_type": "Text",
     "index_reference": "david, root of",
@@ -2949,13 +3617,29 @@
           "label": "Jesse, Root of",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Judah.4",
+          "type": "person",
+          "preferred_label": "Judah",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:David",
+          "type": "person",
+          "preferred_label": "David",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "4768",
     "reference_id": 3936,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "David, Tower of",
     "media_type": "Text",
     "index_reference": "david, tower of",
@@ -2979,13 +3663,43 @@
           "label": "Jerusalem",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Judah.4",
+          "type": "person",
+          "preferred_label": "Judah",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:David",
+          "type": "person",
+          "preferred_label": "David",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "realia:Tower",
+          "type": "realia",
+          "preferred_label": "Tower",
+          "confidence": 0.85,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:SmallShield",
+          "type": "realia",
+          "preferred_label": "Small Shield",
+          "confidence": 0.5035,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4775",
     "reference_id": 3943,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Day",
     "media_type": "Text",
     "index_reference": "day",
@@ -3317,13 +4031,22 @@
           "label": "Eschatology",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Sabbath",
+          "type": "keyterm",
+          "preferred_label": "Sabbath",
+          "confidence": 0.6267,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "3866",
     "reference_id": 3034,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Day of Atonement",
     "media_type": "Text",
     "index_reference": "day of atonement",
@@ -3426,13 +4149,22 @@
           "label": "Offerings and Sacrifices",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Atonement",
+          "type": "keyterm",
+          "preferred_label": "Atonement",
+          "confidence": 0.6328,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4770",
     "reference_id": 3938,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Day of Atonement",
     "media_type": "Text",
     "index_reference": "day of atonement",
@@ -3449,13 +4181,14 @@
           "label": "Day of Atonement",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4771",
     "reference_id": 3939,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Day of Christ",
     "media_type": "Text",
     "index_reference": "day of christ",
@@ -3485,13 +4218,22 @@
           "label": "Day of the Lord",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Jesus.2",
+          "type": "person",
+          "preferred_label": "Jesus",
+          "confidence": 0.85,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4772",
     "reference_id": 3940,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Day of the Lord",
     "media_type": "Text",
     "index_reference": "day of the lord",
@@ -3709,13 +4451,22 @@
           "label": "Last Judgment",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "LORD",
+          "confidence": 0.5919,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4773",
     "reference_id": 3941,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Day’s Journey",
     "media_type": "Text",
     "index_reference": "day’s journey",
@@ -3763,13 +4514,22 @@
           "label": "Sabbath Day’s Journey",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:HalfAMile",
+          "type": "realia",
+          "preferred_label": "Half a Mile",
+          "confidence": 0.545,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4774",
     "reference_id": 3942,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dayspring, Day Star",
     "media_type": "Text",
     "index_reference": "dayspring, day star",
@@ -3811,13 +4571,22 @@
           "label": "Morning Star",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "deity:Lucifer",
+          "type": "deity",
+          "preferred_label": "Lucifer",
+          "confidence": 0.7,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4776",
     "reference_id": 3944,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Deacon, Deaconess",
     "media_type": "Text",
     "index_reference": "deacon, deaconess",
@@ -4114,13 +4883,14 @@
           "label": "Presbyter",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4779",
     "reference_id": 3947,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dead Sea",
     "media_type": "Text",
     "index_reference": "dead sea",
@@ -4232,13 +5002,22 @@
           "end_ref_usfm": "1SA 24:29"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:SaltSea",
+          "type": "place",
+          "preferred_label": "Dead Sea",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
+      ]
     }
   },
   {
     "content_id": "4778",
     "reference_id": 3946,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dead Sea Scrolls",
     "media_type": "Text",
     "index_reference": "dead sea scrolls",
@@ -4262,13 +5041,14 @@
           "label": "Qumran",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4780",
     "reference_id": 3948,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Deaf, Deafness",
     "media_type": "Text",
     "index_reference": "deaf, deafness",
@@ -4352,13 +5132,14 @@
           "label": "Medicine and Medical Practice",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4783",
     "reference_id": 3951,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Death",
     "media_type": "Text",
     "index_reference": "death",
@@ -4798,13 +5579,14 @@
           "label": "Wrath of God",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4781",
     "reference_id": 3949,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Death of Christ",
     "media_type": "Text",
     "index_reference": "death of christ",
@@ -4828,13 +5610,14 @@
           "label": "Jesus Christ, Teachings of",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4782",
     "reference_id": 3950,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Death, the Second",
     "media_type": "Text",
     "index_reference": "death, the second",
@@ -4897,13 +5680,22 @@
           "label": "Last Judgment",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:WorldOfTheDead",
+          "type": "keyterm",
+          "preferred_label": "World of the Dead",
+          "confidence": 0.5245,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4784",
     "reference_id": 3952,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Debir (Person)",
     "media_type": "Text",
     "index_reference": "debir (person)",
@@ -4919,13 +5711,22 @@
           "end_ref_usfm": "JOS 10:27"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Debir",
+          "type": "person",
+          "preferred_label": "Debir",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
+      ]
     }
   },
   {
     "content_id": "4785",
     "reference_id": 3953,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Debir (Place)",
     "media_type": "Text",
     "index_reference": "debir (place)",
@@ -5007,13 +5808,36 @@
           "end_ref_usfm": "JOS 15:17"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Debir.2",
+          "type": "place",
+          "preferred_label": "Debir",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "place:Debir",
+          "type": "place",
+          "preferred_label": "Debir",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "place:Lo-debar",
+          "type": "place",
+          "preferred_label": "Lo-debar",
+          "confidence": 0.7176,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4787",
     "reference_id": 3955,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Deborah",
     "media_type": "Text",
     "index_reference": "deborah",
@@ -5159,13 +5983,29 @@
           "label": "Judges, Book of",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Deborah.2",
+          "type": "person",
+          "preferred_label": "Deborah",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Deborah",
+          "type": "person",
+          "preferred_label": "Deborah",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "4788",
     "reference_id": 3956,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Debt",
     "media_type": "Text",
     "index_reference": "debt",
@@ -5454,13 +6294,22 @@
           "label": "Money",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Debt",
+          "type": "keyterm",
+          "preferred_label": "Debt",
+          "confidence": 1.0,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "4789",
     "reference_id": 3957,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Decalogue",
     "media_type": "Text",
     "index_reference": "decalogue",
@@ -5477,13 +6326,14 @@
           "label": "Commandments, the Ten",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4790",
     "reference_id": 3958,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Decapolis",
     "media_type": "Text",
     "index_reference": "decapolis",
@@ -5505,13 +6355,29 @@
           "end_ref_usfm": "MRK 7:31"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Decapolis",
+          "type": "place",
+          "preferred_label": "Decapolis",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "place:Sidon",
+          "type": "place",
+          "preferred_label": "Sidon",
+          "confidence": 0.548,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4792",
     "reference_id": 3960,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Decrees of God",
     "media_type": "Text",
     "index_reference": "decrees of god",
@@ -5528,13 +6394,14 @@
           "label": "Foreordination",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4793",
     "reference_id": 3961,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dedan (Person)",
     "media_type": "Text",
     "index_reference": "dedan (person)",
@@ -5562,13 +6429,64 @@
           "end_ref_usfm": "1CH 1:9"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Dedan.2",
+          "type": "person",
+          "preferred_label": "Dedan",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Dedan",
+          "type": "person",
+          "preferred_label": "Dedan",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Sheba",
+          "type": "person",
+          "preferred_label": "Sheba",
+          "confidence": 0.6642,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Seba",
+          "type": "person",
+          "preferred_label": "Seba",
+          "confidence": 0.6147,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Sabteca",
+          "type": "person",
+          "preferred_label": "Sabteca",
+          "confidence": 0.5652,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Raamah",
+          "type": "person",
+          "preferred_label": "Raamah",
+          "confidence": 0.5067,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Sabtah",
+          "type": "person",
+          "preferred_label": "Sabtah",
+          "confidence": 0.5067,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4794",
     "reference_id": 3962,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dedan (Place)",
     "media_type": "Text",
     "index_reference": "dedan (place)",
@@ -5614,13 +6532,29 @@
           "end_ref_usfm": "EZK 38:13"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Dedan",
+          "type": "place",
+          "preferred_label": "Dedan",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "group:Dedan",
+          "type": "group",
+          "preferred_label": "Dedanites",
+          "confidence": 0.6667,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4795",
     "reference_id": 3963,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dedication, Feast of",
     "media_type": "Text",
     "index_reference": "dedication, feast of",
@@ -5644,13 +6578,22 @@
           "label": "Feasts and Festivals of Israel",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Jerusalem",
+          "type": "place",
+          "preferred_label": "Jerusalem",
+          "confidence": 0.607,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4796",
     "reference_id": 3964,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Deer",
     "media_type": "Text",
     "index_reference": "deer",
@@ -5667,13 +6610,22 @@
           "label": "Animals",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Deer",
+          "type": "fauna",
+          "preferred_label": "Deer",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "4797",
     "reference_id": 3965,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Defile",
     "media_type": "Text",
     "index_reference": "defile",
@@ -5690,13 +6642,22 @@
           "label": "Cleanness and Uncleanness, Regulations Concerning",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Stain",
+          "type": "keyterm",
+          "preferred_label": "Defile",
+          "confidence": 1.0,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "4798",
     "reference_id": 3966,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Deformity",
     "media_type": "Text",
     "index_reference": "deformity",
@@ -5775,13 +6736,22 @@
           "label": "Medicine and Medical Practice",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Defection",
+          "type": "keyterm",
+          "preferred_label": "Defection",
+          "confidence": 0.8535,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "4799",
     "reference_id": 3967,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Degrees, Song of",
     "media_type": "Text",
     "index_reference": "degrees, song of",
@@ -5805,13 +6775,14 @@
           "label": "Song of Ascents, Song of Degrees",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4800",
     "reference_id": 3968,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dehavites",
     "media_type": "Text",
     "index_reference": "dehavites",
@@ -5827,13 +6798,92 @@
           "end_ref_usfm": "EZR 4:9"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Erech",
+          "type": "place",
+          "preferred_label": "Erech",
+          "confidence": 0.8515,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Dinaite",
+          "type": "person",
+          "preferred_label": "Dinaite",
+          "confidence": 0.829,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Elam",
+          "type": "group",
+          "preferred_label": "Elamites",
+          "confidence": 0.7195,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Elam",
+          "type": "place",
+          "preferred_label": "Elam",
+          "confidence": 0.7195,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shimshai",
+          "type": "person",
+          "preferred_label": "Shimshai",
+          "confidence": 0.7075,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Babylon",
+          "type": "group",
+          "preferred_label": "Babylonians",
+          "confidence": 0.685,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Persia",
+          "type": "place",
+          "preferred_label": "Persia",
+          "confidence": 0.6835,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rehum.2",
+          "type": "person",
+          "preferred_label": "Rehum",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Susa",
+          "type": "place",
+          "preferred_label": "Susa",
+          "confidence": 0.625,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Babylon",
+          "type": "place",
+          "preferred_label": "Babylon",
+          "confidence": 0.598,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Persia",
+          "type": "group",
+          "preferred_label": "Persians",
+          "confidence": 0.5575,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4801",
     "reference_id": 3969,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dekar",
     "media_type": "Text",
     "index_reference": "dekar",
@@ -5857,13 +6907,57 @@
           "label": "Ben-Deker",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Ben-deker",
+          "type": "person",
+          "preferred_label": "Ben-deker",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Deker",
+          "type": "person",
+          "preferred_label": "Deker",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Makaz",
+          "type": "place",
+          "preferred_label": "Makaz",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Elonbeth-hanan",
+          "type": "place",
+          "preferred_label": "Elon-beth-hanan",
+          "confidence": 0.64,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Shaalbim",
+          "type": "place",
+          "preferred_label": "Shaalbim",
+          "confidence": 0.6175,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Beth-shemesh",
+          "type": "place",
+          "preferred_label": "Beth-shemesh",
+          "confidence": 0.5125,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4802",
     "reference_id": 3970,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Delaiah",
     "media_type": "Text",
     "index_reference": "delaiah",
@@ -5915,13 +7009,106 @@
           "end_ref_usfm": "JER 36:25"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Delaiah.2",
+          "type": "person",
+          "preferred_label": "Delaiah",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Delaiah.3",
+          "type": "person",
+          "preferred_label": "Delaiah",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Delaiah.4",
+          "type": "person",
+          "preferred_label": "Delaiah",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Delaiah.5",
+          "type": "person",
+          "preferred_label": "Delaiah",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Delaiah",
+          "type": "person",
+          "preferred_label": "Delaiah",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Pelaiah.2",
+          "type": "person",
+          "preferred_label": "Pelaiah",
+          "confidence": 0.5941,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Gemariah.2",
+          "type": "person",
+          "preferred_label": "Gemariah",
+          "confidence": 0.5658,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hodaviah",
+          "type": "person",
+          "preferred_label": "Hodaviah",
+          "confidence": 0.5266,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shemaiah.19",
+          "type": "person",
+          "preferred_label": "Shemaiah",
+          "confidence": 0.5086,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Zedekiah.7",
+          "type": "person",
+          "preferred_label": "Zedekiah",
+          "confidence": 0.5086,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shemaiah.26",
+          "type": "person",
+          "preferred_label": "Shemaiah",
+          "confidence": 0.5086,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Eliashib",
+          "type": "person",
+          "preferred_label": "Eliashib",
+          "confidence": 0.5086,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Elnathan.5",
+          "type": "person",
+          "preferred_label": "Elnathan",
+          "confidence": 0.5028,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4803",
     "reference_id": 3971,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Delilah",
     "media_type": "Text",
     "index_reference": "delilah",
@@ -5963,13 +7150,22 @@
           "label": "Samson",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Delilah",
+          "type": "person",
+          "preferred_label": "Delilah",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "4804",
     "reference_id": 3972,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Deliverance, Deliverer",
     "media_type": "Text",
     "index_reference": "deliverance, deliverer",
@@ -6084,13 +7280,14 @@
           "label": "Redeemer, Redemption",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4805",
     "reference_id": 3973,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Deluge, the",
     "media_type": "Text",
     "index_reference": "deluge, the",
@@ -6107,13 +7304,14 @@
           "label": "Flood, the",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4806",
     "reference_id": 3974,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Demas",
     "media_type": "Text",
     "index_reference": "demas",
@@ -6141,13 +7339,29 @@
           "end_ref_usfm": "PHM 1:24"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Demas",
+          "type": "person",
+          "preferred_label": "Demas",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Luke",
+          "type": "person",
+          "preferred_label": "Luke",
+          "confidence": 0.5967,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4807",
     "reference_id": 3975,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Demetrius",
     "media_type": "Text",
     "index_reference": "demetrius",
@@ -6225,13 +7439,22 @@
           "label": "John, Letters of",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Demetrius",
+          "type": "person",
+          "preferred_label": "Demetrius",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "4809",
     "reference_id": 3977,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Demon",
     "media_type": "Text",
     "index_reference": "demon",
@@ -6471,13 +7694,29 @@
           "label": "Demon-Possession",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Demonic",
+          "type": "keyterm",
+          "preferred_label": "Demonic",
+          "confidence": 0.8855,
+          "match_method": "embedding"
+        },
+        {
+          "id": "deity:Demons",
+          "type": "deity",
+          "preferred_label": "Demons",
+          "confidence": 0.8787,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "4808",
     "reference_id": 3976,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Demon-Possession",
     "media_type": "Text",
     "index_reference": "demon-possession",
@@ -6729,13 +7968,14 @@
           "label": "Demon",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4810",
     "reference_id": 3978,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Demophon",
     "media_type": "Text",
     "index_reference": "demophon",
@@ -6751,13 +7991,14 @@
           "end_ref_usfm": "2MA 12:2"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "4811",
     "reference_id": 3979,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Denarius",
     "media_type": "Text",
     "index_reference": "denarius",
@@ -6781,13 +8022,22 @@
           "label": "Money",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Denarius",
+          "type": "realia",
+          "preferred_label": "Denarius",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "4812",
     "reference_id": 3980,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Deputy",
     "media_type": "Text",
     "index_reference": "deputy",
@@ -6842,13 +8092,14 @@
           "label": "Proconsul",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4813",
     "reference_id": 3981,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Derbe",
     "media_type": "Text",
     "index_reference": "derbe",
@@ -6888,13 +8139,22 @@
           "end_ref_usfm": "ACT 20:4"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Derbe",
+          "type": "place",
+          "preferred_label": "Derbe",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
+      ]
     }
   },
   {
     "content_id": "4814",
     "reference_id": 3982,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Descent into Hell",
     "media_type": "Text",
     "index_reference": "descent into hell",
@@ -6982,13 +8242,22 @@
           "end_ref_usfm": "HEB 3:15"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "keyterm:Gehenna",
+          "type": "keyterm",
+          "preferred_label": "Gehenna",
+          "confidence": 0.6094,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4816",
     "reference_id": 3984,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Desert",
     "media_type": "Text",
     "index_reference": "desert",
@@ -7428,13 +8697,22 @@
           "label": "Wilderness",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:MoabPlains",
+          "type": "place",
+          "preferred_label": "Plains of Moab",
+          "confidence": 0.6129,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4815",
     "reference_id": 3983,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Desert of Sin",
     "media_type": "Text",
     "index_reference": "desert of sin",
@@ -7451,13 +8729,22 @@
           "label": "Wilderness of Sin",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Sin",
+          "type": "place",
+          "preferred_label": "Wilderness of Sin",
+          "confidence": 0.9298,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "4817",
     "reference_id": 3985,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Desire",
     "media_type": "Text",
     "index_reference": "desire",
@@ -7521,13 +8808,14 @@
           "end_ref_usfm": "JHN 2:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "4818",
     "reference_id": 3986,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dessau",
     "media_type": "Text",
     "index_reference": "dessau",
@@ -7543,13 +8831,14 @@
           "end_ref_usfm": "2MA 14:16"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "4819",
     "reference_id": 3987,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Destiny",
     "media_type": "Text",
     "index_reference": "destiny",
@@ -7598,13 +8887,22 @@
           "label": "Foreordination",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "deity:Destiny",
+          "type": "deity",
+          "preferred_label": "Destiny",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "4822",
     "reference_id": 3990,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Deuel",
     "media_type": "Text",
     "index_reference": "deuel",
@@ -7644,13 +8942,29 @@
           "end_ref_usfm": "NUM 10:20"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Deuel",
+          "type": "person",
+          "preferred_label": "Deuel",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Eliasaph",
+          "type": "person",
+          "preferred_label": "Eliasaph",
+          "confidence": 0.6895,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4823",
     "reference_id": 3991,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Deutero-Isaiah",
     "media_type": "Text",
     "index_reference": "deutero-isaiah",
@@ -7667,13 +8981,14 @@
           "label": "Isaiah, Book of",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4824",
     "reference_id": 3992,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Deuteronomy, Book of",
     "media_type": "Text",
     "index_reference": "deuteronomy, book of",
@@ -8112,13 +9427,14 @@
           "label": "Moses",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4825",
     "reference_id": 3993,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Devil, the",
     "media_type": "Text",
     "index_reference": "devil, the",
@@ -8135,13 +9451,14 @@
           "label": "Satan",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4826",
     "reference_id": 3994,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Devoted Things",
     "media_type": "Text",
     "index_reference": "devoted things",
@@ -8171,13 +9488,29 @@
           "label": "Curse, Cursed",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:SomethingDevotedToGod",
+          "type": "keyterm",
+          "preferred_label": "Something Devoted to God",
+          "confidence": 0.832,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Proscribe",
+          "type": "keyterm",
+          "preferred_label": "Set Apart for God",
+          "confidence": 0.7182,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4827",
     "reference_id": 3995,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dew",
     "media_type": "Text",
     "index_reference": "dew",
@@ -8265,13 +9598,14 @@
           "end_ref_usfm": "EXO 16:21"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "4872",
     "reference_id": 4040,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Di-Zahab",
     "media_type": "Text",
     "index_reference": "di-zahab",
@@ -8287,13 +9621,85 @@
           "end_ref_usfm": "DEU 1:1"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Dizahab",
+          "type": "place",
+          "preferred_label": "Dizahab",
+          "confidence": 0.9685,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Suph",
+          "type": "place",
+          "preferred_label": "Suph",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Laban",
+          "type": "place",
+          "preferred_label": "Laban",
+          "confidence": 0.6895,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Hazeroth",
+          "type": "place",
+          "preferred_label": "Hazeroth",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Tophel",
+          "type": "place",
+          "preferred_label": "Tophel",
+          "confidence": 0.613,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Arabah",
+          "type": "place",
+          "preferred_label": "Arabah",
+          "confidence": 0.5935,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Paran",
+          "type": "place",
+          "preferred_label": "Paran",
+          "confidence": 0.5575,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Israel",
+          "type": "person",
+          "preferred_label": "Israel",
+          "confidence": 0.5395,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Jordan",
+          "type": "place",
+          "preferred_label": "Jordan River",
+          "confidence": 0.5305,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Moses",
+          "type": "person",
+          "preferred_label": "Moses",
+          "confidence": 0.5125,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4828",
     "reference_id": 3996,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Diadem",
     "media_type": "Text",
     "index_reference": "diadem",
@@ -8310,13 +9716,14 @@
           "label": "Crown",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "833306",
     "reference_id": 213084,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dialogue of the Redeemer",
     "media_type": "Text",
     "index_reference": "dialogue of the redeemer",
@@ -8325,13 +9732,14 @@
     "content": "<h1>DIALOGUE OF THE REDEEMER</h1><p>This Christian Gnostic document is also called the Dialogue of the Savior. The document was found in the ancient Nag Hammadi Library at the modern city of Nag Hammadi (Upper Egypt) in 1946. </p><p>The Dialogue is a fictitious account of a conversation between Jesus and some of his disciples. In it, they discuss questions about the universe, humanity, the end times, and salvation. The manuscript is in poor condition. Its author and origin are unknown. It was probably written in Egypt during the second or third century AD.</p><p><em>See also</em> <span data-bnType=\"resourceReference\" data-resourceId=\"2831\" data-resourceType=\"TyndaleBibleDictionary\">Apocrypha</span>.</p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "4829",
     "reference_id": 3997,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Diamond",
     "media_type": "Text",
     "index_reference": "diamond",
@@ -8348,13 +9756,14 @@
           "label": "Stones, Precious",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4830",
     "reference_id": 3998,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Diana",
     "media_type": "Text",
     "index_reference": "diana",
@@ -8388,13 +9797,22 @@
           "end_ref_usfm": "ACT 20:1"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "deity:Artemis",
+          "type": "deity",
+          "preferred_label": "Artemis",
+          "confidence": 0.7,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4831",
     "reference_id": 3999,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Diaspora of the Jews",
     "media_type": "Text",
     "index_reference": "diaspora of the jews",
@@ -8659,13 +10077,22 @@
           "label": "Postexilic Period",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Jerusalem",
+          "type": "place",
+          "preferred_label": "Jerusalem",
+          "confidence": 0.5021,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4832",
     "reference_id": 4000,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Diblah",
     "media_type": "Text",
     "index_reference": "diblah",
@@ -8695,13 +10122,22 @@
           "label": "Riblah",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Riblah.2",
+          "type": "place",
+          "preferred_label": "Riblah",
+          "confidence": 0.7,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4833",
     "reference_id": 4001,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Diblaim",
     "media_type": "Text",
     "index_reference": "diblaim",
@@ -8717,13 +10153,29 @@
           "end_ref_usfm": "HOS 1:3"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Diblaim",
+          "type": "person",
+          "preferred_label": "Diblaim",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Gomer.2",
+          "type": "person",
+          "preferred_label": "Gomer",
+          "confidence": 0.6265,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4834",
     "reference_id": 4002,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Diblath",
     "media_type": "Text",
     "index_reference": "diblath",
@@ -8753,13 +10205,22 @@
           "label": "Riblah",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Riblah.2",
+          "type": "place",
+          "preferred_label": "Riblah",
+          "confidence": 0.7,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4836",
     "reference_id": 4004,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dibon",
     "media_type": "Text",
     "index_reference": "dibon",
@@ -8841,13 +10302,36 @@
           "end_ref_usfm": "JDG 3:30"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Dibon.2",
+          "type": "place",
+          "preferred_label": "Dibon",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "place:Dibon",
+          "type": "place",
+          "preferred_label": "Dibon",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "place:Dibon.3",
+          "type": "place",
+          "preferred_label": "Dimon",
+          "confidence": 0.6129,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4835",
     "reference_id": 4003,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dibon-Gad",
     "media_type": "Text",
     "index_reference": "dibon-gad",
@@ -8871,13 +10355,22 @@
           "label": "Dibon",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Dibon",
+          "type": "place",
+          "preferred_label": "Dibon",
+          "confidence": 0.85,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4837",
     "reference_id": 4005,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dibri",
     "media_type": "Text",
     "index_reference": "dibri",
@@ -8893,13 +10386,36 @@
           "end_ref_usfm": "LEV 24:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Dibri",
+          "type": "person",
+          "preferred_label": "Dibri",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Israel",
+          "type": "person",
+          "preferred_label": "Israel",
+          "confidence": 0.5935,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Israel",
+          "type": "group",
+          "preferred_label": "Israelites",
+          "confidence": 0.58,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4838",
     "reference_id": 4006,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Didache (Teaching)",
     "media_type": "Text",
     "index_reference": "didache (teaching)",
@@ -8921,13 +10437,14 @@
           "end_ref_usfm": "1CO 10:16"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "4839",
     "reference_id": 4007,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Didrachma",
     "media_type": "Text",
     "index_reference": "didrachma",
@@ -8951,13 +10468,36 @@
           "label": "Coins",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Two-drachmaPiece",
+          "type": "realia",
+          "preferred_label": "Two-Drachma Piece",
+          "confidence": 0.793,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Peter",
+          "type": "person",
+          "preferred_label": "Peter",
+          "confidence": 0.58,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Capernaum",
+          "type": "place",
+          "preferred_label": "Capernaum",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4840",
     "reference_id": 4008,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Didymus",
     "media_type": "Text",
     "index_reference": "didymus",
@@ -8993,13 +10533,22 @@
           "label": "Thomas, the Apostle",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Thomas",
+          "type": "person",
+          "preferred_label": "Thomas",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "4841",
     "reference_id": 4009,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dietary Laws",
     "media_type": "Text",
     "index_reference": "dietary laws",
@@ -9366,13 +10915,14 @@
           "label": "Leviticus, Book of",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4842",
     "reference_id": 4010,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Diklah",
     "media_type": "Text",
     "index_reference": "diklah",
@@ -9394,13 +10944,36 @@
           "end_ref_usfm": "1CH 1:21"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Diklah",
+          "type": "person",
+          "preferred_label": "Diklah",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Hadoram.2",
+          "type": "person",
+          "preferred_label": "Hadoram",
+          "confidence": 0.6895,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uzal",
+          "type": "person",
+          "preferred_label": "Uzal",
+          "confidence": 0.64,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4843",
     "reference_id": 4011,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dilean",
     "media_type": "Text",
     "index_reference": "dilean",
@@ -9416,13 +10989,36 @@
           "end_ref_usfm": "JOS 15:38"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Dilean",
+          "type": "place",
+          "preferred_label": "Dilan",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Mizpeh.3",
+          "type": "place",
+          "preferred_label": "Mizpeh",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Joktheel",
+          "type": "place",
+          "preferred_label": "Joktheel",
+          "confidence": 0.6715,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4844",
     "reference_id": 4012,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dill",
     "media_type": "Text",
     "index_reference": "dill",
@@ -9439,13 +11035,22 @@
           "label": "Plants",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "flora:Dill",
+          "type": "flora",
+          "preferred_label": "Dill",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "4845",
     "reference_id": 4013,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dimnah",
     "media_type": "Text",
     "index_reference": "dimnah",
@@ -9469,13 +11074,29 @@
           "label": "Rimmon (Place)",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Dimnah",
+          "type": "place",
+          "preferred_label": "Dimnah",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "place:Nahalal",
+          "type": "place",
+          "preferred_label": "Nahalal",
+          "confidence": 0.757,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4847",
     "reference_id": 4015,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dimon",
     "media_type": "Text",
     "index_reference": "dimon",
@@ -9499,13 +11120,43 @@
           "label": "Dibon",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Dibon.3",
+          "type": "place",
+          "preferred_label": "Dimon",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "place:Dibon",
+          "type": "place",
+          "preferred_label": "Dibon",
+          "confidence": 0.76,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Lion",
+          "type": "fauna",
+          "preferred_label": "Lion",
+          "confidence": 0.7015,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Moab",
+          "type": "place",
+          "preferred_label": "Moab",
+          "confidence": 0.598,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4846",
     "reference_id": 4014,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dimonah",
     "media_type": "Text",
     "index_reference": "dimonah",
@@ -9527,13 +11178,43 @@
           "end_ref_usfm": "NEH 11:25"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Dimonah",
+          "type": "place",
+          "preferred_label": "Dimonah",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "place:Kinah",
+          "type": "place",
+          "preferred_label": "Kinah",
+          "confidence": 0.6515,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Dibon.2",
+          "type": "place",
+          "preferred_label": "Dibon",
+          "confidence": 0.6515,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Adadah",
+          "type": "place",
+          "preferred_label": "Adadah",
+          "confidence": 0.557,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4848",
     "reference_id": 4016,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dinah",
     "media_type": "Text",
     "index_reference": "dinah",
@@ -9573,13 +11254,22 @@
           "end_ref_usfm": "GEN 34:31"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Dinah",
+          "type": "person",
+          "preferred_label": "Dinah",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
+      ]
     }
   },
   {
     "content_id": "4849",
     "reference_id": 4017,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dinaites",
     "media_type": "Text",
     "index_reference": "dinaites",
@@ -9595,13 +11285,92 @@
           "end_ref_usfm": "EZR 4:9"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Dinaite",
+          "type": "person",
+          "preferred_label": "Dinaite",
+          "confidence": 0.9685,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Erech",
+          "type": "place",
+          "preferred_label": "Erech",
+          "confidence": 0.802,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shimshai",
+          "type": "person",
+          "preferred_label": "Shimshai",
+          "confidence": 0.721,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Babylon",
+          "type": "group",
+          "preferred_label": "Babylonians",
+          "confidence": 0.694,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Elam",
+          "type": "group",
+          "preferred_label": "Elamites",
+          "confidence": 0.679,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Elam",
+          "type": "place",
+          "preferred_label": "Elam",
+          "confidence": 0.679,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Persia",
+          "type": "place",
+          "preferred_label": "Persia",
+          "confidence": 0.652,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Susa",
+          "type": "place",
+          "preferred_label": "Susa",
+          "confidence": 0.6385,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Rehum.2",
+          "type": "person",
+          "preferred_label": "Rehum",
+          "confidence": 0.6175,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Persia",
+          "type": "group",
+          "preferred_label": "Persians",
+          "confidence": 0.571,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Babylon",
+          "type": "place",
+          "preferred_label": "Babylon",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4850",
     "reference_id": 4018,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dinhabah",
     "media_type": "Text",
     "index_reference": "dinhabah",
@@ -9623,13 +11392,43 @@
           "end_ref_usfm": "1CH 1:43"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Dinhabah",
+          "type": "place",
+          "preferred_label": "Dinhabah",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Bela.2",
+          "type": "person",
+          "preferred_label": "Bela",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Beor",
+          "type": "person",
+          "preferred_label": "Beor",
+          "confidence": 0.6265,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Edom",
+          "type": "place",
+          "preferred_label": "Edom",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "787499",
     "reference_id": 212869,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Diocletian",
     "media_type": "Text",
     "index_reference": "diocletian",
@@ -9646,13 +11445,14 @@
           "label": "The Caesars",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4852",
     "reference_id": 4020,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dion",
     "media_type": "Text",
     "index_reference": "dion",
@@ -9669,13 +11469,22 @@
           "label": "Decapolis",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Dion",
+          "type": "place",
+          "preferred_label": "Dion",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "4851",
     "reference_id": 4019,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dionysius",
     "media_type": "Text",
     "index_reference": "dionysius",
@@ -9691,13 +11500,57 @@
           "end_ref_usfm": "ACT 17:34"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Dionysius",
+          "type": "person",
+          "preferred_label": "Dionysius",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Damaris",
+          "type": "person",
+          "preferred_label": "Damaris",
+          "confidence": 0.721,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Areopagus",
+          "type": "group",
+          "preferred_label": "Areopagites",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Believe",
+          "type": "keyterm",
+          "preferred_label": "Believe",
+          "confidence": 0.571,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Areopagus",
+          "type": "place",
+          "preferred_label": "Areopagus",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Name",
+          "type": "keyterm",
+          "preferred_label": "Name",
+          "confidence": 0.5215,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4853",
     "reference_id": 4021,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dioscorinthius",
     "media_type": "Text",
     "index_reference": "dioscorinthius",
@@ -9713,13 +11566,14 @@
           "end_ref_usfm": "2MA 11:21"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "4854",
     "reference_id": 4022,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dioscuri",
     "media_type": "Text",
     "index_reference": "dioscuri",
@@ -9735,13 +11589,36 @@
           "end_ref_usfm": "ACT 28:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Alexandria",
+          "type": "place",
+          "preferred_label": "Alexandria",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:Emblem",
+          "type": "realia",
+          "preferred_label": "Emblem",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:Ship",
+          "type": "realia",
+          "preferred_label": "Ship",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4855",
     "reference_id": 4023,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Diotrephes",
     "media_type": "Text",
     "index_reference": "diotrephes",
@@ -9757,13 +11634,29 @@
           "end_ref_usfm": "3JN 1:10"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Diotrephes",
+          "type": "person",
+          "preferred_label": "Diotrephes",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "keyterm:Church",
+          "type": "keyterm",
+          "preferred_label": "Church",
+          "confidence": 0.5215,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4856",
     "reference_id": 4024,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Diphath",
     "media_type": "Text",
     "index_reference": "diphath",
@@ -9787,13 +11680,36 @@
           "label": "Riphath",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Riphath",
+          "type": "person",
+          "preferred_label": "Riphath",
+          "confidence": 0.937,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ashkenaz",
+          "type": "person",
+          "preferred_label": "Ashkenaz",
+          "confidence": 0.6715,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Togarmah",
+          "type": "person",
+          "preferred_label": "Togarmah",
+          "confidence": 0.6715,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4857",
     "reference_id": 4025,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Discerning of Spirits",
     "media_type": "Text",
     "index_reference": "discerning of spirits",
@@ -9810,13 +11726,14 @@
           "label": "Spiritual Gifts",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4858",
     "reference_id": 4026,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Disciple",
     "media_type": "Text",
     "index_reference": "disciple",
@@ -10000,13 +11917,22 @@
           "end_ref_usfm": "1JN 3:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "keyterm:Disciple",
+          "type": "keyterm",
+          "preferred_label": "Be a Disciple",
+          "confidence": 0.7,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4859",
     "reference_id": 4027,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Discipline",
     "media_type": "Text",
     "index_reference": "discipline",
@@ -10364,13 +12290,14 @@
           "end_ref_usfm": "2TH 3:15"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "833307",
     "reference_id": 213085,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Discourse of Theodosius",
     "media_type": "Text",
     "index_reference": "discourse of theodosius",
@@ -10379,13 +12306,14 @@
     "content": "<h1>DISCOURSE OF THEODOSIUS</h1><p>The Discourse of Theodosius is a Coptic text that tells the story of the Virgin Mary’s assumption (when she was taken up to heaven). It comes from the Coptic Bohairic version of the <em>Assumption of the Virgin</em>, which is one of the main sources for this story in Egyptian Christianity.</p><p><em>See also</em> <span data-bnType=\"resourceReference\" data-resourceId=\"2831\" data-resourceType=\"TyndaleBibleDictionary\">Apocrypha</span>.</p><h3></h3>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "4860",
     "reference_id": 4028,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Disease",
     "media_type": "Text",
     "index_reference": "disease",
@@ -10639,13 +12567,22 @@
           "label": "Plague",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:InfectiousSkinDisease",
+          "type": "keyterm",
+          "preferred_label": "Infectious Skin Disease",
+          "confidence": 0.6128,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4315",
     "reference_id": 3483,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Disease of Bowels",
     "media_type": "Text",
     "index_reference": "disease of bowels",
@@ -10688,13 +12625,14 @@
           "label": "Medicine and Medical Practice",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4863",
     "reference_id": 4031,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dish",
     "media_type": "Text",
     "index_reference": "dish",
@@ -10764,13 +12702,36 @@
           "end_ref_usfm": "MAT 23:26"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "realia:Dish",
+          "type": "realia",
+          "preferred_label": "Dish",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "realia:Plate.2",
+          "type": "realia",
+          "preferred_label": "Plate",
+          "confidence": 0.6727,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:Bowl.2",
+          "type": "realia",
+          "preferred_label": "Bowl",
+          "confidence": 0.6727,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4861",
     "reference_id": 4029,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dishan",
     "media_type": "Text",
     "index_reference": "dishan",
@@ -10798,13 +12759,50 @@
           "end_ref_usfm": "1CH 1:38"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Dishan",
+          "type": "person",
+          "preferred_label": "Dishan",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Dishon",
+          "type": "person",
+          "preferred_label": "Dishon",
+          "confidence": 0.6402,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Hori",
+          "type": "group",
+          "preferred_label": "Horites",
+          "confidence": 0.5562,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Seir",
+          "type": "person",
+          "preferred_label": "Seir",
+          "confidence": 0.5067,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hori",
+          "type": "person",
+          "preferred_label": "Hori",
+          "confidence": 0.5067,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4862",
     "reference_id": 4030,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dishon",
     "media_type": "Text",
     "index_reference": "dishon",
@@ -10838,13 +12836,43 @@
           "end_ref_usfm": "1CH 1:41"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Dishon.2",
+          "type": "person",
+          "preferred_label": "Dishon",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Dishon",
+          "type": "person",
+          "preferred_label": "Dishon",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Dishan",
+          "type": "person",
+          "preferred_label": "Dishan",
+          "confidence": 0.7235,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Anah.2",
+          "type": "person",
+          "preferred_label": "Anah",
+          "confidence": 0.54,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4864",
     "reference_id": 4032,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dispersion of the Jews",
     "media_type": "Text",
     "index_reference": "dispersion of the jews",
@@ -10861,13 +12889,14 @@
           "label": "Diaspora of the Jews",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4865",
     "reference_id": 4033,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dives",
     "media_type": "Text",
     "index_reference": "dives",
@@ -10891,13 +12920,14 @@
           "label": "Lazarus",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4866",
     "reference_id": 4034,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Divination",
     "media_type": "Text",
     "index_reference": "divination",
@@ -10914,13 +12944,14 @@
           "label": "Magic",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4867",
     "reference_id": 4035,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Divine Presence",
     "media_type": "Text",
     "index_reference": "divine presence",
@@ -10944,13 +12975,14 @@
           "label": "Presence of God, the",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4868",
     "reference_id": 4036,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Diviners’ Oak",
     "media_type": "Text",
     "index_reference": "diviners’ oak",
@@ -10966,13 +12998,29 @@
           "end_ref_usfm": "JDG 9:37"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:DivinersOak",
+          "type": "place",
+          "preferred_label": "Diviners’ Oak",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "flora:Oak",
+          "type": "flora",
+          "preferred_label": "Oak",
+          "confidence": 0.85,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4869",
     "reference_id": 4037,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Division of the Land",
     "media_type": "Text",
     "index_reference": "division of the land",
@@ -10989,13 +13037,14 @@
           "label": "Conquest and Allotment of the Land",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4871",
     "reference_id": 4039,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Divorce",
     "media_type": "Text",
     "index_reference": "divorce",
@@ -11196,13 +13245,14 @@
           "label": "Marriage, Marriage Customs",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4873",
     "reference_id": 4041,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Doctor of the Law",
     "media_type": "Text",
     "index_reference": "doctor of the law",
@@ -11239,13 +13289,29 @@
           "label": "Teacher",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Galilee",
+          "type": "place",
+          "preferred_label": "Galilee",
+          "confidence": 0.5255,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Jerusalem",
+          "type": "place",
+          "preferred_label": "Jerusalem",
+          "confidence": 0.5015,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "833308",
     "reference_id": 213086,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Doctrina Addaei",
     "media_type": "Text",
     "index_reference": "doctrina addaei",
@@ -11262,13 +13328,14 @@
           "label": "Letters of Christ and Abgarus",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4874",
     "reference_id": 4042,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dodai",
     "media_type": "Text",
     "index_reference": "dodai",
@@ -11304,13 +13371,36 @@
           "label": "Dodo",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Dodo.2",
+          "type": "person",
+          "preferred_label": "Dodo",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "group:Ahoah",
+          "type": "group",
+          "preferred_label": "Ahohites",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ahoah",
+          "type": "person",
+          "preferred_label": "Ahoah",
+          "confidence": 0.73,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4875",
     "reference_id": 4043,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dodanim",
     "media_type": "Text",
     "index_reference": "dodanim",
@@ -11340,13 +13430,50 @@
           "label": "Rodanim",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "group:Dodanim",
+          "type": "group",
+          "preferred_label": "Dodanim",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Javan",
+          "type": "person",
+          "preferred_label": "Javan",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Kittim",
+          "type": "group",
+          "preferred_label": "Kittim",
+          "confidence": 0.6895,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tarshish",
+          "type": "person",
+          "preferred_label": "Tarshish",
+          "confidence": 0.6715,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Elishah",
+          "type": "person",
+          "preferred_label": "Elishah",
+          "confidence": 0.613,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4876",
     "reference_id": 4044,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dodavah, Dodavahu",
     "media_type": "Text",
     "index_reference": "dodavah, dodavahu",
@@ -11362,13 +13489,78 @@
           "end_ref_usfm": "2CH 20:37"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Dodavahu",
+          "type": "person",
+          "preferred_label": "Dodavahu",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Ahaziah",
+          "type": "person",
+          "preferred_label": "Ahaziah",
+          "confidence": 0.5935,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "LORD",
+          "confidence": 0.5935,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:Ship",
+          "type": "realia",
+          "preferred_label": "Ship",
+          "confidence": 0.562,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Eliezer.7",
+          "type": "person",
+          "preferred_label": "Eliezer",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Mareshah",
+          "type": "place",
+          "preferred_label": "Mareshah",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Jehoshaphat.3",
+          "type": "person",
+          "preferred_label": "Jehoshaphat",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Speak",
+          "type": "keyterm",
+          "preferred_label": "Speak as a Prophet",
+          "confidence": 0.5395,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Tarshish",
+          "type": "place",
+          "preferred_label": "Tarshish",
+          "confidence": 0.5125,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4877",
     "reference_id": 4045,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dodo",
     "media_type": "Text",
     "index_reference": "dodo",
@@ -11422,13 +13614,36 @@
           "label": "Dodai",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Dodo.2",
+          "type": "person",
+          "preferred_label": "Dodo",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Dodo.3",
+          "type": "person",
+          "preferred_label": "Dodo",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Dodo",
+          "type": "person",
+          "preferred_label": "Dodo",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "4879",
     "reference_id": 4047,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Doe",
     "media_type": "Text",
     "index_reference": "doe",
@@ -11452,13 +13667,36 @@
           "label": "Deer",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Love",
+          "type": "keyterm",
+          "preferred_label": "Love",
+          "confidence": 0.6565,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Deer",
+          "type": "fauna",
+          "preferred_label": "Deer",
+          "confidence": 0.6565,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Ibex",
+          "type": "fauna",
+          "preferred_label": "Ibex",
+          "confidence": 0.5305,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4878",
     "reference_id": 4046,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Doeg",
     "media_type": "Text",
     "index_reference": "doeg",
@@ -11522,13 +13760,22 @@
           "end_ref_usfm": "1SA 22:19"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Doeg",
+          "type": "person",
+          "preferred_label": "Doeg",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
+      ]
     }
   },
   {
     "content_id": "4880",
     "reference_id": 4048,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dog",
     "media_type": "Text",
     "index_reference": "dog",
@@ -11545,13 +13792,22 @@
           "label": "Animals",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Dog",
+          "type": "fauna",
+          "preferred_label": "Dog",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "4881",
     "reference_id": 4049,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Doleful Creature",
     "media_type": "Text",
     "index_reference": "doleful creature",
@@ -11582,13 +13838,43 @@
           "label": "Birds",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Owl",
+          "type": "fauna",
+          "preferred_label": "Owl",
+          "confidence": 0.766,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:House",
+          "type": "realia",
+          "preferred_label": "House",
+          "confidence": 0.562,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Jackal",
+          "type": "fauna",
+          "preferred_label": "Jackal",
+          "confidence": 0.5215,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Hyena",
+          "type": "fauna",
+          "preferred_label": "Hyena",
+          "confidence": 0.5125,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "5302",
     "reference_id": 4470,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Domestic Fowl, Poultry",
     "media_type": "Text",
     "index_reference": "domestic fowl, poultry",
@@ -11660,13 +13946,29 @@
           "label": "Birds",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Rooster",
+          "type": "fauna",
+          "preferred_label": "Rooster",
+          "confidence": 0.6005,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Bird",
+          "type": "fauna",
+          "preferred_label": "Bird",
+          "confidence": 0.57,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4882",
     "reference_id": 4050,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Domitian",
     "media_type": "Text",
     "index_reference": "domitian",
@@ -11690,13 +13992,57 @@
           "label": "The Caesars",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Jesus.2",
+          "type": "person",
+          "preferred_label": "Jesus",
+          "confidence": 0.6655,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Patmos",
+          "type": "place",
+          "preferred_label": "Patmos",
+          "confidence": 0.613,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Kingdom",
+          "type": "keyterm",
+          "preferred_label": "Kingdom",
+          "confidence": 0.58,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "LORD",
+          "confidence": 0.571,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:John.2",
+          "type": "person",
+          "preferred_label": "John",
+          "confidence": 0.5575,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:BearWitness",
+          "type": "keyterm",
+          "preferred_label": "Bear Witness",
+          "confidence": 0.535,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4883",
     "reference_id": 4051,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Donkey",
     "media_type": "Text",
     "index_reference": "donkey",
@@ -11720,13 +14066,22 @@
           "label": "Travel",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Donkey",
+          "type": "fauna",
+          "preferred_label": "Donkey",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "4884",
     "reference_id": 4052,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Doorkeeper",
     "media_type": "Text",
     "index_reference": "doorkeeper",
@@ -11743,13 +14098,14 @@
           "label": "Gatekeepers",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4885",
     "reference_id": 4053,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dophkah",
     "media_type": "Text",
     "index_reference": "dophkah",
@@ -11773,13 +14129,22 @@
           "label": "Wilderness Wanderings",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Dophkah",
+          "type": "place",
+          "preferred_label": "Dophkah",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "4887",
     "reference_id": 4055,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dor",
     "media_type": "Text",
     "index_reference": "dor",
@@ -11825,13 +14190,36 @@
           "end_ref_usfm": "1CH 7:29"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Dor",
+          "type": "place",
+          "preferred_label": "Dor",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "place:En-dor",
+          "type": "place",
+          "preferred_label": "Endor",
+          "confidence": 0.5542,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Megiddo",
+          "type": "place",
+          "preferred_label": "Megiddo",
+          "confidence": 0.53,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4886",
     "reference_id": 4054,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dorcas",
     "media_type": "Text",
     "index_reference": "dorcas",
@@ -11853,13 +14241,22 @@
           "end_ref_usfm": "ACT 9:41"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Tabitha",
+          "type": "person",
+          "preferred_label": "Tabitha",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
+      ]
     }
   },
   {
     "content_id": "4888",
     "reference_id": 4056,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dositheus",
     "media_type": "Text",
     "index_reference": "dositheus",
@@ -11893,13 +14290,14 @@
           "end_ref_usfm": "3MA 1:3"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "4889",
     "reference_id": 4057,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dothan",
     "media_type": "Text",
     "index_reference": "dothan",
@@ -11921,13 +14319,22 @@
           "end_ref_usfm": "2KI 6:14"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Dothan",
+          "type": "place",
+          "preferred_label": "Dothan",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
+      ]
     }
   },
   {
     "content_id": "4891",
     "reference_id": 4059,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dove",
     "media_type": "Text",
     "index_reference": "dove",
@@ -11951,13 +14358,43 @@
           "label": "Pigeon",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Dove",
+          "type": "fauna",
+          "preferred_label": "Dove",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "LORD",
+          "confidence": 0.625,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Offering",
+          "type": "keyterm",
+          "preferred_label": "Offering",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Lamb",
+          "type": "fauna",
+          "preferred_label": "Sheep",
+          "confidence": 0.5305,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4890",
     "reference_id": 4058,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dove’s Dung",
     "media_type": "Text",
     "index_reference": "dove’s dung",
@@ -11973,13 +14410,50 @@
           "end_ref_usfm": "2KI 6:25"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "flora:StarOfBethlehem",
+          "type": "flora",
+          "preferred_label": "Star of Bethlehem",
+          "confidence": 0.6,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Samaria",
+          "type": "place",
+          "preferred_label": "Samaria",
+          "confidence": 0.589,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Donkey",
+          "type": "fauna",
+          "preferred_label": "Donkey",
+          "confidence": 0.571,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:Kab",
+          "type": "realia",
+          "preferred_label": "Kab",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:Money",
+          "type": "realia",
+          "preferred_label": "Money",
+          "confidence": 0.5215,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4892",
     "reference_id": 4060,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dowry",
     "media_type": "Text",
     "index_reference": "dowry",
@@ -11996,13 +14470,14 @@
           "label": "Marriage, Marriage Customs",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4893",
     "reference_id": 4061,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Drachma",
     "media_type": "Text",
     "index_reference": "drachma",
@@ -12019,13 +14494,22 @@
           "label": "Coins",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Drachma",
+          "type": "realia",
+          "preferred_label": "Drachma",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "4895",
     "reference_id": 4063,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dragon",
     "media_type": "Text",
     "index_reference": "dragon",
@@ -12056,13 +14540,22 @@
           "label": "Jackal",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Dragon",
+          "type": "fauna",
+          "preferred_label": "Dragon",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "4894",
     "reference_id": 4062,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dragon’s Well",
     "media_type": "Text",
     "index_reference": "dragon’s well",
@@ -12079,13 +14572,14 @@
           "label": "Jackal’s Well",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4896",
     "reference_id": 4064,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dram",
     "media_type": "Text",
     "index_reference": "dram",
@@ -12127,13 +14621,22 @@
           "label": "Coins",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Daric",
+          "type": "realia",
+          "preferred_label": "Daric",
+          "confidence": 0.8785,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4897",
     "reference_id": 4065,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dreams",
     "media_type": "Text",
     "index_reference": "dreams",
@@ -12398,13 +14901,14 @@
           "label": "Vision, Visions",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4898",
     "reference_id": 4066,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Drink Offering",
     "media_type": "Text",
     "index_reference": "drink offering",
@@ -12421,13 +14925,14 @@
           "label": "Offerings and Sacrifices",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4899",
     "reference_id": 4067,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dromedary",
     "media_type": "Text",
     "index_reference": "dromedary",
@@ -12444,13 +14949,14 @@
           "label": "Animals",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4900",
     "reference_id": 4068,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dropsy",
     "media_type": "Text",
     "index_reference": "dropsy",
@@ -12480,13 +14986,14 @@
           "label": "Medicine and Medical Practice",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4901",
     "reference_id": 4069,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Drusilla",
     "media_type": "Text",
     "index_reference": "drusilla",
@@ -12502,13 +15009,50 @@
           "end_ref_usfm": "ACT 24:24"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Drusilla",
+          "type": "person",
+          "preferred_label": "Drusilla",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Jesus.2",
+          "type": "person",
+          "preferred_label": "Jesus",
+          "confidence": 0.6115,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Believe",
+          "type": "keyterm",
+          "preferred_label": "Believe",
+          "confidence": 0.58,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Paul",
+          "type": "person",
+          "preferred_label": "Paul",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Jews",
+          "type": "group",
+          "preferred_label": "Jews",
+          "confidence": 0.5305,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4902",
     "reference_id": 4070,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dulcimer",
     "media_type": "Text",
     "index_reference": "dulcimer",
@@ -12551,13 +15095,50 @@
           "label": "Music",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Bagpipe",
+          "type": "realia",
+          "preferred_label": "Bagpipe",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:Flute",
+          "type": "realia",
+          "preferred_label": "Flute",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:Lyre",
+          "type": "realia",
+          "preferred_label": "Lyre",
+          "confidence": 0.5935,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:RamsHorn",
+          "type": "realia",
+          "preferred_label": "Rams Horn",
+          "confidence": 0.58,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:Lute",
+          "type": "realia",
+          "preferred_label": "Lute",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4903",
     "reference_id": 4071,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dumah (Person)",
     "media_type": "Text",
     "index_reference": "dumah (person)",
@@ -12579,13 +15160,50 @@
           "end_ref_usfm": "1CH 1:30"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Dumah",
+          "type": "person",
+          "preferred_label": "Dumah",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Massa",
+          "type": "person",
+          "preferred_label": "Massa",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mishma",
+          "type": "person",
+          "preferred_label": "Mishma",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tema",
+          "type": "person",
+          "preferred_label": "Tema",
+          "confidence": 0.548,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hadad.4",
+          "type": "person",
+          "preferred_label": "Hadad",
+          "confidence": 0.53,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4904",
     "reference_id": 4072,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dumah (Place)",
     "media_type": "Text",
     "index_reference": "dumah (place)",
@@ -12631,13 +15249,36 @@
           "end_ref_usfm": "ISA 21:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Dumah",
+          "type": "place",
+          "preferred_label": "Dumah",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Dumah",
+          "type": "person",
+          "preferred_label": "Dumah",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Dumah.2",
+          "type": "place",
+          "preferred_label": "Dumah",
+          "confidence": 0.6667,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4905",
     "reference_id": 4073,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dumbness",
     "media_type": "Text",
     "index_reference": "dumbness",
@@ -12654,13 +15295,22 @@
           "label": "Muteness",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Stupidity",
+          "type": "keyterm",
+          "preferred_label": "Stupidity",
+          "confidence": 0.8463,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "4906",
     "reference_id": 4074,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dung Gate",
     "media_type": "Text",
     "index_reference": "dung gate",
@@ -12690,13 +15340,36 @@
           "label": "Jerusalem",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:DungGate",
+          "type": "place",
+          "preferred_label": "Dung Gate",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "place:ValleyGate",
+          "type": "place",
+          "preferred_label": "Valley Gate",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:DragonSpring",
+          "type": "place",
+          "preferred_label": "Dragon Spring",
+          "confidence": 0.53,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "4907",
     "reference_id": 4075,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dura, Plain of",
     "media_type": "Text",
     "index_reference": "dura, plain of",
@@ -12712,13 +15385,36 @@
           "end_ref_usfm": "DAN 3:1"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Dura",
+          "type": "place",
+          "preferred_label": "Dura",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Nebuchadnezzar",
+          "type": "person",
+          "preferred_label": "Nebuchadnezzar",
+          "confidence": 0.649,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Babylon",
+          "type": "place",
+          "preferred_label": "Babylon",
+          "confidence": 0.5845,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4908",
     "reference_id": 4076,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dye, Dyeing, Dyer",
     "media_type": "Text",
     "index_reference": "dye, dyeing, dyer",
@@ -12754,13 +15450,14 @@
           "label": "Cloth and Cloth Manufacturing",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4909",
     "reference_id": 4077,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dysentery",
     "media_type": "Text",
     "index_reference": "dysentery",
@@ -12790,13 +15487,14 @@
           "label": "Medicine and Medical Practice",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "4910",
     "reference_id": 4078,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dysmas",
     "media_type": "Text",
     "index_reference": "dysmas",
@@ -12812,7 +15510,8 @@
           "end_ref_usfm": "LUK 23:43"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   }
 ]

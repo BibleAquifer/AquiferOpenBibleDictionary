@@ -2,7 +2,7 @@
   {
     "content_id": "620807",
     "reference_id": 7788,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "स्टेटर",
     "media_type": "Text",
     "index_reference": "स्टेटर",
@@ -26,13 +26,29 @@
           "label": "सिक्के",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Fishhook",
+          "type": "realia",
+          "preferred_label": "Fishhook",
+          "confidence": 0.6085,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:Stater",
+          "type": "realia",
+          "preferred_label": "Stater",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "620806",
     "reference_id": 7783,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "स्टेडियम",
     "media_type": "Text",
     "index_reference": "स्टेडियम",
@@ -56,13 +72,22 @@
           "label": "वजन और मापदण्ड",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Stade",
+          "type": "realia",
+          "preferred_label": "Stade",
+          "confidence": 0.8368,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "381232",
     "reference_id": 7794,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "स्टोइकवाद, स्टोइक",
     "media_type": "Text",
     "index_reference": "स्टोइकवाद, स्टोइक",
@@ -99,7 +124,8 @@
           "label": "दर्शनशास्त्र",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   }
 ]

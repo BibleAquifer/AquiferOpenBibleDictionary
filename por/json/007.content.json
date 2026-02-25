@@ -2,7 +2,7 @@
   {
     "content_id": "816109",
     "reference_id": 7954,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fabricante de tendas",
     "media_type": "Text",
     "index_reference": "fabricante de tendas",
@@ -36,13 +36,14 @@
           "end_ref_usfm": "2CO 11:10"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "829708",
     "reference_id": 5802,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Faca",
     "media_type": "Text",
     "index_reference": "faca",
@@ -51,13 +52,14 @@
     "content": "<h1>FACA</h1><p>Pequeno instrumento de corte portátil, com um ou dois gumes, geralmente feito de sílex ou metal.</p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "828796",
     "reference_id": 4413,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Faium",
     "media_type": "Text",
     "index_reference": "faium",
@@ -66,13 +68,14 @@
     "content": "<h1>FAIUM</h1><p>O maior oásis do Egito, localizado a cerca de 112 quilômetros a sudoeste de Cairo. No centro está o Lago Qarun, o único grande lago interior do Egito, que atualmente cobre 144 quilômetros quadrados, tem cerca de 5,2 metros de profundidade e possui uma superfície de 44 metros abaixo do nível do Mar Mediterrâneo. O Lago Qarun é cercado por cerca de meio milhão de acres de terras agrícolas. Nos tempos antigos, Qarun era evidentemente muito maior do que é hoje.</p><p>Muitos escritores antigos, seguindo o historiador grego Heródoto do século V a.C., acreditavam que o lago, que tornou o Faium possível, era uma construção artificial. No entanto, investigações modernas concluíram que ele era alimentado por nascentes. Em algum momento após 2000 a.C., durante o período do Médio Império do Egito, um canal foi escavado com comportas para conectar o Lago Qarun ao Rio Nilo. Governantes desse período também construíram um sistema de irrigação e colocaram grande parte da área sob cultivo.</p><p>A prosperidade do Faium declinou quando Ramsés II e outros usaram os edifícios da área como pedreiras. Os Ptolomeus restauraram sua prosperidade durante os séculos III e II a.C., quando muitos colonos gregos chegaram. Além da exploração dos monumentos do Faium, arqueólogos desenterraram grandes quantidades de literatura em papiro escrita em grego. Esses papiros ajudaram a esclarecer o significado de algumas palavras usadas no NT.</p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "759750",
     "reference_id": 4398,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Falcão",
     "media_type": "Text",
     "index_reference": "falcão",
@@ -115,13 +118,29 @@
           "label": "Milhano, milhafre",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Falcon",
+          "type": "fauna",
+          "preferred_label": "Falcon",
+          "confidence": 0.9595,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:BlackKite",
+          "type": "fauna",
+          "preferred_label": "Black Kite",
+          "confidence": 0.5382,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "830359",
     "reference_id": 6854,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Faleque",
     "media_type": "Text",
     "index_reference": "faleque",
@@ -145,13 +164,50 @@
           "label": "Pelegue",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Peleg",
+          "type": "person",
+          "preferred_label": "Pelegue",
+          "confidence": 0.8065,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Serug",
+          "type": "person",
+          "preferred_label": "Serugue",
+          "confidence": 0.7435,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Reu",
+          "type": "person",
+          "preferred_label": "Reú",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Eber",
+          "type": "person",
+          "preferred_label": "Eber",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shelah.2",
+          "type": "person",
+          "preferred_label": "Selá",
+          "confidence": 0.712,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "828788",
     "reference_id": 4401,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Falsos cristos, falsos messias",
     "media_type": "Text",
     "index_reference": "falsos cristos, falsos messias",
@@ -199,13 +255,14 @@
           "label": "Anticristo",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "828789",
     "reference_id": 4402,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Falsos profetas",
     "media_type": "Text",
     "index_reference": "falsos profetas",
@@ -222,13 +279,14 @@
           "label": "Profetas, Falsos",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "830362",
     "reference_id": 6858,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fanuel",
     "media_type": "Text",
     "index_reference": "fanuel",
@@ -244,13 +302,50 @@
           "end_ref_usfm": "LUK 2:36"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Phanuel",
+          "type": "person",
+          "preferred_label": "Fanuel",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Anna",
+          "type": "person",
+          "preferred_label": "Ana",
+          "confidence": 0.748,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Asher",
+          "type": "group",
+          "preferred_label": "Aser",
+          "confidence": 0.5935,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Asher",
+          "type": "person",
+          "preferred_label": "Aser",
+          "confidence": 0.5935,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Life",
+          "type": "keyterm",
+          "preferred_label": "Life",
+          "confidence": 0.58,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "683057",
     "reference_id": 6862,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Faraó",
     "media_type": "Text",
     "index_reference": "faraó",
@@ -328,13 +423,22 @@
           "label": "Egito, egípcio",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Pharaoh.7",
+          "type": "person",
+          "preferred_label": "Faraó",
+          "confidence": 0.72,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "830363",
     "reference_id": 6859,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Faraó Hofra",
     "media_type": "Text",
     "index_reference": "faraó hofra",
@@ -358,13 +462,71 @@
           "label": "Hofra",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Hophra",
+          "type": "person",
+          "preferred_label": "Hofra",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Egypt",
+          "type": "place",
+          "preferred_label": "Egito",
+          "confidence": 0.6385,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "SENHOR",
+          "confidence": 0.625,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Babylon",
+          "type": "place",
+          "preferred_label": "Babilônia",
+          "confidence": 0.589,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Judah",
+          "type": "group",
+          "preferred_label": "Judá",
+          "confidence": 0.589,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nebuchadnezzar",
+          "type": "person",
+          "preferred_label": "Nabucodonozor",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Zedekiah.3",
+          "type": "person",
+          "preferred_label": "Zedequias",
+          "confidence": 0.544,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Judah.4",
+          "type": "person",
+          "preferred_label": "Judá",
+          "confidence": 0.5215,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "759754",
     "reference_id": 4449,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Farinha",
     "media_type": "Text",
     "index_reference": "farinha",
@@ -388,13 +550,22 @@
           "label": "Comida E Preparação De Alimentos",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Offering",
+          "type": "keyterm",
+          "preferred_label": "offering",
+          "confidence": 0.6385,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "161855",
     "reference_id": 6864,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fariseus",
     "media_type": "Text",
     "index_reference": "fariseus",
@@ -521,13 +692,22 @@
           "label": "Tradição oral",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "group:Pharisee",
+          "type": "group",
+          "preferred_label": "Pharisees",
+          "confidence": 0.5223,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "830369",
     "reference_id": 6869,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Farison",
     "media_type": "Text",
     "index_reference": "farison",
@@ -543,13 +723,14 @@
           "end_ref_usfm": "1MA 9:66"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "830367",
     "reference_id": 6866,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Farpar",
     "media_type": "Text",
     "index_reference": "farpar",
@@ -565,13 +746,50 @@
           "end_ref_usfm": "2KI 5:12"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Pharpar",
+          "type": "place",
+          "preferred_label": "Farfar",
+          "confidence": 0.9235,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Abana",
+          "type": "place",
+          "preferred_label": "Abana",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Pure",
+          "type": "keyterm",
+          "preferred_label": "pure",
+          "confidence": 0.58,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Israel",
+          "type": "person",
+          "preferred_label": "Israel",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Damascus",
+          "type": "place",
+          "preferred_label": "Damasco",
+          "confidence": 0.5395,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "125258",
     "reference_id": 4397,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fé",
     "media_type": "Text",
     "index_reference": "fé",
@@ -863,13 +1081,22 @@
           "end_ref_usfm": "GAL 4:31"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "keyterm:BelieveIn",
+          "type": "keyterm",
+          "preferred_label": "Believe In",
+          "confidence": 0.8032,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "830376",
     "reference_id": 6888,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Febe",
     "media_type": "Text",
     "index_reference": "febe",
@@ -909,13 +1136,22 @@
           "end_ref_usfm": "ROM 16:2"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Phoebe",
+          "type": "person",
+          "preferred_label": "Febe",
+          "confidence": 0.6667,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "759601",
     "reference_id": 2594,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Febre ardente",
     "media_type": "Text",
     "index_reference": "febre ardente",
@@ -945,13 +1181,14 @@
           "label": "Medicina E Prática Médica",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "828056",
     "reference_id": 3213,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Feijão",
     "media_type": "Text",
     "index_reference": "feijão",
@@ -982,13 +1219,14 @@
           "label": "Plantas",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "717295",
     "reference_id": 7749,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Feitiçaria",
     "media_type": "Text",
     "index_reference": "feitiçaria",
@@ -1084,13 +1322,14 @@
           "label": "Magia",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "831215",
     "reference_id": 8251,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Feiticeiro",
     "media_type": "Text",
     "index_reference": "feiticeiro",
@@ -1114,13 +1353,14 @@
           "label": "Magia",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "759762",
     "reference_id": 4527,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "FEL",
     "media_type": "Text",
     "index_reference": "fel",
@@ -1241,13 +1481,14 @@
           "label": "Colocíntide, Coloquíntida",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "815962",
     "reference_id": 4417,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Felix, Antônio",
     "media_type": "Text",
     "index_reference": "felix, antônio",
@@ -1269,13 +1510,22 @@
           "end_ref_usfm": "ACT 24:27"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Felix",
+          "type": "person",
+          "preferred_label": "Felix",
+          "confidence": 0.6718,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "816049",
     "reference_id": 6871,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fenice",
     "media_type": "Text",
     "index_reference": "fenice",
@@ -1318,13 +1568,29 @@
           "label": "Fênix",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Phoenicia",
+          "type": "place",
+          "preferred_label": "Fenícia",
+          "confidence": 0.7632,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Phoenix",
+          "type": "place",
+          "preferred_label": "Fênix",
+          "confidence": 0.6298,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "816055",
     "reference_id": 6889,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fenícia, Fenícios",
     "media_type": "Text",
     "index_reference": "fenícia, fenícios",
@@ -1396,13 +1662,22 @@
           "label": "Divindades e religião cananeia",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Phoenicia",
+          "type": "place",
+          "preferred_label": "Fenícia",
+          "confidence": 0.6033,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "816056",
     "reference_id": 6890,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fênix",
     "media_type": "Text",
     "index_reference": "fênix",
@@ -1424,13 +1699,22 @@
           "end_ref_usfm": "ACT 27:17"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Phoenix",
+          "type": "place",
+          "preferred_label": "Fênix",
+          "confidence": 0.6444,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "829102",
     "reference_id": 4891,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Feno",
     "media_type": "Text",
     "index_reference": "feno",
@@ -1439,13 +1723,14 @@
     "content": "<h1>FENO</h1><p>Grama seca usada como alimento para animais.</p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "658708",
     "reference_id": 6838,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fereseus",
     "media_type": "Text",
     "index_reference": "fereseus",
@@ -1625,13 +1910,14 @@
           "label": "Canaã, Cananeus",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "830900",
     "reference_id": 7751,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Ferida",
     "media_type": "Text",
     "index_reference": "ferida",
@@ -1668,13 +1954,14 @@
           "label": "Medicina E Prática Médica",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "161838",
     "reference_id": 5872,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fermento*",
     "media_type": "Text",
     "index_reference": "fermento*",
@@ -1833,13 +2120,14 @@
           "label": "Pão ázimo",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "716976",
     "reference_id": 3812,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Ferreiro",
     "media_type": "Text",
     "index_reference": "ferreiro",
@@ -1905,13 +2193,14 @@
           "label": "Minerais e metais",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "658660",
     "reference_id": 5219,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Ferreiro",
     "media_type": "Text",
     "index_reference": "ferreiro",
@@ -1983,13 +2272,14 @@
           "label": "Minerais e metais",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "658740",
     "reference_id": 7714,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Ferreiro",
     "media_type": "Text",
     "index_reference": "ferreiro",
@@ -2080,13 +2370,22 @@
           "label": "Pedras preciosas",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Craftsman",
+          "type": "realia",
+          "preferred_label": "Craftsman",
+          "confidence": 0.5537,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "829308",
     "reference_id": 5220,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Ferro",
     "media_type": "Text",
     "index_reference": "ferro",
@@ -2103,13 +2402,14 @@
           "label": "Minerais e metais",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "759828",
     "reference_id": 5189,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Festa da Colheita",
     "media_type": "Text",
     "index_reference": "festa da colheita",
@@ -2133,13 +2433,22 @@
           "label": "Festas E Festivais De Israel",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "SENHOR",
+          "confidence": 0.509,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "828797",
     "reference_id": 4415,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Festa das Luzes",
     "media_type": "Text",
     "index_reference": "festa das luzes",
@@ -2156,13 +2465,14 @@
           "label": "Festas E Festivais De Israel",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "759679",
     "reference_id": 3473,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Festa dos barracas",
     "media_type": "Text",
     "index_reference": "festa dos barracas",
@@ -2186,13 +2496,14 @@
           "label": "Festas E Festivais De Israel",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "760028",
     "reference_id": 7863,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Festa dos Tabernáculos",
     "media_type": "Text",
     "index_reference": "festa dos tabernáculos",
@@ -2216,13 +2527,22 @@
           "label": "Festas E Festivais De Israel",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "SENHOR",
+          "confidence": 0.5208,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "125259",
     "reference_id": 4416,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Festas E Festivais De Israel",
     "media_type": "Text",
     "index_reference": "festas e festivais de israel",
@@ -3017,13 +3337,14 @@
           "label": "Templo",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "828799",
     "reference_id": 4421,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Festival",
     "media_type": "Text",
     "index_reference": "festival",
@@ -3040,13 +3361,22 @@
           "label": "Festas E Festivais De Israel",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Festus",
+          "type": "person",
+          "preferred_label": "Festo",
+          "confidence": 0.8649,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "760040",
     "reference_id": 8101,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Festival das Trombetas",
     "media_type": "Text",
     "index_reference": "festival das trombetas",
@@ -3070,13 +3400,22 @@
           "label": "Festas E Festivais De Israel",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:FestivalOfTheTabernacles",
+          "type": "realia",
+          "preferred_label": "Festival of the Tabernacles",
+          "confidence": 0.813,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "815963",
     "reference_id": 4422,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Festo, Pórcio",
     "media_type": "Text",
     "index_reference": "festo, pórcio",
@@ -3122,13 +3461,22 @@
           "end_ref_usfm": "ACT 25:12"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Festus",
+          "type": "person",
+          "preferred_label": "Festo",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "717298",
     "reference_id": 7768,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fiandeira, Fiar",
     "media_type": "Text",
     "index_reference": "fiandeira, fiar",
@@ -3168,13 +3516,14 @@
           "end_ref_usfm": "PRO 31:31"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "683058",
     "reference_id": 6873,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Ficol",
     "media_type": "Text",
     "index_reference": "ficol",
@@ -3202,13 +3551,29 @@
           "end_ref_usfm": "GEN 26:26"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Phicol",
+          "type": "person",
+          "preferred_label": "Ficol",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Abimelech",
+          "type": "person",
+          "preferred_label": "Abimeleque",
+          "confidence": 0.5395,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "759749",
     "reference_id": 4396,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fidelidade",
     "media_type": "Text",
     "index_reference": "fidelidade",
@@ -3314,13 +3679,22 @@
           "end_ref_usfm": "HEB 11:10"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "keyterm:Kindness",
+          "type": "keyterm",
+          "preferred_label": "kindness",
+          "confidence": 0.5648,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "717147",
     "reference_id": 5930,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fígado",
     "media_type": "Text",
     "index_reference": "fígado",
@@ -3372,13 +3746,14 @@
           "end_ref_usfm": "EZK 21:21"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "830378",
     "reference_id": 6895,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fígelo",
     "media_type": "Text",
     "index_reference": "fígelo",
@@ -3402,13 +3777,29 @@
           "label": "Hermógenes",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Phygelus",
+          "type": "person",
+          "preferred_label": "Fígelo",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hermogenes",
+          "type": "person",
+          "preferred_label": "Hermógenes",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "828801",
     "reference_id": 4425,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Figo, figueira",
     "media_type": "Text",
     "index_reference": "figo, figueira",
@@ -3425,13 +3816,14 @@
           "label": "Plantas",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "717231",
     "reference_id": 6896,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Filactério",
     "media_type": "Text",
     "index_reference": "filactério",
@@ -3486,13 +3878,14 @@
           "label": "Frontal",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "830371",
     "reference_id": 6874,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Filadélfia",
     "media_type": "Text",
     "index_reference": "filadélfia",
@@ -3522,13 +3915,22 @@
           "label": "Decápolis*",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Philadelphia",
+          "type": "place",
+          "preferred_label": "Filadélfia",
+          "confidence": 0.7,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "816051",
     "reference_id": 6876,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Filemom (Pessoa)",
     "media_type": "Text",
     "index_reference": "filemom (pessoa)",
@@ -3582,13 +3984,22 @@
           "label": "Filemom, Carta A",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Philemon",
+          "type": "person",
+          "preferred_label": "Filemom",
+          "confidence": 0.65,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "161856",
     "reference_id": 6875,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Filemom, Carta A",
     "media_type": "Text",
     "index_reference": "filemom, carta a",
@@ -3823,13 +4234,22 @@
           "label": "Filemom (Pessoa)",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Philemon",
+          "type": "person",
+          "preferred_label": "Filemom",
+          "confidence": 0.608,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "830372",
     "reference_id": 6877,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fileto",
     "media_type": "Text",
     "index_reference": "fileto",
@@ -3859,13 +4279,22 @@
           "label": "Himeneu",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Philetus",
+          "type": "person",
+          "preferred_label": "Fileto",
+          "confidence": 0.8,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "828514",
     "reference_id": 3933,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Filha",
     "media_type": "Text",
     "index_reference": "filha",
@@ -3882,13 +4311,14 @@
           "label": "Vida Familiar E Relações",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "717228",
     "reference_id": 6861,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Filha do Faraó",
     "media_type": "Text",
     "index_reference": "filha do faraó",
@@ -3958,13 +4388,29 @@
           "end_ref_usfm": "EXO 2:10"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Pharaoh.5",
+          "type": "person",
+          "preferred_label": "Faraó",
+          "confidence": 0.7867,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Pharaoh.7",
+          "type": "person",
+          "preferred_label": "Faraó",
+          "confidence": 0.61,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "830896",
     "reference_id": 7744,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Filho",
     "media_type": "Text",
     "index_reference": "filho",
@@ -3995,13 +4441,22 @@
           "label": "Filho De Deus",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:GenericSon",
+          "type": "person",
+          "preferred_label": "A Son",
+          "confidence": 0.8246,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "125335",
     "reference_id": 7739,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Filho De Deus",
     "media_type": "Text",
     "index_reference": "filho de deus",
@@ -4364,13 +4819,14 @@
           "label": "Filho Do Homem",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "125336",
     "reference_id": 7740,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Filho Do Homem",
     "media_type": "Text",
     "index_reference": "filho do homem",
@@ -4853,13 +5309,14 @@
           "label": "Filho De Deus",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "828368",
     "reference_id": 3691,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Filhos de Deus",
     "media_type": "Text",
     "index_reference": "filhos de deus",
@@ -4876,13 +5333,14 @@
           "label": "Filhos e filhas de Deus",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "828367",
     "reference_id": 3690,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Filhos do Éden",
     "media_type": "Text",
     "index_reference": "filhos do éden",
@@ -4906,13 +5364,50 @@
           "label": "Bete-Éden",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Eden",
+          "type": "place",
+          "preferred_label": "Éden",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Telassar",
+          "type": "place",
+          "preferred_label": "Telassar",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Rezeph",
+          "type": "place",
+          "preferred_label": "Rezefe",
+          "confidence": 0.6445,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "SENHOR",
+          "confidence": 0.607,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Gozan",
+          "type": "place",
+          "preferred_label": "Gozã",
+          "confidence": 0.5665,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "125337",
     "reference_id": 7743,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Filhos Do Trovão",
     "media_type": "Text",
     "index_reference": "filhos do trovão",
@@ -4936,13 +5431,36 @@
           "label": "Boanerges*",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:John.2",
+          "type": "person",
+          "preferred_label": "João",
+          "confidence": 0.694,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:James",
+          "type": "person",
+          "preferred_label": "Tiago",
+          "confidence": 0.64,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Name",
+          "type": "keyterm",
+          "preferred_label": "Name",
+          "confidence": 0.5215,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "830895",
     "reference_id": 7742,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Filhos dos Profetas",
     "media_type": "Text",
     "index_reference": "filhos dos profetas",
@@ -5015,13 +5533,14 @@
           "label": "Profeta, Profetisa",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "481583",
     "reference_id": 7741,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Filhos e filhas de Deus",
     "media_type": "Text",
     "index_reference": "filhos e filhas de deus",
@@ -5103,13 +5622,14 @@
           "end_ref_usfm": "EPH 1:23"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "125316",
     "reference_id": 6880,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Filipe",
     "media_type": "Text",
     "index_reference": "filipe",
@@ -5266,13 +5786,43 @@
           "label": "Herodes, Família Herodiana*",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Philip",
+          "type": "person",
+          "preferred_label": "Filipe",
+          "confidence": 0.6519,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Philip.4",
+          "type": "person",
+          "preferred_label": "Filipe",
+          "confidence": 0.6481,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Philip.2",
+          "type": "person",
+          "preferred_label": "Filipe",
+          "confidence": 0.6074,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Philip.3",
+          "type": "person",
+          "preferred_label": "Filipe",
+          "confidence": 0.6037,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "816052",
     "reference_id": 6878,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Filipenses, Carta aos",
     "media_type": "Text",
     "index_reference": "filipenses, carta aos",
@@ -5729,13 +6279,14 @@
           "label": "Filipos",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "816053",
     "reference_id": 6879,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Filipos",
     "media_type": "Text",
     "index_reference": "filipos",
@@ -5793,13 +6344,57 @@
           "end_ref_usfm": "ACT 16:15"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Philippi",
+          "type": "place",
+          "preferred_label": "Filipos",
+          "confidence": 1.0,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Philip",
+          "type": "person",
+          "preferred_label": "Filipe",
+          "confidence": 0.8648,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Philip.2",
+          "type": "person",
+          "preferred_label": "Filipe",
+          "confidence": 0.8648,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Philip.3",
+          "type": "person",
+          "preferred_label": "Filipe",
+          "confidence": 0.8648,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Philip.4",
+          "type": "person",
+          "preferred_label": "Filipe",
+          "confidence": 0.8648,
+          "match_method": "embedding"
+        },
+        {
+          "id": "group:Philippi",
+          "type": "group",
+          "preferred_label": "Philippians",
+          "confidence": 0.8051,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "658709",
     "reference_id": 6881,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Filístia, filisteus",
     "media_type": "Text",
     "index_reference": "filístia, filisteus",
@@ -6115,13 +6710,29 @@
           "end_ref_usfm": "2CH 26:7"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Philistine",
+          "type": "place",
+          "preferred_label": "Filístia",
+          "confidence": 0.7391,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Philistine",
+          "type": "group",
+          "preferred_label": "Filisteu",
+          "confidence": 0.5731,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "481568",
     "reference_id": 6882,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Filo, Judeu",
     "media_type": "Text",
     "index_reference": "filo, judeu",
@@ -6149,13 +6760,14 @@
           "end_ref_usfm": "JHN 1:4"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "830373",
     "reference_id": 6883,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Filólogo",
     "media_type": "Text",
     "index_reference": "filólogo",
@@ -6171,13 +6783,43 @@
           "end_ref_usfm": "ROM 16:15"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Philologus",
+          "type": "person",
+          "preferred_label": "Filólogo",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Julia",
+          "type": "person",
+          "preferred_label": "Júlia",
+          "confidence": 0.631,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Olympas",
+          "type": "person",
+          "preferred_label": "Olimpas",
+          "confidence": 0.613,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nereus",
+          "type": "person",
+          "preferred_label": "Nereus",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "830374",
     "reference_id": 6884,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Filómetor",
     "media_type": "Text",
     "index_reference": "filómetor",
@@ -6201,13 +6843,14 @@
           "label": "Império Ptolemaico",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "816054",
     "reference_id": 6885,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Filosofia",
     "media_type": "Text",
     "index_reference": "filosofia",
@@ -6250,13 +6893,14 @@
           "label": "Estoicismo, Estóicos",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "828694",
     "reference_id": 4245,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fim do mundo",
     "media_type": "Text",
     "index_reference": "fim do mundo",
@@ -6287,13 +6931,14 @@
           "label": "Juízo final",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "828802",
     "reference_id": 4426,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Finanças",
     "media_type": "Text",
     "index_reference": "finanças",
@@ -6317,13 +6962,14 @@
           "label": "Dinheiro",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "717229",
     "reference_id": 6886,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fineias",
     "media_type": "Text",
     "index_reference": "fineias",
@@ -6483,13 +7129,36 @@
           "end_ref_usfm": "1SA 4:19"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Phinehas",
+          "type": "person",
+          "preferred_label": "Fineias",
+          "confidence": 0.6582,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Phinehas.2",
+          "type": "person",
+          "preferred_label": "Fineias",
+          "confidence": 0.6218,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Phinehas.3",
+          "type": "person",
+          "preferred_label": "Fineias",
+          "confidence": 0.6036,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "481536",
     "reference_id": 4431,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Firmamento",
     "media_type": "Text",
     "index_reference": "firmamento",
@@ -6541,13 +7210,14 @@
           "end_ref_usfm": "EZK 1:26"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "830631",
     "reference_id": 7338,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Flagelo",
     "media_type": "Text",
     "index_reference": "flagelo",
@@ -6564,13 +7234,14 @@
           "label": "Direito penal e punição",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "828819",
     "reference_id": 4451,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Flauta",
     "media_type": "Text",
     "index_reference": "flauta",
@@ -6587,13 +7258,14 @@
           "label": "Instrumentos Musicais",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "827870",
     "reference_id": 2932,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Flecha",
     "media_type": "Text",
     "index_reference": "flecha",
@@ -6610,13 +7282,14 @@
           "label": "Armadura e armas",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "830375",
     "reference_id": 6887,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Flegonte",
     "media_type": "Text",
     "index_reference": "flegonte",
@@ -6632,13 +7305,50 @@
           "end_ref_usfm": "ROM 16:14"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Phlegon",
+          "type": "person",
+          "preferred_label": "Flegonte",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hermes",
+          "type": "person",
+          "preferred_label": "Hermes",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Asyncritus",
+          "type": "person",
+          "preferred_label": "Asíncrito",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hermas",
+          "type": "person",
+          "preferred_label": "Hermas",
+          "confidence": 0.613,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Patrobas",
+          "type": "person",
+          "preferred_label": "Pátrobas",
+          "confidence": 0.6085,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "828818",
     "reference_id": 4450,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Flor",
     "media_type": "Text",
     "index_reference": "flor",
@@ -6655,13 +7365,14 @@
           "label": "Plantas",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "828716",
     "reference_id": 4280,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Floresta de Efraim",
     "media_type": "Text",
     "index_reference": "floresta de efraim",
@@ -6689,13 +7400,36 @@
           "end_ref_usfm": "JOS 17:18"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "group:Ephraim",
+          "type": "group",
+          "preferred_label": "Efraim",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ephraim",
+          "type": "person",
+          "preferred_label": "Efraim",
+          "confidence": 0.65,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:ForestEphraim",
+          "type": "place",
+          "preferred_label": "Forest of Ephraim",
+          "confidence": 0.5208,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "161783",
     "reference_id": 3442,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fluxo De Sangue*",
     "media_type": "Text",
     "index_reference": "fluxo de sangue*",
@@ -6768,13 +7502,22 @@
           "label": "Medicina E Prática Médica",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Defilement",
+          "type": "keyterm",
+          "preferred_label": "defilement",
+          "confidence": 0.5262,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "828805",
     "reference_id": 4429,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fogo, Coluna de",
     "media_type": "Text",
     "index_reference": "fogo, coluna de",
@@ -6798,13 +7541,14 @@
           "label": "Peregrinações no deserto",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "828804",
     "reference_id": 4428,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fogo, Lago de",
     "media_type": "Text",
     "index_reference": "fogo, lago de",
@@ -6821,13 +7565,14 @@
           "label": "Lago De Fogo",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "830840",
     "reference_id": 7646,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Foice",
     "media_type": "Text",
     "index_reference": "foice",
@@ -6844,13 +7589,14 @@
           "label": "Agricultura",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "682932",
     "reference_id": 4404,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fome",
     "media_type": "Text",
     "index_reference": "fome",
@@ -7010,13 +7756,14 @@
           "end_ref_usfm": "2KI 25:3"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "827709",
     "reference_id": 2676,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Forasteiro",
     "media_type": "Text",
     "index_reference": "forasteiro",
@@ -7033,13 +7780,14 @@
           "label": "Estrangeiro",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "828850",
     "reference_id": 4526,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Forca",
     "media_type": "Text",
     "index_reference": "forca",
@@ -7056,13 +7804,14 @@
           "label": "Direito penal e punição",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "806173",
     "reference_id": 2815,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Formiga",
     "media_type": "Text",
     "index_reference": "formiga",
@@ -7092,13 +7841,22 @@
           "label": "Animais",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Ant",
+          "type": "fauna",
+          "preferred_label": "Ant",
+          "confidence": 0.64,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "682935",
     "reference_id": 4491,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fornalha",
     "media_type": "Text",
     "index_reference": "fornalha",
@@ -7222,13 +7980,22 @@
           "end_ref_usfm": "JER 6:30"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "realia:Kiln",
+          "type": "realia",
+          "preferred_label": "Kiln",
+          "confidence": 0.5121,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "829680",
     "reference_id": 5751,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fornalha",
     "media_type": "Text",
     "index_reference": "fornalha",
@@ -7245,13 +8012,14 @@
           "label": "Olaria",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "161809",
     "reference_id": 4464,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fornicação*",
     "media_type": "Text",
     "index_reference": "fornicação*",
@@ -7365,13 +8133,22 @@
           "label": "Adultério",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Fornication",
+          "type": "keyterm",
+          "preferred_label": "fornication",
+          "confidence": 0.6039,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "830271",
     "reference_id": 6704,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Forno",
     "media_type": "Text",
     "index_reference": "forno",
@@ -7388,13 +8165,14 @@
           "label": "Comida E Preparação De Alimentos",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "830270",
     "reference_id": 6703,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fornos, Torre dos",
     "media_type": "Text",
     "index_reference": "fornos, torre dos",
@@ -7416,13 +8194,22 @@
           "end_ref_usfm": "NEH 12:38"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:TowerOfTheOvens",
+          "type": "place",
+          "preferred_label": "Torre dos Fornos",
+          "confidence": 1.0,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "806206",
     "reference_id": 4465,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Forte, Fortificação",
     "media_type": "Text",
     "index_reference": "forte, fortificação",
@@ -7502,13 +8289,22 @@
           "label": "Torre de vigia",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Fortress",
+          "type": "realia",
+          "preferred_label": "Fortress",
+          "confidence": 0.6501,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "828821",
     "reference_id": 4466,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fortunato",
     "media_type": "Text",
     "index_reference": "fortunato",
@@ -7524,13 +8320,36 @@
           "end_ref_usfm": "1CO 16:17"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Fortunatus",
+          "type": "person",
+          "preferred_label": "Fortunato",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Stephanas",
+          "type": "person",
+          "preferred_label": "Estéfanas",
+          "confidence": 0.7075,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Achaicus",
+          "type": "person",
+          "preferred_label": "Acaico",
+          "confidence": 0.6715,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "815966",
     "reference_id": 4467,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fórum",
     "media_type": "Text",
     "index_reference": "fórum",
@@ -7554,13 +8373,43 @@
           "label": "Praça de Ápio",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:ForumOfAppius",
+          "type": "place",
+          "preferred_label": "Praça de Ápio",
+          "confidence": 0.7885,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:ThreeTaverns",
+          "type": "place",
+          "preferred_label": "Three Taverns",
+          "confidence": 0.613,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "SENHOR",
+          "confidence": 0.58,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Paul",
+          "type": "person",
+          "preferred_label": "Paulo",
+          "confidence": 0.5125,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "759757",
     "reference_id": 4478,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Franja",
     "media_type": "Text",
     "index_reference": "franja",
@@ -7576,13 +8425,14 @@
           "end_ref_usfm": "DEU 22:12"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "829288",
     "reference_id": 5188,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fraqueza",
     "media_type": "Text",
     "index_reference": "fraqueza",
@@ -7606,13 +8456,14 @@
           "label": "Medicina E Prática Médica",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "827904",
     "reference_id": 2985,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Freixo",
     "media_type": "Text",
     "index_reference": "freixo",
@@ -7643,13 +8494,14 @@
           "label": "Espinheiro-de-Camelo",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "816057",
     "reference_id": 6891,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Frígia",
     "media_type": "Text",
     "index_reference": "frígia",
@@ -7677,13 +8529,22 @@
           "end_ref_usfm": "ACT 2:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Phrygia",
+          "type": "place",
+          "preferred_label": "Frígia",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "717040",
     "reference_id": 4480,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Frontal",
     "media_type": "Text",
     "index_reference": "frontal",
@@ -7756,13 +8617,14 @@
           "label": "Filactério",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "828827",
     "reference_id": 4483,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fruta",
     "media_type": "Text",
     "index_reference": "fruta",
@@ -7786,13 +8648,14 @@
           "label": "Plantas",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "828114",
     "reference_id": 3310,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fruta vermelha (Baga)",
     "media_type": "Text",
     "index_reference": "fruta vermelha (baga)",
@@ -7816,13 +8679,14 @@
           "label": "Plantas",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "828826",
     "reference_id": 4482,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fruto do Espírito",
     "media_type": "Text",
     "index_reference": "fruto do espírito",
@@ -7868,13 +8732,14 @@
           "end_ref_usfm": "GAL 5:26"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "716946",
     "reference_id": 3460,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Furúnculo",
     "media_type": "Text",
     "index_reference": "furúnculo",
@@ -7960,13 +8825,14 @@
           "label": "Pragas sobre o Egito",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "658710",
     "reference_id": 6893,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fute",
     "media_type": "Text",
     "index_reference": "fute",
@@ -8003,13 +8869,43 @@
           "label": "Pute (Lugar)",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Put",
+          "type": "person",
+          "preferred_label": "Pute",
+          "confidence": 0.6875,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Put",
+          "type": "place",
+          "preferred_label": "Pute",
+          "confidence": 0.6875,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Cush.2",
+          "type": "person",
+          "preferred_label": "Cuxe",
+          "confidence": 0.575,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Lud",
+          "type": "person",
+          "preferred_label": "Lude",
+          "confidence": 0.575,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "828832",
     "reference_id": 4493,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Futilidade",
     "media_type": "Text",
     "index_reference": "futilidade",
@@ -8157,7 +9053,16 @@
           "end_ref_usfm": "ROM 8:25"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "keyterm:Worthless",
+          "type": "keyterm",
+          "preferred_label": "inútil",
+          "confidence": 0.5289,
+          "match_method": "scored"
+        }
+      ]
     }
   }
 ]

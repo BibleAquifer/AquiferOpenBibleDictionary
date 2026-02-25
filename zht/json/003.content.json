@@ -2,7 +2,7 @@
   {
     "content_id": "853334",
     "reference_id": 4255,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "安‧密巴",
     "media_type": "Text",
     "index_reference": "安‧密巴",
@@ -18,13 +18,14 @@
           "end_ref_usfm": "GEN 14:7"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "826031",
     "reference_id": 7178,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "安息",
     "media_type": "Text",
     "index_reference": "安息",
@@ -181,13 +182,22 @@
           "label": "安息日",
           "language": "zht"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Tranquil",
+          "type": "keyterm",
+          "preferred_label": "Tranquil",
+          "confidence": 0.8268,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "340990",
     "reference_id": 7250,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "安息日",
     "media_type": "Text",
     "index_reference": "安息日",
@@ -539,7 +549,8 @@
           "end_ref_usfm": "HEB 4:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   }
 ]

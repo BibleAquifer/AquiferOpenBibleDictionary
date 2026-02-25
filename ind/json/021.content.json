@@ -2,7 +2,7 @@
   {
     "content_id": "369102",
     "reference_id": 6649,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Zaitun, Bukit",
     "media_type": "Text",
     "index_reference": "zaitun, bukit",
@@ -108,13 +108,22 @@
           "end_ref_usfm": "JHN 11:44"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:OlivesMount",
+          "type": "place",
+          "preferred_label": "Zaitun",
+          "confidence": 0.6165,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "369138",
     "reference_id": 8320,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ZELOT",
     "media_type": "Text",
     "index_reference": "zelot",
@@ -249,13 +258,29 @@
           "label": "Simon orang Zelot",
           "language": "ind"
         }
+      ],
+      "acai": [
+        {
+          "id": "group:Zealot",
+          "type": "group",
+          "preferred_label": "Zelot",
+          "confidence": 0.6267,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Simon.2",
+          "type": "person",
+          "preferred_label": "Simon",
+          "confidence": 0.6128,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "369139",
     "reference_id": 8343,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Zelotes",
     "media_type": "Text",
     "index_reference": "zelotes",
@@ -277,7 +302,51 @@
           "end_ref_usfm": "ACT 1:13"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Simon.2",
+          "type": "person",
+          "preferred_label": "Simon",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Alphaeus",
+          "type": "person",
+          "preferred_label": "Alfeus",
+          "confidence": 0.757,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Matthew",
+          "type": "person",
+          "preferred_label": "Matius",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:James.2",
+          "type": "person",
+          "preferred_label": "Yakobus",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Thomas",
+          "type": "person",
+          "preferred_label": "Tomas",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Bartholomew",
+          "type": "person",
+          "preferred_label": "Bartolomeus",
+          "confidence": 0.548,
+          "match_method": "scored"
+        }
+      ]
     }
   }
 ]

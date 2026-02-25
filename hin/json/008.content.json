@@ -2,7 +2,7 @@
   {
     "content_id": "649771",
     "reference_id": 8138,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ऊँचे फाटक",
     "media_type": "Text",
     "index_reference": "ऊँचे फाटक",
@@ -36,13 +36,14 @@
           "end_ref_usfm": "EZK 9:2"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "594593",
     "reference_id": 5016,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ऊँचे स्थान",
     "media_type": "Text",
     "index_reference": "ऊँचे स्थान",
@@ -285,13 +286,22 @@
           "label": "मूर्तियाँ, मूर्तिपूजा",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:HighPlace",
+          "type": "realia",
+          "preferred_label": "High Place",
+          "confidence": 0.8128,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "732715",
     "reference_id": 3569,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ऊँट",
     "media_type": "Text",
     "index_reference": "ऊँट",
@@ -308,13 +318,36 @@
           "label": "यात्रा",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Uri",
+          "type": "person",
+          "preferred_label": "ऊरी",
+          "confidence": 0.8455,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Uri.2",
+          "type": "person",
+          "preferred_label": "ऊरी",
+          "confidence": 0.8455,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Uri.3",
+          "type": "person",
+          "preferred_label": "ऊरी",
+          "confidence": 0.8455,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "732714",
     "reference_id": 3568,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ऊँट का कांटा",
     "media_type": "Text",
     "index_reference": "ऊँट का कांटा",
@@ -338,13 +371,14 @@
           "label": "कटीली झाड़ी, कांटे  ",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "734059",
     "reference_id": 8120,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ऊएल",
     "media_type": "Text",
     "index_reference": "ऊएल",
@@ -360,13 +394,43 @@
           "end_ref_usfm": "EZR 10:34"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Uel",
+          "type": "person",
+          "preferred_label": "ऊएल",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Amram.2",
+          "type": "person",
+          "preferred_label": "अम्राम",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Maadai",
+          "type": "person",
+          "preferred_label": "मादै",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Bani.5",
+          "type": "person",
+          "preferred_label": "बानी",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "381911",
     "reference_id": 8151,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ऊजाल (व्यक्ति)",
     "media_type": "Text",
     "index_reference": "ऊजाल (व्यक्ति)",
@@ -388,13 +452,36 @@
           "end_ref_usfm": "1CH 1:21"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Uzal",
+          "type": "person",
+          "preferred_label": "ऊजाल",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Diklah",
+          "type": "person",
+          "preferred_label": "दिक्ला",
+          "confidence": 0.748,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hadoram.2",
+          "type": "person",
+          "preferred_label": "हदोराम",
+          "confidence": 0.64,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "734070",
     "reference_id": 8152,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ऊजाल (स्थान)",
     "media_type": "Text",
     "index_reference": "ऊजाल (स्थान)",
@@ -410,13 +497,43 @@
           "end_ref_usfm": "EZK 27:19"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Uzal",
+          "type": "place",
+          "preferred_label": "Izal",
+          "confidence": 0.6265,
+          "match_method": "scored"
+        },
+        {
+          "id": "flora:Calamus",
+          "type": "flora",
+          "preferred_label": "Calamus",
+          "confidence": 0.613,
+          "match_method": "scored"
+        },
+        {
+          "id": "flora:Cassia",
+          "type": "flora",
+          "preferred_label": "Cassia",
+          "confidence": 0.6085,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Vedan",
+          "type": "place",
+          "preferred_label": "Vedan",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "734069",
     "reference_id": 8150,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ऊजै",
     "media_type": "Text",
     "index_reference": "ऊजै",
@@ -432,13 +549,43 @@
           "end_ref_usfm": "NEH 3:25"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Uzai",
+          "type": "person",
+          "preferred_label": "ऊजै",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Palal",
+          "type": "person",
+          "preferred_label": "पालाल",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Pedaiah.4",
+          "type": "person",
+          "preferred_label": "पदायाह",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Parosh.3",
+          "type": "person",
+          "preferred_label": "परोश",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "649774",
     "reference_id": 8149,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ऊतै",
     "media_type": "Text",
     "index_reference": "ऊतै",
@@ -460,13 +607,29 @@
           "end_ref_usfm": "EZR 8:14"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Uthai",
+          "type": "person",
+          "preferred_label": "ऊतै",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uthai.2",
+          "type": "person",
+          "preferred_label": "ऊतै",
+          "confidence": 0.8,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "594867",
     "reference_id": 8256,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ऊन",
     "media_type": "Text",
     "index_reference": "ऊन",
@@ -550,13 +713,14 @@
           "label": "कपड़ा एवं कपड़ा निर्माण",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "649598",
     "reference_id": 7476,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ऊन कतरने का स्थान",
     "media_type": "Text",
     "index_reference": "ऊन कतरने का स्थान",
@@ -580,13 +744,14 @@
           "label": "बेतएकेद",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "733648",
     "reference_id": 6759,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ऊपर्सीन",
     "media_type": "Text",
     "index_reference": "ऊपर्सीन",
@@ -616,13 +781,14 @@
           "label": "मने, मने, तकेल, ऊपर्सीन",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "734067",
     "reference_id": 8137,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ऊफाज",
     "media_type": "Text",
     "index_reference": "ऊफाज",
@@ -652,13 +818,22 @@
           "label": "ओपीर (स्थान)",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Uphaz",
+          "type": "place",
+          "preferred_label": "ऊफाज",
+          "confidence": 1.0,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "649773",
     "reference_id": 8147,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ऊर (व्यक्ति)",
     "media_type": "Text",
     "index_reference": "ऊर (व्यक्ति)",
@@ -680,13 +855,29 @@
           "end_ref_usfm": "1CH 11:35"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Ur",
+          "type": "person",
+          "preferred_label": "ऊर",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Sharar",
+          "type": "person",
+          "preferred_label": "शारार",
+          "confidence": 0.53,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "381910",
     "reference_id": 8148,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ऊर (स्थान)",
     "media_type": "Text",
     "index_reference": "ऊर (स्थान)",
@@ -720,13 +911,36 @@
           "end_ref_usfm": "NEH 9:7"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Ur",
+          "type": "place",
+          "preferred_label": "ऊर",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Chaldea",
+          "type": "place",
+          "preferred_label": "Chaldea",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Chaldea",
+          "type": "group",
+          "preferred_label": "कसदियों",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "620822",
     "reference_id": 8141,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ऊरिय्याह",
     "media_type": "Text",
     "index_reference": "ऊरिय्याह",
@@ -817,13 +1031,71 @@
           "label": "यीशु मसीह की वंशावली",
           "language": "hin"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Uriah",
+          "type": "person",
+          "preferred_label": "ऊरिय्याह",
+          "confidence": 0.7565,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uriah.3",
+          "type": "person",
+          "preferred_label": "ऊरिय्याह",
+          "confidence": 0.6435,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uriah.2",
+          "type": "person",
+          "preferred_label": "ऊरिय्याह",
+          "confidence": 0.6261,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uriah.4",
+          "type": "person",
+          "preferred_label": "ऊरिय्याह",
+          "confidence": 0.6261,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uriah.5",
+          "type": "person",
+          "preferred_label": "ऊरिय्याह",
+          "confidence": 0.6087,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Zechariah.29",
+          "type": "person",
+          "preferred_label": "जकर्याह",
+          "confidence": 0.5052,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Zechariah.22",
+          "type": "person",
+          "preferred_label": "जकर्याह",
+          "confidence": 0.5052,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:David",
+          "type": "person",
+          "preferred_label": "दाऊद",
+          "confidence": 0.5039,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "594855",
     "reference_id": 8146,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ऊरी",
     "media_type": "Text",
     "index_reference": "ऊरी",
@@ -875,13 +1147,43 @@
           "end_ref_usfm": "EZR 10:24"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Uri",
+          "type": "person",
+          "preferred_label": "ऊरी",
+          "confidence": 0.8857,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uri.3",
+          "type": "person",
+          "preferred_label": "ऊरी",
+          "confidence": 0.6571,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uri.2",
+          "type": "person",
+          "preferred_label": "ऊरी",
+          "confidence": 0.6571,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hur.2",
+          "type": "person",
+          "preferred_label": "हूर",
+          "confidence": 0.6157,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "649772",
     "reference_id": 8143,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ऊरीएल",
     "media_type": "Text",
     "index_reference": "ऊरीएल",
@@ -915,13 +1217,50 @@
           "end_ref_usfm": "1CH 15:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Uriel.2",
+          "type": "person",
+          "preferred_label": "ऊरीएल",
+          "confidence": 0.68,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Eliel.7",
+          "type": "person",
+          "preferred_label": "एलीएल",
+          "confidence": 0.68,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uriel",
+          "type": "person",
+          "preferred_label": "ऊरीएल",
+          "confidence": 0.64,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uriel.3",
+          "type": "person",
+          "preferred_label": "ऊरीएल",
+          "confidence": 0.64,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Joel.8",
+          "type": "person",
+          "preferred_label": "योएल",
+          "confidence": 0.5315,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "594854",
     "reference_id": 8145,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ऊरीम और तुम्मीम",
     "media_type": "Text",
     "index_reference": "ऊरीम और तुम्मीम",
@@ -975,13 +1314,14 @@
           "label": "चिट्ठियाँ डालना",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "649767",
     "reference_id": 8123,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ऊलाम",
     "media_type": "Text",
     "index_reference": "ऊलाम",
@@ -1003,13 +1343,36 @@
           "end_ref_usfm": "1CH 8:40"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Ulam",
+          "type": "person",
+          "preferred_label": "ऊलाम",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ulam.2",
+          "type": "person",
+          "preferred_label": "ऊलाम",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Maacah.5",
+          "type": "person",
+          "preferred_label": "माका",
+          "confidence": 0.5065,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "734060",
     "reference_id": 8122,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ऊलै",
     "media_type": "Text",
     "index_reference": "ऊलै",
@@ -1025,13 +1388,22 @@
           "end_ref_usfm": "DAN 8:16"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Ulai",
+          "type": "place",
+          "preferred_label": "ऊलै",
+          "confidence": 0.6533,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "381912",
     "reference_id": 8153,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ऊस (व्यक्ति)",
     "media_type": "Text",
     "index_reference": "ऊस (व्यक्ति)",
@@ -1071,13 +1443,36 @@
           "end_ref_usfm": "1CH 1:42"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Uz.3",
+          "type": "person",
+          "preferred_label": "ऊस",
+          "confidence": 0.76,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uz",
+          "type": "person",
+          "preferred_label": "ऊस",
+          "confidence": 0.76,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uz.2",
+          "type": "person",
+          "preferred_label": "ऊस",
+          "confidence": 0.68,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "381913",
     "reference_id": 8154,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ऊस (स्थान)",
     "media_type": "Text",
     "index_reference": "ऊस (स्थान)",
@@ -1123,7 +1518,23 @@
           "end_ref_usfm": "LAM 4:21"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Uz",
+          "type": "place",
+          "preferred_label": "ऊस",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uz",
+          "type": "person",
+          "preferred_label": "ऊस",
+          "confidence": 0.6667,
+          "match_method": "scored"
+        }
+      ]
     }
   }
 ]

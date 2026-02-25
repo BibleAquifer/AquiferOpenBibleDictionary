@@ -2,7 +2,7 @@
   {
     "content_id": "468188",
     "reference_id": 5179,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Zaburi za laana",
     "media_type": "Text",
     "index_reference": "zaburi za laana",
@@ -213,13 +213,14 @@
           "label": "Zaburi, Kitabu cha",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "468209",
     "reference_id": 7009,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Zaburi, Kitabu cha",
     "media_type": "Text",
     "index_reference": "zaburi, kitabu cha",
@@ -1856,13 +1857,14 @@
           "label": "Hekalu",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "713750",
     "reference_id": 8203,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Zamu",
     "media_type": "Text",
     "index_reference": "zamu",
@@ -1916,13 +1918,22 @@
           "label": "Usiku",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Zaham",
+          "type": "person",
+          "preferred_label": "Zahamu",
+          "confidence": 0.8042,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "689627",
     "reference_id": 8324,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Zebedayo",
     "media_type": "Text",
     "index_reference": "zebedayo",
@@ -1968,13 +1979,36 @@
           "end_ref_usfm": "MRK 1:20"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Zebedee",
+          "type": "person",
+          "preferred_label": "Zebedayo",
+          "confidence": 0.9429,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:James",
+          "type": "person",
+          "preferred_label": "Yakobo",
+          "confidence": 0.5091,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:John.2",
+          "type": "person",
+          "preferred_label": "Yohana",
+          "confidence": 0.5091,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "419821",
     "reference_id": 8320,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Zelote",
     "media_type": "Text",
     "index_reference": "zelote",
@@ -2172,13 +2206,29 @@
           "label": "Hekalu",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "group:Zealot",
+          "type": "group",
+          "preferred_label": "Zelote",
+          "confidence": 0.6267,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Simon.2",
+          "type": "person",
+          "preferred_label": "Simoni",
+          "confidence": 0.6173,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "468223",
     "reference_id": 8343,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Zelote",
     "media_type": "Text",
     "index_reference": "zelote",
@@ -2208,13 +2258,57 @@
           "label": "Simoni",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Simon.2",
+          "type": "person",
+          "preferred_label": "Simoni",
+          "confidence": 0.964,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Matthew",
+          "type": "person",
+          "preferred_label": "Mathayo",
+          "confidence": 0.73,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Alphaeus",
+          "type": "person",
+          "preferred_label": "Alfayo",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Thomas",
+          "type": "person",
+          "preferred_label": "Tomaso",
+          "confidence": 0.64,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:James.2",
+          "type": "person",
+          "preferred_label": "Yakobo",
+          "confidence": 0.631,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Bartholomew",
+          "type": "person",
+          "preferred_label": "Bartholomayo",
+          "confidence": 0.5075,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "419822",
     "reference_id": 8349,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Zena",
     "media_type": "Text",
     "index_reference": "zena",
@@ -2230,13 +2324,22 @@
           "end_ref_usfm": "TIT 3:13"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Zenas",
+          "type": "person",
+          "preferred_label": "Zena",
+          "confidence": 1.0,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "800614",
     "reference_id": 6684,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Zeze",
     "media_type": "Text",
     "index_reference": "zeze",
@@ -2278,13 +2381,29 @@
           "label": "Ala za Muziki",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Lute",
+          "type": "realia",
+          "preferred_label": "Lute",
+          "confidence": 0.648,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:Flute",
+          "type": "realia",
+          "preferred_label": "Flute",
+          "confidence": 0.5625,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "852587",
     "reference_id": 8387,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Zigurati",
     "media_type": "Text",
     "index_reference": "zigurati",
@@ -2300,13 +2419,14 @@
           "end_ref_usfm": "GEN 11:9"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "800627",
     "reference_id": 8390,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Zillah",
     "media_type": "Text",
     "index_reference": "zillah",
@@ -2322,13 +2442,36 @@
           "end_ref_usfm": "GEN 4:23"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Zillah",
+          "type": "person",
+          "preferred_label": "Sila",
+          "confidence": 0.84,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Adah",
+          "type": "person",
+          "preferred_label": "Ada",
+          "confidence": 0.57,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Lamech",
+          "type": "person",
+          "preferred_label": "Lameki",
+          "confidence": 0.535,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "852589",
     "reference_id": 8438,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Zuzimu, Wazuzi",
     "media_type": "Text",
     "index_reference": "zuzimu, wazuzi",
@@ -2350,7 +2493,30 @@
           "end_ref_usfm": "DEU 2:20"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "group:Rephaim",
+          "type": "group",
+          "preferred_label": "Rephaim",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Zuzim",
+          "type": "group",
+          "preferred_label": "Zuzim",
+          "confidence": 0.602,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Ammon",
+          "type": "place",
+          "preferred_label": "Waamoni",
+          "confidence": 0.535,
+          "match_method": "scored"
+        }
+      ]
     }
   }
 ]

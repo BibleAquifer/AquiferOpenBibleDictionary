@@ -2,7 +2,7 @@
   {
     "content_id": "838321",
     "reference_id": 4414,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "恐懼",
     "media_type": "Text",
     "index_reference": "恐懼",
@@ -294,7 +294,16 @@
           "end_ref_usfm": "PRO 2:5"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "keyterm:Fear",
+          "type": "keyterm",
+          "preferred_label": "Fear",
+          "confidence": 0.9065,
+          "match_method": "embedding"
+        }
+      ]
     }
   }
 ]

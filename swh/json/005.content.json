@@ -2,7 +2,7 @@
   {
     "content_id": "689608",
     "reference_id": 6897,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Daktari",
     "media_type": "Text",
     "index_reference": "daktari",
@@ -80,13 +80,14 @@
           "label": "Dawa na Mazoezi ya Tiba",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "811725",
     "reference_id": 4041,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Daktari wa Sheria",
     "media_type": "Text",
     "index_reference": "daktari wa sheria",
@@ -116,13 +117,36 @@
           "label": "Mwalimu",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "group:Pharisee",
+          "type": "group",
+          "preferred_label": "Pharisees",
+          "confidence": 0.571,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Galilee",
+          "type": "place",
+          "preferred_label": "Galilaya",
+          "confidence": 0.5255,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Gamaliel",
+          "type": "person",
+          "preferred_label": "Gamalieli",
+          "confidence": 0.521,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "852493",
     "reference_id": 3910,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dameski",
     "media_type": "Text",
     "index_reference": "dameski",
@@ -248,13 +272,22 @@
           "label": "Siria, Wasiria",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Damascus",
+          "type": "place",
+          "preferred_label": "Dameski",
+          "confidence": 0.6813,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "811711",
     "reference_id": 3445,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Damu",
     "media_type": "Text",
     "index_reference": "damu",
@@ -500,13 +533,22 @@
           "label": "Sadaka na Dhabihu",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Blood",
+          "type": "keyterm",
+          "preferred_label": "Blood",
+          "confidence": 0.803,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "713684",
     "reference_id": 3442,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Damu, Mtiririko wa",
     "media_type": "Text",
     "index_reference": "damu, mtiririko wa",
@@ -579,13 +621,14 @@
           "label": "Dawa na Mazoezi ya Tiba",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "468170",
     "reference_id": 3441,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Damu, Shamba la",
     "media_type": "Text",
     "index_reference": "damu, shamba la",
@@ -607,13 +650,29 @@
           "end_ref_usfm": "ACT 1:19"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Akeldama",
+          "type": "place",
+          "preferred_label": "Akeldama",
+          "confidence": 0.7525,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Blood",
+          "type": "keyterm",
+          "preferred_label": "Blood",
+          "confidence": 0.544,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "468178",
     "reference_id": 3937,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Daudi",
     "media_type": "Text",
     "index_reference": "daudi",
@@ -1181,13 +1240,22 @@
           "label": "Mfalme",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:David",
+          "type": "person",
+          "preferred_label": "Daudi",
+          "confidence": 0.6808,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "713721",
     "reference_id": 6179,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dawa na Mazoezi ya Tiba",
     "media_type": "Text",
     "index_reference": "dawa na mazoezi ya tiba",
@@ -1380,13 +1448,14 @@
           "label": "Daktari",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "833380",
     "reference_id": 3961,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dedani (Mtu)",
     "media_type": "Text",
     "index_reference": "dedani (mtu)",
@@ -1414,13 +1483,57 @@
           "end_ref_usfm": "1CH 1:9"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Dedan",
+          "type": "person",
+          "preferred_label": "Dedani",
+          "confidence": 0.8667,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Dedan.2",
+          "type": "person",
+          "preferred_label": "Dedani",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Sheba",
+          "type": "person",
+          "preferred_label": "Sheba",
+          "confidence": 0.6417,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Seba",
+          "type": "person",
+          "preferred_label": "Seba",
+          "confidence": 0.5967,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Havilah",
+          "type": "person",
+          "preferred_label": "Havila",
+          "confidence": 0.5652,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Sabteca",
+          "type": "person",
+          "preferred_label": "Sabteka",
+          "confidence": 0.5562,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "713690",
     "reference_id": 3958,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dekapoli",
     "media_type": "Text",
     "index_reference": "dekapoli",
@@ -1442,13 +1555,29 @@
           "end_ref_usfm": "MRK 7:31"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Decapolis",
+          "type": "place",
+          "preferred_label": "Dekapoli",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Sidon",
+          "type": "place",
+          "preferred_label": "Wasidoni",
+          "confidence": 0.521,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "689618",
     "reference_id": 7691,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dhambi",
     "media_type": "Text",
     "index_reference": "dhambi",
@@ -1749,13 +1878,14 @@
           "label": "Dhambi isiyosameheka",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "713749",
     "reference_id": 8135,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dhambi isiyosameheka",
     "media_type": "Text",
     "index_reference": "dhambi isiyosameheka",
@@ -1897,13 +2027,14 @@
           "end_ref_usfm": "1JN 5:17"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "800577",
     "reference_id": 3804,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dhamiri",
     "media_type": "Text",
     "index_reference": "dhamiri",
@@ -1997,13 +2128,22 @@
           "end_ref_usfm": "1CO 10:33"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Damaris",
+          "type": "person",
+          "preferred_label": "Damari",
+          "confidence": 0.8027,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "833382",
     "reference_id": 4010,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dikla",
     "media_type": "Text",
     "index_reference": "dikla",
@@ -2025,13 +2165,36 @@
           "end_ref_usfm": "1CH 1:21"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Diklah",
+          "type": "person",
+          "preferred_label": "Dikla",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hadoram.2",
+          "type": "person",
+          "preferred_label": "Hadoramu",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Uzal",
+          "type": "person",
+          "preferred_label": "Uzali",
+          "confidence": 0.649,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "419820",
     "reference_id": 8240,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Divai",
     "media_type": "Text",
     "index_reference": "divai",
@@ -2323,13 +2486,29 @@
           "end_ref_usfm": "MAT 26:29"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "flora:Vine",
+          "type": "flora",
+          "preferred_label": "Vine",
+          "confidence": 0.5749,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:Wine",
+          "type": "realia",
+          "preferred_label": "Wine",
+          "confidence": 0.5719,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "778846",
     "reference_id": 4084,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Dunia",
     "media_type": "Text",
     "index_reference": "dunia",
@@ -2568,6 +2747,15 @@
           "resource_code": "TyndaleBibleDictionary",
           "label": "Mbingu Mpya na Dunia Mpya",
           "language": "swh"
+        }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Worldly",
+          "type": "keyterm",
+          "preferred_label": "Worldly",
+          "confidence": 0.8236,
+          "match_method": "embedding"
         }
       ]
     }

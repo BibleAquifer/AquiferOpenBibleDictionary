@@ -2,7 +2,7 @@
   {
     "content_id": "864913",
     "reference_id": 5130,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "烏斯（Huz）",
     "media_type": "Text",
     "index_reference": "烏斯（Huz）",
@@ -18,7 +18,37 @@
           "end_ref_usfm": "GEN 22:21"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Uz.2",
+          "type": "person",
+          "preferred_label": "Uz",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Buz",
+          "type": "person",
+          "preferred_label": "Buz",
+          "confidence": 0.748,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Kemuel",
+          "type": "person",
+          "preferred_label": "Kemuel",
+          "confidence": 0.6265,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Aram.2",
+          "type": "person",
+          "preferred_label": "Aram",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   }
 ]

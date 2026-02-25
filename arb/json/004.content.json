@@ -2,7 +2,7 @@
   {
     "content_id": "124591",
     "reference_id": 8211,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "الثروة",
     "media_type": "Text",
     "index_reference": "الثروة",
@@ -144,13 +144,14 @@
           "label": "الغنى",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "511920",
     "reference_id": 6931,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "الثريا",
     "media_type": "Text",
     "index_reference": "الثريا",
@@ -174,13 +175,14 @@
           "label": "ٱلْجَبَّار",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "201478",
     "reference_id": 4435,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "الثورة اليهوديَّة الأولى",
     "media_type": "Text",
     "index_reference": "الثورة اليهوديَّة الأولى",
@@ -242,13 +244,14 @@
           "label": "اليهودية",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "490652",
     "reference_id": 7372,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "الثورة اليهودية الثانية",
     "media_type": "Text",
     "index_reference": "الثورة اليهودية الثانية",
@@ -272,13 +275,29 @@
           "label": "بار كوخبا، بار كوكبا",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Israel",
+          "type": "person",
+          "preferred_label": "إِسْرَائِيلَ",
+          "confidence": 0.5305,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Seth",
+          "type": "person",
+          "preferred_label": "شِيثًا",
+          "confidence": 0.526,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "232621",
     "reference_id": 7983,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ثاؤفيلُس",
     "media_type": "Text",
     "index_reference": "ثاؤفيلُس",
@@ -318,13 +337,29 @@
           "end_ref_usfm": "ACT 24:3"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Felix",
+          "type": "person",
+          "preferred_label": "فِيلِكْسَ",
+          "confidence": 0.5623,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Theophilus",
+          "type": "person",
+          "preferred_label": "ثَاوفِيلس",
+          "confidence": 0.5488,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "335544",
     "reference_id": 8096,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ثالوث",
     "media_type": "Text",
     "index_reference": "ثالوث",
@@ -440,13 +475,14 @@
           "label": "روح",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "512492",
     "reference_id": 7896,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ثَامَارَ (اسم مكان)",
     "media_type": "Text",
     "index_reference": "ثَامَارَ (اسم مكان)",
@@ -482,13 +518,36 @@
           "label": "تَدْمُر",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Tamar.2",
+          "type": "place",
+          "preferred_label": "ثَامَارَ",
+          "confidence": 0.8667,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:BrookOfEgypt",
+          "type": "place",
+          "preferred_label": "وَادِي",
+          "confidence": 0.6237,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Meribah.2",
+          "type": "place",
+          "preferred_label": "مَرِيبَةَ",
+          "confidence": 0.5052,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "335538",
     "reference_id": 7972,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ثامار (تامار)",
     "media_type": "Text",
     "index_reference": "ثامار (تامار)",
@@ -512,13 +571,50 @@
           "label": "ثامار (شخص)",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Ram",
+          "type": "person",
+          "preferred_label": "رَامَ",
+          "confidence": 0.7015,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tamar",
+          "type": "person",
+          "preferred_label": "ثَامَارَ",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Perez",
+          "type": "person",
+          "preferred_label": "ٱقْتِحَامٌ",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Zerah.3",
+          "type": "person",
+          "preferred_label": "ٱلزَّارَحِيِّينَ",
+          "confidence": 0.649,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Hezron.2",
+          "type": "person",
+          "preferred_label": "حَصْرونَ",
+          "confidence": 0.6265,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "335534",
     "reference_id": 7895,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ثامار (شخص)",
     "media_type": "Text",
     "index_reference": "ثامار (شخص)",
@@ -585,13 +681,14 @@
           "label": "مَعْكَة* (شخص)",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "512546",
     "reference_id": 7976,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ثرشيش",
     "media_type": "Text",
     "index_reference": "ثرشيش",
@@ -634,13 +731,29 @@
           "label": "ترشيش (مكان)",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Tarshish",
+          "type": "place",
+          "preferred_label": "تَرْشِيشَ",
+          "confidence": 0.6957,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tarshish.2",
+          "type": "person",
+          "preferred_label": "تَرْشِيشَ",
+          "confidence": 0.5623,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "512389",
     "reference_id": 7717,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ثعبان",
     "media_type": "Text",
     "index_reference": "ثعبان",
@@ -678,13 +791,14 @@
           "label": "أفعى، صِّلّ (الكوبرا)",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "510417",
     "reference_id": 4471,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ثَعلَب",
     "media_type": "Text",
     "index_reference": "ثَعلَب",
@@ -708,13 +822,36 @@
           "label": "بَنَاتُ آوَى",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Tabeel",
+          "type": "person",
+          "preferred_label": "طَبْئِيل",
+          "confidence": 0.8576,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Tabeal",
+          "type": "person",
+          "preferred_label": "طَبْئِيلَ",
+          "confidence": 0.8564,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Tob",
+          "type": "place",
+          "preferred_label": "طوبٍ",
+          "confidence": 0.828,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "510419",
     "reference_id": 4481,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ثلج، صَّقيع، جليد",
     "media_type": "Text",
     "index_reference": "ثلج، صَّقيع، جليد",
@@ -754,13 +891,14 @@
           "end_ref_usfm": "ZEC 14:6"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "335283",
     "reference_id": 4482,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ثَمَرُ ٱلرُّوحِ",
     "media_type": "Text",
     "index_reference": "ثَمَرُ ٱلرُّوحِ",
@@ -806,13 +944,22 @@
           "end_ref_usfm": "GAL 5:26"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "deity:HolySpirit",
+          "type": "deity",
+          "preferred_label": "ٱلرّوحِ",
+          "confidence": 0.5389,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "510420",
     "reference_id": 4483,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ثمرة",
     "media_type": "Text",
     "index_reference": "ثمرة",
@@ -836,13 +983,14 @@
           "label": "نباتات",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "511983",
     "reference_id": 7050,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ثُمْنِيَّة",
     "media_type": "Text",
     "index_reference": "ثُمْنِيَّة",
@@ -859,13 +1007,57 @@
           "label": "الأوزان والمقاييس",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Zeruah",
+          "type": "person",
+          "preferred_label": "صَروعَة",
+          "confidence": 0.8106,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Achsah",
+          "type": "person",
+          "preferred_label": "عَكْسَة",
+          "confidence": 0.8078,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Achsah.2",
+          "type": "person",
+          "preferred_label": "عَكْسَة",
+          "confidence": 0.8078,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Rinnah",
+          "type": "person",
+          "preferred_label": "رِنَّة",
+          "confidence": 0.8049,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Zillah",
+          "type": "person",
+          "preferred_label": "صِلَّة",
+          "confidence": 0.8035,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Damascus",
+          "type": "place",
+          "preferred_label": "دِمَشْقَ",
+          "confidence": 0.8,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "509999",
     "reference_id": 3708,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ثُمْنِيَّةُ",
     "media_type": "Text",
     "index_reference": "ثُمْنِيَّةُ",
@@ -889,13 +1081,29 @@
           "label": "الأوزان والمقاييس",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Quart",
+          "type": "realia",
+          "preferred_label": "Quart",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:Denarius",
+          "type": "realia",
+          "preferred_label": "Denarius",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "331997",
     "reference_id": 7987,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ثُودَاسُ",
     "media_type": "Text",
     "index_reference": "ثُودَاسُ",
@@ -911,13 +1119,29 @@
           "end_ref_usfm": "ACT 5:36"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Theudas",
+          "type": "person",
+          "preferred_label": "ثودَاس",
+          "confidence": 0.964,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Persuade",
+          "type": "keyterm",
+          "preferred_label": "Persuade",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "509876",
     "reference_id": 3526,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ثور",
     "media_type": "Text",
     "index_reference": "ثور",
@@ -934,13 +1158,14 @@
           "label": "ماشية، بهائم",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "511803",
     "reference_id": 6708,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ثَوْر",
     "media_type": "Text",
     "index_reference": "ثَوْر",
@@ -964,13 +1189,43 @@
           "label": "ماشية، بهائم",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Tamar",
+          "type": "person",
+          "preferred_label": "ثَامَارَ",
+          "confidence": 0.8037,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Tamar.2",
+          "type": "person",
+          "preferred_label": "ثَامَارَ",
+          "confidence": 0.8037,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Tamar.3",
+          "type": "person",
+          "preferred_label": "ثَامَارَ",
+          "confidence": 0.8037,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Tamar.2",
+          "type": "place",
+          "preferred_label": "ثَامَارَ",
+          "confidence": 0.8037,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "512700",
     "reference_id": 8233,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ثَور بَري",
     "media_type": "Text",
     "index_reference": "ثَور بَري",
@@ -987,13 +1242,14 @@
           "label": "حيوانات",
           "language": "arb"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "490386",
     "reference_id": 4537,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ثوم",
     "media_type": "Text",
     "index_reference": "ثوم",
@@ -1024,13 +1280,57 @@
           "label": "بصل",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "flora:Garlic",
+          "type": "flora",
+          "preferred_label": "Garlic",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "flora:Watermelon",
+          "type": "flora",
+          "preferred_label": "Watermelon",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "flora:Leek",
+          "type": "flora",
+          "preferred_label": "Leek",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "flora:Muskmelon",
+          "type": "flora",
+          "preferred_label": "Muskmelon",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "flora:Onion",
+          "type": "flora",
+          "preferred_label": "Onion",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Egypt",
+          "type": "place",
+          "preferred_label": "مِصْرَ",
+          "confidence": 0.5125,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "331999",
     "reference_id": 7997,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ثَيَاتِيرَا",
     "media_type": "Text",
     "index_reference": "ثَيَاتِيرَا",
@@ -1084,13 +1384,22 @@
           "label": "سَِفْرُ الرُّؤْيا",
           "language": "arb"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Thyatira",
+          "type": "place",
+          "preferred_label": "ثَيَاتِيرَا",
+          "confidence": 0.6421,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "512556",
     "reference_id": 7998,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ثيني",
     "media_type": "Text",
     "index_reference": "ثيني",
@@ -1113,6 +1422,29 @@
           "resource_code": "TyndaleBibleDictionary",
           "label": "نباتات",
           "language": "arb"
+        }
+      ],
+      "acai": [
+        {
+          "id": "flora:CitronTree",
+          "type": "flora",
+          "preferred_label": "Citron",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "flora:Thyine",
+          "type": "flora",
+          "preferred_label": "Thyine",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:PurpleCloth",
+          "type": "realia",
+          "preferred_label": "Purple Cloth",
+          "confidence": 0.55,
+          "match_method": "scored"
         }
       ]
     }

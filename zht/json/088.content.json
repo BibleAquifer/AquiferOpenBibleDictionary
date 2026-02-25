@@ -2,7 +2,7 @@
   {
     "content_id": "838309",
     "reference_id": 3156,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "流放，放逐",
     "media_type": "Text",
     "index_reference": "流放，放逐",
@@ -138,13 +138,14 @@
           "end_ref_usfm": "EZR 10:8"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "864971",
     "reference_id": 7185,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "流瑪",
     "media_type": "Text",
     "index_reference": "流瑪",
@@ -160,13 +161,50 @@
           "end_ref_usfm": "GEN 22:24"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Maacah",
+          "type": "person",
+          "preferred_label": "Maacah",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tebah",
+          "type": "person",
+          "preferred_label": "Tebah",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Gaham",
+          "type": "person",
+          "preferred_label": "Gaham",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Reumah",
+          "type": "person",
+          "preferred_label": "Reumah",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tahash",
+          "type": "person",
+          "preferred_label": "Tahash",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "838310",
     "reference_id": 3443,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "流人血的罪",
     "media_type": "Text",
     "index_reference": "流人血的罪",
@@ -392,7 +430,8 @@
           "end_ref_usfm": "EZK 24:9"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   }
 ]

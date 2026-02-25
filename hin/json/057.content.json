@@ -2,7 +2,7 @@
   {
     "content_id": "733241",
     "reference_id": 5204,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ब्याज",
     "media_type": "Text",
     "index_reference": "ब्याज",
@@ -33,13 +33,14 @@
           "label": "धन",
           "language": "hin"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "732657",
     "reference_id": 3386,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ब्यूला",
     "media_type": "Text",
     "index_reference": "ब्यूला",
@@ -62,6 +63,22 @@
           "resource_code": "TyndaleBibleDictionary",
           "label": "मसीह की दुल्हन",
           "language": "hin"
+        }
+      ],
+      "acai": [
+        {
+          "id": "place:Jerusalem",
+          "type": "place",
+          "preferred_label": "यरूशलेम",
+          "confidence": 0.7015,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "यहोवा",
+          "confidence": 0.598,
+          "match_method": "scored"
         }
       ]
     }

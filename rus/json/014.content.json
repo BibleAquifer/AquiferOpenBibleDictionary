@@ -2,7 +2,7 @@
   {
     "content_id": "124450",
     "reference_id": 6782,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Павел, Апостол",
     "media_type": "Text",
     "index_reference": "павел, апостол",
@@ -1668,13 +1668,22 @@
           "end_ref_usfm": "ACT 2:13"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Paul",
+          "type": "person",
+          "preferred_label": "Павел",
+          "confidence": 0.6614,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "124449",
     "reference_id": 6771,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Пастырь",
     "media_type": "Text",
     "index_reference": "пастырь",
@@ -1760,13 +1769,22 @@
           "label": "Пресвитер*",
           "language": "rus"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:GenericPriest",
+          "type": "person",
+          "preferred_label": "A Priest",
+          "confidence": 0.8016,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "124441",
     "reference_id": 5656,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Послание Иуды",
     "media_type": "Text",
     "index_reference": "послание иуды",
@@ -2034,13 +2052,14 @@
           "end_ref_usfm": "ROM 16:27"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "124446",
     "reference_id": 6621,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Послушание",
     "media_type": "Text",
     "index_reference": "послушание",
@@ -2266,13 +2285,14 @@
           "end_ref_usfm": "PHP 2:8"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "124451",
     "reference_id": 6978,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Пресвитер*",
     "media_type": "Text",
     "index_reference": "пресвитер*",
@@ -2364,7 +2384,8 @@
           "label": "Пастырь",
           "language": "rus"
         }
-      ]
+      ],
+      "acai": []
     }
   }
 ]

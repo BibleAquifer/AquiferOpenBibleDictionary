@@ -2,7 +2,7 @@
   {
     "content_id": "800772",
     "reference_id": 6099,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "人",
     "media_type": "Text",
     "index_reference": "人",
@@ -166,13 +166,22 @@
           "label": "舊人與新人",
           "language": "zht"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:GenericPerson",
+          "type": "person",
+          "preferred_label": "A Person",
+          "confidence": 0.8177,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "800761",
     "reference_id": 4399,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "人的墮落",
     "media_type": "Text",
     "index_reference": "人的墮落",
@@ -228,13 +237,14 @@
           "label": "罪",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "340998",
     "reference_id": 7740,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "人子",
     "media_type": "Text",
     "index_reference": "人子",
@@ -710,13 +720,22 @@
           "label": "神的兒子",
           "language": "zht"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:GenericMale",
+          "type": "person",
+          "preferred_label": "A Man",
+          "confidence": 0.8062,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "315529",
     "reference_id": 6680,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "任命，承接聖職",
     "media_type": "Text",
     "index_reference": "任命，承接聖職",
@@ -1116,7 +1135,8 @@
           "end_ref_usfm": "ACT 6:5"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   }
 ]

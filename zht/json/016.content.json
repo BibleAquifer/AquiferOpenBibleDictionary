@@ -2,7 +2,7 @@
   {
     "content_id": "340934",
     "reference_id": 3797,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "承認",
     "media_type": "Text",
     "index_reference": "承認",
@@ -244,13 +244,22 @@
           "label": "悔改",
           "language": "zht"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Approved",
+          "type": "keyterm",
+          "preferred_label": "Approved",
+          "confidence": 0.8112,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "838314",
     "reference_id": 3746,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "城",
     "media_type": "Text",
     "index_reference": "城",
@@ -364,7 +373,8 @@
           "label": "考古學與聖經",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   }
 ]

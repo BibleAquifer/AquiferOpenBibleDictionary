@@ -2,7 +2,7 @@
   {
     "content_id": "369137",
     "reference_id": 8250,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Saksi",
     "media_type": "Text",
     "index_reference": "saksi",
@@ -198,13 +198,29 @@
           "end_ref_usfm": "1CO 15:8"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "keyterm:Witness",
+          "type": "keyterm",
+          "preferred_label": "saksi",
+          "confidence": 0.6147,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:BearWitness",
+          "type": "keyterm",
+          "preferred_label": "bersaksi",
+          "confidence": 0.5148,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "369040",
     "reference_id": 3521,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Saudara",
     "media_type": "Text",
     "index_reference": "saudara",
@@ -379,13 +395,14 @@
           "label": "Kehidupan Dan Hubungan Keluarga",
           "language": "ind"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "369038",
     "reference_id": 3519,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Saudara (dan Saudari)",
     "media_type": "Text",
     "index_reference": "saudara (dan saudari)",
@@ -497,13 +514,14 @@
           "end_ref_usfm": "1JN 4:21"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "369039",
     "reference_id": 3520,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Saudara-saudara Yesus",
     "media_type": "Text",
     "index_reference": "saudara-saudara yesus",
@@ -636,13 +654,22 @@
           "label": "Maria",
           "language": "ind"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Jesus.2",
+          "type": "person",
+          "preferred_label": "Yesus",
+          "confidence": 0.5125,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "369057",
     "reference_id": 4157,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Sebelas Murid",
     "media_type": "Text",
     "index_reference": "sebelas murid",
@@ -684,13 +711,14 @@
           "label": "Rasul, Kerasulan",
           "language": "ind"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "369126",
     "reference_id": 7677,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Simon orang Zelot",
     "media_type": "Text",
     "index_reference": "simon orang zelot",
@@ -724,13 +752,64 @@
           "end_ref_usfm": "ACT 1:13"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Simon.2",
+          "type": "person",
+          "preferred_label": "Simon",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Zealot",
+          "type": "group",
+          "preferred_label": "Zelot",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:James.2",
+          "type": "person",
+          "preferred_label": "Yakobus",
+          "confidence": 0.5715,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Thomas",
+          "type": "person",
+          "preferred_label": "Tomas",
+          "confidence": 0.5715,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Peter",
+          "type": "person",
+          "preferred_label": "Petrus",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Matthew",
+          "type": "person",
+          "preferred_label": "Matius",
+          "confidence": 0.5265,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Alphaeus",
+          "type": "person",
+          "preferred_label": "Alfeus",
+          "confidence": 0.5265,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "369127",
     "reference_id": 7678,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Simon Zelotes",
     "media_type": "Text",
     "index_reference": "simon zelotes",
@@ -752,13 +831,64 @@
           "end_ref_usfm": "ACT 1:13"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Simon.2",
+          "type": "person",
+          "preferred_label": "Simon",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:James.2",
+          "type": "person",
+          "preferred_label": "Yakobus",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Matthew",
+          "type": "person",
+          "preferred_label": "Matius",
+          "confidence": 0.694,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Alphaeus",
+          "type": "person",
+          "preferred_label": "Alfeus",
+          "confidence": 0.694,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Thomas",
+          "type": "person",
+          "preferred_label": "Tomas",
+          "confidence": 0.685,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Peter",
+          "type": "person",
+          "preferred_label": "Petrus",
+          "confidence": 0.65,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Bartholomew",
+          "type": "person",
+          "preferred_label": "Bartolomeus",
+          "confidence": 0.539,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "369130",
     "reference_id": 7792,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Stefanus",
     "media_type": "Text",
     "index_reference": "stefanus",
@@ -840,13 +970,22 @@
           "end_ref_usfm": "ACT 8:3"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Stephen",
+          "type": "person",
+          "preferred_label": "Stefanus",
+          "confidence": 0.625,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "369044",
     "reference_id": 3734,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Sunat",
     "media_type": "Text",
     "index_reference": "sunat",
@@ -1408,13 +1547,14 @@
           "end_ref_usfm": "GAL 3:9"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "369068",
     "reference_id": 4517,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Surat kepada Jemaat di Galatia",
     "media_type": "Text",
     "index_reference": "surat kepada jemaat di galatia",
@@ -1776,13 +1916,29 @@
           "label": "Paulus, Rasul",
           "language": "ind"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Galatia",
+          "type": "place",
+          "preferred_label": "Galatia",
+          "confidence": 0.6071,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Galatia",
+          "type": "group",
+          "preferred_label": "Galatians",
+          "confidence": 0.6018,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "369073",
     "reference_id": 4922,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Surga",
     "media_type": "Text",
     "index_reference": "surga",
@@ -2224,7 +2380,16 @@
           "end_ref_usfm": "REV 19:4"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "keyterm:Heaven",
+          "type": "keyterm",
+          "preferred_label": "sorga",
+          "confidence": 0.5856,
+          "match_method": "scored"
+        }
+      ]
     }
   }
 ]

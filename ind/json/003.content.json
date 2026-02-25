@@ -2,7 +2,7 @@
   {
     "content_id": "369037",
     "reference_id": 3445,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Darah",
     "media_type": "Text",
     "index_reference": "darah ",
@@ -240,13 +240,22 @@
           "end_ref_usfm": "HEB 13:12"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "keyterm:Blood",
+          "type": "keyterm",
+          "preferred_label": "darah",
+          "confidence": 0.6947,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "369036",
     "reference_id": 3441,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Darah, Tanah",
     "media_type": "Text",
     "index_reference": "darah, tanah",
@@ -268,13 +277,29 @@
           "end_ref_usfm": "ACT 1:19"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "keyterm:Blood",
+          "type": "keyterm",
+          "preferred_label": "darah",
+          "confidence": 0.85,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Akeldama",
+          "type": "place",
+          "preferred_label": "Akeldama",
+          "confidence": 0.694,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "369049",
     "reference_id": 3937,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Daud",
     "media_type": "Text",
     "index_reference": "daud",
@@ -821,13 +846,22 @@
           "label": "Raja",
           "language": "ind"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:David",
+          "type": "person",
+          "preferred_label": "Daud",
+          "confidence": 0.6808,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "369053",
     "reference_id": 3999,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Diaspora orang Yahudi",
     "media_type": "Text",
     "index_reference": "diaspora orang yahudi",
@@ -1085,13 +1119,22 @@
           "label": "Israel, Sejarah",
           "language": "ind"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Cuthah",
+          "type": "place",
+          "preferred_label": "orang-orang",
+          "confidence": 0.6027,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "369116",
     "reference_id": 6974,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Doa",
     "media_type": "Text",
     "index_reference": "doa",
@@ -1365,7 +1408,16 @@
           "end_ref_usfm": "HEB 10:23"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "keyterm:Intercession",
+          "type": "keyterm",
+          "preferred_label": "doa",
+          "confidence": 0.8786,
+          "match_method": "embedding"
+        }
+      ]
     }
   }
 ]

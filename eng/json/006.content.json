@@ -2,7 +2,7 @@
   {
     "content_id": "5227",
     "reference_id": 4395,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fair Havens",
     "media_type": "Text",
     "index_reference": "fair havens",
@@ -18,13 +18,29 @@
           "end_ref_usfm": "ACT 27:8"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:FairHavens",
+          "type": "place",
+          "preferred_label": "Fair Havens",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "place:Lasea",
+          "type": "place",
+          "preferred_label": "Lasea",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "5229",
     "reference_id": 4397,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Faith",
     "media_type": "Text",
     "index_reference": "faith",
@@ -316,13 +332,50 @@
           "end_ref_usfm": "GAL 4:31"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "keyterm:Faithfulness",
+          "type": "keyterm",
+          "preferred_label": "Faithfulness",
+          "confidence": 0.897,
+          "match_method": "embedding"
+        },
+        {
+          "id": "keyterm:LeanOn",
+          "type": "keyterm",
+          "preferred_label": "Trust",
+          "confidence": 0.8872,
+          "match_method": "embedding"
+        },
+        {
+          "id": "keyterm:Believe",
+          "type": "keyterm",
+          "preferred_label": "Believe",
+          "confidence": 0.8626,
+          "match_method": "embedding"
+        },
+        {
+          "id": "keyterm:Confidence",
+          "type": "keyterm",
+          "preferred_label": "Confidence",
+          "confidence": 0.8505,
+          "match_method": "embedding"
+        },
+        {
+          "id": "keyterm:BelieveIn",
+          "type": "keyterm",
+          "preferred_label": "Believe In",
+          "confidence": 0.8195,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "5228",
     "reference_id": 4396,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Faithfulness",
     "media_type": "Text",
     "index_reference": "faithfulness",
@@ -428,13 +481,22 @@
           "end_ref_usfm": "HEB 11:10"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "keyterm:Kindness",
+          "type": "keyterm",
+          "preferred_label": "Kindness",
+          "confidence": 0.6098,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "5230",
     "reference_id": 4398,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Falcon, Kestrel",
     "media_type": "Text",
     "index_reference": "falcon, kestrel",
@@ -477,13 +539,29 @@
           "label": "Kite",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Falcon",
+          "type": "fauna",
+          "preferred_label": "Falcon",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "fauna:BlackKite",
+          "type": "fauna",
+          "preferred_label": "Black Kite",
+          "confidence": 0.6417,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "5231",
     "reference_id": 4399,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fall of Man",
     "media_type": "Text",
     "index_reference": "fall of man",
@@ -539,13 +617,22 @@
           "label": "Sin",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Adam",
+          "type": "person",
+          "preferred_label": "Adam",
+          "confidence": 0.645,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "5232",
     "reference_id": 4400,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fallow Deer",
     "media_type": "Text",
     "index_reference": "fallow deer",
@@ -576,13 +663,64 @@
           "label": "Gazelle",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:BubalHartebeest",
+          "type": "fauna",
+          "preferred_label": "Bubal Hartebeest",
+          "confidence": 0.8515,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Deer",
+          "type": "fauna",
+          "preferred_label": "Deer",
+          "confidence": 0.85,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Addax",
+          "type": "fauna",
+          "preferred_label": "Addax",
+          "confidence": 0.748,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Oryx",
+          "type": "fauna",
+          "preferred_label": "Oryx",
+          "confidence": 0.649,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Ibex",
+          "type": "fauna",
+          "preferred_label": "Ibex",
+          "confidence": 0.64,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Hartebeest",
+          "type": "fauna",
+          "preferred_label": "Hartebeest",
+          "confidence": 0.6355,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Gazelle",
+          "type": "fauna",
+          "preferred_label": "Gazelle",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "5233",
     "reference_id": 4401,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "False Christs, False Messiahs",
     "media_type": "Text",
     "index_reference": "false christs, false messiahs",
@@ -630,13 +768,14 @@
           "label": "Antichrist",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "5234",
     "reference_id": 4402,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "False Prophets",
     "media_type": "Text",
     "index_reference": "false prophets",
@@ -653,13 +792,14 @@
           "label": "Prophets, False",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "5235",
     "reference_id": 4403,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Family Life and Relations",
     "media_type": "Text",
     "index_reference": "family life and relations",
@@ -1491,13 +1631,14 @@
           "label": "Woman",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "5236",
     "reference_id": 4404,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Famine",
     "media_type": "Text",
     "index_reference": "famine",
@@ -1657,13 +1798,14 @@
           "end_ref_usfm": "2KI 25:3"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "5237",
     "reference_id": 4405,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Farmer, Farming",
     "media_type": "Text",
     "index_reference": "farmer, farming",
@@ -1680,13 +1822,14 @@
           "label": "Agriculture",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "5238",
     "reference_id": 4406,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Farthing",
     "media_type": "Text",
     "index_reference": "farthing",
@@ -1720,13 +1863,29 @@
           "end_ref_usfm": "LUK 12:6"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "realia:Assarion",
+          "type": "realia",
+          "preferred_label": "Assarion",
+          "confidence": 0.575,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:Quadrans",
+          "type": "realia",
+          "preferred_label": "Quadrans",
+          "confidence": 0.521,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "5239",
     "reference_id": 4407,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fast, Fasting",
     "media_type": "Text",
     "index_reference": "fast, fasting",
@@ -1930,13 +2089,22 @@
           "label": "Prayer",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Fast",
+          "type": "keyterm",
+          "preferred_label": "Abstain from Food",
+          "confidence": 0.6348,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "5241",
     "reference_id": 4409,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Father (Human)",
     "media_type": "Text",
     "index_reference": "father (human)",
@@ -1953,13 +2121,22 @@
           "label": "Family Life and Relations",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "LORD",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "5242",
     "reference_id": 4410,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Father-in-Law",
     "media_type": "Text",
     "index_reference": "father-in-law",
@@ -1976,13 +2153,14 @@
           "label": "Family Life and Relations",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "5243",
     "reference_id": 4411,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fathom",
     "media_type": "Text",
     "index_reference": "fathom",
@@ -2006,13 +2184,22 @@
           "label": "Weights and Measures",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Fathom",
+          "type": "realia",
+          "preferred_label": "Fathom",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "5244",
     "reference_id": 4412,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fawn",
     "media_type": "Text",
     "index_reference": "fawn",
@@ -2029,13 +2216,14 @@
           "label": "Animals",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "5245",
     "reference_id": 4413,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fayum",
     "media_type": "Text",
     "index_reference": "fayum",
@@ -2044,13 +2232,14 @@
     "content": "<h1>FAYUM</h1><p>Egypt’s largest oasis, about 70 miles (112.6 kilometers) southwest of Cairo. In the center is Lake Qarun, Egypt’s only large inland lake, which today covers 90 square miles (144.8 square kilometers), is about 17 feet (5.2 meters) deep, and has a surface 147 feet (44.8 meters) below the level of the Mediterranean Sea. Lake Qarun is surrounded by about a half million acres of farmland. In ancient times Qarun evidently was much larger than it is today.</p><p>Many ancient writers, following fifth-century BC Greek historian Herodotus, believed that the lake, which made the Fayum possible, was an artificial construction. But modern investigations have concluded that it was spring-fed. Sometime after 2000 BC, during the Middle Kingdom period of Egypt, a canal was dug with sluice gates to connect Lake Qarun and the Nile River. Rulers during that period also constructed an irrigation system and brought much of the area under cultivation.</p><p>Prosperity of the Fayum declined when Ramses II and others used buildings of the area for stone quarries. The Ptolemies restored its prosperity during the third and second centuries BC, when many Greek colonists arrived. In addition to exploration of the monuments of the Fayum, archaeologists have unearthed quantities of papyrus literature written in Greek. These papyri have helped to clarify the meaning of some words used in the NT.</p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "5246",
     "reference_id": 4414,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fear",
     "media_type": "Text",
     "index_reference": "fear",
@@ -2342,13 +2531,22 @@
           "end_ref_usfm": "PRO 2:5"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "keyterm:Fear",
+          "type": "keyterm",
+          "preferred_label": "Fear",
+          "confidence": 0.7579,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "4305",
     "reference_id": 3473,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Feast of Booths",
     "media_type": "Text",
     "index_reference": "feast of booths",
@@ -2372,13 +2570,22 @@
           "label": "Feasts and Festivals of Israel",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:FeastOfTabernacles",
+          "type": "keyterm",
+          "preferred_label": "Feast of Tabernacles",
+          "confidence": 0.8235,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "6021",
     "reference_id": 5189,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Feast of Ingathering",
     "media_type": "Text",
     "index_reference": "feast of ingathering",
@@ -2402,13 +2609,22 @@
           "label": "Feasts and Festivals of Israel",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "LORD",
+          "confidence": 0.527,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "5247",
     "reference_id": 4415,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Feast of Lights",
     "media_type": "Text",
     "index_reference": "feast of lights",
@@ -2425,13 +2641,14 @@
           "label": "Feasts and Festivals of Israel",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "8695",
     "reference_id": 7863,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Feast of Tabernacles",
     "media_type": "Text",
     "index_reference": "feast of tabernacles",
@@ -2455,13 +2672,29 @@
           "label": "Feasts and Festivals of Israel",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:FeastOfTabernacles",
+          "type": "keyterm",
+          "preferred_label": "Feast of Tabernacles",
+          "confidence": 0.6364,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "LORD",
+          "confidence": 0.5613,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "8933",
     "reference_id": 8101,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Feast of Trumpets",
     "media_type": "Text",
     "index_reference": "feast of trumpets",
@@ -2485,13 +2718,29 @@
           "label": "Feasts and Festivals of Israel",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:FeastOfTabernacles",
+          "type": "keyterm",
+          "preferred_label": "Feast of Tabernacles",
+          "confidence": 0.8298,
+          "match_method": "embedding"
+        },
+        {
+          "id": "realia:FestivalOfTheTabernacles",
+          "type": "realia",
+          "preferred_label": "Festival of the Tabernacles",
+          "confidence": 0.8066,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "5248",
     "reference_id": 4416,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Feasts and Festivals of Israel",
     "media_type": "Text",
     "index_reference": "feasts and festivals of israel",
@@ -3286,13 +3535,14 @@
           "label": "Temple",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "5249",
     "reference_id": 4417,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Felix, Antonius",
     "media_type": "Text",
     "index_reference": "felix, antonius",
@@ -3314,13 +3564,22 @@
           "end_ref_usfm": "ACT 24:27"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Felix",
+          "type": "person",
+          "preferred_label": "Felix",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
+      ]
     }
   },
   {
     "content_id": "5250",
     "reference_id": 4418,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fellowship",
     "media_type": "Text",
     "index_reference": "fellowship",
@@ -3606,13 +3865,22 @@
           "end_ref_usfm": "PHP 2:5"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "keyterm:Fellowship",
+          "type": "keyterm",
+          "preferred_label": "Fellowship",
+          "confidence": 0.6203,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "5251",
     "reference_id": 4419,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Ferret",
     "media_type": "Text",
     "index_reference": "ferret",
@@ -3643,13 +3911,50 @@
           "label": "Lizard",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Lizard",
+          "type": "fauna",
+          "preferred_label": "Lizard",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Chameleon",
+          "type": "fauna",
+          "preferred_label": "Chameleon",
+          "confidence": 0.6715,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Gecko",
+          "type": "fauna",
+          "preferred_label": "Gecko",
+          "confidence": 0.631,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Iguana",
+          "type": "fauna",
+          "preferred_label": "Monitor",
+          "confidence": 0.6175,
+          "match_method": "scored"
+        },
+        {
+          "id": "fauna:Skink",
+          "type": "fauna",
+          "preferred_label": "Skink",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "5252",
     "reference_id": 4420,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fertility Cults",
     "media_type": "Text",
     "index_reference": "fertility cults",
@@ -3666,13 +3971,14 @@
           "label": "Canaanite Deities and Religion",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "5253",
     "reference_id": 4421,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Festival",
     "media_type": "Text",
     "index_reference": "festival",
@@ -3689,13 +3995,14 @@
           "label": "Feasts and Festivals of Israel",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "5254",
     "reference_id": 4422,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Festus, Porcius",
     "media_type": "Text",
     "index_reference": "festus, porcius",
@@ -3741,13 +4048,22 @@
           "end_ref_usfm": "ACT 25:12"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Festus",
+          "type": "person",
+          "preferred_label": "Festus",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
+      ]
     }
   },
   {
     "content_id": "5255",
     "reference_id": 4423,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Field of Blood",
     "media_type": "Text",
     "index_reference": "field of blood",
@@ -3764,13 +4080,22 @@
           "label": "Blood, Field of",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Akeldama",
+          "type": "place",
+          "preferred_label": "Akeldama",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "5256",
     "reference_id": 4424,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fiery Serpent",
     "media_type": "Text",
     "index_reference": "fiery serpent",
@@ -3806,13 +4131,22 @@
           "label": "Bronze Snake, Bronze Serpent",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Snake",
+          "type": "fauna",
+          "preferred_label": "Snake",
+          "confidence": 0.8222,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "5257",
     "reference_id": 4425,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fig, Fig Tree",
     "media_type": "Text",
     "index_reference": "fig, fig tree",
@@ -3829,13 +4163,22 @@
           "label": "Plants",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "flora:Fig",
+          "type": "flora",
+          "preferred_label": "Fig",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "5258",
     "reference_id": 4426,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Finance",
     "media_type": "Text",
     "index_reference": "finance",
@@ -3859,13 +4202,14 @@
           "label": "Money",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "5259",
     "reference_id": 4427,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Finger (Measure)",
     "media_type": "Text",
     "index_reference": "finger (measure)",
@@ -3889,13 +4233,22 @@
           "label": "Weights and Measures",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Finger",
+          "type": "realia",
+          "preferred_label": "Finger",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "5268",
     "reference_id": 4436,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fir Tree",
     "media_type": "Text",
     "index_reference": "fir tree",
@@ -3912,13 +4265,14 @@
           "label": "Plants",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "5260",
     "reference_id": 4428,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fire, Lake of",
     "media_type": "Text",
     "index_reference": "fire, lake of",
@@ -3935,13 +4289,14 @@
           "label": "Lake of Fire",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "5261",
     "reference_id": 4429,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fire, Pillar of",
     "media_type": "Text",
     "index_reference": "fire, pillar of",
@@ -3965,13 +4320,14 @@
           "label": "Wilderness Wanderings",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "5262",
     "reference_id": 4430,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Firkin",
     "media_type": "Text",
     "index_reference": "firkin",
@@ -3995,13 +4351,43 @@
           "label": "Weights and Measures",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:StoneJar",
+          "type": "realia",
+          "preferred_label": "Stone Jar",
+          "confidence": 0.6895,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:ClayJar",
+          "type": "realia",
+          "preferred_label": "Clay Jar",
+          "confidence": 0.6895,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:Measure",
+          "type": "realia",
+          "preferred_label": "Measure",
+          "confidence": 0.6175,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Cleanse.2",
+          "type": "keyterm",
+          "preferred_label": "To Cleanse",
+          "confidence": 0.5215,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "5263",
     "reference_id": 4431,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Firmament",
     "media_type": "Text",
     "index_reference": "firmament",
@@ -4053,13 +4439,14 @@
           "end_ref_usfm": "EZK 1:26"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "5141",
     "reference_id": 4309,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "First Book of Esdras",
     "media_type": "Text",
     "index_reference": "first book of esdras",
@@ -4117,13 +4504,14 @@
           "end_ref_usfm": "1ES 4:63"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "5265",
     "reference_id": 4433,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "First Day of the Week",
     "media_type": "Text",
     "index_reference": "first day of the week",
@@ -4140,13 +4528,14 @@
           "label": "The Lord’s Day",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "5267",
     "reference_id": 4435,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "First Jewish Revolt",
     "media_type": "Text",
     "index_reference": "first jewish revolt",
@@ -4208,13 +4597,14 @@
           "label": "Judaism",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "5264",
     "reference_id": 4432,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Firstborn",
     "media_type": "Text",
     "index_reference": "firstborn",
@@ -4499,13 +4889,14 @@
           "label": "Primogeniture",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "5266",
     "reference_id": 4434,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Firstfruits",
     "media_type": "Text",
     "index_reference": "firstfruits",
@@ -4644,13 +5035,22 @@
           "label": "Offerings and Sacrifices",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:FeastOfWeeks",
+          "type": "keyterm",
+          "preferred_label": "Feast of Weeks",
+          "confidence": 0.6148,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "5271",
     "reference_id": 4439,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fish",
     "media_type": "Text",
     "index_reference": "fish",
@@ -4674,13 +5074,22 @@
           "label": "Whale",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Fish",
+          "type": "fauna",
+          "preferred_label": "Fish",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "5270",
     "reference_id": 4438,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fish Gate",
     "media_type": "Text",
     "index_reference": "fish gate",
@@ -4722,13 +5131,50 @@
           "label": "Jerusalem",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:FishGate",
+          "type": "place",
+          "preferred_label": "Fish Gate",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "place:SheepGate",
+          "type": "place",
+          "preferred_label": "Sheep Gate",
+          "confidence": 0.7,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:EphraimGate",
+          "type": "place",
+          "preferred_label": "Ephraim Gate",
+          "confidence": 0.7,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:GuardGate",
+          "type": "place",
+          "preferred_label": "Gate of the Guard",
+          "confidence": 0.565,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:YeshanahGate",
+          "type": "place",
+          "preferred_label": "Gate of Jeshanah",
+          "confidence": 0.5515,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "5269",
     "reference_id": 4437,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fishermen",
     "media_type": "Text",
     "index_reference": "fishermen",
@@ -4834,13 +5280,22 @@
           "end_ref_usfm": "LUK 5:5"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "realia:Fishnet",
+          "type": "realia",
+          "preferred_label": "Fishnet",
+          "confidence": 0.557,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "5272",
     "reference_id": 4440,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fitch",
     "media_type": "Text",
     "index_reference": "fitch",
@@ -4877,13 +5332,14 @@
           "label": "Spelt",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "5273",
     "reference_id": 4441,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Flag",
     "media_type": "Text",
     "index_reference": "flag",
@@ -4921,13 +5377,29 @@
           "label": "Rush",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "flora:Papyrus",
+          "type": "flora",
+          "preferred_label": "Papyrus",
+          "confidence": 0.631,
+          "match_method": "scored"
+        },
+        {
+          "id": "flora:Grass",
+          "type": "flora",
+          "preferred_label": "Grass",
+          "confidence": 0.598,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "5274",
     "reference_id": 4442,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Flax",
     "media_type": "Text",
     "index_reference": "flax",
@@ -4951,13 +5423,22 @@
           "label": "Plants",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "flora:Flax",
+          "type": "flora",
+          "preferred_label": "Flax",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "5275",
     "reference_id": 4443,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Flea",
     "media_type": "Text",
     "index_reference": "flea",
@@ -4987,13 +5468,29 @@
           "label": "Animals",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Flea",
+          "type": "fauna",
+          "preferred_label": "Flea",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Israel",
+          "type": "person",
+          "preferred_label": "Israel",
+          "confidence": 0.5395,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "5276",
     "reference_id": 4444,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Flesh",
     "media_type": "Text",
     "index_reference": "flesh",
@@ -5426,13 +5923,22 @@
           "label": "Sin",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Carnal",
+          "type": "keyterm",
+          "preferred_label": "Carnal",
+          "confidence": 0.5324,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "5277",
     "reference_id": 4445,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Flint",
     "media_type": "Text",
     "index_reference": "flint",
@@ -5449,13 +5955,14 @@
           "label": "Minerals and Metals",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "5278",
     "reference_id": 4446,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Flogging",
     "media_type": "Text",
     "index_reference": "flogging",
@@ -5472,13 +5979,14 @@
           "label": "Criminal Law and Punishment",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "5279",
     "reference_id": 4447,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Flood Myths",
     "media_type": "Text",
     "index_reference": "flood myths",
@@ -5495,13 +6003,14 @@
           "label": "Gilgamesh Epic",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "5280",
     "reference_id": 4448,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Flood, the",
     "media_type": "Text",
     "index_reference": "flood, the",
@@ -5664,13 +6173,14 @@
           "label": "Noah",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "5281",
     "reference_id": 4449,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Flour",
     "media_type": "Text",
     "index_reference": "flour",
@@ -5694,13 +6204,29 @@
           "label": "Food and Food Preparation",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "LORD",
+          "confidence": 0.5765,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Offering",
+          "type": "keyterm",
+          "preferred_label": "Offering",
+          "confidence": 0.5395,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "5282",
     "reference_id": 4450,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Flower",
     "media_type": "Text",
     "index_reference": "flower",
@@ -5717,13 +6243,14 @@
           "label": "Plants",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "5283",
     "reference_id": 4451,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Flute",
     "media_type": "Text",
     "index_reference": "flute",
@@ -5740,13 +6267,22 @@
           "label": "Musical Instruments",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Flute",
+          "type": "realia",
+          "preferred_label": "Flute",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "5284",
     "reference_id": 4452,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fly",
     "media_type": "Text",
     "index_reference": "fly",
@@ -5776,13 +6312,22 @@
           "label": "Animals",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Fly",
+          "type": "fauna",
+          "preferred_label": "Fly",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "5285",
     "reference_id": 4453,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Followers of the Way",
     "media_type": "Text",
     "index_reference": "followers of the way",
@@ -5830,13 +6375,22 @@
           "label": "The Way",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:TheWay",
+          "type": "keyterm",
+          "preferred_label": "The Way",
+          "confidence": 1.0,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "5286",
     "reference_id": 4454,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Food and Food Preparation",
     "media_type": "Text",
     "index_reference": "food and food preparation",
@@ -6502,13 +7056,22 @@
           "label": "Unleavened Bread",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "flora:Wheat",
+          "type": "flora",
+          "preferred_label": "Wheat",
+          "confidence": 0.6116,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "5287",
     "reference_id": 4455,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Footstool",
     "media_type": "Text",
     "index_reference": "footstool",
@@ -6596,13 +7159,22 @@
           "end_ref_usfm": "HEB 10:13"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "realia:Footstool",
+          "type": "realia",
+          "preferred_label": "Footstool",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
+      ]
     }
   },
   {
     "content_id": "5288",
     "reference_id": 4456,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fords of the Jordan",
     "media_type": "Text",
     "index_reference": "fords of the jordan",
@@ -6692,13 +7264,22 @@
           "label": "Jordan River",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Jordan",
+          "type": "place",
+          "preferred_label": "Jordan River",
+          "confidence": 0.8167,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "5289",
     "reference_id": 4457,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Foreigner",
     "media_type": "Text",
     "index_reference": "foreigner",
@@ -7071,13 +7652,14 @@
           "label": "Neighbor",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "5290",
     "reference_id": 4458,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Foreknowledge",
     "media_type": "Text",
     "index_reference": "foreknowledge",
@@ -7288,13 +7870,14 @@
           "label": "Foreordination",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "5291",
     "reference_id": 4459,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Foreordination",
     "media_type": "Text",
     "index_reference": "foreordination",
@@ -7487,13 +8070,14 @@
           "label": "Foreknowledge",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "5292",
     "reference_id": 4460,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Forerunner",
     "media_type": "Text",
     "index_reference": "forerunner",
@@ -7539,13 +8123,14 @@
           "end_ref_usfm": "HEB 5:9"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "5112",
     "reference_id": 4280,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Forest of Ephraim",
     "media_type": "Text",
     "index_reference": "forest of ephraim",
@@ -7573,13 +8158,50 @@
           "end_ref_usfm": "JOS 17:18"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Ephraim",
+          "type": "person",
+          "preferred_label": "Ephraim",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "place:Ephraim.2",
+          "type": "place",
+          "preferred_label": "Ephraim",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "place:Ephraim",
+          "type": "place",
+          "preferred_label": "Ephraim",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "group:Ephraim",
+          "type": "group",
+          "preferred_label": "Tribe of Ephraim",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:ForestEphraim",
+          "type": "place",
+          "preferred_label": "Forest of Ephraim",
+          "confidence": 0.6333,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "5293",
     "reference_id": 4461,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Forgetfulness, Land of",
     "media_type": "Text",
     "index_reference": "forgetfulness, land of",
@@ -7615,13 +8237,14 @@
           "label": "Sheol",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "5294",
     "reference_id": 4462,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Forgiveness",
     "media_type": "Text",
     "index_reference": "forgiveness",
@@ -7994,13 +8617,22 @@
           "label": "Repentance",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Forgive",
+          "type": "keyterm",
+          "preferred_label": "Forgive",
+          "confidence": 0.743,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "5295",
     "reference_id": 4463,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Former Rain",
     "media_type": "Text",
     "index_reference": "former rain",
@@ -8036,13 +8668,14 @@
           "label": "Palestine",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "5297",
     "reference_id": 4465,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fort, Fortification",
     "media_type": "Text",
     "index_reference": "fort, fortification",
@@ -8122,13 +8755,36 @@
           "label": "Watchtower",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Fortification",
+          "type": "realia",
+          "preferred_label": "Fortification",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "realia:Fortress",
+          "type": "realia",
+          "preferred_label": "Fortress",
+          "confidence": 0.6321,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "LORD",
+          "confidence": 0.5136,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "5298",
     "reference_id": 4466,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fortunatus",
     "media_type": "Text",
     "index_reference": "fortunatus",
@@ -8144,13 +8800,36 @@
           "end_ref_usfm": "1CO 16:17"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Fortunatus",
+          "type": "person",
+          "preferred_label": "Fortunatus",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "person:Stephanas",
+          "type": "person",
+          "preferred_label": "Stephanas",
+          "confidence": 0.739,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Achaicus",
+          "type": "person",
+          "preferred_label": "Achaicus",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "5299",
     "reference_id": 4467,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Forum",
     "media_type": "Text",
     "index_reference": "forum",
@@ -8174,13 +8853,36 @@
           "label": "Forum of Appius",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:ForumOfAppius",
+          "type": "place",
+          "preferred_label": "Forum of Appius",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:ThreeTaverns",
+          "type": "place",
+          "preferred_label": "Three Taverns",
+          "confidence": 0.6085,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "LORD",
+          "confidence": 0.598,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "3679",
     "reference_id": 2847,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Forum of Appius",
     "media_type": "Text",
     "index_reference": "forum of appius",
@@ -8211,13 +8913,43 @@
           "label": "Forum",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:ForumOfAppius",
+          "type": "place",
+          "preferred_label": "Forum of Appius",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:ThreeTaverns",
+          "type": "place",
+          "preferred_label": "Three Taverns",
+          "confidence": 0.694,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:Inn",
+          "type": "realia",
+          "preferred_label": "Inn",
+          "confidence": 0.589,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "LORD",
+          "confidence": 0.571,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "5300",
     "reference_id": 4468,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Foundation Gate",
     "media_type": "Text",
     "index_reference": "foundation gate",
@@ -8239,13 +8971,36 @@
           "end_ref_usfm": "2CH 23:5"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:FoundationGate",
+          "type": "place",
+          "preferred_label": "Foundation Gate",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "place:Sur",
+          "type": "place",
+          "preferred_label": "Sur Gate",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:House",
+          "type": "realia",
+          "preferred_label": "House",
+          "confidence": 0.5575,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "833319",
     "reference_id": 213097,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fourth Book of Ezra",
     "media_type": "Text",
     "index_reference": "fourth book of ezra",
@@ -8254,13 +9009,14 @@
     "content": "<h1>FOURTH BOOK OF EZRA</h1><p>This is another name for the apocryphal book 2&nbsp;Esdras. </p><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4310\" data-resourceType=\"TyndaleBibleDictionary\">Second Book of Esdras</span>; see also <span data-bnType=\"resourceReference\" data-resourceId=\"2831\" data-resourceType=\"TyndaleBibleDictionary\">Apocrypha</span>.</p><p></p>",
     "associations": {
       "passage": [],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "5301",
     "reference_id": 4469,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fowler",
     "media_type": "Text",
     "index_reference": "fowler",
@@ -8332,13 +9088,22 @@
           "label": "Hunting",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Trap",
+          "type": "realia",
+          "preferred_label": "Trap",
+          "confidence": 0.6278,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "5303",
     "reference_id": 4471,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fox",
     "media_type": "Text",
     "index_reference": "fox",
@@ -8362,13 +9127,14 @@
           "label": "Jackal",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "5304",
     "reference_id": 4472,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Frankincense",
     "media_type": "Text",
     "index_reference": "frankincense",
@@ -8470,13 +9236,22 @@
           "label": "Plants",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "flora:Frankincense",
+          "type": "flora",
+          "preferred_label": "Frankincense",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "5307",
     "reference_id": 4475,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Freed Slaves",
     "media_type": "Text",
     "index_reference": "freed slaves",
@@ -8500,13 +9275,50 @@
           "label": "Freedmen",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "group:Freedmen",
+          "type": "group",
+          "preferred_label": "Freedmen",
+          "confidence": 0.82,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Alexandria",
+          "type": "group",
+          "preferred_label": "Alexandrians",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Alexandria",
+          "type": "place",
+          "preferred_label": "Alexandria",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Cyrene",
+          "type": "place",
+          "preferred_label": "Cyrene",
+          "confidence": 0.571,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Asia",
+          "type": "place",
+          "preferred_label": "Asia",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "5305",
     "reference_id": 4473,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Freedmen",
     "media_type": "Text",
     "index_reference": "freedmen",
@@ -8530,13 +9342,50 @@
           "label": "Libertines",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "group:Freedmen",
+          "type": "group",
+          "preferred_label": "Freedmen",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        },
+        {
+          "id": "place:Alexandria",
+          "type": "place",
+          "preferred_label": "Alexandria",
+          "confidence": 0.694,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Alexandria",
+          "type": "group",
+          "preferred_label": "Alexandrians",
+          "confidence": 0.685,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Cyrene",
+          "type": "place",
+          "preferred_label": "Cyrene",
+          "confidence": 0.5935,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Stephen",
+          "type": "person",
+          "preferred_label": "Stephen",
+          "confidence": 0.58,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "5306",
     "reference_id": 4474,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Freedom",
     "media_type": "Text",
     "index_reference": "freedom",
@@ -8553,13 +9402,22 @@
           "label": "Freedom, Liberty",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Liberation",
+          "type": "keyterm",
+          "preferred_label": "Liberation",
+          "confidence": 0.8488,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "6737",
     "reference_id": 5905,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Freedom, Liberty",
     "media_type": "Text",
     "index_reference": "freedom, liberty",
@@ -8751,13 +9609,14 @@
           "label": "Slave, Slavery",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "5308",
     "reference_id": 4476,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Freewill Offering",
     "media_type": "Text",
     "index_reference": "freewill offering",
@@ -8787,13 +9646,29 @@
           "label": "Offerings and Sacrifices",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Offering",
+          "type": "keyterm",
+          "preferred_label": "Offering",
+          "confidence": 0.85,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Slaughtering",
+          "type": "keyterm",
+          "preferred_label": "Slaughtering",
+          "confidence": 0.5845,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "5309",
     "reference_id": 4477,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Friends",
     "media_type": "Text",
     "index_reference": "friends",
@@ -8815,13 +9690,29 @@
           "end_ref_usfm": "JHN 15:15"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Teman",
+          "type": "person",
+          "preferred_label": "Teman",
+          "confidence": 0.9343,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:Teman",
+          "type": "place",
+          "preferred_label": "Teman",
+          "confidence": 0.9343,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "5310",
     "reference_id": 4478,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fringe",
     "media_type": "Text",
     "index_reference": "fringe",
@@ -8837,13 +9728,22 @@
           "end_ref_usfm": "DEU 22:12"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "realia:Tassel",
+          "type": "realia",
+          "preferred_label": "Tassel",
+          "confidence": 0.6,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "5311",
     "reference_id": 4479,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Frog",
     "media_type": "Text",
     "index_reference": "frog",
@@ -8892,13 +9792,22 @@
           "label": "Plagues upon Egypt",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Frog",
+          "type": "fauna",
+          "preferred_label": "Frog",
+          "confidence": 1.0,
+          "match_method": "content_id"
+        }
       ]
     }
   },
   {
     "content_id": "5312",
     "reference_id": 4480,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Frontlet",
     "media_type": "Text",
     "index_reference": "frontlet",
@@ -8971,13 +9880,14 @@
           "label": "Phylactery",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "5313",
     "reference_id": 4481,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Frost",
     "media_type": "Text",
     "index_reference": "frost",
@@ -9017,13 +9927,14 @@
           "end_ref_usfm": "ZEC 14:6"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "5315",
     "reference_id": 4483,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fruit",
     "media_type": "Text",
     "index_reference": "fruit",
@@ -9047,13 +9958,14 @@
           "label": "Plants",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "5314",
     "reference_id": 4482,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fruit of the Spirit",
     "media_type": "Text",
     "index_reference": "fruit of the spirit",
@@ -9099,13 +10011,22 @@
           "end_ref_usfm": "GAL 5:26"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "deity:HolySpirit",
+          "type": "deity",
+          "preferred_label": "Holy Spirit",
+          "confidence": 0.5389,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "5317",
     "reference_id": 4485,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fuller",
     "media_type": "Text",
     "index_reference": "fuller",
@@ -9133,13 +10054,22 @@
           "end_ref_usfm": "ISA 36:2"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:WashersField",
+          "type": "place",
+          "preferred_label": "Launderer’s Field",
+          "confidence": 1.0,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "5316",
     "reference_id": 4484,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fuller’s Field",
     "media_type": "Text",
     "index_reference": "fuller’s field",
@@ -9193,13 +10123,29 @@
           "label": "Jerusalem",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:WashersField",
+          "type": "place",
+          "preferred_label": "Launderer’s Field",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:En-rogel",
+          "type": "place",
+          "preferred_label": "En-rogel",
+          "confidence": 0.503,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "5319",
     "reference_id": 4487,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fullness",
     "media_type": "Text",
     "index_reference": "fullness",
@@ -9401,13 +10347,14 @@
           "end_ref_usfm": "PSA 8:6"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "5318",
     "reference_id": 4486,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Fullness of Time",
     "media_type": "Text",
     "index_reference": "fullness of time",
@@ -9471,13 +10418,14 @@
           "end_ref_usfm": "EPH 3:5"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "5320",
     "reference_id": 4488,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Funeral Customs",
     "media_type": "Text",
     "index_reference": "funeral customs",
@@ -9574,13 +10522,14 @@
           "label": "Mourning",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "5321",
     "reference_id": 4489,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Furlong",
     "media_type": "Text",
     "index_reference": "furlong",
@@ -9597,13 +10546,14 @@
           "label": "Weights and Measures",
           "language": "eng"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "5323",
     "reference_id": 4491,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Furnace",
     "media_type": "Text",
     "index_reference": "furnace",
@@ -9727,13 +10677,22 @@
           "end_ref_usfm": "JER 6:30"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "realia:Kiln",
+          "type": "realia",
+          "preferred_label": "Kiln",
+          "confidence": 0.7236,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "5322",
     "reference_id": 4490,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Furnaces, Tower of the",
     "media_type": "Text",
     "index_reference": "furnaces, tower of the",
@@ -9763,13 +10722,22 @@
           "label": "Ovens, Tower of the",
           "language": "eng"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:TowerOfTheOvens",
+          "type": "place",
+          "preferred_label": "Tower of the Ovens",
+          "confidence": 1.0,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "5324",
     "reference_id": 4492,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Furniture",
     "media_type": "Text",
     "index_reference": "furniture",
@@ -10127,13 +11095,14 @@
           "end_ref_usfm": "EZK 40:43"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "5325",
     "reference_id": 4493,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Futility",
     "media_type": "Text",
     "index_reference": "futility",
@@ -10281,7 +11250,16 @@
           "end_ref_usfm": "ROM 8:25"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "keyterm:Worthless",
+          "type": "keyterm",
+          "preferred_label": "Worthless",
+          "confidence": 0.5109,
+          "match_method": "scored"
+        }
+      ]
     }
   }
 ]

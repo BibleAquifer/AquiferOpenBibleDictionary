@@ -2,7 +2,7 @@
   {
     "content_id": "759853",
     "reference_id": 5687,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Kanata",
     "media_type": "Text",
     "index_reference": "kanata",
@@ -33,13 +33,29 @@
           "label": "Quenate",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Kenath",
+          "type": "place",
+          "preferred_label": "Quenate",
+          "confidence": 0.8515,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nobah",
+          "type": "person",
+          "preferred_label": "Noba",
+          "confidence": 0.73,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "828377",
     "reference_id": 3700,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Kislev",
     "media_type": "Text",
     "index_reference": "kislev",
@@ -56,13 +72,14 @@
           "label": "Quisleu",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "829713",
     "reference_id": 5809,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Kola",
     "media_type": "Text",
     "index_reference": "kola",
@@ -84,13 +101,22 @@
           "end_ref_usfm": "JDT 15:4"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Holon",
+          "type": "place",
+          "preferred_label": "Holom",
+          "confidence": 0.548,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "829714",
     "reference_id": 5810,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Kona",
     "media_type": "Text",
     "index_reference": "kona",
@@ -106,7 +132,8 @@
           "end_ref_usfm": "JDT 4:4"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   }
 ]

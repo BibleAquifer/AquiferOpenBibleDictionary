@@ -2,7 +2,7 @@
   {
     "content_id": "800760",
     "reference_id": 4084,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "地",
     "media_type": "Text",
     "index_reference": "地",
@@ -234,13 +234,14 @@
           "end_ref_usfm": "ZEC 14:9"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "573995",
     "reference_id": 4574,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "地獄",
     "media_type": "Text",
     "index_reference": "地獄",
@@ -452,13 +453,22 @@
           "label": "地獄",
           "language": "zht"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Hell",
+          "type": "place",
+          "preferred_label": "Hell",
+          "confidence": 0.9329,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "471331",
     "reference_id": 4957,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "地獄",
     "media_type": "Text",
     "index_reference": "地獄",
@@ -940,13 +950,22 @@
           "label": "地獄",
           "language": "zht"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Hell",
+          "type": "place",
+          "preferred_label": "Hell",
+          "confidence": 0.9329,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "573985",
     "reference_id": 3958,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "低加坡里",
     "media_type": "Text",
     "index_reference": "低加坡里",
@@ -968,13 +987,22 @@
           "end_ref_usfm": "MRK 7:31"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Decapolis",
+          "type": "place",
+          "preferred_label": "Decapolis",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "826035",
     "reference_id": 8006,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "底格里斯河",
     "media_type": "Text",
     "index_reference": "底格里斯河",
@@ -1002,13 +1030,22 @@
           "end_ref_usfm": "NAM 2:6"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Tigris",
+          "type": "place",
+          "preferred_label": "Tigris River",
+          "confidence": 0.8049,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "574061",
     "reference_id": 8011,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "底買",
     "media_type": "Text",
     "index_reference": "底買",
@@ -1024,13 +1061,29 @@
           "end_ref_usfm": "MRK 10:46"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Timaeus",
+          "type": "person",
+          "preferred_label": "Timaeus",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Bartimaeus",
+          "type": "person",
+          "preferred_label": "Bartimaeus",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "615733",
     "reference_id": 4435,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "第一次猶太起義",
     "media_type": "Text",
     "index_reference": "第一次猶太起義",
@@ -1078,7 +1131,8 @@
           "label": "猶太教",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   }
 ]

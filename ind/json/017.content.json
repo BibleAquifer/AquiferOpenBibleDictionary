@@ -2,7 +2,7 @@
   {
     "content_id": "369131",
     "reference_id": 7969,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Tadeus, Rasul",
     "media_type": "Text",
     "index_reference": "tadeus, rasul",
@@ -44,13 +44,71 @@
           "label": "Rasul, Kerasulan",
           "language": "ind"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Judas",
+          "type": "person",
+          "preferred_label": "Yudas",
+          "confidence": 0.8065,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Alphaeus",
+          "type": "person",
+          "preferred_label": "Alfeus",
+          "confidence": 0.72,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:James.2",
+          "type": "person",
+          "preferred_label": "Yakobus",
+          "confidence": 0.7075,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Bartholomew",
+          "type": "person",
+          "preferred_label": "Bartolomeus",
+          "confidence": 0.6435,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Philip",
+          "type": "person",
+          "preferred_label": "Filipus",
+          "confidence": 0.6255,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Thomas",
+          "type": "person",
+          "preferred_label": "Tomas",
+          "confidence": 0.6075,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Andrew",
+          "type": "person",
+          "preferred_label": "Andreas",
+          "confidence": 0.539,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Simon.2",
+          "type": "person",
+          "preferred_label": "Simon",
+          "confidence": 0.539,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "369134",
     "reference_id": 7993,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Takhta",
     "media_type": "Text",
     "index_reference": "takhta",
@@ -234,13 +292,14 @@
           "end_ref_usfm": "EZK 43:7"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "369125",
     "reference_id": 7653,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Tanda",
     "media_type": "Text",
     "index_reference": "tanda",
@@ -550,13 +609,29 @@
           "end_ref_usfm": "LUK 21:26"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "keyterm:Example",
+          "type": "keyterm",
+          "preferred_label": "tanda",
+          "confidence": 0.7641,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:MiraculousSign",
+          "type": "keyterm",
+          "preferred_label": "tanda ajaib",
+          "confidence": 0.6256,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "369132",
     "reference_id": 7983,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Teofilus",
     "media_type": "Text",
     "index_reference": "teofilus",
@@ -596,13 +671,22 @@
           "end_ref_usfm": "ACT 24:3"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Theophilus",
+          "type": "person",
+          "preferred_label": "Teofilus",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "369112",
     "reference_id": 6905,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Tiang Api dan Tiang Awan",
     "media_type": "Text",
     "index_reference": "tiang api dan tiang awan",
@@ -870,13 +954,14 @@
           "end_ref_usfm": "EZK 43:27"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "369133",
     "reference_id": 7989,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Tomas, Rasul",
     "media_type": "Text",
     "index_reference": "tomas, rasul",
@@ -948,13 +1033,22 @@
           "label": "Rasul, Kerasulan",
           "language": "ind"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Thomas",
+          "type": "person",
+          "preferred_label": "Tomas",
+          "confidence": 1.0,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "369093",
     "reference_id": 5948,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Tuhan",
     "media_type": "Text",
     "index_reference": "tuhan",
@@ -1297,13 +1391,22 @@
           "label": "Allah, Nama-nama",
           "language": "ind"
         }
+      ],
+      "acai": [
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "Tuhan",
+          "confidence": 0.6023,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "369065",
     "reference_id": 4455,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "TUMPUAN KAKI",
     "media_type": "Text",
     "index_reference": "tumpuan kaki",
@@ -1391,7 +1494,8 @@
           "end_ref_usfm": "HEB 10:13"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   }
 ]

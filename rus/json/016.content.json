@@ -2,7 +2,7 @@
   {
     "content_id": "124432",
     "reference_id": 4403,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Семейная Жизнь И Отношения",
     "media_type": "Text",
     "index_reference": "семейная жизнь и отношения",
@@ -798,13 +798,14 @@
           "end_ref_usfm": "1SA 9:13"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "124455",
     "reference_id": 7287,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Спасение",
     "media_type": "Text",
     "index_reference": "спасение",
@@ -1176,13 +1177,29 @@
           "label": "Спаситель",
           "language": "rus"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Rescue",
+          "type": "keyterm",
+          "preferred_label": "Rescue",
+          "confidence": 0.9117,
+          "match_method": "embedding"
+        },
+        {
+          "id": "keyterm:Salvation",
+          "type": "keyterm",
+          "preferred_label": "Salvation",
+          "confidence": 0.9059,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "124456",
     "reference_id": 7328,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Спаситель",
     "media_type": "Text",
     "index_reference": "спаситель",
@@ -1482,13 +1499,22 @@
           "label": "Спасение",
           "language": "rus"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Savior",
+          "type": "keyterm",
+          "preferred_label": "Savior",
+          "confidence": 0.9482,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "124430",
     "reference_id": 4143,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Старейшина",
     "media_type": "Text",
     "index_reference": "старейшина",
@@ -1940,7 +1966,8 @@
           "label": "Пресвитер*",
           "language": "rus"
         }
-      ]
+      ],
+      "acai": []
     }
   }
 ]

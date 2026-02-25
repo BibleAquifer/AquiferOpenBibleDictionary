@@ -2,7 +2,7 @@
   {
     "content_id": "853317",
     "reference_id": 4043,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "多單",
     "media_type": "Text",
     "index_reference": "多單",
@@ -24,7 +24,44 @@
           "end_ref_usfm": "1CH 1:7"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Elishah",
+          "type": "person",
+          "preferred_label": "Elishah",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Javan",
+          "type": "person",
+          "preferred_label": "Javan",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Dodanim",
+          "type": "group",
+          "preferred_label": "Dodanim",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tarshish",
+          "type": "person",
+          "preferred_label": "Tarshish",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Kittim",
+          "type": "group",
+          "preferred_label": "Kittim",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   }
 ]

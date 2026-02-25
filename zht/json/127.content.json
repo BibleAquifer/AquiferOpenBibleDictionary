@@ -2,7 +2,7 @@
   {
     "content_id": "864976",
     "reference_id": 7635,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "書珥",
     "media_type": "Text",
     "index_reference": "書珥",
@@ -48,13 +48,14 @@
           "end_ref_usfm": "1SA 27:8"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "615723",
     "reference_id": 3472,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "書卷",
     "media_type": "Text",
     "index_reference": "書卷",
@@ -142,13 +143,14 @@
           "end_ref_usfm": "2KI 22:13"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "864975",
     "reference_id": 7620,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "書亞 （Shuah）",
     "media_type": "Text",
     "index_reference": "書亞 （Shuah）",
@@ -194,13 +196,36 @@
           "end_ref_usfm": "JOB 2:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Shua",
+          "type": "person",
+          "preferred_label": "Shua",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shuah",
+          "type": "person",
+          "preferred_label": "Shuah",
+          "confidence": 0.7333,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Shuhah",
+          "type": "person",
+          "preferred_label": "Shuhah",
+          "confidence": 0.6667,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "315535",
     "reference_id": 7109,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "贖價",
     "media_type": "Text",
     "index_reference": "贖價",
@@ -536,13 +561,14 @@
           "label": "救贖者，救贖",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "800770",
     "reference_id": 6092,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "屬血氣的人",
     "media_type": "Text",
     "index_reference": "屬血氣的人",
@@ -687,13 +713,14 @@
           "label": "人",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "826026",
     "reference_id": 6600,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "數字和數字象徵學",
     "media_type": "Text",
     "index_reference": "數字和數字象徵學",
@@ -1183,13 +1210,14 @@
           "end_ref_usfm": "REV 11:19"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "826038",
     "reference_id": 8087,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "樹",
     "media_type": "Text",
     "index_reference": "樹",
@@ -1239,7 +1267,8 @@
           "label": "生命樹",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   }
 ]

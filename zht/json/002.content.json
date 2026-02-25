@@ -2,7 +2,7 @@
   {
     "content_id": "574031",
     "reference_id": 6405,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "哀悼",
     "media_type": "Text",
     "index_reference": "哀悼",
@@ -360,13 +360,14 @@
           "end_ref_usfm": "MRK 5:39"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "853354",
     "reference_id": 4766,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "艾",
     "media_type": "Text",
     "index_reference": "艾",
@@ -388,13 +389,29 @@
           "end_ref_usfm": "GEN 13:3"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Bethel",
+          "type": "place",
+          "preferred_label": "Bethel",
+          "confidence": 0.55,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Ai",
+          "type": "place",
+          "preferred_label": "Ai",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "315526",
     "reference_id": 5954,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "愛",
     "media_type": "Text",
     "index_reference": "愛",
@@ -785,6 +802,15 @@
           "resource_code": "TyndaleBibleDictionary",
           "label": "憐憫",
           "language": "zht"
+        }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Love",
+          "type": "keyterm",
+          "preferred_label": "Love",
+          "confidence": 0.9187,
+          "match_method": "embedding"
         }
       ]
     }

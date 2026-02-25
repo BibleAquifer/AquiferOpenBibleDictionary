@@ -2,7 +2,7 @@
   {
     "content_id": "689576",
     "reference_id": 4397,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Imani",
     "media_type": "Text",
     "index_reference": "imani",
@@ -294,13 +294,14 @@
           "end_ref_usfm": "GAL 4:31"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "778870",
     "reference_id": 6363,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Imani kwa Mungu mmoja",
     "media_type": "Text",
     "index_reference": "imani kwa mungu mmoja",
@@ -438,13 +439,14 @@
           "label": "Mungu, Uwepo na Sifa za",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "689582",
     "reference_id": 4685,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Injili",
     "media_type": "Text",
     "index_reference": "injili",
@@ -1798,13 +1800,14 @@
           "end_ref_usfm": "1PE 4:6"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "689620",
     "reference_id": 7849,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Injili za Sinoptiki",
     "media_type": "Text",
     "index_reference": "injili za sinoptiki",
@@ -1842,13 +1845,22 @@
           "label": "Mathayo, Injili ya",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Jesus.2",
+          "type": "person",
+          "preferred_label": "Yesu",
+          "confidence": 0.562,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "800592",
     "reference_id": 5212,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Iradi",
     "media_type": "Text",
     "index_reference": "iradi",
@@ -1864,13 +1876,50 @@
           "end_ref_usfm": "GEN 4:18"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Irad",
+          "type": "person",
+          "preferred_label": "Iradi",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Lamech",
+          "type": "person",
+          "preferred_label": "Lameki",
+          "confidence": 0.712,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Mehujael",
+          "type": "person",
+          "preferred_label": "Mehuyaeli",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Methushael",
+          "type": "person",
+          "preferred_label": "Methushaeli",
+          "confidence": 0.6625,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Enoch",
+          "type": "person",
+          "preferred_label": "Henoko",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "852529",
     "reference_id": 5227,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Isaya, Kitabu cha",
     "media_type": "Text",
     "index_reference": "isaya, kitabu cha",
@@ -3194,13 +3243,22 @@
           "label": "Mtumishi wa Bwana",
           "language": "swh"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Isaiah",
+          "type": "person",
+          "preferred_label": "Isaya",
+          "confidence": 0.6049,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "778886",
     "reference_id": 7653,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "ishara",
     "media_type": "Text",
     "index_reference": "ishara",
@@ -3518,13 +3576,14 @@
           "label": "Muujiza",
           "language": "swh"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "852531",
     "reference_id": 5240,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Ishmaeli",
     "media_type": "Text",
     "index_reference": "ishmaeli",
@@ -3714,13 +3773,64 @@
           "end_ref_usfm": "JER 40:16"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Ishmael.2",
+          "type": "person",
+          "preferred_label": "Ishmaeli",
+          "confidence": 0.7041,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ishmael",
+          "type": "person",
+          "preferred_label": "Ishmaeli",
+          "confidence": 0.6932,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ishmael.3",
+          "type": "person",
+          "preferred_label": "Ishmaeli",
+          "confidence": 0.611,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ishmael.6",
+          "type": "person",
+          "preferred_label": "Ishmaeli",
+          "confidence": 0.6055,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ishmael.4",
+          "type": "person",
+          "preferred_label": "Ishmaeli",
+          "confidence": 0.6055,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ishmael.5",
+          "type": "person",
+          "preferred_label": "Ishmaeli",
+          "confidence": 0.6055,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Ishmael",
+          "type": "group",
+          "preferred_label": "Ishmaelites",
+          "confidence": 0.5959,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "852530",
     "reference_id": 5229,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Iska",
     "media_type": "Text",
     "index_reference": "iska",
@@ -3736,13 +3846,43 @@
           "end_ref_usfm": "GEN 11:29"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Iscah",
+          "type": "person",
+          "preferred_label": "Iska",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Milcah",
+          "type": "person",
+          "preferred_label": "Milka",
+          "confidence": 0.8515,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Sarah",
+          "type": "person",
+          "preferred_label": "Sara",
+          "confidence": 0.775,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Haran",
+          "type": "person",
+          "preferred_label": "Harani",
+          "confidence": 0.649,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "833470",
     "reference_id": 8075,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Iturea, Trakoniti",
     "media_type": "Text",
     "index_reference": "iturea, trakoniti",
@@ -3764,7 +3904,51 @@
           "end_ref_usfm": "LUK 3:1"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:Ituraea",
+          "type": "place",
+          "preferred_label": "Ituraea",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Trachonitis",
+          "type": "place",
+          "preferred_label": "Iturea",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Lysanias",
+          "type": "person",
+          "preferred_label": "Trakoniti",
+          "confidence": 0.8,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Gether",
+          "type": "person",
+          "preferred_label": "Getheri",
+          "confidence": 0.5075,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Tiberius",
+          "type": "person",
+          "preferred_label": "Tiberio",
+          "confidence": 0.5075,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Herod.2",
+          "type": "person",
+          "preferred_label": "Herode",
+          "confidence": 0.503,
+          "match_method": "scored"
+        }
+      ]
     }
   }
 ]

@@ -2,7 +2,7 @@
   {
     "content_id": "574069",
     "reference_id": 8258,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "工作",
     "media_type": "Text",
     "index_reference": "工作",
@@ -240,13 +240,29 @@
           "end_ref_usfm": "1CO 3:15"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "keyterm:Work",
+          "type": "keyterm",
+          "preferred_label": "Work",
+          "confidence": 0.96,
+          "match_method": "embedding"
+        },
+        {
+          "id": "person:Job",
+          "type": "person",
+          "preferred_label": "Job",
+          "confidence": 0.8372,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "864969",
     "reference_id": 7108,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "公羊",
     "media_type": "Text",
     "index_reference": "公羊",
@@ -282,13 +298,22 @@
           "label": "動物",
           "language": "zht"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Lamb",
+          "type": "fauna",
+          "preferred_label": "Sheep",
+          "confidence": 0.827,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "838347",
     "reference_id": 6630,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "供物和獻祭",
     "media_type": "Text",
     "index_reference": "供物和獻祭",
@@ -1875,7 +1900,8 @@
           "label": "會幕",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   }
 ]

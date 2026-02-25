@@ -2,7 +2,7 @@
   {
     "content_id": "315524",
     "reference_id": 5754,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "恩慈",
     "media_type": "Text",
     "index_reference": "恩慈",
@@ -108,13 +108,29 @@
           "end_ref_usfm": "NEH 9:31"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "keyterm:Mercy",
+          "type": "keyterm",
+          "preferred_label": "Mercy",
+          "confidence": 0.8044,
+          "match_method": "embedding"
+        },
+        {
+          "id": "keyterm:Kindness",
+          "type": "keyterm",
+          "preferred_label": "Kindness",
+          "confidence": 0.8036,
+          "match_method": "embedding"
+        }
+      ]
     }
   },
   {
     "content_id": "315518",
     "reference_id": 4691,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "恩典",
     "media_type": "Text",
     "index_reference": "恩典",
@@ -356,7 +372,8 @@
           "label": "憐憫",
           "language": "zht"
         }
-      ]
+      ],
+      "acai": []
     }
   }
 ]

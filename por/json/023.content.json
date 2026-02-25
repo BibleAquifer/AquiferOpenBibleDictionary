@@ -2,7 +2,7 @@
   {
     "content_id": "828457",
     "reference_id": 3845,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vaca",
     "media_type": "Text",
     "index_reference": "vaca",
@@ -26,13 +26,14 @@
           "label": "Gado bovino",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "760046",
     "reference_id": 8194,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vaebe",
     "media_type": "Text",
     "index_reference": "vaebe",
@@ -56,13 +57,43 @@
           "label": "Sufa",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Waheb",
+          "type": "place",
+          "preferred_label": "Vaebe",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Suphah",
+          "type": "place",
+          "preferred_label": "Sufa",
+          "confidence": 0.6985,
+          "match_method": "scored"
+        },
+        {
+          "id": "deity:Lord",
+          "type": "deity",
+          "preferred_label": "SENHOR",
+          "confidence": 0.598,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Arnon",
+          "type": "place",
+          "preferred_label": "Arnom",
+          "confidence": 0.5125,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "831159",
     "reference_id": 8162,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vaizata, Vaisata",
     "media_type": "Text",
     "index_reference": "vaizata, vaisata",
@@ -78,13 +109,43 @@
           "end_ref_usfm": "EST 9:9"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Vaizatha",
+          "type": "person",
+          "preferred_label": "Vaizata",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Arisai",
+          "type": "person",
+          "preferred_label": "Arisai",
+          "confidence": 0.766,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Aridai",
+          "type": "person",
+          "preferred_label": "Aridai",
+          "confidence": 0.721,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Parmashta",
+          "type": "person",
+          "preferred_label": "Farmasta",
+          "confidence": 0.7075,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "828527",
     "reference_id": 3959,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vale da Decisão",
     "media_type": "Text",
     "index_reference": "vale da decisão",
@@ -114,13 +175,22 @@
           "label": "Josafá, Vale de",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:ValleyOfDecision",
+          "type": "place",
+          "preferred_label": "Valley of Decision",
+          "confidence": 0.8612,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "831162",
     "reference_id": 8165,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vale da Decisão",
     "media_type": "Text",
     "index_reference": "vale da decisão",
@@ -150,13 +220,22 @@
           "label": "Josafá, Vale de",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Kidron",
+          "type": "place",
+          "preferred_label": "Cedrom",
+          "confidence": 0.634,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "828845",
     "reference_id": 4512,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vale de Gade",
     "media_type": "Text",
     "index_reference": "vale de gade",
@@ -172,13 +251,43 @@
           "end_ref_usfm": "2SA 24:5"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Gad",
+          "type": "person",
+          "preferred_label": "Gade",
+          "confidence": 0.85,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Jordan",
+          "type": "place",
+          "preferred_label": "Jordan River",
+          "confidence": 0.652,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Jazer",
+          "type": "place",
+          "preferred_label": "Jazer",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Aroer",
+          "type": "place",
+          "preferred_label": "Aroer",
+          "confidence": 0.535,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "831163",
     "reference_id": 8166,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vale de Hinom",
     "media_type": "Text",
     "index_reference": "vale de hinom",
@@ -195,13 +304,22 @@
           "label": "Geena*",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:HinnomValley",
+          "type": "place",
+          "preferred_label": "Valley of Hinnom",
+          "confidence": 0.8787,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "806226",
     "reference_id": 5547,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vale de Jezreel",
     "media_type": "Text",
     "index_reference": "vale de jezreel",
@@ -327,13 +445,36 @@
           "label": "Palestina",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:JezreelValley",
+          "type": "place",
+          "preferred_label": "Vale de Jezreel",
+          "confidence": 0.65,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Jezreel.2",
+          "type": "place",
+          "preferred_label": "Jizreel",
+          "confidence": 0.6333,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Jezreel.3",
+          "type": "place",
+          "preferred_label": "Jizreel",
+          "confidence": 0.6167,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "831165",
     "reference_id": 8168,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vale de Jezreel",
     "media_type": "Text",
     "index_reference": "vale de jezreel",
@@ -350,13 +491,22 @@
           "label": "Vale de Jezreel",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:JezreelValley",
+          "type": "place",
+          "preferred_label": "Vale de Jezreel",
+          "confidence": 1.0,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "831164",
     "reference_id": 8167,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vale de Josafá",
     "media_type": "Text",
     "index_reference": "vale de josafá",
@@ -373,13 +523,14 @@
           "label": "Josafá, Vale de",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "830540",
     "reference_id": 7170,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vale de Refaim",
     "media_type": "Text",
     "index_reference": "vale de refaim",
@@ -419,13 +570,22 @@
           "end_ref_usfm": "2SA 5:22"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:RephaimValley",
+          "type": "place",
+          "preferred_label": "Vale de Refaim",
+          "confidence": 0.8667,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "831166",
     "reference_id": 8169,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vale de Refaim",
     "media_type": "Text",
     "index_reference": "vale de refaim",
@@ -442,13 +602,22 @@
           "label": "Vale de Refaim",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:RephaimValley",
+          "type": "place",
+          "preferred_label": "Vale de Refaim",
+          "confidence": 1.0,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "683112",
     "reference_id": 8170,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vale de Savé",
     "media_type": "Text",
     "index_reference": "vale de savé",
@@ -472,13 +641,43 @@
           "label": "Vale do Rei",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Shaveh",
+          "type": "place",
+          "preferred_label": "Vale de Savé",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:KingsValley",
+          "type": "place",
+          "preferred_label": "King’s Valley",
+          "confidence": 0.8515,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Chedorlaomer",
+          "type": "person",
+          "preferred_label": "Quedorlaomer",
+          "confidence": 0.517,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Sodom",
+          "type": "place",
+          "preferred_label": "Sodoma",
+          "confidence": 0.508,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "683094",
     "reference_id": 7648,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vale de Sidim",
     "media_type": "Text",
     "index_reference": "vale de sidim",
@@ -512,13 +711,22 @@
           "end_ref_usfm": "GEN 14:9"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:SiddimValley",
+          "type": "place",
+          "preferred_label": "Vale de Sidim",
+          "confidence": 0.5833,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "831167",
     "reference_id": 8171,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vale de Sidim",
     "media_type": "Text",
     "index_reference": "vale de sidim",
@@ -535,13 +743,29 @@
           "label": "Vale de Sidim",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:SiddimValley",
+          "type": "place",
+          "preferred_label": "Vale de Sidim",
+          "confidence": 1.0,
+          "match_method": "embedding"
+        },
+        {
+          "id": "place:ShittimValley",
+          "type": "place",
+          "preferred_label": "Vale de Sitim",
+          "confidence": 0.8115,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "830899",
     "reference_id": 7750,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vale de Soreque",
     "media_type": "Text",
     "index_reference": "vale de soreque",
@@ -557,13 +781,36 @@
           "end_ref_usfm": "JDG 16:4"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:SorekValley",
+          "type": "place",
+          "preferred_label": "Vale de Soreque",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Delilah",
+          "type": "person",
+          "preferred_label": "Dalila",
+          "confidence": 0.6805,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Love",
+          "type": "keyterm",
+          "preferred_label": "love",
+          "confidence": 0.544,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "683004",
     "reference_id": 5758,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vale do Rei",
     "media_type": "Text",
     "index_reference": "vale do rei",
@@ -587,13 +834,43 @@
           "label": "Vale do Rei",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Shaveh",
+          "type": "place",
+          "preferred_label": "Vale de Savé",
+          "confidence": 0.838,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:KingsValley",
+          "type": "place",
+          "preferred_label": "King’s Valley",
+          "confidence": 0.8155,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Chedorlaomer",
+          "type": "person",
+          "preferred_label": "Quedorlaomer",
+          "confidence": 0.5935,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Sodom",
+          "type": "place",
+          "preferred_label": "Sodoma",
+          "confidence": 0.5575,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "683006",
     "reference_id": 5762,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vale do Rei",
     "media_type": "Text",
     "index_reference": "vale do rei",
@@ -615,13 +892,29 @@
           "end_ref_usfm": "2SA 18:18"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:KingsValley",
+          "type": "place",
+          "preferred_label": "King’s Valley",
+          "confidence": 0.8155,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Shaveh",
+          "type": "place",
+          "preferred_label": "Vale de Savé",
+          "confidence": 0.638,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "830601",
     "reference_id": 7284,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vale do Sal",
     "media_type": "Text",
     "index_reference": "vale do sal",
@@ -655,13 +948,22 @@
           "end_ref_usfm": "2CH 25:11"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "place:SaltValley",
+          "type": "place",
+          "preferred_label": "Vale do Sal",
+          "confidence": 1.0,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "831161",
     "reference_id": 8164,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vale dos Artesãos, Vale dos Artífices",
     "media_type": "Text",
     "index_reference": "vale dos artesãos, vale dos artífices",
@@ -685,13 +987,29 @@
           "label": "Ge-Harashim, Vale dos Artesãos",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Ge-harashim",
+          "type": "place",
+          "preferred_label": "vale dos Artífices",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Ono",
+          "type": "place",
+          "preferred_label": "Ono",
+          "confidence": 0.58,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "831168",
     "reference_id": 8172,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vanias",
     "media_type": "Text",
     "index_reference": "vanias",
@@ -707,13 +1025,36 @@
           "end_ref_usfm": "EZR 10:36"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Vaniah",
+          "type": "person",
+          "preferred_label": "Vanias",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Eliashib.6",
+          "type": "person",
+          "preferred_label": "Eliasibe",
+          "confidence": 0.7435,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Meremoth.2",
+          "type": "person",
+          "preferred_label": "Meremote",
+          "confidence": 0.55,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "716880",
     "reference_id": 2430,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vara de Arão",
     "media_type": "Text",
     "index_reference": "vara de arão",
@@ -773,13 +1114,22 @@
           "label": "Arão",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Aaron",
+          "type": "person",
+          "preferred_label": "Arão",
+          "confidence": 0.7016,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "831169",
     "reference_id": 8173,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vasni",
     "media_type": "Text",
     "index_reference": "vasni",
@@ -803,13 +1153,29 @@
           "label": "Joel (pessoa)",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Joel",
+          "type": "person",
+          "preferred_label": "Joel",
+          "confidence": 0.9595,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Abijah.2",
+          "type": "person",
+          "preferred_label": "Abias",
+          "confidence": 0.73,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "831170",
     "reference_id": 8174,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vasti",
     "media_type": "Text",
     "index_reference": "vasti",
@@ -825,13 +1191,29 @@
           "end_ref_usfm": "EST 1:19"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Vashti",
+          "type": "person",
+          "preferred_label": "Vasti",
+          "confidence": 0.8545,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Ahasuerus",
+          "type": "person",
+          "preferred_label": "Assuero",
+          "confidence": 0.5167,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "717035",
     "reference_id": 4456,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vaus do Jordão",
     "media_type": "Text",
     "index_reference": "vaus do jordão",
@@ -921,13 +1303,22 @@
           "label": "Rio Jordão",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Jordan",
+          "type": "place",
+          "preferred_label": "Jordan River",
+          "confidence": 0.6097,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "759777",
     "reference_id": 4686,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vazar os olhos",
     "media_type": "Text",
     "index_reference": "vazar os olhos",
@@ -969,13 +1360,14 @@
           "label": "Direito penal e punição",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "830923",
     "reference_id": 7784,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Veado",
     "media_type": "Text",
     "index_reference": "veado",
@@ -999,13 +1391,14 @@
           "label": "Cervo",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "831171",
     "reference_id": 8175,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vegetal",
     "media_type": "Text",
     "index_reference": "vegetal",
@@ -1043,13 +1436,14 @@
           "label": "Lentilha",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "828285",
     "reference_id": 3576,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vela, Castiçal",
     "media_type": "Text",
     "index_reference": "vela, castiçal",
@@ -1066,13 +1460,14 @@
           "label": "Lâmpada, Candelabro",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "830232",
     "reference_id": 6643,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Velho homem",
     "media_type": "Text",
     "index_reference": "velho homem",
@@ -1089,13 +1484,14 @@
           "label": "Homem, Velho e novo",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "717000",
     "reference_id": 4089,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vento leste",
     "media_type": "Text",
     "index_reference": "vento leste",
@@ -1165,13 +1561,14 @@
           "end_ref_usfm": "PSA 103:16"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "806279",
     "reference_id": 8103,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Verdade",
     "media_type": "Text",
     "index_reference": "verdade",
@@ -1271,13 +1668,22 @@
           "end_ref_usfm": "JHN 8:46"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "keyterm:Truth",
+          "type": "keyterm",
+          "preferred_label": "Truth",
+          "confidence": 0.5212,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "717145",
     "reference_id": 5925,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Verga (Parte superior de uma moldura de porta)",
     "media_type": "Text",
     "index_reference": "verga (parte superior de uma moldura de porta)",
@@ -1325,13 +1731,14 @@
           "label": "Arquitetura",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "829830",
     "reference_id": 6020,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Verme",
     "media_type": "Text",
     "index_reference": "verme",
@@ -1361,13 +1768,22 @@
           "label": "Animais",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "fauna:Maggot",
+          "type": "fauna",
+          "preferred_label": "Worm",
+          "confidence": 0.748,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "831219",
     "reference_id": 8261,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Verme",
     "media_type": "Text",
     "index_reference": "verme",
@@ -1384,13 +1800,14 @@
           "label": "Animais",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "830519",
     "reference_id": 7140,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vermelho",
     "media_type": "Text",
     "index_reference": "vermelho",
@@ -1407,13 +1824,14 @@
           "label": "Cor",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "829217",
     "reference_id": 5075,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vespa, Marimbondo",
     "media_type": "Text",
     "index_reference": "vespa, marimbondo",
@@ -1430,13 +1848,14 @@
           "label": "Animais",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "831172",
     "reference_id": 8177,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vespasiano",
     "media_type": "Text",
     "index_reference": "vespasiano",
@@ -1453,13 +1872,14 @@
           "label": "Os Césares",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "831173",
     "reference_id": 8178,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vestimentas",
     "media_type": "Text",
     "index_reference": "vestimentas",
@@ -1476,13 +1896,22 @@
           "label": "Sacerdotes E Levitas",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Clothing",
+          "type": "realia",
+          "preferred_label": "Clothing",
+          "confidence": 0.866,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "717327",
     "reference_id": 8176,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Véu do templo",
     "media_type": "Text",
     "index_reference": "véu do templo",
@@ -1506,13 +1935,29 @@
           "label": "Tabernáculo",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:HolyPlace",
+          "type": "place",
+          "preferred_label": "Holy Place",
+          "confidence": 0.5353,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:Curtain",
+          "type": "realia",
+          "preferred_label": "Curtain",
+          "confidence": 0.5292,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "815872",
     "reference_id": 2846,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Via Ápia",
     "media_type": "Text",
     "index_reference": "via ápia",
@@ -1528,13 +1973,14 @@
           "end_ref_usfm": "ACT 28:15"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "125347",
     "reference_id": 8083,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Viagens",
     "media_type": "Text",
     "index_reference": "viagens",
@@ -1868,13 +2314,14 @@
           "end_ref_usfm": "ACT 8:38"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "827607",
     "reference_id": 2540,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Víbora",
     "media_type": "Text",
     "index_reference": "víbora",
@@ -1898,13 +2345,14 @@
           "label": "Cobra",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "816133",
     "reference_id": 8184,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Víbora",
     "media_type": "Text",
     "index_reference": "víbora",
@@ -1941,13 +2389,14 @@
           "label": "Animais",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "125293",
     "reference_id": 5914,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vida",
     "media_type": "Text",
     "index_reference": "vida",
@@ -2409,13 +2858,22 @@
           "label": "Vida Eterna",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:Life",
+          "type": "keyterm",
+          "preferred_label": "Life",
+          "confidence": 0.9307,
+          "match_method": "embedding"
+        }
       ]
     }
   },
   {
     "content_id": "828767",
     "reference_id": 4361,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vida duradoura",
     "media_type": "Text",
     "index_reference": "vida duradoura",
@@ -2432,13 +2890,14 @@
           "label": "Vida Eterna",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "161807",
     "reference_id": 4333,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vida Eterna",
     "media_type": "Text",
     "index_reference": "vida eterna",
@@ -2662,13 +3121,14 @@
           "label": "Regeneração*",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "124383",
     "reference_id": 4403,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vida Familiar E Relações",
     "media_type": "Text",
     "index_reference": "vida familiar e relações",
@@ -3500,13 +3960,22 @@
           "label": "Viúva",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "person:Ehi",
+          "type": "person",
+          "preferred_label": "Eí",
+          "confidence": 0.6009,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "829767",
     "reference_id": 5913,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vida sem fim",
     "media_type": "Text",
     "index_reference": "vida sem fim",
@@ -3523,13 +3992,14 @@
           "label": "Vida Eterna",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "829766",
     "reference_id": 5912,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vida, Livro da",
     "media_type": "Text",
     "index_reference": "vida, livro da",
@@ -3546,13 +4016,14 @@
           "label": "Livro da Vida",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "760043",
     "reference_id": 8181,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Videira de Sodoma",
     "media_type": "Text",
     "index_reference": "videira de sodoma",
@@ -3576,13 +4047,57 @@
           "label": "Plantas",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "place:Sodom",
+          "type": "place",
+          "preferred_label": "Sodoma",
+          "confidence": 0.85,
+          "match_method": "scored"
+        },
+        {
+          "id": "flora:Colocynth",
+          "type": "flora",
+          "preferred_label": "Colocynth",
+          "confidence": 0.7165,
+          "match_method": "scored"
+        },
+        {
+          "id": "flora:Chicory",
+          "type": "flora",
+          "preferred_label": "Bitter Herbs",
+          "confidence": 0.676,
+          "match_method": "scored"
+        },
+        {
+          "id": "flora:Vine",
+          "type": "flora",
+          "preferred_label": "Vine",
+          "confidence": 0.562,
+          "match_method": "scored"
+        },
+        {
+          "id": "place:Gomorrah",
+          "type": "place",
+          "preferred_label": "Gomorra",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        },
+        {
+          "id": "keyterm:Bitter",
+          "type": "keyterm",
+          "preferred_label": "Bitter",
+          "confidence": 0.517,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "831202",
     "reference_id": 8234,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Videira, videira selvagem",
     "media_type": "Text",
     "index_reference": "videira, videira selvagem",
@@ -3613,13 +4128,14 @@
           "label": "Vinho",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "658750",
     "reference_id": 8182,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Videiras, Vinhedo",
     "media_type": "Text",
     "index_reference": "videiras, vinhedo",
@@ -3824,13 +4340,22 @@
           "label": "Plantas",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "flora:Vine",
+          "type": "flora",
+          "preferred_label": "Vine",
+          "confidence": 0.5438,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "830656",
     "reference_id": 7376,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vidente",
     "media_type": "Text",
     "index_reference": "vidente",
@@ -3854,13 +4379,14 @@
           "label": "Profeta, Profetisa",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "760020",
     "reference_id": 7745,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vidente",
     "media_type": "Text",
     "index_reference": "vidente",
@@ -3933,13 +4459,22 @@
           "label": "Feitiçaria",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "keyterm:PracticeDivination",
+          "type": "keyterm",
+          "preferred_label": "practice divination",
+          "confidence": 0.521,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "828055",
     "reference_id": 3212,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Viga, Eixo",
     "media_type": "Text",
     "index_reference": "viga, eixo",
@@ -4015,13 +4550,22 @@
           "end_ref_usfm": "LUK 6:42"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "realia:Beam",
+          "type": "realia",
+          "preferred_label": "Beam",
+          "confidence": 0.5181,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "806284",
     "reference_id": 8201,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vigia",
     "media_type": "Text",
     "index_reference": "vigia",
@@ -4109,13 +4653,14 @@
           "end_ref_usfm": "EZK 33:9"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": []
     }
   },
   {
     "content_id": "161884",
     "reference_id": 8203,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vigília",
     "media_type": "Text",
     "index_reference": "vigília",
@@ -4169,13 +4714,14 @@
           "label": "Noite",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "831175",
     "reference_id": 8180,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vinagre",
     "media_type": "Text",
     "index_reference": "vinagre",
@@ -4192,13 +4738,14 @@
           "label": "Comida E Preparação De Alimentos",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "658612",
     "reference_id": 3052,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vingador de sangue",
     "media_type": "Text",
     "index_reference": "vingador de sangue",
@@ -4270,13 +4817,14 @@
           "label": "Direito Civil e Justiça",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "828209",
     "reference_id": 3440,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vingador de Sangue",
     "media_type": "Text",
     "index_reference": "vingador de sangue",
@@ -4293,13 +4841,14 @@
           "label": "Vingador de sangue",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "830544",
     "reference_id": 7189,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vingança, vingador",
     "media_type": "Text",
     "index_reference": "vingança, vingador",
@@ -4316,13 +4865,14 @@
           "label": "Vingador de sangue",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "124415",
     "reference_id": 8240,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vinho",
     "media_type": "Text",
     "index_reference": "vinho",
@@ -4629,13 +5179,29 @@
           "label": "Lagar",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "flora:Vine",
+          "type": "flora",
+          "preferred_label": "Vine",
+          "confidence": 0.6784,
+          "match_method": "scored"
+        },
+        {
+          "id": "realia:Wine",
+          "type": "realia",
+          "preferred_label": "Wine",
+          "confidence": 0.5629,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "831176",
     "reference_id": 8183,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Violas",
     "media_type": "Text",
     "index_reference": "violas",
@@ -4677,13 +5243,22 @@
           "label": "Instrumentos Musicais",
           "language": "por"
         }
+      ],
+      "acai": [
+        {
+          "id": "realia:Lyre",
+          "type": "realia",
+          "preferred_label": "Lyre",
+          "confidence": 0.562,
+          "match_method": "scored"
+        }
       ]
     }
   },
   {
     "content_id": "683113",
     "reference_id": 8186,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Virgem",
     "media_type": "Text",
     "index_reference": "virgem",
@@ -4819,13 +5394,14 @@
           "label": "Nascimento virginal de Jesus",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "806283",
     "reference_id": 8187,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Visão, Visões",
     "media_type": "Text",
     "index_reference": "visão, visões",
@@ -4983,13 +5559,14 @@
           "label": "Profecia",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "831174",
     "reference_id": 8179,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Viticultor",
     "media_type": "Text",
     "index_reference": "viticultor",
@@ -5006,13 +5583,14 @@
           "label": "Videiras, Vinhedo",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "760049",
     "reference_id": 8229,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Viúva",
     "media_type": "Text",
     "index_reference": "viúva",
@@ -5139,13 +5717,14 @@
           "label": "Casamento, Costumes matrimoniais",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "760044",
     "reference_id": 8188,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vofsi",
     "media_type": "Text",
     "index_reference": "vofsi",
@@ -5161,13 +5740,43 @@
           "end_ref_usfm": "NUM 13:14"
         }
       ],
-      "resource": []
+      "resource": [],
+      "acai": [
+        {
+          "id": "person:Vophsi",
+          "type": "person",
+          "preferred_label": "Vofsi",
+          "confidence": 1.0,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Nahbi",
+          "type": "person",
+          "preferred_label": "Nabi",
+          "confidence": 0.649,
+          "match_method": "scored"
+        },
+        {
+          "id": "group:Naphtali",
+          "type": "group",
+          "preferred_label": "Naftali",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        },
+        {
+          "id": "person:Naphtali",
+          "type": "person",
+          "preferred_label": "Naftali",
+          "confidence": 0.5485,
+          "match_method": "scored"
+        }
+      ]
     }
   },
   {
     "content_id": "831203",
     "reference_id": 8235,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vontade de Deus",
     "media_type": "Text",
     "index_reference": "vontade de deus",
@@ -5234,13 +5843,14 @@
           "label": "Predestinação",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "161883",
     "reference_id": 8189,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Voto, Votos",
     "media_type": "Text",
     "index_reference": "voto, votos",
@@ -5373,13 +5983,14 @@
           "label": "Juramento",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   },
   {
     "content_id": "831178",
     "reference_id": 8190,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "title": "Vulgata, a",
     "media_type": "Text",
     "index_reference": "vulgata, a",
@@ -5396,7 +6007,8 @@
           "label": "Bíblia, Versões (Antigas) da",
           "language": "por"
         }
-      ]
+      ],
+      "acai": []
     }
   }
 ]
