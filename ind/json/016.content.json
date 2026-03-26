@@ -198,7 +198,16 @@
 "end_ref_usfm": "1CO 15:8"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "keyterm:Witness",
+"type": "keyterm",
+"preferred_label": "saksi",
+"confidence": 0.8938,
+"match_method": "embedding"
+}
+]
 }
 },
 {
@@ -379,7 +388,8 @@
 "label": "Kehidupan Dan Hubungan Keluarga",
 "language": "ind"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -497,7 +507,8 @@
 "end_ref_usfm": "1JN 4:21"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -636,7 +647,8 @@
 "label": "Maria",
 "language": "ind"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -684,7 +696,8 @@
 "label": "Rasul, Kerasulan",
 "language": "ind"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -724,7 +737,23 @@
 "end_ref_usfm": "ACT 1:13"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Simon.2",
+"type": "person",
+"preferred_label": "Simon",
+"confidence": 0.8785,
+"match_method": "scored"
+},
+{
+"id": "group:Zealot",
+"type": "group",
+"preferred_label": "Zelot",
+"confidence": 0.6785,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -752,7 +781,16 @@
 "end_ref_usfm": "ACT 1:13"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Simon.2",
+"type": "person",
+"preferred_label": "Simon",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -840,7 +878,16 @@
 "end_ref_usfm": "ACT 8:3"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Stephen",
+"type": "person",
+"preferred_label": "Stefanus",
+"confidence": 0.625,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -1408,7 +1455,8 @@
 "end_ref_usfm": "GAL 3:9"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -1776,7 +1824,8 @@
 "label": "Paulus, Rasul",
 "language": "ind"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -2224,7 +2273,8 @@
 "end_ref_usfm": "REV 19:4"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 }
 ]

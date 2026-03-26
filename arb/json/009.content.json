@@ -26,7 +26,8 @@
 "label": "حيوانات",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -49,7 +50,8 @@
 "label": "التَّقْدِمَات والذَّبَائِح",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -78,6 +80,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "حنطة",
 "language": "arb"
+}
+],
+"acai": [
+{
+"id": "flora:Wheat",
+"type": "flora",
+"preferred_label": "Wheat",
+"confidence": 0.8109,
+"match_method": "embedding"
 }
 ]
 }
@@ -109,6 +120,15 @@
 "label": "كَلب",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Ashvath",
+"type": "person",
+"preferred_label": "عَشْة",
+"confidence": 0.8102,
+"match_method": "embedding"
+}
 ]
 }
 },
@@ -131,7 +151,51 @@
 "end_ref_usfm": "JDG 7:25"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Geshem",
+"type": "person",
+"preferred_label": "جَشَمٌ",
+"confidence": 0.8322,
+"match_method": "embedding"
+},
+{
+"id": "person:Shepho",
+"type": "person",
+"preferred_label": "شَفْوٌ",
+"confidence": 0.8272,
+"match_method": "embedding"
+},
+{
+"id": "person:Bela",
+"type": "person",
+"preferred_label": "بَالَع",
+"confidence": 0.8169,
+"match_method": "embedding"
+},
+{
+"id": "person:Bela.2",
+"type": "person",
+"preferred_label": "بَالَع",
+"confidence": 0.8169,
+"match_method": "embedding"
+},
+{
+"id": "person:Bela.3",
+"type": "person",
+"preferred_label": "بَالَع",
+"confidence": 0.8169,
+"match_method": "embedding"
+},
+{
+"id": "place:Zior",
+"type": "place",
+"preferred_label": "صِيعور",
+"confidence": 0.8033,
+"match_method": "embedding"
+}
+]
 }
 },
 {
@@ -167,7 +231,8 @@
 "label": "حيوانات",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -197,7 +262,8 @@
 "label": "التَّقْدِمَات والذَّبَائِح",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -220,7 +286,8 @@
 "label": "التَّقْدِمَات والذَّبَائِح",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -243,7 +310,8 @@
 "label": "التَّقْدِمَات والذَّبَائِح",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -266,7 +334,8 @@
 "label": "التَّقْدِمَات والذَّبَائِح",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -289,7 +358,8 @@
 "label": "التَّقْدِمَات والذَّبَائِح",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -312,7 +382,8 @@
 "label": "التَّقْدِمَات والذَّبَائِح",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -335,7 +406,8 @@
 "label": "التَّقْدِمَات والذَّبَائِح",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -365,7 +437,8 @@
 "label": "التَّقْدِمَات والذَّبَائِح",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -388,7 +461,8 @@
 "label": "الأوزان والمقاييس",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -418,7 +492,8 @@
 "label": "الْأَيَائِل",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -455,7 +530,8 @@
 "label": "مال",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -478,7 +554,8 @@
 "label": "العِجل الذهبي",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -538,7 +615,8 @@
 "label": "موسيقى",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -568,7 +646,8 @@
 "label": "موسيقى",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -590,7 +669,30 @@
 "end_ref_usfm": "DEU 1:1"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Hazeroth",
+"type": "place",
+"preferred_label": "حَضَيْروتَ",
+"confidence": 0.748,
+"match_method": "scored"
+},
+{
+"id": "place:Arabah",
+"type": "place",
+"preferred_label": "ٱلْعَرَبَةِ",
+"confidence": 0.6385,
+"match_method": "scored"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "إِسْرَائِيلَ",
+"confidence": 0.625,
+"match_method": "scored"
+}
+]
 }
 }
 ]

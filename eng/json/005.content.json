@@ -39,6 +39,15 @@
 "label": "Eagle",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "fauna:Vulture",
+"type": "fauna",
+"preferred_label": "Vulture",
+"confidence": 1.0,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -61,6 +70,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Jewelry, Jewels",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "realia:Earring",
+"type": "realia",
+"preferred_label": "Earring",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -308,7 +326,8 @@
 "label": "New Heavens and New Earth",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -331,7 +350,8 @@
 "label": "New Heavens and New Earth",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -354,7 +374,8 @@
 "label": "Pottery",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -448,7 +469,8 @@
 "end_ref_usfm": "REV 6:24"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -496,6 +518,15 @@
 "label": "Jerusalem",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "place:EastGate",
+"type": "place",
+"preferred_label": "East Gate",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -525,6 +556,22 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Dead Sea",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "place:Gilead",
+"type": "place",
+"preferred_label": "Gilead",
+"confidence": 0.6115,
+"match_method": "scored"
+},
+{
+"id": "place:Damascus",
+"type": "place",
+"preferred_label": "Damascus",
+"confidence": 0.6025,
+"match_method": "scored"
 }
 ]
 }
@@ -602,7 +649,8 @@
 "end_ref_usfm": "PSA 103:16"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -631,6 +679,22 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "People of the East",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "place:East",
+"type": "place",
+"preferred_label": "East",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "group:Israel",
+"type": "group",
+"preferred_label": "Israelites",
+"confidence": 0.706,
+"match_method": "scored"
 }
 ]
 }
@@ -674,7 +738,8 @@
 "label": "Dead Sea",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -714,7 +779,23 @@
 "end_ref_usfm": "1CH 1:40"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ebal",
+"type": "person",
+"preferred_label": "Ebal",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Obal",
+"type": "person",
+"preferred_label": "Obal",
+"confidence": 0.8,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -742,7 +823,23 @@
 "end_ref_usfm": "JDG 9:35"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ebed.2",
+"type": "person",
+"preferred_label": "Ebed",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Ebed",
+"type": "person",
+"preferred_label": "Ebed",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -770,7 +867,16 @@
 "end_ref_usfm": "JER 38:13"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ebed-melech",
+"type": "person",
+"preferred_label": "Ebed-melech",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -810,7 +916,23 @@
 "end_ref_usfm": "1SA 4:11"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Ebenezer.2",
+"type": "place",
+"preferred_label": "Ebenezer",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:Ebenezer",
+"type": "place",
+"preferred_label": "Ebenezer",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -880,7 +1002,44 @@
 "end_ref_usfm": "1CH 1:25"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Eber.2",
+"type": "person",
+"preferred_label": "Eber",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eber.3",
+"type": "person",
+"preferred_label": "Eber",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eber.4",
+"type": "person",
+"preferred_label": "Eber",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eber.5",
+"type": "person",
+"preferred_label": "Eber",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eber",
+"type": "person",
+"preferred_label": "Eber",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -902,7 +1061,16 @@
 "end_ref_usfm": "JOS 19:20"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Ebez",
+"type": "place",
+"preferred_label": "Ebez",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -942,7 +1110,16 @@
 "end_ref_usfm": "1CH 9:19"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ebiasaph",
+"type": "person",
+"preferred_label": "Ebiasaph",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -1002,7 +1179,8 @@
 "label": "Inscriptions",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -1024,6 +1202,15 @@
 "resource_code": "Unknown",
 "label": "Plants",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "flora:Ebony",
+"type": "flora",
+"preferred_label": "Ebony",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -1047,7 +1234,16 @@
 "end_ref_usfm": "JOS 19:28"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Abdon",
+"type": "place",
+"preferred_label": "Abdon",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -1076,6 +1272,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Abronah",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "place:Abronah",
+"type": "place",
+"preferred_label": "Abronah",
+"confidence": 1.0,
+"match_method": "scored"
 }
 ]
 }
@@ -1167,6 +1372,15 @@
 "label": "Persia, Persians",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "place:Ecbatana",
+"type": "place",
+"preferred_label": "Ecbatana",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -1190,7 +1404,8 @@
 "label": "Wisdom of Jesus Ben Sirach",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -1213,7 +1428,8 @@
 "label": "Astronomy",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -1242,6 +1458,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Eder (Place)",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "place:TowerOfEder",
+"type": "place",
+"preferred_label": "Tower of Eder",
+"confidence": 1.0,
+"match_method": "scored"
 }
 ]
 }
@@ -1298,6 +1523,36 @@
 "label": "Garden of Eden",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Eden.2",
+"type": "person",
+"preferred_label": "Eden",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eden",
+"type": "person",
+"preferred_label": "Eden",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:Eden",
+"type": "place",
+"preferred_label": "Eden",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:Eden.2",
+"type": "place",
+"preferred_label": "Garden of Eden",
+"confidence": 0.92,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -1332,7 +1587,23 @@
 "end_ref_usfm": "1CH 24:30"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Eder.2",
+"type": "person",
+"preferred_label": "Eder",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eder",
+"type": "person",
+"preferred_label": "Eder",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -1360,7 +1631,23 @@
 "end_ref_usfm": "JOS 15:21"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Eder",
+"type": "place",
+"preferred_label": "Eder",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:TowerOfEder",
+"type": "place",
+"preferred_label": "Tower of Eder",
+"confidence": 0.8,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -1388,7 +1675,8 @@
 "end_ref_usfm": "JOS 22:34"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -1428,7 +1716,8 @@
 "end_ref_usfm": "TOB 11:1"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -1732,7 +2021,30 @@
 "end_ref_usfm": "MAL 1:4"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Esau",
+"type": "person",
+"preferred_label": "Esau",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:Edom",
+"type": "place",
+"preferred_label": "Edom",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "group:Edom",
+"type": "group",
+"preferred_label": "Edomites",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -1796,7 +2108,23 @@
 "end_ref_usfm": "DEU 3:6"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Edrei.2",
+"type": "place",
+"preferred_label": "Edrei",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:Edrei",
+"type": "place",
+"preferred_label": "Edrei",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -2034,7 +2362,8 @@
 "end_ref_usfm": "DEU 27:8"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -2100,7 +2429,8 @@
 "label": "Music",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -2128,7 +2458,16 @@
 "end_ref_usfm": "1CH 3:3"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Eglah",
+"type": "person",
+"preferred_label": "Eglah",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -2150,7 +2489,16 @@
 "end_ref_usfm": "ISA 15:8"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Eglaim",
+"type": "place",
+"preferred_label": "Eglaim",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -2178,7 +2526,16 @@
 "end_ref_usfm": "JER 48:34"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Eglath-shelishiyah.1",
+"type": "place",
+"preferred_label": "Eglath-shelishiya",
+"confidence": 0.8552,
+"match_method": "embedding"
+}
+]
 }
 },
 {
@@ -2208,6 +2565,15 @@
 "label": "Moab, Moabites",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Eglon",
+"type": "person",
+"preferred_label": "Eglon",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -2230,7 +2596,16 @@
 "end_ref_usfm": "JOS 15:39"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Eglon",
+"type": "place",
+"preferred_label": "Eglon",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -2252,6 +2627,22 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Brook of Egypt",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Egypt",
+"type": "person",
+"preferred_label": "Egypt",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"preferred_label": "Egypt",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -2369,6 +2760,22 @@
 "label": "Plagues upon Egypt",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Egypt",
+"type": "person",
+"preferred_label": "Egypt",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"preferred_label": "Egypt",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -2391,7 +2798,23 @@
 "end_ref_usfm": "ACT 21:38"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Egypt",
+"type": "place",
+"preferred_label": "Egypt",
+"confidence": 0.76,
+"match_method": "scored"
+},
+{
+"id": "group:Egypt",
+"type": "group",
+"preferred_label": "Egyptians",
+"confidence": 0.742,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -2420,6 +2843,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Ahiram, Ahiramite",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Ehi",
+"type": "person",
+"preferred_label": "Ehi",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -2455,7 +2887,23 @@
 "end_ref_usfm": "JDG 3:30"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ehud.2",
+"type": "person",
+"preferred_label": "Ehud",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Ehud",
+"type": "person",
+"preferred_label": "Ehud",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -2477,7 +2925,16 @@
 "end_ref_usfm": "1CH 2:27"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Eker",
+"type": "person",
+"preferred_label": "Eker",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -2499,7 +2956,8 @@
 "end_ref_usfm": "JDT 7:18"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -2607,6 +3065,15 @@
 "label": "Philistia, Philistines",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "place:Ekron",
+"type": "place",
+"preferred_label": "Ekron",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -2674,7 +3141,8 @@
 "label": "God, Names of",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -2703,6 +3171,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "God, Names of",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "LORD",
+"confidence": 0.625,
+"match_method": "scored"
 }
 ]
 }
@@ -2738,7 +3215,23 @@
 "end_ref_usfm": "JDG 9:46"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "deity:El-berith",
+"type": "deity",
+"preferred_label": "El-Berith",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "deity:Baal-berith",
+"type": "deity",
+"preferred_label": "Baal-Berith",
+"confidence": 0.8667,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -2767,6 +3260,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Bethel (Place), Bethelite",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "place:Bethel",
+"type": "place",
+"preferred_label": "Bethel",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -2810,6 +3312,15 @@
 "label": "God, Names of",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "LORD",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -2840,7 +3351,8 @@
 "label": "God, Names of",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -2870,6 +3382,15 @@
 "label": "Elath",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "place:El-paran",
+"type": "place",
+"preferred_label": "El-paran",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -2882,7 +3403,7 @@
 "index_reference": "ela",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>ELA</h1><p>Father of Shimei, one of the 12 officers appointed to requisition food for King Solomon’s household (<a href=\"https://ref.ly/1Kgs4:18\">1&nbsp;Kgs 4:18</a>).</p>",
+"content": "<h1>ELA</h1><p>The father of Shimei, one of the 12 officers chosen to collect food for King Solomon’s household (<a href=\"https://ref.ly/1Kgs4:18\">1&nbsp;Kings 4:18</a>).</p>",
 "associations": {
 "passage": [
 {
@@ -2892,7 +3413,16 @@
 "end_ref_usfm": "1KI 4:18"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ela",
+"type": "person",
+"preferred_label": "Ela",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -2921,6 +3451,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Eleadah",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Eleadah",
+"type": "person",
+"preferred_label": "Eleadah",
+"confidence": 1.0,
+"match_method": "scored"
 }
 ]
 }
@@ -3012,6 +3551,50 @@
 "label": "Ela",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Elah.2",
+"type": "person",
+"preferred_label": "Elah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elah.3",
+"type": "person",
+"preferred_label": "Elah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elah.4",
+"type": "person",
+"preferred_label": "Elah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elah.5",
+"type": "person",
+"preferred_label": "Elah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elah",
+"type": "person",
+"preferred_label": "Elah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Ela",
+"type": "person",
+"preferred_label": "Ela",
+"confidence": 0.6077,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -3046,7 +3629,51 @@
 "end_ref_usfm": "1SA 21:9"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Elah.2",
+"type": "person",
+"preferred_label": "Elah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elah.3",
+"type": "person",
+"preferred_label": "Elah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elah.4",
+"type": "person",
+"preferred_label": "Elah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elah.5",
+"type": "person",
+"preferred_label": "Elah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elah",
+"type": "person",
+"preferred_label": "Elah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:ElahValley",
+"type": "place",
+"preferred_label": "Valley of Elah",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -3140,7 +3767,58 @@
 "end_ref_usfm": "NEH 12:42"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Elam.2",
+"type": "person",
+"preferred_label": "Elam",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elam.3",
+"type": "person",
+"preferred_label": "Elam",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elam.4",
+"type": "person",
+"preferred_label": "Elam",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elam.5",
+"type": "person",
+"preferred_label": "Elam",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elam.6",
+"type": "person",
+"preferred_label": "Elam",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elam",
+"type": "person",
+"preferred_label": "Elam",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "group:Elam",
+"type": "group",
+"preferred_label": "Elamites",
+"confidence": 0.6,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -3240,7 +3918,65 @@
 "end_ref_usfm": "EZK 32:25"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Elam.2",
+"type": "person",
+"preferred_label": "Elam",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elam.3",
+"type": "person",
+"preferred_label": "Elam",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elam.4",
+"type": "person",
+"preferred_label": "Elam",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elam.5",
+"type": "person",
+"preferred_label": "Elam",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elam.6",
+"type": "person",
+"preferred_label": "Elam",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elam",
+"type": "person",
+"preferred_label": "Elam",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:Elam",
+"type": "place",
+"preferred_label": "Elam",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "group:Elam",
+"type": "group",
+"preferred_label": "Elamites",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -3268,7 +4004,8 @@
 "end_ref_usfm": "1MA 9:18"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -3296,7 +4033,23 @@
 "end_ref_usfm": "JER 29:3"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Elasah.2",
+"type": "person",
+"preferred_label": "Elasah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elasah",
+"type": "person",
+"preferred_label": "Elasah",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -3368,6 +4121,15 @@
 "label": "El-Paran",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "place:Elath",
+"type": "place",
+"preferred_label": "Elath",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -3396,7 +4158,16 @@
 "end_ref_usfm": "1CH 1:33"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Eldaah",
+"type": "person",
+"preferred_label": "Eldaah",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -3424,7 +4195,16 @@
 "end_ref_usfm": "NUM 11:27"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Eldad",
+"type": "person",
+"preferred_label": "Eldad",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -3896,7 +4676,8 @@
 "label": "Spiritual Gifts",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -3918,7 +4699,16 @@
 "end_ref_usfm": "1CH 7:21"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Elead",
+"type": "person",
+"preferred_label": "Elead",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -3940,7 +4730,16 @@
 "end_ref_usfm": "1CH 7:20"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Eleadah",
+"type": "person",
+"preferred_label": "Eleadah",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -3986,7 +4785,16 @@
 "end_ref_usfm": "JER 48:34"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Elealeh",
+"type": "place",
+"preferred_label": "Elealeh",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -4020,7 +4828,23 @@
 "end_ref_usfm": "1CH 2:40"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Eleasah.2",
+"type": "person",
+"preferred_label": "Eleasah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eleasah",
+"type": "person",
+"preferred_label": "Eleasah",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -4291,6 +5115,64 @@
 "label": "Genealogy of Jesus Christ",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Eleazar.2",
+"type": "person",
+"preferred_label": "Eleazar",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eleazar.3",
+"type": "person",
+"preferred_label": "Eleazar",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eleazar.4",
+"type": "person",
+"preferred_label": "Eleazar",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eleazar.5",
+"type": "person",
+"preferred_label": "Eleazar",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eleazar.6",
+"type": "person",
+"preferred_label": "Eleazar",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eleazar.7",
+"type": "person",
+"preferred_label": "Eleazar",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eleazar.8",
+"type": "person",
+"preferred_label": "Eleazar",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eleazar",
+"type": "person",
+"preferred_label": "Eleazar",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -4333,7 +5215,8 @@
 "label": "John, Letters of",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -4574,7 +5457,8 @@
 "label": "Foreordination",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -4734,7 +5618,8 @@
 "end_ref_usfm": "GAL 4:10"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -4763,6 +5648,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Haeleph",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "place:Haeleph",
+"type": "place",
+"preferred_label": "Haeleph",
+"confidence": 1.0,
+"match_method": "scored"
 }
 ]
 }
@@ -4840,7 +5734,8 @@
 "end_ref_usfm": "NEH 13:25"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -4868,7 +5763,8 @@
 "end_ref_usfm": "1MA 12:30"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -4916,7 +5812,8 @@
 "label": "Apostle, Apostleship",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -4956,7 +5853,23 @@
 "end_ref_usfm": "1CH 20:5"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Elhanan.2",
+"type": "person",
+"preferred_label": "Elhanan",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elhanan",
+"type": "person",
+"preferred_label": "Elhanan",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -5062,7 +5975,23 @@
 "end_ref_usfm": "1SA 4:22"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Eli",
+"type": "person",
+"preferred_label": "Eli",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "LORD",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -5164,6 +6093,22 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Seven Last Sayings of Jesus",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Eli",
+"type": "person",
+"preferred_label": "Eli",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "LORD",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -5309,6 +6254,50 @@
 "label": "Elihu",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Eliab.2",
+"type": "person",
+"preferred_label": "Eliab",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliab.3",
+"type": "person",
+"preferred_label": "Eliab",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliab.4",
+"type": "person",
+"preferred_label": "Eliab",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliab.5",
+"type": "person",
+"preferred_label": "Eliab",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elihu",
+"type": "person",
+"preferred_label": "Elihu",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliab",
+"type": "person",
+"preferred_label": "Eliab",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -5355,7 +6344,30 @@
 "end_ref_usfm": "2CH 17:17"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Eliada.2",
+"type": "person",
+"preferred_label": "Eliada",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliada.3",
+"type": "person",
+"preferred_label": "Eliada",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliada",
+"type": "person",
+"preferred_label": "Eliada",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -5384,6 +6396,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Eliada",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Eliada.2",
+"type": "person",
+"preferred_label": "Eliada",
+"confidence": 1.0,
+"match_method": "scored"
 }
 ]
 }
@@ -5421,6 +6442,22 @@
 "label": "Elijah",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Elijah.4",
+"type": "person",
+"preferred_label": "Elijah",
+"confidence": 0.8,
+"match_method": "scored"
+},
+{
+"id": "person:Elijah.2",
+"type": "person",
+"preferred_label": "Elijah",
+"confidence": 0.8,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -5449,7 +6486,16 @@
 "end_ref_usfm": "1CH 11:33"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Eliahba",
+"type": "person",
+"preferred_label": "Eliahba",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -5540,6 +6586,43 @@
 "label": "Jehoiakim",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Eliakim.2",
+"type": "person",
+"preferred_label": "Eliakim",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliakim.3",
+"type": "person",
+"preferred_label": "Eliakim",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliakim.4",
+"type": "person",
+"preferred_label": "Eliakim",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Jehoiakim",
+"type": "person",
+"preferred_label": "Jehoiakim",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliakim",
+"type": "person",
+"preferred_label": "Eliakim",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -5583,6 +6666,22 @@
 "label": "Ammiel",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Eliam.2",
+"type": "person",
+"preferred_label": "Eliam",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliam",
+"type": "person",
+"preferred_label": "Eliam",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -5606,7 +6705,8 @@
 "label": "Elijah",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -5658,7 +6758,23 @@
 "end_ref_usfm": "NUM 3:25"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Eliasaph.2",
+"type": "person",
+"preferred_label": "Eliasaph",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliasaph",
+"type": "person",
+"preferred_label": "Eliasaph",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -5746,7 +6862,72 @@
 "end_ref_usfm": "NEH 13:8"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Eliashib.2",
+"type": "person",
+"preferred_label": "Eliashib",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliashib.3",
+"type": "person",
+"preferred_label": "Eliashib",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliashib.4",
+"type": "person",
+"preferred_label": "Eliashib",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliashib.5",
+"type": "person",
+"preferred_label": "Eliashib",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliashib.6",
+"type": "person",
+"preferred_label": "Eliashib",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliashib.7",
+"type": "person",
+"preferred_label": "Eliashib",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliashib.8",
+"type": "person",
+"preferred_label": "Eliashib",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliashib.9",
+"type": "person",
+"preferred_label": "Eliashib",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliashib",
+"type": "person",
+"preferred_label": "Eliashib",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -5774,7 +6955,16 @@
 "end_ref_usfm": "1CH 25:27"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Eliathah",
+"type": "person",
+"preferred_label": "Eliathah",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -5796,7 +6986,16 @@
 "end_ref_usfm": "NUM 34:21"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Elidad",
+"type": "person",
+"preferred_label": "Elidad",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -5824,7 +7023,23 @@
 "end_ref_usfm": "EZR 8:4"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Eliehoenai.2",
+"type": "person",
+"preferred_label": "Eliehoenai",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliehoenai",
+"type": "person",
+"preferred_label": "Eliehoenai",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -5912,7 +7127,72 @@
 "end_ref_usfm": "1CH 11:47"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Eliel.2",
+"type": "person",
+"preferred_label": "Eliel",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliel.3",
+"type": "person",
+"preferred_label": "Eliel",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliel.4",
+"type": "person",
+"preferred_label": "Eliel",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliel.5",
+"type": "person",
+"preferred_label": "Eliel",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliel.6",
+"type": "person",
+"preferred_label": "Eliel",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliel.7",
+"type": "person",
+"preferred_label": "Eliel",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliel.8",
+"type": "person",
+"preferred_label": "Eliel",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elihu",
+"type": "person",
+"preferred_label": "Elihu",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliel",
+"type": "person",
+"preferred_label": "Eliel",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -5940,7 +7220,23 @@
 "end_ref_usfm": "1CH 26:3"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Elienai",
+"type": "person",
+"preferred_label": "Elienai",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliehoenai",
+"type": "person",
+"preferred_label": "Eliehoenai",
+"confidence": 0.7685,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -6036,6 +7332,85 @@
 "label": "Genealogy of Jesus Christ",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Eliezer.10",
+"type": "person",
+"preferred_label": "Eliezer",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliezer.11",
+"type": "person",
+"preferred_label": "Eliezer",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliezer.2",
+"type": "person",
+"preferred_label": "Eliezer",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliezer.3",
+"type": "person",
+"preferred_label": "Eliezer",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliezer.4",
+"type": "person",
+"preferred_label": "Eliezer",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliezer.5",
+"type": "person",
+"preferred_label": "Eliezer",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliezer.6",
+"type": "person",
+"preferred_label": "Eliezer",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliezer.7",
+"type": "person",
+"preferred_label": "Eliezer",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliezer.8",
+"type": "person",
+"preferred_label": "Eliezer",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliezer.9",
+"type": "person",
+"preferred_label": "Eliezer",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliezer",
+"type": "person",
+"preferred_label": "Eliezer",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -6066,6 +7441,15 @@
 "label": "Eliehoenai",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Eliehoenai.2",
+"type": "person",
+"preferred_label": "Eliehoenai",
+"confidence": 1.0,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -6088,7 +7472,16 @@
 "end_ref_usfm": "1KI 4:3"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Elihoreph",
+"type": "person",
+"preferred_label": "Elihoreph",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -6159,6 +7552,50 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Eliab",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Elihu.2",
+"type": "person",
+"preferred_label": "Elihu",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elihu.3",
+"type": "person",
+"preferred_label": "Elihu",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elihu.4",
+"type": "person",
+"preferred_label": "Elihu",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elihu",
+"type": "person",
+"preferred_label": "Elihu",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elihu.5",
+"type": "person",
+"preferred_label": "Elihu (Friend of Job).",
+"confidence": 0.6164,
+"match_method": "scored"
+},
+{
+"id": "person:Tohu",
+"type": "person",
+"preferred_label": "Tohu",
+"confidence": 0.6047,
+"match_method": "scored"
 }
 ]
 }
@@ -6356,7 +7793,37 @@
 "end_ref_usfm": "REV 11:12"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Elijah.2",
+"type": "person",
+"preferred_label": "Elijah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elijah.3",
+"type": "person",
+"preferred_label": "Elijah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elijah.4",
+"type": "person",
+"preferred_label": "Elijah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elijah",
+"type": "person",
+"preferred_label": "Elijah",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -6384,7 +7851,16 @@
 "end_ref_usfm": "1CH 11:27"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Elika",
+"type": "person",
+"preferred_label": "Elika",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -6418,7 +7894,16 @@
 "end_ref_usfm": "NUM 33:10"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Elim",
+"type": "place",
+"preferred_label": "Elim",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -6453,6 +7938,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Ruth, Book of",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Elimelech",
+"type": "person",
+"preferred_label": "Elimelech",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -6520,6 +8014,57 @@
 "label": "Eliehoenai",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Elioenai.2",
+"type": "person",
+"preferred_label": "Elioenai",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elioenai.3",
+"type": "person",
+"preferred_label": "Elioenai",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elioenai.4",
+"type": "person",
+"preferred_label": "Elioenai",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elioenai.5",
+"type": "person",
+"preferred_label": "Elioenai",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elioenai.6",
+"type": "person",
+"preferred_label": "Elioenai",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elioenai",
+"type": "person",
+"preferred_label": "Elioenai",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliehoenai",
+"type": "person",
+"preferred_label": "Eliehoenai",
+"confidence": 0.65,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -6556,6 +8101,15 @@
 "label": "Eliphelet",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Eliphal",
+"type": "person",
+"preferred_label": "Eliphal",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -6591,6 +8145,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Eliphelet",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Eliphelet",
+"type": "person",
+"preferred_label": "Eliphelet",
+"confidence": 1.0,
+"match_method": "scored"
 }
 ]
 }
@@ -6652,6 +8215,29 @@
 "label": "Book of Job",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Eliphaz.2",
+"type": "person",
+"preferred_label": "Eliphaz",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliphaz",
+"type": "person",
+"preferred_label": "Eliphaz",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:WifeOfEliphaz",
+"type": "person",
+"preferred_label": "Wife of Eliphaz",
+"confidence": 0.6,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -6680,7 +8266,16 @@
 "end_ref_usfm": "1CH 15:21"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Eliphelehu",
+"type": "person",
+"preferred_label": "Eliphelehu",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -6764,6 +8359,50 @@
 "label": "Eliphal",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Eliphelet.2",
+"type": "person",
+"preferred_label": "Eliphelet",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elpelet",
+"type": "person",
+"preferred_label": "Elpelet",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliphelet.4",
+"type": "person",
+"preferred_label": "Eliphelet",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliphelet.5",
+"type": "person",
+"preferred_label": "Eliphelet",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliphelet.6",
+"type": "person",
+"preferred_label": "Eliphelet",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Eliphelet",
+"type": "person",
+"preferred_label": "Eliphelet",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -6786,6 +8425,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Elizabeth",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Elizabeth",
+"type": "person",
+"preferred_label": "Elizabeth",
+"confidence": 0.9383,
+"match_method": "embedding"
 }
 ]
 }
@@ -7024,6 +8672,15 @@
 "label": "Prophecy",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Elisha",
+"type": "person",
+"preferred_label": "Elisha",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -7070,7 +8727,23 @@
 "end_ref_usfm": "EZK 27:7"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Elishah",
+"type": "person",
+"preferred_label": "Elishah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:Cyprus",
+"type": "place",
+"preferred_label": "Cyprus",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -7202,6 +8875,57 @@
 "label": "Elishua",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Elishama.2",
+"type": "person",
+"preferred_label": "Elishama",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elishama.3",
+"type": "person",
+"preferred_label": "Elishama",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elishama.4",
+"type": "person",
+"preferred_label": "Elishama",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elishama.5",
+"type": "person",
+"preferred_label": "Elishama",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elishama.6",
+"type": "person",
+"preferred_label": "Elishama",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elishua",
+"type": "person",
+"preferred_label": "Elishua",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elishama",
+"type": "person",
+"preferred_label": "Elishama",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -7224,7 +8948,16 @@
 "end_ref_usfm": "2CH 23:1"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Elishaphat",
+"type": "person",
+"preferred_label": "Elishaphat",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -7264,7 +8997,16 @@
 "end_ref_usfm": "NUM 20:28"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Elisheba",
+"type": "person",
+"preferred_label": "Elisheba",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -7298,7 +9040,16 @@
 "end_ref_usfm": "1CH 14:5"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Elishua",
+"type": "person",
+"preferred_label": "Elishua",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -7327,6 +9078,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Genealogy of Jesus Christ",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Eliud",
+"type": "person",
+"preferred_label": "Eliud",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -7394,6 +9154,15 @@
 "label": "John the Baptist",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Elizabeth",
+"type": "person",
+"preferred_label": "Elizabeth",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -7446,7 +9215,23 @@
 "end_ref_usfm": "NUM 3:30"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Elizaphan.2",
+"type": "person",
+"preferred_label": "Elizaphan",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elizaphan",
+"type": "person",
+"preferred_label": "Elizaphan",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -7486,7 +9271,16 @@
 "end_ref_usfm": "NUM 7:35"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Elizur",
+"type": "person",
+"preferred_label": "Elizur",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -7580,7 +9374,65 @@
 "end_ref_usfm": "2CH 28:7"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Elkanah.2",
+"type": "person",
+"preferred_label": "Elkanah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elkanah.3",
+"type": "person",
+"preferred_label": "Elkanah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elkanah.4",
+"type": "person",
+"preferred_label": "Elkanah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elkanah.5",
+"type": "person",
+"preferred_label": "Elkanah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elkanah.6",
+"type": "person",
+"preferred_label": "Elkanah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elkanah.7",
+"type": "person",
+"preferred_label": "Elkanah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elkanah.8",
+"type": "person",
+"preferred_label": "Elkanah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elkanah",
+"type": "person",
+"preferred_label": "Elkanah",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -7602,7 +9454,8 @@
 "end_ref_usfm": "JDT 8:1"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -7624,7 +9477,16 @@
 "end_ref_usfm": "NAM 1:1"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Elkosh",
+"type": "place",
+"preferred_label": "Elkosh",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -7652,7 +9514,16 @@
 "end_ref_usfm": "GEN 14:9"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Ellasar",
+"type": "place",
+"preferred_label": "Ellasar",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -7681,6 +9552,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Plants",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "flora:Elm",
+"type": "flora",
+"preferred_label": "Elm",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -7712,6 +9592,15 @@
 "label": "Genealogy of Jesus Christ",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Elmadam",
+"type": "person",
+"preferred_label": "Elmadam",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -7734,7 +9623,16 @@
 "end_ref_usfm": "1CH 11:46"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Elnaam",
+"type": "person",
+"preferred_label": "Elnaam",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -7780,7 +9678,44 @@
 "end_ref_usfm": "JER 26:23"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Elnathan.2",
+"type": "person",
+"preferred_label": "Elnathan",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elnathan.3",
+"type": "person",
+"preferred_label": "Elnathan",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elnathan.4",
+"type": "person",
+"preferred_label": "Elnathan",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elnathan.5",
+"type": "person",
+"preferred_label": "Elnathan",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elnathan",
+"type": "person",
+"preferred_label": "Elnathan",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -7803,7 +9738,8 @@
 "label": "God, Names of",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -7869,6 +9805,15 @@
 "label": "God, Names of",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "LORD",
+"confidence": 0.7611,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -7898,6 +9843,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Eli, Eli, Lama Sabachthani?",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "LORD",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -7945,7 +9899,44 @@
 "end_ref_usfm": "JDG 12:12"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Elon.2",
+"type": "person",
+"preferred_label": "Elon",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elon.3",
+"type": "person",
+"preferred_label": "Elon",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elon",
+"type": "person",
+"preferred_label": "Elon",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Tola.2",
+"type": "person",
+"preferred_label": "Elon",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "group:Elon",
+"type": "group",
+"preferred_label": "Elonites",
+"confidence": 0.6667,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -7973,7 +9964,16 @@
 "end_ref_usfm": "JOS 14:2"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Elon",
+"type": "place",
+"preferred_label": "Elon",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -7995,7 +9995,16 @@
 "end_ref_usfm": "1KI 4:9"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Elonbeth-hanan",
+"type": "place",
+"preferred_label": "Elon-beth-hanan",
+"confidence": 0.955,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -8024,6 +10033,22 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Elon (Person)",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Elon.2",
+"type": "person",
+"preferred_label": "Elon",
+"confidence": 1.0,
+"match_method": "scored"
+},
+{
+"id": "group:Elon",
+"type": "group",
+"preferred_label": "Elonites",
+"confidence": 0.9685,
+"match_method": "scored"
 }
 ]
 }
@@ -8067,6 +10092,15 @@
 "label": "Elath",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "place:Elath",
+"type": "place",
+"preferred_label": "Elath",
+"confidence": 0.85,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -8095,7 +10129,16 @@
 "end_ref_usfm": "1CH 8:12"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Elpaal",
+"type": "person",
+"preferred_label": "Elpaal",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -8124,6 +10167,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Eliphelet",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Elpelet",
+"type": "person",
+"preferred_label": "Elpelet",
+"confidence": 1.0,
+"match_method": "scored"
 }
 ]
 }
@@ -8154,6 +10206,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Eliphelet",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Elpelet",
+"type": "person",
+"preferred_label": "Elpelet",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -8189,7 +10250,16 @@
 "end_ref_usfm": "2KI 18:13"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Eltekeh",
+"type": "place",
+"preferred_label": "Eltekeh",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -8211,7 +10281,16 @@
 "end_ref_usfm": "JOS 15:59"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Eltekon",
+"type": "place",
+"preferred_label": "Eltekon",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -8245,7 +10324,16 @@
 "end_ref_usfm": "1CH 4:29"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Eltolad",
+"type": "place",
+"preferred_label": "Eltolad",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -8275,7 +10363,8 @@
 "label": "Calendars, Ancient and Modern",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -8297,7 +10386,16 @@
 "end_ref_usfm": "1CH 12:5"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Eluzai",
+"type": "person",
+"preferred_label": "Eluzai",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -8319,7 +10417,8 @@
 "end_ref_usfm": "1MA 6:1"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -8349,6 +10448,15 @@
 "label": "Bar-Jesus",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Bar-jesus",
+"type": "person",
+"preferred_label": "Bar-jesus",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -8372,7 +10480,8 @@
 "label": "God, Names of",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -8400,7 +10509,23 @@
 "end_ref_usfm": "1CH 26:7"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Elzabad.2",
+"type": "person",
+"preferred_label": "Elzabad",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Elzabad",
+"type": "person",
+"preferred_label": "Elzabad",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -8436,6 +10561,15 @@
 "label": "Elizaphan",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Elizaphan",
+"type": "person",
+"preferred_label": "Elizaphan",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -8448,7 +10582,7 @@
 "index_reference": "embalm",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>EMBALM</h1><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3531\" data-resourceType=\"TyndaleBibleDictionary\">Burial, Burial Customs</span>.</p>",
+"content": "<h1>EMBALM</h1><p>To embalm means to treat a dead body with spices or other substances to preserve it (to slow decay after death).</p><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3531\" data-resourceType=\"TyndaleBibleDictionary\">Burial, Burial Customs</span>.</p>",
 "associations": {
 "passage": [],
 "resource": [
@@ -8459,7 +10593,8 @@
 "label": "Burial, Burial Customs",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -8543,6 +10678,15 @@
 "label": "Cloth and Cloth Manufacturing",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "realia:EmbroideredCloth",
+"type": "realia",
+"preferred_label": "Embroidered Cloth",
+"confidence": 0.5715,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -8565,7 +10709,16 @@
 "end_ref_usfm": "JOS 18:21"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Emek-keziz",
+"type": "place",
+"preferred_label": "Emek-keziz",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -8588,7 +10741,8 @@
 "label": "Stones, Precious",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -8637,7 +10791,8 @@
 "label": "Tumor",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -8673,6 +10828,22 @@
 "label": "Giants",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "group:Emim",
+"type": "group",
+"preferred_label": "Emim",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "group:Rephaim",
+"type": "group",
+"preferred_label": "Rephaim",
+"confidence": 0.5967,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -8702,6 +10873,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Immanuel",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Jesus.2",
+"type": "person",
+"preferred_label": "Jesus",
+"confidence": 1.0,
+"match_method": "scored"
 }
 ]
 }
@@ -8743,7 +10923,16 @@
 "end_ref_usfm": "1MA 3:57"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Emmaus",
+"type": "place",
+"preferred_label": "Emmaus",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -8773,6 +10962,15 @@
 "label": "Hamor",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Hamor",
+"type": "person",
+"preferred_label": "Hamor",
+"confidence": 1.0,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -8796,6 +10994,15 @@
 "label": "The Caesars",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Augustus",
+"type": "person",
+"preferred_label": "Augustus",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -8818,7 +11025,16 @@
 "end_ref_usfm": "EZK 47:10"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Eneglaim",
+"type": "place",
+"preferred_label": "En-eglaim",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -8865,6 +11081,22 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Levitical Cities",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "place:En-gannim.2",
+"type": "place",
+"preferred_label": "En-gannim",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:En-gannim",
+"type": "place",
+"preferred_label": "En-gannim",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -8918,7 +11150,16 @@
 "end_ref_usfm": "EZK 47:10"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Engedi",
+"type": "place",
+"preferred_label": "En-gedi",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -8940,7 +11181,16 @@
 "end_ref_usfm": "JOS 19:21"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:En-haddah",
+"type": "place",
+"preferred_label": "En-haddah",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -8962,7 +11212,16 @@
 "end_ref_usfm": "JDG 15:19"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:En-hakkore",
+"type": "place",
+"preferred_label": "En-hakkore",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -8984,7 +11243,16 @@
 "end_ref_usfm": "JOS 19:37"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:En-hazor",
+"type": "place",
+"preferred_label": "En-hazor",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -9013,6 +11281,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Kadesh, Kadesh-Barnea",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "place:Kadesh-barnea",
+"type": "place",
+"preferred_label": "Kadesh-barnea",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -9060,7 +11337,16 @@
 "end_ref_usfm": "ZEC 14:10"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Ain.2",
+"type": "place",
+"preferred_label": "Ain",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -9106,7 +11392,16 @@
 "end_ref_usfm": "1KI 1:33"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:En-rogel",
+"type": "place",
+"preferred_label": "En-rogel",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -9134,7 +11429,16 @@
 "end_ref_usfm": "JOS 18:17"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:En-shemesh",
+"type": "place",
+"preferred_label": "En-shemesh",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -9163,6 +11467,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Tappuah (Place)",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "place:Tappuah",
+"type": "place",
+"preferred_label": "Tappuah",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -9228,7 +11541,16 @@
 "end_ref_usfm": "EZK 48:1"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Enan",
+"type": "person",
+"preferred_label": "Enan",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -9307,7 +11629,8 @@
 "label": "Sorcery",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -9344,7 +11667,8 @@
 "label": "Last Judgment",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -9367,7 +11691,8 @@
 "label": "Bitter Herbs",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -9401,7 +11726,16 @@
 "end_ref_usfm": "PSA 83:10"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:En-dor",
+"type": "place",
+"preferred_label": "Endor",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -9424,7 +11758,8 @@
 "label": "Marriage, Marriage Customs",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -9447,7 +11782,8 @@
 "label": "Stonecutter",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -9487,7 +11823,23 @@
 "end_ref_usfm": "GEN 5:24"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Enoch.2",
+"type": "person",
+"preferred_label": "Enoch",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Enoch",
+"type": "person",
+"preferred_label": "Enoch",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -9509,7 +11861,16 @@
 "end_ref_usfm": "GEN 4:17"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Enoch",
+"type": "person",
+"preferred_label": "Enoch",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -9557,6 +11918,15 @@
 "label": "Genealogy of Jesus Christ",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Enosh",
+"type": "person",
+"preferred_label": "Enosh",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -9580,7 +11950,8 @@
 "label": "Census",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -9617,7 +11988,8 @@
 "label": "Creation",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -9665,6 +12037,15 @@
 "label": "Colossians, Letter to the",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Epaphras",
+"type": "person",
+"preferred_label": "Epaphras",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -9707,6 +12088,15 @@
 "label": "Philippians, Letter to the",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Epaphroditus",
+"type": "person",
+"preferred_label": "Epaphroditus",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -9729,7 +12119,16 @@
 "end_ref_usfm": "ROM 16:5"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Epaenetus",
+"type": "person",
+"preferred_label": "Epaenetus",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -9751,6 +12150,43 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Weights and Measures",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Ephah.2",
+"type": "person",
+"preferred_label": "Ephah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Ephah.3",
+"type": "person",
+"preferred_label": "Ephah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Ephah",
+"type": "person",
+"preferred_label": "Ephah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:Ephah",
+"type": "place",
+"preferred_label": "Ephah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "realia:Ephah",
+"type": "realia",
+"preferred_label": "Ephah",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -9798,7 +12234,37 @@
 "end_ref_usfm": "ISA 60:6"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ephah.2",
+"type": "person",
+"preferred_label": "Ephah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Ephah.3",
+"type": "person",
+"preferred_label": "Ephah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Ephah",
+"type": "person",
+"preferred_label": "Ephah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:Ephah",
+"type": "place",
+"preferred_label": "Ephah",
+"confidence": 0.68,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -9826,7 +12292,16 @@
 "end_ref_usfm": "JER 41:3"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ephai",
+"type": "person",
+"preferred_label": "Ephai",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -9866,7 +12341,30 @@
 "end_ref_usfm": "1CH 5:24"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Epher.2",
+"type": "person",
+"preferred_label": "Epher",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Epher.3",
+"type": "person",
+"preferred_label": "Epher",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Epher",
+"type": "person",
+"preferred_label": "Epher",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -9894,7 +12392,16 @@
 "end_ref_usfm": "1CH 11:13"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Ephes-dammim",
+"type": "place",
+"preferred_label": "Ephes-dammim",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -10388,6 +12895,15 @@
 "label": "Paul, the Apostle",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "group:Ephesus",
+"type": "group",
+"preferred_label": "Ephesians",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -10472,6 +12988,15 @@
 "label": "Ephesians, Letter to the",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "place:Ephesus",
+"type": "place",
+"preferred_label": "Ephesus",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -10494,7 +13019,16 @@
 "end_ref_usfm": "1CH 2:37"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ephlal",
+"type": "person",
+"preferred_label": "Ephlal",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -10620,6 +13154,22 @@
 "label": "Priests and Levites",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Ephod",
+"type": "person",
+"preferred_label": "Ephod",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "realia:Ephod",
+"type": "realia",
+"preferred_label": "Ephod",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -10642,7 +13192,16 @@
 "end_ref_usfm": "NUM 34:23"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ephod",
+"type": "person",
+"preferred_label": "Ephod",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -10664,7 +13223,16 @@
 "end_ref_usfm": "MRK 7:34"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ephrathah",
+"type": "person",
+"preferred_label": "Ephrathah",
+"confidence": 0.8288,
+"match_method": "embedding"
+}
+]
 }
 },
 {
@@ -10687,7 +13255,8 @@
 "label": "Bible, Manuscripts and Text of the (New Testament)",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -10746,6 +13315,22 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Ephraim, Tribe of",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Ephraim",
+"type": "person",
+"preferred_label": "Ephraim",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "group:Ephraim",
+"type": "group",
+"preferred_label": "Tribe of Ephraim",
+"confidence": 0.69,
+"match_method": "scored"
 }
 ]
 }
@@ -10859,7 +13444,37 @@
 "end_ref_usfm": "DEU 33:17"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Ephraim.2",
+"type": "place",
+"preferred_label": "Ephraim",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:Ephraim",
+"type": "place",
+"preferred_label": "Ephraim",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Ephraim",
+"type": "person",
+"preferred_label": "Ephraim",
+"confidence": 0.568,
+"match_method": "scored"
+},
+{
+"id": "group:Ephraim",
+"type": "group",
+"preferred_label": "Tribe of Ephraim",
+"confidence": 0.5615,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -10900,6 +13515,43 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Jerusalem",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Ephraim",
+"type": "person",
+"preferred_label": "Ephraim",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:Ephraim.2",
+"type": "place",
+"preferred_label": "Ephraim",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:Ephraim",
+"type": "place",
+"preferred_label": "Ephraim",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:EphraimGate",
+"type": "place",
+"preferred_label": "Ephraim Gate",
+"confidence": 1.0,
+"match_method": "scored"
+},
+{
+"id": "place:CornerGate",
+"type": "place",
+"preferred_label": "Corner Gate",
+"confidence": 0.6597,
+"match_method": "scored"
 }
 ]
 }
@@ -10954,6 +13606,36 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Ephraim (Place)",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Ephraim",
+"type": "person",
+"preferred_label": "Ephraim",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:Ephraim.2",
+"type": "place",
+"preferred_label": "Ephraim",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:Ephraim",
+"type": "place",
+"preferred_label": "Ephraim",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "group:Ephraim",
+"type": "group",
+"preferred_label": "Tribe of Ephraim",
+"confidence": 0.715,
+"match_method": "scored"
 }
 ]
 }
@@ -11113,6 +13795,36 @@
 "label": "History of Israel",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Ephraim",
+"type": "person",
+"preferred_label": "Ephraim",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:Ephraim.2",
+"type": "place",
+"preferred_label": "Ephraim",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:Ephraim",
+"type": "place",
+"preferred_label": "Ephraim",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "group:Ephraim",
+"type": "group",
+"preferred_label": "Tribe of Ephraim",
+"confidence": 0.6652,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -11136,7 +13848,8 @@
 "label": "Ephraim (Place)",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -11166,6 +13879,22 @@
 "label": "Ephron (Place)",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "place:Ephron.2",
+"type": "place",
+"preferred_label": "Ephrain",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Ephraim",
+"type": "person",
+"preferred_label": "Ephraim",
+"confidence": 0.85,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -11194,7 +13923,16 @@
 "end_ref_usfm": "1CH 2:50"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ephrathah",
+"type": "person",
+"preferred_label": "Ephrathah",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -11254,6 +13992,29 @@
 "label": "Bethlehem",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "place:Bethlehem",
+"type": "place",
+"preferred_label": "Bethlehem",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Ephrathah",
+"type": "person",
+"preferred_label": "Ephrathah",
+"confidence": 0.6889,
+"match_method": "scored"
+},
+{
+"id": "group:Ephrathah",
+"type": "group",
+"preferred_label": "Ephrathites",
+"confidence": 0.6349,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -11283,6 +14044,22 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Ephrath (Place)",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Ephrathah",
+"type": "person",
+"preferred_label": "Ephrathah",
+"confidence": 1.0,
+"match_method": "scored"
+},
+{
+"id": "group:Ephrathah",
+"type": "group",
+"preferred_label": "Ephrathites",
+"confidence": 0.9775,
+"match_method": "scored"
 }
 ]
 }
@@ -11318,7 +14095,23 @@
 "end_ref_usfm": "GEN 23:17"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ephron.2",
+"type": "person",
+"preferred_label": "Ephron",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Ephraim",
+"type": "person",
+"preferred_label": "Ephraim",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -11352,7 +14145,37 @@
 "end_ref_usfm": "2CH 13:19"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Ephron.1",
+"type": "place",
+"preferred_label": "Ephron",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:EphronMount",
+"type": "place",
+"preferred_label": "Mount Ephron",
+"confidence": 0.7333,
+"match_method": "scored"
+},
+{
+"id": "place:Ephron.2",
+"type": "place",
+"preferred_label": "Ephrain",
+"confidence": 0.6,
+"match_method": "scored"
+},
+{
+"id": "person:Ephraim",
+"type": "person",
+"preferred_label": "Ephraim",
+"confidence": 0.5833,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -11400,6 +14223,15 @@
 "label": "Philosophy",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "group:Epicurean",
+"type": "group",
+"preferred_label": "Epicureans",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -11423,7 +14255,8 @@
 "label": "Inscriptions",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -11465,7 +14298,8 @@
 "label": "Medicine and Medical Practice",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -11495,6 +14329,15 @@
 "label": "Antiochus IV",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "group:Ephesus",
+"type": "group",
+"preferred_label": "Ephesians",
+"confidence": 0.8001,
+"match_method": "embedding"
+}
 ]
 }
 },
@@ -11518,7 +14361,8 @@
 "label": "Letter Writing, Ancient",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -11541,7 +14385,8 @@
 "label": "Barnabas",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -11564,7 +14409,8 @@
 "label": "Apocrypha",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -11624,6 +14470,29 @@
 "label": "Genealogy of Jesus Christ",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Er.2",
+"type": "person",
+"preferred_label": "Er",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Er.3",
+"type": "person",
+"preferred_label": "Er",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Er",
+"type": "person",
+"preferred_label": "Er",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -11652,7 +14521,23 @@
 "end_ref_usfm": "1CH 7:20"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Eran",
+"type": "person",
+"preferred_label": "Eran",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "group:Eran",
+"type": "group",
+"preferred_label": "Eranites",
+"confidence": 0.8,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -11686,7 +14571,16 @@
 "end_ref_usfm": "2TI 4:20"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Erastus",
+"type": "person",
+"preferred_label": "Erastus",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -11714,7 +14608,16 @@
 "end_ref_usfm": "EZR 4:9"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Erech",
+"type": "place",
+"preferred_label": "Erech",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -11742,7 +14645,23 @@
 "end_ref_usfm": "NUM 26:16"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Eri",
+"type": "person",
+"preferred_label": "Eri",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "group:Eri",
+"type": "group",
+"preferred_label": "Erites",
+"confidence": 0.8,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -11764,6 +14683,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Isaiah (Person)",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Isaiah",
+"type": "person",
+"preferred_label": "Isaiah",
+"confidence": 0.9375,
+"match_method": "embedding"
 }
 ]
 }
@@ -11812,6 +14740,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Assyria, Assyrians",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Esarhaddon",
+"type": "person",
+"preferred_label": "Esarhaddon",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -11896,6 +14833,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Edom, Edomites",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Esau",
+"type": "person",
+"preferred_label": "Esau",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -12092,7 +15038,8 @@
 "label": "Tribulation",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -12114,7 +15061,8 @@
 "end_ref_usfm": "2MA 12:36"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -12136,7 +15084,16 @@
 "end_ref_usfm": "GEN 26:20"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Esek",
+"type": "place",
+"preferred_label": "Esek",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -12158,7 +15115,16 @@
 "end_ref_usfm": "JOS 15:52"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Eshan",
+"type": "place",
+"preferred_label": "Eshan",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -12250,6 +15216,15 @@
 "label": "Saul",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Ish-bosheth",
+"type": "person",
+"preferred_label": "Ish-bosheth",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -12278,7 +15253,16 @@
 "end_ref_usfm": "1CH 1:41"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Eshban",
+"type": "person",
+"preferred_label": "Eshban",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -12306,7 +15290,16 @@
 "end_ref_usfm": "GEN 14:24"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Eshcol",
+"type": "person",
+"preferred_label": "Eshcol",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -12340,7 +15333,16 @@
 "end_ref_usfm": "NUM 13:24"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:EshcolValley",
+"type": "place",
+"preferred_label": "Valley of Eshcol",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -12370,6 +15372,15 @@
 "label": "Eshan",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "place:Eshan",
+"type": "place",
+"preferred_label": "Eshan",
+"confidence": 1.0,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -12392,7 +15403,16 @@
 "end_ref_usfm": "1CH 8:40"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Eleasah.2",
+"type": "person",
+"preferred_label": "Eleasah",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -12421,6 +15441,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Ashkelon",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "place:Ashkelon",
+"type": "place",
+"preferred_label": "Ashkelon",
+"confidence": 0.832,
+"match_method": "scored"
 }
 ]
 }
@@ -12468,7 +15497,16 @@
 "end_ref_usfm": "JDG 18:31"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Eshtaol",
+"type": "place",
+"preferred_label": "Eshtaol",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -12496,7 +15534,16 @@
 "end_ref_usfm": "1CH 4:19"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Eshtemoa",
+"type": "place",
+"preferred_label": "Eshtemoa",
+"confidence": 0.85,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -12544,6 +15591,15 @@
 "label": "Levitical Cities",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "place:Eshtemoa",
+"type": "place",
+"preferred_label": "Eshtemoa",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -12566,7 +15622,16 @@
 "end_ref_usfm": "1CH 4:12"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Eshton",
+"type": "person",
+"preferred_label": "Eshton",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -12596,6 +15661,15 @@
 "label": "Genealogy of Jesus Christ",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Esli",
+"type": "person",
+"preferred_label": "Esli",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -12608,7 +15682,7 @@
 "index_reference": "espousal",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>ESPOUSAL*</h1><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"6123\" data-resourceType=\"TyndaleBibleDictionary\">Marriage, Marriage Customs</span>.</p>",
+"content": "<h1>ESPOUSAL</h1><p>Espousal refers to an engagement (a formal promise to marry).</p><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"6123\" data-resourceType=\"TyndaleBibleDictionary\">Marriage, Marriage Customs</span>.</p>",
 "associations": {
 "passage": [],
 "resource": [
@@ -12619,7 +15693,8 @@
 "label": "Marriage, Marriage Customs",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -12654,6 +15729,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Hezron (Person)",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Hezron.2",
+"type": "person",
+"preferred_label": "Hezron",
+"confidence": 1.0,
+"match_method": "scored"
 }
 ]
 }
@@ -12748,7 +15832,8 @@
 "label": "Qumran",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -12801,6 +15886,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Book of Esther",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Esther",
+"type": "person",
+"preferred_label": "Esther",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -13016,7 +16110,16 @@
 "end_ref_usfm": "EST 9:32"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Esther",
+"type": "person",
+"preferred_label": "Esther",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -13056,7 +16159,23 @@
 "end_ref_usfm": "2CH 11:6"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Etam.2",
+"type": "place",
+"preferred_label": "Etam",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:Etam",
+"type": "place",
+"preferred_label": "Etam",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -13286,7 +16405,8 @@
 "label": "Regeneration",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -13298,9 +16418,16 @@
 "index_reference": "eternal punishment",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>ETERNAL PUNISHMENT</h1><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4957\" data-resourceType=\"TyndaleBibleDictionary\">Hell</span>.</p>",
+"content": "<h1>ETERNAL PUNISHMENT</h1><p>Eternal punishment refers to ongoing judgment (lasting consequence for sin) after death. It describes separation from God (being cut off from his presence and life).</p><p>In the New Testament, this idea is often connected with final judgment (see <a href=\"https://ref.ly/Matt25:46\">Matthew 25:46</a>).</p><p>Different Christian traditions understand eternal punishment in different ways, but all agree that it relates to God’s justice and the seriousness of sin.</p><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4957\" data-resourceType=\"TyndaleBibleDictionary\">Hell</span>.</p>",
 "associations": {
-"passage": [],
+"passage": [
+{
+"start_ref": "40025046",
+"start_ref_usfm": "MAT 25:46",
+"end_ref": "40025046",
+"end_ref_usfm": "MAT 25:46"
+}
+],
 "resource": [
 {
 "reference_id": 4957,
@@ -13308,6 +16435,54 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Hell",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"preferred_label": "Always",
+"confidence": 0.634,
+"match_method": "scored"
+}
+]
+}
+},
+{
+"content_id": "7856",
+"reference_id": 7024,
+"version": "1.0.2",
+"title": "Eternal Punishment",
+"media_type": "Text",
+"index_reference": "eternal punishment",
+"language": "eng",
+"review_level": "None",
+"content": "<h1>ETERNAL PUNISHMENT</h1><p>Eternal punishment refers to ongoing judgment (lasting consequence for sin) after death. It describes separation from God (being cut off from his presence and life).</p><p>In the New Testament, this idea is often connected with final judgment (see <a href=\"https://ref.ly/Matt25:46\">Matthew 25:46</a>).</p><p>Different Christian traditions understand eternal punishment in different ways, but all agree that it relates to God’s justice and the seriousness of sin.</p><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4957\" data-resourceType=\"TyndaleBibleDictionary\">Hell</span>.</p>",
+"associations": {
+"passage": [
+{
+"start_ref": "40025046",
+"start_ref_usfm": "MAT 25:46",
+"end_ref": "40025046",
+"end_ref_usfm": "MAT 25:46"
+}
+],
+"resource": [
+{
+"reference_id": 4957,
+"content_id": 5789,
+"resource_code": "TyndaleBibleDictionary",
+"label": "Hell",
+"language": "eng"
+}
+],
+"acai": [
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"preferred_label": "Always",
+"confidence": 0.634,
+"match_method": "scored"
 }
 ]
 }
@@ -13412,7 +16587,8 @@
 "label": "God, Being and Attributes of",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -13434,7 +16610,16 @@
 "end_ref_usfm": "JOS 19:13"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Eth-kazin",
+"type": "place",
+"preferred_label": "Eth-kazin",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -13468,7 +16653,16 @@
 "end_ref_usfm": "NUM 33:8"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Etham",
+"type": "place",
+"preferred_label": "Etham",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -13544,7 +16738,37 @@
 "end_ref_usfm": "PSA 39:13"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ethan.2",
+"type": "person",
+"preferred_label": "Ethan",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Jeduthun",
+"type": "person",
+"preferred_label": "Jeduthun",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Joah.2",
+"type": "person",
+"preferred_label": "Joah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Ethan",
+"type": "person",
+"preferred_label": "Ethan",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -13574,7 +16798,8 @@
 "label": "Calendars, Ancient and Modern",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -13596,7 +16821,16 @@
 "end_ref_usfm": "1KI 16:31"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ethbaal",
+"type": "person",
+"preferred_label": "Ethbaal",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -13630,7 +16864,23 @@
 "end_ref_usfm": "1CH 4:32"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Ether.2",
+"type": "place",
+"preferred_label": "Ether",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:Ether",
+"type": "place",
+"preferred_label": "Ether",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -13774,6 +17024,36 @@
 "label": "Cush (Place)",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "place:Ethiopia",
+"type": "place",
+"preferred_label": "Ethiopia",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:Cush.2",
+"type": "place",
+"preferred_label": "Cush",
+"confidence": 0.84,
+"match_method": "scored"
+},
+{
+"id": "group:Cush",
+"type": "group",
+"preferred_label": "Cushites",
+"confidence": 0.669,
+"match_method": "scored"
+},
+{
+"id": "group:Ethiopia",
+"type": "group",
+"preferred_label": "Ethiopians",
+"confidence": 0.616,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -13796,7 +17076,16 @@
 "end_ref_usfm": "1CH 4:7"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ethnan",
+"type": "person",
+"preferred_label": "Ethnan",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -13830,7 +17119,8 @@
 "end_ref_usfm": "1MA 14:47"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -13860,6 +17150,15 @@
 "label": "Jeaterai, Jeatherai",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Jeatherai",
+"type": "person",
+"preferred_label": "Jeatherai",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -13882,7 +17181,16 @@
 "end_ref_usfm": "2TI 4:21"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Eubulus",
+"type": "person",
+"preferred_label": "Eubulus",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -13905,7 +17213,8 @@
 "label": "Lord’s Supper, the",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -13928,7 +17237,8 @@
 "label": "Ptolemaic Empire",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -13950,7 +17260,8 @@
 "end_ref_usfm": "1MA 8:8"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -13991,6 +17302,22 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Timothy (Person)",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Eunice",
+"type": "person",
+"preferred_label": "Eunice",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:FatherOfEunice",
+"type": "person",
+"preferred_label": "Father of Eunice",
+"confidence": 0.6,
+"match_method": "scored"
 }
 ]
 }
@@ -14080,7 +17407,8 @@
 "end_ref_usfm": "ACT 8:39"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -14108,7 +17436,16 @@
 "end_ref_usfm": "PHP 4:3"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Euodia",
+"type": "person",
+"preferred_label": "Euodia",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -14131,7 +17468,8 @@
 "label": "Antiochus V",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -14258,6 +17596,15 @@
 "label": "Mesopotamia",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "place:Euphrates",
+"type": "place",
+"preferred_label": "Euphrates River",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -14280,7 +17627,8 @@
 "end_ref_usfm": "1MA 8:17"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -14310,7 +17658,8 @@
 "label": "Northeaster",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -14338,7 +17687,16 @@
 "end_ref_usfm": "ACT 20:12"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Eutychus",
+"type": "person",
+"preferred_label": "Eutychus",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -14392,7 +17750,8 @@
 "label": "Spiritual Gifts",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -14495,6 +17854,15 @@
 "label": "Garden of Eden",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Eve",
+"type": "person",
+"preferred_label": "Eve",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -14518,7 +17886,8 @@
 "label": "Day",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -14541,7 +17910,8 @@
 "label": "Offerings and Sacrifices",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -14564,7 +17934,8 @@
 "label": "Eternal Life",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -14592,7 +17963,16 @@
 "end_ref_usfm": "JOS 13:21"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Evi",
+"type": "person",
+"preferred_label": "Evi",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -14615,7 +17995,8 @@
 "label": "Sin",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -14638,7 +18019,8 @@
 "label": "Satan",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -14668,7 +18050,8 @@
 "label": "Demon",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -14704,6 +18087,15 @@
 "label": "Babylon, Babylonia",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Evil-merodach",
+"type": "person",
+"preferred_label": "Evil-merodach",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -14727,7 +18119,8 @@
 "label": "Animals",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -15079,7 +18472,8 @@
 "end_ref_usfm": "HEB 10:18"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -15094,7 +18488,8 @@
 "content": "<h1>EXECRATION TEXTS</h1><p>Old Egyptian writings from around 2000 to 1800 BC (the Middle Kingdom period). They contain curses against the pharaoh&apos;s enemies. Archaeologists have found these texts on bowls from Thebes dating to the 20th to 19th centuries BC, and on figurines (small human figures) from Saqqara dating to the 19th to 18th centuries BC. The bowls or figurines were inscribed with names of rulers, cities, or persons, along with a curse. They were then ceremonially broken and given a ritual burial. This act symbolized the damage the curse was meant to do to those named in the writing.</p><p>This form of magic was directed at both nations and individuals who posed a threat to the Egyptian kingdom. Egypt&apos;s neighbor Libya is mentioned infrequently in the texts. However, there were apparently more powerful enemies in Sudan. Eight Egyptian individuals, who were likely part of a plot against the pharaoh (called a harem conspiracy), were also cursed in these texts.</p><p>The greatest threat, according to these texts, seemed to come from the area of Palestine and Syria. Over 60 towns or regions in this area were singled out for cursing. The list of place names includes well-known towns such as:</p><ul><li><p>Byblos</p></li><li><p>Ashkelon</p></li><li><p>Tyre</p></li><li><p>Jerusalem</p></li><li><p>Beth-shan</p></li></ul><p>This list of places provides an important source for studying the historical geography of ancient Palestine.</p>",
 "associations": {
 "passage": [],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -15117,7 +18512,8 @@
 "label": "Criminal Law and Punishment",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -15195,7 +18591,8 @@
 "label": "Spiritual Gifts",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -15218,7 +18615,8 @@
 "label": "Diaspora of the Jews",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -15398,7 +18796,8 @@
 "label": "Book of Exodus",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -15441,7 +18840,8 @@
 "label": "Demon",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -15527,7 +18927,8 @@
 "label": "Propitiation",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -15550,7 +18951,8 @@
 "label": "Cosmetics",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -15580,6 +18982,15 @@
 "label": "Ezer",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Ezri",
+"type": "person",
+"preferred_label": "Ezri",
+"confidence": 0.807,
+"match_method": "embedding"
+}
 ]
 }
 },
@@ -15608,7 +19019,16 @@
 "end_ref_usfm": "1CH 11:37"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ezbai",
+"type": "person",
+"preferred_label": "Ezbai",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -15654,7 +19074,30 @@
 "end_ref_usfm": "1CH 7:11"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ezbon.2",
+"type": "person",
+"preferred_label": "Ezbon",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Ezbon",
+"type": "person",
+"preferred_label": "Ezbon",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "group:Ozni",
+"type": "group",
+"preferred_label": "Oznites",
+"confidence": 0.6364,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -15683,6 +19126,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Hezekiah",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Hezekiah",
+"type": "person",
+"preferred_label": "Hezekiah",
+"confidence": 1.0,
+"match_method": "scored"
 }
 ]
 }
@@ -15835,6 +19287,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Prophet, Prophetess",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Ezekiel",
+"type": "person",
+"preferred_label": "Ezekiel",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -17296,7 +20757,8 @@
 "label": "Prophecy",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -17318,7 +20780,16 @@
 "end_ref_usfm": "1SA 20:19"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:EzelStone",
+"type": "place",
+"preferred_label": "Ezel",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -17358,7 +20829,16 @@
 "end_ref_usfm": "JOS 15:63"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Ezem",
+"type": "place",
+"preferred_label": "Ezem",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -17416,7 +20896,51 @@
 "end_ref_usfm": "NEH 12:42"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ezer.2",
+"type": "person",
+"preferred_label": "Ezer",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Ezer.3",
+"type": "person",
+"preferred_label": "Ezer",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Ezer.4",
+"type": "person",
+"preferred_label": "Ezer",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Ezer.5",
+"type": "person",
+"preferred_label": "Ezer",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Ezer.6",
+"type": "person",
+"preferred_label": "Ezer",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Ezer",
+"type": "person",
+"preferred_label": "Ezer",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -17495,6 +21019,15 @@
 "label": "Wilderness Wanderings",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "place:Ezion-geber",
+"type": "place",
+"preferred_label": "Ezion-geber",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -17517,7 +21050,8 @@
 "end_ref_usfm": "2SA 23:8"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -17633,6 +21167,29 @@
 "label": "Postexilic Period",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Ezra.2",
+"type": "person",
+"preferred_label": "Ezra",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Ezra",
+"type": "person",
+"preferred_label": "Ezra",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Ezrah",
+"type": "person",
+"preferred_label": "Ezrah",
+"confidence": 0.6121,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -17655,7 +21212,16 @@
 "end_ref_usfm": "1CH 4:17"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ezrah",
+"type": "person",
+"preferred_label": "Ezrah",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -17689,7 +21255,16 @@
 "end_ref_usfm": "PSA 89:1"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "group:Ezrahites",
+"type": "group",
+"preferred_label": "Ezrahites",
+"confidence": 0.7333,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -17701,7 +21276,7 @@
 "index_reference": "ezri",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>EZRI</h1><p>Son of Kelub and one of the men who supervised the tilling of David’s lands (<a href=\"https://ref.ly/1Chr27:26\">1&nbsp;Chr 27:26</a>).</p>",
+"content": "<h1>EZRI</h1><p>Son of Kelub and one of the men who managed the farming of David’s lands (<a href=\"https://ref.ly/1Chr27:26\">1&nbsp;Chronicles 27:26</a>).</p>",
 "associations": {
 "passage": [
 {
@@ -17711,7 +21286,16 @@
 "end_ref_usfm": "1CH 27:26"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ezri",
+"type": "person",
+"preferred_label": "Ezri",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 }
 ]

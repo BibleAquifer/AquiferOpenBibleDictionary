@@ -48,7 +48,16 @@
 "end_ref_usfm": "1CH 7:29"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Taanach",
+"type": "place",
+"preferred_label": "Taanach",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -70,7 +79,16 @@
 "end_ref_usfm": "JOS 16:6"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Taanath-shiloh",
+"type": "place",
+"preferred_label": "Taanath-shiloh",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -92,6 +110,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Tebaliah",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Tebaliah",
+"type": "person",
+"preferred_label": "Tebaliah",
+"confidence": 0.8574,
+"match_method": "embedding"
 }
 ]
 }
@@ -121,7 +148,16 @@
 "end_ref_usfm": "NEH 7:46"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tabbaoth",
+"type": "person",
+"preferred_label": "Tabbaoth",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -143,7 +179,16 @@
 "end_ref_usfm": "JDG 7:22"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Tabbath",
+"type": "place",
+"preferred_label": "Tabbath",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -171,7 +216,23 @@
 "end_ref_usfm": "ISA 7:6"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tabeal",
+"type": "person",
+"preferred_label": "Tabeal",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Tabeel",
+"type": "person",
+"preferred_label": "Tabeel",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -199,7 +260,16 @@
 "end_ref_usfm": "DEU 9:22"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Taberah",
+"type": "place",
+"preferred_label": "Taberah",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -745,6 +815,15 @@
 "label": "Temple",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "realia:Tabernacle",
+"type": "realia",
+"preferred_label": "Tabernacle",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -781,6 +860,15 @@
 "label": "Dorcas",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Tabitha",
+"type": "person",
+"preferred_label": "Tabitha",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -804,7 +892,8 @@
 "label": "Furniture",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -834,7 +923,8 @@
 "label": "Bread of the Presence",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -856,6 +946,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Writing",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "realia:Tablet",
+"type": "realia",
+"preferred_label": "Tablet",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -885,7 +984,16 @@
 "end_ref_usfm": "1CH 6:77"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Chesulloth",
+"type": "place",
+"preferred_label": "Chesulloth",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -943,7 +1051,23 @@
 "end_ref_usfm": "JDG 4:24"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Chesulloth",
+"type": "place",
+"preferred_label": "Chesulloth",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:TaborMount",
+"type": "place",
+"preferred_label": "Mount Tabor",
+"confidence": 0.678,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -965,7 +1089,44 @@
 "end_ref_usfm": "1SA 10:3"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Chesulloth",
+"type": "place",
+"preferred_label": "Chesulloth",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:Tabor.2",
+"type": "place",
+"preferred_label": "Oak of Tabor",
+"confidence": 1.0,
+"match_method": "scored"
+},
+{
+"id": "flora:Oak",
+"type": "flora",
+"preferred_label": "Oak",
+"confidence": 0.85,
+"match_method": "scored"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"preferred_label": "Vine",
+"confidence": 0.589,
+"match_method": "scored"
+},
+{
+"id": "place:Bethel",
+"type": "place",
+"preferred_label": "Bethel",
+"confidence": 0.589,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -1037,7 +1198,8 @@
 "label": "Musical Instruments",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -1059,7 +1221,23 @@
 "end_ref_usfm": "1KI 15:18"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tabrimmon",
+"type": "person",
+"preferred_label": "Tabrimmon",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "LORD",
+"confidence": 0.58,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -1089,6 +1267,15 @@
 "label": "Tahkemonite",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "group:Hachmonites",
+"type": "group",
+"preferred_label": "Hachmonites",
+"confidence": 1.0,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -1104,7 +1291,16 @@
 "content": "<h1>TACITUS, Cornelius</h1><p>A Roman historian who lived from around AD 55 to 120.</p><h2>His Life and Writings</h2><p>We do not know much about Tacitus&apos;s personal life. However, his writings give us important information about life in Rome during the first century AD. His five main works are:</p><ul><li><p><em>Dialogus de Oratoribus</em> (around AD 77)</p></li><li><p><em>The Life of Agricola</em> (about his father-in-law) (around AD 98)</p></li><li><p><em>Germania</em> (around AD 98)</p></li><li><p><em>Histories</em> (around AD 116)</p></li><li><p><em>Annals</em> (around AD 116)</p></li></ul><h2>Writing About Christians</h2><p>In <em>Annals</em>, Tacitus referred to the persecution of the Christians in Rome in AD 64. The emperor Nero blamed Christians for the fire that he had ordered set, which destroyed much of Rome. Tacitus believed the Christians to be innocent. However, he referred to their faith as “a detestable superstition.” He did not think highly of their beliefs. He named Christ as the founder of this sect. Tacitus stated that Jesus was crucified “in the reign of Emperor Tiberius by the Procurator Pontius Pilate.” </p><p>Tacitus also said that Nero accused the Roman Christians not only of setting fire to Rome but also of “hatred of the human race.” Nero had some of them thrown to dogs. He ordered others to be crucified. He had others burned in the imperial garden. Tacitus&apos;s writings are valuable because they confirm some events that we read about in the New Testament, including Jesus&apos;s death on the cross.</p>",
 "associations": {
 "passage": [],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Cornelius",
+"type": "person",
+"preferred_label": "Cornelius",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -1132,7 +1328,16 @@
 "end_ref_usfm": "2CH 8:4"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Tadmor",
+"type": "place",
+"preferred_label": "Tadmor",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -1160,7 +1365,30 @@
 "end_ref_usfm": "1CH 7:25"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tahan.2",
+"type": "person",
+"preferred_label": "Tahan",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Tahan",
+"type": "person",
+"preferred_label": "Tahan",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "group:Tahan",
+"type": "group",
+"preferred_label": "Tahanites",
+"confidence": 0.8,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -1189,6 +1417,22 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Tahan",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Tahan",
+"type": "person",
+"preferred_label": "Tahan",
+"confidence": 1.0,
+"match_method": "scored"
+},
+{
+"id": "group:Tahan",
+"type": "group",
+"preferred_label": "Tahanites",
+"confidence": 0.973,
+"match_method": "scored"
 }
 ]
 }
@@ -1220,6 +1464,15 @@
 "label": "Tahpanhes",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "place:Tahpanhes",
+"type": "place",
+"preferred_label": "Tahpanhes",
+"confidence": 0.85,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -1242,7 +1495,16 @@
 "end_ref_usfm": "GEN 22:24"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tahash",
+"type": "person",
+"preferred_label": "Tahash",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -1276,7 +1538,30 @@
 "end_ref_usfm": "1CH 7:20"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tahath.2",
+"type": "person",
+"preferred_label": "Tahath",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Tahath.3",
+"type": "person",
+"preferred_label": "Tahath",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Tahath",
+"type": "person",
+"preferred_label": "Tahath",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -1298,7 +1583,16 @@
 "end_ref_usfm": "NUM 33:27"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Tahath",
+"type": "place",
+"preferred_label": "Tahath",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -1327,6 +1621,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Hacmonite",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "group:Hachmonites",
+"type": "group",
+"preferred_label": "Hachmonites",
+"confidence": 1.0,
+"match_method": "scored"
 }
 ]
 }
@@ -1380,7 +1683,16 @@
 "end_ref_usfm": "JER 43:9"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Tahpanhes",
+"type": "place",
+"preferred_label": "Tahpanhes",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -1402,7 +1714,16 @@
 "end_ref_usfm": "1KI 11:20"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tahpenes",
+"type": "person",
+"preferred_label": "Tahpenes",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -1430,7 +1751,16 @@
 "end_ref_usfm": "1CH 9:41"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tarea",
+"type": "person",
+"preferred_label": "Tarea",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -1452,7 +1782,16 @@
 "end_ref_usfm": "2SA 24:6"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Kadesh",
+"type": "place",
+"preferred_label": "Tahtim-hodshi",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -1488,6 +1827,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Weights and Measures",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "realia:Talent",
+"type": "realia",
+"preferred_label": "Talent",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -1565,7 +1913,8 @@
 "end_ref_usfm": "MRK 11:10"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -1617,7 +1966,23 @@
 "end_ref_usfm": "1CH 3:2"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Talmai.2",
+"type": "person",
+"preferred_label": "Talmai",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Talmai",
+"type": "person",
+"preferred_label": "Talmai",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -1663,7 +2028,16 @@
 "end_ref_usfm": "NEH 12:25"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Talmon",
+"type": "person",
+"preferred_label": "Talmon",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -1768,7 +2142,8 @@
 "label": "Torah",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -1797,6 +2172,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Temah",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Temah",
+"type": "person",
+"preferred_label": "Temah",
+"confidence": 1.0,
+"match_method": "scored"
 }
 ]
 }
@@ -1871,6 +2255,29 @@
 "label": "Maacah, Maachah (Person)",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Tamar.2",
+"type": "person",
+"preferred_label": "Tamar",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Tamar.3",
+"type": "person",
+"preferred_label": "Tamar",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Tamar",
+"type": "person",
+"preferred_label": "Tamar",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -1913,6 +2320,22 @@
 "label": "Tadmor",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "place:Tamar.2",
+"type": "place",
+"preferred_label": "Tamar",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:Tadmor",
+"type": "place",
+"preferred_label": "Tadmor",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -1942,6 +2365,15 @@
 "resource_code": "Unknown",
 "label": "Plants",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "flora:Tamarisk",
+"type": "flora",
+"preferred_label": "Tamarisk",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -1973,7 +2405,8 @@
 "label": "Musical Instruments",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -2002,6 +2435,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Calendars, Ancient and Modern",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "deity:Tammuz",
+"type": "deity",
+"preferred_label": "Tammuz",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -2033,6 +2475,15 @@
 "label": "Taanach",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "place:Taanach",
+"type": "place",
+"preferred_label": "Taanach",
+"confidence": 0.85,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -2061,7 +2512,16 @@
 "end_ref_usfm": "JER 40:8"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tanhumeth",
+"type": "person",
+"preferred_label": "Tanhumeth",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -2091,7 +2551,8 @@
 "label": "Talmud",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -2169,6 +2630,15 @@
 "label": "Leather",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "realia:Leather",
+"type": "realia",
+"preferred_label": "Leather",
+"confidence": 0.748,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -2191,7 +2661,16 @@
 "end_ref_usfm": "1KI 4:11"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Taphath",
+"type": "person",
+"preferred_label": "Taphath",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -2213,7 +2692,16 @@
 "end_ref_usfm": "1CH 2:43"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tappuah",
+"type": "person",
+"preferred_label": "Tappuah",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -2261,6 +2749,22 @@
 "label": "Beth-Tappuah",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "place:Tappuah.2",
+"type": "place",
+"preferred_label": "Tappuah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:Tappuah",
+"type": "place",
+"preferred_label": "Tappuah",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -2291,6 +2795,15 @@
 "label": "Terah (Place)",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "place:Terah",
+"type": "place",
+"preferred_label": "Terah",
+"confidence": 1.0,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -2313,7 +2826,16 @@
 "end_ref_usfm": "JOS 18:27"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Taralah",
+"type": "place",
+"preferred_label": "Taralah",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -2335,6 +2857,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Tahrea",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Tarea",
+"type": "person",
+"preferred_label": "Tarea",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -2366,7 +2897,8 @@
 "label": "Plants",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -2388,7 +2920,8 @@
 "end_ref_usfm": "NEH 8:8"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -2410,7 +2943,44 @@
 "end_ref_usfm": "EZR 4:9"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Erech",
+"type": "place",
+"preferred_label": "Erech",
+"confidence": 0.793,
+"match_method": "scored"
+},
+{
+"id": "place:Persia",
+"type": "place",
+"preferred_label": "Persia",
+"confidence": 0.6655,
+"match_method": "scored"
+},
+{
+"id": "group:Elam",
+"type": "group",
+"preferred_label": "Elamites",
+"confidence": 0.652,
+"match_method": "scored"
+},
+{
+"id": "place:Elam",
+"type": "place",
+"preferred_label": "Elam",
+"confidence": 0.652,
+"match_method": "scored"
+},
+{
+"id": "group:Persia",
+"type": "group",
+"preferred_label": "Persians",
+"confidence": 0.58,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -2444,7 +3014,30 @@
 "end_ref_usfm": "EST 1:14"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tarshish.2",
+"type": "person",
+"preferred_label": "Tarshish",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Tarshish",
+"type": "person",
+"preferred_label": "Tarshish",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:Tarshish",
+"type": "place",
+"preferred_label": "Tarshish",
+"confidence": 0.5833,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -2508,7 +3101,16 @@
 "end_ref_usfm": "ISA 23:14"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Tarshish",
+"type": "place",
+"preferred_label": "Tarshish",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -2568,6 +3170,22 @@
 "label": "Paul, the Apostle",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "place:Tarsus",
+"type": "place",
+"preferred_label": "Tarsus",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "group:Tarsus",
+"type": "group",
+"preferred_label": "Tarsians",
+"confidence": 0.7333,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -2590,7 +3208,16 @@
 "end_ref_usfm": "2KI 17:31"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "deity:Tartak",
+"type": "deity",
+"preferred_label": "Tartak",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -2618,7 +3245,16 @@
 "end_ref_usfm": "ISA 20:1"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tartan",
+"type": "person",
+"preferred_label": "Tartan",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -2688,7 +3324,8 @@
 "end_ref_usfm": "1KI 12:14"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -2711,7 +3348,8 @@
 "label": "Bible, Versions of the (Ancient)",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -2751,7 +3389,16 @@
 "end_ref_usfm": "EZR 6:13"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tattenai",
+"type": "person",
+"preferred_label": "Tattenai",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -2797,7 +3444,16 @@
 "end_ref_usfm": "MRK 2:16"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "keyterm:TaxCollector",
+"type": "keyterm",
+"preferred_label": "Tax Collector",
+"confidence": 0.76,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -3039,7 +3695,8 @@
 "label": "Tax Collector",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -3319,7 +3976,8 @@
 "end_ref_usfm": "1CO 12:29"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -3334,7 +3992,8 @@
 "content": "<h1>TEACHER OF RIGHTEOUSNESS</h1><p>A name for the founder of the Essene community at Qumran. We learn about him from commentaries on Bible books found at Qumran.</p><p>The Teacher was a priest who was expected to serve in the Jerusalem temple. However, he separated himself and his followers from the established religion in Jerusalem. He taught a different understanding of the Law and the Prophets than what was practiced in Jerusalem.</p><p>It is said that God gave the Teacher special knowledge: &quot;To whom [the Teacher of Righteousness] God made known all the mysteries of the words of his servants the Prophets&quot; (1QpHab 2:7–9). Based on this revelation, the Teacher taught a new way of life and worship. Those who joined him were taught so they might be saved from the day of judgment (1QpMicah 1:5).</p><p>The Teacher of Righteousness made exclusive claims. He believed only those who followed him by living apart from corrupt Judaism in the desert were God&apos;s chosen people. He felt God called him to establish a faithful group that would inherit God&apos;s promise to Abraham. The Teacher believed he knew the mysteries of the future by revelation. He thought people could be saved by faith in him: “This concerns all those who observe the Law in the House of Judah, whom he will deliver from the House of Judgment, because of their suffering and because of their faith in the Teacher of Righteousness” (1QpHab 8:1–3).</p><p>The priests in Jerusalem were upset with his teachings and exclusive claims. The Teacher was persecuted by someone known as the Wicked Priest. On the Day of Atonement [an important Jewish holy day], which the Qumran community observed on a different day than others, the Wicked Priest came to Qumran. He tried to force the followers to defend themselves on their day of rest (1QpHab 11:4–8).</p><p>We don&apos;t know for sure what happened to the Teacher of Righteousness. After he died, the Essene community continued to follow his teachings. They attracted people who were unhappy with the established religion to their wilderness monastery at Qumran.</p>",
 "associations": {
 "passage": [],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -3357,7 +4016,8 @@
 "label": "Jesus Christ, Teachings of",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -3380,7 +4040,8 @@
 "label": "Silvanus",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -3402,7 +4063,16 @@
 "end_ref_usfm": "GEN 22:24"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tebah",
+"type": "person",
+"preferred_label": "Tebah",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -3430,7 +4100,16 @@
 "end_ref_usfm": "1CH 18:8"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Betah",
+"type": "place",
+"preferred_label": "Betah",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -3452,7 +4131,16 @@
 "end_ref_usfm": "1CH 26:11"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tebaliah",
+"type": "person",
+"preferred_label": "Tebaliah",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -3481,6 +4169,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Calendars, Ancient and Modern",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "place:Thebez",
+"type": "place",
+"preferred_label": "Thebez",
+"confidence": 0.8108,
+"match_method": "embedding"
 }
 ]
 }
@@ -3512,6 +4209,15 @@
 "label": "Tahpanhes",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "place:Tahpanhes",
+"type": "place",
+"preferred_label": "Tahpanhes",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -3534,7 +4240,16 @@
 "end_ref_usfm": "1CH 4:12"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tehinnah",
+"type": "person",
+"preferred_label": "Tehinnah",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -3564,7 +4279,8 @@
 "label": "Plants",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -3594,7 +4310,8 @@
 "label": "Mene, Mene, Tekel, Parsin",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -3658,7 +4375,16 @@
 "end_ref_usfm": "JOS 15:63"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Tekoa",
+"type": "place",
+"preferred_label": "Tekoa",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -3680,7 +4406,16 @@
 "end_ref_usfm": "EZK 3:15"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Tel-abib",
+"type": "place",
+"preferred_label": "Tel-abib",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -3708,7 +4443,8 @@
 "end_ref_usfm": "ISA 37:12"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -3736,7 +4472,16 @@
 "end_ref_usfm": "NEH 7:61"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Tel-harsha",
+"type": "place",
+"preferred_label": "Tel-harsha",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -3764,7 +4509,16 @@
 "end_ref_usfm": "NEH 7:61"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Tel-melah",
+"type": "place",
+"preferred_label": "Tel-melah",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -3786,7 +4540,16 @@
 "end_ref_usfm": "1CH 7:25"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Telah",
+"type": "person",
+"preferred_label": "Telah",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -3814,7 +4577,16 @@
 "end_ref_usfm": "1SA 15:4"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Telaim",
+"type": "place",
+"preferred_label": "Telaim",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -3836,7 +4608,16 @@
 "end_ref_usfm": "EZR 10:24"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Telem",
+"type": "person",
+"preferred_label": "Telem",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -3865,6 +4646,22 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Telaim",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "place:Telem",
+"type": "place",
+"preferred_label": "Telem",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:Telaim",
+"type": "place",
+"preferred_label": "Telaim",
+"confidence": 1.0,
+"match_method": "scored"
 }
 ]
 }
@@ -3921,7 +4718,8 @@
 "label": "Pottery",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -3969,6 +4767,22 @@
 "label": "Tema (Place)",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Tema",
+"type": "person",
+"preferred_label": "Tema",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:Tema",
+"type": "place",
+"preferred_label": "Tema",
+"confidence": 0.8,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -4003,7 +4817,16 @@
 "end_ref_usfm": "JER 25:23"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Tema",
+"type": "place",
+"preferred_label": "Tema",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -4031,7 +4854,16 @@
 "end_ref_usfm": "NEH 7:55"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Temah",
+"type": "person",
+"preferred_label": "Temah",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -4077,7 +4909,16 @@
 "end_ref_usfm": "1CH 1:53"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Teman",
+"type": "person",
+"preferred_label": "Teman",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -4147,7 +4988,23 @@
 "end_ref_usfm": "JOB 42:9"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Teman",
+"type": "place",
+"preferred_label": "Teman",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "group:Teman",
+"type": "group",
+"preferred_label": "Temanites",
+"confidence": 0.7818,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -4169,7 +5026,16 @@
 "end_ref_usfm": "1CH 4:6"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Temeni",
+"type": "person",
+"preferred_label": "Temeni",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -5411,6 +6277,15 @@
 "label": "Sanctuary",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "realia:Temple",
+"type": "realia",
+"preferred_label": "Temple",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -5434,7 +6309,8 @@
 "label": "Nethinim",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -5457,7 +6333,8 @@
 "label": "Test",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -5480,7 +6357,8 @@
 "label": "Satan",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -5503,7 +6381,8 @@
 "label": "Commandments, the Ten",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -5525,6 +6404,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Tabernacle",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "realia:TentOfMeeting",
+"type": "realia",
+"preferred_label": "Tent of Meeting",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -5566,7 +6454,8 @@
 "end_ref_usfm": "2CO 11:10"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -5638,6 +6527,15 @@
 "label": "Abraham",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Terah",
+"type": "person",
+"preferred_label": "Terah",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -5660,7 +6558,16 @@
 "end_ref_usfm": "NUM 33:28"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Terah",
+"type": "place",
+"preferred_label": "Terah",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -5744,6 +6651,22 @@
 "label": "Idols, Idolatry",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "deity:Teraphim",
+"type": "deity",
+"preferred_label": "Teraphim",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "realia:HouseholdIdols",
+"type": "realia",
+"preferred_label": "Household Idols",
+"confidence": 0.8737,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -5780,6 +6703,15 @@
 "label": "Pistachio",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "flora:Terebinth",
+"type": "flora",
+"preferred_label": "Terebinth",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -5808,7 +6740,16 @@
 "end_ref_usfm": "EST 2:23"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Teresh",
+"type": "person",
+"preferred_label": "Teresh",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -5830,7 +6771,16 @@
 "end_ref_usfm": "ROM 16:22"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tertius",
+"type": "person",
+"preferred_label": "Tertius",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -5864,7 +6814,16 @@
 "end_ref_usfm": "ACT 24:8"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tertullus",
+"type": "person",
+"preferred_label": "Tertullus",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -5892,7 +6851,8 @@
 "end_ref_usfm": "HEB 7:26"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -5953,7 +6913,8 @@
 "label": "Covenant",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -5976,7 +6937,8 @@
 "label": "Abraham",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -5999,7 +6961,8 @@
 "label": "Job (Person)",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -6014,7 +6977,8 @@
 "content": "<h1>TESTAMENT OF SOLOMON</h1><p>The Testament of Solomon is a pseudepigraphal (falsely attributed) writing from around the second century BC. The book claims that King Solomon himself wrote it. The text survives in both Semitic and Greek versions.</p><p>The Testament of Solomon blends Jewish and Christian ideas. It includes Christian themes such as the cross and the virgin birth, but also reflects Jewish traditions. The story tells how King Solomon received a special ring from the archangel Michael. With this ring, Solomon could control demons and make them build the temple.</p><p>After completing the temple, Solomon began to worship idols because of his desire for a Shunammite girl. The author uses Solomon’s downfall as a warning about the power of demons and the many ways they can appear. The story also shows that angels have authority over them. The Testament of Solomon is written as Solomon’s final message, given when he is close to death. In it, he looks back on his life (both his successes and his failures) and leaves a final lesson for Israel.</p><p><em>See also</em> <span data-bnType=\"resourceReference\" data-resourceId=\"2831\" data-resourceType=\"TyndaleBibleDictionary\">Apocrypha</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"7730\" data-resourceType=\"TyndaleBibleDictionary\">Solomon (Person)</span>.</p>",
 "associations": {
 "passage": [],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -6127,7 +7091,8 @@
 "label": "Zebulun (Person)",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -6149,6 +7114,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Witness",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "keyterm:Witness.2",
+"type": "keyterm",
+"preferred_label": "Testimony",
+"confidence": 1.0,
+"match_method": "embedding"
 }
 ]
 }
@@ -6204,7 +7178,8 @@
 "label": "God, Names of",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -6262,7 +7237,8 @@
 "end_ref_usfm": "ACT 13:1"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -6285,7 +7261,8 @@
 "label": "Bible, Manuscripts and Text of the (New Testament)",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -6333,6 +7310,29 @@
 "label": "Apostle, Apostleship",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Judas",
+"type": "person",
+"preferred_label": "Judas",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Philip",
+"type": "person",
+"preferred_label": "Philip",
+"confidence": 0.7425,
+"match_method": "scored"
+},
+{
+"id": "person:Alphaeus",
+"type": "person",
+"preferred_label": "Alphaeus",
+"confidence": 0.666,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -6362,6 +7362,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Tahash",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Tahash",
+"type": "person",
+"preferred_label": "Tahash",
+"confidence": 1.0,
+"match_method": "scored"
 }
 ]
 }
@@ -6393,6 +7402,15 @@
 "label": "Temah",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Temah",
+"type": "person",
+"preferred_label": "Temah",
+"confidence": 1.0,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -6423,6 +7441,15 @@
 "label": "Tamar (Person)",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Tamar",
+"type": "person",
+"preferred_label": "Tamar",
+"confidence": 1.0,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -6446,7 +7473,8 @@
 "label": "Offerings and Sacrifices",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -6469,7 +7497,8 @@
 "label": "Gratitude",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -6498,6 +7527,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Terah (Person)",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Terah",
+"type": "person",
+"preferred_label": "Terah",
+"confidence": 1.0,
+"match_method": "scored"
 }
 ]
 }
@@ -6548,6 +7586,22 @@
 "label": "Tarshish (Place)",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "place:Tarshish",
+"type": "place",
+"preferred_label": "Tarshish",
+"confidence": 0.8667,
+"match_method": "scored"
+},
+{
+"id": "person:Tarshish.2",
+"type": "person",
+"preferred_label": "Tarshish",
+"confidence": 0.7333,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -6577,6 +7631,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Architecture",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "realia:Theater",
+"type": "realia",
+"preferred_label": "Theater",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -6612,7 +7675,16 @@
 "end_ref_usfm": "EZK 30:16"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Thebes",
+"type": "place",
+"preferred_label": "Thebes",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -6634,7 +7706,16 @@
 "end_ref_usfm": "JDG 9:53"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Thebez",
+"type": "place",
+"preferred_label": "Thebez",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -6663,6 +7744,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Tel-Assar",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "place:Telassar",
+"type": "place",
+"preferred_label": "Telassar",
+"confidence": 1.0,
+"match_method": "scored"
 }
 ]
 }
@@ -6766,7 +7856,8 @@
 "label": "King",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -6803,7 +7894,8 @@
 "label": "Shekinah",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -6849,7 +7941,16 @@
 "end_ref_usfm": "ACT 24:3"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Theophilus",
+"type": "person",
+"preferred_label": "Theophilus",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -7069,6 +8170,15 @@
 "label": "Second Letter to the Thessalonians",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "group:Thessalonica",
+"type": "group",
+"preferred_label": "Thessalonians",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -7137,6 +8247,22 @@
 "label": "Second Letter to the Thessalonians",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "place:Thessalonica",
+"type": "place",
+"preferred_label": "Thessalonica",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "group:Thessalonica",
+"type": "group",
+"preferred_label": "Thessalonians",
+"confidence": 0.6,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -7159,7 +8285,16 @@
 "end_ref_usfm": "ACT 5:36"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Theudas",
+"type": "person",
+"preferred_label": "Theudas",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -7182,7 +8317,8 @@
 "label": "Corinthians, Second Letter to the",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -7218,6 +8354,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Buckthorn",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "flora:Thistle",
+"type": "flora",
+"preferred_label": "Thistle",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -7304,6 +8449,22 @@
 "label": "Apostle, Apostleship",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Thomas",
+"type": "person",
+"preferred_label": "Thomas",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Philip",
+"type": "person",
+"preferred_label": "Philip",
+"confidence": 0.5516,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -7340,6 +8501,29 @@
 "label": "Thistle, Thorn",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "flora:Brier",
+"type": "flora",
+"preferred_label": "Brier",
+"confidence": 0.8,
+"match_method": "scored"
+},
+{
+"id": "flora:Boxthorn",
+"type": "flora",
+"preferred_label": "Boxthorn",
+"confidence": 0.65,
+"match_method": "scored"
+},
+{
+"id": "flora:Thistle",
+"type": "flora",
+"preferred_label": "Thistle",
+"confidence": 0.65,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -7362,7 +8546,23 @@
 "end_ref_usfm": "ACT 28:15"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:ThreeTaverns",
+"type": "place",
+"preferred_label": "Three Taverns",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "LORD",
+"confidence": 0.589,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -7384,6 +8584,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Agriculture",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "realia:ThreshingFloor",
+"type": "realia",
+"preferred_label": "Threshing Floor",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -7575,7 +8784,16 @@
 "end_ref_usfm": "EZK 43:7"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "realia:Throne",
+"type": "realia",
+"preferred_label": "Throne",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -7598,7 +8816,8 @@
 "label": "Urim and Thummim",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -7628,6 +8847,15 @@
 "label": "Boanerges",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:John.2",
+"type": "person",
+"preferred_label": "John",
+"confidence": 0.784,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -7651,7 +8879,8 @@
 "label": "Egypt, Egyptian",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -7711,6 +8940,15 @@
 "label": "Revelation, Book of",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "place:Thyatira",
+"type": "place",
+"preferred_label": "Thyatira",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -7740,6 +8978,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Plants",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "flora:Thyine",
+"type": "flora",
+"preferred_label": "Thyine",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -7775,7 +9022,23 @@
 "end_ref_usfm": "JHN 21:1"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Tiberias",
+"type": "place",
+"preferred_label": "Tiberias",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:GalileeSea",
+"type": "place",
+"preferred_label": "Sea of Galilee",
+"confidence": 0.8667,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -7811,6 +9074,22 @@
 "label": "Sea of Galilee",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "place:Tiberias",
+"type": "place",
+"preferred_label": "Tiberias",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:GalileeSea",
+"type": "place",
+"preferred_label": "Sea of Galilee",
+"confidence": 1.0,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -7833,6 +9112,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "The Caesars",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Tiberius",
+"type": "person",
+"preferred_label": "Tiberius",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -7870,6 +9158,15 @@
 "label": "Tebah (Place)",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "place:Betah",
+"type": "place",
+"preferred_label": "Betah",
+"confidence": 1.0,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -7892,7 +9189,16 @@
 "end_ref_usfm": "1KI 16:22"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tibni",
+"type": "person",
+"preferred_label": "Tibni",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -7914,7 +9220,16 @@
 "end_ref_usfm": "GEN 14:9"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tidal",
+"type": "person",
+"preferred_label": "Tidal",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -7980,6 +9295,15 @@
 "label": "Assyria, Assyrians",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Tiglath-pileser",
+"type": "person",
+"preferred_label": "Tiglath-pileser",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -8014,7 +9338,16 @@
 "end_ref_usfm": "NAM 2:6"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Tigris",
+"type": "place",
+"preferred_label": "Tigris River",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -8048,7 +9381,23 @@
 "end_ref_usfm": "EZR 10:15"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tikvah.2",
+"type": "person",
+"preferred_label": "Tikvah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Tikvah",
+"type": "person",
+"preferred_label": "Tikvah",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -8077,6 +9426,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Tikvah",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Tikvah",
+"type": "person",
+"preferred_label": "Tikvah",
+"confidence": 1.0,
+"match_method": "scored"
 }
 ]
 }
@@ -8120,6 +9478,15 @@
 "label": "Tiglath-Pileser",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Tiglath-pileser",
+"type": "person",
+"preferred_label": "Tiglath-pileser",
+"confidence": 0.973,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -8142,7 +9509,16 @@
 "end_ref_usfm": "1CH 4:20"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tilon",
+"type": "person",
+"preferred_label": "Tilon",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -8164,7 +9540,16 @@
 "end_ref_usfm": "MRK 10:46"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Timaeus",
+"type": "person",
+"preferred_label": "Timaeus",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -8187,7 +9572,8 @@
 "label": "Musical Instruments",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -8210,7 +9596,8 @@
 "label": "Calendars, Ancient and Modern",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -8233,7 +9620,8 @@
 "label": "Timaeus",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -8285,7 +9673,30 @@
 "end_ref_usfm": "1CH 1:51"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Timna.2",
+"type": "person",
+"preferred_label": "Timna",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Timna.3",
+"type": "person",
+"preferred_label": "Timna",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Timna",
+"type": "person",
+"preferred_label": "Timna",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -8349,7 +9760,30 @@
 "end_ref_usfm": "JDG 14:5"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Timnah.1",
+"type": "place",
+"preferred_label": "Timnah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:Timnah.2",
+"type": "place",
+"preferred_label": "Timnah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:Timnah",
+"type": "place",
+"preferred_label": "Timnah",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -8385,6 +9819,15 @@
 "label": "Timnah (Place)",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "place:Timnah",
+"type": "place",
+"preferred_label": "Timnah",
+"confidence": 0.9,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -8419,7 +9862,16 @@
 "end_ref_usfm": "JOS 19:50"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Timnath-heres",
+"type": "place",
+"preferred_label": "Timnath-heres",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -8449,6 +9901,15 @@
 "label": "Timnah (Place)",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "group:Timnites",
+"type": "group",
+"preferred_label": "Timnites",
+"confidence": 1.0,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -8471,7 +9932,16 @@
 "end_ref_usfm": "ACT 6:5"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Timon",
+"type": "person",
+"preferred_label": "Timon",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -8494,7 +9964,8 @@
 "label": "Timothy (Person)",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -8620,6 +10091,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Timothy, Second Letter to",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Timothy",
+"type": "person",
+"preferred_label": "Timothy",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -8814,6 +10294,15 @@
 "label": "Titus, Letter to",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Timothy",
+"type": "person",
+"preferred_label": "Timothy",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -8936,6 +10425,15 @@
 "label": "Titus, Letter to",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Timothy",
+"type": "person",
+"preferred_label": "Timothy",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -8959,7 +10457,8 @@
 "label": "Minerals and Metals",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -8995,6 +10494,22 @@
 "label": "Tappuah (Place)",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "place:Tiphsah.2",
+"type": "place",
+"preferred_label": "Tiphsah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:Tiphsah",
+"type": "place",
+"preferred_label": "Tiphsah",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -9023,7 +10538,23 @@
 "end_ref_usfm": "1CH 1:5"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tiras",
+"type": "person",
+"preferred_label": "Tiras",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Tubal",
+"type": "person",
+"preferred_label": "Tubal",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -9045,7 +10576,16 @@
 "end_ref_usfm": "1CH 2:55"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "group:Tirathite",
+"type": "group",
+"preferred_label": "Tirathites",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -9079,7 +10619,16 @@
 "end_ref_usfm": "2KI 19:37"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tirhakah",
+"type": "person",
+"preferred_label": "Tirhakah",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -9101,7 +10650,16 @@
 "end_ref_usfm": "1CH 2:48"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tirhanah",
+"type": "person",
+"preferred_label": "Tirhanah",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -9123,7 +10681,16 @@
 "end_ref_usfm": "1CH 4:16"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tiria",
+"type": "person",
+"preferred_label": "Tiria",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -9157,7 +10724,8 @@
 "end_ref_usfm": "NEH 10:1"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -9197,7 +10765,16 @@
 "end_ref_usfm": "JOS 17:3"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tirzah",
+"type": "person",
+"preferred_label": "Tirzah",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -9255,7 +10832,16 @@
 "end_ref_usfm": "1KI 16:23"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Tirzah",
+"type": "place",
+"preferred_label": "Tirzah",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -9313,7 +10899,23 @@
 "end_ref_usfm": "TOB 1:2"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Tishbe",
+"type": "place",
+"preferred_label": "Tishbe",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "group:Tishbite",
+"type": "group",
+"preferred_label": "Tishbites",
+"confidence": 0.9429,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -9336,7 +10938,8 @@
 "label": "Calendars, Ancient and Modern",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -9432,7 +11035,8 @@
 "label": "Offerings and Sacrifices",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -9462,6 +11066,22 @@
 "label": "Justus",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Justus.2",
+"type": "person",
+"preferred_label": "Justus",
+"confidence": 0.8335,
+"match_method": "scored"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "LORD",
+"confidence": 0.58,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -9485,7 +11105,8 @@
 "label": "Jot or Tittle",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -9607,6 +11228,22 @@
 "label": "Titus Caesar",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Titus",
+"type": "person",
+"preferred_label": "Titus",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Justus.2",
+"type": "person",
+"preferred_label": "Justus",
+"confidence": 0.5661,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -9622,7 +11259,8 @@
 "content": "<h1>Titus Caesar</h1><p>Titus was a Roman emperor who lived from AD 39 to 81. He ruled the Roman Empire from AD 79 to 81. He was the son of Emperor Vespasian. He was known for his military skill and kind leadership.</p><h2>Military Career and War in Palestine</h2><p>Titus’s full name was Titus Flavius Vespasianus. He was a successful military leader in Germany and Britain. When the Jewish people rebelled, he joined his father Vespasian in Palestine.</p><p>After Vespasian left for Rome, Titus became the general in charge of Roman forces in the region. On September 26, AD 70, the Romans destroyed the temple in Jerusalem. They also captured the city’s fortress and killed many Jews. Titus returned to Rome with prisoners and treasures from the temple. He and his father celebrated their victory.</p><p> To honor this event, the Romans built the Arch of Titus in Rome. It still stands today as a symbol of that victory.</p><h2>Life in Rome</h2><p>Before becoming emperor, Titus worked closely with his father. He helped write official orders and spoke in the Roman Senate. He was good at politics and also skilled in music.</p><p>Titus fell in love with Queen Bernice, the sister of King Agrippa II&nbsp;(<a href=\"https://ref.ly/Acts25:1-Acts26:32\">Acts 25–26</a>). He planned to marry her but changed his mind after hearing rumors that she had an inappropriate relationship with her brother.</p><h2>His Short Rule</h2><p>Titus became emperor after Vespasian died in AD 79. During his short rule, three major disasters struck:</p><ul><li><p>Mount Vesuvius erupted and buried the towns of Pompeii, Stabiae, and Herculaneum (August, AD 79)</p></li><li><p>A fire burned parts of Rome for three days (AD 80)</p></li><li><p>A deadly sickness spread across the city</p></li></ul><p>The Roman writer Suetonius said Titus cared for the people like a father cares for his children. When he died suddenly in AD 81, people across Rome mourned. Both leaders and everyday citizens praised him for his kindness and leadership.</p><p><em>See also</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3548\" data-resourceType=\"TyndaleBibleDictionary\">Caesars, the</span>.</p>",
 "associations": {
 "passage": [],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -9853,6 +11491,15 @@
 "label": "Titus (Person)",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Titus",
+"type": "person",
+"preferred_label": "Titus",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -9875,7 +11522,8 @@
 "end_ref_usfm": "1CH 11:45"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -9897,7 +11545,16 @@
 "end_ref_usfm": "1CH 6:34"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tohu",
+"type": "person",
+"preferred_label": "Tohu",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -9925,7 +11582,16 @@
 "end_ref_usfm": "JDG 11:5"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Tob",
+"type": "place",
+"preferred_label": "Tob",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -9947,7 +11613,16 @@
 "end_ref_usfm": "2CH 17:8"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tobadonijah",
+"type": "person",
+"preferred_label": "Tobadonijah",
+"confidence": 0.9415,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -10041,7 +11716,23 @@
 "end_ref_usfm": "NEH 13:9"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tobiah.2",
+"type": "person",
+"preferred_label": "Tobiah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Tobiah",
+"type": "person",
+"preferred_label": "Tobiah",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -10063,6 +11754,22 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Book of Tobit",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Tobiah",
+"type": "person",
+"preferred_label": "Tobiah",
+"confidence": 0.8265,
+"match_method": "embedding"
+},
+{
+"id": "person:Tobiah.2",
+"type": "person",
+"preferred_label": "Tobiah",
+"confidence": 0.8265,
+"match_method": "embedding"
 }
 ]
 }
@@ -10098,7 +11805,23 @@
 "end_ref_usfm": "ZEC 6:14"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tobijah.2",
+"type": "person",
+"preferred_label": "Tobijah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Tobijah",
+"type": "person",
+"preferred_label": "Tobijah",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -10121,7 +11844,8 @@
 "label": "Book of Tobit",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -10167,7 +11891,23 @@
 "end_ref_usfm": "GEN 10:32"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Togarmah",
+"type": "person",
+"preferred_label": "Togarmah",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:Beth-togarmah",
+"type": "place",
+"preferred_label": "Beth-togarmah",
+"confidence": 0.6229,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -10189,7 +11929,16 @@
 "end_ref_usfm": "1SA 1:1"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tohu",
+"type": "person",
+"preferred_label": "Tohu",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -10217,7 +11966,16 @@
 "end_ref_usfm": "1CH 18:10"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Toi",
+"type": "person",
+"preferred_label": "Toi",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -10245,7 +12003,16 @@
 "end_ref_usfm": "JOS 19:51"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Tochen",
+"type": "place",
+"preferred_label": "Tochen",
+"confidence": 0.6077,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -10274,6 +12041,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Tikvah",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Tikvah",
+"type": "person",
+"preferred_label": "Tikvah",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -10341,6 +12117,29 @@
 "label": "Judges, Book of",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Tola",
+"type": "person",
+"preferred_label": "Tola",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "group:Tola",
+"type": "group",
+"preferred_label": "Tolaites",
+"confidence": 0.6286,
+"match_method": "scored"
+},
+{
+"id": "person:Tola.2",
+"type": "person",
+"preferred_label": "Elon",
+"confidence": 0.6286,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -10370,6 +12169,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Eltolad",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "place:Eltolad",
+"type": "place",
+"preferred_label": "Eltolad",
+"confidence": 1.0,
+"match_method": "scored"
 }
 ]
 }
@@ -10401,6 +12209,22 @@
 "label": "Tola",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Tola",
+"type": "person",
+"preferred_label": "Tola",
+"confidence": 1.0,
+"match_method": "scored"
+},
+{
+"id": "group:Tola",
+"type": "group",
+"preferred_label": "Tolaites",
+"confidence": 0.9685,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -10424,7 +12248,8 @@
 "label": "Burial, Burial Customs",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -10466,7 +12291,8 @@
 "label": "Pentecost",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -10581,7 +12407,8 @@
 "label": "Spiritual Gifts",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -10604,7 +12431,8 @@
 "label": "Stones, Precious",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -10633,6 +12461,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Wilderness Wanderings",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "place:Tophel",
+"type": "place",
+"preferred_label": "Tophel",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -10716,7 +12553,16 @@
 "end_ref_usfm": "JER 7:32"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Topheth",
+"type": "place",
+"preferred_label": "Topheth",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -10808,7 +12654,8 @@
 "label": "Talmud",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -10845,7 +12692,8 @@
 "label": "Lizard",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -10874,6 +12722,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Toi",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Toi",
+"type": "person",
+"preferred_label": "Toi",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -10905,6 +12762,15 @@
 "label": "Watchtower",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "realia:Tower",
+"type": "realia",
+"preferred_label": "Tower",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -10928,7 +12794,8 @@
 "label": "Babel",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -10950,6 +12817,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Shechem, Tower of",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "place:TowerOfShechem",
+"type": "place",
+"preferred_label": "Tower of Shechem",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -10974,7 +12850,8 @@
 "label": "Siloam, Tower of",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -11004,6 +12881,15 @@
 "label": "Ovens, Tower of the",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "place:TowerOfTheOvens",
+"type": "place",
+"preferred_label": "Tower of the Ovens",
+"confidence": 0.9505,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -11027,29 +12913,16 @@
 "label": "Hundred, Tower of the",
 "language": "eng"
 }
-]
-}
-},
-{
-"content_id": "8906",
-"reference_id": 8074,
-"version": "1.0.2",
-"title": "Town Clerk",
-"media_type": "Text",
-"index_reference": "town clerk",
-"language": "eng",
-"review_level": "None",
-"content": "<h1>TOWN CLERK</h1><p>A town clerk was an important official in ancient city governments. This person had the job of writing down and announcing the decisions made by city leaders. The town clerk also helped communicate between the city and the Roman government.</p><p>In Ephesus, the town clerk helped calm an angry crowd that had gathered because of Paul&apos;s teaching (<a href=\"https://ref.ly/Acts19:35\">Acts 19:35</a>). The town clerk had the power to punish people who caused trouble in the city. Fortunately, he was able to quiet the crowd and prevent further problems.</p>",
-"associations": {
-"passage": [
-{
-"start_ref": "44019035",
-"start_ref_usfm": "ACT 19:35",
-"end_ref": "44019035",
-"end_ref_usfm": "ACT 19:35"
-}
 ],
-"resource": []
+"acai": [
+{
+"id": "place:TowerOfTheHundred",
+"type": "place",
+"preferred_label": "Tower of the Hundred",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -11077,7 +12950,23 @@
 "end_ref_usfm": "LUK 3:1"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Trachonitis",
+"type": "place",
+"preferred_label": "Trachonitis",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Herod.2",
+"type": "person",
+"preferred_label": "Herod Antipas",
+"confidence": 0.557,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -11100,7 +12989,8 @@
 "label": "Travel",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -11176,6 +13066,15 @@
 "label": "Talmud",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "keyterm:Teaching",
+"type": "keyterm",
+"preferred_label": "Teaching",
+"confidence": 0.6286,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -11220,7 +13119,8 @@
 "label": "Talmud",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -11235,7 +13135,8 @@
 "content": "<h1>Trajan </h1><p>Trajan was a Roman emperor known for his military success and for expanding the Roman Empire. He was born in AD 53 and died in 117. He was emperor of the Roman Empire from AD 98 to 117.</p><h2>Early Life and Rise to Power</h2><p>Trajan’s full name was Marcus Trajanus. He was born in Italica, Spain, to Roman parents. His father was a soldier who later became governor of a province in eastern Spain. Trajan trained as a military leader and became well known for his skill in battle. He fought in Spain, Syria, and Germany.</p><p>In AD 97, the emperor Nerva adopted Trajan as his son and chosen successor. When Nerva died the next year, Trajan became emperor.</p><h2>Military Success and Building Projects</h2><p>As emperor, Trajan added new lands to the Roman Empire through military conquests. These included:</p><ul><li><p>Dacia (today’s Romania and Hungary)</p></li><li><p>Arabia</p></li><li><p>Parthia (part of modern-day Iran)</p></li></ul><p>Trajan also built many new cities. One of them was Thamugadi, located in the area now called Algeria. He built bridges over the Danube River in Dacia and the Tagus River in Spain. He improved trade by creating a new harbor at the port of Rome.</p><h2>Persecution of Christians</h2><p>A Roman writer named Pliny wrote to Trajan about Christians. In his letter (<em>Letters</em> 10.96), Pliny said that Trajan punished Christians. At that time, Roman leaders believed that worshiping Jesus was dangerous. Christians refused to worship Roman gods or the emperor’s image. This was seen as a threat to the safety and unity of Rome.</p><p><em>See also</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3548\" data-resourceType=\"TyndaleBibleDictionary\">Caesars, the</span>.</p>",
 "associations": {
 "passage": [],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -11373,7 +13274,8 @@
 "label": "Jesus Christ, Teachings of",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -11407,7 +13309,8 @@
 "end_ref_usfm": "1JN 3:2"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -11430,7 +13333,8 @@
 "label": "Sin",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -11501,6 +13405,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Perea",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "place:Jordan",
+"type": "place",
+"preferred_label": "Jordan River",
+"confidence": 0.85,
+"match_method": "scored"
 }
 ]
 }
@@ -11842,7 +13755,8 @@
 "end_ref_usfm": "ACT 8:38"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -11933,7 +13847,8 @@
 "label": "Money",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -11989,7 +13904,8 @@
 "label": "Tree of Life",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -12077,7 +13993,8 @@
 "label": "Tree of Life",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -12213,7 +14130,8 @@
 "label": "Tree of Knowledge of Good and Evil",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -12249,7 +14167,8 @@
 "label": "Sin",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -12272,7 +14191,8 @@
 "label": "Offerings and Sacrifices",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -12470,6 +14390,219 @@
 "label": "Priests and Levites",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Levi.2",
+"type": "person",
+"preferred_label": "Levi",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Levi.3",
+"type": "person",
+"preferred_label": "Levi",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Matthew",
+"type": "person",
+"preferred_label": "Matthew",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Levi",
+"type": "person",
+"preferred_label": "Levi",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"preferred_label": "Tribe of Levi",
+"confidence": 0.7094,
+"match_method": "scored"
+}
+]
+}
+},
+{
+"content_id": "7306",
+"reference_id": 6474,
+"version": "1.0.2",
+"title": "Tribe of Naphtali",
+"media_type": "Text",
+"index_reference": "tribe of naphtali",
+"language": "eng",
+"review_level": "None",
+"content": "<h1>TRIBE OF NAPHTALI</h1><p>The tribe of Naphtali was one of the 12 tribes of Israel. They moved from Egypt to Canaan and settled in the northern part of Canaan, in the hills of Galilee.</p><h2>During the Exodus</h2><p>The Bible mentions Naphtali&apos;s tribe briefly during the exodus (the journey of the Israelites out of Egypt). Ahira was the leader of the tribe and helped with the census of Naphtali as Israel prepared for possible battles (<a href=\"https://ref.ly/Num1:15\">Numbers 1:15</a>; <a href=\"https://ref.ly/Num2:29\">2:29</a>; <a href=\"https://ref.ly/Num7:28\">7:28</a>). The initial census recorded 53,400 men ready for war, but a later count showed 45,400 (<a href=\"https://ref.ly/Num1:42-Num1:43\">1:42–43</a>; <a href=\"https://ref.ly/Num26:48\">26:48</a>). When Moses sent spies to explore Canaan, Nahbi, from Naphtali, was one of the twelve (<a href=\"https://ref.ly/Num13:14\">13:14</a>). The tribe was also involved in the arrangement of the camp around the tabernacle, and the land distribution process (<a href=\"https://ref.ly/Num2:29\">2:29</a>). Pedahel represented Naphtali in the land allocation ceremony (<a href=\"https://ref.ly/Num34:28\">34:28</a>). Naphtali was also involved in the approval of the covenant at Shechem (<a href=\"https://ref.ly/Deut27:13\">Deuteronomy 27:13</a>). Naphtali, like the other tribes, received a blessing from Moses (<a href=\"https://ref.ly/Deut33:23\">33:23</a>).</p><h2>Settling in Canaan</h2><p>The tribe of Naphtali received land in the eastern part of upper Galilee. Their land was next to Zebulun in the south and Asher in the west (<a href=\"https://ref.ly/Josh19:34\">Joshua 19:34</a>). Several cities for the Levites were in Naphtali&apos;s land (<a href=\"https://ref.ly/Josh21:6\">Joshua 21:6</a>; <a href=\"https://ref.ly/1Chr6:62\">1&nbsp;Chronicles 6:62</a>). One of these cities, Kedesh, was a city of refuge (a safe place for people who accidentally killed someone, <a href=\"https://ref.ly/Josh20:7\">Joshua 20:7</a>; <a href=\"https://ref.ly/1Chr6:76\">1&nbsp;Chronicles 6:76</a>).</p><p>Naphtali successfully settled in their land, but they did not drive out all the Canaanites (the people who lived there before) at first (<a href=\"https://ref.ly/Judg1:33\">Judges 1:33</a>). However, they made the people of two Canaanite cities, Beth-shemesh and Beth-anath, work for them. Because of where they lived, Naphtali was involved in several big fights with the local people and foreign attackers. The most important of these was the war with Jabin, the king of Hazor. Barak, who was from Kedesh in Naphtali, joined Deborah the prophetess (a woman who spoke for God). Together, they led the tribes of Zebulun and Naphtali to fight against the Canaanites (<a href=\"https://ref.ly/Judg4:1-Judg5:31\">Judges 4–5</a>). Later, Gideon called the tribe of Naphtali, along with Asher, Zebulun, and Manasseh, to fight against the Midianites (another group of enemies) (<a href=\"https://ref.ly/Judg6:35\">Judges 6:35</a>).</p><h2>During Israel&apos;s United Kingdom</h2><p>When Israel was united under one king, Naphtali showed their support for David. They sent soldiers to Hebron to help make David king over all of Israel (<a href=\"https://ref.ly/1Chr12:34\">1&nbsp;Chronicles 12:34</a>). Naphtali continued to support David&apos;s family even after he died. They helped Solomon, David&apos;s son, run the country. Ahimaaz, a man from Naphtali, was one of 12 officers who managed different parts of the land for King Solomon. This same Ahimaaz also married Basemath, Solomon&apos;s daughter (<a href=\"https://ref.ly/1Kgs4:15\">1&nbsp;Kings 4:15</a>).</p><h2>During Israel&apos;s Divided Kingdom</h2><p>After Solomon died, Israel split into two kingdoms. We do not know much about Naphtali during this time, but we hear about them in some wars.</p><p>During the rule of King Asa in Judah (the southern kingdom), King Baasha of Israel (the northern kingdom) tried to build a fort at Ramah. This worried Asa, so he asked Ben-hadad, the king of Syria, to attack Israel. Ben-hadad agreed, and his attack hit Naphtali&apos;s land very hard (<a href=\"https://ref.ly/1Kgs15:16-1Kgs15:24\">1&nbsp;Kings 15:16</a><a href=\"https://ref.ly/1Kgs15:16-1Kgs15:24\">–</a><a href=\"https://ref.ly/1Kgs15:16-1Kgs15:24\">24</a>). Baasha had to stop building the fort and fight the Syrian army instead. This shows how Naphtali often got caught in the middle of fights between other countries.</p><p>Later, another foreign power, Assyria, became strong in the area where Naphtali lived. This happened when Tiglath-pileser III was the king of Assyria. In 732 BC, while Pekah was ruling Israel and Rezon was ruling Syria, Tiglath-pileser III came and captured Gilead, Galilee, and Naphtali (<a href=\"https://ref.ly/2Kgs15:29\">2&nbsp;Kings 15:29</a>).</p><h2>Prophecy and Future</h2><p>The prophet Isaiah spoke about Naphtali&apos;s land. He said that even though God had made Naphtali&apos;s land seem unimportant, God would make it great again (<a href=\"https://ref.ly/Isa9:1\">Isaiah 9:1</a>). Many years later, Matthew, who wrote about the life of Jesus, saw this prophecy come true. He said that Jesus brought God&apos;s message to the Jewish people living in the area that used to belong to Naphtali (<a href=\"https://ref.ly/Matt4:13-Matt4:15\">Matthew 4:13</a><a href=\"https://ref.ly/Matt4:13-Matt4:15\">–</a><a href=\"https://ref.ly/Matt4:13-Matt4:15\">15</a>). In the last book of the Bible, Revelation, Naphtali is mentioned again. It says that 12,000 people from Naphtali&apos;s tribe are included in a large group of Israelites chosen by God (<a href=\"https://ref.ly/Rev7:6\">Revelation 7:6</a>).</p>",
+"associations": {
+"passage": [
+{
+"start_ref": "04001015",
+"start_ref_usfm": "NUM 1:15",
+"end_ref": "04001015",
+"end_ref_usfm": "NUM 1:15"
+},
+{
+"start_ref": "04002029",
+"start_ref_usfm": "NUM 2:29",
+"end_ref": "04002029",
+"end_ref_usfm": "NUM 2:29"
+},
+{
+"start_ref": "04007028",
+"start_ref_usfm": "NUM 7:28",
+"end_ref": "04007028",
+"end_ref_usfm": "NUM 7:28"
+},
+{
+"start_ref": "04013014",
+"start_ref_usfm": "NUM 13:14",
+"end_ref": "04013014",
+"end_ref_usfm": "NUM 13:14"
+},
+{
+"start_ref": "04026048",
+"start_ref_usfm": "NUM 26:48",
+"end_ref": "04026048",
+"end_ref_usfm": "NUM 26:48"
+},
+{
+"start_ref": "04034028",
+"start_ref_usfm": "NUM 34:28",
+"end_ref": "04034028",
+"end_ref_usfm": "NUM 34:28"
+},
+{
+"start_ref": "05027013",
+"start_ref_usfm": "DEU 27:13",
+"end_ref": "05027013",
+"end_ref_usfm": "DEU 27:13"
+},
+{
+"start_ref": "05033023",
+"start_ref_usfm": "DEU 33:23",
+"end_ref": "05033023",
+"end_ref_usfm": "DEU 33:23"
+},
+{
+"start_ref": "06019034",
+"start_ref_usfm": "JOS 19:34",
+"end_ref": "06019034",
+"end_ref_usfm": "JOS 19:34"
+},
+{
+"start_ref": "06020007",
+"start_ref_usfm": "JOS 20:7",
+"end_ref": "06020007",
+"end_ref_usfm": "JOS 20:7"
+},
+{
+"start_ref": "06021006",
+"start_ref_usfm": "JOS 21:6",
+"end_ref": "06021006",
+"end_ref_usfm": "JOS 21:6"
+},
+{
+"start_ref": "07001033",
+"start_ref_usfm": "JDG 1:33",
+"end_ref": "07001033",
+"end_ref_usfm": "JDG 1:33"
+},
+{
+"start_ref": "07006035",
+"start_ref_usfm": "JDG 6:35",
+"end_ref": "07006035",
+"end_ref_usfm": "JDG 6:35"
+},
+{
+"start_ref": "11004015",
+"start_ref_usfm": "1KI 4:15",
+"end_ref": "11004015",
+"end_ref_usfm": "1KI 4:15"
+},
+{
+"start_ref": "12015029",
+"start_ref_usfm": "2KI 15:29",
+"end_ref": "12015029",
+"end_ref_usfm": "2KI 15:29"
+},
+{
+"start_ref": "13006062",
+"start_ref_usfm": "1CH 6:62",
+"end_ref": "13006062",
+"end_ref_usfm": "1CH 6:62"
+},
+{
+"start_ref": "13006076",
+"start_ref_usfm": "1CH 6:76",
+"end_ref": "13006076",
+"end_ref_usfm": "1CH 6:76"
+},
+{
+"start_ref": "13012034",
+"start_ref_usfm": "1CH 12:34",
+"end_ref": "13012034",
+"end_ref_usfm": "1CH 12:34"
+},
+{
+"start_ref": "23009001",
+"start_ref_usfm": "ISA 9:1",
+"end_ref": "23009001",
+"end_ref_usfm": "ISA 9:1"
+},
+{
+"start_ref": "66007006",
+"start_ref_usfm": "REV 7:6",
+"end_ref": "66007006",
+"end_ref_usfm": "REV 7:6"
+},
+{
+"start_ref": "07004001",
+"start_ref_usfm": "JDG 4:1",
+"end_ref": "07005031",
+"end_ref_usfm": "JDG 5:31"
+},
+{
+"start_ref": "04001042",
+"start_ref_usfm": "NUM 1:42",
+"end_ref": "04001043",
+"end_ref_usfm": "NUM 1:43"
+},
+{
+"start_ref": "11015016",
+"start_ref_usfm": "1KI 15:16",
+"end_ref": "11015024",
+"end_ref_usfm": "1KI 15:24"
+},
+{
+"start_ref": "40004013",
+"start_ref_usfm": "MAT 4:13",
+"end_ref": "40004015",
+"end_ref_usfm": "MAT 4:15"
+}
+],
+"resource": [],
+"acai": [
+{
+"id": "person:Naphtali",
+"type": "person",
+"preferred_label": "Naphtali",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "group:Naphtali",
+"type": "group",
+"preferred_label": "Tribe of Naphtali",
+"confidence": 0.7034,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -12493,7 +14626,8 @@
 "label": "Conquest and Allotment of the Land",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -12645,7 +14779,8 @@
 "label": "Suffering",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -12691,7 +14826,8 @@
 "end_ref_usfm": "ACT 24:22"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -12714,7 +14850,8 @@
 "label": "Tax, Taxation",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -12744,7 +14881,8 @@
 "label": "Man",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -12774,7 +14912,8 @@
 "label": "Musical Instruments",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -12896,7 +15035,8 @@
 "label": "Spirit",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -12919,7 +15059,8 @@
 "label": "Jesus Christ",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -12971,7 +15112,16 @@
 "end_ref_usfm": "ACT 20:12"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Troas",
+"type": "place",
+"preferred_label": "Troas",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -12993,7 +15143,16 @@
 "end_ref_usfm": "ACT 20:15"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Trogyllium",
+"type": "place",
+"preferred_label": "Trogyllium",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -13033,7 +15192,16 @@
 "end_ref_usfm": "2CO 8:24"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Trophimus",
+"type": "person",
+"preferred_label": "Trophimus",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -13055,6 +15223,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Musical Instruments",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "realia:Trumpet",
+"type": "realia",
+"preferred_label": "Trumpet",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -13162,7 +15339,16 @@
 "end_ref_usfm": "JHN 8:46"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"preferred_label": "Truth",
+"confidence": 0.8947,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -13191,6 +15377,29 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Deacon, Deaconess",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Tryphaena",
+"type": "person",
+"preferred_label": "Tryphaena",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Tryphosa",
+"type": "person",
+"preferred_label": "Tryphosa",
+"confidence": 0.757,
+"match_method": "scored"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "LORD",
+"confidence": 0.58,
+"match_method": "scored"
 }
 ]
 }
@@ -13221,6 +15430,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Deacon, Deaconess",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Tryphosa",
+"type": "person",
+"preferred_label": "Tryphosa",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -13286,7 +15504,30 @@
 "end_ref_usfm": "EZK 38:3"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tubal",
+"type": "person",
+"preferred_label": "Tubal",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:Tubal",
+"type": "place",
+"preferred_label": "Tubal",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:Meshech",
+"type": "place",
+"preferred_label": "Meshech",
+"confidence": 0.8,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -13320,7 +15561,16 @@
 "end_ref_usfm": "GEN 4:22"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tubal-cain",
+"type": "person",
+"preferred_label": "Tubal-cain",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -13342,6 +15592,15 @@
 "resource_code": "Unknown",
 "label": "Plants",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "flora:Tulip",
+"type": "flora",
+"preferred_label": "Tulip",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -13379,7 +15638,8 @@
 "label": "Plants",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -13427,6 +15687,15 @@
 "label": "Medicine and Medical Practice",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "keyterm:Tumors",
+"type": "keyterm",
+"preferred_label": "Tumors",
+"confidence": 0.6443,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -13449,6 +15718,22 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Clothing",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "realia:Tunic.2",
+"type": "realia",
+"preferred_label": "Tunic",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "realia:Tunic",
+"type": "realia",
+"preferred_label": "Tunic",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -13473,7 +15758,8 @@
 "label": "Birds",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -13502,6 +15788,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Apostle, Apostleship",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "person:Peter",
+"type": "person",
+"preferred_label": "Peter",
+"confidence": 0.58,
+"match_method": "scored"
 }
 ]
 }
@@ -13532,6 +15827,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Dioscuri",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "realia:Ship",
+"type": "realia",
+"preferred_label": "Ship",
+"confidence": 0.58,
+"match_method": "scored"
 }
 ]
 }
@@ -13585,7 +15889,16 @@
 "end_ref_usfm": "2CO 8:24"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tychicus",
+"type": "person",
+"preferred_label": "Tychicus",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -13703,7 +16016,8 @@
 "end_ref_usfm": "HEB 9:22"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -13731,7 +16045,23 @@
 "end_ref_usfm": "ACT 19:10"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tyrannus",
+"type": "person",
+"preferred_label": "Tyrannus",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "realia:LectureHall",
+"type": "realia",
+"preferred_label": "Lecture Hall",
+"confidence": 0.575,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -13861,7 +16191,16 @@
 "end_ref_usfm": "MRK 7:31"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Tyre",
+"type": "place",
+"preferred_label": "Tyre",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 }
 ]

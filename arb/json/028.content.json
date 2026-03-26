@@ -26,7 +26,8 @@
 "label": "يَائِير",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -56,7 +57,8 @@
 "label": "الأحجار الكريمة",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -404,7 +406,8 @@
 "label": "اليد اليمنى",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -506,7 +509,8 @@
 "label": "اليَدُ",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -542,7 +546,8 @@
 "label": "يَرْحَمْئِيلُ",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -570,7 +575,8 @@
 "end_ref_usfm": "1CH 27:11"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -911,6 +917,15 @@
 "label": "الفريسيون",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "group:Judea",
+"type": "group",
+"preferred_label": "Judeans",
+"confidence": 0.8147,
+"match_method": "embedding"
+}
 ]
 }
 },
@@ -1238,7 +1253,8 @@
 "label": "تقليد شفهي",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -1464,7 +1480,8 @@
 "label": "الهِلنِستيون",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -1487,7 +1504,8 @@
 "label": "الكتاب المقدس",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -1565,6 +1583,36 @@
 "label": "حَوُوثُ يَائِير، يَائِير",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "place:Havvoth-jair",
+"type": "place",
+"preferred_label": "يَائِير",
+"confidence": 0.8182,
+"match_method": "scored"
+},
+{
+"id": "person:Jair.2",
+"type": "person",
+"preferred_label": "يَائِير",
+"confidence": 0.7091,
+"match_method": "scored"
+},
+{
+"id": "person:Jair.3",
+"type": "person",
+"preferred_label": "يَائِير",
+"confidence": 0.6727,
+"match_method": "scored"
+},
+{
+"id": "person:Jair.4",
+"type": "person",
+"preferred_label": "يَائِير",
+"confidence": 0.6364,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -1587,7 +1635,16 @@
 "end_ref_usfm": "GEN 4:20"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jabal",
+"type": "person",
+"preferred_label": "يَابَالَ",
+"confidence": 0.9685,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -1609,7 +1666,16 @@
 "end_ref_usfm": "2KI 15:14"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jabesh",
+"type": "person",
+"preferred_label": "يَابِيشَ",
+"confidence": 0.786,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -1649,7 +1715,8 @@
 "end_ref_usfm": "1CH 10:12"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -1689,7 +1756,23 @@
 "end_ref_usfm": "JOS 11:14"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jabin.2",
+"type": "person",
+"preferred_label": "يَابِينَ",
+"confidence": 0.63,
+"match_method": "scored"
+},
+{
+"id": "person:Jabin",
+"type": "person",
+"preferred_label": "يَابِينَ",
+"confidence": 0.5788,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -1717,7 +1800,16 @@
 "end_ref_usfm": "1CH 6:41"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Irijah",
+"type": "person",
+"preferred_label": "يَرْئِيَّا",
+"confidence": 0.8084,
+"match_method": "embedding"
+}
+]
 }
 },
 {
@@ -1739,7 +1831,8 @@
 "end_ref_usfm": "JOS 15:21"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -1773,7 +1866,16 @@
 "end_ref_usfm": "1CH 7:13"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jahzeel",
+"type": "person",
+"preferred_label": "يَاحَصْئِيل",
+"confidence": 0.784,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -1801,7 +1903,16 @@
 "end_ref_usfm": "NUM 26:26"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jahleel",
+"type": "person",
+"preferred_label": "يَاحَلْئِيل",
+"confidence": 0.784,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -1837,6 +1948,22 @@
 "label": "يهوعدة",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Jada",
+"type": "person",
+"preferred_label": "يَادَاعَ",
+"confidence": 0.817,
+"match_method": "embedding"
+},
+{
+"id": "person:Jared",
+"type": "person",
+"preferred_label": "يَارَدَ",
+"confidence": 0.8029,
+"match_method": "embedding"
+}
 ]
 }
 },
@@ -1865,7 +1992,16 @@
 "end_ref_usfm": "1CH 2:32"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jada",
+"type": "person",
+"preferred_label": "يَادَاعَ",
+"confidence": 0.946,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -1887,7 +2023,16 @@
 "end_ref_usfm": "NEH 3:7"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jadon",
+"type": "person",
+"preferred_label": "يَادون",
+"confidence": 0.9595,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -1915,7 +2060,8 @@
 "end_ref_usfm": "HOS 10:6"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -1943,7 +2089,16 @@
 "end_ref_usfm": "GEN 10:26"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jerah",
+"type": "person",
+"preferred_label": "يَارَحَ",
+"confidence": 0.8307,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -1985,7 +2140,8 @@
 "label": "نسب يسوع المسيح",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -2021,6 +2177,15 @@
 "label": "يارد",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Jered",
+"type": "person",
+"preferred_label": "يَارِدَ",
+"confidence": 0.764,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -2043,7 +2208,16 @@
 "end_ref_usfm": "1CH 5:14"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jaroah",
+"type": "person",
+"preferred_label": "يَاروحَ",
+"confidence": 0.937,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -2084,6 +2258,22 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "يَاكِين",
 "language": "arb"
+}
+],
+"acai": [
+{
+"id": "person:Jarib.3",
+"type": "person",
+"preferred_label": "يَارِيبَ",
+"confidence": 0.7018,
+"match_method": "scored"
+},
+{
+"id": "person:Jarib.2",
+"type": "person",
+"preferred_label": "يَارِيبَ",
+"confidence": 0.7018,
+"match_method": "scored"
 }
 ]
 }
@@ -2143,7 +2333,37 @@
 "end_ref_usfm": "JER 35:11"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jezaniah",
+"type": "person",
+"preferred_label": "يَزَنْيَا",
+"confidence": 0.6842,
+"match_method": "scored"
+},
+{
+"id": "person:Jaazaniah",
+"type": "person",
+"preferred_label": "يَازَنْيَا",
+"confidence": 0.6267,
+"match_method": "scored"
+},
+{
+"id": "person:Jaazaniah.3",
+"type": "person",
+"preferred_label": "يَازَنْيَا",
+"confidence": 0.6267,
+"match_method": "scored"
+},
+{
+"id": "person:Jaazaniah.2",
+"type": "person",
+"preferred_label": "يَازَنْيَا",
+"confidence": 0.6267,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -2165,7 +2385,16 @@
 "end_ref_usfm": "1CH 27:31"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jaziz",
+"type": "person",
+"preferred_label": "يَازِيز",
+"confidence": 0.8,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -2211,7 +2440,8 @@
 "end_ref_usfm": "ACT 17:9"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -2233,7 +2463,16 @@
 "end_ref_usfm": "1CH 2:18"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jesher",
+"type": "person",
+"preferred_label": "يَاشَر",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -2261,7 +2500,16 @@
 "end_ref_usfm": "1CH 11:34"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jashen",
+"type": "person",
+"preferred_label": "يَاشَنَ",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -2301,7 +2549,23 @@
 "end_ref_usfm": "EZR 10:29"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jashub",
+"type": "person",
+"preferred_label": "يَاشوب",
+"confidence": 0.864,
+"match_method": "scored"
+},
+{
+"id": "person:Jashub.2",
+"type": "person",
+"preferred_label": "يَاشوب",
+"confidence": 0.664,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -2331,7 +2595,8 @@
 "label": "يَاشُوب",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -2371,7 +2636,16 @@
 "end_ref_usfm": "JDG 5:31"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jael",
+"type": "person",
+"preferred_label": "يَاعِيلَ",
+"confidence": 0.7846,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -2441,7 +2715,16 @@
 "end_ref_usfm": "1MA 10:86"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Joppa",
+"type": "place",
+"preferred_label": "يَافَا",
+"confidence": 0.6557,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -2532,6 +2815,15 @@
 "label": "نوح",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Japheth",
+"type": "person",
+"preferred_label": "يَافَثَ",
+"confidence": 0.789,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -2572,7 +2864,23 @@
 "end_ref_usfm": "JOS 10:27"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Japhia.2",
+"type": "person",
+"preferred_label": "يَافِيع",
+"confidence": 0.6114,
+"match_method": "scored"
+},
+{
+"id": "person:Japhia",
+"type": "person",
+"preferred_label": "يَافِيع",
+"confidence": 0.5828,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -2594,7 +2902,16 @@
 "end_ref_usfm": "JOS 19:12"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Japhia",
+"type": "place",
+"preferred_label": "يَافِيع",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -2616,7 +2933,8 @@
 "end_ref_usfm": "PRO 30:1"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -2639,7 +2957,8 @@
 "label": "الأحجار الكريمة",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -2669,7 +2988,8 @@
 "label": "الأحجار الكريمة",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -2697,7 +3017,8 @@
 "end_ref_usfm": "1CH 24:12"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -2755,7 +3076,30 @@
 "end_ref_usfm": "NEH 11:10"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jachin",
+"type": "person",
+"preferred_label": "يَاكِين",
+"confidence": 0.8286,
+"match_method": "scored"
+},
+{
+"id": "person:Jachin.2",
+"type": "person",
+"preferred_label": "يَاكِين",
+"confidence": 0.7143,
+"match_method": "scored"
+},
+{
+"id": "person:Jachin.3",
+"type": "person",
+"preferred_label": "يَاكِين",
+"confidence": 0.6571,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -2801,7 +3145,8 @@
 "end_ref_usfm": "2CH 3:16"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -2824,7 +3169,8 @@
 "label": "ياكين وبوعز",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -2854,7 +3200,8 @@
 "label": "يَاكِين",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -2876,7 +3223,16 @@
 "end_ref_usfm": "1CH 4:17"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jalon",
+"type": "person",
+"preferred_label": "يَالون",
+"confidence": 0.937,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -2928,7 +3284,37 @@
 "end_ref_usfm": "NEH 8:7"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jamin",
+"type": "person",
+"preferred_label": "يَمِين",
+"confidence": 0.8307,
+"match_method": "scored"
+},
+{
+"id": "person:Jachin",
+"type": "person",
+"preferred_label": "يَاكِين",
+"confidence": 0.8037,
+"match_method": "scored"
+},
+{
+"id": "person:Jamin.2",
+"type": "person",
+"preferred_label": "يَمِين",
+"confidence": 0.6307,
+"match_method": "scored"
+},
+{
+"id": "person:Jamin.3",
+"type": "person",
+"preferred_label": "يَمِين",
+"confidence": 0.6307,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -2958,7 +3344,8 @@
 "label": "يَامِين",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -2981,7 +3368,8 @@
 "label": "أسماءُ الله",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -3045,7 +3433,16 @@
 "end_ref_usfm": "JER 48:21"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Jahaz",
+"type": "place",
+"preferred_label": "يَاهَصَ",
+"confidence": 0.964,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -3238,6 +3635,43 @@
 "label": "تاريخ إسرائيل",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Jehu.2",
+"type": "person",
+"preferred_label": "يَاهو",
+"confidence": 0.7041,
+"match_method": "scored"
+},
+{
+"id": "person:Jehu",
+"type": "person",
+"preferred_label": "يَاهو",
+"confidence": 0.611,
+"match_method": "scored"
+},
+{
+"id": "person:Jehu.5",
+"type": "person",
+"preferred_label": "يَاهو",
+"confidence": 0.6027,
+"match_method": "scored"
+},
+{
+"id": "person:Jehu.3",
+"type": "person",
+"preferred_label": "يَاهو",
+"confidence": 0.6027,
+"match_method": "scored"
+},
+{
+"id": "person:Jehu.4",
+"type": "person",
+"preferred_label": "يَاهو",
+"confidence": 0.6027,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -3266,7 +3700,16 @@
 "end_ref_usfm": "1CH 1:7"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jashen",
+"type": "person",
+"preferred_label": "يَاشَنَ",
+"confidence": 0.8101,
+"match_method": "embedding"
+}
+]
 }
 },
 {
@@ -3368,6 +3811,15 @@
 "label": "اليونان، اليونانية",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Jashen",
+"type": "person",
+"preferred_label": "يَاشَنَ",
+"confidence": 0.8101,
+"match_method": "embedding"
+}
 ]
 }
 },
@@ -3408,7 +3860,16 @@
 "end_ref_usfm": "LUK 8:55"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jairus",
+"type": "person",
+"preferred_label": "يَايِرس",
+"confidence": 0.5931,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -3442,7 +3903,16 @@
 "end_ref_usfm": "1CH 14:5"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ibhar",
+"type": "person",
+"preferred_label": "يِبْحَار",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -3464,7 +3934,8 @@
 "end_ref_usfm": "ISA 8:2"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -3486,7 +3957,16 @@
 "end_ref_usfm": "1CH 7:2"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ibsam",
+"type": "person",
+"preferred_label": "يِبْسَام",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -3534,7 +4014,8 @@
 "label": "مدن اللاويين",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -3570,6 +4051,22 @@
 "label": "يَبْنَة",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "place:Jabneel.2",
+"type": "place",
+"preferred_label": "يَبْنِئِيلَ",
+"confidence": 0.7775,
+"match_method": "scored"
+},
+{
+"id": "place:Jabneel",
+"type": "place",
+"preferred_label": "يَبْنِئِيلَ",
+"confidence": 0.7775,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -3598,7 +4095,37 @@
 "end_ref_usfm": "2CH 26:6"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ishpah",
+"type": "person",
+"preferred_label": "يِشْفَة",
+"confidence": 0.8182,
+"match_method": "embedding"
+},
+{
+"id": "place:Jabbok",
+"type": "place",
+"preferred_label": "يَبّوقَ",
+"confidence": 0.8126,
+"match_method": "embedding"
+},
+{
+"id": "person:Jephunneh",
+"type": "person",
+"preferred_label": "يَفنَّة",
+"confidence": 0.8125,
+"match_method": "embedding"
+},
+{
+"id": "person:Jephunneh.2",
+"type": "person",
+"preferred_label": "يَفنَّة",
+"confidence": 0.8125,
+"match_method": "embedding"
+}
+]
 }
 },
 {
@@ -3620,7 +4147,23 @@
 "end_ref_usfm": "1CH 9:8"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ibneiah",
+"type": "person",
+"preferred_label": "يِبْنِيَا",
+"confidence": 1.0,
+"match_method": "scored"
+},
+{
+"id": "person:Ibnijah",
+"type": "person",
+"preferred_label": "يِبْنِيَا",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -3642,7 +4185,23 @@
 "end_ref_usfm": "1CH 9:8"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ibneiah",
+"type": "person",
+"preferred_label": "يِبْنِيَا",
+"confidence": 1.0,
+"match_method": "scored"
+},
+{
+"id": "person:Ibnijah",
+"type": "person",
+"preferred_label": "يِبْنِيَا",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -3780,7 +4339,8 @@
 "label": "أورشليم",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -3846,6 +4406,15 @@
 "label": "نهر الأردن",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "place:Jabbok",
+"type": "place",
+"preferred_label": "يَبّوقَ",
+"confidence": 0.6581,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -3868,7 +4437,16 @@
 "end_ref_usfm": "JOS 19:42"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Ithlah",
+"type": "place",
+"preferred_label": "يِتْلَةَ",
+"confidence": 0.9685,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -3896,7 +4474,16 @@
 "end_ref_usfm": "1CH 1:51"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jetheth",
+"type": "person",
+"preferred_label": "يَتِيتَ",
+"confidence": 0.964,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -3936,7 +4523,16 @@
 "end_ref_usfm": "1CH 6:57"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Jattir",
+"type": "place",
+"preferred_label": "يَتِّير",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -4168,7 +4764,8 @@
 "end_ref_usfm": "DEU 24:21"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -4208,7 +4805,8 @@
 "end_ref_usfm": "1CH 2:17"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -4248,7 +4846,23 @@
 "end_ref_usfm": "1CH 7:38"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ithran.2",
+"type": "person",
+"preferred_label": "يِثْرَان",
+"confidence": 0.8,
+"match_method": "scored"
+},
+{
+"id": "person:Ithran",
+"type": "person",
+"preferred_label": "يِثْرَان",
+"confidence": 0.8,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -4276,7 +4890,16 @@
 "end_ref_usfm": "1CH 3:3"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ithream",
+"type": "person",
+"preferred_label": "يَثْرَعَامَ",
+"confidence": 0.955,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -4391,6 +5014,15 @@
 "label": "موسى",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Jethro",
+"type": "person",
+"preferred_label": "يَثْرونَ",
+"confidence": 0.6442,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -4425,7 +5057,8 @@
 "end_ref_usfm": "1CH 11:40"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -4447,7 +5080,16 @@
 "end_ref_usfm": "1CH 11:46"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ithmah",
+"type": "person",
+"preferred_label": "يِثْمَة",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -4469,7 +5111,16 @@
 "end_ref_usfm": "JOS 15:23"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Ithnan",
+"type": "place",
+"preferred_label": "يِثْنَانَ",
+"confidence": 0.973,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -4491,7 +5142,16 @@
 "end_ref_usfm": "1CH 26:2"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jathniel",
+"type": "person",
+"preferred_label": "يَثَنْئِيل",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -4531,7 +5191,30 @@
 "end_ref_usfm": "1CH 11:38"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Igal",
+"type": "person",
+"preferred_label": "يَجْآل",
+"confidence": 0.7,
+"match_method": "scored"
+},
+{
+"id": "person:Igal.3",
+"type": "person",
+"preferred_label": "يَجْآل",
+"confidence": 0.7,
+"match_method": "scored"
+},
+{
+"id": "person:Igal.2",
+"type": "person",
+"preferred_label": "يَجْآل",
+"confidence": 0.7,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -4559,7 +5242,16 @@
 "end_ref_usfm": "JDG 8:11"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Jogbehah",
+"type": "place",
+"preferred_label": "يجْبَهَةَ",
+"confidence": 0.9505,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -4581,7 +5273,16 @@
 "end_ref_usfm": "JER 35:4"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Igdaliah",
+"type": "person",
+"preferred_label": "يَجَدْلِيَا",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -4611,6 +5312,22 @@
 "label": "جَلْعِيد",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "place:Jegar-sahadutha",
+"type": "place",
+"preferred_label": "جَلْعِيدَ",
+"confidence": 0.7525,
+"match_method": "scored"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"preferred_label": "إِسْرَائِيلَ",
+"confidence": 0.652,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -4633,7 +5350,16 @@
 "end_ref_usfm": "NUM 34:22"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jogli",
+"type": "person",
+"preferred_label": "يجْلِي",
+"confidence": 0.964,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -4655,7 +5381,16 @@
 "end_ref_usfm": "1CH 7:34"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jehubbah",
+"type": "person",
+"preferred_label": "يَحبَّة",
+"confidence": 0.9685,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -4677,7 +5412,16 @@
 "end_ref_usfm": "1CH 7:34"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jehubbah",
+"type": "person",
+"preferred_label": "يَحبَّة",
+"confidence": 0.9685,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -4729,7 +5473,37 @@
 "end_ref_usfm": "1CH 23:11"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jahath.2",
+"type": "person",
+"preferred_label": "يَحَث",
+"confidence": 0.7309,
+"match_method": "scored"
+},
+{
+"id": "person:Jahath.4",
+"type": "person",
+"preferred_label": "يَحَث",
+"confidence": 0.6166,
+"match_method": "scored"
+},
+{
+"id": "person:Jahath",
+"type": "person",
+"preferred_label": "يَحَث",
+"confidence": 0.6166,
+"match_method": "scored"
+},
+{
+"id": "person:Jahath.3",
+"type": "person",
+"preferred_label": "يَحَث",
+"confidence": 0.6166,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -4751,7 +5525,16 @@
 "end_ref_usfm": "1CH 5:14"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jahdo",
+"type": "person",
+"preferred_label": "يَحْدوَ",
+"confidence": 0.964,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -4779,7 +5562,8 @@
 "end_ref_usfm": "1CH 27:30"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -4801,7 +5585,16 @@
 "end_ref_usfm": "1CH 5:24"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jahdiel",
+"type": "person",
+"preferred_label": "يَحْدِيئِيل",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -4823,7 +5616,16 @@
 "end_ref_usfm": "2CH 28:12"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jehizkiah",
+"type": "person",
+"preferred_label": "يَحَزْقِيَا",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -4845,7 +5647,16 @@
 "end_ref_usfm": "1CH 24:16"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jehezkel",
+"type": "person",
+"preferred_label": "لِيَحَزْقِيئِيلَ",
+"confidence": 0.955,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -4867,7 +5678,16 @@
 "end_ref_usfm": "EZR 10:15"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jahzeiah",
+"type": "person",
+"preferred_label": "يَحْزِيَا",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -4925,7 +5745,44 @@
 "end_ref_usfm": "2CH 20:21"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jahaziel.3",
+"type": "person",
+"preferred_label": "يَحْزِيئِيل",
+"confidence": 0.68,
+"match_method": "scored"
+},
+{
+"id": "person:Jahaziel",
+"type": "person",
+"preferred_label": "يَحْزِيئِيل",
+"confidence": 0.64,
+"match_method": "scored"
+},
+{
+"id": "person:Jahaziel.4",
+"type": "person",
+"preferred_label": "يَحْزِيئِيل",
+"confidence": 0.64,
+"match_method": "scored"
+},
+{
+"id": "person:Jahaziel.2",
+"type": "person",
+"preferred_label": "يَحْزِيئِيل",
+"confidence": 0.64,
+"match_method": "scored"
+},
+{
+"id": "person:Jahaziel.5",
+"type": "person",
+"preferred_label": "يَحْزِيئِيل",
+"confidence": 0.64,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -4961,6 +5818,15 @@
 "label": "أَخْزَاي",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Jahzerah",
+"type": "person",
+"preferred_label": "يَحْزِيرَةَ",
+"confidence": 0.7775,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -4991,6 +5857,246 @@
 "label": "يَاحَصْئِيل، الْيَاحَصْئِيلِيُّون",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Jahaziel",
+"type": "person",
+"preferred_label": "يَحْزِيئِيل",
+"confidence": 0.9768,
+"match_method": "embedding"
+},
+{
+"id": "person:Jahaziel.2",
+"type": "person",
+"preferred_label": "يَحْزِيئِيل",
+"confidence": 0.9768,
+"match_method": "embedding"
+},
+{
+"id": "person:Jahaziel.3",
+"type": "person",
+"preferred_label": "يَحْزِيئِيل",
+"confidence": 0.9768,
+"match_method": "embedding"
+},
+{
+"id": "person:Jahaziel.4",
+"type": "person",
+"preferred_label": "يَحْزِيئِيل",
+"confidence": 0.9768,
+"match_method": "embedding"
+},
+{
+"id": "person:Jahaziel.5",
+"type": "person",
+"preferred_label": "يَحْزِيئِيل",
+"confidence": 0.9768,
+"match_method": "embedding"
+},
+{
+"id": "person:Jahdiel",
+"type": "person",
+"preferred_label": "يَحْدِيئِيل",
+"confidence": 0.9251,
+"match_method": "embedding"
+},
+{
+"id": "person:Jaaziel",
+"type": "person",
+"preferred_label": "يَعْزِئِيلَ",
+"confidence": 0.9222,
+"match_method": "embedding"
+},
+{
+"id": "person:Jediael",
+"type": "person",
+"preferred_label": "يَدِيعَئِيل",
+"confidence": 0.8878,
+"match_method": "embedding"
+},
+{
+"id": "person:Jediael.2",
+"type": "person",
+"preferred_label": "يَدِيعَئِيل",
+"confidence": 0.8878,
+"match_method": "embedding"
+},
+{
+"id": "person:Jediael.3",
+"type": "person",
+"preferred_label": "يَدِيعَئِيل",
+"confidence": 0.8878,
+"match_method": "embedding"
+},
+{
+"id": "person:Jediael.4",
+"type": "person",
+"preferred_label": "يَدِيعَئِيل",
+"confidence": 0.8878,
+"match_method": "embedding"
+},
+{
+"id": "person:Jaasiel",
+"type": "person",
+"preferred_label": "يَعْسِيئِيل",
+"confidence": 0.8849,
+"match_method": "embedding"
+},
+{
+"id": "person:Jaasiel.2",
+"type": "person",
+"preferred_label": "يَعْسِيئِيل",
+"confidence": 0.8849,
+"match_method": "embedding"
+},
+{
+"id": "person:Jehizkiah",
+"type": "person",
+"preferred_label": "يَحَزْقِيَا",
+"confidence": 0.8796,
+"match_method": "embedding"
+},
+{
+"id": "place:Irpeel",
+"type": "place",
+"preferred_label": "يَرَفْئِيلَ",
+"confidence": 0.874,
+"match_method": "embedding"
+},
+{
+"id": "group:Jezreel",
+"type": "group",
+"preferred_label": "يَزْرَعِيلَ",
+"confidence": 0.8597,
+"match_method": "embedding"
+},
+{
+"id": "person:Jezreel",
+"type": "person",
+"preferred_label": "يَزْرَعِيلَ",
+"confidence": 0.8597,
+"match_method": "embedding"
+},
+{
+"id": "person:Jezreel.2",
+"type": "person",
+"preferred_label": "يَزْرَعِيلَ",
+"confidence": 0.8597,
+"match_method": "embedding"
+},
+{
+"id": "place:Jezreel",
+"type": "place",
+"preferred_label": "يَزْرَعِيلَ",
+"confidence": 0.8597,
+"match_method": "embedding"
+},
+{
+"id": "place:Jezreel.2",
+"type": "place",
+"preferred_label": "يَزْرَعِيلَ",
+"confidence": 0.8597,
+"match_method": "embedding"
+},
+{
+"id": "place:Jezreel.3",
+"type": "place",
+"preferred_label": "يَزْرَعِيلَ",
+"confidence": 0.8597,
+"match_method": "embedding"
+},
+{
+"id": "person:Jehozadak",
+"type": "person",
+"preferred_label": "يَهوصَادِقَ",
+"confidence": 0.8523,
+"match_method": "embedding"
+},
+{
+"id": "place:Jabneel",
+"type": "place",
+"preferred_label": "يَبْنِئِيلَ",
+"confidence": 0.8456,
+"match_method": "embedding"
+},
+{
+"id": "place:Jabneel.2",
+"type": "place",
+"preferred_label": "يَبْنِئِيلَ",
+"confidence": 0.8456,
+"match_method": "embedding"
+},
+{
+"id": "person:Izrahiah",
+"type": "person",
+"preferred_label": "يَزْرَحْيَا",
+"confidence": 0.8417,
+"match_method": "embedding"
+},
+{
+"id": "person:Joshbekashah",
+"type": "person",
+"preferred_label": "يشْبَقَاشَة",
+"confidence": 0.8371,
+"match_method": "embedding"
+},
+{
+"id": "person:Ishmaiah",
+"type": "person",
+"preferred_label": "يَشْمَعِيَا",
+"confidence": 0.8369,
+"match_method": "embedding"
+},
+{
+"id": "person:Ishmaiah.2",
+"type": "person",
+"preferred_label": "يَشْمَعِيَا",
+"confidence": 0.8369,
+"match_method": "embedding"
+},
+{
+"id": "person:Jahzerah",
+"type": "person",
+"preferred_label": "يَحْزِيرَةَ",
+"confidence": 0.836,
+"match_method": "embedding"
+},
+{
+"id": "person:Ismachiah",
+"type": "person",
+"preferred_label": "يَسْمَخْيَا",
+"confidence": 0.8344,
+"match_method": "embedding"
+},
+{
+"id": "person:Jaareshiah",
+"type": "person",
+"preferred_label": "يَعْرَشْيَا",
+"confidence": 0.8287,
+"match_method": "embedding"
+},
+{
+"id": "place:Joktheel",
+"type": "place",
+"preferred_label": "يَقْتِئِيل",
+"confidence": 0.8098,
+"match_method": "embedding"
+},
+{
+"id": "person:Jezrahiah",
+"type": "person",
+"preferred_label": "يِزْرَحْيَا",
+"confidence": 0.8075,
+"match_method": "embedding"
+},
+{
+"id": "person:Ezekiel",
+"type": "person",
+"preferred_label": "حِزْقِيَالَ",
+"confidence": 0.8001,
+"match_method": "embedding"
+}
 ]
 }
 },
@@ -5013,7 +6119,16 @@
 "end_ref_usfm": "1CH 7:2"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jahmai",
+"type": "person",
+"preferred_label": "يَحَمَاي",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -5049,6 +6164,92 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "غَزَال",
 "language": "arb"
+}
+],
+"acai": [
+{
+"id": "person:Imna",
+"type": "person",
+"preferred_label": "يَمْنَاع",
+"confidence": 0.8895,
+"match_method": "embedding"
+},
+{
+"id": "person:Jephthah",
+"type": "person",
+"preferred_label": "يَفْتَاح",
+"confidence": 0.8772,
+"match_method": "embedding"
+},
+{
+"id": "place:Iphtah",
+"type": "place",
+"preferred_label": "يَفْتَاح",
+"confidence": 0.8772,
+"match_method": "embedding"
+},
+{
+"id": "person:Ishbah",
+"type": "person",
+"preferred_label": "يِشْبَحَ",
+"confidence": 0.8557,
+"match_method": "embedding"
+},
+{
+"id": "person:Jabez",
+"type": "person",
+"preferred_label": "يَعْبِيص",
+"confidence": 0.8499,
+"match_method": "embedding"
+},
+{
+"id": "place:Jabez",
+"type": "place",
+"preferred_label": "يَعْبِيص",
+"confidence": 0.8499,
+"match_method": "embedding"
+},
+{
+"id": "person:Jehoram",
+"type": "person",
+"preferred_label": "يَهورَام",
+"confidence": 0.8351,
+"match_method": "embedding"
+},
+{
+"id": "person:Jehoram.2",
+"type": "person",
+"preferred_label": "يَهورَام",
+"confidence": 0.8351,
+"match_method": "embedding"
+},
+{
+"id": "person:Jehozabad.3",
+"type": "person",
+"preferred_label": "يَهورَام",
+"confidence": 0.8351,
+"match_method": "embedding"
+},
+{
+"id": "person:Jacan",
+"type": "person",
+"preferred_label": "يَعْكَان",
+"confidence": 0.8224,
+"match_method": "embedding"
+},
+{
+"id": "person:Jehucal",
+"type": "person",
+"preferred_label": "يَهوخَلَ",
+"confidence": 0.8072,
+"match_method": "embedding"
+},
+{
+"id": "person:Ibhar",
+"type": "person",
+"preferred_label": "يِبْحَار",
+"confidence": 0.8005,
+"match_method": "embedding"
 }
 ]
 }
@@ -5170,6 +6371,99 @@
 "label": "يَعِيئِيل",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Jehiel.2",
+"type": "person",
+"preferred_label": "يَحِيئِيل",
+"confidence": 0.6842,
+"match_method": "scored"
+},
+{
+"id": "person:Jehiel",
+"type": "person",
+"preferred_label": "يَحِيئِيل",
+"confidence": 0.6632,
+"match_method": "scored"
+},
+{
+"id": "person:Jehiel.5",
+"type": "person",
+"preferred_label": "يَحِيئِيل",
+"confidence": 0.6211,
+"match_method": "scored"
+},
+{
+"id": "person:Jehiel.9",
+"type": "person",
+"preferred_label": "يَحِيئِيل",
+"confidence": 0.6211,
+"match_method": "scored"
+},
+{
+"id": "person:Jehiel.10",
+"type": "person",
+"preferred_label": "يَحِيئِيل",
+"confidence": 0.6211,
+"match_method": "scored"
+},
+{
+"id": "person:Jehiel.4",
+"type": "person",
+"preferred_label": "يَحِيئِيل",
+"confidence": 0.6211,
+"match_method": "scored"
+},
+{
+"id": "person:Jehiel.3",
+"type": "person",
+"preferred_label": "يَحِيئِيل",
+"confidence": 0.6211,
+"match_method": "scored"
+},
+{
+"id": "person:Jehuel",
+"type": "person",
+"preferred_label": "يَحِيئِيل",
+"confidence": 0.6211,
+"match_method": "scored"
+},
+{
+"id": "person:Jehiel.6",
+"type": "person",
+"preferred_label": "يَحِيئِيل",
+"confidence": 0.6211,
+"match_method": "scored"
+},
+{
+"id": "person:Jehiel.8",
+"type": "person",
+"preferred_label": "يَحِيئِيل",
+"confidence": 0.6211,
+"match_method": "scored"
+},
+{
+"id": "person:Jehiel.7",
+"type": "person",
+"preferred_label": "يَحِيئِيل",
+"confidence": 0.6211,
+"match_method": "scored"
+},
+{
+"id": "person:Jeiel.4",
+"type": "person",
+"preferred_label": "يَعِيئِيل",
+"confidence": 0.5926,
+"match_method": "scored"
+},
+{
+"id": "person:Jeiel.3",
+"type": "person",
+"preferred_label": "يَعِيئِيل",
+"confidence": 0.5716,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -5200,6 +6494,15 @@
 "label": "يَحِيئِيل",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Jehiel.2",
+"type": "person",
+"preferred_label": "يَحِيئِيل",
+"confidence": 0.955,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -5222,7 +6525,8 @@
 "end_ref_usfm": "1CH 15:24"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -5245,7 +6549,8 @@
 "label": "تَّشَوُّه (عَيب)",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -5267,7 +6572,8 @@
 "end_ref_usfm": "JOS 19:15"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -5349,7 +6655,51 @@
 "end_ref_usfm": "ZEC 6:14"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jedaiah.4",
+"type": "person",
+"preferred_label": "يَدَايَا",
+"confidence": 0.675,
+"match_method": "scored"
+},
+{
+"id": "person:Jedaiah.3",
+"type": "person",
+"preferred_label": "يَدَايَا",
+"confidence": 0.675,
+"match_method": "scored"
+},
+{
+"id": "person:Jedaiah.5",
+"type": "person",
+"preferred_label": "يَدَايَا",
+"confidence": 0.65,
+"match_method": "scored"
+},
+{
+"id": "person:Jedaiah.6",
+"type": "person",
+"preferred_label": "يَدَايَا",
+"confidence": 0.65,
+"match_method": "scored"
+},
+{
+"id": "person:Jedaiah",
+"type": "person",
+"preferred_label": "يَدَايَا",
+"confidence": 0.625,
+"match_method": "scored"
+},
+{
+"id": "person:Jedaiah.2",
+"type": "person",
+"preferred_label": "يَدَايَا",
+"confidence": 0.625,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -5371,7 +6721,16 @@
 "end_ref_usfm": "1CH 4:3"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Idbash",
+"type": "person",
+"preferred_label": "يَدْبَاش",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -5393,7 +6752,16 @@
 "end_ref_usfm": "GEN 22:22"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jidlaph",
+"type": "person",
+"preferred_label": "يِدْلَافَ",
+"confidence": 0.973,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -5415,7 +6783,16 @@
 "end_ref_usfm": "EZR 10:43"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jaddai",
+"type": "person",
+"preferred_label": "يَدّو",
+"confidence": 0.9595,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -5497,7 +6874,16 @@
 "end_ref_usfm": "1CH 25:3"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jeduthun",
+"type": "person",
+"preferred_label": "يَدوثونَ",
+"confidence": 0.6098,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -5531,7 +6917,8 @@
 "end_ref_usfm": "NEH 12:22"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -5553,7 +6940,16 @@
 "end_ref_usfm": "2KI 22:1"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jedidah",
+"type": "person",
+"preferred_label": "يَدْيَدَة",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -5575,7 +6971,37 @@
 "end_ref_usfm": "2SA 12:25"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jediael",
+"type": "person",
+"preferred_label": "يَدِيعَئِيل",
+"confidence": 0.8346,
+"match_method": "embedding"
+},
+{
+"id": "person:Jediael.2",
+"type": "person",
+"preferred_label": "يَدِيعَئِيل",
+"confidence": 0.8346,
+"match_method": "embedding"
+},
+{
+"id": "person:Jediael.3",
+"type": "person",
+"preferred_label": "يَدِيعَئِيل",
+"confidence": 0.8346,
+"match_method": "embedding"
+},
+{
+"id": "person:Jediael.4",
+"type": "person",
+"preferred_label": "يَدِيعَئِيل",
+"confidence": 0.8346,
+"match_method": "embedding"
+}
+]
 }
 },
 {
@@ -5635,6 +7061,36 @@
 "label": "أَشْبِيل، الْأَشْبِيلِيُّون",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Jediael",
+"type": "person",
+"preferred_label": "يَدِيعَئِيل",
+"confidence": 0.7714,
+"match_method": "scored"
+},
+{
+"id": "person:Jediael.3",
+"type": "person",
+"preferred_label": "يَدِيعَئِيل",
+"confidence": 0.6571,
+"match_method": "scored"
+},
+{
+"id": "person:Jediael.4",
+"type": "person",
+"preferred_label": "يَدِيعَئِيل",
+"confidence": 0.6571,
+"match_method": "scored"
+},
+{
+"id": "person:Jediael.2",
+"type": "person",
+"preferred_label": "يَدِيعَئِيل",
+"confidence": 0.6571,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -5658,7 +7114,8 @@
 "label": "اليَدُ",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -5680,7 +7137,8 @@
 "end_ref_usfm": "JOS 19:38"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -5708,7 +7166,16 @@
 "end_ref_usfm": "JER 37:14"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Irijah",
+"type": "person",
+"preferred_label": "يَرْئِيَّا",
+"confidence": 0.8,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -5991,6 +7458,22 @@
 "label": "تاريخ إسرائيل",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Jeroboam",
+"type": "person",
+"preferred_label": "يَربْعَام",
+"confidence": 0.6497,
+"match_method": "scored"
+},
+{
+"id": "person:Jeroboam.2",
+"type": "person",
+"preferred_label": "يَربْعَام",
+"confidence": 0.59,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -6021,7 +7504,8 @@
 "label": "جِدْعُون",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -6050,6 +7534,169 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "جِدْعُون",
 "language": "arb"
+}
+],
+"acai": [
+{
+"id": "person:Jehizkiah",
+"type": "person",
+"preferred_label": "يَحَزْقِيَا",
+"confidence": 0.8827,
+"match_method": "embedding"
+},
+{
+"id": "person:Joshbekashah",
+"type": "person",
+"preferred_label": "يشْبَقَاشَة",
+"confidence": 0.8793,
+"match_method": "embedding"
+},
+{
+"id": "person:Jehozadak",
+"type": "person",
+"preferred_label": "يَهوصَادِقَ",
+"confidence": 0.8614,
+"match_method": "embedding"
+},
+{
+"id": "person:Ishmaiah",
+"type": "person",
+"preferred_label": "يَشْمَعِيَا",
+"confidence": 0.8573,
+"match_method": "embedding"
+},
+{
+"id": "person:Ishmaiah.2",
+"type": "person",
+"preferred_label": "يَشْمَعِيَا",
+"confidence": 0.8573,
+"match_method": "embedding"
+},
+{
+"id": "person:Izrahiah",
+"type": "person",
+"preferred_label": "يَزْرَحْيَا",
+"confidence": 0.8572,
+"match_method": "embedding"
+},
+{
+"id": "person:Jeberechiah",
+"type": "person",
+"preferred_label": "يَبْرَخْيَا",
+"confidence": 0.8494,
+"match_method": "embedding"
+},
+{
+"id": "person:Jaareshiah",
+"type": "person",
+"preferred_label": "يَعْرَشْيَا",
+"confidence": 0.844,
+"match_method": "embedding"
+},
+{
+"id": "place:Irpeel",
+"type": "place",
+"preferred_label": "يَرَفْئِيلَ",
+"confidence": 0.837,
+"match_method": "embedding"
+},
+{
+"id": "person:Jaaziel",
+"type": "person",
+"preferred_label": "يَعْزِئِيلَ",
+"confidence": 0.8368,
+"match_method": "embedding"
+},
+{
+"id": "person:Ismachiah",
+"type": "person",
+"preferred_label": "يَسْمَخْيَا",
+"confidence": 0.8322,
+"match_method": "embedding"
+},
+{
+"id": "person:Jahaziel",
+"type": "person",
+"preferred_label": "يَحْزِيئِيل",
+"confidence": 0.8279,
+"match_method": "embedding"
+},
+{
+"id": "person:Jahaziel.2",
+"type": "person",
+"preferred_label": "يَحْزِيئِيل",
+"confidence": 0.8279,
+"match_method": "embedding"
+},
+{
+"id": "person:Jahaziel.3",
+"type": "person",
+"preferred_label": "يَحْزِيئِيل",
+"confidence": 0.8279,
+"match_method": "embedding"
+},
+{
+"id": "person:Jahaziel.4",
+"type": "person",
+"preferred_label": "يَحْزِيئِيل",
+"confidence": 0.8279,
+"match_method": "embedding"
+},
+{
+"id": "person:Jahaziel.5",
+"type": "person",
+"preferred_label": "يَحْزِيئِيل",
+"confidence": 0.8279,
+"match_method": "embedding"
+},
+{
+"id": "person:Jahzerah",
+"type": "person",
+"preferred_label": "يَحْزِيرَةَ",
+"confidence": 0.8274,
+"match_method": "embedding"
+},
+{
+"id": "person:Jehoshaphat",
+"type": "person",
+"preferred_label": "يَهوشَافَاط",
+"confidence": 0.827,
+"match_method": "embedding"
+},
+{
+"id": "person:Jehoshaphat.2",
+"type": "person",
+"preferred_label": "يَهوشَافَاط",
+"confidence": 0.827,
+"match_method": "embedding"
+},
+{
+"id": "person:Jehoshaphat.3",
+"type": "person",
+"preferred_label": "يَهوشَافَاط",
+"confidence": 0.827,
+"match_method": "embedding"
+},
+{
+"id": "person:Jehoshaphat.4",
+"type": "person",
+"preferred_label": "يَهوشَافَاط",
+"confidence": 0.827,
+"match_method": "embedding"
+},
+{
+"id": "place:Jabneel",
+"type": "place",
+"preferred_label": "يَبْنِئِيلَ",
+"confidence": 0.8233,
+"match_method": "embedding"
+},
+{
+"id": "place:Jabneel.2",
+"type": "place",
+"preferred_label": "يَبْنِئِيلَ",
+"confidence": 0.8233,
+"match_method": "embedding"
 }
 ]
 }
@@ -6081,6 +7728,22 @@
 "label": "التأديب",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Jabez",
+"type": "person",
+"preferred_label": "يَعْبِيص",
+"confidence": 0.806,
+"match_method": "embedding"
+},
+{
+"id": "place:Jabez",
+"type": "place",
+"preferred_label": "يَعْبِيص",
+"confidence": 0.806,
+"match_method": "embedding"
+}
 ]
 }
 },
@@ -6103,7 +7766,8 @@
 "end_ref_usfm": "1CH 2:35"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -6149,7 +7813,30 @@
 "end_ref_usfm": "1CH 2:42"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jerahmeel",
+"type": "person",
+"preferred_label": "يَرْحَمْئِيل",
+"confidence": 0.6662,
+"match_method": "scored"
+},
+{
+"id": "person:Jerahmeel.3",
+"type": "person",
+"preferred_label": "يَرْحَمْئِيل",
+"confidence": 0.5925,
+"match_method": "scored"
+},
+{
+"id": "person:Jerahmeel.2",
+"type": "person",
+"preferred_label": "يَرْحَمْئِيل",
+"confidence": 0.5925,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -6171,7 +7858,8 @@
 "end_ref_usfm": "JOS 18:27"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -6201,7 +7889,8 @@
 "label": "جراد",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -6229,7 +7918,16 @@
 "end_ref_usfm": "1CH 2:44"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jorkeam",
+"type": "person",
+"preferred_label": "يَرقْعَامَ",
+"confidence": 0.7775,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -6289,6 +7987,22 @@
 "label": "مدن اللاويين",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "place:Jarmuth",
+"type": "place",
+"preferred_label": "يَرْموت",
+"confidence": 0.7778,
+"match_method": "scored"
+},
+{
+"id": "place:Jarmuth.2",
+"type": "place",
+"preferred_label": "يَرْموت",
+"confidence": 0.6444,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -6311,7 +8025,107 @@
 "end_ref_usfm": "2CH 20:16"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Joel",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.818,
+"match_method": "embedding"
+},
+{
+"id": "person:Joel.10",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.818,
+"match_method": "embedding"
+},
+{
+"id": "person:Joel.11",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.818,
+"match_method": "embedding"
+},
+{
+"id": "person:Joel.12",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.818,
+"match_method": "embedding"
+},
+{
+"id": "person:Joel.13",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.818,
+"match_method": "embedding"
+},
+{
+"id": "person:Joel.14",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.818,
+"match_method": "embedding"
+},
+{
+"id": "person:Joel.2",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.818,
+"match_method": "embedding"
+},
+{
+"id": "person:Joel.3",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.818,
+"match_method": "embedding"
+},
+{
+"id": "person:Joel.4",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.818,
+"match_method": "embedding"
+},
+{
+"id": "person:Joel.5",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.818,
+"match_method": "embedding"
+},
+{
+"id": "person:Joel.6",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.818,
+"match_method": "embedding"
+},
+{
+"id": "person:Joel.7",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.818,
+"match_method": "embedding"
+},
+{
+"id": "person:Joel.8",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.818,
+"match_method": "embedding"
+},
+{
+"id": "person:Joel.9",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.818,
+"match_method": "embedding"
+}
+]
 }
 },
 {
@@ -6387,7 +8201,58 @@
 "end_ref_usfm": "NEH 11:12"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jeroham",
+"type": "person",
+"preferred_label": "يَروحَامَ",
+"confidence": 0.693,
+"match_method": "scored"
+},
+{
+"id": "person:Jeroham.4",
+"type": "person",
+"preferred_label": "يَروحَامَ",
+"confidence": 0.653,
+"match_method": "scored"
+},
+{
+"id": "person:Jeroham.5",
+"type": "person",
+"preferred_label": "يَروحَامَ",
+"confidence": 0.613,
+"match_method": "scored"
+},
+{
+"id": "person:Jeroham.7",
+"type": "person",
+"preferred_label": "يَروحَامَ",
+"confidence": 0.613,
+"match_method": "scored"
+},
+{
+"id": "person:Jeroham.2",
+"type": "person",
+"preferred_label": "يَروحَامَ",
+"confidence": 0.613,
+"match_method": "scored"
+},
+{
+"id": "person:Jeroham.3",
+"type": "person",
+"preferred_label": "يَروحَامَ",
+"confidence": 0.613,
+"match_method": "scored"
+},
+{
+"id": "person:Jeroham.6",
+"type": "person",
+"preferred_label": "يَروحَامَ",
+"confidence": 0.613,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -6415,7 +8280,23 @@
 "end_ref_usfm": "2CH 27:1"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jerusha",
+"type": "person",
+"preferred_label": "يَروشَا",
+"confidence": 0.865,
+"match_method": "scored"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"preferred_label": "أورشَلِيمَ",
+"confidence": 0.6025,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -6449,7 +8330,23 @@
 "end_ref_usfm": "1CH 26:31"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jeriah",
+"type": "person",
+"preferred_label": "يَرِيَّا",
+"confidence": 0.8667,
+"match_method": "scored"
+},
+{
+"id": "person:Jerijah",
+"type": "person",
+"preferred_label": "يَرِيَّا",
+"confidence": 0.7333,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -6471,7 +8368,16 @@
 "end_ref_usfm": "1CH 7:2"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jeriel",
+"type": "person",
+"preferred_label": "يَرِيئِيل",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -6493,7 +8399,16 @@
 "end_ref_usfm": "1CH 11:46"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jeribai",
+"type": "person",
+"preferred_label": "يَرِيبَاي",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -6515,7 +8430,16 @@
 "end_ref_usfm": "1CH 2:18"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jerioth",
+"type": "person",
+"preferred_label": "يَرِيعوثَ",
+"confidence": 0.9505,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -6537,7 +8461,16 @@
 "end_ref_usfm": "EZR 10:33"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jeremai",
+"type": "person",
+"preferred_label": "ويَرِيمَاي",
+"confidence": 0.9775,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -6613,7 +8546,30 @@
 "end_ref_usfm": "EZR 10:29"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jerimoth.3",
+"type": "person",
+"preferred_label": "يَرِيموث",
+"confidence": 0.653,
+"match_method": "scored"
+},
+{
+"id": "person:Jerimoth.4",
+"type": "person",
+"preferred_label": "يَرِيموث",
+"confidence": 0.653,
+"match_method": "scored"
+},
+{
+"id": "person:Jerimoth.5",
+"type": "person",
+"preferred_label": "يَرِيموث",
+"confidence": 0.613,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -6697,6 +8653,57 @@
 "label": "يَرِيمُوث",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Jerimoth.3",
+"type": "person",
+"preferred_label": "يَرِيموث",
+"confidence": 0.653,
+"match_method": "scored"
+},
+{
+"id": "person:Jerimoth.4",
+"type": "person",
+"preferred_label": "يَرِيموث",
+"confidence": 0.653,
+"match_method": "scored"
+},
+{
+"id": "person:Jerimoth",
+"type": "person",
+"preferred_label": "يَرِيموث",
+"confidence": 0.613,
+"match_method": "scored"
+},
+{
+"id": "person:Jerimoth.6",
+"type": "person",
+"preferred_label": "يَرِيموث",
+"confidence": 0.613,
+"match_method": "scored"
+},
+{
+"id": "person:Jerimoth.5",
+"type": "person",
+"preferred_label": "يَرِيموث",
+"confidence": 0.613,
+"match_method": "scored"
+},
+{
+"id": "person:Jerimoth.7",
+"type": "person",
+"preferred_label": "يَرِيموث",
+"confidence": 0.613,
+"match_method": "scored"
+},
+{
+"id": "person:Jerimoth.2",
+"type": "person",
+"preferred_label": "يَرِيموث",
+"confidence": 0.613,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -6719,7 +8726,8 @@
 "end_ref_usfm": "EST 9:9"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -6741,7 +8749,16 @@
 "end_ref_usfm": "1CH 7:3"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Izrahiah",
+"type": "person",
+"preferred_label": "يَزْرَحْيَا",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -6763,7 +8780,16 @@
 "end_ref_usfm": "NEH 12:42"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jezrahiah",
+"type": "person",
+"preferred_label": "يِزْرَحْيَا",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -6797,7 +8823,30 @@
 "end_ref_usfm": "HOS 2:22"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jezreel",
+"type": "person",
+"preferred_label": "يَزْرَعِيلَ",
+"confidence": 0.6395,
+"match_method": "scored"
+},
+{
+"id": "person:Jezreel.2",
+"type": "person",
+"preferred_label": "يَزْرَعِيلَ",
+"confidence": 0.6395,
+"match_method": "scored"
+},
+{
+"id": "place:Jezreel.2",
+"type": "place",
+"preferred_label": "يَزْرَعِيلَ",
+"confidence": 0.5695,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -6891,7 +8940,8 @@
 "end_ref_usfm": "2SA 2:11"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -6939,7 +8989,8 @@
 "label": "يزرعيل (مكان)",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -6961,7 +9012,16 @@
 "end_ref_usfm": "1CH 8:18"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Izliah",
+"type": "person",
+"preferred_label": "يَزَلْيَاه",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -6983,7 +9043,16 @@
 "end_ref_usfm": "1CH 12:3"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jeziel",
+"type": "person",
+"preferred_label": "يَزوئِيل",
+"confidence": 0.937,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -7005,7 +9074,8 @@
 "end_ref_usfm": "EZR 10:25"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -7093,7 +9163,30 @@
 "end_ref_usfm": "1CH 7:5"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Issachar",
+"type": "person",
+"preferred_label": "يَسَّاكَرَ",
+"confidence": 0.8275,
+"match_method": "scored"
+},
+{
+"id": "group:Issachar",
+"type": "group",
+"preferred_label": "يَسَّاكَرَ",
+"confidence": 0.7525,
+"match_method": "scored"
+},
+{
+"id": "person:Issachar.2",
+"type": "person",
+"preferred_label": "يَسَّاكَرَ",
+"confidence": 0.6025,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -7153,7 +9246,8 @@
 "label": "يَسَّاكَر (شخص)",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -7208,7 +9302,8 @@
 "label": "يوسف",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -7230,7 +9325,16 @@
 "end_ref_usfm": "GEN 11:29"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Iscah",
+"type": "person",
+"preferred_label": "يِسْكَةَ",
+"confidence": 0.9685,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -7252,7 +9356,16 @@
 "end_ref_usfm": "2CH 31:13"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ismachiah",
+"type": "person",
+"preferred_label": "يَسْمَخْيَا",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -7301,7 +9414,8 @@
 "label": "يشوع (شخص)",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -8583,7 +10697,8 @@
 "end_ref_usfm": "JHN 20:16"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -9489,7 +11604,8 @@
 "label": "ميلاد يسوع العَذْراوي",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -9512,7 +11628,8 @@
 "label": "يسوع",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -9596,6 +11713,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "يَسَّى، أَصْل ",
 "language": "arb"
+}
+],
+"acai": [
+{
+"id": "person:Jesse",
+"type": "person",
+"preferred_label": "يَسَّى",
+"confidence": 0.6727,
+"match_method": "scored"
 }
 ]
 }
@@ -9757,7 +11883,8 @@
 "label": "يَسَّى (شخص)",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -10009,7 +12136,8 @@
 "label": "الخطية",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -10031,7 +12159,16 @@
 "end_ref_usfm": "1CH 4:36"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jesimiel",
+"type": "person",
+"preferred_label": "يَسِيمِيئِيل",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -10059,7 +12196,16 @@
 "end_ref_usfm": "2CH 13:19"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Jeshanah",
+"type": "place",
+"preferred_label": "يَشَانَةَ",
+"confidence": 0.8,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -10081,6 +12227,113 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "الأحجار الكريمة",
 "language": "arb"
+}
+],
+"acai": [
+{
+"id": "person:Jeshua",
+"type": "person",
+"preferred_label": "يَشوعَ",
+"confidence": 0.8637,
+"match_method": "embedding"
+},
+{
+"id": "person:Jeshua.2",
+"type": "person",
+"preferred_label": "يَشوعَ",
+"confidence": 0.8637,
+"match_method": "embedding"
+},
+{
+"id": "person:Jeshua.3",
+"type": "person",
+"preferred_label": "يَشوعَ",
+"confidence": 0.8637,
+"match_method": "embedding"
+},
+{
+"id": "person:Jeshua.4",
+"type": "person",
+"preferred_label": "يَشوعَ",
+"confidence": 0.8637,
+"match_method": "embedding"
+},
+{
+"id": "person:Jeshua.5",
+"type": "person",
+"preferred_label": "يَشوعَ",
+"confidence": 0.8637,
+"match_method": "embedding"
+},
+{
+"id": "person:Jeshua.6",
+"type": "person",
+"preferred_label": "يَشوعَ",
+"confidence": 0.8637,
+"match_method": "embedding"
+},
+{
+"id": "person:Jeshua.7",
+"type": "person",
+"preferred_label": "يَشوعَ",
+"confidence": 0.8637,
+"match_method": "embedding"
+},
+{
+"id": "place:Jeshua",
+"type": "place",
+"preferred_label": "يَشوعَ",
+"confidence": 0.8637,
+"match_method": "embedding"
+},
+{
+"id": "person:Haggi",
+"type": "person",
+"preferred_label": "حَجِّي",
+"confidence": 0.8553,
+"match_method": "embedding"
+},
+{
+"id": "person:Jaasu",
+"type": "person",
+"preferred_label": "يَعْسو",
+"confidence": 0.8478,
+"match_method": "embedding"
+},
+{
+"id": "person:Jeuz",
+"type": "person",
+"preferred_label": "يَعوصَ",
+"confidence": 0.8411,
+"match_method": "embedding"
+},
+{
+"id": "person:Igal",
+"type": "person",
+"preferred_label": "يَجْآل",
+"confidence": 0.8349,
+"match_method": "embedding"
+},
+{
+"id": "person:Igal.2",
+"type": "person",
+"preferred_label": "يَجْآل",
+"confidence": 0.8349,
+"match_method": "embedding"
+},
+{
+"id": "person:Igal.3",
+"type": "person",
+"preferred_label": "يَجْآل",
+"confidence": 0.8349,
+"match_method": "embedding"
+},
+{
+"id": "place:Nezib",
+"type": "place",
+"preferred_label": "نَصِيب",
+"confidence": 0.8063,
+"match_method": "embedding"
 }
 ]
 }
@@ -10104,7 +12357,86 @@
 "end_ref_usfm": "1CH 24:13"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ishbah",
+"type": "person",
+"preferred_label": "يِشْبَحَ",
+"confidence": 0.8438,
+"match_method": "embedding"
+},
+{
+"id": "person:Ibhar",
+"type": "person",
+"preferred_label": "يِبْحَار",
+"confidence": 0.8402,
+"match_method": "embedding"
+},
+{
+"id": "person:Jabez",
+"type": "person",
+"preferred_label": "يَعْبِيص",
+"confidence": 0.8241,
+"match_method": "embedding"
+},
+{
+"id": "place:Jabez",
+"type": "place",
+"preferred_label": "يَعْبِيص",
+"confidence": 0.8241,
+"match_method": "embedding"
+},
+{
+"id": "person:Jacob.2",
+"type": "person",
+"preferred_label": "يَعْقوبَ",
+"confidence": 0.8238,
+"match_method": "embedding"
+},
+{
+"id": "person:James",
+"type": "person",
+"preferred_label": "يَعْقوبَ",
+"confidence": 0.8238,
+"match_method": "embedding"
+},
+{
+"id": "person:James.2",
+"type": "person",
+"preferred_label": "يَعْقوبَ",
+"confidence": 0.8238,
+"match_method": "embedding"
+},
+{
+"id": "person:James.3",
+"type": "person",
+"preferred_label": "يَعْقوبَ",
+"confidence": 0.8238,
+"match_method": "embedding"
+},
+{
+"id": "person:James.4",
+"type": "person",
+"preferred_label": "يَعْقوبَ",
+"confidence": 0.8238,
+"match_method": "embedding"
+},
+{
+"id": "person:Ishpan",
+"type": "person",
+"preferred_label": "يِشْفَان",
+"confidence": 0.8142,
+"match_method": "embedding"
+},
+{
+"id": "person:Idbash",
+"type": "person",
+"preferred_label": "يَدْبَاش",
+"confidence": 0.8133,
+"match_method": "embedding"
+}
+]
 }
 },
 {
@@ -10132,7 +12464,16 @@
 "end_ref_usfm": "1CH 1:32"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ishbak",
+"type": "person",
+"preferred_label": "يِشْبَاقَ",
+"confidence": 0.973,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -10154,7 +12495,16 @@
 "end_ref_usfm": "1CH 4:17"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ishbah",
+"type": "person",
+"preferred_label": "يِشْبَحَ",
+"confidence": 0.9685,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -10194,7 +12544,23 @@
 "end_ref_usfm": "1CH 27:2"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jashobeam",
+"type": "person",
+"preferred_label": "يَشبْعَام",
+"confidence": 0.855,
+"match_method": "scored"
+},
+{
+"id": "person:Jashobeam.2",
+"type": "person",
+"preferred_label": "يَشبْعَام",
+"confidence": 0.655,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -10222,7 +12588,8 @@
 "end_ref_usfm": "1CH 25:24"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -10244,7 +12611,8 @@
 "end_ref_usfm": "2SA 21:16"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -10297,6 +12665,36 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "أسماءُ الله",
 "language": "arb"
+}
+],
+"acai": [
+{
+"id": "person:Ishi.2",
+"type": "person",
+"preferred_label": "يِشْعِي",
+"confidence": 0.617,
+"match_method": "scored"
+},
+{
+"id": "person:Ishi.4",
+"type": "person",
+"preferred_label": "يِشْعِي",
+"confidence": 0.617,
+"match_method": "scored"
+},
+{
+"id": "person:Ishi",
+"type": "person",
+"preferred_label": "يِشْعِي",
+"confidence": 0.617,
+"match_method": "scored"
+},
+{
+"id": "person:Ishi.3",
+"type": "person",
+"preferred_label": "يِشْعِي",
+"confidence": 0.617,
+"match_method": "scored"
 }
 ]
 }
@@ -10356,7 +12754,44 @@
 "end_ref_usfm": "NEH 11:7"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jeshaiah.3",
+"type": "person",
+"preferred_label": "يِشْعِيَا",
+"confidence": 0.7143,
+"match_method": "scored"
+},
+{
+"id": "person:Jeshaiah.6",
+"type": "person",
+"preferred_label": "يِشْعِيَا",
+"confidence": 0.6571,
+"match_method": "scored"
+},
+{
+"id": "person:Jeshaiah.2",
+"type": "person",
+"preferred_label": "يِشْعِيَا",
+"confidence": 0.6571,
+"match_method": "scored"
+},
+{
+"id": "person:Jeshaiah.4",
+"type": "person",
+"preferred_label": "يِشْعِيَا",
+"confidence": 0.6571,
+"match_method": "scored"
+},
+{
+"id": "person:Jeshaiah.5",
+"type": "person",
+"preferred_label": "يِشْعِيَا",
+"confidence": 0.6571,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -10378,7 +12813,16 @@
 "end_ref_usfm": "1CH 8:22"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ishpan",
+"type": "person",
+"preferred_label": "يِشْفَان",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -10400,7 +12844,16 @@
 "end_ref_usfm": "1CH 8:16"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ishpah",
+"type": "person",
+"preferred_label": "يِشْفَة",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -10422,7 +12875,16 @@
 "end_ref_usfm": "1CH 4:3"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ishma",
+"type": "person",
+"preferred_label": "يَشْمَا",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -10444,7 +12906,16 @@
 "end_ref_usfm": "1CH 8:18"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ishmerai",
+"type": "person",
+"preferred_label": "يِشْمَرَاي",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -10472,7 +12943,23 @@
 "end_ref_usfm": "1CH 27:19"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ishmaiah.2",
+"type": "person",
+"preferred_label": "يَشْمَعِيَا",
+"confidence": 0.8,
+"match_method": "scored"
+},
+{
+"id": "person:Ishmaiah",
+"type": "person",
+"preferred_label": "يَشْمَعِيَا",
+"confidence": 0.8,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -10494,7 +12981,16 @@
 "end_ref_usfm": "1CH 4:22"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Bethlehem",
+"type": "place",
+"preferred_label": "لَحْمٍ",
+"confidence": 0.6385,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -10524,6 +13020,29 @@
 "label": "يِشْوَة",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Ishpah",
+"type": "person",
+"preferred_label": "يِشْفَة",
+"confidence": 0.888,
+"match_method": "embedding"
+},
+{
+"id": "person:Ishvi.2",
+"type": "person",
+"preferred_label": "يِشْوِي",
+"confidence": 0.8349,
+"match_method": "embedding"
+},
+{
+"id": "place:Ashnah",
+"type": "place",
+"preferred_label": "أَشْنَة",
+"confidence": 0.8133,
+"match_method": "embedding"
+}
 ]
 }
 },
@@ -10552,7 +13071,30 @@
 "end_ref_usfm": "1CH 7:30"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ishpah",
+"type": "person",
+"preferred_label": "يِشْفَة",
+"confidence": 0.888,
+"match_method": "embedding"
+},
+{
+"id": "person:Ishvi.2",
+"type": "person",
+"preferred_label": "يِشْوِي",
+"confidence": 0.8349,
+"match_method": "embedding"
+},
+{
+"id": "place:Ashnah",
+"type": "place",
+"preferred_label": "أَشْنَة",
+"confidence": 0.8133,
+"match_method": "embedding"
+}
+]
 }
 },
 {
@@ -10634,7 +13176,23 @@
 "end_ref_usfm": "JUD 1:1"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Ashkelon",
+"type": "place",
+"preferred_label": "أَشْقَلونَ",
+"confidence": 0.843,
+"match_method": "embedding"
+},
+{
+"id": "person:Jeshishai",
+"type": "person",
+"preferred_label": "يَشِيشَايَ",
+"confidence": 0.812,
+"match_method": "embedding"
+}
+]
 }
 },
 {
@@ -10668,7 +13226,8 @@
 "end_ref_usfm": "NEH 11:26"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -11020,6 +13579,43 @@
 "label": "يَشوع، يَهُوشَع (شخص)",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Joshua.2",
+"type": "person",
+"preferred_label": "يَشوع",
+"confidence": 0.6191,
+"match_method": "scored"
+},
+{
+"id": "person:Joshua.5",
+"type": "person",
+"preferred_label": "يَشوع",
+"confidence": 0.5584,
+"match_method": "scored"
+},
+{
+"id": "person:Joshua.3",
+"type": "person",
+"preferred_label": "يَشوع",
+"confidence": 0.5519,
+"match_method": "scored"
+},
+{
+"id": "person:Joshua.4",
+"type": "person",
+"preferred_label": "يَشوع",
+"confidence": 0.5512,
+"match_method": "scored"
+},
+{
+"id": "person:Joshua",
+"type": "person",
+"preferred_label": "يَشوع",
+"confidence": 0.5512,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -11043,7 +13639,8 @@
 "label": "حكمة يَشوع بن سيراخ",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -11247,7 +13844,8 @@
 "label": "يشوع (شخص)",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -11287,7 +13885,16 @@
 "end_ref_usfm": "1CH 7:30"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Ishvi.2",
+"type": "person",
+"preferred_label": "يِشْوِي",
+"confidence": 0.837,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -11316,6 +13923,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "يَشْوِي",
 "language": "arb"
+}
+],
+"acai": [
+{
+"id": "person:Ishvi.2",
+"type": "person",
+"preferred_label": "يِشْوِي",
+"confidence": 1.0,
+"match_method": "scored"
 }
 ]
 }
@@ -11347,6 +13963,15 @@
 "label": "يَشْوِي",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Ishvi.2",
+"type": "person",
+"preferred_label": "يِشْوِي",
+"confidence": 1.0,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -11376,6 +14001,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "يَشْوِي",
 "language": "arb"
+}
+],
+"acai": [
+{
+"id": "person:Ishvi.2",
+"type": "person",
+"preferred_label": "يِشْوِي",
+"confidence": 0.838,
+"match_method": "scored"
 }
 ]
 }
@@ -11423,7 +14057,37 @@
 "end_ref_usfm": "1CH 24:25"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Isshiah.3",
+"type": "person",
+"preferred_label": "يَشِّيَّا",
+"confidence": 0.76,
+"match_method": "scored"
+},
+{
+"id": "person:Isshiah.2",
+"type": "person",
+"preferred_label": "يَشِّيَّا",
+"confidence": 0.68,
+"match_method": "scored"
+},
+{
+"id": "person:Isshiah.4",
+"type": "person",
+"preferred_label": "يَشِّيَّا",
+"confidence": 0.68,
+"match_method": "scored"
+},
+{
+"id": "person:Isshiah",
+"type": "person",
+"preferred_label": "يَشِّيَّا",
+"confidence": 0.68,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -11459,6 +14123,22 @@
 "label": "يَشِّيَّا",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Isshiah.2",
+"type": "person",
+"preferred_label": "يَشِّيَّا",
+"confidence": 0.8,
+"match_method": "scored"
+},
+{
+"id": "person:Isshiah.3",
+"type": "person",
+"preferred_label": "يَشِّيَّا",
+"confidence": 0.8,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -11481,7 +14161,16 @@
 "end_ref_usfm": "EZR 10:31"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Isshijah",
+"type": "person",
+"preferred_label": "يِشِّيَّا",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -11511,6 +14200,15 @@
 "label": " يَشُبْعَامُ",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Jashobeam",
+"type": "person",
+"preferred_label": "يَشبْعَام",
+"confidence": 0.739,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -11533,7 +14231,16 @@
 "end_ref_usfm": "1CH 5:14"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jeshishai",
+"type": "person",
+"preferred_label": "يَشِيشَايَ",
+"confidence": 0.9775,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -11567,7 +14274,16 @@
 "end_ref_usfm": "1CH 7:13"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jezer",
+"type": "person",
+"preferred_label": "يِصْر",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -11595,7 +14311,8 @@
 "end_ref_usfm": "1CH 25:11"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -11707,7 +14424,8 @@
 "end_ref_usfm": "NUM 16:11"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -11755,7 +14473,8 @@
 "label": "يصهار",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -11791,6 +14510,15 @@
 "label": "التيه في البرية",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "place:Jotbathah",
+"type": "place",
+"preferred_label": "يطْبَاتَ",
+"confidence": 0.9685,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -11813,7 +14541,16 @@
 "end_ref_usfm": "2KI 21:19"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Jotbah",
+"type": "place",
+"preferred_label": "يَطْبَةَ",
+"confidence": 0.9685,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -11861,6 +14598,15 @@
 "label": "إِيطُورِيَّة*, إِيطُورِيَّة، الأيطوريَّون*",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Jetur",
+"type": "person",
+"preferred_label": "يَطور",
+"confidence": 0.575,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -11883,7 +14629,8 @@
 "end_ref_usfm": "1CH 4:10"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -11905,7 +14652,16 @@
 "end_ref_usfm": "1CH 2:55"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Jabez",
+"type": "place",
+"preferred_label": "يَعْبِيص",
+"confidence": 0.973,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -11927,7 +14683,51 @@
 "end_ref_usfm": "1CH 9:42"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Atarah",
+"type": "person",
+"preferred_label": "عَطَارَة",
+"confidence": 0.8329,
+"match_method": "embedding"
+},
+{
+"id": "person:Ezrah",
+"type": "person",
+"preferred_label": "عَزْرَةَ",
+"confidence": 0.8293,
+"match_method": "embedding"
+},
+{
+"id": "person:Ophrah",
+"type": "person",
+"preferred_label": "عَفْرَةَ",
+"confidence": 0.8131,
+"match_method": "embedding"
+},
+{
+"id": "place:Ophrah",
+"type": "place",
+"preferred_label": "عَفْرَةَ",
+"confidence": 0.8131,
+"match_method": "embedding"
+},
+{
+"id": "place:Ophrah.2",
+"type": "place",
+"preferred_label": "عَفْرَةَ",
+"confidence": 0.8131,
+"match_method": "embedding"
+},
+{
+"id": "person:Athaiah",
+"type": "person",
+"preferred_label": "عَثَايَا",
+"confidence": 0.8037,
+"match_method": "embedding"
+}
+]
 }
 },
 {
@@ -11949,7 +14749,16 @@
 "end_ref_usfm": "1CH 8:27"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jaareshiah",
+"type": "person",
+"preferred_label": "يَعْرَشْيَا",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -11983,7 +14792,16 @@
 "end_ref_usfm": "1CH 15:20"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jaaziel",
+"type": "person",
+"preferred_label": "يَعْزِئِيلَ",
+"confidence": 0.7775,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -12005,7 +14823,8 @@
 "end_ref_usfm": "1CH 24:27"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -12081,7 +14900,23 @@
 "end_ref_usfm": "ISA 16:9"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Jazer",
+"type": "place",
+"preferred_label": "يَعْزِيرَ",
+"confidence": 0.6888,
+"match_method": "scored"
+},
+{
+"id": "place:JazerSea",
+"type": "place",
+"preferred_label": "يَعْزِيرَ",
+"confidence": 0.5835,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -12103,7 +14938,16 @@
 "end_ref_usfm": "EZR 10:37"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jaasu",
+"type": "person",
+"preferred_label": "يَعْسو",
+"confidence": 0.964,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -12131,7 +14975,8 @@
 "end_ref_usfm": "1CH 27:21"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -12166,6 +15011,134 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "آبَارِ بَنِي يَعْقَانَ",
 "language": "arb"
+}
+],
+"acai": [
+{
+"id": "person:Joktan",
+"type": "person",
+"preferred_label": "يَقْطَان",
+"confidence": 0.9434,
+"match_method": "embedding"
+},
+{
+"id": "person:Jacan",
+"type": "person",
+"preferred_label": "يَعْكَان",
+"confidence": 0.8984,
+"match_method": "embedding"
+},
+{
+"id": "person:Ishpan",
+"type": "person",
+"preferred_label": "يِشْفَان",
+"confidence": 0.8602,
+"match_method": "embedding"
+},
+{
+"id": "person:Jethro",
+"type": "person",
+"preferred_label": "يَثْرونَ",
+"confidence": 0.851,
+"match_method": "embedding"
+},
+{
+"id": "person:Jeduthun",
+"type": "person",
+"preferred_label": "يَدوثونَ",
+"confidence": 0.8229,
+"match_method": "embedding"
+},
+{
+"id": "person:Jeduthun.2",
+"type": "person",
+"preferred_label": "يَدوثونَ",
+"confidence": 0.8229,
+"match_method": "embedding"
+},
+{
+"id": "person:Jacob.2",
+"type": "person",
+"preferred_label": "يَعْقوبَ",
+"confidence": 0.8194,
+"match_method": "embedding"
+},
+{
+"id": "person:James",
+"type": "person",
+"preferred_label": "يَعْقوبَ",
+"confidence": 0.8194,
+"match_method": "embedding"
+},
+{
+"id": "person:James.2",
+"type": "person",
+"preferred_label": "يَعْقوبَ",
+"confidence": 0.8194,
+"match_method": "embedding"
+},
+{
+"id": "person:James.3",
+"type": "person",
+"preferred_label": "يَعْقوبَ",
+"confidence": 0.8194,
+"match_method": "embedding"
+},
+{
+"id": "person:James.4",
+"type": "person",
+"preferred_label": "يَعْقوبَ",
+"confidence": 0.8194,
+"match_method": "embedding"
+},
+{
+"id": "person:Ishbah",
+"type": "person",
+"preferred_label": "يِشْبَحَ",
+"confidence": 0.8131,
+"match_method": "embedding"
+},
+{
+"id": "person:Imna",
+"type": "person",
+"preferred_label": "يَمْنَاع",
+"confidence": 0.8124,
+"match_method": "embedding"
+},
+{
+"id": "place:Jotbathah",
+"type": "place",
+"preferred_label": "يطْبَاتَ",
+"confidence": 0.812,
+"match_method": "embedding"
+},
+{
+"id": "person:Jabez",
+"type": "person",
+"preferred_label": "يَعْبِيص",
+"confidence": 0.8117,
+"match_method": "embedding"
+},
+{
+"id": "place:Jabez",
+"type": "place",
+"preferred_label": "يَعْبِيص",
+"confidence": 0.8117,
+"match_method": "embedding"
+},
+{
+"id": "person:Eglon",
+"type": "person",
+"preferred_label": "عَجْلونَ",
+"confidence": 0.8109,
+"match_method": "embedding"
+},
+{
+"id": "place:Eglon",
+"type": "place",
+"preferred_label": "عَجْلونَ",
+"confidence": 0.8109,
+"match_method": "embedding"
 }
 ]
 }
@@ -12591,7 +15564,8 @@
 "label": "نُوزي، ألواح نُوزي",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -12871,7 +15845,8 @@
 "end_ref_usfm": "MAT 20:23"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -12893,7 +15868,16 @@
 "end_ref_usfm": "1CH 4:36"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jaakobah",
+"type": "person",
+"preferred_label": "يَعْقوبَا",
+"confidence": 0.9775,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -12915,7 +15899,16 @@
 "end_ref_usfm": "1CH 5:13"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jacan",
+"type": "person",
+"preferred_label": "يَعْكَان",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -12963,6 +15956,15 @@
 "label": "يَعْلَام",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Jalam",
+"type": "person",
+"preferred_label": "يَعْلَامَ",
+"confidence": 0.973,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -13003,7 +16005,16 @@
 "end_ref_usfm": "1CH 1:35"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jalam",
+"type": "person",
+"preferred_label": "يَعْلَامَ",
+"confidence": 0.973,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -13031,7 +16042,8 @@
 "end_ref_usfm": "NEH 7:58"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -13053,7 +16065,16 @@
 "end_ref_usfm": "1CH 5:12"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Janai",
+"type": "person",
+"preferred_label": "يَعْنَاي",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -13082,6 +16103,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "يَعُوش",
 "language": "arb"
+}
+],
+"acai": [
+{
+"id": "person:Jaasu",
+"type": "person",
+"preferred_label": "يَعْسو",
+"confidence": 0.8192,
+"match_method": "embedding"
 }
 ]
 }
@@ -13135,7 +16165,16 @@
 "end_ref_usfm": "GEN 36:18"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jaasu",
+"type": "person",
+"preferred_label": "يَعْسو",
+"confidence": 0.8192,
+"match_method": "embedding"
+}
+]
 }
 },
 {
@@ -13157,7 +16196,44 @@
 "end_ref_usfm": "1CH 8:10"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jeuz",
+"type": "person",
+"preferred_label": "يَعوصَ",
+"confidence": 0.9114,
+"match_method": "embedding"
+},
+{
+"id": "person:Igal",
+"type": "person",
+"preferred_label": "يَجْآل",
+"confidence": 0.8255,
+"match_method": "embedding"
+},
+{
+"id": "person:Igal.2",
+"type": "person",
+"preferred_label": "يَجْآل",
+"confidence": 0.8255,
+"match_method": "embedding"
+},
+{
+"id": "person:Igal.3",
+"type": "person",
+"preferred_label": "يَجْآل",
+"confidence": 0.8255,
+"match_method": "embedding"
+},
+{
+"id": "place:Esek",
+"type": "place",
+"preferred_label": "عِسِقَ",
+"confidence": 0.8075,
+"match_method": "embedding"
+}
+]
 }
 },
 {
@@ -13259,6 +16335,78 @@
 "label": "يَعِيئِيل",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Jeiel.4",
+"type": "person",
+"preferred_label": "يَعِيئِيل",
+"confidence": 0.6923,
+"match_method": "scored"
+},
+{
+"id": "person:Jeiel.8",
+"type": "person",
+"preferred_label": "يَعِيئِيل",
+"confidence": 0.6308,
+"match_method": "scored"
+},
+{
+"id": "person:Jeuel.2",
+"type": "person",
+"preferred_label": "يَعِيئِيل",
+"confidence": 0.6308,
+"match_method": "scored"
+},
+{
+"id": "person:Jeiel.5",
+"type": "person",
+"preferred_label": "يَعِيئِيل",
+"confidence": 0.6308,
+"match_method": "scored"
+},
+{
+"id": "person:Jeuel.3",
+"type": "person",
+"preferred_label": "يَعِيئِيل",
+"confidence": 0.6308,
+"match_method": "scored"
+},
+{
+"id": "person:Jeiel.7",
+"type": "person",
+"preferred_label": "يَعِيئِيل",
+"confidence": 0.6308,
+"match_method": "scored"
+},
+{
+"id": "person:Jeiel.2",
+"type": "person",
+"preferred_label": "يَعِيئِيل",
+"confidence": 0.6308,
+"match_method": "scored"
+},
+{
+"id": "person:Jeiel.3",
+"type": "person",
+"preferred_label": "يَعِيئِيل",
+"confidence": 0.6308,
+"match_method": "scored"
+},
+{
+"id": "person:Jeiel.6",
+"type": "person",
+"preferred_label": "يَعِيئِيل",
+"confidence": 0.6308,
+"match_method": "scored"
+},
+{
+"id": "person:Jehiel",
+"type": "person",
+"preferred_label": "يَحِيئِيل",
+"confidence": 0.612,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -13293,7 +16441,30 @@
 "end_ref_usfm": "EZR 8:13"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jeuel",
+"type": "person",
+"preferred_label": "يَعِيئِيل",
+"confidence": 0.7333,
+"match_method": "scored"
+},
+{
+"id": "person:Jeuel.2",
+"type": "person",
+"preferred_label": "يَعِيئِيل",
+"confidence": 0.7333,
+"match_method": "scored"
+},
+{
+"id": "person:Jeuel.3",
+"type": "person",
+"preferred_label": "يَعِيئِيل",
+"confidence": 0.7333,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -13383,6 +16554,15 @@
 "label": "سِفر القُضاة",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Jephthah",
+"type": "person",
+"preferred_label": "يَفْتَاح",
+"confidence": 0.8483,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -13405,7 +16585,16 @@
 "end_ref_usfm": "JOS 15:43"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Iphtah",
+"type": "place",
+"preferred_label": "يَفْتَاح",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -13433,7 +16622,72 @@
 "end_ref_usfm": "JOS 19:27"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jahaziel",
+"type": "person",
+"preferred_label": "يَحْزِيئِيل",
+"confidence": 0.8474,
+"match_method": "embedding"
+},
+{
+"id": "person:Jahaziel.2",
+"type": "person",
+"preferred_label": "يَحْزِيئِيل",
+"confidence": 0.8474,
+"match_method": "embedding"
+},
+{
+"id": "person:Jahaziel.3",
+"type": "person",
+"preferred_label": "يَحْزِيئِيل",
+"confidence": 0.8474,
+"match_method": "embedding"
+},
+{
+"id": "person:Jahaziel.4",
+"type": "person",
+"preferred_label": "يَحْزِيئِيل",
+"confidence": 0.8474,
+"match_method": "embedding"
+},
+{
+"id": "person:Jahaziel.5",
+"type": "person",
+"preferred_label": "يَحْزِيئِيل",
+"confidence": 0.8474,
+"match_method": "embedding"
+},
+{
+"id": "person:Jaaziel",
+"type": "person",
+"preferred_label": "يَعْزِئِيلَ",
+"confidence": 0.8375,
+"match_method": "embedding"
+},
+{
+"id": "person:Jehizkiah",
+"type": "person",
+"preferred_label": "يَحَزْقِيَا",
+"confidence": 0.8142,
+"match_method": "embedding"
+},
+{
+"id": "place:Irpeel",
+"type": "place",
+"preferred_label": "يَرَفْئِيلَ",
+"confidence": 0.8088,
+"match_method": "embedding"
+},
+{
+"id": "person:Stachys",
+"type": "person",
+"preferred_label": "إِسْتَاخِيسَ",
+"confidence": 0.8076,
+"match_method": "embedding"
+}
+]
 }
 },
 {
@@ -13455,7 +16709,16 @@
 "end_ref_usfm": "1CH 8:25"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Iphdeiah",
+"type": "person",
+"preferred_label": "يَفَدْيَا",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -13477,7 +16740,8 @@
 "end_ref_usfm": "JOS 16:3"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -13499,7 +16763,65 @@
 "end_ref_usfm": "1CH 7:33"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jaaziah",
+"type": "person",
+"preferred_label": "يَعَزْيَا",
+"confidence": 0.8254,
+"match_method": "embedding"
+},
+{
+"id": "place:Jazer",
+"type": "place",
+"preferred_label": "يَعْزِيرَ",
+"confidence": 0.8074,
+"match_method": "embedding"
+},
+{
+"id": "place:JazerSea",
+"type": "place",
+"preferred_label": "يَعْزِيرَ",
+"confidence": 0.8074,
+"match_method": "embedding"
+},
+{
+"id": "person:Jeshaiah.2",
+"type": "person",
+"preferred_label": "يِشْعِيَا",
+"confidence": 0.8058,
+"match_method": "embedding"
+},
+{
+"id": "person:Jeshaiah.3",
+"type": "person",
+"preferred_label": "يِشْعِيَا",
+"confidence": 0.8058,
+"match_method": "embedding"
+},
+{
+"id": "person:Jeshaiah.4",
+"type": "person",
+"preferred_label": "يِشْعِيَا",
+"confidence": 0.8058,
+"match_method": "embedding"
+},
+{
+"id": "person:Jeshaiah.5",
+"type": "person",
+"preferred_label": "يِشْعِيَا",
+"confidence": 0.8058,
+"match_method": "embedding"
+},
+{
+"id": "person:Jeshaiah.6",
+"type": "person",
+"preferred_label": "يِشْعِيَا",
+"confidence": 0.8058,
+"match_method": "embedding"
+}
+]
 }
 },
 {
@@ -13557,7 +16879,23 @@
 "end_ref_usfm": "1CH 7:38"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jephunneh",
+"type": "person",
+"preferred_label": "يَفنَّة",
+"confidence": 0.9429,
+"match_method": "scored"
+},
+{
+"id": "person:Jephunneh.2",
+"type": "person",
+"preferred_label": "يَفنَّة",
+"confidence": 0.6571,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -13587,6 +16925,50 @@
 "label": "قَبْصِئِيلَ",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Jahaziel",
+"type": "person",
+"preferred_label": "يَحْزِيئِيل",
+"confidence": 0.8268,
+"match_method": "embedding"
+},
+{
+"id": "person:Jahaziel.2",
+"type": "person",
+"preferred_label": "يَحْزِيئِيل",
+"confidence": 0.8268,
+"match_method": "embedding"
+},
+{
+"id": "person:Jahaziel.3",
+"type": "person",
+"preferred_label": "يَحْزِيئِيل",
+"confidence": 0.8268,
+"match_method": "embedding"
+},
+{
+"id": "person:Jahaziel.4",
+"type": "person",
+"preferred_label": "يَحْزِيئِيل",
+"confidence": 0.8268,
+"match_method": "embedding"
+},
+{
+"id": "person:Jahaziel.5",
+"type": "person",
+"preferred_label": "يَحْزِيئِيل",
+"confidence": 0.8268,
+"match_method": "embedding"
+},
+{
+"id": "person:Jaaziel",
+"type": "person",
+"preferred_label": "يَعْزِئِيلَ",
+"confidence": 0.8076,
+"match_method": "embedding"
+}
 ]
 }
 },
@@ -13615,7 +16997,16 @@
 "end_ref_usfm": "2KI 14:7"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Joktheel",
+"type": "place",
+"preferred_label": "يَقْتِئِيل",
+"confidence": 0.8,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -13637,7 +17028,8 @@
 "end_ref_usfm": "JOS 15:56"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -13665,7 +17057,16 @@
 "end_ref_usfm": "GEN 25:3"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jokshan",
+"type": "person",
+"preferred_label": "يَقْشَانَ",
+"confidence": 0.973,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -13693,7 +17094,16 @@
 "end_ref_usfm": "1CH 1:23"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Joktan",
+"type": "person",
+"preferred_label": "يَقْطَان",
+"confidence": 0.84,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -13730,7 +17140,8 @@
 "label": "خمر",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -13760,7 +17171,8 @@
 "label": "القِثَّاء البَرِّيّ",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -13788,7 +17200,16 @@
 "end_ref_usfm": "1CH 24:23"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jekameam",
+"type": "person",
+"preferred_label": "يَقْمَعَام",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -13837,6 +17258,43 @@
 "label": "قِبْصَايِم",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Jekameam",
+"type": "person",
+"preferred_label": "يَقْمَعَام",
+"confidence": 1.0,
+"match_method": "embedding"
+},
+{
+"id": "place:Jokdeam",
+"type": "place",
+"preferred_label": "يَقْدَعَام",
+"confidence": 0.9317,
+"match_method": "embedding"
+},
+{
+"id": "place:Ibleam",
+"type": "place",
+"preferred_label": "يَبْلَعَام",
+"confidence": 0.8618,
+"match_method": "embedding"
+},
+{
+"id": "person:Jorkeam",
+"type": "person",
+"preferred_label": "يَرقْعَامَ",
+"confidence": 0.8214,
+"match_method": "embedding"
+},
+{
+"id": "place:Jokneam",
+"type": "place",
+"preferred_label": "يَقْنَعَامَ",
+"confidence": 0.8088,
+"match_method": "embedding"
+}
 ]
 }
 },
@@ -13865,7 +17323,23 @@
 "end_ref_usfm": "1CH 3:18"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jekamiah.2",
+"type": "person",
+"preferred_label": "يَقَمْيَا",
+"confidence": 0.7505,
+"match_method": "scored"
+},
+{
+"id": "person:Jekamiah",
+"type": "person",
+"preferred_label": "يَقَمْيَا",
+"confidence": 0.7505,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -13913,6 +17387,15 @@
 "label": "مدن اللاويين",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "place:Jokneam",
+"type": "place",
+"preferred_label": "يَقْنَعَامَ",
+"confidence": 1.0,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -13935,7 +17418,16 @@
 "end_ref_usfm": "1CH 4:18"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jekuthiel",
+"type": "person",
+"preferred_label": "يَقوثِيئِيلَ",
+"confidence": 0.964,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -13981,7 +17473,8 @@
 "end_ref_usfm": "HEB 11:1"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -14009,7 +17502,16 @@
 "end_ref_usfm": "2CH 26:3"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jecoliah",
+"type": "person",
+"preferred_label": "يَكلْيَا",
+"confidence": 0.973,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -14039,7 +17541,8 @@
 "label": "يَهُويَاكِينُ",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -14075,7 +17578,8 @@
 "label": "يَهُويَاكِينُ",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -14105,7 +17609,8 @@
 "label": "يَهُويَاكِينُ",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -14127,6 +17632,43 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "الطيور",
 "language": "arb"
+}
+],
+"acai": [
+{
+"id": "person:Ithmah",
+"type": "person",
+"preferred_label": "يِثْمَة",
+"confidence": 0.8552,
+"match_method": "embedding"
+},
+{
+"id": "place:Hamath",
+"type": "place",
+"preferred_label": "حَمَاةَ",
+"confidence": 0.8297,
+"match_method": "embedding"
+},
+{
+"id": "person:Zimmah",
+"type": "person",
+"preferred_label": "زِمَّةَ",
+"confidence": 0.8134,
+"match_method": "embedding"
+},
+{
+"id": "person:Zimmah.2",
+"type": "person",
+"preferred_label": "زِمَّةَ",
+"confidence": 0.8134,
+"match_method": "embedding"
+},
+{
+"id": "place:Ammah",
+"type": "place",
+"preferred_label": "أَمَّةَ",
+"confidence": 0.8004,
+"match_method": "embedding"
 }
 ]
 }
@@ -14158,6 +17700,15 @@
 "label": "يَنِّيس وَيَمْبِرِيس",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Jambres",
+"type": "person",
+"preferred_label": "يَمْبِرِيس",
+"confidence": 0.8,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -14186,7 +17737,16 @@
 "end_ref_usfm": "1CH 7:40"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Imrah",
+"type": "person",
+"preferred_label": "يَمْرَة",
+"confidence": 0.8,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -14208,7 +17768,8 @@
 "end_ref_usfm": "1MA 9:36"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -14236,7 +17797,8 @@
 "end_ref_usfm": "2CH 18:8"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -14258,7 +17820,16 @@
 "end_ref_usfm": "1CH 4:34"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jamlech",
+"type": "person",
+"preferred_label": "يَمْلِيك",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -14288,6 +17859,22 @@
 "label": "يَبْنَة",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Jeuz",
+"type": "person",
+"preferred_label": "يَعوصَ",
+"confidence": 0.8659,
+"match_method": "embedding"
+},
+{
+"id": "person:Jogli",
+"type": "person",
+"preferred_label": "يجْلِي",
+"confidence": 0.8048,
+"match_method": "embedding"
+}
 ]
 }
 },
@@ -14310,7 +17897,16 @@
 "end_ref_usfm": "1CH 7:35"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Imna",
+"type": "person",
+"preferred_label": "يَمْنَاع",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -14350,7 +17946,37 @@
 "end_ref_usfm": "2CH 31:14"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Dimnah",
+"type": "place",
+"preferred_label": "دِمْنَة",
+"confidence": 0.8381,
+"match_method": "embedding"
+},
+{
+"id": "person:Imnah",
+"type": "person",
+"preferred_label": "يَمْنَةَ",
+"confidence": 0.8132,
+"match_method": "embedding"
+},
+{
+"id": "person:Imnah.2",
+"type": "person",
+"preferred_label": "يَمْنَةَ",
+"confidence": 0.8132,
+"match_method": "embedding"
+},
+{
+"id": "person:Imrah",
+"type": "person",
+"preferred_label": "يَمْرَة",
+"confidence": 0.8036,
+"match_method": "embedding"
+}
+]
 }
 },
 {
@@ -14386,7 +18012,8 @@
 "label": "يِمْنَة",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -14416,7 +18043,8 @@
 "label": "يِمْنَة",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -14456,7 +18084,16 @@
 "end_ref_usfm": "1CH 4:24"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jemuel",
+"type": "person",
+"preferred_label": "يَموئِيل",
+"confidence": 0.973,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -14478,7 +18115,16 @@
 "end_ref_usfm": "JOB 42:14"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jemimah",
+"type": "person",
+"preferred_label": "يَمِيمَةَ",
+"confidence": 0.973,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -14507,6 +18153,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "نسب يسوع المسيح",
 "language": "arb"
+}
+],
+"acai": [
+{
+"id": "person:Jannai",
+"type": "person",
+"preferred_label": "يَنَّا",
+"confidence": 1.0,
+"match_method": "scored"
 }
 ]
 }
@@ -14538,7 +18193,8 @@
 "label": "نباتات",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -14688,7 +18344,8 @@
 "label": "شتات اليهود",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -14716,7 +18373,16 @@
 "end_ref_usfm": "JOS 16:7"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Janoah",
+"type": "place",
+"preferred_label": "يَنوحَةَ",
+"confidence": 0.7018,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -14738,7 +18404,16 @@
 "end_ref_usfm": "JOS 15:53"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Janim",
+"type": "place",
+"preferred_label": "يَنوم",
+"confidence": 0.9505,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -14778,7 +18453,8 @@
 "end_ref_usfm": "2TI 3:8"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -14800,7 +18476,16 @@
 "end_ref_usfm": "1CH 2:47"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jahdai",
+"type": "person",
+"preferred_label": "يَهْدَايَ",
+"confidence": 0.973,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -14822,6 +18507,113 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "يَاهَص",
 "language": "arb"
+}
+],
+"acai": [
+{
+"id": "person:Ishpah",
+"type": "person",
+"preferred_label": "يِشْفَة",
+"confidence": 0.901,
+"match_method": "embedding"
+},
+{
+"id": "place:Ashnah",
+"type": "place",
+"preferred_label": "أَشْنَة",
+"confidence": 0.8528,
+"match_method": "embedding"
+},
+{
+"id": "person:Ishvi.2",
+"type": "person",
+"preferred_label": "يِشْوِي",
+"confidence": 0.8235,
+"match_method": "embedding"
+},
+{
+"id": "person:Tappuah",
+"type": "person",
+"preferred_label": "تَفّوحَ",
+"confidence": 0.8124,
+"match_method": "embedding"
+},
+{
+"id": "place:Tappuah",
+"type": "place",
+"preferred_label": "تَفّوحَ",
+"confidence": 0.8124,
+"match_method": "embedding"
+},
+{
+"id": "place:Tappuah.2",
+"type": "place",
+"preferred_label": "تَفّوحَ",
+"confidence": 0.8124,
+"match_method": "embedding"
+},
+{
+"id": "person:Jephunneh",
+"type": "person",
+"preferred_label": "يَفنَّة",
+"confidence": 0.8123,
+"match_method": "embedding"
+},
+{
+"id": "person:Jephunneh.2",
+"type": "person",
+"preferred_label": "يَفنَّة",
+"confidence": 0.8123,
+"match_method": "embedding"
+},
+{
+"id": "person:Hakkoz",
+"type": "person",
+"preferred_label": "هَقّوصَ",
+"confidence": 0.811,
+"match_method": "embedding"
+},
+{
+"id": "person:Hakkoz.2",
+"type": "person",
+"preferred_label": "هَقّوصَ",
+"confidence": 0.811,
+"match_method": "embedding"
+},
+{
+"id": "person:Hakkoz.3",
+"type": "person",
+"preferred_label": "هَقّوصَ",
+"confidence": 0.811,
+"match_method": "embedding"
+},
+{
+"id": "person:Ithmah",
+"type": "person",
+"preferred_label": "يِثْمَة",
+"confidence": 0.808,
+"match_method": "embedding"
+},
+{
+"id": "person:Tahash",
+"type": "person",
+"preferred_label": "تَاحَشَ",
+"confidence": 0.8074,
+"match_method": "embedding"
+},
+{
+"id": "person:Jarha",
+"type": "person",
+"preferred_label": "يَرْحَع",
+"confidence": 0.8021,
+"match_method": "embedding"
+},
+{
+"id": "place:Bozkath",
+"type": "place",
+"preferred_label": "بَصْقَة",
+"confidence": 0.8,
+"match_method": "embedding"
 }
 ]
 }
@@ -14851,7 +18643,23 @@
 "end_ref_usfm": "2CH 29:12"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jehallelel.2",
+"type": "person",
+"preferred_label": "يَهْلَلْئِيلَ",
+"confidence": 0.782,
+"match_method": "scored"
+},
+{
+"id": "person:Jehallelel",
+"type": "person",
+"preferred_label": "يَهْلَلْئِيلَ",
+"confidence": 0.782,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -14995,7 +18803,8 @@
 "label": "تاريخ إسرائيل",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -15093,7 +18902,8 @@
 "label": "تاريخ إسرائيل",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -15169,7 +18979,8 @@
 "end_ref_usfm": "NEH 12:23"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -15203,7 +19014,16 @@
 "end_ref_usfm": "JER 38:6"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jehucal",
+"type": "person",
+"preferred_label": "يَهوخَلَ",
+"confidence": 0.6828,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -15225,7 +19045,16 @@
 "end_ref_usfm": "JOS 19:45"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Jehud",
+"type": "place",
+"preferred_label": "يَهودَ",
+"confidence": 0.9595,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -15247,7 +19076,16 @@
 "end_ref_usfm": "JER 36:23"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jehudi",
+"type": "person",
+"preferred_label": "يَهودِيَ",
+"confidence": 0.6885,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -15289,6 +19127,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "أُهُولِيبَامَة",
 "language": "arb"
+}
+],
+"acai": [
+{
+"id": "person:Judith",
+"type": "person",
+"preferred_label": "يَهودِيتَ",
+"confidence": 0.7505,
+"match_method": "scored"
 }
 ]
 }
@@ -15462,7 +19309,8 @@
 "end_ref_usfm": "JDT 16:25"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -15548,6 +19396,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "فترة ما بعد السبي",
 "language": "arb"
+}
+],
+"acai": [
+{
+"id": "place:Judea",
+"type": "place",
+"preferred_label": "يَهوذَا",
+"confidence": 0.5599,
+"match_method": "scored"
 }
 ]
 }
@@ -15755,7 +19612,8 @@
 "label": "تَدَّاوُسَ، الرسول",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -15785,7 +19643,8 @@
 "label": "نسب يسوع المسيح",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -15878,7 +19737,8 @@
 "label": "يَهوذَا (شخص)",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -15914,6 +19774,113 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "يهوذا، رسالة",
 "language": "arb"
+}
+],
+"acai": [
+{
+"id": "group:Judah",
+"type": "group",
+"preferred_label": "يَهوذَا",
+"confidence": 1.0,
+"match_method": "embedding"
+},
+{
+"id": "person:Judah.3",
+"type": "person",
+"preferred_label": "يَهوذَا",
+"confidence": 1.0,
+"match_method": "embedding"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"preferred_label": "يَهوذَا",
+"confidence": 1.0,
+"match_method": "embedding"
+},
+{
+"id": "person:Judah.5",
+"type": "person",
+"preferred_label": "يَهوذَا",
+"confidence": 1.0,
+"match_method": "embedding"
+},
+{
+"id": "person:Judah.6",
+"type": "person",
+"preferred_label": "يَهوذَا",
+"confidence": 1.0,
+"match_method": "embedding"
+},
+{
+"id": "person:Judah.7",
+"type": "person",
+"preferred_label": "يَهوذَا",
+"confidence": 1.0,
+"match_method": "embedding"
+},
+{
+"id": "person:Judah.8",
+"type": "person",
+"preferred_label": "يَهوذَا",
+"confidence": 1.0,
+"match_method": "embedding"
+},
+{
+"id": "person:Judas",
+"type": "person",
+"preferred_label": "يَهوذَا",
+"confidence": 1.0,
+"match_method": "embedding"
+},
+{
+"id": "person:Judas.2",
+"type": "person",
+"preferred_label": "يَهوذَا",
+"confidence": 1.0,
+"match_method": "embedding"
+},
+{
+"id": "person:Judas.3",
+"type": "person",
+"preferred_label": "يَهوذَا",
+"confidence": 1.0,
+"match_method": "embedding"
+},
+{
+"id": "person:Judas.4",
+"type": "person",
+"preferred_label": "يَهوذَا",
+"confidence": 1.0,
+"match_method": "embedding"
+},
+{
+"id": "person:Judas.5",
+"type": "person",
+"preferred_label": "يَهوذَا",
+"confidence": 1.0,
+"match_method": "embedding"
+},
+{
+"id": "person:Jude",
+"type": "person",
+"preferred_label": "يَهوذَا",
+"confidence": 1.0,
+"match_method": "embedding"
+},
+{
+"id": "place:Judea",
+"type": "place",
+"preferred_label": "يَهوذَا",
+"confidence": 1.0,
+"match_method": "embedding"
+},
+{
+"id": "person:Jerusha",
+"type": "person",
+"preferred_label": "يَروشَا",
+"confidence": 0.8089,
+"match_method": "embedding"
 }
 ]
 }
@@ -16115,6 +20082,50 @@
 "label": "سِبْط يهوذا",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Judah.4",
+"type": "person",
+"preferred_label": "يَهوذَا",
+"confidence": 0.6977,
+"match_method": "scored"
+},
+{
+"id": "person:Judah.7",
+"type": "person",
+"preferred_label": "يَهوذَا",
+"confidence": 0.5768,
+"match_method": "scored"
+},
+{
+"id": "person:Judah.3",
+"type": "person",
+"preferred_label": "يَهوذَا",
+"confidence": 0.5727,
+"match_method": "scored"
+},
+{
+"id": "person:Judah.8",
+"type": "person",
+"preferred_label": "يَهوذَا",
+"confidence": 0.5727,
+"match_method": "scored"
+},
+{
+"id": "person:Judah.6",
+"type": "person",
+"preferred_label": "يَهوذَا",
+"confidence": 0.5727,
+"match_method": "scored"
+},
+{
+"id": "person:Judah.5",
+"type": "person",
+"preferred_label": "يَهوذَا",
+"confidence": 0.5727,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -16138,7 +20149,8 @@
 "label": "يهوذا",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -16161,7 +20173,8 @@
 "label": "يهوذا",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -16184,7 +20197,8 @@
 "label": "يَهُوذا الْمَكَّابِيّ",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -16272,7 +20286,8 @@
 "end_ref_usfm": "1MA 9:41"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -16295,7 +20310,8 @@
 "label": "يهوذا",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -16584,7 +20600,8 @@
 "label": "إخوة الرب يسوع*",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -16795,6 +20812,15 @@
 "label": "تاريخ إسرائيل",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Jehoram.2",
+"type": "person",
+"preferred_label": "يَهورَام",
+"confidence": 0.6022,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -16841,7 +20867,23 @@
 "end_ref_usfm": "2CH 25:3"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jehozabad",
+"type": "person",
+"preferred_label": "يَهوزَابَاد",
+"confidence": 0.724,
+"match_method": "scored"
+},
+{
+"id": "person:Jehozabad.2",
+"type": "person",
+"preferred_label": "يَهوزَابَاد",
+"confidence": 0.644,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -17051,7 +21093,8 @@
 "label": "تاريخ إسرائيل",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -17081,7 +21124,8 @@
 "label": "يهوشافاط (شخص)",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -17109,7 +21153,16 @@
 "end_ref_usfm": "2CH 22:11"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jehosheba",
+"type": "person",
+"preferred_label": "يَهوشَبَع",
+"confidence": 0.955,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -17139,7 +21192,8 @@
 "label": " يَهُوشَبَعُ",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -17175,6 +21229,15 @@
 "label": "يشوع (شخص)",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Joshua.2",
+"type": "person",
+"preferred_label": "يَشوع",
+"confidence": 0.6115,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -17203,7 +21266,16 @@
 "end_ref_usfm": "2CH 25:1"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jehoaddan",
+"type": "person",
+"preferred_label": "يَهوعَدَّان",
+"confidence": 0.982,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -17231,7 +21303,8 @@
 "end_ref_usfm": "1CH 9:42"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -17273,6 +21346,29 @@
 "label": "يونَاثَان",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Jehonathan",
+"type": "person",
+"preferred_label": "يَهونَاثَان",
+"confidence": 0.7333,
+"match_method": "scored"
+},
+{
+"id": "person:Jehonathan.2",
+"type": "person",
+"preferred_label": "يَهونَاثَان",
+"confidence": 0.7333,
+"match_method": "scored"
+},
+{
+"id": "person:Jonathan.6",
+"type": "person",
+"preferred_label": "يونَاثَانَ",
+"confidence": 0.6703,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -17296,7 +21392,8 @@
 "label": "يُونَادَابُ",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -17318,6 +21415,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "أسماءُ الله",
 "language": "arb"
+}
+],
+"acai": [
+{
+"id": "group:Jews",
+"type": "group",
+"preferred_label": "Jews",
+"confidence": 0.8069,
+"match_method": "embedding"
 }
 ]
 }
@@ -17347,7 +21453,8 @@
 "end_ref_usfm": "JER 23:6"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -17438,6 +21545,29 @@
 "label": " يُويَادَاعُ",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Jehoiada.2",
+"type": "person",
+"preferred_label": "يَهويَادَاع",
+"confidence": 0.7,
+"match_method": "scored"
+},
+{
+"id": "person:Jehoiada.4",
+"type": "person",
+"preferred_label": "يَهويَادَاع",
+"confidence": 0.6053,
+"match_method": "scored"
+},
+{
+"id": "person:Jehoiada.3",
+"type": "person",
+"preferred_label": "يَهويَادَاع",
+"confidence": 0.6053,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -17473,6 +21603,22 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "يويَارِيب",
 "language": "arb"
+}
+],
+"acai": [
+{
+"id": "person:Jehoiarib",
+"type": "person",
+"preferred_label": "يَهويَارِيب",
+"confidence": 0.8,
+"match_method": "scored"
+},
+{
+"id": "person:Joiarib",
+"type": "person",
+"preferred_label": "يويَارِيبَ",
+"confidence": 0.737,
+"match_method": "scored"
 }
 ]
 }
@@ -17619,6 +21765,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "تاريخ إسرائيل",
 "language": "arb"
+}
+],
+"acai": [
+{
+"id": "person:Jehoiakim",
+"type": "person",
+"preferred_label": "يَهويَاقِيمَ",
+"confidence": 0.6472,
+"match_method": "scored"
 }
 ]
 }
@@ -17837,6 +21992,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "تاريخ إسرائيل",
 "language": "arb"
+}
+],
+"acai": [
+{
+"id": "person:Jehoiachin",
+"type": "person",
+"preferred_label": "يَهويَاكِين",
+"confidence": 0.6378,
+"match_method": "scored"
 }
 ]
 }
@@ -18090,6 +22254,36 @@
 "label": "عَطْرُوتُ بَيْتِ يُوآبَ",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Joab",
+"type": "person",
+"preferred_label": "يوآب",
+"confidence": 0.717,
+"match_method": "scored"
+},
+{
+"id": "person:Joab.3",
+"type": "person",
+"preferred_label": "يوآب",
+"confidence": 0.6035,
+"match_method": "scored"
+},
+{
+"id": "person:Joab.2",
+"type": "person",
+"preferred_label": "يوآب",
+"confidence": 0.6017,
+"match_method": "scored"
+},
+{
+"id": "person:Joab.4",
+"type": "person",
+"preferred_label": "يوآب",
+"confidence": 0.6017,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -18192,6 +22386,57 @@
 "label": "يَهوآش",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Joash",
+"type": "person",
+"preferred_label": "يوآش",
+"confidence": 0.68,
+"match_method": "scored"
+},
+{
+"id": "person:Joash.4",
+"type": "person",
+"preferred_label": "يوآش",
+"confidence": 0.63,
+"match_method": "scored"
+},
+{
+"id": "person:Joash.2",
+"type": "person",
+"preferred_label": "يوآش",
+"confidence": 0.62,
+"match_method": "scored"
+},
+{
+"id": "person:Joash.5",
+"type": "person",
+"preferred_label": "يوآش",
+"confidence": 0.61,
+"match_method": "scored"
+},
+{
+"id": "person:Joash.8",
+"type": "person",
+"preferred_label": "يوآش",
+"confidence": 0.61,
+"match_method": "scored"
+},
+{
+"id": "person:Joash.7",
+"type": "person",
+"preferred_label": "يوآش",
+"confidence": 0.61,
+"match_method": "scored"
+},
+{
+"id": "person:Joash.6",
+"type": "person",
+"preferred_label": "يوآش",
+"confidence": 0.61,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -18228,7 +22473,8 @@
 "label": "يَهُوأَحَاز",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -18292,7 +22538,8 @@
 "end_ref_usfm": "ISA 36:22"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -18448,6 +22695,106 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "يوئيل، سِفر",
 "language": "arb"
+}
+],
+"acai": [
+{
+"id": "person:Joel",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.6211,
+"match_method": "scored"
+},
+{
+"id": "person:Joel.8",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.5926,
+"match_method": "scored"
+},
+{
+"id": "person:Joel.14",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.5926,
+"match_method": "scored"
+},
+{
+"id": "person:Joel.7",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.5783,
+"match_method": "scored"
+},
+{
+"id": "person:Joel.12",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.5783,
+"match_method": "scored"
+},
+{
+"id": "person:Joel.13",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.5783,
+"match_method": "scored"
+},
+{
+"id": "person:Joel.2",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.5783,
+"match_method": "scored"
+},
+{
+"id": "person:Joel.3",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.5783,
+"match_method": "scored"
+},
+{
+"id": "person:Joel.11",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.5783,
+"match_method": "scored"
+},
+{
+"id": "person:Joel.10",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.5783,
+"match_method": "scored"
+},
+{
+"id": "person:Joel.5",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.5783,
+"match_method": "scored"
+},
+{
+"id": "person:Joel.9",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.5783,
+"match_method": "scored"
+},
+{
+"id": "person:Joel.6",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.5783,
+"match_method": "scored"
+},
+{
+"id": "person:Joel.4",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.5783,
+"match_method": "scored"
 }
 ]
 }
@@ -18727,7 +23074,8 @@
 "label": "نَبِيّ، نَبِيَّة",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -18756,6 +23104,36 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "يَاشُوب",
 "language": "arb"
+}
+],
+"acai": [
+{
+"id": "person:Joab",
+"type": "person",
+"preferred_label": "يوآب",
+"confidence": 0.8298,
+"match_method": "embedding"
+},
+{
+"id": "person:Joab.2",
+"type": "person",
+"preferred_label": "يوآب",
+"confidence": 0.8298,
+"match_method": "embedding"
+},
+{
+"id": "person:Joab.3",
+"type": "person",
+"preferred_label": "يوآب",
+"confidence": 0.8298,
+"match_method": "embedding"
+},
+{
+"id": "person:Joab.4",
+"type": "person",
+"preferred_label": "يوآب",
+"confidence": 0.8298,
+"match_method": "embedding"
 }
 ]
 }
@@ -18821,7 +23199,44 @@
 "end_ref_usfm": "1CH 1:45"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jobab.2",
+"type": "person",
+"preferred_label": "يوبَاب",
+"confidence": 0.724,
+"match_method": "scored"
+},
+{
+"id": "person:Jobab",
+"type": "person",
+"preferred_label": "يوبَاب",
+"confidence": 0.644,
+"match_method": "scored"
+},
+{
+"id": "person:Jobab.4",
+"type": "person",
+"preferred_label": "يوبَاب",
+"confidence": 0.604,
+"match_method": "scored"
+},
+{
+"id": "person:Jobab.3",
+"type": "person",
+"preferred_label": "يوبَاب",
+"confidence": 0.604,
+"match_method": "scored"
+},
+{
+"id": "person:Jobab.5",
+"type": "person",
+"preferred_label": "يوبَاب",
+"confidence": 0.604,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -18844,7 +23259,8 @@
 "label": "أنطيوخُس الخامس",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -18866,7 +23282,16 @@
 "end_ref_usfm": "GEN 4:21"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jubal",
+"type": "person",
+"preferred_label": "يوبَال",
+"confidence": 0.6973,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -19000,6 +23425,29 @@
 "label": "تاريخ إسرائيل",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Jotham.2",
+"type": "person",
+"preferred_label": "يوثَام",
+"confidence": 0.7418,
+"match_method": "scored"
+},
+{
+"id": "person:Jotham",
+"type": "person",
+"preferred_label": "يوثَام",
+"confidence": 0.6529,
+"match_method": "scored"
+},
+{
+"id": "person:Jotham.3",
+"type": "person",
+"preferred_label": "يوثَام",
+"confidence": 0.5862,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -19029,6 +23477,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "يُوثَام",
 "language": "arb"
+}
+],
+"acai": [
+{
+"id": "person:Jotham.2",
+"type": "person",
+"preferred_label": "يوثَام",
+"confidence": 0.9595,
+"match_method": "scored"
 }
 ]
 }
@@ -19060,7 +23517,8 @@
 "label": "الفريسيون",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -19140,7 +23598,8 @@
 "label": "يوحنا مرقس",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -19170,7 +23629,8 @@
 "label": "نسب يسوع المسيح",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -19480,7 +23940,8 @@
 "end_ref_usfm": "ACT 5:18"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -20072,7 +24533,8 @@
 "end_ref_usfm": "ACT 19:7"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -20095,7 +24557,8 @@
 "label": "يوحنا مرقس",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -20243,7 +24706,8 @@
 "end_ref_usfm": "ACT 15:41"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -20266,7 +24730,8 @@
 "label": "الثورة اليهوديَّة الأولى",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -20289,7 +24754,8 @@
 "label": "حشمونيون",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -20871,7 +25337,8 @@
 "label": "يوحنا الرسول",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -20894,7 +25361,8 @@
 "label": "سَِفْرُ الرُّؤْيا",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -21038,7 +25506,8 @@
 "label": "يَهُوحَانَان",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -21066,7 +25535,23 @@
 "end_ref_usfm": "1CH 11:45"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Joha",
+"type": "person",
+"preferred_label": "يوحَا",
+"confidence": 0.6065,
+"match_method": "scored"
+},
+{
+"id": "person:Joha.2",
+"type": "person",
+"preferred_label": "يوحَا",
+"confidence": 0.6065,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -21095,6 +25580,92 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "يَهوخَل",
 "language": "arb"
+}
+],
+"acai": [
+{
+"id": "person:Igal",
+"type": "person",
+"preferred_label": "يَجْآل",
+"confidence": 0.8703,
+"match_method": "embedding"
+},
+{
+"id": "person:Igal.2",
+"type": "person",
+"preferred_label": "يَجْآل",
+"confidence": 0.8703,
+"match_method": "embedding"
+},
+{
+"id": "person:Igal.3",
+"type": "person",
+"preferred_label": "يَجْآل",
+"confidence": 0.8703,
+"match_method": "embedding"
+},
+{
+"id": "person:Jeshua",
+"type": "person",
+"preferred_label": "يَشوعَ",
+"confidence": 0.8428,
+"match_method": "embedding"
+},
+{
+"id": "person:Jeshua.2",
+"type": "person",
+"preferred_label": "يَشوعَ",
+"confidence": 0.8428,
+"match_method": "embedding"
+},
+{
+"id": "person:Jeshua.3",
+"type": "person",
+"preferred_label": "يَشوعَ",
+"confidence": 0.8428,
+"match_method": "embedding"
+},
+{
+"id": "person:Jeshua.4",
+"type": "person",
+"preferred_label": "يَشوعَ",
+"confidence": 0.8428,
+"match_method": "embedding"
+},
+{
+"id": "person:Jeshua.5",
+"type": "person",
+"preferred_label": "يَشوعَ",
+"confidence": 0.8428,
+"match_method": "embedding"
+},
+{
+"id": "person:Jeshua.6",
+"type": "person",
+"preferred_label": "يَشوعَ",
+"confidence": 0.8428,
+"match_method": "embedding"
+},
+{
+"id": "person:Jeshua.7",
+"type": "person",
+"preferred_label": "يَشوعَ",
+"confidence": 0.8428,
+"match_method": "embedding"
+},
+{
+"id": "place:Jeshua",
+"type": "place",
+"preferred_label": "يَشوعَ",
+"confidence": 0.8428,
+"match_method": "embedding"
+},
+{
+"id": "person:Jeuz",
+"type": "person",
+"preferred_label": "يَعوصَ",
+"confidence": 0.8244,
+"match_method": "embedding"
 }
 ]
 }
@@ -21132,6 +25703,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "يهوديَّة، يهود",
 "language": "arb"
+}
+],
+"acai": [
+{
+"id": "person:Judah.4",
+"type": "person",
+"preferred_label": "يَهوذَا",
+"confidence": 0.67,
+"match_method": "scored"
 }
 ]
 }
@@ -21175,6 +25755,22 @@
 "label": "يَهورَام",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Joram.2",
+"type": "person",
+"preferred_label": "يورَامَ",
+"confidence": 0.7018,
+"match_method": "scored"
+},
+{
+"id": "person:Joram.4",
+"type": "person",
+"preferred_label": "يورَامَ",
+"confidence": 0.6352,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -21197,7 +25793,16 @@
 "end_ref_usfm": "1CH 5:13"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jorai",
+"type": "person",
+"preferred_label": "يورَاي",
+"confidence": 0.964,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -21233,6 +25838,15 @@
 "label": "حَارِيفَ",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Jorah",
+"type": "person",
+"preferred_label": "يورَةَ",
+"confidence": 0.8133,
+"match_method": "embedding"
+}
 ]
 }
 },
@@ -21256,7 +25870,8 @@
 "label": "الإمبراطورية البطلمية",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -21286,7 +25901,8 @@
 "label": "نسب يسوع المسيح",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -21370,6 +25986,85 @@
 "label": "يُوزَاكَار",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Jozabad",
+"type": "person",
+"preferred_label": "يوزَابَاد",
+"confidence": 0.64,
+"match_method": "scored"
+},
+{
+"id": "person:Jozabad.2",
+"type": "person",
+"preferred_label": "يوزَابَاد",
+"confidence": 0.64,
+"match_method": "scored"
+},
+{
+"id": "person:Jozabad.4",
+"type": "person",
+"preferred_label": "يوزَابَاد",
+"confidence": 0.64,
+"match_method": "scored"
+},
+{
+"id": "person:Jozabad.5",
+"type": "person",
+"preferred_label": "يوزَابَاد",
+"confidence": 0.64,
+"match_method": "scored"
+},
+{
+"id": "person:Jozabad.6",
+"type": "person",
+"preferred_label": "يوزَابَاد",
+"confidence": 0.64,
+"match_method": "scored"
+},
+{
+"id": "person:Jozabad.9",
+"type": "person",
+"preferred_label": "يوزَابَاد",
+"confidence": 0.64,
+"match_method": "scored"
+},
+{
+"id": "person:Jozabad.8",
+"type": "person",
+"preferred_label": "يوزَابَاد",
+"confidence": 0.64,
+"match_method": "scored"
+},
+{
+"id": "person:Jozabad.7",
+"type": "person",
+"preferred_label": "يوزَابَاد",
+"confidence": 0.64,
+"match_method": "scored"
+},
+{
+"id": "person:Jozabad.10",
+"type": "person",
+"preferred_label": "يوزَابَاد",
+"confidence": 0.64,
+"match_method": "scored"
+},
+{
+"id": "person:Jozabad.3",
+"type": "person",
+"preferred_label": "يوزَابَاد",
+"confidence": 0.64,
+"match_method": "scored"
+},
+{
+"id": "person:Jehozabad",
+"type": "person",
+"preferred_label": "يَهوزَابَاد",
+"confidence": 0.595,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -21406,7 +26101,8 @@
 "label": "زَابَاد",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -21436,7 +26132,8 @@
 "label": "يسطس، يوستوس",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -21927,6 +26624,78 @@
 "label": "فترة الآباء",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Joseph.10",
+"type": "person",
+"preferred_label": "يوسف",
+"confidence": 0.7048,
+"match_method": "scored"
+},
+{
+"id": "person:Joseph.4",
+"type": "person",
+"preferred_label": "يوسف",
+"confidence": 0.6214,
+"match_method": "scored"
+},
+{
+"id": "person:Joseph.6",
+"type": "person",
+"preferred_label": "يوسف",
+"confidence": 0.6064,
+"match_method": "scored"
+},
+{
+"id": "person:Joseph.12",
+"type": "person",
+"preferred_label": "يوسف",
+"confidence": 0.6043,
+"match_method": "scored"
+},
+{
+"id": "person:Joseph.3",
+"type": "person",
+"preferred_label": "يوسف",
+"confidence": 0.6021,
+"match_method": "scored"
+},
+{
+"id": "person:Joseph.14",
+"type": "person",
+"preferred_label": "يوسف",
+"confidence": 0.6021,
+"match_method": "scored"
+},
+{
+"id": "person:Joseph.9",
+"type": "person",
+"preferred_label": "يوسف",
+"confidence": 0.6021,
+"match_method": "scored"
+},
+{
+"id": "person:Joseph.8",
+"type": "person",
+"preferred_label": "يوسف",
+"confidence": 0.6021,
+"match_method": "scored"
+},
+{
+"id": "person:Joseph.13",
+"type": "person",
+"preferred_label": "يوسف",
+"confidence": 0.6021,
+"match_method": "scored"
+},
+{
+"id": "person:Joseph.11",
+"type": "person",
+"preferred_label": "يوسف",
+"confidence": 0.6021,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -21957,6 +26726,92 @@
 "label": "نسب يسوع المسيح",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Joseph.10",
+"type": "person",
+"preferred_label": "يوسف",
+"confidence": 1.0,
+"match_method": "embedding"
+},
+{
+"id": "person:Joseph.11",
+"type": "person",
+"preferred_label": "يوسف",
+"confidence": 1.0,
+"match_method": "embedding"
+},
+{
+"id": "person:Joseph.12",
+"type": "person",
+"preferred_label": "يوسف",
+"confidence": 1.0,
+"match_method": "embedding"
+},
+{
+"id": "person:Joseph.13",
+"type": "person",
+"preferred_label": "يوسف",
+"confidence": 1.0,
+"match_method": "embedding"
+},
+{
+"id": "person:Joseph.14",
+"type": "person",
+"preferred_label": "يوسف",
+"confidence": 1.0,
+"match_method": "embedding"
+},
+{
+"id": "person:Joseph.3",
+"type": "person",
+"preferred_label": "يوسف",
+"confidence": 1.0,
+"match_method": "embedding"
+},
+{
+"id": "person:Joseph.4",
+"type": "person",
+"preferred_label": "يوسف",
+"confidence": 1.0,
+"match_method": "embedding"
+},
+{
+"id": "person:Joseph.5",
+"type": "person",
+"preferred_label": "يوسف",
+"confidence": 1.0,
+"match_method": "embedding"
+},
+{
+"id": "person:Joseph.6",
+"type": "person",
+"preferred_label": "يوسف",
+"confidence": 1.0,
+"match_method": "embedding"
+},
+{
+"id": "person:Joseph.7",
+"type": "person",
+"preferred_label": "يوسف",
+"confidence": 1.0,
+"match_method": "embedding"
+},
+{
+"id": "person:Joseph.8",
+"type": "person",
+"preferred_label": "يوسف",
+"confidence": 1.0,
+"match_method": "embedding"
+},
+{
+"id": "person:Joseph.9",
+"type": "person",
+"preferred_label": "يوسف",
+"confidence": 1.0,
+"match_method": "embedding"
+}
 ]
 }
 },
@@ -21980,7 +26835,8 @@
 "label": "يوسف",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -22003,7 +26859,8 @@
 "label": "يوسف",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -22033,7 +26890,8 @@
 "label": "يوسف",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -22062,6 +26920,64 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "يشوع (شخص)",
 "language": "arb"
+}
+],
+"acai": [
+{
+"id": "person:Joash",
+"type": "person",
+"preferred_label": "يوآش",
+"confidence": 0.8218,
+"match_method": "embedding"
+},
+{
+"id": "person:Joash.2",
+"type": "person",
+"preferred_label": "يوآش",
+"confidence": 0.8218,
+"match_method": "embedding"
+},
+{
+"id": "person:Joash.3",
+"type": "person",
+"preferred_label": "يوآش",
+"confidence": 0.8218,
+"match_method": "embedding"
+},
+{
+"id": "person:Joash.4",
+"type": "person",
+"preferred_label": "يوآش",
+"confidence": 0.8218,
+"match_method": "embedding"
+},
+{
+"id": "person:Joash.5",
+"type": "person",
+"preferred_label": "يوآش",
+"confidence": 0.8218,
+"match_method": "embedding"
+},
+{
+"id": "person:Joash.6",
+"type": "person",
+"preferred_label": "يوآش",
+"confidence": 0.8218,
+"match_method": "embedding"
+},
+{
+"id": "person:Joash.7",
+"type": "person",
+"preferred_label": "يوآش",
+"confidence": 0.8218,
+"match_method": "embedding"
+},
+{
+"id": "person:Joash.8",
+"type": "person",
+"preferred_label": "يوآش",
+"confidence": 0.8218,
+"match_method": "embedding"
 }
 ]
 }
@@ -22106,7 +27022,8 @@
 "label": "يوسف",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -22121,7 +27038,8 @@
 "content": "<h1>يوسيفوس*، فلافيوس</h1><p>ضابط عسكري ومؤرخ يهودي (37 م - حوالي 100 م).</p><p>وُلِدَ يوسيفوس في عائلة كهنوتية أرستقراطية في أورشَلِيم. تربطه صلة قرابة بالحشمونيين من جهة أمه. في شبابه عُرف بقدرته الفائقة على الحفظ وسهولة التعلم. في سن المراهقة انضم إلى جماعة من النساك. ثم أصبح فريسيًا.</p><p>في عام 64 م، كان يوسيفوس عضوًا في وفد رسمي أُرسل إلى رومَا لتأمين إطلاق سراح بعض الكهنة. وقد تركت عاصمة الإمبراطورية انطباعًا لا يُمحى في نفسه. بعد عودته إلى أورشَلِيم، اندلعت الثورة اليهودية الأولى (66 م). عيّنه السنهدريم (المجلس الحاكم اليهودي) قائدًا للجليل. نظم المقاطعة بشكل جيد لكنه واجه معارضة من يوحَنَّا الجشي، القائد السابق للجليل. استمر الصراع بين قوات الرجلين حتى وصول الجنرال الروماني فسباسيان في ربيع عام 67.</p><p>تحصن يوسيفوس والجليليون في يوتاباتا. بعد حصار دام ستة أسابيع، استولى الجيش الروماني على المدينة ودمرها، لكن يوسيفوس و40 جنديًا هربوا إلى مغارة. أقنع يوسيفوس، الذي ضمن الرومان سلامته بفضل تدخل صديق له، زملائه الجنود بقتل بعضهم البعض عوضًا عن التعرض للأسر. حين لم يتبقَ على قيد الحياة سواه إلى جانب نظير له، استسلما للرومان.</p><p>عندما وقف يوسيفوس أمام فيسباسيان وتنبأ بأن هذا الأخير سيصبح إمبراطورًا، أُنقذ من الموت، لكنه ظلّ سجينًا. وبالفعل في عام 69 م نُصّب فيسباسيان إمبراطورًا فأطلق سراح يوسيفوس ومن ثم تبنى لقب عائلة فيسباسيان، فلافيوس، وأقرنه باسمه. في عام 70، عندما زحف تيطس ابن فيسباسيان إلى أورشَلِيم، رافقه يوسيفوس. حاول يوسيفوس عدة مرات إقناع اليهود بالاستسلام ولكن محاولاته باءت بالفشل.</p><p>بعد تدمير تِيطس لأورشَلِيم، ذهب يوسيفوس إلى رومَا، حيث منحه فيسباسيان الجنسية الرومانية وصرف له معاشًا تقاعديًا. وبعد أن أُطلق له العنان في مجال الكتابة، ألف يوسيفوس عددًا من الكتب ذات قيمة تاريخية كبيرة. في كتابه  <em>الحرب اليهودية</em> (77–78 م) وصف يوسيفوس الصراع الروماني-اليهودي من زمن أنطيوخوس إبيفانيس حتى ما بعد سقوط أورشَلِيم بقليل. ربما كان أعظم أعماله هو <em>آثار اليهود</em> (حوالي 94). وهو عمل مكون من 20 مجلدًا مصمم لتمجيد اليهود واستبعاد العداء الأممي تجاههم، وفيه يتتبع تاريخ اليهود من الخلق إلى اندلاع الحرب اليهودية الرومانية عام 66. سيرته الذاتية، <em>الحياة،</em> كانت في أساسها تبريرًا لأنشطته بصفته قائدًا في الجليل. كتب يوسيفوس <em>ضد أبيون</em> لمواجهة ادعاءات المعادين للسامية؛ واستخدم في هذا العمل الحجج المنطقية وكذلك الأسلوب الساخر.</p><p>كمؤرخ، كان يوسيفوس  يحرف أحيانًا الحقائق لمصلحة أولياءه. ومع ذلك، كان شاهدًا على العديد من الأحداث التي كتب عنها. تسلط أعماله الضوء على الفترة التي نشأت فيها الكنيسة، خاصة ما يتعلق بالدين والسياسة والجغرافيا والشخصيات البارزة في العصر المسيحي المبكر. وما يهم المسيحيين بشكل خاص هي إشاراته إلى يوحَنَّا المعمدان، يَسوع، ويَعْقوبَ البار (أخو يَسوع).</p>",
 "associations": {
 "passage": [],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -22143,7 +27061,16 @@
 "end_ref_usfm": "1CH 4:34"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Joshah",
+"type": "person",
+"preferred_label": "يوشَا",
+"confidence": 0.9595,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -22171,7 +27098,23 @@
 "end_ref_usfm": "1CH 15:24"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Joshaphat",
+"type": "person",
+"preferred_label": "يوشَافَاط",
+"confidence": 0.8,
+"match_method": "scored"
+},
+{
+"id": "person:Joshaphat.2",
+"type": "person",
+"preferred_label": "يوشَافَاط",
+"confidence": 0.8,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -22193,7 +27136,30 @@
 "end_ref_usfm": "1CH 3:20"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Hasadiah",
+"type": "person",
+"preferred_label": "حَسَدْيَا",
+"confidence": 0.892,
+"match_method": "scored"
+},
+{
+"id": "person:Berechiah",
+"type": "person",
+"preferred_label": "بَرَخْيَا",
+"confidence": 0.766,
+"match_method": "scored"
+},
+{
+"id": "person:Hashubah",
+"type": "person",
+"preferred_label": "حَشوبَة",
+"confidence": 0.739,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -22215,7 +27181,16 @@
 "end_ref_usfm": "1CH 4:35"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Joshibiah",
+"type": "person",
+"preferred_label": "يوشِبْيَا",
+"confidence": 0.9775,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -22237,7 +27212,16 @@
 "end_ref_usfm": "EZR 8:10"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Josiphiah",
+"type": "person",
+"preferred_label": "يوشَفْيَا",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -22259,7 +27243,16 @@
 "end_ref_usfm": "1CH 11:46"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Joshaviah",
+"type": "person",
+"preferred_label": "يوشويَا",
+"confidence": 0.946,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -22374,6 +27367,29 @@
 "label": "تاريخ إسرائيل",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Joshah",
+"type": "person",
+"preferred_label": "يوشَا",
+"confidence": 0.8961,
+"match_method": "embedding"
+},
+{
+"id": "person:Joha",
+"type": "person",
+"preferred_label": "يوحَا",
+"confidence": 0.8341,
+"match_method": "embedding"
+},
+{
+"id": "person:Joha.2",
+"type": "person",
+"preferred_label": "يوحَا",
+"confidence": 0.8341,
+"match_method": "embedding"
+}
 ]
 }
 },
@@ -22403,6 +27419,29 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "يوشيا",
 "language": "arb"
+}
+],
+"acai": [
+{
+"id": "person:Joshah",
+"type": "person",
+"preferred_label": "يوشَا",
+"confidence": 0.8961,
+"match_method": "embedding"
+},
+{
+"id": "person:Joha",
+"type": "person",
+"preferred_label": "يوحَا",
+"confidence": 0.8341,
+"match_method": "embedding"
+},
+{
+"id": "person:Joha.2",
+"type": "person",
+"preferred_label": "يوحَا",
+"confidence": 0.8341,
+"match_method": "embedding"
 }
 ]
 }
@@ -22474,7 +27513,16 @@
 "end_ref_usfm": "HAG 2:4"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jozadak.2",
+"type": "person",
+"preferred_label": "يوصَادَاقَ",
+"confidence": 0.616,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -22510,6 +27558,15 @@
 "label": "مدن الملجأ",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "place:Juttah",
+"type": "place",
+"preferred_label": "يوطَة",
+"confidence": 1.0,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -22532,7 +27589,65 @@
 "end_ref_usfm": "1CH 12:6"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jabez",
+"type": "person",
+"preferred_label": "يَعْبِيص",
+"confidence": 0.8722,
+"match_method": "embedding"
+},
+{
+"id": "place:Jabez",
+"type": "place",
+"preferred_label": "يَعْبِيص",
+"confidence": 0.8722,
+"match_method": "embedding"
+},
+{
+"id": "person:Ishbah",
+"type": "person",
+"preferred_label": "يِشْبَحَ",
+"confidence": 0.8613,
+"match_method": "embedding"
+},
+{
+"id": "person:Imna",
+"type": "person",
+"preferred_label": "يَمْنَاع",
+"confidence": 0.86,
+"match_method": "embedding"
+},
+{
+"id": "person:Jephthah",
+"type": "person",
+"preferred_label": "يَفْتَاح",
+"confidence": 0.8414,
+"match_method": "embedding"
+},
+{
+"id": "place:Iphtah",
+"type": "place",
+"preferred_label": "يَفْتَاح",
+"confidence": 0.8414,
+"match_method": "embedding"
+},
+{
+"id": "person:Jacan",
+"type": "person",
+"preferred_label": "يَعْكَان",
+"confidence": 0.808,
+"match_method": "embedding"
+},
+{
+"id": "person:Jaaziah",
+"type": "person",
+"preferred_label": "يَعَزْيَا",
+"confidence": 0.805,
+"match_method": "embedding"
+}
+]
 }
 },
 {
@@ -22560,7 +27675,16 @@
 "end_ref_usfm": "NEH 11:7"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Joed",
+"type": "person",
+"preferred_label": "يوعِيدَ",
+"confidence": 0.764,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -22582,7 +27706,107 @@
 "end_ref_usfm": "1CH 12:7"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Joel",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.8123,
+"match_method": "embedding"
+},
+{
+"id": "person:Joel.10",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.8123,
+"match_method": "embedding"
+},
+{
+"id": "person:Joel.11",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.8123,
+"match_method": "embedding"
+},
+{
+"id": "person:Joel.12",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.8123,
+"match_method": "embedding"
+},
+{
+"id": "person:Joel.13",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.8123,
+"match_method": "embedding"
+},
+{
+"id": "person:Joel.14",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.8123,
+"match_method": "embedding"
+},
+{
+"id": "person:Joel.2",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.8123,
+"match_method": "embedding"
+},
+{
+"id": "person:Joel.3",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.8123,
+"match_method": "embedding"
+},
+{
+"id": "person:Joel.4",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.8123,
+"match_method": "embedding"
+},
+{
+"id": "person:Joel.5",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.8123,
+"match_method": "embedding"
+},
+{
+"id": "person:Joel.6",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.8123,
+"match_method": "embedding"
+},
+{
+"id": "person:Joel.7",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.8123,
+"match_method": "embedding"
+},
+{
+"id": "person:Joel.8",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.8123,
+"match_method": "embedding"
+},
+{
+"id": "person:Joel.9",
+"type": "person",
+"preferred_label": "يوئِيل",
+"confidence": 0.8123,
+"match_method": "embedding"
+}
+]
 }
 },
 {
@@ -22604,7 +27828,16 @@
 "end_ref_usfm": "1CH 4:22"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jokim",
+"type": "person",
+"preferred_label": "يوقِيم",
+"confidence": 0.964,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -22632,7 +27865,16 @@
 "end_ref_usfm": "NUM 26:59"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jochebed",
+"type": "person",
+"preferred_label": "يوكَابَدَ",
+"confidence": 0.973,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -22678,7 +27920,16 @@
 "end_ref_usfm": "ACT 27:44"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Julius",
+"type": "person",
+"preferred_label": "يولِيوس",
+"confidence": 0.644,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -22693,7 +27944,8 @@
 "content": "<h1>يوليوس قيصر</h1><p>كان يوليوس قيصر قائداً عظيم الشأن في روما القديمة، وُلد عام 100 قبل الميلاد وقُتل عام 44 قبل الميلاد. لم يُلقَّب رسمياً بلقب إمبراطور، غير أنّه حكم كما يحكم الأباطرة. فعلى مدى ما يقرب من خمسمائة عام كانت روما جمهورية، أي إنّ القوانين تُسنّ على يد قادة منتخبين. ولكن في الحقيقة كان زمام السلطة بيد طبقة الأثرياء وأصحاب النفوذ. وكان الشعب الروماني يرفض الملكية، إذ اعتقدوا أنّ الملوك يملكون سلطةً مفرطة.</p><p>ومع مرور الزمن، ذاع صيت قيصر، فحاز محبة الجماهير وجمع في يده قوةً سياسية وعسكرية عظيمة. تقلّد مناصب في الدولة، لكنه حكم بسلطان مطلق. فالجمهورية الرومانية بقيت بالاسم فقط، بينما مارس قيصر سلطانه كديكتاتور، أي حاكم ذي سلطة كاملة. وقد خشي بعض القادة أن يسعى قيصر إلى تنصيب نفسه ملكاً، فظنّوا أنّهم يحفظون الجمهورية بالتخلّص منه.</p><p>فشلَت المؤامرةُ التي كانت ترمي إلى إنقاذ الجمهورية، إذ أعقب مقتلَ قيصر اندلاعُ حربٍ أهلية. وقد انتهت تلك الحرب بانتصار حفيده بالتبنّي أوكتافيان. وفي عام 31 قبل الميلاد صار أوكتافيان أوّل إمبراطور رسمي لروما، ثم اتّخذ لنفسه لاحقاً اسم أغسطس.</p><p><em>انظر أيضًا</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3548\" data-resourceType=\"TyndaleBibleDictionary\">القياصرة</span>.</p>",
 "associations": {
 "passage": [],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -23031,7 +28283,8 @@
 "label": "عقيدة الأخرويات",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -23155,7 +28408,8 @@
 "end_ref_usfm": "JHN 20:28"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -23379,7 +28633,8 @@
 "label": "الدينونة الأخيرة/ يوم الرَّب",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -23402,7 +28657,8 @@
 "label": "يوم الكَفَّارَة",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -23432,7 +28688,8 @@
 "label": "أعياد ومحافل إسرائيل",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -23541,7 +28798,8 @@
 "label": "التَّقْدِمَات والذَّبَائِح",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -23576,6 +28834,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "يوم الرَّب",
 "language": "arb"
+}
+],
+"acai": [
+{
+"id": "person:Jesus.2",
+"type": "person",
+"preferred_label": "يَسوع",
+"confidence": 0.58,
+"match_method": "scored"
 }
 ]
 }
@@ -23619,7 +28886,8 @@
 "label": "يوحنا (يوحنان)",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -23649,7 +28917,8 @@
 "label": "يوحنا (الشخص)",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -23907,6 +29176,99 @@
 "label": "يَهُوحَانَان",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Jonathan.3",
+"type": "person",
+"preferred_label": "يونَاثَانَ",
+"confidence": 0.628,
+"match_method": "scored"
+},
+{
+"id": "person:Jonathan.4",
+"type": "person",
+"preferred_label": "يونَاثَانَ",
+"confidence": 0.5901,
+"match_method": "scored"
+},
+{
+"id": "person:Jonathan.7",
+"type": "person",
+"preferred_label": "يونَاثَانَ",
+"confidence": 0.5838,
+"match_method": "scored"
+},
+{
+"id": "person:Jonathan.8",
+"type": "person",
+"preferred_label": "يونَاثَانَ",
+"confidence": 0.5817,
+"match_method": "scored"
+},
+{
+"id": "person:Jonathan.2",
+"type": "person",
+"preferred_label": "يونَاثَانَ",
+"confidence": 0.5796,
+"match_method": "scored"
+},
+{
+"id": "person:Jonathan.5",
+"type": "person",
+"preferred_label": "يونَاثَانَ",
+"confidence": 0.5796,
+"match_method": "scored"
+},
+{
+"id": "person:Jonathan.11",
+"type": "person",
+"preferred_label": "يونَاثَانَ",
+"confidence": 0.5796,
+"match_method": "scored"
+},
+{
+"id": "person:Jonathan.12",
+"type": "person",
+"preferred_label": "يونَاثَانَ",
+"confidence": 0.5796,
+"match_method": "scored"
+},
+{
+"id": "person:Jonathan.10",
+"type": "person",
+"preferred_label": "يونَاثَانَ",
+"confidence": 0.5796,
+"match_method": "scored"
+},
+{
+"id": "person:Jonathan.9",
+"type": "person",
+"preferred_label": "يونَاثَانَ",
+"confidence": 0.5796,
+"match_method": "scored"
+},
+{
+"id": "person:Jonathan.6",
+"type": "person",
+"preferred_label": "يونَاثَانَ",
+"confidence": 0.5796,
+"match_method": "scored"
+},
+{
+"id": "person:Jonathan.13",
+"type": "person",
+"preferred_label": "يونَاثَانَ",
+"confidence": 0.5796,
+"match_method": "scored"
+},
+{
+"id": "person:Jehohanan.4",
+"type": "person",
+"preferred_label": "يَهونَاثَان",
+"confidence": 0.5571,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -23947,7 +29309,23 @@
 "end_ref_usfm": "2SA 13:5"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Jonadab",
+"type": "person",
+"preferred_label": "يونَادَاب",
+"confidence": 0.6883,
+"match_method": "scored"
+},
+{
+"id": "person:Jonadab.2",
+"type": "person",
+"preferred_label": "يونَادَاب",
+"confidence": 0.6883,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -23977,7 +29355,8 @@
 "label": "نسب يسوع المسيح",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -24046,6 +29425,15 @@
 "label": "سفر يونان",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Jonah.2",
+"type": "person",
+"preferred_label": "يونَانَ",
+"confidence": 0.864,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -24101,7 +29489,8 @@
 "label": "يونَان (شخص)",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -24130,6 +29519,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "جُولِيَا",
 "language": "arb"
+}
+],
+"acai": [
+{
+"id": "person:Junia",
+"type": "person",
+"preferred_label": "يونِيَاسَ",
+"confidence": 0.973,
+"match_method": "scored"
 }
 ]
 }
@@ -24171,7 +29569,23 @@
 "end_ref_usfm": "NEH 12:11"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Joiada.2",
+"type": "person",
+"preferred_label": "يويَادَاعَ",
+"confidence": 0.857,
+"match_method": "scored"
+},
+{
+"id": "person:Joiada",
+"type": "person",
+"preferred_label": "يويَادَاعَ",
+"confidence": 0.617,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -24205,7 +29619,8 @@
 "end_ref_usfm": "1MA 14:29"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -24263,7 +29678,37 @@
 "end_ref_usfm": "NEH 12:19"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Joiarib",
+"type": "person",
+"preferred_label": "يويَارِيبَ",
+"confidence": 0.8061,
+"match_method": "scored"
+},
+{
+"id": "person:Joiarib.3",
+"type": "person",
+"preferred_label": "يويَارِيبَ",
+"confidence": 0.6346,
+"match_method": "scored"
+},
+{
+"id": "person:Joiarib.2",
+"type": "person",
+"preferred_label": "يويَارِيبَ",
+"confidence": 0.6346,
+"match_method": "scored"
+},
+{
+"id": "person:Jehoiarib",
+"type": "person",
+"preferred_label": "يَهويَارِيب",
+"confidence": 0.6121,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -24291,7 +29736,8 @@
 "end_ref_usfm": "NEH 12:12"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 }
 ]

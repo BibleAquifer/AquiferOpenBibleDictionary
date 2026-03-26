@@ -202,7 +202,8 @@
 "label": "طاعون/ وَبَأ/ ضربة",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -236,7 +237,8 @@
 "end_ref_usfm": "GEN 25:34"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -294,7 +296,8 @@
 "end_ref_usfm": "ACT 24:22"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -966,7 +969,8 @@
 "label": "فطير - خبز غير مختمر",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -1173,7 +1177,8 @@
 "label": "زواج، عادات الزواج",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -1398,7 +1403,8 @@
 "label": "الزيتون، شجرة الزيتون",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -1607,7 +1613,8 @@
 "label": "الزيتون، شجرة الزيتون",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -2818,7 +2825,8 @@
 "label": "السُّنُوْنَة",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -2860,7 +2868,8 @@
 "label": "الطيور",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -2896,7 +2905,8 @@
 "label": "الطيور",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -2966,7 +2976,8 @@
 "label": "قنفذ (شيهم)",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -2988,7 +2999,16 @@
 "end_ref_usfm": "GEN 22:24"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tebah",
+"type": "person",
+"preferred_label": "طَابَحَ",
+"confidence": 0.964,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -3023,6 +3043,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "دوركاس",
 "language": "arb"
+}
+],
+"acai": [
+{
+"id": "person:Tabitha",
+"type": "person",
+"preferred_label": "طَابِيثَا",
+"confidence": 1.0,
+"match_method": "scored"
 }
 ]
 }
@@ -3256,7 +3285,8 @@
 "end_ref_usfm": "PHP 2:8"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -3373,7 +3403,8 @@
 "label": "ضربات على مِصْرَ",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -3395,7 +3426,16 @@
 "end_ref_usfm": "1KI 4:11"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Taphath",
+"type": "person",
+"preferred_label": "طَافَة",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -3425,6 +3465,113 @@
 "label": "طَلَايِم",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "person:Matri",
+"type": "person",
+"preferred_label": "مَطْرِي",
+"confidence": 0.8727,
+"match_method": "embedding"
+},
+{
+"id": "person:Bariah",
+"type": "person",
+"preferred_label": "بَارِيح",
+"confidence": 0.8511,
+"match_method": "embedding"
+},
+{
+"id": "person:Palal",
+"type": "person",
+"preferred_label": "فَالَال",
+"confidence": 0.8283,
+"match_method": "embedding"
+},
+{
+"id": "person:Shema",
+"type": "person",
+"preferred_label": "شَامِعَ",
+"confidence": 0.822,
+"match_method": "embedding"
+},
+{
+"id": "person:Shema.2",
+"type": "person",
+"preferred_label": "شَامِعَ",
+"confidence": 0.822,
+"match_method": "embedding"
+},
+{
+"id": "person:Shema.3",
+"type": "person",
+"preferred_label": "شَامِعَ",
+"confidence": 0.822,
+"match_method": "embedding"
+},
+{
+"id": "person:Shema.4",
+"type": "person",
+"preferred_label": "شَامِعَ",
+"confidence": 0.822,
+"match_method": "embedding"
+},
+{
+"id": "place:Shema",
+"type": "place",
+"preferred_label": "شَامِعَ",
+"confidence": 0.822,
+"match_method": "embedding"
+},
+{
+"id": "place:Mishal",
+"type": "place",
+"preferred_label": "مِشْآلَ",
+"confidence": 0.8147,
+"match_method": "embedding"
+},
+{
+"id": "person:Telem",
+"type": "person",
+"preferred_label": "طَالَم",
+"confidence": 0.8127,
+"match_method": "embedding"
+},
+{
+"id": "place:Telem",
+"type": "place",
+"preferred_label": "طَالَم",
+"confidence": 0.8127,
+"match_method": "embedding"
+},
+{
+"id": "place:Calah",
+"type": "place",
+"preferred_label": "كَالَحَ",
+"confidence": 0.8096,
+"match_method": "embedding"
+},
+{
+"id": "person:Mahli",
+"type": "person",
+"preferred_label": "مَحْلِي",
+"confidence": 0.8078,
+"match_method": "embedding"
+},
+{
+"id": "person:Mahli.2",
+"type": "person",
+"preferred_label": "مَحْلِي",
+"confidence": 0.8078,
+"match_method": "embedding"
+},
+{
+"id": "person:Mallothi",
+"type": "person",
+"preferred_label": "مَلوثِي",
+"confidence": 0.8009,
+"match_method": "embedding"
+}
 ]
 }
 },
@@ -3447,7 +3594,16 @@
 "end_ref_usfm": "EZR 10:24"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Telem",
+"type": "person",
+"preferred_label": "طَالَم",
+"confidence": 0.964,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -3483,7 +3639,8 @@
 "label": "الطيور",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -3505,7 +3662,16 @@
 "end_ref_usfm": "JDG 7:22"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Tabbath",
+"type": "place",
+"preferred_label": "طَبَّاةَ",
+"confidence": 0.9685,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -3533,7 +3699,8 @@
 "end_ref_usfm": "NEH 7:46"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -3561,7 +3728,23 @@
 "end_ref_usfm": "ISA 7:6"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tabeel",
+"type": "person",
+"preferred_label": "طَبْئِيل",
+"confidence": 0.8,
+"match_method": "scored"
+},
+{
+"id": "person:Tabeal",
+"type": "person",
+"preferred_label": "طَبْئِيلَ",
+"confidence": 0.773,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -3589,7 +3772,86 @@
 "end_ref_usfm": "1CH 18:8"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shebna",
+"type": "person",
+"preferred_label": "شِبْنَة",
+"confidence": 0.8562,
+"match_method": "embedding"
+},
+{
+"id": "person:Keturah",
+"type": "person",
+"preferred_label": "قَطورَة",
+"confidence": 0.8377,
+"match_method": "embedding"
+},
+{
+"id": "person:Zibiah",
+"type": "person",
+"preferred_label": "ظَبْيَة",
+"confidence": 0.8233,
+"match_method": "embedding"
+},
+{
+"id": "person:Zibia",
+"type": "person",
+"preferred_label": "ظِبْيَا",
+"confidence": 0.8222,
+"match_method": "embedding"
+},
+{
+"id": "person:Deborah",
+"type": "person",
+"preferred_label": "دَبورَة",
+"confidence": 0.817,
+"match_method": "embedding"
+},
+{
+"id": "person:Deborah.2",
+"type": "person",
+"preferred_label": "دَبورَة",
+"confidence": 0.817,
+"match_method": "embedding"
+},
+{
+"id": "person:Hashubah",
+"type": "person",
+"preferred_label": "حَشوبَة",
+"confidence": 0.8159,
+"match_method": "embedding"
+},
+{
+"id": "person:Sabtah",
+"type": "person",
+"preferred_label": "سَبْتَة",
+"confidence": 0.8101,
+"match_method": "embedding"
+},
+{
+"id": "person:Shilshah",
+"type": "person",
+"preferred_label": "شِلْشَة",
+"confidence": 0.8042,
+"match_method": "embedding"
+},
+{
+"id": "place:Bozkath",
+"type": "place",
+"preferred_label": "بَصْقَة",
+"confidence": 0.8039,
+"match_method": "embedding"
+},
+{
+"id": "place:Ashnah",
+"type": "place",
+"preferred_label": "أَشْنَة",
+"confidence": 0.8003,
+"match_method": "embedding"
+}
+]
 }
 },
 {
@@ -3619,7 +3881,8 @@
 "label": "بيوت ومساكن",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -3653,7 +3916,16 @@
 "end_ref_usfm": "JHN 21:1"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Tiberias",
+"type": "place",
+"preferred_label": "طَبَرِيَّةَ",
+"confidence": 0.7333,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -3689,7 +3961,8 @@
 "label": "بحر الجليل",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -3711,7 +3984,16 @@
 "end_ref_usfm": "1KI 15:18"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tabrimmon",
+"type": "person",
+"preferred_label": "طَبْرِيمونَ",
+"confidence": 0.9415,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -3787,7 +4069,8 @@
 "end_ref_usfm": "MAT 23:26"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -3809,7 +4092,16 @@
 "end_ref_usfm": "1CH 26:11"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tebaliah",
+"type": "person",
+"preferred_label": "طَبَلْيَا",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -3893,7 +4185,8 @@
 "label": "الطب والممارسة الطبية",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -3923,7 +4216,8 @@
 "label": "الطعام وإعداد الطعام",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -3966,7 +4260,8 @@
 "label": "شيطان (أو روح شرير)",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -4024,7 +4319,8 @@
 "end_ref_usfm": "ISA 16:4"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -4108,7 +4404,8 @@
 "label": "الملبس وتصنيعه",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -4168,7 +4465,8 @@
 "label": "بولس، الرسول",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -4190,7 +4488,16 @@
 "end_ref_usfm": "EZR 4:9"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Susa",
+"type": "place",
+"preferred_label": "فِي",
+"confidence": 0.58,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -4213,7 +4520,8 @@
 "label": "سَّفَر",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -4235,7 +4543,8 @@
 "end_ref_usfm": "ACT 28:15"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -4311,7 +4620,8 @@
 "end_ref_usfm": "GEN 14:24"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -4334,7 +4644,8 @@
 "label": "الأسرة، الحياة والعلاقات",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -4362,7 +4673,8 @@
 "end_ref_usfm": "1SA 15:4"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -4408,7 +4720,16 @@
 "end_ref_usfm": "NEH 12:25"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Talmon",
+"type": "person",
+"preferred_label": "طَلْمون",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -4484,7 +4805,8 @@
 "end_ref_usfm": "MRK 11:10"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -4512,7 +4834,16 @@
 "end_ref_usfm": "JDG 11:5"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Tob",
+"type": "place",
+"preferred_label": "طوبٍ",
+"confidence": 0.8172,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -4534,7 +4865,23 @@
 "end_ref_usfm": "2CH 17:8"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tobijah",
+"type": "person",
+"preferred_label": "طوبِيَّا",
+"confidence": 0.8155,
+"match_method": "scored"
+},
+{
+"id": "person:Adonijah.2",
+"type": "person",
+"preferred_label": "أَدونِيَّا",
+"confidence": 0.7885,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -4577,7 +4924,8 @@
 "label": "الخزف - الأواني الخَزَفِيَّة",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -4671,7 +5019,23 @@
 "end_ref_usfm": "NEH 13:9"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tobiah.2",
+"type": "person",
+"preferred_label": "طوبِيَّا",
+"confidence": 0.6889,
+"match_method": "scored"
+},
+{
+"id": "person:Tobiah",
+"type": "person",
+"preferred_label": "طوبِيَّا",
+"confidence": 0.6296,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -4705,7 +5069,23 @@
 "end_ref_usfm": "ZEC 6:14"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Tobijah.2",
+"type": "person",
+"preferred_label": "طوبِيَّا",
+"confidence": 0.8667,
+"match_method": "scored"
+},
+{
+"id": "person:Tobijah",
+"type": "person",
+"preferred_label": "طوبِيَّا",
+"confidence": 0.7333,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -4728,7 +5108,8 @@
 "label": "طوبيا، سفر طوبيا",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -4870,7 +5251,8 @@
 "end_ref_usfm": "TOB 4:4"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -4893,7 +5275,8 @@
 "label": "طوبيا، سفر طوبيا",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -5062,7 +5445,8 @@
 "label": "نوح",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -5126,7 +5510,8 @@
 "end_ref_usfm": "1PE 3:20"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -5156,7 +5541,8 @@
 "label": "العطر",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -5178,6 +5564,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "القياصرة",
 "language": "arb"
+}
+],
+"acai": [
+{
+"id": "person:Tiberius",
+"type": "person",
+"preferred_label": "طِيبَارِيوسَ",
+"confidence": 0.8236,
+"match_method": "embedding"
 }
 ]
 }
@@ -5209,7 +5604,8 @@
 "label": "التقاويم، القديمة والحديثة",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -5239,7 +5635,8 @@
 "label": "الخزف - الأواني الخَزَفِيَّة",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -5275,7 +5672,8 @@
 "label": "الطيور",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 }
 ]

@@ -18,7 +18,16 @@
 "end_ref_usfm": "EST 9:9"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Vaizatha",
+"type": "person",
+"preferred_label": "Vaizatha",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -46,7 +55,16 @@
 "end_ref_usfm": "NEH 2:14"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:ValleyGate",
+"type": "place",
+"preferred_label": "Valley Gate",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -75,6 +93,22 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Ge-Harashim",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "place:Ge-harashim",
+"type": "place",
+"preferred_label": "Ge-harashim",
+"confidence": 1.0,
+"match_method": "scored"
+},
+{
+"id": "place:Ono",
+"type": "place",
+"preferred_label": "Ono",
+"confidence": 0.679,
+"match_method": "scored"
 }
 ]
 }
@@ -112,6 +146,15 @@
 "label": "Jehoshaphat, Valley of",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "place:ValleyOfDecision",
+"type": "place",
+"preferred_label": "Valley of Decision",
+"confidence": 0.6,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -148,6 +191,22 @@
 "label": "Jehoshaphat, Valley of",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "place:ValleyOfDecision",
+"type": "place",
+"preferred_label": "Valley of Decision",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:Kidron",
+"type": "place",
+"preferred_label": "Kidron",
+"confidence": 0.6925,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -170,7 +229,30 @@
 "end_ref_usfm": "2SA 24:5"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Gad.2",
+"type": "person",
+"preferred_label": "Gad",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "person:Gad",
+"type": "person",
+"preferred_label": "Gad",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:Jordan",
+"type": "place",
+"preferred_label": "Jordan River",
+"confidence": 0.679,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -192,6 +274,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Gehenna",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "place:HinnomValley",
+"type": "place",
+"preferred_label": "Valley of Hinnom",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -216,6 +307,15 @@
 "label": "Jehoshaphat, Valley of",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "place:Kidron",
+"type": "place",
+"preferred_label": "Kidron",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -238,6 +338,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Jezreel Valley",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "place:JezreelValley",
+"type": "place",
+"preferred_label": "Valley of Jezreel",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -285,7 +394,23 @@
 "end_ref_usfm": "2SA 5:22"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "group:Rephaim",
+"type": "group",
+"preferred_label": "Rephaim",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:RephaimValley",
+"type": "place",
+"preferred_label": "Valley of Rephaim",
+"confidence": 0.8667,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -307,6 +432,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Valley of Rephaim",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "place:RephaimValley",
+"type": "place",
+"preferred_label": "Valley of Rephaim",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
@@ -348,7 +482,16 @@
 "end_ref_usfm": "2CH 25:11"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:SaltValley",
+"type": "place",
+"preferred_label": "Valley of Salt",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -378,6 +521,22 @@
 "label": "King’s Valley",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "place:Shaveh",
+"type": "place",
+"preferred_label": "Valley of Shaveh",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "place:KingsValley",
+"type": "place",
+"preferred_label": "King’s Valley",
+"confidence": 1.0,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -401,6 +560,15 @@
 "label": "Siddim Valley",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "place:SiddimValley",
+"type": "place",
+"preferred_label": "Valley of Siddim",
+"confidence": 1.0,
+"match_method": "content_id"
+}
 ]
 }
 },
@@ -423,7 +591,16 @@
 "end_ref_usfm": "EZR 10:36"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Vaniah",
+"type": "person",
+"preferred_label": "Vaniah",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -453,6 +630,15 @@
 "label": "Joel (Person)",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "person:Joel",
+"type": "person",
+"preferred_label": "Joel",
+"confidence": 1.0,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -465,7 +651,7 @@
 "index_reference": "vashti",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>VASHTI</h1><p>Vashti was a queen of Persia. She was married to King Ahasuerus, who was also called Xerxes I. She lost her position as queen after she refused to appear before the guests at a royal banquet (<a href=\"https://ref.ly/Esth1:9-Esth1:19\">Esther 1:9–19</a>). </p><p>Neither Vashti nor Queen Esther (who came after her) are mentioned in historical records outside the Bible. Because of this, some scholars have suggested they might have been less important wives or concubines (women who lived with the king but had lower status than wives) who were given the title &quot;queen.&quot; </p><p>A Greek historian named Plutarch wrote about Persian customs. He said Persian kings usually ate meals with their official wives. However, when the kings wanted to have feasts with heavy drinking, they would send their wives away and bring in their concubines.</p><p>Some people use this information to argue that Vashti was only a concubine. But several facts show that Vashti was truly a queen:</p><ul><li><p>She was asked to wear a royal crown at the banquet.</p></li><li><p>She is called &quot;queen&quot; in all references before she was removed from her position.</p></li><li><p>The king said her actions would influence all women in the kingdom.</p></li></ul><p>Her refusal to come to the banquet makes more sense if she was a queen since queens were not usually present at drinking feasts.</p>",
+"content": "<h1>VASHTI</h1><p>Vashti was a queen of Persia. She was married to King Ahasuerus, who was also called Xerxes I. She lost her position as queen after she refused to appear before the guests at a royal banquet (<a href=\"https://ref.ly/Esth1:9-Esth1:19\">Esther 1:9–19</a>). </p><p>Neither Vashti nor Esther, who became queen after her, is mentioned in historical records outside the Bible. Because of this, some scholars suggest they may have been lesser wives or concubines (women who lived with the king but held a lower status than wives) who were given the title of queen.</p><p>A Greek historian named Plutarch wrote about Persian customs. He said Persian kings usually ate meals with their official wives. However, when the kings wanted to have feasts with heavy drinking, they would send their wives away and bring in their concubines.</p><p>Some people use this information to argue that Vashti was only a concubine. But several facts show that Vashti was truly a queen:</p><ul><li><p>She was asked to wear a royal crown at the banquet.</p></li><li><p>She is called &quot;queen&quot; in all references before she was removed from her position.</p></li><li><p>The king said her actions would influence all women in the kingdom.</p></li></ul><p>Her refusal to come to the banquet makes more sense if she were a queen, since queens were not usually present at drinking feasts.</p>",
 "associations": {
 "passage": [
 {
@@ -475,7 +661,16 @@
 "end_ref_usfm": "EST 1:19"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Vashti",
+"type": "person",
+"preferred_label": "Vashti",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -519,7 +714,8 @@
 "label": "Plants",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -549,7 +745,8 @@
 "label": "Tabernacle",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -561,7 +758,7 @@
 "index_reference": "versions of the bible (ancient)",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>ANCIENT VERSIONS OF THE BIBLE</h1><p>To understand how the Bible has spread across the world, imagine Palestine as the center of a pool on a map of the eastern hemisphere. Think of God revealing himself through the prophets, Jesus Christ, and the apostles as a stone dropped into the center of the water. As the stone hits, ripples (waves) spread out across the world from Palestine. As these ripples move out, think of the languages they reach: </p><ul><li><p>To the South: Coptic, Arabic, and Ethiopic </p></li><li><p>To the West: Greek, Latin, Gothic, and English</p></li><li><p>To the North: Armenian, Georgian, and Slavonic</p></li><li><p>To the East: Syriac </p></li></ul><p>The farther the Bible traveled from its original languages of Hebrew, Aramaic, and Greek, the later it was translated into new languages.</p><h2>Languages of the Bible</h2><p>God’s message in the Bible first came from the Middle East, where most of it was written in two of Palestine’s main languages. The Old Testament was mostly written in Hebrew, except for parts of Daniel and Ezra, which were possibly written in Aramaic (the language used during Israel’s captivity). The entire New Testament was likely written in common Greek, known as <em>koine</em>. This form of Greek was the main language spoken in the eastern part of the Roman Empire and was understood in most places across the empire. So, anyone who did not speak Hebrew or Greek would not have access to God’s message in written form unless the Bible was translated into their language.</p><h2>The Earliest Biblical Translations</h2><p>Bible translation began even before the birth of Christ, with Old Testament translations into Greek and Aramaic. Many Jewish people living in different regions before Jesus&apos;s time did not understand Hebrew, so they needed the Bible in Greek or Aramaic. The most famous Greek translation was the Septuagint, which was used by both Jews and the first Christians. The Septuagint became the &quot;Bible&quot; for the early Christians, including those who wrote parts of the New Testament.</p><p>Early Christian missionaries carried the Septuagint (or Hebrew Bible) and the Greek New Testament with them as they traveled from the churches in Jerusalem and Antioch, as we read in Acts. These missionaries would learn the local languages and orally translate or paraphrase Bible passages for teaching, preaching, and worship. As people converted to Christianity, new churches were formed. The missionaries, seeing the need for people to have the Bible in their own language, would begin translating the whole Bible for them. The desire to spread the Bible in new languages has always been at the heart of Christian missions, leading to many new versions of the Bible.</p><h2>The Spread of the Bible Through Translation</h2><p>Bible translation in the early church was spontaneous and often informal, starting as oral translations. It was also driven by a strong desire to spread the gospel. The early church supported and encouraged Bible translation. Even as late as the ninth century, popes Adrian II and John VIII supported the creation of the Slavonic version of the Bible. However, a major change occurred in the Western church’s attitude toward translation. Latin became the dominant language, and fewer people could read Greek. As education became something only for the wealthy and powerful, and as the Roman Catholic Church tightened its control over Christianity, the Bible was taken out of the hands of ordinary people. As long as priests could read and recite the Latin Bible during church services, there was little effort to translate the Bible into the everyday language of the people.</p><h2>Challenges to Biblical Translation</h2><p>Latin became almost a sacred language, and the church grew suspicious of Bible translations. Pope Gregory VII, around AD 1079, tried to stop the circulation of a Slavonic translation of the Bible, even though popes before him had supported it. Gregory argued that God may have wanted Scripture to remain secret in some areas because if everyone had access to it, people might disrespect it or misunderstand it, leading to mistakes in interpretation.</p><p>At the same time, Islam began spreading in Palestine and North Africa, changing the religious landscape of the region. Within 100 years of Muhammad’s death, Islam had destroyed over 900 churches, and the Qur&apos;an became the sacred text for much of the Mediterranean’s eastern and southern regions.</p><p>Bible translations slowed for the next 500 years due to opposition from both the Western church and the rise of Islam in the East. However, the Protestant Reformation in the 16th century revived the translation efforts. With the invention of the printing press by Johannes Gutenberg, missionaries could now produce multiple Bible translations. Describing the motivation of translators, Erasmus, in 1516, wrote that he wished everyone, even the poorest people, could read and understand the Gospel in their own languages:</p><p>&quot;I wish that even the weakest woman should read the Gospel—should read the Epistles of Paul. And I wish these were translated into all languages, so that they might be read and understood, not only by Scots and Irishmen, but also by Turks and Saracens. To make them understood is surely the first step. It may be that they might be ridiculed by many, but some would take them to heart. I long that the husbandman should sing portions of them to himself as he follows the plough, that the weaver should hum them to the tune of his shuttle, that the traveller should beguile with their stories the tedium of his journey.&quot;</p><h2>Materials and Manuscripts</h2><p>What materials did the early Bible translators and copyists use? At the time of Christ and for the first two centuries of the church, writing was typically done with ink on papyrus, a paper-like material. Books were scrolls made from long sheets of papyrus glued together and rolled up. In the first century, a new form of a book was invented called the <em>codex</em> (similar to modern books with folded pages and a spine). Christians were some of the first to use this new form. In AD 332, Emperor Constantine I ordered 50 Bibles for the churches in Constantinople, specifying that they be codices made from vellum (animal skins) rather than papyrus scrolls. By the late third and early fourth centuries, codices and vellum had largely replaced scrolls and papyrus.</p><p>For many centuries, scribes copied the Bible by hand, writing in capital letters. The oldest surviving Bible manuscripts are written in this style, called “uncials.” Around the 9th and 10th centuries, writing in lowercase letters became more common, and these manuscripts are called “minuscules” or “cursives.” Though cursive writing existed as early as the second century before Christ, minuscules are the most common form of surviving Bible manuscripts from the 10th to the 16th century.</p><p>In 1454, Johannes Gutenberg revolutionized Bible production by using movable type to print books. His first printed Bible, a beautiful Latin version, appeared in 1456.</p><p>Today’s printed Bibles include chapters and verses, but these divisions were added much later. Chapter divisions began in the Latin Vulgate Bible and may have been created by various church leaders in the 11th and 13th centuries like:</p><ul><li><p>Lanfranc, archbishop of Canterbury in the 11th century</p></li><li><p>Stephen Langton, archbishop of Canterbury in the 13th century</p></li><li><p>Hugo de Sancto Caro in the 13th century</p></li></ul><p>Verse numbers were first used in the 1551 Greek New Testament published in Geneva and in a 1559–61 edition of the Hebrew Old Testament.</p><h2>Preview</h2><ul><li><p><strong><u>Earliest Versions of the Old Testament</u></strong></p></li><li><p><strong><u>Complete Bible Versions of Christendom</u></strong></p></li><li><p><strong><u>Latin Versions</u></strong></p></li><li><p><strong><u>Coptic Versions</u></strong></p></li><li><p><strong><u>Gothic Version</u></strong></p></li><li><p><strong><u>Syriac Versions</u></strong></p></li><li><p><strong><u>Armenian Version</u></strong></p></li><li><p><strong><u>Georgian Version</u></strong></p></li><li><p><strong><u>Ethiopic Version</u></strong></p></li><li><p><strong><u>Arabic Versions</u></strong></p></li><li><p><strong><u>Slavonic Version</u></strong></p></li></ul><h2>Earliest Versions of the Old Testament</h2><h3>The Samaritan Pentateuch</h3><p>The Samaritan Pentateuch is the first version of the Old Testament to consider, although it is not technically a translation. It is a Hebrew version of the first five books of the Old Testament (also called the Law), which is the entire Scripture for the Samaritan community. This community still exists today in modern Nablus, Palestine.</p><p>The Samaritan Pentateuch follows a different textual tradition than the Hebrew text used in traditional Judaism, which was preserved by the Masoretes. The Masoretes were scribes who worked from around AD 600 to the 10th century to carefully preserve the Old Testament text. They added marks (vowel points) to indicate missing vowels in the Hebrew text. This Masoretic Text is the basis for the King James Version of the Old Testament.</p><p>The Samaritan Pentateuch goes back to the fourth century BC and differs from the Masoretic Text in about 6,000 places, with around 1,000 differences considered important by scholars. In some cases, the Samaritan Pentateuch agrees with the Greek Septuagint and other ancient versions, making it a valuable witness in those instances. The two oldest manuscripts of the Samaritan Pentateuch outside Nablus are codices found in England. One is dated around AD 1211–1212 and is housed in the John Rylands Library in Manchester, while the other is from before 1149 and is in the University Library at Cambridge. There are also two minor translations: an Aramaic Samaritan Targum from early Christian times and an Arabic translation from about the 11th century.</p><h3>The Septuagint</h3><p>The second Old Testament version, the Septuagint, is an actual translation from Hebrew into Greek. It was the first known translation of the Old Testament and was the Bible used by the apostles. Most of the Old Testament quotes in the New Testament come from this version, making it the Bible of the early church.</p><p>The story of the Septuagint’s creation is told in a document called “The Letter of Aristeas,” written between 150 and 100 BC. According to this letter, an Egyptian king, Ptolemy Philadelphus, wanted to collect all the world’s books in his library in Alexandria. Since he did not have a Greek translation of the Old Testament, he asked the high priest in Jerusalem to send him scholars and texts. The letter says 72 Jewish elders were sent to Egypt, and after being entertained by the king, they produced the full Greek translation in 72 days. This version became known as the Septuagint, named after the number 70 (LXX in Roman numerals).</p><p>However, scholars believe the real story is less dramatic. The Septuagint was likely a translation made for Greek-speaking Jews who no longer understood Hebrew. Portions of it were probably translated as early as 250 BC, with other parts completed by 100 BC. The translation was likely done over several centuries by different translators and then gathered into one collection. The Septuagint also includes up to 15 additional books (called apocryphal or non-canonical) not found in most modern English Bibles.</p><h3>Aramaic</h3><p>The third Old Testament version is the Aramaic, which was called Chaldee until the 19th century. Biblical Aramaic was the language spoken by the rulers who conquered Israel, and over time, it became the language of the Jewish people. When the Jews returned from Babylonian exile in 536 BC, they brought Aramaic with them. Many scholars think that when Ezra and the Levites explained the law in <a href=\"https://ref.ly/Neh8:8\">Nehemiah 8:8</a>, they were paraphrasing Hebrew into Aramaic. Aramaic was the primary language in Palestine until to the Bar-Kochba revolt against the Romans in AD 132 to 135. Hebrew was mostly a religious language for religious figures. As priests and scribes read the Law and Prophets, the custom of following the reading with an Aramaic translation spread. These translations were called <em>targums </em>or <em>targumim</em>.</p><p>Rabbis did not want to write down the targumim, but inevitably they were. The earliest Targum was of the Law written by someone known as Onkelos in the second or third century AD. Targums on the historical and prophetic books were written in the third and fourth centuries AD. The most important one was Targum Jonathan ben Uzziel. The earliest Targum of the Wisdom Literature (Proverbs, Ecclesiastes, Job, some Psalms)was written in the fifth century AD. Finally, rabbinical Aramaic Targums included all of the Old Testament except Daniel, Ezra, and Nehemiah. </p><p>The Islamic conquest of the Middle East made Arabic the common language. Rabbis began to write Arabic targums, and became less and less spoken.</p><h2>Complete Bible Versions of Christendom</h2><p>As the early Christian church gathered the New Testament and added it to the Old Testament, Bible translation began. This work helped spread Christianity from Jerusalem to Judea, Samaria, and eventually to the farthest parts of the world.</p><h3>Latin Versions</h3><p>Similar to the Aramaic Targums (translations) used by Jewish worshipers, the Old Latin Bible developed informally. In the early Roman Empire, Greek was the main language of Christians, and even the first bishops of Rome spoke and wrote in Greek. However, as both the empire and church aged, Latin became more common, especially in the western part of the empire. As a result, priests and bishops started translating the New Testament and the Greek Old Testament (Septuagint) into Latin. These early translations became known as the Old Latin Bible, although no full copy of this Bible has survived. Most of the Old Testament and much of the New Testament can be reconstructed from quotations by early church leaders. Scholars think the Old Latin Bible was being used in Carthage, North Africa, by AD 250. There were two main types of Old Latin text: African and European, with an Italian version also found in Europe. The Old Latin Bible is important for comparing it to the Septuagint because it was translated before Origen created his famous six-version text <em>Hexapla</em>.</p><p>Church leaders began calling for an official, consistent Latin translation of the whole Bible. Pope Damascus I, who was pope from AD 366 to 384, asked his secretary, Jerome, to create a new Latin version of the Gospels in AD 382. Jerome finished this work in AD 383, and the rest of the New Testament likely followed. The Gospels were a careful retranslation based on the European Old Latin and a Greek text from Alexandria. However, the rest of the New Testament was less carefully revised and still relied heavily on the Old Latin, unless the Greek text clearly needed a correction. Jerome may not have completed all of this work himself.</p><p>In AD 385, Jerome left Rome and settled near Bethlehem in 389, where he focused on translating the Old Testament. He realized that a new translation from Hebrew was needed, rather than simply revising the Greek Septuagint. With the help of Jewish rabbis, he completed the books of Kings by AD 390, and by AD 396, he had finished: </p><ul><li><p>The prophets</p></li><li><p>Job</p></li><li><p>Ezra</p></li><li><p>Chronicles</p></li></ul><p>After recovering from an illness, he translated: </p><ul><li><p>Proverbs</p></li><li><p>Ecclesiastes</p></li><li><p>The Song of Songs</p></li></ul><p>In AD 404, he translated: </p><ul><li><p>Joshua</p></li><li><p>Judges</p></li><li><p>Ruth</p></li><li><p>Esther</p></li></ul><p>Also parts of the apocryphal additions to:</p><ul><li><p>Daniel </p></li><li><p>Esther</p></li></ul><p>He also translated the Apocryphal books: </p><ul><li><p>Tobit</p></li><li><p>Judith</p></li></ul><p>However, Jerome did not translate: </p><ul><li><p>The Wisdom of Solomon</p></li><li><p>Ecclesiasticus</p></li><li><p>Baruch</p></li><li><p>The books of Maccabees</p></li></ul><p>These books remained in the Old Latin form. His work varied in quality and was not collected into one complete Bible.</p><p>Jerome’s translation faced much criticism, but even though he defended it strongly, he did not live to see it fully respected. Over time, his work became known as the Vulgate Bible, named after the everyday language of the people, so-called &quot;vulgar&quot; Latin. It is believed that Cassiodorus may have compiled Jerome’s work into one Bible. The earliest full manuscript of Jerome’s Bible is the Codex Amiatinus, created around AD 715 in Jarrow, Northumbria, England. The old Vulgate texts are second only to the Septuagint in importance for studying the Hebrew Bible because Jerome worked from Hebrew texts that were older than those used by the Jewish scholars known as the Masoretes.</p><p>It took over 1,000 years for the Vulgate to officially replace the Old Latin Bible. The Roman Catholic Church made the Vulgate its official Bible during the Council of Trent in 1546. This council also approved a corrected version of the Vulgate, which Pope Sixtus V issued in 1590. However, it was unpopular, and Pope Clement VIII released a new official version in 1592, which remains the standard today.</p><h3>Coptic Versions</h3><p>Coptic was the last stage of the Egyptian language, used by people along the Nile River. It survived despite the Greek influence of Alexander the Great and his successors and even resisted the Latin of the Roman Caesars. The Coptic script included 25 Greek letters and 7 additional symbols to represent sounds not found in Greek. Over time, five main dialects of Coptic developed: </p><ol><li><p>Akhmimic</p></li><li><p>Sub-Akhmimic</p></li><li><p>Sahidic</p></li><li><p>Fayumic</p></li><li><p>Bohairic</p></li></ol><p>Bible fragments have been found in the Akhmimic, sub-Akhmimic, and Fayumic dialects, but it is not known if the entire Bible was ever translated into these dialects. These dialects gradually disappeared, and by the 11th century, only Bohairic (spoken in the Nile Delta) and Sahidic (spoken in Upper Egypt) remained. By the 17th century, they were mostly forgotten and only used for religious purposes in Coptic churches, as Arabic had become the dominant language after the Islamic conquest of Egypt in 641.</p><p>The earliest Coptic translation of the Bible was in the Sahidic dialect, in Upper Egypt, where Greek was less commonly understood. The Sahidic Old Testament and New Testament were likely completed around AD 200. In the Delta, Greek was more widely spoken, so the Bohairic translation of the Bible probably came later. However, since Bohairic was used in Alexandria, where the Coptic religious leader lived, it eventually became the main language of the Coptic church. The Copts separated from the Roman Empire and the wider Catholic Church after the Council of Chalcedon in AD 451 due to theological differences and were further removed from the West by centuries of Islamic rule.</p><h3>Gothic Version</h3><p>The Gothic language was an East Germanic language. The earliest known writings in any Germanic language are fragments of the Bible translated by Ulfilas (also called Wulfila). He made the translation to share the gospel with his own people. Ulfilas, one of the most famous early missionaries, was born in Dacia. His parents were Roman Christians who had been captured by the Goths. Ulfilas later traveled to Constantinople and may have converted to Christianity there. Around AD 340, he was ordained as a bishop by Eusebius of Nicomedia, an Arian bishop. Ulfilas himself followed Arian beliefs, which taught that Christ was the Savior and Lord by God’s appointment and his obedience, but that he was not equal to God.</p><p>Ulfilas returned to preach to the Goths. He apparently created an alphabet for their language so he could translate the Bible into it. Records say that he translated the entire Bible except for the books of Kings. He left them out because he thought they would encourage violence in the already warlike Goths. Only scattered fragments of his Old Testament translation remain, and about half of the Gospels survive in the <em>Codex Argenteus</em>, a manuscript from the fifth or sixth century that is now in Uppsala, Sweden.</p><h3>Syriac Versions</h3><p>Syriac, a Semitic language, was the main language of Edessa and western Mesopotamia. The version of the Bible known today as the Peshitta (which is still the Bible used by Christians from the old Assyrian area) developed over several stages. The Peshitta often lacks: </p><ul><li><p>2 Peter</p></li><li><p>2 and 3 John</p></li><li><p>Jude</p></li><li><p>Revelation</p></li></ul><p>One of the most famous early translations was the <em>Diatessaron</em>, a harmony of the Gospels made by Tatian, a disciple of Justin Martyr in Rome. He translated it from Greek around AD 170, and it became very popular among Syriac-speaking Christians. Bishops had difficulty persuading Christians to use a version of the Gospels where the four books were separated rather than combined, called &quot;The Gospel of the Separated Ones.”</p><p>Other parts of the Bible were also translated into Old Syriac. Writings from early church fathers suggest that a second-century Old Syriac Bible existed along with the <em>Diatessaron</em>. The Old Testament in this version may have originally been a Jewish translation into Syriac that Christians adapted, similar to how Greek Christians adapted the Septuagint. Around the end of the fourth century, this version went through an official revision, resulting in the <em>Peshitta</em> (which means “simple” or “basic”). According to tradition, Rabbula, bishop of Edessa, helped create the New Testament part of this version.</p><p>In AD 431, Syriac-speaking Christians split into two groups: the Monophysites (also called Jacobites) and the Nestorians. The disagreement was about the nature of Christ. At first, both groups used the <em>Peshitta</em>, but the Jacobites wanted a new translation. In AD 508, Bishop Philoxemus (also called Mar Zenaia) of Mabbug translated the Bible from the Septuagint and Greek New Testament manuscripts into Syriac. His translation included, for the first time, 2 Peter, 2 and 3 John, and Jude, which were later added to the standard <em>Peshitta</em> text.</p><p>Although the <em>Peshitta</em> has been used continuously since the fifth century and was spread as far as India and China, it has not been as valuable for biblical studies as the Septuagint. The <em>Peshitta</em> underwent frequent revisions based on comparisons with various Greek texts, Hebrew manuscripts, and other sources, making it difficult to trace its original form. One of the most important surviving <em>Peshitta</em> manuscripts is the <em>Codex Ambrosianus</em> from the sixth century, which contains the entire Old Testament.</p><h3>Armenian Version</h3><p>Syrian Christians spread their faith to the Armenians in eastern Asia Minor. Armenia became the first Christian kingdom in history when Tiridates III, who ruled from AD 259–314, converted. In the fifth century, an Armenian alphabet was created to translate the Bible into the Armenian language. The Armenian Bible is known for its beauty and accuracy, although it may have been first translated from Syriac and later revised based on Greek texts. The Armenian language is similar to Greek in grammar and structure. According to tradition, the New Testament translation was done by Mesrop, a bishop in Armenia, who is also credited with inventing the Armenian and Georgian alphabets. Armenian churches did not accept the book of Revelation as part of their Bible until the 12th century.</p><h3>Georgian Version</h3><p>The same tradition that credits Mesrop with translating the Bible into Armenian also credits an Armenian slave woman with spreading Christianity among Georgian-speaking people. The earliest Georgian Bible manuscripts are from the eighth century, but they are based on an older translation that shows traces of Syriac and Armenian influences. The Gospels may have first arrived in Georgia as the <em>Diatessaron</em>. Some important Georgian fragments have been helpful in studying that text. There is a complete Georgian Bible manuscript in two volumes at the Iberian Monastery on Mount Athos.</p><p>Another Caucasian group, the Albanians, received an alphabet from Mesrop for translating the Bible. However, their church was destroyed during Islamic wars, and no remains of their Bible translation have been found.</p><h3>Ethiopic Version</h3><p>By the middle of the fifth century, Ethiopia (also called Abyssinia) was ruled by a Christian king, and the country had close ties with Egyptian Christianity until the Islamic conquests. The Old Testament was probably translated into Old Ethiopic (called Ge’ez) by the fourth century. This version is interesting for two reasons: First, it is the Bible of the Falashas, a group of African Jews who claim to be descendants of Jews who migrated to Ethiopia during the time of King Solomon and the Queen of Sheba. Second, it contains books not included in the Hebrew Apocrypha, such as the book of Enoch, which is quoted in <a href=\"https://ref.ly/Jude1:14\">Jude 1:14</a>. The book of Enoch was unknown to scholars until a copy was brought to Europe in 1773. 3 Baruch, an apocryphal book, is only preserved through the Ethiopic version.</p><p>The New Testament was translated into Old Ethiopic later than the Old Testament. It includes writings mentioned by Clement of Alexandria, such as the <em>Apocalypse of Peter</em>. Although both Testaments are still available in Ethiopic manuscripts, none are older than the 13th century. These manuscripts depend heavily on Coptic and Arabic sources. The chaos in Ethiopia between the seventh and 13th centuries destroyed earlier manuscripts. Since the surviving manuscripts are so late, they have had little value for biblical scholars.</p><h3>Arabic Versions</h3><p>In AD 570, Muhammad was born in Mecca. He married a wealthy widow, Khadijah, at age 25. His “call” to be a prophet came when he was 40. In 622, he moved to Medina (an event called the “Hegira”), and he died in 632, having united Arabia under Islam. Within a hundred years, Islamic conquests had spread across North Africa, Spain, and into Bible lands. This relentless spread put pressure on Byzantium and eventually led to the fall of Constantinople in 1453. The Islamic conquest reached as far east as India, making Arabic the most widely spoken language since the days of Alexander the Great, nine centuries earlier.</p><p>There were many Jewish communities in Arabia during Muhammad’s time, and Islamic conquests also took over hundreds of Christian communities. However, an Arabic version of the Bible did not appear until Saadya Gaon translated the Pentateuch from Hebrew in the 10th century. Other parts of the Old Testament were translated from Hebrew, Syriac, and Greek, but not necessarily by Saadya himself. The following were translated from the Syriac <em>Peshitta</em>:</p><ul><li><p>Judges</p></li><li><p>Samuel</p></li><li><p>Kings</p></li><li><p>Chronicles</p></li><li><p>Job</p></li></ul><p>While the following were translated from the Greek Septuagint:</p><ul><li><p>The prophets</p></li><li><p>Psalms</p></li><li><p>Proverbs</p></li></ul><p>His version has been used by Arabic-speaking Jews until modern times. However, other Jewish groups who disagreed with Saadya’s free translation made their own versions.</p><p>New Testament translations into Arabic came from Syriac, Greek, and Coptic sources between the seventh and ninth centuries. John I was a Jacobite patriarch of Antioch from 631 to 648. According to Arab historians, he translated the Gospels from Syriac into Arabic. Another translation of the Gospels was made by John, Bishop of Seville, from the Latin Vulgate around AD 724. The final Arabic New Testament relied mostly on the Coptic Bohairic. Due to their late date and mixed sources, Arabic versions have not been very important for biblical studies.</p><h3>Slavonic Version</h3><p>Although the Slavs lived close to the centers of early Christianity, Bible translations into Slavonic did not begin until the ninth century. Two brothers, Constantine and Methodius, sons of a Greek nobleman, started by translating church services into Slavonic. With the approval of popes Adrian II and John VIII, they also translated the Bible. Constantine (later known as Cyril) and Methodius worked among the Slavs and Moravians. Cyril invented the alphabet (now called Cyrillic) to help with their translation work. Manuscripts from the 10th or 11th century survive, but the oldest full Bible manuscript is the <em>Codex Gennadius</em> from AD 1499, which is too late to be very useful for biblical studies.</p>",
+"content": "<h1>ANCIENT VERSIONS OF THE BIBLE</h1><p>To understand how the Bible has spread across the world, imagine Palestine as the center of a pool on a map of the eastern hemisphere. Think of God revealing himself through the prophets, Jesus Christ, and the apostles as a stone dropped into the center of the water. As the stone hits, ripples (waves) spread out across the world from Palestine. As these ripples move out, think of the languages they reach: </p><ul><li><p>To the south: Coptic, Arabic, and Ethiopic </p></li><li><p>To the west: Greek, Latin, Gothic, and English</p></li><li><p>To the north: Armenian, Georgian, and Slavonic</p></li><li><p>To the east: Syriac </p></li></ul><p>The farther the Bible traveled from its original languages of Hebrew, Aramaic, and Greek, the later it was translated into new languages.</p><h2>Languages of the Bible</h2><p>God’s message in the Bible first came from the Middle East, where most of it was written in two of Palestine’s main languages. The Old Testament was mostly written in Hebrew, except for parts of Daniel and Ezra, which were possibly written in Aramaic (the language used during Israel’s captivity). The entire New Testament was likely written in common Greek, known as <em>koine</em>. This form of Greek was the main language spoken in the eastern part of the Roman Empire and was understood in most places across the empire. So, anyone who did not speak Hebrew or Greek would not have access to God’s message in written form unless the Bible was translated into their language.</p><h2>The Earliest Biblical Translations</h2><p>Bible translation began even before the birth of Christ, with Old Testament translations into Greek and Aramaic. Many Jewish people living in different regions before the time of Jesus did not understand Hebrew, so they needed the Bible in Greek or Aramaic. The most famous Greek translation was the Septuagint, which was used by both Jews and the first Christians. The Septuagint became the <em>Bible</em> for the early Christians, including those who wrote parts of the New Testament.</p><p>Early Christian missionaries carried the Septuagint (or Hebrew Bible) and the Greek New Testament with them as they traveled from the churches in Jerusalem and Antioch, as we read in Acts. These missionaries would learn the local languages and orally translate or paraphrase Bible passages for teaching, preaching, and worship. As people converted to Christianity, new churches were formed. The missionaries, seeing the need for people to have the Bible in their own language, would begin translating the whole Bible for them. The desire to spread the Bible in new languages has always been at the heart of Christian missions, leading to many new versions of the Bible.</p><h2>The Spread of the Bible Through Translation</h2><p>Bible translation in the early church was spontaneous and often informal, starting as oral translations. It was also driven by a strong desire to spread the gospel. The early church supported and encouraged Bible translation. Even as late as the ninth century, popes Adrian II and John VIII supported the creation of the Slavonic version of the Bible. However, a major change occurred in the Western church’s attitude toward translation. Latin became the dominant language, and fewer people could read Greek. As education became something only for the wealthy and powerful, and as the Roman Catholic Church tightened its control over Christianity, the Bible was taken out of the hands of ordinary people. As long as priests could read and recite the Latin Bible during church services, there was little effort to translate the Bible into the everyday language of the people.</p><h2>Challenges to Biblical Translation</h2><p>Latin became almost a sacred language, and the church grew suspicious of Bible translations. Pope Gregory VII, around AD 1079, tried to stop the circulation of a Slavonic translation of the Bible, even though popes before him had supported it. Gregory argued that God may have wanted Scripture to remain secret in some areas because if everyone had access to it, people might disrespect it or misunderstand it, leading to mistakes in interpretation.</p><p>At the same time, Islam began spreading in Palestine and North Africa, changing the religious landscape of the region. Within 100 years of Muhammad’s death, Islam had destroyed over 900 churches, and the Qur&apos;an became the sacred text for much of the Mediterranean’s eastern and southern regions.</p><p>Bible translations slowed for the next 500 years due to opposition from both the Western church and the rise of Islam in the East. However, the Protestant Reformation in the 16th century revived the translation efforts. With the invention of the printing press by Johannes Gutenberg, missionaries could now produce multiple Bible translations. Describing the motivation of translators, Erasmus, in 1516, wrote that he wished everyone, even the poorest people, could read and understand the Gospel in their own languages:</p><p>&quot;I wish that even the weakest woman should read the Gospel—should read the Epistles of Paul. And I wish these were translated into all languages, so that they might be read and understood, not only by Scots and Irishmen, but also by Turks and Saracens. To make them understood is surely the first step. It may be that they might be ridiculed by many, but some would take them to heart. I long that the husbandman should sing portions of them to himself as he follows the plough, that the weaver should hum them to the tune of his shuttle, that the traveller should beguile with their stories the tedium of his journey.&quot;</p><h2>Materials and Manuscripts</h2><p>What materials did the early Bible translators and copyists use? At the time of Christ and for the first two centuries of the church, writing was typically done with ink on papyrus, a paper-like material. Books were scrolls made from long sheets of papyrus glued together and rolled up. In the first century, a new form of a book was invented called the <em>codex</em> (similar to modern books with folded pages and a spine). Christians were some of the first to use this new form. In AD 332, Emperor Constantine I ordered 50 Bibles for the churches in Constantinople, specifying that they be codices made from vellum (animal skins) rather than papyrus scrolls. By the late third and early fourth centuries, codices and vellum had largely replaced scrolls and papyrus.</p><p>For many centuries, scribes copied the Bible by hand, writing in capital letters. The oldest surviving Bible manuscripts are written in this style, called <em>uncials.</em> Around the 9th and 10th centuries, writing in lowercase letters became more common, and these manuscripts are called <em>minuscules</em> or <em>cursives</em>. Though cursive writing existed as early as the second century before Christ, minuscules are the most common form of surviving Bible manuscripts from the 10th to the 16th century.</p><p>In 1454, Johannes Gutenberg revolutionized Bible production by using movable type to print books. His first printed Bible, a beautiful Latin version, appeared in 1456.</p><p>Today’s printed Bibles include chapters and verses, but these divisions were added much later. Chapter divisions began in the Latin Vulgate Bible and may have been created by various church leaders in the 11th and 13th centuries like:</p><ul><li><p>Lanfranc, archbishop of Canterbury in the 11th century</p></li><li><p>Stephen Langton, archbishop of Canterbury in the 13th century</p></li><li><p>Hugo de Sancto Caro in the 13th century</p></li></ul><p>Verse numbers were first used in the 1551 Greek New Testament published in Geneva and in a 1559–61 edition of the Hebrew Old Testament.</p><h2>Preview</h2><ul><li><p><strong><u>Earliest Versions of the Old Testament</u></strong></p></li><li><p><strong><u>Complete Bible Versions of Christendom</u></strong></p></li><li><p><strong><u>Latin Versions</u></strong></p></li><li><p><strong><u>Coptic Versions</u></strong></p></li><li><p><strong><u>Gothic Version</u></strong></p></li><li><p><strong><u>Syriac Versions</u></strong></p></li><li><p><strong><u>Armenian Version</u></strong></p></li><li><p><strong><u>Georgian Version</u></strong></p></li><li><p><strong><u>Ethiopic Version</u></strong></p></li><li><p><strong><u>Arabic Versions</u></strong></p></li><li><p><strong><u>Slavonic Version</u></strong></p></li></ul><h2>Earliest Versions of the Old Testament</h2><h3>The Samaritan Pentateuch</h3><p>The Samaritan Pentateuch is the first version of the Old Testament to consider, although it is not technically a translation. It is a Hebrew version of the first five books of the Old Testament (also called the Law), which is the entire Scripture for the Samaritan community. This community still exists today in modern Nablus, Palestine.</p><p>The Samaritan Pentateuch follows a different textual tradition than the Hebrew text used in traditional Judaism, which was preserved by the Masoretes. The Masoretes were scribes who worked from around AD 600 to the 10th century to carefully preserve the Old Testament text. They added marks (vowel points) to indicate missing vowels in the Hebrew text. This Masoretic Text is the basis for the King James Version of the Old Testament.</p><p>The Samaritan Pentateuch goes back to the fourth century BC and differs from the Masoretic Text in about 6,000 places, with around 1,000 differences considered important by scholars. In some cases, the Samaritan Pentateuch agrees with the Greek Septuagint and other ancient versions, making it a valuable witness in those instances. The two oldest manuscripts of the Samaritan Pentateuch outside Nablus are codices found in England. One is dated around AD 1211–1212 and is housed in the John Rylands Library in Manchester, while the other is from before 1149 and is in the University Library at Cambridge. There are also two minor translations: an Aramaic Samaritan Targum from early Christian times and an Arabic translation from about the 11th century.</p><h3>The Septuagint</h3><p>The second Old Testament version, the Septuagint, is an actual translation from Hebrew into Greek. It was the first known translation of the Old Testament and was the Bible used by the apostles. Most of the Old Testament quotes in the New Testament come from this version, making it the Bible of the early church.</p><p>The story of the Septuagint’s creation is told in a document called The Letter of Aristeas, written between 150 and 100 BC. According to this letter, an Egyptian king, Ptolemy Philadelphus, wanted to collect all the world’s books in his library in Alexandria. Since he did not have a Greek translation of the Old Testament, he asked the high priest in Jerusalem to send him scholars and texts. The letter says 72 Jewish elders were sent to Egypt, and after being entertained by the king, they produced the full Greek translation in 72 days. This version became known as the Septuagint, named after the number 70 (LXX in Roman numerals).</p><p>However, scholars believe the real story is less dramatic. The Septuagint was likely a translation made for Greek-speaking Jews who no longer understood Hebrew. Portions of it were probably translated as early as 250 BC, with other parts completed by 100 BC. The translation was likely done over several centuries by different translators and then gathered into one collection. The Septuagint also includes up to 15 additional books (called apocryphal or non-canonical) not found in most modern English Bibles.</p><h3>Aramaic</h3><p>The third Old Testament version is the Aramaic, which was called Chaldee until the 19th century. Biblical Aramaic was the language spoken by the rulers who conquered Israel, and over time, it became the language of the Jewish people. When the Jews returned from Babylonian exile in 536 BC, they brought Aramaic with them. Many scholars think that when Ezra and the Levites explained the law in <a href=\"https://ref.ly/Neh8:8\">Nehemiah 8:8</a>, they were paraphrasing Hebrew into Aramaic. Aramaic was the primary language in Palestine until to the Bar-Kochba revolt against the Romans in AD 132 to 135. Hebrew was mostly a religious language for religious figures. As priests and scribes read the Law and Prophets, the custom of following the reading with an Aramaic translation spread. These translations were called <em>targums </em>or <em>targumim</em>.</p><p>Rabbis did not want to write down the targumim, but inevitably they were. The earliest Targum was of the Law written by someone known as Onkelos in the second or third century AD. Targums on the historical and prophetic books were written in the third and fourth centuries AD. The most important one was Targum Jonathan ben Uzziel. The earliest Targum of the Wisdom Literature (Proverbs, Ecclesiastes, Job, some Psalms)was written in the fifth century AD. Finally, rabbinical Aramaic Targums included all of the Old Testament except Daniel, Ezra, and Nehemiah. </p><p>The Islamic conquest of the Middle East made Arabic the common language. Rabbis began to write Arabic targums, and became less and less spoken.</p><h2>Complete Bible Versions of Christendom</h2><p>As the early Christian church gathered the New Testament and added it to the Old Testament, Bible translation began. This work helped spread Christianity from Jerusalem to Judea, Samaria, and eventually to the farthest parts of the world.</p><h3>Latin Versions</h3><p>Similar to the Aramaic Targums (translations) used by Jewish worshipers, the Old Latin Bible developed informally. In the early Roman Empire, Greek was the main language of Christians, and even the first bishops of Rome spoke and wrote in Greek. However, as both the empire and church aged, Latin became more common, especially in the western part of the empire. As a result, priests and bishops started translating the New Testament and the Greek Old Testament (Septuagint) into Latin. These early translations became known as the Old Latin Bible, although no full copy of this Bible has survived. Most of the Old Testament and much of the New Testament can be reconstructed from quotations by early church leaders. Scholars think the Old Latin Bible was being used in Carthage, North Africa, by AD 250. There were two main types of Old Latin text: African and European, with an Italian version also found in Europe. The Old Latin Bible is important for comparing it to the Septuagint because it was translated before Origen created his famous six-version text <em>Hexapla</em>.</p><p>Church leaders began calling for an official, consistent Latin translation of the whole Bible. Pope Damascus I, who was pope from AD 366 to 384, asked his secretary, Jerome, to create a new Latin version of the Gospels in AD 382. Jerome finished this work in AD 383, and the rest of the New Testament likely followed. The Gospels were a careful retranslation based on the European Old Latin and a Greek text from Alexandria. However, the rest of the New Testament was less carefully revised and still relied heavily on the Old Latin, unless the Greek text clearly needed a correction. Jerome may not have completed all of this work himself.</p><p>In AD 385, Jerome left Rome and settled near Bethlehem in 389, where he focused on translating the Old Testament. He realized that a new translation from Hebrew was needed, rather than simply revising the Greek Septuagint. With the help of Jewish rabbis, he completed the books of Kings by AD 390, and by AD 396, he had finished: </p><ul><li><p>The prophets</p></li><li><p>Job</p></li><li><p>Ezra</p></li><li><p>Chronicles</p></li></ul><p>After recovering from an illness, he translated: </p><ul><li><p>Proverbs</p></li><li><p>Ecclesiastes</p></li><li><p>The Song of Songs</p></li></ul><p>In AD 404, he translated: </p><ul><li><p>Joshua</p></li><li><p>Judges</p></li><li><p>Ruth</p></li><li><p>Esther</p></li></ul><p>Also parts of the apocryphal additions to:</p><ul><li><p>Daniel </p></li><li><p>Esther</p></li></ul><p>He also translated the Apocryphal books: </p><ul><li><p>Tobit</p></li><li><p>Judith</p></li></ul><p>However, Jerome did not translate: </p><ul><li><p>The Wisdom of Solomon</p></li><li><p>Ecclesiasticus</p></li><li><p>Baruch</p></li><li><p>The books of Maccabees</p></li></ul><p>These books remained in the Old Latin form. His work varied in quality and was not collected into one complete Bible.</p><p>Jerome’s translation faced much criticism, but even though he defended it strongly, he did not live to see it fully respected. Over time, his work became known as the Vulgate Bible. It was named after the everyday language of the people, called vulgar Latin (common Latin).</p><p>It is believed that Cassiodorus may have compiled Jerome’s work into one Bible. The earliest full manuscript of Jerome’s Bible is the Codex Amiatinus, created around AD 715 in Jarrow, Northumbria, England. The old Vulgate texts are second only to the Septuagint in importance for studying the Hebrew Bible because Jerome worked from Hebrew texts that were older than those used by the Jewish scholars known as the Masoretes.</p><p>It took over 1,000 years for the Vulgate to officially replace the Old Latin Bible. The Roman Catholic Church made the Vulgate its official Bible during the Council of Trent in 1546. This council also approved a corrected version of the Vulgate, which Pope Sixtus V issued in 1590. However, it was unpopular, and Pope Clement VIII released a new official version in 1592, which remains the standard today.</p><h3>Coptic Versions</h3><p>Coptic was the last stage of the Egyptian language, used by people along the Nile River. It survived despite the Greek influence of Alexander the Great and his successors and even resisted the Latin of the Roman Caesars. The Coptic script included 25 Greek letters and 7 additional symbols to represent sounds not found in Greek. Over time, five main dialects of Coptic developed: </p><ol><li><p>Akhmimic</p></li><li><p>Sub-Akhmimic</p></li><li><p>Sahidic</p></li><li><p>Fayumic</p></li><li><p>Bohairic</p></li></ol><p>Bible fragments have been found in the Akhmimic, sub-Akhmimic, and Fayumic dialects, but it is not known if the entire Bible was ever translated into these dialects. These dialects gradually disappeared, and by the 11th century, only Bohairic (spoken in the Nile Delta) and Sahidic (spoken in Upper Egypt) remained. By the 17th century, they were mostly forgotten and only used for religious purposes in Coptic churches, as Arabic had become the dominant language after the Islamic conquest of Egypt in 641.</p><p>The earliest Coptic translation of the Bible was in the Sahidic dialect, in Upper Egypt, where Greek was less commonly understood. The Sahidic Old Testament and New Testament were likely completed around AD 200. In the Delta, Greek was more widely spoken, so the Bohairic translation of the Bible probably came later. However, since Bohairic was used in Alexandria, where the Coptic religious leader lived, it eventually became the main language of the Coptic church. The Copts separated from the Roman Empire and the wider Catholic Church after the Council of Chalcedon in AD 451 due to theological differences and were further removed from the West by centuries of Islamic rule.</p><h3>Gothic Version</h3><p>The Gothic language was an East Germanic language. The earliest known writings in any Germanic language are fragments of the Bible translated by Ulfilas (also called Wulfila). He made the translation to share the gospel with his own people. Ulfilas, one of the most famous early missionaries, was born in Dacia. His parents were Roman Christians who had been captured by the Goths. Ulfilas later traveled to Constantinople and may have converted to Christianity there. Around AD 340, he was ordained as a bishop by Eusebius of Nicomedia, an Arian bishop. Ulfilas himself followed Arian beliefs, which taught that Christ was the Savior and Lord by God’s appointment and his obedience, but that he was not equal to God.</p><p>Ulfilas returned to preach to the Goths. He apparently created an alphabet for their language so he could translate the Bible into it. Records say that he translated the entire Bible except for the books of Kings. He left them out because he thought they would encourage violence in the already warlike Goths. Only scattered fragments of his Old Testament translation remain, and about half of the Gospels survive in the <em>Codex Argenteus</em>, a manuscript from the fifth or sixth century that is now in Uppsala, Sweden.</p><h3>Syriac Versions</h3><p>Syriac, a Semitic language, was the main language of Edessa and western Mesopotamia. The version of the Bible known today as the Peshitta (which is still the Bible used by Christians from the old Assyrian area) developed over several stages. The Peshitta often lacks: </p><ul><li><p>2 Peter</p></li><li><p>2 and 3 John</p></li><li><p>Jude</p></li><li><p>Revelation</p></li></ul><p>One of the most famous early translations was the <em>Diatessaron</em>, a harmony of the Gospels made by Tatian, a disciple of Justin Martyr in Rome. He translated it from Greek around AD 170, and it became very popular among Syriac-speaking Christians. Bishops had difficulty persuading Christians to use a version of the Gospels where the four books were separated rather than combined. This version was called the Gospel of the Separated Ones.</p><p>Other parts of the Bible were also translated into Old Syriac. Writings from early church fathers suggest that a second-century Old Syriac Bible existed along with the <em>Diatessaron</em>. The Old Testament in this version may have originally been a Jewish translation into Syriac that Christians adapted, similar to how Greek Christians adapted the Septuagint. Around the end of the fourth century, this version went through an official revision, resulting in the <em>Peshitta</em> (which means “simple” or “basic”). According to tradition, Rabbula, bishop of Edessa, helped create the New Testament part of this version.</p><p>In AD 431, Syriac-speaking Christians split into two groups: the Monophysites (also called Jacobites) and the Nestorians. The disagreement was about the nature of Christ. At first, both groups used the <em>Peshitta</em>, but the Jacobites wanted a new translation. In AD 508, Bishop Philoxemus (also called Mar Zenaia) of Mabbug translated the Bible from the Septuagint and Greek New Testament manuscripts into Syriac. His translation included, for the first time, 2 Peter, 2 and 3 John, and Jude, which were later added to the standard <em>Peshitta</em> text.</p><p>Although the <em>Peshitta</em> has been used continuously since the fifth century and was spread as far as India and China, it has not been as valuable for biblical studies as the Septuagint. The <em>Peshitta</em> underwent frequent revisions based on comparisons with various Greek texts, Hebrew manuscripts, and other sources, making it difficult to trace its original form. One of the most important surviving <em>Peshitta</em> manuscripts is the <em>Codex Ambrosianus</em> from the sixth century, which contains the entire Old Testament.</p><h3>Armenian Version</h3><p>Syrian Christians spread their faith to the Armenians in eastern Asia Minor. Armenia became the first Christian kingdom in history when Tiridates III, who ruled from AD 259–314, converted. In the fifth century, an Armenian alphabet was created to translate the Bible into the Armenian language. The Armenian Bible is known for its beauty and accuracy, although it may have been first translated from Syriac and later revised based on Greek texts. The Armenian language is similar to Greek in grammar and structure. According to tradition, the New Testament translation was done by Mesrop, a bishop in Armenia, who is also credited with inventing the Armenian and Georgian alphabets. Armenian churches did not accept the book of Revelation as part of their Bible until the 12th century.</p><h3>Georgian Version</h3><p>The same tradition that credits Mesrop with translating the Bible into Armenian also credits an Armenian slave woman with spreading Christianity among Georgian-speaking people. The earliest Georgian Bible manuscripts are from the eighth century, but they are based on an older translation that shows traces of Syriac and Armenian influences. The Gospels may have first arrived in Georgia as the <em>Diatessaron</em>. Some important Georgian fragments have been helpful in studying that text. There is a complete Georgian Bible manuscript in two volumes at the Iberian Monastery on Mount Athos.</p><p>Another Caucasian group, the Albanians, received an alphabet from Mesrop for translating the Bible. However, their church was destroyed during Islamic wars, and no remains of their Bible translation have been found.</p><h3>Ethiopic Version</h3><p>By the middle of the fifth century, Ethiopia (also called Abyssinia) was ruled by a Christian king, and the country had close ties with Egyptian Christianity until the Islamic conquests. The Old Testament was probably translated into Old Ethiopic (called Ge’ez) by the fourth century. This version is interesting for two reasons: First, it is the Bible of the Falashas, a group of African Jews who claim to be descendants of Jews who migrated to Ethiopia during the time of King Solomon and the Queen of Sheba. Second, it contains books not included in the Hebrew Apocrypha, such as the book of Enoch, which is quoted in <a href=\"https://ref.ly/Jude1:14\">Jude 1:14</a>. The book of Enoch was unknown to scholars until a copy was brought to Europe in 1773. 3 Baruch, an apocryphal book, is only preserved through the Ethiopic version.</p><p>The New Testament was translated into Old Ethiopic later than the Old Testament. It includes writings mentioned by Clement of Alexandria, such as the <em>Apocalypse of Peter</em>. Although both Testaments are still available in Ethiopic manuscripts, none are older than the 13th century. These manuscripts depend heavily on Coptic and Arabic sources. The chaos in Ethiopia between the seventh and 13th centuries destroyed earlier manuscripts. Since the surviving manuscripts are so late, they have had little value for biblical scholars.</p><h3>Arabic Versions</h3><p>In AD 570, Muhammad was born in Mecca. He married a wealthy widow, Khadijah, at age 25. Muslims believe his call to be a prophet came when he was 40. In 622, he moved to Medina (an event called the Hegira), and he died in 632, having united Arabia under Islam. Within one hundred years, Islamic rule spread from the Pyrenees across Spain, crossed the Strait of Gibraltar, covered North Africa, and included Egypt and the lands of the Bible. This relentless spread put pressure on Byzantium and eventually led to the fall of Constantinople in 1453. The Islamic conquest reached as far east as India, making Arabic the most widely spoken language since the days of Alexander the Great, nine centuries earlier.</p><p>There were many Jewish communities in Arabia during Muhammad’s time, and Islamic conquests also took over hundreds of Christian communities. However, an Arabic version of the Bible did not appear until Saadya Gaon translated the Pentateuch from Hebrew in the 10th century. Other parts of the Old Testament were translated from Hebrew, Syriac, and Greek, but not necessarily by Saadya himself. The following were translated from the Syriac <em>Peshitta</em>:</p><ul><li><p>Judges</p></li><li><p>Samuel</p></li><li><p>Kings</p></li><li><p>Chronicles</p></li><li><p>Job</p></li></ul><p>While the following were translated from the Greek Septuagint:</p><ul><li><p>The prophets</p></li><li><p>Psalms</p></li><li><p>Proverbs</p></li></ul><p>His version has been used by Arabic-speaking Jews until modern times. However, other Jewish groups who disagreed with Saadya’s free translation made their own versions.</p><p>New Testament translations into Arabic came from Syriac, Greek, and Coptic sources between the seventh and ninth centuries. John I was a Jacobite patriarch of Antioch from 631 to 648. According to Arab historians, he translated the Gospels from Syriac into Arabic. Another translation of the Gospels was made by John, Bishop of Seville, from the Latin Vulgate around AD 724. The final Arabic New Testament relied mostly on the Coptic Bohairic. Due to their late date and mixed sources, Arabic versions have not been very important for biblical studies.</p><h3>Slavonic Version</h3><p>Although the Slavs lived close to the centers of early Christianity, Bible translations into Slavonic did not begin until the ninth century. Two brothers, Constantine and Methodius, sons of a Greek nobleman, started by translating church services into Slavonic. With the approval of popes Adrian II and John VIII, they also translated the Bible. Constantine (later known as Cyril) and Methodius worked among the Slavs and Moravians. Cyril invented the alphabet (now called Cyrillic) to help with their translation work. Manuscripts from the 10th or 11th century survive, but the oldest full Bible manuscript is the <em>Codex Gennadius</em> from AD 1499, which is too late to be very useful for biblical studies.</p>",
 "associations": {
 "passage": [
 {
@@ -577,7 +774,16 @@
 "end_ref_usfm": "JUD 1:14"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "LORD",
+"confidence": 0.598,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -623,7 +829,8 @@
 "end_ref_usfm": "JHN 8:11"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -646,7 +853,8 @@
 "label": "The Caesars",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -669,7 +877,8 @@
 "label": "Priests and Levites",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -698,6 +907,22 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Plants",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "place:Sodom",
+"type": "place",
+"preferred_label": "Sodom",
+"confidence": 0.652,
+"match_method": "scored"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"preferred_label": "Vine",
+"confidence": 0.6115,
+"match_method": "scored"
 }
 ]
 }
@@ -736,7 +961,8 @@
 "label": "Wine",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -759,7 +985,8 @@
 "label": "Vines, Vineyard",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -782,7 +1009,8 @@
 "label": "Food and Food Preparation",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -794,7 +1022,7 @@
 "index_reference": "vines, vineyard",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>VINES, VINEYARD</h1><p>Vines or grapevines are plants cultivated for the production of grapes, raisins, and wine. A vineyard is a cultivated area of grapevines. </p><p>Scripture mentions grapevines in both literal and figurative senses. Grapevines probably originated in the Ararat region (<a href=\"https://ref.ly/Gen9:20\">Genesis 9:20</a>). The vine was also cultivated in ancient Egypt, where tomb murals depict wine-making. The Canaanites provided wine for Abraham (<a href=\"https://ref.ly/Gen14:18\">14:18</a>). Moses described the vineyards in the promised land (<a href=\"https://ref.ly/Deut6:11\">Deuteronomy 6:11</a>). </p><h2>Why Were Grapevines Important in Bible Times?</h2><p>Excellent grapes from the valleys and plains provided fruit and wine to enhance the bland diet of the Hebrews (<a href=\"https://ref.ly/Num13:20,Num13:24\">Numbers 13:20, 24</a>; <a href=\"https://ref.ly/Judg14:5\">Judges 14:5</a>; <a href=\"https://ref.ly/Judg15:5\">15:5</a>). Wine was an important product that people bought and sold. This trade was very active during the time of Israel&apos;s last kings (compare <a href=\"https://ref.ly/Ezek27:18\">Ezekiel 27:18</a>). It continued to be important later when the Greeks and Romans ruled over the land. For the Hebrews, an ideal picture of life was of a man peacefully in one place, cultivating his plot of land, and sitting under his vine (<a href=\"https://ref.ly/1Kgs4:25\">1&nbsp;Kings 4:25</a>).</p><h2>Growing and Harvesting Grapes</h2><p>A protective hedge or fence surrounded the typical vineyard. At harvest time, guards would stay in a watchtower to guard the crop from thieves (<a href=\"https://ref.ly/Job24:18\">Job 24:18</a>; <a href=\"https://ref.ly/Isa1:8\">Isaiah 1:8</a>; <a href=\"https://ref.ly/Mark12:1\">Mark 12:1</a>). The vines were planted in rows in the enclosed area. As the plants grew, the tendrils were trained along supports to raise the fruit-bearing branches off the ground (<a href=\"https://ref.ly/Ezek17:6\">Ezekiel 17:6</a>). Vinedressers pruned and tended the vines (<a href=\"https://ref.ly/Lev25:3\">Leviticus 25:3</a>; <a href=\"https://ref.ly/Isa61:5\">Isaiah 61:5</a>; <a href=\"https://ref.ly/Joel3:10\">Joel 3:10</a>; <a href=\"https://ref.ly/John15:2\">John 15:2</a>). At harvest time the mature fruit was picked and taken to the winepresses (<a href=\"https://ref.ly/Hos9:2\">Hosea 9:2</a>). The treading of the grapes was a celebratory occasion (<a href=\"https://ref.ly/Isa16:10\">Isaiah 16:10</a>; <a href=\"https://ref.ly/Jer25:30\">Jeremiah 25:30</a>). The fermenting juice was collected in new goatskin bags or large pottery jars (<a href=\"https://ref.ly/Matt9:17\">Matthew 9:17</a>).</p><h2>The Role of Vineyards in Daily Life</h2><p>Grape harvest workers could be exempted from military service, showing its economic importance. Taxes and debts were often paid with wine instead of money. The law provided for the poor to glean in the vineyards as in the wheat fields, collecting any grapes or grain that were left behind after harvest (<a href=\"https://ref.ly/Lev19:9-Lev19:10\">Leviticus 19:9–10</a>). Vines that did not produce fruit were used for producing charcoal (<a href=\"https://ref.ly/Ezek15:4\">Ezekiel 15:4</a>; <a href=\"https://ref.ly/John15:6\">John 15:6</a>).</p><h2>Jesus&apos;s Teaching About Vines and Wine</h2><p>Jesus frequently used the vineyard as a background for his parables (<a href=\"https://ref.ly/Matt20:1-Matt20:16\">Matthew 20:1–16</a>; <a href=\"https://ref.ly/Matt21:28-Matt21:43\">21:28–43</a>; <a href=\"https://ref.ly/Mark12:1-Mark12:11\">Mark 12:1–11</a>; <a href=\"https://ref.ly/Luke13:6-Luke13:9\">Luke 13:6–9</a>; <a href=\"https://ref.ly/Luke20:9-Luke20:18\">20:9–18</a>). Wine-making methods were commonly known and understood. Jesus&apos;s story of placing new wine in old wineskins was easily recognizable for New Testament listeners (<a href=\"https://ref.ly/Matt9:17\">Matthew 9:17</a>). In a symbolic sense, Christ described himself as the true vine, and his blood became the sacramental wine of communion (<a href=\"https://ref.ly/John15:1-John15:11\">John 15:1–11</a>).</p><p><em>See also</em> <span data-bnType=\"resourceReference\" data-resourceId=\"2592\" data-resourceType=\"TyndaleBibleDictionary\">Agriculture</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"6929\" data-resourceType=\"TyndaleBibleDictionary\">Plants (Vine)</span>.</p>",
+"content": "<h1>VINES, VINEYARD</h1><p>Vines or grapevines are plants cultivated for the production of grapes, raisins, and wine. A vineyard is a cultivated area of grapevines. </p><p>Scripture mentions grapevines in both literal and figurative senses. Grapevines probably originated in the Ararat region (<a href=\"https://ref.ly/Gen9:20\">Genesis 9:20</a>). The vine was also cultivated in ancient Egypt, where tomb murals depict wine-making. The Canaanites provided wine for Abraham (<a href=\"https://ref.ly/Gen14:18\">14:18</a>). Moses described the vineyards in the promised land (<a href=\"https://ref.ly/Deut6:11\">Deuteronomy 6:11</a>). </p><h2>Why Were Grapevines Important in Bible Times?</h2><p>Excellent grapes from the valleys and plains provided fruit and wine to enhance the bland diet of the Hebrews (<a href=\"https://ref.ly/Num13:20,Num13:24\">Numbers 13:20, 24</a>; <a href=\"https://ref.ly/Judg14:5\">Judges 14:5</a>; <a href=\"https://ref.ly/Judg15:5\">15:5</a>). Wine was an important product that people bought and sold. This trade was very active during the time of Israel&apos;s last kings (compare <a href=\"https://ref.ly/Ezek27:18\">Ezekiel 27:18</a>). It continued to be important later when the Greeks and Romans ruled over the land. For the Hebrews, an ideal picture of life was of a man peacefully in one place, cultivating his plot of land, and sitting under his vine (<a href=\"https://ref.ly/1Kgs4:25\">1&nbsp;Kings 4:25</a>).</p><h2>Growing and Harvesting Grapes</h2><p>A protective hedge or fence surrounded the typical vineyard. At harvest time, guards would stay in a watchtower to guard the crop from thieves (<a href=\"https://ref.ly/Job24:18\">Job 24:18</a>; <a href=\"https://ref.ly/Isa1:8\">Isaiah 1:8</a>; <a href=\"https://ref.ly/Mark12:1\">Mark 12:1</a>). The vines were planted in rows in the enclosed area. As the plants grew, the tendrils were trained along supports to raise the fruit-bearing branches off the ground (<a href=\"https://ref.ly/Ezek17:6\">Ezekiel 17:6</a>). Vinedressers pruned and tended the vines (<a href=\"https://ref.ly/Lev25:3\">Leviticus 25:3</a>; <a href=\"https://ref.ly/Isa61:5\">Isaiah 61:5</a>; <a href=\"https://ref.ly/Joel3:10\">Joel 3:10</a>; <a href=\"https://ref.ly/John15:2\">John 15:2</a>). At harvest time the mature fruit was picked and taken to the winepresses (<a href=\"https://ref.ly/Hos9:2\">Hosea 9:2</a>). The treading of the grapes was a celebratory occasion (<a href=\"https://ref.ly/Isa16:10\">Isaiah 16:10</a>; <a href=\"https://ref.ly/Jer25:30\">Jeremiah 25:30</a>). The fermenting juice was collected in new goatskin bags or large pottery jars (<a href=\"https://ref.ly/Matt9:17\">Matthew 9:17</a>).</p><h2>The Role of Vineyards in Daily Life</h2><p>Grape harvest workers could be exempted from military service, showing its economic importance. Taxes and debts were often paid with wine instead of money. The law provided for the poor to glean in the vineyards as in the wheat fields, collecting any grapes or grain that were left behind after harvest (<a href=\"https://ref.ly/Lev19:9-Lev19:10\">Leviticus 19:9–10</a>). Vines that did not produce fruit were used for producing charcoal (<a href=\"https://ref.ly/Ezek15:4\">Ezekiel 15:4</a>; <a href=\"https://ref.ly/John15:6\">John 15:6</a>).</p><h2>The Teaching of Jesus About Vines and Wine</h2><p>Jesus frequently used the vineyard as a background for his parables (<a href=\"https://ref.ly/Matt20:1-Matt20:16\">Matthew 20:1–16</a>; <a href=\"https://ref.ly/Matt21:28-Matt21:43\">21:28–43</a>; <a href=\"https://ref.ly/Mark12:1-Mark12:11\">Mark 12:1–11</a>; <a href=\"https://ref.ly/Luke13:6-Luke13:9\">Luke 13:6–9</a>; <a href=\"https://ref.ly/Luke20:9-Luke20:18\">20:9–18</a>). Wine-making methods were commonly known and understood. The story Jesus told of placing new wine in old wineskins was easily recognizable for New Testament listeners (<a href=\"https://ref.ly/Matt9:17\">Matthew 9:17</a>). In a symbolic sense, Christ described himself as the true vine, and his blood became the sacramental wine of communion (<a href=\"https://ref.ly/John15:1-John15:11\">John 15:1–11</a>).</p><p><em>See also</em> <span data-bnType=\"resourceReference\" data-resourceId=\"2592\" data-resourceType=\"TyndaleBibleDictionary\">Agriculture</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"6929\" data-resourceType=\"TyndaleBibleDictionary\">Plants (Vine)</span>.</p>",
 "associations": {
 "passage": [
 {
@@ -993,6 +1221,15 @@
 "label": "Plants",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "flora:Vine",
+"type": "flora",
+"preferred_label": "Vine",
+"confidence": 0.6563,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -1041,7 +1278,8 @@
 "label": "Musical Instruments",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -1084,6 +1322,22 @@
 "label": "Animals",
 "language": "eng"
 }
+],
+"acai": [
+{
+"id": "fauna:Viper",
+"type": "fauna",
+"preferred_label": "Viper",
+"confidence": 1.0,
+"match_method": "content_id"
+},
+{
+"id": "fauna:Cobra",
+"type": "fauna",
+"preferred_label": "Cobra",
+"confidence": 0.65,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -1096,7 +1350,7 @@
 "index_reference": "virgin",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>VIRGIN</h1><p>A word used to describe women or metaphorically for places, nations, and the church. It describes a woman who is sexually mature but has not had sex. Mary, mother of Jesus, is an obvious example (<a href=\"https://ref.ly/Matt1:18-Matt1:25\">Matthew 1:18</a><a href=\"https://ref.ly/Matt1:18-Matt1:25\">–</a><a href=\"https://ref.ly/Matt1:18-Matt1:25\">25</a>).</p><p>The Old Testament puts a high value on remaining a virgin before marriage. One of Rebekah’s qualities that made her a suitable bride for Isaac was her virginity (<a href=\"https://ref.ly/Gen24:16\">Genesis 24:16</a>). The law said that priests must marry only virgins (<a href=\"https://ref.ly/Lev21:7,Lev21:13-Lev21:14\">Leviticus 21:7, 13</a><a href=\"https://ref.ly/Lev21:7\">–</a><a href=\"https://ref.ly/Lev21:7,Lev21:13-Lev21:14\">14</a>). They should be the men whose lives most closely conformed to God&apos;s standards.</p><p>This reflects the Bible&apos;s teaching on marriage. It idealizes exclusive faithfulness. The New Testament expresses that ideal by banning premarital sex (<a href=\"https://ref.ly/1Cor6:13,1Cor6:18\">1&nbsp;Corinthians 6:13, 18</a>). It uses &quot;virgin&quot; to describe Christians who are faithful to their Lord (<a href=\"https://ref.ly/Rev14:4\">Revelation 14:4</a>; compare <a href=\"https://ref.ly/2Cor11:2\">2&nbsp;Corinthians 11:2</a>).</p><p>Negatively, the Old Testament highlights the same principle in its penalties for losing a woman&apos;s virginity. If the man is morally responsible, he must either marry her or pay her father (<a href=\"https://ref.ly/Exod22:16-Exod22:17\">Exodus 22:16</a><a href=\"https://ref.ly/Exod22:16-Exod22:17\">–</a><a href=\"https://ref.ly/Exod22:16-Exod22:17\">17</a>). If the woman herself is to blame, the punishment is death (<a href=\"https://ref.ly/Deut22:20-Deut22:21\">Deuteronomy 22:20</a><a href=\"https://ref.ly/Deut22:20-Deut22:21\">–</a><a href=\"https://ref.ly/Deut22:20-Deut22:21\">21</a>). The Old Testament says little, however, to commend lifelong virginity. Jeremiah was told not to marry, only to reinforce God’s warning of coming judgment (<a href=\"https://ref.ly/Jer16:2\">Jeremiah 16:2</a>). From the woman’s point of view, it was a tragedy to remain an unmarried virgin and childless for life (compare <a href=\"https://ref.ly/Judg11:37\">Judges 11:37</a>).</p><p>The New Testament values marriage, but it more clearly shows the benefits of a commitment to virginity for Christian men and women. Celibacy, for some, is God’s gift, declared Paul, because it has positive gains for Christian service (<a href=\"https://ref.ly/1Cor7:7,1Cor7:25-1Cor7:38\">1&nbsp;Corinthians 7:7, 25</a><a href=\"https://ref.ly/1Cor7:7\">–</a><a href=\"https://ref.ly/1Cor7:7,1Cor7:25-1Cor7:38\">38</a>). Jesus commended those who “<span>live like eunuchs</span>” for the kingdom of heaven’s sake (<a href=\"https://ref.ly/Matt19:12\">Matthew 19:12</a>).</p><p><em>See also</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4403\" data-resourceType=\"TyndaleBibleDictionary\">Family Life and Relations</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"6123\" data-resourceType=\"TyndaleBibleDictionary\">Marriage, Marriage Customs</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"7418\" data-resourceType=\"TyndaleBibleDictionary\">Sex, Sexuality</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"8185\" data-resourceType=\"TyndaleBibleDictionary\">Virgin Birth of Jesus</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"8254\" data-resourceType=\"TyndaleBibleDictionary\">Woman</span>.</p>",
+"content": "<h1>VIRGIN</h1><p>A word used to describe women or metaphorically for places, nations, and the church. It describes a woman who is sexually mature but has not had sex. Mary, mother of Jesus, is an obvious example (<a href=\"https://ref.ly/Matt1:18-Matt1:25\">Matthew 1:18</a><a href=\"https://ref.ly/Matt1:18-Matt1:25\">–</a><a href=\"https://ref.ly/Matt1:18-Matt1:25\">25</a>).</p><p>The Old Testament puts a high value on remaining a virgin before marriage. One of Rebekah’s qualities that made her a suitable bride for Isaac was her virginity (<a href=\"https://ref.ly/Gen24:16\">Genesis 24:16</a>). The law said that priests must marry only virgins (<a href=\"https://ref.ly/Lev21:7,Lev21:13-Lev21:14\">Leviticus 21:7, 13</a><a href=\"https://ref.ly/Lev21:7\">–</a><a href=\"https://ref.ly/Lev21:7,Lev21:13-Lev21:14\">14</a>). They should be the men whose lives most closely conformed to God&apos;s standards.</p><p>This reflects the Bible&apos;s teaching on marriage. It idealizes exclusive faithfulness. The New Testament expresses that ideal by banning premarital sex (<a href=\"https://ref.ly/1Cor6:13,1Cor6:18\">1&nbsp;Corinthians 6:13, 18</a>). It uses <em>virgin</em> to describe Christians who are faithful to their Lord (<a href=\"https://ref.ly/Rev14:4\">Revelation 14:4</a>; compare <a href=\"https://ref.ly/2Cor11:2\">2&nbsp;Corinthians 11:2</a>).</p><p>Negatively, the Old Testament highlights the same principle in its penalties for losing a woman&apos;s virginity. If the man is morally responsible, he must either marry her or pay her father (<a href=\"https://ref.ly/Exod22:16-Exod22:17\">Exodus 22:16</a><a href=\"https://ref.ly/Exod22:16-Exod22:17\">–</a><a href=\"https://ref.ly/Exod22:16-Exod22:17\">17</a>). If the woman herself is to blame, the punishment is death (<a href=\"https://ref.ly/Deut22:20-Deut22:21\">Deuteronomy 22:20</a><a href=\"https://ref.ly/Deut22:20-Deut22:21\">–</a><a href=\"https://ref.ly/Deut22:20-Deut22:21\">21</a>). The Old Testament says little, however, to commend lifelong virginity. Jeremiah was told not to marry, only to reinforce God’s warning of coming judgment (<a href=\"https://ref.ly/Jer16:2\">Jeremiah 16:2</a>). From the woman’s point of view, it was a tragedy to remain an unmarried virgin and childless for life (compare <a href=\"https://ref.ly/Judg11:37\">Judges 11:37</a>).</p><p>The New Testament values marriage, but it more clearly shows the benefits of a commitment to virginity for Christian men and women. Celibacy, for some, is God’s gift, declared Paul, because it has positive gains for Christian service (<a href=\"https://ref.ly/1Cor7:7,1Cor7:25-1Cor7:38\">1&nbsp;Corinthians 7:7, 25</a><a href=\"https://ref.ly/1Cor7:7\">–</a><a href=\"https://ref.ly/1Cor7:7,1Cor7:25-1Cor7:38\">38</a>). Jesus commended those who “<span>live like eunuchs</span>” for the kingdom of heaven’s sake (<a href=\"https://ref.ly/Matt19:12\">Matthew 19:12</a>).</p><p><em>See also</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4403\" data-resourceType=\"TyndaleBibleDictionary\">Family Life and Relations</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"6123\" data-resourceType=\"TyndaleBibleDictionary\">Marriage, Marriage Customs</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"7418\" data-resourceType=\"TyndaleBibleDictionary\">Sex, Sexuality</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"8185\" data-resourceType=\"TyndaleBibleDictionary\">Virgin Birth of Jesus</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"8254\" data-resourceType=\"TyndaleBibleDictionary\">Woman</span>.</p>",
 "associations": {
 "passage": [
 {
@@ -1213,20 +1467,21 @@
 "language": "eng"
 },
 {
-"reference_id": 8185,
-"content_id": 9017,
-"resource_code": "TyndaleBibleDictionary",
-"label": "Virgin Birth of Jesus",
-"language": "eng"
-},
-{
 "reference_id": 8254,
 "content_id": 9086,
 "resource_code": "TyndaleBibleDictionary",
 "label": "Woman",
 "language": "eng"
+},
+{
+"reference_id": 8185,
+"content_id": 9017,
+"resource_code": "TyndaleBibleDictionary",
+"label": "Virgin Birth of Jesus",
+"language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -1238,7 +1493,7 @@
 "index_reference": "virgin birth of jesus",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>VIRGIN BIRTH OF JESUS</h1><p>A Christian doctrine, based on the birth stories in <a href=\"https://ref.ly/Matt1:1-Matt1:25\">Matthew 1</a> and <a href=\"https://ref.ly/Luke1:1-Luke2:52\">Luke 1–2</a>, which states that Jesus Christ was conceived by the Holy Spirit and born of the virgin Mary. The idea of the Incarnation (God becoming human) and the divine and human natures of Jesus are based on this historical event. However, rationalists argue that early Christians invented this miracle.</p><h2>The Old Testament Prophecy</h2><p>The King James Version of <a href=\"https://ref.ly/Isa7:14\">Isaiah 7:14</a> says that a &quot;virgin&quot; will &quot;<span>be with child and will give birth to a son … I</span>mmanuel.&quot; <a href=\"https://ref.ly/Matt1:22-Matt1:23\">Matthew 1:22–23</a> clearly states that this was fulfilled with the birth of Jesus. This passage has led to much debate, especially after the Revised Standard Version changed &quot;virgin&quot; to &quot;young woman.&quot; This change was due to the ambiguity of the term in the original manuscripts. The Hebrew word <em>‘almah</em> generally refers to a young girl who has reached puberty and is of marriageable age. Another Hebrew word, <em>bethulah</em>, specifically means a woman who is a virgin. However, the Septuagint translators rendered <em>‘almah</em> as <em>parthenos</em>, which does mean a virgin.</p><p>These linguistic considerations lead to four interpretations:</p><ol><li><p>The “virgin” (<a href=\"https://ref.ly/Isa7:14\">Isaiah 7:14</a>) refers to Ahaz’s new wife, and the son is Hezekiah. However, Hezekiah was nine years old when Ahaz began to reign. Therefore, this prophecy must refer to the future.</p></li><li><p>She was Isaiah’s wife, and their son was Maher-shalal-hash-baz. Many scholars support this interpretation because the definite article with <em>‘almah</em> suggests that “the woman” was known to Isaiah and Ahaz. Additionally, <a href=\"https://ref.ly/Isa7:14-Isa7:16\">Isaiah 7:14–16</a> seems to indicate that the prophecy was to be fulfilled during Isaiah’s time. The challenge is that Isaiah’s wife already had a son, so she could not be called<em> ‘almah</em>.</p></li><li><p>The prophecy is entirely about the Messiah. This is the traditional evangelical view. It is based on the child&apos;s name, Immanuel, meaning &quot;God with us,&quot; and the references (<a href=\"https://ref.ly/Isa9:6-Isa9:7\">Isaiah 9:6–7</a>; <a href=\"https://ref.ly/Isa11:1-Isa11:5\">11:1–5</a>), which indicate a divine person.</p></li><li><p>Many evangelicals have recently chosen a fourth interpretation. This view accepts both the historical fulfillment in Isaiah&apos;s time and the future fulfillment. It considers the historical fulfillment in <a href=\"https://ref.ly/Isa7:15-Isa7:16\">Isaiah 7:15–16</a> and sees the future fulfillment through the virgin birth of Jesus, as shown in <a href=\"https://ref.ly/Matt1:22-Matt1:23\">Matthew 1:22–23</a>.</p></li></ol><h2>The Gospel Records</h2><p>Neither Mark nor John describes the birth of Christ; only Matthew and Luke do. Both agree that Mary, a &quot;virgin,&quot; conceived by the holy spirit and gave birth to Jesus. Matthew&apos;s account is simpler and more direct, attributing Jesus&apos;s birth to divine origins and emphasizing its importance. Jesus is called the &quot;Christ [or Messiah],&quot; the son of David (<a href=\"https://ref.ly/Matt1:1\">Matthew 1:1</a>), who comes to start God&apos;s kingdom. This is shown by fulfilling Isaiah&apos;s prophecy (<a href=\"https://ref.ly/Matt1:22-Matt1:23\">Matthew 1:22–23</a>) and by his unique conception (<a href=\"https://ref.ly/Matt1:18-Matt1:20\">1:18–20</a>). Jesus is &quot;God with us,&quot; here to &quot;<span>save His people from their sins</span>&quot; (<a href=\"https://ref.ly/Matt1:21\">Matthew 1:21</a>). The scene where Joseph plans to quietly divorce Mary highlights the miraculous conception.</p><p>Luke told the Nativity story from Mary&apos;s perspective. The angel Gabriel visited her and announced she would give birth to the Messiah (<a href=\"https://ref.ly/Luke1:26-Luke1:38\">Luke 1:26–38</a>). She conceived miraculously by the holy spirit, as foretold by Gabriel: “<span>The Holy Spirit will come upon you … So the Holy One to be born will be called the Son of God.</span>” (<a href=\"https://ref.ly/Luke1:35\">Luke 1:35</a>). Luke portrayed Mary as devoutly obedient to God&apos;s purposes.</p><h2>Theological Significance for the Church</h2><p>From the start of the church, the belief in the virgin birth was key to understanding Christ&apos;s divine nature. Early church leaders emphasized this event as proof of Jesus&apos;s incarnation and divinity. Justin Martyr and Ignatius defended the virgin birth against critics in the early second century, showing it was already a well-established belief. Over the next three centuries, debates about the virgin birth were significant. Gnostics like Marcion argued that Christ came directly from heaven and was never truly human. </p><p>Meanwhile, groups like the Arians, who denied Jesus&apos;s divinity, also rejected the virgin birth, claiming Jesus was &quot;adopted&quot; as God&apos;s Son at his baptism. The Council of Nicaea in AD 325 confirmed Jesus was truly God, and the Council of Chalcedon in AD 451 declared Jesus was both human and divine, a &quot;hypostatic union&quot; of true natures. The Apostles’ Creed of the fifth century summarizes this by stating, “I believe in … Jesus Christ, his only Son, our Lord, conceived of the Holy Ghost, born of the Virgin Mary.” Most creeds link the virgin birth to Jesus’s sinlessness, as his divine nature is the source of his sinlessness.</p><p>From the beginning, as shown in Matthew and Luke and by early church writers, the virgin birth has been a key church doctrine. It symbolizes Jesus&apos;s dual nature: born of the holy spirit and a woman, he is both God and man. </p><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3716\" data-resourceType=\"TyndaleBibleDictionary\">Christology</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"5184\" data-resourceType=\"TyndaleBibleDictionary\">Incarnation</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"5521\" data-resourceType=\"TyndaleBibleDictionary\">Jesus Christ, Life and Teachings of</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"8186\" data-resourceType=\"TyndaleBibleDictionary\">Virgin</span>.</p>",
+"content": "<h1>VIRGIN BIRTH OF JESUS</h1><p>The doctrine of the virgin birth comes from <a href=\"https://ref.ly/Matt1:1-Matt1:25\">Matthew 1</a> and <a href=\"https://ref.ly/Luke1:1-Luke2:52\">Luke 1–2</a>. It teaches that Jesus Christ was conceived by the Holy Spirit and born of the virgin Mary. The Incarnation (God becoming human in Jesus) and the full divinity and full humanity of Jesus are based on this historical event. However, rationalists argue that early Christians invented this miracle.</p><h2>The Old Testament Prophecy</h2><p>The King James Version of <a href=\"https://ref.ly/Isa7:14\">Isaiah 7:14</a> says that a &quot;virgin&quot; will &quot;<span>be with child and will give birth to a son … I</span>mmanuel.&quot; <a href=\"https://ref.ly/Matt1:22-Matt1:23\">Matthew 1:22–23</a> clearly states that this was fulfilled with the birth of Jesus. This passage has led to much debate, especially after the Revised Standard Version changed &quot;virgin&quot; to &quot;young woman.&quot; It does this because the Hebrew word can have more than one meaning. </p><p>The Hebrew word <em>‘almah</em> generally refers to a young girl who has reached puberty and is of marriageable age. Another Hebrew word, <em>bethulah</em>, specifically refers to a woman who is a virgin. However, the Septuagint translators rendered <em>‘almah</em> as <em>parthenos</em>, which does refer to a virgin.</p><p>From these language details, scholars suggest four main interpretations:</p><ol><li><p>The &quot;virgin&quot; (<a href=\"https://ref.ly/Isa7:14\">Isaiah 7:14</a>) was Ahaz’s new wife, and the son was Hezekiah. However, Hezekiah was already nine years old when Ahaz became king. This makes it unlikely that the prophecy refers to him. So, the prophecy must point to a future event.</p></li><li><p>The woman was Isaiah’s wife, and the son was Maher-shalal-hash-baz. Many scholars support this view. They note that the Hebrew text may refer to “the woman” (a specific, known woman). They also note that <a href=\"https://ref.ly/Isa7:14-Isa7:16\">Isaiah 7:14–16</a> suggests the prophecy would be fulfilled in Isaiah’s time.</p><p>The difficulty is that Isaiah’s wife already had a child. Because of this, it is unlikely she would be called <em>‘almah</em> (a young woman of marriageable age).</p></li><li><p>The prophecy is entirely messianic (about the Messiah, God’s promised king). This is a traditional evangelical view. It points to the name Immanuel, which means “God with us.” It also points to passages like <a href=\"https://ref.ly/Isa9:6-Isa9:7\">Isaiah 9:6–7</a> and <a href=\"https://ref.ly/Isa11:1-Isa11:5\">11:1–5</a>, which describe a divine ruler.</p></li><li><p>Some evangelicals support a fourth view. This view accepts both a historical fulfillment (in Isaiah’s time) and a future fulfillment. It understands <a href=\"https://ref.ly/Isa7:15-Isa7:16\">Isaiah 7:15–16</a> as referring to events in Isaiah’s day. At the same time, it sees the full meaning of the prophecy fulfilled later in the virgin birth of Jesus (<a href=\"https://ref.ly/Matt1:22-Matt1:23\">Matthew 1:22–23</a>).</p></li></ol><h2>The Gospel Records</h2><p>Neither Mark nor John describes the birth of Christ. Only Matthew and Luke include this event. Both agree that Mary, a virgin, conceived by the Holy Spirit and gave birth to a son, Jesus.</p><p>Matthew’s account is simpler and more direct. It attributes the birth of Jesus to divine origins and emphasizes its importance. Jesus is called the Christ (or Messiah), the son of David (<a href=\"https://ref.ly/Matt1:1\">Matthew 1:1</a>), who comes to start God’s kingdom. This is shown by the fulfillment of Isaiah’s prophecy (<a href=\"https://ref.ly/Matt1:22-Matt1:23\">Matthew 1:22–23</a>) and by his unique conception (<a href=\"https://ref.ly/Matt1:18-Matt1:20\">1:18–20</a>). Jesus is God with us. He came to save his people from their sins (<a href=\"https://ref.ly/Matt1:21\">Matthew 1:21</a>). The scene where Joseph plans to quietly divorce Mary highlights the miraculous conception.</p><p>Luke told the Nativity story from Mary&apos;s perspective. The angel Gabriel visited her and announced she would give birth to the Messiah (<a href=\"https://ref.ly/Luke1:26-Luke1:38\">Luke 1:26–38</a>). She conceived miraculously by the holy spirit, as foretold by Gabriel: “<span>The Holy Spirit will come upon you … So the Holy One to be born will be called the Son of God.</span>” (<a href=\"https://ref.ly/Luke1:35\">Luke 1:35</a>). Luke portrayed Mary as devoutly obedient to God&apos;s purposes.</p><h2>Theological Significance for the Church</h2><p>From the very beginning of the church, the doctrine of the virgin birth became an important part of how Christians understood who Jesus is. Some early church leaders emphasized this event more than any other in the life of Jesus. They saw it as proof that Jesus is both fully God and truly human.</p><p>In the early second century, Justin Martyr and Ignatius of Antioch defended the virgin birth against those who opposed it. Even at that early time, many Christians accepted it as an established teaching. In the next three centuries, the virgin birth became an important topic in church debates.</p><p>Some groups, such as the Gnostics and teachers like Marcion, argued that Christ came directly from heaven and was not truly human. Other groups, such as the Arians, denied that Jesus is fully God. Because of this, they also denied the virgin birth. They taught that at his baptism Jesus was “adopted” as the Son of God.</p><p>The Council of Nicaea in AD 325 affirmed that Jesus was truly God. The Council of Chalcedon in AD 451 stated that Jesus was both human and divine. This is called the hypostatic union (the belief that Jesus has both a human nature and a divine nature). </p><p>The Apostles’ Creed developed in the early centuries of the church and reached a stable form by the fifth century. This creed summarizes these teachings about who Jesus is by stating, “I believe in … Jesus Christ, his only Son, our Lord, conceived of the Holy Ghost, born of the Virgin Mary.” Many Christian traditions connect the virgin birth with Jesus’s sinlessness, though they explain this in different ways.</p><p>From the beginning, as shown in Matthew and Luke and by early church writers, the virgin birth has been a key church doctrine. It symbolizes the dual nature of Jesus: born of the holy spirit and a woman, he is both God and man. </p><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3716\" data-resourceType=\"TyndaleBibleDictionary\">Christology</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"5184\" data-resourceType=\"TyndaleBibleDictionary\">Incarnation</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"5521\" data-resourceType=\"TyndaleBibleDictionary\">Jesus Christ, Life and Teachings of</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"8186\" data-resourceType=\"TyndaleBibleDictionary\">Virgin</span>.</p>",
 "associations": {
 "passage": [
 {
@@ -1349,7 +1604,8 @@
 "label": "Virgin",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -1361,7 +1617,7 @@
 "index_reference": "vision, visions",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>VISION, VISIONS</h1><p>A vision is when someone sees something with their eyes or in their mind. In the Bible, visions usually mean special messages that God showed to prophets. </p><h2>Types of Visions</h2><h3>Visions About the Present</h3><p>In early Old Testament prophecy (when prophets first began speaking God&apos;s messages), there are examples of special sight that others did not have. The people saw this special sight as proof that someone was truly a prophet of God. </p><p>Samuel was a &quot;seer&quot; or visionary. He was able to &quot;see&quot; where Saul’s lost donkeys were and to tell him where they were (<a href=\"https://ref.ly/1Sam9:19-1Sam9:20\">1&nbsp;Samuel 9:19–20</a>). Elisha was able to follow Gehazi’s wrongful actions &quot;in spirit&quot; and confront him on his return (<a href=\"https://ref.ly/2Kgs5:26\">2&nbsp;Kings 5:26</a>). This special ability to see things was a gift from God that he gave only to his prophets. These visions showed the prophets things that were happening on earth at that time.</p><h3>Visions About the Future</h3><p>God also gave prophets revelatory visions that showed things about the future. Sometimes, God shared these messages through dreams. Both visions and dreams were true ways that God revealed things to His prophets. The main difference seems to be that visions happened during the day, while dreams came during sleep.</p><p>There are different types of revelatory vision. One type was when God&apos;s Spirit completely took over the prophet&apos;s senses. For example, Ezekiel could be spiritually moved to different places while in this special state (<a href=\"https://ref.ly/Ezek8:3\">Ezekiel 8:3</a>; <a href=\"https://ref.ly/Ezek40:2\">40:2</a>). Daniel’s vision in <a href=\"https://ref.ly/Dan8:1-Dan8:27\">Daniel 8</a> was probably of the same type, and so perhaps was Jeremiah’s experience in <a href=\"https://ref.ly/Jer13:4-Jer13:7\">Jeremiah 13:4–7</a>. </p><h3>Visions of Ordinary Things with Special Meaning</h3><p>Another type was when God helped prophets see deeper meaning in ordinary things. For instance, God showed Amos a basket of summer fruit, but it had special meaning. God &quot;caused&quot; Amos &quot;to see&quot; the basket (<a href=\"https://ref.ly/Amos8:1-Amos8:2\">Amos 8:1–2</a>). Jeremiah had similar visions when God showed him an almond branch and a pot that was tipping over (<a href=\"https://ref.ly/Jer1:11-Jer1:13\">Jeremiah 1:11–13</a>). </p><h3>Heavenly Visions</h3><p>There was also a middle type of vision, where prophets saw pictures of heavenly things. Isaiah saw visions of heaven (<a href=\"https://ref.ly/1Kgs22:19-1Kgs22:22\">1&nbsp;Kings 22:19–22</a>; <a href=\"https://ref.ly/Isa6:1-Isa6:13\">Isaiah 6</a>). The apostle John had similar visions when he wrote the book of Revelation.</p><h2>How God Communicated Through Visions</h2><p>Prophets could receive God&apos;s messages by seeing things or by hearing God&apos;s voice. Typically, a spoken message was communicated with an image the prophet could see so that the seeing and hearing took place at the same time. This was the case with Isaiah, who both &quot;saw the Lord&quot; and heard his voice. </p><p>Sometimes, even when prophets only heard God&apos;s voice, people called it a &quot;vision&quot; because it was still a message from God. In many places in the Bible, it is hard to tell if &quot;vision&quot; means the prophet mostly saw something or if it just means they received any kind of message from God (for example <a href=\"https://ref.ly/Ezek12:21-Ezek12:28\">Ezekiel 12:21–28</a>). Often, &quot;vision&quot; is used simply as a technical term for any message from God, even if it was just words the prophet heard. When God first called Samuel to be a prophet, the Bible specifically uses the word &quot;vision&quot; to describe this event (<a href=\"https://ref.ly/1Sam3:15\">1&nbsp;Samuel 3:15</a>). </p><p>The prophetic books in the Bible contain messages from God delivered through prophets and often include visions, warnings, and promises. Several of the prophetic books have the word &quot;vision&quot; in their first verse (<a href=\"https://ref.ly/Isa1:1\">Isaiah 1:1</a>; <a href=\"https://ref.ly/Obad1:1\">Obadiah 1:1</a>; <a href=\"https://ref.ly/Nah1:1\">Nahum 1:1</a>). When Nathan told David about God&apos;s special promise to him (God&apos;s covenant), this message is also called a &quot;vision (<a href=\"https://ref.ly/2Sam7:17\">2&nbsp;Samuel 7:17</a>; <a href=\"https://ref.ly/1Chr17:15\">1&nbsp;Chronicles 17:15</a>; <a href=\"https://ref.ly/Ps89:19\">Psalms 89:19</a>). In <a href=\"https://ref.ly/Dan9:24\">Daniel 9:24</a> &quot;to seal both vision and prophet&quot; means to confirm that Jeremiah&apos;s prophecy (mentioned in verse <a href=\"https://ref.ly/Dan9:2\">2</a>) was true and would happen. </p><p>There is a famous verse in Proverbs that says, &quot;<span>Where there is no vision, the people cast off restraint</span>&quot; (<a href=\"https://ref.ly/Prov29:18\">Proverbs 29:18</a>). In this verse, &quot;vision&quot; means the messages God gave through prophets. These prophetic messages were meant to help guide the people of Israel in how to live. </p><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"2829\" data-resourceType=\"TyndaleBibleDictionary\">Apocalypse</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"4065\" data-resourceType=\"TyndaleBibleDictionary\">Dreams</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"6998\" data-resourceType=\"TyndaleBibleDictionary\">Prophecy</span>.</p>",
+"content": "<h1>VISION, VISIONS</h1><p>A vision is when someone sees something with their eyes or in their mind. In the Bible, visions usually mean special messages that God showed to prophets. </p><h2>Types of Visions</h2><h3>Visions About the Present</h3><p>In early Old Testament prophecy (when prophets first began speaking God&apos;s messages), there are examples of special sight that others did not have. The people saw this special sight as proof that someone was truly a prophet of God. </p><p>Samuel was a seer or visionary. He was able to <em>see</em> (that is, to perceive by divine insight) where Saul’s lost donkeys were and to tell him where they were (<a href=\"https://ref.ly/1Sam9:19-1Sam9:20\">1&nbsp;Samuel 9:19–20</a>). Elisha was aware of Gehazi’s actions at a distance, not physically present but perceiving them through prophetic insight (<a href=\"https://ref.ly/2Kgs5:26\">2&nbsp;Kings 5:26</a>). This special ability to see things was a gift from God that he gave only to his prophets. These visions showed the prophets things that were happening on earth at that time.</p><h3>Visions About the Future</h3><p>God also gave prophets revelatory visions that showed things about the future. Sometimes, God shared these messages through dreams. Both visions and dreams were true ways that God revealed things to His prophets. The main difference seems to be that visions happened during the day, while dreams came during sleep.</p><p>There are different types of revelatory vision. One type was when God&apos;s Spirit completely took over the prophet&apos;s senses. For example, Ezekiel could be spiritually moved to different places while in this special state (<a href=\"https://ref.ly/Ezek8:3\">Ezekiel 8:3</a>; <a href=\"https://ref.ly/Ezek40:2\">40:2</a>). Daniel’s vision in <a href=\"https://ref.ly/Dan8:1-Dan8:27\">Daniel 8</a> was probably of the same type, and so perhaps was Jeremiah’s experience in <a href=\"https://ref.ly/Jer13:4-Jer13:7\">Jeremiah 13:4–7</a>. </p><h3>Visions of Ordinary Things with Special Meaning</h3><p>Another type was when God helped prophets see deeper meaning in ordinary things. For instance, God showed Amos a basket of summer fruit, but it had special meaning. God caused Amos to see the basket (<a href=\"https://ref.ly/Amos8:1-Amos8:2\">Amos 8:1–2</a>). Jeremiah had similar visions when God showed him an almond branch and a pot that was tipping over (<a href=\"https://ref.ly/Jer1:11-Jer1:13\">Jeremiah 1:11–13</a>). </p><h3>Heavenly Visions</h3><p>There was also a middle type of vision, where prophets saw pictures of heavenly things. Isaiah saw visions of heaven (<a href=\"https://ref.ly/1Kgs22:19-1Kgs22:22\">1&nbsp;Kings 22:19–22</a>; <a href=\"https://ref.ly/Isa6:1-Isa6:13\">Isaiah 6</a>). The apostle John had similar visions when he wrote the book of Revelation.</p><h2>How God Communicated Through Visions</h2><p>Prophets could receive God&apos;s messages by seeing things or by hearing God&apos;s voice. Typically, a spoken message was communicated with an image that the prophet could see so that the seeing and hearing took place at the same time. This was the case with Isaiah, who both &quot;saw the Lord&quot; and heard his voice. </p><p>Sometimes, even when prophets only heard God&apos;s voice, people called it a vision because it was still a message from God. In many places in the Bible, it is hard to tell if <em>vision</em> means the prophet mostly saw something or if it just means they received any kind of message from God (for example <a href=\"https://ref.ly/Ezek12:21-Ezek12:28\">Ezekiel 12:21–28</a>). Often, <em>vision</em> is used simply as a technical term for any message from God, even if it was just words the prophet heard. When God first called Samuel to be a prophet, the Bible specifically uses the word <em>vision</em> to describe this event (<a href=\"https://ref.ly/1Sam3:15\">1&nbsp;Samuel 3:15</a>). </p><p>The prophetic books in the Bible contain messages from God delivered through prophets and often include visions, warnings, and promises. Several of the prophetic books have the word <em>vision</em>&quot;= in their first verse (<a href=\"https://ref.ly/Isa1:1\">Isaiah 1:1</a>; <a href=\"https://ref.ly/Obad1:1\">Obadiah 1:1</a>; <a href=\"https://ref.ly/Nah1:1\">Nahum 1:1</a>). When Nathan told David about God&apos;s special promise to him (God&apos;s covenant), this message is also called a vision (<a href=\"https://ref.ly/2Sam7:17\">2&nbsp;Samuel 7:17</a>; <a href=\"https://ref.ly/1Chr17:15\">1&nbsp;Chronicles 17:15</a>; <a href=\"https://ref.ly/Ps89:19\">Psalms 89:19</a>). In <a href=\"https://ref.ly/Dan9:24\">Daniel 9:24</a> &quot;to seal both vision and prophet&quot; means to confirm that Jeremiah&apos;s prophecy (mentioned in verse <a href=\"https://ref.ly/Dan9:2\">2</a>) was true and would happen. </p><p>There is a famous verse in Proverbs that says, &quot;<span>Where there is no vision, the people cast off restraint</span>&quot; (<a href=\"https://ref.ly/Prov29:18\">Proverbs 29:18</a>). In this verse, <em>vision</em> means the messages God gave through prophets. These prophetic messages were meant to help guide the people of Israel in how to live. </p><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"2829\" data-resourceType=\"TyndaleBibleDictionary\">Apocalypse</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"4065\" data-resourceType=\"TyndaleBibleDictionary\">Dreams</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"6998\" data-resourceType=\"TyndaleBibleDictionary\">Prophecy</span>.</p>",
 "associations": {
 "passage": [
 {
@@ -1513,7 +1769,8 @@
 "label": "Prophecy",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -1535,7 +1792,16 @@
 "end_ref_usfm": "NUM 13:14"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Vophsi",
+"type": "person",
+"preferred_label": "Vophsi",
+"confidence": 1.0,
+"match_method": "content_id"
+}
+]
 }
 },
 {
@@ -1547,7 +1813,7 @@
 "index_reference": "vow, vows",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>VOW, VOWS</h1><p>Serious promises or pledges made to God.</p><h2>Vows as a Religious Practice</h2><p>Making vows to God is a religious practice mentioned often in Scripture. Most references to vows are found in the Old Testament, especially in the Psalms. There are some vows mentioned in the New Testament</p><p>Tithing, sacrifices and offerings, keeping the Sabbath, and circumcision were all commanded by the Mosaic law. Making vows was not. For example, <a href=\"https://ref.ly/Ps50:14\">Psalm 50:14</a> says, &quot;<span>Sacrifice a thank offering to God, and fulfill your vows to the Most High.</span>&quot; The command is to keep or fulfill a pledge that has already been made. No order is given to make a promise, only to fulfill one when it is made. The practice is accepted and regulated but not demanded.</p><h2>Types of Vows in the Bible</h2><p>The purpose of a vow is to win favor from the Lord, to express gratitude to him for some deliverance or benefit, or to prove absolute devotion to him. Personal dedication and separation to the Lord were the main features of the Nazirite vow. Samson, Samuel, and John the Baptist are the most familiar examples of those who took this type of vow. <a href=\"https://ref.ly/Num6:1-Num6:8\">Numbers 6:1–8</a> outlines the conditions of this commitment. Verses <a href=\"https://ref.ly/Num6:13-Num6:21\">13–21</a> tell how to be released from the vow. Women might also take this vow (verse <a href=\"https://ref.ly/Num6:2\">2</a>), and it might only be for a designated time. The Recabite clan pledged themselves to a simple and unsettled life. They are a compelling illustration of loyalty to the God of Israel (<a href=\"https://ref.ly/Jer35:1-Jer35:19\">Jeremiah 35</a>).</p><p>Some vows were taken as a type of bargain with God. At Bethel, Jacob promised God worship and the tithe if God would protect him and supply his needs (<a href=\"https://ref.ly/Gen28:20-Gen28:22\">Genesis 28:20</a><a href=\"https://ref.ly/Num6:13-Num6:21\">–</a><a href=\"https://ref.ly/Gen28:20-Gen28:22\">22</a>). Hannah pledged that if God would give her a son, she would return him to God (<a href=\"https://ref.ly/1Sam1:11,1Sam1:27-1Sam1:28\">1&nbsp;Samuel 1:11, 27</a><a href=\"https://ref.ly/Num6:13-Num6:21\">–</a><a href=\"https://ref.ly/1Sam1:11,1Sam1:27-1Sam1:28\">28</a>). In the Psalms, paying a vow is often associated with thanksgiving for deliverance from danger or affliction (for example, <a href=\"https://ref.ly/Ps22:24-Ps22:25\">Psalms 22:24</a><a href=\"https://ref.ly/Num6:13-Num6:21\">–</a><a href=\"https://ref.ly/Ps22:24-Ps22:25\">25</a>; <a href=\"https://ref.ly/Ps56:12-Ps56:13\">56:12</a><a href=\"https://ref.ly/Num6:13-Num6:21\">–</a><a href=\"https://ref.ly/Ps56:12-Ps56:13\">13</a>).</p><p>Once a vow is made, the obligation is serious. Not making a vow is not sin (<a href=\"https://ref.ly/Deut23:22\">Deuteronomy 23:22</a>). Once declared, the vow must be kept (<a href=\"https://ref.ly/Deut23:21-Deut23:23\">Deuteronomy 23:21</a><a href=\"https://ref.ly/Num6:13-Num6:21\">–</a><a href=\"https://ref.ly/Deut23:21-Deut23:23\">23</a>; see also <a href=\"https://ref.ly/Num30:2\">Numbers 30:2</a>; <a href=\"https://ref.ly/Eccl5:4-Eccl5:6\">Ecclesiastes 5:4</a><a href=\"https://ref.ly/Num6:13-Num6:21\">–</a><a href=\"https://ref.ly/Eccl5:4-Eccl5:6\">6</a>).</p><h2>Vows in the New Testament</h2><p>&quot;Vow&quot; is used only twice in the New Testament. Both uses are connected to the apostle Paul (<a href=\"https://ref.ly/Acts18:18\">Acts 18:18</a>; <a href=\"https://ref.ly/Acts21:23-Acts21:24\">21:23</a><a href=\"https://ref.ly/Num6:13-Num6:21\">–</a><a href=\"https://ref.ly/Acts21:23-Acts21:24\">24</a>). But the same principle is involved in the case of the word &quot;Corban&quot; (<a href=\"https://ref.ly/Mark7:11-Mark7:13\">Mark 7:11</a><a href=\"https://ref.ly/Num6:13-Num6:21\">–</a><a href=\"https://ref.ly/Mark7:11-Mark7:13\">13</a>; compare <a href=\"https://ref.ly/Matt15:5-Matt15:6\">Matthew 15:5</a><a href=\"https://ref.ly/Num6:13-Num6:21\">–</a><a href=\"https://ref.ly/Matt15:5-Matt15:6\">6</a>). In these two passages, Jesus rebuked those who made a vow because the vow was a way to get out of another obligation. Money was involved in such a &quot;gift&quot; or &quot;offering.&quot; But Jesus said that God did not want a gift designed to deny others of care.</p><p>Paul may have taken vows to avoid the common objections Jews and Jewish-Christian believers made about him. They often objected to the way Paul lifted the obligations of Mosaic law for gentile believers. Paul was in Jerusalem under the watch of Jewish authorities. He made it a point to join with four other Jewish believers in paying vows in the temple. His enemies then charged Paul with bringing Gentiles into the holy temple.</p><p><em>See also</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3842\" data-resourceType=\"TyndaleBibleDictionary\">Covenant</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"6616\" data-resourceType=\"TyndaleBibleDictionary\">Oath</span>.</p>",
+"content": "<h1>VOW, VOWS</h1><p>Serious promises or pledges made to God.</p><h2>Vows as a Religious Practice</h2><p>Making vows to God is a religious practice mentioned often in Scripture. Most references to vows are found in the Old Testament, especially in the Psalms. There are some vows mentioned in the New Testament</p><p>Tithing, sacrifices and offerings, keeping the Sabbath, and circumcision were all commanded by the Mosaic law. Making vows was not. For example, <a href=\"https://ref.ly/Ps50:14\">Psalm 50:14</a> says, &quot;<span>Sacrifice a thank offering to God, and fulfill your vows to the Most High.</span>&quot; The command is to keep or fulfill a pledge that has already been made. No order is given to make a promise, only to fulfill one when it is made. The practice is accepted and regulated but not demanded.</p><h2>Types of Vows in the Bible</h2><p>The purpose of a vow is to win favor from the Lord, to express gratitude to him for some deliverance or benefit, or to prove absolute devotion to him. Personal dedication and separation to the Lord were the main features of the Nazirite vow. Samson, Samuel, and John the Baptist are the most familiar examples of those who took this type of vow. <a href=\"https://ref.ly/Num6:1-Num6:8\">Numbers 6:1–8</a> outlines the conditions of this commitment. Verses <a href=\"https://ref.ly/Num6:13-Num6:21\">13–21</a> tell how to be released from the vow. Women might also take this vow (verse <a href=\"https://ref.ly/Num6:2\">2</a>), and it might only be for a designated time. The Recabite clan pledged themselves to a simple and unsettled life. They are a compelling illustration of loyalty to the God of Israel (<a href=\"https://ref.ly/Jer35:1-Jer35:19\">Jeremiah 35</a>).</p><p>Some vows were taken as a type of bargain with God. At Bethel, Jacob promised God worship and the tithe if God would protect him and supply his needs (<a href=\"https://ref.ly/Gen28:20-Gen28:22\">Genesis 28:20</a><a href=\"https://ref.ly/Num6:13-Num6:21\">–</a><a href=\"https://ref.ly/Gen28:20-Gen28:22\">22</a>). Hannah pledged that if God would give her a son, she would return him to God (<a href=\"https://ref.ly/1Sam1:11,1Sam1:27-1Sam1:28\">1&nbsp;Samuel 1:11, 27</a><a href=\"https://ref.ly/Num6:13-Num6:21\">–</a><a href=\"https://ref.ly/1Sam1:11,1Sam1:27-1Sam1:28\">28</a>). In the Psalms, paying a vow is often associated with thanksgiving for deliverance from danger or affliction (for example, <a href=\"https://ref.ly/Ps22:24-Ps22:25\">Psalms 22:24</a><a href=\"https://ref.ly/Num6:13-Num6:21\">–</a><a href=\"https://ref.ly/Ps22:24-Ps22:25\">25</a>; <a href=\"https://ref.ly/Ps56:12-Ps56:13\">56:12</a><a href=\"https://ref.ly/Num6:13-Num6:21\">–</a><a href=\"https://ref.ly/Ps56:12-Ps56:13\">13</a>).</p><p>Once a vow is made, the obligation is serious. Not making a vow is not a sin (<a href=\"https://ref.ly/Deut23:22\">Deuteronomy 23:22</a>). Once declared, the vow must be kept (<a href=\"https://ref.ly/Deut23:21-Deut23:23\">Deuteronomy 23:21</a><a href=\"https://ref.ly/Num6:13-Num6:21\">–</a><a href=\"https://ref.ly/Deut23:21-Deut23:23\">23</a>; see also <a href=\"https://ref.ly/Num30:2\">Numbers 30:2</a>; <a href=\"https://ref.ly/Eccl5:4-Eccl5:6\">Ecclesiastes 5:4</a><a href=\"https://ref.ly/Num6:13-Num6:21\">–</a><a href=\"https://ref.ly/Eccl5:4-Eccl5:6\">6</a>).</p><h2>Vows in the New Testament</h2><p><em>Vow</em> is used only twice in the New Testament. Both uses are connected to the apostle Paul (<a href=\"https://ref.ly/Acts18:18\">Acts 18:18</a>; <a href=\"https://ref.ly/Acts21:23-Acts21:24\">21:23</a><a href=\"https://ref.ly/Num6:13-Num6:21\">–</a><a href=\"https://ref.ly/Acts21:23-Acts21:24\">24</a>). But the same principle is involved in the case of the word <em>Corban</em> (<a href=\"https://ref.ly/Mark7:11-Mark7:13\">Mark 7:11</a><a href=\"https://ref.ly/Num6:13-Num6:21\">–</a><a href=\"https://ref.ly/Mark7:11-Mark7:13\">13</a>; compare <a href=\"https://ref.ly/Matt15:5-Matt15:6\">Matthew 15:5</a><a href=\"https://ref.ly/Num6:13-Num6:21\">–</a><a href=\"https://ref.ly/Matt15:5-Matt15:6\">6</a>). In these two passages, Jesus rebuked those who made a vow because the vow was a way to get out of another obligation. Money was involved in such a &quot;gift&quot; or &quot;offering.&quot; But Jesus said that God did not want a gift designed to deny others care.</p><p>Paul may have taken vows to avoid the common objections Jews and Jewish-Christian believers made about him. They often objected to the way Paul lifted the obligations of Mosaic law for Gentile believers. Paul was in Jerusalem under the watch of Jewish authorities. He made it a point to join with four other Jewish believers in paying vows in the temple. His enemies then charged Paul with bringing Gentiles into the holy temple.</p><p><em>See also</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3842\" data-resourceType=\"TyndaleBibleDictionary\">Covenant</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"6616\" data-resourceType=\"TyndaleBibleDictionary\">Oath</span>.</p>",
 "associations": {
 "passage": [
 {
@@ -1674,7 +1940,8 @@
 "label": "Oath",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -1697,7 +1964,8 @@
 "label": "Bible, Versions of the (Ancient)",
 "language": "eng"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -1726,6 +1994,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Eagle",
 "language": "eng"
+}
+],
+"acai": [
+{
+"id": "fauna:Vulture",
+"type": "fauna",
+"preferred_label": "Vulture",
+"confidence": 1.0,
+"match_method": "content_id"
 }
 ]
 }
