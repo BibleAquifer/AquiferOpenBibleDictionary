@@ -38,6 +38,29 @@
 "label": "Séba, Schéba (Personne)",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "person:Seba",
+"type": "person",
+"preferred_label": "Saba",
+"confidence": 0.8667,
+"match_method": "scored"
+},
+{
+"id": "person:Sabtah",
+"type": "person",
+"preferred_label": "Sabta",
+"confidence": 0.8172,
+"match_method": "scored"
+},
+{
+"id": "place:Seba",
+"type": "place",
+"preferred_label": "Saba",
+"confidence": 0.7333,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -66,7 +89,8 @@
 "end_ref_usfm": "MRK 15:34"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -88,7 +112,23 @@
 "end_ref_usfm": "2KI 16:18"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "keyterm:Sabbath",
+"type": "keyterm",
+"preferred_label": "sabbat",
+"confidence": 0.625,
+"match_method": "scored"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "Éternel",
+"confidence": 0.58,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -116,7 +156,23 @@
 "end_ref_usfm": "1CH 1:9"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Sabtah",
+"type": "person",
+"preferred_label": "Sabta",
+"confidence": 1.0,
+"match_method": "scored"
+},
+{
+"id": "person:Seba",
+"type": "person",
+"preferred_label": "Saba",
+"confidence": 0.9505,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -144,7 +200,16 @@
 "end_ref_usfm": "1CH 1:9"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Sabteca",
+"type": "person",
+"preferred_label": "Sabteca",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -178,7 +243,23 @@
 "end_ref_usfm": "1CH 26:4"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Sharar",
+"type": "person",
+"preferred_label": "Scharar",
+"confidence": 0.8667,
+"match_method": "scored"
+},
+{
+"id": "person:Sachar",
+"type": "person",
+"preferred_label": "Sacar",
+"confidence": 0.7333,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -396,6 +477,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Tabernacle",
 "language": "fra"
+}
+],
+"acai": [
+{
+"id": "keyterm:Priesthood",
+"type": "keyterm",
+"preferred_label": "sacerdoce",
+"confidence": 0.5682,
+"match_method": "scored"
 }
 ]
 }
@@ -829,7 +919,8 @@
 "label": "Sacerdoce",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -986,6 +1077,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Pharisiens",
 "language": "fra"
+}
+],
+"acai": [
+{
+"id": "group:Sadducee",
+"type": "group",
+"preferred_label": "Sadducéens",
+"confidence": 0.6154,
+"match_method": "scored"
 }
 ]
 }
@@ -1147,7 +1247,8 @@
 "end_ref_usfm": "1KI 2:6"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -1523,7 +1624,8 @@
 "end_ref_usfm": "1CO 10:4"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -1641,7 +1743,8 @@
 "end_ref_usfm": "1PE 1:16"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -1795,7 +1898,8 @@
 "label": "possessions, richesses",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -1817,7 +1921,16 @@
 "end_ref_usfm": "ACT 13:5"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Salamis",
+"type": "place",
+"preferred_label": "Salamine",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -1851,7 +1964,16 @@
 "end_ref_usfm": "LUK 3:27"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shealtiel",
+"type": "person",
+"preferred_label": "Schealthiel",
+"confidence": 0.7333,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -1891,7 +2013,16 @@
 "end_ref_usfm": "1CH 5:11"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Salecah",
+"type": "place",
+"preferred_label": "Salca",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -1932,6 +2063,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Jérusalem",
 "language": "fra"
+}
+],
+"acai": [
+{
+"id": "place:Jerusalem",
+"type": "place",
+"preferred_label": "Jérusalem",
+"confidence": 1.0,
+"match_method": "scored"
 }
 ]
 }
@@ -1975,6 +2115,15 @@
 "label": "Sallu",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "person:Sallai",
+"type": "person",
+"preferred_label": "Sallaï",
+"confidence": 0.7333,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -2015,7 +2164,30 @@
 "end_ref_usfm": "NEH 12:20"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Sallu",
+"type": "person",
+"preferred_label": "Sallu",
+"confidence": 0.8,
+"match_method": "scored"
+},
+{
+"id": "person:Sallu.3",
+"type": "person",
+"preferred_label": "Sallu",
+"confidence": 0.7,
+"match_method": "scored"
+},
+{
+"id": "person:Sallu.2",
+"type": "person",
+"preferred_label": "Sallu",
+"confidence": 0.7,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -2049,7 +2221,23 @@
 "end_ref_usfm": "1CH 2:54"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Salma",
+"type": "person",
+"preferred_label": "Salma",
+"confidence": 0.8667,
+"match_method": "scored"
+},
+{
+"id": "person:Salmon",
+"type": "person",
+"preferred_label": "Salmon",
+"confidence": 0.5833,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -2084,6 +2272,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Schamlaï",
 "language": "fra"
+}
+],
+"acai": [
+{
+"id": "person:Sallai",
+"type": "person",
+"preferred_label": "Sallaï",
+"confidence": 0.8236,
+"match_method": "embedding"
 }
 ]
 }
@@ -2134,6 +2331,15 @@
 "label": "Obélisque Noir",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "person:Shalmaneser",
+"type": "person",
+"preferred_label": "Salmanasar",
+"confidence": 0.6222,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -2156,7 +2362,16 @@
 "end_ref_usfm": "ACT 27:7"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Salmone",
+"type": "place",
+"preferred_label": "Salmone",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -2208,7 +2423,23 @@
 "end_ref_usfm": "JHN 19:25"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Salome",
+"type": "person",
+"preferred_label": "Salomé",
+"confidence": 0.7333,
+"match_method": "scored"
+},
+{
+"id": "person:Salome.2",
+"type": "person",
+"preferred_label": "Salomé",
+"confidence": 0.6,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -2416,6 +2647,15 @@
 "label": "Proverbes, Livre des",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "person:Solomon",
+"type": "person",
+"preferred_label": "Salomon",
+"confidence": 0.7275,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -2438,7 +2678,16 @@
 "end_ref_usfm": "NUM 25:14"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Salu",
+"type": "person",
+"preferred_label": "Salu",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -2563,6 +2812,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Samaritains",
 "language": "fra"
+}
+],
+"acai": [
+{
+"id": "place:Samaria",
+"type": "place",
+"preferred_label": "Samarie",
+"confidence": 0.6548,
+"match_method": "scored"
 }
 ]
 }
@@ -2796,7 +3054,16 @@
 "end_ref_usfm": "JHN 4:18"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "group:Samaritan",
+"type": "group",
+"preferred_label": "Shimrath",
+"confidence": 0.5981,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -2824,7 +3091,16 @@
 "end_ref_usfm": "1CH 1:48"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Samlah",
+"type": "person",
+"preferred_label": "Samla",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -2846,7 +3122,16 @@
 "end_ref_usfm": "ACT 20:15"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Samos",
+"type": "place",
+"preferred_label": "Samos",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -2880,7 +3165,16 @@
 "end_ref_usfm": "ACT 20:15"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Samothrace",
+"type": "place",
+"preferred_label": "Samothrace",
+"confidence": 0.7333,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -2995,6 +3289,15 @@
 "label": "Juges, Livre de",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "person:Samson",
+"type": "person",
+"preferred_label": "Samson",
+"confidence": 0.6122,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -3036,6 +3339,29 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Samuel (Personne)",
 "language": "fra"
+}
+],
+"acai": [
+{
+"id": "person:Shemuel",
+"type": "person",
+"preferred_label": "Samuel",
+"confidence": 0.7,
+"match_method": "scored"
+},
+{
+"id": "person:Shemuel.2",
+"type": "person",
+"preferred_label": "Samuel",
+"confidence": 0.7,
+"match_method": "scored"
+},
+{
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "Samuel",
+"confidence": 0.55,
+"match_method": "scored"
 }
 ]
 }
@@ -3317,7 +3643,16 @@
 "end_ref_usfm": "1CH 9:26"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Samuel",
+"type": "person",
+"preferred_label": "Samuel",
+"confidence": 0.6827,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -4075,7 +4410,8 @@
 "label": "Saül, Saul",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -4127,7 +4463,16 @@
 "end_ref_usfm": "NEH 6:14"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Sanballat",
+"type": "person",
+"preferred_label": "Sanballat",
+"confidence": 0.8105,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -4168,6 +4513,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Assyrie, Assyriens",
 "language": "fra"
+}
+],
+"acai": [
+{
+"id": "person:Sennacherib",
+"type": "person",
+"preferred_label": "Sanchérib",
+"confidence": 0.6727,
+"match_method": "scored"
 }
 ]
 }
@@ -4350,7 +4704,8 @@
 "label": "Justification, Justifié",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -4423,7 +4778,8 @@
 "label": "Temple",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -4445,7 +4801,16 @@
 "end_ref_usfm": "1KI 10:12"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "realia:Sandal",
+"type": "realia",
+"preferred_label": "Sandal",
+"confidence": 1.0,
+"match_method": "embedding"
+}
+]
 }
 },
 {
@@ -4480,6 +4845,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Sandal",
 "language": "fra"
+}
+],
+"acai": [
+{
+"id": "realia:Sandal",
+"type": "realia",
+"preferred_label": "Sandal",
+"confidence": 1.0,
+"match_method": "embedding"
 }
 ]
 }
@@ -4733,6 +5107,15 @@
 "label": "Offrandes et Sacrifices",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"preferred_label": "sang",
+"confidence": 0.8082,
+"match_method": "embedding"
+}
 ]
 }
 },
@@ -4761,7 +5144,16 @@
 "end_ref_usfm": "ACT 1:19"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"preferred_label": "sang",
+"confidence": 0.6115,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -5001,7 +5393,8 @@
 "label": "Droit pénal et sanctions",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -5065,7 +5458,8 @@
 "end_ref_usfm": "LUK 8:48"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -5222,6 +5616,15 @@
 "label": "Concile de Jérusalem",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "group:Sanhedrin",
+"type": "group",
+"preferred_label": "Sanhedrin",
+"confidence": 0.9507,
+"match_method": "embedding"
+}
 ]
 }
 },
@@ -5250,7 +5653,16 @@
 "end_ref_usfm": "JOS 19:5"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Sansannah",
+"type": "place",
+"preferred_label": "Sansanna",
+"confidence": 0.8,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -5278,7 +5690,16 @@
 "end_ref_usfm": "1CH 20:4"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Saph",
+"type": "person",
+"preferred_label": "Saph",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -5307,6 +5728,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Ananias",
 "language": "fra"
+}
+],
+"acai": [
+{
+"id": "person:Sapphira",
+"type": "person",
+"preferred_label": "Saphira",
+"confidence": 1.0,
+"match_method": "scored"
 }
 ]
 }
@@ -5519,6 +5949,22 @@
 "label": "Stérilité",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "person:Sarah",
+"type": "person",
+"preferred_label": "Sara",
+"confidence": 0.6812,
+"match_method": "scored"
+},
+{
+"id": "person:Serah",
+"type": "person",
+"preferred_label": "Sérach",
+"confidence": 0.5534,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -5549,6 +5995,15 @@
 "label": "Sara",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "person:Sarah",
+"type": "person",
+"preferred_label": "Sara",
+"confidence": 0.9505,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -5571,7 +6026,16 @@
 "end_ref_usfm": "1CH 4:22"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Saraph",
+"type": "person",
+"preferred_label": "Saraph",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -5593,7 +6057,8 @@
 "end_ref_usfm": "EXO 28:17"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -5627,7 +6092,16 @@
 "end_ref_usfm": "1KI 17:10"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Zarephath",
+"type": "place",
+"preferred_label": "Sarepta",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -5669,6 +6143,15 @@
 "label": "Assyrie, Assyriens",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "person:Sennacherib",
+"type": "person",
+"preferred_label": "Sanchérib",
+"confidence": 0.55,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -5697,7 +6180,16 @@
 "end_ref_usfm": "JOS 19:12"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Sarid",
+"type": "place",
+"preferred_label": "Sarid",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -5769,6 +6261,29 @@
 "label": "Lascharon",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "place:Sharon.2",
+"type": "place",
+"preferred_label": "Sharon Plain",
+"confidence": 0.68,
+"match_method": "scored"
+},
+{
+"id": "place:Sharon",
+"type": "place",
+"preferred_label": "Saron",
+"confidence": 0.616,
+"match_method": "scored"
+},
+{
+"id": "group:Sharon",
+"type": "group",
+"preferred_label": "Shirtaï",
+"confidence": 0.5755,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -5791,7 +6306,23 @@
 "end_ref_usfm": "1CH 27:29"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "group:Sharon",
+"type": "group",
+"preferred_label": "Shirtaï",
+"confidence": 0.9505,
+"match_method": "scored"
+},
+{
+"id": "place:Sharon.2",
+"type": "place",
+"preferred_label": "Sharon Plain",
+"confidence": 0.823,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -6043,6 +6574,15 @@
 "label": "Ange",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "deity:Satan",
+"type": "deity",
+"preferred_label": "Satan",
+"confidence": 0.76,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -6083,7 +6623,8 @@
 "end_ref_usfm": "DAN 6:7"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -6105,7 +6646,8 @@
 "end_ref_usfm": "EXO 37:18"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -6170,6 +6712,15 @@
 "resource_code": "Unknown",
 "label": "Saül, Saul",
 "language": "fra"
+}
+],
+"acai": [
+{
+"id": "person:Saul.2",
+"type": "person",
+"preferred_label": "Saül",
+"confidence": 1.0,
+"match_method": "embedding"
 }
 ]
 }
@@ -6364,6 +6915,15 @@
 "label": "L’apôtre Paul",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "person:Saul.2",
+"type": "person",
+"preferred_label": "Saül",
+"confidence": 0.5848,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -6398,7 +6958,8 @@
 "end_ref_usfm": "ISA 15:7"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -6428,7 +6989,8 @@
 "label": "Saül",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -6458,7 +7020,8 @@
 "label": "Grillon",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -6591,7 +7154,8 @@
 "label": "Inscriptions",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -6685,7 +7249,23 @@
 "end_ref_usfm": "HEB 1:8"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "realia:Rod",
+"type": "realia",
+"preferred_label": "Rod",
+"confidence": 0.7846,
+"match_method": "scored"
+},
+{
+"id": "realia:Staff",
+"type": "realia",
+"preferred_label": "Staff",
+"confidence": 0.5716,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -6707,7 +7287,16 @@
 "end_ref_usfm": "ACT 19:14"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Sceva",
+"type": "person",
+"preferred_label": "Scéva",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -6753,7 +7342,16 @@
 "end_ref_usfm": "1CH 11:33"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Shaalbim",
+"type": "place",
+"preferred_label": "Shaalbim",
+"confidence": 0.7705,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -6775,7 +7373,16 @@
 "end_ref_usfm": "1SA 9:4"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Shaalim",
+"type": "place",
+"preferred_label": "Schaalim",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -6803,7 +7410,30 @@
 "end_ref_usfm": "1CH 2:49"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shaaph",
+"type": "person",
+"preferred_label": "Schaaph",
+"confidence": 0.8,
+"match_method": "scored"
+},
+{
+"id": "person:Shaaph.2",
+"type": "person",
+"preferred_label": "Schaaph",
+"confidence": 0.8,
+"match_method": "scored"
+},
+{
+"id": "person:Madmannah",
+"type": "person",
+"preferred_label": "Madmanna",
+"confidence": 0.764,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -6849,7 +7479,16 @@
 "end_ref_usfm": "1CH 4:31"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Shaaraim",
+"type": "place",
+"preferred_label": "Schaaraïm",
+"confidence": 0.76,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -6871,7 +7510,16 @@
 "end_ref_usfm": "EST 2:14"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shaashgaz",
+"type": "person",
+"preferred_label": "Schaaschgaz",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -6905,7 +7553,30 @@
 "end_ref_usfm": "NEH 11:16"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shabbethai",
+"type": "person",
+"preferred_label": "Shabbethai",
+"confidence": 0.5623,
+"match_method": "scored"
+},
+{
+"id": "person:Shabbethai.3",
+"type": "person",
+"preferred_label": "Shabbethai",
+"confidence": 0.5623,
+"match_method": "scored"
+},
+{
+"id": "person:Shabbethai.2",
+"type": "person",
+"preferred_label": "Shabbethai",
+"confidence": 0.5623,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -6927,7 +7598,16 @@
 "end_ref_usfm": "1CH 8:8"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shaharaim",
+"type": "person",
+"preferred_label": "Schacharaïm",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -6949,7 +7629,16 @@
 "end_ref_usfm": "JOS 19:22"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Shahazumah",
+"type": "place",
+"preferred_label": "Schachatsima",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -7013,7 +7702,8 @@
 "end_ref_usfm": "DAN 2:49"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -7041,7 +7731,8 @@
 "end_ref_usfm": "1CH 11:34"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -7063,7 +7754,16 @@
 "end_ref_usfm": "1SA 9:4"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Shalishah",
+"type": "place",
+"preferred_label": "Schalischa",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -7085,7 +7785,16 @@
 "end_ref_usfm": "1CH 26:16"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Shallecheth",
+"type": "place",
+"preferred_label": "Schalléketh",
+"confidence": 0.8965,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -7269,6 +7978,113 @@
 "label": "Meschullam",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "person:Shallum.8",
+"type": "person",
+"preferred_label": "Schallum",
+"confidence": 0.6645,
+"match_method": "scored"
+},
+{
+"id": "person:Shallum.2",
+"type": "person",
+"preferred_label": "Schallum",
+"confidence": 0.6516,
+"match_method": "scored"
+},
+{
+"id": "person:Shallum.7",
+"type": "person",
+"preferred_label": "Schallum",
+"confidence": 0.6387,
+"match_method": "scored"
+},
+{
+"id": "person:Shallum.3",
+"type": "person",
+"preferred_label": "Schallum",
+"confidence": 0.6258,
+"match_method": "scored"
+},
+{
+"id": "person:Shallum.4",
+"type": "person",
+"preferred_label": "Schallum",
+"confidence": 0.6258,
+"match_method": "scored"
+},
+{
+"id": "person:Shallum.5",
+"type": "person",
+"preferred_label": "Schallum",
+"confidence": 0.6129,
+"match_method": "scored"
+},
+{
+"id": "person:Shallum.6",
+"type": "person",
+"preferred_label": "Schallum",
+"confidence": 0.6129,
+"match_method": "scored"
+},
+{
+"id": "person:Shallum.12",
+"type": "person",
+"preferred_label": "Schallum",
+"confidence": 0.6129,
+"match_method": "scored"
+},
+{
+"id": "person:Shallum.13",
+"type": "person",
+"preferred_label": "Schallum",
+"confidence": 0.6129,
+"match_method": "scored"
+},
+{
+"id": "person:Shallum.11",
+"type": "person",
+"preferred_label": "Schallum",
+"confidence": 0.6129,
+"match_method": "scored"
+},
+{
+"id": "person:Shallum.14",
+"type": "person",
+"preferred_label": "Schallum",
+"confidence": 0.6129,
+"match_method": "scored"
+},
+{
+"id": "person:Shallum.9",
+"type": "person",
+"preferred_label": "Schallum",
+"confidence": 0.6129,
+"match_method": "scored"
+},
+{
+"id": "person:Shallum.15",
+"type": "person",
+"preferred_label": "Schallum",
+"confidence": 0.6129,
+"match_method": "scored"
+},
+{
+"id": "person:Shallum.10",
+"type": "person",
+"preferred_label": "Schallum",
+"confidence": 0.6129,
+"match_method": "scored"
+},
+{
+"id": "person:Shillem",
+"type": "person",
+"preferred_label": "Schillem",
+"confidence": 0.5814,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -7291,7 +8107,16 @@
 "end_ref_usfm": "1CH 11:44"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shama",
+"type": "person",
+"preferred_label": "Schama",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -7320,6 +8145,22 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Schamma",
 "language": "fra"
+}
+],
+"acai": [
+{
+"id": "person:Shamhuth",
+"type": "person",
+"preferred_label": "Schamehuth",
+"confidence": 1.0,
+"match_method": "scored"
+},
+{
+"id": "group:Izrahite",
+"type": "group",
+"preferred_label": "Izrahite",
+"confidence": 0.9505,
+"match_method": "scored"
 }
 ]
 }
@@ -7357,6 +8198,15 @@
 "label": "Juges, Livre de",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "person:Shamgar",
+"type": "person",
+"preferred_label": "Schamgar",
+"confidence": 1.0,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -7385,7 +8235,23 @@
 "end_ref_usfm": "JDG 10:2"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Shamir.2",
+"type": "place",
+"preferred_label": "Schamir",
+"confidence": 0.8667,
+"match_method": "scored"
+},
+{
+"id": "place:Shamir",
+"type": "place",
+"preferred_label": "Schamir",
+"confidence": 0.7333,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -7407,7 +8273,16 @@
 "end_ref_usfm": "1CH 24:24"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shamir",
+"type": "person",
+"preferred_label": "Schamir",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -7435,7 +8310,30 @@
 "end_ref_usfm": "NEH 7:48"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shammai",
+"type": "person",
+"preferred_label": "Schammaï",
+"confidence": 0.8677,
+"match_method": "embedding"
+},
+{
+"id": "person:Shammai.2",
+"type": "person",
+"preferred_label": "Schammaï",
+"confidence": 0.8677,
+"match_method": "embedding"
+},
+{
+"id": "person:Shammai.3",
+"type": "person",
+"preferred_label": "Schammaï",
+"confidence": 0.8677,
+"match_method": "embedding"
+}
+]
 }
 },
 {
@@ -7547,7 +8445,44 @@
 "end_ref_usfm": "2SA 23:25"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shammah.2",
+"type": "person",
+"preferred_label": "Schamma",
+"confidence": 0.6226,
+"match_method": "scored"
+},
+{
+"id": "person:Shammah.3",
+"type": "person",
+"preferred_label": "Schamma",
+"confidence": 0.6151,
+"match_method": "scored"
+},
+{
+"id": "person:Shammah",
+"type": "person",
+"preferred_label": "Schamma",
+"confidence": 0.6075,
+"match_method": "scored"
+},
+{
+"id": "person:Shammah.4",
+"type": "person",
+"preferred_label": "Schamma",
+"confidence": 0.6075,
+"match_method": "scored"
+},
+{
+"id": "person:Shimeah.2",
+"type": "person",
+"preferred_label": "Schimea",
+"confidence": 0.5898,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -7569,7 +8504,16 @@
 "end_ref_usfm": "1CH 7:37"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shamma",
+"type": "person",
+"preferred_label": "Schamma",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -7638,6 +8582,29 @@
 "label": "Talmud",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "person:Shammai.2",
+"type": "person",
+"preferred_label": "Schammaï",
+"confidence": 0.7333,
+"match_method": "scored"
+},
+{
+"id": "person:Shammai",
+"type": "person",
+"preferred_label": "Schammaï",
+"confidence": 0.7333,
+"match_method": "scored"
+},
+{
+"id": "person:Shammai.3",
+"type": "person",
+"preferred_label": "Schammaï",
+"confidence": 0.6667,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -7673,6 +8640,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Schamma",
 "language": "fra"
+}
+],
+"acai": [
+{
+"id": "person:Shammah.3",
+"type": "person",
+"preferred_label": "Schamma",
+"confidence": 0.973,
+"match_method": "scored"
 }
 ]
 }
@@ -7720,7 +8696,37 @@
 "end_ref_usfm": "NEH 12:18"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shammua.2",
+"type": "person",
+"preferred_label": "Schammua",
+"confidence": 0.76,
+"match_method": "scored"
+},
+{
+"id": "person:Shammua",
+"type": "person",
+"preferred_label": "Schammua",
+"confidence": 0.68,
+"match_method": "scored"
+},
+{
+"id": "person:Shammua.3",
+"type": "person",
+"preferred_label": "Schammua",
+"confidence": 0.68,
+"match_method": "scored"
+},
+{
+"id": "person:Shemaiah.6",
+"type": "person",
+"preferred_label": "Schemaeja",
+"confidence": 0.6485,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -7742,7 +8748,16 @@
 "end_ref_usfm": "1CH 8:26"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shamsherai",
+"type": "person",
+"preferred_label": "Schamscheraï",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -7770,7 +8785,16 @@
 "end_ref_usfm": "1CH 5:17"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shapham",
+"type": "person",
+"preferred_label": "Schapham",
+"confidence": 0.8,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -7858,7 +8882,23 @@
 "end_ref_usfm": "JER 40:11"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shaphan",
+"type": "person",
+"preferred_label": "Schaphan",
+"confidence": 0.776,
+"match_method": "scored"
+},
+{
+"id": "person:Shaphan.2",
+"type": "person",
+"preferred_label": "Schaphan",
+"confidence": 0.608,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -7922,7 +8962,44 @@
 "end_ref_usfm": "1CH 27:29"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shaphat.2",
+"type": "person",
+"preferred_label": "Schaphath",
+"confidence": 0.8,
+"match_method": "scored"
+},
+{
+"id": "person:Shaphat.5",
+"type": "person",
+"preferred_label": "Schaphath",
+"confidence": 0.65,
+"match_method": "scored"
+},
+{
+"id": "person:Shaphat",
+"type": "person",
+"preferred_label": "Schaphath",
+"confidence": 0.65,
+"match_method": "scored"
+},
+{
+"id": "person:Shaphat.4",
+"type": "person",
+"preferred_label": "Schaphath",
+"confidence": 0.65,
+"match_method": "scored"
+},
+{
+"id": "person:Shaphat.3",
+"type": "person",
+"preferred_label": "Schaphath",
+"confidence": 0.65,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -7952,6 +9029,15 @@
 "label": "Errances dans le désert",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "place:ShepherMount",
+"type": "place",
+"preferred_label": "montagne de Schapher",
+"confidence": 1.0,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -7974,7 +9060,16 @@
 "end_ref_usfm": "EZR 10:40"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Sharai",
+"type": "person",
+"preferred_label": "Scharaï",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -8003,6 +9098,22 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Sacar",
 "language": "fra"
+}
+],
+"acai": [
+{
+"id": "person:Sharar",
+"type": "person",
+"preferred_label": "Scharar",
+"confidence": 1.0,
+"match_method": "scored"
+},
+{
+"id": "group:Hararites",
+"type": "group",
+"preferred_label": "Hararites",
+"confidence": 0.814,
+"match_method": "scored"
 }
 ]
 }
@@ -8038,7 +9149,23 @@
 "end_ref_usfm": "ZEC 7:3"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Sharezer",
+"type": "person",
+"preferred_label": "Scharetser",
+"confidence": 0.8,
+"match_method": "scored"
+},
+{
+"id": "person:Sharezer.2",
+"type": "person",
+"preferred_label": "Scharetser",
+"confidence": 0.7,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -8068,6 +9195,15 @@
 "label": "Schaaraïm",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "place:Sharuhen",
+"type": "place",
+"preferred_label": "Scharuchen",
+"confidence": 1.0,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -8090,7 +9226,16 @@
 "end_ref_usfm": "EZR 10:40"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shashai",
+"type": "person",
+"preferred_label": "Schaschaï",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -8118,7 +9263,16 @@
 "end_ref_usfm": "1CH 8:25"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shashak",
+"type": "person",
+"preferred_label": "Schaschak",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -8140,7 +9294,8 @@
 "end_ref_usfm": "GEN 14:5"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -8169,6 +9324,22 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Vallée du roi",
 "language": "fra"
+}
+],
+"acai": [
+{
+"id": "place:Shaveh",
+"type": "place",
+"preferred_label": "vallée de Schavé",
+"confidence": 1.0,
+"match_method": "scored"
+},
+{
+"id": "place:KingsValley",
+"type": "place",
+"preferred_label": "vallée du roi",
+"confidence": 0.8785,
+"match_method": "scored"
 }
 ]
 }
@@ -8200,6 +9371,15 @@
 "label": "Seraja",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "person:Seraiah",
+"type": "person",
+"preferred_label": "Seraja",
+"confidence": 0.946,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -8222,7 +9402,16 @@
 "end_ref_usfm": "EZR 10:29"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Sheal",
+"type": "person",
+"preferred_label": "Scheal",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -8250,7 +9439,16 @@
 "end_ref_usfm": "1CH 9:44"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Sheariah",
+"type": "person",
+"preferred_label": "Schearia",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -8320,7 +9518,8 @@
 "end_ref_usfm": "2CH 9:12"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -8380,6 +9579,36 @@
 "label": "Schecania",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "person:Shebaniah.3",
+"type": "person",
+"preferred_label": "Schebania",
+"confidence": 0.7714,
+"match_method": "scored"
+},
+{
+"id": "person:Shebaniah.2",
+"type": "person",
+"preferred_label": "Schebania",
+"confidence": 0.7143,
+"match_method": "scored"
+},
+{
+"id": "person:Shebaniah.4",
+"type": "person",
+"preferred_label": "Schebania",
+"confidence": 0.6571,
+"match_method": "scored"
+},
+{
+"id": "person:Shebaniah",
+"type": "person",
+"preferred_label": "Schebania",
+"confidence": 0.6571,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -8402,7 +9631,16 @@
 "end_ref_usfm": "JOS 7:5"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Shebarim",
+"type": "place",
+"preferred_label": "Schebarim",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -8424,7 +9662,16 @@
 "end_ref_usfm": "1CH 2:48"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Sheber",
+"type": "person",
+"preferred_label": "Schéber",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -8470,7 +9717,16 @@
 "end_ref_usfm": "2KI 19:7"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shebna",
+"type": "person",
+"preferred_label": "Schebna",
+"confidence": 0.6312,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -8516,7 +9772,23 @@
 "end_ref_usfm": "1CH 23:16"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shebuel",
+"type": "person",
+"preferred_label": "Schebuel",
+"confidence": 0.8,
+"match_method": "scored"
+},
+{
+"id": "person:Shebuel.2",
+"type": "person",
+"preferred_label": "Schebuel",
+"confidence": 0.7333,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -8600,6 +9872,64 @@
 "label": "Schebania",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "person:Shecaniah.2",
+"type": "person",
+"preferred_label": "Schecania",
+"confidence": 0.6727,
+"match_method": "scored"
+},
+{
+"id": "person:Shecaniah.7",
+"type": "person",
+"preferred_label": "Schecania",
+"confidence": 0.6727,
+"match_method": "scored"
+},
+{
+"id": "person:Shecaniah.5",
+"type": "person",
+"preferred_label": "Schecania",
+"confidence": 0.6364,
+"match_method": "scored"
+},
+{
+"id": "person:Shecaniah.3",
+"type": "person",
+"preferred_label": "Schecania",
+"confidence": 0.6364,
+"match_method": "scored"
+},
+{
+"id": "person:Shecaniah.8",
+"type": "person",
+"preferred_label": "Schecania",
+"confidence": 0.6364,
+"match_method": "scored"
+},
+{
+"id": "person:Shecaniah.4",
+"type": "person",
+"preferred_label": "Schecania",
+"confidence": 0.6364,
+"match_method": "scored"
+},
+{
+"id": "person:Shecaniah.6",
+"type": "person",
+"preferred_label": "Schecania",
+"confidence": 0.6364,
+"match_method": "scored"
+},
+{
+"id": "person:Shebaniah.3",
+"type": "person",
+"preferred_label": "Schebania",
+"confidence": 0.6232,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -8622,7 +9952,16 @@
 "end_ref_usfm": "1CH 8:26"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shehariah",
+"type": "person",
+"preferred_label": "Schecharia",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -8662,7 +10001,16 @@
 "end_ref_usfm": "NUM 7:35"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shedeur",
+"type": "person",
+"preferred_label": "Schedéur",
+"confidence": 0.8222,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -8684,7 +10032,16 @@
 "end_ref_usfm": "1CH 7:24"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Sheerah",
+"type": "person",
+"preferred_label": "Schééra",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -8762,6 +10119,15 @@
 "label": "Généalogie de Jésus-Christ",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "person:Shelah.2",
+"type": "person",
+"preferred_label": "Shelah",
+"confidence": 0.6353,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -8792,7 +10158,8 @@
 "label": "Schélach, Schéla",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -8876,6 +10243,64 @@
 "label": "Meschélémia",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "person:Shelemiah.8",
+"type": "person",
+"preferred_label": "Schélémia",
+"confidence": 0.6615,
+"match_method": "scored"
+},
+{
+"id": "person:Shelemiah.4",
+"type": "person",
+"preferred_label": "Schélémia",
+"confidence": 0.6308,
+"match_method": "scored"
+},
+{
+"id": "person:Shelemiah.3",
+"type": "person",
+"preferred_label": "Schélémia",
+"confidence": 0.6308,
+"match_method": "scored"
+},
+{
+"id": "person:Shelemiah.2",
+"type": "person",
+"preferred_label": "Schélémia",
+"confidence": 0.6308,
+"match_method": "scored"
+},
+{
+"id": "person:Shelemiah.5",
+"type": "person",
+"preferred_label": "Schélémia",
+"confidence": 0.6308,
+"match_method": "scored"
+},
+{
+"id": "person:Shelemiah.7",
+"type": "person",
+"preferred_label": "Schélémia",
+"confidence": 0.6308,
+"match_method": "scored"
+},
+{
+"id": "person:Shelemiah.9",
+"type": "person",
+"preferred_label": "Schélémia",
+"confidence": 0.6308,
+"match_method": "scored"
+},
+{
+"id": "person:Shelemiah.6",
+"type": "person",
+"preferred_label": "Schélémia",
+"confidence": 0.6308,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -8904,7 +10329,16 @@
 "end_ref_usfm": "1CH 1:20"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Sheleph",
+"type": "person",
+"preferred_label": "Schéleph",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -8926,7 +10360,16 @@
 "end_ref_usfm": "1CH 7:35"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shelesh",
+"type": "person",
+"preferred_label": "Schélesch",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -8948,7 +10391,16 @@
 "end_ref_usfm": "NUM 34:27"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shelomi",
+"type": "person",
+"preferred_label": "Schelomi",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -9006,7 +10458,58 @@
 "end_ref_usfm": "1CH 26:28"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shelomoth.3",
+"type": "person",
+"preferred_label": "Shelomoth",
+"confidence": 0.6575,
+"match_method": "scored"
+},
+{
+"id": "person:Shelomith.5",
+"type": "person",
+"preferred_label": "Schelomith",
+"confidence": 0.6267,
+"match_method": "scored"
+},
+{
+"id": "person:Shelomith",
+"type": "person",
+"preferred_label": "Schelomith",
+"confidence": 0.6267,
+"match_method": "scored"
+},
+{
+"id": "person:Shelomith.4",
+"type": "person",
+"preferred_label": "Schelomith",
+"confidence": 0.6267,
+"match_method": "scored"
+},
+{
+"id": "person:Shelomith.2",
+"type": "person",
+"preferred_label": "Schelomith",
+"confidence": 0.6267,
+"match_method": "scored"
+},
+{
+"id": "person:Shelomith.3",
+"type": "person",
+"preferred_label": "Schelomith",
+"confidence": 0.6267,
+"match_method": "scored"
+},
+{
+"id": "person:Shelomoth.2",
+"type": "person",
+"preferred_label": "Shelomoth",
+"confidence": 0.6042,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -9046,7 +10549,30 @@
 "end_ref_usfm": "1CH 26:28"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shelomoth.3",
+"type": "person",
+"preferred_label": "Shelomoth",
+"confidence": 0.7489,
+"match_method": "scored"
+},
+{
+"id": "person:Shelomith",
+"type": "person",
+"preferred_label": "Schelomith",
+"confidence": 0.7143,
+"match_method": "scored"
+},
+{
+"id": "person:Shelomoth.2",
+"type": "person",
+"preferred_label": "Shelomoth",
+"confidence": 0.6346,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -9098,7 +10624,16 @@
 "end_ref_usfm": "JDT 8:1"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shelumiel",
+"type": "person",
+"preferred_label": "Schelumiel",
+"confidence": 0.9333,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -9133,6 +10668,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Schéba (Lieu)",
 "language": "fra"
+}
+],
+"acai": [
+{
+"id": "place:Shema",
+"type": "place",
+"preferred_label": "Shema",
+"confidence": 0.7595,
+"match_method": "scored"
 }
 ]
 }
@@ -9180,7 +10724,8 @@
 "end_ref_usfm": "1CH 2:44"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -9202,7 +10747,16 @@
 "end_ref_usfm": "1CH 12:3"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shemaah",
+"type": "person",
+"preferred_label": "Schemaa",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -9416,7 +10970,198 @@
 "end_ref_usfm": "JER 29:32"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shemaiah",
+"type": "person",
+"preferred_label": "Schemaeja",
+"confidence": 0.6267,
+"match_method": "scored"
+},
+{
+"id": "person:Shemaiah.25",
+"type": "person",
+"preferred_label": "Schemaeja",
+"confidence": 0.62,
+"match_method": "scored"
+},
+{
+"id": "person:Shemaiah.9",
+"type": "person",
+"preferred_label": "Schemaeja",
+"confidence": 0.62,
+"match_method": "scored"
+},
+{
+"id": "person:Shemaiah.20",
+"type": "person",
+"preferred_label": "Schemaeja",
+"confidence": 0.62,
+"match_method": "scored"
+},
+{
+"id": "person:Shemaiah.7",
+"type": "person",
+"preferred_label": "Schemaeja",
+"confidence": 0.6133,
+"match_method": "scored"
+},
+{
+"id": "person:Shemaiah.6",
+"type": "person",
+"preferred_label": "Schemaeja",
+"confidence": 0.6133,
+"match_method": "scored"
+},
+{
+"id": "person:Shemaiah.5",
+"type": "person",
+"preferred_label": "Schemaeja",
+"confidence": 0.6133,
+"match_method": "scored"
+},
+{
+"id": "person:Shemaiah.15",
+"type": "person",
+"preferred_label": "Schemaeja",
+"confidence": 0.6067,
+"match_method": "scored"
+},
+{
+"id": "person:Shemaiah.4",
+"type": "person",
+"preferred_label": "Schemaeja",
+"confidence": 0.6067,
+"match_method": "scored"
+},
+{
+"id": "person:Shemaiah.19",
+"type": "person",
+"preferred_label": "Schemaeja",
+"confidence": 0.6067,
+"match_method": "scored"
+},
+{
+"id": "person:Shemaiah.8",
+"type": "person",
+"preferred_label": "Schemaeja",
+"confidence": 0.6067,
+"match_method": "scored"
+},
+{
+"id": "person:Shemaiah.10",
+"type": "person",
+"preferred_label": "Schemaeja",
+"confidence": 0.6067,
+"match_method": "scored"
+},
+{
+"id": "person:Shemaiah.3",
+"type": "person",
+"preferred_label": "Schemaeja",
+"confidence": 0.6067,
+"match_method": "scored"
+},
+{
+"id": "person:Shemaiah.14",
+"type": "person",
+"preferred_label": "Schemaeja",
+"confidence": 0.6067,
+"match_method": "scored"
+},
+{
+"id": "person:Shemaiah.2",
+"type": "person",
+"preferred_label": "Schemaeja",
+"confidence": 0.6067,
+"match_method": "scored"
+},
+{
+"id": "person:Shemaiah.12",
+"type": "person",
+"preferred_label": "Schemaeja",
+"confidence": 0.6067,
+"match_method": "scored"
+},
+{
+"id": "person:Shemaiah.13",
+"type": "person",
+"preferred_label": "Schemaeja",
+"confidence": 0.6067,
+"match_method": "scored"
+},
+{
+"id": "person:Shemaiah.21",
+"type": "person",
+"preferred_label": "Schemaeja",
+"confidence": 0.6067,
+"match_method": "scored"
+},
+{
+"id": "person:Shemaiah.22",
+"type": "person",
+"preferred_label": "Schemaeja",
+"confidence": 0.6067,
+"match_method": "scored"
+},
+{
+"id": "person:Shemaiah.11",
+"type": "person",
+"preferred_label": "Schemaeja",
+"confidence": 0.6067,
+"match_method": "scored"
+},
+{
+"id": "person:Shemaiah.23",
+"type": "person",
+"preferred_label": "Schemaeja",
+"confidence": 0.6067,
+"match_method": "scored"
+},
+{
+"id": "person:Shemaiah.24",
+"type": "person",
+"preferred_label": "Schemaeja",
+"confidence": 0.6067,
+"match_method": "scored"
+},
+{
+"id": "person:Shemaiah.18",
+"type": "person",
+"preferred_label": "Schemaeja",
+"confidence": 0.6067,
+"match_method": "scored"
+},
+{
+"id": "person:Shemaiah.16",
+"type": "person",
+"preferred_label": "Schemaeja",
+"confidence": 0.6067,
+"match_method": "scored"
+},
+{
+"id": "person:Shemaiah.26",
+"type": "person",
+"preferred_label": "Schemaeja",
+"confidence": 0.6067,
+"match_method": "scored"
+},
+{
+"id": "person:Shemaiah.17",
+"type": "person",
+"preferred_label": "Schemaeja",
+"confidence": 0.6067,
+"match_method": "scored"
+},
+{
+"id": "person:Semachiah",
+"type": "person",
+"preferred_label": "Semaeja",
+"confidence": 0.5527,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -9456,7 +11201,37 @@
 "end_ref_usfm": "EZR 10:41"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shemariah.3",
+"type": "person",
+"preferred_label": "Schemaria",
+"confidence": 0.7,
+"match_method": "scored"
+},
+{
+"id": "person:Shemariah.4",
+"type": "person",
+"preferred_label": "Schemaria",
+"confidence": 0.7,
+"match_method": "scored"
+},
+{
+"id": "person:Shemariah.2",
+"type": "person",
+"preferred_label": "Schemaria",
+"confidence": 0.7,
+"match_method": "scored"
+},
+{
+"id": "person:Shemariah",
+"type": "person",
+"preferred_label": "Schemaria",
+"confidence": 0.7,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -9478,7 +11253,16 @@
 "end_ref_usfm": "GEN 14:2"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shemeber",
+"type": "person",
+"preferred_label": "Schémeéber",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -9512,7 +11296,16 @@
 "end_ref_usfm": "1CH 7:34"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shomer.2",
+"type": "person",
+"preferred_label": "Schomer",
+"confidence": 0.6703,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -9534,7 +11327,16 @@
 "end_ref_usfm": "1CH 8:12"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shemed",
+"type": "person",
+"preferred_label": "Schémer",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -9568,7 +11370,37 @@
 "end_ref_usfm": "1CH 7:19"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shemida",
+"type": "person",
+"preferred_label": "Schemida",
+"confidence": 0.8605,
+"match_method": "scored"
+},
+{
+"id": "person:Hepher",
+"type": "person",
+"preferred_label": "Hépher",
+"confidence": 0.6417,
+"match_method": "scored"
+},
+{
+"id": "person:Shechem.2",
+"type": "person",
+"preferred_label": "Sichem",
+"confidence": 0.5938,
+"match_method": "scored"
+},
+{
+"id": "group:Shemida",
+"type": "group",
+"preferred_label": "Shemidaites",
+"confidence": 0.5848,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -9610,7 +11442,8 @@
 "label": "Musique",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -9644,7 +11477,23 @@
 "end_ref_usfm": "1CH 15:22"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shemiramoth",
+"type": "person",
+"preferred_label": "Schemiramoth",
+"confidence": 0.75,
+"match_method": "scored"
+},
+{
+"id": "person:Shemiramoth.2",
+"type": "person",
+"preferred_label": "Schemiramoth",
+"confidence": 0.65,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -9674,6 +11523,15 @@
 "label": "Jeschana",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "place:Shen",
+"type": "place",
+"preferred_label": "Schen",
+"confidence": 1.0,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -9696,7 +11554,16 @@
 "end_ref_usfm": "1CH 3:18"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shenazzar",
+"type": "person",
+"preferred_label": "Schénatsar",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -9718,7 +11585,16 @@
 "end_ref_usfm": "NUM 34:11"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Shepham",
+"type": "place",
+"preferred_label": "Schepham",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -9748,7 +11624,8 @@
 "label": "Zabdi",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -9842,7 +11719,72 @@
 "end_ref_usfm": "2CH 21:2"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shephatiah.6",
+"type": "person",
+"preferred_label": "Shefatya",
+"confidence": 0.6227,
+"match_method": "scored"
+},
+{
+"id": "person:Shephatiah.7",
+"type": "person",
+"preferred_label": "Shephatiah",
+"confidence": 0.5941,
+"match_method": "scored"
+},
+{
+"id": "person:Shephatiah",
+"type": "person",
+"preferred_label": "Shefatya",
+"confidence": 0.5941,
+"match_method": "scored"
+},
+{
+"id": "person:Shephatiah.2",
+"type": "person",
+"preferred_label": "Shefatya",
+"confidence": 0.5881,
+"match_method": "scored"
+},
+{
+"id": "person:Shephatiah.3",
+"type": "person",
+"preferred_label": "Shiftân",
+"confidence": 0.5656,
+"match_method": "scored"
+},
+{
+"id": "person:Shephatiah.5",
+"type": "person",
+"preferred_label": "Shephatiah",
+"confidence": 0.5656,
+"match_method": "scored"
+},
+{
+"id": "person:Shephatiah.4",
+"type": "person",
+"preferred_label": "Shephatiah",
+"confidence": 0.5656,
+"match_method": "scored"
+},
+{
+"id": "person:Shephatiah.9",
+"type": "person",
+"preferred_label": "Shephatiah",
+"confidence": 0.5656,
+"match_method": "scored"
+},
+{
+"id": "person:Shephatiah.8",
+"type": "person",
+"preferred_label": "Shephatiah",
+"confidence": 0.5656,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -9870,7 +11812,16 @@
 "end_ref_usfm": "1CH 27:28"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Shephelah",
+"type": "place",
+"preferred_label": "Shephelah",
+"confidence": 0.8005,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -9898,7 +11849,16 @@
 "end_ref_usfm": "1CH 1:40"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shepho",
+"type": "person",
+"preferred_label": "Shepho",
+"confidence": 0.8065,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -9926,7 +11886,16 @@
 "end_ref_usfm": "1CH 8:5"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Muppim",
+"type": "person",
+"preferred_label": "Muppim",
+"confidence": 0.7775,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -9978,7 +11947,23 @@
 "end_ref_usfm": "NEH 9:5"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Sherebiah",
+"type": "person",
+"preferred_label": "Schérébia",
+"confidence": 0.8857,
+"match_method": "scored"
+},
+{
+"id": "person:Sherebiah.2",
+"type": "person",
+"preferred_label": "Schérébia",
+"confidence": 0.7143,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -10000,7 +11985,16 @@
 "end_ref_usfm": "1CH 7:16"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Sheresh",
+"type": "person",
+"preferred_label": "Schéresch",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -10034,7 +12028,16 @@
 "end_ref_usfm": "JDG 1:10"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Sheshai",
+"type": "person",
+"preferred_label": "Schéschaï",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -10068,7 +12071,16 @@
 "end_ref_usfm": "1CH 2:41"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Sheshan",
+"type": "person",
+"preferred_label": "Schéschan",
+"confidence": 0.6706,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -10162,7 +12174,8 @@
 "end_ref_usfm": "EZR 3:11"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -10184,7 +12197,16 @@
 "end_ref_usfm": "EST 1:14"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shethar",
+"type": "person",
+"preferred_label": "Schéthar",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -10224,7 +12246,16 @@
 "end_ref_usfm": "EZR 6:13"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shethar-bozenai",
+"type": "person",
+"preferred_label": "Shethar-bozenai",
+"confidence": 0.8272,
+"match_method": "embedding"
+}
+]
 }
 },
 {
@@ -10260,6 +12291,43 @@
 "label": "Seraja",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "person:Seraiah",
+"type": "person",
+"preferred_label": "Seraja",
+"confidence": 0.62,
+"match_method": "scored"
+},
+{
+"id": "person:Gibea",
+"type": "person",
+"preferred_label": "Guibea",
+"confidence": 0.602,
+"match_method": "scored"
+},
+{
+"id": "person:Sheva.2",
+"type": "person",
+"preferred_label": "Sheva",
+"confidence": 0.602,
+"match_method": "scored"
+},
+{
+"id": "person:Shaaph.2",
+"type": "person",
+"preferred_label": "Schaaph",
+"confidence": 0.575,
+"match_method": "scored"
+},
+{
+"id": "person:Machbenah",
+"type": "person",
+"preferred_label": "Macbéna",
+"confidence": 0.5525,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -10282,7 +12350,8 @@
 "end_ref_usfm": "GEN 26:33"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -10304,7 +12373,8 @@
 "end_ref_usfm": "JDG 12:6"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -10359,6 +12429,22 @@
 "label": "Nil (Fleuve)",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "place:Nile",
+"type": "place",
+"preferred_label": "Nile River",
+"confidence": 0.687,
+"match_method": "scored"
+},
+{
+"id": "place:BrookOfEgypt",
+"type": "place",
+"preferred_label": "torrent d'Égypte",
+"confidence": 0.587,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -10381,7 +12467,16 @@
 "end_ref_usfm": "JOS 19:26"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Shihor-libnath",
+"type": "place",
+"preferred_label": "Schichor-Libnath",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -10403,7 +12498,16 @@
 "end_ref_usfm": "JOS 15:11"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Shikkeron",
+"type": "place",
+"preferred_label": "Schicron",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -10431,7 +12535,16 @@
 "end_ref_usfm": "2CH 20:31"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shilhi",
+"type": "person",
+"preferred_label": "Schilchi",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -10460,6 +12573,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Schaaraïm",
 "language": "fra"
+}
+],
+"acai": [
+{
+"id": "place:Sharuhen",
+"type": "place",
+"preferred_label": "Scharuchen",
+"confidence": 0.8185,
+"match_method": "scored"
 }
 ]
 }
@@ -10495,7 +12617,30 @@
 "end_ref_usfm": "1CH 7:13"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shillem",
+"type": "person",
+"preferred_label": "Schillem",
+"confidence": 0.8605,
+"match_method": "scored"
+},
+{
+"id": "person:Jahzeel",
+"type": "person",
+"preferred_label": "Jahzeel",
+"confidence": 0.6012,
+"match_method": "scored"
+},
+{
+"id": "group:Shillem",
+"type": "group",
+"preferred_label": "Shillemites",
+"confidence": 0.5848,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -10517,7 +12662,16 @@
 "end_ref_usfm": "1CH 7:37"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shilshah",
+"type": "person",
+"preferred_label": "Schilscha",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -10583,6 +12737,36 @@
 "label": "Schamma",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "person:Shammua.2",
+"type": "person",
+"preferred_label": "Schammua",
+"confidence": 0.7354,
+"match_method": "scored"
+},
+{
+"id": "person:Shimeah.2",
+"type": "person",
+"preferred_label": "Schimea",
+"confidence": 0.7143,
+"match_method": "scored"
+},
+{
+"id": "person:Shimea.3",
+"type": "person",
+"preferred_label": "Schimea",
+"confidence": 0.6571,
+"match_method": "scored"
+},
+{
+"id": "person:Shimea.2",
+"type": "person",
+"preferred_label": "Schimea",
+"confidence": 0.6571,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -10631,6 +12815,22 @@
 "label": "Schamma",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "person:Shimeah",
+"type": "person",
+"preferred_label": "Schimea",
+"confidence": 0.8,
+"match_method": "scored"
+},
+{
+"id": "person:Shimeah.2",
+"type": "person",
+"preferred_label": "Schimea",
+"confidence": 0.8,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -10661,6 +12861,15 @@
 "label": "Schimea",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "person:Shimeah",
+"type": "person",
+"preferred_label": "Schimea",
+"confidence": 0.9685,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -10689,7 +12898,23 @@
 "end_ref_usfm": "2CH 24:26"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shimeath",
+"type": "person",
+"preferred_label": "Schimeath",
+"confidence": 1.0,
+"match_method": "scored"
+},
+{
+"id": "person:Shomer",
+"type": "person",
+"preferred_label": "Schomer",
+"confidence": 0.973,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -10711,7 +12936,8 @@
 "end_ref_usfm": "1CH 2:55"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -10919,7 +13145,128 @@
 "end_ref_usfm": "1CH 4:27"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shimei.5",
+"type": "person",
+"preferred_label": "Schimeï",
+"confidence": 0.7053,
+"match_method": "scored"
+},
+{
+"id": "person:Shimei.4",
+"type": "person",
+"preferred_label": "Schimeï",
+"confidence": 0.6561,
+"match_method": "scored"
+},
+{
+"id": "person:Shimei.6",
+"type": "person",
+"preferred_label": "Schimeï",
+"confidence": 0.614,
+"match_method": "scored"
+},
+{
+"id": "person:Shimei.14",
+"type": "person",
+"preferred_label": "Schimeï",
+"confidence": 0.614,
+"match_method": "scored"
+},
+{
+"id": "person:Shimei.8",
+"type": "person",
+"preferred_label": "Schimeï",
+"confidence": 0.614,
+"match_method": "scored"
+},
+{
+"id": "person:Shimei.13",
+"type": "person",
+"preferred_label": "Schimeï",
+"confidence": 0.607,
+"match_method": "scored"
+},
+{
+"id": "person:Shimei.2",
+"type": "person",
+"preferred_label": "Schimeï",
+"confidence": 0.607,
+"match_method": "scored"
+},
+{
+"id": "person:Shimei.9",
+"type": "person",
+"preferred_label": "Schimeï",
+"confidence": 0.607,
+"match_method": "scored"
+},
+{
+"id": "person:Shimei.12",
+"type": "person",
+"preferred_label": "Schimeï",
+"confidence": 0.607,
+"match_method": "scored"
+},
+{
+"id": "person:Shimei.18",
+"type": "person",
+"preferred_label": "Schimeï",
+"confidence": 0.607,
+"match_method": "scored"
+},
+{
+"id": "person:Shimei.16",
+"type": "person",
+"preferred_label": "Schimeï",
+"confidence": 0.607,
+"match_method": "scored"
+},
+{
+"id": "person:Shimei.11",
+"type": "person",
+"preferred_label": "Schimeï",
+"confidence": 0.607,
+"match_method": "scored"
+},
+{
+"id": "person:Shimei.17",
+"type": "person",
+"preferred_label": "Schimeï",
+"confidence": 0.607,
+"match_method": "scored"
+},
+{
+"id": "person:Shimei.7",
+"type": "person",
+"preferred_label": "Schimeï",
+"confidence": 0.607,
+"match_method": "scored"
+},
+{
+"id": "person:Shimei.15",
+"type": "person",
+"preferred_label": "Schimeï",
+"confidence": 0.607,
+"match_method": "scored"
+},
+{
+"id": "person:Shimei.10",
+"type": "person",
+"preferred_label": "Schimeï",
+"confidence": 0.607,
+"match_method": "scored"
+},
+{
+"id": "person:Shimeah.2",
+"type": "person",
+"preferred_label": "Schimea",
+"confidence": 0.551,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -10955,6 +13302,22 @@
 "label": "Schimeï",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "person:Shimei.4",
+"type": "person",
+"preferred_label": "Schimeï",
+"confidence": 0.946,
+"match_method": "scored"
+},
+{
+"id": "group:Shimei",
+"type": "group",
+"preferred_label": "Shemaya",
+"confidence": 0.946,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -10977,7 +13340,16 @@
 "end_ref_usfm": "1CH 8:21"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shimrath",
+"type": "person",
+"preferred_label": "Schimrath",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -11017,7 +13389,44 @@
 "end_ref_usfm": "2CH 29:13"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shimri.4",
+"type": "person",
+"preferred_label": "Schimri",
+"confidence": 0.7,
+"match_method": "scored"
+},
+{
+"id": "person:Shimri.2",
+"type": "person",
+"preferred_label": "Schimri",
+"confidence": 0.7,
+"match_method": "scored"
+},
+{
+"id": "person:Shimri",
+"type": "person",
+"preferred_label": "Schimri",
+"confidence": 0.7,
+"match_method": "scored"
+},
+{
+"id": "person:Shimri.3",
+"type": "person",
+"preferred_label": "Schimri",
+"confidence": 0.7,
+"match_method": "scored"
+},
+{
+"id": "group:Tizites",
+"type": "group",
+"preferred_label": "Tizites",
+"confidence": 0.664,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -11053,6 +13462,15 @@
 "label": "Schomer, Schamer",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "person:Shomer",
+"type": "person",
+"preferred_label": "Schomer",
+"confidence": 0.973,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -11081,7 +13499,16 @@
 "end_ref_usfm": "JOS 19:16"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Shimron",
+"type": "place",
+"preferred_label": "Schimron",
+"confidence": 0.8667,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -11115,7 +13542,23 @@
 "end_ref_usfm": "1CH 7:1"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shimron",
+"type": "person",
+"preferred_label": "Schimron",
+"confidence": 1.0,
+"match_method": "scored"
+},
+{
+"id": "group:Shimron",
+"type": "group",
+"preferred_label": "Samaritain",
+"confidence": 0.7018,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -11149,7 +13592,16 @@
 "end_ref_usfm": "JOS 19:15"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Shimron",
+"type": "place",
+"preferred_label": "Schimron",
+"confidence": 0.982,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -11179,6 +13631,22 @@
 "label": "Schimron (Personne)",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "person:Shimron",
+"type": "person",
+"preferred_label": "Schimron",
+"confidence": 0.9775,
+"match_method": "scored"
+},
+{
+"id": "group:Shimron",
+"type": "group",
+"preferred_label": "Samaritain",
+"confidence": 0.9595,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -11201,7 +13669,16 @@
 "end_ref_usfm": "EZR 4:9"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shimshai",
+"type": "person",
+"preferred_label": "Schimschaï",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -11223,7 +13700,16 @@
 "end_ref_usfm": "GEN 14:2"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shinab",
+"type": "person",
+"preferred_label": "Schineab",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -11281,7 +13767,16 @@
 "end_ref_usfm": "GEN 9:29"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Shinar",
+"type": "place",
+"preferred_label": "Schinear",
+"confidence": 0.6686,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -11303,7 +13798,16 @@
 "end_ref_usfm": "JOS 19:19"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Shion",
+"type": "place",
+"preferred_label": "Schion",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -11325,7 +13829,16 @@
 "end_ref_usfm": "1CH 4:37"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shiphi",
+"type": "person",
+"preferred_label": "Schipheï",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -11347,7 +13860,16 @@
 "end_ref_usfm": "EXO 1:15"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shiphrah",
+"type": "person",
+"preferred_label": "Schiphra",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -11369,7 +13891,16 @@
 "end_ref_usfm": "NUM 34:24"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shiphtan",
+"type": "person",
+"preferred_label": "Schiphtan",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -11398,6 +13929,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Seraja",
 "language": "fra"
+}
+],
+"acai": [
+{
+"id": "person:Seraiah",
+"type": "person",
+"preferred_label": "Seraja",
+"confidence": 0.937,
+"match_method": "scored"
 }
 ]
 }
@@ -11475,6 +14015,15 @@
 "label": "Roboam",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "person:Shishak",
+"type": "person",
+"preferred_label": "Schischak",
+"confidence": 0.84,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -11497,7 +14046,16 @@
 "end_ref_usfm": "1CH 27:29"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shitrai",
+"type": "person",
+"preferred_label": "Schithraï",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -11519,7 +14077,16 @@
 "end_ref_usfm": "1CH 11:42"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shiza",
+"type": "person",
+"preferred_label": "Schiza",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -11559,7 +14126,23 @@
 "end_ref_usfm": "1CH 14:4"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shobab",
+"type": "person",
+"preferred_label": "Schobab",
+"confidence": 0.9,
+"match_method": "scored"
+},
+{
+"id": "person:Shobab.2",
+"type": "person",
+"preferred_label": "Schobab",
+"confidence": 0.7,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -11587,7 +14170,16 @@
 "end_ref_usfm": "1CH 19:18"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shobach",
+"type": "person",
+"preferred_label": "Schobac",
+"confidence": 0.8667,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -11615,7 +14207,16 @@
 "end_ref_usfm": "NEH 7:45"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shobai",
+"type": "person",
+"preferred_label": "Schobaï",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -11673,7 +14274,23 @@
 "end_ref_usfm": "1CH 4:2"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shobal",
+"type": "person",
+"preferred_label": "Schobal",
+"confidence": 0.8,
+"match_method": "scored"
+},
+{
+"id": "person:Shobal.2",
+"type": "person",
+"preferred_label": "Schobal",
+"confidence": 0.76,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -11695,7 +14312,16 @@
 "end_ref_usfm": "NEH 10:24"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shobek",
+"type": "person",
+"preferred_label": "Shobek",
+"confidence": 0.964,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -11717,7 +14343,16 @@
 "end_ref_usfm": "2SA 17:27"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shobi",
+"type": "person",
+"preferred_label": "Schobi",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -11739,7 +14374,16 @@
 "end_ref_usfm": "1CH 8:10"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Sachia",
+"type": "person",
+"preferred_label": "Schocja",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -11761,7 +14405,16 @@
 "end_ref_usfm": "1CH 24:27"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shoham",
+"type": "person",
+"preferred_label": "Schoham",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -11810,6 +14463,29 @@
 "label": "Schimrith",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "person:Shomer",
+"type": "person",
+"preferred_label": "Schomer",
+"confidence": 0.7047,
+"match_method": "scored"
+},
+{
+"id": "person:Shimeath",
+"type": "person",
+"preferred_label": "Schimeath",
+"confidence": 0.6417,
+"match_method": "scored"
+},
+{
+"id": "person:Shomer.2",
+"type": "person",
+"preferred_label": "Schomer",
+"confidence": 0.5713,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -11839,6 +14515,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Schobac",
 "language": "fra"
+}
+],
+"acai": [
+{
+"id": "person:Shobach",
+"type": "person",
+"preferred_label": "Schobac",
+"confidence": 0.8397,
+"match_method": "scored"
 }
 ]
 }
@@ -11882,6 +14567,22 @@
 "label": "Schua, Bath-Schua",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "person:Shua",
+"type": "person",
+"preferred_label": "Schua",
+"confidence": 0.7333,
+"match_method": "scored"
+},
+{
+"id": "person:Shua.2",
+"type": "person",
+"preferred_label": "Schua",
+"confidence": 0.6667,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -11916,7 +14617,8 @@
 "end_ref_usfm": "GEN 38:5"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -11968,7 +14670,23 @@
 "end_ref_usfm": "JOB 2:11"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shuah",
+"type": "person",
+"preferred_label": "Schuach",
+"confidence": 0.7333,
+"match_method": "scored"
+},
+{
+"id": "person:Shuhah",
+"type": "person",
+"preferred_label": "Schucha",
+"confidence": 0.6037,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -11990,7 +14708,16 @@
 "end_ref_usfm": "1SA 13:17"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Shual",
+"type": "place",
+"preferred_label": "Schual",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -12012,7 +14739,16 @@
 "end_ref_usfm": "1CH 7:36"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shual",
+"type": "person",
+"preferred_label": "Schual",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -12048,6 +14784,22 @@
 "label": "Schebuel",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "person:Shebuel",
+"type": "person",
+"preferred_label": "Schebuel",
+"confidence": 0.8812,
+"match_method": "embedding"
+},
+{
+"id": "person:Shebuel.2",
+"type": "person",
+"preferred_label": "Schebuel",
+"confidence": 0.8812,
+"match_method": "embedding"
+}
 ]
 }
 },
@@ -12070,7 +14822,16 @@
 "end_ref_usfm": "1CH 4:11"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shuhah",
+"type": "person",
+"preferred_label": "Schucha",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -12100,6 +14861,22 @@
 "label": "Huschim",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "person:Hushim.2",
+"type": "person",
+"preferred_label": "Huschim",
+"confidence": 0.829,
+"match_method": "scored"
+},
+{
+"id": "group:Shuham",
+"type": "group",
+"preferred_label": "Shuhamites",
+"confidence": 0.82,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -12122,7 +14899,16 @@
 "end_ref_usfm": "1CH 2:53"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "group:Shumathites",
+"type": "group",
+"preferred_label": "Shumathites",
+"confidence": 0.937,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -12150,7 +14936,30 @@
 "end_ref_usfm": "NUM 26:15"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shuni",
+"type": "person",
+"preferred_label": "Schuni",
+"confidence": 0.838,
+"match_method": "scored"
+},
+{
+"id": "person:Ziphion",
+"type": "person",
+"preferred_label": "Tsiphjon",
+"confidence": 0.739,
+"match_method": "scored"
+},
+{
+"id": "group:Shuni",
+"type": "group",
+"preferred_label": "Shounem",
+"confidence": 0.6245,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -12192,6 +15001,22 @@
 "label": "Schuppim",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "person:Muppim",
+"type": "person",
+"preferred_label": "Muppim",
+"confidence": 0.8352,
+"match_method": "scored"
+},
+{
+"id": "group:Shuphamite",
+"type": "group",
+"preferred_label": "Shuphamites",
+"confidence": 0.7018,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -12221,6 +15046,36 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Schupham",
 "language": "fra"
+}
+],
+"acai": [
+{
+"id": "person:Muppim",
+"type": "person",
+"preferred_label": "Muppim",
+"confidence": 0.8515,
+"match_method": "scored"
+},
+{
+"id": "group:Shuphamite",
+"type": "group",
+"preferred_label": "Shuphamites",
+"confidence": 0.8425,
+"match_method": "scored"
+},
+{
+"id": "person:Huppim",
+"type": "person",
+"preferred_label": "Huppim",
+"confidence": 0.829,
+"match_method": "scored"
+},
+{
+"id": "group:Huppim",
+"type": "group",
+"preferred_label": "Houfamite",
+"confidence": 0.82,
+"match_method": "scored"
 }
 ]
 }
@@ -12269,6 +15124,22 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Schupham",
 "language": "fra"
+}
+],
+"acai": [
+{
+"id": "person:Shuppim",
+"type": "person",
+"preferred_label": "Schuppim",
+"confidence": 0.7,
+"match_method": "scored"
+},
+{
+"id": "person:Shuppim.2",
+"type": "person",
+"preferred_label": "Schuppim",
+"confidence": 0.7,
+"match_method": "scored"
 }
 ]
 }
@@ -12330,6 +15201,15 @@
 "label": "Sinaï, Sina",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "place:Shur",
+"type": "place",
+"preferred_label": "Shur",
+"confidence": 0.8838,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -12360,7 +15240,8 @@
 "label": "Schutélach",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -12400,7 +15281,23 @@
 "end_ref_usfm": "1CH 7:27"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shuthelah",
+"type": "person",
+"preferred_label": "Schutélach",
+"confidence": 0.8,
+"match_method": "scored"
+},
+{
+"id": "person:Shuthelah.2",
+"type": "person",
+"preferred_label": "Schutélach",
+"confidence": 0.7,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -12442,7 +15339,8 @@
 "label": "Médecine et pratique médicale",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -12478,7 +15376,8 @@
 "label": "Poids et mesures",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -12548,7 +15447,8 @@
 "end_ref_usfm": "1CH 5:17"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -12570,7 +15470,16 @@
 "end_ref_usfm": "JOS 15:61"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Secacah",
+"type": "place",
+"preferred_label": "Secaca",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -12592,7 +15501,16 @@
 "end_ref_usfm": "ACT 20:4"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Secundus",
+"type": "person",
+"preferred_label": "Second",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -12817,7 +15735,8 @@
 "label": "Thessalonique",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -12839,7 +15758,16 @@
 "end_ref_usfm": "1SA 19:22"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Secu",
+"type": "place",
+"preferred_label": "Sécou",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -12861,7 +15789,16 @@
 "end_ref_usfm": "ACT 19:35"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:GenericOfficial",
+"type": "person",
+"preferred_label": "Public Official",
+"confidence": 0.5845,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -13030,6 +15967,50 @@
 "label": "Israël, Histoire d'",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "person:Zedekiah.3",
+"type": "person",
+"preferred_label": "Sédécias",
+"confidence": 0.6542,
+"match_method": "scored"
+},
+{
+"id": "person:Zedekiah.2",
+"type": "person",
+"preferred_label": "Sédécias",
+"confidence": 0.6136,
+"match_method": "scored"
+},
+{
+"id": "person:Zedekiah.6",
+"type": "person",
+"preferred_label": "Sédécias",
+"confidence": 0.6136,
+"match_method": "scored"
+},
+{
+"id": "person:Zedekiah.4",
+"type": "person",
+"preferred_label": "Sédécias",
+"confidence": 0.6068,
+"match_method": "scored"
+},
+{
+"id": "person:Zedekiah.5",
+"type": "person",
+"preferred_label": "Sédécias",
+"confidence": 0.6068,
+"match_method": "scored"
+},
+{
+"id": "person:Zedekiah.7",
+"type": "person",
+"preferred_label": "Sédécias",
+"confidence": 0.6068,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -13064,7 +16045,23 @@
 "end_ref_usfm": "1CH 2:22"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Segub.2",
+"type": "person",
+"preferred_label": "Segub",
+"confidence": 0.8,
+"match_method": "scored"
+},
+{
+"id": "person:Segub",
+"type": "person",
+"preferred_label": "Segub",
+"confidence": 0.7,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -13148,6 +16145,22 @@
 "label": "Édom, Édomites",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "place:Seir",
+"type": "place",
+"preferred_label": "Séir",
+"confidence": 0.661,
+"match_method": "scored"
+},
+{
+"id": "person:Seir",
+"type": "person",
+"preferred_label": "Séir",
+"confidence": 0.6136,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -13176,7 +16189,16 @@
 "end_ref_usfm": "GEN 36:21"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Seir",
+"type": "person",
+"preferred_label": "Séir",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -13198,7 +16220,16 @@
 "end_ref_usfm": "JDG 3:26"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Seirah",
+"type": "place",
+"preferred_label": "Seïra",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -13828,7 +16859,8 @@
 "label": "Sheol",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -14047,7 +17079,8 @@
 "label": "Sheol",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -14081,7 +17114,16 @@
 "end_ref_usfm": "ISA 16:1"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Sela",
+"type": "place",
+"preferred_label": "Sela",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -14103,7 +17145,16 @@
 "end_ref_usfm": "1SA 23:28"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:RockOfEscape",
+"type": "place",
+"preferred_label": "Séla-Hammachlekoth",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -14125,7 +17176,16 @@
 "end_ref_usfm": "1CH 2:30"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Seled",
+"type": "person",
+"preferred_label": "Séled",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -14171,7 +17231,16 @@
 "end_ref_usfm": "ACT 13:5"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Seleucia",
+"type": "place",
+"preferred_label": "Séleucie",
+"confidence": 0.619,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -14342,6 +17411,15 @@
 "label": "Noé, Noa",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "person:Shem",
+"type": "person",
+"preferred_label": "Sem",
+"confidence": 0.6613,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -14364,7 +17442,23 @@
 "end_ref_usfm": "1CH 26:7"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Semachiah",
+"type": "person",
+"preferred_label": "Semaeja",
+"confidence": 1.0,
+"match_method": "scored"
+},
+{
+"id": "person:Shemaiah.9",
+"type": "person",
+"preferred_label": "Schemaeja",
+"confidence": 0.946,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -14400,7 +17494,8 @@
 "label": "Fêtes et festivals d'Israël",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -14429,6 +17524,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Généalogie de Jésus-Christ",
 "language": "fra"
+}
+],
+"acai": [
+{
+"id": "person:Semein",
+"type": "person",
+"preferred_label": "Sémeï",
+"confidence": 0.8695,
+"match_method": "scored"
 }
 ]
 }
@@ -14484,6 +17588,15 @@
 "label": "Assenua",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "place:Senaah",
+"type": "place",
+"preferred_label": "Senaa",
+"confidence": 0.76,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -14506,7 +17619,16 @@
 "end_ref_usfm": "1SA 14:5"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Seneh",
+"type": "place",
+"preferred_label": "Séné",
+"confidence": 0.8,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -14541,6 +17663,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Hermon, Mont",
 "language": "fra"
+}
+],
+"acai": [
+{
+"id": "place:HermonMount",
+"type": "place",
+"preferred_label": "Mount Hermon",
+"confidence": 1.0,
+"match_method": "scored"
 }
 ]
 }
@@ -14636,7 +17767,8 @@
 "end_ref_usfm": "EZK 33:9"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -14658,7 +17790,16 @@
 "end_ref_usfm": "1CH 24:8"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Seorim",
+"type": "person",
+"preferred_label": "Seorim",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -14680,7 +17821,16 @@
 "end_ref_usfm": "GEN 10:30"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Sephar",
+"type": "place",
+"preferred_label": "Sephar",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -14726,7 +17876,23 @@
 "end_ref_usfm": "EZK 47:16"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Sepharvaim",
+"type": "place",
+"preferred_label": "Sepharvaïm",
+"confidence": 0.74,
+"match_method": "scored"
+},
+{
+"id": "place:Ivvah",
+"type": "place",
+"preferred_label": "Ivva",
+"confidence": 0.588,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -14784,7 +17950,16 @@
 "end_ref_usfm": "NUM 10:29"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Zipporah",
+"type": "person",
+"preferred_label": "Séphora",
+"confidence": 0.7714,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -14962,7 +18137,8 @@
 "end_ref_usfm": "JHN 19:11"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -15014,7 +18190,16 @@
 "end_ref_usfm": "GEN 35:20"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Rachel",
+"type": "person",
+"preferred_label": "Rachel",
+"confidence": 0.784,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -15048,7 +18233,16 @@
 "end_ref_usfm": "1CH 7:30"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Serah",
+"type": "person",
+"preferred_label": "Sérach",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -15192,6 +18386,64 @@
 "label": "Azaria",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "person:Seraiah.2",
+"type": "person",
+"preferred_label": "Seraja",
+"confidence": 0.687,
+"match_method": "scored"
+},
+{
+"id": "person:Seraiah",
+"type": "person",
+"preferred_label": "Seraja",
+"confidence": 0.6696,
+"match_method": "scored"
+},
+{
+"id": "person:Seraiah.6",
+"type": "person",
+"preferred_label": "Seraja",
+"confidence": 0.6522,
+"match_method": "scored"
+},
+{
+"id": "person:Seraiah.8",
+"type": "person",
+"preferred_label": "Seraja",
+"confidence": 0.6348,
+"match_method": "scored"
+},
+{
+"id": "person:Seraiah.4",
+"type": "person",
+"preferred_label": "Seraja",
+"confidence": 0.6348,
+"match_method": "scored"
+},
+{
+"id": "person:Seraiah.3",
+"type": "person",
+"preferred_label": "Seraja",
+"confidence": 0.6348,
+"match_method": "scored"
+},
+{
+"id": "person:Seraiah.5",
+"type": "person",
+"preferred_label": "Seraja",
+"confidence": 0.6174,
+"match_method": "scored"
+},
+{
+"id": "person:Seraiah.7",
+"type": "person",
+"preferred_label": "Seraja",
+"confidence": 0.6174,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -15220,7 +18472,23 @@
 "end_ref_usfm": "NUM 26:26"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Sered",
+"type": "person",
+"preferred_label": "Séred",
+"confidence": 0.82,
+"match_method": "scored"
+},
+{
+"id": "group:Sered",
+"type": "group",
+"preferred_label": "Seredites",
+"confidence": 0.6515,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -15242,7 +18510,30 @@
 "end_ref_usfm": "ACT 13:7"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:SergiusPaulus",
+"type": "person",
+"preferred_label": "Sergius Paulus",
+"confidence": 1.0,
+"match_method": "scored"
+},
+{
+"id": "person:Paul",
+"type": "person",
+"preferred_label": "Paul",
+"confidence": 0.598,
+"match_method": "scored"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "Éternel",
+"confidence": 0.58,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -15423,7 +18714,8 @@
 "label": "vœu, vœux",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -15583,7 +18875,16 @@
 "end_ref_usfm": "PSA 58:5"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "fauna:Snake",
+"type": "fauna",
+"preferred_label": "Snake",
+"confidence": 0.9692,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -15624,6 +18925,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Serpent de bronze",
 "language": "fra"
+}
+],
+"acai": [
+{
+"id": "fauna:Snake",
+"type": "fauna",
+"preferred_label": "Snake",
+"confidence": 0.6737,
+"match_method": "scored"
 }
 ]
 }
@@ -15695,7 +19005,8 @@
 "end_ref_usfm": "NUM 21:35"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -15725,7 +19036,8 @@
 "label": "Serug",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -15760,6 +19072,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Généalogie de Jésus-Christ",
 "language": "fra"
+}
+],
+"acai": [
+{
+"id": "person:Serug",
+"type": "person",
+"preferred_label": "Serug",
+"confidence": 1.0,
+"match_method": "scored"
 }
 ]
 }
@@ -15801,7 +19122,8 @@
 "end_ref_usfm": "DEU 15:15"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -16125,7 +19447,8 @@
 "label": "Esclave, Esclavage",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -16377,7 +19700,8 @@
 "label": "Christologie",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -16509,7 +19833,8 @@
 "label": "Esclave, Esclavage",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -16544,6 +19869,22 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Exode (livre)",
 "language": "fra"
+}
+],
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "Éternel",
+"confidence": 0.598,
+"match_method": "scored"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"preferred_label": "Égypte",
+"confidence": 0.5935,
+"match_method": "scored"
 }
 ]
 }
@@ -16593,6 +19934,15 @@
 "label": "Généalogie de Jésus-Christ",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "person:Seth",
+"type": "person",
+"preferred_label": "Seth",
+"confidence": 0.9556,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -16629,6 +19979,15 @@
 "label": "Seth",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "person:Seth",
+"type": "person",
+"preferred_label": "Seth",
+"confidence": 0.85,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -16651,7 +20010,16 @@
 "end_ref_usfm": "NUM 13:13"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Sethur",
+"type": "person",
+"preferred_label": "Sethur",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -16865,7 +20233,8 @@
 "label": "Vierge",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -17130,7 +20499,8 @@
 "label": "colonne de feu et colonne de nuée, Shekinah",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -17296,7 +20666,8 @@
 "label": "État intermédiaire",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -17324,7 +20695,16 @@
 "end_ref_usfm": "NEH 7:47"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Siaha",
+"type": "person",
+"preferred_label": "Siaha",
+"confidence": 0.8695,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -17370,7 +20750,16 @@
 "end_ref_usfm": "1CH 27:11"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Sibbecai",
+"type": "person",
+"preferred_label": "Sibbecaï",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -17400,7 +20789,8 @@
 "label": "Schibboleth",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -17454,6 +20844,15 @@
 "label": "Sibma",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "place:Sibmah",
+"type": "place",
+"preferred_label": "Sibma",
+"confidence": 0.9333,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -17489,6 +20888,15 @@
 "resource_code": "Unknown",
 "label": "Sibma",
 "language": "fra"
+}
+],
+"acai": [
+{
+"id": "place:Sibmah",
+"type": "place",
+"preferred_label": "Sibma",
+"confidence": 0.85,
+"match_method": "scored"
 }
 ]
 }
@@ -17602,7 +21010,16 @@
 "end_ref_usfm": "JDG 9:4"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Shechem",
+"type": "place",
+"preferred_label": "Sichem",
+"confidence": 0.7806,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -17648,7 +21065,37 @@
 "end_ref_usfm": "GEN 34:31"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shechem",
+"type": "person",
+"preferred_label": "Sichem",
+"confidence": 0.7143,
+"match_method": "scored"
+},
+{
+"id": "person:Shechem.2",
+"type": "person",
+"preferred_label": "Sichem",
+"confidence": 0.6229,
+"match_method": "scored"
+},
+{
+"id": "place:Shechem",
+"type": "place",
+"preferred_label": "Sichem",
+"confidence": 0.6114,
+"match_method": "scored"
+},
+{
+"id": "person:Shechem.3",
+"type": "person",
+"preferred_label": "Sichem",
+"confidence": 0.6114,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -17670,7 +21117,16 @@
 "end_ref_usfm": "JDG 9:49"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Shechem",
+"type": "place",
+"preferred_label": "Sichem",
+"confidence": 0.57,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -17700,7 +21156,8 @@
 "label": "Sichem (Personne)",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -17854,7 +21311,8 @@
 "end_ref_usfm": "2SA 24:7"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -17895,6 +21353,29 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Sidon (Lieu), Sidonien",
 "language": "fra"
+}
+],
+"acai": [
+{
+"id": "person:Sidon",
+"type": "person",
+"preferred_label": "Sidon",
+"confidence": 0.8667,
+"match_method": "scored"
+},
+{
+"id": "place:Sidon",
+"type": "place",
+"preferred_label": "Sidon",
+"confidence": 0.7333,
+"match_method": "scored"
+},
+{
+"id": "group:Sidon",
+"type": "group",
+"preferred_label": "Sidonien",
+"confidence": 0.6,
+"match_method": "scored"
 }
 ]
 }
@@ -18034,7 +21515,8 @@
 "label": "Éternité",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -18350,7 +21832,16 @@
 "end_ref_usfm": "LUK 21:26"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "keyterm:MiraculousSign",
+"type": "keyterm",
+"preferred_label": "signe",
+"confidence": 0.8056,
+"match_method": "embedding"
+}
+]
 }
 },
 {
@@ -18572,7 +22063,8 @@
 "label": "Dieu, Noms de",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -18702,7 +22194,16 @@
 "end_ref_usfm": "NUM 32:38"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Sihon",
+"type": "person",
+"preferred_label": "Sihon",
+"confidence": 0.6547,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -18826,7 +22327,8 @@
 "end_ref_usfm": "ACT 17:15"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -18848,7 +22350,16 @@
 "end_ref_usfm": "2KI 12:20"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Silla",
+"type": "place",
+"preferred_label": "Silla",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -18954,7 +22465,8 @@
 "end_ref_usfm": "1SA 4:18"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -18983,6 +22495,22 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Siloé, Piscine de",
 "language": "fra"
+}
+],
+"acai": [
+{
+"id": "place:FountainGate",
+"type": "place",
+"preferred_label": "porte de la source",
+"confidence": 0.73,
+"match_method": "scored"
+},
+{
+"id": "place:Siloam",
+"type": "place",
+"preferred_label": "Siloam",
+"confidence": 0.652,
+"match_method": "scored"
 }
 ]
 }
@@ -19038,7 +22566,51 @@
 "label": "Aqueduc",
 "language": "fra"
 }
-]
+],
+"acai": []
+}
+},
+{
+"content_id": "831672",
+"reference_id": 7663,
+"version": "1.0.2",
+"title": "Siloé, Siloam (tour de)",
+"media_type": "Text",
+"index_reference": "siloé, siloam (tour de)",
+"language": "fra",
+"review_level": "None",
+"content": "<h1>SILOÉ, SILOAM (TOUR DE)</h1><p>Tour mentionnée dans les Évangiles selon Luc et selon Jean. Jésus parle de cette tour qui s&apos;était effondrée, tuant 18 personnes. Dans son enseignement, Jésus mentionne cette tragédie pour déclarer que les victimes n&apos;étaient pas plus coupables que les autres habitants de Jérusalem. Il exhorte alors ceux qui l&apos;écoutent à se repentir afin qu&apos;ils ne périssent pas eux aussi (<a href=\"https://ref.ly/Luke13:4-Luke13:5\">Lc 13.4</a>–<a href=\"https://ref.ly/Luke13:4-Luke13:5\">5</a>).</p><p>Rien de plus n&apos;est connu à propos de cette tour. Siloam est un lieu connu à Jérusalem. La tour y était donc probablement. Il pourrait s&apos;agir de la grande tour construite par Néhémie sur le mur d&apos;Ophel (<a href=\"https://ref.ly/2Chr27:3\">2Ch 27.3</a> ; <a href=\"https://ref.ly/Neh3:26-Neh3:27\">Né 3.26</a>–<a href=\"https://ref.ly/Neh3:26-Neh3:27\">27</a>). Il pourrait également s&apos;agir de l&apos;une des tours construites sur le mur de Jérusalem près du bassin de Siloé.</p><p><em>Voir aussi</em> <span data-bnType=\"resourceReference\" data-resourceId=\"5501\" data-resourceType=\"TyndaleBibleDictionary\">Jérusalem</span>.</p>",
+"associations": {
+"passage": [
+{
+"start_ref": "14027003",
+"start_ref_usfm": "2CH 27:3",
+"end_ref": "14027003",
+"end_ref_usfm": "2CH 27:3"
+},
+{
+"start_ref": "16003026",
+"start_ref_usfm": "NEH 3:26",
+"end_ref": "16003027",
+"end_ref_usfm": "NEH 3:27"
+},
+{
+"start_ref": "42013004",
+"start_ref_usfm": "LUK 13:4",
+"end_ref": "42013005",
+"end_ref_usfm": "LUK 13:5"
+}
+],
+"resource": [
+{
+"reference_id": 5501,
+"content_id": 806058,
+"resource_code": "TyndaleBibleDictionary",
+"label": "Jérusalem",
+"language": "fra"
+}
+],
+"acai": []
 }
 },
 {
@@ -19111,6 +22683,22 @@
 "label": "Silo",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "group:Shiloh",
+"type": "group",
+"preferred_label": "Shimôn",
+"confidence": 0.8034,
+"match_method": "scored"
+},
+{
+"id": "place:Shiloh",
+"type": "place",
+"preferred_label": "Shiloh",
+"confidence": 0.6309,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -19133,7 +22721,16 @@
 "end_ref_usfm": "EZR 10:31"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shimeon",
+"type": "person",
+"preferred_label": "Siméon",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -19235,6 +22832,43 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Siméon, Tribu de",
 "language": "fra"
+}
+],
+"acai": [
+{
+"id": "person:Simeon.5",
+"type": "person",
+"preferred_label": "Siméon",
+"confidence": 0.75,
+"match_method": "scored"
+},
+{
+"id": "group:Simeon",
+"type": "group",
+"preferred_label": "Siméon",
+"confidence": 0.6667,
+"match_method": "scored"
+},
+{
+"id": "person:Simeon.2",
+"type": "person",
+"preferred_label": "Siméon",
+"confidence": 0.6333,
+"match_method": "scored"
+},
+{
+"id": "person:Simeon.4",
+"type": "person",
+"preferred_label": "Siméon",
+"confidence": 0.6167,
+"match_method": "scored"
+},
+{
+"id": "person:Simeon.3",
+"type": "person",
+"preferred_label": "Siméon",
+"confidence": 0.6167,
+"match_method": "scored"
 }
 ]
 }
@@ -19372,7 +23006,8 @@
 "end_ref_usfm": "1CH 1:30"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -19415,6 +23050,15 @@
 "label": "Siméon, Tribu de",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "person:Simeon.5",
+"type": "person",
+"preferred_label": "Siméon",
+"confidence": 0.8005,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -19437,7 +23081,16 @@
 "end_ref_usfm": "1CH 4:20"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Shimon",
+"type": "person",
+"preferred_label": "Simon",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -19465,7 +23118,23 @@
 "end_ref_usfm": "MRK 3:18"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "group:Zealot",
+"type": "group",
+"preferred_label": "zélote; nationaliste",
+"confidence": 0.766,
+"match_method": "scored"
+},
+{
+"id": "person:Simon.2",
+"type": "person",
+"preferred_label": "Simon",
+"confidence": 0.766,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -19493,7 +23162,23 @@
 "end_ref_usfm": "MRK 3:18"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "group:Zealot",
+"type": "group",
+"preferred_label": "zélote; nationaliste",
+"confidence": 0.829,
+"match_method": "scored"
+},
+{
+"id": "person:Simon.2",
+"type": "person",
+"preferred_label": "Simon",
+"confidence": 0.7525,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -19515,7 +23200,8 @@
 "end_ref_usfm": "ACT 8:24"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -19543,7 +23229,23 @@
 "end_ref_usfm": "ACT 1:13"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Simon.2",
+"type": "person",
+"preferred_label": "Simon",
+"confidence": 0.8515,
+"match_method": "scored"
+},
+{
+"id": "person:Matthew",
+"type": "person",
+"preferred_label": "Matthieu",
+"confidence": 0.73,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -19583,7 +23285,23 @@
 "end_ref_usfm": "ACT 1:13"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Simon.2",
+"type": "person",
+"preferred_label": "Simon",
+"confidence": 0.9145,
+"match_method": "scored"
+},
+{
+"id": "group:Zealot",
+"type": "group",
+"preferred_label": "zélote; nationaliste",
+"confidence": 0.7145,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -19753,6 +23471,15 @@
 "label": "Tsin, Désert de",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "place:SinaiMount",
+"type": "place",
+"preferred_label": "montagne de Sinaï",
+"confidence": 0.555,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -19781,7 +23508,8 @@
 "end_ref_usfm": "2CH 9:21"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -19809,7 +23537,8 @@
 "end_ref_usfm": "1CH 1:15"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -20302,6 +24031,15 @@
 "label": "Jérusalem",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "place:Jerusalem",
+"type": "place",
+"preferred_label": "Jérusalem",
+"confidence": 0.729,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -20337,6 +24075,22 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Hermon, Mont",
 "language": "fra"
+}
+],
+"acai": [
+{
+"id": "place:Jerusalem",
+"type": "place",
+"preferred_label": "Jérusalem",
+"confidence": 0.65,
+"match_method": "scored"
+},
+{
+"id": "place:HermonMount",
+"type": "place",
+"preferred_label": "Mount Hermon",
+"confidence": 0.65,
+"match_method": "scored"
 }
 ]
 }
@@ -20452,6 +24206,15 @@
 "label": "Sion",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "place:Jerusalem",
+"type": "place",
+"preferred_label": "Jérusalem",
+"confidence": 0.6115,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -20474,7 +24237,16 @@
 "end_ref_usfm": "1SA 30:28"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Siphmoth",
+"type": "place",
+"preferred_label": "Siphmoth",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -20504,7 +24276,8 @@
 "label": "Saph",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -20526,7 +24299,16 @@
 "end_ref_usfm": "2SA 3:26"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Sirah",
+"type": "place",
+"preferred_label": "Sirah",
+"confidence": 0.9505,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -20573,6 +24355,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Hermon, Mont",
 "language": "fra"
+}
+],
+"acai": [
+{
+"id": "place:HermonMount",
+"type": "place",
+"preferred_label": "Mount Hermon",
+"confidence": 1.0,
+"match_method": "scored"
 }
 ]
 }
@@ -20634,6 +24425,22 @@
 "label": "Juges, Livre de",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "person:Sisera",
+"type": "person",
+"preferred_label": "Sisera",
+"confidence": 0.77,
+"match_method": "scored"
+},
+{
+"id": "person:Sisera.2",
+"type": "person",
+"preferred_label": "Sisera",
+"confidence": 0.62,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -20656,7 +24463,16 @@
 "end_ref_usfm": "1CH 2:40"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Sismai",
+"type": "person",
+"preferred_label": "Sismaï",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -20686,7 +24502,8 @@
 "label": "Instruments de musique",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -20708,7 +24525,16 @@
 "end_ref_usfm": "EXO 6:22"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Sithri",
+"type": "person",
+"preferred_label": "Sithri",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -20730,7 +24556,16 @@
 "end_ref_usfm": "GEN 26:22"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Sitnah",
+"type": "place",
+"preferred_label": "Sitna",
+"confidence": 0.8,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -20824,7 +24659,23 @@
 "end_ref_usfm": "NUM 27:22"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Shittim",
+"type": "place",
+"preferred_label": "Sittim",
+"confidence": 0.6139,
+"match_method": "scored"
+},
+{
+"id": "place:ShittimValley",
+"type": "place",
+"preferred_label": "Valley of Shittim",
+"confidence": 0.5668,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -20854,7 +24705,8 @@
 "label": "Calendriers, Anciens et modernes",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -20882,7 +24734,16 @@
 "end_ref_usfm": "2KI 17:5"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:So",
+"type": "person",
+"preferred_label": "So",
+"confidence": 0.7333,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -20940,7 +24801,37 @@
 "end_ref_usfm": "2CH 28:18"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Socoh",
+"type": "place",
+"preferred_label": "Soco",
+"confidence": 0.8286,
+"match_method": "scored"
+},
+{
+"id": "place:Socoh.2",
+"type": "place",
+"preferred_label": "Soco",
+"confidence": 0.6571,
+"match_method": "scored"
+},
+{
+"id": "person:Soco",
+"type": "person",
+"preferred_label": "Soco",
+"confidence": 0.6571,
+"match_method": "scored"
+},
+{
+"id": "place:Socoh.3",
+"type": "place",
+"preferred_label": "Soco",
+"confidence": 0.6571,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -20976,6 +24867,22 @@
 "label": "Soco (Lieu)",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "place:Socoh.2",
+"type": "place",
+"preferred_label": "Soco",
+"confidence": 0.8,
+"match_method": "scored"
+},
+{
+"id": "person:Soco",
+"type": "person",
+"preferred_label": "Soco",
+"confidence": 0.8,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -20998,7 +24905,16 @@
 "end_ref_usfm": "NUM 13:10"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Sodi",
+"type": "person",
+"preferred_label": "Sodi",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -21160,7 +25076,8 @@
 "label": "Villes de la plaine",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -21182,7 +25099,8 @@
 "end_ref_usfm": "LEV 11:22"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -21370,7 +25288,8 @@
 "label": "Jour",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -21398,7 +25317,16 @@
 "end_ref_usfm": "ROM 16:21"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Sopater",
+"type": "person",
+"preferred_label": "Sopater",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -21426,7 +25354,16 @@
 "end_ref_usfm": "NEH 7:57"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Sophereth",
+"type": "person",
+"preferred_label": "Sophéreth",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -21497,6 +25434,29 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Sophonie, Livre de",
 "language": "fra"
+}
+],
+"acai": [
+{
+"id": "person:Zephaniah.2",
+"type": "person",
+"preferred_label": "Sophonie",
+"confidence": 0.7263,
+"match_method": "scored"
+},
+{
+"id": "person:Zephaniah.4",
+"type": "person",
+"preferred_label": "Sophonie",
+"confidence": 0.6421,
+"match_method": "scored"
+},
+{
+"id": "person:Zephaniah.3",
+"type": "person",
+"preferred_label": "Sophonie",
+"confidence": 0.6211,
+"match_method": "scored"
 }
 ]
 }
@@ -21817,7 +25777,8 @@
 "label": "Josias",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -21919,7 +25880,8 @@
 "label": "Magie",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -21949,7 +25911,8 @@
 "label": "Magie",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -21971,7 +25934,23 @@
 "end_ref_usfm": "JDG 16:4"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:SorekValley",
+"type": "place",
+"preferred_label": "vallée de Sorek",
+"confidence": 1.0,
+"match_method": "scored"
+},
+{
+"id": "person:Delilah",
+"type": "person",
+"preferred_label": "Delila",
+"confidence": 0.73,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -22005,7 +25984,8 @@
 "end_ref_usfm": "JHN 19:29"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -22033,7 +26013,16 @@
 "end_ref_usfm": "1CO 1:1"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Sosthenes",
+"type": "person",
+"preferred_label": "Sosthène",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -22061,7 +26050,16 @@
 "end_ref_usfm": "NEH 7:57"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Sotai",
+"type": "person",
+"preferred_label": "Sothaï",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -22158,7 +26156,8 @@
 "label": "Argent",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -22356,7 +26355,8 @@
 "label": "Persécution",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -22446,7 +26446,8 @@
 "label": "Minéraux et Métaux",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -22528,7 +26529,8 @@
 "end_ref_usfm": "MRK 7:37"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -22550,7 +26552,8 @@
 "end_ref_usfm": "LEV 11:29"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -22674,7 +26677,8 @@
 "end_ref_usfm": "PSA 106:22"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -22716,7 +26720,8 @@
 "label": "Sacrificateurs (prêtres) et lévites",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -22746,7 +26751,8 @@
 "label": "Aliboufier",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -22789,7 +26795,8 @@
 "label": "Moab, Moabites",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -22913,7 +26920,8 @@
 "end_ref_usfm": "GEN 30:21"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -22956,7 +26964,8 @@
 "label": "Philosophie",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -22986,6 +26995,15 @@
 "label": "Aliboufier",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "flora:Styrax",
+"type": "flora",
+"preferred_label": "Styrax",
+"confidence": 1.0,
+"match_method": "embedding"
+}
 ]
 }
 },
@@ -23008,7 +27026,23 @@
 "end_ref_usfm": "1CH 7:36"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Suah",
+"type": "person",
+"preferred_label": "Suach",
+"confidence": 1.0,
+"match_method": "scored"
+},
+{
+"id": "person:Shual",
+"type": "person",
+"preferred_label": "Schual",
+"confidence": 0.9505,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -23030,7 +27064,8 @@
 "end_ref_usfm": "1CH 2:55"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -23130,7 +27165,23 @@
 "end_ref_usfm": "NUM 33:6"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Succoth",
+"type": "place",
+"preferred_label": "Succoth",
+"confidence": 0.8087,
+"match_method": "scored"
+},
+{
+"id": "place:Succoth.2",
+"type": "place",
+"preferred_label": "Succoth",
+"confidence": 0.6696,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -23152,7 +27203,16 @@
 "end_ref_usfm": "2KI 17:30"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "deity:Succoth-benoth",
+"type": "deity",
+"preferred_label": "Succoth-Benoth",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -23204,7 +27264,8 @@
 "end_ref_usfm": "MAT 27:4"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -23226,7 +27287,8 @@
 "end_ref_usfm": "2CH 12:3"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -23280,7 +27342,8 @@
 "label": "Sunem",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -23315,6 +27378,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Sunem",
 "language": "fra"
+}
+],
+"acai": [
+{
+"id": "group:Shunammites",
+"type": "group",
+"preferred_label": "Shunammites",
+"confidence": 0.9505,
+"match_method": "scored"
 }
 ]
 }
@@ -23374,7 +27446,16 @@
 "end_ref_usfm": "1SA 31:13"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Shunem",
+"type": "place",
+"preferred_label": "Sunem",
+"confidence": 0.6117,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -23402,7 +27483,23 @@
 "end_ref_usfm": "DEU 1:1"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Suph",
+"type": "place",
+"preferred_label": "Suph",
+"confidence": 0.8,
+"match_method": "scored"
+},
+{
+"id": "place:Suphah",
+"type": "place",
+"preferred_label": "Supha",
+"confidence": 0.7505,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -23431,6 +27528,53 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Vaheb",
 "language": "fra"
+}
+],
+"acai": [
+{
+"id": "place:Suphah",
+"type": "place",
+"preferred_label": "Supha",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
+}
+},
+{
+"content_id": "831676",
+"reference_id": 7831,
+"version": "1.0.2",
+"title": "Susanne, Suzanne",
+"media_type": "Text",
+"index_reference": "susanne, suzanne",
+"language": "fra",
+"review_level": "None",
+"content": "<h1>SUSANNE, SUZANNE</h1><ol><li><p>Une des femmes qui ont aidé et soutenu Jésus de leurs propres biens (<a href=\"https://ref.ly/Luke8:3\">Lc 8.3</a>).</p></li><li><p>Personnage féminin principal du livre apocryphe intitulé « Suzanne et les Vieillards ». Certaines traditions chrétiennes considèrent ce livre deutérocanonique. Selon ce récit, Susanne refuse les avances de deux anciens respectés de la communauté juive. Pour se venger, ils l&apos;accusent faussement d&apos;avoir commis un adultère. Le jeune prophète Daniel la sauve en prouvant habilement son innocence. </p><p>Ce récit, qui ne fait que 64 versets, est considéré comme un grand classique de la littérature et la première histoire de «&nbsp;détective&nbsp;». C&apos;est l&apos;une des toutes premières histoires où quelqu&apos;un résout un crime en trouvant des indices et en interrogeant des témoins. </p><p>Le livre se concentre sur quelques personnages uniquement. Le prophète Daniel agit comme un enquêteur intelligent qui parvient à trouver et prouver la vérité, Suzanne comme la belle et vertueuse victime d&apos;une fausse accusation, et les deux anciens comme des hommes pervers sans scrupules. Le récit communique qu&apos;en fin de compte, le bien finit toujours par triompher.</p></li></ol>",
+"associations": {
+"passage": [
+{
+"start_ref": "42008003",
+"start_ref_usfm": "LUK 8:3",
+"end_ref": "42008003",
+"end_ref_usfm": "LUK 8:3"
+}
+],
+"resource": [],
+"acai": [
+{
+"id": "person:Susanna",
+"type": "person",
+"preferred_label": "Susanne",
+"confidence": 0.838,
+"match_method": "scored"
+},
+{
+"id": "person:Joanna",
+"type": "person",
+"preferred_label": "Jeanne",
+"confidence": 0.766,
+"match_method": "scored"
 }
 ]
 }
@@ -23514,7 +27658,16 @@
 "end_ref_usfm": "EST 9:18"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Susa",
+"type": "place",
+"preferred_label": "Suse",
+"confidence": 0.8333,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -23536,7 +27689,16 @@
 "end_ref_usfm": "NUM 13:11"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Susi",
+"type": "person",
+"preferred_label": "Susi",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -23624,7 +27786,16 @@
 "end_ref_usfm": "JHN 4:30"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Sychar",
+"type": "place",
+"preferred_label": "Sychar",
+"confidence": 0.6069,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -23646,7 +27817,8 @@
 "end_ref_usfm": "LUK 17:6"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -23674,7 +27846,8 @@
 "end_ref_usfm": "LUK 19:4"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -23714,7 +27887,16 @@
 "end_ref_usfm": "EZK 30:6"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Syene",
+"type": "place",
+"preferred_label": "Syène",
+"confidence": 0.8,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -23743,6 +27925,50 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Siméon (Personne)",
 "language": "fra"
+}
+],
+"acai": [
+{
+"id": "group:Simeon",
+"type": "group",
+"preferred_label": "Siméon",
+"confidence": 0.8923,
+"match_method": "embedding"
+},
+{
+"id": "person:Shimeon",
+"type": "person",
+"preferred_label": "Siméon",
+"confidence": 0.8923,
+"match_method": "embedding"
+},
+{
+"id": "person:Simeon.2",
+"type": "person",
+"preferred_label": "Siméon",
+"confidence": 0.8923,
+"match_method": "embedding"
+},
+{
+"id": "person:Simeon.3",
+"type": "person",
+"preferred_label": "Siméon",
+"confidence": 0.8923,
+"match_method": "embedding"
+},
+{
+"id": "person:Simeon.4",
+"type": "person",
+"preferred_label": "Siméon",
+"confidence": 0.8923,
+"match_method": "embedding"
+},
+{
+"id": "person:Simeon.5",
+"type": "person",
+"preferred_label": "Siméon",
+"confidence": 0.8923,
+"match_method": "embedding"
 }
 ]
 }
@@ -23973,6 +28199,15 @@
 "label": "Chef de la synagogue",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "realia:Synagogue",
+"type": "realia",
+"preferred_label": "Synagogue",
+"confidence": 0.7022,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -24001,7 +28236,16 @@
 "end_ref_usfm": "ACT 28:31"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Syracuse",
+"type": "place",
+"preferred_label": "Syracuse",
+"confidence": 0.6129,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -24175,7 +28419,8 @@
 "label": "Araméen",
 "language": "fra"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -24205,6 +28450,22 @@
 "label": "Maaca (Lieu)",
 "language": "fra"
 }
+],
+"acai": [
+{
+"id": "place:Aram-maacah",
+"type": "place",
+"preferred_label": "les Syriens de Maaca",
+"confidence": 0.9505,
+"match_method": "scored"
+},
+{
+"id": "realia:Chariot",
+"type": "realia",
+"preferred_label": "Chariot",
+"confidence": 0.58,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -24233,7 +28494,8 @@
 "end_ref_usfm": "MRK 7:26"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -24255,7 +28517,8 @@
 "end_ref_usfm": "ACT 27:17"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 }
 ]

@@ -320,7 +320,8 @@
 "label": "عبد، عبودية",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -430,7 +431,8 @@
 "label": "نقوش",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -453,7 +455,8 @@
 "label": "أعشاب مرة",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -1077,7 +1080,8 @@
 "label": "بولس، الرسول",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -1405,7 +1409,8 @@
 "label": "الخطيَّة التي لا تُغْتَفَر*",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -1568,7 +1573,8 @@
 "label": "خطية للموت",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -1591,7 +1597,8 @@
 "label": "الخطيَّة التي لا تُغْتَفَر*",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -1621,7 +1628,8 @@
 "label": "ضِدَّ ٱلْمَسِيح",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -1742,7 +1750,8 @@
 "label": "فادي، فداء",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -1977,7 +1986,8 @@
 "label": "الله، جوهره وصفاته",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -2142,7 +2152,8 @@
 "label": "فطير - خبز غير مختمر",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -2184,7 +2195,8 @@
 "label": "الناموس الجنائي والعقوبة",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -2482,7 +2494,8 @@
 "end_ref_usfm": "PRO 2:5"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -2558,7 +2571,8 @@
 "end_ref_usfm": "JER 25:38"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -2769,7 +2783,8 @@
 "label": "دخيل",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -2803,7 +2818,16 @@
 "end_ref_usfm": "1CH 5:26"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Habor",
+"type": "place",
+"preferred_label": "خَابورَ",
+"confidence": 0.964,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -2867,7 +2891,16 @@
 "end_ref_usfm": "EZK 43:3"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Chebar",
+"type": "place",
+"preferred_label": "خَابورَ",
+"confidence": 0.964,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -2890,7 +2923,8 @@
 "label": "خَتم",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -2913,7 +2947,8 @@
 "label": "أمينُ البلاط",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -2992,7 +3027,8 @@
 "label": "مواهب روحية",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -3251,7 +3287,8 @@
 "label": "سِفْر إِشَعْيَاء",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -3395,7 +3432,8 @@
 "label": "عبد، عبودية",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -3486,7 +3524,8 @@
 "label": "مال",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -3515,6 +3554,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "خلداي/خَالَبُ/خالد",
 "language": "arb"
+}
+],
+"acai": [
+{
+"id": "person:Heleb",
+"type": "person",
+"preferred_label": "خَالَب",
+"confidence": 1.0,
+"match_method": "scored"
 }
 ]
 }
@@ -3545,6 +3593,71 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "خلداي/خَالَبُ/خالد",
 "language": "arb"
+}
+],
+"acai": [
+{
+"id": "person:Eli",
+"type": "person",
+"preferred_label": "عَالِي",
+"confidence": 0.8551,
+"match_method": "embedding"
+},
+{
+"id": "person:Epher",
+"type": "person",
+"preferred_label": "عَافِر",
+"confidence": 0.8289,
+"match_method": "embedding"
+},
+{
+"id": "person:Epher.2",
+"type": "person",
+"preferred_label": "عَافِر",
+"confidence": 0.8289,
+"match_method": "embedding"
+},
+{
+"id": "person:Epher.3",
+"type": "person",
+"preferred_label": "عَافِر",
+"confidence": 0.8289,
+"match_method": "embedding"
+},
+{
+"id": "person:Caleb",
+"type": "person",
+"preferred_label": "كَالِب",
+"confidence": 0.8217,
+"match_method": "embedding"
+},
+{
+"id": "person:Caleb.2",
+"type": "person",
+"preferred_label": "كَالِب",
+"confidence": 0.8217,
+"match_method": "embedding"
+},
+{
+"id": "person:Eder",
+"type": "person",
+"preferred_label": "عَادِر",
+"confidence": 0.8035,
+"match_method": "embedding"
+},
+{
+"id": "person:Eder.2",
+"type": "person",
+"preferred_label": "عَادِر",
+"confidence": 0.8035,
+"match_method": "embedding"
+},
+{
+"id": "place:Eder",
+"type": "place",
+"preferred_label": "عَادِر",
+"confidence": 0.8035,
+"match_method": "embedding"
 }
 ]
 }
@@ -3630,7 +3743,8 @@
 "label": "الطعام وإعداد الطعام",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -3965,7 +4079,8 @@
 "label": "أهمية المائدة",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -4104,7 +4219,8 @@
 "label": "الهيكل",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -4694,7 +4810,8 @@
 "label": "الغُرْلَة- غير المختون",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -4827,7 +4944,8 @@
 "label": "نقوش",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -4850,7 +4968,8 @@
 "label": "نثينيم",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -4880,7 +4999,8 @@
 "label": "نباتات",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -5060,7 +5180,8 @@
 "label": "خروج، سِفْر الـ",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -5771,7 +5892,8 @@
 "label": "ضربات على مِصْرَ",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -5794,7 +5916,8 @@
 "label": "حيوانات",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -5817,7 +5940,8 @@
 "label": "بيت الخزائن",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -5839,6 +5963,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "الخزف - الأواني الخَزَفِيَّة",
 "language": "arb"
+}
+],
+"acai": [
+{
+"id": "person:Hareph",
+"type": "person",
+"preferred_label": "حَارِيف",
+"confidence": 0.8362,
+"match_method": "embedding"
 }
 ]
 }
@@ -5870,6 +6003,78 @@
 "label": "دروع وأسلحة",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "place:Ashnah",
+"type": "place",
+"preferred_label": "أَشْنَة",
+"confidence": 0.8412,
+"match_method": "embedding"
+},
+{
+"id": "place:Bozkath",
+"type": "place",
+"preferred_label": "بَصْقَة",
+"confidence": 0.8351,
+"match_method": "embedding"
+},
+{
+"id": "person:Achsah",
+"type": "person",
+"preferred_label": "عَكْسَة",
+"confidence": 0.8331,
+"match_method": "embedding"
+},
+{
+"id": "person:Achsah.2",
+"type": "person",
+"preferred_label": "عَكْسَة",
+"confidence": 0.8331,
+"match_method": "embedding"
+},
+{
+"id": "person:Rebekah",
+"type": "person",
+"preferred_label": "رِفْقَة",
+"confidence": 0.8322,
+"match_method": "embedding"
+},
+{
+"id": "person:Shebna",
+"type": "person",
+"preferred_label": "شِبْنَة",
+"confidence": 0.8234,
+"match_method": "embedding"
+},
+{
+"id": "person:Rizpah",
+"type": "person",
+"preferred_label": "رِصْفَة",
+"confidence": 0.8216,
+"match_method": "embedding"
+},
+{
+"id": "person:Shiphrah",
+"type": "person",
+"preferred_label": "شِفْرَة",
+"confidence": 0.8185,
+"match_method": "embedding"
+},
+{
+"id": "person:Shilshah",
+"type": "person",
+"preferred_label": "شِلْشَة",
+"confidence": 0.811,
+"match_method": "embedding"
+},
+{
+"id": "place:Dophkah",
+"type": "place",
+"preferred_label": "دفْقَةَ",
+"confidence": 0.8072,
+"match_method": "embedding"
+}
 ]
 }
 },
@@ -5900,7 +6105,8 @@
 "label": "نباتات",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -5923,7 +6129,8 @@
 "label": "نباتات",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -5953,7 +6160,8 @@
 "label": "نباتات",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -5983,7 +6191,8 @@
 "label": "الشيطان، إبليس",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -6071,7 +6280,8 @@
 "end_ref_usfm": "ACT 8:39"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -6115,7 +6325,8 @@
 "label": "العدس",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -6138,7 +6349,8 @@
 "label": "زواج، عادات الزواج",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -6161,7 +6373,8 @@
 "label": "زواج، عادات الزواج",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -6210,7 +6423,8 @@
 "label": "الخطية",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -6246,7 +6460,8 @@
 "label": "حيوانات",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -6269,7 +6484,8 @@
 "label": "الطعام وإعداد الطعام",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -6668,7 +6884,8 @@
 "label": "فادي، فداء",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -6708,7 +6925,8 @@
 "end_ref_usfm": "ZEC 6:10"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -6766,7 +6984,16 @@
 "end_ref_usfm": "2CH 35:25"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Huldah",
+"type": "person",
+"preferred_label": "خَلْدَةَ",
+"confidence": 0.625,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -6788,7 +7015,8 @@
 "end_ref_usfm": "1CO 1:11"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -6816,7 +7044,8 @@
 "end_ref_usfm": "1KI 9:28"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -7319,7 +7548,8 @@
 "label": "الْإِنْسَان الْعَتِيق والْجَدْيِد",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -7632,7 +7862,8 @@
 "label": "معصرة النبيذ",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -7655,7 +7886,8 @@
 "label": "الخمير*",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -7678,7 +7910,8 @@
 "label": "دروع وأسلحة",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -7714,7 +7947,8 @@
 "label": "خِنزير",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -7737,7 +7971,8 @@
 "label": "حيوانات",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -7767,7 +8002,8 @@
 "label": "خِنزير",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -7789,7 +8025,8 @@
 "end_ref_usfm": "1CH 8:9"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -7812,7 +8049,8 @@
 "label": "دروع وأسلحة",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -7890,6 +8128,57 @@
 "label": "الناموس الجنائي والعقوبة",
 "language": "arb"
 }
+],
+"acai": [
+{
+"id": "place:Haradah",
+"type": "place",
+"preferred_label": "حَرَادَةَ",
+"confidence": 0.8388,
+"match_method": "embedding"
+},
+{
+"id": "person:Pekahiah",
+"type": "person",
+"preferred_label": "فَقَحْيَا",
+"confidence": 0.8349,
+"match_method": "embedding"
+},
+{
+"id": "person:Keziah",
+"type": "person",
+"preferred_label": "قَصِيعَةَ",
+"confidence": 0.8285,
+"match_method": "embedding"
+},
+{
+"id": "person:Tehinnah",
+"type": "person",
+"preferred_label": "تَحِنَّةَ",
+"confidence": 0.8154,
+"match_method": "embedding"
+},
+{
+"id": "person:Togarmah",
+"type": "person",
+"preferred_label": "توجَرْمَة",
+"confidence": 0.8098,
+"match_method": "embedding"
+},
+{
+"id": "person:Zipporah",
+"type": "person",
+"preferred_label": "صَفّورَةَ",
+"confidence": 0.8091,
+"match_method": "embedding"
+},
+{
+"id": "place:Hachilah",
+"type": "place",
+"preferred_label": "حَخِيلَةَ",
+"confidence": 0.8089,
+"match_method": "embedding"
+}
 ]
 }
 },
@@ -7912,7 +8201,16 @@
 "end_ref_usfm": "LUK 8:3"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Chuza",
+"type": "person",
+"preferred_label": "خوزِي",
+"confidence": 0.9505,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -7948,7 +8246,8 @@
 "label": "بِيرَوَثَايَ",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -7988,7 +8287,16 @@
 "end_ref_usfm": "2CO 11:10"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "place:Hamath",
+"type": "place",
+"preferred_label": "حَمَاةَ",
+"confidence": 0.8102,
+"match_method": "embedding"
+}
+]
 }
 },
 {
@@ -8018,7 +8326,8 @@
 "label": "مال",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -8040,7 +8349,8 @@
 "end_ref_usfm": "EZK 27:11"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -8063,7 +8373,8 @@
 "label": "المَسْكَن-خَيْمَة الِٱجْتِمَاع-خَيْمَة الشَّهَادَة",
 "language": "arb"
 }
-]
+],
+"acai": []
 }
 },
 {
@@ -8092,6 +8403,15 @@
 "resource_code": "Unknown",
 "label": "كِيُوس",
 "language": "arb"
+}
+],
+"acai": [
+{
+"id": "place:Chios",
+"type": "place",
+"preferred_label": "خِيوسَ",
+"confidence": 0.964,
+"match_method": "scored"
 }
 ]
 }

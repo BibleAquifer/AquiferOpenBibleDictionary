@@ -1320,7 +1320,8 @@
 "end_ref_usfm": "PSA 15:2"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -1447,6 +1448,15 @@
 "label": "Спасение",
 "language": "rus"
 }
+],
+"acai": [
+{
+"id": "group:Zealot",
+"type": "group",
+"preferred_label": "Зилот",
+"confidence": 0.6267,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -1469,7 +1479,16 @@
 "end_ref_usfm": "TIT 3:13"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Zenas",
+"type": "person",
+"preferred_label": "Зина",
+"confidence": 1.0,
+"match_method": "scored"
+}
+]
 }
 }
 ]

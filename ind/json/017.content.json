@@ -44,6 +44,29 @@
 "label": "Rasul, Kerasulan",
 "language": "ind"
 }
+],
+"acai": [
+{
+"id": "person:Judas",
+"type": "person",
+"preferred_label": "Yudas",
+"confidence": 0.8065,
+"match_method": "scored"
+},
+{
+"id": "person:Alphaeus",
+"type": "person",
+"preferred_label": "Alfeus",
+"confidence": 0.72,
+"match_method": "scored"
+},
+{
+"id": "person:Bartholomew",
+"type": "person",
+"preferred_label": "Bartolomeus",
+"confidence": 0.6435,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -234,7 +257,8 @@
 "end_ref_usfm": "EZK 43:7"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -550,7 +574,16 @@
 "end_ref_usfm": "LUK 21:26"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "keyterm:Example",
+"type": "keyterm",
+"preferred_label": "tanda",
+"confidence": 0.8869,
+"match_method": "embedding"
+}
+]
 }
 },
 {
@@ -596,7 +629,16 @@
 "end_ref_usfm": "ACT 24:3"
 }
 ],
-"resource": []
+"resource": [],
+"acai": [
+{
+"id": "person:Theophilus",
+"type": "person",
+"preferred_label": "Teofilus",
+"confidence": 0.7333,
+"match_method": "scored"
+}
+]
 }
 },
 {
@@ -870,7 +912,8 @@
 "end_ref_usfm": "EZK 43:27"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 },
 {
@@ -947,6 +990,15 @@
 "resource_code": "TyndaleBibleDictionary",
 "label": "Rasul, Kerasulan",
 "language": "ind"
+}
+],
+"acai": [
+{
+"id": "person:Thomas",
+"type": "person",
+"preferred_label": "Tomas",
+"confidence": 0.829,
+"match_method": "scored"
 }
 ]
 }
@@ -1297,6 +1349,15 @@
 "label": "Allah, Nama-nama",
 "language": "ind"
 }
+],
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"preferred_label": "Tuhan",
+"confidence": 0.6023,
+"match_method": "scored"
+}
 ]
 }
 },
@@ -1391,7 +1452,8 @@
 "end_ref_usfm": "HEB 10:13"
 }
 ],
-"resource": []
+"resource": [],
+"acai": []
 }
 }
 ]
