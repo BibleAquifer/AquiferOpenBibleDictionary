@@ -2,7 +2,7 @@
 {
 "content_id": "315504",
 "reference_id": 3220,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "美麗",
 "media_type": "Text",
 "index_reference": "美麗",
@@ -223,7 +223,7 @@
 {
 "content_id": "800773",
 "reference_id": 6257,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "美索不達米亞",
 "media_type": "Text",
 "index_reference": "美索不達米亞",
@@ -294,7 +294,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Mesopotamia",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Mesopotamia"
+},
+{
+"id": "place:Aram-naharaim",
+"type": "place",
+"confidence": 0.6,
+"match_method": "scored",
+"preferred_label": "Aram-naharaim"
+}
+]
 }
 }
 ]

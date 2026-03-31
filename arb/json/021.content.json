@@ -2,7 +2,7 @@
 {
 "content_id": "510018",
 "reference_id": 3747,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "القانون المدني والعدالة",
 "media_type": "Text",
 "index_reference": "القانون المدني والعدالة",
@@ -89,7 +89,7 @@
 {
 "content_id": "800794",
 "reference_id": 209539,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "القِثَّاء البَرِّيّ",
 "media_type": "Text",
 "index_reference": "القِثَّاء البَرِّيّ",
@@ -113,7 +113,7 @@
 {
 "content_id": "159134",
 "reference_id": 5045,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "القداسة",
 "media_type": "Text",
 "index_reference": "القداسة",
@@ -408,7 +408,7 @@
 {
 "content_id": "511708",
 "reference_id": 6543,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "القرَّاص",
 "media_type": "Text",
 "index_reference": "القرَّاص",
@@ -426,13 +426,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "flora:Nettle",
+"type": "flora",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Nettle"
+}
+]
 }
 },
 {
 "content_id": "509232",
 "reference_id": 2520,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "القصيدة المتوّجة",
 "media_type": "Text",
 "index_reference": "القصيدة المتوّجة",
@@ -521,10 +529,10 @@
 {
 "content_id": "201494",
 "reference_id": 5661,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "القضاء*، دار",
 "media_type": "Text",
-"index_reference": "القضاء*، دار",
+"index_reference": "القضاء دار",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>القضاء*، دار</h1><p>ترجمة الكلمة في العهد الجديد في ترجمتيّ الملك جيمس وفاندايك في <a href=\"https://ref.ly/John18:28\">يوحنَّا 18: 28، 33</a>؛ <a href=\"https://ref.ly/John19:9\">19: 9</a>؛ <a href=\"https://ref.ly/Acts23:35\">أعمال الرُّسُل 23: 35</a> تترجم أيضًا &quot;دار الولاية&quot; (مرقس <a href=\"https://ref.ly/Mark15:16\">15: 16</a>) و&quot;قاعة عامة&quot; (<a href=\"https://ref.ly/Matt27:27\">متى 27: 27</a>). استُخدِمَت الكلمة لأول مرة للإشارة إلى المكان الذي كانت فيه خيمة القائد الروماني في معسكر للجيش، ومن هنا كانت الإشارة إلى مقر المخيم. ثم أصبحت تعني المجلس العسكري الذي يجتمع في خيمة اللواء. لاحقًا، كان تُستخدَم للإشارة إلى القصر الذي كان يقيم فيه الوالي الروماني أو النائب العام أثناء حُكمه لمقاطعة ما. كما أيضًا حددت مقر الجيش والثكنات العسكرية التي كانت تقع بالقرب من مقر إقامة الحاكم. وفي أورشليم كانت القِصْر الذي بناه هِيرُودُس الكبير لنفسه. عندما جاء الوالي الروماني من إقامته الطبيعية من قيصرية إلى أورشليم، احتل قصر هِيرُودُس وأدار أعماله الرسمية هناك. هناك حيث استجوب بيلاطس الرب يسوع (<a href=\"https://ref.ly/John18:28\">يوحنا 18: 28</a>؛ <a href=\"https://ref.ly/John19:9\">19: 9</a>)، ولكن في مكان آخر يُدعى &quot;الْبَلاَط&quot; حيث جلس بيلاطس للقضاء وأعطى الرب يسوع لليهود.</p>",
@@ -574,7 +582,7 @@
 {
 "content_id": "509929",
 "reference_id": 3618,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "القِلاَفَةُ",
 "media_type": "Text",
 "index_reference": "القِلاَفَةُ",
@@ -591,35 +599,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "place:Chephirah",
-"type": "place",
-"preferred_label": "ٱلْكَفِيرَة",
-"confidence": 0.8434,
-"match_method": "embedding"
-},
-{
-"id": "place:PotsherdGate",
-"type": "place",
-"preferred_label": "ٱلْفَخَّارِ",
-"confidence": 0.8413,
-"match_method": "embedding"
-},
-{
-"id": "place:Ophel",
-"type": "place",
-"preferred_label": "ٱلْأَكَمَةِ",
-"confidence": 0.8313,
-"match_method": "embedding"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "124512",
 "reference_id": 4918,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "القلب",
 "media_type": "Text",
 "index_reference": "القلب",
@@ -1288,9 +1274,9 @@
 {
 "id": "keyterm:Heart",
 "type": "keyterm",
-"preferred_label": "Heart",
-"confidence": 0.9422,
-"match_method": "embedding"
+"confidence": 0.7803,
+"match_method": "scored",
+"preferred_label": "Heart"
 }
 ]
 }
@@ -1298,7 +1284,7 @@
 {
 "content_id": "511571",
 "reference_id": 6309,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "القلعة",
 "media_type": "Text",
 "index_reference": "القلعة",
@@ -1365,13 +1351,28 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Millo",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "ٱلْقَلْعَةِ"
+},
+{
+"id": "place:Beth-millo",
+"type": "place",
+"confidence": 0.75,
+"match_method": "scored",
+"preferred_label": "Beth-millo"
+}
+]
 }
 },
 {
 "content_id": "201504",
 "reference_id": 6367,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "القمر",
 "media_type": "Text",
 "index_reference": "القمر",
@@ -1626,7 +1627,7 @@
 {
 "content_id": "510049",
 "reference_id": 3807,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "القنصل",
 "media_type": "Text",
 "index_reference": "القنصل",
@@ -1649,7 +1650,7 @@
 {
 "content_id": "512141",
 "reference_id": 7339,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "الْقُنْفُذ",
 "media_type": "Text",
 "index_reference": "الْقُنْفُذ",
@@ -1680,7 +1681,7 @@
 {
 "content_id": "232608",
 "reference_id": 6968,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "القوة",
 "media_type": "Text",
 "index_reference": "القوة",
@@ -2126,16 +2127,24 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Strength",
+"type": "keyterm",
+"confidence": 0.6553,
+"match_method": "scored",
+"preferred_label": "Strength"
+}
+]
 }
 },
 {
 "content_id": "509480",
 "reference_id": 2890,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "القوس، المقبب",
 "media_type": "Text",
-"index_reference": "القوس، المقبب",
+"index_reference": "القوس المقبب",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>القوس، المقبب</h1><p>هيكل منحني، يشيَّد في المعتاد من الحجارة أو الطوب. وكانت الأقواس أو المقببات تحمل وزن البناء فوق المدخل أو أي مساحة مفتوحة أخرى. وحجر العقد أو الحجر التتويجي هو الجزء الأهم في القوس أو المقبب، وهو آخر حجر يوضَع. يربط هذا الحجر الجانبين المنحنيين معًا، ويوزع الوزن بالتساوي من خلالهما إلى الأساس.</p><p>لم تكن الأقواس أو المقببات مستخدمة في إسرائيل القديمة، وهي تظهر في الكتاب المقدس فقط كخطأ في الترجمة. فقد تُرجمَت كلمة عبرية إلى &quot;مقببات&quot; طوال رؤيا حزقيال عن الهيكل (<a href=\"https://ref.ly/Ezek40:1-Ezek40:49\">حزقيال 40</a>)، لكن هذه الكلمة تشير إلى الشرفات وليس إلى المقببات.</p><p>انظر أيضًا <span data-bnType=\"resourceReference\" data-resourceId=\"2888\" data-resourceType=\"TyndaleBibleDictionary\">فن العمارة</span>.</p>",
@@ -2163,7 +2172,7 @@
 {
 "content_id": "331754",
 "reference_id": 3548,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "القياصرة",
 "media_type": "Text",
 "index_reference": "القياصرة",
@@ -2385,7 +2394,7 @@
 {
 "content_id": "159172",
 "reference_id": 7179,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "القيامة",
 "media_type": "Text",
 "index_reference": "القيامة",
@@ -2845,13 +2854,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.6268,
+"match_method": "scored",
+"preferred_label": "Resurrection"
+}
+]
 }
 },
 {
 "content_id": "509839",
 "reference_id": 3456,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "القيامة الجسدية للمسيح",
 "media_type": "Text",
 "index_reference": "القيامة الجسدية للمسيح",
@@ -2875,10 +2892,10 @@
 {
 "content_id": "232564",
 "reference_id": 3896,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "القيروان، القيرونيون",
 "media_type": "Text",
-"index_reference": "القيروان، القيرونيون",
+"index_reference": "القيروان القيرونيون",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>قيروان، قيرونيون*</h1><p>مدينة وشعبها على ساحل شمال إفريقيا كانت عاصمة القيروان. تأسست في القرن السابع قبل الميلاد من قبل الإغريق الذين كانوا يعملون في الأساس في الزراعة. يعلق هيرودوت في كتابه <em>التواريخ</em> في القرن الخامس قبل الميلاد أن &quot;أرض القيروان، الأعلى في تلك المنطقة من ليبيا التي يسكنها البدو، تتميز بظاهرة فريدة من ثلاث مواسم حصاد منفصلة... مما يجعل لشعب القيروان المحظوظ خريفًا مستمرًا لمدة ثمانية أشهر متواصلة&quot; (4.199). غزاها الإسكندر الأكبر في عام 331 قبل الميلاد وأصبحت لاحقًا جزءًا من الإمبراطورية الرومانية. خلال فترة العهد الجديد، كانت المدينة تحتوي على عدد كبير من السكان اليهود الذين جاءوا من الإسكندرية. أحد هؤلاء الأشخاص، ويدعى سمعان، كان يزور أورشليم خلال عيد الفصح في السنة التي صلب فيها يسوع المسيح وأجبر على حمل صليبه (<a href=\"https://ref.ly/Matt27:32\">متى 27:  32</a>). بعد خمسين يومًا، وعظ بطرس  يهود القيروان في يوم الخمسين في أورشليم (<a href=\"https://ref.ly/Acts2:10\">أعمال الرسل 2:  10</a>). تعرض استفانوس للهجوم من قبل اليهود المرتبطين بمجمع يشمل أشخاصًا من القيروان (<a href=\"https://ref.ly/Acts6:9\">6:  9</a>)، بعضهم آمنوا لاحقًا وأصبحوا وعاظًا (<a href=\"https://ref.ly/Acts11:20\">11:  20</a>). يبدو أنهم سافروا شمالًا حتى أنطاكية، حيث كان معلم مسيحي بارز هو لوكيوس القيرواني (<a href=\"https://ref.ly/Acts13:1\">13:  1</a>).</p>",
@@ -2920,9 +2937,9 @@
 {
 "id": "place:Cyrene",
 "type": "place",
-"preferred_label": "قَيْرَوَانِيًّا",
-"confidence": 0.739,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قَيْرَوَانِيًّا"
 }
 ]
 }
@@ -2930,7 +2947,7 @@
 {
 "content_id": "201461",
 "reference_id": 3626,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قائد المئة",
 "media_type": "Text",
 "index_reference": "قائد المئة",
@@ -3021,16 +3038,24 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Centurion",
+"type": "person",
+"confidence": 0.555,
+"match_method": "scored",
+"preferred_label": "A Centurion"
+}
+]
 }
 },
 {
 "content_id": "511197",
 "reference_id": 5677,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قاب*",
 "media_type": "Text",
-"index_reference": "قاب*",
+"index_reference": "قاب",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>قاب*</h1><p>وفقاً ليوسيفوس، فإن المقياس الجاف يعادل حوالي ربع. ويعتقد بعض السلطات الأخرى أن القاب كان أكبر (انظر <a href=\"https://ref.ly/2Kgs6:25\">2&nbsp;ملوك 6:25</a>، nasb mg). <em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"8219\" data-resourceType=\"TyndaleBibleDictionary\">الأوزان والمقاييس</span>.</p>",
@@ -3052,13 +3077,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Kab",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kab"
+}
+]
 }
 },
 {
 "content_id": "510009",
 "reference_id": 3726,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قادة الكنيسة",
 "media_type": "Text",
 "index_reference": "قادة الكنيسة",
@@ -3131,7 +3164,7 @@
 {
 "content_id": "511755",
 "reference_id": 6631,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قادة الكنيسة",
 "media_type": "Text",
 "index_reference": "قادة الكنيسة",
@@ -3190,7 +3223,7 @@
 {
 "content_id": "511212",
 "reference_id": 5699,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَادَش",
 "media_type": "Text",
 "index_reference": "قَادَش",
@@ -3278,18 +3311,32 @@
 ],
 "acai": [
 {
+"id": "place:Kedesh.3",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kedesh"
+},
+{
 "id": "place:Kedesh",
 "type": "place",
-"preferred_label": "قَادَشَ",
-"confidence": 0.764,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قَادَشَ"
+},
+{
+"id": "place:Kishion",
+"type": "place",
+"confidence": 0.68,
+"match_method": "scored",
+"preferred_label": "قِشْيونَ"
 },
 {
 "id": "place:Kadesh-barnea",
 "type": "place",
-"preferred_label": "قَادَشَ",
-"confidence": 0.604,
-"match_method": "scored"
+"confidence": 0.64,
+"match_method": "scored",
+"preferred_label": "قَادَشَ"
 }
 ]
 }
@@ -3297,7 +3344,7 @@
 {
 "content_id": "443830",
 "reference_id": 5678,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَادَش بَرْنِيع",
 "media_type": "Text",
 "index_reference": "قَادَش بَرْنِيع",
@@ -3389,13 +3436,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Kadesh-barnea",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قَادَشَ"
+}
+]
 }
 },
 {
 "content_id": "511914",
 "reference_id": 6920,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قار",
 "media_type": "Text",
 "index_reference": "قار",
@@ -3426,7 +3481,7 @@
 {
 "content_id": "509834",
 "reference_id": 3450,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قارب",
 "media_type": "Text",
 "index_reference": "قارب",
@@ -3448,16 +3503,9 @@
 {
 "id": "realia:Boat",
 "type": "realia",
-"preferred_label": "Boat",
-"confidence": 0.8398,
-"match_method": "embedding"
-},
-{
-"id": "realia:Ship",
-"type": "realia",
-"preferred_label": "Ship",
-"confidence": 0.8222,
-"match_method": "embedding"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Boat"
 }
 ]
 }
@@ -3465,7 +3513,7 @@
 {
 "content_id": "511204",
 "reference_id": 5688,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قارِيح",
 "media_type": "Text",
 "index_reference": "قارِيح",
@@ -3492,9 +3540,9 @@
 {
 "id": "person:Kareah",
 "type": "person",
-"preferred_label": "قَارِيحَ",
-"confidence": 0.6388,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قَارِيحَ"
 }
 ]
 }
@@ -3502,7 +3550,7 @@
 {
 "content_id": "201493",
 "reference_id": 5660,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قاضي",
 "media_type": "Text",
 "index_reference": "قاضي",
@@ -3613,13 +3661,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Judge",
+"type": "keyterm",
+"confidence": 1.0,
+"match_method": "embedding",
+"preferred_label": "Judge"
+}
+]
 }
 },
 {
 "content_id": "443638",
 "reference_id": 3591,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَافِلَة",
 "media_type": "Text",
 "index_reference": "قَافِلَة",
@@ -3662,35 +3718,13 @@
 "language": "arb"
 }
 ],
-"acai": [
-{
-"id": "place:Nazareth",
-"type": "place",
-"preferred_label": "نَاصِرَة",
-"confidence": 0.8165,
-"match_method": "embedding"
-},
-{
-"id": "person:Zebidah",
-"type": "person",
-"preferred_label": "زَبِيدَة",
-"confidence": 0.8112,
-"match_method": "embedding"
-},
-{
-"id": "person:Kareah",
-"type": "person",
-"preferred_label": "قَارِيحَ",
-"confidence": 0.8037,
-"match_method": "embedding"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "331825",
 "reference_id": 4411,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قامة",
 "media_type": "Text",
 "index_reference": "قامة",
@@ -3715,13 +3749,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Fathom",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Fathom"
+}
+]
 }
 },
 {
 "content_id": "509899",
 "reference_id": 3570,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَامُون",
 "media_type": "Text",
 "index_reference": "قَامُون",
@@ -3746,13 +3788,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Kamon",
+"type": "place",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "فِي"
+}
+]
 }
 },
 {
 "content_id": "511202",
 "reference_id": 5685,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَامُون",
 "media_type": "Text",
 "index_reference": "قَامُون",
@@ -3769,13 +3819,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Kamon",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "فِي"
+}
+]
 }
 },
 {
 "content_id": "335212",
 "reference_id": 3574,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَانَا",
 "media_type": "Text",
 "index_reference": "قَانَا",
@@ -3820,9 +3878,9 @@
 {
 "id": "place:Cana",
 "type": "place",
-"preferred_label": "قَانَا",
 "confidence": 1.0,
-"match_method": "scored"
+"match_method": "content_id",
+"preferred_label": "قَانَا"
 }
 ]
 }
@@ -3830,7 +3888,7 @@
 {
 "content_id": "511203",
 "reference_id": 5686,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَانَةَ",
 "media_type": "Text",
 "index_reference": "قَانَةَ",
@@ -3861,11 +3919,18 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Kenath",
+"id": "place:Cana",
 "type": "place",
-"preferred_label": "قَنَاةَ",
-"confidence": 0.8486,
-"match_method": "embedding"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قَانَا"
+},
+{
+"id": "place:Kanah.2",
+"type": "place",
+"confidence": 0.8667,
+"match_method": "scored",
+"preferred_label": "Kanah"
 }
 ]
 }
@@ -3873,7 +3938,7 @@
 {
 "content_id": "511715",
 "reference_id": 6554,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قانون العهد الجديد",
 "media_type": "Text",
 "index_reference": "قانون العهد الجديد",
@@ -3897,7 +3962,7 @@
 {
 "content_id": "509906",
 "reference_id": 3581,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قانون الكتاب المقدس",
 "media_type": "Text",
 "index_reference": "قانون الكتاب المقدس",
@@ -3921,7 +3986,7 @@
 {
 "content_id": "201455",
 "reference_id": 3392,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قانونية أسفار الكتاب المقدَّس",
 "media_type": "Text",
 "index_reference": "قانونية أسفار الكتاب المقدَّس",
@@ -4116,49 +4181,12 @@
 }
 },
 {
-"content_id": "511199",
-"reference_id": 5681,
-"version": "1.0.2",
-"title": "قَايِن (مكان)",
-"media_type": "Text",
-"index_reference": "قَايِن (مكان)",
-"language": "arb",
-"review_level": "None",
-"content": "<h1>القايِن (مكان)</h1><p>بلدة في منطقة تلال يهوذا (<a href=\"https://ref.ly/Josh15:57\">يشوع 15:57</a>). موقعها في نفس المنطقة مع المدن المعروفة معون، وكرمل، وزِيف، ويوطة (<a href=\"https://ref.ly/Josh15:55\">55</a>) يدعم ربطها بخربة يوقيم، جنوب غرب حبرون.</p>",
-"associations": {
-"passage": [
-{
-"start_ref": "06015055",
-"start_ref_usfm": "JOS 15:55",
-"end_ref": "06015055",
-"end_ref_usfm": "JOS 15:55"
-},
-{
-"start_ref": "06015057",
-"start_ref_usfm": "JOS 15:57",
-"end_ref": "06015057",
-"end_ref_usfm": "JOS 15:57"
-}
-],
-"resource": [],
-"acai": [
-{
-"id": "place:Kain",
-"type": "place",
-"preferred_label": "قَايِن",
-"confidence": 0.8,
-"match_method": "scored"
-}
-]
-}
-},
-{
 "content_id": "490487",
 "reference_id": 5682,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَايِن* (عشيرة)",
 "media_type": "Text",
-"index_reference": "قَايِن* (عشيرة)",
+"index_reference": "قَايِن عشيرة",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>قَايِن* (عشيرة)</h1><p>اسم عشيرة مرادف للقينيين (<a href=\"https://ref.ly/Num24:22\">عدد 24:22؛</a> <a href=\"https://ref.ly/Judg4:11\">قضاة 4:11</a>). الاسم بالعبرية يعني &quot;رمح&quot;، مما يشير إلى عشيرة من عمال المعادن. كانت العشيرة البدوية ودية (<a href=\"https://ref.ly/1Sam15:6\">1&nbsp;صموئيل 15:6</a>) واندمجت في النهاية في يَهوذَا. <strong>انظر</strong> <span data-bnType=\"resourceReference\" data-resourceId=\"5718\" data-resourceType=\"TyndaleBibleDictionary\">القينيين</span>.</p>",
@@ -4196,9 +4224,46 @@
 {
 "id": "place:Kain",
 "type": "place",
-"preferred_label": "قَايِن",
-"confidence": 0.6973,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قَايِن"
+}
+]
+}
+},
+{
+"content_id": "511199",
+"reference_id": 5681,
+"version": "1.0.4",
+"title": "قَايِن (مكان)",
+"media_type": "Text",
+"index_reference": "قَايِن مكان",
+"language": "arb",
+"review_level": "None",
+"content": "<h1>القايِن (مكان)</h1><p>بلدة في منطقة تلال يهوذا (<a href=\"https://ref.ly/Josh15:57\">يشوع 15:57</a>). موقعها في نفس المنطقة مع المدن المعروفة معون، وكرمل، وزِيف، ويوطة (<a href=\"https://ref.ly/Josh15:55\">55</a>) يدعم ربطها بخربة يوقيم، جنوب غرب حبرون.</p>",
+"associations": {
+"passage": [
+{
+"start_ref": "06015055",
+"start_ref_usfm": "JOS 15:55",
+"end_ref": "06015055",
+"end_ref_usfm": "JOS 15:55"
+},
+{
+"start_ref": "06015057",
+"start_ref_usfm": "JOS 15:57",
+"end_ref": "06015057",
+"end_ref_usfm": "JOS 15:57"
+}
+],
+"resource": [],
+"acai": [
+{
+"id": "place:Kain",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قَايِن"
 }
 ]
 }
@@ -4206,10 +4271,10 @@
 {
 "content_id": "443634",
 "reference_id": 3551,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَايِين (شخص)",
 "media_type": "Text",
-"index_reference": "قَايِين (شخص)",
+"index_reference": "قَايِين شخص",
 "language": "arb",
 "review_level": "None",
 "content": "<h1><span>قَايِين</span> (شخص)</h1><p>الابن الأول لآدم وحواء، الذي أصبح مزارعًا، يعمل في حراثة التربة في حين كان أخيه هابيل راعيًا للغنم. صار قتل قَايِين لأخيه هابيل يُضرب به المثل في الإشارة إلى خطايا العنف والتدمير المماثلة (<a href=\"https://ref.ly/Jude1:11\">يهوذا 1: 11</a>). قدَّم كلا الأخوين قربانًا للرب (<a href=\"https://ref.ly/Gen4:3-Gen4:4\">تكوين 4:3–4</a>). وفقًا لـ <a href=\"https://ref.ly/Heb11:4\">عبرانيين 11: 4</a>، قدَّم <span>هَابِيل</span> بإيمان ذبيحة أفضل من تلك التي قدَّمها قَايِين. ثار غضب الأخير لهذا الرفض الإلهي. وكرد فعل، قتل أخيه، الذي قُبِلَ قربانه (<a href=\"https://ref.ly/Gen4:5-Gen4:8\">تكوين 4: 5–8</a>). في البحث عن سبب رد فعل قَايِِين العنيف وغير المناسب، يشير تفسير كتابي إلى أن قايين كان من الشرير (<a href=\"https://ref.ly/1John3:12\">1&nbsp;يوحنا 3: 12</a>). واجه الرب قَايِِين بذنبه، وحكم عليه، ولعنه، وطرده إلى أرض نُود، شرق <span>عَدْن</span> (<a href=\"https://ref.ly/Gen4:9-Gen4:16\">تكوين 4:9–16</a>). عندما اشتكى من أنَّ ذنبه أعظم من أن يُحتمل وأنَّ من يجده يقتله، وضع الرب علامة على <span>قَايِين،</span> وتوعد بالانتقام سبعة أضعاف من أي شخص يجرؤ على قتله.</p><p>في أرض نُود، أسَّس قَايِين مدينة وأسماها باسم ابنه <span>حَنُوك</span> (<a href=\"https://ref.ly/Gen4:17\">تكوين 4: 17</a>). من نسل <span>حَنُوكَ</span>، أصبح قَايين أبًا لعائلة كبيرة كانوا في الأجيال المبكرة من ساكني الخيام، رعاة، موسيقيين، وصانعي أدوات وقطع معدنية (الآيات <a href=\"https://ref.ly/Gen4:18-Gen4:22\">18–22</a>).</p>",
@@ -4333,9 +4398,9 @@
 {
 "id": "person:Cain",
 "type": "person",
-"preferred_label": "قَايِينَ",
-"confidence": 0.7772,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قَايِينَ"
 }
 ]
 }
@@ -4343,7 +4408,7 @@
 {
 "content_id": "510552",
 "reference_id": 4700,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قبر",
 "media_type": "Text",
 "index_reference": "قبر",
@@ -4361,13 +4426,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Grave",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Grave"
+}
+]
 }
 },
 {
 "content_id": "512181",
 "reference_id": 7400,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قبر",
 "media_type": "Text",
 "index_reference": "قبر",
@@ -4391,7 +4464,7 @@
 {
 "content_id": "512596",
 "reference_id": 8059,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قبرٌ",
 "media_type": "Text",
 "index_reference": "قبرٌ",
@@ -4415,7 +4488,7 @@
 {
 "content_id": "335474",
 "reference_id": 7072,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قبر راحيل",
 "media_type": "Text",
 "index_reference": "قبر راحيل",
@@ -4466,9 +4539,9 @@
 {
 "id": "person:Rachel",
 "type": "person",
-"preferred_label": "رَاحِيل",
-"confidence": 0.775,
-"match_method": "scored"
+"confidence": 0.8335,
+"match_method": "scored",
+"preferred_label": "رَاحِيل"
 }
 ]
 }
@@ -4476,7 +4549,7 @@
 {
 "content_id": "232563",
 "reference_id": 3895,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قبرص",
 "media_type": "Text",
 "index_reference": "قبرص",
@@ -4565,13 +4638,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Cyprus",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "كِتِّيمَ"
+}
+]
 }
 },
 {
 "content_id": "490494",
 "reference_id": 5741,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَبَرُوت هَتَّأَوَة",
 "media_type": "Text",
 "index_reference": "قَبَرُوت هَتَّأَوَة",
@@ -4608,13 +4689,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Kibroth-hattaavah",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kibroth-hattaavah"
+}
+]
 }
 },
 {
 "content_id": "511196",
 "reference_id": 5676,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَبْصِئِيلَ",
 "media_type": "Text",
 "index_reference": "قَبْصِئِيلَ",
@@ -4653,9 +4742,16 @@
 {
 "id": "place:Kabzeel",
 "type": "place",
-"preferred_label": "قَبْصِئِيلَ",
-"confidence": 0.9,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قَبْصِئِيلَ"
+},
+{
+"id": "place:Jekabzeel",
+"type": "place",
+"confidence": 0.55,
+"match_method": "scored",
+"preferred_label": "Jekabzeel"
 }
 ]
 }
@@ -4663,7 +4759,7 @@
 {
 "content_id": "511238",
 "reference_id": 5742,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قِبْصَايِم",
 "media_type": "Text",
 "index_reference": "قِبْصَايِم",
@@ -4690,9 +4786,9 @@
 {
 "id": "place:Kibzaim",
 "type": "place",
-"preferred_label": "قِبْصَايِمَ",
-"confidence": 0.9775,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قِبْصَايِمَ"
 }
 ]
 }
@@ -4700,10 +4796,10 @@
 {
 "content_id": "335359",
 "reference_id": 5795,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قُبْلَة، قُبْلَة السَّلام",
 "media_type": "Text",
-"index_reference": "قُبْلَة، قُبْلَة السَّلام",
+"index_reference": "قُبْلَة قُبْلَة السَّلام",
 "language": "arb",
 "review_level": "None",
 "content": "<h1><span>قُبْلَة</span>، قُبْلَة السَّلام</h1><p>طريقة شائعة لإظهار المحبة والشركة في الأزمنة الكتابيّة.</p><p>يظهر التقبيل في الكتاب المقدَّس في سياقات مختلفة:</p><ul><li><p>كان الأصدقاء والأقارب يتبادلوا القُبلات كعلامة على المودَّة (<a href=\"https://ref.ly/Gen29:11\">تكوين 29: 11؛</a> <a href=\"https://ref.ly/Gen33:4\">33:4</a>).</p></li><li><p>أحيانًا كان للقُبلات معنى حسّي (<a href=\"https://ref.ly/Prov7:6-Prov7:13\">أمثال 7: 6–13؛</a> <a href=\"https://ref.ly/Song1:2\">نشيد الأنشاد 1: 2</a>).</p></li><li><p>كان التقبيل أيضًا وسيلة لإظهار الاحترام أو العبادة (<a href=\"https://ref.ly/1Sam10:1\">1صموئيل 10: 1</a>؛ <a href=\"https://ref.ly/Job31:27\">أيوب 31: 27</a>)، ومع هذا  قد يُعَدّ أمرًا غير مقبول، وخطية في ظروف معينة (<a href=\"https://ref.ly/1Kgs19:18\">1ملوك 19: 18</a>؛ <a href=\"https://ref.ly/Hos13:2\">هوشع 13: 2</a>).</p></li><li><p> قد تستخدم القُبْلة في خيانة شخص والغدر به، كما يتضح من قصة خيانة يهوذا ليسوع (<a href=\"https://ref.ly/Matt26:48-Matt26:49\">متى 26: 48–49</a>).</p></li></ul><p>في العهد الجديد، نجد خمس إشارات إلى&quot;<span>قُبْلَةٍ مُقَدَّسَةٍ</span>&quot;، والمعروفة أيضًا باسم &quot;قُبْلَة السَّلام&quot;:</p><ol><li><p><a href=\"https://ref.ly/Rom16:16\">رومية 16: 16</a></p></li><li><p><a href=\"https://ref.ly/1Cor16:20\">١كورنثوس 16: 20</a></p></li><li><p><a href=\"https://ref.ly/2Cor13:12\">2كورنثوس 13: 12</a></p></li><li><p><a href=\"https://ref.ly/1Thess5:26\">1تسالونيكي 5: 26</a></p></li><li><p><a href=\"https://ref.ly/1Pet5:14\">١بطرس 5: 14</a></p></li></ol><p>كانت هذه القُبْلَة رمزًا للمحبة والوحدة المسيحية. على الرغْم من أنَّ الكتاب المقدَّس لا يعطي تعليمات مُفصلَّة عنها، إلّا أنها كانت تعبيرًا عن  الصداقة ورباط العهد بين المسيحيين الأوائل (<a href=\"https://ref.ly/1Thess5:25-1Thess5:27\">1 تسالونيكي 5: 25–27</a>).</p><p>بحلول أواخر القرن الثاني، أصبحت هذه الممارسة جزءًا من طقوس الكنيسة. وصفها الشهيد جاستن بأنها قُبْلَة يتبادلها المُصلّون بعد الصلاة. مع مرور الوقت، جرى ترحيل القبلات إلى ما قبل فريضة العشاء الربَّاني، لكنها في الأخير، استبدلت عدّة كنائس بالقبلات انحناءة بسيطة. اليوم، لا تزل بعض الكنائس تحتفظ بأشكال مختلفة من هذه الممارسة.</p>",
@@ -4807,7 +4903,7 @@
 {
 "content_id": "511243",
 "reference_id": 5749,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قتل",
 "media_type": "Text",
 "index_reference": "قتل",
@@ -4845,7 +4941,7 @@
 {
 "content_id": "335310",
 "reference_id": 5194,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قتْل الأبرياء",
 "media_type": "Text",
 "index_reference": "قتْل الأبرياء",
@@ -4892,10 +4988,10 @@
 {
 "content_id": "511632",
 "reference_id": 6412,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قتل، قاتل",
 "media_type": "Text",
-"index_reference": "قتل، قاتل",
+"index_reference": "قتل قاتل",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>قتل، قاتل</h1><p>انظر <span data-bnType=\"resourceReference\" data-resourceId=\"3747\" data-resourceType=\"TyndaleBibleDictionary\">القانون المدني والعدالة؛</span> <span data-bnType=\"resourceReference\" data-resourceId=\"3861\" data-resourceType=\"TyndaleBibleDictionary\">القانون الجنائي والعقوبات؛</span> <span data-bnType=\"resourceReference\" data-resourceId=\"3786\" data-resourceType=\"TyndaleBibleDictionary\">الوصايا العشر</span>.</p>",
@@ -4930,7 +5026,7 @@
 {
 "content_id": "490325",
 "reference_id": 3874,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قثاء",
 "media_type": "Text",
 "index_reference": "قثاء",
@@ -4968,10 +5064,10 @@
 {
 "content_id": "511980",
 "reference_id": 7047,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قُدراتُس، دِفاع",
 "media_type": "Text",
-"index_reference": "قُدراتُس، دِفاع",
+"index_reference": "قُدراتُس دِفاع",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>قُدراتُس، دِفاع</h1><p>كتب قُدراتُس، في منتصف القرن الثاني الميلادي، دفاعًا عن المسيحية موجهًا إلى الإمبراطور هادريان حوالي سنة 125 م. لنص المتبقي الوحيد من هذا الدفاع محفوظ في كتابات يوسابيوس&nbsp;القيصريّ. يقول المقتطف:</p><p>&quot;لكن أعمال مخلّصنا كانت حاضرة دومًا (لأنها كانت حقيقية): أولئك الذين شُفوا وأولئك الذين قاموا من الأموات؛ لم يُروا فقط أثناء شفائهم أو قيامتهم، بل ظلوا أحياء بعد ذلك، وليس فقط أثناء وجود المخلّص على الأرض، بل حتى بعد رحيله، عاش بعضهم زمنًا طويلًا، حتى أن بعضهم بقي إلى أيامنا.&quot;</p><p>بحسب أوسابيوس، كتب قُدراتُس دفاعه من أجل حماية الكنيسة. كتب يوسابيُس: &quot;حاول بعض الرجال الأشرار إزعاج الذين ينتمون إلينا.&quot; كما كان يهدف إلى إقناع الإمبراطور هادريان بصدق الإيمان المسيحي، معتقدًا أن إظهار طهارة نوايا المسيحيين قد يؤدي إلى وقف الاضطهادات. يُخطئ بعض الباحثين أحيانًا في الخلط بين دفاع قُدراتُس والرسالة إلى ديوغنيتُس.</p>",
@@ -4984,10 +5080,10 @@
 {
 "content_id": "511771",
 "reference_id": 6657,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قدرة، كُليّ الـ",
 "media_type": "Text",
-"index_reference": "قدرة، كُليّ الـ",
+"index_reference": "قدرة كُليّ الـ",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>قدرة، كُليّ الـ*</h1><p><span>تُشير إلى سلطة الله غير المحدودة التي تمكّنه من إيجاد كل ما يريد وتحقيق كل ما يشاء حدوثه، بحسب مشيئته</span>. <em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4665\" data-resourceType=\"TyndaleBibleDictionary\">الله، الكينونة والصفات</span>.</p>",
@@ -5008,7 +5104,7 @@
 {
 "content_id": "335356",
 "reference_id": 5745,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَدْرُون",
 "media_type": "Text",
 "index_reference": "قَدْرُون",
@@ -5085,9 +5181,9 @@
 {
 "id": "place:Kidron",
 "type": "place",
-"preferred_label": "قَدْرونَ",
-"confidence": 0.6915,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قَدْرونَ"
 }
 ]
 }
@@ -5095,10 +5191,10 @@
 {
 "content_id": "335213",
 "reference_id": 3621,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قدرون (قيدرون)",
 "media_type": "Text",
-"index_reference": "قدرون (قيدرون)",
+"index_reference": "قدرون قيدرون",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>قدرون* (قيدرون)</h1><p>هو اسم، حسب تَرْجَمَة الملك جيمس لكلمة قدرون، وادي النهر بين أورشليم وجبل الزيتون، في <a href=\"https://ref.ly/John18:1\">يوحنا 18:1</a>. <em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"5745\" data-resourceType=\"TyndaleBibleDictionary\">قدرون</span>.</p>",
@@ -5120,13 +5216,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Kidron",
+"type": "place",
+"confidence": 0.85,
+"match_method": "scored",
+"preferred_label": "قَدْرونَ"
+}
+]
 }
 },
 {
 "content_id": "510790",
 "reference_id": 5052,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قُدس",
 "media_type": "Text",
 "index_reference": "قُدس",
@@ -5151,13 +5255,28 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:HolyPlace.2",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Holy Place"
+},
+{
+"id": "place:HolyPlace",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "ٱلْقدْسِ"
+}
+]
 }
 },
 {
 "content_id": "510788",
 "reference_id": 5050,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قدس الأقداس",
 "media_type": "Text",
 "index_reference": "قدس الأقداس",
@@ -5188,7 +5307,7 @@
 {
 "content_id": "511611",
 "reference_id": 6385,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قدس الأقداس",
 "media_type": "Text",
 "index_reference": "قدس الأقداس",
@@ -5213,16 +5332,38 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:MostHolyPlace.1",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Most Holy Place"
+},
+{
+"id": "place:MostHolyPlace",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "ٱلْأَقْدَاسِ"
+},
+{
+"id": "realia:MostHolyPlace",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Most Holy Place"
+}
+]
 }
 },
 {
 "content_id": "511807",
 "reference_id": 6714,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَدَم (قياس)",
 "media_type": "Text",
-"index_reference": "قَدَم (قياس)",
+"index_reference": "قَدَم قياس",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>قَدَم (قياس)</h1><p>قياس طولي يُعادل متوسط مسافة خطوة الانسان، أو حوالي ياردة واحدة (0.9&nbsp;متر). <em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"8219\" data-resourceType=\"TyndaleBibleDictionary\">الأوزان والمقاييس</span>.</p>",
@@ -5243,7 +5384,7 @@
 {
 "content_id": "443833",
 "reference_id": 5697,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قِدْمَة",
 "media_type": "Text",
 "index_reference": "قِدْمَة",
@@ -5270,9 +5411,9 @@
 {
 "id": "person:Kedemah",
 "type": "person",
-"preferred_label": "قِدْمَة",
 "confidence": 1.0,
-"match_method": "scored"
+"match_method": "content_id",
+"preferred_label": "قِدْمَة"
 }
 ]
 }
@@ -5280,7 +5421,7 @@
 {
 "content_id": "443831",
 "reference_id": 5680,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَدْمُونِيُّون",
 "media_type": "Text",
 "index_reference": "قَدْمُونِيُّون",
@@ -5321,13 +5462,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "group:Kadmonites",
+"type": "group",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kadmonites"
+}
+]
 }
 },
 {
 "content_id": "511198",
 "reference_id": 5679,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَدْمِيئِيل",
 "media_type": "Text",
 "index_reference": "قَدْمِيئِيل",
@@ -5384,9 +5533,9 @@
 {
 "id": "person:Kadmiel",
 "type": "person",
-"preferred_label": "قَدْمِيئِيلَ",
-"confidence": 0.982,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قَدْمِيئِيلَ"
 }
 ]
 }
@@ -5394,7 +5543,7 @@
 {
 "content_id": "510789",
 "reference_id": 5051,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قدوسُ إسرائيل",
 "media_type": "Text",
 "index_reference": "قدوسُ إسرائيل",
@@ -5418,7 +5567,7 @@
 {
 "content_id": "509352",
 "reference_id": 2686,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قدير",
 "media_type": "Text",
 "index_reference": "قدير",
@@ -5436,13 +5585,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "ٱلرَّبِّ"
+}
+]
 }
 },
 {
 "content_id": "490642",
 "reference_id": 7264,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قديسون",
 "media_type": "Text",
 "index_reference": "قديسون",
@@ -5561,10 +5718,10 @@
 {
 "content_id": "509405",
 "reference_id": 2770,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قديم الأيام، القديم",
 "media_type": "Text",
-"index_reference": "قديم الأيام، القديم",
+"index_reference": "قديم الأيام القديم",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>قديم الأيام، القديم</h1><p>اسم الله الذي استخدمه دانيال لوصف الله كقاض (<a href=\"https://ref.ly/Dan7:9,Dan7:13,Dan7:22\">دانيال 7:9، 13، 22</a>). <em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4667\" data-resourceType=\"TyndaleBibleDictionary\">الله، الأسماء</span>.</p>",
@@ -5604,7 +5761,7 @@
 {
 "content_id": "490489",
 "reference_id": 5698,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَدِيموت",
 "media_type": "Text",
 "index_reference": "قَدِيموت",
@@ -5651,9 +5808,9 @@
 {
 "id": "place:Kedemoth",
 "type": "place",
-"preferred_label": "قَدِيموتَ",
-"confidence": 0.973,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قَدِيموتَ"
 }
 ]
 }
@@ -5661,7 +5818,7 @@
 {
 "content_id": "335415",
 "reference_id": 6386,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قذى",
 "media_type": "Text",
 "index_reference": "قذى",
@@ -5690,10 +5847,10 @@
 {
 "content_id": "511978",
 "reference_id": 7044,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قِرِئ (Qere)",
 "media_type": "Text",
-"index_reference": "قِرِئ (Qere)",
+"index_reference": "قِرِئ Qere",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>قِرِئ (Qere)</h1><p>كلمة آرامية تعني &quot;ما يجب قراءته&quot;. في البداية، كانت الكتب المقدسة العبرية تُكتب بالحروف الساكنة فقط، دون استخدام الحركات. أدخل الماسوريون لاحقًا الحركات، لتسهيل قراءة النصوص وضبط المعاني بدقة.</p><p>في حالة وجود كلمة مكتوبة بطريقة غير واضحة، كانوا يتركون الكلمة الأصلية كما هي (وتُسمى &quot;كِتيب - Ketib&quot;)، ويكتبون الكلمة التي ينبغي قراءتها (وتُسمى &quot;قِرِئ - Qere&quot;) في هامش المخطوطة مع حركات مختلفة، لتوضيح المعنى أو تعديله.</p>",
@@ -5706,10 +5863,10 @@
 {
 "content_id": "512264",
 "reference_id": 7522,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قرار (شيمينيث)",
 "media_type": "Text",
-"index_reference": "قرار (شيمينيث)",
+"index_reference": "قرار شيمينيث",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>القرار (شيمينيث)*</h1><p>مصطلح عبري غامض، يعني &quot;الثامن&quot;، وقد ورد في <a href=\"https://ref.ly/1Chr15:21\">1&nbsp;أخبار الأيام 15:21</a>، وفي العناوين العلوية <a href=\"https://ref.ly/Ps6:1-Ps6:10\">لمزمور 6</a> و<a href=\"https://ref.ly/Ps12:1-Ps12:8\">12.</a> ووظيفته غير مؤكدة، فإما أن يكون إشارة موسيقية أو آلة موسيقية . <em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"6416\" data-resourceType=\"TyndaleBibleDictionary\">الموسيقى</span>.</p>",
@@ -5747,73 +5904,12 @@
 }
 },
 {
-"content_id": "511475",
-"reference_id": 6169,
-"version": "1.0.2",
-"title": "قربان التقدمة",
-"media_type": "Text",
-"index_reference": "قربان التقدمة",
-"language": "arb",
-"review_level": "None",
-"content": "<h1><strong>قربان التقدمة</strong>*</h1><p>طريقة كتابة الترجمة العربية البستاني-فاندايك لقربان &quot;تقدمة الحبوب&quot;. انظر <span data-bnType=\"resourceReference\" data-resourceId=\"6630\" data-resourceType=\"TyndaleBibleDictionary\">التقدمات والذبائح</span>.</p>",
-"associations": {
-"passage": [],
-"resource": [
-{
-"reference_id": 6630,
-"content_id": 443928,
-"resource_code": "TyndaleBibleDictionary",
-"label": "التَّقْدِمَات والذَّبَائِح",
-"language": "arb"
-}
-],
-"acai": []
-}
-},
-{
-"content_id": "490378",
-"reference_id": 4476,
-"version": "1.0.2",
-"title": "قربان النافلة",
-"media_type": "Text",
-"index_reference": "قربان النافلة",
-"language": "arb",
-"review_level": "None",
-"content": "<h1>قربان النافلة</h1><p>تقدمة طوعية لِلرَّبِّ (<a href=\"https://ref.ly/Lev7:16\">لاويين 7:16؛</a> <a href=\"https://ref.ly/Deut12:6\">تثنية 12:6</a>).<strong> انظر</strong> <span data-bnType=\"resourceReference\" data-resourceId=\"6630\" data-resourceType=\"TyndaleBibleDictionary\">التقدمات والذبائح</span>.</p>",
-"associations": {
-"passage": [
-{
-"start_ref": "03007016",
-"start_ref_usfm": "LEV 7:16",
-"end_ref": "03007016",
-"end_ref_usfm": "LEV 7:16"
-},
-{
-"start_ref": "05012006",
-"start_ref_usfm": "DEU 12:6",
-"end_ref": "05012006",
-"end_ref_usfm": "DEU 12:6"
-}
-],
-"resource": [
-{
-"reference_id": 6630,
-"content_id": 443928,
-"resource_code": "TyndaleBibleDictionary",
-"label": "التَّقْدِمَات والذَّبَائِح",
-"language": "arb"
-}
-],
-"acai": []
-}
-},
-{
 "content_id": "159100",
 "reference_id": 3815,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قربان*",
 "media_type": "Text",
-"index_reference": "قربان*",
+"index_reference": "قربان",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>قربان*</h1><p>نقحرة يونانية للمصطلح العبري <em>(</em>قربان<em>)</em> لم يُذكر إلا في <a href=\"https://ref.ly/Mark7:11\">مَرقُس 7: 11</a>، حين قدم مرقس تفسيرًا تحريريًا: &quot;قُرْبَانٌ&quot;، أَيْ هَدِيَّةٌ، &quot;مقدس لله&quot;. ومن هنا، فإن القربان هو التقدمة.</p><p>سمح الناموس اليهودي للأفراد بتخصيص خدماتهم أو ممتلكاتهم على أنها &quot;مقدسة لله&quot;، وعليه رفعها عن أي دنس ومنحها صفة التقدمة المخصصة لله. كان القيام بذلك قرارًا خطيرًا (وفقًا للمَشناه، نداريم) ونادرًا ما كان يُرجع عنها (نداريم 5)، لأن انتهاك أي نذر قربان كان يُخاطر بالعواقب الوخيمة للدينونة الإلهية. في <a href=\"https://ref.ly/Mark7:1-Mark7:37\">مرقس 7</a> يوبِّخ الرب يسوع الكَتَبَة لأنه، من الناحية النظرية، يمكن للابن أن يستبعد والديه من أية فائدة من ممتلكاته بإعلان ممتلكاته &quot;قربان لهم&quot;. وهذا في الواقع يُبطل الوصية الخامسة (انظر <a href=\"https://ref.ly/Exod20:12\">خروج 20: 12</a>)، واضعًا التقاليد الرابينية ضد ناموس موسى. والأسوأ من ذلك، إذا تاب الابن عن نذره ـ بحجة أنه كان قد قطعه على عجل ـ فإن القضاء الرابيني سوف يمنع بلا شك إبطال القربان (<a href=\"https://ref.ly/Mark7:12\">مرقس 7: 12</a>؛ قارن مع <a href=\"https://ref.ly/Num30:1-Num30:2\">عدد 30: 1–2</a>).</p>",
@@ -5851,13 +5947,97 @@
 }
 ],
 "resource": [],
+"acai": [
+{
+"id": "place:Corban",
+"type": "place",
+"confidence": 0.61,
+"match_method": "scored",
+"preferred_label": "هَدِيَّةٌ"
+}
+]
+}
+},
+{
+"content_id": "511475",
+"reference_id": 6169,
+"version": "1.0.4",
+"title": "قربان التقدمة",
+"media_type": "Text",
+"index_reference": "قربان التقدمة",
+"language": "arb",
+"review_level": "None",
+"content": "<h1><strong>قربان التقدمة</strong>*</h1><p>طريقة كتابة الترجمة العربية البستاني-فاندايك لقربان &quot;تقدمة الحبوب&quot;. انظر <span data-bnType=\"resourceReference\" data-resourceId=\"6630\" data-resourceType=\"TyndaleBibleDictionary\">التقدمات والذبائح</span>.</p>",
+"associations": {
+"passage": [],
+"resource": [
+{
+"reference_id": 6630,
+"content_id": 443928,
+"resource_code": "TyndaleBibleDictionary",
+"label": "التَّقْدِمَات والذَّبَائِح",
+"language": "arb"
+}
+],
 "acai": []
+}
+},
+{
+"content_id": "490378",
+"reference_id": 4476,
+"version": "1.0.4",
+"title": "قربان النافلة",
+"media_type": "Text",
+"index_reference": "قربان النافلة",
+"language": "arb",
+"review_level": "None",
+"content": "<h1>قربان النافلة</h1><p>تقدمة طوعية لِلرَّبِّ (<a href=\"https://ref.ly/Lev7:16\">لاويين 7:16؛</a> <a href=\"https://ref.ly/Deut12:6\">تثنية 12:6</a>).<strong> انظر</strong> <span data-bnType=\"resourceReference\" data-resourceId=\"6630\" data-resourceType=\"TyndaleBibleDictionary\">التقدمات والذبائح</span>.</p>",
+"associations": {
+"passage": [
+{
+"start_ref": "03007016",
+"start_ref_usfm": "LEV 7:16",
+"end_ref": "03007016",
+"end_ref_usfm": "LEV 7:16"
+},
+{
+"start_ref": "05012006",
+"start_ref_usfm": "DEU 12:6",
+"end_ref": "05012006",
+"end_ref_usfm": "DEU 12:6"
+}
+],
+"resource": [
+{
+"reference_id": 6630,
+"content_id": 443928,
+"resource_code": "TyndaleBibleDictionary",
+"label": "التَّقْدِمَات والذَّبَائِح",
+"language": "arb"
+}
+],
+"acai": [
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.688,
+"match_method": "scored",
+"preferred_label": "Offering"
+},
+{
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.5845,
+"match_method": "scored",
+"preferred_label": "Slaughtering"
+}
+]
 }
 },
 {
 "content_id": "511209",
 "reference_id": 5693,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قرتان",
 "media_type": "Text",
 "index_reference": "قرتان",
@@ -5895,13 +6075,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Kartan",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قَرْتَان"
+}
+]
 }
 },
 {
 "content_id": "511208",
 "reference_id": 5692,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَرْتَة",
 "media_type": "Text",
 "index_reference": "قَرْتَة",
@@ -5926,11 +6114,11 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Keturah",
-"type": "person",
-"preferred_label": "قَطورَة",
-"confidence": 0.8107,
-"match_method": "embedding"
+"id": "place:Kitron",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قِطْرونَ"
 }
 ]
 }
@@ -5938,7 +6126,7 @@
 {
 "content_id": "512410",
 "reference_id": 7751,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قُرحَة",
 "media_type": "Text",
 "index_reference": "قُرحَة",
@@ -5976,70 +6164,13 @@
 "language": "arb"
 }
 ],
-"acai": [
-{
-"id": "place:Humtah",
-"type": "place",
-"preferred_label": "حمْطَة",
-"confidence": 0.8399,
-"match_method": "embedding"
-},
-{
-"id": "person:Anna",
-"type": "person",
-"preferred_label": "حَنَّة",
-"confidence": 0.8216,
-"match_method": "embedding"
-},
-{
-"id": "person:Hannah",
-"type": "person",
-"preferred_label": "حَنَّة",
-"confidence": 0.8216,
-"match_method": "embedding"
-},
-{
-"id": "person:Hirah",
-"type": "person",
-"preferred_label": "حِيرَة",
-"confidence": 0.8195,
-"match_method": "embedding"
-},
-{
-"id": "person:Taphath",
-"type": "person",
-"preferred_label": "طَافَة",
-"confidence": 0.8183,
-"match_method": "embedding"
-},
-{
-"id": "person:Sheerah",
-"type": "person",
-"preferred_label": "شِيرَة",
-"confidence": 0.8168,
-"match_method": "embedding"
-},
-{
-"id": "person:Rohgah",
-"type": "person",
-"preferred_label": "رهْجَة",
-"confidence": 0.8154,
-"match_method": "embedding"
-},
-{
-"id": "place:Rezeph",
-"type": "place",
-"preferred_label": "رَصْفَ",
-"confidence": 0.8117,
-"match_method": "embedding"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "509438",
 "reference_id": 2819,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قرد",
 "media_type": "Text",
 "index_reference": "قرد",
@@ -6076,7 +6207,7 @@
 {
 "content_id": "512000",
 "reference_id": 7083,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قُرْصَ زَبِيب",
 "media_type": "Text",
 "index_reference": "قُرْصَ زَبِيب",
@@ -6111,13 +6242,28 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "realia:RaisinCake",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Raisin Cake"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.85,
+"match_method": "scored",
+"preferred_label": "Vine"
+}
+]
 }
 },
 {
 "content_id": "511345",
 "reference_id": 5933,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَرْض",
 "media_type": "Text",
 "index_reference": "قَرْض",
@@ -6142,13 +6288,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Debt",
+"type": "keyterm",
+"confidence": 0.83,
+"match_method": "embedding",
+"preferred_label": "Debt"
+}
+]
 }
 },
 {
 "content_id": "510012",
 "reference_id": 3732,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قِرفة",
 "media_type": "Text",
 "index_reference": "قِرفة",
@@ -6173,13 +6327,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "flora:Cinnamon",
+"type": "flora",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Cinnamon"
+}
+]
 }
 },
 {
 "content_id": "511206",
 "reference_id": 5690,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَرْقَرَ",
 "media_type": "Text",
 "index_reference": "قَرْقَرَ",
@@ -6204,18 +6366,11 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Carkas",
-"type": "person",
-"preferred_label": "كَرْكَسَ",
-"confidence": 0.8189,
-"match_method": "embedding"
-},
-{
-"id": "person:Kareah",
-"type": "person",
-"preferred_label": "قَارِيحَ",
-"confidence": 0.8076,
-"match_method": "embedding"
+"id": "place:Karkor",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "فِي"
 }
 ]
 }
@@ -6223,7 +6378,7 @@
 {
 "content_id": "511205",
 "reference_id": 5689,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَرْقَع",
 "media_type": "Text",
 "index_reference": "قَرْقَع",
@@ -6240,13 +6395,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Karka",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "ٱلْقَرْقَعِ"
+}
+]
 }
 },
 {
 "content_id": "510074",
 "reference_id": 3862,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قرمزي",
 "media_type": "Text",
 "index_reference": "قرمزي",
@@ -6270,7 +6433,7 @@
 {
 "content_id": "512136",
 "reference_id": 7332,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قُرمُزي",
 "media_type": "Text",
 "index_reference": "قُرمُزي",
@@ -6288,28 +6451,13 @@
 "language": "arb"
 }
 ],
-"acai": [
-{
-"id": "person:Carmi.2",
-"type": "person",
-"preferred_label": "كَرْمِي",
-"confidence": 0.8014,
-"match_method": "embedding"
-},
-{
-"id": "person:Carmi.3",
-"type": "person",
-"preferred_label": "كَرْمِي",
-"confidence": 0.8014,
-"match_method": "embedding"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "490446",
 "reference_id": 5076,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قرن",
 "media_type": "Text",
 "index_reference": "قرن",
@@ -6448,13 +6596,28 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Horn",
+"type": "keyterm",
+"confidence": 0.6248,
+"match_method": "scored",
+"preferred_label": "Horn"
+},
+{
+"id": "realia:RamsHorn",
+"type": "realia",
+"confidence": 0.6035,
+"match_method": "scored",
+"preferred_label": "Rams Horn"
+}
+]
 }
 },
 {
 "content_id": "511226",
 "reference_id": 5723,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قرن هفوك",
 "media_type": "Text",
 "index_reference": "قرن هفوك",
@@ -6471,13 +6634,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Keren-happuch",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Keren-happuch"
+}
+]
 }
 },
 {
 "content_id": "511207",
 "reference_id": 5691,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَرْنَائِيم",
 "media_type": "Text",
 "index_reference": "قَرْنَائِيم",
@@ -6514,13 +6685,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Ashteroth-karnaim",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Ashteroth-karnaim"
+}
+]
 }
 },
 {
 "content_id": "509918",
 "reference_id": 3601,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قرنايم",
 "media_type": "Text",
 "index_reference": "قرنايم",
@@ -6569,7 +6748,7 @@
 {
 "content_id": "201506",
 "reference_id": 6518,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَرِيب",
 "media_type": "Text",
 "index_reference": "قَرِيب",
@@ -6856,7 +7035,7 @@
 {
 "content_id": "443848",
 "reference_id": 5769,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَرْيَة أَرْبَع",
 "media_type": "Text",
 "index_reference": "قَرْيَة أَرْبَع",
@@ -6893,13 +7072,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Hebron",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "حَبْرونَ"
+}
+]
 }
 },
 {
 "content_id": "511257",
 "reference_id": 5778,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قِرْيَةُ أَرْبَعَ",
 "media_type": "Text",
 "index_reference": "قِرْيَةُ أَرْبَعَ",
@@ -6923,7 +7110,7 @@
 {
 "content_id": "511253",
 "reference_id": 5771,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَرْيَة بَعْل",
 "media_type": "Text",
 "index_reference": "قَرْيَة بَعْل",
@@ -6954,13 +7141,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Kiriath-jearim",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kiriath-jearim"
+}
+]
 }
 },
 {
 "content_id": "490498",
 "reference_id": 5772,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَرْيَةِ حَصُوت",
 "media_type": "Text",
 "index_reference": "قَرْيَةِ حَصُوت",
@@ -6977,13 +7172,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Kiriath-huzoth",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kiriath-huzoth"
+}
+]
 }
 },
 {
 "content_id": "511255",
 "reference_id": 5775,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَرْيَةُ سِفْر",
 "media_type": "Text",
 "index_reference": "قَرْيَةُ سِفْر",
@@ -7008,13 +7211,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Debir",
+"type": "place",
+"confidence": 0.85,
+"match_method": "scored",
+"preferred_label": "دَبِيرَ"
+}
+]
 }
 },
 {
 "content_id": "511254",
 "reference_id": 5774,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَرْيَة سَنَّة",
 "media_type": "Text",
 "index_reference": "قَرْيَة سَنَّة",
@@ -7041,11 +7252,11 @@
 ],
 "acai": [
 {
-"id": "place:Dannah",
+"id": "place:Debir",
 "type": "place",
-"preferred_label": "دَنَّة",
-"confidence": 0.748,
-"match_method": "scored"
+"confidence": 0.85,
+"match_method": "scored",
+"preferred_label": "دَبِيرَ"
 }
 ]
 }
@@ -7053,7 +7264,7 @@
 {
 "content_id": "511258",
 "reference_id": 5779,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَرْيَةُ عَارِيمَ",
 "media_type": "Text",
 "index_reference": "قَرْيَةُ عَارِيمَ",
@@ -7080,11 +7291,11 @@
 ],
 "acai": [
 {
-"id": "place:Chephirah",
+"id": "place:Kiriath-jearim",
 "type": "place",
-"preferred_label": "ٱلْكَفِيرَة",
-"confidence": 0.607,
-"match_method": "scored"
+"confidence": 0.85,
+"match_method": "scored",
+"preferred_label": "Kiriath-jearim"
 }
 ]
 }
@@ -7092,7 +7303,7 @@
 {
 "content_id": "335358",
 "reference_id": 5773,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَرْيَة يَعَارِيم",
 "media_type": "Text",
 "index_reference": "قَرْيَة يَعَارِيم",
@@ -7163,13 +7374,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Kiriath-jearim",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kiriath-jearim"
+}
+]
 }
 },
 {
 "content_id": "443847",
 "reference_id": 5768,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَرْيَتَايِم",
 "media_type": "Text",
 "index_reference": "قَرْيَتَايِم",
@@ -7238,18 +7457,18 @@
 ],
 "acai": [
 {
-"id": "place:Kiriathaim",
-"type": "place",
-"preferred_label": "قَرْيَتَايِمَ",
-"confidence": 0.882,
-"match_method": "scored"
-},
-{
 "id": "place:Kiriathaim.2",
 "type": "place",
-"preferred_label": "قَرْيَتَايِمَ",
-"confidence": 0.632,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قَرْيَتَايِمَ"
+},
+{
+"id": "place:Kiriathaim",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قَرْيَتَايِمَ"
 }
 ]
 }
@@ -7257,7 +7476,7 @@
 {
 "content_id": "490493",
 "reference_id": 5726,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَرْيوت",
 "media_type": "Text",
 "index_reference": "قَرْيوت",
@@ -7318,11 +7537,18 @@
 "resource": [],
 "acai": [
 {
+"id": "place:Kiriathaim",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قَرْيَتَايِمَ"
+},
+{
 "id": "place:Kerioth-hezron",
 "type": "place",
-"preferred_label": "قَرْيوتَ",
-"confidence": 0.5729,
-"match_method": "scored"
+"confidence": 0.6044,
+"match_method": "scored",
+"preferred_label": "قَرْيوتَ"
 }
 ]
 }
@@ -7330,10 +7556,10 @@
 {
 "content_id": "511228",
 "reference_id": 5725,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَرْيُوت-حَصْرُون",
 "media_type": "Text",
-"index_reference": "قَرْيُوت-حَصْرُون",
+"index_reference": "قَرْيُوتحَصْرُون",
 "language": "arb",
 "review_level": "None",
 "content": "<h1><strong>قَرْيُوت-حَصْرُون</strong></h1><p>مدينة مذكورة في <a href=\"https://ref.ly/Josh15:25\">يشوع 15: 25</a>. انظر <span data-bnType=\"resourceReference\" data-resourceId=\"5726\" data-resourceType=\"TyndaleBibleDictionary\">قَرْيوتَ #1</span>.</p>",
@@ -7355,16 +7581,24 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Kerioth-hezron",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قَرْيوتَ"
+}
+]
 }
 },
 {
 "content_id": "124510",
 "reference_id": 4831,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قساوة القلب*",
 "media_type": "Text",
-"index_reference": "قساوة القلب*",
+"index_reference": "قساوة القلب",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>قساوة القلب*</h1><p>عبارة تشير إلى العناد الروحي.</p><p>إن الشواهد الأولى عن قساوة القلب تجسد السمات الأساسية لهذا التعليم في الكتاب المقدس. إن عدد المرات التي تشير إليها هو أمر مثير للدهشة؛ فعلى الأقل ثمة 20 شاهدًا عن قساوة قلب فرعون في العهد القديم وحده، وكذلك شرح بولس لأهميته في <a href=\"https://ref.ly/Rom9:17-Rom9:24\">رومية ٩: ١٧–٢٤</a>.</p><p>أول شاهد في <a href=\"https://ref.ly/Exod4:21\">خروج ٤: ٢١</a>، فيه وعد الله موسى بأنه سيقسي قلب فرعون حتى لا يسمح لبني إسرائيل بالذهاب. يتكرر هذا الوعد (انظر <a href=\"https://ref.ly/Exod7:3\">خروج ٧: ٣</a>؛ <a href=\"https://ref.ly/Exod14:4\">١٤: ٤، ١٧</a>) وسريعًأ ما يتحقق (<a href=\"https://ref.ly/Exod7:13-Exod7:14\">٧: ١٣–١٤</a>)، إذ تتبعه الإعلانات والمعجزات أمام عيني فرعون، ويتبعه الحدوث الفعلي للأحداث التي حذر منها الله، بما في ذلك جميع أحكام الضربات العشر.</p><p>لا شك في أن عقل القارئ، سواء في رواية الخروج نفسها أو لاحقاً، بأن عناد فرعون كان عمل دينونة إلهيَّة من أجل تحقيق أهدافه ومقاصده الخارجية (<a href=\"https://ref.ly/Exod9:16\">خروج ٩: ١٦</a>؛ <a href=\"https://ref.ly/Josh11:20\">يشوع ١١: ٢٠</a>؛ قارِنْ <a href=\"https://ref.ly/Rom9:17-Rom9:18\">رومية ٩: ١٧–١٨</a>). مع ذلك، يُذكر أيضًا أن فرعون قسى قلبه (<a href=\"https://ref.ly/Exod8:15\">خروج ٨: ١٥، ٣٢</a>؛ <a href=\"https://ref.ly/Exod9:34\">٩: ٣٤</a>؛ <a href=\"https://ref.ly/Exod13:15\">١٣: ١٥</a>)، مما يدل على أن عملية القساوة نتاج متعمد للتمرد الشخصي ضد الحق المعلن. هذا جانب حاسم في العرض الكتابي للموضوع؛ إن القساوة القضائية للقلب ليست مجرد عمل من أعمال الله على طبيعة الخاطئ فحسب، بل هي أيضًا تحول متعمد عن الحق. لذلك فإن الخاطئ مسؤول أمام الله عن قساوة قلبه.</p><p>في <a href=\"https://ref.ly/Rom1:18-Rom1:32\">رومية ١: ١٨–٣٢</a>، يصف بولس عملية القساوة القضائية. لدى جميع البشر وعي إلهي فطري يبتعدون عنه عمدًا. إنهم يحولون الحق إلى كذبة ويقمعون الحق الذي لديهم. ونتيجة لذلك، تتغلب قساوة القلب. إن تعبير بولس عن هذا هو &quot;وَأَظْلَمَ قَلْبُهُمُ ٱلْغَبِيُّ&quot; لأن &quot;الله&quot; أسلمهم لعواقب خطاياهم. إن النتائج فكرية (&quot;أَسْلَمَهُمُ ٱللهُ إِلَى ذِهْنٍ مَرْفُوضٍ&quot;) وأخلاقية، وكذلك اجتماعية أو ثقافية. يستخدم بولس تعبير &quot;قساوة القلب&quot; في <a href=\"https://ref.ly/Rom2:5\">رومية ٢: ٥</a> لوصف النتيجة العامة. من المهم الإشارة إلى أن قساوة القلب ليست ضد غضب الله أو نتائج الخطيَّة بأن الأشرار يتمردون بل ضد &quot;الحق&quot; وضميرهم (<a href=\"https://ref.ly/Rom2:14-Rom2:16\">٢: ١٤–١٦</a>).</p><p>غالبًا ما يحذر الله شعبه من قساوة قلوبهم، لأن الكتاب المقدس يربط قساوة القلب بعدم الإيمان (<a href=\"https://ref.ly/Deut15:7\">تثنية ١٥: ٧</a>؛ <a href=\"https://ref.ly/Heb3:8\">عبرانيين ٣: ٨، ١٥</a>؛ <a href=\"https://ref.ly/Heb4:7\">٤: ٧</a>). حزن الرب يسوع على قساوة قلوب سامعيه (<a href=\"https://ref.ly/Mark3:5\">مَرقُس ٣: ٥</a>؛ <a href=\"https://ref.ly/Mark16:14\">١٦: ١٤</a>). أشار إلى سماح الله لليهود بالطلاق بسبب قساوة قلوبهم (<a href=\"https://ref.ly/Matt19:8\">متى ١٩: ٨</a>).</p><p>في مناسبتين في الأقل في الأناجيل، ينسب العمى القضائي مباشرةً إلى الله، والغرض منه (<a href=\"https://ref.ly/Matt13:13-Matt13:15\">متى ١٣: ١٣–١٥</a>؛ <a href=\"https://ref.ly/John12:39-John12:41\">يوحنَّا ١٢: ٣٩–٤١</a>). لذلك فإن قساوة القلب هي جانب من جوانب تدهور الشخصية الساقطة، التي تظهر أصل التمرد (<a href=\"https://ref.ly/Ps95:8\">مزمور ٩٥: ٨</a>؛ <a href=\"https://ref.ly/John12:40\">يوحنَّا ١٢: ٤٠</a>؛ <a href=\"https://ref.ly/Heb3:8\">عبرانيين ٣: ٨، ١٥</a>؛ <a href=\"https://ref.ly/Heb4:7\">٤: ٧</a>). في جميع أنحاء الكتاب المقدس، تُوصف الارتداد اليهودي على هذا النحو (<a href=\"https://ref.ly/2Kgs17:14\">٢ ملوك ١٧: ١٤</a>؛ <a href=\"https://ref.ly/Neh9:16-Neh9:17\">نحميا ٩: ١٦–١٧</a>؛ <a href=\"https://ref.ly/Heb3:8\">عبرانيين ٣: ٨</a>).</p><p><em>اُنْظُرْ أيضًا </em><span data-bnType=\"resourceReference\" data-resourceId=\"3439\" data-resourceType=\"TyndaleBibleDictionary\">العمى</span>؛ <span data-bnType=\"resourceReference\" data-resourceId=\"5663\" data-resourceType=\"TyndaleBibleDictionary\">الدينونة</span>؛ <span data-bnType=\"resourceReference\" data-resourceId=\"7147\" data-resourceType=\"TyndaleBibleDictionary\">التجديد</span>.</p>",
@@ -7574,7 +7808,7 @@
 {
 "content_id": "800809",
 "reference_id": 212870,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قسطنطين الكبير",
 "media_type": "Text",
 "index_reference": "قسطنطين الكبير",
@@ -7590,7 +7824,7 @@
 {
 "content_id": "335442",
 "reference_id": 6616,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَسَم",
 "media_type": "Text",
 "index_reference": "قَسَم",
@@ -7768,39 +8002,11 @@
 ],
 "acai": [
 {
-"id": "person:Kish",
-"type": "person",
-"preferred_label": "قَيْس",
-"confidence": 0.8394,
-"match_method": "embedding"
-},
-{
-"id": "person:Kish.2",
-"type": "person",
-"preferred_label": "قَيْس",
-"confidence": 0.8394,
-"match_method": "embedding"
-},
-{
-"id": "person:Kish.3",
-"type": "person",
-"preferred_label": "قَيْس",
-"confidence": 0.8394,
-"match_method": "embedding"
-},
-{
-"id": "person:Kish.4",
-"type": "person",
-"preferred_label": "قَيْس",
-"confidence": 0.8394,
-"match_method": "embedding"
-},
-{
-"id": "person:Cosam",
-"type": "person",
-"preferred_label": "قصَمَ",
-"confidence": 0.8111,
-"match_method": "embedding"
+"id": "keyterm:Oath",
+"type": "keyterm",
+"confidence": 0.6449,
+"match_method": "scored",
+"preferred_label": "Oath"
 }
 ]
 }
@@ -7808,7 +8014,7 @@
 {
 "content_id": "125381",
 "reference_id": 6771,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قسيس",
 "media_type": "Text",
 "index_reference": "قسيس",
@@ -7922,7 +8128,7 @@
 {
 "content_id": "443841",
 "reference_id": 5734,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَسِيطَة",
 "media_type": "Text",
 "index_reference": "قَسِيطَة",
@@ -7961,11 +8167,11 @@
 ],
 "acai": [
 {
-"id": "person:Zebidah",
-"type": "person",
-"preferred_label": "زَبِيدَة",
-"confidence": 0.8102,
-"match_method": "embedding"
+"id": "realia:PieceOfMoney",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "Piece of Money"
 }
 ]
 }
@@ -7973,10 +8179,10 @@
 {
 "content_id": "443971",
 "reference_id": 7045,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَسِيطَة*",
 "media_type": "Text",
-"index_reference": "قَسِيطَة*",
+"index_reference": "قَسِيطَة",
 "language": "arb",
 "review_level": "None",
 "content": "<h1><span>قَسِيطَة</span>* </h1><p>وحدة نقدية غير معلومة القيمة (<a href=\"https://ref.ly/Gen33:19\">تكوين 33: 19</a>؛ <a href=\"https://ref.ly/Josh24:32\">يشوع 24: 32</a>؛ <a href=\"https://ref.ly/Job42:11\">أيوب 42: 11</a>). <em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"6362\" data-resourceType=\"TyndaleBibleDictionary\">المال</span>.</p>",
@@ -8010,13 +8216,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:PieceOfMoney",
+"type": "realia",
+"confidence": 0.937,
+"match_method": "scored",
+"preferred_label": "Piece of Money"
+}
+]
 }
 },
 {
 "content_id": "335216",
 "reference_id": 3633,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قش",
 "media_type": "Text",
 "index_reference": "قش",
@@ -8057,7 +8271,7 @@
 {
 "content_id": "512135",
 "reference_id": 7329,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قِشرة الجَرْح",
 "media_type": "Text",
 "index_reference": "قِشرة الجَرْح",
@@ -8081,7 +8295,7 @@
 {
 "content_id": "511265",
 "reference_id": 5787,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قِشْيُون",
 "media_type": "Text",
 "index_reference": "قِشْيُون",
@@ -8116,9 +8330,9 @@
 {
 "id": "place:Kishion",
 "type": "place",
-"preferred_label": "قِشْيونَ",
-"confidence": 0.946,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قِشْيونَ"
 }
 ]
 }
@@ -8126,7 +8340,7 @@
 {
 "content_id": "509902",
 "reference_id": 3577,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قصب",
 "media_type": "Text",
 "index_reference": "قصب",
@@ -8164,7 +8378,7 @@
 {
 "content_id": "512463",
 "reference_id": 7838,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَصَبٌ",
 "media_type": "Text",
 "index_reference": "قَصَبٌ",
@@ -8182,63 +8396,13 @@
 "language": "arb"
 }
 ],
-"acai": [
-{
-"id": "person:Shashak",
-"type": "person",
-"preferred_label": "شَاشَق",
-"confidence": 0.8192,
-"match_method": "embedding"
-},
-{
-"id": "person:Shepho",
-"type": "person",
-"preferred_label": "شَفْوٌ",
-"confidence": 0.8189,
-"match_method": "embedding"
-},
-{
-"id": "person:Geshem",
-"type": "person",
-"preferred_label": "جَشَمٌ",
-"confidence": 0.8152,
-"match_method": "embedding"
-},
-{
-"id": "person:Hasshub",
-"type": "person",
-"preferred_label": "حَشّوب",
-"confidence": 0.813,
-"match_method": "embedding"
-},
-{
-"id": "person:Hasshub.2",
-"type": "person",
-"preferred_label": "حَشّوب",
-"confidence": 0.813,
-"match_method": "embedding"
-},
-{
-"id": "person:Hasshub.3",
-"type": "person",
-"preferred_label": "حَشّوب",
-"confidence": 0.813,
-"match_method": "embedding"
-},
-{
-"id": "person:Hasshub.4",
-"type": "person",
-"preferred_label": "حَشّوب",
-"confidence": 0.813,
-"match_method": "embedding"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "490226",
 "reference_id": 2928,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَصَب ٱلذَّرِيرَة",
 "media_type": "Text",
 "index_reference": "قَصَب ٱلذَّرِيرَة",
@@ -8276,13 +8440,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "flora:Calamus",
+"type": "flora",
+"confidence": 0.748,
+"match_method": "scored",
+"preferred_label": "Calamus"
+}
+]
 }
 },
 {
 "content_id": "490293",
 "reference_id": 3554,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَصَبَ ٱلذَّرِيرَةِ",
 "media_type": "Text",
 "index_reference": "قَصَبَ ٱلذَّرِيرَةِ",
@@ -8319,13 +8491,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "flora:Calamus",
+"type": "flora",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Calamus"
+}
+]
 }
 },
 {
 "content_id": "512043",
 "reference_id": 7142,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَصَبَة",
 "media_type": "Text",
 "index_reference": "قَصَبَة",
@@ -8352,60 +8532,18 @@
 ],
 "acai": [
 {
-"id": "place:Bozkath",
-"type": "place",
-"preferred_label": "بَصْقَة",
-"confidence": 0.8731,
-"match_method": "embedding"
+"id": "flora:Reed",
+"type": "flora",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Reed"
 },
 {
-"id": "person:Keturah",
-"type": "person",
-"preferred_label": "قَطورَة",
-"confidence": 0.8578,
-"match_method": "embedding"
-},
-{
-"id": "person:Kedemah",
-"type": "person",
-"preferred_label": "قِدْمَة",
-"confidence": 0.823,
-"match_method": "embedding"
-},
-{
-"id": "person:Hashubah",
-"type": "person",
-"preferred_label": "حَشوبَة",
-"confidence": 0.8229,
-"match_method": "embedding"
-},
-{
-"id": "place:Dophkah",
-"type": "place",
-"preferred_label": "دفْقَةَ",
-"confidence": 0.8217,
-"match_method": "embedding"
-},
-{
-"id": "person:Shebna",
-"type": "person",
-"preferred_label": "شِبْنَة",
-"confidence": 0.8205,
-"match_method": "embedding"
-},
-{
-"id": "place:Ashnah",
-"type": "place",
-"preferred_label": "أَشْنَة",
-"confidence": 0.8036,
-"match_method": "embedding"
-},
-{
-"id": "person:Rizpah",
-"type": "person",
-"preferred_label": "رِصْفَة",
-"confidence": 0.802,
-"match_method": "embedding"
+"id": "realia:Reed",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Reed"
 }
 ]
 }
@@ -8413,7 +8551,7 @@
 {
 "content_id": "852606",
 "reference_id": 213058,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قصة أندراوس",
 "media_type": "Text",
 "index_reference": "قصة أندراوس",
@@ -8429,7 +8567,7 @@
 {
 "content_id": "512571",
 "reference_id": 8025,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَصْدِير",
 "media_type": "Text",
 "index_reference": "قَصْدِير",
@@ -8447,28 +8585,13 @@
 "language": "arb"
 }
 ],
-"acai": [
-{
-"id": "person:Kedar",
-"type": "person",
-"preferred_label": "قِيدَارَ",
-"confidence": 0.8461,
-"match_method": "embedding"
-},
-{
-"id": "person:Mispar",
-"type": "person",
-"preferred_label": "مِسْفَار",
-"confidence": 0.8121,
-"match_method": "embedding"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "511813",
 "reference_id": 6722,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَصْر",
 "media_type": "Text",
 "index_reference": "قَصْر",
@@ -8745,53 +8868,11 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Pekah",
-"type": "person",
-"preferred_label": "فَقْح",
-"confidence": 0.8591,
-"match_method": "embedding"
-},
-{
-"id": "person:Kish",
-"type": "person",
-"preferred_label": "قَيْس",
-"confidence": 0.8431,
-"match_method": "embedding"
-},
-{
-"id": "person:Kish.2",
-"type": "person",
-"preferred_label": "قَيْس",
-"confidence": 0.8431,
-"match_method": "embedding"
-},
-{
-"id": "person:Kish.3",
-"type": "person",
-"preferred_label": "قَيْس",
-"confidence": 0.8431,
-"match_method": "embedding"
-},
-{
-"id": "person:Kish.4",
-"type": "person",
-"preferred_label": "قَيْس",
-"confidence": 0.8431,
-"match_method": "embedding"
-},
-{
-"id": "person:Jezer",
-"type": "person",
-"preferred_label": "يِصْر",
-"confidence": 0.8094,
-"match_method": "embedding"
-},
-{
-"id": "person:Ashvath",
-"type": "person",
-"preferred_label": "عَشْة",
-"confidence": 0.8089,
-"match_method": "embedding"
+"id": "realia:Palace",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Palace"
 }
 ]
 }
@@ -8799,7 +8880,7 @@
 {
 "content_id": "335230",
 "reference_id": 3831,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قُصم",
 "media_type": "Text",
 "index_reference": "قُصم",
@@ -8824,13 +8905,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Cosam",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قصَمَ"
+}
+]
 }
 },
 {
 "content_id": "511453",
 "reference_id": 6131,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قصيدة",
 "media_type": "Text",
 "index_reference": "قصيدة",
@@ -8854,10 +8943,10 @@
 {
 "content_id": "511237",
 "reference_id": 5740,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قصيص، وادي",
 "media_type": "Text",
-"index_reference": "قصيص، وادي",
+"index_reference": "قصيص وادي",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>قصيص*، وادي</h1><p>مدينة مُخصصة كميراث لسبط بنيامين في <a href=\"https://ref.ly/Josh18:21\">يشوع 18:21</a>. <em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4235\" data-resourceType=\"TyndaleBibleDictionary\">وادي قصيص</span>.</p>",
@@ -8879,13 +8968,28 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Emek-keziz",
+"type": "place",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "Emek-keziz"
+},
+{
+"id": "group:Benjamin",
+"type": "group",
+"confidence": 0.598,
+"match_method": "scored",
+"preferred_label": "بَنْيَامِينَ"
+}
+]
 }
 },
 {
 "content_id": "511236",
 "reference_id": 5738,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَصِيعَة",
 "media_type": "Text",
 "index_reference": "قَصِيعَة",
@@ -8906,9 +9010,9 @@
 {
 "id": "person:Keziah",
 "type": "person",
-"preferred_label": "قَصِيعَةَ",
-"confidence": 0.973,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قَصِيعَةَ"
 }
 ]
 }
@@ -8916,10 +9020,10 @@
 {
 "content_id": "511188",
 "reference_id": 5659,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قضاة، زمن الـ",
 "media_type": "Text",
-"index_reference": "قضاة، زمن الـ",
+"index_reference": "قضاة زمن الـ",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>قضاة، زمن الـ* </h1><p>انظر <span data-bnType=\"resourceReference\" data-resourceId=\"5658\" data-resourceType=\"TyndaleBibleDictionary\">سفر القضاة</span>.</p>",
@@ -8940,7 +9044,7 @@
 {
 "content_id": "490637",
 "reference_id": 7204,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَطَانِيّ",
 "media_type": "Text",
 "index_reference": "قَطَانِيّ",
@@ -8978,7 +9082,7 @@
 {
 "content_id": "490699",
 "reference_id": 7764,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَطَانِيّ",
 "media_type": "Text",
 "index_reference": "قَطَانِيّ",
@@ -9009,13 +9113,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "Wheat"
+}
+]
 }
 },
 {
 "content_id": "511210",
 "reference_id": 5694,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَطَّة",
 "media_type": "Text",
 "index_reference": "قَطَّة",
@@ -9048,39 +9160,11 @@
 ],
 "acai": [
 {
-"id": "place:Humtah",
+"id": "place:Kitron",
 "type": "place",
-"preferred_label": "حمْطَة",
-"confidence": 0.8601,
-"match_method": "embedding"
-},
-{
-"id": "person:Taphath",
-"type": "person",
-"preferred_label": "طَافَة",
-"confidence": 0.8393,
-"match_method": "embedding"
-},
-{
-"id": "person:Anna",
-"type": "person",
-"preferred_label": "حَنَّة",
-"confidence": 0.8361,
-"match_method": "embedding"
-},
-{
-"id": "person:Hannah",
-"type": "person",
-"preferred_label": "حَنَّة",
-"confidence": 0.8361,
-"match_method": "embedding"
-},
-{
-"id": "person:Kohath",
-"type": "person",
-"preferred_label": "قَهَات",
-"confidence": 0.8047,
-"match_method": "embedding"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قِطْرونَ"
 }
 ]
 }
@@ -9088,7 +9172,7 @@
 {
 "content_id": "511273",
 "reference_id": 5799,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قطرون",
 "media_type": "Text",
 "index_reference": "قطرون",
@@ -9119,13 +9203,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Kitron",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قِطْرونَ"
+}
+]
 }
 },
 {
 "content_id": "510042",
 "reference_id": 3792,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَطعُ",
 "media_type": "Text",
 "index_reference": "قَطعُ",
@@ -9142,21 +9234,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Pekah",
-"type": "person",
-"preferred_label": "فَقْح",
-"confidence": 0.8189,
-"match_method": "embedding"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "509706",
 "reference_id": 3246,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قطع الرأس",
 "media_type": "Text",
 "index_reference": "قطع الرأس",
@@ -9180,7 +9264,7 @@
 {
 "content_id": "510060",
 "reference_id": 3834,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قطن",
 "media_type": "Text",
 "index_reference": "قطن",
@@ -9212,13 +9296,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "flora:Cotton",
+"type": "flora",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Cotton"
+}
+]
 }
 },
 {
 "content_id": "443842",
 "reference_id": 5736,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَطُورَة",
 "media_type": "Text",
 "index_reference": "قَطُورَة",
@@ -9295,9 +9387,9 @@
 {
 "id": "person:Keturah",
 "type": "person",
-"preferred_label": "قَطورَة",
-"confidence": 0.5867,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قَطورَة"
 }
 ]
 }
@@ -9305,10 +9397,10 @@
 {
 "content_id": "511213",
 "reference_id": 5702,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قعيلة (شخص)",
 "media_type": "Text",
-"index_reference": "قعيلة (شخص)",
+"index_reference": "قعيلة شخص",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>قعيلة (شخص)</h1><p>نسل كالب من سبط يهوذا، ويُدعى الجرمي في <a href=\"https://ref.ly/1Chr4:19\">1&nbsp;أخبار الأيام 4:19</a>. والبعض يُرجع هذا الاسم الي مدينة في يهوذا بدلاً من شخص.</p>",
@@ -9322,16 +9414,24 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Keilah",
+"type": "place",
+"confidence": 0.85,
+"match_method": "scored",
+"preferred_label": "قَعِيلَةَ"
+}
+]
 }
 },
 {
 "content_id": "511214",
 "reference_id": 5703,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَعِيلَة (مكان)",
 "media_type": "Text",
-"index_reference": "قَعِيلَة (مكان)",
+"index_reference": "قَعِيلَة مكان",
 "language": "arb",
 "review_level": "None",
 "content": "<h1><span>قَعِيلَة</span></h1><p>كانت مدينة تابعة لسبط يهوذا (<a href=\"https://ref.ly/Josh15:44\">يش 15:44؛</a> <a href=\"https://ref.ly/1Chr4:19\">1&nbsp;أخ 4:19</a>)، وتقع في منطقة السفوح المنخفضة جنوب غربي أرض يهوذا، قريبة من حدود الفِلِسطينيين. ويرجّح العلماء أن موقعها اليوم هو خربة قِيلا، التي تقع إلى شمال غرب مدينة حَبرون بنحو 13.7 كيلومترًا.</p><p>قاد دَاود حملة جريئة إلى قَعِيلَةَ لتحريرها من عصابات الفِلِسطينيين التي كانت تسرق الحبوب من بيادرها. وبعد أن حررها، اختار الإقامة فيها مؤقتًا، ظانًا أن أهلها سيكونون مخلصين له. لكن حين علم أن سكان قعيلة يفكرون في تسليمه لشاول، غادر المدينة مع رجاله إلى برية زيف، ليحتمي هناك (<a href=\"https://ref.ly/1Sam23:1-1Sam23:14\">1&nbsp;صم 23:1–14</a>).</p><p>بعد عودة الشعب من السبي البابلي، سكن اليهود مدينة قعيلة من جديد، وقسّموها إلى قسمين إداريين، تولى قيادتهما حشبيا وبواي. وكان هؤلاء من بين القادة الذين شاركوا مع نحميا في ترميم سور أورشليم (<a href=\"https://ref.ly/Neh3:17-Neh3:18\">نح 3:17–18</a>).</p>",
@@ -9367,9 +9467,9 @@
 {
 "id": "place:Keilah",
 "type": "place",
-"preferred_label": "قَعِيلَةَ",
-"confidence": 0.9286,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قَعِيلَةَ"
 }
 ]
 }
@@ -9377,7 +9477,7 @@
 {
 "content_id": "511681",
 "reference_id": 6504,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قِلادة",
 "media_type": "Text",
 "index_reference": "قِلادة",
@@ -9401,7 +9501,7 @@
 {
 "content_id": "511201",
 "reference_id": 5684,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَلَّاي",
 "media_type": "Text",
 "index_reference": "قَلَّاي",
@@ -9422,9 +9522,9 @@
 {
 "id": "person:Kallai",
 "type": "person",
-"preferred_label": "قَلَّاي",
 "confidence": 1.0,
-"match_method": "scored"
+"match_method": "content_id",
+"preferred_label": "قَلَّاي"
 }
 ]
 }
@@ -9432,7 +9532,7 @@
 {
 "content_id": "511215",
 "reference_id": 5704,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَلَايَا",
 "media_type": "Text",
 "index_reference": "قَلَايَا",
@@ -9475,11 +9575,18 @@
 "resource": [],
 "acai": [
 {
+"id": "person:Kelaiah",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kelaiah"
+},
+{
 "id": "person:Pelaiah",
 "type": "person",
-"preferred_label": "فَلَايَا",
-"confidence": 0.706,
-"match_method": "scored"
+"confidence": 0.697,
+"match_method": "scored",
+"preferred_label": "فَلَايَا"
 }
 ]
 }
@@ -9487,7 +9594,7 @@
 {
 "content_id": "490400",
 "reference_id": 4686,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قلع العيون",
 "media_type": "Text",
 "index_reference": "قلع العيون",
@@ -9536,10 +9643,10 @@
 {
 "content_id": "510014",
 "reference_id": 3737,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قلعة، معقل",
 "media_type": "Text",
-"index_reference": "قلعة، معقل",
+"index_reference": "قلعة معقل",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>قلعة، معقل</h1><p>معقل المدينة أو برجها أو تحصينها الأخير حيث كان الناس يلجأون ليجدوا الأمان في أثناء الهجوم. دمَّر جِدْعون معقل فَنوئِيل بعد أن أسر ملكَين من المديانيين (<a href=\"https://ref.ly/Judg8:17\">قضاة 8:17</a>). حُرِق معقل <span>إِيلِ بَرِيث</span> في شَكِيم على يد أَبِيمَالِك ورجاله (<a href=\"https://ref.ly/Judg9:46-Judg9:49\">9:46–49</a>). قُتل أَبِيمَالِك بعد ذلك بوقت قصير عندما أسقطت امرأة في المعقل في تَابَاص حجر رحى على رأسه وسحقت ٱلْجمْجمَةِ (الآيات <a href=\"https://ref.ly/Judg9:50-Judg9:54\">50–54</a>). انتصر دَاود على أورشَلِيم بالاستيلاء على معقلها (قلعتها) (<a href=\"https://ref.ly/2Sam5:7-2Sam5:9\">2&nbsp;صموئيل 5:7–9؛</a> <a href=\"https://ref.ly/1Chr11:5-1Chr11:8\">1&nbsp;أخبار 11:5–8</a>).</p><p>غالبًا ما كانت تساعد القلعة في أورشَلِيم الحزب الحاكم، خلال كفاح المكابيين من أجل الاستقلال في القرن الثاني قبل الميلاد (<a href=\"https://ref.ly/1Macc1:29-1Macc1:33\">1&nbsp;مكابيين 1:29–33؛</a> <a href=\"https://ref.ly/1Macc11:41-1Macc11:42\">11:41–42؛</a> <a href=\"https://ref.ly/1Macc13:49-1Macc13:51\">13:49–51</a>). سقطت قلعة أنطونيا، قلعة أورشَلِيم في زمن يَسوع، في أيدي الرومان في عام 70 ميلادي.</p>",
@@ -9601,7 +9708,7 @@
 {
 "content_id": "511866",
 "reference_id": 6818,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قلم",
 "media_type": "Text",
 "index_reference": "قلم",
@@ -9619,13 +9726,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Pen",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Pen"
+}
+]
 }
 },
 {
 "content_id": "512441",
 "reference_id": 7807,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَلَمٌ",
 "media_type": "Text",
 "index_reference": "قَلَمٌ",
@@ -9658,123 +9773,18 @@
 ],
 "acai": [
 {
-"id": "person:Geshem",
-"type": "person",
-"preferred_label": "جَشَمٌ",
-"confidence": 0.8409,
-"match_method": "embedding"
+"id": "realia:Stylus.2",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Stylus"
 },
 {
-"id": "person:Telem",
-"type": "person",
-"preferred_label": "طَالَم",
-"confidence": 0.8168,
-"match_method": "embedding"
-},
-{
-"id": "place:Telem",
-"type": "place",
-"preferred_label": "طَالَم",
-"confidence": 0.8168,
-"match_method": "embedding"
-},
-{
-"id": "person:Shallum.10",
-"type": "person",
-"preferred_label": "شَلّوم",
-"confidence": 0.8088,
-"match_method": "embedding"
-},
-{
-"id": "person:Shallum.11",
-"type": "person",
-"preferred_label": "شَلّوم",
-"confidence": 0.8088,
-"match_method": "embedding"
-},
-{
-"id": "person:Shallum.12",
-"type": "person",
-"preferred_label": "شَلّوم",
-"confidence": 0.8088,
-"match_method": "embedding"
-},
-{
-"id": "person:Shallum.13",
-"type": "person",
-"preferred_label": "شَلّوم",
-"confidence": 0.8088,
-"match_method": "embedding"
-},
-{
-"id": "person:Shallum.14",
-"type": "person",
-"preferred_label": "شَلّوم",
-"confidence": 0.8088,
-"match_method": "embedding"
-},
-{
-"id": "person:Shallum.15",
-"type": "person",
-"preferred_label": "شَلّوم",
-"confidence": 0.8088,
-"match_method": "embedding"
-},
-{
-"id": "person:Shallum.2",
-"type": "person",
-"preferred_label": "شَلّوم",
-"confidence": 0.8088,
-"match_method": "embedding"
-},
-{
-"id": "person:Shallum.3",
-"type": "person",
-"preferred_label": "شَلّوم",
-"confidence": 0.8088,
-"match_method": "embedding"
-},
-{
-"id": "person:Shallum.4",
-"type": "person",
-"preferred_label": "شَلّوم",
-"confidence": 0.8088,
-"match_method": "embedding"
-},
-{
-"id": "person:Shallum.5",
-"type": "person",
-"preferred_label": "شَلّوم",
-"confidence": 0.8088,
-"match_method": "embedding"
-},
-{
-"id": "person:Shallum.6",
-"type": "person",
-"preferred_label": "شَلّوم",
-"confidence": 0.8088,
-"match_method": "embedding"
-},
-{
-"id": "person:Shallum.7",
-"type": "person",
-"preferred_label": "شَلّوم",
-"confidence": 0.8088,
-"match_method": "embedding"
-},
-{
-"id": "person:Shallum.8",
-"type": "person",
-"preferred_label": "شَلّوم",
-"confidence": 0.8088,
-"match_method": "embedding"
-},
-{
-"id": "person:Shallum.9",
-"type": "person",
-"preferred_label": "شَلّوم",
-"confidence": 0.8088,
-"match_method": "embedding"
+"id": "realia:Stylus",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Stylus"
 }
 ]
 }
@@ -9782,7 +9792,7 @@
 {
 "content_id": "511864",
 "reference_id": 6812,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَلَمِ حَدِيد",
 "media_type": "Text",
 "index_reference": "قَلَمِ حَدِيد",
@@ -9811,13 +9821,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "realia:Razor",
+"type": "realia",
+"confidence": 0.5833,
+"match_method": "scored",
+"preferred_label": "Razor"
+}
+]
 }
 },
 {
 "content_id": "511217",
 "reference_id": 5706,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَلِيطَا",
 "media_type": "Text",
 "index_reference": "قَلِيطَا",
@@ -9839,16 +9857,16 @@
 {
 "id": "person:Kelita.2",
 "type": "person",
-"preferred_label": "قَلِيطَا",
 "confidence": 1.0,
-"match_method": "embedding"
+"match_method": "content_id",
+"preferred_label": "قَلِيطَا"
 },
 {
-"id": "place:Calneh",
-"type": "place",
-"preferred_label": "كَلْنَةَ",
-"confidence": 0.8133,
-"match_method": "embedding"
+"id": "person:Kelaiah",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kelaiah"
 }
 ]
 }
@@ -9856,7 +9874,7 @@
 {
 "content_id": "510089",
 "reference_id": 3891,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَلِيمُونَ",
 "media_type": "Text",
 "index_reference": "قَلِيمُونَ",
@@ -9885,7 +9903,7 @@
 {
 "content_id": "490622",
 "reference_id": 7055,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قمران",
 "media_type": "Text",
 "index_reference": "قمران",
@@ -9908,13 +9926,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Qumran",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Qumran"
+}
+]
 }
 },
 {
 "content_id": "511816",
 "reference_id": 6728,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَمَص",
 "media_type": "Text",
 "index_reference": "قَمَص",
@@ -9951,42 +9977,13 @@
 "language": "arb"
 }
 ],
-"acai": [
-{
-"id": "person:Kish",
-"type": "person",
-"preferred_label": "قَيْس",
-"confidence": 0.8302,
-"match_method": "embedding"
-},
-{
-"id": "person:Kish.2",
-"type": "person",
-"preferred_label": "قَيْس",
-"confidence": 0.8302,
-"match_method": "embedding"
-},
-{
-"id": "person:Kish.3",
-"type": "person",
-"preferred_label": "قَيْس",
-"confidence": 0.8302,
-"match_method": "embedding"
-},
-{
-"id": "person:Kish.4",
-"type": "person",
-"preferred_label": "قَيْس",
-"confidence": 0.8302,
-"match_method": "embedding"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "443835",
 "reference_id": 5710,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَمُوئِِيل",
 "media_type": "Text",
 "index_reference": "قَمُوئِِيل",
@@ -10017,25 +10014,25 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Kemuel",
-"type": "person",
-"preferred_label": "قَموئِيل",
-"confidence": 0.6838,
-"match_method": "scored"
-},
-{
 "id": "person:Kemuel.2",
 "type": "person",
-"preferred_label": "قَموئِيل",
-"confidence": 0.6838,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قَموئِيل"
 },
 {
 "id": "person:Kemuel.3",
 "type": "person",
-"preferred_label": "قَموئِيل",
-"confidence": 0.6838,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قَموئِيل"
+},
+{
+"id": "person:Kemuel",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قَموئِيل"
 }
 ]
 }
@@ -10043,7 +10040,7 @@
 {
 "content_id": "510031",
 "reference_id": 3772,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قميص",
 "media_type": "Text",
 "index_reference": "قميص",
@@ -10067,7 +10064,7 @@
 {
 "content_id": "510043",
 "reference_id": 3794,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قناة",
 "media_type": "Text",
 "index_reference": "قناة",
@@ -10153,13 +10150,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Water-tunnel",
+"type": "realia",
+"confidence": 0.6211,
+"match_method": "scored",
+"preferred_label": "Water-Tunnel"
+}
+]
 }
 },
 {
 "content_id": "490491",
 "reference_id": 5715,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَنَاة",
 "media_type": "Text",
 "index_reference": "قَنَاة",
@@ -10194,9 +10199,9 @@
 {
 "id": "place:Kenath",
 "type": "place",
-"preferred_label": "قَنَاةَ",
-"confidence": 0.964,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قَنَاةَ"
 }
 ]
 }
@@ -10204,7 +10209,7 @@
 {
 "content_id": "510751",
 "reference_id": 5000,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قناة حزقيا",
 "media_type": "Text",
 "index_reference": "قناة حزقيا",
@@ -10228,7 +10233,7 @@
 {
 "content_id": "509457",
 "reference_id": 2851,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قناة مائية",
 "media_type": "Text",
 "index_reference": "قناة مائية",
@@ -10275,7 +10280,7 @@
 {
 "content_id": "490488",
 "reference_id": 5687,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قناتا",
 "media_type": "Text",
 "index_reference": "قناتا",
@@ -10313,7 +10318,7 @@
 {
 "content_id": "443836",
 "reference_id": 5716,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَنَاز",
 "media_type": "Text",
 "index_reference": "قَنَاز",
@@ -10400,32 +10405,32 @@
 ],
 "acai": [
 {
-"id": "person:Kenaz.3",
-"type": "person",
-"preferred_label": "قَنَازَ",
-"confidence": 0.7178,
-"match_method": "scored"
-},
-{
-"id": "person:Kenaz",
-"type": "person",
-"preferred_label": "قَنَازَ",
-"confidence": 0.6563,
-"match_method": "scored"
-},
-{
 "id": "person:Kenaz.2",
 "type": "person",
-"preferred_label": "قَنَازَ",
-"confidence": 0.6255,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قَنَازَ"
+},
+{
+"id": "person:Kenaz.3",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قَنَازَ"
 },
 {
 "id": "person:Kenaz.4",
 "type": "person",
-"preferred_label": "قَنَازَ",
-"confidence": 0.5948,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قَنَازَ"
+},
+{
+"id": "person:Kenaz",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قَنَازَ"
 }
 ]
 }
@@ -10433,7 +10438,7 @@
 {
 "content_id": "490384",
 "reference_id": 4519,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَناوَشَق",
 "media_type": "Text",
 "index_reference": "قَناوَشَق",
@@ -10466,18 +10471,11 @@
 ],
 "acai": [
 {
-"id": "person:Chenaanah",
-"type": "person",
-"preferred_label": "كَنْعَنَة",
-"confidence": 0.8303,
-"match_method": "embedding"
-},
-{
-"id": "person:Chenaanah.2",
-"type": "person",
-"preferred_label": "كَنْعَنَة",
-"confidence": 0.8303,
-"match_method": "embedding"
+"id": "flora:Fennel",
+"type": "flora",
+"confidence": 0.8,
+"match_method": "scored",
+"preferred_label": "Fennel"
 }
 ]
 }
@@ -10485,7 +10483,7 @@
 {
 "content_id": "443838",
 "reference_id": 5719,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَنِزِّيُّون",
 "media_type": "Text",
 "index_reference": "قَنِزِّيُّون",
@@ -10556,13 +10554,35 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "group:Kenaz",
+"type": "group",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kenizzites"
+},
+{
+"id": "group:Kenizzites",
+"type": "group",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kenizzites"
+},
+{
+"id": "person:Kenaz.3",
+"type": "person",
+"confidence": 0.7006,
+"match_method": "scored",
+"preferred_label": "قَنَازَ"
+}
+]
 }
 },
 {
 "content_id": "510706",
 "reference_id": 4931,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قنفذ",
 "media_type": "Text",
 "index_reference": "قنفذ",
@@ -10599,10 +10619,10 @@
 {
 "content_id": "511934",
 "reference_id": 6950,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قنفذ (شيهم)",
 "media_type": "Text",
-"index_reference": "قنفذ (شيهم)",
+"index_reference": "قنفذ شيهم",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>قنفذ (شيهم)</h1><p><em>شاهد</em> <span data-bnType=\"resourceReference\" data-resourceId=\"2782\" data-resourceType=\"TyndaleBibleDictionary\">الحيوانات</span>.</p>",
@@ -10630,10 +10650,10 @@
 {
 "content_id": "443850",
 "reference_id": 5805,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَهَات، القَهَاتيُّون",
 "media_type": "Text",
-"index_reference": "قَهَات، القَهَاتيُّون",
+"index_reference": "قَهَات القَهَاتيُّون",
 "language": "arb",
 "review_level": "None",
 "content": "<h1><span>قَهَات</span>، القَهَاتيُّون</h1><p>ابن لَاوِي (<a href=\"https://ref.ly/Gen46:11\">تكوين 46:11؛</a> <a href=\"https://ref.ly/Exod6:16\">خروج 6:16</a>)، والد <span>عَمْرَام ويِصْهَار وحَبْرُون وعُزِّيئِيل</span> (<a href=\"https://ref.ly/Exod6:18\">خروج 6:18؛</a> <a href=\"https://ref.ly/Num3:19,Num3:27\">عدد 3:19، 27؛</a> <a href=\"https://ref.ly/1Chr6:2\">1&nbsp;أخبار 6:2</a>)، وسلف فرع القَهَاتيِّين المنحدر من العائلات اللَّاويّة التي كانت مسؤولة عن خدمة المسكن (<a href=\"https://ref.ly/Num3:31-Num3:32\">عدد 3:31–32</a>). كان مُوسَى، وهَارون، ومَرْيَم من نسل قَهَات (<a href=\"https://ref.ly/Exod6:18-Exod6:20\">خروج 6:18–20؛</a> <a href=\"https://ref.ly/Num26:59\">عدد 26:59؛</a> <a href=\"https://ref.ly/1Chr6:3\">1&nbsp;أخبار 6:3؛</a> <a href=\"https://ref.ly/1Chr23:13-1Chr23:17\">23:13–17</a>).</p><p>الفرق الثلاثة الرئيسية لسبط لَاوِي كانت تحمل أسماء <span>جِرْشُون وقَهَات ومَرَارِي</span>، أبناء لَاوِي الأصليين (<a href=\"https://ref.ly/Gen46:11\">تكوين 46:11؛</a> <a href=\"https://ref.ly/Exod6:16\">خروج 6:16؛</a> <a href=\"https://ref.ly/Num3:17\">عدد 3:17؛</a> <a href=\"https://ref.ly/1Chr6:1,1Chr6:16\">1&nbsp;أخبار 6:1، 16؛</a> <a href=\"https://ref.ly/1Chr23:6\">23:6</a>). لذلك، كان القَهَاتيُّون عائلة لاويّة بارزة. ترتيب أسمائهم في <a href=\"https://ref.ly/Num4:1-Num4:49\">عدد 4،</a> <a href=\"https://ref.ly/Josh21:1-Josh21:45\">يشوع 21،</a> <a href=\"https://ref.ly/1Chr6:16\">1&nbsp;أخبار 6:16،</a> و<a href=\"https://ref.ly/2Chr29:12\">2&nbsp;أخبار 29:12</a> يشير إلى أنهم كانوا مكلفين بمهمة أكثر سموًا من الْجَرْشونِيِّين و مَرَارِي. مساكنهم ومسؤولياتهم - سواء أُشير إليهم باسم &quot;القَهَاتيُّون&quot;، أو &quot;بني قَهَات&quot; - مذكورة في الكتابات الأولى للعبرانيين (<a href=\"https://ref.ly/Exod6:18\">خروج 6:18؛</a> <a href=\"https://ref.ly/Num3:19,Num3:27-Num3:30\">عدد 3:19، 27–30؛</a> <a href=\"https://ref.ly/Num4:2-Num4:4,Num4:15,Num4:18,Num4:34,Num4:37\">4:2–4، 15، 18، 34، 37؛</a> <a href=\"https://ref.ly/Num7:9\">7:9؛</a> <a href=\"https://ref.ly/Num10:21\">10:21؛</a> <a href=\"https://ref.ly/Num26:57\">26:57؛</a> <a href=\"https://ref.ly/Josh21:4-Josh21:5,Josh21:10,Josh21:20,Josh21:26\">يشوع 21:4–5، 10، 20، 26؛</a> <a href=\"https://ref.ly/1Chr6:2,1Chr6:18,1Chr6:22,1Chr6:33,1Chr6:54,1Chr6:61,1Chr6:66,1Chr6:70\">1&nbsp;أخبار 6:2، 18، 22، 33، 54، 61، 66، 70؛</a> <a href=\"https://ref.ly/1Chr15:5\">15:5؛</a> <a href=\"https://ref.ly/1Chr23:12\">23:12؛</a> <a href=\"https://ref.ly/2Chr20:19\">2&nbsp;أخبار 20:19؛</a> <a href=\"https://ref.ly/2Chr29:12\">29:12؛</a> <a href=\"https://ref.ly/2Chr34:12\">34:12</a>).</p><p>خلال تيهان بني إسرائيل في البرية بعد خروجهم من مِصْر، خُصِّص لبني قَهَات الجانب الجنوبي من المسكن (<a href=\"https://ref.ly/Num3:29\">عدد 3:29</a>). في أثناء نقل المسكن، كان عليهم حمل التابوت والأغراض المقدسة الأخرى على أكتافهم (<a href=\"https://ref.ly/Num7:9\">7:9</a>). في وقت بناء المسكن، أُجري إحصاء لتحديد عدد الذكور من بني قَهَات الذين سيشاركون في خدمة الرب (<a href=\"https://ref.ly/Num3:27-Num3:28\">3:27–28؛</a> <a href=\"https://ref.ly/Num4:1-Num4:4,Num4:34-Num4:37\">4:1–4، 34–37</a>).</p><p>بعد استقرار الأسباط في أرض كَنْعَان، بدا أنَّ خدمة بني قَهَات قد انتهت. ومع ذلك، أكد الله على ضرورة الاعتناء بهم ومعاملتهم بنفس معاملة العائلات الَّلاوية الأخرى. وقد أُعطي لبني قَهَات عدّة مدن (<a href=\"https://ref.ly/Josh21:4-Josh21:5,Josh21:20-Josh21:26\">يشوع 21:4–5، 20–26</a>؛ <a href=\"https://ref.ly/1Chr6:66-1Chr6:70\">1&nbsp;أخبار 6:66–70</a>).</p><p>عندما أصبح دَاوُد ملكًا، قسَّم اللَّاويين إلى ثلاث فرق (<a href=\"https://ref.ly/1Chr23:6\">1&nbsp;أخبار 23:6</a>). هَيْمَان، الذي كان من بني قَهَات، كان مكلفًا بالغناء في بيت الرب (<a href=\"https://ref.ly/1Chr6:31\">6:31</a>)، وكانت مجموعة أخرى من بني قَهَات مسؤولة عن &quot;خُبز الوجوه&quot; في كل سبت (<a href=\"https://ref.ly/1Chr9:32\">9:32</a>). عندما أحضر دَاوُد تابوت العهد إلى أورُشَلِيم،كُلِّف أُورِيئِيل، من بني قَهَات، بالإشراف على إصعاده (<a href=\"https://ref.ly/1Chr15:3-1Chr15:5\">15:3–5</a>).</p><p>خلال فترة المملكة المنقسمة، هاجمت القوات المشتركة للمُوآبيِّين والعمُّونيِّين يَهُوذا. اعترف الملك يَهوشَافَاط بعدم قدرته على مواجهة المعتدين وطلب مساعدة الرب. قاد بنو قَهَات الناس في تسبحة للرب وربما تقدموا الجيش في صباح اليوم التالي عندما خرج الملك ورجال القتال من يَهُوذا لمواجهة المعتدين (<a href=\"https://ref.ly/2Chr20:19-2Chr20:22\">2&nbsp;أخبار 20:19–22</a>).</p><p>خلال سنوات تدهور مملكة يَهُوذا حدثت حركتان إصلاحيتان مُهمتان. الأولى حدثت خلال حكم حَزَقِيَّا (715–686 ق.م؛ <a href=\"https://ref.ly/2Kgs18:1-2Kgs18:37\">2&nbsp;ملوك 18</a>؛ <a href=\"https://ref.ly/2Chr29:1-2Chr30:27\">2&nbsp;أخبار 29–30</a>)؛ والثانية في عهد يُوشِيَّا (640–609 ق.م؛ <a href=\"https://ref.ly/2Kgs22:1-2Kgs23:37\">2&nbsp;ملوك 22–23</a>؛ <a href=\"https://ref.ly/2Chr34:1-2Chr34:33\">2&nbsp;أخبار 34</a>). بلغت إصلاحات يُوشِيَّا ذروتها في عام 621 ق.م. مع اكتشاف سفر الشريعة. لعب بنو قَهَات دورًا مهمًا في كلا الحركتين. في عهد حَزَقِيَّا كانوا من بين الذين طهروا بيت الرب (<a href=\"https://ref.ly/2Chr29:12-2Chr29:16\">2&nbsp;أخبار 29:12–16</a>)، وفي زمن يُوشِيَّا عُيِّن اثنين من بني قَهَات البارزين للإشراف مع آخرين على عمل الهيكل (<a href=\"https://ref.ly/2Chr34:12\">34:12</a>).</p><p>يُذكر بني قَهَات مرة أخرى بعد السبي. ندرة الأدلة تجعل الحكم على أهمية خدمتهم متعذرًا. من الوارد جدًا أنهم كانوا من بين أولئك الذين حاولوا خدمة الرب بإخلاص في وسط الانحطاط الروحي العام. القليلون الذين يخلِّدهم الكتاب المقدَّس إلى الأبد بذكر أسمائهم كُلِّفوا بمهام متواضعة. في حالة عدم وجود دليل على عكس ذلك، يمكن الافتراض بأنهم أدوا مهامهم بإخلاص (<a href=\"https://ref.ly/1Chr9:19,1Chr9:31-1Chr9:32\">1&nbsp;أخبار 9:19، 31–32</a>؛ <a href=\"https://ref.ly/Ezra2:42\">عزرا 2:42</a>؛ <a href=\"https://ref.ly/Neh12:25\">نحميا 12:25</a>).</p><p><em>انظر أيضًا</em> <span data-bnType=\"resourceReference\" data-resourceId=\"5902\" data-resourceType=\"TyndaleBibleDictionary\">سبط لَاوِي؛</span> <span data-bnType=\"resourceReference\" data-resourceId=\"6984\" data-resourceType=\"TyndaleBibleDictionary\">الكهنة واللَّاويُّون؛</span> <span data-bnType=\"resourceReference\" data-resourceId=\"7864\" data-resourceType=\"TyndaleBibleDictionary\">خيمة الاجتماع؛</span> <span data-bnType=\"resourceReference\" data-resourceId=\"7950\" data-resourceType=\"TyndaleBibleDictionary\">الهيكل</span>.</p>",
@@ -11036,13 +11056,28 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Kohath",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قَهَات"
+},
+{
+"id": "group:Kohath",
+"type": "group",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kohathites"
+}
+]
 }
 },
 {
 "content_id": "490490",
 "reference_id": 5701,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قهَيْلَاتَة",
 "media_type": "Text",
 "index_reference": "قهَيْلَاتَة",
@@ -11063,9 +11098,9 @@
 {
 "id": "place:Kehelathah",
 "type": "place",
-"preferred_label": "قهَيْلَاتَةَ",
-"confidence": 0.982,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قهَيْلَاتَةَ"
 }
 ]
 }
@@ -11073,7 +11108,7 @@
 {
 "content_id": "443851",
 "reference_id": 5812,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قُورَح",
 "media_type": "Text",
 "index_reference": "قُورَح",
@@ -11218,16 +11253,52 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Korah.2",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قورَحَ"
+},
+{
+"id": "person:Korah.3",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قورَحَ"
+},
+{
+"id": "person:Korah.4",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قورَحَ"
+},
+{
+"id": "person:Korah",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قورَحَ"
+},
+{
+"id": "group:Korah",
+"type": "group",
+"confidence": 0.6074,
+"match_method": "scored",
+"preferred_label": "Korahites"
+}
+]
 }
 },
 {
 "content_id": "490503",
 "reference_id": 5811,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قورحي، بنو قورح",
 "media_type": "Text",
-"index_reference": "قورحي، بنو قورح",
+"index_reference": "قورحي بنو قورح",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>قورحي، بنو قورح*</h1><p>عضو من سبط لَّاوِي، من عشيرة قَهَات (<a href=\"https://ref.ly/Exod6:18,Exod6:21\">خروج 6:18، 21</a>). كان جِدهم الأكبر اليِصْهَارِيِّينَ عضوًا في العائلة الكهنوتية وكان مرتبطًا بموسَى وهَارون. انتهى التمرد الذي قاده قورَح، ودَاثَان، وبِأَبِيرَام ضد موسَى وهَارون بموت العديد من أفراد عائلة قورَح (<a href=\"https://ref.ly/Num16:31-Num16:35\">عدد 16:31–35</a>). لم ينج سوى أولئك الذين لم يشاركوا في هذا التمرّد (آية <a href=\"https://ref.ly/Num16:11\">11</a>). واستقروا حول حَبْرون في مُدُن اللاويين (<a href=\"https://ref.ly/Num26:58\">26:58</a>).</p><p>كان بنو قورح معروفين كمغنين في الهيكل، وفقًا لعناوين <a href=\"https://ref.ly/Ps42:1-Ps42:11\">المزامير 42</a>، و<a href=\"https://ref.ly/Ps44:1-Ps49:20\">44–49</a>، و<a href=\"https://ref.ly/Ps84:1-Ps85:13\">84–85</a>، و<a href=\"https://ref.ly/Ps87:1-Ps88:18\">87–88</a>. وضعهم دَاود في مسؤولية الخدمة الموسيقية في بيت الله بعد أن أُحضر التابوت إلى أورشَلِيم (<a href=\"https://ref.ly/1Chr6:31-1Chr6:33\">1&nbsp;أخبار الأيام 6:31–33</a>). كما عملوا كحراس للأبواب (<a href=\"https://ref.ly/1Chr9:19\">9:19</a>؛ <a href=\"https://ref.ly/1Chr26:19\">26:19</a>) وخبازين لخبز التقدمة (<a href=\"https://ref.ly/1Chr9:31\">9:31</a>).ويُذكرون كمغنين خلال الاحتفال بانتصار يَهوشَافَاط على ٱلْعَمّونِيِّينَ وموآب (<a href=\"https://ref.ly/2Chr20:19\">2&nbsp;أخبار الأيام 20:19</a>).</p><p><strong>انظر أيضًا</strong> <span data-bnType=\"resourceReference\" data-resourceId=\"5812\" data-resourceType=\"TyndaleBibleDictionary\">قورَح #3</span>.</p>",
@@ -11333,7 +11404,7 @@
 {
 "content_id": "511281",
 "reference_id": 5814,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قورِي",
 "media_type": "Text",
 "index_reference": "قورِي",
@@ -11378,18 +11449,25 @@
 ],
 "acai": [
 {
-"id": "person:Kore",
-"type": "person",
-"preferred_label": "قورِي",
-"confidence": 0.8,
-"match_method": "scored"
-},
-{
 "id": "person:Kore.2",
 "type": "person",
-"preferred_label": "قورِي",
-"confidence": 0.7,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قورِي"
+},
+{
+"id": "person:Kore",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قورِي"
+},
+{
+"id": "group:Korah",
+"type": "group",
+"confidence": 0.75,
+"match_method": "scored",
+"preferred_label": "Korahites"
 }
 ]
 }
@@ -11397,7 +11475,7 @@
 {
 "content_id": "509854",
 "reference_id": 3487,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قوس",
 "media_type": "Text",
 "index_reference": "قوس",
@@ -11415,13 +11493,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Bow",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Bow"
+}
+]
 }
 },
 {
 "content_id": "443973",
 "reference_id": 7081,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَوسُ قُزَح",
 "media_type": "Text",
 "index_reference": "قَوسُ قُزَح",
@@ -11464,7 +11550,7 @@
 {
 "content_id": "511287",
 "reference_id": 5820,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قُوشِيَّا",
 "media_type": "Text",
 "index_reference": "قُوشِيَّا",
@@ -11489,13 +11575,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Kishi",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kishi"
+}
+]
 }
 },
 {
 "content_id": "511284",
 "reference_id": 5817,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قوص",
 "media_type": "Text",
 "index_reference": "قوص",
@@ -11548,9 +11642,23 @@
 {
 "id": "person:Koz",
 "type": "person",
-"preferred_label": "قوص",
-"confidence": 0.68,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قوص"
+},
+{
+"id": "person:Hakkoz.3",
+"type": "person",
+"confidence": 0.76,
+"match_method": "scored",
+"preferred_label": "هَقّوصَ"
+},
+{
+"id": "person:Hakkoz.2",
+"type": "person",
+"confidence": 0.76,
+"match_method": "scored",
+"preferred_label": "هَقّوصَ"
 }
 ]
 }
@@ -11558,7 +11666,7 @@
 {
 "content_id": "510066",
 "reference_id": 3848,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قُوص",
 "media_type": "Text",
 "index_reference": "قُوص",
@@ -11587,9 +11695,9 @@
 {
 "id": "person:Koz",
 "type": "person",
-"preferred_label": "قوص",
-"confidence": 0.937,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "قوص"
 }
 ]
 }
@@ -11597,7 +11705,7 @@
 {
 "content_id": "511275",
 "reference_id": 5804,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قوع",
 "media_type": "Text",
 "index_reference": "قوع",
@@ -11618,9 +11726,9 @@
 {
 "id": "place:Koa",
 "type": "place",
-"preferred_label": "قوعَ",
-"confidence": 0.937,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قوعَ"
 }
 ]
 }
@@ -11628,7 +11736,7 @@
 {
 "content_id": "490299",
 "reference_id": 3606,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قُوقُ",
 "media_type": "Text",
 "index_reference": "قُوقُ",
@@ -11659,16 +11767,24 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "fauna:Vulture",
+"type": "fauna",
+"confidence": 0.688,
+"match_method": "scored",
+"preferred_label": "Vulture"
+}
+]
 }
 },
 {
 "content_id": "124473",
 "reference_id": 2840,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قول حكمة*",
 "media_type": "Text",
-"index_reference": "قول حكمة*",
+"index_reference": "قول حكمة",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>قول حكمة*</h1><p>قول سديد مقتضب. بحسب ما يقصد به بعض علماء الكتاب المُقدَّس، يشير مصطلح &quot;قول حكمة-apothegm&quot; إلى قصص قصيرة في الأناجيل تُختتم بقول من الرب يسوع (على سبيل المثال، <a href=\"https://ref.ly/Matt8:18-Matt8:22\">مَتَّى ٨: ١٨–٢٢</a>؛ <a href=\"https://ref.ly/Matt9:10-Matt9:13\">٩: ١٠–١٣؛</a> <a href=\"https://ref.ly/Matt16:1-Matt16:4\">١٦: ١–٤</a>؛ <a href=\"https://ref.ly/Mark2:18-Mark2:22\">مرقس ٢: ١٨–٢٢</a>؛ <a href=\"https://ref.ly/Mark10:13-Mark10:15\">١٠: ١٣–١٥</a>؛ <a href=\"https://ref.ly/Luke6:1-Luke6:5\">لوقا ٦: ١–٥</a>؛<a href=\"https://ref.ly/Luke11:37-Luke11:44\">١١: ٣٧–٤٤</a>). تُعرف أيضًا باسم &quot;القصص البَيِّنَةُ&quot;، أي أقوال حكمة تخلو من المؤثرات التاريخية الأكبر لكن تحوي تفاصيل كافية لجعل قول الرب يسوع مُفهومًا ومدركًا. وبسبب أن مثل هذه القصص كانت تُستخدَم في العبادة، وفي تعليم المسيحيين الجُدد، وفي تصحيح التعاليم الكاذبة، فقد حملت أهمية كبيرة للكنيسة الأولى.</p>",
@@ -11724,10 +11840,10 @@
 {
 "content_id": "331913",
 "reference_id": 6679,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قول، وحي",
 "media_type": "Text",
-"index_reference": "قول، وحي",
+"index_reference": "قول وحي",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>قول، وحي</h1><p>إعلانٌ إلهيٌّ يُعطَى من خلال شخصٍ متحدِّث باسم الله (نبي، أو كاهن، أو ملك)، وهو في المعتاد إعلانٌ ينطق ببركة، أو تعليم، أو دينونة. فخلافًا لطلب بالاق من بلعام أن يَلعَن شعب إسرائيل، نطق بلعام بوحي بركةٍ على إسرائيل (<a href=\"https://ref.ly/Num24:3-Num24:16\">عدد 24:3–16</a>). وأعطى الله موسى &quot;أقوالًا حيَّة&quot; (<a href=\"https://ref.ly/Acts7:38\">أعمال الرسل 7:38</a>). كما ائتمن الله الشعب اليهودي على أقواله (<a href=\"https://ref.ly/Rom3:2\">رومية 3:2</a>). ويسجل سفر الأمثال اثنين من أقوال الحكمة، وهما وحي أجور <span>ٱبْنِ مُتَّقِيَةِ مَسَّا</span> (<a href=\"https://ref.ly/Prov30:1\">أمثال 30:1</a>)، وكلام لموئيل الملك  (<a href=\"https://ref.ly/Prov31:1\">31:1</a>). ونُطِق بوحي (أقوال) دينونة ضد الملك يهورام ملك إسرائيل (<a href=\"https://ref.ly/2Kgs9:25\">2ملوك 9:25</a>) والملك يوآش ملك يهوذا (<a href=\"https://ref.ly/2Chr24:27\">2 أخبار الأيام 24:27</a>). وكان الأنبياء ينطقون عادة بوحيٍ على الأمم الشريرة. فقد نَطَق إشعياء بوحيٍ ضد بابل (<a href=\"https://ref.ly/Isa13:1\">إشعياء 13:1؛</a> <a href=\"https://ref.ly/Isa21:1\">21:1</a>)، ودمشق (<a href=\"https://ref.ly/Isa17:1\">17:1</a>)، ومصر (<a href=\"https://ref.ly/Isa19:1\">19:1</a>)، وأورشليم (<a href=\"https://ref.ly/Isa22:1\">22:1</a>)، وموآب (<a href=\"https://ref.ly/Isa15:1\">15:1</a>)، وفلسطين (<a href=\"https://ref.ly/Isa14:28\">14:28</a>)، وصور (<a href=\"https://ref.ly/Isa23:1\">23:1</a>). ونطق ناحوم بوحي على نينوى (<a href=\"https://ref.ly/Nah1:1\">ناحوم 1:1</a>)؛ وحبقوق نطق بوحي ضد يهوذا (<a href=\"https://ref.ly/Hab1:1\">حبقوق 1:1</a>)؛ وملاخي نطق بوحي ضد إسرائيل (<a href=\"https://ref.ly/Mal1:1\">ملاخي 1:1</a>). وفي بعض الأحيان، كان الأنبياء الكذبة ينطقون بوحي كاذب ومضلِّل (<a href=\"https://ref.ly/Lam2:14\">مراثي 2:14</a>).</p><p>انظر أيضًا <span data-bnType=\"resourceReference\" data-resourceId=\"6998\" data-resourceType=\"TyndaleBibleDictionary\">النبوة</span>.</p>",
@@ -11857,13 +11973,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Utterance",
+"type": "keyterm",
+"confidence": 0.8,
+"match_method": "scored",
+"preferred_label": "Utterance"
+}
+]
 }
 },
 {
 "content_id": "511278",
 "reference_id": 5808,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قولَايَا",
 "media_type": "Text",
 "index_reference": "قولَايَا",
@@ -11888,18 +12012,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Kolaiah",
-"type": "person",
-"preferred_label": "قولَايَا",
-"confidence": 0.8,
-"match_method": "scored"
-},
-{
 "id": "person:Kolaiah.2",
 "type": "person",
-"preferred_label": "قولَايَا",
-"confidence": 0.8,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قولَايَا"
+},
+{
+"id": "person:Kolaiah",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قولَايَا"
 }
 ]
 }
@@ -11907,7 +12031,7 @@
 {
 "content_id": "511979",
 "reference_id": 7046,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قوهلث",
 "media_type": "Text",
 "index_reference": "قوهلث",
@@ -11931,7 +12055,7 @@
 {
 "content_id": "232560",
 "reference_id": 3549,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قيافا",
 "media_type": "Text",
 "index_reference": "قيافا",
@@ -12008,13 +12132,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Caiaphas",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قَيَافَا"
+}
+]
 }
 },
 {
 "content_id": "510653",
 "reference_id": 4849,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قيثارة",
 "media_type": "Text",
 "index_reference": "قيثارة",
@@ -12038,7 +12170,7 @@
 {
 "content_id": "512814",
 "reference_id": 8412,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قيثارة",
 "media_type": "Text",
 "index_reference": "قيثارة",
@@ -12062,10 +12194,10 @@
 {
 "content_id": "490282",
 "reference_id": 3464,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قيد، عبودية",
 "media_type": "Text",
-"index_reference": "قيد، عبودية",
+"index_reference": "قيد عبودية",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>قيد، عبودية</h1><p>القيد أو العبودية تعني أن شخص ما أو شيء يقيدك أو يتحكم بك. عندما يكون شخص ما في العبودية، يفقد حريته. الكلمات العبرية واليونانية المترجمة إلى &quot;قيد&quot; أو &quot;عبودية&quot; تعني &quot;فقدان الحرية&quot;. هذه الفكرة مرتبطة بخدمة أو أن تكون عبداً لشخص آخر.</p><h2>العبودية في العهد القديم</h2><p>يستخدم العهد القديم عدة كلمات للعبودية لوصف الفترات التي كان فيها الإسرائيليون عبيدًا. يشمل ذلك الفترة في مِصْرَ وكذلك بَابِلَ وفَارِسَ. تستخدم بعض النسخ الإنجليزية من الكتاب المقدس كلمة &quot;قيد&quot; لوصف حالة العبودية الفردية. أحد الأمثلة هو القوانين التي أعطاها موسَى التي تسمح للشخص باختيار أن يصبح عبدًا (<a href=\"https://ref.ly/Lev25:39-Lev25:44\">لاويين 25:39–44</a>). يُستخدم المصطلح القديم &quot;أَمة&quot; لوصف عشيقة أو زوجة ثانوية. كما يُستخدم مفهوم العبودية لوصف السيطرة التي يمتلكها ٱللهِ على أمم العالم (<a href=\"https://ref.ly/Ps2:3\">مزمور 2:3</a>).</p><h2>العبودية في العهد الجديد</h2><p>في العهد الجديد، يُستخدم مصطلح العبودية كاستعارة تحمل جوانب إيجابية وسلبية. سلبياً، يشير إلى الخضوع الروحي لـ:</p><ul><li><p>الخطيئة أو ٱلشَّيْطَان (<a href=\"https://ref.ly/Heb2:14-Heb2:15\">العبرانيين 2:14–15؛</a> <a href=\"https://ref.ly/2Pet2:19\">2&nbsp;بطرس 2:19</a>)،</p></li><li><p>الجسد (<a href=\"https://ref.ly/Rom8:12-Rom8:14\">رومية 8:12–14</a>)،</p></li><li><p>الناموس (<a href=\"https://ref.ly/Gal2:4\">غلاطية 2:4؛</a> <a href=\"https://ref.ly/Gal5:1\">5:1</a>).</p></li></ul><p>يصبح البشر عبيدًا عندما تتحكم القوى المعادية في أفعالهم. يوضح الرسول بولسَ أيضًا فكرة العبودية في كيفية خضوع الخليقة للتحلل الجسدي (<a href=\"https://ref.ly/Rom8:21\">رومية 8:21</a>). هذا هو نتيجة الخطية البشرية.</p><h2>أفكار إيجابية حول العبودية</h2><p>بشكل إيجابي، يشير استخدام مصطلح العبودية في الكتاب المقدس إلى أن تكون خادمًا. هذا صحيح بشكل خاص عند وصف الخدمة لله كالتزام أو نذر (<a href=\"https://ref.ly/Num30:2-Num30:15\">عدد 30:2–15؛</a> <a href=\"https://ref.ly/Ezek20:37\">حِزْقِيَالَ 20:37</a>). يمكن أن تمثل العبودية أيضًا ضرورة وقيمة المعاناة (<a href=\"https://ref.ly/Heb10:34\">عبرانيين 10:34؛</a> <a href=\"https://ref.ly/Heb13:3\">13:3</a>). يستخدم الرسول بولس هذا المصطلح بطريقتين عندما يصف نفسه بأنه &quot;أسير المسيح&quot;. يقول هذا ليظهر العلاقة بين قيوده الجسدية وعبوديته الروحية للمسيح (<a href=\"https://ref.ly/Eph3:1\">أفسس 3:1؛</a> <a href=\"https://ref.ly/Phil1:7-Phil1:14\">فيلبي 1:7–14؛</a> <a href=\"https://ref.ly/2Tim1:8\">2&nbsp;تيموثاوس 1:8؛</a> <a href=\"https://ref.ly/2Tim2:9\">2:9؛</a> <a href=\"https://ref.ly/Phlm1:9-Phlm1:10,Phlm1:13\">إلى 1:9–10، 13</a>).</p><p><strong>انظر أيضًا</strong> <span data-bnType=\"resourceReference\" data-resourceId=\"7709\" data-resourceType=\"TyndaleBibleDictionary\">عبد، عبودية</span>.</p>",
@@ -12195,7 +12327,7 @@
 {
 "content_id": "443832",
 "reference_id": 5696,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قِيدَار",
 "media_type": "Text",
 "index_reference": "قِيدَار",
@@ -12288,9 +12420,9 @@
 {
 "id": "person:Kedar",
 "type": "person",
-"preferred_label": "قِيدَارَ",
-"confidence": 0.7685,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قِيدَارَ"
 }
 ]
 }
@@ -12298,7 +12430,7 @@
 {
 "content_id": "511264",
 "reference_id": 5786,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قِير",
 "media_type": "Text",
 "index_reference": "قِير",
@@ -12351,13 +12483,28 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Kir.2",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kir"
+},
+{
+"id": "place:Kir",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "إِلَى"
+}
+]
 }
 },
 {
 "content_id": "511251",
 "reference_id": 5767,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قِير حَارِسَة",
 "media_type": "Text",
 "index_reference": "قِير حَارِسَة",
@@ -12375,13 +12522,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Kir-hareseth",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kir-hareseth"
+}
+]
 }
 },
 {
 "content_id": "511230",
 "reference_id": 5728,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قِيرُوس",
 "media_type": "Text",
 "index_reference": "قِيرُوس",
@@ -12408,9 +12563,9 @@
 {
 "id": "person:Keros",
 "type": "person",
-"preferred_label": "قِيروسَ",
-"confidence": 0.937,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قِيروسَ"
 }
 ]
 }
@@ -12418,7 +12573,7 @@
 {
 "content_id": "331870",
 "reference_id": 5790,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَيْس",
 "media_type": "Text",
 "index_reference": "قَيْس",
@@ -12503,32 +12658,32 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Kish",
-"type": "person",
-"preferred_label": "قَيْس",
-"confidence": 0.8154,
-"match_method": "scored"
-},
-{
 "id": "person:Kish.2",
 "type": "person",
-"preferred_label": "قَيْس",
-"confidence": 0.6923,
-"match_method": "scored"
-},
-{
-"id": "person:Kish.4",
-"type": "person",
-"preferred_label": "قَيْس",
-"confidence": 0.6308,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قَيْس"
 },
 {
 "id": "person:Kish.3",
 "type": "person",
-"preferred_label": "قَيْس",
-"confidence": 0.6308,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قَيْس"
+},
+{
+"id": "person:Kish.4",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قَيْس"
+},
+{
+"id": "person:Kish",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قَيْس"
 }
 ]
 }
@@ -12536,10 +12691,10 @@
 {
 "content_id": "331769",
 "reference_id": 3736,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قيس، سَيس",
 "media_type": "Text",
-"index_reference": "قيس، سَيس",
+"index_reference": "قيس سَيس",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>قيس، أو سَيس*</h1><p>التهجئة التي استخدمتها ترجمة الملك جيمس الإنجليزية (KJV) للاسم قيس في <a href=\"https://ref.ly/Acts13:21\">أعمال الرسل 13:21</a>. وهو أبو  شاول الملك. انظر <span data-bnType=\"resourceReference\" data-resourceId=\"5790\" data-resourceType=\"TyndaleBibleDictionary\">قيس #1</span>.</p>",
@@ -12565,23 +12720,9 @@
 {
 "id": "person:Kish",
 "type": "person",
-"preferred_label": "قَيْس",
-"confidence": 0.8965,
-"match_method": "scored"
-},
-{
-"id": "group:Benjamin",
-"type": "group",
-"preferred_label": "بَنْيَامِينَ",
-"confidence": 0.589,
-"match_method": "scored"
-},
-{
-"id": "person:Benjamin",
-"type": "person",
-"preferred_label": "بَنْيَامِينَ",
-"confidence": 0.589,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "قَيْس"
 }
 ]
 }
@@ -12589,7 +12730,7 @@
 {
 "content_id": "511267",
 "reference_id": 5789,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قِيشُون",
 "media_type": "Text",
 "index_reference": "قِيشُون",
@@ -12642,9 +12783,16 @@
 {
 "id": "place:Kishon",
 "type": "place",
-"preferred_label": "قِيشونَ",
-"confidence": 0.5715,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قِيشونَ"
+},
+{
+"id": "place:Kishion",
+"type": "place",
+"confidence": 0.6069,
+"match_method": "scored",
+"preferred_label": "قِشْيونَ"
 }
 ]
 }
@@ -12652,7 +12800,7 @@
 {
 "content_id": "511266",
 "reference_id": 5788,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قِيشِي",
 "media_type": "Text",
 "index_reference": "قِيشِي",
@@ -12675,13 +12823,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Kishi",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kishi"
+}
+]
 }
 },
 {
 "content_id": "331752",
 "reference_id": 3546,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَيْصَرِيَّة",
 "media_type": "Text",
 "index_reference": "قَيْصَرِيَّة",
@@ -12760,11 +12916,18 @@
 "resource": [],
 "acai": [
 {
+"id": "place:Caesarea.2",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Caesarea"
+},
+{
 "id": "place:Caesarea",
 "type": "place",
-"preferred_label": "قَيْصَرِيَّةَ",
-"confidence": 0.605,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قَيْصَرِيَّةَ"
 }
 ]
 }
@@ -12772,7 +12935,7 @@
 {
 "content_id": "159096",
 "reference_id": 3545,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قيصرية فيلبي",
 "media_type": "Text",
 "index_reference": "قيصرية فيلبي",
@@ -12795,16 +12958,24 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:CaesareaPhilippi",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قَيْصَرِيَّةِ"
+}
+]
 }
 },
 {
 "content_id": "335210",
 "reference_id": 3550,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قينان (قاينان)",
 "media_type": "Text",
-"index_reference": "قينان (قاينان)",
+"index_reference": "قينان قاينان",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>قينان (قاينان)</h1><p>1. ابن أرفكشاد (<a href=\"https://ref.ly/Luke3:36\">لوقا 3: 36</a>؛ <a href=\"https://ref.ly/Gen10:24\">تكوين 10: 24</a>، السبعينية؛ <a href=\"https://ref.ly/Gen11:12-Gen11:13\">11: 12–13</a>).</p><p>2. حفيد آدم الأكبر، يُدعى أيضًا قينان (<a href=\"https://ref.ly/Gen5:9-Gen5:14\">تكوين 5:9–14</a>; <a href=\"https://ref.ly/1Chr1:2\">1&nbsp;أخبار 1:2</a>; <a href=\"https://ref.ly/Luke3:37\">لوقا 3:37</a>). <em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"5714\" data-resourceType=\"TyndaleBibleDictionary\">قينان</span>.</p>",
@@ -12856,16 +13027,31 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Kenan",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قِينَانَ"
+},
+{
+"id": "person:Cainan",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قِينَانَ"
+}
+]
 }
 },
 {
 "content_id": "335354",
 "reference_id": 5714,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قينان (كينان)",
 "media_type": "Text",
-"index_reference": "قينان (كينان)",
+"index_reference": "قينان كينان",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>قينان (كينان)</h1><p>الجيل الرابع من نسل آدم (<a href=\"https://ref.ly/Gen5:9-Gen5:14\">تك 5:9–14</a>; <a href=\"https://ref.ly/1Chr1:2\">1&nbsp;أخ 1:2</a>); يُطلق عليه أيضًا اسم قينان في نسب المسيح في إنجيل لوقا (<a href=\"https://ref.ly/Luke3:37\">لو 3:37</a>). <em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4580\" data-resourceType=\"TyndaleBibleDictionary\">سلسلة نسب يسوع المسيح</span>.</p>",
@@ -12899,13 +13085,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Kenan",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قِينَانَ"
+}
+]
 }
 },
 {
 "content_id": "511247",
 "reference_id": 5753,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قَيْنَة",
 "media_type": "Text",
 "index_reference": "قَيْنَة",
@@ -12932,9 +13126,9 @@
 {
 "id": "place:Kinah",
 "type": "place",
-"preferred_label": "قَيْنَةَ",
-"confidence": 0.7685,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "قَيْنَةَ"
 }
 ]
 }
@@ -12942,7 +13136,7 @@
 {
 "content_id": "443837",
 "reference_id": 5718,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "قِينِيُّون",
 "media_type": "Text",
 "index_reference": "قِينِيُّون",
@@ -13021,11 +13215,11 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Ethiopia",
-"type": "place",
-"preferred_label": "كوشِيِّينَ",
-"confidence": 0.8222,
-"match_method": "embedding"
+"id": "group:Kenite",
+"type": "group",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kenites"
 }
 ]
 }

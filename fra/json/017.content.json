@@ -2,7 +2,7 @@
 {
 "content_id": "390343",
 "reference_id": 7054,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Quirinius",
 "media_type": "Text",
 "index_reference": "quirinius",
@@ -50,9 +50,9 @@
 {
 "id": "person:Quirinius",
 "type": "person",
-"preferred_label": "Quirinius",
-"confidence": 0.7333,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Quirinius"
 }
 ]
 }
@@ -60,7 +60,7 @@
 {
 "content_id": "840235",
 "reference_id": 7055,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Qumran",
 "media_type": "Text",
 "index_reference": "qumran",
@@ -83,15 +83,7 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "place:Qumran",
-"type": "place",
-"preferred_label": "Qumran",
-"confidence": 1.0,
-"match_method": "embedding"
-}
-]
+"acai": []
 }
 }
 ]

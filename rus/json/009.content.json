@@ -2,7 +2,7 @@
 {
 "content_id": "124422",
 "reference_id": 3220,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Красота",
 "media_type": "Text",
 "index_reference": "красота",
@@ -223,7 +223,7 @@
 {
 "content_id": "124421",
 "reference_id": 3165,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Крещение",
 "media_type": "Text",
 "index_reference": "крещение",
@@ -480,13 +480,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Baptism",
+"type": "keyterm",
+"confidence": 0.746,
+"match_method": "scored",
+"preferred_label": "Baptism"
+}
+]
 }
 },
 {
 "content_id": "124428",
 "reference_id": 3859,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Крит",
 "media_type": "Text",
 "index_reference": "крит",
@@ -537,9 +545,16 @@
 {
 "id": "place:Crete",
 "type": "place",
-"preferred_label": "Крит",
-"confidence": 0.8,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Крит"
+},
+{
+"id": "group:Cretan",
+"type": "group",
+"confidence": 0.6667,
+"match_method": "scored",
+"preferred_label": "критянин"
 }
 ]
 }
@@ -547,7 +562,7 @@
 {
 "content_id": "124434",
 "reference_id": 4589,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Кротость",
 "media_type": "Text",
 "index_reference": "кротость",

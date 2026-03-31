@@ -2,7 +2,7 @@
 {
 "content_id": "510433",
 "reference_id": 4506,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "الذباب المزعج",
 "media_type": "Text",
 "index_reference": "الذباب المزعج",
@@ -27,13 +27,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "fauna:Gadfly",
+"type": "fauna",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Gadfly"
+}
+]
 }
 },
 {
 "content_id": "510358",
 "reference_id": 4359,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "الذبيحة المسائية",
 "media_type": "Text",
 "index_reference": "الذبيحة المسائية",
@@ -57,7 +65,7 @@
 {
 "content_id": "510056",
 "reference_id": 3827,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "الذرة",
 "media_type": "Text",
 "index_reference": "الذرة",
@@ -82,21 +90,13 @@
 "language": "arb"
 }
 ],
-"acai": [
-{
-"id": "flora:Wheat",
-"type": "flora",
-"preferred_label": "Wheat",
-"confidence": 0.8109,
-"match_method": "embedding"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "512715",
 "reference_id": 8253,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ذِئْب",
 "media_type": "Text",
 "index_reference": "ذِئْب",
@@ -123,11 +123,11 @@
 ],
 "acai": [
 {
-"id": "person:Ashvath",
-"type": "person",
-"preferred_label": "عَشْة",
-"confidence": 0.8102,
-"match_method": "embedding"
+"id": "fauna:Wolf",
+"type": "fauna",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Wolf"
 }
 ]
 }
@@ -135,7 +135,7 @@
 {
 "content_id": "512768",
 "reference_id": 8339,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ذِئْبٌ",
 "media_type": "Text",
 "index_reference": "ذِئْبٌ",
@@ -154,46 +154,11 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Geshem",
+"id": "person:Zeeb",
 "type": "person",
-"preferred_label": "جَشَمٌ",
-"confidence": 0.8322,
-"match_method": "embedding"
-},
-{
-"id": "person:Shepho",
-"type": "person",
-"preferred_label": "شَفْوٌ",
-"confidence": 0.8272,
-"match_method": "embedding"
-},
-{
-"id": "person:Bela",
-"type": "person",
-"preferred_label": "بَالَع",
-"confidence": 0.8169,
-"match_method": "embedding"
-},
-{
-"id": "person:Bela.2",
-"type": "person",
-"preferred_label": "بَالَع",
-"confidence": 0.8169,
-"match_method": "embedding"
-},
-{
-"id": "person:Bela.3",
-"type": "person",
-"preferred_label": "بَالَع",
-"confidence": 0.8169,
-"match_method": "embedding"
-},
-{
-"id": "place:Zior",
-"type": "place",
-"preferred_label": "صِيعور",
-"confidence": 0.8033,
-"match_method": "embedding"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "ذِئْبًا"
 }
 ]
 }
@@ -201,7 +166,7 @@
 {
 "content_id": "510410",
 "reference_id": 4452,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ذباب",
 "media_type": "Text",
 "index_reference": "ذباب",
@@ -232,13 +197,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "fauna:Fly",
+"type": "fauna",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Fly"
+}
+]
 }
 },
 {
 "content_id": "512102",
 "reference_id": 7258,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ذبيحة",
 "media_type": "Text",
 "index_reference": "ذبيحة",
@@ -269,7 +242,7 @@
 {
 "content_id": "510559",
 "reference_id": 4715,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ذبيحة الإثم",
 "media_type": "Text",
 "index_reference": "ذبيحة الإثم",
@@ -293,7 +266,7 @@
 {
 "content_id": "512611",
 "reference_id": 8088,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ذبيحة الإثم",
 "media_type": "Text",
 "index_reference": "ذبيحة الإثم",
@@ -317,7 +290,7 @@
 {
 "content_id": "510880",
 "reference_id": 5199,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ذبيحة التنصيب والتكريس",
 "media_type": "Text",
 "index_reference": "ذبيحة التنصيب والتكريس",
@@ -341,7 +314,7 @@
 {
 "content_id": "512371",
 "reference_id": 7687,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ذَبِيحَةِ الْخَطِيَّةِ",
 "media_type": "Text",
 "index_reference": "ذَبِيحَةِ الْخَطِيَّةِ",
@@ -365,7 +338,7 @@
 {
 "content_id": "512544",
 "reference_id": 7973,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ذبيحة السلامة",
 "media_type": "Text",
 "index_reference": "ذبيحة السلامة",
@@ -389,7 +362,7 @@
 {
 "content_id": "511847",
 "reference_id": 6787,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ذبيحةُ السلامة",
 "media_type": "Text",
 "index_reference": "ذبيحةُ السلامة",
@@ -413,7 +386,7 @@
 {
 "content_id": "490291",
 "reference_id": 3533,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ذبيحة المحرقة",
 "media_type": "Text",
 "index_reference": "ذبيحة المحرقة",
@@ -444,7 +417,7 @@
 {
 "content_id": "510078",
 "reference_id": 3871,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ذراع",
 "media_type": "Text",
 "index_reference": "ذراع",
@@ -462,13 +435,28 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Cubit.2",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Cubit"
+},
+{
+"id": "realia:Cubit",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Cubit"
+}
+]
 }
 },
 {
 "content_id": "512430",
 "reference_id": 7784,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ذَكَر الأيّل",
 "media_type": "Text",
 "index_reference": "ذَكَر الأيّل",
@@ -499,7 +487,7 @@
 {
 "content_id": "510538",
 "reference_id": 4674,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ذهب",
 "media_type": "Text",
 "index_reference": "ذهب",
@@ -537,10 +525,10 @@
 {
 "content_id": "510537",
 "reference_id": 4672,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ذهبي، العِجل الـ",
 "media_type": "Text",
-"index_reference": "ذهبي، العِجل الـ",
+"index_reference": "ذهبي العِجل الـ",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>ذهبي، العِجل الـ</h1><p><em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3560\" data-resourceType=\"TyndaleBibleDictionary\">العِجل الذهبي. </span></p>",
@@ -561,10 +549,10 @@
 {
 "content_id": "511683",
 "reference_id": 6509,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ذَوَاتِ ٱلْأَوْتَارِ (نيجينه، نيجينوث)",
 "media_type": "Text",
-"index_reference": "ذَوَاتِ ٱلْأَوْتَارِ (نيجينه، نيجينوث)",
+"index_reference": "ذَوَاتِ ٱلْأَوْتَارِ نيجينه نيجينوث",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>ذَوَاتِ ٱلْأَوْتَارِ (نيجينه، نيجينوث)</h1><p>المصطلحات العبرية المذكورة في عناوين <a href=\"https://ref.ly/Ps4:1-Ps4:8\">المزامير 4</a>، <a href=\"https://ref.ly/Ps6:1-Ps6:10\">6</a>، <a href=\"https://ref.ly/Ps54:1-Ps55:23\">54–55</a>، <a href=\"https://ref.ly/Ps61:1-Ps61:8\">61</a>، <a href=\"https://ref.ly/Ps67:1-Ps67:7\">67</a> و<a href=\"https://ref.ly/Ps76:1-Ps76:12\">76</a>؛ وهي إشارات موسيقية، تعني &quot;الآلات الوترية&quot;، تصف نوع من المصاحبة الموسيقية لأداء المزامير المحددة. <em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"6416\" data-resourceType=\"TyndaleBibleDictionary\">الموسيقى</span>.</p>",
@@ -622,10 +610,10 @@
 {
 "content_id": "511687",
 "reference_id": 6513,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ذَوَاتِ ٱلنَّفْخ (نهيلوث)",
 "media_type": "Text",
-"index_reference": "ذَوَاتِ ٱلنَّفْخ (نهيلوث)",
+"index_reference": "ذَوَاتِ ٱلنَّفْخ نهيلوث",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>ذَوَاتِ ٱلنَّفْخ (نهيلوث)</h1><p>المصطلح العبري في عنوان <a href=\"https://ref.ly/Ps5:1-Ps5:12\">المزمور 5</a>؛ وهي إشارة موسيقية تعني &quot;النايات&quot;، وتصف نوع المصاحبة الموسيقية لأداء المزمور. <em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"6416\" data-resourceType=\"TyndaleBibleDictionary\">الموسيقى</span>.</p>",
@@ -653,7 +641,7 @@
 {
 "content_id": "490337",
 "reference_id": 4040,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ذِي ذَهَب",
 "media_type": "Text",
 "index_reference": "ذِي ذَهَب",
@@ -670,29 +658,7 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "place:Hazeroth",
-"type": "place",
-"preferred_label": "حَضَيْروتَ",
-"confidence": 0.748,
-"match_method": "scored"
-},
-{
-"id": "place:Arabah",
-"type": "place",
-"preferred_label": "ٱلْعَرَبَةِ",
-"confidence": 0.6385,
-"match_method": "scored"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "إِسْرَائِيلَ",
-"confidence": 0.625,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 }
 ]

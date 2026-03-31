@@ -2,7 +2,7 @@
 {
 "content_id": "689573",
 "reference_id": 3984,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Jangwa",
 "media_type": "Text",
 "index_reference": "jangwa",
@@ -435,7 +435,7 @@
 {
 "content_id": "713704",
 "reference_id": 4957,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Jehanamu",
 "media_type": "Text",
 "index_reference": "jehanamu",
@@ -913,53 +913,18 @@
 ],
 "acai": [
 {
-"id": "person:Jeroham",
-"type": "person",
-"preferred_label": "Yerohamu",
-"confidence": 0.8021,
-"match_method": "embedding"
+"id": "place:Hell",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Hell"
 },
 {
-"id": "person:Jeroham.2",
-"type": "person",
-"preferred_label": "Yerohamu",
-"confidence": 0.8021,
-"match_method": "embedding"
-},
-{
-"id": "person:Jeroham.3",
-"type": "person",
-"preferred_label": "Yerohamu",
-"confidence": 0.8021,
-"match_method": "embedding"
-},
-{
-"id": "person:Jeroham.4",
-"type": "person",
-"preferred_label": "Yerohamu",
-"confidence": 0.8021,
-"match_method": "embedding"
-},
-{
-"id": "person:Jeroham.5",
-"type": "person",
-"preferred_label": "Yerohamu",
-"confidence": 0.8021,
-"match_method": "embedding"
-},
-{
-"id": "person:Jeroham.6",
-"type": "person",
-"preferred_label": "Yerohamu",
-"confidence": 0.8021,
-"match_method": "embedding"
-},
-{
-"id": "person:Jeroham.7",
-"type": "person",
-"preferred_label": "Yerohamu",
-"confidence": 0.8021,
-"match_method": "embedding"
+"id": "keyterm:Gehenna",
+"type": "keyterm",
+"confidence": 0.6265,
+"match_method": "scored",
+"preferred_label": "Gehenna"
 }
 ]
 }
@@ -967,7 +932,7 @@
 {
 "content_id": "811771",
 "reference_id": 7230,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Jiji la Rumi",
 "media_type": "Text",
 "index_reference": "jiji la rumi ",
@@ -1233,13 +1198,21 @@
 "language": "swh"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Rome",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Warumi"
+}
+]
 }
 },
 {
 "content_id": "811717",
 "reference_id": 3825,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Jiwe la Pembeni",
 "media_type": "Text",
 "index_reference": "jiwe la pembeni",
@@ -1334,13 +1307,28 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "realia:Cornerstone",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Cornerstone"
+},
+{
+"id": "realia:Foundation",
+"type": "realia",
+"confidence": 0.6571,
+"match_method": "scored",
+"preferred_label": "Foundation"
+}
+]
 }
 },
 {
 "content_id": "778892",
 "reference_id": 7822,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Jua",
 "media_type": "Text",
 "index_reference": "jua",
@@ -1529,10 +1517,10 @@
 {
 "content_id": "713714",
 "reference_id": 5648,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Juda (Mtu)",
 "media_type": "Text",
-"index_reference": "juda (mtu)",
+"index_reference": "juda mtu",
 "language": "swh",
 "review_level": "None",
 "content": "<h1>JUDA (Mtu)</h1><ol><li><p>Tahajia mbadala ya Yuda katika Toleo la King James. Yuda ni kaka yake Yesu katika <a href=\"https://ref.ly/Mark6:3\">Marko 6:3</a>. Yuda pia anajulikana kama Yuda katika <a href=\"https://ref.ly/Jude1:1-Jude1:25\">Yuda 1</a>. <em>Tazama </em><span data-bnType=\"resourceReference\" data-resourceId=\"5657\" data-resourceType=\"TyndaleBibleDictionary\">Yuda (Mtu)</span>.</p></li><li><p>Toleo mbadala la King James kuhusu tahajia ya Yuda, mwana wa Yohana, katika <a href=\"https://ref.ly/Luke3:26\">Luka 3:26</a>. <em>Tazama</em> <span data-bnType=\"resourceReference\" data-resourceId=\"5565\" data-resourceType=\"TyndaleBibleDictionary\">Yuda</span>.</p></li><li><p>Toleo mbadala la King James kuhusu tahajia la jina la Yuda, mwana wa Yosefu, katika <a href=\"https://ref.ly/Luke3:30\">Luka 3:30</a>. <em>Tazama</em> <span data-bnType=\"resourceReference\" data-resourceId=\"5644\" data-resourceType=\"TyndaleBibleDictionary\">Yuda (Mtu) #8</span>.</p></li><li><p>Toleo mbadala la King James kuhusu tahajia la Yuda, mwana wa Yakobo, katika <a href=\"https://ref.ly/Luke3:33\">Luka 3:33</a>. <em>Tazama</em> <span data-bnType=\"resourceReference\" data-resourceId=\"5644\" data-resourceType=\"TyndaleBibleDictionary\">Yuda (Mtu) #1</span>.</p></li><li><p>Toleo mbadala la King James kuhusu tahajia la kabila la Yuda (<a href=\"https://ref.ly/Heb7:14\">Waebrania 7:14</a>; <a href=\"https://ref.ly/Rev5:5\">Ufunuo 5:5</a>; <a href=\"https://ref.ly/Rev7:5\">7:5</a>). <em>Tazama</em> <span data-bnType=\"resourceReference\" data-resourceId=\"5645\" data-resourceType=\"TyndaleBibleDictionary\">Yuda, Kabila la</span>.</p></li></ol>",
@@ -1592,23 +1580,23 @@
 {
 "id": "person:Jude",
 "type": "person",
-"preferred_label": "Yuda",
 "confidence": 0.625,
-"match_method": "scored"
-},
-{
-"id": "person:Judah.3",
-"type": "person",
-"preferred_label": "Yuda",
-"confidence": 0.6125,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Yuda"
 },
 {
 "id": "person:Joda",
 "type": "person",
-"preferred_label": "Yuda",
 "confidence": 0.6125,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Yuda"
+},
+{
+"id": "person:Judah.3",
+"type": "person",
+"confidence": 0.6125,
+"match_method": "scored",
+"preferred_label": "Yuda"
 }
 ]
 }

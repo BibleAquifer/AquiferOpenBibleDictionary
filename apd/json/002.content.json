@@ -2,7 +2,7 @@
 {
 "content_id": "724662",
 "reference_id": 3717,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "المسيح",
 "media_type": "Text",
 "index_reference": "المسيح",
@@ -265,13 +265,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Jesus"
+}
+]
 }
 },
 {
 "content_id": "724661",
 "reference_id": 3165,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "المعمودية",
 "media_type": "Text",
 "index_reference": "المعمودية",
@@ -528,7 +536,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Baptism",
+"type": "keyterm",
+"confidence": 0.746,
+"match_method": "scored",
+"preferred_label": "Baptism"
+}
+]
 }
 }
 ]

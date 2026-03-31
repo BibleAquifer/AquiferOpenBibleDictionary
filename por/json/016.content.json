@@ -2,7 +2,7 @@
 {
 "content_id": "829569",
 "reference_id": 5584,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "O Apocalipse de João",
 "media_type": "Text",
 "index_reference": "o apocalipse de joão",
@@ -26,7 +26,7 @@
 {
 "content_id": "816134",
 "reference_id": 8210,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "O Caminho",
 "media_type": "Text",
 "index_reference": "o caminho",
@@ -79,13 +79,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:TheWay",
+"type": "keyterm",
+"confidence": 0.9429,
+"match_method": "scored",
+"preferred_label": "The Way"
+}
+]
 }
 },
 {
 "content_id": "716991",
 "reference_id": 3988,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "O destruidor",
 "media_type": "Text",
 "index_reference": "o destruidor",
@@ -156,7 +164,7 @@
 {
 "content_id": "816007",
 "reference_id": 5945,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "O dia do Senhor",
 "media_type": "Text",
 "index_reference": "o dia do senhor",
@@ -281,7 +289,7 @@
 {
 "content_id": "815946",
 "reference_id": 4123,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "O Egípcio",
 "media_type": "Text",
 "index_reference": "o egípcio",
@@ -302,16 +310,16 @@
 {
 "id": "place:Egypt",
 "type": "place",
-"preferred_label": "Egito",
-"confidence": 0.679,
-"match_method": "scored"
+"confidence": 0.76,
+"match_method": "scored",
+"preferred_label": "Egito"
 },
 {
 "id": "group:Egypt",
 "type": "group",
-"preferred_label": "Egyptians",
-"confidence": 0.6115,
-"match_method": "scored"
+"confidence": 0.742,
+"match_method": "scored",
+"preferred_label": "Egyptians"
 }
 ]
 }
@@ -319,7 +327,7 @@
 {
 "content_id": "760048",
 "reference_id": 8200,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "O livro das batalhas do Senhor Deus",
 "media_type": "Text",
 "index_reference": "o livro das batalhas do senhor deus",
@@ -372,7 +380,7 @@
 {
 "content_id": "828631",
 "reference_id": 4140,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "O livro de Elcasai",
 "media_type": "Text",
 "index_reference": "o livro de elcasai",
@@ -388,7 +396,7 @@
 {
 "content_id": "759781",
 "reference_id": 4703,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "O Mar Grande",
 "media_type": "Text",
 "index_reference": "o mar grande",
@@ -423,9 +431,9 @@
 {
 "id": "place:GreatSea",
 "type": "place",
-"preferred_label": "Mar Mediterrâneo",
-"confidence": 0.766,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "Mar Mediterrâneo"
 }
 ]
 }
@@ -433,7 +441,7 @@
 {
 "content_id": "759700",
 "reference_id": 3787,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "O novo mandamento",
 "media_type": "Text",
 "index_reference": "o novo mandamento",
@@ -747,7 +755,7 @@
 {
 "content_id": "830291",
 "reference_id": 6733,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "O Paltita",
 "media_type": "Text",
 "index_reference": "o paltita",
@@ -778,21 +786,13 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "group:Pelonites",
-"type": "group",
-"preferred_label": "Pelonites",
-"confidence": 0.8875,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "829746",
 "reference_id": 5865,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "O Perverso",
 "media_type": "Text",
 "index_reference": "o perverso",
@@ -823,7 +823,7 @@
 {
 "content_id": "717202",
 "reference_id": 6633,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oade",
 "media_type": "Text",
 "index_reference": "oade",
@@ -856,20 +856,161 @@
 {
 "id": "person:Ohad",
 "type": "person",
-"preferred_label": "Oade",
-"confidence": 0.76,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Oade"
 }
 ]
 }
 },
 {
+"content_id": "830220",
+"reference_id": 6617,
+"version": "1.0.4",
+"title": "Obadias, Livro de",
+"media_type": "Text",
+"index_reference": "obadias livro de",
+"language": "por",
+"review_level": "Professional",
+"content": "<h1>OBADIAS, Livro de</h1><p>O quarto livro dos profetas menores é o mais curto do Antigo Testamento.</p><p>Resumo</p><p>• Autor</p><p>• Contexto</p><p>• Conteúdo</p><p>• Significado teológico</p><h2>Autor</h2><p>Não sabemos muita coisa sobre Obadias, o profeta. A introdução no livro (<a href=\"https://ref.ly/Obad1:1\">Ob 1.1</a>) não menciona o nome de seu pai ou de onde ele é.</p><h2>Contexto</h2><p>Obadias provavelmente era de Judá, pois demonstra profunda preocupação com os edomitas invadindo sua terra durante a destruição de Judá (<a href=\"https://ref.ly/Obad1:12\">Ob 1.12</a>). Ele provavelmente teve sua visão sobre Edom (<a href=\"https://ref.ly/Obad1:1\">Ob 1.1</a>) pouco antes de Jerusalém cair e Nabucodonosor devastar Judá em 586 a.C. Embora não haja evidências certas, Nabucodonosor pode ter invadido Edom em 582 a.C. O rei babilônico Nabonido permaneceu em Teima por vários anos, e a cidade de Tell el Kheleifeh, perto do Golfo de Acaba, prosperou no início do século. No entanto, Edom declinou no século VI a.C. devido à interferência de parceiros comerciais na Arábia e no sul, como Teima e Dedã.</p><h2>Conteúdo</h2><p>O profeta anuncia a queda de Edom (<a href=\"https://ref.ly/Obad1:1-Obad1:4\">Ob 1.1–4</a>). Um grupo de tribos árabes próximas planejou atacar Edom, o que fortaleceu sua mensagem (<a href=\"https://ref.ly/Obad1:1\">Ob 1.1</a>). Essas tribos não perceberam que seu ataque a Edom fazia parte de um plano divino.</p><p>A destruição de Edom é anunciada (<a href=\"https://ref.ly/Obad1:2-Obad1:9\">Ob 1.2–9</a>) e sua queda é descrita (<a href=\"https://ref.ly/Obad1:2-Obad1:4\">Ob 1.2–4</a>). Edom, que parecia forte e segura em sua fortaleza rochosa na montanha (<a href=\"https://ref.ly/Obad1:3\">Ob 1.3</a>), seria humilhada (<a href=\"https://ref.ly/Obad1:4\">1.4</a>). A derrota de Edom seria total (<a href=\"https://ref.ly/Obad1:5-Obad1:6\">Ob 1.5–6</a>). Assim como ladrões e saqueadores atacam à noite, Edom seria despojada, com suas casas e vinhedos saqueados. Edom não receberia misericórdia, ao contrário de quando ladrões às vezes poupam uma casa. Até mesmo aliados trairiam Edom (<a href=\"https://ref.ly/Obad1:7\">Ob 1.7</a>), parceiros enganariam, e convidados armariam ciladas. Pegos de surpresa, Edom se tornaria uma presa fácil. No dia da ruína de Edom, os sábios pereceriam (<a href=\"https://ref.ly/Obad1:8\">Ob 1.8</a>) e os soldados seriam desmoralizados e mortos (<a href=\"https://ref.ly/Obad1:9\">Ob 1.9</a>).</p><p>Os erros de Edom são detalhados em <a href=\"https://ref.ly/Obad1:10-Obad1:15\">Obadias 1.10–15</a>. Edom mostrou hostilidade em relação a Judá quando os babilônios atacaram. Em vez de ajudar, Edom manteve-se distante e agiu como um inimigo. Pior, Edom celebrou a desgraça de Judá, zombou do povo e tomou suas propriedades. Edom colaborou com a Babilônia, bloqueando os refugiados de Judá de escaparem e entregando-os aos inimigos. Essas ações trariam consequências para Edom.</p><p>No Dia do Senhor (<a href=\"https://ref.ly/Obad1:15-Obad1:21\">Ob 1.15–21</a>), o culpado Edom enfrentaria o julgamento de Deus junto com todas as nações. Após o desastre que Jerusalém enfrentou em 586 a.C., outro dia viria. Esse dia traria justiça e julgamento a favor de Israel.</p><p>Em uma nota positiva, o remanescente de Judá (<a href=\"https://ref.ly/Obad1:17,Obad1:21\">Ob 1.17,21</a>) sobreviveria. O local sagrado, Monte Sião, seria restaurado. Os edomitas cairiam sob o controle do remanescente de Israel. Como um fogo, Israel consumiria os restos de Edom (<a href=\"https://ref.ly/Obad1:18\">Ob 1.18</a>) e recuperaria territórios perdidos (<a href=\"https://ref.ly/Obad1:19-Obad1:20\">Ob 1.19–20</a>).</p><h2>Significado teológico</h2><p>A profecia destaca o controle de Deus durante a perda de poder de Judá. Deus molda eventos no passado e no presente. No futuro, ele julgará os inimigos de Israel. Sião se tornará a orgulhosa capital de uma nação gloriosa, livre da influência pagã para sempre.</p><p><em>Veja também</em> <span data-bnType=\"resourceReference\" data-resourceId=\"5260\" data-resourceType=\"TyndaleBibleDictionary\">Israel, História de</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"6998\" data-resourceType=\"TyndaleBibleDictionary\">Profecia</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"6999\" data-resourceType=\"TyndaleBibleDictionary\">Profeta, Profetisa</span>.</p>",
+"associations": {
+"passage": [
+{
+"start_ref": "31001001",
+"start_ref_usfm": "OBA 1:1",
+"end_ref": "31001001",
+"end_ref_usfm": "OBA 1:1"
+},
+{
+"start_ref": "31001003",
+"start_ref_usfm": "OBA 1:3",
+"end_ref": "31001003",
+"end_ref_usfm": "OBA 1:3"
+},
+{
+"start_ref": "31001004",
+"start_ref_usfm": "OBA 1:4",
+"end_ref": "31001004",
+"end_ref_usfm": "OBA 1:4"
+},
+{
+"start_ref": "31001007",
+"start_ref_usfm": "OBA 1:7",
+"end_ref": "31001007",
+"end_ref_usfm": "OBA 1:7"
+},
+{
+"start_ref": "31001008",
+"start_ref_usfm": "OBA 1:8",
+"end_ref": "31001008",
+"end_ref_usfm": "OBA 1:8"
+},
+{
+"start_ref": "31001009",
+"start_ref_usfm": "OBA 1:9",
+"end_ref": "31001009",
+"end_ref_usfm": "OBA 1:9"
+},
+{
+"start_ref": "31001012",
+"start_ref_usfm": "OBA 1:12",
+"end_ref": "31001012",
+"end_ref_usfm": "OBA 1:12"
+},
+{
+"start_ref": "31001017",
+"start_ref_usfm": "OBA 1:17",
+"end_ref": "31001017",
+"end_ref_usfm": "OBA 1:17"
+},
+{
+"start_ref": "31001018",
+"start_ref_usfm": "OBA 1:18",
+"end_ref": "31001018",
+"end_ref_usfm": "OBA 1:18"
+},
+{
+"start_ref": "31001021",
+"start_ref_usfm": "OBA 1:21",
+"end_ref": "31001021",
+"end_ref_usfm": "OBA 1:21"
+},
+{
+"start_ref": "31001001",
+"start_ref_usfm": "OBA 1:1",
+"end_ref": "31001004",
+"end_ref_usfm": "OBA 1:4"
+},
+{
+"start_ref": "31001002",
+"start_ref_usfm": "OBA 1:2",
+"end_ref": "31001009",
+"end_ref_usfm": "OBA 1:9"
+},
+{
+"start_ref": "31001002",
+"start_ref_usfm": "OBA 1:2",
+"end_ref": "31001004",
+"end_ref_usfm": "OBA 1:4"
+},
+{
+"start_ref": "31001005",
+"start_ref_usfm": "OBA 1:5",
+"end_ref": "31001006",
+"end_ref_usfm": "OBA 1:6"
+},
+{
+"start_ref": "31001010",
+"start_ref_usfm": "OBA 1:10",
+"end_ref": "31001015",
+"end_ref_usfm": "OBA 1:15"
+},
+{
+"start_ref": "31001015",
+"start_ref_usfm": "OBA 1:15",
+"end_ref": "31001021",
+"end_ref_usfm": "OBA 1:21"
+},
+{
+"start_ref": "31001019",
+"start_ref_usfm": "OBA 1:19",
+"end_ref": "31001020",
+"end_ref_usfm": "OBA 1:20"
+}
+],
+"resource": [
+{
+"reference_id": 5260,
+"content_id": 682974,
+"resource_code": "TyndaleBibleDictionary",
+"label": "Israel, História de",
+"language": "por"
+},
+{
+"reference_id": 6998,
+"content_id": 125320,
+"resource_code": "TyndaleBibleDictionary",
+"label": "Profecia",
+"language": "por"
+},
+{
+"reference_id": 6999,
+"content_id": 161859,
+"resource_code": "TyndaleBibleDictionary",
+"label": "Profeta, Profetisa",
+"language": "por"
+}
+],
+"acai": []
+}
+},
+{
 "content_id": "830221",
 "reference_id": 6618,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Obadias (Pessoa)",
 "media_type": "Text",
-"index_reference": "obadias (pessoa)",
+"index_reference": "obadias pessoa",
 "language": "por",
 "review_level": "Professional",
 "content": "<h1>OBADIAS (Pessoa)</h1><ol><li><p>Casa do governador de Acabe (<a href=\"https://ref.ly/1Kgs18:3-1Kgs18:16\">1Rs 18.3–16</a>). Obadias era um oficial importante que gerenciava a casa do rei Acabe. Elias o encontrou após uma longa seca e pediu-lhe que trouxesse Acabe até ele. Tanto Acabe quanto Obadias estavam procurando por água e pasto (versículo <a href=\"https://ref.ly/1Kgs18:3\">5</a>). Mesmo trabalhando para Acabe, Obadias permaneceu leal ao Senhor. Ele escondeu 100 profetas em cavernas e lhes forneceu comida e água.</p></li><li><p>Um descendente do rei Davi (<a href=\"https://ref.ly/1Chr3:21\">1Cr 3.21</a>).</p></li><li><p>Um descendente de Izraías da tribo de Issacar (<a href=\"https://ref.ly/1Chr7:3\">1Cr 7.3</a>).</p></li><li><p>Filho de Azel e descendente do rei Saul da tribo de Benjamim (<a href=\"https://ref.ly/1Chr8:38\">1Cr 8.38</a>; <a href=\"https://ref.ly/1Chr9:44\">9.44</a>).</p></li><li><p>Filho de Semaías, que estava entre os primeiros levitas a retornar do exílio para Jerusalém. Ele morava em uma das aldeias dos netofatitas (<a href=\"https://ref.ly/1Chr9:16\">1Cr 9.16</a>). Ele é chamado de Abda em <a href=\"https://ref.ly/Neh11:17\">Neemias 11.17</a>. <em>Veja</em> <span data-bnType=\"resourceReference\" data-resourceId=\"2437\" data-resourceType=\"TyndaleBibleDictionary\">Abda #2</span>.</p></li><li><p>Um gadita que se juntou a Davi em seu refúgio no deserto. Ele era um guerreiro forte, habilidoso tanto com escudo quanto com lança. Ele também era muito rápido (<a href=\"https://ref.ly/1Chr12:8-1Chr12:9\">1Cr 12.8–9</a>).</p></li><li><p>O pai de Ismaías, comandante do exército de Zebulom (<a href=\"https://ref.ly/1Chr27:19\">1Cr 27.19</a>).</p></li><li><p>Príncipe de Judá durante o reinado do rei Josafá (<a href=\"https://ref.ly/2Chr17:7\">2Cr 17.7</a>). Ele se juntou a quatro outros oficiais e aos levitas para ensinar a lei em todas as cidades de Judá.</p></li><li><p>Um supervisor levita durante o reinado do rei Josias (<a href=\"https://ref.ly/2Chr34:12\">2Cr 34.12</a>). Ele estava encarregado da reparação do templo.</p></li><li><p>Filho de Jeiel (<a href=\"https://ref.ly/Ezra8:9\">Ed 8.9</a>). Ele se juntou a Esdras em sua jornada de Babilônia a Jerusalém, liderando 218 homens.</p></li><li><p>Um sacerdote que assinou a aliança de Esdras (<a href=\"https://ref.ly/Neh10:5\">Ne 10.5</a>).</p></li><li><p>Um porteiro e levita que supervisionava os armazéns junto aos portões durante o tempo de Joaquim, filho de Jesua (<a href=\"https://ref.ly/Neh12:25-Neh12:26\">Ne 12.25–26</a>).</p></li><li><p>Um profeta que transmitiu uma mensagem de Deus contra Edom. Os edomitas celebraram quando Babilônia derrotou Jerusalém em 597 a.C. Obadias descreveu o comportamento dos edomitas em sua profecia (<a href=\"https://ref.ly/Obad1:11-Obad1:14\">Ob 1.11–14</a>). A profecia de Obadias é o livro mais curto do Antigo Testamento. Ela previu o julgamento de Deus sobre Edom (versículos <a href=\"https://ref.ly/Obad1:2-Obad1:10\">2–10</a>, <a href=\"https://ref.ly/Obad1:15\">15</a>).</p></li></ol><p><em>Veja também</em> <span data-bnType=\"resourceReference\" data-resourceId=\"6617\" data-resourceType=\"TyndaleBibleDictionary\">Obadias, Livro de</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"6999\" data-resourceType=\"TyndaleBibleDictionary\">Profeta, Profetisa</span>.</p>",
@@ -1007,232 +1148,13 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Obadiah",
-"type": "person",
-"preferred_label": "Obadias",
-"confidence": 0.6558,
-"match_method": "scored"
-},
-{
-"id": "person:Obadiah.5",
-"type": "person",
-"preferred_label": "Obadias",
-"confidence": 0.6279,
-"match_method": "scored"
-},
-{
-"id": "person:Obadiah.4",
-"type": "person",
-"preferred_label": "Obadias",
-"confidence": 0.6186,
-"match_method": "scored"
-},
-{
-"id": "person:Obadiah.2",
-"type": "person",
-"preferred_label": "Obadias",
-"confidence": 0.6093,
-"match_method": "scored"
-},
-{
-"id": "person:Obadiah.7",
-"type": "person",
-"preferred_label": "Obadias",
-"confidence": 0.6093,
-"match_method": "scored"
-},
-{
-"id": "person:Obadiah.8",
-"type": "person",
-"preferred_label": "Obadias",
-"confidence": 0.6093,
-"match_method": "scored"
-},
-{
-"id": "person:Obadiah.3",
-"type": "person",
-"preferred_label": "Obadias",
-"confidence": 0.6093,
-"match_method": "scored"
-},
-{
-"id": "person:Obadiah.10",
-"type": "person",
-"preferred_label": "Obadias",
-"confidence": 0.6093,
-"match_method": "scored"
-},
-{
-"id": "person:Obadiah.11",
-"type": "person",
-"preferred_label": "Obadias",
-"confidence": 0.6093,
-"match_method": "scored"
-},
-{
-"id": "person:Obadiah.6",
-"type": "person",
-"preferred_label": "Obadias",
-"confidence": 0.6093,
-"match_method": "scored"
-},
-{
-"id": "person:Obadiah.9",
-"type": "person",
-"preferred_label": "Obadias",
-"confidence": 0.6093,
-"match_method": "scored"
-}
-]
-}
-},
-{
-"content_id": "830220",
-"reference_id": 6617,
-"version": "1.0.2",
-"title": "Obadias, Livro de",
-"media_type": "Text",
-"index_reference": "obadias, livro de",
-"language": "por",
-"review_level": "Professional",
-"content": "<h1>OBADIAS, Livro de</h1><p>O quarto livro dos profetas menores é o mais curto do Antigo Testamento.</p><p>Resumo</p><p>• Autor</p><p>• Contexto</p><p>• Conteúdo</p><p>• Significado teológico</p><h2>Autor</h2><p>Não sabemos muita coisa sobre Obadias, o profeta. A introdução no livro (<a href=\"https://ref.ly/Obad1:1\">Ob 1.1</a>) não menciona o nome de seu pai ou de onde ele é.</p><h2>Contexto</h2><p>Obadias provavelmente era de Judá, pois demonstra profunda preocupação com os edomitas invadindo sua terra durante a destruição de Judá (<a href=\"https://ref.ly/Obad1:12\">Ob 1.12</a>). Ele provavelmente teve sua visão sobre Edom (<a href=\"https://ref.ly/Obad1:1\">Ob 1.1</a>) pouco antes de Jerusalém cair e Nabucodonosor devastar Judá em 586 a.C. Embora não haja evidências certas, Nabucodonosor pode ter invadido Edom em 582 a.C. O rei babilônico Nabonido permaneceu em Teima por vários anos, e a cidade de Tell el Kheleifeh, perto do Golfo de Acaba, prosperou no início do século. No entanto, Edom declinou no século VI a.C. devido à interferência de parceiros comerciais na Arábia e no sul, como Teima e Dedã.</p><h2>Conteúdo</h2><p>O profeta anuncia a queda de Edom (<a href=\"https://ref.ly/Obad1:1-Obad1:4\">Ob 1.1–4</a>). Um grupo de tribos árabes próximas planejou atacar Edom, o que fortaleceu sua mensagem (<a href=\"https://ref.ly/Obad1:1\">Ob 1.1</a>). Essas tribos não perceberam que seu ataque a Edom fazia parte de um plano divino.</p><p>A destruição de Edom é anunciada (<a href=\"https://ref.ly/Obad1:2-Obad1:9\">Ob 1.2–9</a>) e sua queda é descrita (<a href=\"https://ref.ly/Obad1:2-Obad1:4\">Ob 1.2–4</a>). Edom, que parecia forte e segura em sua fortaleza rochosa na montanha (<a href=\"https://ref.ly/Obad1:3\">Ob 1.3</a>), seria humilhada (<a href=\"https://ref.ly/Obad1:4\">1.4</a>). A derrota de Edom seria total (<a href=\"https://ref.ly/Obad1:5-Obad1:6\">Ob 1.5–6</a>). Assim como ladrões e saqueadores atacam à noite, Edom seria despojada, com suas casas e vinhedos saqueados. Edom não receberia misericórdia, ao contrário de quando ladrões às vezes poupam uma casa. Até mesmo aliados trairiam Edom (<a href=\"https://ref.ly/Obad1:7\">Ob 1.7</a>), parceiros enganariam, e convidados armariam ciladas. Pegos de surpresa, Edom se tornaria uma presa fácil. No dia da ruína de Edom, os sábios pereceriam (<a href=\"https://ref.ly/Obad1:8\">Ob 1.8</a>) e os soldados seriam desmoralizados e mortos (<a href=\"https://ref.ly/Obad1:9\">Ob 1.9</a>).</p><p>Os erros de Edom são detalhados em <a href=\"https://ref.ly/Obad1:10-Obad1:15\">Obadias 1.10–15</a>. Edom mostrou hostilidade em relação a Judá quando os babilônios atacaram. Em vez de ajudar, Edom manteve-se distante e agiu como um inimigo. Pior, Edom celebrou a desgraça de Judá, zombou do povo e tomou suas propriedades. Edom colaborou com a Babilônia, bloqueando os refugiados de Judá de escaparem e entregando-os aos inimigos. Essas ações trariam consequências para Edom.</p><p>No Dia do Senhor (<a href=\"https://ref.ly/Obad1:15-Obad1:21\">Ob 1.15–21</a>), o culpado Edom enfrentaria o julgamento de Deus junto com todas as nações. Após o desastre que Jerusalém enfrentou em 586 a.C., outro dia viria. Esse dia traria justiça e julgamento a favor de Israel.</p><p>Em uma nota positiva, o remanescente de Judá (<a href=\"https://ref.ly/Obad1:17,Obad1:21\">Ob 1.17,21</a>) sobreviveria. O local sagrado, Monte Sião, seria restaurado. Os edomitas cairiam sob o controle do remanescente de Israel. Como um fogo, Israel consumiria os restos de Edom (<a href=\"https://ref.ly/Obad1:18\">Ob 1.18</a>) e recuperaria territórios perdidos (<a href=\"https://ref.ly/Obad1:19-Obad1:20\">Ob 1.19–20</a>).</p><h2>Significado teológico</h2><p>A profecia destaca o controle de Deus durante a perda de poder de Judá. Deus molda eventos no passado e no presente. No futuro, ele julgará os inimigos de Israel. Sião se tornará a orgulhosa capital de uma nação gloriosa, livre da influência pagã para sempre.</p><p><em>Veja também</em> <span data-bnType=\"resourceReference\" data-resourceId=\"5260\" data-resourceType=\"TyndaleBibleDictionary\">Israel, História de</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"6998\" data-resourceType=\"TyndaleBibleDictionary\">Profecia</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"6999\" data-resourceType=\"TyndaleBibleDictionary\">Profeta, Profetisa</span>.</p>",
-"associations": {
-"passage": [
-{
-"start_ref": "31001001",
-"start_ref_usfm": "OBA 1:1",
-"end_ref": "31001001",
-"end_ref_usfm": "OBA 1:1"
-},
-{
-"start_ref": "31001003",
-"start_ref_usfm": "OBA 1:3",
-"end_ref": "31001003",
-"end_ref_usfm": "OBA 1:3"
-},
-{
-"start_ref": "31001004",
-"start_ref_usfm": "OBA 1:4",
-"end_ref": "31001004",
-"end_ref_usfm": "OBA 1:4"
-},
-{
-"start_ref": "31001007",
-"start_ref_usfm": "OBA 1:7",
-"end_ref": "31001007",
-"end_ref_usfm": "OBA 1:7"
-},
-{
-"start_ref": "31001008",
-"start_ref_usfm": "OBA 1:8",
-"end_ref": "31001008",
-"end_ref_usfm": "OBA 1:8"
-},
-{
-"start_ref": "31001009",
-"start_ref_usfm": "OBA 1:9",
-"end_ref": "31001009",
-"end_ref_usfm": "OBA 1:9"
-},
-{
-"start_ref": "31001012",
-"start_ref_usfm": "OBA 1:12",
-"end_ref": "31001012",
-"end_ref_usfm": "OBA 1:12"
-},
-{
-"start_ref": "31001017",
-"start_ref_usfm": "OBA 1:17",
-"end_ref": "31001017",
-"end_ref_usfm": "OBA 1:17"
-},
-{
-"start_ref": "31001018",
-"start_ref_usfm": "OBA 1:18",
-"end_ref": "31001018",
-"end_ref_usfm": "OBA 1:18"
-},
-{
-"start_ref": "31001021",
-"start_ref_usfm": "OBA 1:21",
-"end_ref": "31001021",
-"end_ref_usfm": "OBA 1:21"
-},
-{
-"start_ref": "31001001",
-"start_ref_usfm": "OBA 1:1",
-"end_ref": "31001004",
-"end_ref_usfm": "OBA 1:4"
-},
-{
-"start_ref": "31001002",
-"start_ref_usfm": "OBA 1:2",
-"end_ref": "31001009",
-"end_ref_usfm": "OBA 1:9"
-},
-{
-"start_ref": "31001002",
-"start_ref_usfm": "OBA 1:2",
-"end_ref": "31001004",
-"end_ref_usfm": "OBA 1:4"
-},
-{
-"start_ref": "31001005",
-"start_ref_usfm": "OBA 1:5",
-"end_ref": "31001006",
-"end_ref_usfm": "OBA 1:6"
-},
-{
-"start_ref": "31001010",
-"start_ref_usfm": "OBA 1:10",
-"end_ref": "31001015",
-"end_ref_usfm": "OBA 1:15"
-},
-{
-"start_ref": "31001015",
-"start_ref_usfm": "OBA 1:15",
-"end_ref": "31001021",
-"end_ref_usfm": "OBA 1:21"
-},
-{
-"start_ref": "31001019",
-"start_ref_usfm": "OBA 1:19",
-"end_ref": "31001020",
-"end_ref_usfm": "OBA 1:20"
-}
-],
-"resource": [
-{
-"reference_id": 5260,
-"content_id": 682974,
-"resource_code": "TyndaleBibleDictionary",
-"label": "Israel, História de",
-"language": "por"
-},
-{
-"reference_id": 6998,
-"content_id": 125320,
-"resource_code": "TyndaleBibleDictionary",
-"label": "Profecia",
-"language": "por"
-},
-{
-"reference_id": 6999,
-"content_id": 161859,
-"resource_code": "TyndaleBibleDictionary",
-"label": "Profeta, Profetisa",
-"language": "por"
-}
-],
 "acai": []
 }
 },
 {
 "content_id": "658700",
 "reference_id": 6619,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Obal",
 "media_type": "Text",
 "index_reference": "obal",
@@ -1261,9 +1183,9 @@
 {
 "id": "person:Obal",
 "type": "person",
-"preferred_label": "Obal",
 "confidence": 1.0,
-"match_method": "scored"
+"match_method": "content_id",
+"preferred_label": "Obal"
 }
 ]
 }
@@ -1271,7 +1193,7 @@
 {
 "content_id": "830222",
 "reference_id": 6622,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Obede",
 "media_type": "Text",
 "index_reference": "obede",
@@ -1344,52 +1266,16 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Obed",
-"type": "person",
-"preferred_label": "Obede",
-"confidence": 0.8,
-"match_method": "scored"
-},
-{
-"id": "person:Obed.2",
-"type": "person",
-"preferred_label": "Obede",
-"confidence": 0.6667,
-"match_method": "scored"
-},
-{
-"id": "person:Obed.5",
-"type": "person",
-"preferred_label": "Obede",
-"confidence": 0.6333,
-"match_method": "scored"
-},
-{
-"id": "person:Obed.3",
-"type": "person",
-"preferred_label": "Obede",
-"confidence": 0.6333,
-"match_method": "scored"
-},
-{
-"id": "person:Obed.4",
-"type": "person",
-"preferred_label": "Obede",
-"confidence": 0.6333,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "759919",
 "reference_id": 6620,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Obede-Edom",
 "media_type": "Text",
-"index_reference": "obede-edom",
+"index_reference": "obedeedom",
 "language": "por",
 "review_level": "Professional",
 "content": "<h1>OBEDE-EDOM</h1><p>1. Homem sob cuja responsabilidade Davi colocou a arca da aliança ao transferi-la de Gibeá para Jerusalém (<a href=\"https://ref.ly/2Sam6:10-2Sam6:12\">2Sm 6.10–12</a>; <a href=\"https://ref.ly/1Chr13:5-1Chr13:14\">1Cr 13.5–14</a>). Ele é chamado de gitita, indicando que nasceu em Gate. Esta não era a cidade filisteia de Gate, mas a cidade levítica no território de Dã conhecida como Gate-Rimom (<a href=\"https://ref.ly/Josh19:45\">Js 19.45</a>). É provável que Obede-Edom fosse um levita e, portanto, qualificado para cuidar da arca da aliança. A ação precipitada de Uzá ao tocar a arca quando os bois tropeçaram resultou em sua morte imediata. A consternação e o medo de Davi diante desse evento o levaram a reconsiderar sua intenção de levar a arca para Jerusalém. Aparentemente, a casa de Obede-Edom estava próxima, tornando conveniente deixar a arca sob seus cuidados. Quando Davi foi informado, após três meses, de que o Senhor havia abençoado grandemente Obede-Edom, ele percebeu que o julgamento sobre Uzá ocorreu porque a arca foi carregada de maneira contrária ao método prescrito na Lei (<a href=\"https://ref.ly/Num4:15\">Nm 4.15</a>; <a href=\"https://ref.ly/Num7:9\">7.9</a>) e não porque o Senhor estava irado com Uzá. Ele ordenou que a arca fosse retirada da casa de Obede-Edom e levada para Jerusalém da maneira correta (<a href=\"https://ref.ly/1Chr15:25-1Chr15:28\">1Cr 15.25–28</a>). Aparentemente, Obede-Edom foi recompensado por seu serviço fiel ao ser nomeado guarda da arca em Jerusalém (<a href=\"https://ref.ly/1Chr15:24\">15.24</a>; <a href=\"https://ref.ly/1Chr26:4,1Chr26:8,1Chr26:15\">26.4,8,15</a>). No entanto, alguns estudiosos acreditam que Obede-Edom, o guarda, era uma pessoa diferente da mencionada anteriormente.</p><p>2. Músico levita que ministrou diante da arca (<a href=\"https://ref.ly/1Chr15:21\">1Cr 15.21</a>; <a href=\"https://ref.ly/1Chr16:5,1Chr16:38\">16.5,38</a>). Ele era filho de Jedutum, um dos principais cantores de Davi. Alguns estudiosos acreditam que o músico e o cantor eram homens diferentes.</p><p>3. Guardião levita dos vasos sagrados do templo, feito refém por Joás (<a href=\"https://ref.ly/2Chr25:24\">2Cr 25.24</a>).</p>",
@@ -1485,9 +1371,9 @@
 {
 "id": "person:Obed-edom",
 "type": "person",
-"preferred_label": "Obede-Edom",
-"confidence": 0.8,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Obede-Edom"
 }
 ]
 }
@@ -1495,7 +1381,7 @@
 {
 "content_id": "124397",
 "reference_id": 6621,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Obediência",
 "media_type": "Text",
 "index_reference": "obediência",
@@ -1728,7 +1614,7 @@
 {
 "content_id": "828207",
 "reference_id": 3434,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Obelisco Negro",
 "media_type": "Text",
 "index_reference": "obelisco negro",
@@ -1751,7 +1637,7 @@
 {
 "content_id": "830223",
 "reference_id": 6623,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Obil",
 "media_type": "Text",
 "index_reference": "obil",
@@ -1768,21 +1654,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Obil",
-"type": "person",
-"preferred_label": "Obil",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "830224",
 "reference_id": 6624,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oblação",
 "media_type": "Text",
 "index_reference": "oblação",
@@ -1806,7 +1684,7 @@
 {
 "content_id": "759920",
 "reference_id": 6625,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Obote",
 "media_type": "Text",
 "index_reference": "obote",
@@ -1841,9 +1719,9 @@
 {
 "id": "place:Oboth",
 "type": "place",
-"preferred_label": "Obote",
 "confidence": 1.0,
-"match_method": "scored"
+"match_method": "content_id",
+"preferred_label": "Obote"
 }
 ]
 }
@@ -1851,7 +1729,7 @@
 {
 "content_id": "829770",
 "reference_id": 5921,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Obra de lírios",
 "media_type": "Text",
 "index_reference": "obra de lírios",
@@ -1895,7 +1773,7 @@
 {
 "content_id": "760023",
 "reference_id": 7806,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Obstáculo",
 "media_type": "Text",
 "index_reference": "obstáculo",
@@ -1966,13 +1844,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:StumblingBlock",
+"type": "keyterm",
+"confidence": 0.7333,
+"match_method": "scored",
+"preferred_label": "escândalo"
+}
+]
 }
 },
 {
 "content_id": "759921",
 "reference_id": 6628,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ocrã",
 "media_type": "Text",
 "index_reference": "ocrã",
@@ -2017,9 +1903,9 @@
 {
 "id": "person:Ochran",
 "type": "person",
-"preferred_label": "Ocrã",
 "confidence": 1.0,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Ocrã"
 }
 ]
 }
@@ -2027,7 +1913,7 @@
 {
 "content_id": "759795",
 "reference_id": 4882,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ódio",
 "media_type": "Text",
 "index_reference": "ódio",
@@ -2092,7 +1978,7 @@
 {
 "content_id": "831207",
 "reference_id": 8239,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Odres",
 "media_type": "Text",
 "index_reference": "odres ",
@@ -2108,7 +1994,7 @@
 {
 "content_id": "830227",
 "reference_id": 6634,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oel",
 "media_type": "Text",
 "index_reference": "oel",
@@ -2125,21 +2011,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Ohel",
-"type": "person",
-"preferred_label": "Oel",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "830251",
 "reference_id": 6673,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ofel",
 "media_type": "Text",
 "index_reference": "ofel",
@@ -2186,24 +2064,16 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "place:Ophel",
-"type": "place",
-"preferred_label": "Ofel",
-"confidence": 0.8857,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "683051",
 "reference_id": 6629,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ofender, Ofensa",
 "media_type": "Text",
-"index_reference": "ofender, ofensa",
+"index_reference": "ofender ofensa",
 "language": "por",
 "review_level": "Professional",
 "content": "<h1>OFENDER, OFENSA</h1><p>As palavras &quot;ofender&quot; e &quot;ofensa&quot; são usadas de duas maneiras principais na Bíblia:</p><ol><li><p>Fazer algo errado por iniciativa própria</p></li><li><p>Levar outra pessoa a cometer um erro ou se enganar em sua fé</p></li></ol><h2>Fazendo de forma errada</h2><p>Tanto no Antigo Testamento Hebraico quanto no Novo Testamento Grego, existem muitas palavras para pecado ou transgressão. Quando usamos as palavras &quot;ofender&quot; ou &quot;ofensa&quot;, focamos no pecado contra uma pessoa ou a lei, o que significa uma ofensa contra Deus ou contra as pessoas.</p><p>Pecado é principalmente uma ofensa contra Deus. Por exemplo, o povo de Edom ofendeu a Deus ao se vingar de Judá, então Deus os julgou (<a href=\"https://ref.ly/Ezek25:12-Ezek25:13\">Ez 25.12–13</a>). Israel ofendeu a Deus ao adorar Baal (<a href=\"https://ref.ly/Hos13:1\">Os 13.1</a>). Quebrar a lei de Deus é chamado de ofensa cometida (<a href=\"https://ref.ly/Deut19:15\">Dt 19.15</a>; cp. <a href=\"https://ref.ly/Deut22:26\">22.26</a>; <a href=\"https://ref.ly/Deut25:2\">25.2</a>). No Novo Testamento, Tiago fala sobre ofensas contra Deus e a lei de Deus (<a href=\"https://ref.ly/Jas2:10\">Tg 2.10</a>; <a href=\"https://ref.ly/Jas3:2\">3.2</a>).</p><p>A Bíblia também aborda ofensas entre pessoas. Por exemplo, Abraão ofendeu Abimeleque (<a href=\"https://ref.ly/Gen20:9\">Gn 20.9</a>). O chefe dos copeiros e o padeiro de Faraó ofenderam seu senhor (<a href=\"https://ref.ly/Gen40:1\">Gn 40.1</a>). Às vezes, a ofensa é apenas alegada, e nenhum erro real foi cometido (e.g. <a href=\"https://ref.ly/Gen31:36\">Gn 31.36</a>; <a href=\"https://ref.ly/2Kgs18:14\">2Rs 18.14</a>; <a href=\"https://ref.ly/Jer37:18\">Jr 37.18</a>). Paulo, defendendo-se perante o governador romano Festo, disse: “Eu não fiz nada contra a lei dos judeus, nem contra o Templo, nem contra o Imperador” (<a href=\"https://ref.ly/Acts25:8\">At 25.8</a>).</p><p>A Bíblia também ensina como lidar com ofensas reais contra Deus e as pessoas. As ofensas devem ser reconhecidas e confessadas (<a href=\"https://ref.ly/Hos5:15\">Os 5.15</a>). Uma resolução adequada diante de Deus é: “não vai pecar mais” (<a href=\"https://ref.ly/Job34:31\">Jó 34.31</a>). Precisamos fazer reparações pelas ofensas e perdoar as ofensas dos outros (<a href=\"https://ref.ly/Eccl10:4\">Ec 10.4</a>; <a href=\"https://ref.ly/Prov17:9\">Pv 17.9</a>; <a href=\"https://ref.ly/Prov19:11\">19.11</a>). Jesus Cristo morreu por nossas ofensas (<a href=\"https://ref.ly/Rom4:25\">Rm 4.25</a>; <a href=\"https://ref.ly/Rom5:15-Rom5:21\">5.15–21</a>). Ao nos voltarmos para Jesus, há perdão para todos os pecados.</p><h2>Fazer o outro pecar</h2><p>As palavras &quot;ofensa&quot; e &quot;ofender&quot; também significam fazer com que alguém tropece ou cometa um erro. Existem três maneiras de isso ocorrer:</p><ol><li><p><strong>Causa pessoal</strong>: Algo dentro de uma pessoa pode levá-la a tropeçar. Jesus enfatizou a seriedade disso e sugeriu tomar medidas extremas para evitá-lo (<a href=\"https://ref.ly/Matt5:29-Matt5:30\">Mt 5.29–30</a>; <a href=\"https://ref.ly/Matt18:8-Matt18:9\">18.8–9</a>).</p></li><li><p><strong>Fazer outros tropeçarem</strong>: Algo nas ações de uma pessoa pode levar outros a tropeçar. Jesus advertiu: “Ai do mundo por causa das coisas que fazem com que as pessoas me abandonem! Essas coisas têm de acontecer, mas ai do culpado!” (<a href=\"https://ref.ly/Matt18:7\">Mt 18.7</a>). O Novo Testamento ensina que devemos viver de uma maneira que não faça os outros tropeçarem (<a href=\"https://ref.ly/Rom14:13\">Rm 14.13</a>). O apóstolo Paulo diz: “Por uma questão de comida, não destrua o que Deus fez. Todos os alimentos podem ser comidos, mas é errado comer alguma coisa quando isso faz com que outra pessoa caia em pecado. O que está certo é não comer carne, não beber vinho, nem fazer qualquer outra coisa que leve um irmão a cair em pecado” (<a href=\"https://ref.ly/Rom14:20-Rom14:21\">Rm 14.20–21</a>; cp. <a href=\"https://ref.ly/1Cor10:32\">1Co 10.32</a>; <a href=\"https://ref.ly/2Cor6:3\">2Co 6.3</a>).</p></li><li><p><strong>Ofensa à verdade</strong>: As pessoas podem se ofender com a verdade, mesmo que quem a apresente não tenha culpa. Isaías descreve Deus como “uma pedra e uma rocha que fará com que os povos de Judá e de Israel tropecem e caiam” (<a href=\"https://ref.ly/Isa8:14\">Is 8.14</a>) porque as pessoas nem sempre aceitariam Suas exigências e o caminho da fé nEle. O Novo Testamento aplica essas palavras à ofensa do evangelho de Cristo (<a href=\"https://ref.ly/Rom9:32-Rom9:33\">Rm 9.32–33</a>; <a href=\"https://ref.ly/1Pet2:8\">1Pe 2.8</a>). Durante Seu ministério, as pessoas se ofenderam com Jesus — por Seu nascimento humilde (<a href=\"https://ref.ly/Matt13:57\">Mt 13.57</a>), pelo que Ele disse e fez (<a href=\"https://ref.ly/Matt15:12\">Mt 15.12</a>), ou por causa do custo de segui-lo (<a href=\"https://ref.ly/Matt13:21\">Mt 13.21</a>). Até mesmo alguns discípulos se ofenderam e se afastaram (<a href=\"https://ref.ly/John6:61\">Jo 6.61</a>). Eventualmente, todos se ofenderam e fugiram dEle (<a href=\"https://ref.ly/Matt26:31,Matt26:56\">Mt 26.31,56</a>). Paulo falou da ofensa em pregar a cruz de Cristo. Ele poderia ter evitado a perseguição pregando uma mensagem que não ofendesse ninguém (<a href=\"https://ref.ly/Gal5:11\">Gl 5.11</a>). Ele escolheu pregar a cruz, mesmo que fosse uma pedra de tropeço para os judeus e loucura para os não judeus (<a href=\"https://ref.ly/1Cor1:23\">1Co 1.23</a>).</p></li></ol><p><em>Veja também</em> <span data-bnType=\"resourceReference\" data-resourceId=\"7691\" data-resourceType=\"TyndaleBibleDictionary\">Pecado</span>.</p>",
@@ -2453,7 +2323,7 @@
 {
 "content_id": "831116",
 "reference_id": 8089,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ofensa",
 "media_type": "Text",
 "index_reference": "ofensa",
@@ -2484,21 +2354,13 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "keyterm:Wrong",
-"type": "keyterm",
-"preferred_label": "ofensa",
-"confidence": 0.8019,
-"match_method": "embedding"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "828587",
 "reference_id": 4066,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oferta de bebida",
 "media_type": "Text",
 "index_reference": "oferta de bebida",
@@ -2522,7 +2384,7 @@
 {
 "content_id": "828319",
 "reference_id": 3628,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oferta de cereais",
 "media_type": "Text",
 "index_reference": "oferta de cereais",
@@ -2546,7 +2408,7 @@
 {
 "content_id": "829295",
 "reference_id": 5199,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oferta de consagração",
 "media_type": "Text",
 "index_reference": "oferta de consagração",
@@ -2570,7 +2432,7 @@
 {
 "content_id": "831045",
 "reference_id": 7973,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oferta de gratidão",
 "media_type": "Text",
 "index_reference": "oferta de gratidão",
@@ -2594,7 +2456,7 @@
 {
 "content_id": "829119",
 "reference_id": 4923,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oferta movida",
 "media_type": "Text",
 "index_reference": "oferta movida",
@@ -2618,7 +2480,7 @@
 {
 "content_id": "831187",
 "reference_id": 8209,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oferta movida",
 "media_type": "Text",
 "index_reference": "oferta movida",
@@ -2642,7 +2504,7 @@
 {
 "content_id": "830321",
 "reference_id": 6787,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oferta pacífica",
 "media_type": "Text",
 "index_reference": "oferta pacífica",
@@ -2666,7 +2528,7 @@
 {
 "content_id": "828971",
 "reference_id": 4715,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oferta pela culpa",
 "media_type": "Text",
 "index_reference": "oferta pela culpa",
@@ -2690,7 +2552,7 @@
 {
 "content_id": "831115",
 "reference_id": 8088,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oferta pela culpa",
 "media_type": "Text",
 "index_reference": "oferta pela culpa",
@@ -2714,7 +2576,7 @@
 {
 "content_id": "830861",
 "reference_id": 7687,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oferta pelo Pecado",
 "media_type": "Text",
 "index_reference": "oferta pelo pecado",
@@ -2738,10 +2600,10 @@
 {
 "content_id": "759684",
 "reference_id": 3533,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oferta queimada, Holocausto",
 "media_type": "Text",
-"index_reference": "oferta queimada, holocausto",
+"index_reference": "oferta queimada holocausto",
 "language": "por",
 "review_level": "Professional",
 "content": "<h1>OFERTA QUEIMADA, HOLOCAUSTO</h1><p>Uma oferta queimada era um tipo de sacrifício no antigo Israel. Nesse sacrifício, um animal sem defeitos era completamente queimado no altar. Nenhuma parte do animal era comida, pois era totalmente consumido pelo fogo. Os israelitas ofereciam ofertas queimadas para buscar o perdão pelos pecados e restaurar seu relacionamento com Deus (<a href=\"https://ref.ly/Lev1:1-Lev1:17\">Lv 1</a>).</p><p><em>Veja</em> <span data-bnType=\"resourceReference\" data-resourceId=\"6630\" data-resourceType=\"TyndaleBibleDictionary\">Ofertas e sacrifícios</span>.</p>",
@@ -2769,7 +2631,7 @@
 {
 "content_id": "759756",
 "reference_id": 4476,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oferta voluntária",
 "media_type": "Text",
 "index_reference": "oferta voluntária",
@@ -2804,9 +2666,16 @@
 {
 "id": "keyterm:Offering",
 "type": "keyterm",
-"preferred_label": "offering",
-"confidence": 0.589,
-"match_method": "scored"
+"confidence": 0.688,
+"match_method": "scored",
+"preferred_label": "offering"
+},
+{
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.5845,
+"match_method": "scored",
+"preferred_label": "slaughtering"
 }
 ]
 }
@@ -2814,7 +2683,7 @@
 {
 "content_id": "658701",
 "reference_id": 6630,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ofertas e sacrifícios",
 "media_type": "Text",
 "index_reference": "ofertas e sacrifícios",
@@ -4409,13 +4278,21 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.5838,
+"match_method": "scored",
+"preferred_label": "offering"
+}
+]
 }
 },
 {
 "content_id": "828395",
 "reference_id": 3726,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oficiais da Igreja",
 "media_type": "Text",
 "index_reference": "oficiais da igreja",
@@ -4488,10 +4365,10 @@
 {
 "content_id": "658703",
 "reference_id": 6675,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ofir (Lugar)",
 "media_type": "Text",
-"index_reference": "ofir (lugar)",
+"index_reference": "ofir lugar",
 "language": "por",
 "review_level": "Professional",
 "content": "<h1>OFIR (Local)</h1><p>Lugar para o qual Salomão enviou uma frota de navios mercantes para trazer ouro e todo tipo de produtos preciosos e exóticos. A localização de Ofir não é certa; a maioria dos estudiosos a coloca no sudoeste da Arábia. Pode haver uma relação entre o lugar e o homem chamado Ofir que aparece na tabela das nações como um filho de Joctã (<a href=\"https://ref.ly/Gen10:29\">Gn 10.29</a>; cf. <a href=\"https://ref.ly/1Chr1:23\">1Cr 1.23</a>), um descendente de Sem. Os nomes de Joctã e seus filhos estão ligados às partes sul e oeste da Arábia.</p><p><a href=\"https://ref.ly/1Kgs9:26-1Kgs9:28\">Primeiro Reis 9.26–28</a> relata que Salomão construiu uma frota de navios mercantes em Eziom-Geber, que ficava perto de Elate, no Golfo de Ácaba. Hirão, rei de Tiro, forneceu marinheiros para acompanhar os de Salomão. Esta expedição retornou com 14 mil quilos de ouro para Salomão. <a href=\"https://ref.ly/1Kgs10:11\">Primeiro Reis 10.11</a> acrescenta que a frota de Hirão trouxe de Ofir uma grande quantidade de madeira de almugue (ou sândalo) e pedras preciosas.</p><p>Mais tarde, Josafá construiu &quot;navios de Társis&quot; para ir a Ofir buscar ouro, mas os navios naufragaram em Eziom-Geber. Então Acazias, filho de Acabe de Israel, ofereceu-se para enviar seus homens com os marinheiros de Judá, mas Josafá recusou (veja <a href=\"https://ref.ly/1Kgs22:48-1Kgs22:49\">1Rs 22.48–49</a>).</p><p>O principal produto de Ofir era o ouro fino. Elifaz, o temanita, comenta que o Todo-Poderoso deve ser o ouro de alguém em vez do ouro de Ofir (<a href=\"https://ref.ly/Job22:24\">Jó 22.24</a>). O próprio Jó declara que a sabedoria é muito mais valiosa do que todo o ouro de Ofir (<a href=\"https://ref.ly/Job28:16\">28.16</a>). Em sua descrição das glórias do rei, o salmista descreve sua rainha à sua direita como usando joias do mais fino ouro de Ofir (<a href=\"https://ref.ly/Ps45:9\">Sl 45.9</a>).</p><p>Alguns sugerem que os navios de Társis mencionados (<a href=\"https://ref.ly/1Kgs10:22\">1Rs 10.22</a>) eram aqueles que iam a Ofir e retornavam a cada três anos com ouro, prata, marfim, macacos e pavões. Comerciantes traziam os produtos, alguns de lugares tão distantes quanto a Índia, para os portos de Ofir, onde os representantes de Salomão os compravam.</p>",
@@ -4557,16 +4434,16 @@
 {
 "id": "place:Ophir",
 "type": "place",
-"preferred_label": "Ofir",
-"confidence": 0.8,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Ofir"
 },
 {
 "id": "person:Ophir",
 "type": "person",
-"preferred_label": "Ofir",
 "confidence": 0.6667,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Ofir"
 }
 ]
 }
@@ -4574,10 +4451,10 @@
 {
 "content_id": "658702",
 "reference_id": 6674,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ofir (Pessoa)",
 "media_type": "Text",
-"index_reference": "ofir (pessoa)",
+"index_reference": "ofir pessoa",
 "language": "por",
 "review_level": "Professional",
 "content": "<h1>OFIR (Pessoa)</h1><p>Filho de Joctã e descendente de Sem através da linhagem de Arfaxade (<a href=\"https://ref.ly/Gen10:29\">Gn 10.29</a>; <a href=\"https://ref.ly/1Chr1:23\">1Cr 1.23</a>).</p>",
@@ -4601,9 +4478,9 @@
 {
 "id": "person:Ophir",
 "type": "person",
-"preferred_label": "Ofir",
 "confidence": 1.0,
-"match_method": "scored"
+"match_method": "content_id",
+"preferred_label": "Ofir"
 }
 ]
 }
@@ -4611,7 +4488,7 @@
 {
 "content_id": "830252",
 "reference_id": 6676,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ofni",
 "media_type": "Text",
 "index_reference": "ofni",
@@ -4628,24 +4505,16 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "place:Ophni",
-"type": "place",
-"preferred_label": "Ofni",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "830254",
 "reference_id": 6678,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ofra (Lugar)",
 "media_type": "Text",
-"index_reference": "ofra (lugar)",
+"index_reference": "ofra lugar",
 "language": "por",
 "review_level": "Professional",
 "content": "<h1>OFRA (Lugar)</h1><ol><li><p>Uma cidade na terra de Benjamim. Esta cidade provavelmente era o mesmo lugar que Efraim (<a href=\"https://ref.ly/2Sam13:23\">2Sm 13.23</a>; <a href=\"https://ref.ly/2Chr13:19\">2Cr 13.19</a>, onde é chamada de &quot;Efrom&quot;; <a href=\"https://ref.ly/John11:54\">Jo 11.54</a>). A maioria dos estudiosos acredita que esta cidade é agora a cidade chamada <em>Et-Taiyibeh</em>, que fica a oito quilômetros ao norte de Micmás e seis quilômetros e meio a nordeste de Betel.</p></li><li><p>Uma cidade em Manassés que pertencia a Joás, o abiezrita. Ele era o pai do juiz Gideão. Gideão morava nesta cidade (<a href=\"https://ref.ly/Judg6:11\">Jz 6.11</a>). Um anjo do Senhor apareceu a Gideão em Ofra. O anjo disse a Gideão para resgatar Israel dos midianitas (versículos <a href=\"https://ref.ly/Judg6:12-Judg6:24\">12–24</a>).</p><p>Após Gideão vencer a batalha, o povo quis que ele fosse rei, mas ele recusou. Em vez disso, ele fez um éfode (uma vestimenta especial usada por sacerdotes) com o ouro que havia tomado na batalha (<a href=\"https://ref.ly/Judg8:22-Judg8:28\">Jz 8.22–28</a>). Infelizmente, o povo começou a adorar esse objeto como um ídolo, o que se tornou um problema para Gideão e sua família.</p><p>Gideão morreu em Ofra como um homem idoso (versículos <a href=\"https://ref.ly/Judg8:29-Judg8:32\">29–32</a>). Mais tarde, o filho de Gideão, Abimeleque, desejou se tornar rei. Ele matou seus 70 irmãos em Ofra para poder governar. Apenas um irmão, Jotão, conseguiu escapar (<a href=\"https://ref.ly/Judg9:1-Judg9:6\">9.1–6</a>).</p></li></ol>",
@@ -4701,24 +4570,16 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "place:Ophrah.2",
-"type": "place",
-"preferred_label": "Ofra",
-"confidence": 0.6588,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "830253",
 "reference_id": 6677,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ofra (Pessoa)",
 "media_type": "Text",
-"index_reference": "ofra (pessoa)",
+"index_reference": "ofra pessoa",
 "language": "por",
 "review_level": "Professional",
 "content": "<h1>OFRA (Pessoa)</h1><p>Filho de Meonotai da tribo de Judá (<a href=\"https://ref.ly/1Chr4:14\">1Cr 4.14</a>).</p>",
@@ -4732,21 +4593,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Ophrah",
-"type": "person",
-"preferred_label": "Ofra",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "759922",
 "reference_id": 6632,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ogue",
 "media_type": "Text",
 "index_reference": "ogue",
@@ -4797,9 +4650,9 @@
 {
 "id": "person:Og",
 "type": "person",
-"preferred_label": "Ogue",
-"confidence": 0.7818,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Ogue"
 }
 ]
 }
@@ -4807,7 +4660,7 @@
 {
 "content_id": "481571",
 "reference_id": 6963,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Olaria",
 "media_type": "Text",
 "index_reference": "olaria",
@@ -4918,7 +4771,7 @@
 {
 "content_id": "831349",
 "reference_id": 209684,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oleandro",
 "media_type": "Text",
 "index_reference": "oleandro",
@@ -4934,7 +4787,7 @@
 {
 "content_id": "830419",
 "reference_id": 6964,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oleiro",
 "media_type": "Text",
 "index_reference": "oleiro",
@@ -4958,7 +4811,7 @@
 {
 "content_id": "161852",
 "reference_id": 6640,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Óleo",
 "media_type": "Text",
 "index_reference": "óleo",
@@ -5162,13 +5015,28 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.8439,
+"match_method": "scored",
+"preferred_label": "Olive Oil"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.7854,
+"match_method": "scored",
+"preferred_label": "Anointing Oil"
+}
+]
 }
 },
 {
 "content_id": "830229",
 "reference_id": 6638,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Óleo de unção",
 "media_type": "Text",
 "index_reference": "óleo de unção",
@@ -5190,9 +5058,9 @@
 {
 "id": "realia:AnointingOil",
 "type": "realia",
-"preferred_label": "Anointing Oil",
-"confidence": 0.8634,
-"match_method": "embedding"
+"confidence": 1.0,
+"match_method": "embedding",
+"preferred_label": "Anointing Oil"
 }
 ]
 }
@@ -5200,7 +5068,7 @@
 {
 "content_id": "830239",
 "reference_id": 6651,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Olimpas",
 "media_type": "Text",
 "index_reference": "olimpas",
@@ -5217,21 +5085,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Olympas",
-"type": "person",
-"preferred_label": "Olimpas",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "830237",
 "reference_id": 6648,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oliveira",
 "media_type": "Text",
 "index_reference": "oliveira",
@@ -5269,10 +5129,10 @@
 {
 "content_id": "830230",
 "reference_id": 6639,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oliveira do Paraíso, Oleastro",
 "media_type": "Text",
-"index_reference": "oliveira do paraíso, oleastro",
+"index_reference": "oliveira do paraíso oleastro",
 "language": "por",
 "review_level": "Professional",
 "content": "<h1>OLIVEIRA DO PARAÍSO, OLEASTRO</h1><p>O oleastro é uma pequena árvore eurasiática com folhas prateadas oblongas, flores esverdeadas e frutos semelhantes a azeitonas. Há alguma dúvida sobre qual árvore é mencionada em <a href=\"https://ref.ly/1Kgs6:23,1Kgs6:31-1Kgs6:33\">1 Reis 6.23,31–33</a> e <a href=\"https://ref.ly/1Chr27:28\">1 Crônicas 27.28</a> quando se referem a &quot;madeira de oliveira&quot; e &quot;oliveiras&quot;. A mesma palavra hebraica aparece em <a href=\"https://ref.ly/Isa41:19\">Isaías 41.19</a> e <a href=\"https://ref.ly/Mic6:7\">Miquéias 6.7</a>. A planta em questão é provavelmente o oleastro (<em>Elaeagnus angustifolia</em>). Ela cresce de 4,6 a 6 metros de altura. É comum em todas as partes de Israel e áreas circundantes, exceto no Vale do Jordão.</p><p>Em tempos passados, o oleastro era especialmente comum no Monte Tabor e nas áreas de Hebrom e Samaria. A madeira é dura e de grão fino, tornando-a bem adequada para esculpir imagens e figuras. O óleo que vem desta árvore é de qualidade bastante baixa. As pessoas o usam para medicina, mas não para alimentação. Este pode ser o óleo mencionado em <a href=\"https://ref.ly/Mic6:7\">Miquéias 6.7</a>.</p>",
@@ -5293,10 +5153,10 @@
 {
 "content_id": "816041",
 "reference_id": 6649,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oliveiras, Monte das",
 "media_type": "Text",
-"index_reference": "oliveiras, monte das",
+"index_reference": "oliveiras monte das",
 "language": "por",
 "review_level": "Professional",
 "content": "<h1>OLIVEIRAS, Monte das</h1><p>O Monte das Oliveiras é uma grande cordilheira que se estende de norte a sul nas montanhas da Judeia. Está localizado diretamente a leste de Jerusalém e do Vale do Cedrom. A montanha possui três picos, com dois vales entre eles. O pico norte é o Monte Scopus. Ao sul do Monte Scopus, há uma pequena crista onde passava a antiga estrada romana para Jericó. O pico central é o tradicional Monte das Oliveiras, com 818,1 metros de altura, em frente à plataforma do Templo (o <em>Haram esh-Sherif</em>).</p><h2>Lugares e características notáveis</h2><p>No ponto mais alto, o Imperador Constantino construiu uma grande igreja por volta de 325 d.C. Esta igreja foi chamada de Igreja da Ascensão, e ele a dedicou à sua mãe Helena. Ao sul desta igreja, há uma área baixa onde hoje passa a estrada para Betânia.</p><p>O pico sul olha para a parte mais antiga de Jerusalém, que já foi chamada de Cidade de Davi. Este pico tem um nome especial: o &quot;Monte da Ofensa&quot;. Recebeu esse nome porque o Rei Salomão construiu templos para os deuses de suas esposas estrangeiras lá, o que era contra os mandamentos de Deus. No sopé deste pico sul, há uma vila árabe chamada Silwan. É onde dois vales, o Vale do Cedrom e o Vale do Hinom, se encontram.</p><p>O Monte das Oliveiras recebeu seu nome das muitas oliveiras que cresciam lá. Nos tempos antigos, esses olivais eram bem conhecidos e importantes (<a href=\"https://ref.ly/Zech14:4\">Zc 14.4</a>; <a href=\"https://ref.ly/Mark11:1\">Mc 11.1</a>). O lado oeste da montanha recebe chuva do Mar Mediterrâneo. Essa chuva, combinada com o solo rico feito de rochas desintegradas, ajuda muitas árvores frutíferas a crescerem bem aqui.</p><p>O lado leste da montanha marca o início do deserto da Judeia. Duas aldeias mencionadas no Novo Testamento, Betânia e Betfagé, foram construídas nas encostas orientais da montanha.</p><h2>O Monte das Oliveiras no Antigo Testamento</h2><p>A primeira vez que o Monte das Oliveiras aparece no Antigo Testamento é em uma história sobre o Rei Davi. Davi teve que fugir de Jerusalém porque seu filho Absalão estava tentando tomar seu trono. Davi foi para o leste, subindo o Monte das Oliveiras enquanto escapava em direção ao Vale do Jordão (<a href=\"https://ref.ly/2Sam15:30\">2Sm 15.30</a>).</p><p>Mais tarde, o rei Salomão (filho de Davi) construiu &quot;lugares altos&quot; de adoração na montanha para deuses estrangeiros. Estes incluíam deuses adorados por pessoas de Sidom, Moabe e Amom (<a href=\"https://ref.ly/1Kgs11:7\">1Rs 11.7</a>). Muitos anos depois, outro rei chamado Josias destruiu esses locais de adoração porque eram contra a lei de Deus (<a href=\"https://ref.ly/2Kgs23:13\">2Rs 23.13</a>).</p><p>O profeta Ezequiel escreveu sobre a presença de Deus deixando o Templo em Jerusalém e movendo-se para o Monte das Oliveiras (<a href=\"https://ref.ly/Ezek11:23\">Ez 11.23</a>). Outro profeta, Zacarias, forneceu uma das descrições mais conhecidas do Monte das Oliveiras. Em sua visão sobre eventos futuros, ele escreveu:</p><p>&quot;Naquele dia, ele ficará de pé no Monte das Oliveiras, a leste de Jerusalém. Então um grande vale, que correrá do leste para o oeste, dividirá o Monte das Oliveiras em dois. Metade do monte se afastará para o norte, e a outra metade, para o sul&quot; (<a href=\"https://ref.ly/Zech14:1-Zech14:5\">Zc 14.1–5</a>, v. <a href=\"https://ref.ly/Zech14:4\">4</a>).</p><h2>O Monte das Oliveiras no Novo Testamento</h2><p>No Novo Testamento, a maioria das histórias sobre Jesus no Monte das Oliveiras ocorre durante a última semana de sua vida, que os cristãos chamam de Semana Santa. Existem duas histórias anteriores que aconteceram em Betânia, uma aldeia na montanha:</p><ul><li><p>Jesus visitou suas amigas Maria e Marta (<a href=\"https://ref.ly/Luke10:38-Luke10:42\">Lc 10.38–42,</a></p></li><li><p>Jesus trouxe seu amigo Lázaro de volta à vida depois que Lázaro havia morrido (<a href=\"https://ref.ly/John11:17-John11:44\">Jo 11.17–44</a><a href=\"https://ref.ly/Mark11:1-Mark11:10\">).</a></p></li></ul><p>Quando Jesus veio a Jerusalém pela última vez, ele viajou da cidade de Jericó. Ele passou pelo Monte das Oliveiras pelo lado leste e desceu para o Vale do Cedrom (<a href=\"https://ref.ly/Mark11:1-Mark11:10\">Mc 11.1–10)</a>. Este foi o dia em que as pessoas o saudaram como um rei, espalhando ramos de palmeira na estrada.</p><p>Quando Jesus desceu a montanha e viu Jerusalém, ele parou e chorou porque sabia o que aconteceria com a cidade no futuro (<a href=\"https://ref.ly/Luke19:41-Luke19:44\">Lc 19.41–44</a>).</p><p>Durante a última semana da vida de Jesus, ele passou muito do seu tempo no Monte das Oliveiras. Ele ensinava as pessoas lá durante o dia (<a href=\"https://ref.ly/Mark13:1-Mark13:37\">Mc 13</a>). À noite, ele provavelmente ficava no monte ou na vila próxima de Betânia (<a href=\"https://ref.ly/Luke21:37\">Lc 21.37</a>, embora isso possa se referir a Betânia).</p><p>Após a Santa Ceia, Jesus foi ao Monte das Oliveiras para orar (<a href=\"https://ref.ly/Mark14:26\">Mc 14.26</a>). No jardim do Getsêmani, perto de um lagar de azeite, ele foi preso (v. <a href=\"https://ref.ly/Mark14:32\">32</a>). Mais tarde, depois que Jesus ressuscitou dos mortos, ele se encontrou com seus seguidores uma última vez no Monte das Oliveiras. Enquanto eles observavam, Jesus foi elevado ao céu. Os cristãos chamam esse evento de ascensão (<a href=\"https://ref.ly/Acts1:12\">At 1.12</a>).</p>",
@@ -5404,9 +5264,9 @@
 {
 "id": "place:OlivesMount",
 "type": "place",
-"preferred_label": "Monte das Oliveiras",
 "confidence": 0.6165,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Monte das Oliveiras"
 }
 ]
 }
@@ -5414,10 +5274,10 @@
 {
 "content_id": "759924",
 "reference_id": 6669,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Om (Pessoa)",
 "media_type": "Text",
-"index_reference": "om (pessoa)",
+"index_reference": "om pessoa",
 "language": "por",
 "review_level": "Professional",
 "content": "<h1>OM (Pessoa)</h1><p>O filho de Pelete. Ele era da tribo de Rúben. Om juntou-se à rebelião de Corá contra Moisés e Arão no deserto (<a href=\"https://ref.ly/Num16:1\">Nm 16.1</a>). Esta rebelião desafiou a liderança de Moisés e Arão.</p>",
@@ -5435,9 +5295,9 @@
 {
 "id": "person:On",
 "type": "person",
-"preferred_label": "Om",
 "confidence": 1.0,
-"match_method": "scored"
+"match_method": "content_id",
+"preferred_label": "Om"
 }
 ]
 }
@@ -5445,7 +5305,7 @@
 {
 "content_id": "717205",
 "reference_id": 6653,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Omar",
 "media_type": "Text",
 "index_reference": "omar",
@@ -5478,9 +5338,9 @@
 {
 "id": "person:Omar",
 "type": "person",
-"preferred_label": "Omar",
 "confidence": 1.0,
-"match_method": "scored"
+"match_method": "content_id",
+"preferred_label": "Omar"
 }
 ]
 }
@@ -5488,7 +5348,7 @@
 {
 "content_id": "830241",
 "reference_id": 6654,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ômega",
 "media_type": "Text",
 "index_reference": "ômega",
@@ -5512,7 +5372,7 @@
 {
 "content_id": "717207",
 "reference_id": 6661,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Onã",
 "media_type": "Text",
 "index_reference": "onã",
@@ -5545,16 +5405,16 @@
 {
 "id": "person:Onam.2",
 "type": "person",
-"preferred_label": "Onã",
-"confidence": 0.76,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Onã"
 },
 {
 "id": "person:Onam",
 "type": "person",
-"preferred_label": "Onã",
-"confidence": 0.76,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Onã"
 }
 ]
 }
@@ -5562,7 +5422,7 @@
 {
 "content_id": "717208",
 "reference_id": 6662,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Onã",
 "media_type": "Text",
 "index_reference": "onã",
@@ -5607,9 +5467,9 @@
 {
 "id": "person:Onan",
 "type": "person",
-"preferred_label": "Onã",
-"confidence": 0.84,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Onã"
 }
 ]
 }
@@ -5617,7 +5477,7 @@
 {
 "content_id": "830247",
 "reference_id": 6664,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Onesíforo",
 "media_type": "Text",
 "index_reference": "onesíforo",
@@ -5640,21 +5500,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Onesiphorus",
-"type": "person",
-"preferred_label": "Onesíforo",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "830246",
 "reference_id": 6663,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Onésimo",
 "media_type": "Text",
 "index_reference": "onésimo",
@@ -5685,21 +5537,13 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Onesimus",
-"type": "person",
-"preferred_label": "Onésimo",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "830248",
 "reference_id": 6665,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Onias",
 "media_type": "Text",
 "index_reference": "onias",
@@ -5734,7 +5578,7 @@
 {
 "content_id": "717210",
 "reference_id": 6671,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ônica",
 "media_type": "Text",
 "index_reference": "ônica",
@@ -5751,13 +5595,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "fauna:Onycha",
+"type": "fauna",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Onycha"
+}
+]
 }
 },
 {
 "content_id": "830242",
 "reference_id": 6657,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Onipotência",
 "media_type": "Text",
 "index_reference": "onipotência",
@@ -5781,7 +5633,7 @@
 {
 "content_id": "830243",
 "reference_id": 6658,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Onipresença",
 "media_type": "Text",
 "index_reference": "onipresença",
@@ -5805,7 +5657,7 @@
 {
 "content_id": "830244",
 "reference_id": 6659,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Onisciência",
 "media_type": "Text",
 "index_reference": "onisciência",
@@ -5829,7 +5681,7 @@
 {
 "content_id": "717211",
 "reference_id": 6672,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ônix",
 "media_type": "Text",
 "index_reference": "ônix",
@@ -5860,7 +5712,7 @@
 {
 "content_id": "830250",
 "reference_id": 6668,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ono",
 "media_type": "Text",
 "index_reference": "ono",
@@ -5901,21 +5753,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "place:Ono",
-"type": "place",
-"preferred_label": "Ono",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "830245",
 "reference_id": 6660,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Onri",
 "media_type": "Text",
 "index_reference": "onri",
@@ -5956,38 +5800,16 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Omri.2",
-"type": "person",
-"preferred_label": "Onri",
-"confidence": 0.68,
-"match_method": "scored"
-},
-{
-"id": "person:Omri.3",
-"type": "person",
-"preferred_label": "Onri",
-"confidence": 0.68,
-"match_method": "scored"
-},
-{
-"id": "person:Omri.4",
-"type": "person",
-"preferred_label": "Onri",
-"confidence": 0.68,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "815947",
 "reference_id": 4157,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Onze, os",
 "media_type": "Text",
-"index_reference": "onze, os",
+"index_reference": "onze os",
 "language": "por",
 "review_level": "Professional",
 "content": "<h1>ONZE, Os</h1><p>Um nome usado para os discípulos de Jesus após sua ressurreição dos mortos (<a href=\"https://ref.ly/Mark16:14\">Mc 16.14</a>; <a href=\"https://ref.ly/Luke24:9,Luke24:33\">Lc 24.9,33</a>) e no festival judaico de Pentecostes (<a href=\"https://ref.ly/Acts2:14\">At 2.14</a>). Este nome foi utilizado depois que Judas Iscariotes se suicidou.</p><p><em>Veja</em> <span data-bnType=\"resourceReference\" data-resourceId=\"2838\" data-resourceType=\"TyndaleBibleDictionary\">Apóstolo, Apostolado</span>.</p>",
@@ -6033,7 +5855,7 @@
 {
 "content_id": "830228",
 "reference_id": 6635,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oolá e Oolibá",
 "media_type": "Text",
 "index_reference": "oolá e oolibá",
@@ -6086,7 +5908,7 @@
 {
 "content_id": "683052",
 "reference_id": 6637,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oolibama",
 "media_type": "Text",
 "index_reference": "oolibama",
@@ -6159,25 +5981,25 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Oholibamah",
+"id": "person:Oholibamah.2",
 "type": "person",
-"preferred_label": "Aolibama",
-"confidence": 0.7105,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Aolibama"
 },
 {
 "id": "person:Oholibamah.3",
 "type": "person",
-"preferred_label": "Aolibama",
-"confidence": 0.6305,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Aolibama"
 },
 {
-"id": "person:Oholibamah.2",
+"id": "person:Oholibamah",
 "type": "person",
-"preferred_label": "Aolibama",
-"confidence": 0.5905,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Aolibama"
 }
 ]
 }
@@ -6185,7 +6007,7 @@
 {
 "content_id": "830226",
 "reference_id": 6627,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oquina",
 "media_type": "Text",
 "index_reference": "oquina",
@@ -6208,7 +6030,7 @@
 {
 "content_id": "683062",
 "reference_id": 6974,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oração",
 "media_type": "Text",
 "index_reference": "oração",
@@ -6511,7 +6333,7 @@
 {
 "content_id": "827962",
 "reference_id": 3069,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oração de Azarias",
 "media_type": "Text",
 "index_reference": "oração de azarias",
@@ -6535,7 +6357,7 @@
 {
 "content_id": "830423",
 "reference_id": 6972,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oração de Azarias",
 "media_type": "Text",
 "index_reference": "oração de azarias",
@@ -6559,7 +6381,7 @@
 {
 "content_id": "717241",
 "reference_id": 6973,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oração de Manassés",
 "media_type": "Text",
 "index_reference": "oração de manassés",
@@ -6735,10 +6557,10 @@
 {
 "content_id": "829786",
 "reference_id": 5946,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oração do Senhor, A",
 "media_type": "Text",
-"index_reference": "oração do senhor, a",
+"index_reference": "oração do senhor a",
 "language": "por",
 "review_level": "Professional",
 "content": "<h1>ORAÇÃO DO SENHOR, A*</h1><p>Modelo de oração que Jesus deu aos seus seguidores para usarem. Existem duas versões da Oração do Senhor (<a href=\"https://ref.ly/Matt6:9-Matt6:13\">Mt 6.9–13</a>; <a href=\"https://ref.ly/Luke11:2-Luke11:4\">Lc 11.2–4</a>). A primeira está incluída no Sermão da Montanha; a segunda é a resposta de Jesus ao pedido de um discípulo para que ele os ensinasse a orar. Existem diferenças consideráveis entre as duas versões.</p><p>Alguns estudiosos dedicam bastante atenção à questão de qual é a mais antiga das duas. De modo geral, eles concluem que, na maioria dos pontos, a de Lucas é a forma mais antiga. Isso se deve em grande parte ao fato de ser mais curta, e não há razão para que alguém deixe algo de fora em uma oração tão curta quanto esta, enquanto é fácil entender por que adições podem ser feitas. Esses estudiosos geralmente sustentam que, em algumas palavras, Mateus provavelmente manteve a forma mais antiga.</p><p>Essa abordagem, no entanto, não leva em consideração o fato de que Jesus parece ter considerado a oração como um modelo, não como uma fórmula. Em Mateus, ele a introduz com as palavras “Orem assim”. Se a oração foi realmente pensada como um modelo, é improvável que fosse recitada apenas uma vez. Pelo contrário, é de se esperar que Jesus a tenha usado em várias ocasiões. E se ele realmente queria que as pessoas orassem “dessa maneira” (e não invariavelmente com essas palavras), então variações na formulação são esperadas.</p><p>Alguns escritores recentes consideram toda a oração como escatológica — ou seja, relacionada ao fim do mundo. Eles veem a petição “Venha o teu reino” como central e entendem que todas as outras petições se referem, de alguma forma, à vinda do reino. A oração sobre santificar o nome é então vista como uma oração pela destruição dos inimigos de Deus que não reverenciam sua santidade; a linha sobre o pão torna-se uma petição pelo banquete messiânico; e assim por diante. Mas isso é interpretar as palavras de uma maneira não natural. Os cristãos estão, é claro, sempre vivendo nos “últimos dias”, e não há razão para que não vejam uma aplicação das palavras de Jesus à situação escatológica. Parece muito mais provável, no entanto, que devamos entender a oração com referência à ajuda de que precisamos em nossas vidas diárias.</p><p>Pai nosso que estás no céu,</p><p>Que o teu nome seja santificado.</p><p>Venha o Teu Reino.</p><p>Que a tua vontade seja feita na terra,</p><p>como está no Céu.</p><p>Dá-nos hoje o pão nosso de cada dia.</p><p>E perdoa as nossas dívidas,</p><p>assim como perdoamos os nossos devedores.</p><p>E não nos deixe cair em tentação,</p><p>mas livra-nos do mal:</p><p>Pois teu é o reino,</p><p>e o poder,</p><p>e a glória para sempre.</p><p>Amém.</p><p>O pronome da primeira pessoa do singular não é usado em nenhum lugar na oração. Dizemos: “Pai Nosso,... dá-nos... ”. Esta oração é destinada a uma comunidade. Pode ser usada de forma proveitosa por um indivíduo, mas não é destinada como um auxílio à devoção privada. É uma oração a ser dita pelo povo de Deus; é a oração da família cristã.</p><p>Em Mateus, as palavras iniciais são &quot;Pai Nosso no céu&quot;, enquanto Lucas tem simplesmente &quot;Pai&quot;. Aqueles que oram assim são membros de uma família e veem Deus como o chefe da família, alguém que está ligado a eles por laços de amor. O &quot;no céu&quot; de Mateus destaca algo de sua dignidade, e isso também é visto na petição &quot;Santificado seja o teu nome&quot; (idêntico nos dois). Na antiguidade, &quot;o nome&quot; significava muito mais do que significa para nós. De certa forma, resumia toda a pessoa. Assim, esta petição é mais do que uma oração para que as pessoas usem o nome de Deus de forma reverente em vez de blasfema (embora isso seja importante e esteja incluído). Ela busca que as pessoas tenham uma atitude reverente em relação a tudo o que Deus representa. Elas devem ter uma humildade adequada diante de Deus, estando prontas para honrá-lo como ele é em toda a sua santidade.</p><p>“Venha o teu reino” é a petição que mais busca a atividade escatológica de Deus. Os cristãos sempre ansiaram pelo dia em que Deus derrubará os reinos desta terra e tudo se tornará o reino do nosso Senhor e do seu Cristo (<a href=\"https://ref.ly/Rev11:15\">Ap 11.15</a>). Isso está incluído no significado da petição. Mas há outro sentido em que o reino é uma realidade presente, um reino que agora está nos corações e vidas humanas. Este aspecto do reino é destacado nas palavras adicionadas na versão de Mateus, “Seja feita a tua vontade, assim na terra como no céu” (<a href=\"https://ref.ly/Matt6:10\">Mt 6.10</a>). O servo de Deus busca que o governo de Deus se torne real em mais e mais vidas.</p><p>Na petição sobre o pão, Jesus está preocupado com as necessidades materiais da vida diária. É verdade que os seguidores de Jesus não devem se preocupar com o que precisam comer e vestir (<a href=\"https://ref.ly/Matt6:25\">Mt 6.25</a>). Mas Jesus também ensinou que eles devem constantemente buscar a Deus para que essas necessidades sejam supridas (vv. <a href=\"https://ref.ly/Matt6:32-Matt6:33\">32–33</a>). A visão de que o banquete messiânico está em mente não considera o fato de que o banquete é visto como uma festa, enquanto aqui é mencionado o pão, e não algum alimento festivo. O grande problema nesta petição é o significado da palavra geralmente traduzida como “diário”. É uma palavra extremamente rara, e muitos estudiosos acreditam que foi criada pelos cristãos. Como é impossível estabelecer o significado a partir do uso, as discussões se concentram em sua derivação. Poderia significar várias coisas: “diário”, “para hoje”, “para o dia seguinte”, “para amanhã” ou “necessário”. A compreensão tradicional, “diário”, parece a mais provável. Mas, independentemente de como a traduzimos, a oração é pelas necessidades simples e presentes da vida. Jesus estava aconselhando seus seguidores a orar pelas necessidades, não pelos luxos, e pelo que é necessário agora, não por um grande estoque para muitos dias futuros. Ao limitar a petição às necessidades presentes, Jesus ensinou uma dependência diária de Deus.</p><p>A petição sobre o perdão difere ligeiramente nos dois relatos. Em Mateus é “Perdoa-nos as nossas dívidas”, enquanto Lucas tem “Perdoa-nos os nossos pecados”. Sem dúvida, é o perdão dos pecados que está em mente, mas a forma em Mateus vê o pecado como uma dívida. Devemos a Deus viver de maneira correta. Ele nos forneceu tudo o que precisamos para isso. Então, quando pecamos, nos tornamos devedores. O pecador falhou em cumprir suas obrigações, o que ele “deve”. Mateus continua dizendo, “assim como nós também perdoamos aos nossos devedores”, e Lucas, “pois nós mesmos perdoamos a todos os que nos devem”. O tempo em Mateus indica que a pessoa que ora não está apenas pronta para perdoar, mas já perdoou aqueles que pecaram contra ela; em Lucas, que ele habitualmente perdoa. Além disso, ele faz isso no caso de cada devedor.</p><p>Em nenhuma forma da oração está implícito que o perdão humano conquista o perdão de Deus. O NT deixa claro que Deus perdoa por causa de sua misericórdia, demonstrada na morte de Cristo por nós na cruz. Nada que fazemos pode merecer perdão. Há também o pensamento de que aqueles que buscam perdão devem demonstrar um espírito perdoador. Como podemos reivindicar o perdão de nossos pecados se não perdoamos os outros que pecam contra nós?</p><p>Há uma disputa quanto ao significado preciso da petição tradicionalmente traduzida como “não nos deixes cair em tentação”. Alguns preferem uma tradução como “não nos submetas à prova”. A palavra geralmente entendida como “tentação” às vezes significa uma prova ou um teste. Mas é o tipo de teste em que o maligno se envolve, testando com a intenção de falhar. É, portanto, a palavra normal a ser usada quando se tem em mente a tentação. Se toda a oração deve ser entendida escatologicamente, então “não nos submetas à prova” é sem dúvida a forma como essa petição deve ser interpretada. O grande tempo de provação que vem com a ascensão do mal nos últimos dias é algo do qual todo cristão naturalmente se afasta, e a oração expressaria isso. Mas é muito mais provável que a oração se refira à vida aqui e agora. Mesmo assim, pode significar “prova severa”, e alguns estudiosos preferem isso. Eles acham que Jesus estava aconselhando seus seguidores a orar por uma vida tranquila na qual não enfrentariam infortúnios sérios. Mas uma oração para ser livrado da tentação é muito mais provável. Os cristãos conhecem sua fraqueza e prontidão para pecar, então oram para serem mantidos longe da tentação de se desviar. É verdade que Deus não tenta as pessoas (<a href=\"https://ref.ly/Jas1:13\">Tg 1.13</a>). Mas também é verdade que é importante para o crente evitar o mal. Não se deve ver quão perto de pecar se pode chegar sem realmente fazê-lo, mas deve-se manter o mais longe possível disso (cf., e.g., <a href=\"https://ref.ly/1Cor6:18\">1Co 6.18</a>; <a href=\"https://ref.ly/1Cor10:14\">10.14</a>).</p><p>Mateus acrescenta: “mas livra-nos do mal” (como fazem alguns manuscritos de Lucas). Este é um desenvolvimento adicional da oração recém-oferecida. Há incerteza quanto a se a última palavra significa “mal” de forma geral ou “o maligno”. Qualquer significado é possível. Os cristãos oram para que não sejam tentados, o que naturalmente leva ao pensamento de que não se tornem presas do mal ou que sejam livres da dominação do diabo. É a orientação geral do ensino de Jesus que deve decidir o ponto, não a linguagem precisa usada aqui.</p><p>É aqui que a oração termina em Lucas e nos manuscritos mais antigos de Mateus. Poucos duvidariam que aqui é onde a oração terminou no ensinamento de nosso Senhor. Mas muitos manuscritos, alguns deles bastante antigos, acrescentam as palavras familiares, “pois teu é o reino, o poder e a glória para sempre”. Este é o tipo de doxologia frequentemente encontrada em orações na antiguidade, tanto judaicas (cf. <a href=\"https://ref.ly/1Chr29:11\">1Cr 29.11</a>) quanto cristãs. Os primeiros cristãos usavam a Oração do Senhor nos cultos e, sem dúvida, acharam esta uma maneira esplêndida de terminá-la. Com o tempo, o que era tão aceitável no culto encontrou seu caminho em alguns dos manuscritos. Podemos muito bem continuar a terminar a oração desta forma. É bom lembrar que toda soberania, poder e glória últimos pertencem a Deus para sempre. Mas não devemos ver isso como parte da oração que Jesus ensinou seus seguidores a usar.</p><p><em>Veja também</em> <span data-bnType=\"resourceReference\" data-resourceId=\"6974\" data-resourceType=\"TyndaleBibleDictionary\">Oração</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"7406\" data-resourceType=\"TyndaleBibleDictionary\">Sermão do Monte</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"8262\" data-resourceType=\"TyndaleBibleDictionary\">Adoração</span>.</p>",
@@ -6834,7 +6656,7 @@
 {
 "content_id": "759925",
 "reference_id": 6679,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oráculo",
 "media_type": "Text",
 "index_reference": "oráculo",
@@ -6967,16 +6789,24 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Utterance",
+"type": "keyterm",
+"confidence": 0.8,
+"match_method": "scored",
+"preferred_label": "Utterance"
+}
+]
 }
 },
 {
 "content_id": "828430",
 "reference_id": 3785,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ordem, Mandamento",
 "media_type": "Text",
-"index_reference": "ordem, mandamento",
+"index_reference": "ordem mandamento",
 "language": "por",
 "review_level": "Professional",
 "content": "<h1>ORDEM, MANDAMENTO</h1><p><em>Veja</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3787\" data-resourceType=\"TyndaleBibleDictionary\">Mandamento, o Novo</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"3786\" data-resourceType=\"TyndaleBibleDictionary\">Mandamentos, os Dez</span>.</p>",
@@ -7004,10 +6834,10 @@
 {
 "content_id": "124398",
 "reference_id": 6680,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ordenar, Ordenação",
 "media_type": "Text",
-"index_reference": "ordenar, ordenação",
+"index_reference": "ordenar ordenação",
 "language": "por",
 "review_level": "Professional",
 "content": "<h1>ORDENAR, ORDENAÇÃO</h1><p>O ato de investir, atribuir oficialmente alguém com autoridade religiosa. Vários sinônimos são “nomear”, “instituir”, “preparar” e “determinar”. No uso atual, as palavras “ordenar” e “ordenação” são aplicadas a pessoas, significando seleção e nomeação para o serviço de Deus.</p><h2>No Antigo Testamento</h2><p>Em todo o AT, a ênfase recai sobre a escolha e designação de Deus a quem ele quer. As funções sacerdotais passaram muito cedo do chefe de cada casa para a tribo divinamente escolhida de Levi (<a href=\"https://ref.ly/Deut33:8-Deut33:11\">Dt 33.8–11</a>; <a href=\"https://ref.ly/Judg17:13\">Jz 17.13</a>). Através de todas as subsequentes rivalidades entre clãs — “Zadoqueus”, “Aarônico”, “Asmoneus” — esta reivindicação de privilégio herdado persistiu. A nomeação divina através de Levi remonta a Moisés (<a href=\"https://ref.ly/Exod4:14\">Êx 4.14</a>; <a href=\"https://ref.ly/Exod28:41\">28.41</a>; <a href=\"https://ref.ly/Exod29:9\">29.9</a>), reivindicada para o efraimita Samuel (<a href=\"https://ref.ly/1Chr6:28\">1Cr 6.28</a>), e ainda celebrada por Siraque <a href=\"https://ref.ly/Sir45:6-Sir45:22\">Eclo 45.6–22</a>, ca. 180 a.C.). . Como o livro de Hebreus afirma (<a href=\"https://ref.ly/Heb5:1\">Hb 5.1, 4</a>), ninguém toma a honra para si; ele é “chamado por Deus, como Arão foi”, por nascimento para um status herdado.</p><p>Os primeiros levitas foram apresentados no tabernáculo na presença do povo, e reconhecidos pela “imposição das mãos” (<a href=\"https://ref.ly/Num8:10\">Nm 8.10, 14–18</a>). Da mesma forma, Moisés recebeu instruções para a consagração de Arão e seus filhos, com duração de uma semana, com elaborados sacrifícios, vestimentas, unção e cerimônias rituais. (<a href=\"https://ref.ly/Exod29:1-Exod29:46\">Êx 29</a>; <a href=\"https://ref.ly/Lev8:1-Lev8:36\">Lv 8</a>). Em ambos os casos, a preservação cuidadosa dessas instruções detalhadas sugere que as cerimônias foram mantidas, em algum grau, nos anos posteriores, embora nenhuma repetição seja registrada.</p><p>Ao lado dos sacerdotes, existiam estabelecimentos de&nbsp;profetas reconhecidos, ou comunidades proféticas, às vezes com patrocínio real (<a href=\"https://ref.ly/1Sam10:5\">1Sm 10.5</a>; <a href=\"https://ref.ly/1Kgs1:9-1Kgs1:10\">1Rs 1.9–10</a>; <a href=\"https://ref.ly/1Kgs18:17-1Kgs18:19\">18.17–19</a>; <a href=\"https://ref.ly/1Kgs20:35\">20.35</a>; <a href=\"https://ref.ly/1Kgs22:5-1Kgs22:28\">22.5–28</a>; <a href=\"https://ref.ly/2Kgs2:3-2Kgs2:7\">2Rs 2.3–7</a>; <a href=\"https://ref.ly/2Kgs23:2\">23.2</a>). A linhagem de profecia também remonta até os primeiros dias (ver <a href=\"https://ref.ly/Gen20:7\">Gn 20.7</a>; <a href=\"https://ref.ly/Deut34:10\">Dt 34.10</a>; <a href=\"https://ref.ly/Judg4:4\">Jz 4.4</a>; <a href=\"https://ref.ly/Jer7:25\">Jr 7.25</a>). A frase “filhos dos profetas”, e uma sugestão pouco clara em <a href=\"https://ref.ly/Jer35:4\">Jr 35.4</a>, podem implicar que a profecia, assim como o sacerdócio, às vezes era hereditária, mas a forma de nomeação e atribuição é desconhecida. Os profetas notáveis opunham-se frequentemente às “escolas” proféticas (Elias, <a href=\"https://ref.ly/1Kgs17:1-1Kgs17:24\">1Rs 17</a>; Micaías, <a href=\"https://ref.ly/1Kgs22:5-1Kgs22:28\">1Rs 22.5–28</a>; Jeremias, <a href=\"https://ref.ly/Jer27:14-Jer27:16\">Jr 27.14–16</a>; <a href=\"https://ref.ly/Jer28:1-Jer28:17\">28</a>). Esses homens foram nomeados por chamado direto e divino (<a href=\"https://ref.ly/1Kgs17:1\">1Rs 17.1</a>; <a href=\"https://ref.ly/1Kgs21:17\">21.17</a>; <a href=\"https://ref.ly/Isa6:1-Isa6:13\">Is 6</a>; <a href=\"https://ref.ly/Jer1:1-Jer1:19\">Jr 1</a>; <a href=\"https://ref.ly/Amos7:15\">Am 7.15</a>), embora pela instrução de Deus, Eliseu tenha sido chamado e ungido por Elias (<a href=\"https://ref.ly/1Kgs19:16\">1Rs 19.16</a>; cf. <a href=\"https://ref.ly/Isa61:1\">Is 61.1</a>). A autenticação da mensagem do profeta não reside em cerimônias de atribuição apropriadas, mas em sua verdade autoevidente; no caso das previsões, em sua realização (<a href=\"https://ref.ly/1Kgs22:13-1Kgs22:14\">1Rs 22.13–14, 26–28</a>; <a href=\"https://ref.ly/Jer28:5-Jer28:9\">Jr 28.5–9</a>).</p><h2>No Novo Testamento</h2><p>A ordenação cristã também é uma questão de escolha divina. Nem Jesus, nem qualquer discípulo, veio das classes religiosas profissionais. Ao ordenar os 12 apóstolos, Jesus chamou para si aqueles a quem ele desejava, mais tarde insistindo. “Não foram vocês que me escolheram; pelo contrário, fui eu que os escolhi” (<a href=\"https://ref.ly/John15:16\">Jo 15.16</a>). A escolha de Matias baseava-se em oração e na sorte divina (<a href=\"https://ref.ly/Acts1:24-Acts1:26\">At 1.24–26</a>). Paulo argumentou que ele havia sido separado por Deus antes de nascer e não recebeu seu apostolado da parte de homens ou através deles (<a href=\"https://ref.ly/Gal1:1\">Gl 1.1, 15</a>). Paulo e Barnabé foram comissionados pela direção do Espírito durante a adoração, provavelmente por um profeta cristão. Da mesma forma, Timóteo foi primeiro escolhido como assistente de Paulo por declarações proféticas que apontavam para ele (<a href=\"https://ref.ly/1Tim1:18\">1Tm 1.18</a>; <a href=\"https://ref.ly/1Tim4:14\">4.14</a>).</p><p>Em Corinto, vários ministérios de proclamação, ensino, cura e administração foram diretamente conferidos como dons do Espírito, que reparte como lhe convém (<a href=\"https://ref.ly/1Cor12:8-1Cor12:11\">1Co 12.8–11, 28</a>; cf. <a href=\"https://ref.ly/Eph4:11\">Ef 4.11</a>). Os anciãos da igreja em Éfeso foram feitos guardiões do rebanho pelo Espírito Santo (<a href=\"https://ref.ly/Acts20:28\">At 20.28</a>). A prerrogativa divina está em todos os lugares da maneira clara: qualquer tentativa de obter o privilégio do ministério por iniciativa pessoal e meios indignos encontra a mais severa condenação (<a href=\"https://ref.ly/Acts8:18-Acts8:24\">8.18–24</a>).</p><p>Por outro lado, a igreja reunida “nomeou” Barnabé e Matias antes de submeter a escolha final a Deus (<a href=\"https://ref.ly/Acts1:15\">At 1.15, 23</a>). Os crentes escolheram os sete servidores, então os apresentaram aos apóstolos (<a href=\"https://ref.ly/Acts6:2-Acts6:6\">6.2–6</a>). Uma igreja reunida, sob o comando do Espírito, comissionou e enviou Paulo e Barnabé (<a href=\"https://ref.ly/Acts13:3\">13.3</a>). Os próprios Paulo e Barnabé nomearam anciãos (<a href=\"https://ref.ly/Acts14:23\">14.23</a>), como Tito é instruído a fazer (<a href=\"https://ref.ly/Titus1:5\">Tt 1.5</a>), e provavelmente Timóteo também (<a href=\"https://ref.ly/1Tim5:22\">1Tm 5.22</a>). Os anciãos em Listra e Icônio, juntamente com Paulo, obedecendo a um profeta cristão, nomearam Timóteo para a liderança (<a href=\"https://ref.ly/1Tim4:14\">1Tm 4.14</a>; <a href=\"https://ref.ly/2Tim1:6\">2Tm 1.6</a>). No momento em que as cartas foram escritas a Timóteo e Tito, listas elaboradas de qualificações eram necessárias para os líderes da igreja (<a href=\"https://ref.ly/1Tim3:1-1Tim3:13\">1Tm 3.1–13</a>; <a href=\"https://ref.ly/2Tim2:2\">2Tm 2.2</a>).</p><p>A congregação dos crentes também participou na seleção dos líderes. Isso poderia ter envolvido oração, jejum e sorteio (<a href=\"https://ref.ly/Acts1:26\">At 1.26</a>; <a href=\"https://ref.ly/Acts6:6\">6.6</a>; <a href=\"https://ref.ly/Acts13:2-Acts13:3\">13.2–3</a>; <a href=\"https://ref.ly/Acts14:23\">14.23</a>); às vezes “seleção através das mãos” (grego, <em>cheirotonein</em>, originalmente significa “eleição levantando as mãos”, mais tarde “seleção apontando para”; cf. <a href=\"https://ref.ly/Acts14:23\">At 14.23</a>; <a href=\"https://ref.ly/2Cor8:19\">2Co 8.19</a>); e às vezes seleção por escolha do grupo (<a href=\"https://ref.ly/Acts1:15\">At 1.15, 23</a>; <a href=\"https://ref.ly/Acts6:2-Acts6:5\">6.2–5</a>; <a href=\"https://ref.ly/Acts13:3\">13.3</a>; <a href=\"https://ref.ly/Acts16:2\">16.2</a>; <a href=\"https://ref.ly/1Tim4:14\">1Tm 4.14</a>).</p><p><em>Ver também</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4459\" data-resourceType=\"TyndaleBibleDictionary\">Preordenação</span>.</p>",
@@ -7419,7 +7249,7 @@
 {
 "content_id": "806253",
 "reference_id": 6682,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Orebe",
 "media_type": "Text",
 "index_reference": "orebe",
@@ -7464,9 +7294,9 @@
 {
 "id": "person:Oreb",
 "type": "person",
-"preferred_label": "Orebe",
-"confidence": 0.92,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Orebe"
 }
 ]
 }
@@ -7474,10 +7304,10 @@
 {
 "content_id": "830255",
 "reference_id": 6681,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Orebe, Pedra de",
 "media_type": "Text",
-"index_reference": "orebe, pedra de",
+"index_reference": "orebe pedra de",
 "language": "por",
 "review_level": "Professional",
 "content": "<h1>OREBE, Pedra de</h1><p>Local onde os efraimitas mataram o chefe midianita Orebe (<a href=\"https://ref.ly/Judg7:25\">Jz 7.25</a>; <a href=\"https://ref.ly/Isa10:26\">Is 10.26</a>). <em>Veja</em> <span data-bnType=\"resourceReference\" data-resourceId=\"6682\" data-resourceType=\"TyndaleBibleDictionary\">Orebe</span>.</p>",
@@ -7505,21 +7335,13 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Oreb",
-"type": "person",
-"preferred_label": "Orebe",
-"confidence": 0.7885,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "830256",
 "reference_id": 6683,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Orém",
 "media_type": "Text",
 "index_reference": "orém",
@@ -7536,21 +7358,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Oren",
-"type": "person",
-"preferred_label": "Orém",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "830260",
 "reference_id": 6688,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Orfa",
 "media_type": "Text",
 "index_reference": "orfa",
@@ -7575,21 +7389,13 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Orpah",
-"type": "person",
-"preferred_label": "Orfa",
-"confidence": 0.6571,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "717212",
 "reference_id": 6689,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Órfão",
 "media_type": "Text",
 "index_reference": "órfão",
@@ -7822,7 +7628,7 @@
 {
 "content_id": "658704",
 "reference_id": 6684,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Órgão",
 "media_type": "Text",
 "index_reference": "órgão",
@@ -7871,7 +7677,7 @@
 {
 "content_id": "759946",
 "reference_id": 6981,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Orgulho",
 "media_type": "Text",
 "index_reference": "orgulho",
@@ -8110,16 +7916,24 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.8251,
+"match_method": "embedding",
+"preferred_label": "Glory"
+}
+]
 }
 },
 {
 "content_id": "828598",
 "reference_id": 4085,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oriente, Filhos do",
 "media_type": "Text",
-"index_reference": "oriente, filhos do",
+"index_reference": "oriente filhos do",
 "language": "por",
 "review_level": "Professional",
 "content": "<h1>ORIENTE*, Filhos do</h1><p>Frase usada em referência às nações que estavam a oriente de Israel (e.g., <a href=\"https://ref.ly/Judg6:3\">Jz 6.3</a>, ARC “os do Oriente”). </p><p><em>Veja</em> <span data-bnType=\"resourceReference\" data-resourceId=\"6820\" data-resourceType=\"TyndaleBibleDictionary\">Pessoas do Oriente</span>.</p>",
@@ -8141,28 +7955,13 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Israel",
-"type": "person",
-"preferred_label": "Israel",
-"confidence": 0.607,
-"match_method": "scored"
-},
-{
-"id": "group:Israel",
-"type": "group",
-"preferred_label": "Israelites",
-"confidence": 0.598,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "830257",
 "reference_id": 6685,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Órion",
 "media_type": "Text",
 "index_reference": "órion",
@@ -8205,7 +8004,7 @@
 {
 "content_id": "830258",
 "reference_id": 6686,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ornã",
 "media_type": "Text",
 "index_reference": "ornã",
@@ -8230,21 +8029,13 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Ornan",
-"type": "person",
-"preferred_label": "Ornã",
-"confidence": 0.85,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "830259",
 "reference_id": 6687,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Orontes",
 "media_type": "Text",
 "index_reference": "orontes",
@@ -8309,7 +8100,7 @@
 {
 "content_id": "830261",
 "reference_id": 6690,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ortosia",
 "media_type": "Text",
 "index_reference": "ortosia",
@@ -8332,7 +8123,7 @@
 {
 "content_id": "682905",
 "reference_id": 3995,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Orvalho",
 "media_type": "Text",
 "index_reference": "orvalho",
@@ -8427,7 +8218,7 @@
 {
 "content_id": "815904",
 "reference_id": 3548,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Os Césares",
 "media_type": "Text",
 "index_reference": "os césares",
@@ -8649,7 +8440,7 @@
 {
 "content_id": "759818",
 "reference_id": 5089,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oseias",
 "media_type": "Text",
 "index_reference": "oseias",
@@ -8744,11 +8535,32 @@
 ],
 "acai": [
 {
-"id": "person:Hosea",
+"id": "person:Hoshea.2",
 "type": "person",
-"preferred_label": "Oseias",
 "confidence": 1.0,
-"match_method": "embedding"
+"match_method": "content_id",
+"preferred_label": "Hoshea"
+},
+{
+"id": "person:Hoshea.3",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Hoshea"
+},
+{
+"id": "person:Joshua.2",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Josué"
+},
+{
+"id": "person:Hoshea",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Hoshea"
 }
 ]
 }
@@ -8756,7 +8568,7 @@
 {
 "content_id": "759926",
 "reference_id": 6691,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oseias",
 "media_type": "Text",
 "index_reference": "oseias",
@@ -8789,50 +8601,11 @@
 ],
 "acai": [
 {
-"id": "person:Hosea",
+"id": "person:Joshua.2",
 "type": "person",
-"preferred_label": "Oseias",
-"confidence": 1.0,
-"match_method": "embedding"
-}
-]
-}
-},
-{
-"content_id": "829225",
-"reference_id": 5086,
-"version": "1.0.2",
-"title": "Oseias (Pessoa)",
-"media_type": "Text",
-"index_reference": "oseias (pessoa)",
-"language": "por",
-"review_level": "Professional",
-"content": "<h1>OSEIAS (Pessoa)</h1><p>Profeta do antigo Israel cuja esfera de atividade era o reino do norte. Pouco se sabe sobre ele além do livro profético que leva seu nome. Seu ministério profético é melhor situado no terceiro quarto do oitavo século a.C. Seu nome significa &quot;ajuda&quot; ou &quot;auxiliador&quot;, e é baseado na palavra hebraica para salvação.</p><p>A evidência para situar Oseias no reino do norte é basicamente interna. O livro se concentra principalmente nas tribos do norte, que ele frequentemente identifica como &quot;Efraim&quot;, uma denominação comum para o reino do norte. Além disso, o dialeto do hebraico em que o livro foi escrito parece ter características do norte.</p><p>As circunstâncias em torno do casamento de Oseias servem como catalisador para sua mensagem profética. Ele foi ordenado por Deus a se casar com Gômer, que aparentemente era uma prostituta; seu casamento forneceu uma analogia com Israel, que era culpado de adultério espiritual.</p><p>Os estudiosos divergem quanto à interpretação deste relato controverso, mas há poucas razões para duvidar de que foi um evento literal. O ato de sacrifício envolvido na obediência de Oseias a Deus forma uma imagem maravilhosa do amor sacrificial de Deus pela humanidade.</p><p><em>Veja também</em> <span data-bnType=\"resourceReference\" data-resourceId=\"5085\" data-resourceType=\"TyndaleBibleDictionary\">Oseias, Livro de</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"6999\" data-resourceType=\"TyndaleBibleDictionary\">Profeta, Profetisa</span>.</p>",
-"associations": {
-"passage": [],
-"resource": [
-{
-"reference_id": 5085,
-"content_id": 682962,
-"resource_code": "TyndaleBibleDictionary",
-"label": "Oseias, Livro de",
-"language": "por"
-},
-{
-"reference_id": 6999,
-"content_id": 161859,
-"resource_code": "TyndaleBibleDictionary",
-"label": "Profeta, Profetisa",
-"language": "por"
-}
-],
-"acai": [
-{
-"id": "person:Hosea",
-"type": "person",
-"preferred_label": "Oseias",
-"confidence": 1.0,
-"match_method": "embedding"
+"confidence": 0.85,
+"match_method": "scored",
+"preferred_label": "Josué"
 }
 ]
 }
@@ -8840,10 +8613,10 @@
 {
 "content_id": "682962",
 "reference_id": 5085,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oseias, Livro de",
 "media_type": "Text",
-"index_reference": "oseias, livro de",
+"index_reference": "oseias livro de",
 "language": "por",
 "review_level": "Professional",
 "content": "<h1>OSEIAS, Livro de</h1><p>Oseias é o primeiro dos 12 profetas menores na ordem tradicional dos livros do Antigo Testamento. Foi escrito no final do século VIII a.C.</p><p>Oseias profetizou para o reino do norte de Israel durante seus últimos anos. Ele foi o único profeta que viveu e pregou no reino do norte. Deus escolheu Oseias para expor o abandono generalizado da fé e a corrupção naquele lugar. Oseias instou seus concidadãos a se arrependerem (pararem de fazer o mal) e voltarem para Deus. Através de sua própria vida, ele mostrou o amor fiel e inquebrável que Deus tinha por Israel.</p><h2>Resumo</h2><ul><li><p>Quem escreveu o Livro de Oseias?</p></li><li><p>O Livro de Oseias é autêntico?</p></li><li><p>Qual é a história do Livro de Oseias?</p></li><li><p>Quando o Livro de Oseias foi escrito?</p></li><li><p>Onde o Livro de Oseias foi escrito? Para quem ele foi destinado?</p></li><li><p>Por que o Livro de Oseias foi escrito?</p></li><li><p>Qual é o tema do Livro de Oseias?</p></li><li><p>Qual é a mensagem do livro de Oseias?</p></li></ul><h2>Quem escreveu o Livro de Oseias?</h2><p>O ministério de Oseias durou pelo menos 38 anos, aproximadamente de 753 a 715 a.C. Ele parecia ser conhecedor, independentemente de ser um camponês ou de pertencer a uma classe rica em Israel.</p><p>O casamento de Oseias com a prostituta Gomer provavelmente foi controverso em sua época. Também gerou grande controvérsia entre estudantes e comentaristas da Bíblia. É mais adequado entender que Gomer era uma prostituta bem conhecida. Oseias foi ordenado a se casar com ela como um símbolo da infidelidade de Israel e do amor inabalável de Deus.</p><h2>O Livro de Oseias é autêntico?</h2><p>A maioria dos estudiosos concorda com a autenticidade e unidade de Oseias. No entanto, existem duas áreas de controvérsia:</p><ol><li><p>As passagens que mencionam Judá (por exemplo, <a href=\"https://ref.ly/Hos1:1,Hos1:7,Hos1:11\">Os 1.1,7,11</a>; <a href=\"https://ref.ly/Hos4:15\">4.15</a>; <a href=\"https://ref.ly/Hos5:5,Hos5:10-Hos5:14\">5.5,10–14</a>; <a href=\"https://ref.ly/Hos6:4,Hos6:11\">6.4,11</a>; <a href=\"https://ref.ly/Hos8:14\">8.14</a>; <a href=\"https://ref.ly/Hos11:12\">11.12</a>; <a href=\"https://ref.ly/Hos12:2\">12.2</a>)</p></li><li><p>As seções que falam sobre bênçãos futuras ou libertação nacional (por exemplo, <a href=\"https://ref.ly/Hos11:8-Hos11:11\">Os 11.8–11</a>; <a href=\"https://ref.ly/Hos14:2-Hos14:9\">14.2–9</a>)</p></li></ol><p>As menções de Oseias a Judá são compreensíveis. Ele era um homem de Deus, perturbado pela separação de Israel da legítima linhagem davídica. O reino do norte, liderado por reis ímpios, enfrentou o julgamento de Deus. Oseias havia recebido uma visão divina sobre os planos de Deus para Judá e Israel.</p><p>As bênçãos futuras e a libertação de Israel não anulam a condenação dos pecados de Israel. Isso é semelhante ao amor e à reconciliação de Oseias com a infiel Gomer, que não apagam seus erros. Restauração e perdão não significam ignorar a culpa.</p><h2>Qual é a história do Livro de Oseias?</h2><p>Oseias viveu durante os tempos prósperos do reino do norte de Israel sob o rei Jeroboão II, de 793 a 753 a.C. Ele também testemunhou sua derrota e a deportação do povo após a invasão assíria em 722 a.C.</p><p><a href=\"https://ref.ly/Hos1:1\">Oséias 1.1</a> menciona estes reis de Judá:</p><ul><li><p>Uzias</p></li><li><p>Jotão</p></li><li><p>Acaz</p></li><li><p>Ezequias</p></li></ul><p>Este versículo também menciona dois reis de Israel:</p><ul><li><p>Joás</p></li><li><p>Jeroboão</p></li></ul><p>Uzias governou simultaneamente com Joás e Jeroboão. Acaz era o rei de Judá quando a Assíria capturou Israel. Ezequias pode ter governado junto com Acaz durante o cativeiro assírio.</p><p>Jeroboão governou Israel por 41 anos, seguindo os caminhos malignos de seu pai, Nebate (<a href=\"https://ref.ly/2Kgs14:23-2Kgs14:24\">2Rs 14.23–24</a>). Embora Israel tenha prosperado durante o reinado de Jeroboão, a corrupção governamental e o declínio espiritual prepararam o cenário para futuros tumultos, abrindo caminho para a queda de Israel. Os ricos proprietários de terras, incluindo o rei, oprimiram os camponeses, forçando os proprietários de terras de classe baixa a se mudarem das fazendas para as cidades. Esses problemas sociais logo levaram à corrupção generalizada em Israel. A anarquia resultou desses tempos (<a href=\"https://ref.ly/Hos4:1-Hos4:2\">Os 4.1–2</a>; <a href=\"https://ref.ly/Hos7:1-Hos7:7\">7.1–7</a>; <a href=\"https://ref.ly/Hos8:3-Hos8:4\">8.3–4</a>; <a href=\"https://ref.ly/Hos9:15\">9.15</a>).</p><h2>Quando o Livro de Oseias foi escrito?</h2><p>Oseias iniciou seu trabalho como mensageiro de Deus durante o reinado de Jeroboão II, de 793 a 753 a.C., e continuou até o reinado de Ezequias de Judá, de 715 a 686 a.C.</p><p>Vários fatores sugerem que Oseias continuou a profetizar durante o reinado de Oséias de Israel, de 732 a 722 a.C.:</p><ol><li><p>&quot;Salmã&quot; (<a href=\"https://ref.ly/Hos10:14\">Os 10.14</a>) pode ser Salmaneser da Assíria, que invadiu Israel no início do reinado de Oseias (<a href=\"https://ref.ly/2Kgs17:3\">2Rs 17.3</a>)</p></li><li><p>&quot;Jarebe&quot; (<a href=\"https://ref.ly/Hos5:13\">Os 5.13</a>; <a href=\"https://ref.ly/Hos10:6\">10.6</a>; ambos da versão ARC) pode se referir a Sargão II, que governou de 722 a 705 a.C.</p></li><li><p>As previsões da invasão assíria parecem descrever um evento prestes a acontecer (<a href=\"https://ref.ly/Hos10:5-Hos10:6\">Os 10.5–6</a>; <a href=\"https://ref.ly/Hos13:15-Hos13:16\">13.15–16</a>)</p></li><li><p>As menções ao Egito e à dependência de Israel dessa nação parecem corresponder ao reinado de Oseias (<a href=\"https://ref.ly/Hos7:11\">Os 7.11</a>; <a href=\"https://ref.ly/Hos11:11\">11.11</a>)</p></li></ol><p>Esses fatores sugerem que as mensagens de Oseias foram reunidas próximo à queda de Israel em 722 a.C..</p><h2>Onde o Livro de Oseias foi escrito? Para quem foi escrito?</h2><p>Oseias profetizou enquanto vivia em Israel. Ele chama o rei em Samaria de &quot;nosso rei&quot; (<a href=\"https://ref.ly/Hos7:5\">Os 7.5</a>). Suas descrições de Israel mostram que ele conhecia bem a geografia do reino do norte. Oseias menciona Gileade como se tivesse visto a área ele mesmo (<a href=\"https://ref.ly/Hos6:8\">Os 6.8</a>; <a href=\"https://ref.ly/Hos12:11\">12.11</a>). Oseias foi provavelmente o único profeta do reino do norte que viveu lá durante todo o seu ministério.</p><h2>Por que o Livro de Oseias foi escrito?</h2><p>Oseias disse a Israel para se arrepender e voltar para Deus. Ele descreveu o Deus de Israel como paciente e amoroso, sempre fiel às suas promessas. Este foco é típico de Oseias (veja <a href=\"https://ref.ly/Hos2:19\">Os 2.19</a>).</p><p>&quot;Devoção amorosa&quot; é a expressão que melhor representa o amor fiel de Yahweh. A vida familiar de Oseias foi um símbolo dessa devoção amorosa.</p><h2>Qual é o tema do Livro de Oseias?</h2><p>As principais seções e tópicos do livro de Oseias são apresentados da seguinte forma.</p><h3>Capítulos 1–3</h3><p>Os primeiros três capítulos de Oseias concentram-se na vida de Oseias. Eles destacam sua fidelidade e amor por sua esposa infiel.</p><p>Deus disse a Oseias para se casar com a prostituta Gomer e ter filhos com ela (<a href=\"https://ref.ly/Hos1:2-Hos3:5\">Os 1.2–3.5</a>). Este comando intrigou alguns comentaristas porque sacerdotes e profetas em Israel não se casavam com prostitutas. Escritores judeus medievais viam essa história como simbólica, mas não histórica. Alguns estudiosos posteriores viam uma diferença entre <a href=\"https://ref.ly/Hos1:1-Hos1:11\">Oseias 1</a> e <a href=\"https://ref.ly/Hos3:1-Hos3:5\">3</a>, considerando o último como o relato pessoal de Oseias sobre seu casamento, enquanto o primeiro capítulo era visto como memórias gerais de seus primeiros dias como profeta. Outros comentaristas acreditavam que ambos os capítulos eram fatos literais, enquanto alguns estudiosos pensavam que <a href=\"https://ref.ly/Hos1:1-Hos1:11\">Oseias 1</a> era histórico e <a href=\"https://ref.ly/Hos3:1-Hos3:5\">Oseias 3</a> era a interpretação alegórica (não literal) de Oseias sobre o casamento.</p><p>As atividades sexuais de Gomer foram amplamente discutidas. Existem duas visões principais:</p><ol><li><p>Gomer foi uma esposa fiel a Oseias no início do casamento. A frase “uma prostituta como sua esposa” (<a href=\"https://ref.ly/Hos1:2\">Os 1.2</a>) refere-se à sua natureza pecaminosa e rebelde. Deus mais tarde expôs isso para mostrar a idolatria de Israel.</p></li><li><p>Gomer era uma conhecida prostituta com quem Oseias foi instruído a se casar para ilustrar a idolatria de Israel e o amor fiel de Deus. Esta segunda visão atrai mais os estudiosos evangélicos e é a interpretação mais simples dentro de um quadro bíblico literal, gramatical e histórico.</p></li></ol><p>A razão pela qual Oseias precisou resgatá-la não está clara. Também é desconhecido por que o pagamento foi parcialmente em grãos e parcialmente em dinheiro. Esta transação pode simbolizar a futura libertação de Israel do exílio por Deus. No entanto, as dez tribos do norte não retornaram do exílio na Assíria. Esta interpretação provavelmente não se aplica a Judá, já que a mensagem de Oseias não era para o reino do sul, embora Judá tenha recebido um aviso (<a href=\"https://ref.ly/Hos6:11\">Os 6.11</a>).</p><p>Os filhos nascidos de Oseias e Gomer receberam nomes simbólicos. O primeiro filho foi um menino chamado Jezreel (<a href=\"https://ref.ly/Hos1:4\">Os 1.4a</a>). Este nome significava o julgamento de Deus sobre a família de Jeú pela matança da família de Acabe no Vale de Jezreel (<a href=\"https://ref.ly/2Kgs10:1-2Kgs10:11,2Kgs10:30\">2Rs 10.1–11,30</a>).</p><p>Lo-Ruama foi o segundo filho (<a href=\"https://ref.ly/Hos1:6\">Os 1.6a</a>), e seu nome significa &quot;não mostrada compaixão ou piedade&quot;. Isso simbolizava o julgamento de Israel. A corrupção espiritual do reino do norte havia chegado ao fim, e ele seria derrotado e levado ao cativeiro (<a href=\"https://ref.ly/Hos1:6\">Os 1.6b</a>).</p><p><em>Lo-Ami </em>foi o terceiro filho, um segundo filho, e seu nome significa &quot;não Meu povo&quot; (<a href=\"https://ref.ly/Hos1:8-Hos1:9\">Os 1.8–9</a>). Esta rejeição de Israel como povo escolhido de Deus foi temporária (<a href=\"https://ref.ly/Hos1:10-Hos2:1\">Os 1.10–2.1</a>). Deus cumpriria Suas promessas a Abraão (<a href=\"https://ref.ly/Hos1:10\">Os 1.10</a>; <a href=\"https://ref.ly/Gen22:17\">Gn 22.17</a>) e a Moisés (<a href=\"https://ref.ly/Exod19:1-Exod19:7\">Êx 19.1–7</a>) apesar da desobediência de qualquer geração em particular.</p><p>Gomer não estava feliz com seu casamento, então procurou outros amantes. Da mesma forma, Israel buscou satisfação adorando falsos deuses. Eles erroneamente atribuíram as coisas boas de seu misericordioso Deus a esses deuses pagãos (<a href=\"https://ref.ly/Hos2:8,Hos2:12\">Os 2.8,12</a>). Quando perceberam que seus pecados não trouxeram felicidade duradoura, os israelitas arrependidos retornariam ao seu primeiro amor.</p><p>A declaração de divórcio de Oseias de Gomer devido ao seu adultério simboliza o divórcio de Yahweh de Israel por sua infidelidade (<a href=\"https://ref.ly/Hos2:2\">Os 2.2</a>; veja também <a href=\"https://ref.ly/Jer3:1-Jer4:2\">Jr 3.1–4.2</a>). Seus filhos representam os membros individuais da nação de Israel durante o tempo de Oseias (<a href=\"https://ref.ly/Hos2:2-Hos2:5\">Os 2.2–5</a>).</p><p><a href=\"https://ref.ly/Hos3:1-Hos3:5\">Oseias 3</a> utiliza a restauração para resumir a história de Israel. A escravidão de Israel ao pecado e a Satanás (veja <a href=\"https://ref.ly/Heb2:14-Heb2:15\">Hb 2.14–15</a>) é ilustrada pelo preço que Oseias pagou por Gomer (<a href=\"https://ref.ly/Hos3:2\">Os 3.2</a>). Este preço era para uma escrava porque Gomer estava escravizada por seu adultério (veja <a href=\"https://ref.ly/Exod21:32\">Êx 21.32</a>). O isolamento de Gomer, assim como o exílio de Israel, foi destinado à purificação (<a href=\"https://ref.ly/Hos3:3\">Os 3.3</a>; veja <a href=\"https://ref.ly/Deut21:13\">Dt 21.13</a>; <a href=\"https://ref.ly/Deut30:2\">30.2</a>).</p><p>Após o exílio na Babilônia (&quot;depois&quot;), e &quot;nos últimos dias&quot;, Israel retornará ao seu marido para desfrutar das bênçãos do relacionamento renovado. Em uma referência ao Messias, &quot;Davi, seu rei&quot;, será ressuscitado para conduzir Israel ao Senhor (<a href=\"https://ref.ly/Hos3:5\">Os 3.5</a>).</p><p>A última seção principal de Oseias explica em detalhes o que <a href=\"https://ref.ly/Hos1:1-Hos3:5\">Os 1–3</a> mostraram e explicaram brevemente. Oseias profetiza:</p><ul><li><p>O abandono da fé por Israel (<a href=\"https://ref.ly/Hos4:1-Hos7:16\">Os 4.1–7.16</a>)</p></li><li><p>Punição (<a href=\"https://ref.ly/Hos8:1-Hos10:15\">Os 8.1–10.15</a>)</p></li><li><p>Restauração (<a href=\"https://ref.ly/Hos11:1-Hos14:9\">Os 11.1–14.9</a>)</p></li></ul><h3>Capítulo 4</h3><p>Israel estava profundamente envolvido em atividades ímpias e havia se distanciado de Deus (<a href=\"https://ref.ly/Hos4:1-Hos4:2\">Os 4.1–2</a>; compare <a href=\"https://ref.ly/Exod20:1-Exod20:17\">Êx 20.1–17</a>). O povo ignorou a palavra de Deus devido à sua indiferença e ao engano dos sacerdotes (<a href=\"https://ref.ly/Hos4:6-Hos4:9\">Os 4.6–9</a>; compare <a href=\"https://ref.ly/Isa5:13\">Is 5.13</a>; <a href=\"https://ref.ly/Amos8:11-Amos8:12\">Am 8.11–12</a>; <a href=\"https://ref.ly/Zeph1:6\">Sf 1.6</a>). Israel seguiu líderes espirituais corruptos, assim como seus reis seguiram os caminhos corruptos de governantes passados (<a href=\"https://ref.ly/Hos4:9\">Os 4.9</a>). Em vez da palavra de Deus, Israel buscou orientação em ídolos e adivinhação (<a href=\"https://ref.ly/Hos4:12-Hos4:13\">Os 4.12–13</a>). Eventualmente, Israel perdeu sua identidade sacerdotal (<a href=\"https://ref.ly/Hos4:6\">Os 4.6</a>; compare <a href=\"https://ref.ly/Exod19:6\">Êx 19.6</a>) porque os sacerdotes eram principalmente responsáveis pelo afastamento da nação da fé (<a href=\"https://ref.ly/Hos5:1\">Os 5.1</a>).</p><h3>Capítulos 5–6</h3><p>Após apresentar seu caso contra o reino do norte, Deus dá um aviso (<a href=\"https://ref.ly/Hos5:8-Hos5:14\">Os 5.8–14</a>). A trombeta soará nas colinas de Benjamim (<a href=\"https://ref.ly/Hos5:8\">Os 5.8</a>), a área entre Israel e Judá. O alarme ali indicará que Israel está sendo invadido e Judá está em risco (<a href=\"https://ref.ly/Hos5:9-Hos5:12\">Os 5.9–12</a>). O reino do norte confiava em comandos humanos, não em Deus (<a href=\"https://ref.ly/Hos5:11\">Os 5.11</a>). Israel buscou ajuda da Assíria, mas enfrentou traição e derrota (<a href=\"https://ref.ly/Hos5:13\">Os 5.13</a>). Nesta profecia sobre a queda de Israel para os assírios em 722 a.C., Oseias retrata Deus como o disciplinador supremo (<a href=\"https://ref.ly/Hos5:14\">Os 5.14</a>).</p><p>Deus chama ao arrependimento logo após revelar a punição (<a href=\"https://ref.ly/Hos5:15-Hos6:3\">Os 5.15–6.3</a>). (A divisão do capítulo aqui não é ideal, pois <a href=\"https://ref.ly/Hos6:1-Hos6:3\">Os 6.1–3</a> pertence a <a href=\"https://ref.ly/Hos5:15\">5.15</a>.) O chamado para retornar a Yahweh pode refletir a resposta pessoal de Oseias à revelação. No entanto, é melhor ver <a href=\"https://ref.ly/Hos6:1-Hos6:3\">Oseias 6.1–3</a> como as palavras do futuro remanescente que retorna. A Assíria não ofereceu cura, nem qualquer outra nação o faria, mas Deus curará Israel espiritualmente, politicamente e fisicamente (<a href=\"https://ref.ly/Hos6:1\">Os 6.1</a>; veja também <a href=\"https://ref.ly/Exod15:26\">Êx 15.26</a>; <a href=\"https://ref.ly/Deut32:39\">Dt 32.39</a>; <a href=\"https://ref.ly/Isa53:5\">Is 53.5</a>; <a href=\"https://ref.ly/Ezek37:1-Ezek37:14\">Ez 37.1–14</a>; <a href=\"https://ref.ly/Mal4:2\">Ml 4.2</a>).</p><p>Após chamar ao arrependimento, Deus volta a focar em Israel (<a href=\"https://ref.ly/Hos6:4-Hos6:11\">Os 6.4–11</a>; veja também <a href=\"https://ref.ly/Hos4:15\">4.15</a>). Israel se afastou de seu Criador e desobedeceu à Sua mensagem (<a href=\"https://ref.ly/Hos6:7\">Os 6.7</a>). Gileade é apenas um exemplo da natureza violenta de Israel (<a href=\"https://ref.ly/Hos6:8\">Os 6.8</a>). Até mesmo os sacerdotes são conhecidos por sua violência (<a href=\"https://ref.ly/Hos6:9\">Os 6.9</a>; veja também <a href=\"https://ref.ly/1Sam2:12-1Sam2:17\">1Sm 2.12–17</a>; <a href=\"https://ref.ly/Jer5:31\">Jr 5.31</a>). O pecado de Israel é &quot;horrível&quot; (<a href=\"https://ref.ly/Hos6:10\">Os 6.10</a>).</p><h3>Capítulo 7</h3><p><a href=\"https://ref.ly/Hos7:1-Hos7:16\">Oseias 7</a> apresenta os pensamentos finais de Deus sobre Israel. Todo esforço de Deus para levar Israel ao arrependimento apenas destaca ainda mais o pecado deles (<a href=\"https://ref.ly/Hos7:1\">Os 7.1</a>). Eles acreditam que podem pecar sem que Deus perceba (<a href=\"https://ref.ly/Hos7:2\">Os 7.2</a>; veja também <a href=\"https://ref.ly/Ps90:8\">Sl 90.8</a>; <a href=\"https://ref.ly/Matt12:36-Matt12:37\">Mt 12.36–37</a>). Seus líderes estão satisfeitos que o povo seja tão perverso quanto o rei e os príncipes (<a href=\"https://ref.ly/Hos7:3\">Os 7.3</a>). Todo Israel é conhecido por seu constante adultério (<a href=\"https://ref.ly/Hos7:4\">Os 7.4</a>). Israel não se separou dos descrentes (<a href=\"https://ref.ly/Hos7:8\">Os 7.8</a>; veja também <a href=\"https://ref.ly/Exod34:12-Exod34:16\">Êx 34.12–16</a>; <a href=\"https://ref.ly/2Cor6:14-2Cor7:1\">2Co 6.14–7.1</a>). Como um &quot;bolo não virado&quot; (<a href=\"https://ref.ly/Hos7:8\">Os 7.8</a>), Israel não está equilibrado espiritualmente ou politicamente, com um lado exagerado e o outro lado cru.</p><p>Nos assuntos externos, Israel movia-se entre Egito e Assíria &quot;como uma pomba tola e sem senso&quot; sem entendimento (<a href=\"https://ref.ly/Hos7:11\">Os 7.11</a>). Eles não buscavam o conselho do Senhor quando necessário, mas confiavam em poderes mundanos. Sua falta de fé em Yahweh e falha em se separar do pecado levarão à disciplina de Deus (<a href=\"https://ref.ly/Hos7:12\">Os 7.12</a>; veja também <a href=\"https://ref.ly/1Cor11:32\">1Co 11.32</a>; <a href=\"https://ref.ly/Heb12:5-Heb12:15\">Hb 12.5–15</a>).</p><h3>Capítulo 8</h3><p><a href=\"https://ref.ly/Hos8:1-Hos8:14\">Oseias 8</a> discute o julgamento de Israel (veja <a href=\"https://ref.ly/Hos8:7\">Os 8.7</a>). Um alarme avisa o povo sobre a aproximação dos assírios (<a href=\"https://ref.ly/Hos8:1\">Os 8.1</a>; veja também <a href=\"https://ref.ly/Ezek17:2-Ezek17:21\">Ez 17.2–21</a>). Os assírios atacariam Israel (<a href=\"https://ref.ly/Hos8:1\">Os 8.1</a>) porque Israel quebrou o pacto do Sinai (veja <a href=\"https://ref.ly/Deut27:9-Deut29:29\">Dt 27.9–29.29</a>) e desobedeceu à lei de Moisés. Israel falsamente clama a Deus por ajuda contra o castigo (veja <a href=\"https://ref.ly/Isa10:5\">Is 10.5</a>), mas Deus não responde, e a Assíria continua a perseguir as dez tribos (<a href=\"https://ref.ly/Hos8:2-Hos8:3\">Os 8.2–3</a>). Outras razões para o julgamento de Deus incluem nomear reis sem a orientação de Deus (<a href=\"https://ref.ly/Hos8:4\">Os 8.4a</a>) e praticar idolatria (<a href=\"https://ref.ly/Hos4:1-Hos6:11\">Os 4b–6</a>). Os sacrifícios de Israel eram inaceitáveis devido à desobediência da nação (veja <a href=\"https://ref.ly/1Sam15:22\">1Sm 15.22</a>; <a href=\"https://ref.ly/Isa1:11-Isa1:15\">Is 1.11–15</a>). Portanto, eles iriam para o exílio, semelhante ao exílio anterior no Egito (<a href=\"https://ref.ly/Hos8:13\">Os 8.13</a>).</p><h3>Capítulo 9</h3><p><a href=\"https://ref.ly/Hos9:1-Hos9:17\">Oseias 9</a> continua o tema do exílio. Israel não encontrará alegria (<a href=\"https://ref.ly/Hos9:1\">Os 9.1</a>). A produção da terra não os sustentará porque não viverão mais lá (<a href=\"https://ref.ly/Hos9:2-Hos9:3\">Os 9.2–3</a>). Alguns israelitas fugirão para o Egito, enquanto outros serão levados cativos para a Assíria. Todos os sacrifícios cessarão, e eles consumirão os vinhos e carnes sacrificiais para suas próprias necessidades (<a href=\"https://ref.ly/Hos9:4-Hos9:5\">Os 9.4–5</a>). Os egípcios matarão aqueles israelitas que fugirem para o Egito (<a href=\"https://ref.ly/Hos9:6\">Os 9.6</a>).</p><h3>Capítulo 10</h3><p><a href=\"https://ref.ly/Hos10:1-Hos10:15\">Oseias 10</a> descreve ainda mais as consequências dos erros de Israel. Israel é como uma videira frondosa (<a href=\"https://ref.ly/Hos10:1\">Os 10.1</a>), mas sua abundância é mal utilizada para sacrifícios em altares pagãos. Eles são culpados diante de Deus, que está prestes a destruir seus altares e remover seu rei (<a href=\"https://ref.ly/Hos10:2-Hos10:3\">Os 10.2–3</a>). Gibeá é mencionada novamente (<a href=\"https://ref.ly/Hos9:9\">Os 9.9</a>), lembrando a Israel que se afastar de Deus é tanto contagioso quanto permanente (<a href=\"https://ref.ly/Hos10:9\">Os 10.9</a>). A &quot;dupla transgressão&quot; em <a href=\"https://ref.ly/Hos10:10\">Os 10.10</a> pode se referir aos dois ídolos de bezerro em Betel e Dã, que trouxeram o castigo de Deus. A penalidade será trabalho árduo sob um fardo pesado (<a href=\"https://ref.ly/Hos10:11\">Os 10.11</a>).</p><h3>Capítulos 11–14</h3><p>Os capítulos 11 a 14 concluem as profecias de Oseias com uma mensagem sobre a futura restauração de Israel. O amor inabalável do Pai é a base para essa futura restauração (<a href=\"https://ref.ly/Hos11:1-Hos11:12\">Os 11.1–12</a>). Como nação, Israel foi chamado do Egito como filho de Yahweh (<a href=\"https://ref.ly/Hos11:1\">Os 11.1</a>; veja também <a href=\"https://ref.ly/Exod4:22-Exod4:23\">Êx 4.22–23</a>). No entanto, Israel não retribuiu o amor do Pai e, em vez disso, buscou alianças com pagãos (<a href=\"https://ref.ly/Hos11:5\">Os 11.5</a>), o que levaria ao julgamento (<a href=\"https://ref.ly/Hos11:5-Hos11:7\">Os 11.5–7</a>). As palavras de Yahweh mostram seu julgamento imutável devido à sua completa santidade e justiça (<a href=\"https://ref.ly/Hos12:1-Hos13:16\">Os 12.1–13.16</a>). Os pecados de Israel exigem punição justa (<a href=\"https://ref.ly/Hos12:1-Hos12:2\">Os 12.1–2</a>). Israel é responsável pela destruição do reino do norte. Apesar do pecado de Israel, Deus ainda pode ser sua ajuda (<a href=\"https://ref.ly/Hos13:9\">Os 13.9</a>).</p><p>Israel deveria ter se arrependido rapidamente, mas não o fez (<a href=\"https://ref.ly/Hos13:13\">Os 13.13</a>). No entanto, a misericórdia de Yahweh acabaria por terminar com a própria morte, permitindo que Israel vivesse espiritualmente, politicamente e, possivelmente, fisicamente (<a href=\"https://ref.ly/Hos13:14\">Os 13.14</a>; veja também <a href=\"https://ref.ly/Ezek37:1-Ezek37:14\">Ez 37.1–14</a>; <a href=\"https://ref.ly/Dan12:1-Dan12:2,Dan12:13\">Dn 12.1–2,13</a>).</p><p><a href=\"https://ref.ly/Hos14:1-Hos14:9\">Oseias 14</a> apresenta o convite amoroso de Deus para que Israel se arrependa e retorne a Ele através de confissão, oração e louvor (<a href=\"https://ref.ly/Hos14:2\">Os 14.2</a>). A frase “fruto dos nossos lábios” (<a href=\"https://ref.ly/Hos14:2\">Os 14.2</a>) refere-se a uma oferta de gratidão, que geralmente incluía novilhos jovens (<a href=\"https://ref.ly/Exod24:5\">Êx 24.5</a>; <a href=\"https://ref.ly/Lev7:11-Lev7:15\">Lv 7.11–15</a>; veja também <a href=\"https://ref.ly/Ps51:17-Ps51:19\">Sl 51.17–19</a>; <a href=\"https://ref.ly/Ps69:30-Ps69:31\">69.30–31</a>; <a href=\"https://ref.ly/Heb13:15-Heb13:16\">Hb 13.15–16</a>). Parte da confissão de Israel envolverá reconhecer que a salvação não vem da Assíria (em alianças políticas) ou de ídolos (<a href=\"https://ref.ly/Hos14:3\">Os 14.3</a>).</p><p>Deus promete repetidamente bênçãos a Israel durante sua restauração (note “Eu farei”, em <a href=\"https://ref.ly/Hos14:4-Hos14:5\">Os 14.4–5</a>). Yahweh curará Israel espiritualmente, amará livremente, ajudará a prosperar completamente e protegerá totalmente (<a href=\"https://ref.ly/Hos14:4-Hos14:7\">Os 14.4–7</a>). Israel será tão bela quanto o lírio, tão forte quanto o cedro e tão frutífera quanto a oliveira.</p><h2>Qual é a mensagem do livro de Oseias?</h2><p>O foco principal de Oseias está no último versículo (<a href=\"https://ref.ly/Hos14:9\">Os 14.9</a>). Pessoas sábias viverão vidas piedosas, enquanto pessoas tolas viverão vidas ímpias. Aqueles que vivem vidas piedosas experimentarão:</p><ul><li><p>Restauração</p></li><li><p>Triunfo sobre a morte (<a href=\"https://ref.ly/Hos13:14\">Os 13.14</a>)</p></li><li><p>Bênçãos (<a href=\"https://ref.ly/Hos14:4-Hos14:7\">Os 14.4–7</a>)</p></li></ul><p>A idolatria é qualquer coisa que ocupa o lugar de Deus no coração humano. Israel não buscou a Deus por:</p><ul><li><p>Orientação</p></li><li><p>Ajuda</p></li><li><p>Bênção</p></li><li><p>Salvação</p></li></ul><p>Em vez disso, Israel recorreu a:</p><ul><li><p>Deuses estrangeiros (<a href=\"https://ref.ly/Hos4:12-Hos4:19\">Os 4.12–19</a>)</p></li><li><p>Orgulho nacional (<a href=\"https://ref.ly/Hos4:12-Hos4:19\">Os</a><a href=\"https://ref.ly/Hos5:5\"> 5.5</a>)</p></li><li><p>Rituais religiosos (<a href=\"https://ref.ly/Hos4:12-Hos4:19\">Os</a><a href=\"https://ref.ly/Hos6:6\"> 6.6</a>)</p></li><li><p>Conveniência política (<a href=\"https://ref.ly/Hos4:12-Hos4:19\">Os</a><a href=\"https://ref.ly/Hos7:3\"> 7.3</a>)</p></li><li><p>Alianças políticas (<a href=\"https://ref.ly/Hos4:12-Hos4:19\">Os</a><a href=\"https://ref.ly/Hos7:11\"> 7.11</a>)</p></li><li><p>Governo civil (<a href=\"https://ref.ly/Hos8:4\">Os 8.4</a>)</p></li><li><p>Projetos de construção (<a href=\"https://ref.ly/Hos8:14\">Os 8.14</a>)</p></li><li><p>Riqueza egoísta (<a href=\"https://ref.ly/Hos10:1\">Os 10.1</a>)</p></li><li><p>Adoração de ídolos (<a href=\"https://ref.ly/Hos4:12-Hos4:19\">Os</a><a href=\"https://ref.ly/Hos13:2\"> 13.2</a>)</p></li></ul><p>Eles poderiam encontrar verdadeira bênção e segurança apenas em Deus (<a href=\"https://ref.ly/Hos13:4,Hos13:9\">Os 13.4,9</a>; <a href=\"https://ref.ly/Hos14:4-Hos14:7\">14.4–7</a>).</p><p>Oseias descreve a apostasia (abandono da fé) como contagiosa. Pode começar tanto com líderes espirituais quanto com o povo e depois se espalhar entre eles (<a href=\"https://ref.ly/Hos4:12-Hos4:19\">Os</a><a href=\"https://ref.ly/Hos4:9\"> 4.9</a>). A punição para a apostasia depende da responsabilidade que alguém tem (<a href=\"https://ref.ly/Hos4:12-Hos4:19\">Os</a><a href=\"https://ref.ly/Hos5:1\"> 5.1</a>; <a href=\"https://ref.ly/Hos13:9\">13.9</a>; <a href=\"https://ref.ly/Hos14:4\">14.4</a>).</p><p><em>Veja também</em> <span data-bnType=\"resourceReference\" data-resourceId=\"5086\" data-resourceType=\"TyndaleBibleDictionary\">Oséias (Pessoa)</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"5260\" data-resourceType=\"TyndaleBibleDictionary\">Israel, História de</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"6998\" data-resourceType=\"TyndaleBibleDictionary\">Profecia</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"6999\" data-resourceType=\"TyndaleBibleDictionary\">Profeta, Profetisa</span>.</p>",
@@ -9808,9 +9581,40 @@
 }
 },
 {
+"content_id": "829225",
+"reference_id": 5086,
+"version": "1.0.4",
+"title": "Oseias (Pessoa)",
+"media_type": "Text",
+"index_reference": "oseias pessoa",
+"language": "por",
+"review_level": "Professional",
+"content": "<h1>OSEIAS (Pessoa)</h1><p>Profeta do antigo Israel cuja esfera de atividade era o reino do norte. Pouco se sabe sobre ele além do livro profético que leva seu nome. Seu ministério profético é melhor situado no terceiro quarto do oitavo século a.C. Seu nome significa &quot;ajuda&quot; ou &quot;auxiliador&quot;, e é baseado na palavra hebraica para salvação.</p><p>A evidência para situar Oseias no reino do norte é basicamente interna. O livro se concentra principalmente nas tribos do norte, que ele frequentemente identifica como &quot;Efraim&quot;, uma denominação comum para o reino do norte. Além disso, o dialeto do hebraico em que o livro foi escrito parece ter características do norte.</p><p>As circunstâncias em torno do casamento de Oseias servem como catalisador para sua mensagem profética. Ele foi ordenado por Deus a se casar com Gômer, que aparentemente era uma prostituta; seu casamento forneceu uma analogia com Israel, que era culpado de adultério espiritual.</p><p>Os estudiosos divergem quanto à interpretação deste relato controverso, mas há poucas razões para duvidar de que foi um evento literal. O ato de sacrifício envolvido na obediência de Oseias a Deus forma uma imagem maravilhosa do amor sacrificial de Deus pela humanidade.</p><p><em>Veja também</em> <span data-bnType=\"resourceReference\" data-resourceId=\"5085\" data-resourceType=\"TyndaleBibleDictionary\">Oseias, Livro de</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"6999\" data-resourceType=\"TyndaleBibleDictionary\">Profeta, Profetisa</span>.</p>",
+"associations": {
+"passage": [],
+"resource": [
+{
+"reference_id": 5085,
+"content_id": 682962,
+"resource_code": "TyndaleBibleDictionary",
+"label": "Oseias, Livro de",
+"language": "por"
+},
+{
+"reference_id": 6999,
+"content_id": 161859,
+"resource_code": "TyndaleBibleDictionary",
+"label": "Profeta, Profetisa",
+"language": "por"
+}
+],
+"acai": []
+}
+},
+{
 "content_id": "830262",
 "reference_id": 6692,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Osíris",
 "media_type": "Text",
 "index_reference": "osíris",
@@ -9834,7 +9638,7 @@
 {
 "content_id": "827910",
 "reference_id": 2993,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Osnapar",
 "media_type": "Text",
 "index_reference": "osnapar",
@@ -9859,21 +9663,13 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Osnappar",
-"type": "person",
-"preferred_label": "Osnapar",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "830263",
 "reference_id": 6693,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Osnapar",
 "media_type": "Text",
 "index_reference": "osnapar",
@@ -9905,21 +9701,13 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Osnappar",
-"type": "person",
-"preferred_label": "Osnapar",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "481515",
 "reference_id": 3466,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Osso",
 "media_type": "Text",
 "index_reference": "osso",
@@ -10050,7 +9838,7 @@
 {
 "content_id": "830264",
 "reference_id": 6696,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ossuário",
 "media_type": "Text",
 "index_reference": "ossuário",
@@ -10066,7 +9854,7 @@
 {
 "content_id": "830265",
 "reference_id": 6697,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ostraca",
 "media_type": "Text",
 "index_reference": "ostraca",
@@ -10111,7 +9899,7 @@
 {
 "content_id": "830268",
 "reference_id": 6700,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Otni",
 "media_type": "Text",
 "index_reference": "otni",
@@ -10128,21 +9916,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Othni",
-"type": "person",
-"preferred_label": "Otni",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "830267",
 "reference_id": 6699,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Otniel",
 "media_type": "Text",
 "index_reference": "otniel",
@@ -10209,21 +9989,13 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Othniel",
-"type": "person",
-"preferred_label": "Otniel",
-"confidence": 0.7231,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "829120",
 "reference_id": 4931,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ouriço",
 "media_type": "Text",
 "index_reference": "ouriço",
@@ -10260,7 +10032,7 @@
 {
 "content_id": "717051",
 "reference_id": 4673,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ourives",
 "media_type": "Text",
 "index_reference": "ourives",
@@ -10351,7 +10123,7 @@
 {
 "content_id": "717291",
 "reference_id": 7666,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ourives",
 "media_type": "Text",
 "index_reference": "ourives",
@@ -10416,7 +10188,7 @@
 {
 "content_id": "828950",
 "reference_id": 4674,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ouro",
 "media_type": "Text",
 "index_reference": "ouro",
@@ -10454,7 +10226,7 @@
 {
 "content_id": "828772",
 "reference_id": 4368,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ovelha",
 "media_type": "Text",
 "index_reference": "ovelha",
@@ -10478,7 +10250,7 @@
 {
 "content_id": "830741",
 "reference_id": 7496,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ovelha",
 "media_type": "Text",
 "index_reference": "ovelha",
@@ -10502,10 +10274,10 @@
 {
 "content_id": "830273",
 "reference_id": 6707,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ox (Pessoa)",
 "media_type": "Text",
-"index_reference": "ox (pessoa)",
+"index_reference": "ox pessoa",
 "language": "por",
 "review_level": "Professional",
 "content": "<h1>OX (Pessoa)</h1><p>Descendente de Israel, avô de Judite, a heroína dos tempos dos Macabeus (<a href=\"https://ref.ly/Jdt8:1\">Jt 8.1</a>).</p>",
@@ -10525,7 +10297,7 @@
 {
 "content_id": "830275",
 "reference_id": 6709,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ozém",
 "media_type": "Text",
 "index_reference": "ozém",
@@ -10548,28 +10320,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Ozem",
-"type": "person",
-"preferred_label": "Ozém",
-"confidence": 0.8,
-"match_method": "scored"
-},
-{
-"id": "person:Ozem.2",
-"type": "person",
-"preferred_label": "Ozém",
-"confidence": 0.8,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "830277",
 "reference_id": 6711,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oziel",
 "media_type": "Text",
 "index_reference": "oziel",
@@ -10586,59 +10343,16 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Uzziel",
-"type": "person",
-"preferred_label": "Uziel",
-"confidence": 0.8353,
-"match_method": "embedding"
-},
-{
-"id": "person:Uzziel.2",
-"type": "person",
-"preferred_label": "Uziel",
-"confidence": 0.8353,
-"match_method": "embedding"
-},
-{
-"id": "person:Uzziel.3",
-"type": "person",
-"preferred_label": "Uziel",
-"confidence": 0.8353,
-"match_method": "embedding"
-},
-{
-"id": "person:Uzziel.4",
-"type": "person",
-"preferred_label": "Uziel",
-"confidence": 0.8353,
-"match_method": "embedding"
-},
-{
-"id": "person:Uzziel.5",
-"type": "person",
-"preferred_label": "Uziel",
-"confidence": 0.8353,
-"match_method": "embedding"
-},
-{
-"id": "person:Uzziel.6",
-"type": "person",
-"preferred_label": "Uziel",
-"confidence": 0.8353,
-"match_method": "embedding"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "759929",
 "reference_id": 6712,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ozni, Oznita",
 "media_type": "Text",
-"index_reference": "ozni, oznita",
+"index_reference": "ozni oznita",
 "language": "por",
 "review_level": "Professional",
 "content": "<h1>OZNI, OZNITA</h1><p>Ozni era outro nome para uma pessoa chamada Esbom. Os oznitas eram o grupo familiar que descendia de Ozni (<a href=\"https://ref.ly/Num26:16\">Nm 26.16</a>).</p><p><em>Veja</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4381\" data-resourceType=\"TyndaleBibleDictionary\">Esbom #1</span>.</p>",
@@ -10664,16 +10378,16 @@
 {
 "id": "person:Ezbon",
 "type": "person",
-"preferred_label": "Esbom",
-"confidence": 0.8155,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Esbom"
 },
 {
 "id": "group:Ozni",
 "type": "group",
-"preferred_label": "Oznites",
-"confidence": 0.802,
-"match_method": "scored"
+"confidence": 0.8515,
+"match_method": "scored",
+"preferred_label": "Oznites"
 }
 ]
 }

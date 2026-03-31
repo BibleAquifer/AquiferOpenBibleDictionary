@@ -2,10 +2,10 @@
 {
 "content_id": "573993",
 "reference_id": 4503,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "加大拉，加大拉人",
 "media_type": "Text",
-"index_reference": "加大拉，加大拉人",
+"index_reference": "加大拉加大拉人",
 "language": "zht",
 "review_level": "None",
 "content": "<h1>加大拉，加大拉人</h1><p>迦大拉是低加坡里的一座城及其居民，在新約較好的抄本中僅提到一次。耶穌曾橫渡加利利海到東岸，並醫治了一個名叫「群」的被鬼附之人，這是在「加大拉人的地方」（<a href=\"https://ref.ly/Matt8:28\">太8:28</a>）。馬可在<a href=\"https://ref.ly/Mark5:1\">五章一節</a>的記載和路加在<a href=\"https://ref.ly/Luke8:26,Luke8:37\">八章26、37節</a>的記載中寫的是「格拉森人的地方」。（有些譯本根據公認文本，在此使用異文的地名；在<a href=\"https://ref.ly/Matt8:28\">太8:28</a>中使用的是「格拉森人（Gergesenes）」，而在馬可福音和路加福音中寫的是「加大拉人（Gadarenes）」）福音書作者之間的異文地名，可能是因為格拉森是範圍更大的地理區域，而加大拉是其中一座主要城。地理學家推測，豬群衝下海的最可能地點是在格格森（Gergesa）附近一片陡峭的海岸線。這與另一個建議相符：馬太可能是該地區的人，因此具體指出了精確地點，而馬可和路加則是為希臘和羅馬讀者指明大致位置，因為格格森較小且不知名，而加大拉則是一座重要的希臘城。</p><p>加大拉的名字表示這座城有閃族起源。它位於加利利海南東五至六英里（8到10公里），其轄區包括<span>亞爾穆克河</span>（Yarmuk River）以北的艾哈姆（el Hamme）溫泉。歷史上首次提到它是在公元前218年，當時被安提阿古三世（Antiochus III）佔領。後來，猶太人在亞歷山大·詹納烏斯（Alexander Janneus，公元前103年）的統治下奪取了它，並強迫其居民接受摩西律法。這座城被猶太人摧毀，但在龐培（Pompey，公元前63年）重新征服該地區後被重建。這座城後來加入了一個由十座希臘化城市所組成的聯盟，稱為「十城聯盟」（Decapolis，稱為低加坡里）。其中只有一座不在約旦河外，其餘九座都位於約旦河東岸地區。凱撒奧古斯都將加大拉劃入大希律的領地（公元前30年），該城在希律死後被併入敘利亞（公元前4年）。在猶太人起義期間（公元66–70年），維斯帕先（Vespasian）佔領了該城，該城在接下來的數年中繼續繁榮。自公元325年起，它成為基督教主教轄區的所在地，直至穆斯林征服時期。<em>見</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3958\" data-resourceType=\"TyndaleBibleDictionary\">低加坡里</span>；<span data-bnType=\"resourceReference\" data-resourceId=\"4593\" data-resourceType=\"TyndaleBibleDictionary\">格拉森，格拉森人</span>；<span data-bnType=\"resourceReference\" data-resourceId=\"4595\" data-resourceType=\"TyndaleBibleDictionary\">格格森，格格森人</span>。</p>",
@@ -52,13 +52,28 @@
 "language": "zht"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Gadara.2",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Gadara"
+},
+{
+"id": "place:Gerasa",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Gerasa"
+}
+]
 }
 },
 {
 "content_id": "340949",
 "reference_id": 4522,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "加利利",
 "media_type": "Text",
 "index_reference": "加利利",
@@ -395,13 +410,42 @@
 "language": "zht"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Galilee",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Galilee"
+},
+{
+"id": "group:Galilee",
+"type": "group",
+"confidence": 0.6159,
+"match_method": "scored",
+"preferred_label": "Galileans"
+},
+{
+"id": "place:Judea",
+"type": "place",
+"confidence": 0.6095,
+"match_method": "scored",
+"preferred_label": "Judea"
+},
+{
+"id": "place:Chinnereth",
+"type": "place",
+"confidence": 0.6032,
+"match_method": "scored",
+"preferred_label": "Chinnereth"
+}
+]
 }
 },
 {
 "content_id": "340993",
 "reference_id": 7353,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "加利利海",
 "media_type": "Text",
 "index_reference": "加利利海",
@@ -588,13 +632,28 @@
 "language": "zht"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:GalileeSea",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Sea of Galilee"
+},
+{
+"id": "place:Gennesaret",
+"type": "place",
+"confidence": 0.6067,
+"match_method": "scored",
+"preferred_label": "Gennesaret"
+}
+]
 }
 },
 {
 "content_id": "340930",
 "reference_id": 3583,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "迦百農",
 "media_type": "Text",
 "index_reference": "迦百農",
@@ -683,16 +742,24 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Capernaum",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Capernaum"
+}
+]
 }
 },
 {
 "content_id": "853306",
 "reference_id": 3586,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "迦斐託，迦斐託人，迦斐託族",
 "media_type": "Text",
-"index_reference": "迦斐託，迦斐託人，迦斐託族",
+"index_reference": "迦斐託迦斐託人迦斐託族",
 "language": "zht",
 "review_level": "None",
 "content": "<h1>迦斐託*、迦斐託人*、迦斐託族</h1><p>地名以及與該地點相關的人名。在「國家列表」中，迦斐託人是含的後裔，被列為埃及的「子孫」 （<a href=\"https://ref.ly/Gen10:13-Gen10:14\">創10:13–14</a>；<a href=\"https://ref.ly/1Chr1:12\">代上1:12</a>，和合本譯作「迦斐託人」）。上述經文中，迦斯路希人（Casluhim）是非利士人的祖先。然而，先知書卻稱非利士人是來自迦斐託的殖民者 （<a href=\"https://ref.ly/Jer47:4\">耶47:4</a>；見<a href=\"https://ref.ly/Amos9:7\">摩9:7</a>）。一些譯者以此為依據，調換<a href=\"https://ref.ly/Gen10:14\">創世記十章14節</a>中的順序，並將之翻譯為「迦斐託人，非利士人從中出來」（英文的NEB，譯註：和合本亦採取此法）。其他人則認為，雖然非利士人可能最初是迦斯路希人的殖民百姓，但他們居住的地區主要是被稱為迦斐託人的地區。</p><p>迦斐託在阿卡德語中被稱為<em>Kaptara</em>，在烏加里特語中為<em>kptr</em>，在埃及語中為<em>Keftiu</em>。這些名稱的使用可以追溯至公元前2200年到公元前1200年左右。埃及的資料特別有助於確認迦斐託就是克里特。另一方面，有一個猶太傳統認為迦斐託人來自加帕多家；七十士譯本將「迦斐託」譯為「加帕多家」，使一些人認為迦斐託是小亞細亞的沿海地區或卡帕索斯島。大概到公元前13世紀，「迦斐託」仍被廣泛用來指代非利士人所出自的愛琴海地區。</p><p>聖經也提到迦斐託人，是入侵迦薩地區的民族，他們趕出了<span>亞衛人</span>，並在那裡居住（<a href=\"https://ref.ly/Deut2:23\">申2:23</a>）。迦斐託人似乎在以色列人過約旦河進迦南之前，就已經在迦薩周圍固定地居住。<em>見</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3609\" data-resourceType=\"TyndaleBibleDictionary\">迦斯路希人，迦斯路希族</span>。</p>",
@@ -750,7 +817,7 @@
 {
 "content_id": "864904",
 "reference_id": 4513,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "迦含",
 "media_type": "Text",
 "index_reference": "迦含",
@@ -773,7 +840,7 @@
 {
 "content_id": "853304",
 "reference_id": 3553,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "迦拉",
 "media_type": "Text",
 "index_reference": "迦拉",
@@ -802,10 +869,10 @@
 {
 "content_id": "853308",
 "reference_id": 3636,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "迦勒底, 迦勒底人",
 "media_type": "Text",
-"index_reference": "迦勒底, 迦勒底人",
+"index_reference": "迦勒底 迦勒底人",
 "language": "zht",
 "review_level": "None",
 "content": "<h1>迦勒底*，迦勒底人</h1><p>古代美索不達米亞的地區及其上的居民。這個名字來自迦勒底（或Kaldu）部落，這些部落與其他幾個民族，尤其是蘇美爾人和阿卡德人，一同居住在美索不達米亞東南部的巴比倫。舊巴比倫帝國被亞述人融合後，迦勒底人在尼布甲尼撒的領導下掌控局勢，建立了一個新巴比倫帝國，統治近東近一個世紀。被稱為迦勒底的地區也與族長亞伯拉罕有關，他在美索不達米亞的故鄉是「迦勒底的吾珥」（<a href=\"https://ref.ly/Gen11:28\">創11:28</a>）。</p><h2>其地與其人</h2><p>直到公元前八世紀末，迦勒底僅指巴比倫南部的一小塊領土。在100年內，經過迅速而成功的權力爭奪，它擴展至整個巴比倫。當時，迦勒底包括從巴格達到波斯灣的底格里斯河的地區，並沿幼發拉底河一直延伸至希特城（Hit）。雖然迦勒底通常被認為位於底格里斯河和幼發拉底河之間，但它延伸到東方的底格里斯河和平原之間的賽格羅斯山脈（ Zagros Mountains），並包括一些幼發拉底河以西的土地。阿拉伯曠野構成其西部邊界。迦勒底的寬度不超過40英里（64.4公里），面積約為8000平方英里（12872平方公里），大約相當於新澤西州的大小。在今天的地圖上，迦勒底位於伊拉克境內，其西南端與科威特王國接壤。</p><h2>歷史</h2><p>首次記載迦勒底人的，是在亞述王亞述拿色帕二世（公元前885–860）的編年史，這使得一些權威人士推測他們大約在公元前1000年進入巴比倫。迦勒底人通常與閃族的亞蘭部落聯繫在一起（雖然並不相同），這些部落不斷從西部沙漠推進到美索不達米亞。他們主要定居在巴比倫的南端，波斯灣的北端，也許在亞述編年史提到他們之前的幾個世紀，他們就已經在當地定居。</p><p><a href=\"https://ref.ly/Job1:17\">約伯記一章17節</a>提到三隊迦勒底人襲擊約伯的駱駝和僕人，可能是在以東或北阿拉伯附近。他們在這些地區出現，不一定意味著他們住在附近，因為來自巴比倫（示拿）和以攔的軍隊，早在幾個世紀前就遠征到巴勒斯坦地區（<a href=\"https://ref.ly/Gen14:1-Gen14:2\">創14:1–2</a>）。</p><h3>面對亞述的統治</h3><p>迦勒底人住在極南的沼澤和湖泊旁，保持高度的獨立性，即使在亞述的統治觸及他們之時也是如此。入侵的軍隊在迦勒底的沼澤中很難行動。因此，迦勒底人拒絕向亞述政府支付稅款或提供任何形式的服務。當亞述人試圖限制迦勒底人的自由時，他們就轉向游擊戰和政治策略。他們會根據情況迅速無視條約或改變聯盟。在亞述的統治下，雖然巴比倫城市的本地居民普遍滿意，但迦勒底人卻成為民族獨立運動的領導者。250年來，亞述人在維持他們的統治時，不得不應對迦勒底人不斷嘗試尋求自治、發揮影響的做法。</p><p>最後，在公元前721年，迦勒底領袖瑪爾杜克亞巴拉伊丁拿二世（Marduk-apla-iddina II，在<a href=\"https://ref.ly/2Kgs20:12\">王下20:12</a>和<a href=\"https://ref.ly/Isa39:1\">賽39:1</a>中被稱為米羅達‧巴拉但，他曾派遣使節到猶大王希西家那裡）進入巴比倫並登上巴比倫的王位，這個位置長期以來由亞述王任命。他狡猾且足智多謀，成功地坐在王位10年之久，直到被亞述的撒珥根二世驅逐回自己的南部領土。公元前705年撒珥根去世後，他再次登上王位，但被新的亞述王西拿基立擊敗，西拿基立摧毀了巴比倫，作為對迦勒底人及其盟友的教訓。</p><p>西拿基立的兒子和繼任者以撒‧哈頓對巴比倫人採取和解政策，重建了他們的首都，這一舉動有效平息迦勒底人的騷動，並開展一個持續超過30年的和平時期。最後一次不成功的叛亂，發生在亞述巴尼拔統治時期，實際上是由亞述巴尼拔的兄弟煽動的。亞述巴尼拔任命了他的兄弟為巴比倫王。迦勒底人欣然加入叛亂，叛亂在公元前648年被鎮壓。</p><h3>新巴比倫帝國</h3><p>二十年後，當亞述巴尼拔去世時，亞述的權力急劇衰退。尼布卜拉撒（Nabopolassar），一位迦勒底總督，抓住機會將亞述人趕出巴比倫。他於公元前625年成為巴比倫王。與米底人結盟後，巴比倫人繼續摧毀亞述帝國，並於公元前614年和612年分別攻陷亞述的首都以及尼尼微。他們與米底人瓜分了被征服的土地，並吞併底格里斯河以西和以南的亞述地區，建立新的巴比倫帝國。（漢謨拉比屬於第一個巴比倫帝國時期，第一個帝國早在一千多年前就已經興盛繁榮。）在整個近東地區，迦勒底和巴比倫成為同義詞。</p><p>在尼布卜拉撒的兒子尼布甲尼撒二世漫長而輝煌的統治期間，帝國達到了頂峰。作為王儲，他在公元前605年於迦基米施對埃及人取得決定性的勝利（<a href=\"https://ref.ly/2Chr35:20\">代下35:20</a>中提到此戰役），這有效地確立巴比倫在近東的權力（見<a href=\"https://ref.ly/2Kgs24:7\">王下24:7</a>）。同年，南國猶大成為巴比倫的附庸國。尼布甲尼撒迫使約雅敬王臣服，將聖殿中最珍貴的物品帶到巴比倫的聖殿，並將猶大的傑出領袖和青年擄走（<a href=\"https://ref.ly/2Kgs24:1\">王下24:1</a>；<a href=\"https://ref.ly/2Chr36:5-2Chr36:7\">代下36:5–7</a>；<a href=\"https://ref.ly/Dan1:1-Dan1:4\">但1:1–4</a>）。幾年後，猶大在埃及的煽動下反叛，迦勒底軍隊於公元前597年攻陷耶路撒冷。猶大的新王約雅斤在那時被廢黜，並且更多領袖被擄走（<a href=\"https://ref.ly/2Kgs24:8-2Kgs24:16\">王下24:8–16</a>）。公元前594年，由迦勒底人任命的王（西底家）發動的第二次反叛，導致第三次入侵，公元前586年耶路撒冷被毀，猶大大多數百姓被擄（<a href=\"https://ref.ly/2Kgs24:20-2Kgs25:12\">王下24:20–25:12</a>；<a href=\"https://ref.ly/2Chr36:11-2Chr36:21\">代下36:11–21</a>）。尼布甲尼撒用從這些戰利品和在其他征服中獲得的戰利品，將巴比倫建成了古代世界最耀眼的城市之一。他的工程包括空中花園（古代世界七大奇蹟之一）、伊什塔爾門，以及一條長達17英里（27公里）的外牆，用於城市防禦。他因這些成就而來的驕傲，最終引來了神的審判（<a href=\"https://ref.ly/Dan4:30-Dan4:33\">但4:30–33</a>）。</p><p>尼布甲尼撒的繼任者是他的兒子阿美爾—馬爾杜克（Amel-marduk，在<a href=\"https://ref.ly/2Kgs25:27\">王下25:27</a>和<a href=\"https://ref.ly/Jer52:31\">耶52:31</a>中稱為以未‧米羅達，他因恩待被擄的約雅斤王而被記住）。兩年後，他在由他的<span>姐夫（或是妹夫）</span>尼甲沙利薛（Nergal-shar-usur，<a href=\"https://ref.ly/Jer39:3\">耶39:3</a>）領導的武裝叛亂中被殺，尼甲沙利薛試圖建立自己的王朝。經過四年的統治後，尼甲沙利薛的兒子繼位，但僅僅幾個月後就被篡位者拿波尼度推翻。</p><h3>巴比倫的衰敗</h3><p>拿波尼度是迦勒底王朝的最後一位君主，他的即位得到許多巴比倫官員支持。他們看到昔日的盟友米底人逐漸成為競爭對手，並認為拿波尼度是足以應對威脅的強大統治者。不論他是否強大，他試圖改革巴比倫宗教的努力極不受歡迎，而他加強經濟的努力也未能成功。這兩個事實使得巴比倫成為拿波尼度不喜歡的居所；在他長時間離開首都的期間，他任命兒子伯沙撒為共同攝政者。（伯沙撒的地位，解釋了為什麼他在舊約但以理書中被描述為巴比倫的王，以及為什麼在<a href=\"https://ref.ly/Dan5:7\">但以理書五章7節</a>中，他只能讓但以理在「<span>國中位列第三</span>」。）</p><p>當伯沙撒處理政府事務時，著名的「不祥之兆」事件（writing on the wall，牆上寫字）發生了，預示著巴比倫的滅亡（<a href=\"https://ref.ly/Dan5:1-Dan5:31\">但5</a>）。事實上，以蘭人已經在攻擊帝國的東翼。北方波斯的傳聞使拿波尼度及時回到巴比倫，正好趕上波斯王賽魯士大帝的入侵。賽魯士不費一兵一卒就佔領了巴比倫，結束迦勒底的勢力和新巴比倫帝國。</p><p><em>另見</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3009\" data-resourceType=\"TyndaleBibleDictionary\">亞述，亞述人</span>；<span data-bnType=\"resourceReference\" data-resourceId=\"3013\" data-resourceType=\"TyndaleBibleDictionary\">占星術</span>；<span data-bnType=\"resourceReference\" data-resourceId=\"3125\" data-resourceType=\"TyndaleBibleDictionary\">巴比倫，巴比倫人</span>；<span data-bnType=\"resourceReference\" data-resourceId=\"3914\" data-resourceType=\"TyndaleBibleDictionary\">但以理書</span>；<span data-bnType=\"resourceReference\" data-resourceId=\"3999\" data-resourceType=\"TyndaleBibleDictionary\">猶太人的散居者</span>；<span data-bnType=\"resourceReference\" data-resourceId=\"6500\" data-resourceType=\"TyndaleBibleDictionary\">尼布甲尼撒，尼布甲尼撒</span>；<span data-bnType=\"resourceReference\" data-resourceId=\"8148\" data-resourceType=\"TyndaleBibleDictionary\">吾珥（地點）</span>。</p>",
@@ -941,7 +1008,7 @@
 {
 "content_id": "853305",
 "reference_id": 3565,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "迦勒挪",
 "media_type": "Text",
 "index_reference": "迦勒挪",
@@ -982,10 +1049,10 @@
 {
 "content_id": "573972",
 "reference_id": 3572,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "迦南，迦南人",
 "media_type": "Text",
-"index_reference": "迦南，迦南人",
+"index_reference": "迦南迦南人",
 "language": "zht",
 "review_level": "None",
 "content": "<h1>迦南，迦南人</h1><p>巴勒斯坦地區（應許之地）位於約旦河西岸，以色列人在約書亞的領導下進入此地並定居於此。南敘利亞的一部分地區也常被視為迦南領土，但其北部邊界從未被明確界定。在以色列人進入前，巴勒斯坦西部的居民（不包括北部敘利亞和地中海沿岸的敘利亞如烏加里特〔拉斯珊拉〕等地）被統稱為迦南人。</p><p>概述</p><p>•&nbsp;土地與居民</p><p>•&nbsp;語言</p><p>•&nbsp;文學</p><p>•&nbsp;歷史</p><p>•&nbsp;宗教</p><p>•&nbsp;對以色列的影響</p><h2>土地與居民</h2><p>在「列國表」中（<a href=\"https://ref.ly/Gen10:15-Gen10:19\">創10:15–19</a>），挪亞的孫子迦南是居住於敘利亞和巴勒斯坦地區11個族群的祖先。前六個族群顯然居住於西頓附近或以南地區，而其他族群則生活於較北的地區。北方居民大多定居於沿海平原邊緣；南方居民則向東擴展到高地地區。舊約中提到，迦南人主要生活於西巴勒斯坦的山谷和沿海地區，而亞摩利人及其他族群則居住於高地地區（<a href=\"https://ref.ly/Num13:29\">民13:29</a>；<a href=\"https://ref.ly/Josh5:1\">書5:1，</a><a href=\"https://ref.ly/Josh7:9\">7:9</a>；<a href=\"https://ref.ly/Judg1:27-Judg1:36\">士1:27–36</a>）。</p><p>最早提到迦南人的文字記錄之一出現在瑪利（Mari，公元前15世紀）的泥版文獻，其中一名軍官報告監視「盜賊和迦南人」的情況。迦南人還被列在埃及法老<span>亞門諾斐斯</span>二世（Amenophis II，約公元前1440年）的孟菲斯石碑（Memphis Stele，刻有文字的柱子）上。迦南之地也出現在公元前15世紀<span>艾列波</span>（Aleppo，位於烏加里特以西）王<span>伊德里米（</span>Idrimi<span>）</span>的銘文中，伊德里米曾逃到迦南的海港城阿米亞（Ammiya），然後成為阿<span>亞拉拿</span>（Alalakh<span>，</span>位於烏加里特以北）的統治者。根據埃及的阿瑪爾那（Amarna）泥板記載，在阿瑪爾那時代（Amarna Age<strong>，</strong>公元前15至14世紀），巴勒斯坦政治上受埃及控制。</p><p>「迦南」一詞代表整個西巴勒斯坦地區，而「迦南人」則泛指以色列人到來前的居民，未特指其種族。在居住於巴勒斯坦的各族群中，亞摩利人於公元前二千年首先作為從美索不達米亞移民而出現。</p><p>數處舊約經文似乎將亞摩利人地區等同於迦南地（<a href=\"https://ref.ly/Gen12:5-Gen12:6\">創12:5–6，</a><a href=\"https://ref.ly/Gen15:18-Gen15:21\">15:18–21，</a><a href=\"https://ref.ly/Gen48:22\">48:22</a>），此傳統亦體現在公元前18世紀的亞拉拿泥版中，其中將「亞摩利（Amurru）」描述為敘利亞-巴勒斯坦的一部分。大約同一時期的瑪利泥板提到一位北巴勒斯坦夏瑣的亞摩利人統治者。阿瑪爾那<span>遺址</span>（Tell el-Amarna）文獻（公元前14至13世紀）顯示，黎巴嫩地區的亞摩利王國壟斷了沿海貿易。因此，在摩西時代以及整個青銅器時代晚期（約公元前1550–1200年），同時提到亞摩利人和迦南人並不令人意外。</p><p>在此時期結束時，「海上民族」（主要是非利士人）摧毀了赫人帝國，並於<span>蘭塞</span>三世（Ramses III）時期（約公元前1180年）佔領西巴勒斯坦。以色列人征服巴勒斯坦時，擊敗了許多迦南及亞摩利城邦的勢力，而南巴勒斯坦沿海的非利士人聯盟進一步限制了迦南地區的範圍。從鐵器時代開始，迦南人的文化繼承者是腓尼基人，他們以泰爾和西頓等城邦為中心，並自稱為迦南人（參<a href=\"https://ref.ly/Matt15:21-Matt15:22\">太15:21–22；</a><a href=\"https://ref.ly/Mark7:24-Mark7:26\">可7:24–26</a>）。</p><h2>語言</h2><p>以色列人到來之前，西巴勒斯坦的各族群可能講的是西北閃族文語系的相關方言。由於這些族群居住範圍廣闊，且可能受到亞摩利文、戶利安文和烏加里特文的影響，使得現代關於「迦南文」的正確含義的理論變得複雜。</p><h2>文學</h2><p>如同語言，迦南文學的具體範圍難以界定。然而，有一點可以肯定：我們使用的字母源於青銅器時代中期的迦南。在此之前，書寫方式包括象形文字（pictographic，以圖象表達詞或概念）、楔形文字（cuneiform，在軟黏土上刻下楔形印記以表示音節和整個詞語），或者是埃及象形文字（hieroglyphic，埃及的圖象文字）。字母書寫經由希伯來人及腓尼基人傳遞給希臘人，後者將其塑造成現代字母的古典形式。</p><p>公元1929年前，已知的迦南文學甚少，烏加里特（Ugarit）的發現使大量文學資料得以重現。其中包括關於巴力神及其配偶<span>阿娜特</span>（Anath）的史詩（可能寫於公元前約2000年）、關於名為阿迦特（Aqhat）的王子的傳說（約公元前1800年）、關於王克雷特（Keret）的傳奇事跡（約公元前1500年），以及零散的宗教、醫療和行政資料。</p><h2>歷史</h2><p>考古證據顯示，西巴勒斯坦早在舊石器時代就有人居住。同時，也在一些地點發現了中石器時代、新石器時代和銅石並用時代（Chalcolithic）的遺跡。可能在公元前3000年左右，說閃族語言的族群已經居住在如耶利哥、米吉多和<span>比布勒斯（</span>Byblos<span>）</span>等地。<span>馬爾迪赫遺址（</span>Tell Mardikh）的發現顯示，約公元前2500年，敘利亞曾存在一個強盛的迦南帝國。毫無疑問，亞摩利人和迦南人在公元前2000年已經穩定地定居於敘利亞和巴勒斯坦。西巴勒斯坦迦南人居住的最佳證據來自青銅器時代中期和晚期（約公元前1950–1200年），當時該地區遍布迦南人和亞摩利人的城邦。</p><p>在埃及的第五和第六王朝期間，埃及人定期進入巴勒斯坦進行軍事行動；而在公元前第二千年的第十三王朝，他們在政治和經濟上控制了敘利亞-巴勒斯坦的大片地區。</p><p>大約在公元前2000年，迦南與美索不達米亞的聯繫由瑪利和和烏加里特發現的文獻證實。亞摩利人、戶利安人、早期的亞述人和其他群顯然曾經遷移至迦南，並帶來了各種政治和社會形態。到公元前16世紀晚期，大部分小型迦南王國已完全在埃及控制之下。在兩個世紀內，其最北端的地區又受到赫人的政治影響。</p><p>迦南的歷史因許克所斯人（Hyksos）在公元前1800年至1500年間的活動而變得更加複雜。許克所斯人混合了亞洲血統，其政治影響力主要來自於他們使用鐵製戰車和複合式亞洲弓的軍事技術。他們從如夏瑣和耶利哥等迦南地點出發，入侵埃及，並在公元前1776年至1570年間控制了該地區。當他們於埃及新王國時期（公元前1570–1100年）被驅逐後，他們撤退至迦南南部的堡壘。</p><p>當以色列人征服迦南時，埃及對西巴勒斯坦的控制已經消失；約書亞面對的主要是迦南人和亞摩利人的反抗。以色列人成功佔領迦南，得益於巴勒斯坦小王國的衰敗。隨著赫人文化被海上民族摧毀並佔據北部和沿海地區，傳統的城邦體系崩潰。大約公元前1100年起，迦南文化的影響力被限制於泰爾、西頓和其它少數地區。</p><h2>宗教</h2><p>在烏加里特發現之前，對迦南宗教的了解主要來自舊約的描述。現今所知的迦南宗教文化中，主神是一位名為伊勒（El）的神秘人物，他被敬拜為「萬人之父」。他的配偶包括亞舍拉（Athirat，以色列人稱為Asherah）、亞斯他錄（Astarte）和巴利提斯（Baaltis）。伊勒有一位兒子巴力（Baal），是掌管肥沃土地的神，在神話中被描述為雨水與風暴之主。巴力繼承其父成為眾神之首，據說居於遙遠的北方天界。在烏加里特發現的一座紀念碑描繪了巴力左手持雷電、右手持權杖的形象。</p><p>在西巴勒斯坦青銅器時代中期和晚期的遺址中，發現了許多帶有誇張第二性徵的小型陶俑，代表某些女神。於腓尼基<span>比布勒斯</span>發掘的一個<span>阿娜特</span>（Anath）崇拜中心，顯然以宗教娼妓和生殖儀式而聞名，出土了許多裸體女性雕像。其它迦南宗教器物包括某種神柱（massebah）和木製圖像（亞舍拉），可能代表女神本身。</p><p>在<span>阿瑪納</span>時代，迦南狂歡式的宗教在近東地區特別具有影響力，甚至滲透到埃及和巴比倫的保守宗教中。迦南人似乎慶祝四個與農業相關的主要節日，這些節日幾乎總伴隨著狂歡、酗酒和性放縱。迦南宗教顯然是古代世界中性方面最為墮落的宗教。</p><h2>對以色列的影響</h2><p>以西奈山的約的律法所定義的以色列道德觀，與迦南生活中的宗教傳統截然不同。希伯來人的倫理一神論在許多方面與迦南墮落的多神自然崇拜形成對立，兩者顯然無法共存。因此律法中明確指示要消滅迦南人及其行為（<a href=\"https://ref.ly/Exod23:24\">出23:24，</a><a href=\"https://ref.ly/Exod34:13-Exod34:16\">34:13–16</a>；<a href=\"https://ref.ly/Deut7:1-Deut7:5\">申7:1–5</a>），並要求希伯來人為忠於神的約而保持與迦南宗教的分離。然而，這一分離並不容易，因為兩族使用的方言密切相關，因此言語表達上存在相似性。此外，在約書亞的入侵中，以色列人發現迦南人在建造石造建築和製造金屬工具、器具與武器上技術優越，這使得希伯來人面臨需要迦南人技術協助的困境。在所羅門王的時代，腓尼基的迦南人甚至被徵召設計並建造了耶路撒冷的聖殿。由於某些迦南宗教和希伯來宗教間的表面相似性，例如平安祭和某些神的稱號，使得以色列文化的獨特性更難以維持。</p><p>在耶利哥所實施的「毀滅令」之外，以色列人能夠使用戰鬥中繳獲的迦南裝備，因此摧毀所有迦南痕跡（包括他們腐敗的宗教）的決心逐漸減弱。到亞哈王時代，泰爾巴力的崇拜已經深植於北國以色列，希伯來人幾乎失去了其屬靈和神學的獨特性。他們的祭司本應維護立約的信仰的獨特性，但往往淪落至模仿迦南人的不道德行為，甚至鼓勵以色列百姓效仿（參<a href=\"https://ref.ly/1Sam2:22\">撒上2:22</a>）。</p><p>結果，希伯來先知宣告，以色列這個幾乎完全屈服於迦南誘惑的民族，必須經歷被擄的淨化，才可能重新建立對神的信仰。</p><p><em>另見</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3573\" data-resourceType=\"TyndaleBibleDictionary\">迦南神和宗教</span>；<span data-bnType=\"resourceReference\" data-resourceId=\"5260\" data-resourceType=\"TyndaleBibleDictionary\">以色列歷史</span>；<span data-bnType=\"resourceReference\" data-resourceId=\"6726\" data-resourceType=\"TyndaleBibleDictionary\">巴勒斯坦</span>。</p>",
@@ -1077,13 +1144,35 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Canaan",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Canaan"
+},
+{
+"id": "place:Canaan",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Canaan"
+},
+{
+"id": "group:Canaan",
+"type": "group",
+"confidence": 0.6068,
+"match_method": "scored",
+"preferred_label": "Canaanites"
+}
+]
 }
 },
 {
 "content_id": "471347",
 "reference_id": 7675,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "迦南人西門",
 "media_type": "Text",
 "index_reference": "迦南人西門",
@@ -1114,13 +1203,28 @@
 "language": "zht"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "group:Zealot",
+"type": "group",
+"confidence": 0.838,
+"match_method": "scored",
+"preferred_label": "Zealots"
+},
+{
+"id": "person:Simon.2",
+"type": "person",
+"confidence": 0.775,
+"match_method": "scored",
+"preferred_label": "Simon"
+}
+]
 }
 },
 {
 "content_id": "853342",
 "reference_id": 4551,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "迦薩",
 "media_type": "Text",
 "index_reference": "迦薩",
@@ -1265,10 +1369,10 @@
 {
 "content_id": "853307",
 "reference_id": 3609,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "迦斯路希人，迦斯路希族",
 "media_type": "Text",
-"index_reference": "迦斯路希人，迦斯路希族",
+"index_reference": "迦斯路希人迦斯路希族",
 "language": "zht",
 "review_level": "None",
 "content": "<h1>迦斯路希人*，迦斯路希族</h1><p>挪亞透過他的兒子含和孫子麥西（在某些版本中為「埃及」）所生的後裔，非利士人的祖先（<a href=\"https://ref.ly/Gen10:14\">創10:14</a>；<a href=\"https://ref.ly/1Chr1:12\">代上1:12</a>）。</p>",
@@ -1294,7 +1398,7 @@
 {
 "content_id": "471328",
 "reference_id": 4492,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "家具",
 "media_type": "Text",
 "index_reference": "家具",
@@ -1659,7 +1763,7 @@
 {
 "content_id": "315515",
 "reference_id": 4581,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "家譜",
 "media_type": "Text",
 "index_reference": "家譜",
@@ -2168,7 +2272,7 @@
 {
 "content_id": "864912",
 "reference_id": 5097,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "家庭",
 "media_type": "Text",
 "index_reference": "家庭",
@@ -2217,7 +2321,7 @@
 {
 "content_id": "315514",
 "reference_id": 4403,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "家庭生活與關係",
 "media_type": "Text",
 "index_reference": "家庭生活與關係",
@@ -3049,10 +3153,10 @@
 {
 "content_id": "615730",
 "reference_id": 4401,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "假基督，假彌賽亞",
 "media_type": "Text",
-"index_reference": "假基督，假彌賽亞",
+"index_reference": "假基督假彌賽亞",
 "language": "zht",
 "review_level": "None",
 "content": "<h1>假基督，假彌賽亞</h1><p>假基督或假彌賽亞是指那些錯誤地聲稱自己是神所選擇的領袖（即基督或彌賽亞）的人。耶穌在談論未來的教導中，曾警告門徒提防假彌賽亞，這記載於<a href=\"https://ref.ly/Matt24:24\">馬太福音二十四章24節</a>和<a href=\"https://ref.ly/Mark13:22\">馬可福音十三章22節</a>中。</p><p>耶穌教導祂的跟隨者有關未來將發生的事，祂預言耶路撒冷的聖殿將被毀，並警告他們會遇到試圖欺騙或逼迫他們的人。特別是在聖殿被毀的艱難時期，耶穌提醒門徒不要相信那些假稱自己是應許要來的救主之人（<a href=\"https://ref.ly/Mark13:21-Mark13:23\">可13:21–23</a>）。</p><p>這些假教師會說類似「看哪，基督在這裡！」或「基督在那裡！」（<a href=\"https://ref.ly/Mark13:21\">可13:21</a>）。他們甚至會施行神蹟奇事來試圖欺騙神的選民。但耶穌幫助祂的跟隨者做好準備，祂教導說，在祂以神子人子的身份再來之前，天上會出現預兆（<a href=\"https://ref.ly/Mark13:24-Mark13:25\">可13:24–25</a>）。當祂再來時，所有人都將親眼看見祂的大能與榮耀。</p><p>從歷史中我們知道，耶穌的教導幫助基督徒在公元70年耶路撒冷及其聖殿被毀之前，成功逃離了該城。同時，祂的教導也幫助他們不被假稱是彌賽亞的人所迷惑。至今，基督徒仍在等待耶穌以人子的榮耀身份再臨。</p><p><em>另見</em> <span data-bnType=\"resourceReference\" data-resourceId=\"2798\" data-resourceType=\"TyndaleBibleDictionary\">敵基督</span>。</p>",

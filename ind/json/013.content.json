@@ -2,7 +2,7 @@
 {
 "content_id": "369114",
 "reference_id": 6945,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Orang Miskin",
 "media_type": "Text",
 "index_reference": "orang miskin",
@@ -277,7 +277,7 @@
 {
 "content_id": "369035",
 "reference_id": 3257,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Orang Percaya",
 "media_type": "Text",
 "index_reference": "orang percaya",
@@ -346,9 +346,9 @@
 {
 "id": "keyterm:Believe",
 "type": "keyterm",
-"preferred_label": "percaya",
-"confidence": 0.6261,
-"match_method": "scored"
+"confidence": 0.7071,
+"match_method": "scored",
+"preferred_label": "percaya"
 }
 ]
 }
@@ -356,7 +356,7 @@
 {
 "content_id": "369123",
 "reference_id": 7289,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Orang Samaria",
 "media_type": "Text",
 "index_reference": "orang samaria",
@@ -583,7 +583,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "group:Samaritan",
+"type": "group",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Samaritans"
+}
+]
 }
 }
 ]

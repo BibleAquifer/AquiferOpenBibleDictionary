@@ -2,7 +2,7 @@
 {
 "content_id": "853372",
 "reference_id": 5113,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "打獵",
 "media_type": "Text",
 "index_reference": "打獵",
@@ -187,10 +187,10 @@
 {
 "content_id": "471351",
 "reference_id": 7889,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "大利大，古米",
 "media_type": "Text",
-"index_reference": "大利大，古米",
+"index_reference": "大利大古米",
 "language": "zht",
 "review_level": "None",
 "content": "<h1>大利大，古米</h1><p>耶穌說的亞蘭文詞語，並被馬可記載在其福音書中（<a href=\"https://ref.ly/Mark5:41\">可5:41</a>）。加利利地區的一位會堂主管睚魯請求耶穌醫治他生病的女兒。然而，在耶穌到達前，女兒便已去世。耶穌來到女孩身旁，握住她的手，說：「大利大，古米」，意思是「小女孩，起來」。其中「大利大」是一個表達親切的詞語，意思是「羊羔」或「年輕人」；「古米」則是一個命令，意指「起來」，馬可將其翻譯為「我對妳說，起來！」</p><p>馬可在他的福音書中記載了其它耶穌所說的亞蘭文詞語（<a href=\"https://ref.ly/Mark3:17\">可3:17，</a><a href=\"https://ref.ly/Mark5:41\">5:41，</a><a href=\"https://ref.ly/Mark7:11,Mark7:34\">7:11、34，</a><a href=\"https://ref.ly/Mark11:9-Mark11:10\">11:9–10，</a><a href=\"https://ref.ly/Mark14:36\">14:36，</a><a href=\"https://ref.ly/Mark15:22,Mark15:34\">15:22、34</a>）。馬太只記載了兩個亞蘭文片語（<a href=\"https://ref.ly/Matt27:33,Matt27:46\">太27:33、46</a>），而路加則一個也沒有記載。</p>",
@@ -264,7 +264,7 @@
 {
 "content_id": "853313",
 "reference_id": 3910,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "大馬士革",
 "media_type": "Text",
 "index_reference": "大馬士革",
@@ -397,7 +397,7 @@
 {
 "content_id": "573979",
 "reference_id": 3906,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "大瑪努他",
 "media_type": "Text",
 "index_reference": "大瑪努他",
@@ -426,13 +426,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Magadan",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Magadan"
+}
+]
 }
 },
 {
 "content_id": "615732",
 "reference_id": 4406,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "大錢",
 "media_type": "Text",
 "index_reference": "大錢",
@@ -473,7 +481,7 @@
 {
 "content_id": "573980",
 "reference_id": 3937,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "大衛",
 "media_type": "Text",
 "index_reference": "大衛",
@@ -1028,7 +1036,22 @@
 "language": "zht"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Judah"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "David"
+}
+]
 }
 }
 ]

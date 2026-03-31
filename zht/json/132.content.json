@@ -2,7 +2,7 @@
 {
 "content_id": "315545",
 "reference_id": 8208,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "水",
 "media_type": "Text",
 "index_reference": "水",
@@ -127,7 +127,7 @@
 {
 "content_id": "864963",
 "reference_id": 6919,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "水瓶",
 "media_type": "Text",
 "index_reference": "水瓶",
@@ -164,7 +164,7 @@
 {
 "content_id": "340991",
 "reference_id": 7263,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "水手",
 "media_type": "Text",
 "index_reference": "水手",
@@ -303,13 +303,21 @@
 "language": "zht"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "group:Sailors",
+"type": "group",
+"confidence": 1.0,
+"match_method": "embedding",
+"preferred_label": "Sailors"
+}
+]
 }
 },
 {
 "content_id": "341001",
 "reference_id": 7920,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "稅吏",
 "media_type": "Text",
 "index_reference": "稅吏",
@@ -350,13 +358,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:TaxCollector",
+"type": "keyterm",
+"confidence": 0.76,
+"match_method": "scored",
+"preferred_label": "Tax Collector"
+}
+]
 }
 },
 {
 "content_id": "615751",
 "reference_id": 7921,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "稅收與課稅",
 "media_type": "Text",
 "index_reference": "稅收與課稅",
@@ -592,7 +608,7 @@
 {
 "content_id": "615750",
 "reference_id": 7710,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "睡覺",
 "media_type": "Text",
 "index_reference": "睡覺",

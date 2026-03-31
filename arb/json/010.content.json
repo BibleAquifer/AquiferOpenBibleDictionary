@@ -2,7 +2,7 @@
 {
 "content_id": "159169",
 "reference_id": 7063,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "الرابي",
 "media_type": "Text",
 "index_reference": "الرابي",
@@ -79,7 +79,7 @@
 {
 "content_id": "159177",
 "reference_id": 7535,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "الرَّاعِي",
 "media_type": "Text",
 "index_reference": "الرَّاعِي",
@@ -294,28 +294,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "place:JezreelValley",
-"type": "place",
-"preferred_label": "ٱلْوَادِي",
-"confidence": 0.8164,
-"match_method": "embedding"
-},
-{
-"id": "place:ValleyGate",
-"type": "place",
-"preferred_label": "ٱلْوَادِي",
-"confidence": 0.8164,
-"match_method": "embedding"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "201449",
 "reference_id": 2906,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "الرَّامَة",
 "media_type": "Text",
 "index_reference": "الرَّامَة",
@@ -360,16 +345,9 @@
 {
 "id": "place:Arimathea",
 "type": "place",
-"preferred_label": "ٱلرَّامَةِ",
-"confidence": 0.8096,
-"match_method": "embedding"
-},
-{
-"id": "place:Ramah",
-"type": "place",
-"preferred_label": "ٱلرَّامَةِ",
-"confidence": 0.8096,
-"match_method": "embedding"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "ٱلرَّامَةِ"
 }
 ]
 }
@@ -377,7 +355,7 @@
 {
 "content_id": "512007",
 "reference_id": 7091,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "الرَّامَتَائِيم",
 "media_type": "Text",
 "index_reference": "الرَّامَتَائِيم",
@@ -408,7 +386,7 @@
 {
 "content_id": "512008",
 "reference_id": 7092,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "الرَّامِيّ",
 "media_type": "Text",
 "index_reference": "الرَّامِيّ",
@@ -425,16 +403,24 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "group:Ramathites",
+"type": "group",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "Ramathites"
+}
+]
 }
 },
 {
 "content_id": "443572",
 "reference_id": 2884,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "الرَّامي، الرِمَاية",
 "media_type": "Text",
-"index_reference": "الرَّامي، الرِمَاية",
+"index_reference": "الرَّامي الرِمَاية",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>الرَّامي، الرِمَاية</h1><p>استخدم الرماة الأقواس والسهام في السِّلم والحرب على حد سواء. نجد في الكتاب المقدَّس أنَّ البدو والصيادين واللصوص الذين كانوا ينهبون الآخرين والمحاربين (<a href=\"https://ref.ly/Gen21:20\">تكوين 21: 20؛</a> <a href=\"https://ref.ly/Gen27:3\">27: 3؛</a> <a href=\"https://ref.ly/Gen48:22\">48: 22؛ </a><a href=\"https://ref.ly/Josh24:12\">يشوع 24: 12؛</a> <a href=\"https://ref.ly/Isa7:24\">إشعياء 7: 24؛</a> <a href=\"https://ref.ly/Ezek39:9\">حزقيال 39: 9؛</a> <a href=\"https://ref.ly/Hos1:7\">هوشع 1: 7</a>) كانوا جميعهم يستخدمون الرِمَاية في الصيد والقتال.</p><p>على مر القرون، طوّر الناس من <span>جودة عمل</span> القوس والسهم. كان أفضل قوس هو &quot;القوس المُركَّب&quot;. كان الصانعون يلصقون شرائط من عصب الحيوان على طرفي القوس وقرن الحيوان على السطح الداخلي. أفضل هذه الأقواس يمكنه إطلاق السهام لمدى يبدأ من 274 إلى 366 مترًا (300 إلى 400 ياردة). كان على الرَّامي أن يكون شخصًا قويًا لشد القوس وإصابة الهدف.</p><p>في حين استخدم الرماة الأقواس للصيد، كان هذا السلاح أكثر فائدة في الحرب. تقاتل شاول ويُونَاثَان بالسيف والقوس، وضم جيش داوُد رُماة مهرة (<a href=\"https://ref.ly/1Sam18:4\">1&nbsp;صموئيل 18: 4؛</a> <a href=\"https://ref.ly/1Chr12:2\">1&nbsp;أخبار 12: 2</a>). سلَّح ملوك إسرائيل القوات بالأقواس (<a href=\"https://ref.ly/2Chr17:17\">2&nbsp;أخبار 17: 17</a>). أعداء إسرائيل، بما في ذلك المصريين والسوريين والأشَّوريين والبابليين والفُرس واليونانيين والرومان، جميعهم يذكرون وجود رماة في جيوشهم. لا تزال توجد صور ممتازة لمنحوتات تصوّر بعض الرماة التاريخيين.</p><p>وصف أيوب معاناته الجسدية بشكل مجازي بأن رماة الله يحيطون به (<a href=\"https://ref.ly/Job16:13\">أيوب 16: 13</a>). تشير بعض المزامير إلى قوس الرَّامي كمجاز عن العنف (<a href=\"https://ref.ly/Ps11:2\">مزامير 11: 2؛</a> <a href=\"https://ref.ly/Ps57:4\">57: 4</a>). بعض المزامير الأخرى تشير إلى قوس الرَّامي كمجاز للدينونة الإلهية (<a href=\"https://ref.ly/Ps7:13\">مزامير 7: 13؛</a> <a href=\"https://ref.ly/Ps38:2\">38: 2؛</a> <a href=\"https://ref.ly/Ps64:7\">64:7</a>).</p><p><em>انظر أيضًا</em> <span data-bnType=\"resourceReference\" data-resourceId=\"2918\" data-resourceType=\"TyndaleBibleDictionary\">الدرع والأسلحة</span>.</p>",
@@ -546,13 +532,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Bow",
+"type": "realia",
+"confidence": 0.695,
+"match_method": "scored",
+"preferred_label": "Bow"
+}
+]
 }
 },
 {
 "content_id": "509446",
 "reference_id": 2828,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "الرؤيوي",
 "media_type": "Text",
 "index_reference": "الرؤيوي",
@@ -576,7 +570,7 @@
 {
 "content_id": "509447",
 "reference_id": 2829,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "الرؤيوي",
 "media_type": "Text",
 "index_reference": "الرؤيوي",
@@ -614,7 +608,7 @@
 {
 "content_id": "232592",
 "reference_id": 5948,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "الرب",
 "media_type": "Text",
 "index_reference": "الرب",
@@ -972,16 +966,31 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "يَسوع"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "ٱلرَّبِّ"
+}
+]
 }
 },
 {
 "content_id": "512723",
 "reference_id": 8269,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "الرب (يهوه)",
 "media_type": "Text",
-"index_reference": "الرب (يهوه)",
+"index_reference": "الرب يهوه",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>الرب* (يهوه)</h1><p>الاسم الأكثر قداسة لله في العهد القديم، يُترجم عادةً الى &quot;الرب&quot;. انظر <span data-bnType=\"resourceReference\" data-resourceId=\"4667\" data-resourceType=\"TyndaleBibleDictionary\"> أسماء الله (يهوه)</span>.</p>",
@@ -1002,7 +1011,7 @@
 {
 "content_id": "512101",
 "reference_id": 7256,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "الرَّباب",
 "media_type": "Text",
 "index_reference": "الرَّباب",
@@ -1033,7 +1042,7 @@
 {
 "content_id": "512616",
 "reference_id": 8095,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "الرَّبَابُ",
 "media_type": "Text",
 "index_reference": "الرَّبَابُ",
@@ -1064,7 +1073,7 @@
 {
 "content_id": "511962",
 "reference_id": 7011,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "الرَبَابَة",
 "media_type": "Text",
 "index_reference": "الرَبَابَة",
@@ -1088,7 +1097,7 @@
 {
 "content_id": "335195",
 "reference_id": 3415,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "الربط والحل",
 "media_type": "Text",
 "index_reference": "الربط والحل",
@@ -1185,7 +1194,7 @@
 {
 "content_id": "159156",
 "reference_id": 6405,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "الرثاء",
 "media_type": "Text",
 "index_reference": "الرثاء",
@@ -1565,7 +1574,7 @@
 {
 "content_id": "511841",
 "reference_id": 6770,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "الرسائل الرعوية",
 "media_type": "Text",
 "index_reference": "الرسائل الرعوية",
@@ -1610,10 +1619,10 @@
 {
 "content_id": "510322",
 "reference_id": 4298,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "الرسائل، غير القانونية",
 "media_type": "Text",
-"index_reference": "الرسائل، غير القانونية",
+"index_reference": "الرسائل غير القانونية",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>الرسائل، غير القانونية</h1><p>رسائل غير مدرجة في القائمة الرسمية للأسفار التي تُعد أسفارًا مقدسة، لكنها لا تزال تعتبر ذات أهمية دينية أو تاريخية. <em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"2831\" data-resourceType=\"TyndaleBibleDictionary\">الأبوكريفا (الرسائل الأبوكريفية)</span>.</p>",
@@ -1634,7 +1643,7 @@
 {
 "content_id": "852631",
 "reference_id": 213083,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "الرسالة الثالثة إلى كورنثوس",
 "media_type": "Text",
 "index_reference": "الرسالة الثالثة إلى كورنثوس",
@@ -1658,7 +1667,7 @@
 {
 "content_id": "331782",
 "reference_id": 3819,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "الرسالة الثانية إلى كنيسة كورنثوس",
 "media_type": "Text",
 "index_reference": "الرسالة الثانية إلى كنيسة كورنثوس",
@@ -2160,13 +2169,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "group:Corinth",
+"type": "group",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Corinthians"
+}
+]
 }
 },
 {
 "content_id": "232579",
 "reference_id": 4927,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "الرسالة إلى العبرانيين",
 "media_type": "Text",
 "index_reference": "الرسالة إلى العبرانيين",
@@ -3125,13 +3142,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "group:Hebrews",
+"type": "group",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Hebrews"
+}
+]
 }
 },
 {
 "content_id": "800783",
 "reference_id": 7229,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "الرسالة إلى أهل رومية",
 "media_type": "Text",
 "index_reference": "الرسالة إلى أهل رومية",
@@ -3846,7 +3871,7 @@
 {
 "content_id": "511313",
 "reference_id": 5869,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "الرَّصَاص",
 "media_type": "Text",
 "index_reference": "الرَّصَاص",
@@ -3870,10 +3895,10 @@
 {
 "content_id": "443980",
 "reference_id": 7171,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "الرَّفَائِيِّون-الْأَخِيلَة",
 "media_type": "Text",
-"index_reference": "الرَّفَائِيِّون-الْأَخِيلَة",
+"index_reference": "الرَّفَائِيِّونالْأَخِيلَة",
 "language": "arb",
 "review_level": "None",
 "content": "<h1><span>الرَّفَائِيِّون-الْأَخِيلَة</span>*</h1><p>1. كلمة عبرية تشير إلى الظلال أو الأرواح الراحلة التي كان مكان سكنها هو مسكن  الهَاوِيَة (<a href=\"https://ref.ly/Prov2:18\">أمثال 2:18؛</a> <a href=\"https://ref.ly/Prov9:18\">9:18؛</a> <a href=\"https://ref.ly/Prov21:16\">21:16</a>). عانى الرفائيون في العالم السفلي من العذاب (<a href=\"https://ref.ly/Job26:5\">أيوب 26:5</a>) وكانوا منفصلين عن الله (<a href=\"https://ref.ly/Ps88:10-Ps88:12\">مزمور 88:10–12</a>) وعن جميع الأحياء (<a href=\"https://ref.ly/Isa26:14\">إشعياء 26:14</a>). كانت كينونتهم غير المادية تحمل تشابهًا باهتًا شبيه الظل بطبيعتهم الجسدية التي كانوا عليها قبلًا (<a href=\"https://ref.ly/Isa14:9\">إشعياء 14:9</a>).</p><p>2. شعب عظيم طويل القامة يعيش في فلسطين في زمن إبراهيم. وقد هزم كدرلعومر وجيوشه المتحالفة (<a href=\"https://ref.ly/Gen14:5\">تكوين 14:5</a>) <span>الرَّفَائِيِّين، </span>والزُّوزِيِّين، والإِيمِيِّين، والشعوب الحورية. كانوا واحدة من تسع أمم تعيش في فلسطين في الوقت الذي وعد فيه الرب بإعطاء الأرض لنسل إبراهيم (<a href=\"https://ref.ly/Gen15:20\">15:20</a>). القدماء الرفائيون، أطلق عليهم المُوآبِيِّون إِيمِيِّينَ، و<span>العَمُّونِيِّون يَدْعُونهم زَمْزُمِيِّينَ، وكانوا في الكثرة والعدد مشابهين </span>للعمالقة <span>العَنَاقِيِّينَ </span>(<a href=\"https://ref.ly/Deut2:11,Deut2:20\">تثنية 2:11، 20</a>). كان عوج، ملك باشان، يمثل آخر الرَّفَائِيِّين. ثم قُتل لاحقًا وأخذ الإسرائيليون مملكته تحت قيادة موسى (<a href=\"https://ref.ly/Deut3:11\">تثنية 3:11؛</a> <a href=\"https://ref.ly/Josh12:4\">يشوع 12:4؛</a> <a href=\"https://ref.ly/Josh13:12\">13:12</a>). على الأرجح كان العمالقة الذين في صفوف الفلسطينيين من نسل الرَّفَائِيِّين (<a href=\"https://ref.ly/2Sam21:1-2Sam21:22\">2&nbsp;صموئيل 21؛</a> <a href=\"https://ref.ly/1Chr20:1-1Chr20:8\">1&nbsp;أخبار 20</a>).</p><p><em>انظر أيضًا</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4612\" data-resourceType=\"TyndaleBibleDictionary\">العمالقة</span>.</p>",
@@ -3985,13 +4010,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "group:Rephaim",
+"type": "group",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Rephaim"
+}
+]
 }
 },
 {
 "content_id": "124529",
 "reference_id": 5801,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "الركوع",
 "media_type": "Text",
 "index_reference": "الركوع",
@@ -4194,7 +4227,7 @@
 {
 "content_id": "510791",
 "reference_id": 5053,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "الروح القدس",
 "media_type": "Text",
 "index_reference": "الروح القدس",
@@ -4212,13 +4245,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "ٱلرّوحِ"
+}
+]
 }
 },
 {
 "content_id": "512165",
 "reference_id": 7376,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رائي",
 "media_type": "Text",
 "index_reference": "رائي",
@@ -4243,13 +4284,28 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Seir",
+"type": "person",
+"confidence": 0.8492,
+"match_method": "embedding",
+"preferred_label": "سَعِيرَ"
+},
+{
+"id": "place:Seir",
+"type": "place",
+"confidence": 0.8492,
+"match_method": "embedding",
+"preferred_label": "سَعِيرَ"
+}
+]
 }
 },
 {
 "content_id": "512030",
 "reference_id": 7124,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَآيَا",
 "media_type": "Text",
 "index_reference": "رَآيَا",
@@ -4292,18 +4348,25 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Reaiah.3",
-"type": "person",
-"preferred_label": "رَآيَا",
-"confidence": 0.76,
-"match_method": "scored"
-},
-{
 "id": "person:Reaiah.2",
 "type": "person",
-"preferred_label": "رَآيَا",
-"confidence": 0.68,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَآيَا"
+},
+{
+"id": "person:Reaiah.3",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَآيَا"
+},
+{
+"id": "person:Haroeh",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Haroeh"
 }
 ]
 }
@@ -4311,7 +4374,7 @@
 {
 "content_id": "490630",
 "reference_id": 7127,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَابِع",
 "media_type": "Text",
 "index_reference": "رَابِع",
@@ -4338,9 +4401,9 @@
 {
 "id": "person:Reba",
 "type": "person",
-"preferred_label": "رَابِعَ",
-"confidence": 0.964,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَابِعَ"
 }
 ]
 }
@@ -4348,10 +4411,10 @@
 {
 "content_id": "511990",
 "reference_id": 7065,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رابماغ، رئيس المجوس*",
 "media_type": "Text",
-"index_reference": "رابماغ، رئيس المجوس*",
+"index_reference": "رابماغ رئيس المجوس",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>رابماغ، رئيس المجوس*</h1><p>اللقب الذي أُعطي لضابط بابلي معين، اسمه نرجل شراصر، الذي كان مسؤولاً عن سلامة إرميا وقت سقوط أورشليم (<a href=\"https://ref.ly/Jer39:3,Jer39:13\">إرميا 39:3، 13</a>). معنى اللقب غير مؤكد، ولكنه يُترجم في فاندايك على أنه رئيس المجوس.</p>",
@@ -4371,16 +4434,24 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Rab-mag",
+"type": "person",
+"confidence": 0.964,
+"match_method": "scored",
+"preferred_label": "ٱلْمَجوسِ"
+}
+]
 }
 },
 {
 "content_id": "335473",
 "reference_id": 7070,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "راحاب (راخاب)",
 "media_type": "Text",
-"index_reference": "راحاب (راخاب)",
+"index_reference": "راحاب راخاب",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>راحاب (راخاب)*</h1><p><span>طريقة أخرى لترجمة الملك جيمس لكتابة اسم</span> راحاب في <a href=\"https://ref.ly/Matt1:5\">متى 1:5</a>. <em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"7078\" data-resourceType=\"TyndaleBibleDictionary\">راحاب (الشخص)</span>.</p>",
@@ -4402,16 +4473,24 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Rahab",
+"type": "person",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "رَاحَاب"
+}
+]
 }
 },
 {
 "content_id": "335477",
 "reference_id": 7078,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "راحاب (شخص)",
 "media_type": "Text",
-"index_reference": "راحاب (شخص)",
+"index_reference": "راحاب شخص",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>راحاب (شخص)</h1><p>بطلة معركة أريحا (<a href=\"https://ref.ly/Josh2:1-Josh6:27\">يشوع 2–6</a>). بعد وفاة موسى بفترة قصيرة، تكلم الله إلى يشوع أن عليه والشعب عبور الأرْدُنّ وامتلاك أرض الموعد. قبل العبور للأرض، أرسل يشوع جاسوسين إلى الأرض لاستكشاف حجم المقاومة، ولاسيما المدينة المحصنة أريحا. عند دخول المدينة، وجد الجاسوسان طريقهما بسرعة إلى بيت راحاب، الذي كان ربما حانة للمبيت و/أو بيت دعارة. ويبدو أنها كانت تشتغل بالدعارة.</p><p>خبر وصول الجاسوسين لم يستغرق وقتًا طويلًا حتى وصل إلى ملك أريحا، الذي طلب بطبيعة الحال من راحاب الإفصاح عن موضعهما. اعترفت راحاب بذكاء بأنها قد رأتهما بالفعل، لكنها أصرت على أنهما غادرا المدينة عند حلول الليل. في الواقع، كان الجاسوسان يختبئان تحت عيدان الكتَّان التي على سطح منزلها. عندما غادر فريق البحث التابع للملك أريحا للبحث عن الجاسوسان، اعترفت راحاب لهما عن سبب تواطؤها مع قضية بني إسرائيل. كانت راحاب تخشى إله اليهود، وكانت تؤمن أنه سيمنحهم النصر بلا شك (<a href=\"https://ref.ly/Josh2:11\">يش 2:11</a>).</p><p>وافق الجاسوسان على إنقاذ رحاب وعائلتها بسبب مساعدتها لهما. كانت العلامة عبارة عن حبل من الخيط القرمزي معلقًا من نافذتها، وهي نفس الطريقة التي استخدمها الجاسوسان للهرب من المدينة. كانت رحاب وعائلتها بالفعل الناجين الوحيدين من المعركة القادمة. الرجلان اللذان أنقذتهما راحاب، بأمر من يشوع، أخرجاها وعائلتها إلى بر الأمان.</p><p>رحاب أصبحت زوجة سلمون وأم بوعز، وبذلك أصبحت سلفًا ليسوع (<a href=\"https://ref.ly/Matt1:5\">متى 1:5</a>). رحاب تُذكر، إلى جانب موسى وداود وشمشون وصموئيل، كمثال للإيمان (<a href=\"https://ref.ly/Heb11:31\">عبرانيين 11:31</a>). ما فعلته مثال لمعنى الأعمال الصالحة والتبرير (<a href=\"https://ref.ly/Jas2:25\">يعقوب 2:25</a>).</p><p><em>انظر أيضًا</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3803\" data-resourceType=\"TyndaleBibleDictionary\">امتلاك وتقسيم الأرض</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"5626\" data-resourceType=\"TyndaleBibleDictionary\">سفر يشوع.</span></p>",
@@ -4464,13 +4543,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Rahab",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَاحَاب"
+}
+]
 }
 },
 {
 "content_id": "335482",
 "reference_id": 7178,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "راحة",
 "media_type": "Text",
 "index_reference": "راحة",
@@ -4641,7 +4728,7 @@
 {
 "content_id": "335475",
 "reference_id": 7073,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَاحِيل",
 "media_type": "Text",
 "index_reference": "رَاحِيل",
@@ -4718,9 +4805,9 @@
 {
 "id": "person:Rachel",
 "type": "person",
-"preferred_label": "رَاحِيل",
-"confidence": 0.9333,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَاحِيل"
 }
 ]
 }
@@ -4728,7 +4815,7 @@
 {
 "content_id": "511993",
 "reference_id": 7068,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَاخَال",
 "media_type": "Text",
 "index_reference": "رَاخَال",
@@ -4747,18 +4834,11 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Rachel",
-"type": "person",
-"preferred_label": "رَاحِيل",
-"confidence": 0.8544,
-"match_method": "embedding"
-},
-{
-"id": "person:Rahab",
-"type": "person",
-"preferred_label": "رَاحَاب",
-"confidence": 0.816,
-"match_method": "embedding"
+"id": "place:Carmel",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "فِي"
 }
 ]
 }
@@ -4766,7 +4846,7 @@
 {
 "content_id": "512029",
 "reference_id": 7122,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رازيس",
 "media_type": "Text",
 "index_reference": "رازيس",
@@ -4789,7 +4869,7 @@
 {
 "content_id": "159129",
 "reference_id": 4914,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رأس",
 "media_type": "Text",
 "index_reference": "رأس",
@@ -5082,7 +5162,7 @@
 {
 "content_id": "511601",
 "reference_id": 6366,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رأس الشهر",
 "media_type": "Text",
 "index_reference": "رأس الشهر",
@@ -5120,10 +5200,10 @@
 {
 "content_id": "510063",
 "reference_id": 3843,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رأس، غطاء الـ",
 "media_type": "Text",
-"index_reference": "رأس، غطاء الـ",
+"index_reference": "رأس غطاء الـ",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>رأس، غطاء الـ</h1><p>تغطية الرأس وسيلة يُظهر بها الناس الاحترام في الممارسات الدينية. في العالم القديم، كانت النساء عادةً يرتدين وشاحًا أو برقعًا أو أغطية أخرى على رؤوسهن، لاسيّما حينما يصلون.</p><h2>ممارسات الكنيسة الأولى</h2><p>في زمن بولس، كانت النساء اليهوديات دائمًا يرتدين غطاء الرأس في الأماكن العامة. النساء اليونانيات عمومًا كنّ أيضًا يرتدين غطاء الرأس. كانت ممارسة تغطية النساء لرؤوسهن تُظهر الاحترام للسلطة وتضفي كرامة على من ترتديها. ناقش الرسول بولس مسألة تغطية الرأس في <a href=\"https://ref.ly/1Cor11:2-1Cor11:16\">1&nbsp;كورنثوس 11:2–16</a>.</p><p>في كنيسة كورِنْثوس، كانت هناك مشكلة عندما بدأت بعض النساء يُصَلِّين في العلن دون تغطية رؤوسهن. نظرًا لأنَّ النساء كنّ يغطين رؤوسهن احترامًا للرجال (أو &quot;الأزواج&quot;)، بدا من المخزي أنْ تصلِّي أو تتنبأ امرأة دون برقع أو غطاء رأس. في ثقافتهم، كان هذا كما لو كان رأسها محلوقًا (الآية <a href=\"https://ref.ly/1Cor11:5\">5</a>)، وهو ما كان يراه أهل كورِنْثوس مخزيًا.</p><p>استعرض بولس هذه القضية حينما أشار لخَلْق الله للرجال والنساء (الآية <a href=\"https://ref.ly/1Cor11:8\">8</a>). في البداية، يشير  إلى &quot;الملائكة&quot; في الآية <a href=\"https://ref.ly/1Cor11:10\">10</a> قبل أن يشرح احتياج الرجال والنساء إلى بعضهم البعض في الآيتين <a href=\"https://ref.ly/1Cor11:11-1Cor11:12\">11–12</a>. يفسر البعض كلمة &quot;سلطان&quot; في الآية <a href=\"https://ref.ly/1Cor11:10\">10</a> رمزًا لسلطة جديدة، إذ إنه لم يكن بإمكان النساء المشاركة في خدمة العبادة اليهودية داخل المجامع اليهودية.. على النقيض من ذلك، يمكن للمرأة المسيحية المشاركة في العبادة المسيحية طالمَا ترتدي غطاء الرأس.</p><p>قال بولس إنَّ &quot;الطبيعة&quot; ذاتها تعلِّم الرجال والنساء عن تغطية الرأس. يعتقد بعض العلماء أنَّه كان يقصد أنه بما أنَّ شعر المرأة الطويل كان فخرها، فعليها تغطية رأسها (الآية <a href=\"https://ref.ly/1Cor11:15\">15</a>). كما يرى البعض أنَّ العبارة ربما تشير إلى طريقة تصفيف الشعر. وآخرون يرون أنَّ بولس قصد إنَّ غطاء الرأس ليس ضروريًا لأنَّ شعر المرأة يكون بمنزلة غطاء لها (الآية <a href=\"https://ref.ly/1Cor11:15\">15</a>). شجع بولس على الحرية، لكنه أصَّر أيضًا على النظام والترتيب في الكنائس. وتمسَّك بولس ببعض العادات لتجنب ازعاج الآخرين (انظر <a href=\"https://ref.ly/1Cor9:19-1Cor9:23\">1&nbsp;كورنثوس 9:19–23</a>). ومع ذلك، تحدى عادات أخرى من أجل سلامة الإنجيل ورسالته (انظر <a href=\"https://ref.ly/Gal6:12\">غلاطية 6:12</a>).</p><h2>تعاليم بولس والممارسة الحديثة</h2><p>في معظم التقاليد الكنسيّة، لا توجد ضرورة لتغطية الرأس سوى في المجتمعات التي ترى أنَّه من اللائق تغطية النساء رؤوسهن. بعض المجموعات تعتقد أنَّ جميع النساء يجب أنْ يرتدين قبعات أو أغطية على رؤوسهن في أثناء الخدمة الكنسيّة. في بعض المجموعات، تضع النساء بانتظام &quot;أغطية&quot; صغيرة على شعورهن حتى يتمكنّ دائمًا من الصلاة برؤوسهن &quot;مغطاة.&quot; (من المهم ملاحظة اختلاف الآراء حول أغطية الرأس، وتصفيف الشعر عبر الثقافات والأزمنة المختلفة.)</p><p><em>انظر أيضًا</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3818\" data-resourceType=\"TyndaleBibleDictionary\"> الرسالة الأولى إلى أهل كُوْرِنثُوس</span>.</p>",
@@ -5193,10 +5273,10 @@
 {
 "content_id": "512025",
 "reference_id": 7118,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "راسيس، الراسيسيون",
 "media_type": "Text",
-"index_reference": "راسيس، الراسيسيون",
+"index_reference": "راسيس الراسيسيون",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>راسيس، الراسيسيون</h1><p>منطقة وشعب مذكورون في <a href=\"https://ref.ly/Jdt2:23\">يهوديت 2:23</a><span>، ويُرجّح أنها تقع في كيليكية (في آسيا الصغرى)، وقد كانت من المناطق التي اجتاحها هولوفرنيس.</span></p>",
@@ -5216,10 +5296,10 @@
 {
 "content_id": "335491",
 "reference_id": 7244,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "راعوث (شخص)",
 "media_type": "Text",
-"index_reference": "راعوث (شخص)",
+"index_reference": "راعوث شخص",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>راعوث (شخص)</h1><p>هي امرأة موآبية وأرملة محلون، ابن نُعمي وأليمالك، الذين كانوا أفراتيين من بيت لحم، وقد انتقلوا ليقيموا في موآب بسبب المجاعة الشديدة في يهوذا. وبعد وفاة أليمالك وابني نعمي، عادت نُعمي إلى بيت لحم مع كنتها راعوث خلال موسم حصاد الشعير (<a href=\"https://ref.ly/Ruth1:4-Ruth1:22\">راعوث 1:4–22</a>). وأثناء التقاطها في حقول الشعير التي لبوعز، وجدت راعوث نعمة في عينيه (<a href=\"https://ref.ly/Ruth2:2-Ruth2:22\">راعوث 2:2–22</a>). ثم تزوجت راعوث لاحقًا من بوعز، وذلك عندما قام بوعز، بصفته الوليّ الأقرب إلى نُعمي التي بلا أطفال، بشراء ممتلكات نعمي للحفاظ عليها داخل العائلة (<a href=\"https://ref.ly/Ruth4:5-Ruth4:13\">راعوث 4:5–13</a>). كما تُذكر راعوث في سلسلة نسب المسيح في إنجيل متى كأم عوبيد وجدّة داود (<a href=\"https://ref.ly/Matt1:5\">متى 1:5</a>).</p><p><em>انظر أيضا</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4580\" data-resourceType=\"TyndaleBibleDictionary\">سلسلة نسب يسوع المسيح</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"7243\" data-resourceType=\"TyndaleBibleDictionary\">سفر راعوث</span>.</p>",
@@ -5270,9 +5350,9 @@
 {
 "id": "person:Ruth",
 "type": "person",
-"preferred_label": "رَاعوث",
-"confidence": 0.6555,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَاعوث"
 }
 ]
 }
@@ -5280,7 +5360,7 @@
 {
 "content_id": "443975",
 "reference_id": 7114,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَافَا",
 "media_type": "Text",
 "index_reference": "رَافَا",
@@ -5319,39 +5399,25 @@
 ],
 "acai": [
 {
+"id": "person:Rosh",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "روش"
+},
+{
 "id": "person:Rapha",
 "type": "person",
-"preferred_label": "رَافَا",
 "confidence": 1.0,
-"match_method": "embedding"
+"match_method": "content_id",
+"preferred_label": "رَافَا"
 },
 {
-"id": "person:Rakem",
+"id": "person:Raphah",
 "type": "person",
-"preferred_label": "رَاقَم",
-"confidence": 0.8042,
-"match_method": "embedding"
-},
-{
-"id": "person:Rekem",
-"type": "person",
-"preferred_label": "رَاقَم",
-"confidence": 0.8042,
-"match_method": "embedding"
-},
-{
-"id": "person:Rekem.2",
-"type": "person",
-"preferred_label": "رَاقَم",
-"confidence": 0.8042,
-"match_method": "embedding"
-},
-{
-"id": "place:Rekem",
-"type": "place",
-"preferred_label": "رَاقَم",
-"confidence": 0.8042,
-"match_method": "embedding"
+"confidence": 0.7333,
+"match_method": "scored",
+"preferred_label": "رَافَةَ"
 }
 ]
 }
@@ -5359,7 +5425,7 @@
 {
 "content_id": "512020",
 "reference_id": 7111,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رافائيل",
 "media_type": "Text",
 "index_reference": "رافائيل",
@@ -5442,7 +5508,7 @@
 {
 "content_id": "512022",
 "reference_id": 7113,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رافانا",
 "media_type": "Text",
 "index_reference": "رافانا",
@@ -5466,7 +5532,7 @@
 {
 "content_id": "335227",
 "reference_id": 3790,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رأفة",
 "media_type": "Text",
 "index_reference": "رأفة",
@@ -5663,7 +5729,7 @@
 {
 "content_id": "512021",
 "reference_id": 7112,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَافَة",
 "media_type": "Text",
 "index_reference": "رَافَة",
@@ -5692,9 +5758,9 @@
 {
 "id": "person:Raphah",
 "type": "person",
-"preferred_label": "رَافَةَ",
-"confidence": 0.964,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَافَةَ"
 }
 ]
 }
@@ -5702,7 +5768,7 @@
 {
 "content_id": "490628",
 "reference_id": 7116,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَافو",
 "media_type": "Text",
 "index_reference": "رَافو",
@@ -5723,9 +5789,9 @@
 {
 "id": "person:Raphu",
 "type": "person",
-"preferred_label": "رَافو",
 "confidence": 1.0,
-"match_method": "scored"
+"match_method": "content_id",
+"preferred_label": "رَافو"
 }
 ]
 }
@@ -5733,7 +5799,7 @@
 {
 "content_id": "512023",
 "reference_id": 7115,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رافون",
 "media_type": "Text",
 "index_reference": "رافون",
@@ -5750,13 +5816,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:Rephan",
+"type": "deity",
+"confidence": 0.8003,
+"match_method": "embedding",
+"preferred_label": "رَمْفَانَ"
+}
+]
 }
 },
 {
 "content_id": "511997",
 "reference_id": 7079,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَاقَم",
 "media_type": "Text",
 "index_reference": "رَاقَم",
@@ -5775,18 +5849,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Rekem.2",
-"type": "person",
-"preferred_label": "رَاقَم",
-"confidence": 1.0,
-"match_method": "scored"
-},
-{
 "id": "person:Raham",
 "type": "person",
-"preferred_label": "رَاقَمَ",
-"confidence": 0.964,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَاقَمَ"
+},
+{
+"id": "person:Jorkeam",
+"type": "person",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "يَرقْعَامَ"
 }
 ]
 }
@@ -5794,7 +5868,7 @@
 {
 "content_id": "512002",
 "reference_id": 7085,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَاقَم",
 "media_type": "Text",
 "index_reference": "رَاقَم",
@@ -5815,9 +5889,9 @@
 {
 "id": "person:Rakem",
 "type": "person",
-"preferred_label": "رَاقَم",
 "confidence": 1.0,
-"match_method": "scored"
+"match_method": "content_id",
+"preferred_label": "رَاقَم"
 }
 ]
 }
@@ -5825,10 +5899,10 @@
 {
 "content_id": "512053",
 "reference_id": 7157,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَاقَم (اسم مكان)",
 "media_type": "Text",
-"index_reference": "رَاقَم (اسم مكان)",
+"index_reference": "رَاقَم اسم مكان",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>رَاقَم (اسم مكان)</h1><p>إحدى المدن الست والعشرين التي أُعطِيت نصيبًا لسبط بنيامين (<a href=\"https://ref.ly/Josh18:27\">يشوع 18: 27</a>).</p>",
@@ -5846,9 +5920,9 @@
 {
 "id": "place:Rekem",
 "type": "place",
-"preferred_label": "رَاقَم",
 "confidence": 1.0,
-"match_method": "scored"
+"match_method": "content_id",
+"preferred_label": "رَاقَم"
 }
 ]
 }
@@ -5856,10 +5930,10 @@
 {
 "content_id": "490632",
 "reference_id": 7156,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَاقَم (شخص)",
 "media_type": "Text",
-"index_reference": "رَاقَم (شخص)",
+"index_reference": "رَاقَم شخص",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>رَاقَم (شخص)</h1><p>١. أمير أو ملك مِدْيَانَ قُتل مع أربعة من شركائه في معركة شنها موسَى بأمر من أَيّهَا (<a href=\"https://ref.ly/Num31:8\">عدد ٣١:٨</a>، <a href=\"https://ref.ly/Josh13:21\">يشوع ١٣:٢١</a>). الإسرائيليون الذين يعيشون في محيط سيطرة رَاقَم قد أوغوا لعبادة فَغورَ.</p><p>2. ابن حَبْرونَ، من نسل كَالِب، وأب شَمَّايَ (<a href=\"https://ref.ly/1Chr2:43-1Chr2:44\">1&nbsp;أخبار الأيام 2:43–44</a>).</p>",
@@ -5889,23 +5963,16 @@
 {
 "id": "person:Rekem.2",
 "type": "person",
-"preferred_label": "رَاقَم",
-"confidence": 0.8,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَاقَم"
 },
 {
 "id": "person:Rekem",
 "type": "person",
-"preferred_label": "رَاقَم",
-"confidence": 0.8,
-"match_method": "scored"
-},
-{
-"id": "person:Raham",
-"type": "person",
-"preferred_label": "رَاقَمَ",
-"confidence": 0.664,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَاقَم"
 }
 ]
 }
@@ -5913,10 +5980,10 @@
 {
 "content_id": "335480",
 "reference_id": 7104,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رام (شخص)",
 "media_type": "Text",
-"index_reference": "رام (شخص)",
+"index_reference": "رام شخص",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>رام (شخص)</h1><p>1. هو جَدّ للملك داود (<a href=\"https://ref.ly/Ruth4:19\">راعوث 4:19</a>; <a href=\"https://ref.ly/1Chr2:9-1Chr2:10\">1 أخبار الأيام 2:9–10</a>), مذكور في سلسلة نسب المسيح في إنجيل متى (<a href=\"https://ref.ly/Matt1:3-Matt1:4\">متى 1:3–4</a>; ويُدعى أرني في <a href=\"https://ref.ly/Luke3:33\">لوقا 3:33</a>). <em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4580\" data-resourceType=\"TyndaleBibleDictionary\">نسب يسوع المسيح</span>.</p><p>2. الابن الأكبر ليرحمئيل (<a href=\"https://ref.ly/1Chr2:25-1Chr2:27\">1&nbsp;أخبار 2:25–27</a>), وربما ابن أخ المذكور أعلاه.</p><p>3. رئيس عشيرة أليهو، أحد أصدقاء أيوب (<a href=\"https://ref.ly/Job32:2\">أيوب 32:2</a>).</p>",
@@ -5968,16 +6035,38 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Ram.2",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَامَ"
+},
+{
+"id": "person:Ram.3",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَامَ"
+},
+{
+"id": "person:Ram",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَامَ"
+}
+]
 }
 },
 {
 "content_id": "335479",
 "reference_id": 7096,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "راما (الرامة)",
 "media_type": "Text",
-"index_reference": "راما (الرامة)",
+"index_reference": "راما الرامة",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>راما (الرامة)*</h1><p><span>طريقة أخرى تستخدمها ترجمة الملك جيمس لكتابة اسم</span> الرامة، مدينة في سبط بنيامين، في <a href=\"https://ref.ly/Matt2:18\">متى 2:18</a>. <em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"7089\" data-resourceType=\"TyndaleBibleDictionary\">الرامة #1</span>.</p>",
@@ -5999,13 +6088,28 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Ramah.2",
+"type": "place",
+"confidence": 0.85,
+"match_method": "scored",
+"preferred_label": "Ramah"
+},
+{
+"id": "place:Ramah",
+"type": "place",
+"confidence": 0.5505,
+"match_method": "scored",
+"preferred_label": "ٱلرَّامَةِ"
+}
+]
 }
 },
 {
 "content_id": "335478",
 "reference_id": 7089,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَّامَة",
 "media_type": "Text",
 "index_reference": "رَّامَة",
@@ -6213,18 +6317,60 @@
 ],
 "acai": [
 {
-"id": "person:Reumah",
-"type": "person",
-"preferred_label": "رَؤومَة",
-"confidence": 0.8481,
-"match_method": "embedding"
+"id": "place:Ramoth-gilead",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَاموتَ"
 },
 {
-"id": "person:Ramiah",
-"type": "person",
-"preferred_label": "رَمْيَا",
-"confidence": 0.8395,
-"match_method": "embedding"
+"id": "place:Ramah.6",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Ramah"
+},
+{
+"id": "place:Ramah.8",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Ramah"
+},
+{
+"id": "place:Ramah",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "ٱلرَّامَةِ"
+},
+{
+"id": "place:Ramah.2",
+"type": "place",
+"confidence": 0.7214,
+"match_method": "scored",
+"preferred_label": "Ramah"
+},
+{
+"id": "place:Ramah.3",
+"type": "place",
+"confidence": 0.6071,
+"match_method": "scored",
+"preferred_label": "Ramah"
+},
+{
+"id": "place:Ramah.4",
+"type": "place",
+"confidence": 0.6071,
+"match_method": "scored",
+"preferred_label": "Ramah"
+},
+{
+"id": "place:Ramah.7",
+"type": "place",
+"confidence": 0.6,
+"match_method": "scored",
+"preferred_label": "Ramah"
 }
 ]
 }
@@ -6232,7 +6378,7 @@
 {
 "content_id": "512011",
 "reference_id": 7095,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رامة الجنوب",
 "media_type": "Text",
 "index_reference": "رامة الجنوب",
@@ -6259,11 +6405,32 @@
 ],
 "acai": [
 {
+"id": "place:Baalath-beer",
+"type": "place",
+"confidence": 0.766,
+"match_method": "scored",
+"preferred_label": "Baalath-beer"
+},
+{
+"id": "place:Ramah.2",
+"type": "place",
+"confidence": 0.739,
+"match_method": "scored",
+"preferred_label": "Ramah"
+},
+{
 "id": "place:Negeb",
 "type": "place",
-"preferred_label": "ٱلْجَنوبِ",
-"confidence": 0.6385,
-"match_method": "scored"
+"confidence": 0.6655,
+"match_method": "scored",
+"preferred_label": "ٱلْجَنوبِ"
+},
+{
+"id": "group:Simeon",
+"type": "group",
+"confidence": 0.6115,
+"match_method": "scored",
+"preferred_label": "شِمْعونَ"
 }
 ]
 }
@@ -6271,7 +6438,7 @@
 {
 "content_id": "512010",
 "reference_id": 7094,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَامَةُ الْمِصْفَاةِ",
 "media_type": "Text",
 "index_reference": "رَامَةُ الْمِصْفَاةِ",
@@ -6298,11 +6465,11 @@
 ],
 "acai": [
 {
-"id": "place:Mahanaim",
+"id": "place:Ramath-mizpeh",
 "type": "place",
-"preferred_label": "مَحَنَايِمَ",
-"confidence": 0.5935,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Ramath-mizpeh"
 }
 ]
 }
@@ -6310,7 +6477,7 @@
 {
 "content_id": "512026",
 "reference_id": 7119,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَّامَتَائِيمُ",
 "media_type": "Text",
 "index_reference": "رَّامَتَائِيمُ",
@@ -6369,7 +6536,7 @@
 {
 "content_id": "512006",
 "reference_id": 7090,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَامَتَايِمُ صُوفِيمَ",
 "media_type": "Text",
 "index_reference": "رَامَتَايِمُ صُوفِيمَ",
@@ -6396,25 +6563,18 @@
 ],
 "acai": [
 {
-"id": "person:Jeroham",
-"type": "person",
-"preferred_label": "يَروحَامَ",
-"confidence": 0.784,
-"match_method": "scored"
+"id": "place:Ramathaim-zophim",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Ramathaim-zophim"
 },
 {
-"id": "group:Ephraim",
-"type": "group",
-"preferred_label": "أَفْرَايِمَ",
-"confidence": 0.679,
-"match_method": "scored"
-},
-{
-"id": "person:Ephraim",
-"type": "person",
-"preferred_label": "أَفْرَايِمَ",
-"confidence": 0.679,
-"match_method": "scored"
+"id": "place:Ramah",
+"type": "place",
+"confidence": 0.973,
+"match_method": "scored",
+"preferred_label": "ٱلرَّامَةِ"
 }
 ]
 }
@@ -6422,10 +6582,10 @@
 {
 "content_id": "512016",
 "reference_id": 7103,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَامُوت (المكان)",
 "media_type": "Text",
-"index_reference": "رَامُوت (المكان)",
+"index_reference": "رَامُوت المكان",
 "language": "arb",
 "review_level": "None",
 "content": "<h1><span>رَامُوت</span></h1><p>1. الشكل المختصر لـراموت جلعاد. <em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"7100\" data-resourceType=\"TyndaleBibleDictionary\">راموت</span>.</p><p>2. اسم بديل لـ بعلة بير، وهي مدينة في الجنوب، في <a href=\"https://ref.ly/1Sam30:27\">1&nbsp;صم 30:27</a>. <em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3096\" data-resourceType=\"TyndaleBibleDictionary\">بعلة-بير</span>.</p><p>3. اسم بديل (أو تباين نصي) ليرموت، وهي مدينة للاويين، في <a href=\"https://ref.ly/1Chr6:73\">1&nbsp;أخ 6:73</a>. <em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"5394\" data-resourceType=\"TyndaleBibleDictionary\">يرموت #2</span>.</p>",
@@ -6469,11 +6629,18 @@
 ],
 "acai": [
 {
-"id": "place:Ramoth-gilead",
+"id": "place:Baalath-beer",
 "type": "place",
-"preferred_label": "رَاموتَ",
-"confidence": 0.802,
-"match_method": "embedding"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Baalath-beer"
+},
+{
+"id": "place:Remeth",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَمَةَ"
 }
 ]
 }
@@ -6481,10 +6648,10 @@
 {
 "content_id": "512014",
 "reference_id": 7101,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "راموت النقب، راموت الجنوب",
 "media_type": "Text",
-"index_reference": "راموت النقب، راموت الجنوب",
+"index_reference": "راموت النقب راموت الجنوب",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>راموت النقب، راموت الجنوب*</h1><p>أسماء بديلة لـ بعلة-بئر، وهو موقع غير معروف في أراضي شِمْعون ذُكر في <a href=\"https://ref.ly/1Sam30:27\">1&nbsp;صموئيل 30:27</a>. <em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3096\" data-resourceType=\"TyndaleBibleDictionary\">بعلة-بئر</span>.</p>",
@@ -6506,13 +6673,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Negeb",
+"type": "place",
+"confidence": 0.6115,
+"match_method": "scored",
+"preferred_label": "ٱلْجَنوبِ"
+}
+]
 }
 },
 {
 "content_id": "490626",
 "reference_id": 7100,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَاموت جلعاد",
 "media_type": "Text",
 "index_reference": "رَاموت جلعاد",
@@ -6592,16 +6767,24 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Ramoth-gilead",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَاموتَ"
+}
+]
 }
 },
 {
 "content_id": "512015",
 "reference_id": 7102,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَامُوث (شخص)",
 "media_type": "Text",
-"index_reference": "رَامُوث (شخص)",
+"index_reference": "رَامُوث شخص",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>رَامُوث* (شخص)</h1><p>طريقة أخرى لكتابة الاسم يَرِيمُوثَ في <a href=\"https://ref.ly/Ezra10:29\">عزرا 10: 29</a>. وهو ابن بَانِي. انظر <span data-bnType=\"resourceReference\" data-resourceId=\"5485\" data-resourceType=\"TyndaleBibleDictionary\">يَرِيموثَ #8</span>.</p>",
@@ -6625,18 +6808,11 @@
 ],
 "acai": [
 {
-"id": "person:Reumah",
+"id": "person:Jeremoth.5",
 "type": "person",
-"preferred_label": "رَؤومَة",
-"confidence": 0.8336,
-"match_method": "embedding"
-},
-{
-"id": "place:Ramoth-gilead",
-"type": "place",
-"preferred_label": "رَاموتَ",
-"confidence": 0.824,
-"match_method": "embedding"
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "يَرِيموت"
 }
 ]
 }
@@ -6644,7 +6820,7 @@
 {
 "content_id": "509853",
 "reference_id": 3486,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رامي السهام",
 "media_type": "Text",
 "index_reference": "رامي السهام",
@@ -6668,10 +6844,10 @@
 {
 "content_id": "443982",
 "reference_id": 7181,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَأُوبَيْن (شخص)",
 "media_type": "Text",
-"index_reference": "رَأُوبَيْن (شخص)",
+"index_reference": "رَأُوبَيْن شخص",
 "language": "arb",
 "review_level": "None",
 "content": "<h1><span>رَأُوبَيْن </span>(شخص)</h1><p>الابن الأكبر ليعقوب وليئة (<a href=\"https://ref.ly/Gen29:32\">تكوين 29:32</a>؛ <a href=\"https://ref.ly/Gen46:8\">46:8</a>) وسلف أحد الأسباط الاثني عشر لإسرائيل. كان رأوبين مشتركًا في واقعة ال<span>لُفَّاح</span> (<a href=\"https://ref.ly/Gen30:14\">30:14</a>) وأقام عَلاقة جنسية مع بلهة، سُرّية أبيه (<a href=\"https://ref.ly/Gen35:22\">35:22</a>). لكنه يظهر في مرحلة البلوغ الكامل كواحد من أكثر أبناء يعقوب نبلُا وشرفًا. اعترض رأوبين على مؤامرة قتل يُوسُف واعتزم على إنقاذه من البئر (<a href=\"https://ref.ly/Gen37:22-Gen37:35\">37:22–35</a>). و<span>استخلص مَغْزًى أخلاقيًّا </span>حينما سُجن إخوة يسوف في مصر (<a href=\"https://ref.ly/Gen42:22\">42:22</a>) كذلك كفل سلامة بنيامين بتعريض<span> حياة عائلته </span>لمخاطر جمّة<strong>.</strong> ومع ذلك، عند إعلان يعقوب للبركة، أعلن أن رَأُوبَيْن متزعزع وفائر، وضيّع حق بكوريته (<a href=\"https://ref.ly/Gen49:3-Gen49:4\">49:3–4</a>). أنجب رَأُوبَيْن أربعة أبناء (<a href=\"https://ref.ly/1Chr5:3\">1&nbsp;أخبار 5:3</a>).</p><p><em>انظر أيضًا</em> <span data-bnType=\"resourceReference\" data-resourceId=\"7182\" data-resourceType=\"TyndaleBibleDictionary\">رأوبين (امكان)</span>؛ <span data-bnType=\"resourceReference\" data-resourceId=\"7183\" data-resourceType=\"TyndaleBibleDictionary\">سبط رأوبين</span>.</p>",
@@ -6746,9 +6922,9 @@
 {
 "id": "person:Reuben",
 "type": "person",
-"preferred_label": "رَأوبَيْنَ",
-"confidence": 0.7186,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَأوبَيْنَ"
 }
 ]
 }
@@ -6756,10 +6932,10 @@
 {
 "content_id": "490635",
 "reference_id": 7182,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَأوبَيْن (مكان)",
 "media_type": "Text",
-"index_reference": "رَأوبَيْن (مكان)",
+"index_reference": "رَأوبَيْن مكان",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>رَأوبَيْن (مكان)</h1><p>أرض في شرق الأردن مُنحت لسبط رَأوبَيْن بشرط أن يساعدوا البقية في الاستيلاء على كَنْعَان غرب الأردن (<a href=\"https://ref.ly/Num32:1-Num32:42\">عدد 32</a>). وافق موسَى على طلب الرأوبينيين الحصول على أراضٍ مناسبة لرعي الماشية. كانت المنطقة محاطة من الجَنوبًا بنهر أَرْنونَ، ومن الشمال وٱلْشرق بوادي حَشْبونَ ومملكة العمونيين، ومن الغرب بالأردن والبحر الميت. عاش الرأوبينيون هناك حتى أسباهم تغلث فلاسر الثالث ملك أَشّور نحو 732 قبل الميلاد.</p><p><strong>انظر أيضًا</strong> <span data-bnType=\"resourceReference\" data-resourceId=\"7181\" data-resourceType=\"TyndaleBibleDictionary\">رَأوبَيْن (شخص)؛</span> <span data-bnType=\"resourceReference\" data-resourceId=\"7183\" data-resourceType=\"TyndaleBibleDictionary\">سبط رَأوبَيْنَ</span>.</p>",
@@ -6790,18 +6966,11 @@
 ],
 "acai": [
 {
-"id": "group:Reuben",
-"type": "group",
-"preferred_label": "رَأوبَيْنَ",
-"confidence": 0.8669,
-"match_method": "embedding"
-},
-{
 "id": "person:Reuben",
 "type": "person",
-"preferred_label": "رَأوبَيْنَ",
-"confidence": 0.8669,
-"match_method": "embedding"
+"confidence": 1.0,
+"match_method": "embedding",
+"preferred_label": "رَأوبَيْنَ"
 }
 ]
 }
@@ -6809,7 +6978,7 @@
 {
 "content_id": "490634",
 "reference_id": 7180,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رأوبيني",
 "media_type": "Text",
 "index_reference": "رأوبيني",
@@ -6840,13 +7009,28 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "group:Reuben",
+"type": "group",
+"confidence": 0.9775,
+"match_method": "scored",
+"preferred_label": "رَأوبَيْنَ"
+},
+{
+"id": "person:Reuben",
+"type": "person",
+"confidence": 0.85,
+"match_method": "scored",
+"preferred_label": "رَأوبَيْنَ"
+}
+]
 }
 },
 {
 "content_id": "443985",
 "reference_id": 7185,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَؤُومَة",
 "media_type": "Text",
 "index_reference": "رَؤُومَة",
@@ -6867,9 +7051,9 @@
 {
 "id": "person:Reumah",
 "type": "person",
-"preferred_label": "رَؤومَة",
-"confidence": 0.9685,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَؤومَة"
 }
 ]
 }
@@ -6877,7 +7061,7 @@
 {
 "content_id": "852623",
 "reference_id": 213075,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رؤيا برثولماوس",
 "media_type": "Text",
 "index_reference": "رؤيا برثولماوس",
@@ -6893,7 +7077,7 @@
 {
 "content_id": "852660",
 "reference_id": 213112,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رؤيا بولس",
 "media_type": "Text",
 "index_reference": "رؤيا بولس",
@@ -6907,43 +7091,12 @@
 }
 },
 {
-"content_id": "852648",
-"reference_id": 213100,
-"version": "1.0.2",
-"title": "رؤيا يعقوب",
-"media_type": "Text",
-"index_reference": "رؤيا يعقوب",
-"language": "arb",
-"review_level": "None",
-"content": "<h1>رؤيا يعقوب</h1><p>يوجد عملان غنوصيان يحملان اسم &quot;رؤيا يعقوب&quot;، وغالبًا ما يُشار إليهما بـ &quot;رؤيا يعقوب الأولى&quot; و&quot;رؤيا يعقوب الثانية&quot;، وقد وُجد كلا السفرين ضمن المخطوطة الخامسة من مجموعة &quot;نجع حمادي&quot; التي اكتُشفت عام 1945م في مصر، غرب نهر النيل بالقرب من مدينة <span>شينوبسكيا</span>. ويختلف هذان السفران عن &quot;أبوكريفا يعقوب&quot; الذي يُعد جزءًا من أسفار العهد الجديد المنحولة.</p><p>ويمتد السفر الأول لأكثر من عشرين صفحة، زاعمًا أنه وحيٌ من الرب ليعقوب، أخي يسوع، الذي عُرف أيضًا بلقب &quot;يعقوب البار&quot;؛ وتدور أحداث أجزاءٍ من هذا الوحي قبل صلب المسيح، بينما وقعت أحداث أجزاءٍ أخرى بعده.</p><p>وتقع &quot;الرؤيا الثانية&quot; في عشرين صفحة من النص القبطي، وتدعي أنها توثيقٌ لخطبة ألقاها يعقوب البار وهو واقفٌ على الدرجة الخامسة للهيكل؛ ويتضمن السفر إشاراتٍ عديدة وصدىً للأسفار القانونية، مختتمًا بسرد قصة إلقاء الجموع ليعقوب من أعلى الهيكل ورجمه، في مشهدٍ يُحاكي استشهاد استفانوس كما ورد في <a href=\"https://ref.ly/Acts7:1-Acts7:60\">أعمال الرسل 7</a>.</p><p><em>راجع أيضًا</em> <span data-bnType=\"resourceReference\" data-resourceId=\"2831\" data-resourceType=\"TyndaleBibleDictionary\">الأبوكريفا</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"5370\" data-resourceType=\"TyndaleBibleDictionary\">يعقوب</span>.</p>",
-"associations": {
-"passage": [
-{
-"start_ref": "44007001",
-"start_ref_usfm": "ACT 7:1",
-"end_ref": "44007060",
-"end_ref_usfm": "ACT 7:60"
-}
-],
-"resource": [
-{
-"reference_id": 5370,
-"content_id": 124519,
-"resource_code": "TyndaleBibleDictionary",
-"label": "يعقوب (شخص)",
-"language": "arb"
-}
-],
-"acai": []
-}
-},
-{
 "content_id": "512674",
 "reference_id": 8187,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رُؤْيَا، رؤى",
 "media_type": "Text",
-"index_reference": "رُؤْيَا، رؤى",
+"index_reference": "رُؤْيَا رؤى",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>رؤيا، رؤى</h1><p>شتى الخبرات المرئية (أو المنظورة) على الإطلاق، أما في الكتاب المقدس فالكلمة تعني عادة إعلانات فوق طبيعية للنبي. تعددت الرؤى أو المناظر الاستثنائية في النبوة المبكرة في العهد القديم، وكانت تعدّ برهانًا على موهبة النبي الرؤيوية. كان صَموئِيل &quot;رائيًا&quot; أو صاحب رؤيا؛ كان قادرًا على &quot;رؤية&quot; مكان حمير شَاول الضائعة وإخباره بمكانها (<a href=\"https://ref.ly/1Sam9:19-1Sam9:20\">1&nbsp;صموئيل 9:19–20</a>). كان بمقدور أَلِيشَع أن يتابع أفعال جِيحْزِي الخاطئة &quot;بالروح&quot; ومواجهته عند عودته (<a href=\"https://ref.ly/2Kgs5:26\">2&nbsp;ملوك 5:26</a>). هذه الموهبة فوق الطبيعية لم تكن تعطى سوى للأنبياء.</p><p>بخلاف هذه الأنواع من رؤى تختص بأحداث الحاضر التي تحصل في أماكن أخرى على الأرض، توجد رؤى إعلانية كاشفة- رؤى تتعلق بالمستقبل، وتُعطى من ٱلله لأنبياء مختلفين. أحيانًا كان الله ينقل هذه الرؤى مستخدمًا الأحلام. وكلا الخبرتين قناتان شرعيتان للوحي-للإعلان الإلهي. كما يُفترض أن الرؤى تتمايز عن الأحلام باعتبارها خبرات نهارية تحدث في <span>ساعات </span>النهار.</p><p>تتعدد أنماط الرؤى الإعلانية الكاشفة. وفي طيف هذه الأنماط، يقع في أقصى طرفه ما يسمى برؤيا الدهش التي اختبرها حِزْقِيَال. لقد اختبر دهشًا روحيًا فوق طبيعي يمكن أن ينقله إلى أماكن أخرى (<a href=\"https://ref.ly/Ezek8:3\">حزقيال 8:3؛</a> <a href=\"https://ref.ly/Ezek40:2\">40:2</a>). وعلى الأرجح كانت رؤية دَانِيآل (<a href=\"https://ref.ly/Dan8:1-Dan8:27\">دانيال 8</a>) من نفس النوع، وكذلك كانت خبرة إِرْمِيَا  (<a href=\"https://ref.ly/Jer13:4-Jer13:7\">إرميا 13:4–7</a>). وفي الطرف الآخر من طيف الرؤى يوجد ما يسمى بالفهم الرمزي. في هذا النوع، يرى النبي شيئًا عاديًا من العالم الطبيعي، لكنه يراه بمعنى أشدّ عمقًا. فسلة الْقِطَافِ، أو سَلَّةُ فواكِهِ آخر الصَّيفِ التي &quot;جعل&quot; ٱللهِ عَاموس &quot;يراها&quot; (<a href=\"https://ref.ly/Amos8:1-Amos8:2\">عاموس 8:1–2</a>) يبدو أنها تقع ضمن هذه الفئة من الرؤى، وربما كذلك رؤى إِرْمِيَا ل<span>قَضِيب اللَوْز، وكذلك القِدْر المَنْفُوخة المائلة </span>(<a href=\"https://ref.ly/Jer1:11-Jer1:13\">إرميا 1:11–13</a>). أما النوع الذي يتوسط طرفي هذا الطيف فيشمل الرؤى السماوية التصويرية التي تلقاها إِشَعْيَاء (<a href=\"https://ref.ly/1Kgs22:19-1Kgs22:22\">1&nbsp;ملوك 22:19–22؛</a> <a href=\"https://ref.ly/Isa6:1-Isa6:13\">إشعياء 6</a>)، وكذلك التي استقبلها الرسول يوحَنَّا عند كت سفر الرؤيا.</p><p>في الواقع، يمكن أن تأتي النبوة إما بخبرة مرئية (منظورة)، أو خبرة سمعية أو بصرية. عادةً يصاحب الرؤيا توصيل رسالة لفظية، بحيث تكون الرؤية والسمع بارزتين معًا في داخل الخبرة فوق الطبيعية. كانت هذه هى الحال مع إِشَعْيَاء، الذي رأى وسمع، إذ قال &quot;<span>رَأَيْتُ ٱلسَّيِّدَ جَالِسًا... ثُمَّ سَمِعْتُ صَوْتَ ٱلسَّيِّدِ&quot;</span>. إنما يمكن<span> اعتبار </span>الخبرة السمعية في حد ذاتها رؤيا أيضًا، وذلك لأن الكلمة الإلهية هي وحي-إعلان من الله. لكن يصعب أحيانًا تحديد ما إذا كان تعبير &quot;رؤيا&quot; يتضمن عنصرًا سمعيًا بارزًا أو أنه يُستخدم بالمعنى الأوسع للوحي-الإعلان (مثلًا، <a href=\"https://ref.ly/Ezek12:21-Ezek12:28\">حزقيال 12:21–28</a>). غالبًا ما يُستخدم تعبير&quot;رؤيا&quot; ببساطة كلَفظ<span> </span>اصطِلاحِي للتواصل اللفظي من ٱللهِ. وهكذا، يُطلق على دعوة صَموئِيل حرفيًا &quot;رؤيا&quot; (<a href=\"https://ref.ly/1Sam3:15\">1&nbsp;صموئيل 3:15</a>). وتتعدد الأسفار النبوية التي تدرج كلمة &quot;<span>رُؤْيَا</span>&quot; في عناوينها (<a href=\"https://ref.ly/Isa1:1\">إشعياء 1:1؛</a> <a href=\"https://ref.ly/Obad1:1\">عوبديا 1:1؛</a> <a href=\"https://ref.ly/Nah1:1\">ناحوم 1:1</a>). كمت تُوصف نبوة نَاثَان عن عهد ٱللهِ مع دَاود باعتبارها رُؤْيَا (<a href=\"https://ref.ly/2Sam7:17\">2&nbsp;صموئيل 7:17؛</a> <a href=\"https://ref.ly/1Chr17:15\">1&nbsp;أخبار الأيام 17:15؛</a> <a href=\"https://ref.ly/Ps89:19\">مزمور 89:19</a>). وفي <a href=\"https://ref.ly/Dan9:24\">دَانِيآل 9:24 &quot;</a><span>لِخَتْمِ ٱلرُّؤْيَا وَٱلنُّبُوَّةِ</span>&quot; يعني توثيق نبوة إِرْمِيَا المشار إليها في الآية <a href=\"https://ref.ly/Dan9:2\">2</a>. وفي أشهر آيات سفر الأمثال الذي عادة يُترجم &quot;<span>بِلَا رُؤْيَا يَجْمَحُ ٱلشَّعْبُ</span>&quot; (<a href=\"https://ref.ly/Prov29:18\">أمثال 29:18</a>)، يشير مصطلح &quot;رُؤْيَا&quot; إلى إعلان-وحي نبوي، أي العطية الإلهية للنبوة التي صُممت لتكون عاملًا مؤثرًا في إرشاد حياة إِسْرَائِيل. <em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"2829\" data-resourceType=\"TyndaleBibleDictionary\">الأدب الرؤيوي لنهاية العالم؛</span> <span data-bnType=\"resourceReference\" data-resourceId=\"4065\" data-resourceType=\"TyndaleBibleDictionary\">أحلام؛</span> <span data-bnType=\"resourceReference\" data-resourceId=\"6998\" data-resourceType=\"TyndaleBibleDictionary\">نبوة</span>.</p>",
@@ -7103,12 +7256,43 @@
 }
 },
 {
+"content_id": "852648",
+"reference_id": 213100,
+"version": "1.0.4",
+"title": "رؤيا يعقوب",
+"media_type": "Text",
+"index_reference": "رؤيا يعقوب",
+"language": "arb",
+"review_level": "None",
+"content": "<h1>رؤيا يعقوب</h1><p>يوجد عملان غنوصيان يحملان اسم &quot;رؤيا يعقوب&quot;، وغالبًا ما يُشار إليهما بـ &quot;رؤيا يعقوب الأولى&quot; و&quot;رؤيا يعقوب الثانية&quot;، وقد وُجد كلا السفرين ضمن المخطوطة الخامسة من مجموعة &quot;نجع حمادي&quot; التي اكتُشفت عام 1945م في مصر، غرب نهر النيل بالقرب من مدينة <span>شينوبسكيا</span>. ويختلف هذان السفران عن &quot;أبوكريفا يعقوب&quot; الذي يُعد جزءًا من أسفار العهد الجديد المنحولة.</p><p>ويمتد السفر الأول لأكثر من عشرين صفحة، زاعمًا أنه وحيٌ من الرب ليعقوب، أخي يسوع، الذي عُرف أيضًا بلقب &quot;يعقوب البار&quot;؛ وتدور أحداث أجزاءٍ من هذا الوحي قبل صلب المسيح، بينما وقعت أحداث أجزاءٍ أخرى بعده.</p><p>وتقع &quot;الرؤيا الثانية&quot; في عشرين صفحة من النص القبطي، وتدعي أنها توثيقٌ لخطبة ألقاها يعقوب البار وهو واقفٌ على الدرجة الخامسة للهيكل؛ ويتضمن السفر إشاراتٍ عديدة وصدىً للأسفار القانونية، مختتمًا بسرد قصة إلقاء الجموع ليعقوب من أعلى الهيكل ورجمه، في مشهدٍ يُحاكي استشهاد استفانوس كما ورد في <a href=\"https://ref.ly/Acts7:1-Acts7:60\">أعمال الرسل 7</a>.</p><p><em>راجع أيضًا</em> <span data-bnType=\"resourceReference\" data-resourceId=\"2831\" data-resourceType=\"TyndaleBibleDictionary\">الأبوكريفا</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"5370\" data-resourceType=\"TyndaleBibleDictionary\">يعقوب</span>.</p>",
+"associations": {
+"passage": [
+{
+"start_ref": "44007001",
+"start_ref_usfm": "ACT 7:1",
+"end_ref": "44007060",
+"end_ref_usfm": "ACT 7:60"
+}
+],
+"resource": [
+{
+"reference_id": 5370,
+"content_id": 124519,
+"resource_code": "TyndaleBibleDictionary",
+"label": "يعقوب (شخص)",
+"language": "arb"
+}
+],
+"acai": []
+}
+},
+{
 "content_id": "511991",
 "reference_id": 7066,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رئيس الخصيان، ربساريس*",
 "media_type": "Text",
-"index_reference": "رئيس الخصيان، ربساريس*",
+"index_reference": "رئيس الخصيان ربساريس",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>رئيس الخصيان، ربساريس*</h1><p>لقب لمسؤول رفيع المستوى في البلاط الآشوري والبابلي، عادة يكون خصيًا، وأحيانًا يكون مشرفًا على الحريم الملكي. كان الربساريس جزءًا من الوفد الآشوري (<a href=\"https://ref.ly/2Kgs18:17\">2&nbsp;ملوك 18:17</a>)، وقاضيًا عند البوابة (<a href=\"https://ref.ly/Jer39:3\">إرميا 39:3</a>)، والمسؤول الذي أطلق سراح إرميا من السجن (الآية <a href=\"https://ref.ly/Jer39:13\">13</a>)، وأحد مسؤولي نبوخذنصر (<a href=\"https://ref.ly/Dan1:3,Dan1:7\">دانيال 1:3، 7</a>).</p>",
@@ -7146,13 +7330,28 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Rab-saris.2",
+"type": "person",
+"confidence": 0.733,
+"match_method": "scored",
+"preferred_label": "ٱلْخِصْيَانِ"
+},
+{
+"id": "person:Rab-saris",
+"type": "person",
+"confidence": 0.653,
+"match_method": "scored",
+"preferred_label": "ٱلْخِصْيَانِ"
+}
+]
 }
 },
 {
 "content_id": "509980",
 "reference_id": 3688,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رئيس الكهنة",
 "media_type": "Text",
 "index_reference": "رئيس الكهنة",
@@ -7176,7 +7375,7 @@
 {
 "content_id": "510763",
 "reference_id": 5017,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رئيس الكهنة",
 "media_type": "Text",
 "index_reference": "رئيس الكهنة",
@@ -7207,10 +7406,10 @@
 {
 "content_id": "159174",
 "reference_id": 7239,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رئيس المجمع*",
 "media_type": "Text",
-"index_reference": "رئيس المجمع*",
+"index_reference": "رئيس المجمع",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>رئيس المجمع*</h1><p>مسؤول كبير في أي من مجامع العهد الجديد. من المفهوم عمومًا أنه كان هناك مسؤول واحد فحسب في أي مجمع.</p><p>كانت وظائفه هي العناية بالترتيبات المادية لخدمات العبادة، وإدارة صيانة المبنى، وتحديد من يمكن استدعاؤه لقراءة الناموس والأنبياء أو لأداء الصلاة. كان يُشغَل المنصب أحيانًا لفترة محددة، وأحيانًا مدى الحياة.</p><p>يشير العهد الجديد إلى هذا المسؤول في أربع مناسبات مختلفة. يبدو أن يايرس كان رئيس مجمع في كفرناحوم. عندما كانت ابنته مريضة، ذهب إلى الرب يسوع طلبًا للمساعدة، فأقامها الرب يسوع من الأموات (<a href=\"https://ref.ly/Matt9:18-Matt9:26\">متى 9: 18–26</a>؛ <a href=\"https://ref.ly/Mark5:21-Mark5:43\">مرقس 5: 21–43</a>؛ <a href=\"https://ref.ly/Luke8:41-Luke8:56\">لوقا 8: 41–56</a>). يسجل <a href=\"https://ref.ly/Luke13:14\">لوقا 13: 14</a> عداء رئيس مجمع آخر إذ اعترض على شفاء الرب يسوع في السبت بعد التعليم في ذلك المجمع.</p><p>في رحلاته التبشيرية بدأ الرَّسُول بُولُس عمومًا خدمته في كل مكان يزوره بالذهاب إلى المجمع. في أنطاكية بيسيدية (<a href=\"https://ref.ly/Acts13:15\">أعمال الرسل 13: 15</a>)، رحب به رؤساء المجمع ودعوه للكرازة بالإنجيل مجددًا في الأسبوع التالي. لقد آمن كِرِيسْبُسُ، رئيس أحد مجامع كورنثوس (<a href=\"https://ref.ly/Acts18:8\">18: 8</a>)، ولاحقًا تعرض سوستانيس (خليفة كِرِيسْبُسُ) للضرب على يد الجماهير بعد أن قدم اليهود اتهامات ضد بولس أمام غايوس، والي أخائية.</p><p><em>انظر أيضًا</em> <span data-bnType=\"resourceReference\" data-resourceId=\"7848\" data-resourceType=\"TyndaleBibleDictionary\">المجمع</span>.</p>",
@@ -7268,10 +7467,10 @@
 {
 "content_id": "159185",
 "reference_id": 7967,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رئيس ربع*",
 "media_type": "Text",
-"index_reference": "رئيس ربع*",
+"index_reference": "رئيس ربع",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>رئيس ربع*</h1><p>لقب فئة من ولاة الأقاليم الرومان. كان رؤساء الأرباع أمراء تابعين لم يعتبروا مهمين بما يكفي لتعيينهم ملوكًا. كان اللقب يُستخدَم في المقاطعات الرومانية في تساليا وغلاطية وسوريا. ويبدو أن أصل اللقب جاء من الحكام الذين حكموا ربع منطقة أو بلد، كما كانت الحال في سوريا بعد وفاة هيرودس الكبير. بحلول العهد الجديد، كانت الأهمية اللغوية للكلمة قد تضاءلت، بحيث أصبح اللقب لا يشير إلا إلى الأمراء الثانويين. يُذكر ثلاثة رؤساء أرباع في الكتاب المقدس. يذكر لوقا أن هيرودس (أنتيباس) كان رئيس ربع الجليل، وهيرودس فيليب كان رئيس ربع إِيطُورِيَّةَ وَكُورَةِ تَرَاخُونِيتِسَ، وَلِيسَانِيُوسُ رَئِيسَ رُبْعٍ عَلَى ٱلْأَبِلِيَّةِ (<a href=\"https://ref.ly/Luke3:1\">لوقا 3: 1</a>). ومن بين هؤلاء، لم يُذكر سوى هيرودس في مكان آخر من الكتاب المقدس (<a href=\"https://ref.ly/Matt14:1\">متى 14: 1</a>؛ <a href=\"https://ref.ly/Luke3:19\">لوقا 3: 19</a>؛ <a href=\"https://ref.ly/Luke9:7\">9: 7</a>؛ <a href=\"https://ref.ly/Acts13:1\">أعمال الرسل 13: 1</a>). إن أهمية هيرودس الكبرى تُشير إليها أيضًا باسم &quot;الملك&quot; من قبل رعاياه اليهود (<a href=\"https://ref.ly/Matt14:9\">متى 14: 9</a>؛ <a href=\"https://ref.ly/Mark6:14\">مرقس 6: 14</a>).</p>",
@@ -7327,10 +7526,10 @@
 {
 "content_id": "201448",
 "reference_id": 2830,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رؤيوي*",
 "media_type": "Text",
-"index_reference": "رؤيوي*",
+"index_reference": "رؤيوي",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>رؤيوي*</h1><p>مصطلحٌ مشتقٌّ من لفظة يونانية بمعنى &quot;إعلان&quot; وَيُسْتَخْدَمُ للإشارة إلى نمطٍ فكريٍّ وقالبٍ من قوالب الأدب، ويتعامل كلاهما مع دينونة الله المستقبلية (الأُخْرَوِيَّات).</p><p>يتكون الأدب الذي يُوصَفُ بأنه &quot;رؤيوي&quot; من مؤلَّفات إما أنها إعلانات إلهية يتلقاها مؤلفوها أو مؤلَّفات تقرِّر أنها كذلك. بحسب المعتاد يتلقَّى مؤلِّفو هذه الإعلانات في شكلِ رؤًى. يتمُّ سردُها بالتفصيل المصحوب بالتفسير. النصف الثاني من سِفْر دانيآل (<a href=\"https://ref.ly/Dan7:1-Dan12:13\">الفصول 7–12</a>) مملوء بمثل هذه الرؤى، وهكذا الحال في سِفْر الرُّؤيا بأكمله. مع أن الرؤى الإعلانية تأتي أيضًا بشكل متكرِّر في أدب العهد القديم النبوي (على سبيل المثال، <a href=\"https://ref.ly/Isa6:1-Isa6:13\">إشعياء 6</a>؛ <a href=\"https://ref.ly/Amos7:1-Amos9:15\">عاموس 7–9</a>؛ <a href=\"https://ref.ly/Zech1:1-Zech6:15\">زكريا 1–6</a>)، إلا أنها جليَّة بشكلٍ خاص في الأدب الرؤيوي كما تحدِّد هذه الرؤى القالب الأدبي والبناء الأساسي لِمِثْلِ هذه الكتابات. في بعض الأحيان (كما في سِفْر دانيآل) يتلَقَّى الرائي الرسالة المعلَنة عن طريق حُلْمٍ. في شكلٍ آخر للرؤى (كما في سِفْر الرُّؤيا)، يتم اختطاف الرائي إلى العالم السمائي، حيث يرى ويسمع أشياءً يجب أن ينقلها إلى عالم البشر (انظر اختبار الرَّسُول بُولُس، <a href=\"https://ref.ly/2Cor12:1-2Cor12:4\">2 كُورِنْثُوس 12: 1–4</a>). في كثير من الأحيان، قد يعجز الرائي عن فهم معنى الرُّؤَى التي يتلقَّاها. في مثل هذه الحالات، يقوم &quot;الملاك المُفسِّر&quot; بتوضيح معناها (<a href=\"https://ref.ly/Dan8:15-Dan8:26\">دانيآل 8: 15–26</a>؛ <a href=\"https://ref.ly/Dan9:20-Dan9:27\">9: 20–27</a>؛ <a href=\"https://ref.ly/Dan10:18-Dan12:4\">10: 18–12: 4</a>؛ <a href=\"https://ref.ly/Rev7:13-Rev7:17\">الرُّؤيا 7: 13–17</a>؛ <a href=\"https://ref.ly/Rev17:7-Rev17:18\">17: 7–18</a>).</p><p>هناك نموذجان رئيسان للفكر الأخروي في الكتاب المقدَّس، يرتكز كلاهما على قناعة راسخة بأن الله سيعمل في المستقبل القريب لإنقاذ شعبه ومعاقبة من يقوم بقمعه. في الأُخْرَوِيَّات النبوية، وهو القالب الأدبي السائد في العهد القديم، المُتَوَقَّع من الله أن يتدخَّل في التاريخ لاسترداد الإنسان والطبيعة إلى الحالة المثالية التي كانتْ موجودة قبل سقوط الإنسان. من ناحية أخرى، تتوقَّع الأُخْرَوِيَّات الرؤيوية أن يُدَمِّر الله النظام القديم غير الكامل قبل أن يسترد العالم إلى الفردوس.</p><p>من الواضح أن الأُخْرَوِيَّات الرؤيوية قد ازدهرَتْ وسط إسرائيل في ظل الهيمنة الأجنبية. منذ أوائل القرن السادس ق.م، بدأتْ الأُخْرَوِيَّات النبوية في التراجع بينما اشتهرتْ الأُخْرَوِيَّات الرؤيوية على نحوٍ متزايدٍ. يُعَدُّ سِفْرُ دانيآل، المكتوب في القرن السادس ق.م، أَقْدَمَ مثالٍ عن أدب رؤيوي موجود وقتذاك. أما سِفْرُ ملاخي النبوي، المكتوب في وقتٍ ما أثناء القرن الخامس ق.م، فهو آخر سِفْرٍ نبويٍّ إسرائيليٍّ. بعد ذلك أمسى الصوتُ النبويُّ صامتًا في إسرائيل حتى ظهور المسيحية. باستثناء سِفْرِ دانيآل، فإن كل الأدب الرؤيوي اليهودي الموجود إلى الآن قد دُوِّنَ في الفترة الممتدة من القرن الثالث ق.م إلى أوائل القرن الثاني الميلادي.</p><p>في الأدب الرؤيوي، يتمُّ التشديد بشكلٍ قويٍّ على العداوة بين الله والشيطان. في ذلك الأدب، يُنْظَرُ إلى كلِّ الشعوب، والأمم، والكائنات الفائقة للطبيعة (الملائكة والأرواح الشريرة) بوصفهم متعاهدين إما مع الله أو الشيطان. مع أن الشيطان يُنْظَرُ إليه دائمًا على أنه عدو الله والبشرية (<a href=\"https://ref.ly/Gen3:1-Gen3:19\">التكوين 3: 1–19</a>؛ <a href=\"https://ref.ly/Job1:6-Job1:12\">أيوب 1: 6–12</a>؛ <a href=\"https://ref.ly/Job2:1-Job2:8\">2: 1–8</a>)، إلا أن سلطانه مقيَّد طالما استمر بنو إسرائيل أمناءً لناموس العهد مع الله. عندما بدأ بنو إسرائيل ككل يختبرون الكابوس القومي الطويل المُتَمَثِّل في الخضوع للأعداء الأجانب، رحَّبوا بقوة كبيرة بحقيقة السيطرة المؤقَّتة للشيطان على العالم. مع أن كَتَبَة الأدب الرؤيوي كانوا يتعاملون مع أمم بعينها قد سادت على بني إسرائيل أثناء حقبة زمنية أو أخرى في تاريخهم، كان يُنْظَرُ إلى هذه الأمم كخدام للشيطان وأن مقاومتهم لله (ولشعب الله) سوف تؤدي حتمًا إلى سقوطهم.</p><p>تتمثَّلُ القناعة التي كانتْ تسود الفكرَ الرؤيوي في أنه مهما ساءتْ الظروف في أيِّ زمنٍ، سوف ينتصر الله وشعبه على أعدائهم بشكلٍ مطلقٍ. لم تكن الحَتْمِيَّة الرؤيوية قناعة قَدَرِيَّة بأن كلَّ شيءٍ يحدث نتيجة لضرورة غير منطقية؛ بالأحرى كانتْ تلك الحتمية تتشبَّث بالرجاء في إله كلي السيادة، أي في الإله الذي سيُمَكِّن شعبَه من اختبار الانتصار المطلق على كلِّ الأعداء الزمنيين والروحيين. انطوى الكثير من الإعلانات الرؤيوية على نبوَّات ترتبط بالاختبار التاريخي المستقبلي لإسرائيل (أو الكنيسة المسيحية)، الذي يبلغ ذروته في الانتصار النهائي والحاسِم لله وشعبه. في حُلْمِ نبوخذنصر الذي فَسَّره النبي دانيآل، على سبيل المثال، تَمَّتْ الإشارة بشكل رمزي إلى سلسلة من الإمبراطوريات الأجنبية وذلك عن طريق أجزاء متنوعة في جسم تمثال ضخمٍ مصنوعٍ من مواد مختلفة؛ لكن دُمِّر هذا التمثال عن طريق ملكوت الله، المرموز إليه بحجرٍ مقطوعٍ من جبلٍ بغير يد (<a href=\"https://ref.ly/Dan2:31-Dan2:45\">دانيآل 2: 31–45</a>).</p><p>أحد الفوارق الرئيسة بين الأُخْرَوِيَّات الرؤيوية والأُخْرَوِيَّات النبوية هو أن الأولى تتصوَّر دائمًا، وبكل يقين، وُقُوعَ كارثة كونية تسبق الانتصار النهائي، والحاسم لله. في بعض الإعلانات الرؤيوية، مثل سِفْر دانيآل، المتوقَّع هو أن يتدخَّل الله بشكلٍ حاسمٍ في مجرى التاريخ، ليقهر الشَّرَّ، ويعلِنَ قدومَ ملكوته. في رؤى إعلانية أخرى، مثل رُؤيا يوحنَّا، سوف يدمِّر الله العالم القديم أولاً وذلك قبل أن يخلُقَ عالمًا جديدًا تمامًا (<a href=\"https://ref.ly/Rev21:1\">الرُّؤيا 21: 1</a>؛ مع <a href=\"https://ref.ly/2Pet3:10\">2 بُطْرُس 3: 10</a>). التَّصَوُّر العام هو أن الأمور قبل أن تتحسَّن سوف تؤول بشكل كبير إلى الأسوأ. أثناء العصر الذهبي لاستقلال بني إسرائيل (من القرن العاشر إلى القرن السابع ق.م)، من الطبيعي ألا يُقَدَّمَ أي تشديد على فكرة الكارثة المستقبلية. ومع ذلك، بعد دمار أورشليم سنة 586 ق.م، اعتقد الرؤيويون أن مشاكل اليهود يمكن علاجها فقط عن طريق تدخُّل إلهي حاسم في شؤون البشر والأمم.</p><p>كانتْ الفكرة الرؤيوية الشائعة المبنية على كل من الثنائية والتشاؤمية تتمثَّل في مفهوم الـ &quot;دَهْرَين&quot;. &quot;هذا الدهر&quot;، الحاضر والشرير، يَسُودُهُ الشيطان وأعوانه، أما &quot;الدهر الآتي&quot; فيأتي بكل بركات ملكوت الله. سوف تساهم مجموعة من الأحداث الأُخْرَوِيَّة على الوصول بالدهر القديم إلى النهاية وتدشين الدهر الجديد. عندما تحدَّث الرَّسُول بُولُس عن &quot;إِلَهُ هَذَا الدَّهْرِ&quot; الشرير (<a href=\"https://ref.ly/2Cor4:4\">2 كُورِنْثُوس 4: 4</a>)، كان يشير في الحقيقة إلى سيادة الشيطان على &quot;هذا الدَّهْرِ&quot;.</p><p>سِمَةٌ أخرى للأدب الرؤيوي هي تعبيره المتكرر عن الرغبة الشديدة في أن يقصِّر الله الأيام الحاضرة الشريرة معلنًا بشكل سريع عن بدء ملكوته. كما تساءل النبي دانيآل تمامًا: &quot;إِلَى مَتَى انْتِهَاءُ الْعَجَائِبِ؟&quot; (<a href=\"https://ref.ly/Dan12:6\">دانيآل 12: 6</a>، انظر RSV)، وهكذا يهتِفُ يوحنَّا الرائي، &quot;تَعَالَ أَيُّهَا الرَّبُّ يَسُوعُ!&quot; (<a href=\"https://ref.ly/Rev22:20\">الرُّؤيا 22: 20</a>). إن الرغبة في سرعة التدخُّل الإلهي وانتصاره تجعلُ التمسُّكَ بالرجاء ممكنًا في ظل ظروفٍ معاكسة تمامًا كما تشجَّعُ شعبَ الله على إدارة حياتهم بطريقة جديرة بالملكوت العتيد (<a href=\"https://ref.ly/2Pet3:11-2Pet3:13\">2 بُطْرُس 3: 11–13</a>؛ <a href=\"https://ref.ly/Rev21:5-Rev21:8\">الرُّؤيا 21: 5–8</a>).</p><p>إن سِفْر دانيآل هو السِّفْر الرؤيوي الوحيد في أسفار العهد القديم القانونية، أما سِفْر الرُّؤيا فهو السِّفْر الرُّؤيوي الوحيد في أسفار العهد الجديد القانونية. ومع ذلك، هناك الكثير من الأسفار الرؤيوية اليهودية والمسيحية غير القانونية الباقية إلى الآن. دُوِّنَتْ الأسفار الرؤيوية اليهودية في الفترة الممتدة من أواخر القرن الثالث ق.م حتى أوائل القرن الثاني الميلادي؛ أما المتواجد من الأسفار الرؤيوية المسيحية فقد دُوِّنَ من القرن الثاني حتى القرن الرابع الميلادي. الأكثر من ذلك، يوجد خارج القائمة الرسمية للأدب الرؤيوي الكثيرُ من الأنماط والبنايات الأدبية الرؤيوية. إن حديث الرب يسوع على جبل الزيتون، على سبيل المثال (<a href=\"https://ref.ly/Mark13:1-Mark13:37\">مَرْقُس 13</a>؛ <a href=\"https://ref.ly/Matt24:1-Matt24:51\">مَتَّى 24</a>؛ <a href=\"https://ref.ly/Luke21:1-Luke21:38\">لوقا 21</a>)، كثيرًا ما يُطْلِقُ عليه علماء الكتاب المقدس الرؤيا الصغيرة. بشكلٍ عام، بالنسبة لأيِّ عمل أدبي يمكن اعتبارُه أدبًا رؤيويًّا لا بُدَّ أن تتوفَّر فيه أغلب السمات المذكورة أدناه.</p><p>باستثناء سِفْري دانيآل والرُّؤيا، فإن معظم الأسفار الرؤيوية الباقية إلى الآن هي أسفار منحولة، أي أن كلَّ واحدٍ منها مكتوبٌ باسمٍ كاذبٍ أو مستعارٍ. إن هذه السمة هي ملمحٌ ثابتٌ حتى أنه يشار إلى هذه النوعية من أعمال الأدب الرؤيوي على أنها &quot;كتابات منحولة&quot; (&quot;كتابات كاذبة&quot;). يقرِّرُ سِفْر رؤيا (1 أخنوخ)، المكتوب بواسطة عِدَّة مؤلِّفين غير معروفين منذ القرن الثاني ق.م إلى القرن الأول الميلادي على الأرجح، أنه مكتوب بواسطة أخنوخ الذي كان واحدًا من الأحفاد الأوائل لآدم (<a href=\"https://ref.ly/Gen5:21-Gen5:24\">التكوين 5: 21–24</a>). هناك أسفار رؤيوية يهودية منسوبة إلى شخصيات مُهِمَّة في العهد القديم مثل آدم وحواء، موسى، إشعياء، باروخ، سليمان، وعزرا. بما أن كلَّ هذه الأعمال قد دُوِّنَتْ بعد اكتمال الأسفار القانونية للعهد القديم، فمن المرجَّح أن مؤلِّفيها الحقيقيين قد اعتقدوا أن نسبتها إلى بعض الشخصيات المُهِمَّة في العهد القديم كان ضروريًا لتحظى تلك الأسفار بِقُبُولٍ حَسَنٍ. أما الأسفار الرؤيوية المسيحية المبكرة فقد كانت تحمل في الغالب أسماء شخصيات مُهِمَّة مثل بطرس، بولس، وتوما.</p><p><em>انظر أيضًا</em> <span data-bnType=\"resourceReference\" data-resourceId=\"2831\" data-resourceType=\"TyndaleBibleDictionary\">الأبوكريفا من أجل مناقشة كل سفر من الأسفار المذكورة تَوًّا</span>.</p>",
@@ -7502,7 +7701,7 @@
 {
 "content_id": "510815",
 "reference_id": 5092,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رب الجنود",
 "media_type": "Text",
 "index_reference": "رب الجنود",
@@ -7533,7 +7732,7 @@
 {
 "content_id": "511350",
 "reference_id": 5944,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رب الجنود",
 "media_type": "Text",
 "index_reference": "رب الجنود",
@@ -7551,13 +7750,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "ٱلرَّبِّ"
+}
+]
 }
 },
 {
 "content_id": "510884",
 "reference_id": 5204,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ربا",
 "media_type": "Text",
 "index_reference": "ربا",
@@ -7595,7 +7802,7 @@
 {
 "content_id": "490623",
 "reference_id": 7060,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ربة العمونيين",
 "media_type": "Text",
 "index_reference": "ربة العمونيين",
@@ -7699,7 +7906,7 @@
 {
 "content_id": "511992",
 "reference_id": 7067,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَبْشَاقَى",
 "media_type": "Text",
 "index_reference": "رَبْشَاقَى",
@@ -7750,9 +7957,9 @@
 {
 "id": "person:Rabshakeh",
 "type": "person",
-"preferred_label": "رَبْشَاقَى",
-"confidence": 0.7391,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَبْشَاقَى"
 }
 ]
 }
@@ -7760,7 +7967,7 @@
 {
 "content_id": "490636",
 "reference_id": 7201,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَبْلَة",
 "media_type": "Text",
 "index_reference": "رَبْلَة",
@@ -7823,16 +8030,16 @@
 {
 "id": "place:Riblah.2",
 "type": "place",
-"preferred_label": "رَبْلَةَ",
-"confidence": 0.9352,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَبْلَةَ"
 },
 {
 "id": "place:Riblah",
 "type": "place",
-"preferred_label": "رَبْلَةَ",
-"confidence": 0.6018,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَبْلَةَ"
 }
 ]
 }
@@ -7840,10 +8047,10 @@
 {
 "content_id": "159170",
 "reference_id": 7064,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَبُّونِي*",
 "media_type": "Text",
-"index_reference": "رَبُّونِي*",
+"index_reference": "رَبُّونِي",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>رَبُّونِي*</h1><p>صيغة مختلفة من &quot;رَبِّي&quot; أو &quot;رَبُّونِي&quot; في <a href=\"https://ref.ly/Mark10:51\">مَرْقُس 10: 51</a> و<a href=\"https://ref.ly/John20:16\">يوحنَّا 20: 16</a>. <em>اُنْظُرْ</em> <span data-bnType=\"resourceReference\" data-resourceId=\"7063\" data-resourceType=\"TyndaleBibleDictionary\">رَبِّي</span>.</p>",
@@ -7877,7 +8084,7 @@
 {
 "content_id": "511989",
 "reference_id": 7062,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَبِّيت",
 "media_type": "Text",
 "index_reference": "رَبِّيت",
@@ -7924,9 +8131,9 @@
 {
 "id": "place:Rabbith",
 "type": "place",
-"preferred_label": "رَبِّيتَ",
-"confidence": 0.6685,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَبِّيتَ"
 }
 ]
 }
@@ -7934,7 +8141,7 @@
 {
 "content_id": "509872",
 "reference_id": 3518,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رتَمَة",
 "media_type": "Text",
 "index_reference": "رتَمَة",
@@ -7961,46 +8168,11 @@
 ],
 "acai": [
 {
-"id": "place:Humtah",
-"type": "place",
-"preferred_label": "حمْطَة",
-"confidence": 0.8388,
-"match_method": "embedding"
-},
-{
-"id": "person:Rinnah",
-"type": "person",
-"preferred_label": "رِنَّة",
-"confidence": 0.8071,
-"match_method": "embedding"
-},
-{
-"id": "person:Shammah",
-"type": "person",
-"preferred_label": "شَمَّة",
-"confidence": 0.8025,
-"match_method": "embedding"
-},
-{
-"id": "person:Shammah.2",
-"type": "person",
-"preferred_label": "شَمَّة",
-"confidence": 0.8025,
-"match_method": "embedding"
-},
-{
-"id": "person:Shammah.3",
-"type": "person",
-"preferred_label": "شَمَّة",
-"confidence": 0.8025,
-"match_method": "embedding"
-},
-{
-"id": "person:Shammah.4",
-"type": "person",
-"preferred_label": "شَمَّة",
-"confidence": 0.8025,
-"match_method": "embedding"
+"id": "flora:Broom",
+"type": "flora",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Broom"
 }
 ]
 }
@@ -8008,10 +8180,10 @@
 {
 "content_id": "511301",
 "reference_id": 5842,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رثاء، مَرثاة",
 "media_type": "Text",
-"index_reference": "رثاء، مَرثاة",
+"index_reference": "رثاء مَرثاة",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>رثاء، مَرثاة*</h1><p><em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"6405\" data-resourceType=\"TyndaleBibleDictionary\">حِداد</span>.</p>",
@@ -8032,7 +8204,7 @@
 {
 "content_id": "490640",
 "reference_id": 7215,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رِثْمَة",
 "media_type": "Text",
 "index_reference": "رِثْمَة",
@@ -8061,9 +8233,9 @@
 {
 "id": "place:Rithmah",
 "type": "place",
-"preferred_label": "رِثْمَةَ",
-"confidence": 0.9685,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رِثْمَةَ"
 }
 ]
 }
@@ -8071,7 +8243,7 @@
 {
 "content_id": "510796",
 "reference_id": 5062,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رجاء",
 "media_type": "Text",
 "index_reference": "رجاء",
@@ -8124,13 +8296,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.6522,
+"match_method": "scored",
+"preferred_label": "Hope"
+}
+]
 }
 },
 {
 "content_id": "125354",
 "reference_id": 2487,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رِجْس",
 "media_type": "Text",
 "index_reference": "رِجْس",
@@ -8234,13 +8414,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Abomination",
+"type": "keyterm",
+"confidence": 1.0,
+"match_method": "embedding",
+"preferred_label": "Abomination"
+}
+]
 }
 },
 {
 "content_id": "512047",
 "reference_id": 7146,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَجَم",
 "media_type": "Text",
 "index_reference": "رَجَم",
@@ -8261,9 +8449,9 @@
 {
 "id": "person:Regem",
 "type": "person",
-"preferred_label": "رَجَم",
 "confidence": 1.0,
-"match_method": "scored"
+"match_method": "content_id",
+"preferred_label": "رَجَم"
 }
 ]
 }
@@ -8271,7 +8459,7 @@
 {
 "content_id": "512436",
 "reference_id": 7797,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَّجم",
 "media_type": "Text",
 "index_reference": "رَّجم",
@@ -8295,7 +8483,7 @@
 {
 "content_id": "512046",
 "reference_id": 7145,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَجَمَ مَلِكَ",
 "media_type": "Text",
 "index_reference": "رَجَمَ مَلِكَ",
@@ -8314,11 +8502,11 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Sharezer.2",
+"id": "person:Regem-melech",
 "type": "person",
-"preferred_label": "شَرَآصَر",
-"confidence": 0.739,
-"match_method": "scored"
+"confidence": 0.982,
+"match_method": "scored",
+"preferred_label": "Regem-melech"
 }
 ]
 }
@@ -8326,7 +8514,7 @@
 {
 "content_id": "512092",
 "reference_id": 7238,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رُحَامَةَ",
 "media_type": "Text",
 "index_reference": "رُحَامَةَ",
@@ -8367,7 +8555,7 @@
 {
 "content_id": "512049",
 "reference_id": 7149,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَحبْعَام",
 "media_type": "Text",
 "index_reference": "رَحبْعَام",
@@ -8476,9 +8664,9 @@
 {
 "id": "person:Rehoboam",
 "type": "person",
-"preferred_label": "رَحبْعَامَ",
-"confidence": 0.6317,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَحبْعَامَ"
 }
 ]
 }
@@ -8486,10 +8674,10 @@
 {
 "content_id": "335488",
 "reference_id": 7221,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رحبعام (روبعام)",
 "media_type": "Text",
-"index_reference": "رحبعام (روبعام)",
+"index_reference": "رحبعام روبعام",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>رحبعام (روبعام*)</h1><p><span>طريقة أخرى تستخدمها ترجمة الملك جيمس لكتابة اسم</span> رحبعام، ابن سليمان، في <a href=\"https://ref.ly/Matt1:7\">متى 1:7</a>. <em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"7149\" data-resourceType=\"TyndaleBibleDictionary\">رحبعام</span>.</p>",
@@ -8511,13 +8699,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Rehoboam",
+"type": "person",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "رَحبْعَامَ"
+}
+]
 }
 },
 {
 "content_id": "512048",
 "reference_id": 7148,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَحَبْيَا",
 "media_type": "Text",
 "index_reference": "رَحَبْيَا",
@@ -8550,9 +8746,9 @@
 {
 "id": "person:Rehabiah",
 "type": "person",
-"preferred_label": "رَحَبْيَا",
 "confidence": 1.0,
-"match_method": "scored"
+"match_method": "content_id",
+"preferred_label": "رَحَبْيَا"
 }
 ]
 }
@@ -8560,7 +8756,7 @@
 {
 "content_id": "510028",
 "reference_id": 3765,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رحِم مُغلق",
 "media_type": "Text",
 "index_reference": "رحِم مُغلق",
@@ -8584,7 +8780,7 @@
 {
 "content_id": "124539",
 "reference_id": 6232,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رحمة",
 "media_type": "Text",
 "index_reference": "رحمة",
@@ -9049,16 +9245,24 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Mercy",
+"type": "keyterm",
+"confidence": 0.6267,
+"match_method": "scored",
+"preferred_label": "Mercy"
+}
+]
 }
 },
 {
 "content_id": "512050",
 "reference_id": 7152,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رحوبَ (شخص)",
 "media_type": "Text",
-"index_reference": "رحوبَ (شخص)",
+"index_reference": "رحوبَ شخص",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>رَحوبَ (شخص)</h1><p>1. ملك صوبة الذي هُزِم ابنه، هدد عزر، على يد داود عند نهر ٱلفرات (<a href=\"https://ref.ly/2Sam8:3,2Sam8:12\">2&nbsp;صم 8:3، 12</a>).</p><p>2. أحد اللاويين الذين وضعوا ختمهم على عهد عزرا (<a href=\"https://ref.ly/Neh10:11\">نح 10:11</a>).</p>",
@@ -9086,18 +9290,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Rehob",
-"type": "person",
-"preferred_label": "رَحوبَ",
-"confidence": 0.8262,
-"match_method": "scored"
-},
-{
 "id": "person:Rehob.2",
 "type": "person",
-"preferred_label": "رَحوبَ",
-"confidence": 0.6928,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَحوبَ"
+},
+{
+"id": "person:Rehob",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَحوبَ"
 }
 ]
 }
@@ -9105,10 +9309,10 @@
 {
 "content_id": "490631",
 "reference_id": 7153,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رحوب (مكان)",
 "media_type": "Text",
-"index_reference": "رحوب (مكان)",
+"index_reference": "رحوب مكان",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>رَحوب (مكان)</h1><p>1. أقصى الشمال الذي استكشفه الجواسيس الإسرائيليون قبل احتلال كَنْعَان (<a href=\"https://ref.ly/Num13:21\">عدد 13:21</a>). يتفق مع موقع بيت-رَحوب (<a href=\"https://ref.ly/Judg18:28\">قضاة 18:28</a>) ويُذكر مع صوبَةَ ومَعْكَة كخصم لدَاودَ في حرب العمونيين (<a href=\"https://ref.ly/2Sam10:6-2Sam10:8\">2&nbsp;صموئيل 10:6–8</a>).</p><p>2. مدينتان تنتميان إلى سبط أَشِيرَ (<a href=\"https://ref.ly/Josh19:28-Josh19:30\">يشوع 19:28–30</a>). واحدة أُعطيت لعشيرة ٱلْجَرْشونِيِّينَ اللاوية (<a href=\"https://ref.ly/Josh21:31\">يشوع 21:31</a>) وأصبحت مدينة ملجأ (<a href=\"https://ref.ly/1Chr6:75\">1&nbsp;أخبار الأيام 6:75</a>). والأخرى بقيت في أيدي الكنعانيين (<a href=\"https://ref.ly/Judg1:31\">قضاة 1:31</a>). بعض العلماء يحددون الشواهد كمدينة واحدة.</p><p><strong>انظر أيضًا</strong> <span data-bnType=\"resourceReference\" data-resourceId=\"3738\" data-resourceType=\"TyndaleBibleDictionary\">مدن الملجأ</span>؛ <span data-bnType=\"resourceReference\" data-resourceId=\"5900\" data-resourceType=\"TyndaleBibleDictionary\">المدن اللاوية</span>.</p>",
@@ -9173,13 +9377,35 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Rehob.2",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَحوبَ"
+},
+{
+"id": "place:Rehob.3",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَحوبَ"
+},
+{
+"id": "place:Beth-rehob",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Beth-rehob"
+}
+]
 }
 },
 {
 "content_id": "443978",
 "reference_id": 7151,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَحُوبُوت",
 "media_type": "Text",
 "index_reference": "رَحُوبُوت",
@@ -9222,16 +9448,31 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Rehoboth.2",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "مِنْ"
+},
+{
+"id": "place:Rehoboth",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "مِنْ"
+}
+]
 }
 },
 {
 "content_id": "443977",
 "reference_id": 7150,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَحُوبُوت-عَيْر",
 "media_type": "Text",
-"index_reference": "رَحُوبُوت-عَيْر",
+"index_reference": "رَحُوبُوتعَيْر",
 "language": "arb",
 "review_level": "None",
 "content": "<h1><span>رَحُوبُوت</span>-<span>عَيْر</span></h1><p>اسم يعني &quot;أماكن واسعة في المدينة&quot;. كانت المدينة الثانية التي بناها الَّذِي كَانَ جَبَّارَ صَيْدٍ أَمَامَ الرَّبِّ نمرود (&quot;آشور&quot;) في آشور  (<a href=\"https://ref.ly/Gen10:11\">تكوين 10:11؛ </a>&quot;رَحُوبُوت&quot;). تختلف الآراء فيمَا إذا كانت رَحُوبُوت-عَيْر بَلْدَة مستقلة (ضاحية من ضواحي نينوى) أم أنه نظرًا لعدم ذكر اسم البلدة في الأدب الآشوري، كانت مجرد ساحات مفتوحة أو شوارع واسعة داخل نينوى نفسها.</p>",
@@ -9245,13 +9486,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Nineveh",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "نِينَوَى"
+}
+]
 }
 },
 {
 "content_id": "512051",
 "reference_id": 7154,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَحُوم",
 "media_type": "Text",
 "index_reference": "رَحُوم",
@@ -9317,30 +9566,30 @@
 {
 "id": "person:Rehum.2",
 "type": "person",
-"preferred_label": "رَحوم",
-"confidence": 0.6357,
-"match_method": "scored"
-},
-{
-"id": "person:Rehum",
-"type": "person",
-"preferred_label": "رَحوم",
-"confidence": 0.6166,
-"match_method": "scored"
-},
-{
-"id": "person:Rehum.4",
-"type": "person",
-"preferred_label": "رَحوم",
-"confidence": 0.5785,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَحوم"
 },
 {
 "id": "person:Rehum.3",
 "type": "person",
-"preferred_label": "رَحوم",
-"confidence": 0.5785,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَحوم"
+},
+{
+"id": "person:Rehum.4",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَحوم"
+},
+{
+"id": "person:Rehum",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَحوم"
 }
 ]
 }
@@ -9348,10 +9597,10 @@
 {
 "content_id": "335409",
 "reference_id": 6310,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَّحَى/ مِطْحَنَة",
 "media_type": "Text",
-"index_reference": "رَّحَى/ مِطْحَنَة",
+"index_reference": "رَّحَى مِطْحَنَة",
 "language": "arb",
 "review_level": "None",
 "content": "<h1><span>الرَّحَى/ ال</span><strong>مِطْحَنَة</strong></h1><p>حجران دائريان (حَجَرُ الرّحَى-<strong> </strong><span>الطّاحُون</span>) يُستخدمان في طحن الحبوب (القمح). إن طحن الحبوب (القمح) كما هو مصور في الفن القديم توثقه الحفريات الأثرية في الشرق الأوسط من حِقْبَة العصر الحجري الحديث (حوالي 8300–4500 قبل الميلاد) على شكل أحجار مُجَوَّفة يتصل بها قطع طحن مسطحة.  كانت هذه في الأساس مطاحن يدوية. وعلى مر القرون، استُحدثت بعض التحسينات التقنية. لكن كان هناك دائمًا عنصران ضروريان، الحجر السفلي الذي تُنثر عليه الحبوب والعلوي الذي يكان يتحرك فوقه فيشكل قوة ضغط كبيرة لطحن الحبوب إلى دقيق. المصطلح العبري لـ &quot;الطّاحُون&quot; مكون من شقين نحويين- بمعنى آخر، فهو يشير إلى عنصرين.</p><p>أقدم مِطْحَنَة، هي الرحاية أو أحجار الطحن، فكانت تتكون من حجر قاعدة خشن، مقعّر قليلًا، وحجر فرك محدّب. وكان حجر القاعدة يتراوح عرضه من 18 إلى 30 بوصة (45.7 إلى 76.2 سنتيمتر) مع وجود طرف نهاية أكثر سمكًا من الطرف الآخر. كان يُعرف في العبرية باسم &quot;الجزء السفلي-<span>قَلْب الحجر</span>&quot; (<a href=\"https://ref.ly/Job41:24\">أيوب 41:24</a>). أما الحجر العلوي، الذي يُسمى &quot;الجزء الراكب- قطعة الرحى العلوية&quot; (<a href=\"https://ref.ly/Judg9:53\">قضاة 9:53</a>; <a href=\"https://ref.ly/2Sam11:21\">2 صموئيل 11:21</a>)، فكان يتراوح طوله من 6 إلى 15 بوصة (15.2 إلى 38.1 سنتيمتر) وكان مسطحًا من جانب ومحدبًا من الجانب الآخر. وكان يسهل حمله في اليد. كانت عملية الطحن تجرى بتمرير الحجر العلوي بقوة ذهابًا وإيابًا فوق الحبوب، التي كانت توضع على الحجر السفلي. لم يكن بالإمكان طحن سوى كَمّيَّة صغيرة من الحبوب في المرة الوحدة باستخدام هذه الطريقة (<a href=\"https://ref.ly/Gen18:6\">تكوين 18:6</a>).</p><p>يوجد نوع آخر من الطواحين اليدوية كان يتكون من حجرين دائريين. الحجر السفلي يمكن أن يكون إما محدبًا أو مقعرًا من الأعلى والحجر العلوي كان إما مقعرًا أو محدبًا ليتناسب بالضبط مع الحجر السفلي . بعض نماذج هذا النوع من الطواحين كانت تحتوي على فَتْحَة على شكل قمع في مركز الحجر العلوي، ومن خلالها تُصب الحبوب (القمح). كان الحجر العلوي يُدار فوق الحجر السفلي بواسطة وتد خشبي يجرى تركيبه على حافته الخارجية. عند سحق الحبوب، كانت تتسرب وتنشر على طول حواف الحجر العلوي. عادةً ما كان الحجر المستخدم هو البازلت الأسود لأن سطحه الخشن والمسام يوفر حواف قطع جيدة. كان النوع العادي من الطواحين اليدوية يمكن تشغيله بواسطة شخص واحد، ولكن أحيانًا كان يتطلب شخصين (<a href=\"https://ref.ly/Matt24:41\">مت 24:41</a>).</p><p>كانت الطاحونة اليدوية مهمة جدًا في حياة الناس حتى أنه كان محظورًا بموجب القانون أخذ حجر طاحونة الشخص رهنًا لسداد دين، لأن ذلك سيحرم أسرته من وسيلة صنع الدقيق للخبز (<a href=\"https://ref.ly/Deut24:6\">تثنية 24:6</a>). كانت هذه الأحجار ثقيلة للغاية حتى أنها قد تتسبب في قتل إنسان إذا ما ألقي على رأسه، كما في حالة أبيمالك (<a href=\"https://ref.ly/Judg9:53\">قضاة 9:53؛</a> قارن <a href=\"https://ref.ly/2Sam11:21\">2صموئيل 11:21</a>).</p><p>عادةً ما كان طحن الحبوب مهمة الخدم (<a href=\"https://ref.ly/Exod11:5\">خروج 11:5</a>) أو النساء (<a href=\"https://ref.ly/Isa47:2\">إشعياء 47:2</a>). كان يسمع ضجيج الطحن كل يوم في كل قرية من قرى فلسطين. وحينما يتوقف ذلك الصوت، تكون البلدة قد انتهت (<a href=\"https://ref.ly/Jer25:10\">إرميا 25:10</a>).</p><p>يبدو أنه كانت هناك مطاحن مجتمعية أكبر تستلزم اللجوء لقوة الحيوانات. فكان يجري تدوير حجر دائري ثقيل، ربما يتراوح قطره بين أربعة إلى خمسة أقدام (1.2 إلى 1.5 متر)، على حافته بواسطة عمود يمر عبر مركزه. كان هذا العمود يدور حول عمود رأسي بنفس النموذج الموجود في بعض الأراضي الشرقية حتى اليوم. قد يكون هذا النوع من المطاحن الكبيرة هو الذي أُجبر شمشون على استخدامه لطحن الحبوب (القمح) للفلسطينيين (<a href=\"https://ref.ly/Judg16:21\">قضاة 16:21</a>).</p><p><em>انظر أيضًا</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4454\" data-resourceType=\"TyndaleBibleDictionary\">الطعام وتحضير الطعام؛</span> <span data-bnType=\"resourceReference\" data-resourceId=\"3498\" data-resourceType=\"TyndaleBibleDictionary\">الخبز؛</span> <span data-bnType=\"resourceReference\" data-resourceId=\"2592\" data-resourceType=\"TyndaleBibleDictionary\">الزراعة</span>.</p>",
@@ -9441,13 +9690,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Hand-mill",
+"type": "realia",
+"confidence": 0.77,
+"match_method": "scored",
+"preferred_label": "Hand-Mill"
+}
+]
 }
 },
 {
 "content_id": "511437",
 "reference_id": 6107,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رُخَام",
 "media_type": "Text",
 "index_reference": "رُخَام",
@@ -9472,35 +9729,13 @@
 "language": "arb"
 }
 ],
-"acai": [
-{
-"id": "place:Rezeph",
-"type": "place",
-"preferred_label": "رَصْفَ",
-"confidence": 0.847,
-"match_method": "embedding"
-},
-{
-"id": "person:Rohgah",
-"type": "person",
-"preferred_label": "رهْجَة",
-"confidence": 0.812,
-"match_method": "embedding"
-},
-{
-"id": "place:Humtah",
-"type": "place",
-"preferred_label": "حمْطَة",
-"confidence": 0.806,
-"match_method": "embedding"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "510027",
 "reference_id": 3763,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رداء",
 "media_type": "Text",
 "index_reference": "رداء",
@@ -9520,11 +9755,11 @@
 ],
 "acai": [
 {
-"id": "realia:Robe",
+"id": "realia:Cloak",
 "type": "realia",
-"preferred_label": "Robe",
-"confidence": 0.83,
-"match_method": "embedding"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Cloak"
 }
 ]
 }
@@ -9532,7 +9767,7 @@
 {
 "content_id": "511995",
 "reference_id": 7074,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَدَّاي",
 "media_type": "Text",
 "index_reference": "رَدَّاي",
@@ -9553,9 +9788,9 @@
 {
 "id": "person:Raddai",
 "type": "person",
-"preferred_label": "رَدَّايَ",
-"confidence": 0.9685,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَدَّايَ"
 }
 ]
 }
@@ -9563,7 +9798,7 @@
 {
 "content_id": "512070",
 "reference_id": 7194,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَزون",
 "media_type": "Text",
 "index_reference": "رَزون",
@@ -9584,9 +9819,9 @@
 {
 "id": "person:Rezon",
 "type": "person",
-"preferred_label": "رَزونَ",
-"confidence": 0.6928,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَزونَ"
 }
 ]
 }
@@ -9594,10 +9829,10 @@
 {
 "content_id": "509927",
 "reference_id": 3615,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رسائل الكاثوليكون (الرسائل الجامعة)",
 "media_type": "Text",
-"index_reference": "رسائل الكاثوليكون (الرسائل الجامعة)",
+"index_reference": "رسائل الكاثوليكون الرسائل الجامعة",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>رسائل الكاثوليكون (الرسائل الجامعة)</h1><p>اسم تقليدي لسبعة أسفار أو رسائل من العهد الجديد عم:</p><ul><li><p>رسالة يعقوب</p></li><li><p>رسالتي الرسول بطْرس الأولى والثانية</p></li><li><p>رسائل الرسول يوحنا الثلاث</p></li><li><p>رسالة يهوذا</p></li></ul><p>فُهِمَ مصطلح &quot;كاثوليك&quot; بطرق مختلفة:</p><ol><li><p>هذه الرسائل تعبر عن آراء جميع الرسل.</p></li><li><p>هي قانونية أو أصلية.</p></li><li><p>وهكذا تميَّزتْ عن الأعمال التي تحتوي على معتقدات خاطئة كتبت في الوقت ذاته تقريبًا.</p></li><li><p>هي رسائل دوَّارة، أي موجهة إلى جَمهور عام من المؤمنين بدلًا من مجموعات محددة، كما كانت بعض رسائل الرسول بولس. بالطبع، 2&nbsp;يوحَنَّا و3&nbsp;يوحَنَّا استثناءان لهذه القاعدة. 2 يوحَنَّا موجهة إلى سيدة أو كنيسة محلية. 3 يوحَنَّا موجهة إلى فرد.</p></li></ol><p><em>انظر أيضًا</em> <span data-bnType=\"resourceReference\" data-resourceId=\"5369\" data-resourceType=\"TyndaleBibleDictionary\">يَعْقوبَ، رسالة؛</span> <span data-bnType=\"resourceReference\" data-resourceId=\"5578\" data-resourceType=\"TyndaleBibleDictionary\">يوحَنَّا، رسائل؛</span> <span data-bnType=\"resourceReference\" data-resourceId=\"5656\" data-resourceType=\"TyndaleBibleDictionary\">يَهوذَا، رسالة؛</span> <span data-bnType=\"resourceReference\" data-resourceId=\"6846\" data-resourceType=\"TyndaleBibleDictionary\">بطْرس، الرسالة الأولى؛</span> <span data-bnType=\"resourceReference\" data-resourceId=\"6847\" data-resourceType=\"TyndaleBibleDictionary\">بطْرس، الرسالة الثانية</span>.</p>",
@@ -9646,7 +9881,7 @@
 {
 "content_id": "852596",
 "reference_id": 213048,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رسائل المسيح وأبجر",
 "media_type": "Text",
 "index_reference": "رسائل المسيح وأبجر",
@@ -9662,7 +9897,7 @@
 {
 "content_id": "511290",
 "reference_id": 5825,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رسائل لَخِيش",
 "media_type": "Text",
 "index_reference": "رسائل لَخِيش",
@@ -9723,7 +9958,7 @@
 {
 "content_id": "510323",
 "reference_id": 4299,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رسالة",
 "media_type": "Text",
 "index_reference": "رسالة",
@@ -9747,7 +9982,7 @@
 {
 "content_id": "511326",
 "reference_id": 5892,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رسالة إرميا",
 "media_type": "Text",
 "index_reference": "رسالة إرميا",
@@ -9778,7 +10013,7 @@
 {
 "content_id": "159101",
 "reference_id": 3818,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رِسَالَةُ الرَّسُولِ بُولُس الأُولَى إِلَى أَهْلِ كُورِنْثُوس",
 "media_type": "Text",
 "index_reference": "رِسَالَةُ الرَّسُولِ بُولُس الأُولَى إِلَى أَهْلِ كُورِنْثُوس",
@@ -10586,13 +10821,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "group:Corinth",
+"type": "group",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Corinthians"
+}
+]
 }
 },
 {
 "content_id": "852639",
 "reference_id": 213091,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رسالة أوغنوستوس",
 "media_type": "Text",
 "index_reference": "رسالة أوغنوستوس",
@@ -10608,7 +10851,7 @@
 {
 "content_id": "852619",
 "reference_id": 213071,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رسالة برنابا",
 "media_type": "Text",
 "index_reference": "رسالة برنابا",
@@ -10632,7 +10875,7 @@
 {
 "content_id": "335459",
 "reference_id": 6847,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رسالة بطرس الثانية",
 "media_type": "Text",
 "index_reference": "رسالة بطرس الثانية",
@@ -10819,13 +11062,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Peter",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "بطْرس"
+}
+]
 }
 },
 {
 "content_id": "852664",
 "reference_id": 213116,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رسالة بطرس إلى فيلبّس",
 "media_type": "Text",
 "index_reference": "رسالة بطرس إلى فيلبّس",
@@ -10849,7 +11100,7 @@
 {
 "content_id": "852656",
 "reference_id": 213108,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رسالة لنتولوس",
 "media_type": "Text",
 "index_reference": "رسالة لنتولوس",
@@ -10865,7 +11116,7 @@
 {
 "content_id": "159139",
 "reference_id": 5369,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رسالة يعقوب",
 "media_type": "Text",
 "index_reference": "رسالة يعقوب",
@@ -11473,16 +11724,52 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:James.2",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "يَعْقوبَ"
+},
+{
+"id": "person:James.3",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "يَعْقوبَ"
+},
+{
+"id": "person:James.4",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "يَعْقوبَ"
+},
+{
+"id": "person:John.2",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "يوحَنَّا"
+},
+{
+"id": "person:James",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "يَعْقوبَ"
+}
+]
 }
 },
 {
 "content_id": "125379",
 "reference_id": 6680,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رسامة، يُرسَم",
 "media_type": "Text",
-"index_reference": "رسامة، يُرسَم",
+"index_reference": "رسامة يُرسَم",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>رسامة، يُرسَم</h1><p>هي ذلك التكليف الرسمي لشخص ما بتولي سلطة دينية. وهناك عدة مترادفات لها مثل &quot;يُعيّن،&quot; و&quot;يُؤسس،&quot; و&quot;يُجعل،&quot; و&quot;يُقيم&quot;. وحاليًا تستخدم كلمة &quot;يُرسم&quot; و &quot;رسامة&quot; للإشارة إلى عملية اختيار خاصة لأشخاص وتعيينهم لخدمة الله.</p><h2>في العهد القديم</h2><p>خلال العهد القديم، هناك تأكيد على قيام الله بإختيار ومسح الأشخاص الذين أرادهم. كما تم نقل الوظائف الكهنوتية مبكرًا جدًا من رأس العائلة إلى سبط لاوي الذي اختاره الله (<span data-bnType=\"resourceReference\">تثنية 33: 8–11</span>؛ <span data-bnType=\"resourceReference\">قض 17: 13</span>). ومن خلال وجود عشائر كثيرة متتالية وأحيانًا متنافسة مثل &quot;الصدوقيين،&quot; &quot;الهارونيين،&quot; و&quot;الحشمونيين&quot;، استمر هذا الامتياز المتوارث قائمًا. وكان موسى هو أول من خصص سبط لاوي للتعيين الإلهي (<span data-bnType=\"resourceReference\">خروج 4: 14</span>؛ <span data-bnType=\"resourceReference\">28: 41</span>؛ <span data-bnType=\"resourceReference\">29: 9</span>)، كما تم ذكر صموئيل الإفرايمي في سلاسل نسبهم (<span data-bnType=\"resourceReference\">1 أخبار 6: 28</span>)، وكان ذلك مصدر فخر ابن سيراخ (<span data-bnType=\"resourceReference\">حكمة بن سيراخ 45: 6–22</span>، حوالي 180 ق.م.). وكما تؤكد الرسالة إلى العبرانيين (<span data-bnType=\"resourceReference\">عبرانيين 5: 1، 4</span>)، فلا أحد يأخذ هذه الوظيفة بنفسه، بل &quot;المدعو من الله، كما هارون أيضًا،&quot; فكان ينضم من خلال الولادة لهذه المكانة الموروثة.</p><p>وقد تم تقديم وتخصيص اللاويين أولًا عند خيمة الاجتماع، وفي حضور الشعب، وقد تم عمل ذلك بواسطة &quot;وضع الأيدي&quot; (<span data-bnType=\"resourceReference\">عدد 8: 10، 14–18</span>). كذلك أخذ موسى تعليمات محددة لعملية مسح وتقديس هارون وأبنائه طوال أسبوع، من خلال تقديم ذبائح معينة، وثياب، ودهن مسحة، وطقوس معينة (<span data-bnType=\"resourceReference\">خروج 29</span>؛ <span data-bnType=\"resourceReference\">لاويين 8</span>). وفي كلتا الحالتين، فإن ذكر هذه التعليمات المفصلة بعناية قد يشير إلى أن تلك الممارسات والاحتفالات قد استمرت، بشكل ما، لسنوات لاحقة، على الرغم من عدم تسجيل أي تكرار لها.</p><p>وإلى جانب الكهنة، كانت تُوجد مجموعات من الأنبياء المعروفين، أو تجمعات للأنبياء، وأحيانًا تكون تحت رعاية ملكية (<span data-bnType=\"resourceReference\">1 صموئيل 10: 5</span>؛ <span data-bnType=\"resourceReference\">1 ملوك 1: 9–10</span>؛ <span data-bnType=\"resourceReference\">18: 17–19</span>؛ <span data-bnType=\"resourceReference\">20: 35</span>؛ <span data-bnType=\"resourceReference\">22: 5–28</span>؛ <span data-bnType=\"resourceReference\">2 ملوك 2: 3–7</span>؛ <span data-bnType=\"resourceReference\">23: 2</span>). كما أنه يمكن تتبع وجود الأنبياء وخط النبوة إلى الأيام الأولى (انظر <span data-bnType=\"resourceReference\">تكوين 20: 7</span>؛ <span data-bnType=\"resourceReference\">تثنية 34: 10</span>؛ <span data-bnType=\"resourceReference\">قض 4: 4</span>؛ <span data-bnType=\"resourceReference\">إرميا 7: 25</span>). إن عبارة &quot;بنو الأنبياء&quot; والإشارة الغامضة في <span data-bnType=\"resourceReference\">إرميا 35: 4</span>، قد تشير إلى أن النبوة، مثلها مثل الكهنوت، كانت أحيانًا توّرث، ولكن الطريقة التي يتم بها التعيين والتكريس غير معروفة لنا. كما أن الأنبياء البارزين كانوا في كثير من الأحيان في مواجهة مع ما يسمي &quot;مدارس&quot; الأنبياء (إيليا، <span data-bnType=\"resourceReference\">1 ملوك 17</span>؛ ميخا، <span data-bnType=\"resourceReference\">1 ملوك 22: 5–28</span>؛ إرميا، <span data-bnType=\"resourceReference\">إرميا 27: 14–16</span>؛ <span data-bnType=\"resourceReference\">28</span>). كان هؤلاء الأنبياء يتم تكليفهم من خلال دعوة إلهية ومباشرة (<span data-bnType=\"resourceReference\">1 ملوك 17: 1</span>؛ <span data-bnType=\"resourceReference\">21: 17</span>؛ <span data-bnType=\"resourceReference\">إشعياء 6</span>؛ <span data-bnType=\"resourceReference\">إرميا 1</span>؛ <span data-bnType=\"resourceReference\">عاموس 7: 15</span>)، بينما تم مسح أليشع ودعوته بواسطة تكليف محدد من الله من خلال إيليا (<span data-bnType=\"resourceReference\">1 ملوك 19: 16</span>؛ <span data-bnType=\"resourceReference\">إشعياء 61: 1</span>). وقد كانت كانت أصالة ومصداقية رسالة النبي لا تعتمد على طريقة أو مراسم مسحه للنبوة، بل على الحق الواضح فيها، بحيث يتم تحقيق كل ما سبق وتنبأ بأنه سيحدث (<span data-bnType=\"resourceReference\">1 ملوك 22: 13–14، 26–28</span>؛ إرميا <span data-bnType=\"resourceReference\">28: 5–9</span>).</p><h2>في العهد الجديد</h2><p>إن الرسامة المسيحية هي أيضًا مسألة اختيار إلهي. لم يكن يسوع أو أي من تلاميذه، ينتمي لهذه الفئات الدينية الرسمية. عندما أقام يسوع الاثني عشر رسولًا، دعا إليه الذين أرادهم، وقد أكد لاحقًا،&quot;ليس أنتم اخترتموني بل أنا اخترتكم وأقمتكم&quot; (<span data-bnType=\"resourceReference\">يوحنا ١٥: ١٦</span>). أما اختيار متياس الرسول فقد تم عن طريق الصلاة والقرعة الإلهية (<span data-bnType=\"resourceReference\">أعمال الرسل ١: ٢٤–٢٦</span>). وقد أفتخر بولس بأن الله أفرزه قبل أن يُولد، وأنه أصبح رسولًا لا من الناس ولا بإنسان (<span data-bnType=\"resourceReference\">غلاطية ١: ١، ١٥</span>). كما تم إرسال بولس وبرنابا بإرشاد من الروح القدس بينما كانوا يقومون بالعبادة، ومن المحتمل أن ذلك تم من خلال نبي مسيحي. كذلك، تم اختيار تيموثاوس أولاً كمساعد لبولس حسب النبوات التي سبقت عليه (<span data-bnType=\"resourceReference\">١ تيموثاوس ١: ١٨</span>؛ <span data-bnType=\"resourceReference\">٤: ١٤</span>).</p><p>بينما في كورنثوس، تمت الإشارة للعديد من خدمات الوعظ، والتعليم، والشفاء، والتدابير باعتبارها عطايا يهبها الروح، قاسمًا لكل واحد كما يشاء (<span data-bnType=\"resourceReference\">١ كورنثوس ١٢: ٨–١١، ٢٨</span>؛ <span data-bnType=\"resourceReference\">أفسس ٤: ١١</span>). وفي أفسس، أقام الروح القدس شيوخ الكنيسة وجعلهم رعاة على الرعية (<span data-bnType=\"resourceReference\">أعمال الرسل ٢٠: ٢٨</span>). هذا الإمتياز والحق الإلهي واضح في كل مكان: فإن أي محاولة للحصول على امتياز الخدمة بمبادرة شخصية أو طرق بشرية، دائما ما تُقابل بدينونة شديدة (<span data-bnType=\"resourceReference\">8: 18–24</span>).</p><p>ومن الناحية الأخري، قامت الكنيسة المُجتمعة &quot;بترشيح&quot; برسابا ومتياس ثم تركت الاختيار النهائي لله (<span data-bnType=\"resourceReference\">أعمال الرسل ١: ١٥، ٢٣</span>). كما اختار المؤمنون الشمامسة السبعة، ثم أقاموهم أمام الرسل (<span data-bnType=\"resourceReference\">6: 2–6</span>). وأيضًا الكنيسة المجتمعة، تحت قيادة الروح القدس، قامت بتكليف وإطلاق بولس وبرنابا (<span data-bnType=\"resourceReference\">13: 3</span>). كما أن بولس وبرنابا أنفسهم قد قاما بتعيين شيوخ (<span data-bnType=\"resourceReference\">١٤: ٢٣</span>)، وتم تكليف تيطس بالعمل نفسه (<span data-bnType=\"resourceReference\">تيطس ١: ٥</span>)، وربما تيموثاوس أيضًا (<span data-bnType=\"resourceReference\">١ تيموثاوس ٥: ٢٢</span>). وقد قام الشيوخ في لسترة وايقونية طاعة للنبوة، مع بولس، بوضع الأيدي لتعيين تيموثاوس لعمل القيادة (<span data-bnType=\"resourceReference\">١ تيموثاوس ٤: ١٤</span>؛ <span data-bnType=\"resourceReference\">٢ تيموثاوس ١: ٦</span>). وعندما تمت كتابة رسائل إلى كل من تيموثاوس وتيطس، كانت هناك قوائم محددة للشروط المطلوبة عند اختيار قادة الكنيسة (<span data-bnType=\"resourceReference\">١ تيموثاوس ٣: ١–١٣</span>؛ <span data-bnType=\"resourceReference\">٢ تيموثاوس ٢: ٢</span>).</p><p>كما شاركت جماعة المؤمنين في عملية اختيار القادة. فمن الممكن أن هذا الأمر كان يتضمن الصلاة، والصوم، وإلقاء القرعة (<span data-bnType=\"resourceReference\">أعمال الرسل ١: ٢٦</span>؛ <span data-bnType=\"resourceReference\">٦: ٦</span>؛ <span data-bnType=\"resourceReference\">١٣: ٢–٣</span>؛ <span data-bnType=\"resourceReference\">١٤: ٢٣</span>)، وأحيانًا كان يتم الإنتخاب بالأيدى (الكلمة اليونانية، كيروتونين<em>،</em> تعني أساسًا &quot;الاختيار برفع الأيدي،&quot; ثم لاحقًا &quot;الاختيار بالإشارة إلى&quot;، (راجع <span data-bnType=\"resourceReference\">أعمال الرسل ١٤: ٢٣</span>؛ <span data-bnType=\"resourceReference\">٢ كورنثوس ٨: ١٩</span>)، وأحيانًا كان الاختيار يتم من خلال موافقة الجماعة (<span data-bnType=\"resourceReference\">أعمال الرسل ١: ١٥، ٢٣</span>؛ <span data-bnType=\"resourceReference\">٦: ٢–٥</span>؛ <span data-bnType=\"resourceReference\">١٣: ٣</span>؛ <span data-bnType=\"resourceReference\">١٦: ٢</span>؛ <span data-bnType=\"resourceReference\">١ تيموثاوس ٤: ١٤</span>).</p><p><em>انظر أيضًا</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4459\" data-resourceType=\"TyndaleBibleDictionary\">تعيين مُسبق</span>.</p>",
@@ -11894,7 +12181,7 @@
 {
 "content_id": "490639",
 "reference_id": 7214,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رِسَّةَ",
 "media_type": "Text",
 "index_reference": "رِسَّةَ",
@@ -11923,9 +12210,9 @@
 {
 "id": "place:Rissah",
 "type": "place",
-"preferred_label": "رِسَّةَ",
 "confidence": 1.0,
-"match_method": "scored"
+"match_method": "content_id",
+"preferred_label": "رِسَّةَ"
 }
 ]
 }
@@ -11933,10 +12220,10 @@
 {
 "content_id": "510321",
 "reference_id": 4297,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رسل، رسالة الـ",
 "media_type": "Text",
-"index_reference": "رسل، رسالة الـ",
+"index_reference": "رسل رسالة الـ",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>رسل، رسالة الـ*</h1><p>انظر <span data-bnType=\"resourceReference\" data-resourceId=\"2831\" data-resourceType=\"TyndaleBibleDictionary\">الأبوكريفا (رسالة الرسل)</span>.</p>",
@@ -11957,7 +12244,7 @@
 {
 "content_id": "443981",
 "reference_id": 7176,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَسَن",
 "media_type": "Text",
 "index_reference": "رَسَن",
@@ -11978,9 +12265,9 @@
 {
 "id": "place:Resen",
 "type": "place",
-"preferred_label": "رَسَنَ",
-"confidence": 0.9595,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَسَنَ"
 }
 ]
 }
@@ -11988,7 +12275,7 @@
 {
 "content_id": "124540",
 "reference_id": 6258,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رسول",
 "media_type": "Text",
 "index_reference": "رسول",
@@ -12115,10 +12402,10 @@
 {
 "content_id": "124472",
 "reference_id": 2838,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رسول، رسولية",
 "media_type": "Text",
-"index_reference": "رسول، رسولية",
+"index_reference": "رسول رسولية",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>رسول، رسولية</h1><p>تسمية رسمية لبعض القادة في كنائس العهد الجديد. الرسولية هو التعبير الأكثر شمولًا، تعبير يشير إلى وظائف الخادم بتلك المكانة. إن الأسئلة المتعلقة بأصل رسولية العهد الجديد ووظائفها وتاريخها محل نقاش، لا يمكن للمرء التحدث عن أي شيء مثل الإجماع على رأي يوحد تقاليد الكنيسة المختلفة. يُسلَّط بعض الضوء على فهمنا للمصطلحات بالتدقيق في الخلفيات اللغوية والمفاهيمية المحتملة.</p><p>لا تُستخدم الكلمة اليونانية &quot;رسول&quot; خارج العهد الجديد بالمعنى ذاته الذي في العهد الجديد. اللفظ مشتق من الفعل &quot;أرسل&quot; وفي موطنه في لغة البحر يعني &quot;سفينة&quot; بعينها أو &quot;أسطول من السفن&quot; أو &quot;حملة بحرية&quot; أو &quot;قائد&quot; وهكذا. واستخدامه دائمًا ما يكون بصيغة نكرة ومبني للمجهول. لا يوجد تلميح إلى مبادرة شخصية أو إذن، مجرد تلميح إلى شيء مُرسَل. في وقت لاحق تستخدم البرديات الكلمة لتعني &quot;بيان حساب&quot; أو &quot;فاتورة أو حتى &quot;جواز مرور&quot;، ومنحصر على مفردات الشئون البحرية.</p><p>في العهد الجديد، كانت الكلمة تُستخدم للدلالة على الذين أرسلهم الرب يسوع للكرازة بالإنجيل. من بين المجموعة الأوسع من الذين تبعوه، اختار الرب يسوع 12 رجلًا (<a href=\"https://ref.ly/Matt10:1-Matt10:4\">متى ١٠: ١–٤</a>؛ <a href=\"https://ref.ly/Mark3:13-Mark3:19\">مرقس ٣: ١٣–١٩</a>؛ <a href=\"https://ref.ly/Luke6:12-Luke6:16\">لوقا ٦: ١٢–١٦</a>) ظلوا على علاقة وثيقة معه، وتلقِّوا تعليمًا خاصًا وشهدوا معجزاته ومعاداة السلطات اليهوديَّة لهم. في إحدى المناسبات، أرسل الرب يسوع هؤلاء الرجال ليكرزوا برسالة التوبة، وليخرجوا الشياطين، وليشفوا المرضى؛ أي ليخدموا بطرائق ميزت خدمته (<a href=\"https://ref.ly/Matt10:1-Matt10:15\">متى ١٠: ١–١٥</a>؛ <a href=\"https://ref.ly/Mark6:7-Mark6:13\">مرقس ٦: ٧–١٣، ٣٠</a>؛ <a href=\"https://ref.ly/Luke9:1-Luke9:6\">لوقا ٩: ١–٦</a>). العلاقة عينها عُبِّرَ عنها في قوله &quot;اَلَّذِي يَسْمَعُ مِنْكُمْ يَسْمَعُ مِنِّي، وَٱلَّذِي يُرْذِلُكُمْ يُرْذِلُنِي، وَٱلَّذِي يُرْذِلُنِي يُرْذِلُ ٱلَّذِي أَرْسَلَنِي&quot; (<a href=\"https://ref.ly/Luke10:16\">لوقا 10: 16</a>؛ راجع <a href=\"https://ref.ly/Matt10:40\">متى 10: 40</a>). من الواضح أن الاثني عشر لا يُعينوا لمجرد إذاعة تعليم الرب يسوع، بل تمثيل شخصه ذاته. بعد القيامة، كلَّف الرب يسوع الاثني عشر (<a href=\"https://ref.ly/Matt28:1-Matt28:20\">متى ٢٨</a>؛ <a href=\"https://ref.ly/Luke24:1-Luke24:53\">لوقا ٢٤</a>؛ <a href=\"https://ref.ly/John20:1-John21:25\">يوحنَّا ٢٠–٢١</a>) بالإعلان عن عمل الله في المسيح بالإنابة عن كل البشر. وحدهم الذين كانوا مع الرب يسوع منذ بدء خدمته إلى قيامته كانوا مؤهلين ليكونوا رسله وشهوده (<a href=\"https://ref.ly/Acts1:21-Acts1:22\">أعمال الرسل ١: ٢١–٢٢</a>). نال بولس الرسولية لأنه عاين المسيح القائم من الموت (<a href=\"https://ref.ly/1Cor15:4-1Cor15:10\">١ كورنثوس ١٥: ٤–١٠</a>).</p><p>تُظهر كتابات بولس استخدامين مُميزين لكلمة &quot;رسول&quot;. في بعض الأحيان، يُشير إلى أشخاص مفوضين من الرعايا المحليَّة ومُؤتمنين على تسليم عطايا مُعلَّنة لأعضاء آخرين في المجتمع المسيحي (<a href=\"https://ref.ly/2Cor8:23\">٢ كورنثوس ٨: ٢٣</a>؛<a href=\"https://ref.ly/Phil2:25\"> فيلبي ٢: ٢٥</a>). الأكثر أهمية هي تلك المقاطع التي يَكتبها &quot;الرسول&quot; بمعناها اللغوي أكثر من خلال العبارة المضاف إليها &quot;يسوع المسيح&quot; (<a href=\"https://ref.ly/1Cor1:1\">١ كورنثوس ١: ١</a>؛ <a href=\"https://ref.ly/2Cor1:1\">٢ كورنثوس ١: ١</a>؛ <a href=\"https://ref.ly/2Cor11:13\">١١: ١٣</a>؛ <a href=\"https://ref.ly/Gal1:1\">غلاطية ١: ١</a>؛ <a href=\"https://ref.ly/Eph1:1\">أفسس ١: ١</a>؛ <a href=\"https://ref.ly/Col1:1\">كولوسي ١: ١</a>؛ <a href=\"https://ref.ly/1Thess2:6\">١ تسالونيكي ٢: ٦</a>). &quot;رسول&quot; هو &quot;رسول يَسُوعِ الْمَسِيحِ&quot; (<a href=\"https://ref.ly/Rom16:7\">رومية ١٦: ٧</a>؛ ١<a href=\"https://ref.ly/1Cor9:1\"> كورنثوس ٩: ١، ٥</a>؛ <a href=\"https://ref.ly/1Cor12:28\">١٢: ٢٨</a>؛ <a href=\"https://ref.ly/Gal1:17-Gal1:19\">غلاطية ١: ١٧–١٩</a>). في التصريحات التي أثبت فيها بولس حقه بهذا اللقب، جادل في المقطع ذاته مثبتًا أن مفهوم الرسولية المحضة الذي حمله الرب يسوع. إنه يربط باستمرار هذا الادعاء بحدث محدد في الماضي ظهر فيه الرب القائم من بين الأموات (<a href=\"https://ref.ly/1Cor9:1\">١ كورنثوس ٩: ١</a>؛ <a href=\"https://ref.ly/Gal1:12\">غلاطية ١: ١٢، ١٦</a>). هذا الظهور الذي صنفه إلى جانب ظهورات القيامة (<a href=\"https://ref.ly/1Cor15:3-1Cor15:8\">١ كورنثوس ١٥: ٣–٨</a>). لقد فهم بولس اختباره خارج دمشق (قارِنْ <a href=\"https://ref.ly/Acts9:1-Acts9:19\">أعمال الرسل ٩: ١–١٩،</a> <a href=\"https://ref.ly/Acts22:6-Acts22:16\">٢٢: ٦–١٦</a>، <a href=\"https://ref.ly/Acts26:12-Acts26:18\">٢٦: ١٢–١٨</a>، <a href=\"https://ref.ly/Gal1:17\">غلاطية ١: ١٧</a>) على أنه إرسالية مدى الحياة للكرازة بالقائم من الأموات (<a href=\"https://ref.ly/1Cor1:17\">١ كورنثوس ١: ١٧</a>؛ <a href=\"https://ref.ly/1Cor2:1-1Cor2:2\">٢: ١–٢</a>) في المقام الأول بين الأمم (<a href=\"https://ref.ly/Acts9:15\">أعمال الرسل ٩: ١٥</a>؛ <a href=\"https://ref.ly/Acts22:15\">٢٢: ١٥</a>؛ <a href=\"https://ref.ly/Acts26:17\">٢٦: ١٧، ٢٣</a>؛ <a href=\"https://ref.ly/Gal1:15-Gal1:16\">غلاطية ١: ١٥–١٦</a>). من خلال خدمته بالكرازة استمر المسيح في العمل، وخلق شعب الله الجديد (<a href=\"https://ref.ly/1Cor9:1-1Cor9:2\">١ كورنثوس ٩: ١–٢</a>؛ <a href=\"https://ref.ly/Gal2:8\">غلاطية ٢: ٨</a>).</p><p><em>اُنْظُرْ أيضًا</em> <span data-bnType=\"resourceReference\" data-resourceId=\"2523\" data-resourceType=\"TyndaleBibleDictionary\">سفر أعمال الرُسل</span>؛ <span data-bnType=\"resourceReference\" data-resourceId=\"6782\" data-resourceType=\"TyndaleBibleDictionary\">بولس الرسول</span>.</p>",
@@ -12411,7 +12698,7 @@
 {
 "content_id": "512428",
 "reference_id": 7780,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رشُّ الدم",
 "media_type": "Text",
 "index_reference": "رشُّ الدم",
@@ -12429,13 +12716,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:SheddingOfBlood",
+"type": "keyterm",
+"confidence": 0.8601,
+"match_method": "embedding",
+"preferred_label": "Shedding of Blood"
+}
+]
 }
 },
 {
 "content_id": "512065",
 "reference_id": 7177,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَشَف",
 "media_type": "Text",
 "index_reference": "رَشَف",
@@ -12456,9 +12751,9 @@
 {
 "id": "person:Resheph",
 "type": "person",
-"preferred_label": "رَشَف",
 "confidence": 1.0,
-"match_method": "scored"
+"match_method": "content_id",
+"preferred_label": "رَشَف"
 }
 ]
 }
@@ -12466,7 +12761,7 @@
 {
 "content_id": "490287",
 "reference_id": 3503,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رشوة",
 "media_type": "Text",
 "index_reference": "رشوة",
@@ -12567,7 +12862,7 @@
 {
 "content_id": "512067",
 "reference_id": 7191,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَصْفَ",
 "media_type": "Text",
 "index_reference": "رَصْفَ",
@@ -12594,9 +12889,9 @@
 {
 "id": "place:Rezeph",
 "type": "place",
-"preferred_label": "رَصْفَ",
 "confidence": 1.0,
-"match_method": "scored"
+"match_method": "content_id",
+"preferred_label": "رَصْفَ"
 }
 ]
 }
@@ -12604,7 +12899,7 @@
 {
 "content_id": "512080",
 "reference_id": 7219,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رِصْفَة",
 "media_type": "Text",
 "index_reference": "رِصْفَة",
@@ -12631,9 +12926,9 @@
 {
 "id": "person:Rizpah",
 "type": "person",
-"preferred_label": "رِصْفَة",
-"confidence": 0.8,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رِصْفَة"
 }
 ]
 }
@@ -12641,7 +12936,7 @@
 {
 "content_id": "512079",
 "reference_id": 7218,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَصِيَا",
 "media_type": "Text",
 "index_reference": "رَصِيَا",
@@ -12662,9 +12957,9 @@
 {
 "id": "person:Rizia",
 "type": "person",
-"preferred_label": "رَصِيَا",
 "confidence": 1.0,
-"match_method": "scored"
+"match_method": "content_id",
+"preferred_label": "رَصِيَا"
 }
 ]
 }
@@ -12672,7 +12967,7 @@
 {
 "content_id": "512069",
 "reference_id": 7193,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَصِين",
 "media_type": "Text",
 "index_reference": "رَصِين",
@@ -12727,18 +13022,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Rezin",
-"type": "person",
-"preferred_label": "رَصِينَ",
-"confidence": 0.6173,
-"match_method": "scored"
-},
-{
 "id": "person:Rezin.2",
 "type": "person",
-"preferred_label": "رَصِينَ",
-"confidence": 0.5907,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَصِينَ"
+},
+{
+"id": "person:Rezin",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَصِينَ"
 }
 ]
 }
@@ -12746,7 +13041,7 @@
 {
 "content_id": "335467",
 "reference_id": 6966,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رطل",
 "media_type": "Text",
 "index_reference": "رطل",
@@ -12801,13 +13096,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Pound",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Pound"
+}
+]
 }
 },
 {
 "content_id": "159131",
 "reference_id": 4979,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رُعَاة مَوَاشٍ",
 "media_type": "Text",
 "index_reference": "رُعَاة مَوَاشٍ",
@@ -12860,13 +13163,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "group:Herdsmen",
+"type": "group",
+"confidence": 1.0,
+"match_method": "embedding",
+"preferred_label": "Herdsmen"
+}
+]
 }
 },
 {
 "content_id": "512044",
 "reference_id": 7143,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رعلايا",
 "media_type": "Text",
 "index_reference": "رعلايا",
@@ -12897,16 +13208,24 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Reelaiah",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَعْلَايَا"
+}
+]
 }
 },
 {
 "content_id": "443972",
 "reference_id": 7057,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَعَمَا*، رَعْمَة",
 "media_type": "Text",
-"index_reference": "رَعَمَا*، رَعْمَة",
+"index_reference": "رَعَمَا رَعْمَة",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>رَعَمَا<span>*، </span>رَعْمَة</h1><p>هو أحد أبناء كوش الخمسة وسليل نسل حَام. وهو أبو كلٍ من شَبَا ودَدَان (<a href=\"https://ref.ly/Gen10:7\">التكوين 10: 7</a>؛ <a href=\"https://ref.ly/1Chr1:9\">1أخبار الأيام 1: 9</a>). ويذكر سفر <a href=\"https://ref.ly/Ezek27:22\">حِزْقِيَال 27: 22</a> عن شعب شَبَا ورَعْمَة تجارتهم في التوابل والأحجار الكريمة مع تجار صور. وفيما بعد أُطلق اسم رَعْمَة على إحدى المُدن التي ربما تُعرَف باسم مَعِين في جنوب غرب شبه الجزيرة العربية.</p>",
@@ -12936,23 +13255,16 @@
 {
 "id": "person:Raamah",
 "type": "person",
-"preferred_label": "رَعْمَة",
-"confidence": 0.7047,
-"match_method": "scored"
-},
-{
-"id": "person:Sabteca",
-"type": "person",
-"preferred_label": "سَبْتَكَا",
-"confidence": 0.6057,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَعْمَة"
 },
 {
 "id": "place:Raamah",
 "type": "place",
-"preferred_label": "رَعْمَة",
-"confidence": 0.5713,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَعْمَة"
 }
 ]
 }
@@ -12960,10 +13272,10 @@
 {
 "content_id": "490625",
 "reference_id": 7098,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَعَمْسِيس (مكان)",
 "media_type": "Text",
-"index_reference": "رَعَمْسِيس (مكان)",
+"index_reference": "رَعَمْسِيس مكان",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>رعمسيس (مكان)</h1><p>المكان (المعروف أيضًا باسم رَعَمْسِيسَ أو رامسيس) المذكور مع فِيثومَ في <a href=\"https://ref.ly/Exod1:11\">خروج 1:11</a> أحد المواقع التي كان العبرانيون يشاركون فيها في خطط بناء للفرعون. هنا تعرضوا لأعباء ثقيلة من قبل ضباط فرعون. في الوقت المناسب، هربوا من اضطهادهم وانطلقوا نحو أرض المَوْعِدَ (<a href=\"https://ref.ly/Exod12:37\">خروج 12:37؛</a> <a href=\"https://ref.ly/Num33:3\">عدد 33:3</a>). تحديد هذا المكان والفترة مهم لتحديد تاريخ الخروج من مِصْرَ.</p><p>الملك رمسيس الثاني (1290–1224 قبل الميلاد تقريبًا) بنى الكثير في منطقة شرق الدلتا. الفرعون الطموح قرر إضافة مركز من صنعه، مستخدمًا كنواة المركز العائلي القديم في أفاريس، حيث بنى والده قصرًا صيفيًا. على الجانب الشمالي من أفاريس، بنى قصرًا فخمًا أطلق عليه اسم بيراميسيس. موقعه محل جدل كبير، حيث تم تحديده بشكل مختلف في بيلوزيم (على البحر المتوسط) وفي تانيس (أو صوعن). هذا الاقتراح الأخير مرفوض الآن لأن الحجر المستخدم كان مادة معاد استخدامها مأخوذة من مكان آخر وليس أصليًا. ومع ذلك، على بعد 19 ميلاً (30.6 كيلومترًا) جنوبًا من تانيس، بالقرب من بلدة قنطير، تم التعرف الآن على بقايا كبيرة من قصر بدأه سيتي الأول، مع مصنع زجاجي مجاور، ومساكن للأمراء وكبار المسؤولين، وآثار لمعبد وقاعات استقبال عامة، كموقع لرامسيس (بيراميسيس). وقد دُمر المركز القديم للهكسوس عندما طُرد هؤلاء الأجانب في وقت مبكر من الأسرة الثامنة عشرة (1552–1306 قبل الميلاد تقريبًا). ثم تم التخلي عن المكان ولكن أعيد بناؤه لاحقًا تحت الأسرة التاسعة عشرة. زين رمسيس الثاني قصر والده ببذخ وأسس بالقرب منه مكانًا لتجميع عرباته، ومكانًا لحشد مشاته، ومكانًا لرسو سفنه.</p><p><strong>انظر أيضًا</strong> <span data-bnType=\"resourceReference\" data-resourceId=\"4122\" data-resourceType=\"TyndaleBibleDictionary\">مِصْرَ، مصري؛</span> <span data-bnType=\"resourceReference\" data-resourceId=\"6921\" data-resourceType=\"TyndaleBibleDictionary\">فِيثومَ</span>.</p>",
@@ -13008,16 +13320,16 @@
 {
 "id": "place:Rameses",
 "type": "place",
-"preferred_label": "رَعَمْسِيسَ",
-"confidence": 0.8442,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَعَمْسِيسَ"
 },
 {
 "id": "place:Raamses",
 "type": "place",
-"preferred_label": "رَعَمْسِيسَ",
-"confidence": 0.5608,
-"match_method": "scored"
+"confidence": 0.5833,
+"match_method": "scored",
+"preferred_label": "رَعَمْسِيسَ"
 }
 ]
 }
@@ -13025,7 +13337,7 @@
 {
 "content_id": "511986",
 "reference_id": 7058,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَعَمْيَا",
 "media_type": "Text",
 "index_reference": "رَعَمْيَا",
@@ -13058,25 +13370,11 @@
 ],
 "acai": [
 {
-"id": "person:Remaliah",
+"id": "person:Reelaiah",
 "type": "person",
-"preferred_label": "رَمَلْيَا",
-"confidence": 0.8222,
-"match_method": "embedding"
-},
-{
-"id": "person:Amasiah",
-"type": "person",
-"preferred_label": "عَمَسْيَا",
-"confidence": 0.8179,
-"match_method": "embedding"
-},
-{
-"id": "place:Amad",
-"type": "place",
-"preferred_label": "عَمْعَادَ",
-"confidence": 0.8041,
-"match_method": "embedding"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَعْلَايَا"
 }
 ]
 }
@@ -13084,7 +13382,7 @@
 {
 "content_id": "335483",
 "reference_id": 7186,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رعو",
 "media_type": "Text",
 "index_reference": "رعو",
@@ -13121,16 +13419,24 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Reu",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَعوَ"
+}
+]
 }
 },
 {
 "content_id": "335476",
 "reference_id": 7075,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رعو (رجو)",
 "media_type": "Text",
-"index_reference": "رعو (رجو)",
+"index_reference": "رعو رجو",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>رعو (رجو)*</h1><p><span>طريقة أخرى لترجمة الملك جيمس لكتابة اسم</span> رعو، ابن فالج، في <a href=\"https://ref.ly/Luke3:35\">لوقا 3:35</a>. <em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"7186\" data-resourceType=\"TyndaleBibleDictionary\">رعو</span>.</p>",
@@ -13152,13 +13458,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Reu",
+"type": "person",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "رَعوَ"
+}
+]
 }
 },
 {
 "content_id": "490624",
 "reference_id": 7076,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَعُوئِيل",
 "media_type": "Text",
 "index_reference": "رَعُوئِيل",
@@ -13191,25 +13505,11 @@
 ],
 "acai": [
 {
-"id": "person:Reuel.3",
+"id": "person:Jethro",
 "type": "person",
-"preferred_label": "رَعوئِيلَ",
-"confidence": 0.956,
-"match_method": "embedding"
-},
-{
-"id": "person:Reuel.4",
-"type": "person",
-"preferred_label": "رَعوئِيلَ",
-"confidence": 0.956,
-"match_method": "embedding"
-},
-{
-"id": "person:Rephael",
-"type": "person",
-"preferred_label": "رَفَائِيل",
-"confidence": 0.8227,
-"match_method": "embedding"
+"confidence": 0.8,
+"match_method": "scored",
+"preferred_label": "يَثْرونَ"
 }
 ]
 }
@@ -13217,7 +13517,7 @@
 {
 "content_id": "443984",
 "reference_id": 7184,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَعُوئِيل",
 "media_type": "Text",
 "index_reference": "رَعُوئِيل",
@@ -13287,18 +13587,32 @@
 ],
 "acai": [
 {
+"id": "person:Jethro",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "يَثْرونَ"
+},
+{
 "id": "person:Reuel.3",
 "type": "person",
-"preferred_label": "رَعوئِيلَ",
-"confidence": 0.6648,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَعوئِيلَ"
 },
 {
 "id": "person:Reuel.4",
 "type": "person",
-"preferred_label": "رَعوئِيلَ",
-"confidence": 0.5791,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَعوئِيلَ"
+},
+{
+"id": "person:Deuel",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "دَعوئِيلَ"
 }
 ]
 }
@@ -13306,7 +13620,7 @@
 {
 "content_id": "331795",
 "reference_id": 3985,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رغبة",
 "media_type": "Text",
 "index_reference": "رغبة",
@@ -13377,7 +13691,7 @@
 {
 "content_id": "512059",
 "reference_id": 7167,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَفَائِيل",
 "media_type": "Text",
 "index_reference": "رَفَائِيل",
@@ -13398,9 +13712,9 @@
 {
 "id": "person:Rephael",
 "type": "person",
-"preferred_label": "رَفَائِيل",
-"confidence": 0.8,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَفَائِيل"
 }
 ]
 }
@@ -13408,7 +13722,7 @@
 {
 "content_id": "512061",
 "reference_id": 7169,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَفَايَا",
 "media_type": "Text",
 "index_reference": "رَفَايَا",
@@ -13457,32 +13771,39 @@
 "resource": [],
 "acai": [
 {
+"id": "person:Rephaiah.2",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَفَايَا"
+},
+{
 "id": "person:Rephaiah.3",
 "type": "person",
-"preferred_label": "رَفَايَا",
-"confidence": 0.65,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَفَايَا"
 },
 {
 "id": "person:Rephaiah.4",
 "type": "person",
-"preferred_label": "رَفَايَا",
-"confidence": 0.65,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَفَايَا"
 },
 {
 "id": "person:Rephaiah.5",
 "type": "person",
-"preferred_label": "رَفَايَا",
-"confidence": 0.65,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَفَايَا"
 },
 {
-"id": "person:Rephaiah.2",
+"id": "person:Raphah",
 "type": "person",
-"preferred_label": "رَفَايَا",
-"confidence": 0.65,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَافَةَ"
 }
 ]
 }
@@ -13490,10 +13811,10 @@
 {
 "content_id": "512062",
 "reference_id": 7170,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَفَايِم، وادي",
 "media_type": "Text",
-"index_reference": "رَفَايِم، وادي",
+"index_reference": "رَفَايِم وادي",
 "language": "arb",
 "review_level": "None",
 "content": "<h1><span>رَفَايِم</span>، وادِي</h1><p>معلم طبيعي شكّل جزءًا من الحدود المشتركة بين يهوذا وبنيامين (&quot;وادي الرفائيين&quot; في <a href=\"https://ref.ly/Josh15:8\">يش 15:8؛</a> <a href=\"https://ref.ly/Josh18:16\">18:16</a>). كان هذا الوادي الواسع يقع في الأطراف الجنوبية الغربية لأورشليم، وكان يُعتقد أن عمالقة مثل العناقيين والنفليم كانوا يرتادونه. خلال مُلك دَاود، وبعد أن علمت جيوش الفلسطينيين بأنه قد مُسح ملكًا، صعدوا من الساحل للبحث عنه في وادي الرفائيين (<a href=\"https://ref.ly/2Sam5:18-2Sam5:22\">2&nbsp;صم 5:18–22؛</a> <a href=\"https://ref.ly/1Chr14:9\">1&nbsp;أخ 14:9</a>). كان هذا الوادي يتصل بوادي صرار الذي يؤدي إلى الساحل الفلسطيني، وكان يُعد منطقة خصبة لزراعة الحبوب (<a href=\"https://ref.ly/Isa17:5\">إشعياء 17:5</a>).</p>",
@@ -13533,11 +13854,18 @@
 "resource": [],
 "acai": [
 {
+"id": "group:Rephaim",
+"type": "group",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Rephaim"
+},
+{
 "id": "place:RephaimValley",
 "type": "place",
-"preferred_label": "وَادِي",
-"confidence": 0.6057,
-"match_method": "scored"
+"confidence": 0.8667,
+"match_method": "scored",
+"preferred_label": "وَادِي"
 }
 ]
 }
@@ -13545,7 +13873,7 @@
 {
 "content_id": "512060",
 "reference_id": 7168,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَفَح",
 "media_type": "Text",
 "index_reference": "رَفَح",
@@ -13566,9 +13894,9 @@
 {
 "id": "person:Rephah",
 "type": "person",
-"preferred_label": "رَفَح",
 "confidence": 1.0,
-"match_method": "scored"
+"match_method": "content_id",
+"preferred_label": "رَفَح"
 }
 ]
 }
@@ -13576,7 +13904,7 @@
 {
 "content_id": "443976",
 "reference_id": 7128,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رِفْقَة",
 "media_type": "Text",
 "index_reference": "رِفْقَة",
@@ -13641,9 +13969,9 @@
 {
 "id": "person:Rebekah",
 "type": "person",
-"preferred_label": "رِفْقَة",
-"confidence": 0.6574,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رِفْقَة"
 }
 ]
 }
@@ -13651,7 +13979,7 @@
 {
 "content_id": "490633",
 "reference_id": 7174,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَفِيدِيم",
 "media_type": "Text",
 "index_reference": "رَفِيدِيم",
@@ -13692,9 +14020,9 @@
 {
 "id": "place:Rephidim",
 "type": "place",
-"preferred_label": "رَفِيدِيمَ",
-"confidence": 0.6866,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَفِيدِيمَ"
 }
 ]
 }
@@ -13702,7 +14030,7 @@
 {
 "content_id": "335472",
 "reference_id": 7069,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَقَا",
 "media_type": "Text",
 "index_reference": "رَقَا",
@@ -13749,28 +14077,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Regem",
-"type": "person",
-"preferred_label": "رَجَم",
-"confidence": 0.8174,
-"match_method": "embedding"
-},
-{
-"id": "person:Reu",
-"type": "person",
-"preferred_label": "رَعوَ",
-"confidence": 0.8143,
-"match_method": "embedding"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "512003",
 "reference_id": 7086,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَقَّة",
 "media_type": "Text",
 "index_reference": "رَقَّة",
@@ -13789,123 +14102,11 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Rinnah",
-"type": "person",
-"preferred_label": "رِنَّة",
-"confidence": 0.9276,
-"match_method": "embedding"
-},
-{
-"id": "place:Humtah",
+"id": "place:Tiberias",
 "type": "place",
-"preferred_label": "حمْطَة",
-"confidence": 0.862,
-"match_method": "embedding"
-},
-{
-"id": "person:Anna",
-"type": "person",
-"preferred_label": "حَنَّة",
-"confidence": 0.8526,
-"match_method": "embedding"
-},
-{
-"id": "person:Hannah",
-"type": "person",
-"preferred_label": "حَنَّة",
-"confidence": 0.8526,
-"match_method": "embedding"
-},
-{
-"id": "person:Rohgah",
-"type": "person",
-"preferred_label": "رهْجَة",
-"confidence": 0.8439,
-"match_method": "embedding"
-},
-{
-"id": "person:Zillah",
-"type": "person",
-"preferred_label": "صِلَّة",
-"confidence": 0.8363,
-"match_method": "embedding"
-},
-{
-"id": "place:Rezeph",
-"type": "place",
-"preferred_label": "رَصْفَ",
-"confidence": 0.8326,
-"match_method": "embedding"
-},
-{
-"id": "person:Ephah",
-"type": "person",
-"preferred_label": "عِيفَة",
-"confidence": 0.8258,
-"match_method": "embedding"
-},
-{
-"id": "person:Ephah.2",
-"type": "person",
-"preferred_label": "عِيفَة",
-"confidence": 0.8258,
-"match_method": "embedding"
-},
-{
-"id": "person:Ephah.3",
-"type": "person",
-"preferred_label": "عِيفَة",
-"confidence": 0.8258,
-"match_method": "embedding"
-},
-{
-"id": "place:Ephah",
-"type": "place",
-"preferred_label": "عِيفَة",
-"confidence": 0.8258,
-"match_method": "embedding"
-},
-{
-"id": "person:Shammah",
-"type": "person",
-"preferred_label": "شَمَّة",
-"confidence": 0.8189,
-"match_method": "embedding"
-},
-{
-"id": "person:Shammah.2",
-"type": "person",
-"preferred_label": "شَمَّة",
-"confidence": 0.8189,
-"match_method": "embedding"
-},
-{
-"id": "person:Shammah.3",
-"type": "person",
-"preferred_label": "شَمَّة",
-"confidence": 0.8189,
-"match_method": "embedding"
-},
-{
-"id": "person:Shammah.4",
-"type": "person",
-"preferred_label": "شَمَّة",
-"confidence": 0.8189,
-"match_method": "embedding"
-},
-{
-"id": "place:Dannah",
-"type": "place",
-"preferred_label": "دَنَّة",
-"confidence": 0.8131,
-"match_method": "embedding"
-},
-{
-"id": "person:Rebekah",
-"type": "person",
-"preferred_label": "رِفْقَة",
-"confidence": 0.808,
-"match_method": "embedding"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "طَبَرِيَّةَ"
 }
 ]
 }
@@ -13913,7 +14114,7 @@
 {
 "content_id": "510104",
 "reference_id": 3912,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رقص",
 "media_type": "Text",
 "index_reference": "رقص",
@@ -13937,7 +14138,7 @@
 {
 "content_id": "511826",
 "reference_id": 6750,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رُّقُوق",
 "media_type": "Text",
 "index_reference": "رُّقُوق",
@@ -13962,13 +14163,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Parchment",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Parchment"
+}
+]
 }
 },
 {
 "content_id": "512004",
 "reference_id": 7087,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَّقّون",
 "media_type": "Text",
 "index_reference": "رَّقّون",
@@ -13987,39 +14196,11 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Rimmon",
-"type": "deity",
-"preferred_label": "رِمّونَ",
-"confidence": 0.8936,
-"match_method": "embedding"
-},
-{
-"id": "person:Rimmon",
-"type": "person",
-"preferred_label": "رِمّونَ",
-"confidence": 0.8936,
-"match_method": "embedding"
-},
-{
-"id": "person:Rezin",
-"type": "person",
-"preferred_label": "رَصِينَ",
-"confidence": 0.8303,
-"match_method": "embedding"
-},
-{
-"id": "person:Rezin.2",
-"type": "person",
-"preferred_label": "رَصِينَ",
-"confidence": 0.8303,
-"match_method": "embedding"
-},
-{
-"id": "person:Mahlon",
-"type": "person",
-"preferred_label": "مَحْلون",
-"confidence": 0.815,
-"match_method": "embedding"
+"id": "place:Rakkon",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "ٱلرَّقّونَ"
 }
 ]
 }
@@ -14027,7 +14208,7 @@
 {
 "content_id": "510873",
 "reference_id": 5183,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رُّقْية",
 "media_type": "Text",
 "index_reference": "رُّقْية",
@@ -14047,81 +14228,11 @@
 ],
 "acai": [
 {
-"id": "person:Rebekah",
-"type": "person",
-"preferred_label": "رِفْقَة",
-"confidence": 0.9302,
-"match_method": "embedding"
-},
-{
-"id": "person:Rizpah",
-"type": "person",
-"preferred_label": "رِصْفَة",
-"confidence": 0.8967,
-"match_method": "embedding"
-},
-{
-"id": "person:Achsah",
-"type": "person",
-"preferred_label": "عَكْسَة",
-"confidence": 0.8865,
-"match_method": "embedding"
-},
-{
-"id": "person:Achsah.2",
-"type": "person",
-"preferred_label": "عَكْسَة",
-"confidence": 0.8865,
-"match_method": "embedding"
-},
-{
-"id": "person:Zeruah",
-"type": "person",
-"preferred_label": "صَروعَة",
-"confidence": 0.8672,
-"match_method": "embedding"
-},
-{
-"id": "place:Bozkath",
-"type": "place",
-"preferred_label": "بَصْقَة",
-"confidence": 0.8454,
-"match_method": "embedding"
-},
-{
-"id": "person:Reumah",
-"type": "person",
-"preferred_label": "رَؤومَة",
-"confidence": 0.8397,
-"match_method": "embedding"
-},
-{
-"id": "place:Rissah",
-"type": "place",
-"preferred_label": "رِسَّةَ",
-"confidence": 0.8253,
-"match_method": "embedding"
-},
-{
-"id": "place:Dophkah",
-"type": "place",
-"preferred_label": "دفْقَةَ",
-"confidence": 0.8139,
-"match_method": "embedding"
-},
-{
-"id": "person:Naarah",
-"type": "person",
-"preferred_label": "نَعْرَة",
-"confidence": 0.8124,
-"match_method": "embedding"
-},
-{
-"id": "person:Laadah",
-"type": "person",
-"preferred_label": "لَعْدَة",
-"confidence": 0.8059,
-"match_method": "embedding"
+"id": "keyterm:Incantations",
+"type": "keyterm",
+"confidence": 0.8212,
+"match_method": "embedding",
+"preferred_label": "Incantations"
 }
 ]
 }
@@ -14129,7 +14240,7 @@
 {
 "content_id": "512035",
 "reference_id": 7131,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رِكاب",
 "media_type": "Text",
 "index_reference": "رِكاب",
@@ -14164,16 +14275,38 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Rechab.2",
+"type": "person",
+"confidence": 0.6618,
+"match_method": "scored",
+"preferred_label": "رَكَابٍ"
+},
+{
+"id": "group:Rechab",
+"type": "group",
+"confidence": 0.5967,
+"match_method": "scored",
+"preferred_label": "Rechabites"
+},
+{
+"id": "person:Rechab",
+"type": "person",
+"confidence": 0.5967,
+"match_method": "scored",
+"preferred_label": "رَكَابٍ"
+}
+]
 }
 },
 {
 "content_id": "512037",
 "reference_id": 7133,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَكَابُ، الرَّكَابِيُّ",
 "media_type": "Text",
-"index_reference": "رَكَابُ، الرَّكَابِيُّ",
+"index_reference": "رَكَابُ الرَّكَابِيُّ",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>رَكَابُ*، الرَّكَابِيُّ* </h1><p>كتابة بديلة للاسم رَكَابَ، وللقب رَكَابِيٌّ. انظر <span data-bnType=\"resourceReference\" data-resourceId=\"7131\" data-resourceType=\"TyndaleBibleDictionary\">رَكَابَ</span>؛ <span data-bnType=\"resourceReference\" data-resourceId=\"7130\" data-resourceType=\"TyndaleBibleDictionary\">الرَكَابيَّ</span>.</p>",
@@ -14195,13 +14328,35 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Rechab.2",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَكَابٍ"
+},
+{
+"id": "person:Rechab.3",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَكَابٍ"
+},
+{
+"id": "person:Rechab",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَكَابٍ"
+}
+]
 }
 },
 {
 "content_id": "512034",
 "reference_id": 7130,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَكَابيّ",
 "media_type": "Text",
 "index_reference": "رَكَابيّ",
@@ -14228,11 +14383,18 @@
 ],
 "acai": [
 {
-"id": "person:Habakkuk",
+"id": "person:Rechab.2",
 "type": "person",
-"preferred_label": "حَبَقّوق",
-"confidence": 0.8001,
-"match_method": "embedding"
+"confidence": 0.7612,
+"match_method": "scored",
+"preferred_label": "رَكَابٍ"
+},
+{
+"id": "group:Rechab",
+"type": "group",
+"confidence": 0.6446,
+"match_method": "scored",
+"preferred_label": "Rechabites"
 }
 ]
 }
@@ -14240,7 +14402,7 @@
 {
 "content_id": "335172",
 "reference_id": 2969,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَمَاد",
 "media_type": "Text",
 "index_reference": "رَمَاد",
@@ -14373,7 +14535,7 @@
 {
 "content_id": "511927",
 "reference_id": 6940,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رُمَّان",
 "media_type": "Text",
 "index_reference": "رُمَّان",
@@ -14393,25 +14555,11 @@
 ],
 "acai": [
 {
-"id": "deity:Rimmon",
-"type": "deity",
-"preferred_label": "رِمّونَ",
-"confidence": 0.855,
-"match_method": "embedding"
-},
-{
-"id": "person:Rimmon",
-"type": "person",
-"preferred_label": "رِمّونَ",
-"confidence": 0.855,
-"match_method": "embedding"
-},
-{
-"id": "person:Ramiah",
-"type": "person",
-"preferred_label": "رَمْيَا",
-"confidence": 0.8117,
-"match_method": "embedding"
+"id": "flora:Pomegranate",
+"type": "flora",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Pomegranate"
 }
 ]
 }
@@ -14419,7 +14567,7 @@
 {
 "content_id": "512056",
 "reference_id": 7160,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رمة",
 "media_type": "Text",
 "index_reference": "رمة",
@@ -14450,13 +14598,28 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Remeth.1",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Remeth"
+},
+{
+"id": "place:Remeth",
+"type": "place",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "رَمَةَ"
+}
+]
 }
 },
 {
 "content_id": "511387",
 "reference_id": 6020,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رِّمَّة",
 "media_type": "Text",
 "index_reference": "رِّمَّة",
@@ -14489,102 +14652,11 @@
 ],
 "acai": [
 {
-"id": "person:Reumah",
-"type": "person",
-"preferred_label": "رَؤومَة",
-"confidence": 0.9139,
-"match_method": "embedding"
-},
-{
-"id": "person:Rebekah",
-"type": "person",
-"preferred_label": "رِفْقَة",
-"confidence": 0.9052,
-"match_method": "embedding"
-},
-{
-"id": "person:Rizpah",
-"type": "person",
-"preferred_label": "رِصْفَة",
-"confidence": 0.8988,
-"match_method": "embedding"
-},
-{
-"id": "place:Rissah",
-"type": "place",
-"preferred_label": "رِسَّةَ",
-"confidence": 0.8762,
-"match_method": "embedding"
-},
-{
-"id": "person:Achsah",
-"type": "person",
-"preferred_label": "عَكْسَة",
-"confidence": 0.8389,
-"match_method": "embedding"
-},
-{
-"id": "person:Achsah.2",
-"type": "person",
-"preferred_label": "عَكْسَة",
-"confidence": 0.8389,
-"match_method": "embedding"
-},
-{
-"id": "person:Naarah",
-"type": "person",
-"preferred_label": "نَعْرَة",
-"confidence": 0.8275,
-"match_method": "embedding"
-},
-{
-"id": "person:Laadah",
-"type": "person",
-"preferred_label": "لَعْدَة",
-"confidence": 0.8229,
-"match_method": "embedding"
-},
-{
-"id": "place:Ashnah",
-"type": "place",
-"preferred_label": "أَشْنَة",
-"confidence": 0.8221,
-"match_method": "embedding"
-},
-{
-"id": "person:Zeruah",
-"type": "person",
-"preferred_label": "صَروعَة",
-"confidence": 0.8196,
-"match_method": "embedding"
-},
-{
-"id": "person:Raamah",
-"type": "person",
-"preferred_label": "رَعْمَة",
-"confidence": 0.8145,
-"match_method": "embedding"
-},
-{
-"id": "place:Raamah",
-"type": "place",
-"preferred_label": "رَعْمَة",
-"confidence": 0.8145,
-"match_method": "embedding"
-},
-{
-"id": "person:Zimmah",
-"type": "person",
-"preferred_label": "زِمَّةَ",
-"confidence": 0.8072,
-"match_method": "embedding"
-},
-{
-"id": "person:Zimmah.2",
-"type": "person",
-"preferred_label": "زِمَّةَ",
-"confidence": 0.8072,
-"match_method": "embedding"
+"id": "fauna:Maggot",
+"type": "fauna",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "Worm"
 }
 ]
 }
@@ -14592,7 +14664,7 @@
 {
 "content_id": "512009",
 "reference_id": 7093,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَمَتُ لَحْيٍ",
 "media_type": "Text",
 "index_reference": "رَمَتُ لَحْيٍ",
@@ -14617,16 +14689,24 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Ramath-lehi",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Ramath-lehi"
+}
+]
 }
 },
 {
 "content_id": "512418",
 "reference_id": 7763,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رمحٌ، رامحٌ",
 "media_type": "Text",
-"index_reference": "رمحٌ، رامحٌ",
+"index_reference": "رمحٌ رامحٌ",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>رمحٌ، رامحٌ </h1><p>انظر <span data-bnType=\"resourceReference\" data-resourceId=\"2918\" data-resourceType=\"TyndaleBibleDictionary\">الدروع والأسلحة</span>.</p>",
@@ -14641,16 +14721,24 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Spear",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Spear"
+}
+]
 }
 },
 {
 "content_id": "512017",
 "reference_id": 7106,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رمسيس (اسم مكان)",
 "media_type": "Text",
-"index_reference": "رمسيس (اسم مكان)",
+"index_reference": "رمسيس اسم مكان",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>رمسيس* (اسم مكان)</h1><p>طريقة بديلة لكتابة الاسم رَعَمْسِيسَ، وهو اسم مكان في أرض مصر. انظر <span data-bnType=\"resourceReference\" data-resourceId=\"7098\" data-resourceType=\"TyndaleBibleDictionary\">رَعَمْسِيسَ (اسم مكان)</span>.</p>",
@@ -14671,10 +14759,10 @@
 {
 "content_id": "490627",
 "reference_id": 7105,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رمسيس (شخص)",
 "media_type": "Text",
-"index_reference": "رمسيس (شخص)",
+"index_reference": "رمسيس شخص",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>رمسيس* (شخص)</h1><p>اسم 11 ملكًا من الأسرة المصرية التاسعة عشرة والعشرين (يُكتب أيضًا رَعَمْسِيسَ). حكم رمسيس الثاني لمدة نحو 67 عامًا (1290–1224 قبل الميلاد تقريبًا). كان معروفًا باسم رمسيس العظيم، بشكل رئيس بسبب أنشطته البنائية الواسعة، مثل معبده الجنائزي في نو آمون (الرمسيوم)، ومعبد أبو سمبل المنحوت في الصخر في النوبة، وإضافاته إلى معابد الكرنك والأقصر. مصورًا على جدران معابده كقائد عسكري جبار، قاتل الحيثيين في قادش على نهر العاصي، حيث كاد أن يفقد حياته بسبب خطأ تكتيكي خطير من جانبه. كانت المعركة في أفضل الأحوال تعادلًا، لكنه صورها كانتصار مصري في الرمسيوم وأبو سمبل. معاهدته مع الحيثيين هي أقدم اتفاقية عدم اعتداء دولية معروفة. غالبًا ما تم اقتراحه كفرعون الاضطهاد (<a href=\"https://ref.ly/Exod1:8-Exod1:11\">خروج 1:8–11</a>)، لكن هذا غير محتمل.</p><p>رمسيس الثالث (1195–1124 قبل الميلاد تقريبًا)، من الأسرة العشرين، أنقذ مِصْرَ من غزو شعوب البحر في معركة برية وبحرية في دلتا النيل. بنى مجمع معبد جنائزي كبير وإقامة ملكية في منطقة طيبة، في مدينة مدينت هابو. على الجدار الخارجي الشمالي لمنطقة المعبد توجد أولى التمثيلات المعروفة لمعركة بحرية. من بين الأسرى يوجد البلست، الذين يُعتقد أنهم الفلسطينيون. كما تحمل الجدران الخارجية نقوشًا بارزة ممتازة لصيد الأسود والثيران البرية. من أواخر عهد رمسيس الثالث يأتي البردية الشهيرة هاريس، التي تسرد تبرعات الملك لآمون. بسبب تأخر الأجور العينية، أضرب العمال في المقبرة الملكية. وقعت إضرابات مماثلة في زمن رمسيس التاسع والعاشر. من نهاية عهد رمسيس الثالث تأتي سجلات محاكمة محكمة لمؤامرة في الحرملك حيث يبدو أن رمسيس الثالث قد قُتل.</p><p>كان الرعامسة الآخرون حكامًا صغارًا لم يؤدوا أي دور محوري في التاريخ. يتضح عدم استقرار البلاد بشكل أكبر من خلال النهب الواسع لقبور الملوك. تم إجراء تحقيق معقد ومشكوك فيه في هذه السرقات في عهد رمسيس التاسع.</p><p><strong>انظر أيضا</strong> <span data-bnType=\"resourceReference\" data-resourceId=\"4122\" data-resourceType=\"TyndaleBibleDictionary\">مِصْرَ، مصري</span>.</p>",
@@ -14702,7 +14790,7 @@
 {
 "content_id": "331948",
 "reference_id": 7165,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَمْفَانَ",
 "media_type": "Text",
 "index_reference": "رَمْفَانَ",
@@ -14731,9 +14819,9 @@
 {
 "id": "deity:Rephan",
 "type": "deity",
-"preferred_label": "رَمْفَانَ",
-"confidence": 1.0,
-"match_method": "scored"
+"confidence": 0.964,
+"match_method": "scored",
+"preferred_label": "رَمْفَانَ"
 }
 ]
 }
@@ -14741,7 +14829,7 @@
 {
 "content_id": "512055",
 "reference_id": 7159,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رمليا",
 "media_type": "Text",
 "index_reference": "رمليا",
@@ -14764,13 +14852,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Remaliah",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَمَلْيَا"
+}
+]
 }
 },
 {
 "content_id": "512058",
 "reference_id": 7163,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رِمُّون",
 "media_type": "Text",
 "index_reference": "رِمُّون",
@@ -14795,31 +14891,16 @@
 "language": "arb"
 }
 ],
-"acai": [
-{
-"id": "deity:Rimmon",
-"type": "deity",
-"preferred_label": "رِمّونَ",
-"confidence": 0.9138,
-"match_method": "embedding"
-},
-{
-"id": "person:Rimmon",
-"type": "person",
-"preferred_label": "رِمّونَ",
-"confidence": 0.9138,
-"match_method": "embedding"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "512075",
 "reference_id": 7210,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رِمُّونَ (اسم مكان)",
 "media_type": "Text",
-"index_reference": "رِمُّونَ (اسم مكان)",
+"index_reference": "رِمُّونَ اسم مكان",
 "language": "arb",
 "review_level": "None",
 "content": "<h1><span>رِمُّونَ </span>(اسم مكان)</h1><p>1. اسمٌ بديلٌ لمدينة عين رمون، وهي مدينة في جنوب يهوذا، ورد ذكرها في <a href=\"https://ref.ly/Josh15:32\">يشوع 15: 32؛</a> <a href=\"https://ref.ly/1Chr4:32\">1أخبار الأيام 4: 32</a>. انظر <span data-bnType=\"resourceReference\" data-resourceId=\"4259\" data-resourceType=\"TyndaleBibleDictionary\">عين رمون</span>.</p><p>2. مدينة في نصيب سبط زبولون (<a href=\"https://ref.ly/Josh19:13\">يشوع 19: 13</a>)؛ ودُعيت أيضًا <span>دِمْنَةُ </span>في <a href=\"https://ref.ly/Josh21:35\">يشوع 21: 35</a>.</p><p>3. مغارة كبيرة تبعد مسافة نحو 12 ميلاً (19.3&nbsp;كيلومترًا) شمال أورشليم وميلين (3.2&nbsp;كيلومترًا) جنوب أفرايم الكتابية (مدينة الطيبةالحديثة)، وتُعرَف أيضًا باسم صخرة&nbsp;رمون. اختبأ ستمائة هاربًا من مدينة جبعة في هذا الكهف لمدة أربعة أشهر (<a href=\"https://ref.ly/Judg20:45-Judg20:47\">قضاة 20: 45–47؛</a> <a href=\"https://ref.ly/Judg21:13\">21: 13</a>).</p>",
@@ -14873,18 +14954,25 @@
 ],
 "acai": [
 {
-"id": "deity:Rimmon",
-"type": "deity",
-"preferred_label": "رِمّونَ",
-"confidence": 0.8595,
-"match_method": "embedding"
+"id": "place:Ain",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "عَيْنَ"
 },
 {
-"id": "person:Rimmon",
-"type": "person",
-"preferred_label": "رِمّونَ",
-"confidence": 0.8595,
-"match_method": "embedding"
+"id": "place:Rimmon.3",
+"type": "place",
+"confidence": 0.75,
+"match_method": "scored",
+"preferred_label": "Rock of Rimmon"
+},
+{
+"id": "place:Dimnah",
+"type": "place",
+"confidence": 0.7,
+"match_method": "scored",
+"preferred_label": "دِمْنَة"
 }
 ]
 }
@@ -14892,10 +14980,10 @@
 {
 "content_id": "512074",
 "reference_id": 7209,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رِمّون (شخص)",
 "media_type": "Text",
-"index_reference": "رِمّون (شخص)",
+"index_reference": "رِمّون شخص",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>رِمّون (شخص)</h1><p>١. بنياميني من بئيروت، الذي قام ابناه، بعنة وركاب، باغتيال إيشبوشث (<a href=\"https://ref.ly/2Sam4:2,2Sam4:5,2Sam4:9\">٢&nbsp;صم ٤: ٢، ٥، ٩</a>).</p><p>2. الإله الذي يعبده السوريون في دمشق، والذي كان نعمان، قائد الجيش السوري، وسيده يزوران معبده كثيرًا (<a href=\"https://ref.ly/2Kgs5:18\">2&nbsp;ملوك 5:18</a>). <em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"7853\" data-resourceType=\"TyndaleBibleDictionary\">سوريا، السوريون</span>.</p>",
@@ -14939,16 +15027,16 @@
 {
 "id": "person:Rimmon",
 "type": "person",
-"preferred_label": "رِمّونَ",
-"confidence": 0.864,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رِمّونَ"
 },
 {
 "id": "deity:Rimmon",
 "type": "deity",
-"preferred_label": "رِمّونَ",
-"confidence": 0.664,
-"match_method": "scored"
+"confidence": 0.7,
+"match_method": "scored",
+"preferred_label": "رِمّونَ"
 }
 ]
 }
@@ -14956,7 +15044,7 @@
 {
 "content_id": "490638",
 "reference_id": 7208,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رِمُّونَ فَارِصَ",
 "media_type": "Text",
 "index_reference": "رِمُّونَ فَارِصَ",
@@ -14981,13 +15069,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Rimmon-perez",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Rimmon-perez"
+}
+]
 }
 },
 {
 "content_id": "512057",
 "reference_id": 7162,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رِمُّونُ ميثورَ",
 "media_type": "Text",
 "index_reference": "رِمُّونُ ميثورَ",
@@ -15012,21 +15108,13 @@
 "language": "arb"
 }
 ],
-"acai": [
-{
-"id": "place:Dimnah",
-"type": "place",
-"preferred_label": "دِمْنَة",
-"confidence": 0.6385,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "512073",
 "reference_id": 7207,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رِمُّونُو",
 "media_type": "Text",
 "index_reference": "رِمُّونُو",
@@ -15043,13 +15131,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Dimnah",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "دِمْنَة"
+}
+]
 }
 },
 {
 "content_id": "512013",
 "reference_id": 7099,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَمْيَا",
 "media_type": "Text",
 "index_reference": "رَمْيَا",
@@ -15070,9 +15166,9 @@
 {
 "id": "person:Ramiah",
 "type": "person",
-"preferred_label": "رَمْيَا",
 "confidence": 1.0,
-"match_method": "scored"
+"match_method": "content_id",
+"preferred_label": "رَمْيَا"
 }
 ]
 }
@@ -15080,7 +15176,7 @@
 {
 "content_id": "512077",
 "reference_id": 7212,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رِنَّة",
 "media_type": "Text",
 "index_reference": "رِنَّة",
@@ -15101,9 +15197,9 @@
 {
 "id": "person:Rinnah",
 "type": "person",
-"preferred_label": "رِنَّة",
 "confidence": 1.0,
-"match_method": "scored"
+"match_method": "content_id",
+"preferred_label": "رِنَّة"
 }
 ]
 }
@@ -15111,10 +15207,10 @@
 {
 "content_id": "511996",
 "reference_id": 7077,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَهَبَ (وحش)",
 "media_type": "Text",
-"index_reference": "رَهَبَ (وحش)",
+"index_reference": "رَهَبَ وحش",
 "language": "arb",
 "review_level": "None",
 "content": "<h1><span>رَهَبَ </span>(وحش)</h1><p>وحش بحري أسطوري يمثِّل مصر شعريًّا (<a href=\"https://ref.ly/Ps87:4\">مزمور 87: 4</a>). &quot;<span>فَإِنَّ مِصْرَ تُعِينُ بَاطِلًا وَعَبَثًا، لِذَلِكَ دَعَوْتُهَا «رَهَبَ ٱلْجُلُوسِ»</span>&quot; (<a href=\"https://ref.ly/Isa30:7\">إشعياء 30: 7</a>). في حدث عبور إسرائيل للبحر الأحمر ثم غرق الجيش المصري (راجع <a href=\"https://ref.ly/Isa51:10\">إشعياء 51: 10</a>)، وصف كُتَّاب الأسفار الكتابية الله بأنه يشن حربًا ضد هذا الوحش ويهزمه بوحشية (<a href=\"https://ref.ly/Job26:12\">أيوب 26: 12؛</a> <a href=\"https://ref.ly/Ps89:10\">مزمور 89: 10؛</a> <a href=\"https://ref.ly/Isa51:9\">إشعياء 51: 9</a>).</p><p>انظر أيضًا <span data-bnType=\"resourceReference\" data-resourceId=\"4122\" data-resourceType=\"TyndaleBibleDictionary\">مصر، مصري</span>.</p>",
@@ -15168,11 +15264,18 @@
 ],
 "acai": [
 {
-"id": "person:Rapha",
+"id": "person:Rahab",
 "type": "person",
-"preferred_label": "رَافَا",
-"confidence": 0.8483,
-"match_method": "embedding"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَاحَاب"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "مِصْرَ"
 }
 ]
 }
@@ -15180,7 +15283,7 @@
 {
 "content_id": "512085",
 "reference_id": 7226,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رُهْجَة",
 "media_type": "Text",
 "index_reference": "رُهْجَة",
@@ -15201,9 +15304,9 @@
 {
 "id": "person:Rohgah",
 "type": "person",
-"preferred_label": "رهْجَة",
-"confidence": 0.964,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رهْجَة"
 }
 ]
 }
@@ -15211,7 +15314,7 @@
 {
 "content_id": "232607",
 "reference_id": 6948,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رواق",
 "media_type": "Text",
 "index_reference": "رواق",
@@ -15274,13 +15377,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Porch",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Porch"
+}
+]
 }
 },
 {
 "content_id": "512096",
 "reference_id": 7247,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رِوَاقَ ٱلسَّبْتِ",
 "media_type": "Text",
 "index_reference": "رِوَاقَ ٱلسَّبْتِ",
@@ -15299,11 +15410,18 @@
 "resource": [],
 "acai": [
 {
+"id": "keyterm:Sabbath",
+"type": "keyterm",
+"confidence": 0.7015,
+"match_method": "scored",
+"preferred_label": "Sabbath"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
-"preferred_label": "ٱلرَّبِّ",
-"confidence": 0.589,
-"match_method": "scored"
+"confidence": 0.6565,
+"match_method": "scored",
+"preferred_label": "ٱلرَّبِّ"
 }
 ]
 }
@@ -15311,7 +15429,7 @@
 {
 "content_id": "232619",
 "reference_id": 7733,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رواق سليمان",
 "media_type": "Text",
 "index_reference": "رواق سليمان",
@@ -15348,13 +15466,28 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Porch",
+"type": "realia",
+"confidence": 0.775,
+"match_method": "scored",
+"preferred_label": "Porch"
+},
+{
+"id": "place:SolomonsPortico",
+"type": "place",
+"confidence": 0.7333,
+"match_method": "scored",
+"preferred_label": "ٱلرِّوَاقِ"
+}
+]
 }
 },
 {
 "content_id": "511936",
 "reference_id": 6952,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رِوَاقُ سُلَيْمَان",
 "media_type": "Text",
 "index_reference": "رِوَاقُ سُلَيْمَان",
@@ -15392,10 +15525,10 @@
 {
 "content_id": "331979",
 "reference_id": 7794,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رِّوَاقِيِّة*، رِّوَاقِيِّون",
 "media_type": "Text",
-"index_reference": "رِّوَاقِيِّة*، رِّوَاقِيِّون",
+"index_reference": "رِّوَاقِيِّة رِّوَاقِيِّون",
 "language": "arb",
 "review_level": "None",
 "content": "<h1><span>رِّوَاقِيِّة</span>*، <span>رِّوَاقِيِّون</span></h1><p>فلسفة يونانية واسعة الانتشار، كانت ممثلة تمثيلًا  جيدًا بين الجَمهور في أثينا الذي كان يستمع إلى بولس (<a href=\"https://ref.ly/Acts17:16-Acts17:34\">أعمال 17: 16–34</a>). كان الرسول على الأرجح مطلع عليها ويعرفها جيدًا، لأنها بدأت في أثينا حوالي 300 قبل الميلاد، مع تعليم زينو في &quot;الستويا&quot; (الأروقة) في المنشآت العامة، وانتشرت في جميع أنحاء العالم اليوناني الروماني. كانت معروفة، على سبيل المثال، في طرسوس وعلى جزيرة قبرص، لذلك لا شك أن بولس كان قد التقى بالرواقيين في رحلاته السابقة وربما في مسقط رأسه أيضًا. نطاق وقوة تأثير هذه الفسلفة يتجلى في الإمبراطور الروماني ماركوس أوريليوس (الذي توفي عام 180 ميلادي) الذي كان هو نفسه رواقيًا، فكان واحدًا ممن بقيت بعض كتاباته الفلسفية. </p><p>كان ٱلرِّوَاقِيِّون الأوائل يهتمون بشكل أساسي بعلم الكونيات، أي دراسة أصل الطبيعة وقوانينها. كانوا ماديين، يعتقدون أن كل الأشياء تأتي من عنصر أساسي واحد هو النار وستؤول في النهاية إلى ذلك العنصر في حريق كوني هائل. لذلك، كان لديهم نَظْرَة <span>دورية</span> لتاريخ الكون، بمعنى نشأة كون ثم يتعرض للتدمير فيأتي وراءه أخر، وهكذا دواليك. فترتيب الأشياء كما نحن نعرفها،  والنَظْرَة الدورية لتاريخ الكون من وجهة نظرهم ينسبان إلى قدرة تنظيمية هائلة مستمرة تتبع قوّة نافذة تسمى لوجوس ينظر إليها أحيانًا باعتبارها قوة إلهية.  وقوانينها هي قوانين الطبيعة التي يجب على جميع المخلوقات الامتثال لها. فهي تمنح كل الأشياء طبيعتها الأساسية،و بدورها تعطي الحياة والعقل للإنسان. في الواقع، اللوجوس هو في الإنسان، متخذًا صورة النفس البشرية. لذا، العيش وفقًا للعقل هو العيش وفقًا للنظام الطبيعي للأشياء، هذا رائع. الطاعة الواعية للقانون الطبيعي تحرر الإنسان من الخوف والقلق بشأن الظروف الخارجية التي لا يملك السيطرة عليها، ولكنها لا تزل محكومة بقوانين الطبيعة. إذا، فالحياة الجيدة والصالحة هي حياة يسودها العقل، لا العاطفة، تسودها القواعد، والطمأنينة والانسجام مع الطبيعة</p><p>أفكار ٱلرِّوَاقِيِّين اجتذبت بالفعل بعض المسيحيين بسبب التشابه الظاهري بين اللوجوس الرواقي واللوجوس في <a href=\"https://ref.ly/John1:1-John1:18\">يوحنا 1: 1–18</a>، وبين فكرة القانون الطبيعي وقانون الله.</p><p><em>انظر أيضًا</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4293\" data-resourceType=\"TyndaleBibleDictionary\">الأبيقوريون؛</span> <span data-bnType=\"resourceReference\" data-resourceId=\"6885\" data-resourceType=\"TyndaleBibleDictionary\">الفلسفة</span>.</p>",
@@ -15430,13 +15563,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "group:Stoic",
+"type": "group",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Stoics"
+}
+]
 }
 },
 {
 "content_id": "512084",
 "reference_id": 7225,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رُوجَلِيمَ",
 "media_type": "Text",
 "index_reference": "رُوجَلِيمَ",
@@ -15459,13 +15600,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Rogelim",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "مِنْ"
+}
+]
 }
 },
 {
 "content_id": "335522",
 "reference_id": 7778,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "روح",
 "media_type": "Text",
 "index_reference": "روح",
@@ -15494,13 +15643,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.5833,
+"match_method": "scored",
+"preferred_label": "Spirit"
+}
+]
 }
 },
 {
 "content_id": "335521",
 "reference_id": 7771,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "روح الإنسان",
 "media_type": "Text",
 "index_reference": "روح الإنسان",
@@ -15553,13 +15710,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.7192,
+"match_method": "scored",
+"preferred_label": "Spirit"
+}
+]
 }
 },
 {
 "content_id": "124580",
 "reference_id": 7769,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "روح الله",
 "media_type": "Text",
 "index_reference": "روح الله",
@@ -16626,13 +16791,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.5675,
+"match_method": "scored",
+"preferred_label": "ٱلرّوحِ"
+}
+]
 }
 },
 {
 "content_id": "510363",
 "reference_id": 4365,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "روح شرير",
 "media_type": "Text",
 "index_reference": "روح شرير",
@@ -16663,7 +16836,7 @@
 {
 "content_id": "510493",
 "reference_id": 4609,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "روح قدس",
 "media_type": "Text",
 "index_reference": "روح قدس",
@@ -16681,13 +16854,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.8606,
+"match_method": "embedding",
+"preferred_label": "ٱلرّوحِ"
+}
+]
 }
 },
 {
 "content_id": "331977",
 "reference_id": 7770,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "روح يسوع المسيح",
 "media_type": "Text",
 "index_reference": "روح يسوع المسيح",
@@ -16988,7 +17169,7 @@
 {
 "content_id": "512426",
 "reference_id": 7777,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "روحانِيّة",
 "media_type": "Text",
 "index_reference": "روحانِيّة",
@@ -17012,7 +17193,7 @@
 {
 "content_id": "331952",
 "reference_id": 7197,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَوْدَا",
 "media_type": "Text",
 "index_reference": "رَوْدَا",
@@ -17033,9 +17214,9 @@
 {
 "id": "person:Rhoda",
 "type": "person",
-"preferred_label": "رَوْدَا",
-"confidence": 0.7333,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَوْدَا"
 }
 ]
 }
@@ -17043,7 +17224,7 @@
 {
 "content_id": "331953",
 "reference_id": 7198,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رُودُس",
 "media_type": "Text",
 "index_reference": "رُودُس",
@@ -17078,13 +17259,28 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Rhodes",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رودسَ"
+},
+{
+"id": "place:Dedan",
+"type": "place",
+"confidence": 0.55,
+"match_method": "scored",
+"preferred_label": "دَدَانَ"
+}
+]
 }
 },
 {
 "content_id": "512071",
 "reference_id": 7199,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رودوكوس",
 "media_type": "Text",
 "index_reference": "رودوكوس",
@@ -17107,7 +17303,7 @@
 {
 "content_id": "443990",
 "reference_id": 7234,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رُوش",
 "media_type": "Text",
 "index_reference": "رُوش",
@@ -17128,9 +17324,9 @@
 {
 "id": "person:Rosh",
 "type": "person",
-"preferred_label": "روش",
-"confidence": 0.937,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "روش"
 }
 ]
 }
@@ -17138,7 +17334,7 @@
 {
 "content_id": "201519",
 "reference_id": 7237,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رُوفُس",
 "media_type": "Text",
 "index_reference": "رُوفُس",
@@ -17161,16 +17357,31 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Rufus.2",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "روفسَ"
+},
+{
+"id": "person:Rufus",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "روفسَ"
+}
+]
 }
 },
 {
 "content_id": "201518",
 "reference_id": 7230,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "روما، مدينة",
 "media_type": "Text",
-"index_reference": "روما، مدينة",
+"index_reference": "روما مدينة",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>روما، مدينة</h1><p>مدينة في إيطاليا تَأَسَّسَتْ، وَفْقًا للتقليد، عام 753 ق.م على سَبْعة تلال تَبعُد حوالي 15 ميلًا (24.1 كيلومترًا) عن مَصَبِّ نهر التِّيبِر. لم تَكُنْ موضع أي اهتمام كتابي حتَّى زمن العهد الجديد. هناك تِسْع إشارات صريحة إلى المدينة في العهد الجديد (<a href=\"https://ref.ly/Acts2:10\">أعمال الرُّسُل 2: 10</a>؛ <a href=\"https://ref.ly/Acts18:2\">18: 2</a>؛ <a href=\"https://ref.ly/Acts19:21\">19: 21</a>؛ <a href=\"https://ref.ly/Acts23:11\">23: 11</a>؛ <a href=\"https://ref.ly/Acts28:14\">28: 14، 16</a>؛ <a href=\"https://ref.ly/Rom1:7\">رومية 1: 7، 15</a>؛ <a href=\"https://ref.ly/2Tim1:17\">2 تيموثاوس 1: 17</a>)، لكنَّ إقامة بولس القصيرة هناك ورسالته إلى المسيحيِّين الرومان، المكتوبة على الأرجح من كُورِنْثُوس حوالي عام 57 و58 م، تجعل المدينة الإمبراطوريَّة موضع اهتمام كبير لقُرَّاء الكتاب المقدَّس.</p><h2>التاريخ</h2><p>في الألفيَّة الثانية قبل الميلاد، انتقل مُهاجِرون هندوأوروبِّيُّون إلى أوروبَّا واسْتَقَرُّوا في شبه الجزيرة الإيطاليَّة. اِسْتَقَرَّتْ مجموعةٌ منهم حول مَصَبِّ نهر التِّيبِر. شَغَلَ وَسَطَ إيطاليا مجموعةٌ مُفعَمَة بالحيويَّة وأكثر ثقافةً، وَهُم الإتروسكان من آسيا الصغرى. في وقت ظهور روما في القرن الثامن قبل الميلاد، كان سُكَّان شبه الجزيرة الإيطاليَّة مُخْتَلِطين. كانت الأقَلِّيَّة الجَيْبِيَّة الناطقة باللاتينيَّة، والتي اسْتَقَرَّتْ عند مَصَبِّ التِّيبِر، خُبَرَاء بالزراعة. شَكَّلَتْ المجموعات المُتَفَرِّقَة روابط ومجتمعات للدفاع عن نفسها ضِدَّ المُغِيرِين. لقد بَنَوْا سياجات خشبيَّة على التلال لحماية العائلات والقطعان أثناء صَدِّ المُغِيرِين. من هذه البدايات بَزَغَتْ روما كمركز مُهَيْمِنٍ بُؤرَته المِحْوَرِيَّة في منطقة التلال السبعة (بالاتِين، كابِيتُولِين، أَڤِنتِين، كايِليَان، إِسْكْوِيلِين، ڤِيمِينال، كْوِيرِينال). تقليديًّا، اُعْتُبِرَ عدد هذه التلال سَبْعَةً، لكن في الواقع هناك أكثر من سَبْعَةٍ، وإنْ كان بعضها مُجَرَّد نُتُوءات مُسَطَّحَة القِمَّة. يَتَعَرَّج نهر التِّيبِر في مُنْحَنًى كبير على شكل حرف S بين التلال. عند نقطةٍ ما، انقسم ليُشَكِّل جزيرة حيث كان ضَحْلًا بما يكفي لخَوْضِهِ. البَلْدَة التي نشأت هناك ارتبطت من خلال طُرُقٍ بالإتروسكان شمالًا وبالمدن التجاريَّة اليونانيَّة جنوبًا وبالساحل غربًا وبالمناطق القَبَلِيَّة على المرتفعات داخليًّا. تستند معرفتنا بروما المُبَكِّرَة بدرجة كبيرة إلى أَدِلَّة أثريَّة من بقايا الحصون البسيطة ومواقع الدفن العديدة في المنطقة.</p><p>تَطَوَّرَتْ روما سياسيًّا بصورة لافتة للنظر على مدار الألف سَنَة التالية. الرابطة الفَضْفَاضَة بين شيوخ القبائل الأصليِّين، والذين شكَّلوا أقدم &quot;مجلس شيوخ&quot;، حَلَّ مَحَلَّها هيمنةُ ملوك إتروسكان يبدو أنَّهم دَرَّبوا الشعب على الانضباط والطاعة. لقد شَيَّدوا العديد من الأعمال، مُجَفِّفين منطقة الفُورُوم (السَّاحة العامَّة) وجاعلين منها مركزًا اجتماعيًّا وتجاريًّا وصناعيًّا وسياسيًّا. بَنَوْا معبدًا لچُوبِيتِر وچُونُو ومِينِرڤا على تَلِّ كابِيتُولِين كَمَقْدِسٍ مشترك لكُلِّ الشعب. عندما أصبح الملوك استبدادِيِّين، تمرَّد السُّكَّان اللاتينيُّون وطردوا الملوك.</p><p>تَأَسَّسَت الجمهوريَّة عام 510 ق.م. مَثَّل هذا التأسيس بداية تَوَسُّع روما اللافِت للنظر إلى أبعاد إمبراطوريَّة عَالَمِيَّة. السُّكَّان الذين كانوا في هذا الوقت منتشرين على التلال والوديان، بالرغم من اختلافاتهم القَبَلِيَّة، اتَّحَدوا وحَلُّوا المشاكل السياسيَّة دون إراقة دماء. على وجه التدقيق، لا ينبغي فَهْم مُصطَلَح &quot;جُمهُوريّ&quot; بأي معنى حديث على أنَّه يشير إلى نوع من الديمقراطيَّة، وإنَّما سيطرت العائلات القديمة (البَطَارِقَة/الأَرِسْتُقْرَاطِيُّون) على مجلس الشيوخ وشَكَّلَتْ أُولِيغَارْشِيَة/أُولِيغَارْكِيَة (أو حُكْم أَقَلِّيَّة)، وكان هذا الترتيب مفيدًا لروما في ذلك الوقت. سرعان ما اندفعت المدينة-الدولة الصغيرة من منطقتها المحصورة، وتَغَلَّبَتْ على الإتروسكان، وسيطرت على المدن اليونانيَّة جنوبًا. ثُمَّ نَظَرَ الرومان إلى أبعد من ذلك. في عام 273 ق.م، عقدوا معاهدة مع بطالمة مصر. لم يَمْضِ وقت طويل حتَّى تَوَسَّعوا في شمال أفريقيا وتَغَلَّبوا على القرطاجيِّين وتقدَّموا إلى إسبانيا وبَنَوْا طموحات لاحتلال الشرق الأوسط كذلك. جلبت فتوحات روما الكثيرة ثروات هائلة.</p><p>مع التَّوَسُّع الجغرافي حدثت تغييرات اجتماعيَّة في إيطاليا. خلال القرن الثاني قبل الميلاد، اشترى مُلَّاك الأراضي الأغنياء أراضي المزارعين المُستَقِلِّين الصغار الذين قادتهم هذه الظروف بعد ذلك نحو روما بلا أرض وبلا عمل. ظهرت عمارات سَكَنِيَّة ضخمة مُكتَظَّة بالسُّكَّان شَكَّلَتْ أحياء فقيرة زاحفة ببطء نحو الزيادة. إلى جانب هذه القذارة كانت هناك أَدِلَّة على ثروة هائلة من فتوحات روما في أراضٍ بعيدة. في العاصمة، ظهر الكثير من المباني الفَخْمَة. فَعَلَ بُومْبِيُوس (بُومْبِي)، الذي أخضع الشرق ونظَّمه، الكثير لتزيين العاصمة العظيمة.</p><p>جاءت المرحلة التالية من تَطَوُّر روما السياسي عندما أثبت مجلس الشيوخ، الهيئة الحاكمة للجمهوريَّة، عجزه عن السيطرة على أعضائه الأكثر راديكاليَّة وعنفًا. سعى القادة الطموحون، مع تَزَايُد طموحاتهم السياسيَّة، إلى كَسْب دعم شعبي من خلال منح الشعب امتيازات دون موافقة مجلس الشيوخ. اندلعت النزاعات الأهليَّة وضربت القرن الأخير للجمهوريَّة. منحت الانتصارات العسكريَّة خارج روما الچنرالات قُوَّةً. في الحروب الأهليَّة التي تَلَتْ ذلك، حُسِمَت المسائل الدستوريَّة بِقُوَّة السيف. كان مارْيُوس وسُولَّا وبُومْبِي وكْرَاسُّوس ويوليوس قيصر وأنطونيوس وأُوكْتَاڤْيُوس هُم القُوَى السياسيَّة الحقيقيَّة في الأرض.</p><p>بحلول عام 27 ق.م، بَزَغَ نَجْم أُوكْتَاڤْيُوس كالقائد الأعظم وأُعطِي لقب أُوغُسْطُس. من الناحية النظريَّة، كانت هناك حكومة مُزْدَوِجَة بين مجلس الشيوخ وأُوغُسْطُس (الإمبراطور)، لكنَّ مجلس الشيوخ الضعيف سَمَحَ للإمبراطور بأن يصبح الحاكم الفعلي. نتيجةً لذلك، ساد السلام الروماني (<em>باكْسْ رُومانا</em>) في الداخل والخارج حتَّى فترة طويلة من القرن الثاني الميلادي. يُغَطِّي أباطرة القرن الأوَّل الميلادي فترة حياة يسوع وفترة الكنيسة الناشئة، ويُذكَر عدد منهم في العهد الجديد: أُوغُسْطُس (<a href=\"https://ref.ly/Luke2:1\">لوقا 2: 1</a>)، طِيبَارِيُوس (<a href=\"https://ref.ly/Luke3:1\">لوقا 3: 1</a>)، كُلُودِيُوس (<a href=\"https://ref.ly/Acts11:28\">أعمال الرُّسُل 11: 28</a>؛ <a href=\"https://ref.ly/Acts18:2\">18: 2</a>)، نيرون الذي يُشار إليه دون ذِكْر اسمه صراحةً (<a href=\"https://ref.ly/Acts25:10-Acts25:12\">أعمال الرُّسُل 25: 10–12</a>؛ <a href=\"https://ref.ly/Acts27:24\">27: 24</a>؛ <a href=\"https://ref.ly/2Tim4:16-2Tim4:17\">2 تيموثاوس 4: 16–17</a>).</p><p>كانت مدينة روما عاصمة الإمبراطوريَّة وموطن الإمبراطور وأعضاء مجلس الشيوخ والإداريِّين والعسكريِّين والكهنة. اِهْتَمَّ أُوغُسْطُس، أوَّل الأباطرة الذين منحت قيادتهم ومساعيهم الدبلوماسيَّة روما السلام بعد حَرْبَيْن أهليَّتَيْن وقَرْنٍ من النزاع، بترميم المدينة وتزيينها. لقد تَفَاخَر بأنَّه وجد روما مبنيَّة من الطوب وتركها مبنيَّة من الرُّخام. أَدَّتْ جهوده في استعادة الديانات القديمة لروما إلى بناء الكثير من المعابد. على تَلِّ بالاتِين، وَحَّد أُوغُسْطُس عِدَّة منازل كانت موجودة هناك بالفعل في قَصْرٍ لإقامته الخاصَّة. أُقِيمَ بالقُرْب من القَصْر معبد جديد وفَخْم لأَبُولُّو مُحَاط بمجموعات من العَمَد (صف من الأعمدة) أودع فيها الإمبراطور مكتبة كبيرة. كان القَصْر نفسه يُطِلُّ على مجموعة مهيبة من المباني الرُّخامِيَّة الجديدة في الوادي أدناه: قاعة تجاريَّة بَازِيلِيكِيَّة (من البَازِيلِيكَا/البَاسِيلِيقَا الرومانيَّة)، مَقَرُّ مجلس شيوخ، معبد لـ&quot;يوليوس الإله&quot;، مِنَصَّة مُتَكَلِّم رُخامِيَّة، فُورُومان (ساحتان عامَّتان) جديدان مُثيران للإعجاب، فُورُوم (ساحة) قَيْصَر، فُورُوم (ساحة) أُوغُسْطُس. أضاف الأباطرة اللاحقون إلى هذا البهاء. خارج منطقة الفُورُوم المركزيَّة، بُنِيَ قصرا طِيبَارِيُوس وكَالِيجُولَا، حمَّامات وأقواس ومسارح مُتَنَوِّعَة، السِّيرْك (المَلْعَب) العظيم، سِيرْك (مَلْعَب) نيرون. أُحِيطَ الكُلُّ بِسُورٍ بُنِيَ خارج مِتْرَسَة سِرْڤْيُوس القديمة. جلبت عِدَّة قنوات مُقَنْطَرَة المياه إلى المدينة، وتَلَاقَتْ طُرُقٌ مُهِمَّة من الشمال والجنوب والشرق والغرب في منطقة وسط المدينة.</p><h2>وجود روما العسكري في فلسطين</h2><p>مع تَدَخُّل بُومْبِي العسكري في الشؤون الداخليَّة لليهوديَّة عام 63 ق.م، أسَّسَت روما وجودها في فلسطين، وكان الإحصاء (الاكتتاب) الذي أَمَرَ به أُوغُسْطُس قَيْصَر، والذي شمل الولايات الشرقيَّة وكذلك بقيَّة العالم الروماني (<a href=\"https://ref.ly/Luke2:1-Luke2:2\">لوقا 2: 1–2</a>)، تذكيرًا حيًّا بهذا الأمر. يتجلَّى الوجود العسكري الروماني بغزارة في صفحات الأناجيل وسِفْر أعمال الرُّسُل (على سبيل المثال، <a href=\"https://ref.ly/Mark15:16\">مَرقُس 15: 16</a>؛ <a href=\"https://ref.ly/Luke3:14\">لوقا 3: 14</a>؛ <a href=\"https://ref.ly/Luke7:1-Luke7:8\">7: 1–8</a>؛ <a href=\"https://ref.ly/Acts5:37\">أعمال الرُّسُل 5: 37</a>).</p><p>في فترة العهد الجديد، كانت الخدمة في الفَيَالِق الرومانية مفتوحة لكُلِّ المواطنين الرومان. كان جَيْشٌ مُتَطَوِّع مُحتَرِف قد حَلَّ مَحَلَّ مِيلِيشيَا مُجَنَّدَة إجباريًّا. تَكَوَّن الجيش القائم الدائم من فَيَالِق مُجَنَّدة من صفوف المواطنين. قاد الفَيَالِق مسؤولون ذوو خبرة برُتْبَة قُنْصُل. أُقِيمَتْ قُوَّات أجنبيَّة مُسَاعِدَة خارج إيطاليا، وكان الحافز للالتحاق بها هو حصول الجندي ونَسْله على المواطنة (الجنسيَّة) الرومانيَّة بعد 25 عامًا من الخدمة.</p><p>في الولايات، كانت القيادة العسكريَّة العُليَا في يد حاكم الولاية أو واليها. في اليهوديَّة وقتَ خدمة يسوع العَلَنِيَّة، سُمِّيَ بِيلاَطُسُ الْبُنْطِيُّ &quot;والي اليهوديَّة&quot; في نَقْشٍ لاتينيٍّ عُثِرَ عليه في قَيْصَرِيَّةِ عام 1961. في المركز الرسمي لإدارة اليهوديَّة، قَيْصَرِيَّة ماريتيما (قَيْصَرِيَّة البحريَّة/قَيْصَرِيَّة فلسطين)، كان الوضع سيكون وجود حامية مُكَوَّنة من فَيْلَق أو أكثر تحت تَصَرُّف حاكم الولاية. في مناسبات خاصَّة، لا سِيَّما في الأعياد اليهوديَّة الكبرى، عندما يمكن تَوَقُّع أعمال الشَّغَب والفوضى، كان من شأن حاكم الولاية أن يُقيم في أورشليم على بُعْد حوالي 60 ميلًا (96.5 كيلومترًا) إلى الجنوب، برفقة مجموعة كبيرة من القُوَّات (قارِنْ <a href=\"https://ref.ly/Luke13:1\">لوقا 13: 1</a>).</p><p>أسَّس أُوغُسْطُس جيشًا دائمًا كبيرًا بما يكفي للدفاع عن الإمبراطوريَّة وتأمين سلامها. في عام 15 ق.م كان هناك 28 فَيْلَقًا، يَتَأَلَّف كُلٌّ منها من حوالي 5000 جندي مشاة بالإضافة إلى حَرَس شخصي خيَّال (راكب خيول) مُكَوَّن من 128 رَجُلًا. بعد تدمير ثلاثة فَيَالِق في انتفاضات قبائل چِرْمَانِيَّة شَرِسَة عام 9 م، ظَلَّ عدد الفَيَالِق عند 25 لبعض الوقت. يُشير ذلك إلى جيش دائم قِوَامه حوالي 125000 فَيْلَقِيّ في القرن الأوَّل.</p><p>كان أُوغُسْطُس أيضًا مسؤولًا عن تأسيس جيشٍ أجنبيٍّ مُسَاعِدٍ دائمٍ، بنفس حجم الجيش الفَيْلَقِيّ تقريبًا. ضَمَّت القُوَّات الأجنبيَّة المُسَاعِدَة، المُجَنَّدَة من أبناء الولايات الذين لم يكونوا قد حصلوا بَعْدُ على الجنسيَّة الرومانيَّة، فُرْسَانًا ومُشَاةً. تَمَّ تنظيم الفُرْسَان في سَرَايا، والمُشاة في كتائب من 1000 جندي تحت قيادة أمير/قائد عسكري (<a href=\"https://ref.ly/Acts21:31-Acts21:33\">أعمال الرُّسُل 21: 31–33</a>). عندما كان الرَّسُول بُولُس في أورشليم، كان أمير (قائد) الكتيبة هو كُلُودِيُوس لِيسِيَاس، وهو رَجُل من أصل يوناني مَكَّنَتْ جنسيَّتُهُ (رَعَوِيَّته) الرومانيَّة المُشْتَرَاة تَرْقِيَتَهُ إلى قائد كتيبة أجنبيَّة مُسَاعِدَة (<a href=\"https://ref.ly/Acts22:28\">22: 28</a>؛ <a href=\"https://ref.ly/Acts23:26\">23: 26</a>). لإرسال بُولُس من أورشليم إلى قَيْصَرِيَّة، استطاع كُلُودِيُوس تفويض حراسة عسكريَّة مُرَافِقَة مُكَوَّنة من 200 جندي بقيادة اثْنَيْنِ مِنْ قُوَّادِ الْمِئَاتِ، بالإضافة إلى 70 حارسًا خَيَّالًا (<a href=\"https://ref.ly/Acts23:23\">23: 23</a>)، دون إضعاف قُوَّة حامية القلعة بشكل خطير.</p><p>تَشَكَّلَت الكتيبة من عَشْر أو خَمْس &quot;مِئَات&quot;، وهي وحدات مُكَوَّنَة من 100 رَجُل تحت قيادة قائد مِئَة كانت واجباته تُشبِه واجبات نقيب جيش في العصر الحديث. كان كَرْنِيلِيُوسُ (<a href=\"https://ref.ly/Acts10:1\">أعمال الرُّسُل 10: 1</a>) قائد مِئَة رومانيًّا مُعَيَّنًا في إحدى الكتائب الأجنبيَّة المُسَاعِدَة في اليهوديَّة. هناك أَدِلَّة نَقْشِيَّة على وجود وحدته، &quot;كتيبة المواطنين الرومان الإيطاليَّة الثانية&quot;، في سُورِيَّةَ حوالي عام 69 م. أُرْسِل بولس إلى روما في عُهْدَة قائد مِئَة آخر، يُولِيُوس، والذي كان ينتمي إلى كتيبة أُوغُسْطُس أو الكتيبة الإمبراطوريَّة (<a href=\"https://ref.ly/Acts27:1\">27: 1</a>). كان مُصطَلَح &quot;أُوغُسْطُس&quot; لَقَبًا شَرَفِيًّا يُمنَح أحيانًا للقُوَّات الأجنبيَّة المُسَاعِدَة. من الواضح أنَّ يُولِيُوس كان قائد مِئَة فَيْلَقِيًّا مُعَيَّنًا في سلاح السُّعَاة الضُّبَّاط الذين حافظوا على خدمة اتِّصال بين الإمبراطور وجيوشه في الولايات. كان لديه مَفْرَزَةٌ من الجنود تحت قيادته في الرحلة البحريَّة إلى روما (آية <a href=\"https://ref.ly/Acts27:3\">3</a>)، وعند وصوله سَلَّم الأسرى الذين في عُهْدَته إلى قائد سلاح السُّعَاة (<a href=\"https://ref.ly/Acts28:16\">28: 16</a>). من المُرَجَّح أنَّ كُلَّ قُوَّادِ الْمِئَاتِ الرومانيِّين المذكورين في الأناجيل أو سِفْر أعمال الرُّسُل (<a href=\"https://ref.ly/Matt8:5\">مَتَّى 8: 5</a>؛ <a href=\"https://ref.ly/Mark15:39\">مَرْقُس 15: 39</a>؛ <a href=\"https://ref.ly/Luke7:2\">لوقا 7: 2</a>) كانوا ضُبَّاطًا مُعَيَّنين في كتيبة أجنبيَّة مُسَاعِدَة.</p><h2>المسيحيُّون في روما</h2><p>إلى هذه المدينة الرائعة أتى بُولُس تحت الحراسة في مارس 59 م، ووجد أنَّ الكنيسة المسيحيَّة قد تأسَّست بالفعل هناك. في الواقع، سَبَق أن تواصل بولس مع المسيحيِّين هناك في رسالته إلى أهل رومية في أوائل عام 57 م. لقد كانت هناك جالية يهوديَّة كبيرة في روما في القرن الأوَّل الميلادي نشأت عن العدد الكبير من العبيد اليهود الذين جلبهم بُومْبِي إلى المدينة بعد الاستيلاء على أورشليم عام 63 ق.م. طَرَدَ الإمبراطور كُلُودِيُوس اليهود من روما عام 49 م، رُبَّما عندما نُودِيَ بيسوع كالمَسِيَّا في المجمع اليهودي. ليس معروفًا هُوِيَّة هؤلاء الكارزين، لكنَّهم على الأرجح كانوا مسافرين وتُجَّار مسيحيِّين. كانت رسالة بولس إلى أهل رومية هي شَرْحه التفسيري للكنائس الأُمَمِيَّة التي كانت قد نشأت باستقلالٍ عنه. حَدَثَ أوَّل اتِّصال معروف له مع شعب روما عندما التقى أَكِيلَا وبِرِيسْكِلَّا في كُورِنْثُوس (<a href=\"https://ref.ly/Acts18:2\">أعمال الرُّسُل 18: 2</a>). طُرِدَ هذان الزوجان من روما في زمن كُلُودِيُوس. لاحقًا، رَجَا بولس أن يزور روما (<a href=\"https://ref.ly/Acts19:21\">أعمال الرُّسُل 19: 21</a>) في طريقه إلى إسبانيا (<a href=\"https://ref.ly/Rom15:24\">رومية 15: 24</a>). ذَكَرَ بولس في تَحِيَّتِهِ دائرة كبيرة من المسيحيِّين في روما (الإصحاح <a href=\"https://ref.ly/Rom16:1-Rom16:27\">16</a>). تُفِيد الإشارات إلى البيوت في عِدَّة مواضع (الآيات <a href=\"https://ref.ly/Rom16:5\">5، 10، 11، 14، 15</a>) أنَّ هذه كانت كنائس منزليَّة للكنيسة المسيحيَّة الرومانيَّة. خلال أَسْرِهِ، كان بولس سجينًا لدى السُّلطَات الرومانيَّة، لكنَّه تَمَكَّن من مقابلة القادة (الوُجُوه) المَحَلِّيِّين لليهود وتوضيح تجاربه لهم وشَرْح الإنجيل شخصيًّا لهم (<a href=\"https://ref.ly/Acts28:16-Acts28:31\">أعمال الرُّسُل 28: 16–31</a>).</p><p>في سِفْر الرُّؤْيا، تُعطَى روما دَلَالَةً شِرِّيرة. بحلول نهاية القرن الأوَّل الميلادي، كانت روما قد شربت بالفعل &quot;دَمِ شُهَدَاءِ يَسُوعَ&quot; (<a href=\"https://ref.ly/Rev17:6\">رؤيا 17: 6</a>)، في إشارةٍ إلى الشُّهَدَاء الأوائل.</p><p><em>اُنْظُرْ أيضًا</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3548\" data-resourceType=\"TyndaleBibleDictionary\">القَيَاصِرَة</span>؛ <span data-bnType=\"resourceReference\" data-resourceId=\"7229\" data-resourceType=\"TyndaleBibleDictionary\">الرسالة إلى أهل رومية</span>.</p>",
@@ -17433,13 +17644,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Rome",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "ٱلرّومَانِيّونَ"
+}
+]
 }
 },
 {
 "content_id": "512093",
 "reference_id": 7241,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رُومَةَ",
 "media_type": "Text",
 "index_reference": "رُومَةَ",
@@ -17464,18 +17683,11 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Reumah",
-"type": "person",
-"preferred_label": "رَؤومَة",
-"confidence": 0.8455,
-"match_method": "embedding"
-},
-{
-"id": "person:Ramiah",
-"type": "person",
-"preferred_label": "رَمْيَا",
-"confidence": 0.8001,
-"match_method": "embedding"
+"id": "place:Dumah.2",
+"type": "place",
+"confidence": 0.8,
+"match_method": "scored",
+"preferred_label": "Dumah"
 }
 ]
 }
@@ -17483,7 +17695,7 @@
 {
 "content_id": "512087",
 "reference_id": 7228,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رُومَمْتِي عَزَرُ",
 "media_type": "Text",
 "index_reference": "رُومَمْتِي عَزَرُ",
@@ -17508,25 +17720,11 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Mattaniah.2",
+"id": "person:Romamti-ezer",
 "type": "person",
-"preferred_label": "مَتَّنْيَا",
-"confidence": 0.566,
-"match_method": "scored"
-},
-{
-"id": "person:Giddalti",
-"type": "person",
-"preferred_label": "جِدَّلْتِي",
-"confidence": 0.566,
-"match_method": "scored"
-},
-{
-"id": "person:Mahazioth",
-"type": "person",
-"preferred_label": "مَحْزِيوث",
-"confidence": 0.566,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Romamti-ezer"
 }
 ]
 }
@@ -17534,7 +17732,7 @@
 {
 "content_id": "510896",
 "reference_id": 5222,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ريّ",
 "media_type": "Text",
 "index_reference": "ريّ",
@@ -17558,7 +17756,7 @@
 {
 "content_id": "124561",
 "reference_id": 6986,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رياسات وسلاطين",
 "media_type": "Text",
 "index_reference": "رياسات وسلاطين",
@@ -17701,10 +17899,10 @@
 {
 "content_id": "510562",
 "reference_id": 4722,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رياضيّة، مدرسة الألعاب الـ (جيمنازيوم)،",
 "media_type": "Text",
-"index_reference": "رياضيّة، مدرسة الألعاب الـ (جيمنازيوم)،",
+"index_reference": "رياضيّة مدرسة الألعاب الـ جيمنازيوم",
 "language": "arb",
 "review_level": "None",
 "content": "<h1><strong>رياضيّة، مدرسة الألعاب الـ (جيمنازيوم)</strong></h1><p>كانت الجيمنازيوم مدرسة يونانية تُعلم الشباب كل من التربية البدنيّة والتعليم الأكاديميّ. فعندما انتشرت الثقافة اليونانية عبر العالم، أصبحت هذه المدارس أماكن مهمة لتعليم الثقافة اليونانية. كان الطلاب يتلقّون فيها تدريبًا على الرياضة، والدراسة، والمهارات الاجتماعية. ولم يكن يُسمح إلا لأبناء العائلات الغنية بالالتحاق بهذه المدارس الخاصة. وكان على الشاب اليوناني أن يرتادها إذا أراد أن يصبح مواطنًا في مدينته.</p><p>في البداية، عندما حكم البطالمة أورشَلِيم، لم يكن في المدينة جيمنازيوم. لاحقًا، سيطرت على الحُكم عائلة مختلفة من سوريا تُدعى السلوقيين. أراد السلوقيُّون أن يتبع الجميع في مملكتهم العادات وأساليب الحياة اليونانية. خلال هذا الوقت، دفع رئيس الكهنة اليهودي المال للملِك أنطيوخُس الرابع للحصول على إذن لبناء جيمنازيوم (أو ستاد) في أورشَلِيم (<a href=\"https://ref.ly/1Macc1:13-1Macc1:15\">1&nbsp;مكابيين 1:13–15؛</a> <a href=\"https://ref.ly/2Macc4:9\">2&nbsp;مكابيين 4:9</a>).</p><p>تجنَّب اليهود المحافظون الذَّهاب إلى هذا المكان. فقد كانوا يعتقدون أنها يمكن أن تؤثر على الأطفال اليهود بالثقافية اليونانية. استنكر اليهود المحافظون أيضًا ممارسة اليونانيين للمشاركة العارية في المسابقات الرياضية. كان الشباب اليهود يزيلون أو يخفون ختانهم أحيانًا ليتمكنوا من دخول المسابقات (<a href=\"https://ref.ly/1Macc1:13-1Macc1:15\">1&nbsp;مكابيين 1:13–15</a>).</p><p>كان يهود الإسكندرية أقل معارضة للجيمنازيوم<strong> </strong>من يهود أورشَلِيم. لكن اليونانيين في الإسكندرية لم يوافقوا على إدراج غير اليونانيين مثل المصريين واليهود في الجيمنازيوم. جعلت السياسة الرومانية خرِّيجي الجيمنازيوم مواطنين يونانيين. بمجرد أن يحصل خريجو الجيمنازيوم على الجنسية، يمكنهم المشاركة في الحكومة المحلية.</p><p>لم يبدُ الرسول بولس والمسيحيون الأوائل مُتبنِّين آراء سلبية تجاه الصالات الرياضية. استخدم بولس لُغة رياضية لتصوير الحياة المسيحية (<a href=\"https://ref.ly/1Cor9:24-1Cor9:27\">كورنثوس الأولى 9:24</a><a href=\"https://ref.ly/1Macc1:13-1Macc1:15\">–</a><a href=\"https://ref.ly/1Cor9:24-1Cor9:27\">27؛</a> <a href=\"https://ref.ly/Gal2:2\">غلاطية 2:2؛</a> <a href=\"https://ref.ly/Gal5:7\">5:7؛</a> <a href=\"https://ref.ly/Phil1:30\">فيلبي 1:30؛</a> <a href=\"https://ref.ly/Phil2:16\">2:16</a>).</p>",
@@ -17760,7 +17958,7 @@
 {
 "content_id": "512072",
 "reference_id": 7200,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رِيبَاي",
 "media_type": "Text",
 "index_reference": "رِيبَاي",
@@ -17787,9 +17985,9 @@
 {
 "id": "person:Ribai",
 "type": "person",
-"preferred_label": "رِيبَايَ",
-"confidence": 0.9685,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رِيبَايَ"
 }
 ]
 }
@@ -17797,7 +17995,7 @@
 {
 "content_id": "331807",
 "reference_id": 4089,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ريح شرقية",
 "media_type": "Text",
 "index_reference": "ريح شرقية",
@@ -17874,7 +18072,7 @@
 {
 "content_id": "335485",
 "reference_id": 7196,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ريسا",
 "media_type": "Text",
 "index_reference": "ريسا",
@@ -17899,13 +18097,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Rhesa",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رِيسَا"
+}
+]
 }
 },
 {
 "content_id": "512052",
 "reference_id": 7155,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رِِيعِي",
 "media_type": "Text",
 "index_reference": "رِِيعِي",
@@ -17926,9 +18132,9 @@
 {
 "id": "person:Rei",
 "type": "person",
-"preferred_label": "رِيعِي",
-"confidence": 0.964,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رِيعِي"
 }
 ]
 }
@@ -17936,7 +18142,7 @@
 {
 "content_id": "331951",
 "reference_id": 7195,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رِيغِيُونَ",
 "media_type": "Text",
 "index_reference": "رِيغِيُونَ",
@@ -17957,9 +18163,9 @@
 {
 "id": "place:Rhegium",
 "type": "place",
-"preferred_label": "رِيغِيونَ",
-"confidence": 0.9775,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رِيغِيونَ"
 }
 ]
 }
@@ -17967,7 +18173,7 @@
 {
 "content_id": "443987",
 "reference_id": 7213,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رِيفَاث",
 "media_type": "Text",
 "index_reference": "رِيفَاث",
@@ -17994,9 +18200,9 @@
 {
 "id": "person:Riphath",
 "type": "person",
-"preferred_label": "رِيفَاث",
 "confidence": 1.0,
-"match_method": "scored"
+"match_method": "content_id",
+"preferred_label": "رِيفَاث"
 }
 ]
 }
@@ -18004,10 +18210,10 @@
 {
 "content_id": "331949",
 "reference_id": 7173,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ريفان/رَمْفَانَ",
 "media_type": "Text",
-"index_reference": "ريفان/رَمْفَانَ",
+"index_reference": "ريفانرَمْفَانَ",
 "language": "arb",
 "review_level": "None",
 "content": "<h1><span>ريفان/رَمْفَانَ</span></h1><p>إلهٌ وثنيٌّ ذَكَره استفانوس في <a href=\"https://ref.ly/Acts7:43\">أعمال الرسل 7:43</a> (&quot;رمفان&quot; في ترجمة الملك جيمس الإنجليزية والترجمة العربية البستاني-فاندايك، و&quot;رومفا&quot; في ترجمة NASB الإنجليزية) عندما اقتبس نص <a href=\"https://ref.ly/Amos5:26\">عاموس 5:26</a> (&quot;كيوان&quot; في ترجمة nlt والترجمة العربية المشتركة) لوصف وثنية بني إسرائيل في البرية. اقتبس استفانوس من الترجمة السبعينية، التي اعتبر مترجموها أن  كيوان  هو إشارة إلى إله كوكب زحل الأشوري، أو ربما إلى الإله ريبا المصري إله كوكب زحل. يقول بعض الباحثين إن <a href=\"https://ref.ly/Amos5:26\">عاموس 5:26</a> يحوي إشارة عامة إلى وثنية بني إسرائيل في البرية، وإنه لا يَذكُر أيَّ آلهة قديمة على الإطلاق.</p>",
@@ -18027,13 +18233,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:Rephan",
+"type": "deity",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَمْفَانَ"
+}
+]
 }
 },
 {
 "content_id": "512036",
 "reference_id": 7132,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "رَيْكَةُ",
 "media_type": "Text",
 "index_reference": "رَيْكَةُ",
@@ -18054,9 +18268,9 @@
 {
 "id": "place:Recah",
 "type": "place",
-"preferred_label": "رَيْكَةَ",
-"confidence": 0.946,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "رَيْكَةَ"
 }
 ]
 }

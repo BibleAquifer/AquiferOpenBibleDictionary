@@ -2,7 +2,7 @@
 {
 "content_id": "811735",
 "reference_id": 4743,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Hadesi",
 "media_type": "Text",
 "index_reference": "hadesi",
@@ -197,18 +197,18 @@
 ],
 "acai": [
 {
-"id": "keyterm:WorldOfTheDead",
-"type": "keyterm",
-"preferred_label": "World of the Dead",
-"confidence": 0.6395,
-"match_method": "scored"
-},
-{
 "id": "place:Hell",
 "type": "place",
-"preferred_label": "Hell",
-"confidence": 0.6317,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Hell"
+},
+{
+"id": "keyterm:WorldOfTheDead",
+"type": "keyterm",
+"confidence": 0.68,
+"match_method": "scored",
+"preferred_label": "World of the Dead"
 }
 ]
 }
@@ -216,7 +216,7 @@
 {
 "content_id": "689561",
 "reference_id": 2840,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Hadithi za Matamko",
 "media_type": "Text",
 "index_reference": "hadithi za matamko",
@@ -275,7 +275,7 @@
 {
 "content_id": "800578",
 "reference_id": 3852,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Hadithi za Uumbaji",
 "media_type": "Text",
 "index_reference": "hadithi za uumbaji",
@@ -298,7 +298,7 @@
 {
 "content_id": "833399",
 "reference_id": 4746,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Hadoramu",
 "media_type": "Text",
 "index_reference": "hadoramu",
@@ -333,35 +333,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Hadoram.2",
-"type": "person",
-"preferred_label": "Hadoramu",
-"confidence": 0.8,
-"match_method": "scored"
-},
-{
-"id": "person:Joram.2",
-"type": "person",
-"preferred_label": "Yoramu",
-"confidence": 0.6685,
-"match_method": "scored"
-},
-{
-"id": "person:Adoram",
-"type": "person",
-"preferred_label": "Adoramu",
-"confidence": 0.6685,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "852518",
 "reference_id": 4752,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Hagari",
 "media_type": "Text",
 "index_reference": "hagari",
@@ -441,21 +419,13 @@
 "language": "swh"
 }
 ],
-"acai": [
-{
-"id": "person:Hagar",
-"type": "person",
-"preferred_label": "Hajiri",
-"confidence": 0.6531,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "833451",
 "reference_id": 7205,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Haki",
 "media_type": "Text",
 "index_reference": "haki",
@@ -763,13 +733,21 @@
 "language": "swh"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "BWANA"
+}
+]
 }
 },
 {
 "content_id": "778860",
 "reference_id": 5205,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Hali ya Kati ya Maisha na Ufufuo",
 "media_type": "Text",
 "index_reference": "hali ya kati ya maisha na ufufuo",
@@ -936,7 +914,7 @@
 {
 "content_id": "833401",
 "reference_id": 4785,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Hamathi",
 "media_type": "Text",
 "index_reference": "hamathi",
@@ -1061,31 +1039,16 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "place:Hamath",
-"type": "place",
-"preferred_label": "Hamathi",
-"confidence": 0.9091,
-"match_method": "scored"
-},
-{
-"id": "group:Hamathites",
-"type": "group",
-"preferred_label": "Hamathites",
-"confidence": 0.5642,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "852520",
 "reference_id": 4799,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Hamu (Mahali)",
 "media_type": "Text",
-"index_reference": "hamu (mahali)",
+"index_reference": "hamu mahali",
 "language": "swh",
 "review_level": "None",
 "content": "<h1>Hamu (Sehemu)</h1><p>Mahali ambapo Kedorlaoma na wenzake waliwashinda Wazuzimu (<a href=\"https://ref.ly/Gen14:5\">Mwa 14:5</a>). Inawezekana jina hilo limehifadhiwa na Tell Hamu, karibu na kijiji cha kisasa kwenye Wadi er-Rejeilah. Makazi ya Enzi za Shaba na Chuma yamefukuliwa hapo.</p>",
@@ -1099,24 +1062,16 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "place:Ammon",
-"type": "place",
-"preferred_label": "Waamoni",
-"confidence": 0.787,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "800591",
 "reference_id": 4798,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Hamu (Mtu)",
 "media_type": "Text",
-"index_reference": "hamu (mtu)",
+"index_reference": "hamu mtu",
 "language": "swh",
 "review_level": "None",
 "content": "<h1>HAMU (Mtu)</h1><p>Mtoto wa pili wa Noa (<a href=\"https://ref.ly/Gen5:32\">Mwa 5:32</a>; <a href=\"https://ref.ly/Gen6:10\">6:10</a>; <a href=\"https://ref.ly/Gen7:13\">7:13</a>; <a href=\"https://ref.ly/Gen9:18,Gen9:22\">9:18, 22</a>; <a href=\"https://ref.ly/Gen10:1,Gen10:6,Gen10:20\">10:1, 6, 20</a>). Hamu alikuwa na wana wanne waliokuwa na majina Kushi, Misri (kwa Kiebrania Misri), Putu, na Kanaani (<a href=\"https://ref.ly/Gen10:6\">Mwa 10:6</a>; <a href=\"https://ref.ly/1Chr1:8\">1&nbsp;Nya 1:8</a>). Hivyo, Hamu anaonekana kama babu wa Wamisri (ingawa mchanganyiko wa rangi ulionekana kutokea baadaye), pamoja na watu wa Afrika, Waarabu, na Kanaani.</p><p>Baada ya Gharika, Noa alianza kulima mashamba ya mizabibu, na mara moja akajikuta amelewa (<a href=\"https://ref.ly/Gen9:20-Gen9:24\">Mwa 9:20–24</a>). Hamu alimwona baba yake akiwa amelala uchi na akawaambia Shemu na Yafethi, ambao walimfunika Noa kwa busara. Noa alipoamka na kugundua kile “mwana wake mdogo” (ambaye wengine wanaamini ni Hamu) alichofanya, alimlaani mwana wa Hamu, Kanaani, akisema ndugu zake (Kushi, Misri, na Putu) pamoja na Shemu na Yafethi wangeweza kumtawala. Lakini ikiwa Hamu ndiye anayetajwa katika <a href=\"https://ref.ly/Gen9:24\">9:24</a> kama aliyemkosea Noa, kwa nini laana imwangukie mwanawe Kanaani? Jibu linalowezekana zaidi ni kwamba Hamu siye anayetajwa katika aya ya <a href=\"https://ref.ly/Gen9:24\">24</a>. Usemi huo ni “mwana wake mdogo” (neno “mdogo” la kjv haliwezekani kwa Kiebrania), ilhali Hamu anaonekana mara kwa mara kama wa pili kati ya ndugu, siyo mdogo (<a href=\"https://ref.ly/Gen5:32\">5:32</a>; <a href=\"https://ref.ly/Gen6:10\">6:10</a>; <a href=\"https://ref.ly/Gen7:13\">7:13</a>; <a href=\"https://ref.ly/Gen9:18\">9:18</a>; <a href=\"https://ref.ly/Gen10:1\">10:1</a>), mpangilio wazi wa wana unaonyesha umri. Badala yake, “mwana wake mdogo” inarejelea Kanaani, ambaye kwa kitendo fulani kibaya kisichorekodiwa, laana inamwangukia. “Mwana” kutumika kwa “mjukuu” ni kawaida katika nyenzo za Kisemiti, na inaonekana imetumika hapa kwa njia hii kwa kuwa Kanaani ndiye “mdogo” wa (mjukuu) wana. Laana, basi, kama maandiko yanavyosema wazi, iko kwa Kanaani badala ya Hamu. Kanaani (na kizazi chake) atatawaliwa na Yafethi na Shemu pamoja na Wakanaani, hatimaye kutoweka kufikia nyakati za Agano Jipya (AJ).</p><p><em>Tazama pia</em> <span data-bnType=\"resourceReference\" data-resourceId=\"6482\" data-resourceType=\"TyndaleBibleDictionary\">mataifa</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"6581\" data-resourceType=\"TyndaleBibleDictionary\">Noa #1</span>.</p>",
@@ -1209,9 +1164,9 @@
 {
 "id": "person:Ham",
 "type": "person",
-"preferred_label": "Hamu",
-"confidence": 0.8769,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Hamu"
 }
 ]
 }
@@ -1219,10 +1174,10 @@
 {
 "content_id": "852522",
 "reference_id": 4827,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Harani (Mahali)",
 "media_type": "Text",
-"index_reference": "harani (mahali)",
+"index_reference": "harani mahali",
 "language": "swh",
 "review_level": "None",
 "content": "<h1>HARANI (Mahali)</h1><p>Mji wa Mesopotamia ya kaskazini, ulitajwa kwa mara ya kwanza katika <a href=\"https://ref.ly/Gen11:31\">Mwanzo 11:31</a> kama mahali ambapo Tera, baba wa Abrahamu, alihamia kutoka Uru wa Wakaldayo, na hapo ndipo alipokaa hadi kifo chake. Akiwa na umri wa miaka 75, Abrahamu aliamriwa na Mungu kuhamia nchi ambayo Mungu alikuwa amemwandalia (<a href=\"https://ref.ly/Gen12:1-Gen12:4\">Mwa 12:1–4</a>). Kulikuwa na jamaa waliobaki Harani, ambao Yakobo, mjukuu wa Abrahamu, alikimbilia kwa hofu ya Esau (<a href=\"https://ref.ly/Gen27:42-Gen27:43\">27:42–43</a>). Yakobo alikaa Harani kwa miaka mingi akimtumikia mjomba wake Labani na kupata Lea na Raheli kama wake, pamoja na kondoo na mbuzi wengi, watumishi, ngamia, na punda (<a href=\"https://ref.ly/Gen30:43\">30:43</a>).</p><p>“Mji wa Nahori” (<a href=\"https://ref.ly/Gen11:27-Gen11:29\">Mwa 11:27–29</a>; <a href=\"https://ref.ly/Gen24:10\">24:10</a>; <a href=\"https://ref.ly/Gen27:43\">27:43</a>) ulianzishwa katika milenia ya tatu Kaabla ya Kristo(KK), na eneo lake kwenye tawi la Eufrati lililifanya kuwa kituo muhimu cha biashara. Inawezekana njia ya kale ya biashara iliyounganisha Dameski, Ninawi, na Karkemishi ilipitia Harani. Ezekieli anataja biashara kati ya Harani na Tiro (<a href=\"https://ref.ly/Ezek27:23\">Ezek 27:23</a>). Harani ulikuwa mji wa Waaramu na ulikuwa maarufu kwa ibada ya mungu wa mwezi na Nikkal. Mfumo huu ulikuwa ni uzao wa ibada iliyopatikana katika Uru ya Wasumeri. Mungu wa mwezi na mke wake Nikkal waliheshimiwa si tu hapa bali kote Kanaani na hata Misri. Ibada hiyo iliendelea baada ya nyakati za Agano Jipya, hekalu lake hatimaye likaharibiwa na Wamongolia katika karne ya 13 Baada ya Kristo(BK). Si ajabu kwamba Mungu alimwamuru Abrahamu kuondoka katika kiti hiki cha ibada ya sanamu. Harran ya kisasa inahifadhi tahajia ya kale ya cuneiform ya jina hilo (linganisha na kjv “Charran,” <a href=\"https://ref.ly/Acts7:2,Acts7:4\">Matendo 7:2, 4</a>).</p>",
@@ -1290,31 +1245,16 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "place:Haran",
-"type": "place",
-"preferred_label": "Harani",
-"confidence": 0.76,
-"match_method": "scored"
-},
-{
-"id": "person:Haran",
-"type": "person",
-"preferred_label": "Harani",
-"confidence": 0.7067,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "852521",
 "reference_id": 4826,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Harani (Mtu)",
 "media_type": "Text",
-"index_reference": "harani (mtu)",
+"index_reference": "harani mtu",
 "language": "swh",
 "review_level": "None",
 "content": "<h1>HARANI (Mtu)</h1><p>1. Mwana wa Tera, kaka yake Abrahamu, na baba yake Loti (<a href=\"https://ref.ly/Gen11:26-Gen11:31\">Mwa 11:26–31</a>).</p><p>2. Mwana wa Kalebu na suria wake Efa, mwanachama wa kabila la Yuda na baba wa Gazezi (<a href=\"https://ref.ly/1Chr2:46\">1&nbsp;Mambo 2:46</a>).</p><p>3. Mwana wa Shimei, mshiriki wa kitengo cha Gershoni katika kabila la Walawi (<a href=\"https://ref.ly/1Chr23:9\">1&nbsp;Mambo 23:9</a>).</p>",
@@ -1340,42 +1280,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Haran",
-"type": "person",
-"preferred_label": "Harani",
-"confidence": 0.85,
-"match_method": "scored"
-},
-{
-"id": "place:Haran",
-"type": "place",
-"preferred_label": "Harani",
-"confidence": 0.65,
-"match_method": "scored"
-},
-{
-"id": "person:Haran.2",
-"type": "person",
-"preferred_label": "Harani",
-"confidence": 0.65,
-"match_method": "scored"
-},
-{
-"id": "person:Haran.3",
-"type": "person",
-"preferred_label": "Harani",
-"confidence": 0.65,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "833403",
 "reference_id": 4898,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Hasarmawethi",
 "media_type": "Text",
 "index_reference": "hasarmawethi",
@@ -1404,24 +1315,16 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Hazarmaveth",
-"type": "person",
-"preferred_label": "Hasarmawethi",
-"confidence": 0.8667,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "852523",
 "reference_id": 4901,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Hasason-tamari",
 "media_type": "Text",
-"index_reference": "hasason-tamari",
+"index_reference": "hasasontamari",
 "language": "swh",
 "review_level": "None",
 "content": "<h1>HASASON-TAMARI</h1><p>Mji unaotambulika kama Engedi katika <a href=\"https://ref.ly/2Chr20:2\">2&nbsp;Mambo ya Nyakati 20:2</a>. Wakati wa Abrahamu, ulikaliwa na Waamori ambao walishindwa na Kedorlaomeri alipokuwa na wafalme wengine wa mashariki walipovamia eneo hilo (<a href=\"https://ref.ly/Gen14:7\">Mwa 14:7</a>). Imependekezwa kuwa huenda ni Tamari ambayo Solomoni aliimarisha (<a href=\"https://ref.ly/1Kgs9:18\">1&nbsp;Fal 9:18</a>), iliyowekwa na Ezekieli kusini mashariki mwa Israeli (<a href=\"https://ref.ly/Ezek47:18-Ezek47:19\">Eze 47:18–19</a>; <a href=\"https://ref.ly/Ezek48:28\">48:28</a>). Wadi Hasasa inaonekana kupewa jina baada ya eneo la kale.</p>",
@@ -1465,7 +1368,7 @@
 {
 "content_id": "419775",
 "reference_id": 2780,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Hasira",
 "media_type": "Text",
 "index_reference": "hasira",
@@ -1554,7 +1457,7 @@
 {
 "content_id": "800572",
 "reference_id": 3443,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Hatia ya damu",
 "media_type": "Text",
 "index_reference": "hatia ya damu",
@@ -1787,10 +1690,10 @@
 {
 "content_id": "778854",
 "reference_id": 4888,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Havila (Eneo)",
 "media_type": "Text",
-"index_reference": "havila (eneo)",
+"index_reference": "havila eneo",
 "language": "swh",
 "review_level": "None",
 "content": "<h1>HAVILA (Eneo)</h1><p>Ardhi katika eneo ya Edeni, sasa haijulikani lakini inasemekana kumwagiliwa na mto Pishon na kuwa na akiba ya dhahabu, bedola, na jiwe la oniksi (<a href=\"https://ref.ly/Gen2:11-Gen2:12\">Mwa 2:11–12</a>). Eneo la Havila limekuwa suala la mabishano mengi. Haiwezi kuwa na uhusiano wowote na Havila ya <a href=\"https://ref.ly/1Sam15:7\">1&nbsp;Samweli 15:7</a>, ambapo Sauli alipigana dhidi ya Waamaleki fulani, kwa sababu eneo la masimulizi ya Edeni ni Mesopotamia na si Palestina. Kwa msingi huo huo, jaribio lolote la kuweka Havila katika kusini mwa Waarabu, Somaliland, au India litakuwa kosa. “Mto” Pishoni huenda ulikuwa mfereji wa umwagiliaji, kwa kuwa lugha ya Kiajemi haina neno tofauti kwa miili hii miwili tofauti ya maji, na desturi ya Mesopotamia ilikuwa ni kuita vijito vikubwa vya umwagiliaji kana kwamba ni mito. Hii ingesaidia kueleza kuendelea kuwepo kwa jina “Pishoni” muda mrefu baada ya mfereji huo kutoweka. Pishoni ulikuwa moja ya matawi manne ambayo mto uliunda mara baada ya kuondoka Edeni; kwa hivyo, Havila lazima ilikuwa kaskazini, kwa kuwa simulizi linachukulia mtazamo wa juu ya mto. Inawezekana Havila ilikuwa katika eneo la tambarare ya Shinari na ilimwagiliwa na mfereji mkubwa wa umwagiliaji. Havila na mfereji huo wote wawili wamepotea kwa muda mrefu.</p>",
@@ -1814,16 +1717,16 @@
 {
 "id": "place:Havilah.2",
 "type": "place",
-"preferred_label": "Havila",
-"confidence": 0.7333,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Havila"
 },
 {
 "id": "place:Havilah",
 "type": "place",
-"preferred_label": "Havila",
-"confidence": 0.7333,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Havila"
 }
 ]
 }
@@ -1831,10 +1734,10 @@
 {
 "content_id": "833402",
 "reference_id": 4887,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Havila (Mtu)",
 "media_type": "Text",
-"index_reference": "havila (mtu)",
+"index_reference": "havila mtu",
 "language": "swh",
 "review_level": "None",
 "content": "<h1>Havila (Mtu)</h1><p>1. Mzao wa Kushi (<a href=\"https://ref.ly/Gen10:7\">Mwa 10:7</a>; <a href=\"https://ref.ly/1Chr1:9\">1&nbsp;Nya 1:9</a>).</p><p>2. Mzao wa Shemu kupitia Yoktani (<a href=\"https://ref.ly/Gen10:29\">Mwa 10:29</a>; <a href=\"https://ref.ly/1Chr1:23\">1&nbsp;Nya 1:23</a>).</p>",
@@ -1866,28 +1769,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Havilah.2",
-"type": "person",
-"preferred_label": "Havila",
-"confidence": 0.8,
-"match_method": "scored"
-},
-{
-"id": "person:Havilah",
-"type": "person",
-"preferred_label": "Havila",
-"confidence": 0.8,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "778847",
 "reference_id": 4362,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Hawa",
 "media_type": "Text",
 "index_reference": "hawa",
@@ -1989,9 +1877,9 @@
 {
 "id": "person:Eve",
 "type": "person",
-"preferred_label": "Hawa",
-"confidence": 0.6842,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Hawa"
 }
 ]
 }
@@ -1999,10 +1887,10 @@
 {
 "content_id": "852524",
 "reference_id": 4907,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Hazezon-Tamari",
 "media_type": "Text",
-"index_reference": "hazezon-tamari",
+"index_reference": "hazezontamari",
 "language": "swh",
 "review_level": "None",
 "content": "<h1>HAZEZON-TAMARI*</h1><p>Herufi za KJV za mji wa Hasason-tamari katika <a href=\"https://ref.ly/Gen14:7\">Mwanzo 14:7</a>. <em>Tazama </em><span data-bnType=\"resourceReference\" data-resourceId=\"4901\" data-resourceType=\"TyndaleBibleDictionary\">Hasason-tamari</span>.</p>",
@@ -2024,24 +1912,16 @@
 "language": "swh"
 }
 ],
-"acai": [
-{
-"id": "place:Engedi",
-"type": "place",
-"preferred_label": "Engedi",
-"confidence": 0.832,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "852525",
 "reference_id": 4930,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Hebroni (Mahali)",
 "media_type": "Text",
-"index_reference": "hebroni (mahali)",
+"index_reference": "hebroni mahali",
 "language": "swh",
 "review_level": "None",
 "content": "<h1>Hebroni (Mahali)</h1><ol><li><p>Hebroni ni mji wa kale ambao bado upo hadi leo. Ulijengwa kwenye mwisho wa kusini wa safu ya milima inayopita katikati ya ardhi ya Palestina. Katika nyakati za mababu (Abrahamu, Isaka, na Yakobo), uliitwa Arba (<a href=\"https://ref.ly/Gen23:2\">Mwanzo 23:2</a>). Ulisimama kwenye kilima kilichoitwa El Arbain. Mji wa kisasa wa Hebroni sasa uko kwenye pande zote mbili za safu ya mlima.</p><h2><strong>Eneo na Jiografia</strong></h2><p>Hebroni iko takriban kilomita 40 (maili 25) kusini magharibi mwa Yerusalemu. Iko chini ya kilomita 3.2 (maili 2) kutoka Mamre, ambapo Abrahamu aliishi kwa miaka mingi. Hebroni iko takriban mita 914 (futi 3,000) juu ya usawa wa bahari. Ardhi inashuka haraka kuelekea mashariki lakini ina mteremko wa polepole zaidi kuelekea magharibi na kusini.</p><p>Udongo katika eneo hili ni bora kwa kilimo. Matunda mengi kama maapulo, maplums, tini, makomamanga, na maprikoti, pamoja na karanga na mboga, hukua vizuri. Kusini kuna Negebu, ambayo ina ardhi nzuri kwa ajili ya kulisha mifugo. Chemchemi nyingi na visima hutoa maji kwa watu.</p><h2><strong>Hebroni katika Maisha ya Abrahamu</strong></h2><p>Kwenye Agano la Kale, Hebroni ilijumuisha eneo la karibu lililoitwa Mamre. Abrahamu alijenga madhabahu kwa Bwana pale baada ya yeye na Lutu kutengana (<a href=\"https://ref.ly/Gen13:18\">Mwanzo 13:18</a>). Abrahamu pia alisikia pale kwamba Lutu alikuwa amekamatwa (<a href=\"https://ref.ly/Gen14:12-Gen14:16\">14:12–16</a>). Baadaye, aliwakaribisha malaika watatu pale ambao walimwambia kwamba Sodoma na Gomora zingeharibiwa hivi karibuni (sura ya <a href=\"https://ref.ly/Gen18:1-Gen18:33\">18</a>).</p><p>Mke wa Abrahamu, Sara, alikufa huko Hebroni. Abrahamu alinunua pango la Makpela kwa ajili ya kumzika (<a href=\"https://ref.ly/Gen23:8-Gen23:9,Gen23:17\">Mwanzo 23:8–9, 17</a>; <a href=\"https://ref.ly/Gen25:9-Gen25:10\">25:9–10</a>; <a href=\"https://ref.ly/Gen49:29-Gen49:32\">49:29–32</a>; <a href=\"https://ref.ly/Gen50:12-Gen50:13\">50:12–13</a>). Leo, pango hilo liko ndani ya mji wa kisasa. Msikiti maarufu wa Haram el-Khalil umejengwa juu yake.</p><h2><strong>Hebroni Wakati wa Mose na Yoshua</strong></h2><p>Wakati Waisraeli walipoondoka Misri, Mose alituma wapelelezi kumi na wawili kuchunguza nchi ambayo Mungu alikuwa ameahidi kwao. Walianza kusini na kuvuka nyanda za juu za kati za Palestina. Safari hii ilianzia Kadeshi kupitia Hebroni hadi Rehobu (<a href=\"https://ref.ly/Num13:17-Num13:21\">Hesabu 13:17–21</a>).</p><p>Wapelelezi walileta matunda kuonyesha jinsi ardhi ilivyokuwa nzuri na yenye rutuba (mafungu <a href=\"https://ref.ly/Num13:23-Num13:24\">23–24</a>). Hata hivyo, waliona pia watu warefu sana wanaoishi Hebroni. Watu hawa waliitwa wana wa Anaki (<a href=\"https://ref.ly/Num13:33\">Hesabu 13:33</a>). Kumi kati ya wapelelezi walihofia na kutoa taarifa mbaya.</p><p>Ni Kalebu na Yoshua pekee waliomwamini Mungu. Kwa sababu ya imani yao, Mungu aliahidi wangepokea ardhi katika Kanaani. Kalebu baadaye alipokea Hebroni kama urithi wake (<a href=\"https://ref.ly/Josh14:9,Josh14:13\">Yoshua 14:9, 13</a>). Wapelelezi kumi waliomshuku Mungu walikufa kwa tauni (<a href=\"https://ref.ly/Num14:36-Num14:37\">Hesabu 14:36–37</a>).</p><h2>Hebroni katika <strong>Matukio Mengine ya Agano la Kale</strong></h2><p>Wakati wa Waamuzi, Samsoni mwenye nguvu alibeba milango ya Gaza hadi Hebroni (<a href=\"https://ref.ly/Judg16:3\">Waamuzi 16:3</a>).</p><p>Baadaye, Sauli, mfalme wa kwanza wa Israeli, alikufa. Kisha Daudi akawa mfalme wa Yuda na Benyamini huko Hebroni (<a href=\"https://ref.ly/2Sam2:1\">2&nbsp;Samweli 2:1</a>). Daudi alichagua Hebroni kwa sababu ilikuwa katika eneo la kati. Ilikuwa mbali na Wafilisti upande wa magharibi na Waamaleki upande wa kusini. Pia ilikuwa rahisi kuilinda dhidi ya maadui.</p><p>Hebroni ulikuwa mji muhimu kwa sababu barabara kuu za biashara zilipitia humo. Hata hivyo, Daudi alipokuwa mfalme wa Israeli yote, alihamishia mji mkuu wake Yerusalemu. Mabadiliko haya huenda yaliwakera watu wa Hebroni.</p><p>Absalomu, mmoja wa wana wa Daudi, alianza uasi wake huko Hebroni. Alitamani kuwa mfalme badala ya baba yake (<a href=\"https://ref.ly/2Sam15:7-2Sam15:12\">2&nbsp;Samweli 15:7–12</a>). Baada ya Solomoni kufa, ufalme wa Israeli uligawanyika. Rehoboamu, mwana wa Solomoni, akawa mfalme wa ufalme wa kusini. Aliimarisha mji wa Hebroni kwa sababu aliogopa shambulio kutoka Misri kwenye mpaka wake wa kusini (<a href=\"https://ref.ly/2Chr11:1-2Chr11:12\">2&nbsp;Mambo ya Nyakati 11:1–12</a>). Baada ya hapo, Agano la Kale halitaja tena Hebroni.</p></li><li><p>Toleo la Mfalme Yakobo pia linatumia jina Hebroni kwa mji tofauti unaoitwa Ebroni katika <a href=\"https://ref.ly/Josh19:28\">Yoshua 19:28</a>.</p><p><em>Tazama</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4101\" data-resourceType=\"TyndaleBibleDictionary\">Ebroni</span>.</p></li></ol>",
@@ -2169,28 +2049,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "place:Hebron",
-"type": "place",
-"preferred_label": "Hebroni",
-"confidence": 0.6429,
-"match_method": "scored"
-},
-{
-"id": "place:Abdon",
-"type": "place",
-"preferred_label": "Abdoni",
-"confidence": 0.5688,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "811781",
 "reference_id": 7950,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Hekalu",
 "media_type": "Text",
 "index_reference": "hekalu",
@@ -3378,13 +3243,21 @@
 "language": "swh"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Temple",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Temple"
+}
+]
 }
 },
 {
 "content_id": "800624",
 "reference_id": 7864,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Hema",
 "media_type": "Text",
 "index_reference": "hema",
@@ -3925,16 +3798,24 @@
 "language": "swh"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Tabernacle",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Tabernacle"
+}
+]
 }
 },
 {
 "content_id": "800584",
 "reference_id": 4257,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Henoko (Mahali)",
 "media_type": "Text",
-"index_reference": "henoko (mahali)",
+"index_reference": "henoko mahali",
 "language": "swh",
 "review_level": "None",
 "content": "<h1>HENOKO (Eneo)</h1><p>Mji ambao Kaini alimpa jina la mwanawe wa kwanza, Henoko (<a href=\"https://ref.ly/Gen4:17\">Mwa 4:17</a>).</p>",
@@ -3952,9 +3833,9 @@
 {
 "id": "person:Enoch",
 "type": "person",
-"preferred_label": "Henoko",
 "confidence": 1.0,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Henoko"
 }
 ]
 }
@@ -3962,10 +3843,10 @@
 {
 "content_id": "800583",
 "reference_id": 4256,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Henoko (Mtu)",
 "media_type": "Text",
-"index_reference": "henoko (mtu)",
+"index_reference": "henoko mtu",
 "language": "swh",
 "review_level": "None",
 "content": "<h1>Enoki (Mwanadamu)</h1><p>1. Mwana wa Kaini na mjukuu wa Adamu (<a href=\"https://ref.ly/Gen4:17,Gen4:19\">Mwa 4:17, 19</a>).</p><p>2. Mwana wa Yaredi miongoni mwa wazao wa Sethi; baba wa Methusela (<a href=\"https://ref.ly/Gen5:18-Gen5:24\">Mwa 5:18–24</a>; <a href=\"https://ref.ly/1Chr1:3\">1&nbsp;Nya 1:3</a>). Aliishi katika uhusiano wa karibu sana na Mungu kiasi kwamba alichukuliwa mbinguni bila kufa.</p>",
@@ -4001,16 +3882,16 @@
 {
 "id": "person:Enoch.2",
 "type": "person",
-"preferred_label": "Henoko",
-"confidence": 0.88,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Henoko"
 },
 {
 "id": "person:Enoch",
 "type": "person",
-"preferred_label": "Henoko",
-"confidence": 0.64,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Henoko"
 }
 ]
 }
@@ -4018,10 +3899,10 @@
 {
 "content_id": "713707",
 "reference_id": 4989,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Herode, Familia ya Herode",
 "media_type": "Text",
-"index_reference": "herode, familia ya herode",
+"index_reference": "herode familia ya herode",
 "language": "swh",
 "review_level": "None",
 "content": "<h1>Herode, FAMILIA YA HERODE*</h1><p>Familia ya Herode walikuwa watawala wa kisiasa wakati wa matukio yanayoelezwa katika Agano Jipya. Kristo alizaliwa wakati Herode Mkuu alipokuwa akitawala. Mwana wa Herode, Herode Antipa, alikuwa mtawala wa Galilaya na Perea, maeneo ambako Yesu na Yohana Mbatizaji walifanya huduma zao nyingi. Ni mtawala huyu aliyemkata kichwa Yohana Mbatizaji na kumjaribu Kristo kabla tu ya kifo chake. Herode Agripa I alikuwa mtesaji wa kanisa katika <a href=\"https://ref.ly/Acts12:1-Acts12:25\">Matendo 12</a>, na Herode Agripa II alisikia ushuhuda wa Paulo (<a href=\"https://ref.ly/Acts26:1-Acts26:32\">Matendo 26</a>) kabla ya Paulo kwenda Rumi kuhukumiwa na Kaisari. Bila maarifa ya familia ya Herode, mtu hawezi kuelewa vizuri nyakati za Kristo.</p><p>Hakikisho</p><p>•&nbsp;Ukoo wa Herode</p><p>•&nbsp;Herode Mkubwa</p><p>•&nbsp;Arkelayo</p><p>•&nbsp;Antipa</p><p>•&nbsp;Msimamizi Filipo</p><p>•&nbsp;Agripa&nbsp;I</p><p>•&nbsp;Agripa&nbsp;II</p><h2>Nasaba ya Herode (67–47 Kabla ya Kristo (KK)</h2><p>Ukoo wa Herode ulijulikana wakati wa machafuko yaliyosababisha kuporomoka kwa ukoo wa Hasmonea, uhamishaji wa Syria na Palestina chini ya utawala wa Kirumi, na vita vya wenyewe kwa wenyewe vilivyoadhimisha kuporomoka kwa taifa. Mengi tunachojua kuhusu Herode yanatokana na maandiko ya mwanahistoria Josephus: Mambo ya Kale ya Wayahudi na Vita vya Kiyahudi.<em>.</em></p><h2>Herode Mkuu (47–4 KK)</h2><h3>Kama Gavana wa Galilaya (47–37 KK)</h3><p>Herode Mkuu alikuwa gavana wa Galilaya akiwa na umri wa miaka 25. Ingawa alipata heshima kutoka kwa Warumi na Wayahudi wa Galilaya kwa kumkamata haraka na kumuua kiongozi wa majambazi Ezekias, baadhi ya watu katika mahakama ya Hyrcanus walidhani kwamba alikuwa anapata nguvu nyingi sana na walipanga kumpeleka mahakamani. Alifutiwa mashtaka na kuachiliwa, na baadaye alikimbilia kwa Sextus Kaisari huko Dameski. Sextus Kaisari, gavana wa Siria, alimteua Herode kuwa gavana wa Coele-Syria, na hivyo akajihusisha na masuala ya Kirumi huko Siria. Alibaki katika nafasi hii chini ya safu ya watawala na alifanikiwa kukusanya kodi na kukandamiza uasi mbalimbali. Hivyo, mnamo 41 KK, wakati Antony alipochukua madaraka chini ya Octavius Kaisari, baada ya kuomba ushauri wa Hyrcanus II, Sextus alimteua Herode na Phasael kuwa watawala wa Yudeya.</p><h3>Kama Mfalme (37–4 KK)</h3><p>Ufalme wa Herode umegawanywa na wasomi wengi katika vipindi vitatu: (1) kipindi cha ujumuishaji kutoka 37 hadi 25 KK; (2) kipindi cha ustawi kutoka 25 hadi 13 KK; na (3) kipindi cha matatizo ya ndani kutoka 13 hadi 4 KK.</p><p>Kipindi cha kuimarisha kilienea kuanzia alipokuwa mfalme mwaka wa 37 KK hadi kifo cha wana wa Babas, wawakilishi wa mwisho wa kiume wa familia ya Hasmonea. Katika kipindi hiki, alilazimika kupambana na wapinzani wengi wenye nguvu.</p><p>Wapinzani wa awali, yaani watu na Mafarisayo, walidai kwamba yeye ni Mwadumea, nusu Myahudi, na rafiki wa Warumi. Wale waliompinga waliadhibiwa, na wale waliomuunga mkono walizawadiwa kwa fadhila na heshima.</p><p>Wapinzani wa Pili walikuwa ni wale wa tabaka la juu walioungana na Antigonus. Herode aliwaua 45 kati ya matajiri zaidi na akataifisha mali zao ili kujaza hazina zake mwenyewe.</p><p>Kundi la tatu la wapinzani lilikuwa familia ya Hasmonean. Tatizo la jemadari wa Herode lilikuwa mama mkwe wake, Alexandra. Alikasirika kwamba hakumteua Hasmonean mwingine kuwa kuhani mkuu kuchukua nafasi ya Hyrcanus, hasa mwanawe Aristobulo. Aliandika kwa Cleopatra, akimwomba aathiri Antony kumlazimisha Herode kumwondoa kuhani mkuu aliyeteuliwa, Ananel, na kumweka Aristobulo. Hatimaye, Herode alikubali shinikizo hilo. Mwishowe, baada ya sherehe ya Sikukuu ya Vibanda, Herode alimzamisha Aristobulo, akifanya ionekane kama ajali. Herode alimfunga Alexandra kwa minyororo na kumweka chini ya ulinzi ili kumzuia asimsumbue zaidi.</p><p>Mpizani wa nne wa Herode alikuwa Cleopatra. Vita vya wenyewe kwa wenyewe vilipozuka kati ya Antony na Octavius, Herode alitaka kumsaidia Antony. Hata hivyo, Cleopatra alimshawishi Antony kumtuma Herode vitani dhidi ya mfalme wa Waarabu, Malko, ambaye alishindwa kumlipa kodi. Alipoona Herode akishinda, Cleopatra aliamuru majeshi yake kumsaidia Malko, akitumaini kudhoofisha pande zote mbili hadi kufikia hatua ya kuvunjika ili aweze kuwatawala wote. Baada ya tetemeko la ardhi kubwa katika eneo lake mwaka 31 KK, Herode aliwashinda Waarabu na akarudi nyumbani. Hivi karibuni, mnamo Septemba 2, 31 KK, Octavius alimshinda Antony katika Vita vya Actium, na kusababisha vifo vya Antony na Cleopatra.</p><p>Kipindi cha pili cha utawala wa Herode kilikuwa cha ustawi (25–14 KK). Kilikuwa kipindi cha fahari na furaha, ingawa kilikatizwa na machafuko ya mara kwa mara. Kulingana na Josephus, mafanikio makubwa zaidi ya Herode yalikuwa kujenga upya hekalu huko Yerusalemu, kazi iliyoanza mwaka wa 20/19 KK (<em>Antiquities</em> 15.8.1). Fasihi ya Kitalmudi inasema, &quot;Yeyote ambaye hajaona hekalu la Herode hajawahi kuona jengo zuri&quot; (Talmudi ya Babiloni: <em>Baba Bathra</em> 4a). Kabla ya hili, alikuwa amejenga kumbi za michezo, kumbi za michezo ya kuigiza, na viwanja vya mbio kwa ajili ya wanaume na farasi. Mnamo 24 KK, Herode alijijengea jumba la kifalme na kujenga au kujenga upya ngome nyingi na mahekalu ya Mataifa, ikiwa ni pamoja na Mnara wa Strato, ambao baadaye ulipewa jina la Kaisaria.</p><p>Wakati huu, alifurahishwa sana na utamaduni na alikusanya karibu naye wanaume waliobobea katika fasihi na sanaa ya Kigiriki. Wanafasihi wa Kigiriki walipewa nyadhifa za juu serikalini. Mmoja wao alikuwa Nicolas wa Dameski, mwalimu na mshauri wa Herode katika falsafa, usemaji, na historia. Mwishoni mwa mwaka 24 KK, alimuoa Mariamne, binti wa Simoni, kuhani maarufu huko Yerusalemu (atarejelewa kama Mariamne II).</p><p>Katika kipindi hiki, utawala wa Herode ulikubalika vyema na watu. Hata hivyo, walikasirishwa na mambo mawili. Kwanza, alivunja sheria ya Kiyahudi kwa kuanzisha michezo ya kila baada ya miaka mitano kwa heshima ya Kaisari; na pili, alijenga kumbi za michezo na viwanja vya mbio. Aliwataka raia wake kula kiapo cha utii, isipokuwa wachache waliopendelewa. Pia, hakuwaacha wakusanyike kwa uhuru kwa hofu ya uasi. Licha ya mambo haya, alikuwa na udhibiti mzuri wa watu na mara mbili aliwapendelea kwa kupunguza kodi (mnamo 14 KK alipunguza kodi kwa robo moja).</p><p>Kipindi cha tatu cha utawala wa Herode kilijulikana kwa matatizo ya ndani (13–4 KK). Kufikia wakati huu, alikuwa ameoa wake kumi. Mke wake wa kwanza, Doris, alikuwa na mtoto mmoja tu, Antipater. Alimwacha Doris na Antipater alipooa Mariamne I, akiwapa ruhusa ya kutembelea Yerusalemu tu wakati wa sherehe. Alimuoa Mariamne I mwaka wa 37 KK. Mariamne I alikuwa mjukuu wa Hyrcanus na alikuwa na watoto watano, mabinti wawili na wana watatu. Mtoto wa kiume mdogo alifariki akiwa Rumi, na wana wawili waliobaki walikuwa na jukumu muhimu katika sehemu hii ya utawala wa Herode. Mwishoni mwa 24 KK, alioa mke wake wa tatu, Mariamne II, ambaye alizaa mtoto mmoja, Herode (Philip). Malthace, mke wake wa nne, alikuwa Msamaria na mama wa wana wawili, Arkelao na Antipa. Mke wake wa tano, Cleopatra wa Yerusalemu, alikuwa mama wa Filipo mfalme mdogo. Kati ya wake watano waliobaki, ni Pallas, Phaedra, na Elpsis pekee wanaojulikana kwa majina, na hakuna aliyekuwa na sehemu muhimu katika matukio ya kipindi hiki.</p><p>Alexander na Aristobulo, wana wa Mariamne I, walikuwa wapendwa wake. Mara baada ya ndoa zao, matatizo yakaanza ndani ya nyumba ya Herode. Salome, dada yake Herode na mama wa Berenice (mke wa Aristobulo), aliwachukia wana hao wawili, hasa kwa sababu alitaka nafasi na upendeleo waliokuwa nao kwa ajili ya mwanawe mwenyewe. Herode aliamua kumrudisha mwanawe aliyehamishwa, Antipater, ili kuwaonyesha Alexander na Aristobulo kwamba kulikuwa na mrithi mwingine wa kiti cha enzi. Antipater alitumia hali hiyo kikamilifu na kutumia kila njia inayowezekana kupata kiti cha enzi kinachotamaniwa. Hatimaye, mtu mwenye tabia mbaya, Eurycles kutoka Lacedaemon, alijitwika jukumu la kuchochea baba dhidi ya wanawe wawili na kinyume chake. Hivi karibuni, watengenezaji wengine wa matatizo walijiunga na Eurycles, na uvumilivu wa Herode ukaisha. Aliwaweka Alexander na Aristobulo gerezani na kumtaja Antipater kuwa mrithi.</p><p>Katika harakati zake za kupata kiti cha enzi, Antipater alijaribu kumsababishia Herode kifo kwa sumu. Mpango huu haukufaulu wakati Pheroras, kaka yake Herode, alikunywa sumu kwa bahati mbaya. Herode alimuweka Antipater gerezani na kuripoti suala hilo kwa mfalme (karibu 5 KK). Wakati huu, Herode alikuwa mgonjwa sana na ugonjwa usioweza kutibika. Aliandika wosia mpya uliowapuuza wanawe wakubwa, Arkelao na Filipo, kwa sababu Antipater alikuwa amemshawishi vibaya dhidi yao pia. Alimchagua mwanawe mdogo, Antipa, kama mrithi wake pekee.</p><p>Ilipofika wakati huu, mamajusi walifika Yudea wakitafuta mfalme mpya wa Wayahudi. Herode aliwaagiza wamjulie mahali mtoto huyu alipo mara tu watakapompata. Hata hivyo, baada ya kuonywa katika ndoto, hawakufanya hivyo, bali walirudi nyumbani kwao kwa njia nyingine. Mungu alimwonya Yosefu, mume wa Maria mama wa Yesu, kukimbilia Misri kwa sababu ya nia ya Herode ya kumuua Yesu. Yosefu alichukua familia yake na kuondoka Bethlehemu. Muda mfupi baadaye, Herode aliwaua watoto wote wa kiume huko Bethlehemu walio na umri wa miaka miwili na chini.</p><p>Ugonjwa wa Herode ulizidi kuwa mbaya zaidi. Ruhusa ilitoka kwa Warumi kumwua Antipater, jambo ambalo alitekeleza mara moja. Alibadilisha tena wosia wake, akimfanya Arkelao kuwa mfalme wa Yudea, Idumaya, na Samaria; Antipa kuwa mtawala wa Galilaya na Perea, na Filipo kuwa mtawala wa maeneo mashariki ya Galilaya. Siku ya tano baada ya kuuawa kwa Antipater, Herode alikufa huko Yeriko katika msimu wa kuchipua wa mwaka wa 4 KK. Watu walimtangaza Arkelao kuwa mfalme wao.</p><h2>Arkelao (4 KK–6 BK)</h2><p>Arkelao alikuwa mwana wa Herode Mkuu na Malthace (Msamaria) na alizaliwa karibu mwaka wa 22 KK. Arkelao alikabiliwa na matatizo mengi. Aliwaua watu 3,000 katika kukandamiza mapinduzi yaliyoongozwa na watu waliokuwa wakilipiza kisasi cha damu ya wale waliouawa na baba yake, Herode. Hivyo, utawala wake ulianza vibaya. Katika Pentekoste mwaka wa 4 KK, mapinduzi mengine yalizuka, ambayo yalidumu kwa takriban miezi miwili na nusu na wakati huo portiko za hekalu zilichomwa moto na hazina iliporwa na Warumi. Ghasia hizi zilisambaa hadi mashambani mwa Yudea na hadi Galilaya na Perea.</p><p>Arkelao aliwafanyia Wayahudi na Wasamaria ukatili (<em>Vita</em> 2.7.3), jambo ambalo limethibitishwa na Injili. Yosefu aliporudi kutoka safari yake kwenda Misri na kujua kwamba Arkelao alikuwa akitawala Yudea, aliogopa kwenda huko na alionywa na Mungu; alimpeleka mtoto Yesu Galilaya badala yake (<a href=\"https://ref.ly/Matt2:22\">Mt 2:22</a>).</p><p>Udhalimu wa Arkelao hatimaye uliwalazimisha Wayahudi na Wasamaria kutuma ujumbe kwenda Rumi ili kumlalamikia rasmi kwa Augusto. Ukweli kwamba maadui wakubwa kama Wayahudi na Wasamaria waliweza kushirikiana katika suala hili unaonyesha uzito wa malalamiko hayo. Antipa na Filipo pia walikwenda Rumi kulalamika kumhusu. Inaonekana walikasirishwa na kupuuzia kwake kama mwakilishi wao wa Kirumi kwa Palestina. Hivyo basi, katika mwaka wa 6 BK, Arkelao aliondolewa madarakani na kuhamishwa kwenda Vienna huko Gaul (Vienne ya kisasa kwenye Rhône, Kusini mwa Lyons). Antipa na Filipo waliruhusiwa kuendelea na utawala wao husika, na maeneo ya Arkelao yalipunguzwa kuwa jimbo linalotawaliwa na Jimbo au makarani.</p><h2>Antipa (4 KK–39 BK)</h2><p>Antipa alikuwa mdogo wa Arkelao, alizaliwa karibu mwaka wa 20 KK. Kati ya wote wa familia ya Herodia, anatajwa zaidi katika Agano Jipya kwa sababu alitawala Galilaya na Perea, maeneo ambapo Yesu na Yohana Mbatizaji walifanya huduma zao.</p><p>Eneo la Antipa lilikuwa katika machafuko kutokana na uasi ulioanza wakati wa Pentekoste mnamo 4 KK. Alianza mara moja kurejesha utulivu na kujenga upya kilichoharibiwa. Akifuata mfano wa baba yake, Herode Mkuu, Antipa alianzisha miji. Sepphoris ilikuwa mradi wake wa kwanza; ilikuwa mji mkubwa zaidi Galilaya na mji wake mkuu hadi alipojenga Tiberia. Kwa kuwa Nazareti ilikuwa umbali wa maili nne (kilomita 6.4) kusini-mashariki mwa Sepphoris, inawezekana kabisa kwamba Yosefu, mume wa Maria, aliajiriwa kama seremala (<a href=\"https://ref.ly/Matt13:55\">Mt 13:55</a>; <a href=\"https://ref.ly/Mark6:3\">Mk 6:3</a>) kusaidia kujenga upya mji huo.</p><p>Kati ya miji 12 iliyojengwa na familia ya Herode, Tiberia ndiyo muhimu zaidi. Ilikuwa mji wa kwanza katika historia ya Kiyahudi kuanzishwa na mfumo wa manispaa wa polis ya Kigiriki<em>.</em> Ilijengwa kwa heshima ya mfalme aliyekuwa akitawala, Tiberio. Kwa sababu ya uharibifu wa makaburi wakati wa ujenzi, Tiberia ilionekana kuwa najisi kwa Wayahudi. Antipa alitoa nyumba za bure, ardhi, na msamaha wa kodi kwa miaka ya kwanza kwa yeyote ambaye angehamia mjini humo. Alikamilisha mji huo mwaka wa 23 BK na kuufanya kuwa mji mkuu wake.</p><p>Katika ulimwengu wa Kikristo, tukio ambalo Antipa anakumbukwa zaidi ni kukata kichwa cha Yohana Mbatizaji (<a href=\"https://ref.ly/Matt14:3-Matt14:12\">Mt 14:3–12</a>; <a href=\"https://ref.ly/Mark6:17-Mark6:29\">Mk 6:17–29</a>; <a href=\"https://ref.ly/Luke3:19-Luke3:20\">Lk 3:19–20</a>; <em>Antiquities</em> 18.5.2.116–119). Kulikuwa na mkanganyiko wa matukio ya kifamilia yaliyopelekea kifo cha Yohana Mbatizaji. Antipa alikuwa ameoa binti wa Areta IV (jina la binti halijulikani). Areta IV alikuwa mfalme wa Wanabati, na Augusto huenda alihimiza ndoa hii kwa kuwa alipendelea ndoa kati ya watawala mbalimbali ili kuimarisha amani katika ufalme wake.</p><p>Karibu mwaka wa 29 BK, Antipa alisafiri kwenda Rumi, na njiani alitembelea nusu kaka yake Herode Filipo, ambaye inaonekana alikuwa akiishi katika mji wa pwani huko Palestina. Antipa alipendana na Herodia, mke wa Filipo, ambaye pia alikuwa mpwa wa Antipa. Wazo la kuwa mke wa mtawala lilimvutia Herodia, na alikubali kuolewa naye atakaporudi kutoka Rumi ikiwa angeweza kumfukuza binti wa Areta. Antipa alikubali mpango huo, na binti wa Areta aliposikia habari hiyo, alikimbilia kwa baba yake. Hii ilikuwa ni kuvunja muungano wa kisiasa pamoja na tusi la kibinafsi, ambalo lilisababisha Areta kulipiza kisasi.</p><p>Ndoa ya Antipa na Herodia ilikuwa kinyume na sheria ya Mose, ambayo ilikataza kuoa mke wa ndugu (<a href=\"https://ref.ly/Lev18:16\">Law 18:16</a>; <a href=\"https://ref.ly/Lev20:21\">20:21</a>), isipokuwa kwa ajili ya kumzalia watoto ndugu aliyekufa bila watoto kupitia ndoa ya levirate (<a href=\"https://ref.ly/Deut25:5\">Kumb 25:5</a>; <a href=\"https://ref.ly/Mark12:19\">Mk 12:19</a>). Katika hali hii, Filipo hakuwa tu na mtoto, Salome, bali pia alikuwa bado hai. Hii ndiyo hali ambayo Yohana Mbatizaji alikemea kwa ujasiri, na Antipa akamtupa gerezani. Chuki ya Herodia dhidi ya Yohana Mbatizaji ilikuwa kubwa sana kiasi kwamba kumfungia tu hakukutosha. Katika wakati mwafaka, labda siku ya kuzaliwa ya Antipa, alipanga karamu huko Machaerus katika Perea. Binti yake, Salome, alicheza mbele ya mfalme, na kwa haraka Antipa akamwahidi kwa kiapo kwamba angempa chochote, hadi nusu ya ufalme wake. Kufuatia ushauri wa mama yake, aliomba kichwa cha Yohana Mbatizaji kwenye sinia. Mara moja Antipa alijuta kwa ahadi yake ya haraka, lakini ili kuokoa uso mbele ya wakuu wake, alikubali ombi hilo. Hivyo, huduma ya Yohana ilimalizika karibu mwaka 31 au 32 BK .</p><p>Kuna nyakati tatu maalum ambapo Antipa na Yesu wanatajwa pamoja katika Injili.</p><p>Mapema katika huduma ya Yesu, Antipa alisikia habari zake na akatoa maoni, labda kwa kejeli, kwamba Yesu alikuwa Yohana Mbatizaji aliyefufuka (<a href=\"https://ref.ly/Matt14:1-Matt14:2\">Mt 14:1–2</a>; <a href=\"https://ref.ly/Mark6:14-Mark6:16\">Mk 6:14–16</a>; <a href=\"https://ref.ly/Luke9:7-Luke9:9\">Lk 9:7–9</a>). Ilikuwa wazi kwa Antipa kwamba huduma ya Yesu ilikuwa ya kushangaza zaidi kuliko ya Yohana, lakini alikuwa na wasiwasi kutumia nguvu kuleta mkutano kwa hofu ya kuwachochea watu dhidi yake tena. Hatimaye, Yesu aliondoka katika maeneo ya Antipa bila wao wawili kukutana.</p><p>Baadaye, Yesu alipozidi kuwa maarufu, Antipa aliona tishio linaloweza kutokea kwa mamlaka yake mwenyewe na alitishia kumuua Yesu. Hivyo ndivyo ilivyokuwa kwamba katika safari ya mwisho ya Yesu kwenda Yerusalemu, baadhi ya Mafarisayo walimwonya kwamba anapaswa kuondoka katika maeneo ya Antipa kwa usalama wake mwenyewe (<a href=\"https://ref.ly/Luke13:31-Luke13:33\">Lk 13:31–33</a>). Yesu alituma jibu kwa “mbweha huyo” kwamba angeendelea na huduma yake ya kuponya na kufukuza pepo kwa muda kidogo zaidi, na alipomaliza, angeenda Yerusalemu kufa. Simba na mbweha mara nyingi walilinganishwa katika fasihi za kale. Simba wa Yuda, Yesu Kristo, hakuwa na nia ya kulazimishwa na mwoga mjanja, Antipa.</p><p>Mkutano wa mwisho kati ya hao wawili ulifanyika Yesu alipohukumiwa na Antipa mnamo mwaka wa 33BK (<a href=\"https://ref.ly/Luke23:6-Luke23:12\">Lk 23:6–12</a>). Kwa kuwa tukio hili limetajwa tu na Luka, baadhi ya wasomi wanaliona kama la kihistoria. Hata hivyo, inapaswa kukumbukwa kwamba mpokeaji wa Luka alikuwa Theofilo, labda afisa wa Kirumi, ambaye angevutiwa sana na upatanisho kati ya Pilato na Antipa uliotajwa katika kifungu hiki.</p><p>Kulingana na simulizi la Luka, Pilato aliposhindwa kupata kosa kwa Yesu, alimpeleka kwa Antipa (ambaye alikuwa akisherehekea Pasaka huko Yerusalemu). Hivyo, Pilato alijiondoa katika hali isiyofaa. Sababu nyingine ya kitendo hicho inaweza kuwa ni kujipatanisha na Antipa. Uhusiano wao ulikuwa umevurugika tangu mauaji ya Wagalilaya (<a href=\"https://ref.ly/Luke13:1\">Lk 13:1</a>), na kwa sababu Pilato alileta ngao za nadhiri Yerusalemu, akichochea hasira ya Wayahudi (<em>Legatio ad Gaium</em> ya Philo 299–304). Yesu alipofikishwa mbele ya Antipa, mtawala alimdhihaki tu na kumrudisha kwa Pilato. Mafanikio makubwa ya kisiasa ya tukio hilo yalikuwa upatanisho wa Antipa na Pilato.</p><h2>Filipo Msimamizi wa Nne (4 KK–34 BK)</h2><p>Filipo, mfalme mdogo, alikuwa mwana wa Herode Mkuu na Cleopatra wa Yerusalemu na alizaliwa karibu mwaka wa 22 KK. Baada ya wosia wa Herode kufunguliwa, Filipo aliteuliwa kuwa mfalme mdogo wa Gaulanitis, Auranitis, Batanea, Iturea, na Iturea, maeneo yote yaliyoko kaskazini mwa eneo la Herode Mkuu (<a href=\"https://ref.ly/Luke3:1\">Lk 3:1</a>). Raia wake walikuwa hasa Wasyria na Wagiriki. Hivyo, alikuwa Herode wa kwanza na wa pekee kuweka picha yake kwenye sarafu zake.</p><p>Alijenga miji miwili. Kwanza, alijenga upya na kupanua Paneas na kuipa jina jipya. Hapa Petro alifanya ungamo lake la imani kwa Yesu na alipewa ufunuo wa kanisa (<a href=\"https://ref.ly/Matt16:13-Matt16:20\">Mt 16:13–20</a>; <a href=\"https://ref.ly/Mark8:27-Mark8:30\">Mk 8:27–30</a>). Kisha, alijenga upya na kupanua Bethsaida na kuipa jina jipya Julias. Hapa Yesu alimponya kipofu Adamu (<a href=\"https://ref.ly/Mark8:22-Mark8:26\">Mk 8:22–26</a>), na katika mahali pa jangwa karibu alilisha watu 5,000 (<a href=\"https://ref.ly/Luke9:10-Luke9:17\">Lk 9:10–17</a>).</p><p>Filipo hakuwa na tamaa za kisiasa kama ndugu zake. Utawala wake ulijulikana kwa utulivu na uaminifu wa raia wake. Filipo alipofariki mwaka wa 34 BK, Tiberio aliongeza maeneo yake kwa Syria. Baada ya Caligula kuwa mfalme mwaka wa  37 BK, alimpa Agripa I, ndugu wa Herodia, maeneo hayo.</p><h2>Agripa I (AD 37–44)</h2><p>Agripa I alikuwa mtoto wa Aristobulo (mwana wa Herode Mkuu na Mariamne I) na Berenice. Alizaliwa mwaka wa 10 KK na alikuwa kaka yake Herodia.</p><p>Agripa I anaweza kuchukuliwa kama kondoo mweusi wa familia ya Herodian. Alipokuwa shuleni Roma, aliishi maisha ya ovyo, akijikuta kwenye madeni mengi. Huko Roma, alifanyika rafiki wa Gayo Caligula na wakati mmoja alisema kwamba alitamani Caligula awe mfalme badala ya Tiberio. Hii ilisikiwa na kuripotiwa kwa Tiberio, ambaye alimfunga. Alibaki gerezani hadi kifo cha Tiberio miezi sita baadaye.</p><p>Baada ya Caligula kupanda kwenye kiti cha enzi, alimwachilia Agripa na kumpa maeneo ya Filipo mfalme mdogo pamoja na sehemu ya kaskazini ya eneo la Lysanias, pamoja na cheo cha mfalme. Cheo hiki kilimfanya dada yake Herodia kuwa na wivu, na hatimaye hilo lilisababisha kuanguka kwa Antipa. Wakati huo ( 39 BK), Agripa alipata maeneo na mali zote za Antipa.</p><p>Caligula alipokufa mwaka wa 41 BK, Agripa alipata kibali kutoka kwa mfalme mpya, Klaudio, ambaye aliongeza Yudea na Samaria kwenye eneo la Agripa. Eneo hili lilikuwa limetawaliwa na babu yake Agripa, Herode Mkuu.</p><p>Agripa I anatajwa katika Agano Jipya kwa mateso yake dhidi ya kanisa la awali ili kupata kibali kutoka kwa Wayahudi (<a href=\"https://ref.ly/Acts12:1-Acts12:19\">Matendo 12:1–19</a>). Alimuua Yakobo, mwana wa Zebedayo, na kumfunga Petro. Wakati Petro alipoachiliwa na malaika, Agripa aliwaua walinzi.</p><p>Agripa alikufa mwaka wa 44 BK huko Kaisaria. Akaunti za tukio hili zimeandikwa na Josephus (<em>Antiquities</em> 19.9.1.274–275; <em>War</em> 2.11.5.214–215) na Maandiko. Tukio hilo lilitokea Kaisaria; alikuwa amevaa joho la fedha lenye kung&apos;aa, na wakati watu walipomsifu kwa kumwita Mungu, alipatwa ghafla na ugonjwa mbaya na akafa kifo kibaya. Aliacha binti zake, Bernike, Mariamne, na Drusila, na mwana, Agripa, ambaye alikuwa na miaka 17 wakati huo. Kwa sababu ya ujana wa Agripa II, maeneo ya baba yake yalifanywa kwa muda kuwa mkoa.</p><h2>Agripa II (BK 50–100)</h2><p>Agripa II alikuwa mtoto wa Agripa I na Cypros. Mnamo mwaka wa 50 BK, miaka sita baada ya kifo cha baba yake, Klaudio alimteua kuwa mfalme wa Chalcis.</p><p>Agripa II alikuwa na udhibiti wa Korbani na mavazi ya kuhani mkuu, hivyo aliweza kuteua kuhani mkuu. Warumi walimshauri kuhusu masuala ya kidini, ambayo huenda ndiyo sababu Festo alimwomba asikilize mtume Paulo huko Kaisaria ( 59 BK), ambapo aliandamana na dada yake Bernike (<a href=\"https://ref.ly/Acts25:1-Acts26:32\">Matendo 25–26</a>).</p><p>Mwezi Mei 66 BK, mapinduzi ya Palestina yalianza (<em>Vita</em> 2.14.4.284). Jaribio la Agripa la kutuliza ghasia liliposhindwa, na akawa mshirika wa karibu wa Warumi katika vita vyote ( 66–70 BK). Katika kipindi hiki, Nero alijiua, mfalme mpya Galba aliuawa, na Vespasian akawa mfalme. Baada ya kuapa utii kwa mfalme mpya, Agripa alibaki na Tito, mwana wa Vespasian, ambaye alikuwa akiongoza vita (Historia ya Tacitus <em>5.81</em>). Baada ya kuanguka kwa Yerusalemu (Agosti 6, 70 BK), inawezekana Agripa alikuwepo kusherehekea uharibifu wa watu wake mwenyewe.</p><p>Baada ya hili, Vespasian aliongeza maeneo mapya kwenye ufalme wa Agripa, ingawa haijulikani ni yapi hasa. Mnamo mwaka wa 79 BK, Vespasian alikufa na Tito akawa mfalme. Kidogo kinajulikana kuhusu utawala wa Agripa baada ya hapo, isipokuwa kwamba aliandika kwa mwanahistoria Josephus akimsifu kwa <em>Vita vya Wayahudi,</em> na alinunua nakala yake (Josephus’s <em>life</em> 65.361–367; <em>Apion</em> 1.9.47–52).</p><p>Ingawa Talmud inaashiria kwamba Agripa II alikuwa na wake wawili (Talmud ya Babiloni: <em>Sukkah</em> 27a), Josephus hatoi dalili yoyote kwamba alikuwa na wake au watoto. Badala yake, alijulikana kwa uhusiano wa karibu na dada yake Bernike. Alikufa karibu mwaka wa 100 BK. Kifo chake kilimaanisha mwisho wa nasaba ya Herodian.</p><p><em>Tazama pia</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4990\" data-resourceType=\"TyndaleBibleDictionary\">Waherode</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"5646\" data-resourceType=\"TyndaleBibleDictionary\">Uyahudi</span>.</p>",
@@ -4194,13 +4075,28 @@
 "language": "swh"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Herod.3",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Herode"
+},
+{
+"id": "person:Herod",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Herode"
+}
+]
 }
 },
 {
 "content_id": "713709",
 "reference_id": 4991,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Herodia",
 "media_type": "Text",
 "index_reference": "herodia",
@@ -4265,9 +4161,9 @@
 {
 "id": "person:Herodias",
 "type": "person",
-"preferred_label": "Herodia",
-"confidence": 0.6828,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Herodia"
 }
 ]
 }
@@ -4275,7 +4171,7 @@
 {
 "content_id": "778856",
 "reference_id": 5009,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Hidekeli",
 "media_type": "Text",
 "index_reference": "hidekeli",
@@ -4310,9 +4206,9 @@
 {
 "id": "place:Tigris",
 "type": "place",
-"preferred_label": "Hidekeli",
 "confidence": 1.0,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Hidekeli"
 }
 ]
 }
@@ -4320,7 +4216,7 @@
 {
 "content_id": "811741",
 "reference_id": 5260,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Historia ya Israeli",
 "media_type": "Text",
 "index_reference": "historia ya israeli",
@@ -4795,13 +4691,28 @@
 "language": "swh"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Israeli"
+},
+{
+"id": "place:Israel",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Israel"
+}
+]
 }
 },
 {
 "content_id": "852526",
 "reference_id": 5035,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Hoba",
 "media_type": "Text",
 "index_reference": "hoba",
@@ -4818,21 +4729,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "place:Hobah",
-"type": "place",
-"preferred_label": "Hoba",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "800587",
 "reference_id": 4414,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Hofu",
 "media_type": "Text",
 "index_reference": "hofu",
@@ -5125,13 +5028,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.7579,
+"match_method": "scored",
+"preferred_label": "Fear"
+}
+]
 }
 },
 {
 "content_id": "778862",
 "reference_id": 5663,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Hukumu",
 "media_type": "Text",
 "index_reference": "hukumu",
@@ -5295,13 +5206,28 @@
 "language": "swh"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Judgment",
+"type": "keyterm",
+"confidence": 1.0,
+"match_method": "embedding",
+"preferred_label": "Judgment"
+},
+{
+"id": "keyterm:Decision",
+"type": "keyterm",
+"confidence": 0.8091,
+"match_method": "embedding",
+"preferred_label": "Decision"
+}
+]
 }
 },
 {
 "content_id": "833407",
 "reference_id": 5107,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Huli",
 "media_type": "Text",
 "index_reference": "huli",
@@ -5324,21 +5250,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Hul",
-"type": "person",
-"preferred_label": "Huli",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "713700",
 "reference_id": 4708,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Huzuni",
 "media_type": "Text",
 "index_reference": "huzuni",

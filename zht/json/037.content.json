@@ -2,7 +2,7 @@
 {
 "content_id": "615727",
 "reference_id": 3825,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "房角石",
 "media_type": "Text",
 "index_reference": "房角石",
@@ -97,13 +97,28 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "realia:Cornerstone",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Cornerstone"
+},
+{
+"id": "realia:Foundation",
+"type": "realia",
+"confidence": 0.6571,
+"match_method": "scored",
+"preferred_label": "Foundation"
+}
+]
 }
 },
 {
 "content_id": "340953",
 "reference_id": 5057,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "房屋與住處",
 "media_type": "Text",
 "index_reference": "房屋與住處",

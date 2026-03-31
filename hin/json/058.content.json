@@ -2,7 +2,7 @@
 {
 "content_id": "649468",
 "reference_id": 7008,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भजन 151",
 "media_type": "Text",
 "index_reference": "भजन 151",
@@ -29,9 +29,40 @@
 }
 },
 {
+"content_id": "733224",
+"reference_id": 5135,
+"version": "1.0.4",
+"title": "भजन, भजन-गान",
+"media_type": "Text",
+"index_reference": "भजन भजनगान",
+"language": "hin",
+"review_level": "None",
+"content": "<h1>भजन, भजन-गान</h1><p><em>देखें</em> <span data-bnType=\"resourceReference\" data-resourceId=\"6416\" data-resourceType=\"TyndaleBibleDictionary\">भजन</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"6935\" data-resourceType=\"TyndaleBibleDictionary\">कविता, बाइबल।</span></p>",
+"associations": {
+"passage": [],
+"resource": [
+{
+"reference_id": 6416,
+"content_id": 184973,
+"resource_code": "TyndaleBibleDictionary",
+"label": "संगीत",
+"language": "hin"
+},
+{
+"reference_id": 6935,
+"content_id": 381781,
+"resource_code": "TyndaleBibleDictionary",
+"label": "बाइबलीय काव्य",
+"language": "hin"
+}
+],
+"acai": []
+}
+},
+{
 "content_id": "733726",
 "reference_id": 7010,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भजन शीर्षक",
 "media_type": "Text",
 "index_reference": "भजन शीर्षक",
@@ -62,7 +93,7 @@
 {
 "content_id": "368634",
 "reference_id": 7009,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भजन संहिता की पुस्तक",
 "media_type": "Text",
 "index_reference": "भजन संहिता की पुस्तक",
@@ -1727,10 +1758,10 @@
 {
 "content_id": "733727",
 "reference_id": 7011,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भजन-संग्रह",
 "media_type": "Text",
-"index_reference": "भजन-संग्रह",
+"index_reference": "भजनसंग्रह",
 "language": "hin",
 "review_level": "None",
 "content": "<h1>भजन-संग्रह</h1><p>वीणा की केजेवी प्रस्तुति। <em>देखें</em> <span data-bnType=\"resourceReference\" data-resourceId=\"6414\" data-resourceType=\"TyndaleBibleDictionary\">संगीत वाद्ययंत्र (नेबेल)</span>।</p>",
@@ -1749,40 +1780,9 @@
 }
 },
 {
-"content_id": "733224",
-"reference_id": 5135,
-"version": "1.0.2",
-"title": "भजन, भजन-गान",
-"media_type": "Text",
-"index_reference": "भजन, भजन-गान",
-"language": "hin",
-"review_level": "None",
-"content": "<h1>भजन, भजन-गान</h1><p><em>देखें</em> <span data-bnType=\"resourceReference\" data-resourceId=\"6416\" data-resourceType=\"TyndaleBibleDictionary\">भजन</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"6935\" data-resourceType=\"TyndaleBibleDictionary\">कविता, बाइबल।</span></p>",
-"associations": {
-"passage": [],
-"resource": [
-{
-"reference_id": 6416,
-"content_id": 184973,
-"resource_code": "TyndaleBibleDictionary",
-"label": "संगीत",
-"language": "hin"
-},
-{
-"reference_id": 6935,
-"content_id": 381781,
-"resource_code": "TyndaleBibleDictionary",
-"label": "बाइबलीय काव्य",
-"language": "hin"
-}
-],
-"acai": []
-}
-},
-{
 "content_id": "733030",
 "reference_id": 4490,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भट्टियों का गुम्मट",
 "media_type": "Text",
 "index_reference": "भट्टियों का गुम्मट",
@@ -1815,11 +1815,11 @@
 ],
 "acai": [
 {
-"id": "person:Malchijah.6",
-"type": "person",
-"preferred_label": "मल्किय्याह",
-"confidence": 0.566,
-"match_method": "scored"
+"id": "place:TowerOfTheOvens",
+"type": "place",
+"confidence": 0.9505,
+"match_method": "scored",
+"preferred_label": "Tower of the Ovens"
 }
 ]
 }
@@ -1827,7 +1827,7 @@
 {
 "content_id": "733339",
 "reference_id": 5751,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भट्टी",
 "media_type": "Text",
 "index_reference": "भट्टी",
@@ -1845,13 +1845,21 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Kiln",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kiln"
+}
+]
 }
 },
 {
 "content_id": "381482",
 "reference_id": 4491,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भट्ठी",
 "media_type": "Text",
 "index_reference": "भट्ठी",
@@ -1976,13 +1984,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "realia:Kiln",
+"type": "realia",
+"confidence": 0.7236,
+"match_method": "scored",
+"preferred_label": "Kiln"
+}
+]
 }
 },
 {
 "content_id": "733623",
 "reference_id": 6704,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भट्ठी",
 "media_type": "Text",
 "index_reference": "भट्ठी",
@@ -1992,13 +2008,21 @@
 "associations": {
 "passage": [],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "realia:Oven",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Oven"
+}
+]
 }
 },
 {
 "content_id": "733622",
 "reference_id": 6703,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भट्ठी के गुम्मट",
 "media_type": "Text",
 "index_reference": "भट्ठी के गुम्मट",
@@ -2021,13 +2045,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:TowerOfTheOvens",
+"type": "place",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "Tower of the Ovens"
+}
+]
 }
 },
 {
 "content_id": "734042",
 "reference_id": 8071,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भट्ठी के गुम्मट",
 "media_type": "Text",
 "index_reference": "भट्ठी के गुम्मट",
@@ -2054,11 +2086,11 @@
 ],
 "acai": [
 {
-"id": "person:Malchijah.6",
-"type": "person",
-"preferred_label": "मल्किय्याह",
-"confidence": 0.7435,
-"match_method": "scored"
+"id": "place:TowerOfTheOvens",
+"type": "place",
+"confidence": 0.9505,
+"match_method": "scored",
+"preferred_label": "Tower of the Ovens"
 }
 ]
 }
@@ -2066,7 +2098,7 @@
 {
 "content_id": "381257",
 "reference_id": 8084,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भण्डारी",
 "media_type": "Text",
 "index_reference": "भण्डारी",
@@ -2158,7 +2190,7 @@
 {
 "content_id": "381086",
 "reference_id": 4414,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भय",
 "media_type": "Text",
 "index_reference": "भय",
@@ -2451,13 +2483,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.7579,
+"match_method": "scored",
+"preferred_label": "Fear"
+}
+]
 }
 },
 {
 "content_id": "381905",
 "reference_id": 8085,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भले या बुरे के ज्ञान के वृक्ष",
 "media_type": "Text",
 "index_reference": "भले या बुरे के ज्ञान के वृक्ष",
@@ -2546,10 +2586,10 @@
 {
 "content_id": "184994",
 "reference_id": 6999,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भविष्यद्वक्ता, भविष्यद्वक्तिन",
 "media_type": "Text",
-"index_reference": "भविष्यद्वक्ता, भविष्यद्वक्तिन",
+"index_reference": "भविष्यद्वक्ता भविष्यद्वक्तिन",
 "language": "hin",
 "review_level": "None",
 "content": "<h1>भविष्यद्वक्ता, <span>भविष्यद्वक्तिन</span></h1><p>एक पुरुष या स्त्री जिसे परमेश्वर ने अपनी ओर से बोलने और ईश्वरीय योजना में होने वाली घटनाओं की भविष्यद्वाणी करने के लिए चुना है।</p><p>पूर्वावलोकन</p><p>•&nbsp;<span data-bnType=\"resourceReference\" data-resourceId=\"6998\" data-resourceType=\"TyndaleBibleDictionary\"><u>परिचय</u></span></p><p>•&nbsp;<span data-bnType=\"resourceReference\" data-resourceId=\"6998\" data-resourceType=\"TyndaleBibleDictionary\"><u>भविष्यद्वक्ताओं के पद और इतिहास </u></span></p><p>•&nbsp;<span data-bnType=\"resourceReference\" data-resourceId=\"6998\" data-resourceType=\"TyndaleBibleDictionary\"><u>प्रेरणा</u></span></p><p>•&nbsp;<span data-bnType=\"resourceReference\" data-resourceId=\"6998\" data-resourceType=\"TyndaleBibleDictionary\"><u>सच्चे और झूठे भविष्यद्वक्ता </u></span></p><p>•&nbsp;<span data-bnType=\"resourceReference\" data-resourceId=\"6998\" data-resourceType=\"TyndaleBibleDictionary\"><u>भविष्यद्वक्ता का कार्य</u> </span></p><p>• <span data-bnType=\"resourceReference\" data-resourceId=\"6998\" data-resourceType=\"TyndaleBibleDictionary\"><u>संचार के तरीके</u> </span></p><h2>परिचय</h2><p>जब यीशु ने विधवा के बेटे को मृतकों में से जीवित किया, तो देखने वालों ने यह कहकर प्रतिक्रिया व्यक्त की, &quot;<span>हमारे बीच में एक बड़ा भविष्यद्वक्ता उठा है</span>!&quot; (<a href=\"https://ref.ly/Luke7:16\">लूका 7:16</a>; पुष्टि करें <a href=\"https://ref.ly/Mark6:15\">मर 6:15</a>; <a href=\"https://ref.ly/Mark8:28\">8:28</a>)। यहूदी धार्मिक विचारों में, सबसे जीवंत और प्रमुख धार्मिक घटनाएँ एक भविष्यद्वक्ता के बुलावे और उनकी सेवा में केंद्रित होती थीं, जिनके माध्यम से परमेश्वर अपने लोगों से अपना वचन को कहते थें। यीशु के प्रति लोगों की सराहना में वे वास्तव में जितना जानते थे उससे अधिक सही थे, क्योंकि उनमें परमेश्वर ने वास्तव में उनके बीच आकर उनसे मुलाकात की थी और वह, हालांकि एक भविष्यद्वक्ता से कहीं अधिक थे, वास्तव में मूसा द्वारा भविष्यद्वाणी किए गए भविष्यद्वक्ताओं के क्रम का शिखर और समापन वो थे (<a href=\"https://ref.ly/Deut18:15-Deut18:19\">व्य.वि. 18:15–19</a>)।</p><h2>भविष्यद्वक्ताओं के पद और इतिहास</h2><p>पुराने नियम में ऐसे व्यक्तियों का वर्णन करने के लिए उपयोग किए जाने वाले मुख्य शब्द &quot;भविष्यद्वक्ता&quot; (देखें <a href=\"https://ref.ly/Judg6:8\">न्या 6:8</a>), &quot;परमेश्वर का जन&quot; (देखें <a href=\"https://ref.ly/2Kgs4:9\">2 रा 4:9</a>) और &quot;दर्शी&quot; (देखें <a href=\"https://ref.ly/1Sam9:9\">1 शमू 9:9</a>; <a href=\"https://ref.ly/2Sam24:11\">2 शमू 24:11</a>) किया गया है।</p><p>जिस शब्द का अनुवाद &apos;भविष्यद्वक्ता&apos; किया गया है, उसका पहला मुख्य अर्थ &apos;बुलाया गया&apos; प्रतीत होता है: परमेश्वर पहल करते हैं, चुनते हैं, बुलाते हैं, और भविष्यद्वक्ता को भेजते हैं (उदाहरण के लिए, <a href=\"https://ref.ly/Jer1:4-Jer1:5\">यिर्म 1:4–5</a>; <a href=\"https://ref.ly/Jer7:25\">7:25</a>; <a href=\"https://ref.ly/Amos7:14\">आमो 7:14</a>)। “परमेश्वर का <span>जन</span>” भविष्यद्वक्ता के उस सम्बन्ध को दर्शाता है, जिसमें वह अपनी बुलाहट द्वारा लाया जाता है: अब वह “परमेश्वर का जन” है और उसे परमेश्वर से सम्बंधित के रूप में पहचाना जाता है (<a href=\"https://ref.ly/2Kgs4:9\">2 रा 4:9</a>)। &quot;दर्शी&quot; उस नई और असाधारण दृष्टि शक्ति को दर्शाता है जो भविष्यद्वक्ता को प्रदान की गई थी। इब्रानी में, जैसे अंग्रेजी में, साधारण क्रिया “देखना” को समझने के अर्थ में भी उपयोग किया जाता है (“मैं समझता हूँ तुम क्या कहना चाहते हो“) और चीज़ों की प्रकृति और अर्थ में अंतर्दृष्टि की शक्ति के लिए भी (“वह चीज़ों को बहुत स्पष्ट रूप से देखता है”)। भविष्यद्वक्ताओं के मामले में, उनकी “समझने” की शक्तियाँ सामान्य से बहुत ऊपर उठा दी गईं क्योंकि प्रभु ने उन्हें अपनी संदेशवाहक बनने के लिए प्रेरित किया है।&quot;</p><p>महान भविष्यद्वक्ताओं की श्रृंखला जिनके कन्धों पर पुराने नियम की कहानी आगे बढ़ती है, मूसा से शुरू हुई, जिसे सर्वश्रेष्ठ भविष्यद्वक्ता के रूप में पहचाना जाता है (<a href=\"https://ref.ly/Deut34:10\">व्य.वि. 34:10</a>)। यह एक सही धारणा थी, क्योंकि भविष्यद्वक्ता के सभी विशिष्ट लक्षण मूसा में थे: बुलाहट (<a href=\"https://ref.ly/Exod3:1-Exod4:17\">निर्ग 3:1–4:17</a>; पुष्टि करें <a href=\"https://ref.ly/Isa6:1-Isa6:13\">यशा 6</a>; <a href=\"https://ref.ly/Jer1:4-Jer1:19\">यिर्म 1:4–19</a>; <a href=\"https://ref.ly/Ezek1:1-Ezek3:27\">यहेज 1–3</a>; <a href=\"https://ref.ly/Hos1:2\">होश 1:2</a>; <a href=\"https://ref.ly/Amos7:14-Amos7:15\">आमो 7:14–15</a>), ऐतिहासिक घटनाओं के महत्व के बारे में जागरूकता, जैसे कि परमेश्वर के कार्य जिनके द्वारा उन्होंने अपने वचन की पुष्टि की (<a href=\"https://ref.ly/Exod3:12\">निर्ग 3:12</a>; <a href=\"https://ref.ly/Exod4:21-Exod4:23\">4:21–23</a>), नैतिक और सामाजिक चिंता (<a href=\"https://ref.ly/Exod2:11-Exod2:13\">2:11–13</a>), और असहायों की सहायता करना (पद <a href=\"https://ref.ly/Exod2:17\">17</a>)।</p><p>लेकिन <a href=\"https://ref.ly/Deut34:10\">व्य.वि. 34:10</a> में टिप्पणी न केवल मूसा की महानता को दर्शाती है, बल्कि मूसा जैसे भविष्यद्वक्ता के आने की भी उम्मीद करती है। यह उनकी अपनी भविष्यद्वाणी (<a href=\"https://ref.ly/Deut18:15-Deut18:19\">व्य.वि. 18:15–19</a>) ) के अनुरूप है, जो निस्संदेह एक, महान विशिष्ट भविष्यद्वक्ता की प्रतीक्षा करती है। मूसा अपने आप से एक अद्भुत तुलना करते हैं—आने वाले भविष्यद्वक्ता ठीक वैसी ही भूमिका निभाएंगे जैसे मूसा ने सीनै पहाड़ (<a href=\"https://ref.ly/Deut18:15-Deut18:19\">व्य.वि.</a><a href=\"https://ref.ly/Deut18:16\"> 18:16</a>) पर निभाई थी। उस अवसर पर, मूसा ने परमेश्वर की वाणी के नबुबतिय मध्यस्थ के रूप में एक विशेष रूप में कार्य किया, क्योंकि सीनै पर परमेश्वर ने पुरानी वाचा को उसकी पूर्ण रूप में आकार दिया। इस रूप के एक और भविष्यद्वक्ता की प्रतीक्षा करते हुए, मूसा वास्तव में एक अन्य वाचा-मध्यस्थ, यीशु मसीह की ओर देख रहे थे।</p><p>इस महान भविष्यद्वक्ता की उम्मीद जीवित रही, क्योंकि परमेश्वर अपने लोगों के पास लगातार भविष्यद्वक्ताओं को भेजते रहें। प्रत्येक मामले में, ऐसे भविष्यद्वक्ता को मूसा के समान होने के कारण सत्य माना जाता था; हर बार सच्चे विश्वासियों द्वारा इस उत्सुकता से देखा जाता कि क्या वह आखिरकार आने वाला महान जन है। इसी सन्दर्भ में हम समझ सकते हैं कि लोग कितने उत्साहित थे, जब उन्होंने यीशु को मरे हुओं को जिलाते हुए देखा (<a href=\"https://ref.ly/Luke7:16\">लूका 7:16</a>)।</p><p>पुराने नियम में भविष्यद्वक्ताओं के समूहों का उल्लेख मिलता है, जिन्हें कभी-कभी “विद्यालय” कहा जाता है। एलिशा के पास स्पष्ट रूप से ऐसा एक समूह था जो उसकी शिक्षा के अधीन था (<a href=\"https://ref.ly/2Kgs6:1\">2 रा 6:1</a>), और &quot;भविष्यद्वक्ताओं के पुत्र&quot; (उदाहरण के लिए, <a href=\"https://ref.ly/2Kgs2:3,2Kgs2:5\">2 रा 2:3, 5</a>; <a href=\"https://ref.ly/Amos7:14\">आमो 7:14</a>) संभवतः उन “भविष्यद्वक्ताओं के प्रशिक्षण” को संदर्भित करता है, जो एक प्रमुख भविष्यद्वक्ता की देखरेख में थे। <a href=\"https://ref.ly/1Sam10:5-1Sam10:11\">1 शमू 10:5–11</a> में इन समूहों के लिए &apos;संघ&apos; अधिक उपयुक्त वर्णन होगा। ये समूह प्रभु की आराधना में उत्साही, आत्मिक अनुभव से भरे होते थे, और इन पर परमेश्वर की पवित्र आत्मा का स्पष्ट प्रभाव था। परन्तु उनकी भक्ति का मूल “भविष्यद्वाणी” था—अर्थात परमेश्वर के विषय में सच्चाई की घोषणा करना। इस प्रारम्भिक अवधि के बाद, नबुबतिय समूहों का महत्व कम होता हुआ प्रतीत होता है (1 शमूएल में समान स्पष्ट संदर्भों के लुप्त होने के आधार पर), और उत्तेजना से सीधे वचन की सेवा की ओर चीजों का धीरे-धीरे बदलना <a href=\"https://ref.ly/1Sam9:9\">1 शमू 9:9</a> में टिप्पणी के पीछे का कारण हो सकता है।</p><h2>प्रेरणा</h2><p>प्रभु की पवित्र आत्मा, जिसकी प्रेरणा उन उत्साही समूहों के कार्यों के पीछे थी (<a href=\"https://ref.ly/1Sam10:6,1Sam10:10\">1&nbsp;शमू 10:6, 10</a>; <a href=\"https://ref.ly/1Sam19:20,1Sam19:23\">19:20, 23</a>), सभी भविष्यद्वक्ताओं में सक्रिय थी, और ईश्वरीय प्रेरणा का दावा समय-समय पर स्पष्ट रूप से किया गया है (उदाहरण के लिए, <a href=\"https://ref.ly/1Kgs22:24\">1&nbsp;रा 22:24</a>; <a href=\"https://ref.ly/Neh9:30\">नहे 9:30</a>; <a href=\"https://ref.ly/Hos9:7\">होश 9:7</a>; <a href=\"https://ref.ly/Joel2:28-Joel2:29\">योए 2:28–29</a>; <a href=\"https://ref.ly/Mic3:8\">मीक 3:8</a>; पुष्टि करें <a href=\"https://ref.ly/1Chr12:18\">1&nbsp;इति 12:18</a>; <a href=\"https://ref.ly/2Chr15:1\">2&nbsp;इति 15:1</a>; <a href=\"https://ref.ly/2Chr20:14\">20:14</a>; <a href=\"https://ref.ly/2Chr24:20\">24:20</a>)। पवित्र आत्मा ने पुरुषों और स्त्रियों को प्रेरित किया कि वे परमेश्वर के वचन बोलें (पुष्टि करें <a href=\"https://ref.ly/2Pet1:21\">2&nbsp;पत 1:21</a>)।</p><p>&quot;यिर्मयाह दावा करते हैं कि परमेश्वर का हाथ उनके मुँह पर रखा गया, जिससे परमेश्वर के वचन उनके होंठों में डाले गए (<a href=\"https://ref.ly/Jer1:9\">यिर्म 1:9</a>); यहेजकेल लिखते हैं कि उन्हें एक <span>पुस्तक </span>खाने के लिए कहा गया, जिसके द्वारा उन्होंने वे वचन प्राप्त किए जो प्रभु ने लिखे थे, और इस प्रकार वे वही बोलने में सक्षम हुए जिसे प्रभु ने “मेरे वचन” कहा (<a href=\"https://ref.ly/Ezek2:7-Ezek4:4\">यहेज 2:7–4:4</a>)। इस चमत्कार का संक्षिप्त वर्णन आमोस की पुस्तक की शुरुआत में किया गया है (<a href=\"https://ref.ly/Amos1:1,Amos1:3\">1:1, 3</a>): “आमोस के वचन … प्रभु यों कहते हैं।” हालाँकि ये वचन वास्तव में आमोस के वचन थे, लेकिन वे वचन प्रभु के भी थे।</p><h2>सच्चे और झूठे भविष्यद्वक्ता</h2><p>झूठे भविष्यद्वक्ताओं को सच्चे भविष्यद्वक्ताओं से तीन परीक्षणों के माध्यम से अलग किया जाना था। पहला परीक्षण सिद्धांत से सम्बंधित था। <a href=\"https://ref.ly/Deut13:1-Deut13:18\">व्य.वि. 13</a> में झूठे भविष्यद्वक्ता का उद्देश्य उन लोगों को उस परमेश्वर से दूर करना था जिसने स्वयं को निर्गमन में प्रकट किया था (<a href=\"https://ref.ly/Deut13:2,Deut13:5-Deut13:7,Deut13:10\">व्य.वि. 13:2, 5–7, 10</a>)। इस बात के बावजूद कि झूठे भविष्यद्वक्ता के वचन को स्पष्ट संकेतों और चमत्कारों (पद <a href=\"https://ref.ly/Deut13:1-Deut13:2\">1–2</a>), द्वारा समर्थित किया जा सकता है, इसे अस्वीकार किया जाना था—केवल इसलिए नहीं कि इसने नवीनता का परिचय दिया (पद <a href=\"https://ref.ly/Deut13:2,Deut13:6\">2, 6</a>) बल्कि इसलिए कि वह नवीनता निर्गमन के समय प्रभु के प्रकाशन का खण्डन करती थी (पद <a href=\"https://ref.ly/Deut13:5,Deut13:10\">5, 10</a>)। इस प्रकार पहला परीक्षण सैद्धांतिक था और इसके लिए आवश्यक था कि परमेश्वर के लोगों को सत्य का ज्ञान हो जिससे वे तुलना करके त्रुटि को पहचान सकें।</p><p>दूसरा परीक्षण व्यावहारिक था और इसके लिए धैर्य की आवश्यकता थी। यह <a href=\"https://ref.ly/Deut18:21-Deut18:22\">व्य.वि. 18:21–22</a> प्रभु का वचन हमेशा पूरा होता है। इसके लिए धैर्य की आवश्यकता है क्योंकि, जैसा कि <a href=\"https://ref.ly/Deut13:1-Deut13:2\">व्य.वि. 13:1–2</a> दर्शाता है, एक झूठे शब्द को एक स्पष्ट आत्मिक प्रमाण द्वारा समर्थित किया जा सकता है। <a href=\"https://ref.ly/Deut18:21-Deut18:22\">व्य.वि. 18:21–22</a> की बुलाहट धैर्य की बुलाहट है। यदि किसी भविष्यद्वानी के सत्य या असत्य के बारे में कोई वास्तविक सन्देह हो, तो घटनाओं के पुष्टि करने वाले मोड़ की प्रतीक्षा करें।</p><p>तीसरा परीक्षण नैतिक है और सावधानीपूर्वक विवेक की मांग करता है। सभी भविष्यद्वक्ताओं में से यिर्मयाह, झूठे भविष्यद्वक्ताओं की उपस्थिति से अपनी आत्मा में सबसे अधिक पीड़ित थें और उन्होंने इस समस्या पर सबसे लम्बे समय तक और सबसे अधिक निरन्तर विचार किया (<a href=\"https://ref.ly/Jer23:9-Jer23:40\">यिर्म 23:9–40</a>)। उनका उत्तर चौंकाने वाला और चुनौतीपूर्ण है: झूठे भविष्यद्वक्ता को अपवित्र जीवन वाले व्यक्ति के रूप में पाया जाएगा (पद <a href=\"https://ref.ly/Jer23:11-Jer23:14\">11–14</a>) जिनके सन्देश में नैतिक फटकार का कोई संकेत नहीं है, बल्कि वह लोगों को उनके पाप में प्रोत्साहित करते हैं (पद <a href=\"https://ref.ly/Jer23:16-Jer23:22\">16–22</a>)।</p><h2>भविष्यद्वक्ता का कार्य</h2><p>यह अक्सर कहा जाता है कि भविष्यद्वक्ता &quot;भविष्य बताने वाले&quot; नहीं होते, बल्कि &quot;सत्य के उद्घोषक&quot; होते हैं। हालाँकि, पुराने नियम के सन्दर्भ में, भविष्यद्वक्ता सत्य के उद्घोषक (परमेश्वर के बारे में सत्य का घोषणा करते हैं) और भविष्य बताने वाले होते हैं (जो यह पूर्वानुमान करते हैं कि परमेश्वर क्या करेंगे)। पुराने नियम में भविष्यद्वाणी न तो कभी-कभार की जाने वाली या मामूली क्रिया है; यह वह तरीका है जिससे भविष्यद्वक्ता अपना काम करते थे। <a href=\"https://ref.ly/Deut18:9-Deut18:15\">व्य.वि. 18:9–15</a> इस्राएल में भविष्यद्वक्ता के कार्य की व्याख्या करता है: आस-पास की देशों को विभिन्न प्रकार की भाग्य बताने की तकनीकों के माध्यम से भविष्य की जाँच करते हुए प्रकट किया गया है (पद <a href=\"https://ref.ly/Deut18:10-Deut18:11\">10–11</a>); ये चीजें इस्राएल के लिए निषिद्ध हैं क्योंकि वे प्रभु के लिए घृणास्पद हैं (पद <a href=\"https://ref.ly/Deut18:12\">12</a>)। इस्राएल की विशिष्टता इस बात में बनी हुई है कि जाति-जाति के लोग भावी कहने वालों के द्वारा भविष्य की जाँच करते हैं, जबकि प्रभु इस्राएल को एक भविष्यद्वक्ता देते हैं (पद <a href=\"https://ref.ly/Deut18:13-Deut18:15\">13–15</a>)। एलीशा (<a href=\"https://ref.ly/2Kgs4:27\">2 रा 4:27</a>) आश्चर्यचकित होते हैं जब उन्हें पूर्वज्ञान से वंचित कर दिया जाता है; आमोस सिखाते हैं कि पूर्वज्ञान भविष्यद्वक्ताओं का विशेषाधिकार है जो परमेश्वर के साथ उनकी संगति में है (<a href=\"https://ref.ly/Amos3:7\">आमो 3:7</a>)। लेकिन इस्राएल में भविष्यद्वाणी जाति-जाति के लोगों के बीच पाए जाने वाले पूर्वानुमान से पूरी तरह से अलग थी, क्योंकि यह किसी भी तरह से भविष्य के बारे में मात्र जिज्ञासा से प्रेरित नहीं थी। </p><p>सबसे पहले, बाइबिल की भविष्यद्वाणी वर्तमान की आवश्यकताओं से उत्पन्न हुई। <a href=\"https://ref.ly/Isa39:1-Isa39:8\">यशा 39</a> में बाबेल के साथ सैन्य समझ पर सुरक्षा के लिए भरोसा करने की हिजकिय्याह की अविश्वसनीय प्रतिबद्धता है जो यशायाह को भविष्य में बाबेल की कैद की घोषणा करने के लिए प्रेरित करती है। यशायाह बाबेल का नाम हवा से नहीं छीनते; यह उन्हें उस परिस्थिति में दिया गया है जिसमें उन्हें सेवा करने के लिए बुलाया गया था।</p><p>दूसरा, भविष्य का ज्ञान देने के उद्देश्य से की गई भविष्यद्वाणी का परिणाम वर्तमान में नैतिक सुधार होना था। भविष्यद्वक्ताओं की नैतिक उपदेशों का स्पष्टीकरण इस बात में मिलता है कि प्रभु क्या करने वाले हैं (उदाहरण के लिए, <a href=\"https://ref.ly/Isa31:6-Isa31:7\">यशा 31:6–7</a>; <a href=\"https://ref.ly/Amos5:6\">आमो 5:6</a>)।</p><p>तीसरा, घटनाओं का पूर्वानुमानित क्रम अंधकारमय समय में सच्चे विश्वासियों के विश्वास को स्थिर करने के उद्देश्य से था। उदाहरण के लिए, यशायाह के विभिन्न पद्यांश (<a href=\"https://ref.ly/Isa31:6-Isa31:7\">यशा</a><a href=\"https://ref.ly/Isa9:1-Isa9:7\"> 9:1–7</a>; <a href=\"https://ref.ly/Isa11:1-Isa11:16\">11:1–16</a>; <a href=\"https://ref.ly/Isa40:1-Isa40:3\">40:1–3</a>) का प्रभाव ऐसा है कि वे हमारी आँखों को तुरन्त पहले हुई भयंकर त्रासदी से हटाकर आने वाली महिमा की ओर ले जाते हैं।</p><h2>संचार के तरीके</h2><p>भविष्य के बारे में बताते समय, भविष्यद्वक्ता सत्य की उद्घोषणा कर रहे थे - वे परमेश्वर के अद्भुत कार्यों की घोषणा कर रहे थे (<a href=\"https://ref.ly/Acts2:11,Acts2:17\">प्रेरि 2:11, 17 </a>में भविष्यद्वानी की परिभाषा को पुष्टि करें)। अधिकांश भाग के लिए, यह घोषणा सीधे मौखिक रूप से की गई थी। भविष्यद्वक्ता वचन के व्यक्ति थे। उनके शब्द परमेश्वर द्वारा भेजे गए संदेशवाहकों जैसे थे (<a href=\"https://ref.ly/Isa55:11\">यशा 55:11</a>), जो <a href=\"https://ref.ly/Gen1:3\">उत 1:3</a> (पुष्टि करें <a href=\"https://ref.ly/Ps33:6\">भज 33:6</a>) के रचनात्मक शब्द की सभी दिव्य क्षमता से संपन्न थे। कभी-कभी शब्द की क्षमता को किसी संकेत या प्रतीकात्मक क्रिया (उदाहरण के लिए, <a href=\"https://ref.ly/Jer13:1-Jer13:11\">यिर्म 13:1–11</a>; <a href=\"https://ref.ly/Jer19:1-Jer19:15\">19</a>; <a href=\"https://ref.ly/Ezek4:1-Ezek4:17\">यहेज 4:1–17</a>; <a href=\"https://ref.ly/Ezek24:15-Ezek24:24\">24:15–24</a>) के साथ जोड़कर बढ़ाया जाता था, या किसी व्यक्ति के साथ घनिष्ठ रूप से पहचाना जाता था (<a href=\"https://ref.ly/Isa7:3\">यशा 7:3</a>; पुष्टि करें <a href=\"https://ref.ly/Isa8:1-Isa8:4\">8:1–4</a>)। ऐसी चीजें दृश्य सहायक जैसी थीं, जिससे वचन उपस्थित लोगों के लिए अधिक स्पष्ट हो जाता था। लेकिन ऐसा प्रतीत होता है कि प्रतीकात्मक क्रिया (कभी-कभी इसे &quot;अभिनीत भविष्यद्वाणी&quot; कहा जाता है) का उद्देश्य समझ को आसान बनाना नहीं था बल्कि वचन को अधिक शक्ति और प्रभाव देना था क्योंकि इसे उस स्थिति में एक सन्देशवाहक की तरह भेजा गया था। यह <a href=\"https://ref.ly/2Kgs13:14-2Kgs13:19\">2 रा 13:14–19</a> से निकाला जाने वाला निष्कर्ष है, जहाँ राजा ने जिस हद तक वचन को कार्य में &quot;अवतरित&quot; किया, उससे यह निर्धारित होता है कि वचन किस हद तक घटनाओं को पूरा करने में प्रभावी साबित होगा। </p><p>भविष्यद्वक्ताओं के शब्दों का अन्तिम रूप उन पुस्तकों में है जिन्हें संरक्षित किया गया है। <a href=\"https://ref.ly/Jer36:1-Jer36:32\">यिर्म 36</a> को इस तथ्य के सन्दर्भ में एक उदाहरण के रूप में लिया जा सकता है कि भविष्यद्वक्ताओं ने अपने बोले गए सन्देशों को लिखित रूप में दर्ज करने के लिए समय और परेशानी उठाई: शब्द-दर-शब्द सावधानीपूर्वक लिखे जाने पर जोर दिया गया था (<a href=\"https://ref.ly/Jer36:6,Jer36:17-Jer36:18\">यिर्म 36:6, 17–18</a>)। लेकिन सन्देशों का वास्तविक साहित्यिक रूप भी यही कहानी कहता है। हम भविष्यद्वक्ताओं की पुस्तकों में जो पाते हैं, वह उनके शब्दों का प्रचारित रूप नहीं हो सकता, बल्कि वे अध्ययन किए गए शब्द हैं, जिनमें उन्होंने अपने उपदेशों को सुरक्षित रखा (और संग्रहीत) किया। यह तर्कपूर्ण है कि जो लोग परमेश्वर के वचनों को संप्रेषित करने के प्रति सचेत थे, वे यह सुनिश्चित करेंगे कि वे वचन खो न जाएँ। हम यह मान सकते हैं कि प्रत्येक भविष्यद्वक्ता ने अपनी सेवकाई का लिखित अभिलेख सुरक्षित रखा है। क्या प्रत्येक नामित भविष्यद्वक्ता अपनी पुस्तक के अन्तिम रूप के लिए स्वयं सीधे जिम्मेदार थें, यह हमें नहीं बताया गया है और न ही जानने का कोई तरीका है। उदाहरण के लिए, यशायाह या आमोस की पुस्तकें जिस सावधानी से व्यवस्थित की गई हैं, यह मानने के लिए सबसे उपयुक्त है कि लेखक स्वयं भी उसका संपादक था।</p><p><em>यह भी देखें</em>  <span data-bnType=\"resourceReference\" data-resourceId=\"6998\" data-resourceType=\"TyndaleBibleDictionary\">भविष्यद्वाणी</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"7000\" data-resourceType=\"TyndaleBibleDictionary\">भविष्यद्वक्ता, झूठे</span>।</p>",
@@ -3076,7 +3116,7 @@
 {
 "content_id": "180534",
 "reference_id": 6998,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भविष्यवाणी",
 "media_type": "Text",
 "index_reference": "भविष्यवाणी",
@@ -4408,10 +4448,10 @@
 {
 "content_id": "184877",
 "reference_id": 3519,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भाइयों (और बहनों)",
 "media_type": "Text",
-"index_reference": "भाइयों (और बहनों)",
+"index_reference": "भाइयों और बहनों",
 "language": "hin",
 "review_level": "None",
 "content": "<h1><span>भाइयों </span>(और बहनों)</h1><p>परमेश्वर के घराने में रहने वालों की पदवी। इस बात के अच्छे प्रमाण हैं कि यीशु के समय यहूदी अक्सर अपने आप को भाई कहते थे (<a href=\"https://ref.ly/Acts2:29,Acts2:37\">प्रेरितों के काम 2:29, 37</a>; <a href=\"https://ref.ly/Acts7:2\">7:2</a>; <a href=\"https://ref.ly/Acts22:5\">22:5</a>; <a href=\"https://ref.ly/Acts28:21\">28:21</a>; <a href=\"https://ref.ly/Rom9:3\">रोम 9:3</a>)। शुरू से ही यहूदी मसीहियों के लिए एक-दूसरे को &quot;भाई&quot; (अर्थात, &quot;सहोदर&quot;—इस शब्द में पुरुष और स्त्री दोनों शामिल थे; <a href=\"https://ref.ly/Acts1:15-Acts1:16\">प्रेरितों के काम 1:15–16</a>; <a href=\"https://ref.ly/Acts9:30\">9:30</a>; <a href=\"https://ref.ly/Acts11:1\">11:1</a>) कहना स्वाभाविक था। अन्यजातीय धार्मिक समुदायों के सदस्य भी एक-दूसरे को भाई कहते थे, इसलिए यह नाम अन्यजातीय कलीसियाओं में भी प्रचलित हो गया (<a href=\"https://ref.ly/Acts17:14\">प्रेरितों के काम 17:14</a>; <a href=\"https://ref.ly/Rom1:13\">रोम 1:13</a>; <a href=\"https://ref.ly/1Cor1:1,1Cor1:10\">1 कुरि 1:1, 10</a>; और अन्यजातीय कलीसियाओं  के लिए पौलुस के पत्रों में दर्जनों अन्य स्थानों पर उपयोग किया गया)। वास्तव में, &quot;चेले&quot; (प्रेरितों के काम में) और &quot;संत&quot; (पौलुस की लेखनी और प्रकाशितवाक्य की पुस्तक में हमेशा बहुवचन में) के साथ-साथ, यह मसीहियों के लिए सबसे लोकप्रिय नामों में से एक था और याकूब और 1 यूहन्ना में उपयोग किया गया मुख्य नाम था।</p><p>प्रत्येक मसीही को &quot;भाई&quot; कहा जाता था, और सामूहिक रूप से उन्हें &quot;भाईयों&quot; कहा जाता था। यह नाम मसीही समुदाय के घनिष्ट संबंध पर जोर देता था। अर्थात, विश्वासियों के बीच का संबंध लहू संबंधियों जितना निकट था (वास्तव में, उससे भी अधिक—<a href=\"https://ref.ly/Mark10:23-Mark10:31\">मर 10:23–31</a>)। 1&nbsp;यूहन्ना और याकूब में यह नाम इस दावे को रेखांकित करता है कि गरीब मसीहियों का आमिर मसीहियों पर भी हक़ है (<a href=\"https://ref.ly/Jas2:15\">याकू 2:15</a>; <a href=\"https://ref.ly/1John3:10-1John3:18\">1&nbsp;यूह 3:10–18</a>; <a href=\"https://ref.ly/1John4:20-1John4:21\">4:20–21</a>)। यह मसीही समुदाय के सदस्यों के बीच समानता की ओर भी इंगित करता है।</p>",
@@ -4527,7 +4567,7 @@
 {
 "content_id": "184878",
 "reference_id": 3521,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भाई",
 "media_type": "Text",
 "index_reference": "भाई",
@@ -4702,7 +4742,7 @@
 {
 "content_id": "381561",
 "reference_id": 5187,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भारत",
 "media_type": "Text",
 "index_reference": "भारत",
@@ -4765,9 +4805,9 @@
 {
 "id": "place:India",
 "type": "place",
-"preferred_label": "भारत",
-"confidence": 0.7,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "भारत"
 }
 ]
 }
@@ -4775,7 +4815,7 @@
 {
 "content_id": "733278",
 "reference_id": 5411,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भाला",
 "media_type": "Text",
 "index_reference": "भाला",
@@ -4793,16 +4833,24 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Javelin",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Javelin"
+}
+]
 }
 },
 {
 "content_id": "648783",
 "reference_id": 4728,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भाला (हेबरजोन)",
 "media_type": "Text",
-"index_reference": "भाला (हेबरजोन)",
+"index_reference": "भाला हेबरजोन",
 "language": "hin",
 "review_level": "None",
 "content": "<h1>भाला (हेबरजोन)</h1><p>किंग जेम्स संस्करण अनुवाद में सैनिक के रक्षात्मक कवच का एक हिस्सा (<a href=\"https://ref.ly/2Chr26:14\">2&nbsp;इति 26:14</a>; <a href=\"https://ref.ly/Neh4:16\">नहे 4:16</a>; <a href=\"https://ref.ly/Job41:26\">अय्यू 41:26, </a>एन एल टी &quot;भाला&quot;)। <em>देखें</em>  <span data-bnType=\"resourceReference\" data-resourceId=\"2918\" data-resourceType=\"TyndaleBibleDictionary\">कवच और हथियार</span>।</p>",
@@ -4842,7 +4890,7 @@
 {
 "content_id": "381058",
 "reference_id": 3987,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भावी",
 "media_type": "Text",
 "index_reference": "भावी",
@@ -4885,13 +4933,21 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Destiny",
+"type": "deity",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "भाग्य"
+}
+]
 }
 },
 {
 "content_id": "381228",
 "reference_id": 7745,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भावी कहनेवाला",
 "media_type": "Text",
 "index_reference": "भावी कहनेवाला",
@@ -4971,7 +5027,7 @@
 {
 "content_id": "184864",
 "reference_id": 3245,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भिखारी",
 "media_type": "Text",
 "index_reference": "भिखारी",
@@ -5153,7 +5209,7 @@
 {
 "content_id": "381067",
 "reference_id": 4083,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भूकम्प",
 "media_type": "Text",
 "index_reference": "भूकम्प",
@@ -5248,10 +5304,10 @@
 {
 "content_id": "594708",
 "reference_id": 6505,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भूत साधनेवाला, काला जादू",
 "media_type": "Text",
-"index_reference": "भूत साधनेवाला, काला जादू",
+"index_reference": "भूत साधनेवाला काला जादू",
 "language": "hin",
 "review_level": "None",
 "content": "<h1><span>भूत साधनेवाला, भूत साधना</span></h1><p><span>भूत साधनेवाला</span> वह व्यक्ति होता है जो मृत लोगों से बात करने का प्रयास करता है। भूत साधना मृतकों के साथ संवाद करने का अभ्यास है ताकि रहस्यों को जाना जा सके या भविष्यद्वाणी की जा सके। परमेश्वर की व्यवस्था इस्राएलियों को ऐसा करने से सख्ती से मना करती थी (<a href=\"https://ref.ly/Deut18:11\">व्य.वि. 18:11</a>) ।</p><p><em>देखें</em> <span data-bnType=\"resourceReference\" data-resourceId=\"6021\" data-resourceType=\"TyndaleBibleDictionary\">जादू</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"6181\" data-resourceType=\"TyndaleBibleDictionary\">माध्यम</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"7012\" data-resourceType=\"TyndaleBibleDictionary\">मनोवैज्ञानिक</span>।</p>",
@@ -5287,13 +5343,21 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Spirit",
+"type": "keyterm",
+"confidence": 0.8515,
+"match_method": "scored",
+"preferred_label": "Necromancer"
+}
+]
 }
 },
 {
 "content_id": "594749",
 "reference_id": 7012,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भूत साधनेवाले",
 "media_type": "Text",
 "index_reference": "भूत साधनेवाले",
@@ -5336,7 +5400,7 @@
 {
 "content_id": "594686",
 "reference_id": 6180,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भूमध्य सागर",
 "media_type": "Text",
 "index_reference": "भूमध्य सागर",
@@ -5389,13 +5453,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:GreatSea",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "महासागर"
+}
+]
 }
 },
 {
 "content_id": "381650",
 "reference_id": 5846,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भूमि",
 "media_type": "Text",
 "index_reference": "भूमि",
@@ -5688,7 +5760,7 @@
 {
 "content_id": "594353",
 "reference_id": 2685,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भूमि का आवंटन",
 "media_type": "Text",
 "index_reference": "भूमि का आवंटन",
@@ -5782,7 +5854,7 @@
 {
 "content_id": "732905",
 "reference_id": 4037,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भूमि का विभाजन",
 "media_type": "Text",
 "index_reference": "भूमि का विभाजन",
@@ -5806,7 +5878,7 @@
 {
 "content_id": "381043",
 "reference_id": 3803,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भूमि पर विजय और बटवारा",
 "media_type": "Text",
 "index_reference": "भूमि पर विजय और बटवारा",
@@ -5933,7 +6005,7 @@
 {
 "content_id": "647746",
 "reference_id": 4461,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भूलने की भूमि",
 "media_type": "Text",
 "index_reference": "भूलने की भूमि",
@@ -5976,7 +6048,7 @@
 {
 "content_id": "620632",
 "reference_id": 3633,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भूसी",
 "media_type": "Text",
 "index_reference": "भूसी",
@@ -6017,7 +6089,7 @@
 {
 "content_id": "733156",
 "reference_id": 4923,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भेंट",
 "media_type": "Text",
 "index_reference": "भेंट",
@@ -6041,7 +6113,7 @@
 {
 "content_id": "381743",
 "reference_id": 6630,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भेंट और बलिदान",
 "media_type": "Text",
 "index_reference": "भेंट और बलिदान",
@@ -7622,13 +7694,21 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.5838,
+"match_method": "scored",
+"preferred_label": "Offering"
+}
+]
 }
 },
 {
 "content_id": "649665",
 "reference_id": 7618,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भेंट की रोटी",
 "media_type": "Text",
 "index_reference": "भेंट की रोटी",
@@ -7651,7 +7731,7 @@
 {
 "content_id": "732990",
 "reference_id": 4368,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भेड़",
 "media_type": "Text",
 "index_reference": "भेड़",
@@ -7667,7 +7747,7 @@
 {
 "content_id": "733868",
 "reference_id": 7496,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भेड़",
 "media_type": "Text",
 "index_reference": "भेड़",
@@ -7677,13 +7757,21 @@
 "associations": {
 "passage": [],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Sheep"
+}
+]
 }
 },
 {
 "content_id": "620799",
 "reference_id": 7495,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भेड़फाटक",
 "media_type": "Text",
 "index_reference": "भेड़फाटक",
@@ -7722,9 +7810,9 @@
 {
 "id": "place:SheepGate",
 "type": "place",
-"preferred_label": "भेड़ फाटक",
-"confidence": 0.973,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "भेड़ फाटक"
 }
 ]
 }
@@ -7732,7 +7820,7 @@
 {
 "content_id": "734123",
 "reference_id": 8253,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भेड़िया",
 "media_type": "Text",
 "index_reference": "भेड़िया",
@@ -7750,13 +7838,21 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "fauna:Wolf",
+"type": "fauna",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Wolf"
+}
+]
 }
 },
 {
 "content_id": "180516",
 "reference_id": 6425,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भेद",
 "media_type": "Text",
 "index_reference": "भेद",
@@ -8061,7 +8157,7 @@
 {
 "content_id": "381342",
 "reference_id": 3159,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भोज",
 "media_type": "Text",
 "index_reference": "भोज",
@@ -8288,7 +8384,7 @@
 {
 "content_id": "184966",
 "reference_id": 6166,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भोजन का महत्व",
 "media_type": "Text",
 "index_reference": "भोजन का महत्व",
@@ -8458,7 +8554,7 @@
 {
 "content_id": "620744",
 "reference_id": 6376,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भोर का तारा",
 "media_type": "Text",
 "index_reference": "भोर का तारा",
@@ -8589,10 +8685,10 @@
 {
 "content_id": "620645",
 "reference_id": 3942,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "भोर का प्रकाश, भोर का तारा",
 "media_type": "Text",
-"index_reference": "भोर का प्रकाश, भोर का तारा",
+"index_reference": "भोर का प्रकाश भोर का तारा",
 "language": "hin",
 "review_level": "None",
 "content": "<h1>भोर का प्रकाश, <span>भोर का तारा</span></h1><p>&quot;भोर का प्रकाश&quot; और &quot;<span>भोर का तारा&quot; </span> ऐसे शब्द हैं जो केजेवी में शुक्र ग्रह का उल्लेख करने के लिए उपयोग किए जाते हैं, जो सूर्योदय से पहले स्पष्ट रूप से दिखाई देता है, या भोर की पहली किरण तक दिखाई देता है। </p><ul><li><p>केजेवी में <a href=\"https://ref.ly/Job38:12\">अय्यूब 38:12</a> और <a href=\"https://ref.ly/Luke1:78\">लूका 1:78</a> दोनों में &quot;भोर के प्रकाश&quot; शब्द का उपयोग किया गया है, जबकि बेरेन स्टैंडर्ड बाइबल में &quot;भोर&quot; शब्द का उपयोग किया गया है।</p></li><li><p><a href=\"https://ref.ly/2Pet1:19\">2&nbsp;पतरस 1:19</a> में केजेवी &quot;भोर का तारा&quot; शब्द का उपयोग करता है, जबकि बेरेन स्टैंडर्ड बाइबल &quot;सुबह का तारा&quot; शब्द का उपयोग करती है।</p></li></ul><p><a href=\"https://ref.ly/Isa14:12\">यशायाह 14:12</a> में, &quot;भोर का तारा&quot; बाबेल के घमण्डी राजा को संदर्भित करता है। किंग जेम्स संस्करण उन्हें &quot;लूसीफर &quot; कहता है। इस राजा ने बहुत ऊँचा उठने की कोशिश की और इस्राएल को नुकसान पहुँचाया। यह पद इंगित करता है कि परमेश्वर उसे नीचे गिरा देंगे, जैसे भोर का तारा सूरज के उगने पर फीका पड़ जाता है।</p><p><em>देखिए</em> <span data-bnType=\"resourceReference\" data-resourceId=\"6376\" data-resourceType=\"TyndaleBibleDictionary\">सुबह का तारा</span>।</p>",

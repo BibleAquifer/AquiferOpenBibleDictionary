@@ -2,7 +2,7 @@
 {
 "content_id": "7447",
 "reference_id": 6615,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oak",
 "media_type": "Text",
 "index_reference": "oak",
@@ -24,9 +24,55 @@
 {
 "id": "flora:Oak",
 "type": "flora",
-"preferred_label": "Oak",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Oak"
+}
+]
+}
+},
+{
+"content_id": "7441",
+"reference_id": 6609,
+"version": "1.0.4",
+"title": "Oak, Diviners’",
+"media_type": "Text",
+"index_reference": "oak diviners",
+"language": "eng",
+"review_level": "None",
+"content": "<h1>OAK, Diviners’</h1><p>Tree near Shechem (<a href=\"https://ref.ly/Judg9:37\">Jgs 9:37</a>). <em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4036\" data-resourceType=\"TyndaleBibleDictionary\">Diviners’ Oak</span>.</p>",
+"associations": {
+"passage": [
+{
+"start_ref": "07009037",
+"start_ref_usfm": "JDG 9:37",
+"end_ref": "07009037",
+"end_ref_usfm": "JDG 9:37"
+}
+],
+"resource": [
+{
+"reference_id": 4036,
+"content_id": 4868,
+"resource_code": "TyndaleBibleDictionary",
+"label": "Diviners’ Oak",
+"language": "eng"
+}
+],
+"acai": [
+{
+"id": "flora:Oak",
+"type": "flora",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Oak"
+},
+{
+"id": "place:DivinersOak",
+"type": "place",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "Diviners’ Oak"
 }
 ]
 }
@@ -34,7 +80,7 @@
 {
 "content_id": "7442",
 "reference_id": 6610,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oak of Meonenim",
 "media_type": "Text",
 "index_reference": "oak of meonenim",
@@ -63,16 +109,16 @@
 {
 "id": "place:DivinersOak",
 "type": "place",
-"preferred_label": "Diviners’ Oak",
 "confidence": 0.865,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Diviners’ Oak"
 },
 {
 "id": "flora:Oak",
 "type": "flora",
-"preferred_label": "Oak",
 "confidence": 0.7465,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Oak"
 }
 ]
 }
@@ -80,7 +126,7 @@
 {
 "content_id": "7443",
 "reference_id": 6611,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oak of the Pillar",
 "media_type": "Text",
 "index_reference": "oak of the pillar",
@@ -116,16 +162,16 @@
 {
 "id": "place:Beth-millo",
 "type": "place",
-"preferred_label": "Beth-millo",
 "confidence": 0.7795,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Beth-millo"
 },
 {
 "id": "flora:Oak",
 "type": "flora",
-"preferred_label": "Oak",
 "confidence": 0.679,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Oak"
 }
 ]
 }
@@ -133,7 +179,7 @@
 {
 "content_id": "7444",
 "reference_id": 6612,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oak of Weeping",
 "media_type": "Text",
 "index_reference": "oak of weeping",
@@ -154,16 +200,16 @@
 {
 "id": "place:Allon-bacuth",
 "type": "place",
-"preferred_label": "Allon-bachuth",
 "confidence": 1.0,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Allon-bachuth"
 },
 {
 "id": "flora:Oak",
 "type": "flora",
-"preferred_label": "Oak",
 "confidence": 0.7975,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Oak"
 }
 ]
 }
@@ -171,7 +217,7 @@
 {
 "content_id": "7445",
 "reference_id": 6613,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oak of Zaanannim",
 "media_type": "Text",
 "index_reference": "oak of zaanannim",
@@ -206,62 +252,16 @@
 {
 "id": "place:Zaanannim",
 "type": "place",
-"preferred_label": "Zaanannim",
 "confidence": 0.874,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Zaanannim"
 },
 {
 "id": "flora:Oak",
 "type": "flora",
-"preferred_label": "Oak",
 "confidence": 0.6565,
-"match_method": "scored"
-}
-]
-}
-},
-{
-"content_id": "7441",
-"reference_id": 6609,
-"version": "1.0.2",
-"title": "Oak, Diviners’",
-"media_type": "Text",
-"index_reference": "oak, diviners’",
-"language": "eng",
-"review_level": "None",
-"content": "<h1>OAK, Diviners’</h1><p>Tree near Shechem (<a href=\"https://ref.ly/Judg9:37\">Jgs 9:37</a>). <em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4036\" data-resourceType=\"TyndaleBibleDictionary\">Diviners’ Oak</span>.</p>",
-"associations": {
-"passage": [
-{
-"start_ref": "07009037",
-"start_ref_usfm": "JDG 9:37",
-"end_ref": "07009037",
-"end_ref_usfm": "JDG 9:37"
-}
-],
-"resource": [
-{
-"reference_id": 4036,
-"content_id": 4868,
-"resource_code": "TyndaleBibleDictionary",
-"label": "Diviners’ Oak",
-"language": "eng"
-}
-],
-"acai": [
-{
-"id": "flora:Oak",
-"type": "flora",
-"preferred_label": "Oak",
-"confidence": 1.0,
-"match_method": "content_id"
-},
-{
-"id": "place:DivinersOak",
-"type": "place",
-"preferred_label": "Diviners’ Oak",
-"confidence": 1.0,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Oak"
 }
 ]
 }
@@ -269,7 +269,7 @@
 {
 "content_id": "7446",
 "reference_id": 6614,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oaks of Mamre",
 "media_type": "Text",
 "index_reference": "oaks of mamre",
@@ -298,30 +298,30 @@
 {
 "id": "flora:Oak",
 "type": "flora",
-"preferred_label": "Oak",
 "confidence": 0.85,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Oak"
 },
 {
 "id": "place:Mamre",
 "type": "place",
-"preferred_label": "Mamre",
 "confidence": 0.652,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Mamre"
 },
 {
 "id": "realia:StoneAltar",
 "type": "realia",
-"preferred_label": "Stone Altar",
 "confidence": 0.589,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Stone Altar"
 },
 {
 "id": "deity:Lord",
 "type": "deity",
-"preferred_label": "LORD",
 "confidence": 0.58,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "LORD"
 }
 ]
 }
@@ -329,7 +329,7 @@
 {
 "content_id": "7448",
 "reference_id": 6616,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oath",
 "media_type": "Text",
 "index_reference": "oath",
@@ -509,9 +509,9 @@
 {
 "id": "keyterm:Oath",
 "type": "keyterm",
-"preferred_label": "Oath",
 "confidence": 0.6449,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Oath"
 }
 ]
 }
@@ -519,10 +519,10 @@
 {
 "content_id": "7450",
 "reference_id": 6618,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Obadiah (Person)",
 "media_type": "Text",
-"index_reference": "obadiah (person)",
+"index_reference": "obadiah person",
 "language": "eng",
 "review_level": "None",
 "content": "<h1>OBADIAH (Person)</h1><ol><li><p>Governor of Ahab’s house (<a href=\"https://ref.ly/1Kgs18:3-1Kgs18:16\">1&nbsp;Kings 18:3–16</a>). Obadiah was an important official who managed King Ahab’s household. Elijah met him after a long drought and asked him to bring Ahab to him. Both Ahab and Obadiah were looking for water and grass (verse <a href=\"https://ref.ly/1Kgs18:3\">5</a>). Even though Obadiah worked for Ahab, he remained loyal to the Lord. He hid 100 prophets in caves and provided them with food and water.</p></li><li><p>A descendant of King David (<a href=\"https://ref.ly/1Chr3:21\">1&nbsp;Chronicles 3:21</a>). </p></li><li><p>A descendant of Izrahiah from Issachar’s tribe (<a href=\"https://ref.ly/1Chr7:3\">1&nbsp;Chronicles 7:3</a>). </p></li><li><p>Azel’s son and a descendant of King Saul from Benjamin’s tribe (<a href=\"https://ref.ly/1Chr8:38\">1&nbsp;Chronicles 8:38</a>; <a href=\"https://ref.ly/1Chr9:44\">9:44</a>). </p></li><li><p>Son of Shemaiah, who was among the first Levites returning from exile to Jerusalem. He lived in one of the villages of the Netophathites (<a href=\"https://ref.ly/1Chr9:16\">1&nbsp;Chronicles 9:16</a>). He is called Abda in <a href=\"https://ref.ly/Neh11:17\">Nehemiah 11:17</a>. <em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"2437\" data-resourceType=\"TyndaleBibleDictionary\">Abda #2</span>. </p></li><li><p>A Gadite who joined David at his stronghold in the wilderness. He was a strong warrior, skilled with both shield and spear. He was also very fast (<a href=\"https://ref.ly/1Chr12:8-1Chr12:9\">1&nbsp;Chronicles 12:8–9</a>). </p></li><li><p>The father of Ishmaiah, commander over the army of Zebulun (<a href=\"https://ref.ly/1Chr27:19\">1&nbsp;Chronicles 27:19</a>).</p></li><li><p>Prince of Judah during King Jehoshaphat’s reign (<a href=\"https://ref.ly/2Chr17:7\">2&nbsp;Chronicles 17:7</a>). He joined four other officers and the Levites in teaching the law throughout the cities of Judah.</p></li><li><p>A Levite overseer during King Josiah’s reign (<a href=\"https://ref.ly/2Chr34:12\">2&nbsp;Chronicles 34:12</a>). He was in charge of the repair of the temple.</p></li><li><p>Son of Jehiel (<a href=\"https://ref.ly/Ezra8:9\">Ezra 8:9</a>). He joined Ezra in his journey from Babylon to Jerusalem, leading 218 men with him. </p></li><li><p>A priest who signed Ezra’s covenant (<a href=\"https://ref.ly/Neh10:5\">Nehemiah 10:5</a>). </p></li><li><p>A gatekeeper and Levite who oversaw the storehouses by the gates during the time of Joiakim, son of Jeshua (<a href=\"https://ref.ly/Neh12:25-Neh12:26\">Nehemiah 12:25–26</a>).</p></li><li><p>A prophet who prophesied (gave a message from God) against Edom. The Edomites had celebrated when Babylon defeated Jerusalem in 597 BC. Obadiah described the behavior of the Edomites in his prophecy (<a href=\"https://ref.ly/Obad1:11-Obad1:14\">Obadiah 1:11–14</a>). Obadiah&apos;s prophecy is the shortest book in the Old Testament. It predicted God’s judgment on Edom (verses <a href=\"https://ref.ly/Obad1:2-Obad1:10\">2–10</a>, <a href=\"https://ref.ly/Obad1:15\">15</a>). </p></li></ol><p><em>See also</em> <span data-bnType=\"resourceReference\" data-resourceId=\"6617\" data-resourceType=\"TyndaleBibleDictionary\">Obadiah, Book of</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"6999\" data-resourceType=\"TyndaleBibleDictionary\">Prophet, Prophetess</span>.</p>",
@@ -664,86 +664,86 @@
 {
 "id": "person:Obadiah.10",
 "type": "person",
-"preferred_label": "Obadiah",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Obadiah"
 },
 {
 "id": "person:Obadiah.11",
 "type": "person",
-"preferred_label": "Obadiah",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Obadiah"
 },
 {
 "id": "person:Obadiah.12",
 "type": "person",
-"preferred_label": "Obadiah",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Obadiah"
 },
 {
 "id": "person:Obadiah.2",
 "type": "person",
-"preferred_label": "Obadiah",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Obadiah"
 },
 {
 "id": "person:Obadiah.3",
 "type": "person",
-"preferred_label": "Obadiah",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Obadiah"
 },
 {
 "id": "person:Obadiah.4",
 "type": "person",
-"preferred_label": "Obadiah",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Obadiah"
 },
 {
 "id": "person:Obadiah.5",
 "type": "person",
-"preferred_label": "Obadiah",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Obadiah"
 },
 {
 "id": "person:Obadiah.6",
 "type": "person",
-"preferred_label": "Obadiah",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Obadiah"
 },
 {
 "id": "person:Obadiah.7",
 "type": "person",
-"preferred_label": "Obadiah",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Obadiah"
 },
 {
 "id": "person:Obadiah.8",
 "type": "person",
-"preferred_label": "Obadiah",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Obadiah"
 },
 {
 "id": "person:Obadiah.9",
 "type": "person",
-"preferred_label": "Obadiah",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Obadiah"
 },
 {
 "id": "person:Obadiah",
 "type": "person",
-"preferred_label": "Obadiah",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Obadiah"
 }
 ]
 }
@@ -751,7 +751,7 @@
 {
 "content_id": "7451",
 "reference_id": 6619,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Obal",
 "media_type": "Text",
 "index_reference": "obal",
@@ -780,9 +780,9 @@
 {
 "id": "person:Obal",
 "type": "person",
-"preferred_label": "Obal",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Obal"
 }
 ]
 }
@@ -790,7 +790,7 @@
 {
 "content_id": "7454",
 "reference_id": 6622,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Obed",
 "media_type": "Text",
 "index_reference": "obed",
@@ -867,37 +867,37 @@
 {
 "id": "person:Obed.2",
 "type": "person",
-"preferred_label": "Obed",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Obed"
 },
 {
 "id": "person:Obed.3",
 "type": "person",
-"preferred_label": "Obed",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Obed"
 },
 {
 "id": "person:Obed.4",
 "type": "person",
-"preferred_label": "Obed",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Obed"
 },
 {
 "id": "person:Obed.5",
 "type": "person",
-"preferred_label": "Obed",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Obed"
 },
 {
 "id": "person:Obed",
 "type": "person",
-"preferred_label": "Obed",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Obed"
 }
 ]
 }
@@ -905,10 +905,10 @@
 {
 "content_id": "7452",
 "reference_id": 6620,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Obed-Edom",
 "media_type": "Text",
-"index_reference": "obed-edom",
+"index_reference": "obededom",
 "language": "eng",
 "review_level": "None",
 "content": "<h1>OBED-EDOM</h1><ol><li><p>A man who took care of the ark of the covenant when David was moving it from Gibeah to Jerusalem (<a href=\"https://ref.ly/2Sam6:10-2Sam6:12\">2&nbsp;Samuel 6:10–12</a>; <a href=\"https://ref.ly/1Chr13:5-1Chr13:14\">1&nbsp;Chronicles 13:5–14</a>). The Bible calls him a<span> </span>Gittite, which indicates that his birthplace was Gath. This was probably not the Philistine city of Gath, but a Levitical town called Gath-rimmon in the land of Dan. It is the same place as “Gath-rimmon” (<a href=\"https://ref.ly/Josh19:45\">Joshua 19:45</a>). Obed-edom was likely a Levite, which made him able to care for the ark.</p><p>Earlier, a man named Uzzah had touched the ark to keep it from falling. Because this broke the law, he died right away. David became afraid and decided not to move the ark to Jerusalem yet. Obed-edom lived nearby, so David left the ark in his house.</p><p>After three months, David heard that God had blessed Obed-edom’s family. David realized that Uzzah had died because the ark was not being carried in the right way according to the law of Moses (<a href=\"https://ref.ly/Num4:15\">Numbers 4:15</a>; <a href=\"https://ref.ly/Num7:9\">7:9</a>). IIt was not because God was angry with Uzzah as a person. David then had the ark moved the right way to Jerusalem (<a href=\"https://ref.ly/1Chr15:25-1Chr15:28\">1&nbsp;Chronicles 15:25–28</a>). Later, Obed-edom may have become a gatekeeper for the ark in Jerusalem (<a href=\"https://ref.ly/1Chr15:24\">15:24</a>; <a href=\"https://ref.ly/1Chr26:4,1Chr26:8,1Chr26:15\">26:4, 8, 15</a>). Some scholars think this may have been a different man with the same name.</p></li><li><p>A Levite musician who played music in front of the ark (<a href=\"https://ref.ly/1Chr15:21\">1&nbsp;Chronicles 15:21</a>; <a href=\"https://ref.ly/1Chr16:5,1Chr16:38\">16:5, 38</a>). He was the son of Jeduthun, one of David’s lead singers. Some scholars think this Obed-edom was a different person from the man who cared for the ark.</p></li><li><p>A Levite who guarded the of the holy items in the temple. King Joash later took these items during a raid (<a href=\"https://ref.ly/2Chr25:24\">2&nbsp;Chronicles 25:24</a>).</p></li></ol>",
@@ -1004,9 +1004,9 @@
 {
 "id": "person:Obed-edom",
 "type": "person",
-"preferred_label": "Obed-edom",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Obed-edom"
 }
 ]
 }
@@ -1014,7 +1014,7 @@
 {
 "content_id": "7453",
 "reference_id": 6621,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Obedience",
 "media_type": "Text",
 "index_reference": "obedience",
@@ -1247,7 +1247,7 @@
 {
 "content_id": "7455",
 "reference_id": 6623,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Obil",
 "media_type": "Text",
 "index_reference": "obil",
@@ -1268,9 +1268,9 @@
 {
 "id": "person:Obil",
 "type": "person",
-"preferred_label": "Obil",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Obil"
 }
 ]
 }
@@ -1278,7 +1278,7 @@
 {
 "content_id": "7456",
 "reference_id": 6624,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oblation",
 "media_type": "Text",
 "index_reference": "oblation",
@@ -1302,7 +1302,7 @@
 {
 "content_id": "7457",
 "reference_id": 6625,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oboth",
 "media_type": "Text",
 "index_reference": "oboth",
@@ -1337,9 +1337,9 @@
 {
 "id": "place:Oboth",
 "type": "place",
-"preferred_label": "Oboth",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Oboth"
 }
 ]
 }
@@ -1347,7 +1347,7 @@
 {
 "content_id": "7458",
 "reference_id": 6626,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ochran",
 "media_type": "Text",
 "index_reference": "ochran",
@@ -1369,9 +1369,9 @@
 {
 "id": "person:Ochran",
 "type": "person",
-"preferred_label": "Ochran",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Ochran"
 }
 ]
 }
@@ -1379,7 +1379,7 @@
 {
 "content_id": "7459",
 "reference_id": 6627,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ocina",
 "media_type": "Text",
 "index_reference": "ocina",
@@ -1402,7 +1402,7 @@
 {
 "content_id": "7460",
 "reference_id": 6628,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ocran",
 "media_type": "Text",
 "index_reference": "ocran",
@@ -1447,9 +1447,9 @@
 {
 "id": "person:Ochran",
 "type": "person",
-"preferred_label": "Ochran",
 "confidence": 1.0,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Ochran"
 }
 ]
 }
@@ -1457,10 +1457,10 @@
 {
 "content_id": "7461",
 "reference_id": 6629,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Offend, Offense",
 "media_type": "Text",
-"index_reference": "offend, offense",
+"index_reference": "offend offense",
 "language": "eng",
 "review_level": "None",
 "content": "<h1>OFFEND, OFFENSE</h1><p>The words <em>offend</em> and <em>offense</em> are used in two main ways in the Bible:</p><ol><li><p>doing something wrong oneself, or</p></li><li><p>causing someone else to do wrong or to make a mistake in their faith.</p></li></ol><h2>Doing Wrong</h2><p>In both the Old Testament Hebrew and the New Testament Greek, there are many words for sin or wrongdoing. When we use the words <em>offend</em> or <em>offense</em>, we focus on sin against a person or the law, which means an offense against either God or people.</p><p>Sin is mainly an offense against God. For example, the people of Edom offended God by taking revenge on Judah, so God judged them (<a href=\"https://ref.ly/Ezek25:12-Ezek25:13\">Ezekiel 25:12</a><a href=\"https://ref.ly/Ezek25:12-Ezek25:13\">–</a><a href=\"https://ref.ly/Ezek25:12-Ezek25:13\">13</a>). Israel offended God by worshipping Baal (<a href=\"https://ref.ly/Hos13:1\">Hosea 13:1</a>). Breaking God&apos;s law is called an offense committed (<a href=\"https://ref.ly/Deut19:15\">Deuteronomy 19:15</a>; compare <a href=\"https://ref.ly/Deut22:26\">22:26</a>; <a href=\"https://ref.ly/Deut25:2\">25:2</a>). In the New Testament, James talks about offenses against God and God&apos;s law (<a href=\"https://ref.ly/Jas2:10\">James 2:10</a>; <a href=\"https://ref.ly/Jas3:2\">3:2</a>).</p><p>The Bible also talks about offenses between people. For example, Abraham offended Abimelech (<a href=\"https://ref.ly/Gen20:9\">Genesis 20:9</a>). Pharaoh&apos;s chief butler and baker offended their master (<a href=\"https://ref.ly/Gen40:1\">Genesis 40:1</a>). Sometimes, the offense is only alleged, and no real wrong was done (for example, <a href=\"https://ref.ly/Gen31:36\">Genesis 31:36</a>; <a href=\"https://ref.ly/2Kgs18:14\">2&nbsp;Kings 18:14</a>; <a href=\"https://ref.ly/Jer37:18\">Jeremiah 37:18</a>). Paul, defending himself before the Roman governor Festus, said, “<span>I have committed no offense against the law of the Jews or against the temple or against Caesar</span>” (<a href=\"https://ref.ly/Acts25:8\">Acts 25:8</a>).</p><p>The Bible also teaches how to handle real offenses against God and people. Offenses should be acknowledged and confessed (<a href=\"https://ref.ly/Hos5:15\">Hosea 5:15</a>). A proper resolution before God is, “<span>I will offend no more</span>” (<a href=\"https://ref.ly/Job34:31\">Job 34:31</a>). We need to make amends for offenses and forgive others&apos; offenses (<a href=\"https://ref.ly/Eccl10:4\">Ecclesiastes 10:4</a>; <a href=\"https://ref.ly/Prov17:9\">Proverbs 17:9</a>; <a href=\"https://ref.ly/Prov19:11\">19:11</a>). Jesus Christ died for our offenses (<a href=\"https://ref.ly/Rom4:25\">Romans 4:25</a>; <a href=\"https://ref.ly/Rom5:15-Rom5:21\">5:15–21</a>). By turning to Jesus, there is forgiveness for all sins.</p><h2>Causing Another to Sin</h2><p>The words <em>offense</em> and <em>offend</em> also mean causing someone else to stumble or do wrong. There are three ways this can happen:</p><ol><li><p><strong>Personal Cause</strong>: Something within a person might cause them to stumble. Jesus emphasized the seriousness of this and suggested taking extreme measures to prevent it (<a href=\"https://ref.ly/Matt5:29-Matt5:30\">Matthew 5:29</a><a href=\"https://ref.ly/Matt5:29-Matt5:30\">–</a><a href=\"https://ref.ly/Matt5:29-Matt5:30\">30</a>; <a href=\"https://ref.ly/Matt18:8-Matt18:9\">18:8</a><a href=\"https://ref.ly/Matt18:8-Matt18:9\">–</a><a href=\"https://ref.ly/Matt18:8-Matt18:9\">9</a>).</p></li><li><p><strong>Causing Others to Stumble</strong>: Something in a person&apos;s actions might cause others to stumble. Jesus warned, “<span>Woe to the world for the causes of sin. These stumbling blocks must come, but woe to the man through whom they come!</span>” (<a href=\"https://ref.ly/Matt18:7\">Matthew 18:7</a>). The New Testament teaches that we should live in a way that does not cause others to stumble (<a href=\"https://ref.ly/Rom14:13\">Romans 14:13</a>). The apostle Paul says, “Do not destroy the work of God for the sake of food. All food is clean, but it is wrong for a man to let his eating be a stumbling block. It is better not to eat meat or drink wine or to do anything to cause your brother to stumble” (<a href=\"https://ref.ly/Rom14:20-Rom14:21\">Romans 14:20</a><a href=\"https://ref.ly/Rom14:20-Rom14:21\">–</a><a href=\"https://ref.ly/Rom14:20-Rom14:21\">21</a>; compare <a href=\"https://ref.ly/1Cor10:32\">1&nbsp;Corinthians 10:32</a>; <a href=\"https://ref.ly/2Cor6:3\">2&nbsp;Corinthians 6:3</a>).</p></li><li><p><strong>Offense at the Truth</strong>: People may be offended by the truth, even if the person presenting it is not at fault. Isaiah describes God as “<span>a stone of stumbling and a rock of offense</span>” (<a href=\"https://ref.ly/Isa8:14\">Isaiah 8:14</a>) because people would not always accept his demands and the way of faith in him. The New Testament applies these words to the offense of the gospel of Christ (<a href=\"https://ref.ly/Rom9:32-Rom9:33\">Romans 9:32</a><a href=\"https://ref.ly/Rom9:32-Rom9:33\">–</a><a href=\"https://ref.ly/Rom9:32-Rom9:33\">33</a>; <a href=\"https://ref.ly/1Pet2:8\">1&nbsp;Peter 2:8</a>). During his ministry, people were offended by Jesus—by his humble birth (<a href=\"https://ref.ly/Matt13:57\">Matthew 13:57</a>), at what he said and did (<a href=\"https://ref.ly/Matt15:12\">Matthew 15:12</a>), or because of the cost of following him (<a href=\"https://ref.ly/Matt13:21\">Matthew 13:21</a>). Even some disciples were offended and turned away (<a href=\"https://ref.ly/John6:61\">John 6:61</a>). Eventually, all were offended and fled from him (<a href=\"https://ref.ly/Matt26:31,Matt26:56\">Matthew 26:31, 56</a>). Paul spoke of the offense in preaching the cross of Christ. He could have avoided persecution by preaching a message that did not offend anyone (<a href=\"https://ref.ly/Gal5:11\">Galatians 5:11</a>). He chose to preach the cross, even though it was a stumbling block to Jews and foolishness to Gentiles (<a href=\"https://ref.ly/1Cor1:23\">1&nbsp;Corinthians 1:23</a>).</p></li></ol><p><em>See also</em> <span data-bnType=\"resourceReference\" data-resourceId=\"7691\" data-resourceType=\"TyndaleBibleDictionary\">Sin</span>.</p>",
@@ -1710,7 +1710,7 @@
 {
 "content_id": "7462",
 "reference_id": 6630,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Offerings and Sacrifices",
 "media_type": "Text",
 "index_reference": "offerings and sacrifices",
@@ -3309,9 +3309,9 @@
 {
 "id": "keyterm:Offering",
 "type": "keyterm",
-"preferred_label": "Offering",
 "confidence": 0.5838,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Offering"
 }
 ]
 }
@@ -3319,7 +3319,7 @@
 {
 "content_id": "7464",
 "reference_id": 6632,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Og",
 "media_type": "Text",
 "index_reference": "og",
@@ -3370,9 +3370,9 @@
 {
 "id": "person:Og",
 "type": "person",
-"preferred_label": "Og",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Og"
 }
 ]
 }
@@ -3380,7 +3380,7 @@
 {
 "content_id": "7465",
 "reference_id": 6633,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ohad",
 "media_type": "Text",
 "index_reference": "ohad",
@@ -3413,9 +3413,9 @@
 {
 "id": "person:Ohad",
 "type": "person",
-"preferred_label": "Ohad",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Ohad"
 }
 ]
 }
@@ -3423,7 +3423,7 @@
 {
 "content_id": "7466",
 "reference_id": 6634,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ohel",
 "media_type": "Text",
 "index_reference": "ohel",
@@ -3444,9 +3444,9 @@
 {
 "id": "person:Ohel",
 "type": "person",
-"preferred_label": "Ohel",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Ohel"
 }
 ]
 }
@@ -3454,7 +3454,7 @@
 {
 "content_id": "7467",
 "reference_id": 6635,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oholah and Oholibah",
 "media_type": "Text",
 "index_reference": "oholah and oholibah",
@@ -3505,16 +3505,16 @@
 {
 "id": "person:Oholah",
 "type": "person",
-"preferred_label": "Oholah",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Oholah"
 },
 {
 "id": "person:Oholibah",
 "type": "person",
-"preferred_label": "Oholibah",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Oholibah"
 }
 ]
 }
@@ -3522,7 +3522,7 @@
 {
 "content_id": "7468",
 "reference_id": 6636,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oholiab",
 "media_type": "Text",
 "index_reference": "oholiab",
@@ -3561,9 +3561,9 @@
 {
 "id": "person:Oholiab",
 "type": "person",
-"preferred_label": "Oholiab",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Oholiab"
 }
 ]
 }
@@ -3571,7 +3571,7 @@
 {
 "content_id": "7469",
 "reference_id": 6637,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oholibamah",
 "media_type": "Text",
 "index_reference": "oholibamah",
@@ -3646,23 +3646,23 @@
 {
 "id": "person:Oholibamah.2",
 "type": "person",
-"preferred_label": "Oholibamah",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Oholibamah"
 },
 {
 "id": "person:Oholibamah.3",
 "type": "person",
-"preferred_label": "Oholibamah",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Oholibamah"
 },
 {
 "id": "person:Oholibamah",
 "type": "person",
-"preferred_label": "Oholibamah",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Oholibamah"
 }
 ]
 }
@@ -3670,7 +3670,7 @@
 {
 "content_id": "7472",
 "reference_id": 6640,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oil",
 "media_type": "Text",
 "index_reference": "oil",
@@ -3878,16 +3878,16 @@
 {
 "id": "realia:OliveOil",
 "type": "realia",
-"preferred_label": "Olive Oil",
 "confidence": 0.8439,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Olive Oil"
 },
 {
 "id": "realia:AnointingOil",
 "type": "realia",
-"preferred_label": "Anointing Oil",
 "confidence": 0.7854,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Anointing Oil"
 }
 ]
 }
@@ -3895,10 +3895,10 @@
 {
 "content_id": "7471",
 "reference_id": 6639,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oil Tree, Oleaster",
 "media_type": "Text",
-"index_reference": "oil tree, oleaster",
+"index_reference": "oil tree oleaster",
 "language": "eng",
 "review_level": "None",
 "content": "<h1>OIL TREE,  OLEASTER</h1><p>The oleaster is a small Eurasian tree with oblong silvery leaves, greenish flowers, and olive-like fruit. There is some question about which tree is mentioned in <a href=\"https://ref.ly/1Kgs6:23,1Kgs6:31-1Kgs6:33\">1&nbsp;Kings 6:23, 31–33</a> and <a href=\"https://ref.ly/1Chr27:28\">1&nbsp;Chronicles 27:28</a> when they refer to &quot;olive wood&quot; and &quot;olive trees.&quot; The same Hebrew word appears in <a href=\"https://ref.ly/Isa41:19\">Isaiah 41:19</a> and <a href=\"https://ref.ly/Mic6:7\">Micah 6:7</a>. The plant in question is probably the oleaster (<em>Elaeagnus angustifolia</em>). It grows from 4.6 to 6.1 meters (15 to 20 feet) tall. It is common in all parts of Israel and the surrounding areas, except in the Jordan Valley.</p><p>At one time, the oleaster was especially common on Mount Tabor and in the areas of Hebron and Samaria. The wood is hard and fine-grained, making it well suited for carving images and figures. The oil that comes from this tree is rather low quality. People use it for medicine but not for food. This may be the oil mentioned in <a href=\"https://ref.ly/Mic6:7\">Micah 6:7</a>.</p>",
@@ -3919,7 +3919,7 @@
 {
 "content_id": "7473",
 "reference_id": 6641,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ointment",
 "media_type": "Text",
 "index_reference": "ointment",
@@ -4143,16 +4143,16 @@
 {
 "id": "realia:OliveOil",
 "type": "realia",
-"preferred_label": "Olive Oil",
 "confidence": 0.6214,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Olive Oil"
 },
 {
 "id": "realia:AnointingOil",
 "type": "realia",
-"preferred_label": "Anointing Oil",
 "confidence": 0.5986,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Anointing Oil"
 }
 ]
 }
@@ -4160,7 +4160,7 @@
 {
 "content_id": "7474",
 "reference_id": 6642,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Old Gate",
 "media_type": "Text",
 "index_reference": "old gate",
@@ -4201,37 +4201,37 @@
 {
 "id": "place:YeshanahGate",
 "type": "place",
-"preferred_label": "Gate of Jeshanah",
 "confidence": 0.8667,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Gate of Jeshanah"
 },
 {
 "id": "place:GuardGate",
 "type": "place",
-"preferred_label": "Gate of the Guard",
 "confidence": 0.5848,
-"match_method": "scored"
-},
-{
-"id": "place:EphraimGate",
-"type": "place",
-"preferred_label": "Ephraim Gate",
-"confidence": 0.5848,
-"match_method": "scored"
-},
-{
-"id": "place:FishGate",
-"type": "place",
-"preferred_label": "Fish Gate",
-"confidence": 0.5848,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Gate of the Guard"
 },
 {
 "id": "place:SheepGate",
 "type": "place",
-"preferred_label": "Sheep Gate",
 "confidence": 0.5848,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Sheep Gate"
+},
+{
+"id": "place:FishGate",
+"type": "place",
+"confidence": 0.5848,
+"match_method": "scored",
+"preferred_label": "Fish Gate"
+},
+{
+"id": "place:EphraimGate",
+"type": "place",
+"confidence": 0.5848,
+"match_method": "scored",
+"preferred_label": "Ephraim Gate"
 }
 ]
 }
@@ -4239,7 +4239,7 @@
 {
 "content_id": "7475",
 "reference_id": 6643,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Old Man",
 "media_type": "Text",
 "index_reference": "old man",
@@ -4263,7 +4263,7 @@
 {
 "content_id": "7479",
 "reference_id": 6647,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Old Testament",
 "media_type": "Text",
 "index_reference": "old testament",
@@ -4287,7 +4287,7 @@
 {
 "content_id": "7476",
 "reference_id": 6644,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Old Testament Canon",
 "media_type": "Text",
 "index_reference": "old testament canon",
@@ -4311,7 +4311,7 @@
 {
 "content_id": "7477",
 "reference_id": 6645,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Old Testament Chronology",
 "media_type": "Text",
 "index_reference": "old testament chronology",
@@ -4335,7 +4335,7 @@
 {
 "content_id": "7478",
 "reference_id": 6646,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Old Testament Quotations in the New Testament",
 "media_type": "Text",
 "index_reference": "old testament quotations in the new testament",
@@ -4359,7 +4359,7 @@
 {
 "content_id": "718703",
 "reference_id": 209684,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oleander",
 "media_type": "Text",
 "index_reference": "oleander",
@@ -4375,10 +4375,10 @@
 {
 "content_id": "7480",
 "reference_id": 6648,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Olive, Olive Tree",
 "media_type": "Text",
-"index_reference": "olive, olive tree",
+"index_reference": "olive olive tree",
 "language": "eng",
 "review_level": "None",
 "content": "<h1>OLIVE, OLIVE TREE</h1><p>The olive is an evergreen tree from semi-tropical regions in Europe, Asia, and Africa. It produces edible fruit. The olive (<em>Olea europaea</em>) was certainly one of the most valuable trees known to the Jewish people. The Bible contains countless references to it and to olive oil, which people used for anointing (the practice of pouring oil on a person&apos;s head as part of a religious ceremony to mark them for a special role or blessing).</p><p>The tree is quite common in Israel and the surrounding areas. In many places, it is the only tree of any substantial size. The branches of the wild olive are rather stiff and have thorns. The typical cultivated tree has many branches, is evergreen, and grows 6.1 meters (20 feet) tall or more. It has a twisted trunk and smooth, ash-colored bark. The leaves are leathery, and the flowers are small and yellow or white.</p><p>The fruits are large and black or violet in color. They ripen in September. The outer fleshy parts of the fruit produce the valuable olive oil sold commercially. Nearly a third (31 percent) of the ripe fruit is oil. People eat both the ripe fruit raw and the green, unripe fruit.</p><p>The wood from the trunk and limbs is hard, rich yellow or amber in color, and has a fine grain, often with beautiful patterns. People still use it today for the finest cabinet work and wood turning. The olive tree grows very slowly, but it lives for a very long time.</p><p>It is difficult to kill an olive tree by cutting it down. This is because new sprouts grow up from the root and all around the edges of the old stump. These often form a grove of two to five trunks, all from a single root that originally supported only one tree.</p><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"2592\" data-resourceType=\"TyndaleBibleDictionary\">Agriculture</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"4454\" data-resourceType=\"TyndaleBibleDictionary\">Food and Food Preparation</span>.</p>",
@@ -4411,9 +4411,9 @@
 {
 "id": "flora:OliveTree",
 "type": "flora",
-"preferred_label": "Olive Tree",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Olive Tree"
 }
 ]
 }
@@ -4421,7 +4421,7 @@
 {
 "content_id": "7482",
 "reference_id": 6650,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Olivet",
 "media_type": "Text",
 "index_reference": "olivet",
@@ -4445,7 +4445,7 @@
 {
 "content_id": "7483",
 "reference_id": 6651,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Olympas",
 "media_type": "Text",
 "index_reference": "olympas",
@@ -4466,9 +4466,9 @@
 {
 "id": "person:Olympas",
 "type": "person",
-"preferred_label": "Olympas",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Olympas"
 }
 ]
 }
@@ -4476,10 +4476,10 @@
 {
 "content_id": "7484",
 "reference_id": 6652,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Olympian Zeus, Temple of",
 "media_type": "Text",
-"index_reference": "olympian zeus, temple of",
+"index_reference": "olympian zeus temple of",
 "language": "eng",
 "review_level": "None",
 "content": "<h1>OLYMPIAN ZEUS, Temple of</h1><p>Name given to the temple of Jerusalem by Antiochus Epiphanes in 168 BC when he turned the holy place into a shrine for the chief of the pagan gods of Greece (<a href=\"https://ref.ly/2Macc6:2\">2&nbsp;Macc 6:2</a>). Jews were forced to abandon ancestral customs and could no longer observe God’s law. The desecration included temple prostitution, forced cannibalism, and humiliation for the&nbsp;Jews.</p>",
@@ -4499,7 +4499,7 @@
 {
 "content_id": "7485",
 "reference_id": 6653,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Omar",
 "media_type": "Text",
 "index_reference": "omar",
@@ -4532,9 +4532,9 @@
 {
 "id": "person:Omar",
 "type": "person",
-"preferred_label": "Omar",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Omar"
 }
 ]
 }
@@ -4542,7 +4542,7 @@
 {
 "content_id": "7486",
 "reference_id": 6654,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Omega",
 "media_type": "Text",
 "index_reference": "omega",
@@ -4566,7 +4566,7 @@
 {
 "content_id": "7487",
 "reference_id": 6655,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Omen",
 "media_type": "Text",
 "index_reference": "omen",
@@ -4622,7 +4622,7 @@
 {
 "content_id": "7488",
 "reference_id": 6656,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Omer",
 "media_type": "Text",
 "index_reference": "omer",
@@ -4669,9 +4669,9 @@
 {
 "id": "realia:Omer",
 "type": "realia",
-"preferred_label": "Omer",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Omer"
 }
 ]
 }
@@ -4679,7 +4679,7 @@
 {
 "content_id": "7489",
 "reference_id": 6657,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Omnipotence",
 "media_type": "Text",
 "index_reference": "omnipotence",
@@ -4703,7 +4703,7 @@
 {
 "content_id": "7490",
 "reference_id": 6658,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Omnipresence",
 "media_type": "Text",
 "index_reference": "omnipresence",
@@ -4727,7 +4727,7 @@
 {
 "content_id": "7491",
 "reference_id": 6659,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Omniscience",
 "media_type": "Text",
 "index_reference": "omniscience",
@@ -4751,7 +4751,7 @@
 {
 "content_id": "7492",
 "reference_id": 6660,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Omri",
 "media_type": "Text",
 "index_reference": "omri",
@@ -4796,30 +4796,30 @@
 {
 "id": "person:Omri.2",
 "type": "person",
-"preferred_label": "Omri",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Omri"
 },
 {
 "id": "person:Omri.3",
 "type": "person",
-"preferred_label": "Omri",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Omri"
 },
 {
 "id": "person:Omri.4",
 "type": "person",
-"preferred_label": "Omri",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Omri"
 },
 {
 "id": "person:Omri",
 "type": "person",
-"preferred_label": "Omri",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Omri"
 }
 ]
 }
@@ -4827,10 +4827,10 @@
 {
 "content_id": "7501",
 "reference_id": 6669,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "On (Person)",
 "media_type": "Text",
-"index_reference": "on (person)",
+"index_reference": "on person",
 "language": "eng",
 "review_level": "None",
 "content": "<h1>ON (Person)</h1><p>The son of Peleth. He was from the tribe of Reuben. On joined the rebellion of Korah against Moses and Aaron in the wilderness (<a href=\"https://ref.ly/Num16:1\">Numbers 16:1</a>). This rebellion challenged the leadership of Moses and Aaron.</p>",
@@ -4848,9 +4848,9 @@
 {
 "id": "person:On",
 "type": "person",
-"preferred_label": "On",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "On"
 }
 ]
 }
@@ -4858,10 +4858,10 @@
 {
 "content_id": "7502",
 "reference_id": 6670,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "On (Place)",
 "media_type": "Text",
-"index_reference": "on (place)",
+"index_reference": "on place",
 "language": "eng",
 "review_level": "None",
 "content": "<h1>ON* (Place)</h1><p>Hebrew name for Heliopolis, an Egyptian city (<a href=\"https://ref.ly/Gen41:45,Gen41:50\">Gn 41:45, 50</a>; <a href=\"https://ref.ly/Gen46:20\">46:20</a>). <em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4950\" data-resourceType=\"TyndaleBibleDictionary\">Heliopolis</span>.</p>",
@@ -4899,9 +4899,9 @@
 {
 "id": "place:On",
 "type": "place",
-"preferred_label": "On",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "On"
 }
 ]
 }
@@ -4909,7 +4909,7 @@
 {
 "content_id": "7493",
 "reference_id": 6661,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Onam",
 "media_type": "Text",
 "index_reference": "onam",
@@ -4942,16 +4942,16 @@
 {
 "id": "person:Onam.2",
 "type": "person",
-"preferred_label": "Onam",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Onam"
 },
 {
 "id": "person:Onam",
 "type": "person",
-"preferred_label": "Onam",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Onam"
 }
 ]
 }
@@ -4959,7 +4959,7 @@
 {
 "content_id": "7494",
 "reference_id": 6662,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Onan",
 "media_type": "Text",
 "index_reference": "onan",
@@ -5004,9 +5004,9 @@
 {
 "id": "person:Onan",
 "type": "person",
-"preferred_label": "Onan",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Onan"
 }
 ]
 }
@@ -5014,7 +5014,7 @@
 {
 "content_id": "7495",
 "reference_id": 6663,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Onesimus",
 "media_type": "Text",
 "index_reference": "onesimus",
@@ -5049,9 +5049,9 @@
 {
 "id": "person:Onesimus",
 "type": "person",
-"preferred_label": "Onesimus",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Onesimus"
 }
 ]
 }
@@ -5059,7 +5059,7 @@
 {
 "content_id": "7496",
 "reference_id": 6664,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Onesiphorus",
 "media_type": "Text",
 "index_reference": "onesiphorus",
@@ -5086,9 +5086,9 @@
 {
 "id": "person:Onesiphorus",
 "type": "person",
-"preferred_label": "Onesiphorus",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Onesiphorus"
 }
 ]
 }
@@ -5096,7 +5096,7 @@
 {
 "content_id": "7497",
 "reference_id": 6665,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Onias",
 "media_type": "Text",
 "index_reference": "onias",
@@ -5131,7 +5131,7 @@
 {
 "content_id": "7498",
 "reference_id": 6666,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Onion",
 "media_type": "Text",
 "index_reference": "onion",
@@ -5174,9 +5174,9 @@
 {
 "id": "flora:Onion",
 "type": "flora",
-"preferred_label": "Onion",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Onion"
 }
 ]
 }
@@ -5184,7 +5184,7 @@
 {
 "content_id": "7499",
 "reference_id": 6667,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Only Begotten",
 "media_type": "Text",
 "index_reference": "only begotten",
@@ -5281,7 +5281,7 @@
 {
 "content_id": "7500",
 "reference_id": 6668,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ono",
 "media_type": "Text",
 "index_reference": "ono",
@@ -5326,9 +5326,9 @@
 {
 "id": "place:Ono",
 "type": "place",
-"preferred_label": "Ono",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Ono"
 }
 ]
 }
@@ -5336,7 +5336,7 @@
 {
 "content_id": "7503",
 "reference_id": 6671,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Onycha",
 "media_type": "Text",
 "index_reference": "onycha",
@@ -5357,9 +5357,9 @@
 {
 "id": "fauna:Onycha",
 "type": "fauna",
-"preferred_label": "Onycha",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Onycha"
 }
 ]
 }
@@ -5367,7 +5367,7 @@
 {
 "content_id": "7504",
 "reference_id": 6672,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Onyx",
 "media_type": "Text",
 "index_reference": "onyx",
@@ -5398,7 +5398,7 @@
 {
 "content_id": "7505",
 "reference_id": 6673,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ophel",
 "media_type": "Text",
 "index_reference": "ophel",
@@ -5449,9 +5449,9 @@
 {
 "id": "place:Ophel",
 "type": "place",
-"preferred_label": "Ophel",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Ophel"
 }
 ]
 }
@@ -5459,10 +5459,10 @@
 {
 "content_id": "7506",
 "reference_id": 6674,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ophir (Person)",
 "media_type": "Text",
-"index_reference": "ophir (person)",
+"index_reference": "ophir person",
 "language": "eng",
 "review_level": "None",
 "content": "<h1>OPHIR (Person)</h1><p>Joktan’s son and a descendant of Shem through Arphaxad’s line (<a href=\"https://ref.ly/Gen10:29\">Gn 10:29</a>; <a href=\"https://ref.ly/1Chr1:23\">1&nbsp;Chr 1:23</a>).</p>",
@@ -5486,9 +5486,9 @@
 {
 "id": "person:Ophir",
 "type": "person",
-"preferred_label": "Ophir",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Ophir"
 }
 ]
 }
@@ -5496,10 +5496,10 @@
 {
 "content_id": "7507",
 "reference_id": 6675,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ophir (Place)",
 "media_type": "Text",
-"index_reference": "ophir (place)",
+"index_reference": "ophir place",
 "language": "eng",
 "review_level": "None",
 "content": "<h1>OPHIR (Place)</h1><p>Place to which Solomon sent a fleet of merchant ships to bring back gold and all sorts of precious and exotic products. The location of Ophir is not certain; most scholars place it in southwest Arabia. There may be a relationship between the place and the man named Ophir who appears in the table of nations as a son of Joktan (<a href=\"https://ref.ly/Gen10:29\">Gn 10:29</a>; cf. <a href=\"https://ref.ly/1Chr1:23\">1&nbsp;Chr 1:23</a>), a descendant of Shem. The names of Joktan and his sons are connected with the southern and western parts of Arabia.</p><p><a href=\"https://ref.ly/1Kgs9:26-1Kgs9:28\">First Kings 9:26–28</a> reports that Solomon built a fleet of merchant ships at Ezion-geber, which was near Elath on the Gulf of Aqaba. Hiram, king of Tyre, provided seamen to accompany those of Solomon. This expedition returned with 420 talents of gold for Solomon. <a href=\"https://ref.ly/1Kgs10:11\">First Kings 10:11</a> adds that the fleet of Hiram brought from Ophir a great amount of almug wood and precious stones.</p><p>Later, Jehoshaphat built “ships of Tarshish” to go to Ophir for gold, but the ships were wrecked at Ezion-geber. Then Ahaziah, the son of Ahab of Israel, offered to send his men with the seamen of Judah, but Jehoshaphat refused (see <a href=\"https://ref.ly/1Kgs22:48-1Kgs22:49\">1&nbsp;Kgs 22:48–49</a>).</p><p>The premier product of Ophir was fine gold. Eliphaz the Temanite comments that the Almighty should be one’s gold rather than the gold of Ophir (<a href=\"https://ref.ly/Job22:24\">Jb 22:24</a>). Job himself declares that wisdom is far more valuable than all the gold of Ophir (<a href=\"https://ref.ly/Job28:16\">28:16</a>). In his description of the glories of the king, the psalmist describes his queen at his right hand as wearing jewelry of finest gold from Ophir (<a href=\"https://ref.ly/Ps45:9\">Ps 45:9</a>).</p><p>Some suggest that the ships of Tarshish mentioned (<a href=\"https://ref.ly/1Kgs10:22\">1&nbsp;Kgs 10:22</a>) were those ships that went to Ophir and returned every three years with gold, silver, ivory, apes, and peacocks. Traders brought the products, some from as far away as India, to the ports of Ophir, where Solomon’s representatives bought them.</p>",
@@ -5565,16 +5565,16 @@
 {
 "id": "place:Ophir",
 "type": "place",
-"preferred_label": "Ophir",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Ophir"
 },
 {
 "id": "person:Ophir",
 "type": "person",
-"preferred_label": "Ophir",
 "confidence": 0.6667,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Ophir"
 }
 ]
 }
@@ -5582,7 +5582,7 @@
 {
 "content_id": "7508",
 "reference_id": 6676,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ophni",
 "media_type": "Text",
 "index_reference": "ophni",
@@ -5603,9 +5603,9 @@
 {
 "id": "place:Ophni",
 "type": "place",
-"preferred_label": "Ophni",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Ophni"
 }
 ]
 }
@@ -5613,10 +5613,10 @@
 {
 "content_id": "7509",
 "reference_id": 6677,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ophrah (Person)",
 "media_type": "Text",
-"index_reference": "ophrah (person)",
+"index_reference": "ophrah person",
 "language": "eng",
 "review_level": "None",
 "content": "<h1>OPHRAH (Person)</h1><p>Meonothai’s son from Judah’s tribe (<a href=\"https://ref.ly/1Chr4:14\">1&nbsp;Chr 4:14</a>).</p>",
@@ -5634,9 +5634,9 @@
 {
 "id": "person:Ophrah",
 "type": "person",
-"preferred_label": "Ophrah",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Ophrah"
 }
 ]
 }
@@ -5644,10 +5644,10 @@
 {
 "content_id": "7510",
 "reference_id": 6678,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ophrah (Place)",
 "media_type": "Text",
-"index_reference": "ophrah (place)",
+"index_reference": "ophrah place",
 "language": "eng",
 "review_level": "None",
 "content": "<h1>OPHRAH (Place)</h1><ol><li><p>A city in the land of Benjamin. This city was probably the same place as Ephraim (<a href=\"https://ref.ly/2Sam13:23\">2&nbsp;Samuel 13:23</a>; <a href=\"https://ref.ly/2Chr13:19\">2&nbsp;Chronicles 13:19</a>, where it is called “Ephron”; <a href=\"https://ref.ly/John11:54\">John 11:54</a>). Most scholars think this city is now the town called <em>et-Taiyibeh</em>, which is eight kilometers (five miles) north of Michmash and six and a half kilometers (four miles) northeast of Bethel.</p></li><li><p>A city in Manasseh that belonged to Joash the Abiezrite. He was the father of the judge Gideon. Gideon lived in this city (<a href=\"https://ref.ly/Judg6:11\">Judges 6:11</a>). An angel of the Lord appeared to Gideon at Ophrah. The angel told Gideon to rescue Israel from the Midianites (verses <a href=\"https://ref.ly/Judg6:12-Judg6:24\">12–24</a>). </p><p>After Gideon won the battle, the people wanted him to be king. But he refused. Instead, he made an ephod (a special garment used by priests) from the gold he had taken in the battle (<a href=\"https://ref.ly/Judg8:22-Judg8:28\">Judges 8:22–28</a>). Sadly, the people began to worship this object as an idol. It became a problem for Gideon and his family.</p><p>Gideon died in Ophrah as an old man (verses <a href=\"https://ref.ly/Judg8:29-Judg8:32\">29–32</a>). Later, Gideon’s son Abimelech wanted to become king. He killed his 70 brothers at Ophrah so he could rule. Only one brother, Jotham, escaped (<a href=\"https://ref.ly/Judg9:1-Judg9:6\">9:1–6</a>).</p></li></ol>",
@@ -5707,23 +5707,23 @@
 {
 "id": "place:Ophrah.2",
 "type": "place",
-"preferred_label": "Ophrah",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Ophrah"
 },
 {
 "id": "place:Ophrah",
 "type": "place",
-"preferred_label": "Ophrah",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Ophrah"
 },
 {
 "id": "place:Ephraim.2",
 "type": "place",
-"preferred_label": "Ephraim",
 "confidence": 0.6,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Ephraim"
 }
 ]
 }
@@ -5731,7 +5731,7 @@
 {
 "content_id": "7511",
 "reference_id": 6679,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oracle",
 "media_type": "Text",
 "index_reference": "oracle",
@@ -5868,9 +5868,9 @@
 {
 "id": "keyterm:Utterance",
 "type": "keyterm",
-"preferred_label": "Utterance",
 "confidence": 0.8,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Utterance"
 }
 ]
 }
@@ -5878,10 +5878,10 @@
 {
 "content_id": "7512",
 "reference_id": 6680,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ordain, Ordination",
 "media_type": "Text",
-"index_reference": "ordain, ordination",
+"index_reference": "ordain ordination",
 "language": "eng",
 "review_level": "None",
 "content": "<h1>ORDAIN, ORDINATION</h1><p><span>The act of officially giving someone religious authority. Other words for this are “appoint,“ “institute,” “make,” and “establish.” Today, we use “ordain” and “ordination” to mean choosing and appointing people to serve God.</span></p><h2>Ordination in the Old Testament</h2><p>Throughout the Old Testament, God chose who he wanted to serve him. The role of priests first belonged to the head of each family. Later, God chose the tribe of Levi to be priests (<a href=\"https://ref.ly/Deut33:8-Deut33:11\">Deuteronomy 33:8–11</a>; <a href=\"https://ref.ly/Judg17:13\">Judges 17:13</a>). Even as different family groups competed for power (like the Zadokites, Aaronites, and Hasmoneans), they all claimed this special role passed down in their families. Divine appointment through Levi was traced back to Moses (<a href=\"https://ref.ly/Exod4:14\">Exodus 4:14</a>; <a href=\"https://ref.ly/Exod28:41\">28:41</a>; <a href=\"https://ref.ly/Exod29:9\">29:9</a>). This special role was also claimed for Samuel, who was from the tribe of Ephraim, not Levi (<a href=\"https://ref.ly/1Chr6:28\">1&nbsp;Chronicles 6:28</a>). This idea was still celebrated in later writings like Sirach, which was written around 180 BC (<a href=\"https://ref.ly/Sir45:6-Sir45:22\">Sirach 45:6–22</a>). The book of Hebrews explains that no one chooses this honor for himself. As it says in <a href=\"https://ref.ly/Heb5:1,Heb5:4\">Hebrews 5:1 and 4</a>, a person is “called by God, just as Aaron was.” This means they are born into a family with this special role.</p><p>The first Levites were presented at the tabernacle (a special tent used for worship) in front of all the people. The people acknowledged them as priests by placing their hands on them (<a href=\"https://ref.ly/Num8:10,Num8:14-Num8:18\">Numbers 8:10, 14–18</a>). Similarly, God gave Moses instructions for a week-long ceremony to make Aaron and his sons priests. This ceremony involved many sacrifices, special clothing, anointing with oil, and other rituals (<a href=\"https://ref.ly/Exod29:1-Exod29:46\">Exodus 29</a>; <a href=\"https://ref.ly/Lev8:1-Lev8:36\">Leviticus 8</a>). The Bible carefully preserves the details of these ceremonies. This suggests that people continued to use these ceremonies, at least in some form, for many years afterwards. However, the Bible does not record these ceremonies being repeated.</p><p>Along with priests, there were also groups of recognized prophets or communities of prophets. Sometimes these groups had support from kings (<a href=\"https://ref.ly/1Sam10:5\">1&nbsp;Samuel 10:5</a>; <a href=\"https://ref.ly/1Kgs1:9-1Kgs1:10\">1&nbsp;Kings 1:9–10</a>; <a href=\"https://ref.ly/1Kgs18:17-1Kgs18:19\">18:17–19</a>; <a href=\"https://ref.ly/1Kgs20:35\">20:35</a>; <a href=\"https://ref.ly/1Kgs22:5-1Kgs22:28\">22:5–28</a>; <a href=\"https://ref.ly/2Kgs2:3-2Kgs2:7\">2&nbsp;Kings 2:3–7</a>; <a href=\"https://ref.ly/2Kgs23:2\">23:2</a>). People traced the history of prophecy back to very early times (see <a href=\"https://ref.ly/Gen20:7\">Genesis 20:7</a>; <a href=\"https://ref.ly/Deut34:10\">Deuteronomy 34:10</a>; <a href=\"https://ref.ly/Judg4:4\">Judges 4:4</a>; <a href=\"https://ref.ly/Jer7:25\">Jeremiah 7:25</a>). The phrase “sons of the prophets,” and a hint in <a href=\"https://ref.ly/Jer35:4\">Jeremiah 35:4</a>, may suggest that the role of prophet, like that of priest, sometimes passed from parent to child. However, we do not know exactly how prophets were chosen or installed in their role.</p><p>The most important prophets often disagreed with these prophet groups or “schools” (Elijah in <a href=\"https://ref.ly/1Kgs17:1-1Kgs17:24\">1&nbsp;Kings 17</a>; Micaiah in <a href=\"https://ref.ly/1Kgs22:5-1Kgs22:28\">1&nbsp;Kings 22:5–28</a>; Jeremiah in <a href=\"https://ref.ly/Jer27:14-Jer27:16\">Jeremiah 27:14–16</a>; <a href=\"https://ref.ly/Jer28:1-Jer28:17\">28</a>). God called these major prophets directly (<a href=\"https://ref.ly/1Kgs17:1\">1&nbsp;Kings 17:1</a>; <a href=\"https://ref.ly/1Kgs21:17\">21:17</a>; <a href=\"https://ref.ly/Isa6:1-Isa6:13\">Isaiah 6</a>; <a href=\"https://ref.ly/Jer1:1-Jer1:19\">Jeremiah 1</a>; <a href=\"https://ref.ly/Amos7:15\">Amos 7:15</a>). The only exception was Elisha, whom God told Elijah to call and anoint as a prophet (<a href=\"https://ref.ly/1Kgs19:16\">1&nbsp;Kings 19:16</a>; compare <a href=\"https://ref.ly/Isa61:1\">Isaiah 61:1</a>). People knew a prophet was genuine not because of any special ceremony, but because their message was clearly true. For prophecies about the future, people could tell a true prophet when their predictions came true (<a href=\"https://ref.ly/1Kgs22:13-1Kgs22:14,1Kgs22:26-1Kgs22:28\">1&nbsp;Kings 22:13–14, 26–28</a>; <a href=\"https://ref.ly/Jer28:5-Jer28:9\">Jeremiah 28:5–9</a>).</p><h2>Ordination in the New Testament</h2><p>Christian ordination (the process of making someone a leader in the church) is also based on God&apos;s choice. Jesus and his disciples were not from the professional religious groups of their time. When Jesus chose his 12 apostles, he called those he wanted. He later told them, “<span>You did not choose Me, but I chose you.</span>” (<a href=\"https://ref.ly/John15:16\">John 15:16</a>). </p><p>In the early Christian church, leaders were chosen in various ways, but always with the understanding that God was guiding the process. For example:</p><ul><li><p>When the apostles chose Matthias to replace Judas, they prayed and used a special method (casting lots) to determine God&apos;s will (<a href=\"https://ref.ly/Acts1:24-Acts1:26\">Acts 1:24–26</a>). </p></li><li><p>Paul said that God had chosen him to be an apostle before he was born. He insisted that he did not receive this role from any person (<a href=\"https://ref.ly/Gal1:1,Gal1:15\">Galatians 1:1, 15</a>). </p></li><li><p>The Holy Spirit directed the church to send out Paul and Barnabas as missionaries, probably through a message from a Christian prophet. </p></li><li><p>Timothy was first chosen to be Paul&apos;s assistant because of prophetic messages that pointed to him (<a href=\"https://ref.ly/1Tim1:18\">1&nbsp;Timothy 1:18</a>; <a href=\"https://ref.ly/1Tim4:14\">4:14</a>).</p></li></ul><p>In the church at Corinth, different roles such as speaking, teaching, healing, and administration were given directly by the Holy Spirit (<a href=\"https://ref.ly/1Cor12:8-1Cor12:11,1Cor12:28\">1&nbsp;Corinthians 12:8–11, 28</a>; compare <a href=\"https://ref.ly/Eph4:11\">Ephesians 4:11</a>). </p><p>In Ephesus, the Holy Spirit made the church leaders (“overseers“) guardians of the congregation (<a href=\"https://ref.ly/Acts20:28\">Acts 20:28</a>). </p><p>Throughout these examples, it is clear that God chooses who serves in these roles. The Bible strongly condemns any attempt to get these roles through personal efforts or improper means (<a href=\"https://ref.ly/Acts8:18-Acts8:24\">Acts 8:18–24</a>).</p><p>On the other hand, the church also played a role in choosing leaders:</p><ul><li><p>The gathered church “nominated” (or suggested) Barsabbas and Matthias as candidates before asking God to make the final choice (<a href=\"https://ref.ly/Acts1:15,Acts1:23\">Acts 1:15, 23</a>). </p></li><li><p>The believers selected seven people to serve, then presented them to the apostles (<a href=\"https://ref.ly/Acts6:2-Acts6:6\">Acts 6:2–6</a>). </p></li><li><p>A gathered church, following the Holy Spirit&apos;s instruction, sent out Paul and Barnabas as missionaries (<a href=\"https://ref.ly/Acts13:3\">Acts 13:3</a>). </p></li><li><p>Paul and Barnabas appointed elders in various places (<a href=\"https://ref.ly/Acts14:23\">Acts 14:23</a>). Titus was instructed to do the same (<a href=\"https://ref.ly/Titus1:5\">Titus 1:5</a>), and Timothy probably did this as well (<a href=\"https://ref.ly/1Tim5:22\">1&nbsp;Timothy 5:22</a>). </p></li><li><p>The elders in Lystra and Iconium, along with Paul, appointed Timothy as a leader. They did this in response to a message from a Christian prophet (<a href=\"https://ref.ly/1Tim4:14\">1&nbsp;Timothy 4:14</a>; <a href=\"https://ref.ly/2Tim1:6\">2&nbsp;Timothy 1:6</a>). </p></li></ul><p>By the time Paul wrote letters to Timothy and Titus, there were detailed lists of qualities required for church leaders (<a href=\"https://ref.ly/1Tim3:1-1Tim3:13\">1&nbsp;Timothy 3:1–13</a>; <a href=\"https://ref.ly/2Tim2:2\">2&nbsp;Timothy 2:2</a>).</p><p>The gathering of believers also participated in choosing leaders. They did this in several ways:</p><ul><li><p>Leaders could be chosen through prayer, fasting (going without food for spiritual purposes), and casting lots (a method of making a random choice believed to reveal God&apos;s will; <a href=\"https://ref.ly/Acts1:26\">Acts 1:26</a>; <a href=\"https://ref.ly/Acts6:6\">6:6</a>; <a href=\"https://ref.ly/Acts13:2-Acts13:3\">13:2–3</a>; <a href=\"https://ref.ly/Acts14:23\">14:23</a>).</p></li><li><p>Sometimes leaders were chosen by a “selection by hands” (in Greek, <em>cheirotonein</em>). This word originally meant “election by raising hands,” but was used later to mean “selection by pointing to” (compare <a href=\"https://ref.ly/Acts14:23\">Acts 14:23</a>; <a href=\"https://ref.ly/2Cor8:19\">2&nbsp;Corinthians 8:19</a>).</p></li><li><p>Sometimes leaders were chosen by group choice (<a href=\"https://ref.ly/Acts1:15,Acts1:23\">Acts 1:15, 23</a>; <a href=\"https://ref.ly/Acts6:2-Acts6:5\">6:2–5</a>; <a href=\"https://ref.ly/Acts13:3\">13:3</a>; <a href=\"https://ref.ly/Acts16:2\">16:2</a>; <a href=\"https://ref.ly/1Tim4:14\">1&nbsp;Timothy 4:14</a>).</p></li></ul><p><em>See also</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4459\" data-resourceType=\"TyndaleBibleDictionary\">Foreordination</span>.</p>",
@@ -6293,7 +6293,7 @@
 {
 "content_id": "6246",
 "reference_id": 5414,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ordeal of Jealousy",
 "media_type": "Text",
 "index_reference": "ordeal of jealousy",
@@ -6330,7 +6330,7 @@
 {
 "content_id": "7514",
 "reference_id": 6682,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oreb",
 "media_type": "Text",
 "index_reference": "oreb",
@@ -6375,9 +6375,9 @@
 {
 "id": "person:Oreb",
 "type": "person",
-"preferred_label": "Oreb",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Oreb"
 }
 ]
 }
@@ -6385,10 +6385,10 @@
 {
 "content_id": "7513",
 "reference_id": 6681,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oreb, Rock of",
 "media_type": "Text",
-"index_reference": "oreb, rock of",
+"index_reference": "oreb rock of",
 "language": "eng",
 "review_level": "None",
 "content": "<h1>OREB, Rock of</h1><p>Place where the Ephraimites killed the Midianite chieftain Oreb (<a href=\"https://ref.ly/Judg7:25\">Jgs 7:25</a>; <a href=\"https://ref.ly/Isa10:26\">Is 10:26</a>). <em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"6682\" data-resourceType=\"TyndaleBibleDictionary\">Oreb</span>.</p>",
@@ -6420,9 +6420,9 @@
 {
 "id": "person:Oreb",
 "type": "person",
-"preferred_label": "Oreb",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Oreb"
 }
 ]
 }
@@ -6430,7 +6430,7 @@
 {
 "content_id": "7515",
 "reference_id": 6683,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oren",
 "media_type": "Text",
 "index_reference": "oren",
@@ -6451,9 +6451,9 @@
 {
 "id": "person:Oren",
 "type": "person",
-"preferred_label": "Oren",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Oren"
 }
 ]
 }
@@ -6461,7 +6461,7 @@
 {
 "content_id": "7516",
 "reference_id": 6684,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Organ",
 "media_type": "Text",
 "index_reference": "organ",
@@ -6510,7 +6510,7 @@
 {
 "content_id": "7517",
 "reference_id": 6685,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Orion",
 "media_type": "Text",
 "index_reference": "orion",
@@ -6553,7 +6553,7 @@
 {
 "content_id": "7518",
 "reference_id": 6686,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ornan",
 "media_type": "Text",
 "index_reference": "ornan",
@@ -6582,9 +6582,9 @@
 {
 "id": "person:Ornan",
 "type": "person",
-"preferred_label": "Ornan",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Ornan"
 }
 ]
 }
@@ -6592,7 +6592,7 @@
 {
 "content_id": "7519",
 "reference_id": 6687,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Orontes",
 "media_type": "Text",
 "index_reference": "orontes",
@@ -6657,7 +6657,7 @@
 {
 "content_id": "7520",
 "reference_id": 6688,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Orpah",
 "media_type": "Text",
 "index_reference": "orpah",
@@ -6686,9 +6686,9 @@
 {
 "id": "person:Orpah",
 "type": "person",
-"preferred_label": "Orpah",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Orpah"
 }
 ]
 }
@@ -6696,7 +6696,7 @@
 {
 "content_id": "7521",
 "reference_id": 6689,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Orphan",
 "media_type": "Text",
 "index_reference": "orphan",
@@ -6929,7 +6929,7 @@
 {
 "content_id": "7522",
 "reference_id": 6690,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Orthosia",
 "media_type": "Text",
 "index_reference": "orthosia",
@@ -6952,7 +6952,7 @@
 {
 "content_id": "7523",
 "reference_id": 6691,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oshea",
 "media_type": "Text",
 "index_reference": "oshea",
@@ -6987,9 +6987,9 @@
 {
 "id": "person:Joshua.2",
 "type": "person",
-"preferred_label": "Joshua",
 "confidence": 0.85,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Joshua"
 }
 ]
 }
@@ -6997,7 +6997,7 @@
 {
 "content_id": "7524",
 "reference_id": 6692,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Osiris",
 "media_type": "Text",
 "index_reference": "osiris",
@@ -7021,7 +7021,7 @@
 {
 "content_id": "7525",
 "reference_id": 6693,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Osnapper",
 "media_type": "Text",
 "index_reference": "osnapper",
@@ -7057,9 +7057,9 @@
 {
 "id": "person:Osnappar",
 "type": "person",
-"preferred_label": "Osnappar",
 "confidence": 0.946,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Osnappar"
 }
 ]
 }
@@ -7067,10 +7067,10 @@
 {
 "content_id": "7526",
 "reference_id": 6694,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ospray, Osprey",
 "media_type": "Text",
-"index_reference": "ospray, osprey",
+"index_reference": "ospray osprey",
 "language": "eng",
 "review_level": "None",
 "content": "<h1>OSPRAY, OSPREY</h1><p>A large bird of prey (<em>Pandion haliaetus</em>) that eats fish. It has brown feathers on its back and white feathers on its head and underside. Ospreys catch fish by diving into the water with their sharp talons.</p><p>In <a href=\"https://ref.ly/Lev11:13\">Leviticus 11:13</a> and <a href=\"https://ref.ly/Deut14:12\">Deuteronomy 14:12</a>, some older Bible translations use the word <em>osprey</em>, but the Hebrew word probably refers to the black vulture. In modern bird science, the osprey is different from the black vulture (<em>Aegypius monachus</em>).</p><p><em>See also</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3418\" data-resourceType=\"TyndaleBibleDictionary\">Birds</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"8191\" data-resourceType=\"TyndaleBibleDictionary\">Vulture</span>.</p>",
@@ -7109,16 +7109,16 @@
 {
 "id": "fauna:Osprey",
 "type": "fauna",
-"preferred_label": "Osprey",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Osprey"
 },
 {
 "id": "fauna:Vulture",
 "type": "fauna",
-"preferred_label": "Vulture",
 "confidence": 0.802,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Vulture"
 }
 ]
 }
@@ -7126,7 +7126,7 @@
 {
 "content_id": "7527",
 "reference_id": 6695,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ossifrage",
 "media_type": "Text",
 "index_reference": "ossifrage",
@@ -7163,7 +7163,7 @@
 {
 "content_id": "7528",
 "reference_id": 6696,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ossuary",
 "media_type": "Text",
 "index_reference": "ossuary",
@@ -7179,7 +7179,7 @@
 {
 "content_id": "7529",
 "reference_id": 6697,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ostraca",
 "media_type": "Text",
 "index_reference": "ostraca",
@@ -7224,7 +7224,7 @@
 {
 "content_id": "7530",
 "reference_id": 6698,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ostrich",
 "media_type": "Text",
 "index_reference": "ostrich",
@@ -7307,9 +7307,9 @@
 {
 "id": "fauna:Ostrich",
 "type": "fauna",
-"preferred_label": "Ostrich",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Ostrich"
 }
 ]
 }
@@ -7317,7 +7317,7 @@
 {
 "content_id": "7532",
 "reference_id": 6700,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Othni",
 "media_type": "Text",
 "index_reference": "othni",
@@ -7338,9 +7338,9 @@
 {
 "id": "person:Othni",
 "type": "person",
-"preferred_label": "Othni",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Othni"
 }
 ]
 }
@@ -7348,7 +7348,7 @@
 {
 "content_id": "7531",
 "reference_id": 6699,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Othniel",
 "media_type": "Text",
 "index_reference": "othniel",
@@ -7419,9 +7419,9 @@
 {
 "id": "person:Othniel",
 "type": "person",
-"preferred_label": "Othniel",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Othniel"
 }
 ]
 }
@@ -7429,7 +7429,7 @@
 {
 "content_id": "7533",
 "reference_id": 6701,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Outcast",
 "media_type": "Text",
 "index_reference": "outcast",
@@ -7488,7 +7488,7 @@
 {
 "content_id": "7534",
 "reference_id": 6702,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Outward Man",
 "media_type": "Text",
 "index_reference": "outward man",
@@ -7544,7 +7544,7 @@
 {
 "content_id": "7536",
 "reference_id": 6704,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oven",
 "media_type": "Text",
 "index_reference": "oven",
@@ -7566,9 +7566,9 @@
 {
 "id": "realia:Oven",
 "type": "realia",
-"preferred_label": "Oven",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Oven"
 }
 ]
 }
@@ -7576,10 +7576,10 @@
 {
 "content_id": "7535",
 "reference_id": 6703,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ovens, Tower of the",
 "media_type": "Text",
-"index_reference": "ovens, tower of the",
+"index_reference": "ovens tower of the",
 "language": "eng",
 "review_level": "None",
 "content": "<h1>OVENS, Tower of the</h1><p>Structure in the Jerusalem wall restored by Nehemiah and his workmen after the exile (<a href=\"https://ref.ly/Neh3:11\">Neh 3:11</a>; <a href=\"https://ref.ly/Neh12:38\">12:38</a>). Malkijah, son of Harim, and Hasshub, son of Pahath-moab, are named as its builders. The tower was likely a defensive work on the northwest section of the wall, named for its proximity to nearby baking ovens.</p>",
@@ -7603,9 +7603,9 @@
 {
 "id": "place:TowerOfTheOvens",
 "type": "place",
-"preferred_label": "Tower of the Ovens",
 "confidence": 1.0,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Tower of the Ovens"
 }
 ]
 }
@@ -7613,7 +7613,7 @@
 {
 "content_id": "7537",
 "reference_id": 6705,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Overseer",
 "media_type": "Text",
 "index_reference": "overseer",
@@ -7729,7 +7729,7 @@
 {
 "content_id": "7538",
 "reference_id": 6706,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Owl",
 "media_type": "Text",
 "index_reference": "owl",
@@ -7806,44 +7806,44 @@
 {
 "id": "fauna:Owl.2",
 "type": "fauna",
-"preferred_label": "Owl",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Owl"
 },
 {
 "id": "fauna:Owl.3",
 "type": "fauna",
-"preferred_label": "Owl",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Owl"
 },
 {
 "id": "fauna:Owl.4",
 "type": "fauna",
-"preferred_label": "Owl",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Owl"
 },
 {
 "id": "fauna:Owl",
 "type": "fauna",
-"preferred_label": "Owl",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Owl"
 },
 {
 "id": "fauna:TawnyOwl",
 "type": "fauna",
-"preferred_label": "Tawny Owl",
 "confidence": 1.0,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Tawny Owl"
 },
 {
 "id": "fauna:BarnOwl",
 "type": "fauna",
-"preferred_label": "Barn Owl",
 "confidence": 0.8,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Barn Owl"
 }
 ]
 }
@@ -7851,7 +7851,7 @@
 {
 "content_id": "7540",
 "reference_id": 6708,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ox",
 "media_type": "Text",
 "index_reference": "ox",
@@ -7882,10 +7882,10 @@
 {
 "content_id": "7539",
 "reference_id": 6707,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ox (Person)",
 "media_type": "Text",
-"index_reference": "ox (person)",
+"index_reference": "ox person",
 "language": "eng",
 "review_level": "None",
 "content": "<h1>OX (Person)</h1><p>Descendant of Israel, grandfather of Judith, the heroine of Maccabean times (<a href=\"https://ref.ly/Jdt8:1\">Jdt 8:1</a>).</p>",
@@ -7905,7 +7905,7 @@
 {
 "content_id": "7541",
 "reference_id": 6709,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ozem",
 "media_type": "Text",
 "index_reference": "ozem",
@@ -7932,16 +7932,16 @@
 {
 "id": "person:Ozem.2",
 "type": "person",
-"preferred_label": "Ozem",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Ozem"
 },
 {
 "id": "person:Ozem",
 "type": "person",
-"preferred_label": "Ozem",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Ozem"
 }
 ]
 }
@@ -7949,7 +7949,7 @@
 {
 "content_id": "7542",
 "reference_id": 6710,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ozias",
 "media_type": "Text",
 "index_reference": "ozias",
@@ -7978,9 +7978,9 @@
 {
 "id": "person:Uzziah",
 "type": "person",
-"preferred_label": "Uzziah",
 "confidence": 1.0,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Uzziah"
 }
 ]
 }
@@ -7988,7 +7988,7 @@
 {
 "content_id": "7543",
 "reference_id": 6711,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Oziel",
 "media_type": "Text",
 "index_reference": "oziel",
@@ -8011,10 +8011,10 @@
 {
 "content_id": "7544",
 "reference_id": 6712,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ozni, Oznite",
 "media_type": "Text",
-"index_reference": "ozni, oznite",
+"index_reference": "ozni oznite",
 "language": "eng",
 "review_level": "None",
 "content": "<h1>OZNI, OZNITE</h1><p>Ozni was another name for a person called Ezbon. The Oznites were the family group that came from Ozni (<a href=\"https://ref.ly/Num26:16\">Numbers 26:16</a>). </p><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4381\" data-resourceType=\"TyndaleBibleDictionary\">Ezbon #1</span>.</p>",
@@ -8040,16 +8040,16 @@
 {
 "id": "person:Ezbon",
 "type": "person",
-"preferred_label": "Ezbon",
 "confidence": 1.0,
-"match_method": "content_id"
+"match_method": "content_id",
+"preferred_label": "Ezbon"
 },
 {
 "id": "group:Ozni",
 "type": "group",
-"preferred_label": "Oznites",
 "confidence": 0.8515,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Oznites"
 }
 ]
 }

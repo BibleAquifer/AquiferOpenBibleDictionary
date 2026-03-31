@@ -2,7 +2,7 @@
 {
 "content_id": "369037",
 "reference_id": 3445,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Darah",
 "media_type": "Text",
 "index_reference": "darah ",
@@ -245,9 +245,9 @@
 {
 "id": "keyterm:Blood",
 "type": "keyterm",
-"preferred_label": "darah",
-"confidence": 0.8991,
-"match_method": "embedding"
+"confidence": 0.6947,
+"match_method": "scored",
+"preferred_label": "darah"
 }
 ]
 }
@@ -255,10 +255,10 @@
 {
 "content_id": "369036",
 "reference_id": 3441,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Darah, Tanah",
 "media_type": "Text",
-"index_reference": "darah, tanah",
+"index_reference": "darah tanah",
 "language": "ind",
 "review_level": "None",
 "content": "<h1>DARAH, Tanah</h1><p>Sebutan yang diberikan terhadap tanah yang dibeli dengan &quot;uang darah&quot; yang diterima Yudas saat mengkhianati Yesus (<a href=\"https://ref.ly/Matt27:8\">Mat. 27:8</a>; <a href=\"https://ref.ly/Acts1:19\">Kisah 1:19</a>). Imam-imam kepala membeli tanah tersebut sebagai tempat penguburan bagi orang asing (sebelumnya, itu disebut tanah tukang periuk). Yudas menggantung dirinya sendiri, dan isi perutnya terburai di sana. Kisah ini menggunakan ungkapan dalam bahasa Aram yaitu <em>Hakal-Dama</em> (dalam King James Version ditulis &quot;Aceldama&quot;), yang diterjemahkan sebagai &quot;tanah darah.&quot; Hakal-Dama berada di lereng selatan lembah Hinnom dekat Lembah Kidron.</p>",
@@ -280,11 +280,18 @@
 "resource": [],
 "acai": [
 {
+"id": "place:Akeldama",
+"type": "place",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "Akeldama"
+},
+{
 "id": "keyterm:Blood",
 "type": "keyterm",
-"preferred_label": "darah",
-"confidence": 0.679,
-"match_method": "scored"
+"confidence": 0.6385,
+"match_method": "scored",
+"preferred_label": "darah"
 }
 ]
 }
@@ -292,7 +299,7 @@
 {
 "content_id": "369049",
 "reference_id": 3937,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Daud",
 "media_type": "Text",
 "index_reference": "daud",
@@ -842,11 +849,18 @@
 ],
 "acai": [
 {
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Yehuda"
+},
+{
 "id": "person:David",
 "type": "person",
-"preferred_label": "Daud",
-"confidence": 0.6808,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Daud"
 }
 ]
 }
@@ -854,7 +868,7 @@
 {
 "content_id": "369053",
 "reference_id": 3999,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Diaspora orang Yahudi",
 "media_type": "Text",
 "index_reference": "diaspora orang yahudi",
@@ -1119,7 +1133,7 @@
 {
 "content_id": "369116",
 "reference_id": 6974,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Doa",
 "media_type": "Text",
 "index_reference": "doa",

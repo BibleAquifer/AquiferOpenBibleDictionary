@@ -2,7 +2,7 @@
 {
 "content_id": "315510",
 "reference_id": 3859,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "克里特",
 "media_type": "Text",
 "index_reference": "克里特",
@@ -49,13 +49,28 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Crete",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Crete"
+},
+{
+"id": "group:Cretan",
+"type": "group",
+"confidence": 0.6667,
+"match_method": "scored",
+"preferred_label": "Cretans"
+}
+]
 }
 },
 {
 "content_id": "864915",
 "reference_id": 5195,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "客店",
 "media_type": "Text",
 "index_reference": "客店",
@@ -158,7 +173,15 @@
 "language": "zht"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Inn",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Inn"
+}
+]
 }
 }
 ]

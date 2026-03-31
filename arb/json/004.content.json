@@ -2,7 +2,7 @@
 {
 "content_id": "124591",
 "reference_id": 8211,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "الثروة",
 "media_type": "Text",
 "index_reference": "الثروة",
@@ -151,7 +151,7 @@
 {
 "content_id": "511920",
 "reference_id": 6931,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "الثريا",
 "media_type": "Text",
 "index_reference": "الثريا",
@@ -182,7 +182,7 @@
 {
 "content_id": "201478",
 "reference_id": 4435,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "الثورة اليهوديَّة الأولى",
 "media_type": "Text",
 "index_reference": "الثورة اليهوديَّة الأولى",
@@ -251,7 +251,7 @@
 {
 "content_id": "490652",
 "reference_id": 7372,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "الثورة اليهودية الثانية",
 "media_type": "Text",
 "index_reference": "الثورة اليهودية الثانية",
@@ -276,13 +276,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.616,
+"match_method": "scored",
+"preferred_label": "إِسْرَائِيلَ"
+}
+]
 }
 },
 {
 "content_id": "232621",
 "reference_id": 7983,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ثاؤفيلُس",
 "media_type": "Text",
 "index_reference": "ثاؤفيلُس",
@@ -327,9 +335,9 @@
 {
 "id": "person:Theophilus",
 "type": "person",
-"preferred_label": "ثَاوفِيلس",
-"confidence": 0.8433,
-"match_method": "embedding"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "ثَاوفِيلس"
 }
 ]
 }
@@ -337,7 +345,7 @@
 {
 "content_id": "335544",
 "reference_id": 8096,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ثالوث",
 "media_type": "Text",
 "index_reference": "ثالوث",
@@ -460,10 +468,10 @@
 {
 "content_id": "512492",
 "reference_id": 7896,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ثَامَارَ (اسم مكان)",
 "media_type": "Text",
-"index_reference": "ثَامَارَ (اسم مكان)",
+"index_reference": "ثَامَارَ اسم مكان",
 "language": "arb",
 "review_level": "None",
 "content": "<h1><span>ثَامَارَ </span>(اسم مكان)</h1><p>مدينة تقع جنوب غرب البحر الميت في سبط يهوذا (<a href=\"https://ref.ly/Ezek47:19\">حزقيال 47: 19؛</a> <a href=\"https://ref.ly/Ezek48:28\">48: 28</a>). ذُكِرت مدينة ثامار في بعض المخطوطات العبرية لنص <a href=\"https://ref.ly/1Kgs9:18\">1ملوك 9:18</a> (بدلًا من &quot;<span>تَدْمُرَ&quot; في الترجمة العربية البستاني-فاندايك) باعتبارها أحد </span>الأماكن التي بناها سليمان في أثناء حملته لتعزيز قوة وعظمة الإمبراطورية اليهودية. وربما جرى تحصين هذه المدينة بعناية لحماية الطريق التجاري المهم الواقع بين ميناء إيلات وجنوب شبه الجزيرة العربية.</p><p>انظر أيضًا <span data-bnType=\"resourceReference\" data-resourceId=\"7876\" data-resourceType=\"TyndaleBibleDictionary\">تدمر</span>.</p>",
@@ -501,9 +509,16 @@
 {
 "id": "place:Tamar.2",
 "type": "place",
-"preferred_label": "ثَامَارَ",
-"confidence": 0.8667,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "ثَامَارَ"
+},
+{
+"id": "place:Tadmor",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "تَدْمرَ"
 }
 ]
 }
@@ -511,10 +526,10 @@
 {
 "content_id": "335538",
 "reference_id": 7972,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ثامار (تامار)",
 "media_type": "Text",
-"index_reference": "ثامار (تامار)",
+"index_reference": "ثامار تامار",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>ثامار (تامار*)</h1><p><span>طريقة أخرى تستخدمها ترجمة الملك جيمس لكتابة اسم</span> ثامار، زوجة الابن البكر ليهوذا، في <a href=\"https://ref.ly/Matt1:3\">متى 1:3</a>. <em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"7895\" data-resourceType=\"TyndaleBibleDictionary\">ثامار (الشخص) #1</span>.</p>",
@@ -536,16 +551,24 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Tamar",
+"type": "person",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "ثَامَارَ"
+}
+]
 }
 },
 {
 "content_id": "335534",
 "reference_id": 7895,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ثامار (شخص)",
 "media_type": "Text",
-"index_reference": "ثامار (شخص)",
+"index_reference": "ثامار شخص",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>ثامار (شخص)</h1><p>1. هي زوجة عير، الابن البكر ليهوذا من امرأته الكنعانية. ولاحقًا، كأرملة، أنجبت ثامار ليهوذا ابنين اسمهما فارص وزارح (<a href=\"https://ref.ly/Gen38:6-Gen38:24\">تك 38:6–24</a>; <a href=\"https://ref.ly/1Chr2:4\">1&nbsp;أخ 2:4</a>). وقد حافظت ثامار على نسل يهوذا من خلال فارص (<a href=\"https://ref.ly/Ruth4:12\">را 4:12</a>)، وتم تسجيل اسمها في سلسلة نسب المسيح (<a href=\"https://ref.ly/Matt1:3\">مت 1:3</a>).</p><p><em>انظر أيضا</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4580\" data-resourceType=\"TyndaleBibleDictionary\">سلسلة نسب يسوع المسيح</span>.</p><p>2. أخت أبشالوم وابنة داود من زوجته معكة الجشورية. لكن من خلال الخداع، تم الاعتداء على ثامار من قبل أمنون، أخيها غير الشقيق. وانتقامًا لذلك، فقد قتل أبشالوم، أخوها الشقيق، أمنون في بعل حاصور (<a href=\"https://ref.ly/2Sam13:1-2Sam13:39\">2&nbsp;صم 13</a>; <a href=\"https://ref.ly/1Chr3:9\">1&nbsp;أخ 3:9</a>).</p><p>3. ابنة أبشالوم التي كانت مشهورة بجمالها (<a href=\"https://ref.ly/2Sam14:27\">2&nbsp;صم 14:27</a>). وربما هي التي تزوجت من أوريئيل الجبعوني وأصبحت أم معكة. <em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"5976\" data-resourceType=\"TyndaleBibleDictionary\">معكة، معشة (شخص) #4</span>.</p>",
@@ -610,13 +633,35 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Tamar.2",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "ثَامَارَ"
+},
+{
+"id": "person:Tamar.3",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "ثَامَارَ"
+},
+{
+"id": "person:Tamar",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "ثَامَارَ"
+}
+]
 }
 },
 {
 "content_id": "512546",
 "reference_id": 7976,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ثرشيش",
 "media_type": "Text",
 "index_reference": "ثرشيش",
@@ -660,13 +705,28 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Tarshish",
+"type": "place",
+"confidence": 0.8667,
+"match_method": "scored",
+"preferred_label": "تَرْشِيشَ"
+},
+{
+"id": "person:Tarshish.2",
+"type": "person",
+"confidence": 0.7333,
+"match_method": "scored",
+"preferred_label": "تَرْشِيشَ"
+}
+]
 }
 },
 {
 "content_id": "512389",
 "reference_id": 7717,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ثعبان",
 "media_type": "Text",
 "index_reference": "ثعبان",
@@ -705,13 +765,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "fauna:Snake",
+"type": "fauna",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Snake"
+}
+]
 }
 },
 {
 "content_id": "510417",
 "reference_id": 4471,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ثَعلَب",
 "media_type": "Text",
 "index_reference": "ثَعلَب",
@@ -742,10 +810,10 @@
 {
 "content_id": "510419",
 "reference_id": 4481,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ثلج، صَّقيع، جليد",
 "media_type": "Text",
-"index_reference": "ثلج، صَّقيع، جليد",
+"index_reference": "ثلج صَّقيع جليد",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>ثلج، صَّقيع، جليد</h1><p>بخار الماء أو الندى المتجمِّد (<a href=\"https://ref.ly/Ps78:47\">مزمور 78: 47؛</a> <a href=\"https://ref.ly/Ps147:16\">147: 16؛</a> <a href=\"https://ref.ly/Ps148:8\">148: 8؛</a> <a href=\"https://ref.ly/Jer36:30\">إرميا 36: 30؛</a> <a href=\"https://ref.ly/Zech14:6\">زكريا 14: 6</a>).</p>",
@@ -789,7 +857,7 @@
 {
 "content_id": "335283",
 "reference_id": 4482,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ثَمَرُ ٱلرُّوحِ",
 "media_type": "Text",
 "index_reference": "ثَمَرُ ٱلرُّوحِ",
@@ -842,7 +910,7 @@
 {
 "content_id": "510420",
 "reference_id": 4483,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ثمرة",
 "media_type": "Text",
 "index_reference": "ثمرة",
@@ -873,7 +941,7 @@
 {
 "content_id": "511983",
 "reference_id": 7050,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ثُمْنِيَّة",
 "media_type": "Text",
 "index_reference": "ثُمْنِيَّة",
@@ -891,13 +959,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Quart",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Quart"
+}
+]
 }
 },
 {
 "content_id": "509999",
 "reference_id": 3708,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ثُمْنِيَّةُ",
 "media_type": "Text",
 "index_reference": "ثُمْنِيَّةُ",
@@ -928,7 +1004,7 @@
 {
 "content_id": "331997",
 "reference_id": 7987,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ثُودَاسُ",
 "media_type": "Text",
 "index_reference": "ثُودَاسُ",
@@ -949,9 +1025,9 @@
 {
 "id": "person:Theudas",
 "type": "person",
-"preferred_label": "ثودَاس",
-"confidence": 0.937,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "ثودَاس"
 }
 ]
 }
@@ -959,7 +1035,7 @@
 {
 "content_id": "509876",
 "reference_id": 3526,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ثور",
 "media_type": "Text",
 "index_reference": "ثور",
@@ -983,7 +1059,7 @@
 {
 "content_id": "511803",
 "reference_id": 6708,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ثَوْر",
 "media_type": "Text",
 "index_reference": "ثَوْر",
@@ -1014,7 +1090,7 @@
 {
 "content_id": "512700",
 "reference_id": 8233,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ثَور بَري",
 "media_type": "Text",
 "index_reference": "ثَور بَري",
@@ -1032,13 +1108,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "fauna:WildOx",
+"type": "fauna",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Wild Ox"
+}
+]
 }
 },
 {
 "content_id": "490386",
 "reference_id": 4537,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ثوم",
 "media_type": "Text",
 "index_reference": "ثوم",
@@ -1070,13 +1154,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "flora:Garlic",
+"type": "flora",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Garlic"
+}
+]
 }
 },
 {
 "content_id": "331999",
 "reference_id": 7997,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ثَيَاتِيرَا",
 "media_type": "Text",
 "index_reference": "ثَيَاتِيرَا",
@@ -1135,9 +1227,9 @@
 {
 "id": "place:Thyatira",
 "type": "place",
-"preferred_label": "ثَيَاتِيرَا",
-"confidence": 0.6421,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "ثَيَاتِيرَا"
 }
 ]
 }
@@ -1145,7 +1237,7 @@
 {
 "content_id": "512556",
 "reference_id": 7998,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ثيني",
 "media_type": "Text",
 "index_reference": "ثيني",
@@ -1170,7 +1262,15 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "flora:Thyine",
+"type": "flora",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Thyine"
+}
+]
 }
 }
 ]

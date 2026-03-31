@@ -2,10 +2,10 @@
 {
 "content_id": "369090",
 "reference_id": 5909,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Libia, Bangsa Libia",
 "media_type": "Text",
-"index_reference": "libia, bangsa libia",
+"index_reference": "libia bangsa libia",
 "language": "ind",
 "review_level": "None",
 "content": "<h3>LIBIA, BANGSA LIBIA</h3><p>Negara dan penduduknya berada di sebelah barat Mesir. Tiga kata Ibrani yang berbeda diterjemahkan demikian, tetapi ada beberapa kerancuan untuk memahami makna, sebagian karena ketidakpastian tekstual dan sebagian karena penulis klasik cenderung menggunakan &quot;Libia&quot; untuk menggambarkan Afrika non-Mesir secara umum.</p><p>Sejak abad ke-12 SM, orang Libia bertugas sebagai tentara Mesir dan Etiopia (<a href=\"https://ref.ly/2Chr12:3\">2Taw. 12:3</a>; <a href=\"https://ref.ly/2Chr16:8\">16:8</a>; <a href=\"https://ref.ly/Nah3:9\">Nah. 3:9</a>). Sisak, sang penyerbu besar, juga berasal dari Libia. Yehezkiel bernubuat bahwa Libia akan berbagi dalam kehancuran bangsa-bangsa (<a href=\"https://ref.ly/Ezek30:5\">Yeh. 30:5</a>), dan orang Libia dihitung di antara orang-orang yang dipaksa tunduk, seperti tertulis dalam dalam <a href=\"https://ref.ly/Dan11:43\">Dan. 11:43</a>. Ada referensi singkat tentang orang Libia (Ibrani, &quot;Pul&quot;) dalam <a href=\"https://ref.ly/Isa66:19\">Yes. 66:19</a>.</p><p>Simon, seorang pria dari Kirene di Libia timur, dipaksa untuk memikul salib Yesus (<a href=\"https://ref.ly/Matt27:32\">Mat. 27:32</a>; <a href=\"https://ref.ly/Mark15:21\">Mrk. 15:21</a>; <a href=\"https://ref.ly/Luke23:26\">Luk. 23:26</a>). Orang-orang Libia tercatat ada di antara kerumunan besar di Yerusalem pada Hari Pentakosta (<a href=\"https://ref.ly/Acts2:10\">Kisah 2:10</a>).</p>",
@@ -77,9 +77,16 @@
 {
 "id": "place:Libya",
 "type": "place",
-"preferred_label": "Libia",
-"confidence": 0.5835,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Libia"
+},
+{
+"id": "place:Put",
+"type": "place",
+"confidence": 0.585,
+"match_method": "scored",
+"preferred_label": "Put"
 }
 ]
 }
@@ -87,7 +94,7 @@
 {
 "content_id": "369135",
 "reference_id": 8060,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Lidah Api",
 "media_type": "Text",
 "index_reference": "lidah api",
@@ -124,15 +131,7 @@
 "language": "ind"
 }
 ],
-"acai": [
-{
-"id": "realia:Sandal",
-"type": "realia",
-"preferred_label": "Sandal",
-"confidence": 0.5967,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 }
 ]

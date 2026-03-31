@@ -2,10 +2,10 @@
 {
 "content_id": "369131",
 "reference_id": 7969,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Tadeus, Rasul",
 "media_type": "Text",
-"index_reference": "tadeus, rasul",
+"index_reference": "tadeus rasul",
 "language": "ind",
 "review_level": "None",
 "content": "<h1>TADEUS, Rasul</h1><p>Salah satu dari 12 rasul pertama menurut daftar dalam <a href=\"https://ref.ly/Mark3:18\">Mrk. 3:18</a> dan <a href=\"https://ref.ly/Matt10:3\">Mat. 10:3</a> (KJV &quot;Lebbaeus, yang dijuluki Thaddaeus&quot;). Sangat mungkin bahwa ini adalah orang yang sama dengan Yudas anak Yakobus (bukan Iskariot) dalam <a href=\"https://ref.ly/Luke6:16\">Luk. 6:16</a> dan <a href=\"https://ref.ly/Acts1:13\">Kisah 1:13</a>. <em>Lihat</em> <span data-bnType=\"resourceReference\" data-resourceId=\"2838\" data-resourceType=\"TyndaleBibleDictionary\">Rasul, Kerasulan</span>.</p>",
@@ -49,23 +49,23 @@
 {
 "id": "person:Judas",
 "type": "person",
-"preferred_label": "Yudas",
-"confidence": 0.8065,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Yudas"
+},
+{
+"id": "person:Philip",
+"type": "person",
+"confidence": 0.7425,
+"match_method": "scored",
+"preferred_label": "Filipus"
 },
 {
 "id": "person:Alphaeus",
 "type": "person",
-"preferred_label": "Alfeus",
-"confidence": 0.72,
-"match_method": "scored"
-},
-{
-"id": "person:Bartholomew",
-"type": "person",
-"preferred_label": "Bartolomeus",
-"confidence": 0.6435,
-"match_method": "scored"
+"confidence": 0.666,
+"match_method": "scored",
+"preferred_label": "Alfeus"
 }
 ]
 }
@@ -73,7 +73,7 @@
 {
 "content_id": "369134",
 "reference_id": 7993,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Takhta",
 "media_type": "Text",
 "index_reference": "takhta",
@@ -258,13 +258,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "realia:Throne",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Throne"
+}
+]
 }
 },
 {
 "content_id": "369125",
 "reference_id": 7653,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Tanda",
 "media_type": "Text",
 "index_reference": "tanda",
@@ -575,21 +583,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "keyterm:Example",
-"type": "keyterm",
-"preferred_label": "tanda",
-"confidence": 0.8869,
-"match_method": "embedding"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "369132",
 "reference_id": 7983,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Teofilus",
 "media_type": "Text",
 "index_reference": "teofilus",
@@ -634,9 +634,9 @@
 {
 "id": "person:Theophilus",
 "type": "person",
-"preferred_label": "Teofilus",
-"confidence": 0.7333,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Teofilus"
 }
 ]
 }
@@ -644,7 +644,7 @@
 {
 "content_id": "369112",
 "reference_id": 6905,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Tiang Api dan Tiang Awan",
 "media_type": "Text",
 "index_reference": "tiang api dan tiang awan",
@@ -919,10 +919,10 @@
 {
 "content_id": "369133",
 "reference_id": 7989,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Tomas, Rasul",
 "media_type": "Text",
-"index_reference": "tomas, rasul",
+"index_reference": "tomas rasul",
 "language": "ind",
 "review_level": "None",
 "content": "<h1>TOMAS, Rasul</h1><p>Salah satu dari 12 rasul yang namanya muncul dalam keempat Injil. Nama ini adalah transliterasi dari kata Aram yang berarti &quot;kembar&quot; dan muncul dalam PB sebagai Tomas. Di antara orang Kristen Yunani, ada kecenderungan untuk menggunakan nama Yunaninya, Didimus (<em>didumos,</em> &quot;kembar&quot;); nama ini muncul tiga kali dalam Injil Yohanes (<a href=\"https://ref.ly/John11:16\">Yoh. 11:16</a>; <a href=\"https://ref.ly/John20:24\">20:24</a>; <a href=\"https://ref.ly/John21:2\">21:2</a>). Ada banyak bukti dari papirus koine bahwa nama Didimus dikenal baik pada era PB.</p><p>Tomas muncul dalam setiap daftar sinoptik para rasul (<a href=\"https://ref.ly/Matt10:3\">Mat. 10:3</a>; <a href=\"https://ref.ly/Mark3:18\">Mrk. 3:18</a>; <a href=\"https://ref.ly/Luke6:15\">Luk. 6:15</a>; bdk. <a href=\"https://ref.ly/Acts1:13\">Kisah 1:13</a>) tetapi tidak memainkan peran lebih lanjut. Kemunculannya yang dirayakan dalam Injil keempat sangat menarik. Di sini Tomas mengungkapkan keputusasaan mendekati Yerusalem (<a href=\"https://ref.ly/John11:16\">Yoh. 11:16</a>) dan mendesak Yesus untuk menjelaskan kata-katanya tentang kepergian-Nya di ruang atas (<a href=\"https://ref.ly/John14:5\">Yoh. 14:5</a>). Dalam adegan penutup Injil ada episode terkenal di mana Tomas meragukan kebangkitan Tuhan (<a href=\"https://ref.ly/John20:24\">Yoh. 20:24</a>) dan kemudian diberikan bukti yang meyakinkan (ay. <a href=\"https://ref.ly/John20:26-John20:28\">26–28</a>), setelah itu Tomas menyebut Yesus &quot;Tuhanku dan Allahku.&quot; Tomas juga disebutkan dalam epilog Injil Yohanes (<a href=\"https://ref.ly/John21:2\">Yoh. 21:2</a>).</p><p>Dua karya apokrif, pseudepigrafa yang menyandang nama Tomas: Injil Tomas (dari Nag Hammadi), yang mencatat 114 &quot;perkataan rahasia yang diucapkan Yesus yang hidup&quot; dan yang dikatakan telah disimpan oleh Tomas; dan Kisah Tomas (tersedia dalam bahasa Yunani dan Suryani), yang mengatakan bahwa Yesus dan Tomas adalah kembar (berbagi penampilan dan takdir yang serupa) dan bahwa sang rasul memperoleh ajaran rahasia. Kisah apokrif ini bahkan menjelaskan nasib Tomas. Bertentangan dengan keinginannya, Tomas melakukan perjalanan ke India atas perintah Tuhan. Di sana ia mati syahid ditikam dengan tombak atas perintah seorang raja India. Ia dibangkitkan dan makamnya yang kosong dianggap memiliki sifat-sifat ajaib. Hari ini di gereja St. Thomas, India, umat Kristen menyatakan bahwa mereka adalah keturunan rohani dari sang rasul.</p><p><em>Lihat juga</em> <span data-bnType=\"resourceReference\" data-resourceId=\"2831\" data-resourceType=\"TyndaleBibleDictionary\">Apokrifa: Tomas, Kisah Tomas, Injil Tomas</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"2838\" data-resourceType=\"TyndaleBibleDictionary\">Rasul, Kerasulan</span>. </p>",
@@ -996,9 +996,16 @@
 {
 "id": "person:Thomas",
 "type": "person",
-"preferred_label": "Tomas",
-"confidence": 0.829,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Tomas"
+},
+{
+"id": "person:Philip",
+"type": "person",
+"confidence": 0.5516,
+"match_method": "scored",
+"preferred_label": "Filipus"
 }
 ]
 }
@@ -1006,7 +1013,7 @@
 {
 "content_id": "369093",
 "reference_id": 5948,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Tuhan",
 "media_type": "Text",
 "index_reference": "tuhan",
@@ -1352,11 +1359,18 @@
 ],
 "acai": [
 {
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Yesus"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
-"preferred_label": "Tuhan",
-"confidence": 0.6023,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Tuhan"
 }
 ]
 }
@@ -1364,7 +1378,7 @@
 {
 "content_id": "369065",
 "reference_id": 4455,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "TUMPUAN KAKI",
 "media_type": "Text",
 "index_reference": "tumpuan kaki",
@@ -1453,7 +1467,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "realia:Footstool",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Footstool"
+}
+]
 }
 }
 ]

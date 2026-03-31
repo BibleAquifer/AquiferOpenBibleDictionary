@@ -2,7 +2,7 @@
 {
 "content_id": "340929",
 "reference_id": 3497,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "陳設餅",
 "media_type": "Text",
 "index_reference": "陳設餅",
@@ -129,7 +129,22 @@
 "language": "zht"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:BreadOfDisplay",
+"type": "realia",
+"confidence": 0.67,
+"match_method": "scored",
+"preferred_label": "Bread of Display"
+},
+{
+"id": "keyterm:BreadOfDisplay",
+"type": "keyterm",
+"confidence": 0.66,
+"match_method": "scored",
+"preferred_label": "Bread of Display"
+}
+]
 }
 }
 ]

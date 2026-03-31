@@ -2,7 +2,7 @@
 {
 "content_id": "207154",
 "reference_id": 2671,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Alexandria",
 "media_type": "Text",
 "index_reference": "alexandria",
@@ -41,16 +41,16 @@
 {
 "id": "place:Alexandria",
 "type": "place",
-"preferred_label": "Александрия",
 "confidence": 1.0,
-"match_method": "scored"
+"match_method": "content_id",
+"preferred_label": "Александрия"
 },
 {
 "id": "group:Alexandria",
 "type": "group",
-"preferred_label": "Alexandrians",
 "confidence": 0.8,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Alexandrians"
 }
 ]
 }
