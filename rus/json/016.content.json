@@ -2,7 +2,7 @@
 {
 "content_id": "124432",
 "reference_id": 4403,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Семейная Жизнь И Отношения",
 "media_type": "Text",
 "index_reference": "семейная жизнь и отношения",
@@ -805,7 +805,7 @@
 {
 "content_id": "124455",
 "reference_id": 7287,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Спасение",
 "media_type": "Text",
 "index_reference": "спасение",
@@ -1182,9 +1182,9 @@
 {
 "id": "keyterm:Salvation",
 "type": "keyterm",
-"preferred_label": "Salvation",
-"confidence": 0.8052,
-"match_method": "embedding"
+"confidence": 0.7614,
+"match_method": "scored",
+"preferred_label": "Salvation"
 }
 ]
 }
@@ -1192,7 +1192,7 @@
 {
 "content_id": "124456",
 "reference_id": 7328,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Спаситель",
 "media_type": "Text",
 "index_reference": "спаситель",
@@ -1493,13 +1493,21 @@
 "language": "rus"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Savior",
+"type": "keyterm",
+"confidence": 0.6984,
+"match_method": "scored",
+"preferred_label": "Savior"
+}
+]
 }
 },
 {
 "content_id": "124430",
 "reference_id": 4143,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Старейшина",
 "media_type": "Text",
 "index_reference": "старейшина",

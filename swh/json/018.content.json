@@ -2,7 +2,7 @@
 {
 "content_id": "833445",
 "reference_id": 7057,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Raama",
 "media_type": "Text",
 "index_reference": "raama",
@@ -31,28 +31,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Raamah",
-"type": "person",
-"preferred_label": "Raama",
-"confidence": 0.8667,
-"match_method": "scored"
-},
-{
-"id": "place:Raamah",
-"type": "place",
-"preferred_label": "Raama",
-"confidence": 0.7333,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "468176",
 "reference_id": 3781,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Rangi",
 "media_type": "Text",
 "index_reference": "rangi",
@@ -1107,7 +1092,7 @@
 {
 "content_id": "689599",
 "reference_id": 6232,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Rehema",
 "media_type": "Text",
 "index_reference": "rehema",
@@ -1572,36 +1557,13 @@
 "language": "swh"
 }
 ],
-"acai": []
-}
-},
-{
-"content_id": "833447",
-"reference_id": 7150,
-"version": "1.0.2",
-"title": "Rehoboth-iri",
-"media_type": "Text",
-"index_reference": "rehoboth-iri",
-"language": "swh",
-"review_level": "None",
-"content": "<h1>REHOBOTH-IRI</h1><p>Jina lenye maana &quot;maeneo mapana ya mji.&quot; Huu ulikuwa mji wa pili uliojengwa na Nimrodi, mwindaji (kjv &quot;Asshur&quot;) huko Ashuru (<a href=\"https://ref.ly/Gen10:11\">Gn 10:11</a>; kjv &quot;Rehobothi&quot;). Maoni yanatofautiana kuhusu kama ulikuwa ni manispaa tofauti (kitongoji cha Ninawi) au, kwa kuwa jina la mji halikutajwa katika fasihi ya Ashuru, viwanja vya wazi au barabara pana ndani ya Ninawi yenyewe.</p>",
-"associations": {
-"passage": [
-{
-"start_ref": "01010011",
-"start_ref_usfm": "GEN 10:11",
-"end_ref": "01010011",
-"end_ref_usfm": "GEN 10:11"
-}
-],
-"resource": [],
 "acai": [
 {
-"id": "place:Nineveh",
-"type": "place",
-"preferred_label": "Ninawi",
-"confidence": 0.9415,
-"match_method": "scored"
+"id": "keyterm:Mercy",
+"type": "keyterm",
+"confidence": 0.6267,
+"match_method": "scored",
+"preferred_label": "Mercy"
 }
 ]
 }
@@ -1609,7 +1571,7 @@
 {
 "content_id": "833448",
 "reference_id": 7151,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Rehobothi",
 "media_type": "Text",
 "index_reference": "rehobothi",
@@ -1652,28 +1614,36 @@
 "language": "swh"
 }
 ],
-"acai": [
-{
-"id": "place:Rehoboth.2",
-"type": "place",
-"preferred_label": "Rehobothi",
-"confidence": 0.8,
-"match_method": "scored"
+"acai": []
+}
 },
 {
-"id": "place:Rehoboth",
-"type": "place",
-"preferred_label": "Rehobothi",
-"confidence": 0.7,
-"match_method": "scored"
+"content_id": "833447",
+"reference_id": 7150,
+"version": "1.0.4",
+"title": "Rehoboth-iri",
+"media_type": "Text",
+"index_reference": "rehobothiri",
+"language": "swh",
+"review_level": "None",
+"content": "<h1>REHOBOTH-IRI</h1><p>Jina lenye maana &quot;maeneo mapana ya mji.&quot; Huu ulikuwa mji wa pili uliojengwa na Nimrodi, mwindaji (kjv &quot;Asshur&quot;) huko Ashuru (<a href=\"https://ref.ly/Gen10:11\">Gn 10:11</a>; kjv &quot;Rehobothi&quot;). Maoni yanatofautiana kuhusu kama ulikuwa ni manispaa tofauti (kitongoji cha Ninawi) au, kwa kuwa jina la mji halikutajwa katika fasihi ya Ashuru, viwanja vya wazi au barabara pana ndani ya Ninawi yenyewe.</p>",
+"associations": {
+"passage": [
+{
+"start_ref": "01010011",
+"start_ref_usfm": "GEN 10:11",
+"end_ref": "01010011",
+"end_ref_usfm": "GEN 10:11"
 }
-]
+],
+"resource": [],
+"acai": []
 }
 },
 {
 "content_id": "833449",
 "reference_id": 7176,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Reseni",
 "media_type": "Text",
 "index_reference": "reseni",
@@ -1690,21 +1660,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "place:Resen",
-"type": "place",
-"preferred_label": "Reseni",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "852562",
 "reference_id": 7186,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Reu",
 "media_type": "Text",
 "index_reference": "reu",
@@ -1745,9 +1707,9 @@
 {
 "id": "person:Reu",
 "type": "person",
-"preferred_label": "Reu",
 "confidence": 1.0,
-"match_method": "scored"
+"match_method": "content_id",
+"preferred_label": "Reu"
 }
 ]
 }
@@ -1755,7 +1717,7 @@
 {
 "content_id": "833450",
 "reference_id": 7198,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Rhodes",
 "media_type": "Text",
 "index_reference": "rhodes",
@@ -1790,28 +1752,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "place:Rhodes",
-"type": "place",
-"preferred_label": "Rodo",
-"confidence": 0.7,
-"match_method": "scored"
-},
-{
-"id": "place:Dedan",
-"type": "place",
-"preferred_label": "Dedani",
-"confidence": 0.55,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "833452",
 "reference_id": 7213,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Rifathi",
 "media_type": "Text",
 "index_reference": "rifathi",
@@ -1834,21 +1781,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Riphath",
-"type": "person",
-"preferred_label": "Rifathi",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "833453",
 "reference_id": 7223,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Rodanimu",
 "media_type": "Text",
 "index_reference": "rodanimu",
@@ -1871,21 +1810,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "group:Dodanim",
-"type": "group",
-"preferred_label": "Dodanim",
-"confidence": 0.9685,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "778889",
 "reference_id": 7757,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Roho",
 "media_type": "Text",
 "index_reference": "roho",
@@ -2366,21 +2297,13 @@
 "language": "swh"
 }
 ],
-"acai": [
-{
-"id": "deity:HolySpirit",
-"type": "deity",
-"preferred_label": "Roho",
-"confidence": 1.0,
-"match_method": "embedding"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "833467",
 "reference_id": 7773,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Roho iliyo Gerezani",
 "media_type": "Text",
 "index_reference": "roho iliyo gerezani",
@@ -2441,7 +2364,7 @@
 {
 "content_id": "468217",
 "reference_id": 7769,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Roho wa Mungu",
 "media_type": "Text",
 "index_reference": "roho wa mungu",
@@ -3508,13 +3431,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.5675,
+"match_method": "scored",
+"preferred_label": "Roho"
+}
+]
 }
 },
 {
 "content_id": "778890",
 "reference_id": 7770,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Roho wa Yesu Kristo",
 "media_type": "Text",
 "index_reference": "roho wa yesu kristo",
@@ -3815,7 +3746,7 @@
 {
 "content_id": "833383",
 "reference_id": 4043,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ronadimu",
 "media_type": "Text",
 "index_reference": "ronadimu",

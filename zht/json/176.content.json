@@ -2,7 +2,7 @@
 {
 "content_id": "574035",
 "reference_id": 6640,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "油",
 "media_type": "Text",
 "index_reference": "油",
@@ -192,13 +192,28 @@
 "language": "zht"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.8439,
+"match_method": "scored",
+"preferred_label": "Olive Oil"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.7854,
+"match_method": "scored",
+"preferred_label": "Anointing Oil"
+}
+]
 }
 },
 {
 "content_id": "838331",
 "reference_id": 5640,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "猶八",
 "media_type": "Text",
 "index_reference": "猶八",
@@ -221,7 +236,7 @@
 {
 "content_id": "471334",
 "reference_id": 5654,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "猶大",
 "media_type": "Text",
 "index_reference": "猶大",
@@ -415,16 +430,59 @@
 "language": "zht"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Judas.2",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Judas"
+},
+{
+"id": "person:Judas.3",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Judas"
+},
+{
+"id": "person:Judas.4",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Judas"
+},
+{
+"id": "person:Judas.5",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Judas"
+},
+{
+"id": "person:Jude",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Jude"
+},
+{
+"id": "person:Judas",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Judas"
+}
+]
 }
 },
 {
 "content_id": "574018",
 "reference_id": 5648,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "猶大（人物）",
 "media_type": "Text",
-"index_reference": "猶大（人物）",
+"index_reference": "猶大人物",
 "language": "zht",
 "review_level": "None",
 "content": "<h1>猶大（人物）</h1><ol><li><p>譯註：和合本將所有原文和英文版本有關Juda、Jude、Judas、Joda和Judah均音譯為猶大。</p></li><li><p>猶大是耶穌的兄弟在<a href=\"https://ref.ly/Mark6:3\">馬可福音六章3節</a>。猶大（Judas）在<a href=\"https://ref.ly/Jude1:1-Jude1:25\">猶大書第1章</a>中也被稱為猶大（Jude）。<em>見</em><span data-bnType=\"resourceReference\" data-resourceId=\"5657\" data-resourceType=\"TyndaleBibleDictionary\">猶大（人）</span>。</p></li><li><p>在<a href=\"https://ref.ly/Luke3:26\">路加福音三章26節，</a>約亞拿的兒子稱為猶大（Joda）。<em>見</em><span data-bnType=\"resourceReference\" data-resourceId=\"5565\" data-resourceType=\"TyndaleBibleDictionary\">猶大（Joda） </span>。</p></li><li><p>在<a href=\"https://ref.ly/Luke3:30\">路加福音三章30節，</a>約瑟的兒子稱為猶大（Judah）。<em>見</em><span data-bnType=\"resourceReference\" data-resourceId=\"5644\" data-resourceType=\"TyndaleBibleDictionary\">猶大（Judah）#8</span>。</p></li><li><p>在<a href=\"https://ref.ly/Luke3:33\">路加福音三章33節，</a>雅各的兒子也稱為猶大（Judah）。<em>見</em><span data-bnType=\"resourceReference\" data-resourceId=\"5644\" data-resourceType=\"TyndaleBibleDictionary\">猶大（Judah）#1</span>。</p></li><li><p>猶大支派（<a href=\"https://ref.ly/Heb7:14\">來7:14</a>；<a href=\"https://ref.ly/Rev5:5\">啟5:5</a>，<a href=\"https://ref.ly/Rev7:5\">7:5</a>）。<em>見</em> <span data-bnType=\"resourceReference\" data-resourceId=\"5645\" data-resourceType=\"TyndaleBibleDictionary\">猶大支派</span>。</p></li></ol>",
@@ -480,13 +538,35 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Jude",
+"type": "person",
+"confidence": 0.625,
+"match_method": "scored",
+"preferred_label": "Jude"
+},
+{
+"id": "person:Joda",
+"type": "person",
+"confidence": 0.6125,
+"match_method": "scored",
+"preferred_label": "Joda"
+},
+{
+"id": "person:Judah.3",
+"type": "person",
+"confidence": 0.6125,
+"match_method": "scored",
+"preferred_label": "Judah"
+}
+]
 }
 },
 {
 "content_id": "315523",
 "reference_id": 5656,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "猶大書",
 "media_type": "Text",
 "index_reference": "猶大書",
@@ -763,13 +843,21 @@
 "language": "zht"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Jude",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Jude"
+}
+]
 }
 },
 {
 "content_id": "800778",
 "reference_id": 6882,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "猶太的斐洛",
 "media_type": "Text",
 "index_reference": "猶太的斐洛",
@@ -804,7 +892,7 @@
 {
 "content_id": "340963",
 "reference_id": 5646,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "猶太教",
 "media_type": "Text",
 "index_reference": "猶太教",
@@ -1076,7 +1164,7 @@
 {
 "content_id": "574016",
 "reference_id": 5535,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "猶太人",
 "media_type": "Text",
 "index_reference": "猶太人",
@@ -1384,13 +1472,21 @@
 "language": "zht"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.7918,
+"match_method": "scored",
+"preferred_label": "Jews"
+}
+]
 }
 },
 {
 "content_id": "864972",
 "reference_id": 7206,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "右手",
 "media_type": "Text",
 "index_reference": "右手",
@@ -1493,7 +1589,7 @@
 {
 "content_id": "826015",
 "reference_id": 4354,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "幼發拉底河",
 "media_type": "Text",
 "index_reference": "幼發拉底河",

@@ -2,7 +2,7 @@
 {
 "content_id": "509376",
 "reference_id": 2721,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "اللا ألفية",
 "media_type": "Text",
 "index_reference": "اللا ألفية",
@@ -26,7 +26,7 @@
 {
 "content_id": "443755",
 "reference_id": 4926,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "اللغة العِبريّة",
 "media_type": "Text",
 "index_reference": "اللغة العِبريّة",
@@ -181,7 +181,7 @@
 {
 "content_id": "125369",
 "reference_id": 4706,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "اللغة اليونانية",
 "media_type": "Text",
 "index_reference": "اللغة اليونانية",
@@ -228,10 +228,10 @@
 {
 "content_id": "512438",
 "reference_id": 7800,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "اللَّقلاق، أبو دحيج",
 "media_type": "Text",
-"index_reference": "اللَّقلاق، أبو دحيج",
+"index_reference": "اللَّقلاق أبو دحيج",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>اللَّقلاق، أبو دحيج</h1><p><em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3418\" data-resourceType=\"TyndaleBibleDictionary\">الطيور</span>.</p>",
@@ -246,13 +246,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "fauna:Stork",
+"type": "fauna",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Stork"
+}
+]
 }
 },
 {
 "content_id": "510383",
 "reference_id": 4408,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "الله الآب",
 "media_type": "Text",
 "index_reference": "الله الآب",
@@ -277,16 +285,24 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "ٱلرَّبِّ"
+}
+]
 }
 },
 {
 "content_id": "125367",
 "reference_id": 4665,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "الله، جوهره وصفاته",
 "media_type": "Text",
-"index_reference": "الله، جوهره وصفاته",
+"index_reference": "الله جوهره وصفاته",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>الله، جوهره وصفاته</h1><p>صفات الله الجوهريَّة التي أعلنها الكتاب المُقدَّس وظهرتْ في أعمال الله في التاريخ الكتابي. إنها صفات الآب، والابن، والروح القُدُس على حدٍ سواء. تُعلَن صفات الله بطرق أغنى وأكمل تدريجيًا في تاريخ الفداء.</p><p>وفقًا للكتاب المُقدَّس، تُظهِر الخليقة كُلها ألوهيَّة الله وقوته السرمديَّة (مزمور <span data-bnType=\"resourceReference\">١٩ : ١–٦</span>؛ <span data-bnType=\"resourceReference\">رومية ١: ٢٠</span>). تُظهِر العنايةُ الإلهيَّة أيضًا بعضَ صفاته (<span data-bnType=\"resourceReference\">متَّى ٥: ٤٥</span>؛ <span data-bnType=\"resourceReference\">لوقا ٦: ٣٥</span>؛ <span data-bnType=\"resourceReference\">أعمال الرسل ١٤: ١٦، ١٧</span>؛ <span data-bnType=\"resourceReference\">١٧: ٢٢–٣١</span>). إن الإعلان الأكمل عن صفات الله يُرى في عمله الفدائي من خلال يسوع المسيح.</p><p>كيف يُعبِّر الكتابُ المُقدَّس عن صفات الله؟ أولًا، في الأسماء الإلهيَّة التي أعلنَ بها الله عن نفسه (<span data-bnType=\"resourceReference\">تكوين ١: ١</span>؛ <span data-bnType=\"resourceReference\">٢: ٤</span>؛ <span data-bnType=\"resourceReference\">١٧: ١</span>؛ <span data-bnType=\"resourceReference\">خروج ٣: ٦، ١٤، ١٥</span>؛ <span data-bnType=\"resourceReference\">٦: ٢–٥</span>). يُعلَن عن بعض صفات الله ضمنيًا في القصص الكتابيَّة بخصوص الخلق، والسقوط، والطوفان، وبابل، والخروج، وبشكل أكمل في العهود المختلفة التي قطعها اللهُ مع شعبه. بالنسبة لإسرائيل، عرَّف الله نفسه بأنه إله إبراهيم وإسحاق ويعقوب (<span data-bnType=\"resourceReference\">خروج ٣: ١٥</span>). أما بالنسبة لفرعون، فقد عرَّف الله نفسه بأنه &quot;إله إسرائيل&quot; أو &quot;إله العبرانيين&quot; (<span data-bnType=\"resourceReference\">٥: ١–٣</span>).</p><p>بحلول الوقت الذي كان فيه شعب إسرائيل قد وصلَ إلى جبل سيناء، كان الإعلان عن صفات الله في القصة الكتابيَّة قد أصبح أكثر وضوحًا: &quot;الرَّبُّ إِلهٌ رَحِيمٌ وَرَؤُوفٌ، بَطِيءُ الْغَضَبِ وَكَثِيرُ الإِحْسَانِ وَالْوَفَاءِ. حَافِظُ الإِحْسَانِ إِلَى أُلُوفٍ. غَافِرُ الإِثْمِ وَالْمَعْصِيَةِ وَالْخَطِيَّةِ. وَلكِنَّهُ لَنْ يُبْرِئَ إِبْرَاءً. مُفْتَقِدٌ إِثْمَ الآبَاءِ فِي الأَبْنَاءِ، وَفِي أَبْنَاءِ الأَبْنَاءِ، فِي الْجِيلِ الثَّالِثِ وَالرَّابعِ&quot; (<span data-bnType=\"resourceReference\">خروج ٣٤: ٦، ٧</span>). يُكرَّر هذا الملخص في مواضع أخرى مع اختلافات طفيفة (<span data-bnType=\"resourceReference\">عدد ١٤: ١٨</span>؛ <span data-bnType=\"resourceReference\">نحميا ٩: ١٧</span>؛ <span data-bnType=\"resourceReference\">مزمور ١٠٣: ٨</span>؛ <span data-bnType=\"resourceReference\">إرميا ٣٢: ١٨</span>؛ <span data-bnType=\"resourceReference\">يوحنا ٤: ٢</span>).</p><p>نظرة عامة</p><p>صفات الله</p><p>الصفات غير المُشترَكة</p><p>•الصفات المُشترَكة</p><h2>صفات الله</h2><p>تُشير إقرارات الإيمان المسيحيَّة التاريخيَّة إلى خصائص الله المُختلفة دون أن تدعوها صفات أو تُصنِّفها. يُظهر دليل أسئلة وأجوبة وِستمنستر المُوجَز (١٦٤٧) ميلًا إلى التصنيف، واصفًا الله بأنه &quot;روحٌ، غير محدود، وسرمدي، وغير مُتغير، في كينونته، وحكمته، وقوَّته، وقداسته، وعدله، وصلاحه، وأمانته.&quot; تُحدِّد الصفاتُ الأربع الأولى الصفات الأخرى.</p><p>وقد تم اقتراح عدة طرقٍ لتصنيف الصفات. تُقسِّم هذه المخططات عمومًا الصفات الإلهيَّة إلى أزواج: سلبيَّة وإيجابيَّة، وطبيعيَّة وأخلاقيَّة، ومُطلقة ونِسبيَّة، قريبة وسامية. وقابلة للانتقال وغير قابلة للانتقال، كامنة وفعَّالة، غير مُشترَكة ومُشترَكة. تُفضِّل الكنيسة الكاثوليكيَّة الرومانيَّة التمييز بين الصفات السلبيَّة والإيجابيَّة، أو الطبيعيَّة والأخلاقيَّة. يُفضِّل اللوثريون عمومًا التمييز بين الصفات الكامنة والفعَّالة. عادةً ما يُميِّز الباحثون المُصلَحون والإنجيليون بين الصفات غير المُشترَكة والمُشترَكة. جمعَ كارل بارت الصفات تحت عنوان الحرية والمحبة، ثم اقترح أزواجًا من الصفات التي تُعبِّر عن محبة الحرية أو حرية المحبة. على الرغم من تنوع التسميات التي تُعطى لمجموعات الصفات، إلا أنه يوجد اتفاق مدهش بين الصفات المذكورة ضمن كل مجموعة.</p><p>تُميِّز هذه المقالة بين الصفات غير المُشترَكة والمُشترَكة دون أن تعتبر التصنيف في حد ذاته مهمًا. لا يوجد تصنيف مُرضٍ تمامًا لصفات الله. تُشدِّد الصفات <em>غير المُشترَكة</em> على التفرُّد المطلق لله، وعظمته الفائقة وطبيعته السامية. لا يوجد أي مثيل لهذه الصفات في مخلوقات الله. تجد الصفات <em>المُشترَكة</em> بعض الانعكاس أو التشابه في البشر المخلوقين على صورة الله. فهي تُشير إلى اقتراب الله بالنسبة للمخلوقات. ومع ذلك، فإن جميع الصفات هي صفات الله؛ فالتمييز بين الله والإنسان، بين الخالق والمخلوق، هو دائمًا أساسي.</p><h2>الصفات غير المُشترَكة</h2><p>مع الاعتراف ببعض التنوع في الرأي اللاهوتي، سيُنظَر إلى الصفات التالية على أنها غير مُشترَكة: الوحدانيَّة، الطبيعة الروحيَّة، ذاتيَّة الوجود، عدم التغيُّر، السرمديَّة، والسمو. بالإضافة إلى ذلك، يجب أن تُذكر عدم إمكانيَّة استيعاب الله.</p><p>تَندرج <em>عدم إمكانيَّة استيعاب الله</em> أحيانًا في قوائم صفاته. يبدو من الأفضل أن يُنظر إليها على أنها وصفٌ لعجز الإنسان عن فهم الله بالكامل. لذلك لا تُعتبر عدم إمكانيَّة استيعاب الله صفةً من الصفات، على الرغم من أنها أمرٌ مُسلَّم به في أي مناقشة عن الله. يُعرَف الله بالإيمان حقًا من خلال إعلانه، مع ذلك، لن يستطيع أي مخلوق أن يستوعب الخالقَ. وبالمثل، لن يفهم أحدٌ أي صفة من صفات الله بالكامل. إن الإقرار بعدم إمكانيَّة استيعاب الله يجب أن يُنتج تواضعًا عند التفكير في الله وفي صفاته (<span data-bnType=\"resourceReference\">مزمور ١٣٩: ٦</span>؛ <span data-bnType=\"resourceReference\">١٤٥: ٣</span>؛ <span data-bnType=\"resourceReference\">إشعياء ٤٠: ٢٨</span>؛ <span data-bnType=\"resourceReference\">٥٥: ٨، ٩</span>؛ <span data-bnType=\"resourceReference\">متى ١١: ٢٥–٢٧</span>؛ <span data-bnType=\"resourceReference\">رومية ١١: ٣٣–٣٦</span>؛ <span data-bnType=\"resourceReference\">١ كورنثوس ٢: ٦–١٦</span>؛ <span data-bnType=\"resourceReference\">١٣: ٨–١٣</span>).</p><p>إن <em>وحدانيَّة</em> الله هي تعبيرٌ عن الإيمان بإله واحد — أي حقيقة أن إله الكتاب المُقدَّس هو الإله الوحيد الحي الحقيقي (<span data-bnType=\"resourceReference\">تثنية ٦: ٤</span>؛ <span data-bnType=\"resourceReference\">مرقس ١٢: ٢٩</span>؛ <span data-bnType=\"resourceReference\">يوحنا ١٧: ٣</span>). أما سائر الآلهة الأخرى فهي أصنام ومن وحي الخيال البشري. تَظهر هذه الصفة في الوصية الأولى: &quot;لاَ يَكُنْ لَكَ آلِهَةٌ أُخْرَى أَمَامِي&quot; (<span data-bnType=\"resourceReference\">خروج ٢٠: ٣</span>).</p><p>تُشير <em>الطبيعة الروحية</em> لله إلى أن الله ليس جسدًا وأنه لا يُرى. من الناحية الإيجابيَّة، تَعني هذه الصفة أن الله شخصيٌّ، وَحَيٌّ، وواعٍ بذاته، وقائم بذاته. إن الإله غير المنظور لا تُمكن رؤيته بالعين البشريَّة (<span data-bnType=\"resourceReference\">خروج ٣٣: ٢٠</span>)، لذلك تَمنع الوصية الثانية أي تمثيلٍ مرئي لله (<span data-bnType=\"resourceReference\">٢٠: ٤</span>). بما أن الله روح، فلا بد أن يُعبَد بالروح والحق (<span data-bnType=\"resourceReference\">يوحنا ٤: ٢٤</span>).</p><p>إن <em>استقلاليَّة</em> الله أو وجوده الذاتي يُشيران إلى أنه لا يَعتمد على أي شيء خارج نطاق ذاته. هو مكتفٍ ذاتيًا في وجوده، وفي أحكامه الأزليَّة، وفي كل أعماله. إن الله &quot;له حياةٌ في ذاته&quot; (<span data-bnType=\"resourceReference\">يوحنا ٥: ٢٦</span>) وهو &quot;يُعطي الجميعَ حياةً ونَفْسًا وكل شيءٍ&quot; (<span data-bnType=\"resourceReference\">أعمال الرسل ١٧: ٢٥</span>). بالنسبة لإسرائيل، أعلنَ الله عن نفسه بأنه &quot;أَهْيَهِ&quot; (<span data-bnType=\"resourceReference\">خروج ٣: ١٤</span>)، وجعلَ شعب إسرائيل جماعةَ عهدٍ ليكونوا مِلكًا له. يُواصلُ اللهُ تحقيقَ مشيئته في العالَم، وعلى الرغم من أنه يَستخدم وسائل مختلفة، إلا أن استقلاليته تَظل كما هي. وهكذا، يَدخُل الله في شركة مع جماعة العهد خاصته، ويَنشُر رسالة الإنجيل من خلال العاملين البشريين.</p><p>إن <em>عدم تَغيُّر</em> الله أو ثباته يُعبِّر عن أمانته لذاته، ولأحكامه الأزليَّة، ووعوده، وأعماله. يَبقى إلى الأبد هو ذاته الإله الحقيقي الذي لا يَتغيَّر من الداخل أو بسبب أي شيء من الخارج. وهكذا نقرأ في <span data-bnType=\"resourceReference\">يعقوب ١: ١٧</span>: &quot;كُلُّ عَطِيَّةٍ صَالِحَةٍ وَكُلُّ مَوْهِبَةٍ تَامَّةٍ هِيَ مِنْ فَوْقُ، نَازِلَةٌ مِنْ عِنْدِ أَبِي الأَنْوَارِ، الَّذِي لَيْسَ عِنْدَهُ تَغْيِيرٌ وَلاَ ظِلُّ دَوَرَانٍ.&quot; عَبِّر قسم الله لإبراهيم عن ثباته حتى تَتمكَّن جماعة العهد خاصته من التأكد من &quot;عدم تَغيُّر قَضائه&quot; (<span data-bnType=\"resourceReference\">عبرانيين ٦: ١٧</span>). أخبرَ صموئيل الملكَ شاول أن الربَّ لن &quot;يَندم؛ لأنه ليس إنسانًا&quot; (<span data-bnType=\"resourceReference\">١ صموئيل ١٥: ٢٩</span>؛ قارن مع <span data-bnType=\"resourceReference\">عدد ٢٣: ١٩</span>). &quot;لأَنِّي أَنَا الرَّبُّ لاَ أَتَغَيَّرُ&quot; (<span data-bnType=\"resourceReference\">ملاخي ٣: ٦</span>). كان ذلك هو تفسير الله لعدم إهلاك مملكة يهوذا الخاطئة؛ فهو يُظهِر الرحمة ويَحفظ عهده. ولأن &quot;يَسُوعَ الْمَسِيحَ هُوَ هُوَ أَمْسًا وَالْيَوْمَ وَإِلَى الأَبَدِ،&quot; يُحذَّر المؤمنون بألا &quot;يُسَاقُوا بِتَعَالِيمَ مُتَنَوِّعَةٍ وَغَرِيبَةٍ&quot; (<span data-bnType=\"resourceReference\">عبرانيين ١٣: ٨، ٩</span>).</p><p>إن عدم تَغيُّر الله أو ثباته لا يعني أنه جامد أو غير متحرك. إنه إله حيٌّ ديناميكيٌّ والذي يعمل باستمرار (<span data-bnType=\"resourceReference\">يوحنا ٥: ١٧</span>). يُوصَف الله أحيانًا بأنه نادمٌ، أو يُغيَّر رأيه (<span data-bnType=\"resourceReference\">تكوين ٦: ٦، ٧</span>؛ <span data-bnType=\"resourceReference\">١ صموئيل ١٥: ١١</span>؛ <span data-bnType=\"resourceReference\">يونان ٣: ١٠</span>). في سياقها، تُظهِر هذه التعبيرات المَجازيَّة ثباتَ الإله الذي، في قداسته وبِرِّه، يَكره الخطيَّة دائمًا ويتجاوب ضدها. في نعمته ورحمته، يُسامح اللهُ التائبَ، ويُنفِّذ وعوده دون تقصير (<span data-bnType=\"resourceReference\">مزمور ١١٠: ٤</span>؛ <span data-bnType=\"resourceReference\">إشعياء ٤٦: ١٠</span>؛ <span data-bnType=\"resourceReference\">إرميا ١٨: ٧–١٠</span>؛ <span data-bnType=\"resourceReference\">أفسس ١: ١١</span>). وهكذا، يُعتبر ثباتُ الله مهمًا في كل علاقات البشر به، بما في ذلك التضرعات التي تُقدَّم في الصلاة.</p><p>تُشير <em>سرمديَّة</em> الله إلى ارتقائه فوق الزمن. إنه إله غير زمني وأبدي. ليست له بداية أو نهاية؛ لا يَختبر نموًا، أو تطورًا، أو نضوجًا. إن الله موجودٌ من قَبل خلق العالَم؛ يَسكن الآن في الأبديَّة؛ وسيبقى الإله الأبدي حتى عندما ينتهي التاريخ. يقول الكتابُ المُقدَّس عن الله إنه &quot;أبديٌ&quot; (<span data-bnType=\"resourceReference\">تثنية ٣٣: ٢٧</span>)، وهو &quot;المَلِك&quot; (<span data-bnType=\"resourceReference\">١ تيموثاوس ١: ١٧</span>)، وهو &quot;البداية والنهاية&quot; (<span data-bnType=\"resourceReference\">رؤيا ٢٢: ١٣</span>). هو &quot;ساكنُ الأبدِ&quot; (<span data-bnType=\"resourceReference\">إشعياء ٥٧: ١٥</span>) وإن &quot;سنواته لن تنتهي&quot; (<span data-bnType=\"resourceReference\">مزمور ١٠٢: ٢٧</span>؛ قارن مع <span data-bnType=\"resourceReference\">٢ بطرس ٣: ٨</span>). على الرغم من أن الله فوق الزمن وهو غير زمني، إلا أن الزمن هو مِن صُنع الله والتاريخ هو مجال عمله. &quot;وَلكِنْ لَمَّا جَاءَ مِلْءُ الزَّمَانِ، أَرْسَلَ اللهُ ابْنَهُ&quot; (<span data-bnType=\"resourceReference\">غلاطية ٤: ٤</span>)؛ ومات يسوع المسيح يوم الجمعة وقام في اليوم الثالث.</p><p>إن <em>اقتراب</em> الله <em>وحضوره الكُلي</em> يُعبِّران عن تجاوزه لحدود المكان. يَملأ اللهُ السماواتِ والأرضَ (<span data-bnType=\"resourceReference\">إرميا ٢٣: ٢٣، ٢٤</span>). إن السماء هي كُرسيه، والأرض هي موطئ قدميه، لذا فهو ليس محدودًا بالتواجد في هيكلٍ ما (<span data-bnType=\"resourceReference\">إشعياء ٦٦: ١</span>؛ <span data-bnType=\"resourceReference\">أعمال الرسل ١٧: ٢٤</span>). مع ذلك، يُعد الله مُقتربًا من هذا العالَم ويعمل اللهُ بنشاط فيه ليؤسِّسَ ملكوته. لا يَستطيع أحد أن يَختبئ من الإله الكلي الوجود (<span data-bnType=\"resourceReference\">مزمور ١٣٩: ٦–١٢</span>). وعدَ يسوع قائلًا: &quot;هَا أَنَا مَعَكُمْ كُلَّ الأَيَّامِ إِلَى انْقِضَاءِ الدَّهْرِ&quot; (<span data-bnType=\"resourceReference\">متى ٢٨: ٢٠</span>). منذ يوم الخمسين (<span data-bnType=\"resourceReference\">أعمال الرسل ٢</span>)، يُقال عن الروح القُدُس إنه يَسكُن بالفعل في أجساد المؤمنين (١ <span data-bnType=\"resourceReference\">كورنثوس ٦: ١٩</span>).</p><h2>الصفات المُشترَكة</h2><p>تحت ضَم العديد من صفات الله تحت هذا العنوان، على الرغم من أنه يِصعب أحيانًا تحديد أي الإشارات الكتابيَّة ينبغي أن تُعتبر ضمن صفات الله. يوجد تنوعٌ غني للتعبيرات في الكتاب المُقدَّس، ويُستخدًم العديد من المرادفات. لتسهيل الأمور، غالبًا ما تُصنَّف الصفات المُشترَكة على أنها فكريَّة وأخلاقيَّة وإراديَّة.</p><h3>الصفات الفكريَّة</h3><p>تُشير <em>معرفة</em> الله إلى أنه بطريقةٍ فريدة من نوعها، يَعرِف اللهُ نفسه وكلَّ الأشياء المُمكنة والفِعليَّة. إن <em>كُليَّة العلم</em> تعني أنه &quot;يَعلَمُ كلَّ شيءٍ&quot; (<span data-bnType=\"resourceReference\">١ يوحنا ٣: ٢٠</span>). &quot;لأَنَّهُ لَيْسَ كَلِمَةٌ فِي لِسَانِي، إِلاَّ وَأَنْتَ يَا رَبُّ عَرَفْتَهَا كُلَّهَا&quot; (<span data-bnType=\"resourceReference\">مزمور ١٣٩: ٤</span>)، بما في ذلك الأفكار السِّريَّة الموجودة في قلب الإنسان. إن حُكم الله العادل مُتأصِّلٌ في حقيقة أنه &quot;يَعرِف أفكارَ الإنسان&quot; (<span data-bnType=\"resourceReference\">مزمور ٩٤: ١١</span>). في إقراره بأن عِلم الله الكُلي لا يُمكن استيعابه، يَجِد كاتب المزمور في ذلك مَصدرًا للتعزية (<span data-bnType=\"resourceReference\">١٣٩: ١–٥</span>). إن كل &quot;كنوز الحكمة والمعرفة&quot; مُخبَّأة في المسيح (<span data-bnType=\"resourceReference\">كولوسي ٢: ٣</span>)؛ لذلك، يُطلب من المؤمن أن يَستأسِر كل فِكرٍ لطاعة المسيح (<span data-bnType=\"resourceReference\">٢ كورنثوس ١٠: ٥</span>). يَتضمَّن التقديسُ المسيحي تجديدًا في المعرفة ليصبح الإنسان أكثر مُشابهةً للمسيح (<span data-bnType=\"resourceReference\">كولوسي ٣: ١٠</span>).</p><p>تُشير <em>حكمة</em> الله إلى أنه يَستخدِم معرفته بأفضل طريقة ممكنة لتحقيق أهدافه. تتنوَّع أعمال الله، لكن جميعها مصنوعة بحكمةٍ (<span data-bnType=\"resourceReference\">مزمور ١٠٤: ٢٤</span>). &quot;الرَّبُّ بِالْحِكْمَةِ أَسَّسَ الأَرْضَ&quot; (<span data-bnType=\"resourceReference\">أمثال ٣: ١٩</span>)؛ تُظهِر عنايتُه أيضًا حكمتَه (<span data-bnType=\"resourceReference\">تكوين ٥٠: ٢٠</span>). يُظهِر الفداءُ الذي مِن خلال يسوع المسيح حكمةَ الله (<span data-bnType=\"resourceReference\">١ كورنثوس ١: ٢٤</span>) ويُوقظُ المهابة والتسبيح (<span data-bnType=\"resourceReference\">رومية ١١: ٣٣–٣٦</span>). ينبغي على البشر أن يَطلبوا الحكمةَ (<span data-bnType=\"resourceReference\">أمثال ٣: ٢١</span>) — تَتأصَّل الحكمة في مخافة الله (<span data-bnType=\"resourceReference\">أيوب ٢٨: ٢٨</span>؛ <span data-bnType=\"resourceReference\">مزمور ١١١: ١٠</span>؛ <span data-bnType=\"resourceReference\">أمثال ٩: ١٠</span>). يُذَكر عن المؤمنين أنهم &quot;حكماء في المسيح&quot; (<span data-bnType=\"resourceReference\">١ كورنثوس ٤: ١٠</span>)، ويُطالبهم المسيحُ بأن يَتصرّفوا بحكمة (<span data-bnType=\"resourceReference\">متى ١٠: ١٦</span>)، مُتمثِّلين في ذلك بحكمة الله.</p><p>تُعبِّر <em>مصداقيَّة</em> الله عن صِدقه وأمانته. هو الحق وهو أمين نحو ذاته، ونحو كلمته، ونحو وعوده (<span data-bnType=\"resourceReference\">٢ تيموثاوس ٢: ١٣</span>). &quot;إِنَّ اللهَ نُورٌ وَلَيْسَ فِيهِ ظُلْمَةٌ الْبَتَّةَ&quot; (<span data-bnType=\"resourceReference\">١ يوحنا ١: ٥</span>)؛ لذلك، ينبغي على أتباعه أن يسلكوا في النَّور (آية <span data-bnType=\"resourceReference\">٦، ٧</span>). إن يسوع هو &quot;الطريقُ والحقُ والحياةُ&quot; (<span data-bnType=\"resourceReference\">يوحنا ١٤: ٦</span>)؛ ومن ثمَّ، ينبغي على المؤمنين أن يسلكوا في الحق ويُظهروا الأمانة في حياتهم.</p><h3>الصفات الأخلاقيَّة</h3><p>إن الوصف الأكثر شموليَّة لطبيعة الله الأخلاقيَّة هي <em>الصلاح.</em> يتعامل اللهُ بالإحسان واللُطف مع جميع مخلوقاته. فهو &quot;صالحٌ للكُلِّ&quot; (<span data-bnType=\"resourceReference\">مزمور ١٤٥: ٩</span>). أصرَّ يسوع على أنه &quot;ليس أحد صالحًا إلا واحدٌ وهو الله&quot; (<span data-bnType=\"resourceReference\">مرقس ١٠: ١٨</span>؛ <span data-bnType=\"resourceReference\">لوقا ١٨: ١٩</span>). يُسبِّح المَفديون اللهَ على صلاحه (<span data-bnType=\"resourceReference\">١ أخبار الأيام ١٦: ٣٤</span>؛ <span data-bnType=\"resourceReference\">٢ أخبار الأيام ٥: ١٣</span>؛ <span data-bnType=\"resourceReference\">مزمور ١٠٦: ١</span>؛ <span data-bnType=\"resourceReference\">١٠٧: ١</span>؛ <span data-bnType=\"resourceReference\">١١٨: ١</span>؛ <span data-bnType=\"resourceReference\">١٣٦: ١</span>؛ <span data-bnType=\"resourceReference\">إرميا ٣٣: ١١</span>) ويُطالَبون بأن يَتمثَّلوا بهذه الصفة الإلهيَّة (<span data-bnType=\"resourceReference\">متى ٥: ٤٥</span>؛ <span data-bnType=\"resourceReference\">لوقا ٦: ٢٧–٣٦</span>).</p><p>إن <em>محبة</em> الله هي نبض قلب رسالة الإنجيل. تَتدفَّق المحبة الكاملة بين أقانيم الثالوث (<span data-bnType=\"resourceReference\">يوحنا ٣: ٣٥</span>؛ <span data-bnType=\"resourceReference\">١٧: ٢٤</span>). أعلنَ اللهُ عن نفسه في سيناء بأنه كثير الإحسان [المحبة المُخْلِصة] والوفاء (<span data-bnType=\"resourceReference\">خروج ٣٤: ٦، ٧</span>)، وأظهرتْ جميعُ علاقاته العهديَّة مع نسل إبراهيم محبتَه المُخْلِصة، إن الاظهار الرئيسي لمحبة الله يتمثَّل في إرسال ابنه، يسوع المسيح، (<span data-bnType=\"resourceReference\">يوحنا ٣: ١٦</span>). إن الرَّسولَ يوحنا، الذي أعلنَ أن &quot;الله محبة،&quot; أشار إلى الصليب ليُشير إلى ما تعنيه هذه المحبة حقًا: &quot;هُوَ أَحَبَّنَا، وَأَرْسَلَ ابْنَهُ كَفَّارَةً لِخَطَايَانَا&quot; (<span data-bnType=\"resourceReference\">١ يوحنا ٤: ٨، ١٠</span>).</p><p>إن محبة الله التي يُظهرها للخطاة غير المستحقين تُدعى <em>نعمة</em>ٌ (<span data-bnType=\"resourceReference\">أفسس ١: ٦–٨</span>؛ <span data-bnType=\"resourceReference\">٢: ٧–٩</span>؛ <span data-bnType=\"resourceReference\">تيطس ٣: ٤</span>). إن <em>الرحمة</em> هي محبة الله (أحيانًا إحسانه) التي يُظهرها للذين يُعانون من بؤس وضيق. إن الله <em>طويل الروح</em> أو صبور في محبته؛ يُعطي البشر وقتًا للتوبة.</p><p>تُصوِّر <em>قداسةُ</em> الله طهارتَه الأخلاقيَّة وسُموَّه. يَنطبقُ وصفُ يسوع بالقداسة على كل أقانيم الثالوث: &quot;قُدُّوسٌ بِلاَ شَرّ وَلاَ دَنَسٍ، قَدِ انْفَصَلَ عَنِ الْخُطَاةِ وَصَارَ أَعْلَى مِنَ السَّمَاوَاتِ&quot; (<span data-bnType=\"resourceReference\">عبرانيين ٧: ٢٦</span>). إن الفكرة الجوهريَّة في القداسة هي أن يكون الشخص منفصلًا أو مُخصَّصًا. بسبب قداسته المُتأصلة فيه، يَتميَّز الله عن كل شيء نجس أو غير مُقدَّس. إن الله وحده قدوس؛ اسمه قدوس، وهو يَحمل اسم &quot;القدوس&quot; (<span data-bnType=\"resourceReference\">مزمور ٧٨: ٤١</span>؛ <span data-bnType=\"resourceReference\">٨٩: ١٨</span>؛ <span data-bnType=\"resourceReference\">٩٩: ٣، ٩</span>؛ <span data-bnType=\"resourceReference\">١١١: ٩</span>؛ <span data-bnType=\"resourceReference\">إشعياء ١٢: ٦</span>؛ <span data-bnType=\"resourceReference\">إرميا ٥١: ٥</span>؛ <span data-bnType=\"resourceReference\">رؤيا ١٥: ٤</span>). تُسبِّح الملائكة قداسة الله (<span data-bnType=\"resourceReference\">إشعياء ٦: ٣</span>؛ <span data-bnType=\"resourceReference\">رؤيا ٤: ٨</span>). تُدعى الأشياء، والأماكن، والأشخاص مُقدَّسين عندما يُخصَّصون لأجل عبادة الله. بما أن الله قدوس، فإن شعبه مَدعوون إلى القداسة (<span data-bnType=\"resourceReference\">لاويين ١١: ٤٤، ٤٥</span>؛ <span data-bnType=\"resourceReference\">١٩: ٢</span>؛ <span data-bnType=\"resourceReference\">١ بطرس ١: ١٤، ١٥</span>). إن تأديب الله لشعبه يَهدف إلى جعلهم يَشتركون في قداسته (<span data-bnType=\"resourceReference\">عبرانيين ١٢: ١٠</span>). إن قداسة الله بارزةٌ للغاية في الكتاب المُقدَّس إلى درجة أن البعض (عن طريق الخطأ) اعتبروها الصفة الرئيسيَّة في طبيعة الله.</p><h3>الصفات الإراديَّة</h3><p>تُشير <em>سيادة</em> الله إلى السُلطان الإلهي الذي يَحكُم به الخليقة كُلها وفي مَسرته السياديَّة يَصنعُ ما يشاء. إن الله هو المَلِك على الخليقة كلها، وهو يَحكِم أقدار البشر والشعوب. يَستعيد الله ملكوته من خلال يسوع المسيح؛ أعلنَ الرَّب القائم من الموت أنه دُفعَ إليه كل سُلطان في السماء وعلى الأرض (<span data-bnType=\"resourceReference\">متى ٢٨: ١٨</span>). إن الاختيار للخلاص في المسيح هو &quot;حَسَبَ قَصْدِ الَّذِي يَعْمَلُ كُلَّ شَيْءٍ حَسَبَ رَأْيِ مَشِيئَتِهِ&quot; (<span data-bnType=\"resourceReference\">أفسس ١: ١١</span>). إن إرادة الله السياديَّة، على الرغم من أنها حُرة، إلا أنها ليست مُستبدة؛ إنها إرادة بارَّة ومُقدَّسة. لقد خلقَ العالَمَ وأعطى شريعته ناموسًا لحياة شعبه؛ يَقطع اللهُ العهد، ويُبارك، ويَحكُم. إن الله هو&quot;مَلِكُ الْمُلُوكِ وَرَبُّ الأَرْبَابِ&quot; (<span data-bnType=\"resourceReference\">١ تيموثاوس ٦: ١٥</span>)؛ يَدعو جميع رعاياه إلى المحبة المُطيعة (<span data-bnType=\"resourceReference\">تثنية ٦: ٤، ٥</span>؛ <span data-bnType=\"resourceReference\">متى ٢٢: ٣٧، ٤٠</span>؛ <span data-bnType=\"resourceReference\">١ يوحنا ٥: ٣</span>).</p><p>إن <em>قوة الله السياديَّة</em> تعني أنه ليس لديه قيود أو حدود في القدرة؛ إنه <em>كلي القدرة</em> أو قدير (رؤيا <span data-bnType=\"resourceReference\">٤: ٨</span>). بكلمته القديرة، خَلَقَ اللهُ كلَّ الأشياء، ويَحمل &quot;كلَّ الأشياء بكلمة قُدرته&quot; (<span data-bnType=\"resourceReference\">عبرانيين ١: ٣</span>). لا يَعسُر شيءٌ على الرب الإله القدير (<span data-bnType=\"resourceReference\">تكوين ١٨: ١٤</span>؛ <span data-bnType=\"resourceReference\">إرميا ٣٢: ٢٧</span>؛ <span data-bnType=\"resourceReference\">متى ١٩: ٢٦</span>)؛ إنه يحفظ عهده المُنعم ويُتمِّم كل وعوده (<span data-bnType=\"resourceReference\">لوقا ١: ٣٧</span>؛ <span data-bnType=\"resourceReference\">٢ تيموثاوس ٢: ١٣</span>؛ <span data-bnType=\"resourceReference\">عبرانيين ٦: ١٨</span>). إن الإنجيل هو &quot;قُوة الله للخلاص&quot; (<span data-bnType=\"resourceReference\">رومية ١: ١٦</span>)، لأن المسيح هو &quot;قُوة الله&quot; لأن يُخلِّص (١ كورنثوس <span data-bnType=\"resourceReference\">١: ٢٤</span>). من ثمَّ، يجب على المؤمنين أن يَعرفوا &quot;مَا هِيَ عَظَمَةُ قُدْرَتِهِ الْفَائِقَةُ نَحْوَنَا نَحْنُ الْمُؤْمِنِينَ، حَسَبَ عَمَلِ شِدَّةِ قُوَّتِهِ الَّذِي عَمِلَهُ فِي الْمَسِيحِ، إِذْ أَقَامَهُ مِنَ الأَمْوَاتِ، وَأَجْلَسَهُ عَنْ يَمِينِهِ فِي السَّمَاوِيَّاتِ&quot; (<span data-bnType=\"resourceReference\">أفسس ١: ١٩، ٢٠</span>).</p><h3>مجد الله</h3><p>إن كل صفات الله تُلخَّص في إشارات الكتاب المُقدَّس إلى <em>مجد</em> الله. إن عظمة، وبهاء، وجمال، وتألُّق الإله الذي يَسكُن في نور لا يُدنى منه يُعبَّر عنها بهذا التعبير غير القابل للتحديد. ظهرَ إله المجد لأبينا إبراهيم (<span data-bnType=\"resourceReference\">أعمال الرسل ٧: ٢</span>)؛ أظهرَ اللهُ مجده لموسى (<span data-bnType=\"resourceReference\">خروج ٣٣: ١٨، ١٩</span>؛ <span data-bnType=\"resourceReference\">٣٤: ٦، ٧</span>). إن إله الرب يسوع المسيح هو أبو المجد (<span data-bnType=\"resourceReference\">أفسس ١: ١٧</span>). السماوات تُحدِّث بمجد الله (<span data-bnType=\"resourceReference\">مزمور ١٩: ١</span>)؛ تَملأ عظمةُ الله ومجده السماءَ والأرضَ (<span data-bnType=\"resourceReference\">٨: ١</span>). عندما سيعترف كل لسان في النهاية أن يسوع ربٌّ، سيكون ذلك لِمجد الله الآب (<span data-bnType=\"resourceReference\">فيلبي ٢: ١١</span>). خُلق البشر لِمجد الله، ويُطلب من المؤمنين المسيحيين أن يفعلوا كل شيء لِمجد الله (<span data-bnType=\"resourceReference\">١ كورنثوس ١٠: ٣١</span>)، وبذلك يعكسون في أنفسهم مجده المتأصل.</p>",
@@ -1140,16 +1156,24 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "ٱلرَّبِّ"
+}
+]
 }
 },
 {
 "content_id": "509578",
 "reference_id": 3044,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "الله، صفات",
 "media_type": "Text",
-"index_reference": "الله، صفات",
+"index_reference": "الله صفات",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>الله، صفات*</h1><p>فضائل الله وكمالاته. انظر <span data-bnType=\"resourceReference\" data-resourceId=\"4665\" data-resourceType=\"TyndaleBibleDictionary\">الله، جوهره وصفاته</span>.</p>",
@@ -1170,7 +1194,7 @@
 {
 "content_id": "331874",
 "reference_id": 5904,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "اللِّيبَرْتِينِيِّون",
 "media_type": "Text",
 "index_reference": "اللِّيبَرْتِينِيِّون",
@@ -1203,11 +1227,11 @@
 ],
 "acai": [
 {
-"id": "place:Philistine",
-"type": "place",
-"preferred_label": "ٱلْفِلِسْطِينِيِّينَ",
-"confidence": 0.8009,
-"match_method": "embedding"
+"id": "group:Freedmen",
+"type": "group",
+"confidence": 0.6571,
+"match_method": "scored",
+"preferred_label": "Freedmen"
 }
 ]
 }
@@ -1215,7 +1239,7 @@
 {
 "content_id": "159159",
 "reference_id": 6571,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "الليل",
 "media_type": "Text",
 "index_reference": "الليل",
@@ -1354,7 +1378,7 @@
 {
 "content_id": "509359",
 "reference_id": 2698,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لَا تُهْلِك",
 "media_type": "Text",
 "index_reference": "لَا تُهْلِك",
@@ -1403,10 +1427,10 @@
 {
 "content_id": "443852",
 "reference_id": 5823,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لَابَان (شخص)",
 "media_type": "Text",
-"index_reference": "لَابَان (شخص)",
+"index_reference": "لَابَان شخص",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>لَابَان (شخص)</h1><p>ابن بَتُوئِيل (<a href=\"https://ref.ly/Gen24:24,Gen24:29\">تكوين 24:24، 29</a>)، وشقيق رِفْقَة (<a href=\"https://ref.ly/Gen24:15,Gen24:29\">الآيتان 15، 29</a>)، ووالد لَيْئَة ورَاحِيل (<a href=\"https://ref.ly/Gen29:16\">29:16</a>)، وخال وحمو  يَعْقوب. عاش أسلاف لَابَان في أُور، ولكن والده بَتُوئِيل كان يُدعى <span>الْأَرَامِيّ مِنْ فَدَّان أَرَام</span>، ويُشار إلى لَابَان أيضًا بالآرامي (<a href=\"https://ref.ly/Gen25:20\">25:20</a>؛ قارن <a href=\"https://ref.ly/Gen28:5\">28:5</a>). كانوا يسكنون في حَارَان، التي كانت في سوريا والتي كانت مركزًا لعبادة إله القمر سين أو نانار، مثل أُور.</p><p>عندما كبر إِسْحَاق، أرسل إِبْرَاهِيم خادمه <span>أَلِيعَزَر</span> إلى حَارَان ليبحث عن زوجة لإِسْحَاق. استقبل لَابَان أَلِيعَزَر بكرم وسخاء وقدم له ولجماله ما يحتاجونه (<a href=\"https://ref.ly/Gen24:29-Gen24:33,Gen24:54\">تكوين 24:29–33، 54</a>). تصرف لَابَان على أنه كبير العائلة؛ واتخذ القرار بشأن زواج رِفْقَة من إِسْحَاق (الآيات <a href=\"https://ref.ly/Gen24:50-Gen24:51\">50–51</a>)، قدم أَلِيعَزَر له ولوالدته هدايا قيمة من الحُلي الثمينة (الآية <a href=\"https://ref.ly/Gen24:53\">53</a>).</p><p>أدى لَابَان دورًا كبيرًا في قصة يَعْقوب ابن أخته في سعيه للزواج. بعد أن خدعت رفقة وإسْحاق يَعقُوب، خافت رِفْقَة أن يقتل عِيسُو يَعْقوب، لذا اقترحت عليه أن يهرب إلى أخيها، لَابَان (<a href=\"https://ref.ly/Gen27:43\">تكوين 27:43</a>)؛ في الوقت نفسه، أقنعت إِسْحَاق بأنَّه ينبغي أن يذهب يَعقوب إلى حَارَان ليبحث عن زوجة من بين قومهم. عندما وصل يَعْقوب إلى منطقة حَارَان، التقى برَاحِيل، الابنة الصغرى للَابَان، وقوبل بترحاب كبير (<a href=\"https://ref.ly/Gen29:13\">تكوين 29:13</a>). استأجر لَابَان يَعْقوب ليرعى قطعانه، وتم الاتفاق على أنه بعد سبع سنوات من العمل سيتزوج يَعْقوب من رَاحِيل مقابل عمله. في نهاية تلك الفترة، خدعه لَابَان وزوَّجه من لَيْئَة، ابنته الكبرى. اعترض يَعْقوب، لكن الرجلين قررا في النهاية أن يخدم يَعْقوب سبع سنوات أخرى من أجل رَاحِيل.</p><p>كان كلا من يَعْقوب و لَابَان مخادعين وتنازعا حول الأجور. اقترح يَعْقوب أن تكون أجرته عددًا معينًا من القطعان. عندما قبل لَابَان ذلك، بارك الرب يَعْقوب وقطيعه، فغضب لَابَان. ادعى يَعْقوب أن لَابَان قد غيّر أجره عشر مرات (<a href=\"https://ref.ly/Gen31:7,Gen31:41\">تكوين 31 : 7، 41</a>).</p><p>هرب يَعْقوب من حَارَان. طارده لَابَان لأنه كان يريد استرداد آلهته المنزلية، التي كانت تجعل من يمتلكها وريثًا لممتلكات لَابَان. كانت رَاحِيل قد أخذتهم لكنها أخفتهم بمهارة عن متناول الأب.</p><p>لَابَان ويَعْقوب افترقا بعد أن صنعا عهد سلام وأقاما عمودًا من الحجارة ليكون شاهدًا عليهما (<a href=\"https://ref.ly/Gen31:46-Gen31:50\">تكوين 31: 46–50).</a></p><p><em>انظر أيضًا</em> <span data-bnType=\"resourceReference\" data-resourceId=\"5331\" data-resourceType=\"TyndaleBibleDictionary\">يَعْقُوب #1</span>.</p>",
@@ -1516,9 +1540,9 @@
 {
 "id": "person:Laban",
 "type": "person",
-"preferred_label": "لَابَان",
-"confidence": 0.7565,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لَابَان"
 }
 ]
 }
@@ -1526,7 +1550,7 @@
 {
 "content_id": "335366",
 "reference_id": 5859,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لاتينيّة",
 "media_type": "Text",
 "index_reference": "لاتينيّة",
@@ -1569,7 +1593,7 @@
 {
 "content_id": "509478",
 "reference_id": 2887,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لِأَرْخِبّس",
 "media_type": "Text",
 "index_reference": "لِأَرْخِبّس",
@@ -1596,9 +1620,9 @@
 {
 "id": "person:Archippus",
 "type": "person",
-"preferred_label": "لِأَرْخِبّسَ",
-"confidence": 0.982,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لِأَرْخِبّسَ"
 }
 ]
 }
@@ -1606,7 +1630,7 @@
 {
 "content_id": "443855",
 "reference_id": 5854,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لَاشَع",
 "media_type": "Text",
 "index_reference": "لَاشَع",
@@ -1627,9 +1651,9 @@
 {
 "id": "place:Lasha",
 "type": "place",
-"preferred_label": "لَاشَعَ",
-"confidence": 0.964,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لَاشَعَ"
 }
 ]
 }
@@ -1637,7 +1661,7 @@
 {
 "content_id": "335455",
 "reference_id": 6790,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لؤلؤة",
 "media_type": "Text",
 "index_reference": "لؤلؤة",
@@ -1698,7 +1722,7 @@
 {
 "content_id": "335363",
 "reference_id": 5840,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لَامَك",
 "media_type": "Text",
 "index_reference": "لَامَك",
@@ -1775,16 +1799,16 @@
 {
 "id": "person:Lamech.2",
 "type": "person",
-"preferred_label": "لَامَكَ",
-"confidence": 0.6857,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لَامَكَ"
 },
 {
 "id": "person:Lamech",
 "type": "person",
-"preferred_label": "لَامَكَ",
-"confidence": 0.6336,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لَامَكَ"
 }
 ]
 }
@@ -1792,7 +1816,7 @@
 {
 "content_id": "443859",
 "reference_id": 5895,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لَأُمِّيم",
 "media_type": "Text",
 "index_reference": "لَأُمِّيم",
@@ -1809,13 +1833,28 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "group:Leummim",
+"type": "group",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Leummites"
+},
+{
+"id": "group:Letushim",
+"type": "group",
+"confidence": 0.73,
+"match_method": "scored",
+"preferred_label": "Letushim"
+}
+]
 }
 },
 {
 "content_id": "511293",
 "reference_id": 5829,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لاَهَد",
 "media_type": "Text",
 "index_reference": "لاَهَد",
@@ -1832,16 +1871,31 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Lahad",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لَاهَدَ"
+},
+{
+"id": "person:Haroeh",
+"type": "person",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "Haroeh"
+}
+]
 }
 },
 {
 "content_id": "511303",
 "reference_id": 5847,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لَاودِكِيَّةَ، اللَاودِكِيَّون",
 "media_type": "Text",
-"index_reference": "لَاودِكِيَّةَ، اللَاودِكِيَّون",
+"index_reference": "لَاودِكِيَّةَ اللَاودِكِيَّون",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>لَاودِكِيَّةَ، اللَاودِكِيَّون*</h1><p>من بين ثلاث مدن في منطقة الوادي الفسيح على حدود فَرِيجِيَّةَ، لَاودِكِيَّةَ هي الكبرى مساحة وكثافة سكانية، وتقع عند نقطة التقاء وادي ليكوس بنهر بيك مندريس-Meander. والجدير بالذكر أن المدخل الغربي للمدينة كان يسمي بوابة أفسس. وكان المسافر يغادر المدينة شرقًا عبر البوابة الآرامية (السورية)، إذ إن الطريق الكبير كان يؤدي إلى أَنْطَاكِيَة، حيث يتفرع منه طرق أخرى إلى وادي الفرات، ودِمَشْق، وإلى الشمال الشرقي، حيث كانت الطرق التجارية الصحراوية تتجه نحو الجبال، وجوبي، وبلاد المَشْرِق البعيدة.</p><p>لم تكن لَاودِكِيَّةَ حصنًا طبيعيًا. ربما انخفاض الهضبة التي تقع عليها تحصينات السلوقيين قد شكّلت تحديًا للغزاة، ومع هذا عانت لَاودِكِيَّةَ من نقطة ضعف يُنذِرُ بالخطر. كان مصدر المياه يأتي بصورة رئيسة عبر قناة مائية <span>معرَّضة للهجوم والخطر</span> من ينابيع تبعد ستة أميال (9.7 كيلومترات) إلى الشمال في اتجاه هِيَرَابولِيس. يمكن رؤية أجزاء من القناة المائية اليوم، حيث ضاقت القناة كثيرًا بسبب ترسبات كربونات الكالسيوم السميكة. المكان الذي تكون مياهه مكشوفة بهذا الشكل لا يكاد يصمد أمام حصار مفروض. طُمرت القناة المزدوجة، لكنها لم تكن سرًا يمكن الحفاظ عليه.</p><p>فقدت لَاودِكِيَّةَ بالوجود الروماني طابع تخومها ومناطقها الحدودية. تحت حكم ٱلرّومَانِيّين، ازدهرت المدينة في أهميتها التجارية. سافر ماركوس توليوس سيسرو في ذلك الطريق في عام 51 قبل الميلاد في طريقه إلى مقاطعات كِيلِيكِيَّةَ، وحقيقة صرفه شيك مصرفي في لَاودِكِيَّةَ تُظهر أن المدينة قد تجاوزت كولوسي المجاورة وأصبحت بالفعل مكانًا ذا أهمية مالية وثروة كبيرة.  إحدى منتجات المدينة كانت الصوف الأسود اللامع، وتربية نوع الأغنام السوداء ذات الشعر الطويل بغرض الإتجار بها  كان شائعًا ورائجًا  حتى القرن التاسع عشر. كان الصوف أساس صناعة النسيج التي تركزت في كل من كولوسي ولَاودِكِيَّةَ. وأنواع مختلفة من الملابس اللاوديسية وردت في مرسوم تحديد الأسعار لديوكلتيانوس في عام 300 ميلادي، وقد جرى الكشف عن نسخة من المرسوم مؤخرًا من أفروديسياس المجاورة.</p><p>كان لدى لَاودِكِيَّةَ كليّة للطب. تظهر أسماء أطبائها على العملات المعدنية منذ عهد الإمبراطور أوغسْطس. من المحتمل أن تكون كليّة الطب في لَاودِكِيَّةَ هي التي اِستَحضَرت وانتجت مسحوق العين الفريجي، الذي كان مشهورًا في العالم القديم. ويعّد افتراضًا معقولًا  أن يكون هذا  الطين المجفف من ينابيع هِيَرَابولِيس الحرارية، الذي يمكن خلطه بالماء لتشكيل ضمادة كاولين، وهو علاج فعال للالتهابات.</p><p>يمكن بسهولة رؤية كيف أن هذه الميزات للمدينة قدمت النمط للصور الساخرة في <a href=\"https://ref.ly/Rev3:17-Rev3:18\">رؤيا 3:17–18</a>: &quot;إِنِّي أَنَا غَنِيٌّ وَقَدِ ٱسْتَغْنَيْتُ، وَلَا حَاجَةَ لِي إِلَى شَيْءٍ، وَلَسْتَ تَعْلَمُ أَنَّكَ أَنْتَ ٱلشَّقِيُّ وَٱلْبَئِسُ وَفَقِيرٌ وَأَعْمَى وَعُرْيَانٌ. أُشِيرُ عَلَيْكَ أَنْ تَشْتَرِيَ مِنِّي ذَهَبًا مُصَفًّى بِٱلنَّارِ لِكَيْ تَسْتَغْنِيَ، وَثِيَابًا بِيضًا لِكَيْ تَلْبَسَ، فَلَا يَظْهَرُ خِزْيُ عُرْيَتِكَ. وَكَحِّلْ عَيْنَيْكَ بِكُحْلٍ لِكَيْ تُبْصِرَ.&quot; الملابس السوداء التي جرى تصديرها إلى جميع أنحاء دول البحر الأبيض المتوسط، ومرهم العين الشهير، وغنى المدينة وثرائها، كل هذه تشكّل أساس توبيخ كاتب سفر الرؤيا اللاذع.</p><p><em>انظر أيضًا</em> <span data-bnType=\"resourceReference\" data-resourceId=\"7187\" data-resourceType=\"TyndaleBibleDictionary\">سفر الرؤيا </span>.</p>",
@@ -1863,16 +1917,31 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Laodicea",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لَاودِكِيَّةَ"
+},
+{
+"id": "group:Laodicea",
+"type": "group",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Laodiceans"
+}
+]
 }
 },
 {
 "content_id": "124533",
 "reference_id": 5897,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لاوي (شخص)",
 "media_type": "Text",
-"index_reference": "لاوي (شخص)",
+"index_reference": "لاوي شخص",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>لاوي (شخص)</h1><p>1. الابن الثالث ليعقوب من ليئة (<a href=\"https://ref.ly/Gen29:34\">تكوين 29:34</a>). أصل الاسم غير مؤكد. يرتبط اسم لاوي بالمأساة في شكيم، حيث قُتل سكان المدينة الذكور بوحشية عندما سعى لاوي وشمعون للانتقام لانتهاك أختهم دينة من قبل شكيم الحوي. أدان يعقوب هذا الفعل، وقبل وفاته أصدر حكمًا على سلوك لاوي (<a href=\"https://ref.ly/Gen49:5-Gen49:7\">49:5–7</a>). بحسب هذه الكلمات، كان من المقرر أن يتشتت نسل لاوي بين القبائل.</p><p><span>كان سبط لاوي يتألف من نسل لاوي الثلاثة: جرشون (جرشوم)، وقهات ومراري. يعود نسب موسى وهارون ومريم إلى قهات</span> (<a href=\"https://ref.ly/Exod6:16\">خروج 6:16</a>). <span>ظل اللاويون أمناء للرب في واقعة العجل الذهبي على جبل حوريب. لقد كوفئوا بحقهم في الخدمة الخاصة في خيمة الاجتماع وحولها</span> (الأصحاح <a href=\"https://ref.ly/Exod32:1-Exod32:35\">32</a>) ولاحقًا في الهيكل.</p><p><em>انظر أيضًا</em> <span data-bnType=\"resourceReference\" data-resourceId=\"5902\" data-resourceType=\"TyndaleBibleDictionary\">لاوي، سبط</span>.</p><p>2. جابي الضرائب (عشار) في كفرناحوم (<a href=\"https://ref.ly/Mark2:14\">مرقس 2:14</a>); واحد من التلاميذ الاثني عشر الذي كان يُدعى أيضًا متى (<a href=\"https://ref.ly/Mark2:14\">مرقس 2:14</a>; <a href=\"https://ref.ly/Luke5:27\">لوقا 5:27</a>; قارن <a href=\"https://ref.ly/Matt9:9\">متى 9:9</a>). <em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"6157\" data-resourceType=\"TyndaleBibleDictionary\">متى (الشخص)</span>.</p><p>3. ابن <span>مَلْكِي </span>وسلف يسوع (<a href=\"https://ref.ly/Luke3:24\">لوقا 3:24</a>). <em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4580\" data-resourceType=\"TyndaleBibleDictionary\">نسب يسوع المسيح</span>.</p><p>٤. ابن <span>يوسي</span> وسلف يسوع (<a href=\"https://ref.ly/Luke3:30\">لوقا ٣:٢٩</a>). <em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4580\" data-resourceType=\"TyndaleBibleDictionary\">نسب يسوع المسيح</span>.</p>",
@@ -1956,13 +2025,49 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Levi.2",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لَّاوِي"
+},
+{
+"id": "person:Levi.3",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لَّاوِي"
+},
+{
+"id": "person:Matthew",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "مَتَّى"
+},
+{
+"id": "person:Levi",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لَّاوِي"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.6178,
+"match_method": "scored",
+"preferred_label": "لَّاوِي"
+}
+]
 }
 },
 {
 "content_id": "511329",
 "reference_id": 5899,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لاويون",
 "media_type": "Text",
 "index_reference": "لاويون",
@@ -2000,10 +2105,10 @@
 {
 "content_id": "511298",
 "reference_id": 5835,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لَايِشَ (المكان)",
 "media_type": "Text",
-"index_reference": "لَايِشَ (المكان)",
+"index_reference": "لَايِشَ المكان",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>لايش( مكان)</h1><p>1. الاسم القديم لمدينة دان (<a href=\"https://ref.ly/Judg18:7,Judg18:14,Judg18:27-Judg18:29\">قضاة 18:7، 14، 27–29</a>). <em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3920\" data-resourceType=\"TyndaleBibleDictionary\">دان (المكان) #1</span>.</p><p>2. <span>يُستخدم الاسم كترجمة بديلة لليشة، وهي مدينة من مدن سبط بنيامين</span>، في <a href=\"https://ref.ly/Isa10:30\">إشعياء 10:30</a>. <em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"5833\" data-resourceType=\"TyndaleBibleDictionary\">ليشة</span>.</p>",
@@ -2052,25 +2157,18 @@
 ],
 "acai": [
 {
-"id": "person:Laish",
-"type": "person",
-"preferred_label": "لَايِشَ",
-"confidence": 1.0,
-"match_method": "embedding"
-},
-{
-"id": "place:Lasha",
+"id": "place:Dan",
 "type": "place",
-"preferred_label": "لَاشَعَ",
-"confidence": 0.9024,
-"match_method": "embedding"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "دَانَ"
 },
 {
-"id": "person:Lael",
-"type": "person",
-"preferred_label": "لَايِلَ",
-"confidence": 0.8073,
-"match_method": "embedding"
+"id": "place:Laishah",
+"type": "place",
+"confidence": 0.6667,
+"match_method": "scored",
+"preferred_label": "يَا"
 }
 ]
 }
@@ -2078,10 +2176,10 @@
 {
 "content_id": "511297",
 "reference_id": 5834,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لايش (شخص)",
 "media_type": "Text",
-"index_reference": "لايش (شخص)",
+"index_reference": "لايش شخص",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>لايش (شخص) </h1><p>والد فلطئيل (فلطي)، الذي أعطاه شاول ابنته ميكال، والتي كانت زوجة سابقة لداود (<a href=\"https://ref.ly/1Sam25:44\">1&nbsp;صم 25:44</a>; <a href=\"https://ref.ly/2Sam3:15-2Sam3:16\">2&nbsp;صم 3:15–16</a>).</p>",
@@ -2101,13 +2199,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Laish",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لَايِشَ"
+}
+]
 }
 },
 {
 "content_id": "490505",
 "reference_id": 5828,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لَايِل",
 "media_type": "Text",
 "index_reference": "لَايِل",
@@ -2128,9 +2234,9 @@
 {
 "id": "person:Lael",
 "type": "person",
-"preferred_label": "لَايِلَ",
-"confidence": 0.964,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لَايِلَ"
 }
 ]
 }
@@ -2138,7 +2244,7 @@
 {
 "content_id": "335280",
 "reference_id": 4472,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لُّبَان",
 "media_type": "Text",
 "index_reference": "لُّبَان",
@@ -2243,25 +2349,11 @@
 ],
 "acai": [
 {
-"id": "deity:Legion",
-"type": "deity",
-"preferred_label": "لَجِئون",
-"confidence": 0.834,
-"match_method": "embedding"
-},
-{
-"id": "place:Lachish",
-"type": "place",
-"preferred_label": "لَخِيشَ",
-"confidence": 0.8336,
-"match_method": "embedding"
-},
-{
-"id": "place:Lakkum",
-"type": "place",
-"preferred_label": "لَقّومَ",
-"confidence": 0.827,
-"match_method": "embedding"
+"id": "flora:Frankincense",
+"type": "flora",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Frankincense"
 }
 ]
 }
@@ -2269,10 +2361,10 @@
 {
 "content_id": "511314",
 "reference_id": 5873,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لَبَانَة، لَبَانَة",
 "media_type": "Text",
-"index_reference": "لَبَانَة، لَبَانَة",
+"index_reference": "لَبَانَة لَبَانَة",
 "language": "arb",
 "review_level": "None",
 "content": "<h1><span>لَبَانَة*، لَبَانَة</span></h1><p>رئيس عائلة عاد إلى أورشليم مع زربابل بعد السبي (<a href=\"https://ref.ly/Ezra2:45\">عز 2:45؛</a> <a href=\"https://ref.ly/Neh7:48\">نح 7:48</a>).</p>",
@@ -2296,16 +2388,16 @@
 {
 "id": "person:Lebanah",
 "type": "person",
-"preferred_label": "لَبَانَةَ",
-"confidence": 0.838,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لَبَانَةَ"
 },
 {
 "id": "person:Hagabah",
 "type": "person",
-"preferred_label": "حَجَابَةَ",
 "confidence": 0.766,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "حَجَابَةَ"
 }
 ]
 }
@@ -2313,7 +2405,7 @@
 {
 "content_id": "511315",
 "reference_id": 5875,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لَبَاوُتَ",
 "media_type": "Text",
 "index_reference": "لَبَاوُتَ",
@@ -2346,9 +2438,9 @@
 {
 "id": "place:Lebaoth",
 "type": "place",
-"preferred_label": "لَبَاوتَ",
-"confidence": 0.7063,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لَبَاوتَ"
 }
 ]
 }
@@ -2356,7 +2448,7 @@
 {
 "content_id": "335369",
 "reference_id": 5876,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لَبَّاوُس",
 "media_type": "Text",
 "index_reference": "لَبَّاوُس",
@@ -2383,11 +2475,11 @@
 ],
 "acai": [
 {
-"id": "person:Lois",
+"id": "person:Judas",
 "type": "person",
-"preferred_label": "لَوْئِيسَ",
-"confidence": 0.8081,
-"match_method": "embedding"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "يَهوذَا"
 }
 ]
 }
@@ -2395,7 +2487,7 @@
 {
 "content_id": "511569",
 "reference_id": 6306,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لبن",
 "media_type": "Text",
 "index_reference": "لبن",
@@ -2419,7 +2511,7 @@
 {
 "content_id": "124531",
 "reference_id": 5874,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لبنان",
 "media_type": "Text",
 "index_reference": "لبنان",
@@ -2688,13 +2780,35 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لبْنَانَ"
+},
+{
+"id": "place:HermonMount",
+"type": "place",
+"confidence": 0.6137,
+"match_method": "scored",
+"preferred_label": "حَرْمونَ"
+},
+{
+"id": "place:HouseOfTheForestOfLebanon",
+"type": "place",
+"confidence": 0.6103,
+"match_method": "scored",
+"preferred_label": "بَيْتِ"
+}
+]
 }
 },
 {
 "content_id": "490514",
 "reference_id": 5906,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لِبْنَة",
 "media_type": "Text",
 "index_reference": "لِبْنَة",
@@ -2801,9 +2915,16 @@
 {
 "id": "place:Libnah",
 "type": "place",
-"preferred_label": "لِبْنَةَ",
-"confidence": 0.6156,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لِبْنَةَ"
+},
+{
+"id": "place:Libnah.2",
+"type": "place",
+"confidence": 0.9059,
+"match_method": "scored",
+"preferred_label": "Libnah"
 }
 ]
 }
@@ -2811,10 +2932,10 @@
 {
 "content_id": "490504",
 "reference_id": 5824,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لِبْنَةَ (مكان)",
 "media_type": "Text",
-"index_reference": "لِبْنَةَ (مكان)",
+"index_reference": "لِبْنَةَ مكان",
 "language": "arb",
 "review_level": "None",
 "content": "<h1><span>لِبْنَةَ </span>(مكان)</h1><p>أحد الأماكن التي خيَّم بني إسرائيل فيها في سيناء (<a href=\"https://ref.ly/Deut1:1\">تثنية 1:1</a>). يربط البعض بينها وبين لِبْنَة المذكورة في سفر <a href=\"https://ref.ly/Num33:20-Num33:21\">العدد 33:20–21</a>. تتراوح الاقتراحات لموقعها من جَنوبًا من ربة العمونيين إلى الساحل العربي جَنوب أَيْلَة. لا يزال موقعها غير معروف.</p>",
@@ -2836,11 +2957,11 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Libnah",
+"id": "place:Laban",
 "type": "place",
-"preferred_label": "لِبْنَةَ",
-"confidence": 0.8667,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لَابَان"
 }
 ]
 }
@@ -2848,7 +2969,7 @@
 {
 "content_id": "490515",
 "reference_id": 5907,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لبني",
 "media_type": "Text",
 "index_reference": "لبني",
@@ -2879,13 +3000,28 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "group:Libni",
+"type": "group",
+"confidence": 0.9685,
+"match_method": "scored",
+"preferred_label": "Libnites"
+},
+{
+"id": "person:Libni",
+"type": "person",
+"confidence": 0.85,
+"match_method": "scored",
+"preferred_label": "لِبْنِي"
+}
+]
 }
 },
 {
 "content_id": "490516",
 "reference_id": 5908,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لِبْنِي",
 "media_type": "Text",
 "index_reference": "لِبْنِي",
@@ -2946,18 +3082,25 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Libni",
-"type": "person",
-"preferred_label": "لِبْنِي",
-"confidence": 0.92,
-"match_method": "scored"
-},
-{
 "id": "person:Libni.2",
 "type": "person",
-"preferred_label": "لِبْنِي",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لِبْنِي"
+},
+{
+"id": "person:Libni",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لِبْنِي"
+},
+{
+"id": "group:Libni",
+"type": "group",
 "confidence": 0.64,
-"match_method": "scored"
+"match_method": "scored",
+"preferred_label": "Libnites"
 }
 ]
 }
@@ -2965,7 +3108,7 @@
 {
 "content_id": "511316",
 "reference_id": 5878,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لبونة",
 "media_type": "Text",
 "index_reference": "لبونة",
@@ -2982,13 +3125,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Lebonah",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لَبونَةَ"
+}
+]
 }
 },
 {
 "content_id": "511325",
 "reference_id": 5891,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لَثَك",
 "media_type": "Text",
 "index_reference": "لَثَك",
@@ -3012,7 +3163,7 @@
 {
 "content_id": "490522",
 "reference_id": 5939,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لُجّ",
 "media_type": "Text",
 "index_reference": "لُجّ",
@@ -3037,13 +3188,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Log",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Log"
+}
+]
 }
 },
 {
 "content_id": "510832",
 "reference_id": 5115,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لحفة",
 "media_type": "Text",
 "index_reference": "لحفة",
@@ -3060,13 +3219,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Huppah",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لِحفَّةَ"
+}
+]
 }
 },
 {
 "content_id": "511476",
 "reference_id": 6170,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لحم",
 "media_type": "Text",
 "index_reference": "لحم",
@@ -3097,7 +3264,7 @@
 {
 "content_id": "511294",
 "reference_id": 5831,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لحمام",
 "media_type": "Text",
 "index_reference": "لحمام",
@@ -3114,13 +3281,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Lahmam",
+"type": "place",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "لَحْمَام"
+}
+]
 }
 },
 {
 "content_id": "511295",
 "reference_id": 5832,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لحمي",
 "media_type": "Text",
 "index_reference": "لحمي",
@@ -3143,13 +3318,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Lahmi",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لَحْمِيَ"
+}
+]
 }
 },
 {
 "content_id": "511320",
 "reference_id": 5885,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لَحْيٍ",
 "media_type": "Text",
 "index_reference": "لَحْيٍ",
@@ -3186,39 +3369,11 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Bethlehem",
+"id": "place:Lehi",
 "type": "place",
-"preferred_label": "لَحْمٍ",
-"confidence": 0.8995,
-"match_method": "embedding"
-},
-{
-"id": "place:Bethlehem.2",
-"type": "place",
-"preferred_label": "لَحْمٍ",
-"confidence": 0.8995,
-"match_method": "embedding"
-},
-{
-"id": "person:Shepho",
-"type": "person",
-"preferred_label": "شَفْوٌ",
-"confidence": 0.8257,
-"match_method": "embedding"
-},
-{
-"id": "person:Pelet",
-"type": "person",
-"preferred_label": "فَالَط",
-"confidence": 0.8068,
-"match_method": "embedding"
-},
-{
-"id": "person:Pelet.2",
-"type": "person",
-"preferred_label": "فَالَط",
-"confidence": 0.8068,
-"match_method": "embedding"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "فِي"
 }
 ]
 }
@@ -3226,7 +3381,7 @@
 {
 "content_id": "443853",
 "reference_id": 5830,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لَحَيْ رُئِي",
 "media_type": "Text",
 "index_reference": "لَحَيْ رُئِي",
@@ -3257,13 +3412,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Beer-lahai-roi",
+"type": "place",
+"confidence": 0.9505,
+"match_method": "scored",
+"preferred_label": "Beer-lahai-roi"
+}
+]
 }
 },
 {
 "content_id": "490255",
 "reference_id": 3216,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لحية",
 "media_type": "Text",
 "index_reference": "لحية",
@@ -3316,7 +3479,7 @@
 {
 "content_id": "511291",
 "reference_id": 5826,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لَخِيش",
 "media_type": "Text",
 "index_reference": "لَخِيش",
@@ -3381,9 +3544,9 @@
 {
 "id": "place:Lachish",
 "type": "place",
-"preferred_label": "لَخِيشَ",
-"confidence": 0.6515,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لَخِيشَ"
 }
 ]
 }
@@ -3391,7 +3554,7 @@
 {
 "content_id": "331883",
 "reference_id": 5967,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لُدَّةَ",
 "media_type": "Text",
 "index_reference": "لُدَّةَ",
@@ -3418,11 +3581,11 @@
 ],
 "acai": [
 {
-"id": "person:Laadah",
-"type": "person",
-"preferred_label": "لَعْدَة",
-"confidence": 0.8338,
-"match_method": "embedding"
+"id": "place:Lod",
+"type": "place",
+"confidence": 0.6214,
+"match_method": "scored",
+"preferred_label": "وَلودَ"
 }
 ]
 }
@@ -3430,7 +3593,7 @@
 {
 "content_id": "331871",
 "reference_id": 5852,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لَسَائِيَةَ",
 "media_type": "Text",
 "index_reference": "لَسَائِيَةَ",
@@ -3451,9 +3614,9 @@
 {
 "id": "place:Lasea",
 "type": "place",
-"preferred_label": "لَسَائِيَةَ",
 "confidence": 1.0,
-"match_method": "scored"
+"match_method": "content_id",
+"preferred_label": "لَسَائِيَةَ"
 }
 ]
 }
@@ -3461,7 +3624,7 @@
 {
 "content_id": "331886",
 "reference_id": 5975,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لِسْتِرَة",
 "media_type": "Text",
 "index_reference": "لِسْتِرَة",
@@ -3512,9 +3675,9 @@
 {
 "id": "place:Lystra",
 "type": "place",
-"preferred_label": "لِسْتِرَةَ",
-"confidence": 0.7108,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لِسْتِرَةَ"
 }
 ]
 }
@@ -3522,7 +3685,7 @@
 {
 "content_id": "511306",
 "reference_id": 5853,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لَشَّارون",
 "media_type": "Text",
 "index_reference": "لَشَّارون",
@@ -3543,9 +3706,9 @@
 {
 "id": "place:Lasharon",
 "type": "place",
-"preferred_label": "لَشَّارونَ",
-"confidence": 0.9775,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لَشَّارونَ"
 }
 ]
 }
@@ -3553,7 +3716,7 @@
 {
 "content_id": "511324",
 "reference_id": 5890,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لشم",
 "media_type": "Text",
 "index_reference": "لشم",
@@ -3578,13 +3741,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Dan",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "دَانَ"
+}
+]
 }
 },
 {
 "content_id": "125366",
 "reference_id": 4589,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لُطف",
 "media_type": "Text",
 "index_reference": "لُطف",
@@ -3733,7 +3904,7 @@
 {
 "content_id": "443858",
 "reference_id": 5894,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لَطُوشِيم",
 "media_type": "Text",
 "index_reference": "لَطُوشِيم",
@@ -3752,25 +3923,25 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Tarshish",
-"type": "person",
-"preferred_label": "تَرْشِيشَ",
-"confidence": 0.8184,
-"match_method": "embedding"
+"id": "group:Letushim",
+"type": "group",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Letushim"
 },
 {
-"id": "person:Tarshish.2",
-"type": "person",
-"preferred_label": "تَرْشِيشَ",
-"confidence": 0.8184,
-"match_method": "embedding"
+"id": "group:Leummim",
+"type": "group",
+"confidence": 0.8065,
+"match_method": "scored",
+"preferred_label": "Leummites"
 },
 {
-"id": "place:Tarshish",
-"type": "place",
-"preferred_label": "تَرْشِيشَ",
-"confidence": 0.8184,
-"match_method": "embedding"
+"id": "group:Asshurim",
+"type": "group",
+"confidence": 0.775,
+"match_method": "scored",
+"preferred_label": "Asshurim"
 }
 ]
 }
@@ -3778,7 +3949,7 @@
 {
 "content_id": "335367",
 "reference_id": 5868,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لِعَازَر",
 "media_type": "Text",
 "index_reference": "لِعَازَر",
@@ -3859,16 +4030,16 @@
 {
 "id": "person:Lazarus.2",
 "type": "person",
-"preferred_label": "لِعَازَر",
-"confidence": 0.6494,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لِعَازَر"
 },
 {
 "id": "person:Lazarus",
 "type": "person",
-"preferred_label": "لِعَازَر",
-"confidence": 0.618,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لِعَازَر"
 }
 ]
 }
@@ -3876,7 +4047,7 @@
 {
 "content_id": "511289",
 "reference_id": 5822,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لعدان",
 "media_type": "Text",
 "index_reference": "لعدان",
@@ -3920,13 +4091,28 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Ladan",
+"type": "person",
+"confidence": 0.7333,
+"match_method": "scored",
+"preferred_label": "لَعْدَان"
+},
+{
+"id": "person:Libni",
+"type": "person",
+"confidence": 0.7167,
+"match_method": "scored",
+"preferred_label": "لِبْنِي"
+}
+]
 }
 },
 {
 "content_id": "511292",
 "reference_id": 5827,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لعدان",
 "media_type": "Text",
 "index_reference": "لعدان",
@@ -3963,13 +4149,28 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Libni",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لِبْنِي"
+},
+{
+"id": "person:Ladan",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لَعْدَان"
+}
+]
 }
 },
 {
 "content_id": "511288",
 "reference_id": 5821,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لَعْدَة",
 "media_type": "Text",
 "index_reference": "لَعْدَة",
@@ -3990,9 +4191,23 @@
 {
 "id": "person:Laadah",
 "type": "person",
-"preferred_label": "لَعْدَة",
 "confidence": 1.0,
-"match_method": "scored"
+"match_method": "content_id",
+"preferred_label": "لَعْدَة"
+},
+{
+"id": "person:Mareshah.2",
+"type": "person",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "مَرِيشَةَ"
+},
+{
+"id": "person:Lecah",
+"type": "person",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "لَيْكَةَ"
 }
 ]
 }
@@ -4000,10 +4215,10 @@
 {
 "content_id": "201467",
 "reference_id": 3881,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لعنة، ملعون",
 "media_type": "Text",
-"index_reference": "لعنة، ملعون",
+"index_reference": "لعنة ملعون",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>لعنة، ملعون</h1><p>تُعدُّ اللعنةُ تصريحاً منطوقاً أو صلاةً جادّة تطلبُ حلولَ الدينونة على شخصٍ ما، أو مجموعةٍ من الناس، أو حتى على كائناتٍ وكياناتٍ أخرى كالأرضِ أو الأمة. كما يمكن أن تُستَخدم كلمة لعنة لوصف دينونةٍ من الله قد وقعت بالفعل، أو دينونةٍ قد قرّر الله تنفيذها. وتعتبر اللعنة النقيضَ المباشرَ للبركة.</p><h2>المعتقدات الوثنيَّة</h2><p>ارتبطتْ اللعنات والبركات بالاعتقاد الوثني القديم بأن أرواح &quot;الآلهة&quot; يمكن استدعاؤها للتصرف نيابةً عن شخص يُكرر بعض التعويذات أو يَصنع أفعالًا معينة (مثل التضحيات). كان يُعتقد أن اللعنة المنطوقة تمتلك قُدرة غامضة على إحداث كارثة على الأعداء. في بعض الثقافات الوثنيَّة، كانت اللعنات تُكتَب على الجرار الطينيَّة التي كانت تُحطِّم بعدها، والذي يَبدأ رمزيًا في إحداث اللعنة المقصودة.</p><p>كانت المقابر تُحمى بواسطة اللعنة من المُدنِّسين المحتَمَلين. كانت الكتابات الملكيَّة تُحمى بواسطة بِلَعنات تستهدف أي شخص يُغيِّر، أو يُدمِّر، أو يَتحدَّى المرسوم المكتوب (<a href=\"https://ref.ly/Ezra6:11-Ezra6:12\">عزرا ٦: ١١، ١٢</a>).</p><h2>اللعنات في زمن العهد القديم</h2><p>بالنسبة للعبرانيين، كانت اللعنة، وهي سارية المفعول فقط ضمن إطار عهدي يُشرف عليه الله، يُنطَق بها من أجل تحقيق العدالة. في العهد القديم، كانت اللعنة جزءًا لا يتجزأ من علاقة العهد – بين الله والجماعة، أو بين الله والفَرد، أو بين أعضاء المجتمع. كان كَسر شروط العهد يعني أن الشخص يستحق لعنة العهد أو لعناته. كانت اللعنة التي يُنطق بها في ظل ظروف أخرى بلا تأثير. &quot;كَالْعُصْفُورِ لِلْفَرَارِ وَكَالسُّنُونَةِ لِلطَّيَرَانِ، كَذلِكَ لَعْنَةٌ بِلاَ سَبَبٍ لاَ تَأْتِي&quot; (<a href=\"https://ref.ly/Prov26:2\">أمثال ٢٦: ٢</a>). كان يمكن التراجع عن اللعنة بإعلان بركةٍ ما (<a href=\"https://ref.ly/Exod12:32\">خروج ١٢: ٣٢</a>؛ <a href=\"https://ref.ly/Judg17:1-Judg17:2\">قضاة ١٧: ١، ٢</a>؛ <a href=\"https://ref.ly/2Sam21:1-2Sam21:3\">٢ صموئيل ٢١: ١–٣</a>).</p><p>نَهتْ شريعة موسى عن شتم الوالدين (<a href=\"https://ref.ly/Exod21:17\">خروج ٢١: ١٧</a>؛ قارن مع <a href=\"https://ref.ly/Prov20:20\">أمثال ٢٠: ٢٠</a>؛ <a href=\"https://ref.ly/Matt15:4\">متى ١٥: ٤</a>)، ورئيس الشعب (<a href=\"https://ref.ly/Exod22:28\">خروج ٢٢: ٢٨</a>)، والأصم (<a href=\"https://ref.ly/Lev19:14\">لاويين ١٩: ١٤</a>). إذا شكَّ رجلٌ في أن زوجته كانت غير مُخلِصة له أمكنه أن يطلب منها الخضوع لاختبار يُجريه الكاهن والذي من شأنه أن يُسبِّب لها لعنة إذا كانت مذنبة (<a href=\"https://ref.ly/Num5:11-Num5:31\">عدد ٥: ١١–٣١</a>). قد ينطق الأفراد بِلعنةٍ على أنفسهم لإظهار صدق تصريحاتهم أو وعودهم (<a href=\"https://ref.ly/Num5:19-Num5:22\">عدد ٥: ١٩–٢٢</a>؛ <a href=\"https://ref.ly/Job31:7-Job31:10\">أيوب ٣١: ٧–١٠، ١٦–٢٢</a>؛ <a href=\"https://ref.ly/Ps137:5-Ps137:6\">مزمور ١٣٧: ٥، ٦</a>). في العهد الجديد، اتبعَ الرسول بطرس ممارسة العهد القديم عندما استخدم اللعن لكي يُنكر أنه يعرف يسوع (<a href=\"https://ref.ly/Mark14:71\">مرقس ١٤: ٧١</a>). إن بعض الرجال الذين أرادوا قتل الرسول بولس أثبتوا إخلاصهم بمثل هذه اللعنة الرسمية (<a href=\"https://ref.ly/Acts23:12\">أعمال الرسل ٢٣: ١٢، ١٤، ٢١</a>). كان التجديف على الله عقوبته الموت (<a href=\"https://ref.ly/Lev24:10-Lev24:16\">لاويين ٢٤: ١٠–١٦</a>؛ قارن مع <a href=\"https://ref.ly/Exod22:28\">خروج ٢٢: ٢٨</a>؛ <a href=\"https://ref.ly/Isa8:21-Isa8:22\">إشعياء ٨: ٢١، ٢٢</a>).</p><p>تشمل اللعنات في التاريخ الكتابي لعنة الله على الحية والأرض عندما سقط آدم وحواء في جنة عدن (<a href=\"https://ref.ly/Gen3:14-Gen3:19\">تكوين ٣: ١٤–١٩</a>)؛ وعلى قايين (<a href=\"https://ref.ly/Gen4:11-Gen4:12\">٤: ١١، ١٢</a>)؛ وعلى الذين قد يلعنون إبراهيم ونسله (<a href=\"https://ref.ly/Gen12:3\">١٢: ٣</a>)؛ وعلى الذين يضعون ثقتهم في القوة البشريَّة بدلًا من الرَّبِّ (<a href=\"https://ref.ly/Jer17:5\">إرميا ١٧: ٥</a>). عندما سار شعب إسرائيل عَبْر موآب في طريقهم إلى أرض الموعد، استأجرَ بالاقُ ملكُ موآب بلعامَ لِيَلعن بني إسرائيل، مع ذلك، تعلَّمَ بالاق وبلعام أنهم لا يستطيعون أن يَلعنوا الذين باركهم الله (<a href=\"https://ref.ly/Num22:1-Num24:25\">عدد ٢٢–٢٤</a>). لعنَ يشوعُ أي شخصٍ يحاول إعادة بناء أريحا (<a href=\"https://ref.ly/Josh6:26\">يشوع ٦: ٢٦</a>؛ وهو ما تَحقَّقَ في <a href=\"https://ref.ly/1Kgs16:34\">١ ملوك ١٦: ٣٤</a>). أطلقَ الملك شاول لعنةً كاد أن تكلفه حياة ابنه يوناثان (<a href=\"https://ref.ly/1Sam14:24\">١ صموئيل ١٤: ٢٤، ٤٣–٤٥</a>). تُذكَر العديد من اللعنات الأخرى في العهد القديم (انظر، على سبيل المثال، <a href=\"https://ref.ly/Gen9:25\">تكوين ٩: ٢٥</a>؛ <a href=\"https://ref.ly/Gen49:5-Gen49:7\">٤٩: ٥–٧</a>؛ <a href=\"https://ref.ly/Josh9:22-Josh9:23\">يشوع ٩: ٢٢، ٢٣</a>؛ <a href=\"https://ref.ly/Judg9:7-Judg9:21\">قضاة ٩: ٧–٢١، ٥٧</a>؛ <a href=\"https://ref.ly/2Sam16:5-2Sam16:13\">٢ صموئيل ١٦: ٥–١٣</a>؛ <a href=\"https://ref.ly/1Kgs21:17-1Kgs21:24\">١ ملوك ٢١: ١٧–٢٤</a>؛ <a href=\"https://ref.ly/2Kgs2:24\">٢ ملوك ٢: ٢٤</a>؛ <a href=\"https://ref.ly/Mal2:2\">ملاخي ٢: ٢</a>؛ <a href=\"https://ref.ly/Mal4:6\">٤: ٦</a>). إن إعلان &quot;الويل&quot; (أو &quot;التدمير&quot;) هو أيضًا لغةٌ للَّعنةِ (<a href=\"https://ref.ly/Isa5:8-Isa5:23\">إشعياء ٥: ٨–٢٣</a>؛ قارن مع <a href=\"https://ref.ly/Matt23:13-Matt23:33\">متى ٢٣: ١٣–٣٣</a>، حيث يمكن استخدام كلمة &quot;ويل&quot; إما للتعبير عن الحزن أو عن كارثة وشيكة).</p><p>يحتوي <a href=\"https://ref.ly/Ps109:1-Ps109:31\">مزمور ١٠٩</a> على لعنة طويلة ضد أعداء كاتب المزمور، من الواضح لأنهم قالوا بعض الكلمات ضده زورًا (انظر أيضًا <a href=\"https://ref.ly/Ps58:6-Ps58:11\">مزمور ٥٨: ٦–١١</a>؛ <a href=\"https://ref.ly/Ps69:19-Ps69:28\">٦٩: ١٩–٢٨</a>؛ <a href=\"https://ref.ly/Ps143:12\">١٤٣: ١٢</a>). لم يكن النبي إرميا نافرًا من دعوة الله إلى معاقبة الذين يعذبونه (<a href=\"https://ref.ly/Jer11:20\">إرميا ١١: ٢٠</a>؛ <a href=\"https://ref.ly/Jer12:3\">١٢: ٣</a>؛ <a href=\"https://ref.ly/Jer15:15\">١٥: ١٥</a>؛ <a href=\"https://ref.ly/Jer17:18\">١٧: ١٨</a>؛ <a href=\"https://ref.ly/Jer18:21-Jer18:22\">١٨: ٢١، ٢٢</a>؛ <a href=\"https://ref.ly/Jer20:11-Jer20:12\">٢٠: ١١، ١٢</a>)، أو أن يطلب من الله ألا يغفر لهم (<a href=\"https://ref.ly/Jer18:23\">١٨: ٢٣</a>). يُصعب على المسيحيين اليوم فهم مثل هذه اللعنات ضد الأعداء، لأنها تتناقض بشدة مع وصايا العهد الجديد بأن &quot;يُبارِكوا لاعنيهم&quot; (<a href=\"https://ref.ly/Luke6:28\">لوقا ٦: ٢٨</a>؛ قارن مع <a href=\"https://ref.ly/Rom12:14\">رومية ١٢: ١٤</a>). إن أمر يسوع بأن &quot;يُحبوا أعداءهم&quot; (<a href=\"https://ref.ly/Matt5:44\">متى ٥: ٤٤</a>) قد يُقصد به أن يشير إلى ما هو أبعد من اللعنات التي كانت تُمارَس في العهد القديم إلى فهمٍ أشمل لوصية الله بأن يُحِب الإنسان قريبه كنفسه.</p><h3>لعنات العهد</h3><p>كانت حماية العقد أو المعاهدة بإعلان لعنةٍ ما على ناقض الاتفاق أمرًا شائعًا في زمن العهد القديم. في بعض الأحيان، كان العهد يُخْتَم بِقَطْع حيوانٍ وجَعْل الأطراف المُتعاهدين يسيرون بين الأجزاء المقطوعة؛ كان الحيوان المقطوع يَرمُز إلى اللعنة التي ستَقع على المُخالِف. وافقَ الله على أن يُخضع نفسه لِمِثل هذه اللعنة، إذا نقضَ العهد الذي قطعه مع إبراهيم (<a href=\"https://ref.ly/Gen15:7-Gen15:21\">تكوين ١٥: ٧–٢١</a>). لاحقًا، اتهمَ اللهُ قادةَ وشعب إسرائيل بِتَعدِّيهم عهدهم معه، وحَذَّرهم من العواقب التي ستَتبع ذلك (<a href=\"https://ref.ly/Jer34:18-Jer34:19\">إرميا ٣٤: ١٨، ١٩</a>). كان الوعدُ بالبركات عند حِفظ العهد واللعنات عند تَعدِّيه جزءًا أساسيًا من العهد الذي قطعه الله مع إسرائيل في جبل سيناء (<a href=\"https://ref.ly/Deut11:26-Deut11:28\">تثنية ١١: ٢٦–٢٨</a>؛ <a href=\"https://ref.ly/Deut27:15-Deut27:26\">٢٧: ١٥–٢٦</a>؛ <a href=\"https://ref.ly/Deut28:15-Deut28:68\">٢٨: ١٥–٦٨</a>؛ <a href=\"https://ref.ly/Deut30:19\">٣٠: ١٩</a>؛ قارن مع <a href=\"https://ref.ly/Lev26:3-Lev26:39\">لاويين ٢٦: ٣–٣٩</a>). لقد اختبرَ شعبُ إسرائيل تلك اللعنات في زمن إرميا وحزقيال؛ كان كاسروا العهد، بما في ذلك المَلِك، مُهدَّدين بِلعنةٍ (<a href=\"https://ref.ly/Jer11:3\">إرميا ١١: ٣</a>؛ <a href=\"https://ref.ly/Ezek17:11-Ezek17:21\">حزقيال ١٧: ١١–٢١</a>).</p><h3>الحظر على &quot;الأمور المُكرَّسة&quot;</h3><p>كان هناك نوع خاص من اللعنة، وهو الحظر أو الحرمان [الأناثيما] بالمعنى الدقيق للكلمة، كان تعهدًا بتكريس لله الأشخاص، أو الحيوانات، أو الأشياء الواقعة تحت لعنة كهذه. في بعض الحالات، كان يمكن للكهنة أن يستخدموا الأشياء التي كانت مُحرَّمة [مُكرَّسة] لله (<a href=\"https://ref.ly/Num18:14\">عدد ١٨: ١٤</a>؛ <a href=\"https://ref.ly/Ezek44:29\">حزقيال ٤٤: ٢٩</a>)، لكن هذا الحكم لم ينطبق على الكائنات الحية. كان يُذبح أو يُدمَّر أي شخص أو حيوان مُحرَّم لله (<a href=\"https://ref.ly/Lev27:28-Lev27:29\">لاويين ٢٧: ٢٨، ٢٩</a>). كان التحريم شائعًا في حروب إسرائيل ضد جيرانها الوثنيين. في بعض الأحيان كان يُعلَن أن كل شيء كان مُحرَّمًا (<a href=\"https://ref.ly/Josh6:17-Josh6:19\">يشوع ٦: ١٧–١٩</a>)، لكن في العادة، كانت تُدمَّر فقط التماثيل البشريَّة والوثنيَّة (<a href=\"https://ref.ly/Deut2:34\">تثنية ٢: ٣٤</a>؛ <a href=\"https://ref.ly/Deut3:6\">٣: ٦</a>؛ <a href=\"https://ref.ly/Deut7:2\">٧: ٢، ٢٥، ٢٦</a> — كان ينبغي عدم الإبقاء حتى على التماثيل الذهبيَّة). إن انتهاك التحريم بالإبقاء على أي جزء من الأشياء الملعونة كان يعني أن الشخص نفسه سيقع تحت إطار التحريم. لأن عاخان لم يحترم التحريم الذي فُرِضَ على أريحا، جاءت اللعنة على كل إسرائيل حتى اعترفَ عاخان وتم إعدامه (<a href=\"https://ref.ly/Josh7:1-Josh7:26\">يشوع ٧</a>).</p><p>بعد السبي، لم يُمارِس اليهود التحريم (أو الحظ) بقتل الناس؛ إن الذين ينتهكون حظرًا كانوا يُفرَزون من الشعب ويُطرَدون من جماعة إسرائيل (<a href=\"https://ref.ly/Ezra10:8\">عزرا ١٠: ٨</a>). كان ذلك يعني أن الشخص لم يَعُد جزءًا من شعب الله وكان يُعتبر &quot;ميتًا.&quot;</p><h2>اللعنات في زمن العهد الجديد</h2><p>مارستْ المجامع اليهودية الطرد، أو الحرمان، في فترة العهد الجديد (<a href=\"https://ref.ly/Luke6:22\">لوقا ٦: ٢٢</a>؛ <a href=\"https://ref.ly/John9:22\">يوحنا ٩: ٢٢</a>؛ <a href=\"https://ref.ly/John12:42\">١٢: ٤٢</a>؛ <a href=\"https://ref.ly/John16:2\">١٦: ٢</a>). لاحقًا، كان المسيحيين يُعزَلون عن طريق إعلان أنهم خارج الجماعة المَفديَّة (<a href=\"https://ref.ly/Matt18:17\">متى ١٨: ١٧</a>) أو &quot;مُسلَّمون إلى الشيطان&quot; (<a href=\"https://ref.ly/1Cor5:5\">١ كورنثوس ٥: ٥</a>؛ <a href=\"https://ref.ly/1Tim1:20\">١ تيموثاوس ١: ٢٠</a>). كانت كلتا الممارستين نابعتيْن من التحريم في العهد القديم. مع ذلك، بخلاف تلك اللعنة، كان يمكن إلغاء العَزل [التأديب] الكَنسي بمجرد أن يتوب الشخص.</p><p>بما أن الحرمان وَصفَ الشخصَ بأنه &quot;مرفوض&quot; أو &quot;ملعونًا من الله،&quot; حاولَ شاول الطرسوسي، قبل اهتدائه للمسيحيَّة، أن يُجبر المسيحيِّين على التخلي عن المسيح بأن يَصفوه بأنه ملعونٌ (قارن مع <a href=\"https://ref.ly/Acts26:11\">أعمال الرسل ٢٦: ١١</a>). لاحقًا، بصفته رسولًا، حذَّر بولس (شاول) من أنه لا يمكن لأحدٍ أن يَتكلَّم بِروحِ الله أن يَدْعُو يسوع ملعونًا (<a href=\"https://ref.ly/1Cor12:3\">١ كورنثوس ١٢: ٣</a>). أعلنَ بولس أناثيما (مصير الدينونة والهلاك) على أي شخص يَكرز بإنجيلٍ آخر غير الإنجيل الذي كَرزَ به هو والرُسُل الآخرون (<a href=\"https://ref.ly/Gal1:8-Gal1:9\">غلاطية ١: ٨، ٩</a>). قال بولس إنه تَمنى لو أنه كان محرومًا، أو مقطوعًا من الخلاص وشعب الله، إذا كان ذلك يمكن أن يُؤدِّي إلى خلاص إخوته الإسرائيليين (<a href=\"https://ref.ly/Rom9:3\">رومية ٩: ٣</a>). كانت رغبته تَعكِس محبةَ المسيح، الذي قَبِل &quot;لعنةَ الناموس&quot; على نفسه عندما خضع للألم والموت على الصليب، لكي يَفدي البشر من تلك اللعنة (<a href=\"https://ref.ly/Gal3:8-Gal3:14\">غلاطية ٣: ٨–١٤</a>؛ قارن مع <a href=\"https://ref.ly/Deut21:22-Deut21:23\">تثنية ٢١: ٢٢، ٢٣</a>). يَعِد العهد الجديد بأنه سيأتي وقتٌ &quot;لا تكون لعنةٌ فيما بعد&quot; فيه (<a href=\"https://ref.ly/Rev22:3\">رؤيا ٢٢: ٣</a>).</p><p><em>انظر أيضًا</em> <span data-bnType=\"resourceReference\" data-resourceId=\"8198\" data-resourceType=\"TyndaleBibleDictionary\">الحرب، المُقدَّسة</span>.</p>",
@@ -4559,7 +4774,7 @@
 {
 "content_id": "511305",
 "reference_id": 5849,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لَفِيدُوت",
 "media_type": "Text",
 "index_reference": "لَفِيدُوت",
@@ -4580,9 +4795,9 @@
 {
 "id": "person:Lappidoth",
 "type": "person",
-"preferred_label": "لَفِيدوتَ",
-"confidence": 0.9505,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لَفِيدوتَ"
 }
 ]
 }
@@ -4590,7 +4805,7 @@
 {
 "content_id": "511334",
 "reference_id": 5919,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لِقْحِي",
 "media_type": "Text",
 "index_reference": "لِقْحِي",
@@ -4611,9 +4826,9 @@
 {
 "id": "person:Likhi",
 "type": "person",
-"preferred_label": "لِقْحِي",
 "confidence": 1.0,
-"match_method": "scored"
+"match_method": "content_id",
+"preferred_label": "لِقْحِي"
 }
 ]
 }
@@ -4621,7 +4836,7 @@
 {
 "content_id": "335519",
 "reference_id": 7748,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لُقمة",
 "media_type": "Text",
 "index_reference": "لُقمة",
@@ -4652,7 +4867,7 @@
 {
 "content_id": "511299",
 "reference_id": 5837,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لقوم",
 "media_type": "Text",
 "index_reference": "لقوم",
@@ -4669,13 +4884,28 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Lakkum",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لَقّومَ"
+},
+{
+"id": "flora:Oak",
+"type": "flora",
+"confidence": 0.58,
+"match_method": "scored",
+"preferred_label": "Oak"
+}
+]
 }
 },
 {
 "content_id": "511370",
 "reference_id": 5989,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لِمَعَزْيَا",
 "media_type": "Text",
 "index_reference": "لِمَعَزْيَا",
@@ -4716,16 +4946,16 @@
 {
 "id": "person:Maaziah.2",
 "type": "person",
-"preferred_label": "لِمَعَزْيَا",
-"confidence": 0.8667,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لِمَعَزْيَا"
 },
 {
 "id": "person:Maaziah",
 "type": "person",
-"preferred_label": "لِمَعَزْيَا",
-"confidence": 0.7333,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لِمَعَزْيَا"
 }
 ]
 }
@@ -4733,7 +4963,7 @@
 {
 "content_id": "511321",
 "reference_id": 5886,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لَموئِيلَ",
 "media_type": "Text",
 "index_reference": "لَموئِيلَ",
@@ -4754,9 +4984,9 @@
 {
 "id": "person:Lemuel",
 "type": "person",
-"preferred_label": "لَموئِيلَ",
-"confidence": 0.6889,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لَموئِيلَ"
 }
 ]
 }
@@ -4764,10 +4994,10 @@
 {
 "content_id": "443857",
 "reference_id": 5884,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لَهَابِيم، اللُّوبِيُّون",
 "media_type": "Text",
-"index_reference": "لَهَابِيم، اللُّوبِيُّون",
+"index_reference": "لَهَابِيم اللُّوبِيُّون",
 "language": "arb",
 "review_level": "None",
 "content": "<h1><span>لَهَابِيم</span>، اللُّوبِيُّون</h1><p>واحدٌ من بين عدّة شعوب ارتبط ذكرها بمِصْر (<a href=\"https://ref.ly/Gen10:13\">تكوين 10:13؛</a> <a href=\"https://ref.ly/1Chr1:11\">1&nbsp;أخبار 1:11</a>). هم إمّا شعب غير معروف بالقرب من مِصْر أو - كما يعتقد العديد من العلماء، وربما إلى حدٍ كبير - كانوا <span>اللُّوبِيُّون</span> (الليبيين). يذكر الكتاب المقدَّس أنهم كانوا يقاتلون في تحالف مع مِصْر (<a href=\"https://ref.ly/Dan11:43\">دانيال 11:43؛</a> <a href=\"https://ref.ly/Nah3:9\">ناحوم 3:9</a>)، وأحيانًا ضد إِسْرَائِيل، كما حدث في أيام رَحُبْعَام (<a href=\"https://ref.ly/2Chr12:3\">2&nbsp;أخبار 12:3</a>) وآسَا (<a href=\"https://ref.ly/2Chr16:8\">2&nbsp;أخبار 16:8</a>).</p>",
@@ -4811,75 +5041,21 @@
 }
 ],
 "resource": [],
-"acai": []
-}
-},
+"acai": [
 {
-"content_id": "511351",
-"reference_id": 5949,
-"version": "1.0.2",
-"title": "لو-رحامة",
-"media_type": "Text",
-"index_reference": "لو-رحامة",
-"language": "arb",
-"review_level": "None",
-"content": "<h1>لو-رحامة</h1><p>اسم رمزي يعني &quot;غير مرحوم&quot; (<a href=\"https://ref.ly/Hos1:6-Hos1:8\">هوشع 1:6–8</a>). وأعطاه النبي هوشع لابنته، مشيراً إلى رفض الله لإسرائيل. <em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"7238\" data-resourceType=\"TyndaleBibleDictionary\">رحامة</span>.</p>",
-"associations": {
-"passage": [
-{
-"start_ref": "28001006",
-"start_ref_usfm": "HOS 1:6",
-"end_ref": "28001008",
-"end_ref_usfm": "HOS 1:8"
+"id": "group:Lehabim",
+"type": "group",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Lehabim"
 }
-],
-"resource": [
-{
-"reference_id": 7238,
-"content_id": 512092,
-"resource_code": "TyndaleBibleDictionary",
-"label": "رُحَامَةَ",
-"language": "arb"
-}
-],
-"acai": []
-}
-},
-{
-"content_id": "511344",
-"reference_id": 5932,
-"version": "1.0.2",
-"title": "لُو-عَمِّي",
-"media_type": "Text",
-"index_reference": "لُو-عَمِّي",
-"language": "arb",
-"review_level": "None",
-"content": "<h1>لُو عَمِّي</h1><p>اسم رمزي، يعني &quot;ليس شعبي&quot; (<a href=\"https://ref.ly/Hos1:9\">هوشع 1:9</a>)، أعطاه النبي هوشَع لابنه. <em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"2733\" data-resourceType=\"TyndaleBibleDictionary\">عَمِّي</span>.</p>",
-"associations": {
-"passage": [
-{
-"start_ref": "28001009",
-"start_ref_usfm": "HOS 1:9",
-"end_ref": "28001009",
-"end_ref_usfm": "HOS 1:9"
-}
-],
-"resource": [
-{
-"reference_id": 2733,
-"content_id": 490211,
-"resource_code": "TyndaleBibleDictionary",
-"label": "عَمِّي",
-"language": "arb"
-}
-],
-"acai": []
+]
 }
 },
 {
 "content_id": "331877",
 "reference_id": 5941,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لوئيس",
 "media_type": "Text",
 "index_reference": "لوئيس",
@@ -4908,13 +5084,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Lois",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لَوْئِيسَ"
+}
+]
 }
 },
 {
 "content_id": "511353",
 "reference_id": 5955,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لُوبِيّ",
 "media_type": "Text",
 "index_reference": "لُوبِيّ",
@@ -4951,13 +5135,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Libya",
+"type": "place",
+"confidence": 0.85,
+"match_method": "scored",
+"preferred_label": "لوبِيِّينَ"
+}
+]
 }
 },
 {
 "content_id": "335184",
 "reference_id": 3212,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لوح أو عارضة خشبية",
 "media_type": "Text",
 "index_reference": "لوح أو عارضة خشبية",
@@ -5034,13 +5226,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "realia:Beam",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Beam"
+}
+]
 }
 },
 {
 "content_id": "512475",
 "reference_id": 7867,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لوح حَجَري",
 "media_type": "Text",
 "index_reference": "لوح حَجَري",
@@ -5058,13 +5258,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Tablet",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Tablet"
+}
+]
 }
 },
 {
 "content_id": "510021",
 "reference_id": 3753,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لوحٌ من الطين",
 "media_type": "Text",
 "index_reference": "لوحٌ من الطين",
@@ -5088,7 +5296,7 @@
 {
 "content_id": "331876",
 "reference_id": 5936,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لود",
 "media_type": "Text",
 "index_reference": "لود",
@@ -5129,16 +5337,24 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Lod",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "وَلودَ"
+}
+]
 }
 },
 {
 "content_id": "443862",
 "reference_id": 5959,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لُود، لُودِيم، اللُّودِيُّون",
 "media_type": "Text",
-"index_reference": "لُود، لُودِيم، اللُّودِيُّون",
+"index_reference": "لُود لُودِيم اللُّودِيُّون",
 "language": "arb",
 "review_level": "None",
 "content": "<h1><span>لُود</span>، <span>لُودِيم</span>* اللُّودِيُّون</h1><p>أسماء مذكورة في جدول الأمم في <a href=\"https://ref.ly/Gen10:1-Gen10:32\">تكوين 10</a>. يُذكر لُودِيم أنه أول أبناء <span>مِصْرَايِم</span>، ويُذكر لُود أنه ابن رابع لسَام. بالاستناد إلى هذا، ربما يكون من الأفضل اعتبارهما ينتميان لأصول عرقية مختلفة. ومع ذلك، افترض البعض أنَّ كلا الاسمين يشيران إلى شعب من أَسِيَّا الصغرى، <span>اللُّودِيِّين</span>، الذين ذُكروا في نقوش أَشُّوربانيبال باسم <em>لودّو.</em> ما من شك <span>في أن </span>لُود<span>، على الأقل، هو اسم له صلة</span> بلِيديّة. هذا ما أكده يوسيفوس (<em>الآثار</em> 1.6.4.)، بوجود صلة ما بين الشخصية التوراتية لُود واللُّودِيِّين التاريخيين. في <a href=\"https://ref.ly/Isa66:19\">إشعياء 66:19</a>، يُذكر بين أمم أخرى من أَسِيَّا الصغرى.</p><p>غالبًا ما يُذكر لُود في سياقات تشير إلى أنَّ الرجال كانوا معروفين بمهارتهم في القتال. وفقًا لـ <a href=\"https://ref.ly/Jer46:9\">إِرْمِيَا 46:9</a>، حاربوا مع المصريين ضد البابليين في معركة كَرْكَمِيش في عام 605 ق.م. في الرثاء على صُور في <a href=\"https://ref.ly/Ezek27:10\">حِزْقِيَال 27:10</a>، أُدرجوا بين آخرين على أنهم مُرْتَزِقَة في جيش صُور. ربما كان <a href=\"https://ref.ly/Ezek30:5\">حِزْقِيَال 30:5</a> هو وصف آخر للُّودِيِّين الذين كانوا يحاربون مُرْتَزِقَة - هذه المرة في الجيش المصري. يعود هذا الدعم العسكري لمِصْر إلى الحِقْبَة الأشُّوريّة عندما أرسل جيجز دعمًا عسكريًا إلى <span>بسماتيكوس</span> ملك مِصْر ضد الأشُّوريِّين.</p><p><em>انظر أيضًا</em> <span data-bnType=\"resourceReference\" data-resourceId=\"5969\" data-resourceType=\"TyndaleBibleDictionary\">لِيدِيَّة (مكان)</span>.</p>",
@@ -5184,16 +5400,45 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Lud",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لودِيمَ"
+},
+{
+"id": "place:Lud.2",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Ludim"
+},
+{
+"id": "place:Put",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "فوط"
+},
+{
+"id": "group:Ludim",
+"type": "group",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لودِيمَ"
+}
+]
 }
 },
 {
 "content_id": "511357",
 "reference_id": 5969,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لُود، ليدية (مكان)",
 "media_type": "Text",
-"index_reference": "لُود، ليدية (مكان)",
+"index_reference": "لُود ليدية مكان",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>لُود، ليدية (مكان)</h1><p>اسم يُستخدم للدلالة على منطقة جغرافية وردت في <a href=\"https://ref.ly/Jer46:9\">إِرْمِيَا 46:9</a>، <a href=\"https://ref.ly/Ezek27:10\">حِزْقِيَالَ 27:10</a>، و<a href=\"https://ref.ly/Ezek30:5\">30:5</a>. وبينما تستخدم بعض الترجمات اسم &quot;ليدية&quot;، يُدرَج باسم &quot;لود&quot; في بعض الترجمات الأخرى. لكن ليس هناك تأكيد حاسم على أن &quot;ليدية&quot; و&quot;لود&quot; هما نفس المنطقة أو الشعب. يذكر إِرْمِيَا لُود فيمَا يتعلق بالدول الأفريقية الشِّمالية التي لفوط (ليبيَا) وأثيوبيا (<a href=\"https://ref.ly/Jer46:9\">إرميا 46:9</a>). ويذكر حِزْقِيَالَ لُود فيمَا يتعلَّق بفوط وفَارِس (<a href=\"https://ref.ly/Ezek27:10\">حزقيال 27:10</a>)، وأيضًا بالعَرَبِ (<a href=\"https://ref.ly/Ezek30:5\">30:5</a>). ويعتقد يوسيفوس أن شعب مملكة ليدية يعود إلى لود بن سام بحسب التقاليد اليهودية القديمة (<em>آثار اليهود 1. 6. 4</em>).</p><p>على أي حال، يبدو أن لِيدِيَّة تشير إلى مقاطعة في الجزء الغربي من إقليم أَسِيَّا الروماني (تركيا الحديثة)، يحدها من الشمال مِيسِيَّا، ومن ٱلْمَشْرِقِ فَرِيجِيَّةَ، ومن جَنوبًا كاريا، والمدن اليونانية على الساحل في أيونيا من الغرب. وقد أصبحت جزءًا من المناطق التي استولى عليها الرومان بعد هزيمة أنطيوخس الكبير، ملك سوريا، في معركة ماغنيسيا في عام 190 قبل الميلاد.</p><p>كانت سَارْدِسَ عاصمة لِيدِيَّة تقع في الداخل بعيدًا عن الساحل، ولم تُظهر المقاطعة أي تطوّر بحري يُذكر. وقد وصفها هيرودوت بأنها أرض غنية وخصبة، فيها وفرة من الفضة (<em>الحروب الفارسية</em> 5.49)، في حين أشار المؤرخ الروماني تاسيتوس إلى ثراء المناطق المحيطة بسارديس (<em>الحوليات</em> 4.55). ويقول هيرودوت أيضًا إن الليديين &quot;كانوا أول أمة تستخدم العملات الذهبية والفضية، وأول من باعوا السلع بالتجزئة&quot; (<em>الحروب الفارسية</em> 1.94).</p><p>بحلول زمن العهد الجديد، أصبحت لِيدِيَّة جزءًا من إقليم أَسِيَّا الروماني، بعدما مُنحت لروما في عام 133 قبل الميلاد من قبل الملك البرغامي أتالوس الثالث. كانت خمس من الكنائس التي وُجِّه إليها سِفر الرؤيا تقع في لِيدِيَّة (أَفَسس، سِمِيرْنَا، ساردِس، فِيلَادَلْفِيَا ولَاودِكِيَّةَ).</p><p><em>انظر أيضًا</em> <span data-bnType=\"resourceReference\" data-resourceId=\"5959\" data-resourceType=\"TyndaleBibleDictionary\">لُود، لوديم، اللوديُّون</span>.</p>",
@@ -5227,13 +5472,28 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Lydia",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Lydia"
+},
+{
+"id": "person:Lud",
+"type": "person",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "لودِيمَ"
+}
+]
 }
 },
 {
 "content_id": "511347",
 "reference_id": 5935,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لُودَبَار",
 "media_type": "Text",
 "index_reference": "لُودَبَار",
@@ -5264,16 +5524,63 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Lo-debar",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Lo-debar"
+}
+]
+}
+},
+{
+"content_id": "511351",
+"reference_id": 5949,
+"version": "1.0.4",
+"title": "لو-رحامة",
+"media_type": "Text",
+"index_reference": "لورحامة",
+"language": "arb",
+"review_level": "None",
+"content": "<h1>لو-رحامة</h1><p>اسم رمزي يعني &quot;غير مرحوم&quot; (<a href=\"https://ref.ly/Hos1:6-Hos1:8\">هوشع 1:6–8</a>). وأعطاه النبي هوشع لابنته، مشيراً إلى رفض الله لإسرائيل. <em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"7238\" data-resourceType=\"TyndaleBibleDictionary\">رحامة</span>.</p>",
+"associations": {
+"passage": [
+{
+"start_ref": "28001006",
+"start_ref_usfm": "HOS 1:6",
+"end_ref": "28001008",
+"end_ref_usfm": "HOS 1:8"
+}
+],
+"resource": [
+{
+"reference_id": 7238,
+"content_id": 512092,
+"resource_code": "TyndaleBibleDictionary",
+"label": "رُحَامَةَ",
+"language": "arb"
+}
+],
+"acai": [
+{
+"id": "person:Lo-ruhamah",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Lo-ruhamah"
+}
+]
 }
 },
 {
 "content_id": "511737",
 "reference_id": 6597,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لُورُحَامَة*",
 "media_type": "Text",
-"index_reference": "لُورُحَامَة*",
+"index_reference": "لُورُحَامَة",
 "language": "arb",
 "review_level": "None",
 "content": "<h1><span>لُورُحَامَة</span>*</h1><p>الاسم الرمزي الذي أعطاه النبي هوشع لابنته (<a href=\"https://ref.ly/Hos1:6-Hos1:8\">هوشع 1:6–8</a>) كتحذير من الدينونة القادم من ٱلله على إسرائيل، ويعني غير محبوبة أو غير مُشفَق عليها. <em>انظر&nbsp;</em>رحامة.</p>",
@@ -5301,7 +5608,7 @@
 {
 "content_id": "509353",
 "reference_id": 2689,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لوز",
 "media_type": "Text",
 "index_reference": "لوز",
@@ -5319,13 +5626,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "flora:Almond",
+"type": "flora",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Almond"
+}
+]
 }
 },
 {
 "content_id": "443752",
 "reference_id": 4903,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لَوْز",
 "media_type": "Text",
 "index_reference": "لَوْز",
@@ -5356,7 +5671,7 @@
 {
 "content_id": "443863",
 "reference_id": 5964,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لُوز",
 "media_type": "Text",
 "index_reference": "لُوز",
@@ -5409,9 +5724,16 @@
 {
 "id": "place:Luz.2",
 "type": "place",
-"preferred_label": "لوزَ",
-"confidence": 0.9074,
-"match_method": "embedding"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لوزَ"
+},
+{
+"id": "place:Bethel",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Bethel"
 }
 ]
 }
@@ -5419,7 +5741,7 @@
 {
 "content_id": "335374",
 "reference_id": 5953,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لُوط",
 "media_type": "Text",
 "index_reference": "لُوط",
@@ -5480,13 +5802,28 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Lot",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لوطًا"
+},
+{
+"id": "realia:Lot",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Lot"
+}
+]
 }
 },
 {
 "content_id": "443861",
 "reference_id": 5950,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لُوطَان",
 "media_type": "Text",
 "index_reference": "لُوطَان",
@@ -5525,9 +5862,48 @@
 {
 "id": "person:Lotan",
 "type": "person",
-"preferred_label": "لوطَان",
-"confidence": 0.964,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لوطَان"
+}
+]
+}
+},
+{
+"content_id": "511344",
+"reference_id": 5932,
+"version": "1.0.4",
+"title": "لُو-عَمِّي",
+"media_type": "Text",
+"index_reference": "لُوعَمِّي",
+"language": "arb",
+"review_level": "None",
+"content": "<h1>لُو عَمِّي</h1><p>اسم رمزي، يعني &quot;ليس شعبي&quot; (<a href=\"https://ref.ly/Hos1:9\">هوشع 1:9</a>)، أعطاه النبي هوشَع لابنه. <em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"2733\" data-resourceType=\"TyndaleBibleDictionary\">عَمِّي</span>.</p>",
+"associations": {
+"passage": [
+{
+"start_ref": "28001009",
+"start_ref_usfm": "HOS 1:9",
+"end_ref": "28001009",
+"end_ref_usfm": "HOS 1:9"
+}
+],
+"resource": [
+{
+"reference_id": 2733,
+"content_id": 490211,
+"resource_code": "TyndaleBibleDictionary",
+"label": "عَمِّي",
+"language": "arb"
+}
+],
+"acai": [
+{
+"id": "person:Lo-ammi",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Lo-ammi"
 }
 ]
 }
@@ -5535,10 +5911,10 @@
 {
 "content_id": "511738",
 "reference_id": 6598,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لُوعَمِّي*",
 "media_type": "Text",
-"index_reference": "لُوعَمِّي*",
+"index_reference": "لُوعَمِّي",
 "language": "arb",
 "review_level": "None",
 "content": "<h1><span>لُوعَمِّي*</span></h1><p>الاسم الرمزي الذي أعطاه هوشع النبي لابنه الثالث (<a href=\"https://ref.ly/Hos1:9\">هوشع 1:9</a>) كتحذير من الدينونة القادمة من ٱلله على إِسرائيل، ويعني ليسوا شعبي. <em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"2733\" data-resourceType=\"TyndaleBibleDictionary\">عمي</span>.</p>",
@@ -5567,16 +5943,24 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Lo-ammi",
+"type": "person",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "Lo-ammi"
+}
+]
 }
 },
 {
 "content_id": "335371",
 "reference_id": 5938,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لوغوس (الكلمة)",
 "media_type": "Text",
-"index_reference": "لوغوس (الكلمة)",
+"index_reference": "لوغوس الكلمة",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>لوغوس (الكلمة)*</h1><p>هو النقل الصوتي لمصطلح يوناني يعني &quot;كلمة&quot;. المصطلح مهم لأنه يشير في كتابات يوحنا إلى يسوع. إن مقدمة إنجيل يوحنا (<a href=\"https://ref.ly/John1:1,John1:14\">يو 1:1، 14</a>) وبداية 1 يوحنا (<a href=\"https://ref.ly/1John1:1\">1 يو 1:1</a>) يستخدمان كلمة اللوغوس لإظهار كيف يمكن أن يكون يسوع هو الله ومع ذلك يكون أيضًا تعبيرًا عن الله في العالم. الكلمة الإلهية اتخذ شكلًا بشريًا (صار إنسانًا) وأصبح شخصية تاريخية. اللوغوس هو أيضًا لقب المسيح في رؤية مجده الإلهي (<a href=\"https://ref.ly/Rev19:13\">رؤ 19:13</a>). استخدم الكُتَّاب خارج العهد الجديد، مثل فيلو الإسكندري، المصطلح ولكن بمعنى مختلف.</p><p><em>انظر أيضا</em> <span data-bnType=\"resourceReference\" data-resourceId=\"5576\" data-resourceType=\"TyndaleBibleDictionary\">يوحنا، إنجيل</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"8257\" data-resourceType=\"TyndaleBibleDictionary\">الكلمة، كلمة الله</span>.</p>",
@@ -5629,10 +6013,10 @@
 {
 "content_id": "331880",
 "reference_id": 5962,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لوقا (شخص)",
 "media_type": "Text",
-"index_reference": "لوقا (شخص)",
+"index_reference": "لوقا شخص",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>لوقا (شخص)</h1><p>رفيق الرسول بولس؛ كاتب الإنجيل الثالث وسفر أعمال الرسل.</p><p>إذا عدّ أن كاتب إنجيل لوقا وسفر أعمال الرسل هو لوقا رفيق بولس، فمن هذين المجلدين يمكن تعلم الكثير عنه. تشير مقدمة الإنجيل إلى أنَّ لوقا لم يكن شاهد عِيان أو تلميذًا قريبًا من للرب. يذكر لوقا أنه أجرى بحثًا موسعًا ومستفيضًا، وكتب سردًا منظمًا عن يسوع.</p><p> كتابات لوقا بها بعض المزايا التي لا توجد في الأناجيل الأخرى. المِيزة الاستثنائية لعمل لوقا هي كتابة سفر أعمال الرسل بصفته تتمته للإنجيل. ثم أن السفرين معًا - لوقا وأعمال الرسل - يُظهران تحقيق نبوات إشعياء من جهة الكرازة بالإنجيل إلى أقصى الأرض. وذِكره للأمم يرجع إلى شمولية لوقا أو اهتمامه بكل البشرية (<a href=\"https://ref.ly/Luke2:14\">لوقا 2: 14؛</a> <a href=\"https://ref.ly/Luke24:47\">24: 47</a>). فإنجيل لوقا يُظهر اهتمامًا كبيرًا بالأفراد، والمنبوذين من المجتمع، والنساء، والأطفال، والعلاقات الاجتماعية، وبالأخص الأمور التي تتعلق بالفقر أو الغنى. كما يتميز هذا الإنجيل بالتركيز على الصلاة والروح القدس، ما يثمر عن نَغْمَة مدهشة من الفرح والتسبيح  اللافتين للنظر. كل هذه السمات المميزة للوقا تخبرنا شيئًا عن شخصه، وعن فهمه للمسيحية.</p><p>إذا قُبِلَ افتراض أن لوقا هو من رافق بولس، فإن النصوص التي تستخدم &quot;صيغة الجمع&quot; في أعمال الرسل تكشف أنَّ لوقا كان في فيلبي (ربما مسقط رأسه) عندما انضم أول مرة إلى بولس (<a href=\"https://ref.ly/Acts16:10-Acts16:17\">أعمال 16: 10–17</a>). ثم انضم مرة أخرى إلى بولس عندما عاد الأخير إلى فيلبي (<a href=\"https://ref.ly/Acts20:5-Acts20:15\">20: 5–15</a>). ثم سافر لوقا مع بولس في طريقه إلى أورشليم وأقام عند <span>فِيلُبُّس</span> في <span>قَيْصَرِيَّة</span> (<a href=\"https://ref.ly/Acts21:1-Acts21:18\">21: 1–18</a>). ثم، بعد سجن بولس مدة عامين في قَيْصَرِيَّة، أبحر لوقا معه إلى رومَا (<a href=\"https://ref.ly/Acts27:1-Acts28:16\">27: 1–28: 16</a>).</p><p>ثمّة إشارات أخرى إلى لوقا في رسائل بولس (<a href=\"https://ref.ly/Col4:14\">كولوسي 4: 14؛ 2 تيموثاوس 4: 11</a><a href=\"https://ref.ly/2Tim4:11\">؛ </a><a href=\"https://ref.ly/Phlm1:24\">فل 1: 24</a>) تمدنا ببعض المعلومات القيّمة عن لوقا.  <a href=\"https://ref.ly/Col4:11\">كولوسي 4: 11</a> و <a href=\"https://ref.ly/Col4:14\">14</a> يشيران كذلك إلى أنَّ لوقا كان أمميًا وطبيبًا. هذه المعلومة الأخيرة [كونه طبيبًا] مؤيدة بقوة، لكنها لم تتبرهن باهتمام لوقا بالأمور الطبية، مثلما ورد في <a href=\"https://ref.ly/Luke4:38\">لوقا 4: 38،</a> <a href=\"https://ref.ly/Luke5:12\">5: 12،</a> و <a href=\"https://ref.ly/Luke8:43\">8: 43</a>. من المثير للاهتمام أيضًا أنَّ التقليد الأول يضيف أنَّ لوقا كان طبيبًا من أنطاكيَة، وكتب إنجيله في أخائية وتوفي عن عمر يناهز 84 عامًا.</p>",
@@ -5722,9 +6106,9 @@
 {
 "id": "person:Luke",
 "type": "person",
-"preferred_label": "لوقَا",
-"confidence": 0.5618,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لوقَا"
 }
 ]
 }
@@ -5732,7 +6116,7 @@
 {
 "content_id": "331878",
 "reference_id": 5958,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لُوكِيُوسُ",
 "media_type": "Text",
 "index_reference": "لُوكِيُوسُ",
@@ -5773,13 +6157,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Simeon.4",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "شِمْعونَ"
+}
+]
 }
 },
 {
 "content_id": "511327",
 "reference_id": 5896,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لِوِيَاثَان",
 "media_type": "Text",
 "index_reference": "لِوِيَاثَان",
@@ -5829,13 +6221,21 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "fauna:GiantCroccodile",
+"type": "fauna",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Leviathan"
+}
+]
 }
 },
 {
 "content_id": "335368",
 "reference_id": 5870,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لَيْئَة",
 "media_type": "Text",
 "index_reference": "لَيْئَة",
@@ -5954,9 +6354,9 @@
 {
 "id": "person:Leah",
 "type": "person",
-"preferred_label": "لَيْئَةَ",
-"confidence": 0.6504,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لَيْئَةَ"
 }
 ]
 }
@@ -5964,7 +6364,7 @@
 {
 "content_id": "331831",
 "reference_id": 4473,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لِّيبَرْتِينِيِّينَ",
 "media_type": "Text",
 "index_reference": "لِّيبَرْتِينِيِّينَ",
@@ -5989,16 +6389,24 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "group:Freedmen",
+"type": "group",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Freedmen"
+}
+]
 }
 },
 {
 "content_id": "201496",
 "reference_id": 5909,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ليبيا، ليبيون",
 "media_type": "Text",
-"index_reference": "ليبيا، ليبيون",
+"index_reference": "ليبيا ليبيون",
 "language": "arb",
 "review_level": "None",
 "content": "<h1>ليبيا، ليبيون</h1><p>بلد وتقع في غرب مصر. ثلاث كلمات عبرية مختلفة تُقدم، لكن هناك بعض الالتباس في المعنى، جزئيًا بسبب النقد النَّصِّي، وجزئيًا لأن الكُتَّاب الكلاسيكيين يميلون إلى استخدام &quot;ليبيا&quot; لوصف أي جزء في إفريقيا ما عدا مصر بشكل عام.</p><p>من القرن الثاني عشر قبل الميلاد، خدم الليبيون في جيش مصر وجيش إثيوبيا (<a href=\"https://ref.ly/2Chr12:3\">2 أخبار الأيام 12: 3</a>؛ <a href=\"https://ref.ly/2Chr16:8\">16: 8</a>؛ <a href=\"https://ref.ly/Nah3:9\">ناحوم 3: 9</a>). كان الغازي العظيم شِيشَق نفسه من أصل ليبي. تنبأ حزقيال بأن ليبيا ستشترك في دينونة الأمم (<a href=\"https://ref.ly/Ezek30:5\">حزقيال 30: 5</a>)، ويُحْسَب الليبيون بين الشعوب التي أُجبرت على الخضوع في <a href=\"https://ref.ly/Dan11:43\">دانيال 11: 43</a>. هناك إشارة عابرة إلى الليبيين (في العبريَّة، &quot;فُولَ&quot;) في <a href=\"https://ref.ly/Isa66:19\">إشعياء 66: 19</a>.</p><p>أُجْبِر سمعان &quot;رَجُلٌ من قيروان&quot; في شرق ليبيا، على حمل صليب يسوع (<a href=\"https://ref.ly/Matt27:32\">متى 27: 32</a>؛ <a href=\"https://ref.ly/Mark15:21\">مرقس 15: 21</a>؛ <a href=\"https://ref.ly/Luke23:26\">لوقا 23: 26</a>). وتم الإشارة إلى الليبيين بين المحتشدين في أورشليم يوم الخمسين (<a href=\"https://ref.ly/Acts2:10\">أعمال الرُّسُل 2: 10</a>).</p>",
@@ -6070,9 +6478,16 @@
 {
 "id": "place:Libya",
 "type": "place",
-"preferred_label": "لوبِيِّينَ",
-"confidence": 0.66,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لوبِيِّينَ"
+},
+{
+"id": "place:Put",
+"type": "place",
+"confidence": 0.585,
+"match_method": "scored",
+"preferred_label": "فوط"
 }
 ]
 }
@@ -6080,7 +6495,7 @@
 {
 "content_id": "511114",
 "reference_id": 5525,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لِيَثَر",
 "media_type": "Text",
 "index_reference": "لِيَثَر",
@@ -6155,32 +6570,39 @@
 ],
 "acai": [
 {
-"id": "person:Jether.3",
-"type": "person",
-"preferred_label": "لِيَثَرَ",
-"confidence": 0.7463,
-"match_method": "scored"
-},
-{
-"id": "person:Jether.5",
-"type": "person",
-"preferred_label": "لِيَثَرَ",
-"confidence": 0.6129,
-"match_method": "scored"
-},
-{
 "id": "person:Jether.2",
 "type": "person",
-"preferred_label": "لِيَثَرَ",
-"confidence": 0.6129,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لِيَثَرَ"
+},
+{
+"id": "person:Jether.3",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لِيَثَرَ"
 },
 {
 "id": "person:Jether.4",
 "type": "person",
-"preferred_label": "لِيَثَرَ",
-"confidence": 0.6129,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لِيَثَرَ"
+},
+{
+"id": "person:Jether.5",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لِيَثَرَ"
+},
+{
+"id": "person:Ithran.2",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "يِثْرَان"
 }
 ]
 }
@@ -6188,10 +6610,10 @@
 {
 "content_id": "331884",
 "reference_id": 5968,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لِيدِيَّةُ (شخص)",
 "media_type": "Text",
-"index_reference": "لِيدِيَّةُ (شخص)",
+"index_reference": "لِيدِيَّةُ شخص",
 "language": "arb",
 "review_level": "None",
 "content": "<h1><span>لِيدِيَّةُ </span>(شخص)</h1><p>امرأة أممية آمنت بالمسيح بسبب كرازة بولس في مدينة فيلبي (<a href=\"https://ref.ly/Acts16:14,Acts16:40\">أعمال الرسل 16:14، 40</a>). كانت <span>لِيدِيَّةُ </span>تاجرة في الأقمشة الأرجوانية، وجاءت من مدينة ثياتيرا في منطقة ليديا، الواقعة في الجزء الغربي من مقاطعة اسيا الرومانية (المعروفة عادة بأسيا الصغرى). ووصفُها بأنها &quot;<span>مُتَعَبِّدَةٌ لِلهِ</span>&quot; (أو &quot;خائفة الله&quot;) يبيِّن أنها كانت أممية انجذبت إلى الديانة اليهودية. وبعدما اعتنقت المسيحية واعتمدت، استضافت بولس وسيلا خلال إقامتهما في مدينة فيلبي.</p>",
@@ -6215,9 +6637,16 @@
 {
 "id": "person:Lydia",
 "type": "person",
-"preferred_label": "لِيدِيَّة",
-"confidence": 0.9775,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لِيدِيَّة"
+},
+{
+"id": "place:Lydia",
+"type": "place",
+"confidence": 0.6,
+"match_method": "scored",
+"preferred_label": "Lydia"
 }
 ]
 }
@@ -6225,7 +6654,7 @@
 {
 "content_id": "335376",
 "reference_id": 5972,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لِيسَانِيُوس",
 "media_type": "Text",
 "index_reference": "لِيسَانِيُوس",
@@ -6246,9 +6675,9 @@
 {
 "id": "person:Lysanias",
 "type": "person",
-"preferred_label": "لِيسَانِيوس",
-"confidence": 0.982,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لِيسَانِيوس"
 }
 ]
 }
@@ -6256,7 +6685,7 @@
 {
 "content_id": "331885",
 "reference_id": 5973,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لِيسِيَاسُ",
 "media_type": "Text",
 "index_reference": "لِيسِيَاسُ",
@@ -6291,9 +6720,9 @@
 {
 "id": "person:Lysias",
 "type": "person",
-"preferred_label": "لِيسِيَاس",
-"confidence": 0.6275,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لِيسِيَاس"
 }
 ]
 }
@@ -6301,7 +6730,7 @@
 {
 "content_id": "511360",
 "reference_id": 5974,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ليسيماخوس",
 "media_type": "Text",
 "index_reference": "ليسيماخوس",
@@ -6317,7 +6746,7 @@
 {
 "content_id": "511296",
 "reference_id": 5833,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لَيْشَة",
 "media_type": "Text",
 "index_reference": "لَيْشَة",
@@ -6336,95 +6765,11 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Laadah",
-"type": "person",
-"preferred_label": "لَعْدَة",
-"confidence": 0.8786,
-"match_method": "embedding"
-},
-{
-"id": "person:Shilshah",
-"type": "person",
-"preferred_label": "شِلْشَة",
-"confidence": 0.8431,
-"match_method": "embedding"
-},
-{
-"id": "person:Elah",
-"type": "person",
-"preferred_label": "أَيْلَة",
-"confidence": 0.8376,
-"match_method": "embedding"
-},
-{
-"id": "person:Elah.2",
-"type": "person",
-"preferred_label": "أَيْلَة",
-"confidence": 0.8376,
-"match_method": "embedding"
-},
-{
-"id": "person:Elah.3",
-"type": "person",
-"preferred_label": "أَيْلَة",
-"confidence": 0.8376,
-"match_method": "embedding"
-},
-{
-"id": "person:Elah.4",
-"type": "person",
-"preferred_label": "أَيْلَة",
-"confidence": 0.8376,
-"match_method": "embedding"
-},
-{
-"id": "person:Elah.5",
-"type": "person",
-"preferred_label": "أَيْلَة",
-"confidence": 0.8376,
-"match_method": "embedding"
-},
-{
-"id": "person:Naarah",
-"type": "person",
-"preferred_label": "نَعْرَة",
-"confidence": 0.8207,
-"match_method": "embedding"
-},
-{
-"id": "person:Achsah",
-"type": "person",
-"preferred_label": "عَكْسَة",
-"confidence": 0.8166,
-"match_method": "embedding"
-},
-{
-"id": "person:Achsah.2",
-"type": "person",
-"preferred_label": "عَكْسَة",
-"confidence": 0.8166,
-"match_method": "embedding"
-},
-{
-"id": "place:Ashnah",
+"id": "place:Laishah",
 "type": "place",
-"preferred_label": "أَشْنَة",
-"confidence": 0.8154,
-"match_method": "embedding"
-},
-{
-"id": "person:Rebekah",
-"type": "person",
-"preferred_label": "رِفْقَة",
-"confidence": 0.815,
-"match_method": "embedding"
-},
-{
-"id": "person:Shiphrah",
-"type": "person",
-"preferred_label": "شِفْرَة",
-"confidence": 0.8086,
-"match_method": "embedding"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "يَا"
 }
 ]
 }
@@ -6432,7 +6777,7 @@
 {
 "content_id": "331881",
 "reference_id": 5965,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لِيكَأُونِيَّة",
 "media_type": "Text",
 "index_reference": "لِيكَأُونِيَّة",
@@ -6483,9 +6828,16 @@
 {
 "id": "place:Lycaonia",
 "type": "place",
-"preferred_label": "لِيكَأونِيَّةَ",
-"confidence": 0.6156,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لِيكَأونِيَّةَ"
+},
+{
+"id": "group:Lycaonia",
+"type": "group",
+"confidence": 0.6235,
+"match_method": "scored",
+"preferred_label": "Lycaonians"
 }
 ]
 }
@@ -6493,7 +6845,7 @@
 {
 "content_id": "511317",
 "reference_id": 5879,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "ليكة",
 "media_type": "Text",
 "index_reference": "ليكة",
@@ -6510,13 +6862,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Lecah",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لَيْكَةَ"
+}
+]
 }
 },
 {
 "content_id": "331882",
 "reference_id": 5966,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لِيكِيَّة",
 "media_type": "Text",
 "index_reference": "لِيكِيَّة",
@@ -6549,9 +6909,9 @@
 {
 "id": "place:Lycia",
 "type": "place",
-"preferred_label": "لِيكِيَّةَ",
-"confidence": 0.6575,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "لِيكِيَّةَ"
 }
 ]
 }
@@ -6559,7 +6919,7 @@
 {
 "content_id": "511340",
 "reference_id": 5926,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "لِينُسُ",
 "media_type": "Text",
 "index_reference": "لِينُسُ",
@@ -6576,7 +6936,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Linus",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "وَلِينس"
+}
+]
 }
 }
 ]

@@ -2,7 +2,7 @@
 {
 "content_id": "864976",
 "reference_id": 7635,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "書珥",
 "media_type": "Text",
 "index_reference": "書珥",
@@ -55,7 +55,7 @@
 {
 "content_id": "615723",
 "reference_id": 3472,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "書卷",
 "media_type": "Text",
 "index_reference": "書卷",
@@ -144,16 +144,24 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "realia:Scroll",
+"type": "realia",
+"confidence": 0.6571,
+"match_method": "scored",
+"preferred_label": "Scroll"
+}
+]
 }
 },
 {
 "content_id": "864975",
 "reference_id": 7620,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "書亞 （Shuah）",
 "media_type": "Text",
-"index_reference": "書亞 （Shuah）",
+"index_reference": "書亞 Shuah",
 "language": "zht",
 "review_level": "None",
 "content": "<h1>書亞（Shuah）</h1><p>1. 書亞是基土拉為亞伯拉罕所生的六個兒子之一（<a href=\"https://ref.ly/Gen25:2\">創25:2</a>；<a href=\"https://ref.ly/1Chr1:32\">代上1:32</a>）。他可能是住在烏斯地附近的<span>書亞人</span>的先祖（<a href=\"https://ref.ly/Job2:11\">伯2:11</a>）。</p><p>2. 猶大的岳父，見於<a href=\"https://ref.ly/Gen38:2,Gen38:12\">創世記三十八章2節</a>、<a href=\"https://ref.ly/Gen38:2,Gen38:12\">12節</a>。</p><p><em>見 </em><span data-bnType=\"resourceReference\" data-resourceId=\"7623\" data-resourceType=\"TyndaleBibleDictionary\">書亞（Shua）#1</span>。</p><p>3. 有些譯本將其寫為書哈（Shuhah），他是基祿的兄弟，見於<a href=\"https://ref.ly/1Chr4:11\">歷代志上四章11節</a>。</p><p><em>見 </em><span data-bnType=\"resourceReference\" data-resourceId=\"7625\" data-resourceType=\"TyndaleBibleDictionary\">書哈</span>。</p>",
@@ -197,35 +205,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Shua",
-"type": "person",
-"preferred_label": "Shua",
-"confidence": 0.6298,
-"match_method": "scored"
-},
-{
-"id": "person:Shuah",
-"type": "person",
-"preferred_label": "Shuah",
-"confidence": 0.6298,
-"match_method": "scored"
-},
-{
-"id": "person:Shuhah",
-"type": "person",
-"preferred_label": "Shuhah",
-"confidence": 0.5632,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "315535",
 "reference_id": 7109,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "贖價",
 "media_type": "Text",
 "index_reference": "贖價",
@@ -562,13 +548,21 @@
 "language": "zht"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Ransom",
+"type": "keyterm",
+"confidence": 1.0,
+"match_method": "embedding",
+"preferred_label": "Ransom"
+}
+]
 }
 },
 {
 "content_id": "800770",
 "reference_id": 6092,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "屬血氣的人",
 "media_type": "Text",
 "index_reference": "屬血氣的人",
@@ -714,13 +708,28 @@
 "language": "zht"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Adam",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Adam"
+},
+{
+"id": "keyterm:Natural",
+"type": "keyterm",
+"confidence": 0.5919,
+"match_method": "scored",
+"preferred_label": "Natural"
+}
+]
 }
 },
 {
 "content_id": "826026",
 "reference_id": 6600,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "數字和數字象徵學",
 "media_type": "Text",
 "index_reference": "數字和數字象徵學",
@@ -1217,7 +1226,7 @@
 {
 "content_id": "826038",
 "reference_id": 8087,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "樹",
 "media_type": "Text",
 "index_reference": "樹",
@@ -1274,7 +1283,7 @@
 {
 "content_id": "864906",
 "reference_id": 4709,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "樹林",
 "media_type": "Text",
 "index_reference": "樹林",

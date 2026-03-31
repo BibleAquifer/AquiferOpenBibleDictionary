@@ -2,7 +2,7 @@
 {
 "content_id": "853007",
 "reference_id": 5677,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kab",
 "media_type": "Text",
 "index_reference": "kab",
@@ -34,21 +34,13 @@
 "language": "fra"
 }
 ],
-"acai": [
-{
-"id": "realia:Kab",
-"type": "realia",
-"preferred_label": "Kab",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "840108",
 "reference_id": 5676,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kabtseel",
 "media_type": "Text",
 "index_reference": "kabtseel",
@@ -83,24 +75,16 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "place:Kabzeel",
-"type": "place",
-"preferred_label": "Kabtseel",
-"confidence": 0.9,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "806063",
 "reference_id": 5678,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kadès, Kadès-Barnéa",
 "media_type": "Text",
-"index_reference": "kadès, kadès-barnéa",
+"index_reference": "kadès kadèsbarnéa",
 "language": "fra",
 "review_level": "None",
 "content": "<h1>KADÈS, KADÈS-BARNÉA</h1><p>Lieu de résidence des Israélites errants pendant près de trente-huit ans. Dans la vaste région du Sinaï, il y a deux principales oasis : au sud se trouve Wadi Feiran, près de la montagne de Moïse (Mont Sinaï ou Horeb) ; au nord se trouve Kadès, ou Kadès-Barnéa. La première était l&apos;endroit où la loi a été donnée ; la seconde, le principal campement des douze tribus pendant leur exode d&apos;Égypte (<a href=\"https://ref.ly/Deut1:46\">Dt 1.46</a>).</p><p>Kadès-Barnéa (<a href=\"https://ref.ly/Gen14:7\">Gn 14.7</a>, « En-Mischpath ») a été pillé par Kedorlaomer, roi d&apos;Élam, à l&apos;époque d&apos;Abraham. Dans cette région, Agar a été chassée de la tente de Sara, sa maîtresse (<a href=\"https://ref.ly/Gen16:14\">16.14</a>), et c&apos;est ici que Miriam est morte et a été enterrée (<a href=\"https://ref.ly/Num20:1\">Nb 20.1</a>). La grande querelle au sujet de l&apos;eau a eu lieu ici, donnant naissance au nom Meriba ou Meribath-kadès (<a href=\"https://ref.ly/Num20:2-Num20:24\">Nb 20.2–24</a> ; <a href=\"https://ref.ly/Deut32:51\">Dt 32.51</a> ; <a href=\"https://ref.ly/Ezek47:19\">Ez 47.19</a> ; <a href=\"https://ref.ly/Ezek48:28\">48.28</a>). Ce lieu sera également le théâtre de la rébellion de Koré contre la direction de Moïse et Aaron (<a href=\"https://ref.ly/Num16:1-Num17:13\">Nb 16–17</a>). Cette région restera longtemps dans la mémoire des tribus israélites comme lieu de leur incrédulité suite au rapport des dix espions et un retard de trente-huit ans avant leur occupation de la Terre Promise (<a href=\"https://ref.ly/Ps95:8-Ps95:11\">Ps 95.8–11</a> ; voir <a href=\"https://ref.ly/Heb3:7-Heb3:19\">Hé 3.7–19</a>).</p><p>En raison de l&apos;eau, des pâturages et des terres agricoles, ainsi que de sa proximité avec Canaan, les Israélites estimeront que cette région était l&apos;endroit idéal pour passer la plupart de leur temps avant d&apos;entrer dans la Terre Promise.</p><p><em>Voir aussi</em> <span data-bnType=\"resourceReference\" data-resourceId=\"6237\" data-resourceType=\"TyndaleBibleDictionary\">Meriba n° 2</span> ; <span data-bnType=\"resourceReference\" data-resourceId=\"8231\" data-resourceType=\"TyndaleBibleDictionary\">Errances dans le désert</span>.</p>",
@@ -174,13 +158,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Kadesh-barnea",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kadès-Barnéa"
+}
+]
 }
 },
 {
 "content_id": "868964",
 "reference_id": 5679,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kadmiel",
 "media_type": "Text",
 "index_reference": "kadmiel",
@@ -233,21 +225,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Kadmiel",
-"type": "person",
-"preferred_label": "Kadmiel",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "806064",
 "reference_id": 5680,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kadmoniens",
 "media_type": "Text",
 "index_reference": "kadmoniens",
@@ -292,9 +276,9 @@
 {
 "id": "group:Kadmonites",
 "type": "group",
-"preferred_label": "Kadmonites",
-"confidence": 0.635,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kadmonites"
 }
 ]
 }
@@ -302,10 +286,10 @@
 {
 "content_id": "840109",
 "reference_id": 5681,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kaïn (Lieu)",
 "media_type": "Text",
-"index_reference": "kaïn (lieu)",
+"index_reference": "kaïn lieu",
 "language": "fra",
 "review_level": "None",
 "content": "<h1>KAÏN (Lieu)</h1><p>Ville dans la région montagneuse de Judée (<a href=\"https://ref.ly/Josh15:57\">Jos 15.57</a>). Sa localisation dans le même district que les villes connues de Maon, Carmel, Ziph et Juttah (v. <a href=\"https://ref.ly/Josh15:55\">55</a>) favorise son identification avec Khirbet Yuqim, au sud-ouest d&apos;Hébron.</p>",
@@ -325,24 +309,16 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Cain",
-"type": "person",
-"preferred_label": "Caïn",
-"confidence": 0.8934,
-"match_method": "embedding"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "833105",
 "reference_id": 5682,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kain (Tribu)",
 "media_type": "Text",
-"index_reference": "kain (tribu)",
+"index_reference": "kain tribu",
 "language": "fra",
 "review_level": "None",
 "content": "<h1>KAIN (Tribu)</h1><p>Les Kain étaient une tribu de personnes identiques aux Kéniens (<a href=\"https://ref.ly/Num24:22\">Nb 24.22</a> ; <a href=\"https://ref.ly/Judg4:11\">Jg 4.11</a>). Le nom « Kain » en hébreu signifie « lance », ce qui suggère qu&apos;ils étaient peut-être habiles à fabriquer des outils et des armes en métal. La tribu vivait comme des nomades, se déplaçant d&apos;un endroit à l&apos;autre plutôt que de s&apos;installer dans une région. Ils étaient amicaux envers Israël (<a href=\"https://ref.ly/1Sam15:6\">1S 15.6</a>). Ils deviendront ensuite partie de Juda.</p><p><em>Voir</em> <span data-bnType=\"resourceReference\" data-resourceId=\"5718\" data-resourceType=\"TyndaleBibleDictionary\">Kéniens</span>.</p>",
@@ -380,9 +356,9 @@
 {
 "id": "place:Kain",
 "type": "place",
-"preferred_label": "Kain",
-"confidence": 0.7333,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kain"
 }
 ]
 }
@@ -390,7 +366,7 @@
 {
 "content_id": "800681",
 "reference_id": 3550,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kaïnan",
 "media_type": "Text",
 "index_reference": "kaïnan",
@@ -447,11 +423,18 @@
 ],
 "acai": [
 {
+"id": "person:Kenan",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kénan"
+},
+{
 "id": "person:Cainan",
 "type": "person",
-"preferred_label": "Kaïnan",
-"confidence": 0.6333,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kaïnan"
 }
 ]
 }
@@ -459,7 +442,7 @@
 {
 "content_id": "868965",
 "reference_id": 5684,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kallaï",
 "media_type": "Text",
 "index_reference": "kallaï",
@@ -476,21 +459,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Kallai",
-"type": "person",
-"preferred_label": "Kallaï",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "840110",
 "reference_id": 5685,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kamon",
 "media_type": "Text",
 "index_reference": "kamon",
@@ -507,21 +482,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "place:Kamon",
-"type": "place",
-"preferred_label": "Kamon",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "840111",
 "reference_id": 5686,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kana",
 "media_type": "Text",
 "index_reference": "kana",
@@ -550,21 +517,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "place:Kanah.2",
-"type": "place",
-"preferred_label": "Kanah",
-"confidence": 0.8172,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "833106",
 "reference_id": 5687,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kanatha",
 "media_type": "Text",
 "index_reference": "kanatha",
@@ -602,7 +561,7 @@
 {
 "content_id": "853008",
 "reference_id": 5688,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Karéach",
 "media_type": "Text",
 "index_reference": "karéach",
@@ -629,9 +588,9 @@
 {
 "id": "person:Kareah",
 "type": "person",
-"preferred_label": "Karéach",
-"confidence": 0.7018,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Karéach"
 }
 ]
 }
@@ -639,7 +598,7 @@
 {
 "content_id": "822984",
 "reference_id": 5722,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Karen",
 "media_type": "Text",
 "index_reference": "karen",
@@ -662,21 +621,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Cheran",
-"type": "person",
-"preferred_label": "Kerân",
-"confidence": 0.809,
-"match_method": "embedding"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "840112",
 "reference_id": 5689,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Karkaa",
 "media_type": "Text",
 "index_reference": "karkaa",
@@ -693,21 +644,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "place:Karka",
-"type": "place",
-"preferred_label": "Karkaa",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "840113",
 "reference_id": 5690,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Karkor",
 "media_type": "Text",
 "index_reference": "karkor",
@@ -730,21 +673,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "place:Karkor",
-"type": "place",
-"preferred_label": "Karkor",
-"confidence": 0.8,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "840114",
 "reference_id": 5692,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kartha",
 "media_type": "Text",
 "index_reference": "kartha",
@@ -773,7 +708,7 @@
 {
 "content_id": "840115",
 "reference_id": 5693,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Karthan",
 "media_type": "Text",
 "index_reference": "karthan",
@@ -811,21 +746,13 @@
 "language": "fra"
 }
 ],
-"acai": [
-{
-"id": "place:Kartan",
-"type": "place",
-"preferred_label": "Karthan",
-"confidence": 0.8,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "840116",
 "reference_id": 5694,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Katthath",
 "media_type": "Text",
 "index_reference": "katthath",
@@ -856,21 +783,13 @@
 "language": "fra"
 }
 ],
-"acai": [
-{
-"id": "place:Kitron",
-"type": "place",
-"preferred_label": "Kitron",
-"confidence": 0.9685,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "811831",
 "reference_id": 5696,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kédar",
 "media_type": "Text",
 "index_reference": "kédar",
@@ -963,9 +882,9 @@
 {
 "id": "person:Kedar",
 "type": "person",
-"preferred_label": "Kédar",
-"confidence": 0.8,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kédar"
 }
 ]
 }
@@ -973,7 +892,7 @@
 {
 "content_id": "840117",
 "reference_id": 5698,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kedémoth",
 "media_type": "Text",
 "index_reference": "kedémoth",
@@ -1016,21 +935,13 @@
 "language": "fra"
 }
 ],
-"acai": [
-{
-"id": "place:Kedemoth",
-"type": "place",
-"preferred_label": "Kedémoth",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "840118",
 "reference_id": 5699,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kédesch",
 "media_type": "Text",
 "index_reference": "kédesch",
@@ -1116,21 +1027,13 @@
 "language": "fra"
 }
 ],
-"acai": [
-{
-"id": "place:Kedesh",
-"type": "place",
-"preferred_label": "Kédesch",
-"confidence": 0.8,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "811832",
 "reference_id": 5697,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kedma",
 "media_type": "Text",
 "index_reference": "kedma",
@@ -1157,9 +1060,9 @@
 {
 "id": "person:Kedemah",
 "type": "person",
-"preferred_label": "Kedma",
 "confidence": 1.0,
-"match_method": "scored"
+"match_method": "content_id",
+"preferred_label": "Kedma"
 }
 ]
 }
@@ -1167,7 +1070,7 @@
 {
 "content_id": "806065",
 "reference_id": 5700,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kedorlaomer",
 "media_type": "Text",
 "index_reference": "kedorlaomer",
@@ -1194,9 +1097,9 @@
 {
 "id": "person:Chedorlaomer",
 "type": "person",
-"preferred_label": "Kedorlaomer",
-"confidence": 0.6833,
-"match_method": "scored"
+"confidence": 0.6248,
+"match_method": "scored",
+"preferred_label": "Kedorlaomer"
 }
 ]
 }
@@ -1204,10 +1107,10 @@
 {
 "content_id": "822988",
 "reference_id": 5805,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kehath, Kehathites",
 "media_type": "Text",
-"index_reference": "kehath, kehathites",
+"index_reference": "kehath kehathites",
 "language": "fra",
 "review_level": "None",
 "content": "<h1>KEHATH, KEHATHITES</h1><p>Kehath était un fils de Lévi (<a href=\"https://ref.ly/Gen46:11\">Gn 46.11</a> ; <a href=\"https://ref.ly/Exod6:16\">Ex 6.16</a>). Il était le père d&apos;Amram, Jitsehar, Hébron et Uziel (<a href=\"https://ref.ly/Exod6:18\">Ex 6.18</a> ; <a href=\"https://ref.ly/Num3:19,Num3:27\">Nb 3.19, 27</a> ; <a href=\"https://ref.ly/1Chr6:2\">1Ch 6.2</a>). Il était le fondateur de la famille des Kehathites parmi les Lévites, qui étaient responsables de tâches importantes dans le service du tabernacle (<a href=\"https://ref.ly/Num3:31-Num3:32\">Nb 3.31–32</a>). Moïse, Aaron et Miriam étaient des descendants de Kehath (<a href=\"https://ref.ly/Exod6:18-Exod6:20\">Ex 6.18–20</a> ; <a href=\"https://ref.ly/Num26:59\">Nb 26.59</a> ; <a href=\"https://ref.ly/1Chr6:3\">1Ch 6.3</a> ; <a href=\"https://ref.ly/1Chr23:13-1Chr23:17\">23.13–17</a>).</p><h2>Les Kehathites parmi les Lévites</h2><p>La tribu de Lévi avait trois divisions nommées d&apos;après les fils de Lévi :</p><ul><li><p>Guerschon (ou Guerschom),</p></li><li><p>Kehath, et</p></li><li><p>Merari (<a href=\"https://ref.ly/Gen46:11\">Gn 46.11</a> ; <a href=\"https://ref.ly/Exod6:16\">Ex 6.16</a> ; <a href=\"https://ref.ly/Num3:17\">Nb 3.17</a> ; <a href=\"https://ref.ly/1Chr6:1,1Chr6:16\">1Ch 6.1, 16</a> ; <a href=\"https://ref.ly/1Chr23:6\">23.6</a>).</p></li></ul><p>Les Kehathites étaient une famille importante parmi les Lévites. L&apos;ordre de leurs noms dans <a href=\"https://ref.ly/Num4:1-Num4:49\">Nombres 4</a>, <a href=\"https://ref.ly/Josh21:1-Josh21:45\">Josué 21</a>, <a href=\"https://ref.ly/1Chr6:16\">1 Chroniques 6.16</a>, et <a href=\"https://ref.ly/2Chr29:12\">2 Chroniques 29.12</a> suggère qu&apos;ils ont été assignés à une position plus honorable que Guerschon ou Merari. Les références à leur position et à leurs devoirs (qu&apos;ils soient appelés « les Kehathites » ou « les fils de Kehath ») apparaissent tout au long des premiers écrits hébreux (<a href=\"https://ref.ly/Exod6:18\">Ex 6.18</a> ; <a href=\"https://ref.ly/Num3:19,Num3:27-Num3:30\">Nb 3.19, 27–30</a> ; <a href=\"https://ref.ly/Num4:2-Num4:4,Num4:15,Num4:18,Num4:34,Num4:37\">4.2–4, 15, 18, 34, 37</a> ; <a href=\"https://ref.ly/Num7:9\">7.9</a> ; <a href=\"https://ref.ly/Num10:21\">10.21</a> ; <a href=\"https://ref.ly/Num26:57\">26.57</a> ; <a href=\"https://ref.ly/Josh21:4-Josh21:5,Josh21:10,Josh21:20,Josh21:26\">Jos 21.4–5, 10, 20, 26</a> ; <a href=\"https://ref.ly/1Chr6:2,1Chr6:18,1Chr6:22,1Chr6:33,1Chr6:54,1Chr6:61,1Chr6:66,1Chr6:70\">1Ch 6.2, 18, 22, 33, 54, 61, 66, 70</a> ; <a href=\"https://ref.ly/1Chr15:5\">15.5</a> ; <a href=\"https://ref.ly/1Chr23:12\">23.12</a> ; <a href=\"https://ref.ly/2Chr20:19\">2Ch 20.19</a> ; <a href=\"https://ref.ly/2Chr29:12\">29.12</a> ; <a href=\"https://ref.ly/2Chr34:12\">34.12</a>).</p><h2>Devoirs pendant le voyage dans le désert</h2><p>Après avoir quitté l&apos;Égypte, les Israélites voyageront dans le désert. Les Kehathites campaient du côté sud du tabernacle (<a href=\"https://ref.ly/Num3:29\">Nb 3.29</a>). Lorsque le tabernacle était déplacé, ils portaient l&apos;arche et d&apos;autres objets sacrés sur leurs épaules (<a href=\"https://ref.ly/Num7:9\">Nb 7.9</a>). Lors de la construction du tabernacle, un recensement sera effectué de tous les mâles Kehathites qui serviraient Dieu (<a href=\"https://ref.ly/Num3:27-Num3:28\">Nb 3.27–28</a> ; <a href=\"https://ref.ly/Num4:1-Num4:4,Num4:34-Num4:37\">4.1–4, 34–37</a>).</p><h2>Colonisation de Canaan</h2><p>Après que les tribus se soient installées dans le pays de Canaan, il semblait que le service des Kehathites était terminé. Cependant, Dieu ordonnera qu&apos;ils soient pris en charge, tout comme les autres familles lévitiques. Les Kehathites recevront de nombreuses villes pour y vivre (<a href=\"https://ref.ly/Josh21:4-Josh21:5,Josh21:20-Josh21:26\">Jos 21.4–5, 20–26</a> ; <a href=\"https://ref.ly/1Chr6:66-1Chr6:70\">1Ch 6.66–70</a>).</p><h2>Service durant le règne de David</h2><p>Lors de l&apos;accession au trône de David, ce dernier organisera les Lévites en trois divisions (<a href=\"https://ref.ly/1Chr23:6\">1Ch 23.6</a>). Héman, qui représentait les Kehathites, était responsable de la musique dans la maison de Dieu (<a href=\"https://ref.ly/1Chr6:31\">1Ch 6.31</a>). Un autre groupe de Kehathites était chargé de préparer le « <span>pains de proposition</span> » chaque jour de sabbat (<a href=\"https://ref.ly/1Chr9:32\">1Ch 9.32</a>). Quand David apportera l&apos;arche de l&apos;alliance à Jérusalem, il nommera Uriel, un Kehathite, pour superviser son transport (<a href=\"https://ref.ly/1Chr15:3-1Chr15:5\">1Ch 15.3–5</a>).</p><h2>La Période du royaume divisé</h2><p>À l&apos;époque du royaume divisé, les Moabites et les Ammonites ont attaqué Juda. Le roi Josaphat admettra que Juda ne pouvait pas les vaincre et demandera l&apos;aide de Dieu. Les Kehathites dirigeront le peuple dans des chants de louange. Ils ont peut-être aussi dirigé l&apos;armée lorsque le roi et les guerriers de Juda ont affronté les envahisseurs (<a href=\"https://ref.ly/2Chr20:19-2Chr20:22\">2Ch 20.19–22</a>).</p><h2>Rôle dans les réformes religieuses</h2><p>Deux mouvements de réforme importants ont eu lieu dans les dernières années de Juda :</p><ul><li><p>La première s&apos;est produite pendant le règne d&apos;Ézéchias, de 715 à 686 av. J.‑C. (<a href=\"https://ref.ly/2Kgs18:1-2Kgs18:37\">2R 18</a> ; <a href=\"https://ref.ly/2Chr29:1-2Chr30:27\">2Ch 29–30</a>).</p></li><li><p>Le deuxième s&apos;est produit pendant le règne de Josias, de 640 à 609 av. J.‑C. (<a href=\"https://ref.ly/2Kgs22:1-2Kgs23:37\">2R 22–23</a> ; <a href=\"https://ref.ly/2Chr34:1-2Chr34:33\">2Ch 34</a>).</p></li></ul><p>La réforme de Josias a atteint son apogée en 621 av. J.‑C. lorsque le Livre de la Loi a été trouvé. Les Kehathites ont joué un rôle clé dans les deux réformes. Sous le règne d&apos;Ézéchias, ils ont nettoyé le temple (<a href=\"https://ref.ly/2Chr29:12-2Chr29:16\">2Ch 29.12–16</a>). Sous le règne de Josias, deux Kehathites ont supervisé les réparations du temple (<a href=\"https://ref.ly/2Chr34:12\">2Ch 34.12</a>).</p><h2>Après l’exil</h2><p>Après l&apos;exil à Babylone, les Kehathites sont mentionnés de nouveau. Bien que nous ayons peu d&apos;informations sur leur importance durant cette période, ils ont probablement servi Dieu fidèlement malgré le déclin spirituel général. Les quelques-uns dont les noms sont enregistrés dans la Bible ont reçu des tâches modestes. Sans preuve du contraire, nous pouvons supposer qu&apos;ils ont accompli leurs responsabilités fidèlement (<a href=\"https://ref.ly/1Chr9:19,1Chr9:31-1Chr9:32\">1Ch 9.19, 31–32</a> ; <a href=\"https://ref.ly/Ezra2:42\">Esd 2.42</a> ; <a href=\"https://ref.ly/Neh12:25\">Né 12.25</a>).</p><p><em>Voir aussi</em> <span data-bnType=\"resourceReference\" data-resourceId=\"5902\" data-resourceType=\"TyndaleBibleDictionary\">Lévi, Tribu de</span> ; <span data-bnType=\"resourceReference\" data-resourceId=\"6984\" data-resourceType=\"TyndaleBibleDictionary\">Prêtres et lévites</span> ; <span data-bnType=\"resourceReference\" data-resourceId=\"7864\" data-resourceType=\"TyndaleBibleDictionary\">Tabernacle</span> ; <span data-bnType=\"resourceReference\" data-resourceId=\"7950\" data-resourceType=\"TyndaleBibleDictionary\">Temple</span>.</p>",
@@ -1616,7 +1519,7 @@
 {
 "content_id": "833107",
 "reference_id": 5701,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kehélatha",
 "media_type": "Text",
 "index_reference": "kehélatha",
@@ -1633,24 +1536,16 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "place:Kehelathah",
-"type": "place",
-"preferred_label": "Kehélatha",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "866221",
 "reference_id": 5702,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kehila (Personne)",
 "media_type": "Text",
-"index_reference": "kehila (personne)",
+"index_reference": "kehila personne",
 "language": "fra",
 "review_level": "None",
 "content": "<h1>KEHILA (Personne)</h1><p>Descendant de Caleb de la tribu de Juda, appelé le Garmien dans <a href=\"https://ref.ly/1Chr4:19\">1 Chroniques 4.19</a>. Certains identifient cette référence avec la ville de Juda plutôt qu&apos;avec une personne.</p>",
@@ -1670,10 +1565,10 @@
 {
 "content_id": "840119",
 "reference_id": 5703,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Keïla (Lieu)",
 "media_type": "Text",
-"index_reference": "keïla (lieu)",
+"index_reference": "keïla lieu",
 "language": "fra",
 "review_level": "None",
 "content": "<h1>KEÏLA (Lieu)</h1><p>Ville assignée à la tribu de Juda (<a href=\"https://ref.ly/Josh15:44\">Jos 15.44</a> ; <a href=\"https://ref.ly/1Chr4:19\">1Ch 4.19</a>), située dans le sud-est de la Shephelah près de la frontière philistine. Elle est identifiée avec l&apos;actuelle Khirbet Qila, à 13 km au nord-ouest d&apos;Hébron.</p><p>David mènera une expédition audacieuse à Keïla pour la délivrer des bandes philistines maraudeuses qui volaient du grain sur ses aires de battage. Il en fera sa résidence pendant un certain temps et espérait gagner la loyauté de son peuple. Cependant, lorsqu&apos;il devient évident que les hommes de Keïla complotaient pour le livrer, lui et ses hommes, à Saül, il se retirera dans le désert de Ziph (<a href=\"https://ref.ly/1Sam23:1-1Sam23:14\">1S 23.1–14</a>).</p><p>Keïla sera réhabité par des Juifs après la Captivité et sera divisé en deux districts, dirigés par Haschabia et Bavvaï. Ses dirigeants seront inclus dans la liste de ceux qui ont participé à la reconstruction du mur de Jérusalem sous Néhémie (<a href=\"https://ref.ly/Neh3:17-Neh3:18\">Né 3.17–18</a>).</p>",
@@ -1705,21 +1600,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "place:Keilah",
-"type": "place",
-"preferred_label": "Keïla",
-"confidence": 0.9556,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "868966",
 "reference_id": 5704,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kélaja",
 "media_type": "Text",
 "index_reference": "kélaja",
@@ -1766,7 +1653,7 @@
 {
 "content_id": "868858",
 "reference_id": 3662,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kelal",
 "media_type": "Text",
 "index_reference": "kelal",
@@ -1783,21 +1670,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Chelal",
-"type": "person",
-"preferred_label": "Kelal",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "865969",
 "reference_id": 3667,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kelub",
 "media_type": "Text",
 "index_reference": "kelub",
@@ -1820,28 +1699,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Chelub.2",
-"type": "person",
-"preferred_label": "Kelub",
-"confidence": 0.8,
-"match_method": "scored"
-},
-{
-"id": "person:Chelub",
-"type": "person",
-"preferred_label": "Kelub",
-"confidence": 0.8,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "865968",
 "reference_id": 3666,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kelubaï",
 "media_type": "Text",
 "index_reference": "kelubaï",
@@ -1884,7 +1748,7 @@
 {
 "content_id": "868967",
 "reference_id": 5709,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Keluhu",
 "media_type": "Text",
 "index_reference": "keluhu",
@@ -1901,21 +1765,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Cheluhi",
-"type": "person",
-"preferred_label": "Keluhu",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "832983",
 "reference_id": 3669,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kemosch",
 "media_type": "Text",
 "index_reference": "kemosch",
@@ -1953,21 +1809,13 @@
 "language": "fra"
 }
 ],
-"acai": [
-{
-"id": "deity:Chemosh",
-"type": "deity",
-"preferred_label": "Kemosch",
-"confidence": 0.85,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "811833",
 "reference_id": 5710,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kemuel",
 "media_type": "Text",
 "index_reference": "kemuel",
@@ -1998,25 +1846,25 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Kemuel",
-"type": "person",
-"preferred_label": "Kemuel",
-"confidence": 0.7333,
-"match_method": "scored"
-},
-{
 "id": "person:Kemuel.2",
 "type": "person",
-"preferred_label": "Kemuel",
-"confidence": 0.7333,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kemuel"
 },
 {
 "id": "person:Kemuel.3",
 "type": "person",
-"preferred_label": "Kemuel",
-"confidence": 0.7333,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kemuel"
+},
+{
+"id": "person:Kemuel",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kemuel"
 }
 ]
 }
@@ -2024,7 +1872,7 @@
 {
 "content_id": "853009",
 "reference_id": 5711,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kenaana",
 "media_type": "Text",
 "index_reference": "kenaana",
@@ -2065,28 +1913,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Chenaanah",
-"type": "person",
-"preferred_label": "Kenaana",
-"confidence": 0.8667,
-"match_method": "scored"
-},
-{
-"id": "person:Chenaanah.2",
-"type": "person",
-"preferred_label": "Kenaana",
-"confidence": 0.6667,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "800711",
 "reference_id": 5714,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kénan",
 "media_type": "Text",
 "index_reference": "kénan",
@@ -2127,9 +1960,9 @@
 {
 "id": "person:Kenan",
 "type": "person",
-"preferred_label": "Kénan",
-"confidence": 0.95,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kénan"
 }
 ]
 }
@@ -2137,7 +1970,7 @@
 {
 "content_id": "868968",
 "reference_id": 5713,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kenani",
 "media_type": "Text",
 "index_reference": "kenani",
@@ -2154,21 +1987,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Chenani",
-"type": "person",
-"preferred_label": "Kenani",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "866222",
 "reference_id": 5712,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kenania",
 "media_type": "Text",
 "index_reference": "kenania",
@@ -2203,21 +2028,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Chenaniah",
-"type": "person",
-"preferred_label": "Kenania",
-"confidence": 0.8,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "833108",
 "reference_id": 5715,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kenath",
 "media_type": "Text",
 "index_reference": "kenath",
@@ -2248,21 +2065,13 @@
 "language": "fra"
 }
 ],
-"acai": [
-{
-"id": "place:Kenath",
-"type": "place",
-"preferred_label": "Kenath",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "806066",
 "reference_id": 5716,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kenaz",
 "media_type": "Text",
 "index_reference": "kenaz",
@@ -2349,32 +2158,32 @@
 ],
 "acai": [
 {
-"id": "person:Kenaz.3",
-"type": "person",
-"preferred_label": "Kenaz",
-"confidence": 0.7538,
-"match_method": "scored"
-},
-{
-"id": "person:Kenaz",
-"type": "person",
-"preferred_label": "Kenaz",
-"confidence": 0.6923,
-"match_method": "scored"
-},
-{
 "id": "person:Kenaz.2",
 "type": "person",
-"preferred_label": "Kenaz",
-"confidence": 0.6615,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kenaz"
+},
+{
+"id": "person:Kenaz.3",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kenaz"
 },
 {
 "id": "person:Kenaz.4",
 "type": "person",
-"preferred_label": "Kenaz",
-"confidence": 0.6308,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kenaz"
+},
+{
+"id": "person:Kenaz",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kenaz"
 }
 ]
 }
@@ -2382,7 +2191,7 @@
 {
 "content_id": "839907",
 "reference_id": 3623,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kendébée",
 "media_type": "Text",
 "index_reference": "kendébée",
@@ -2423,7 +2232,7 @@
 {
 "content_id": "800712",
 "reference_id": 5718,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kéniens",
 "media_type": "Text",
 "index_reference": "kéniens",
@@ -2500,13 +2309,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "group:Kenite",
+"type": "group",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kenites"
+}
+]
 }
 },
 {
 "content_id": "806067",
 "reference_id": 5719,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Keniziens",
 "media_type": "Text",
 "index_reference": "keniziens",
@@ -2577,16 +2394,38 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "group:Kenaz",
+"type": "group",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kenizzites"
+},
+{
+"id": "group:Kenizzites",
+"type": "group",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kenizzites"
+},
+{
+"id": "person:Kenaz.3",
+"type": "person",
+"confidence": 0.7006,
+"match_method": "scored",
+"preferred_label": "Kenaz"
+}
+]
 }
 },
 {
 "content_id": "840120",
 "reference_id": 5720,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kephar-Ammonaï",
 "media_type": "Text",
-"index_reference": "kephar-ammonaï",
+"index_reference": "kepharammonaï",
 "language": "fra",
 "review_level": "None",
 "content": "<h1>KEPHAR-AMMONAÏ</h1><p>Ville attribuée à la tribu de Benjamin en héritage après la conquête initiale de Canaan par Josué (<a href=\"https://ref.ly/Josh18:24\">Jos 18.24</a>).</p>",
@@ -2600,21 +2439,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "place:Chephar-ammoni",
-"type": "place",
-"preferred_label": "Chephar-ammoni",
-"confidence": 0.9505,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "840121",
 "reference_id": 5721,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kephirah",
 "media_type": "Text",
 "index_reference": "kephirah",
@@ -2649,21 +2480,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "place:Chephirah",
-"type": "place",
-"preferred_label": "Kephira",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "853010",
 "reference_id": 5724,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kéréthiens",
 "media_type": "Text",
 "index_reference": "kéréthiens",
@@ -2734,13 +2557,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "group:Cherethite",
+"type": "group",
+"confidence": 0.9108,
+"match_method": "scored",
+"preferred_label": "Cherethites"
+}
+]
 }
 },
 {
 "content_id": "833110",
 "reference_id": 5726,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kerijoth",
 "media_type": "Text",
 "index_reference": "kerijoth",
@@ -2799,24 +2630,16 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "place:Kerioth-hezron",
-"type": "place",
-"preferred_label": "Kerijoth-Hetsron",
-"confidence": 0.5729,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "840122",
 "reference_id": 5725,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kerijoth-Hetsron",
 "media_type": "Text",
-"index_reference": "kerijoth-hetsron",
+"index_reference": "kerijothhetsron",
 "language": "fra",
 "review_level": "None",
 "content": "<h1>KERIJOTH-HETSRON</h1><p>Ville mentionnée dans <a href=\"https://ref.ly/Josh15:25\">Josué 15.25</a>. </p><p><em>Voir</em> <span data-bnType=\"resourceReference\" data-resourceId=\"5726\" data-resourceType=\"TyndaleBibleDictionary\">Kerijoth n° 1</span>.</p>",
@@ -2838,21 +2661,13 @@
 "language": "fra"
 }
 ],
-"acai": [
-{
-"id": "place:Kerioth-hezron",
-"type": "place",
-"preferred_label": "Kerijoth-Hetsron",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "868969",
 "reference_id": 5728,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kéros",
 "media_type": "Text",
 "index_reference": "kéros",
@@ -2875,21 +2690,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Keros",
-"type": "person",
-"preferred_label": "Kéros",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "868970",
 "reference_id": 5729,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kerub",
 "media_type": "Text",
 "index_reference": "kerub",
@@ -2912,21 +2719,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "place:Cherub",
-"type": "place",
-"preferred_label": "Cherub",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "822985",
 "reference_id": 5734,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kesita",
 "media_type": "Text",
 "index_reference": "kesita",
@@ -2963,21 +2762,13 @@
 "language": "fra"
 }
 ],
-"acai": [
-{
-"id": "realia:PieceOfMoney",
-"type": "realia",
-"preferred_label": "Piece of Money",
-"confidence": 0.964,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "823043",
 "reference_id": 7045,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kesita",
 "media_type": "Text",
 "index_reference": "kesita",
@@ -3014,21 +2805,13 @@
 "language": "fra"
 }
 ],
-"acai": [
-{
-"id": "realia:PieceOfMoney",
-"type": "realia",
-"preferred_label": "Piece of Money",
-"confidence": 0.964,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "811835",
 "reference_id": 5736,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ketura",
 "media_type": "Text",
 "index_reference": "ketura",
@@ -3105,9 +2888,9 @@
 {
 "id": "person:Keturah",
 "type": "person",
-"preferred_label": "Ketura",
-"confidence": 0.6182,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Ketura"
 }
 ]
 }
@@ -3115,10 +2898,10 @@
 {
 "content_id": "833111",
 "reference_id": 5741,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kibroth-Hattaava",
 "media_type": "Text",
-"index_reference": "kibroth-hattaava",
+"index_reference": "kibrothhattaava",
 "language": "fra",
 "review_level": "None",
 "content": "<h1>KIBROTH-HATTAAVA</h1><p>Lieu dans le désert où les Israélites, tués par la peste pour avoir convoité la viande d&apos;Égypte, ont été enterrés (<a href=\"https://ref.ly/Num11:34-Num11:35\">Nb 11.34–35</a> ; <a href=\"https://ref.ly/Num33:16-Num33:17\">33.16–17</a> ; <a href=\"https://ref.ly/Deut9:22\">Dt 9.22</a>). Il était situé entre le mont Sinaï et Hatséroth, mais son emplacement exact est inconnu. Le nom, signifiant « tombes de la convoitise », concorde avec le récit des cailles.</p><p><em>Voir aussi</em> <span data-bnType=\"resourceReference\" data-resourceId=\"8231\" data-resourceType=\"TyndaleBibleDictionary\">Errances dans le désert</span>.</p>",
@@ -3152,21 +2935,13 @@
 "language": "fra"
 }
 ],
-"acai": [
-{
-"id": "place:Kibroth-hattaavah",
-"type": "place",
-"preferred_label": "Kibroth-Hattaava",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "840127",
 "reference_id": 5742,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kibtsaïm",
 "media_type": "Text",
 "index_reference": "kibtsaïm",
@@ -3189,21 +2964,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "place:Kibzaim",
-"type": "place",
-"preferred_label": "Kibtsaïm",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "840128",
 "reference_id": 5753,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kina",
 "media_type": "Text",
 "index_reference": "kina",
@@ -3226,21 +2993,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "place:Kinah",
-"type": "place",
-"preferred_label": "Kina",
-"confidence": 0.8,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "882174",
 "reference_id": 3698,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kinnéreth",
 "media_type": "Text",
 "index_reference": "kinnéreth",
@@ -3250,21 +3009,13 @@
 "associations": {
 "passage": [],
 "resource": [],
-"acai": [
-{
-"id": "place:Chinnereth",
-"type": "place",
-"preferred_label": "Kinnéreth",
-"confidence": 1.0,
-"match_method": "embedding"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "853018",
 "reference_id": 5786,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kir",
 "media_type": "Text",
 "index_reference": "kir",
@@ -3317,256 +3068,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "place:Kir",
-"type": "place",
-"preferred_label": "Kir",
-"confidence": 1.0,
-"match_method": "scored"
-},
-{
-"id": "place:Kir.2",
-"type": "place",
-"preferred_label": "Kir",
-"confidence": 0.6,
-"match_method": "scored"
-}
-]
-}
-},
-{
-"content_id": "811836",
-"reference_id": 5769,
-"version": "1.0.2",
-"title": "Kirjath-Arba",
-"media_type": "Text",
-"index_reference": "kirjath-arba",
-"language": "fra",
-"review_level": "None",
-"content": "<h1>KIRJATH-ARBA</h1><p>Ancien nom pour Hébron. Le lieu se trouvait près de la grotte de Macpéla, le lieu de sépulture des patriarches (<a href=\"https://ref.ly/Gen23:2\">Gn 23.2</a> ; <a href=\"https://ref.ly/Josh14:15\">Jos 14.15</a> ; <a href=\"https://ref.ly/Judg1:10\">Jg 1.10</a>).</p><p><em>Voir</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4930\" data-resourceType=\"TyndaleBibleDictionary\">Hébron (Lieu) n° 1</span>.</p>",
-"associations": {
-"passage": [
-{
-"start_ref": "01023002",
-"start_ref_usfm": "GEN 23:2",
-"end_ref": "01023002",
-"end_ref_usfm": "GEN 23:2"
-},
-{
-"start_ref": "06014015",
-"start_ref_usfm": "JOS 14:15",
-"end_ref": "06014015",
-"end_ref_usfm": "JOS 14:15"
-},
-{
-"start_ref": "07001010",
-"start_ref_usfm": "JDG 1:10",
-"end_ref": "07001010",
-"end_ref_usfm": "JDG 1:10"
-}
-],
-"resource": [
-{
-"reference_id": 4930,
-"content_id": 806039,
-"resource_code": "TyndaleBibleDictionary",
-"label": "Hébron (Lieu)",
-"language": "fra"
-}
-],
-"acai": [
-{
-"id": "place:Hebron",
-"type": "place",
-"preferred_label": "Hébron",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
-}
-},
-{
-"content_id": "868972",
-"reference_id": 5770,
-"version": "1.0.2",
-"title": "Kirjath-Arim",
-"media_type": "Text",
-"index_reference": "kirjath-arim",
-"language": "fra",
-"review_level": "None",
-"content": "<h1>KIRJATH-ARIM*</h1><p>Nom alternatif pour Kirjath-Jearim dans <a href=\"https://ref.ly/Ezra2:25\">Esdras 2.25</a>. </p><p><em>Voir</em> <span data-bnType=\"resourceReference\" data-resourceId=\"5773\" data-resourceType=\"TyndaleBibleDictionary\">Kirjath-Jearim</span>.</p>",
-"associations": {
-"passage": [
-{
-"start_ref": "15002025",
-"start_ref_usfm": "EZR 2:25",
-"end_ref": "15002025",
-"end_ref_usfm": "EZR 2:25"
-}
-],
-"resource": [],
-"acai": [
-{
-"id": "place:Kiriath-jearim",
-"type": "place",
-"preferred_label": "Kirjath-Jearim",
-"confidence": 0.85,
-"match_method": "scored"
-}
-]
-}
-},
-{
-"content_id": "840129",
-"reference_id": 5771,
-"version": "1.0.2",
-"title": "Kirjath-Baal",
-"media_type": "Text",
-"index_reference": "kirjath-baal",
-"language": "fra",
-"review_level": "None",
-"content": "<h1>KIRJATH-BAAL</h1><p>Nom alternatif pour Kirjath-Jearim dans <a href=\"https://ref.ly/Josh15:60\">Josué 15.60</a> et <a href=\"https://ref.ly/Josh18:14\">18.14</a>. </p><p><em>Voir</em> <span data-bnType=\"resourceReference\" data-resourceId=\"5773\" data-resourceType=\"TyndaleBibleDictionary\">Kirjath-Jearim</span>.</p>",
-"associations": {
-"passage": [
-{
-"start_ref": "06015060",
-"start_ref_usfm": "JOS 15:60",
-"end_ref": "06015060",
-"end_ref_usfm": "JOS 15:60"
-},
-{
-"start_ref": "06018014",
-"start_ref_usfm": "JOS 18:14",
-"end_ref": "06018014",
-"end_ref_usfm": "JOS 18:14"
-}
-],
-"resource": [],
-"acai": [
-{
-"id": "place:Kiriath-jearim",
-"type": "place",
-"preferred_label": "Kirjath-Jearim",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
-}
-},
-{
-"content_id": "833113",
-"reference_id": 5772,
-"version": "1.0.2",
-"title": "Kirjath-Hutsoth",
-"media_type": "Text",
-"index_reference": "kirjath-hutsoth",
-"language": "fra",
-"review_level": "None",
-"content": "<h1>KIRJATH-HUTSOTH</h1><p>Ville en Moab. Balak et Balaam y sont allés avant de se rendre à Bamoth-Baal (<a href=\"https://ref.ly/Num22:39\">Nb 22.39</a>).</p>",
-"associations": {
-"passage": [
-{
-"start_ref": "04022039",
-"start_ref_usfm": "NUM 22:39",
-"end_ref": "04022039",
-"end_ref_usfm": "NUM 22:39"
-}
-],
-"resource": [],
-"acai": [
-{
-"id": "place:Kiriath-huzoth",
-"type": "place",
-"preferred_label": "Kirjath-Hutsoth",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
-}
-},
-{
-"content_id": "840130",
-"reference_id": 5774,
-"version": "1.0.2",
-"title": "Kirjath-Sanna",
-"media_type": "Text",
-"index_reference": "kirjath-sanna",
-"language": "fra",
-"review_level": "None",
-"content": "<h1>KIRJATH-SANNA</h1><p>Nom alternatif pour Debir, une ville judéenne, dans <a href=\"https://ref.ly/Josh15:49\">Josué 15.49</a>. </p><p><em>Voir</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3953\" data-resourceType=\"TyndaleBibleDictionary\">Debir (Lieu) n° 1</span>.</p>",
-"associations": {
-"passage": [
-{
-"start_ref": "06015049",
-"start_ref_usfm": "JOS 15:49",
-"end_ref": "06015049",
-"end_ref_usfm": "JOS 15:49"
-}
-],
-"resource": [
-{
-"reference_id": 3953,
-"content_id": 839928,
-"resource_code": "TyndaleBibleDictionary",
-"label": "Debir (Lieu)",
-"language": "fra"
-}
-],
-"acai": [
-{
-"id": "place:Debir",
-"type": "place",
-"preferred_label": "Debir",
-"confidence": 0.832,
-"match_method": "scored"
-}
-]
-}
-},
-{
-"content_id": "840131",
-"reference_id": 5775,
-"version": "1.0.2",
-"title": "Kirjath-Sépher",
-"media_type": "Text",
-"index_reference": "kirjath-sépher",
-"language": "fra",
-"review_level": "None",
-"content": "<h1>KIRJATH-SÉPHER</h1><p>Ancien nom de la ville judéenne Debir dans <a href=\"https://ref.ly/Josh15:15\">Josué 15.15</a>. </p><p><em>Voir</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3953\" data-resourceType=\"TyndaleBibleDictionary\">Debir (Lieu) n° 1</span>.</p>",
-"associations": {
-"passage": [
-{
-"start_ref": "06015015",
-"start_ref_usfm": "JOS 15:15",
-"end_ref": "06015015",
-"end_ref_usfm": "JOS 15:15"
-}
-],
-"resource": [
-{
-"reference_id": 3953,
-"content_id": 839928,
-"resource_code": "TyndaleBibleDictionary",
-"label": "Debir (Lieu)",
-"language": "fra"
-}
-],
-"acai": [
-{
-"id": "place:Debir",
-"type": "place",
-"preferred_label": "Debir",
-"confidence": 0.8185,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "806071",
 "reference_id": 5768,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kirjathaïm",
 "media_type": "Text",
 "index_reference": "kirjathaïm",
@@ -3627,26 +3135,214 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Kiriathaim",
-"type": "place",
-"preferred_label": "Kirjathaïm",
-"confidence": 0.9,
-"match_method": "scored"
-},
-{
 "id": "place:Kiriathaim.2",
 "type": "place",
-"preferred_label": "Kirjathaïm",
-"confidence": 0.65,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kirjathaïm"
+},
+{
+"id": "place:Kiriathaim",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kirjathaïm"
 }
 ]
 }
 },
 {
+"content_id": "811836",
+"reference_id": 5769,
+"version": "1.0.4",
+"title": "Kirjath-Arba",
+"media_type": "Text",
+"index_reference": "kirjatharba",
+"language": "fra",
+"review_level": "None",
+"content": "<h1>KIRJATH-ARBA</h1><p>Ancien nom pour Hébron. Le lieu se trouvait près de la grotte de Macpéla, le lieu de sépulture des patriarches (<a href=\"https://ref.ly/Gen23:2\">Gn 23.2</a> ; <a href=\"https://ref.ly/Josh14:15\">Jos 14.15</a> ; <a href=\"https://ref.ly/Judg1:10\">Jg 1.10</a>).</p><p><em>Voir</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4930\" data-resourceType=\"TyndaleBibleDictionary\">Hébron (Lieu) n° 1</span>.</p>",
+"associations": {
+"passage": [
+{
+"start_ref": "01023002",
+"start_ref_usfm": "GEN 23:2",
+"end_ref": "01023002",
+"end_ref_usfm": "GEN 23:2"
+},
+{
+"start_ref": "06014015",
+"start_ref_usfm": "JOS 14:15",
+"end_ref": "06014015",
+"end_ref_usfm": "JOS 14:15"
+},
+{
+"start_ref": "07001010",
+"start_ref_usfm": "JDG 1:10",
+"end_ref": "07001010",
+"end_ref_usfm": "JDG 1:10"
+}
+],
+"resource": [
+{
+"reference_id": 4930,
+"content_id": 806039,
+"resource_code": "TyndaleBibleDictionary",
+"label": "Hébron (Lieu)",
+"language": "fra"
+}
+],
+"acai": [
+{
+"id": "place:Hebron",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Hébron"
+}
+]
+}
+},
+{
+"content_id": "868972",
+"reference_id": 5770,
+"version": "1.0.4",
+"title": "Kirjath-Arim",
+"media_type": "Text",
+"index_reference": "kirjatharim",
+"language": "fra",
+"review_level": "None",
+"content": "<h1>KIRJATH-ARIM*</h1><p>Nom alternatif pour Kirjath-Jearim dans <a href=\"https://ref.ly/Ezra2:25\">Esdras 2.25</a>. </p><p><em>Voir</em> <span data-bnType=\"resourceReference\" data-resourceId=\"5773\" data-resourceType=\"TyndaleBibleDictionary\">Kirjath-Jearim</span>.</p>",
+"associations": {
+"passage": [
+{
+"start_ref": "15002025",
+"start_ref_usfm": "EZR 2:25",
+"end_ref": "15002025",
+"end_ref_usfm": "EZR 2:25"
+}
+],
+"resource": [],
+"acai": []
+}
+},
+{
+"content_id": "840129",
+"reference_id": 5771,
+"version": "1.0.4",
+"title": "Kirjath-Baal",
+"media_type": "Text",
+"index_reference": "kirjathbaal",
+"language": "fra",
+"review_level": "None",
+"content": "<h1>KIRJATH-BAAL</h1><p>Nom alternatif pour Kirjath-Jearim dans <a href=\"https://ref.ly/Josh15:60\">Josué 15.60</a> et <a href=\"https://ref.ly/Josh18:14\">18.14</a>. </p><p><em>Voir</em> <span data-bnType=\"resourceReference\" data-resourceId=\"5773\" data-resourceType=\"TyndaleBibleDictionary\">Kirjath-Jearim</span>.</p>",
+"associations": {
+"passage": [
+{
+"start_ref": "06015060",
+"start_ref_usfm": "JOS 15:60",
+"end_ref": "06015060",
+"end_ref_usfm": "JOS 15:60"
+},
+{
+"start_ref": "06018014",
+"start_ref_usfm": "JOS 18:14",
+"end_ref": "06018014",
+"end_ref_usfm": "JOS 18:14"
+}
+],
+"resource": [],
+"acai": []
+}
+},
+{
+"content_id": "833113",
+"reference_id": 5772,
+"version": "1.0.4",
+"title": "Kirjath-Hutsoth",
+"media_type": "Text",
+"index_reference": "kirjathhutsoth",
+"language": "fra",
+"review_level": "None",
+"content": "<h1>KIRJATH-HUTSOTH</h1><p>Ville en Moab. Balak et Balaam y sont allés avant de se rendre à Bamoth-Baal (<a href=\"https://ref.ly/Num22:39\">Nb 22.39</a>).</p>",
+"associations": {
+"passage": [
+{
+"start_ref": "04022039",
+"start_ref_usfm": "NUM 22:39",
+"end_ref": "04022039",
+"end_ref_usfm": "NUM 22:39"
+}
+],
+"resource": [],
+"acai": []
+}
+},
+{
+"content_id": "840130",
+"reference_id": 5774,
+"version": "1.0.4",
+"title": "Kirjath-Sanna",
+"media_type": "Text",
+"index_reference": "kirjathsanna",
+"language": "fra",
+"review_level": "None",
+"content": "<h1>KIRJATH-SANNA</h1><p>Nom alternatif pour Debir, une ville judéenne, dans <a href=\"https://ref.ly/Josh15:49\">Josué 15.49</a>. </p><p><em>Voir</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3953\" data-resourceType=\"TyndaleBibleDictionary\">Debir (Lieu) n° 1</span>.</p>",
+"associations": {
+"passage": [
+{
+"start_ref": "06015049",
+"start_ref_usfm": "JOS 15:49",
+"end_ref": "06015049",
+"end_ref_usfm": "JOS 15:49"
+}
+],
+"resource": [
+{
+"reference_id": 3953,
+"content_id": 839928,
+"resource_code": "TyndaleBibleDictionary",
+"label": "Debir (Lieu)",
+"language": "fra"
+}
+],
+"acai": []
+}
+},
+{
+"content_id": "840131",
+"reference_id": 5775,
+"version": "1.0.4",
+"title": "Kirjath-Sépher",
+"media_type": "Text",
+"index_reference": "kirjathsépher",
+"language": "fra",
+"review_level": "None",
+"content": "<h1>KIRJATH-SÉPHER</h1><p>Ancien nom de la ville judéenne Debir dans <a href=\"https://ref.ly/Josh15:15\">Josué 15.15</a>. </p><p><em>Voir</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3953\" data-resourceType=\"TyndaleBibleDictionary\">Debir (Lieu) n° 1</span>.</p>",
+"associations": {
+"passage": [
+{
+"start_ref": "06015015",
+"start_ref_usfm": "JOS 15:15",
+"end_ref": "06015015",
+"end_ref_usfm": "JOS 15:15"
+}
+],
+"resource": [
+{
+"reference_id": 3953,
+"content_id": 839928,
+"resource_code": "TyndaleBibleDictionary",
+"label": "Debir (Lieu)",
+"language": "fra"
+}
+],
+"acai": []
+}
+},
+{
 "content_id": "756965",
 "reference_id": 5790,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kis",
 "media_type": "Text",
 "index_reference": "kis",
@@ -3731,32 +3427,32 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Kish",
-"type": "person",
-"preferred_label": "Kis",
-"confidence": 0.8154,
-"match_method": "scored"
-},
-{
 "id": "person:Kish.2",
 "type": "person",
-"preferred_label": "Kis",
-"confidence": 0.6923,
-"match_method": "scored"
-},
-{
-"id": "person:Kish.4",
-"type": "person",
-"preferred_label": "Kis",
-"confidence": 0.6308,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kis"
 },
 {
 "id": "person:Kish.3",
 "type": "person",
-"preferred_label": "Kis",
-"confidence": 0.6308,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kis"
+},
+{
+"id": "person:Kish.4",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kis"
+},
+{
+"id": "person:Kish",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kis"
 }
 ]
 }
@@ -3764,7 +3460,7 @@
 {
 "content_id": "866223",
 "reference_id": 5788,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kischi",
 "media_type": "Text",
 "index_reference": "kischi",
@@ -3787,21 +3483,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Kishi",
-"type": "person",
-"preferred_label": "Kishi",
-"confidence": 0.9595,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "840136",
 "reference_id": 5787,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kischjon",
 "media_type": "Text",
 "index_reference": "kischjon",
@@ -3832,21 +3520,13 @@
 "language": "fra"
 }
 ],
-"acai": [
-{
-"id": "place:Kishion",
-"type": "place",
-"preferred_label": "Kischjon",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "833116",
 "reference_id": 5792,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kislôn",
 "media_type": "Text",
 "index_reference": "kislôn",
@@ -3863,24 +3543,16 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Chislon",
-"type": "person",
-"preferred_label": "Kislon",
-"confidence": 0.9129,
-"match_method": "embedding"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "840138",
 "reference_id": 5793,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kisloth-Thabor",
 "media_type": "Text",
-"index_reference": "kisloth-thabor",
+"index_reference": "kisloththabor",
 "language": "fra",
 "review_level": "None",
 "content": "<h1>KISLOTH-THABOR</h1><p>Orthographe alternative pour Chisloth-Tabor, une ville mentionnée dans <a href=\"https://ref.ly/Josh19:12\">Jos 19.12</a>.</p><p><em>Voir</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3684\" data-resourceType=\"TyndaleBibleDictionary\">Kesulloth</span>. <em>Voir aussi</em> <span data-bnType=\"resourceReference\" data-resourceId=\"7871\" data-resourceType=\"TyndaleBibleDictionary\">Thabor (lieu)</span>.</p>",
@@ -3894,21 +3566,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "place:Chesulloth",
-"type": "place",
-"preferred_label": "Kesulloth",
-"confidence": 0.9505,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "840137",
 "reference_id": 5789,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kison",
 "media_type": "Text",
 "index_reference": "kison",
@@ -3957,28 +3621,13 @@
 "language": "fra"
 }
 ],
-"acai": [
-{
-"id": "place:Kishon",
-"type": "place",
-"preferred_label": "Kison",
-"confidence": 0.6345,
-"match_method": "scored"
-},
-{
-"id": "place:Kishion",
-"type": "place",
-"preferred_label": "Kischjon",
-"confidence": 0.5664,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "840139",
 "reference_id": 5798,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kithlisch",
 "media_type": "Text",
 "index_reference": "kithlisch",
@@ -3995,21 +3644,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "place:Chitlish",
-"type": "place",
-"preferred_label": "Kithlisch",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "840140",
 "reference_id": 5799,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kitron",
 "media_type": "Text",
 "index_reference": "kitron",
@@ -4040,21 +3681,13 @@
 "language": "fra"
 }
 ],
-"acai": [
-{
-"id": "place:Kitron",
-"type": "place",
-"preferred_label": "Kitron",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "806072",
 "reference_id": 5800,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kittim",
 "media_type": "Text",
 "index_reference": "kittim",
@@ -4087,18 +3720,18 @@
 ],
 "acai": [
 {
-"id": "group:Kittim",
-"type": "group",
-"preferred_label": "Kittim",
-"confidence": 0.8,
-"match_method": "scored"
-},
-{
 "id": "place:Cyprus",
 "type": "place",
-"preferred_label": "Cyprus",
-"confidence": 0.65,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Cyprus"
+},
+{
+"id": "group:Kittim",
+"type": "group",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Kittim"
 }
 ]
 }
@@ -4106,7 +3739,7 @@
 {
 "content_id": "840141",
 "reference_id": 5809,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kola",
 "media_type": "Text",
 "index_reference": "kola",
@@ -4135,7 +3768,7 @@
 {
 "content_id": "868974",
 "reference_id": 5808,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kolaja",
 "media_type": "Text",
 "index_reference": "kolaja",
@@ -4158,28 +3791,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Kolaiah",
-"type": "person",
-"preferred_label": "Kolaja",
-"confidence": 0.8,
-"match_method": "scored"
-},
-{
-"id": "person:Kolaiah.2",
-"type": "person",
-"preferred_label": "Kolaja",
-"confidence": 0.8,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "822989",
 "reference_id": 5812,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Koré",
 "media_type": "Text",
 "index_reference": "koré",
@@ -4316,42 +3934,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Korah.3",
-"type": "person",
-"preferred_label": "Koré",
-"confidence": 0.7111,
-"match_method": "scored"
-},
-{
-"id": "person:Korah",
-"type": "person",
-"preferred_label": "Koré",
-"confidence": 0.6296,
-"match_method": "scored"
-},
-{
-"id": "person:Korah.4",
-"type": "person",
-"preferred_label": "Koré",
-"confidence": 0.6074,
-"match_method": "scored"
-},
-{
-"id": "person:Korah.2",
-"type": "person",
-"preferred_label": "Koré",
-"confidence": 0.6074,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "866224",
 "reference_id": 5814,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Koré",
 "media_type": "Text",
 "index_reference": "koré",
@@ -4394,38 +3983,16 @@
 "language": "fra"
 }
 ],
-"acai": [
-{
-"id": "person:Kore",
-"type": "person",
-"preferred_label": "Koré",
-"confidence": 0.8,
-"match_method": "scored"
-},
-{
-"id": "person:Korah.3",
-"type": "person",
-"preferred_label": "Koré",
-"confidence": 0.75,
-"match_method": "scored"
-},
-{
-"id": "person:Kore.2",
-"type": "person",
-"preferred_label": "Koré",
-"confidence": 0.7,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "831777",
 "reference_id": 5811,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Korite, Koréites",
 "media_type": "Text",
-"index_reference": "korite, koréites",
+"index_reference": "korite koréites",
 "language": "fra",
 "review_level": "None",
 "content": "<h1>KORITE, KORÉITE</h1><p>Membre de la tribu de Lévi, de la division de Kehath (<a href=\"https://ref.ly/Exod6:18,Exod6:21\">Ex 6.18, 21</a>).</p><p>Leur ancêtre, Jitsehar, était membre de la famille sacerdotale et était lié à Moïse et Aaron. Koré, Dathan et Abiram mèneront une rébellion contre Moïse et Aaron. Elle se terminera par la mort de nombreux Koréites (<a href=\"https://ref.ly/Num16:31-Num16:35\">Nb 16.31–35</a>). Seuls ceux qui n&apos;ont pas participé à la rébellion ont survécu (<a href=\"https://ref.ly/Num16:11\">Nb 16.11</a>). Ils se sont installés autour d&apos;Hébron dans des zones réservées aux Lévites (<a href=\"https://ref.ly/Num26:58\">Nb 26.58</a>).</p><p>Les Korites étaient connus comme chantres du temple, selon les <a href=\"https://ref.ly/Ps42:1-Ps42:11\">Psaumes 42</a>, <a href=\"https://ref.ly/Ps44:1-Ps49:20\">44–49</a>, <a href=\"https://ref.ly/Ps84:1-Ps85:13\">84–85</a> et <a href=\"https://ref.ly/Ps87:1-Ps88:18\">87–88</a>. David les avait mis en charge du service musical dans la maison du Seigneur après que l&apos;arche de l&apos;alliance a été apportée à Jérusalem (<a href=\"https://ref.ly/1Chr6:31-1Chr6:33\">1Ch 6.31–33</a>). Ils ont également servi comme portiers (<a href=\"https://ref.ly/1Chr9:19\">1Ch 9.19</a> ; <a href=\"https://ref.ly/1Chr26:19\">26.19</a>). Ils faisaient des gâteaux utilisés dans les sacrifices (<a href=\"https://ref.ly/1Chr9:31\">1Ch 9.31</a>). Ils sont mentionnés comme chantres lors de la célébration de la victoire de Josaphat sur Ammon et Moab (<a href=\"https://ref.ly/2Chr20:19\">2Ch 20.19</a>).</p><p><em>Voir aussi</em> <span data-bnType=\"resourceReference\" data-resourceId=\"5812\" data-resourceType=\"TyndaleBibleDictionary\">Koré n° 3</span>.</p>",
@@ -4531,7 +4098,7 @@
 {
 "content_id": "831568",
 "reference_id": 3831,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kosam",
 "media_type": "Text",
 "index_reference": "kosam",
@@ -4556,21 +4123,13 @@
 "language": "fra"
 }
 ],
-"acai": [
-{
-"id": "person:Cosam",
-"type": "person",
-"preferred_label": "Kosam",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "866226",
 "reference_id": 5817,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kots",
 "media_type": "Text",
 "index_reference": "kots",
@@ -4619,21 +4178,13 @@
 "language": "fra"
 }
 ],
-"acai": [
-{
-"id": "person:Koz",
-"type": "person",
-"preferred_label": "Kots",
-"confidence": 0.68,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "853019",
 "reference_id": 5819,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kue",
 "media_type": "Text",
 "index_reference": "kue",
@@ -4662,21 +4213,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "place:Kue",
-"type": "place",
-"preferred_label": "Kue",
-"confidence": 0.8667,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "866227",
 "reference_id": 5820,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Kuschaja",
 "media_type": "Text",
 "index_reference": "kuschaja",

@@ -2,7 +2,7 @@
 {
 "content_id": "124462",
 "reference_id": 8116,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Образ",
 "media_type": "Text",
 "index_reference": "образ",
@@ -115,21 +115,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "realia:Image",
-"type": "realia",
-"preferred_label": "Image",
-"confidence": 0.8099,
-"match_method": "embedding"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "124427",
 "reference_id": 3734,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Обрезание",
 "media_type": "Text",
 "index_reference": "обрезание",
@@ -700,7 +692,15 @@
 "language": "rus"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Circumcision",
+"type": "keyterm",
+"confidence": 0.6847,
+"match_method": "scored",
+"preferred_label": "Circumcision"
+}
+]
 }
 }
 ]

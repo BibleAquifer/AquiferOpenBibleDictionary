@@ -2,7 +2,7 @@
 {
 "content_id": "471345",
 "reference_id": 7323,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "撒但",
 "media_type": "Text",
 "index_reference": "撒但",
@@ -256,13 +256,21 @@
 "language": "zht"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Satan",
+"type": "deity",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Satan"
+}
+]
 }
 },
 {
 "content_id": "615748",
 "reference_id": 7259,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "撒都該人",
 "media_type": "Text",
 "index_reference": "撒都該人",
@@ -408,13 +416,21 @@
 "language": "zht"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "group:Sadducee",
+"type": "group",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Sadducees"
+}
+]
 }
 },
 {
 "content_id": "574050",
 "reference_id": 7280,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "撒羅米",
 "media_type": "Text",
 "index_reference": "撒羅米",
@@ -461,13 +477,28 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Salome.2",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Salome"
+},
+{
+"id": "person:Salome",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Salome"
+}
+]
 }
 },
 {
 "content_id": "838353",
 "reference_id": 7289,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "撒馬利亞人",
 "media_type": "Text",
 "index_reference": "撒馬利亞人",

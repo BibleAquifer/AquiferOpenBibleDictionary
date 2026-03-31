@@ -2,7 +2,7 @@
 {
 "content_id": "816109",
 "reference_id": 7954,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Fabricante de tendas",
 "media_type": "Text",
 "index_reference": "fabricante de tendas",
@@ -43,7 +43,7 @@
 {
 "content_id": "829708",
 "reference_id": 5802,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Faca",
 "media_type": "Text",
 "index_reference": "faca",
@@ -59,7 +59,7 @@
 {
 "content_id": "828796",
 "reference_id": 4413,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Faium",
 "media_type": "Text",
 "index_reference": "faium",
@@ -75,7 +75,7 @@
 {
 "content_id": "759750",
 "reference_id": 4398,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Falcão",
 "media_type": "Text",
 "index_reference": "falcão",
@@ -119,13 +119,28 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "fauna:Falcon",
+"type": "fauna",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Falcon"
+},
+{
+"id": "fauna:BlackKite",
+"type": "fauna",
+"confidence": 0.6417,
+"match_method": "scored",
+"preferred_label": "Black Kite"
+}
+]
 }
 },
 {
 "content_id": "830359",
 "reference_id": 6854,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Faleque",
 "media_type": "Text",
 "index_reference": "faleque",
@@ -156,10 +171,10 @@
 {
 "content_id": "828788",
 "reference_id": 4401,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Falsos cristos, falsos messias",
 "media_type": "Text",
-"index_reference": "falsos cristos, falsos messias",
+"index_reference": "falsos cristos falsos messias",
 "language": "por",
 "review_level": "Professional",
 "content": "<h1>FALSOS CRISTOS, FALSOS MESSIAS</h1><p>Um falso Cristo ou falso Messias é alguém que erroneamente afirma ser o líder escolhido por Deus (o Cristo ou Messias). Jesus alertou sobre falsos messias em seus ensinamentos sobre o futuro, conforme registrado em <a href=\"https://ref.ly/Matt24:24\">Mt 24.24</a> e <a href=\"https://ref.ly/Mark13:22\">Mc 13.22</a>.</p><p>Jesus ensinou seus seguidores sobre o que aconteceria no futuro. Ele lhes disse que o templo em Jerusalém seria destruído. Ele também os alertou de que enfrentariam pessoas que tentariam enganá-los e tratá-los mal. Ele especialmente os advertiu sobre os tempos difíceis que viriam quando o templo fosse destruído. Durante esse tempo, eles não deveriam acreditar em pessoas que falsamente alegassem ser o Salvador Prometido (<a href=\"https://ref.ly/Mark13:21-Mark13:23\">Mc 13.21–23</a>).</p><p>Esses falsos mestres diriam coisas como &quot;O Messias está aqui!&quot; ou &quot;O Messias está ali!&quot; (<a href=\"https://ref.ly/Mark13:21\">Mc 13.21</a>). Eles até realizariam sinais milagrosos para tentar enganar o povo escolhido de Deus. Mas Jesus ajudou a preparar seus seguidores ensinando-lhes que antes de ele retornar como o divino Filho do Homem, haveria sinais no céu (<a href=\"https://ref.ly/Mark13:24-Mark13:25\">Mc 13.24–25</a>). Quando ele retornar, todos poderão ver seu poder e glória.</p><p>Da história, sabemos que os ensinamentos de Jesus ajudaram os cristãos a escaparem de Jerusalém antes de sua destruição junto com o templo em 70 d.C. Seus ensinamentos também os ajudaram a evitar serem enganados por pessoas que falsamente afirmavam ser o Messias. Hoje, os cristãos continuam a esperar que Jesus retorne em glória como o Filho do Homem.</p><p><em>Veja também</em> <span data-bnType=\"resourceReference\" data-resourceId=\"2798\" data-resourceType=\"TyndaleBibleDictionary\">Anticristo</span>.</p>",
@@ -211,7 +226,7 @@
 {
 "content_id": "828789",
 "reference_id": 4402,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Falsos profetas",
 "media_type": "Text",
 "index_reference": "falsos profetas",
@@ -235,7 +250,7 @@
 {
 "content_id": "830362",
 "reference_id": 6858,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Fanuel",
 "media_type": "Text",
 "index_reference": "fanuel",
@@ -252,21 +267,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Phanuel",
-"type": "person",
-"preferred_label": "Fanuel",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "683057",
 "reference_id": 6862,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Faraó",
 "media_type": "Text",
 "index_reference": "faraó",
@@ -347,11 +354,74 @@
 ],
 "acai": [
 {
+"id": "person:Pharaoh.10",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Faraó"
+},
+{
+"id": "person:Neco",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Neco"
+},
+{
+"id": "person:Pharaoh.3",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Faraó"
+},
+{
+"id": "person:Pharaoh.4",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Faraó"
+},
+{
+"id": "person:Pharaoh.5",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Faraó"
+},
+{
+"id": "person:Pharaoh.6",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Faraó"
+},
+{
 "id": "person:Pharaoh.7",
 "type": "person",
-"preferred_label": "Faraó",
-"confidence": 0.72,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Faraó"
+},
+{
+"id": "person:Pharaoh.8",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Faraó"
+},
+{
+"id": "person:Pharaoh.9",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Faraó"
+},
+{
+"id": "person:Hophra",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Hofra"
 }
 ]
 }
@@ -359,7 +429,7 @@
 {
 "content_id": "830363",
 "reference_id": 6859,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Faraó Hofra",
 "media_type": "Text",
 "index_reference": "faraó hofra",
@@ -384,49 +454,13 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Hophra",
-"type": "person",
-"preferred_label": "Hofra",
-"confidence": 0.8515,
-"match_method": "scored"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"preferred_label": "Egito",
-"confidence": 0.6385,
-"match_method": "scored"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "SENHOR",
-"confidence": 0.625,
-"match_method": "scored"
-},
-{
-"id": "place:Babylon",
-"type": "place",
-"preferred_label": "Babilônia",
-"confidence": 0.589,
-"match_method": "scored"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"preferred_label": "Judá",
-"confidence": 0.589,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "759754",
 "reference_id": 4449,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Farinha",
 "media_type": "Text",
 "index_reference": "farinha",
@@ -451,13 +485,21 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "flora:Grain",
+"type": "flora",
+"confidence": 0.8201,
+"match_method": "embedding",
+"preferred_label": "Grain"
+}
+]
 }
 },
 {
 "content_id": "161855",
 "reference_id": 6864,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Fariseus",
 "media_type": "Text",
 "index_reference": "fariseus",
@@ -585,13 +627,21 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "group:Pharisee",
+"type": "group",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Pharisees"
+}
+]
 }
 },
 {
 "content_id": "830369",
 "reference_id": 6869,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Farison",
 "media_type": "Text",
 "index_reference": "farison",
@@ -614,7 +664,7 @@
 {
 "content_id": "830367",
 "reference_id": 6866,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Farpar",
 "media_type": "Text",
 "index_reference": "farpar",
@@ -637,7 +687,7 @@
 {
 "content_id": "125258",
 "reference_id": 4397,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Fé",
 "media_type": "Text",
 "index_reference": "fé",
@@ -930,13 +980,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:LeanOn",
+"type": "keyterm",
+"confidence": 0.8872,
+"match_method": "embedding",
+"preferred_label": "lean on"
+}
+]
 }
 },
 {
 "content_id": "830376",
 "reference_id": 6888,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Febe",
 "media_type": "Text",
 "index_reference": "febe",
@@ -977,21 +1035,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Phoebe",
-"type": "person",
-"preferred_label": "Febe",
-"confidence": 0.6667,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "759601",
 "reference_id": 2594,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Febre ardente",
 "media_type": "Text",
 "index_reference": "febre ardente",
@@ -1022,13 +1072,21 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Agur",
+"type": "person",
+"confidence": 0.828,
+"match_method": "embedding",
+"preferred_label": "Agur"
+}
+]
 }
 },
 {
 "content_id": "828056",
 "reference_id": 3213,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Feijão",
 "media_type": "Text",
 "index_reference": "feijão",
@@ -1066,7 +1124,7 @@
 {
 "content_id": "717295",
 "reference_id": 7749,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Feitiçaria",
 "media_type": "Text",
 "index_reference": "feitiçaria",
@@ -1169,7 +1227,7 @@
 {
 "content_id": "831215",
 "reference_id": 8251,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Feiticeiro",
 "media_type": "Text",
 "index_reference": "feiticeiro",
@@ -1200,7 +1258,7 @@
 {
 "content_id": "759762",
 "reference_id": 4527,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "FEL",
 "media_type": "Text",
 "index_reference": "fel",
@@ -1328,10 +1386,10 @@
 {
 "content_id": "815962",
 "reference_id": 4417,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Felix, Antônio",
 "media_type": "Text",
-"index_reference": "felix, antônio",
+"index_reference": "felix antônio",
 "language": "por",
 "review_level": "Professional",
 "content": "<h1>FÉLIX, Antônio </h1><p>Procurador romano (governador) da Judeia (52–60 d.C), sucedendo Cumanus, nomeado por Cláudio e sucedido por Festo Pórcio. O irmão de Félix, Palas, um romano proeminente e influente, intercedeu em seu favor após ele ser chamado de volta de seu cargo por Nero. Durante seu governo opressivo, Félix utilizou a ajuda de ladrões para mandar assassinar Jônatas, o sumo sacerdote. Sua tirania foi citada como a causa da revolta judaica que eclodiu seis anos após ele ser chamado de volta. Félix teve três esposas: uma desconhecida, outra neta de Marco Antônio e Cleópatra, e outra a irmã judia de Agripa II, cujo nome era Drusila. Aos 16 anos, Drusila deixou seu marido, o Rei Azizus de Emesa, para se casar com Félix. Ela mais tarde lhe deu um filho, Agripa.</p><p>Félix estava servindo como governador quando o apóstolo Paulo foi levado diante dele em Cesareia para responder às acusações contra ele após o tumulto em Jerusalém (<a href=\"https://ref.ly/Acts23:24-Acts24:27\">At 23.24–24.27</a>). Após um atraso de cinco dias, Tértulo, porta-voz dos judeus, e outros chegaram para apresentar suas acusações. Félix adiou uma decisão até que pudesse ouvir de Lísias, o tribuno. Enquanto isso, Paulo foi colocado em custódia limitada. Félix esperava obter dinheiro de suborno para sua liberação. Como resultado, Paulo foi detido por dois anos, durante os quais ele e Félix frequentemente conversavam. A mensagem do apóstolo sobre “uma vida correta, o domínio próprio e o Dia do Juízo Final” alarmou muito Félix (<a href=\"https://ref.ly/Acts24:25\">24.25</a>). Não há registro de sua vida após ser chamado de volta por Nero.</p>",
@@ -1351,13 +1409,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Felix",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Felix"
+}
+]
 }
 },
 {
 "content_id": "816049",
 "reference_id": 6871,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Fenice",
 "media_type": "Text",
 "index_reference": "fenice",
@@ -1403,11 +1469,18 @@
 ],
 "acai": [
 {
-"id": "flora:Fennel",
-"type": "flora",
-"preferred_label": "Fennel",
-"confidence": 0.8634,
-"match_method": "embedding"
+"id": "place:Phoenicia",
+"type": "place",
+"confidence": 0.8667,
+"match_method": "scored",
+"preferred_label": "Fenícia"
+},
+{
+"id": "place:Phoenix",
+"type": "place",
+"confidence": 0.7333,
+"match_method": "scored",
+"preferred_label": "Fênix"
 }
 ]
 }
@@ -1415,10 +1488,10 @@
 {
 "content_id": "816055",
 "reference_id": 6889,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Fenícia, Fenícios",
 "media_type": "Text",
-"index_reference": "fenícia, fenícios",
+"index_reference": "fenícia fenícios",
 "language": "por",
 "review_level": "Professional",
 "content": "<h1>FENÍCIA, FENÍCIOS</h1><p>Grupo de cidades-estado (e seus residentes) que ocupavam uma faixa da planície costeira síria ao pé das Montanhas do Líbano. &quot;Fenícia&quot; também era escrita como &quot;Fenice&quot; ou &quot;Finícia&quot;. Em determinado momento, esses estados se estendiam de Carmelo no sul até Arvade no norte, uma distância de menos de 321,8 quilômetros. Em nenhum lugar a planície fenícia tem mais de 6,4 quilômetros de largura. Nessas planícies férteis surgiram cidades-estado independentes, portanto, Fenícia não era nem uma unidade política nem geográfica.</p><p>Sem bons portos naturais, os fenícios precisaram construir os seus próprios. Felizmente, eles tinham abundantes suprimentos de magníficos cedros nas encostas ocidentais das Montanhas do Líbano, que dominavam. Assim, tinham boa madeira para construção de navios e uma importante fonte de receita em uma região do mundo carente de madeira. No mar, havia algumas das melhores criaturas produtoras de corante (caramujos marinhos) do Mediterrâneo, possibilitando a produção de têxteis e corantes de qualidade. Essas duas fontes de renda eram complementadas pela superior produção industrial em metal e vidraria e pelo transporte de mercadorias de outros povos em navios fenícios. Com o tempo, colônias fenícias surgiram ao longo de suas rotas comerciais. Entre elas, destacava-se Cartago.</p><p>Resumo</p><p>• História</p><p>• Significado cultural e histórico </p><p>• Religião</p><p>• Fenícia e a Bíblia</p><h2>História</h2><p>Embora povos de origem mediterrânea tenham ocupado o Líbano por volta de 4000 a.C., não houve desenvolvimento político ou cultural significativo na área até depois de 3000 a.C., quando os cananeus chegaram. A cultura e o estoque étnico cananeus (hamítico) foram diluídos por uma invasão amorita (semítica) da Fenícia, Síria e Palestina por volta de 2000 a.C. Subsequentemente, os semitas tornaram-se dominantes na área.</p><p>Muito antes da chegada dos semitas, os egípcios estabeleceram contatos comerciais com a Fenícia. Durante o Antigo Reino (c. 2700–2200 a.C.), os egípcios parecem ter controlado praticamente Biblos, cerca de 40,2 quilômetros ao norte de Beirute. Era o principal porto pelo qual a madeira fenícia era transportada para o Egito, enquanto o papiro egípcio e influências culturais entravam na Fenícia.</p><p>Embora a influência egípcia tenha diminuído durante o Primeiro Período Intermediário do Egito (2200–2050 a.C.), ela foi totalmente restaurada durante o Médio Império. De fato, alguns estudiosos gostam de considerar grande parte da Fenícia como parte de um Império Médio Egípcio nessa época (2050–1800 a.C.), mas outros acreditam que o controle do Egito era apenas econômico. Subsequentemente, os hicsos dominaram toda a extremidade oriental do Mediterrâneo.</p><p>Durante o período do império egípcio (c. 1580–1100 a.C.), os egípcios inicialmente controlaram efetivamente as cidades da Fenícia, chegando até a estacionar guarnições nelas. No entanto, na parte final do período, egípcios e hititas lutaram pelo domínio da Fenícia. Por volta de 1100 a.C., tanto o império egípcio quanto o hitita chegaram ao fim, e a Fenícia entrou em um período de independência.</p><p>Durante os dois séculos seguintes, Tiro aumentou seu poder e estabeleceu uma hegemonia sobre as outras cidades fenícias. De especial importância nessa ascensão ao poder foram os esforços de Hirão I. Ao mesmo tempo, a monarquia unida hebraica estava se formando, e as duas potências se aproximaram em empreendimentos de benefício mútuo.</p><p>As condições mudaram no século IX. Em 868 a.C., Assurnasirpal da Assíria forçou os estados fenícios a pagar tributo, e sua liberdade foi perdida novamente. Mas sob os assírios, os fenícios prosperaram e estabeleceram numerosas colônias no oeste. No final do século VIII, Isaías podia exaltar eloquentemente a prosperidade de Tiro (<a href=\"https://ref.ly/Isa23:3-Isa23:8\">Is 23.3–8</a>).</p><p>Com o passar do tempo, os fenícios ficaram inquietos com o aumento das restrições assírias às suas liberdades. Por volta de 678 a.C., Sidom liderou uma revolta contra Esar-Hadom da Assíria, que acabou sendo um fracasso total. Os furiosos assírios mataram ou capturaram a maioria dos habitantes e arrasaram a cidade de Sidom, intimidando assim todos os fenícios. No entanto, o poder assírio diminuiu posteriormente, e Tiro tornou-se independente por volta de 625 a.C. Sua grandeza permaneceu em grande parte, e Ezequiel escreveu uma descrição notável de suas conquistas (<a href=\"https://ref.ly/Ezek27:1-Ezek27:36\">Ez 27</a>).</p><p>Após Nabucodonosor da Babilônia destruir Jerusalém em 586 a.C., ele voltou sua atenção para a Fenícia, conquistando facilmente a reconstruída Sidom, mas levando 13 anos para subjugar Tiro. Naquela época, ele conquistou apenas a cidade continental de Tiro. No entanto, a cidade insular estava segura porque Nabucodonosor não tinha frota. A grandeza de Tiro se foi; a cidade continental nunca foi reconstruída.</p><p>Quando Ciro, o Grande, conquistou o Império Babilônico em 539 a.C., os fenícios foram absorvidos pacificamente. No entanto, cerca de dois séculos depois, eles participaram de uma rebelião contra os persas. Quando o exército persa se posicionou diante de Sidom em 352 a.C. e os habitantes enfrentaram a destruição de suas casas e a possibilidade de serem vendidos como escravos, eles incendiaram suas casas e pereceram com elas. Estima-se que 40.000 pessoas morreram nas chamas. As outras cidades fenícias não tiveram coragem para continuar a rebelião.</p><p>Quando Alexandre, o Grande, passou pela Fenícia em 332 a.C., a maioria das cidades celebrou a libertação do domínio persa e abriu seus portões para ele. Tiro, no entanto, não fez o mesmo e foi totalmente destruída após um cerco de sete meses. Quando a cidade foi reconstruída, foi povoada por imigrantes da Ásia Menor e teve pouca conexão étnica com o período anterior. A supremacia marítima fenícia foi quebrada para sempre.</p><p>Subsequentemente, a Fenícia ficou sob o controle dos Ptolomeus (286 a.C.), dos Selêucidas (198 a.C.) e dos Romanos (64 a.C.). Durante o período romano, a Fenícia fazia parte da província da Síria e desfrutou de nova prosperidade durante a Pax Romana (a paz romana) dos primeiros dois séculos da era cristã. Naquela época, estava amplamente helenizada e seu antigo caráter semítico havia desaparecido.</p><h2>Significado cultural e histórico</h2><p>Como os melhores marinheiros do mundo antigo, os fenícios dominaram o Mediterrâneo durante a primeira metade do primeiro milênio a.C., assim como o Mar Egeu por grande parte desse período. Como intrépidos navegadores, eles não apenas transportavam produtos, mas também transmitiam ideias e processos e se engajavam em muita troca cultural.</p><p>Embora não haja evidências de que os fenícios tenham inventado o alfabeto, eles o disseminaram de maneira tão ampla que ele se tornou conhecido como o alfabeto fenício. Especialmente importante foi a sua transmissão aos gregos (pelo menos por volta de 750 a.C.), que então adicionaram vogais e o repassaram para o mundo ocidental.</p><p>Os fenícios também estabeleceram colônias em vários locais no oeste do Mediterrâneo, notavelmente durante o século VIII a.C. A mais poderosa dessas colônias foi Cartago, que em seu auge controlava a parte ocidental do norte da África, grande parte da Espanha e várias ilhas do Mediterrâneo, e quase levou Roma à ruína durante o século III a.C.</p><p>Além disso, os fenícios desenvolveram técnicas avançadas em metalurgia; alguns estudiosos acreditam que os egípcios e possivelmente até os povos do Egeu derivaram alguns de seus processos dos fenícios. Embora possam não ter inventado a fabricação de vidro, como muitos autores antigos afirmam, certamente contribuíram muito para o seu desenvolvimento e a disseminação de seu conhecimento no mundo antigo. Os fenícios exportavam grandes quantidades de corante púrpura ou tecido tingido e seus famosos cedros. Cedros do Líbano chegaram não apenas à Palestina, mas também ao Egito, Mesopotâmia e ao distante Irã.</p><p>De todas as exportações fenícias, a mais severamente censurada nas Escrituras foi o culto a Baal, que entrou no reino de Israel por meio do casamento de Jezabel com Acabe, e no reino de Judá através do casamento de sua filha Atalia com Jeorão.</p><h2>Religião</h2><p>Sabe-se menos sobre a religião fenícia do que sobre a de outros povos da antiguidade. Isso se deve principalmente ao fato de que a literatura dos fenícios não foi preservada. Não se pode ter certeza de que as informações da antiga Ugarit, na vizinha Síria, refletem corretamente as práticas e crenças religiosas das cidades fenícias. Também não se deve presumir que a religião das colônias da Fenícia foi transportada sem modificações do país de origem. Infelizmente, o que o AT diz sobre a religião dos cananeus não diferencia as crenças ou práticas das cidades fenícias individuais. As informações a seguir foram obtidas quase exclusivamente de fontes fenícias.</p><p>Vários nomes gerais apareceram na religião fenícia. El era tanto a palavra semítica para deus quanto o nome de um deus específico que era o chefe do panteão. Baal simplesmente significa &quot;Senhor&quot;, mas também se aplica ao filho de El. Baalat significa &quot;senhora&quot;, mas muitas vezes designava uma divindade específica como a Baalat de Gebal ou Biblos. A palavra hebraica melek significava &quot;rei&quot; ou &quot;governante&quot;, mas poderia formar parte do nome de uma divindade, como Melqart (&quot;governante da cidade&quot;), deus principal de Tiro.</p><p>Assim como nas cidades-estado gregas, as cidades fenícias tinham divindades patronas que não eram necessariamente a principal do panteão. Do lado feminino, havia realmente apenas uma divindade adorada em todas as cidades, a deusa mãe e da fertilidade Ashtart ou Astarte (hebraico, Astarote), a babilônica Ishtar. Ela era considerada a geradora dos deuses e dos homens, bem como das plantas. A promiscuidade caracterizava sua conduta, e a prostituição religiosa era realizada em seu nome.</p><p>Baalat Gebal, que simbolizava a fertilidade e, portanto, correspondia a Astarte, era a divindade preeminente de Biblos, mas Adônis também tinha grande importância. Sendo o jovem deus que morreu e foi ressuscitado, ele estava associado à morte e ao renascimento anual da vegetação.</p><p>Astarte também era predominante no panteão de Sidom, como demonstrado por inúmeras inscrições, templos construídos em sua honra e pelo fato de que reis e rainhas se autodenominavam seus sacerdotes. A divindade masculina mais envolvida na vida sidônia era Eshmun, que se pensava corresponder a Adônis em função. Pelos gregos, ele foi identificado como Asclépio, deus da cura.</p><p>O deus principal de Tiro era Melqart, o Baal ou Senhor de Tiro. Como uma festa anual de ressurreição era celebrada em sua honra, ele foi equiparado a Eshmun de Sidom e Adônis de Biblos. Os gregos identificaram Melqart com Heracles ou Hércules. Quando Tiro passou a dominar as outras cidades fenícias, Melqart ascendeu a uma posição de destaque em seus panteões. Melqart teria sido o Baal introduzido em Israel nos dias de Acabe, que se casou com Jezabel de Tiro. A principal divindade feminina de Tiro era Astarte. Hirão construiu templos tanto para Melqart quanto para Astarte em Tiro, e Salomão trouxe a adoração de Astarte (Astarote) para Jerusalém em seu tempo (<a href=\"https://ref.ly/1Kgs11:5\">1Rs 11.5</a>). Seu santuário continuou a atormentar os judeus até a reforma de Josias no final do século VII a.C. (<a href=\"https://ref.ly/2Kgs23:13\">2Rs 23.13</a>).</p><p>Os locais de adoração de Baal eram ou lugares altos nas colinas (compostos por um altar e uma coluna de pedra representando Baal, e uma árvore ou poste representando Astarte) ou recintos de pedra com um altar, uma coluna de pedra e uma árvore. Às vezes, eram edifícios de templos cobertos. Os sacrifícios consistiam em animais e vegetais, e em tempos de grande desastre, em seres humanos. Grandes festivais religiosos eram realizados em observância à conexão do deus com o ritmo das estações. Quando ele e a natureza morriam, havia luto, ritos funerários e talvez auto-tortura. O festival da primavera, que celebrava sua ressurreição e nova vida na natureza e que buscava a fertilidade da natureza, comumente era acompanhado por prostituição sacramental. A idolatria, o sacrifício humano e a promiscuidade sexual associados à adoração de Baal trouxeram sobre ela a condenação especial de Deus.</p><h2>Fenícia e a Bíblia</h2><p>A Fenícia começou a se envolver na história bíblica logo após 1000 a.C., quando Davi obteve de Hirão I de Tiro alguns dos muito cobiçados cedros do Líbano para a construção de seu palácio. Salomão também comprou cedro de Hirão para seu palácio e o Templo. Ele contratou artesãos fenícios para construir o Templo, fortificações em centros estratégicos e uma grande instalação portuária em Eziom-Geber, no Golfo de Ácaba, um braço do Mar Vermelho. O design arquitetônico fenício foi empregado em vários projetos de construção hebraicos nos dias de Salomão, e a competência fenícia em construção naval tornou possível a marinha mercante de Salomão. Marinheiros fenícios tripulavam os navios após serem lançados (veja <a href=\"https://ref.ly/1Kgs9:10-1Kgs9:28\">1Rs 9.10–28</a>).</p><p>Durante a primeira metade do século IX a.C., o impacto fenício em Israel foi amplamente religioso. Foi então que Jezabel, uma princesa de Tiro, casou-se com Acabe e introduziu o culto a Baal no reino do norte. Mais de um século depois, a Fenícia foi alvo de condenação profética. Isaías (antes de 700 a.C., veja <a href=\"https://ref.ly/Isa23:1-Isa23:18\">Is 23</a>) e Ezequiel (cerca de 600 a.C., veja <a href=\"https://ref.ly/Ezek26:2-Ezek26:19\">Ez 26.2–19</a>; <a href=\"https://ref.ly/Ezek28:1-Ezek28:23\">28.1–23</a>) lançaram previsões de sofrimento e destruição tanto sobre Tiro quanto sobre Sidom.</p><p>Nos tempos do NT, o apóstolo Paulo passou uma semana em Tiro com um grupo de cristãos durante seu retorno a Jerusalém no final de sua terceira viagem missionária (<a href=\"https://ref.ly/Acts21:2-Acts21:7\">At 21.2–7</a>).</p><p><em>Veja também</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3573\" data-resourceType=\"TyndaleBibleDictionary\">Deidades e religião cananeia</span>.</p>",
@@ -1488,13 +1561,21 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Phoenicia",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Fenícia"
+}
+]
 }
 },
 {
 "content_id": "816056",
 "reference_id": 6890,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Fênix",
 "media_type": "Text",
 "index_reference": "fênix",
@@ -1521,9 +1602,9 @@
 {
 "id": "place:Phoenix",
 "type": "place",
-"preferred_label": "Fênix",
-"confidence": 0.6444,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Fênix"
 }
 ]
 }
@@ -1531,7 +1612,7 @@
 {
 "content_id": "829102",
 "reference_id": 4891,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Feno",
 "media_type": "Text",
 "index_reference": "feno",
@@ -1547,7 +1628,7 @@
 {
 "content_id": "658708",
 "reference_id": 6838,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Fereseus",
 "media_type": "Text",
 "index_reference": "fereseus",
@@ -1728,13 +1809,21 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "group:Perizzites",
+"type": "group",
+"confidence": 0.7492,
+"match_method": "scored",
+"preferred_label": "Perizzites"
+}
+]
 }
 },
 {
 "content_id": "830900",
 "reference_id": 7751,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ferida",
 "media_type": "Text",
 "index_reference": "ferida",
@@ -1778,10 +1867,10 @@
 {
 "content_id": "161838",
 "reference_id": 5872,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Fermento*",
 "media_type": "Text",
-"index_reference": "fermento*",
+"index_reference": "fermento",
 "language": "por",
 "review_level": "Professional",
 "content": "<h1>FERMENTO*</h1><p>Qualquer substância que produza fermentação quando adicionada à massa. O fermento pode significar a massa já afetada pelo fermento, colocado na farinha para que pudesse passar por toda a massa antes de assar, ou pode se referir à massa que cresceu sob a influência do fermento. Os primeiros hebreus aparentemente dependiam de um pedaço de massa fermentada para a transmissão do fermento; só muito mais tarde os resíduos do vinho foram usadas como fermento.</p><p>Os antigos israelitas regularmente comiam pão fermentado (<a href=\"https://ref.ly/Hos7:4\">Os 7.4</a>), mas na comemoração da Páscoa, eles foram proibidos de comer pão fermentado ou até mesmo tê-lo em suas casas durante o período de Páscoa (<a href=\"https://ref.ly/Exod13:7\">Êx 13.7</a>). Esta observância anual garantia que o povo não esqueceria seu êxodo apressado do Egito, quando o mandamento de Deus não deu tempo para a preparação do pão fermentado. O povo foi forçado a levar consigo suas amassadeiras e a massa com a qual assavam bolos sem fermento para sustentá-los durante a jornada (<a href=\"https://ref.ly/Exod12:34-Exod12:39\">Êx 12.34–39</a>; <a href=\"https://ref.ly/Deut16:3\">Dt 16.3</a>).</p><p>Possivelmente porque a fermentação implicava desintegração e corrupção, o fermento foi excluído de todas as ofertas colocadas no altar para serem sacrificadas a Deus (<a href=\"https://ref.ly/Exod23:18\">Êx 23.18</a>; <a href=\"https://ref.ly/Exod34:25\">34.25</a>). Também não era permitido nas ofertas de grãos (<a href=\"https://ref.ly/Lev2:11\">Lv 2.11</a>; <a href=\"https://ref.ly/Lev6:17\">6.17</a>). As Escrituras não nos dizem se os pães da proposição (ou pão da Presença) eram sem fermento, mas o historiador Josefo afirma que era fermentado (<em>Antiguidades</em> 3.6.6).</p><p>Duas exceções a esta regra devem ser observadas. O fermento poderia ser usado em ofertas que deveriam ser comidas pelos sacerdotes ou outros. O pão fermentado podia acompanhar a oferta de paz (<a href=\"https://ref.ly/Lev7:13\">Lv 7.13</a>), e era ofertado na Festa das Semanas (Pentecostes) porque representava a comida diária comum que Deus forneceu para seu povo (<a href=\"https://ref.ly/Lev23:17\">23.17</a>).</p><p>A ação lenta do fermento provou ser um problema durante o estágio agrícola do desenvolvimento hebraico, especialmente durante os primeiros dias agitados da colheita. Portanto, a massa sem fermento se tornou cada vez mais comum para o preparo cotidiano. Esta prática foi encorajada pelo crescimento da ideia de que o fermento representava decadência e corrupção, assim como outras coisas fermentadas. Esta visão excluía o fermento como algo inconsistente com o conceito da santidade perfeita de Deus. Plutarco estava expressando uma crença antiga, também comum entre outros povos, quando escreveu: “Ora, o fermento é ele próprio o fruto da corrupção e corrompe a massa de farinha com a qual foi misturado”. O apóstolo Paulo cita um provérbio semelhante em <a href=\"https://ref.ly/1Cor5:6\">1&nbsp;Coríntios 5.6</a> e <a href=\"https://ref.ly/Gal5:9\">Gálatas 5.9</a>.</p><p>A coisa significativa sobre o fermento é seu poder, que pode simbolizar o bem ou o mal. Normalmente, embora nem sempre, o fermento era um símbolo do mal no pensamento rabínico. Jesus se referiu ao fermento no sentido adverso quando ele usou a palavra para descrever a doutrina corrupta dos fariseus e saduceus (<a href=\"https://ref.ly/Matt16:6\">Mt 16.6,11–12</a>) e de Herodes (<a href=\"https://ref.ly/Mark8:15\">Mc 8.15</a>). O fermento dos fariseus é identificado em outro lugar como hipocrisia (<a href=\"https://ref.ly/Luke12:1\">Lc 12.1</a>; cf. <a href=\"https://ref.ly/Matt23:28\">Mt 23.28</a>).</p><p>Paulo aplica o mesmo conceito à corrupção moral, advertindo que “um pouco de fermento leveda toda a massa” e admoestando seus leitores a limpar-se do fermento velho, isto é, os vestígios de suas vidas não regeneradas, e viver a vida cristã com o “pão sem fermento da sinceridade e verdade” (<a href=\"https://ref.ly/1Cor5:6-1Cor5:8\">1Co 5.6–8</a>).</p><p>Por outro lado, Cristo usa o conceito de efeito do fermento sobre a massa em seu bom senso para fornecer aos seus discípulos uma parábola breve, mas memorável (<a href=\"https://ref.ly/Matt13:33\">Mt 13.33</a>; <a href=\"https://ref.ly/Luke13:20-Luke13:21\">Lc 13.20–21</a>), em que o fermento ilustra a influência cumulativa e penetrante do reino de Deus no mundo.</p><p><em>Veja também</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3498\" data-resourceType=\"TyndaleBibleDictionary\">Pão</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"4416\" data-resourceType=\"TyndaleBibleDictionary\">Festas e Festivais de Israel</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"4454\" data-resourceType=\"TyndaleBibleDictionary\">Alimentos e Preparação de Alimentos</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"8132\" data-resourceType=\"TyndaleBibleDictionary\">Pão sem fermento</span>.</p>",
@@ -1944,7 +2033,7 @@
 {
 "content_id": "716976",
 "reference_id": 3812,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ferreiro",
 "media_type": "Text",
 "index_reference": "ferreiro",
@@ -2017,7 +2106,7 @@
 {
 "content_id": "658660",
 "reference_id": 5219,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ferreiro",
 "media_type": "Text",
 "index_reference": "ferreiro",
@@ -2096,7 +2185,7 @@
 {
 "content_id": "658740",
 "reference_id": 7714,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ferreiro",
 "media_type": "Text",
 "index_reference": "ferreiro",
@@ -2194,7 +2283,7 @@
 {
 "content_id": "829308",
 "reference_id": 5220,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ferro",
 "media_type": "Text",
 "index_reference": "ferro",
@@ -2218,7 +2307,7 @@
 {
 "content_id": "759828",
 "reference_id": 5189,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Festa da Colheita",
 "media_type": "Text",
 "index_reference": "festa da colheita",
@@ -2249,7 +2338,7 @@
 {
 "content_id": "828797",
 "reference_id": 4415,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Festa das Luzes",
 "media_type": "Text",
 "index_reference": "festa das luzes",
@@ -2273,7 +2362,7 @@
 {
 "content_id": "759679",
 "reference_id": 3473,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Festa dos barracas",
 "media_type": "Text",
 "index_reference": "festa dos barracas",
@@ -2298,13 +2387,21 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.554,
+"match_method": "scored",
+"preferred_label": "SENHOR"
+}
+]
 }
 },
 {
 "content_id": "760028",
 "reference_id": 7863,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Festa dos Tabernáculos",
 "media_type": "Text",
 "index_reference": "festa dos tabernáculos",
@@ -2329,13 +2426,28 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:FeastOfTabernacles",
+"type": "keyterm",
+"confidence": 0.6364,
+"match_method": "scored",
+"preferred_label": "feast of tabernacles"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.5613,
+"match_method": "scored",
+"preferred_label": "SENHOR"
+}
+]
 }
 },
 {
 "content_id": "125259",
 "reference_id": 4416,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Festas E Festivais De Israel",
 "media_type": "Text",
 "index_reference": "festas e festivais de israel",
@@ -3137,7 +3249,7 @@
 {
 "content_id": "828799",
 "reference_id": 4421,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Festival",
 "media_type": "Text",
 "index_reference": "festival",
@@ -3161,7 +3273,7 @@
 {
 "content_id": "760040",
 "reference_id": 8101,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Festival das Trombetas",
 "media_type": "Text",
 "index_reference": "festival das trombetas",
@@ -3192,10 +3304,10 @@
 {
 "content_id": "815963",
 "reference_id": 4422,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Festo, Pórcio",
 "media_type": "Text",
-"index_reference": "festo, pórcio",
+"index_reference": "festo pórcio",
 "language": "por",
 "review_level": "Professional",
 "content": "<h1>FESTO, Pórcio</h1><p>Procurador romano (governador) da Judeia, que sucedeu Antônio Félix e foi sucedido por Albino. A data exata da ascensão ao poder de Pórcio Festo é debatida, mas foi reduzida para algum momento entre 55 e 60 d.C. As únicas fontes que mencionam Festo são o livro de Atos e os escritos de Josefo, um historiador judeu que viveu em Roma no primeiro século d.C. (<em>Antiguidades</em> 20.8.9–11; 9.1).</p><p>Josefo escreveu que Festo governou com sabedoria e justiça, em contraste com Félix e Albino. Os bandidos sicários (nomeados pelas pequenas espadas que carregavam), que haviam aterrorizado o campo palestino, foram eliminados sob o governo de Festo. Apesar disso, ele não conseguiu reverter os danos causados por seu predecessor, Félix, que havia agravado o conflito entre pagãos e judeus.</p><p>O NT relata que o novo procurador Festo viajou de Cesareia (onde Paulo estava sob custódia) para Jerusalém (<a href=\"https://ref.ly/Acts25:1\">At 25.1</a>). Os líderes judeus o confrontaram lá e apresentaram acusações contra Paulo. Ao retornar a Cesareia, Festo ouviu a defesa de Paulo (v. <a href=\"https://ref.ly/Acts25:6\">6</a>). Ele concedeu o apelo do apóstolo para ser ouvido por César (o direito de qualquer romano acusado de um crime capital) em um esforço para evitar mais disputas religiosas em sua jurisdição (vv. <a href=\"https://ref.ly/Acts25:11-Acts25:12\">11–12</a>). Quando o rei Agripa chegou alguns dias depois, Festo estava em um dilema, incapaz de entender as acusações dos judeus contra Paulo (vv. <a href=\"https://ref.ly/Acts25:25-Acts25:27\">25–27</a>). Após o discurso de Paulo diante do rei, Festo declarou em voz alta que ele estava louco (<a href=\"https://ref.ly/Acts26:24\">26.24</a>), embora ainda concordasse que Paulo não havia feito nada para merecer a morte ou prisão (v. <a href=\"https://ref.ly/Acts26:31\">31</a>).</p>",
@@ -3243,9 +3355,9 @@
 {
 "id": "person:Festus",
 "type": "person",
-"preferred_label": "Festo",
-"confidence": 0.5713,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Festo"
 }
 ]
 }
@@ -3253,10 +3365,10 @@
 {
 "content_id": "717298",
 "reference_id": 7768,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Fiandeira, Fiar",
 "media_type": "Text",
-"index_reference": "fiandeira, fiar",
+"index_reference": "fiandeira fiar",
 "language": "por",
 "review_level": "Professional",
 "content": "<h1>FIANDEIRA, FIAR</h1><p>Em todos os períodos da história de Israel, as mulheres fiavam fibras em fios. No entanto, uma classe de fiandeiras profissionais surgiu ao lado delas. <a href=\"https://ref.ly/Exod35:25-Exod35:26\">Êxodo 35.25–26</a> menciona as mulheres fiandeiras. Entre suas outras virtudes, a boa esposa de <a href=\"https://ref.ly/Prov31:1-Prov31:31\">Provérbios 31</a> se dedicava à fiação (<a href=\"https://ref.ly/Prov31:19\">Pv 31.19</a>). Jesus falou dos lírios do campo que não precisavam fiar (<a href=\"https://ref.ly/Matt6:28\">Mt 6.28</a>; <a href=\"https://ref.ly/Luke12:27\">Lc 12.27</a>).</p>",
@@ -3300,7 +3412,7 @@
 {
 "content_id": "683058",
 "reference_id": 6873,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Ficol",
 "media_type": "Text",
 "index_reference": "ficol",
@@ -3333,9 +3445,9 @@
 {
 "id": "person:Phicol",
 "type": "person",
-"preferred_label": "Ficol",
 "confidence": 1.0,
-"match_method": "scored"
+"match_method": "content_id",
+"preferred_label": "Ficol"
 }
 ]
 }
@@ -3343,7 +3455,7 @@
 {
 "content_id": "759749",
 "reference_id": 4396,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Fidelidade",
 "media_type": "Text",
 "index_reference": "fidelidade",
@@ -3450,13 +3562,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Faithfulness",
+"type": "keyterm",
+"confidence": 1.0,
+"match_method": "embedding",
+"preferred_label": "Faithfulness"
+}
+]
 }
 },
 {
 "content_id": "717147",
 "reference_id": 5930,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Fígado",
 "media_type": "Text",
 "index_reference": "fígado",
@@ -3515,7 +3635,7 @@
 {
 "content_id": "830378",
 "reference_id": 6895,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Fígelo",
 "media_type": "Text",
 "index_reference": "fígelo",
@@ -3540,24 +3660,16 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Phygelus",
-"type": "person",
-"preferred_label": "Fígelo",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "828801",
 "reference_id": 4425,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Figo, figueira",
 "media_type": "Text",
-"index_reference": "figo, figueira",
+"index_reference": "figo figueira",
 "language": "por",
 "review_level": "Professional",
 "content": "<h1>FIGO, FIGUEIRA</h1><p>Qualquer uma de várias árvores ou arbustos que crescem naturalmente na região do Mediterrâneo. Produz um fruto que pode ser comido. O figo comum (<em>Ficus carica</em>) é mencionado cerca de 60 vezes na Bíblia, tornando-se uma das plantas mais importantes na Bíblia. A primeira ocorrência é &quot;folhas de figueira&quot; em <a href=\"https://ref.ly/Gen3:7\">Gn 3.7</a>.</p><p>A maioria dos especialistas acredita que a figueira originalmente veio do sudoeste da Ásia e da Síria. Nos tempos antigos, as pessoas cultivavam figos amplamente no Egito, em Israel e nas áreas circundantes. Nesses lugares, era um dos principais alimentos consumidos. Em <a href=\"https://ref.ly/1Sam25:18\">1Sm 25.18</a>, Abigail enviou a Davi um presente que incluía 200 bolos de figos.</p><p>A figueira possui um tipo especial de fruto chamado sicônio, que é, na verdade, uma base muito ampliada e carnuda que abriga as flores. Uma vespa especial poliniza o figo. Sem essa vespa, a árvore não consegue produzir frutos. As pessoas descobriram isso quando trouxeram a figueira pela primeira vez para o estado da Califórnia, nos Estados Unidos da América.</p><p>A figueira produz seus primeiros botões de fruto antes das folhas. Os botões aparecem em fevereiro, e as folhas crescem em abril ou maio. Quando as folhas estão totalmente desenvolvidas, o fruto deve estar maduro (<a href=\"https://ref.ly/Matt21:19\">Mt 21.19</a>).</p><p>Quando os antigos profetas advertiam o povo sobre seus erros, muitas vezes ameaçavam que as colheitas de videira e figueira seriam destruídas. E quando prometiam grandes recompensas, diziam que as colheitas de videira e figueira cresceriam novamente (<a href=\"https://ref.ly/Jer8:13\">Jr 8.13</a>; <a href=\"https://ref.ly/Hos2:12\">Os 2.12</a>; <a href=\"https://ref.ly/Joel1:7,Joel1:12\">Jl 1.7,12</a>; <a href=\"https://ref.ly/Mic4:4\">Mq 4.4</a>; <a href=\"https://ref.ly/Zech3:10\">Zc 3.10</a>).</p>",
@@ -3578,7 +3690,7 @@
 {
 "content_id": "717231",
 "reference_id": 6896,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Filactério",
 "media_type": "Text",
 "index_reference": "filactério",
@@ -3634,13 +3746,21 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Phylactery",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Phylactery"
+}
+]
 }
 },
 {
 "content_id": "830371",
 "reference_id": 6874,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Filadélfia",
 "media_type": "Text",
 "index_reference": "filadélfia",
@@ -3671,93 +3791,16 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "place:Philadelphia",
-"type": "place",
-"preferred_label": "Filadélfia",
-"confidence": 0.7,
-"match_method": "scored"
-}
-]
-}
-},
-{
-"content_id": "816051",
-"reference_id": 6876,
-"version": "1.0.2",
-"title": "Filemom (Pessoa)",
-"media_type": "Text",
-"index_reference": "filemom (pessoa)",
-"language": "por",
-"review_level": "Professional",
-"content": "<h1>FILEMOM (Pessoa)</h1><p>Filemom era um cristão conhecido apenas pela carta que o apóstolo Paulo escreveu para ele. O Novo Testamento não o menciona em nenhum outro lugar.</p><p><a href=\"https://ref.ly/Col4:17\">Colossenses 4.17</a> menciona Arquipo, um homem de Colossos, junto com Filemom em <a href=\"https://ref.ly/Phlm1:2\">Filemom 1.2</a>. Arquipo pode ter sido filho de Filemom. Embora Paulo nunca tenha visitado Colossos, é claro que ele conhecia bem Filemom (<a href=\"https://ref.ly/Col2:1\">Cl 2.1</a>). Paulo o chamou de “nosso amigo e companheiro de trabalho” (<a href=\"https://ref.ly/Phlm1:1\">Fm 1.1</a>). Talvez Filemom tenha trabalhado com Paulo durante a missão de três anos de Paulo em Éfeso (<a href=\"https://ref.ly/Acts19:8-Acts19:10\">At 19.8–10</a>; <a href=\"https://ref.ly/Acts20:31\">20.31</a>).</p><p>Paulo sabia que podia apelar a Filemom em nome de Onésimo, que era o escravo fugitivo de Filemom. A carta a Filemom foca no pedido de Paulo para que Filemom aceite Onésimo de volta, não apenas como escravo, mas como um irmão em Cristo.</p><p><em>Veja também</em> <span data-bnType=\"resourceReference\" data-resourceId=\"6875\" data-resourceType=\"TyndaleBibleDictionary\">Filemom, Carta para</span>.</p>",
-"associations": {
-"passage": [
-{
-"start_ref": "44020031",
-"start_ref_usfm": "ACT 20:31",
-"end_ref": "44020031",
-"end_ref_usfm": "ACT 20:31"
-},
-{
-"start_ref": "51002001",
-"start_ref_usfm": "COL 2:1",
-"end_ref": "51002001",
-"end_ref_usfm": "COL 2:1"
-},
-{
-"start_ref": "51004017",
-"start_ref_usfm": "COL 4:17",
-"end_ref": "51004017",
-"end_ref_usfm": "COL 4:17"
-},
-{
-"start_ref": "57001001",
-"start_ref_usfm": "PHM 1:1",
-"end_ref": "57001001",
-"end_ref_usfm": "PHM 1:1"
-},
-{
-"start_ref": "57001002",
-"start_ref_usfm": "PHM 1:2",
-"end_ref": "57001002",
-"end_ref_usfm": "PHM 1:2"
-},
-{
-"start_ref": "44019008",
-"start_ref_usfm": "ACT 19:8",
-"end_ref": "44019010",
-"end_ref_usfm": "ACT 19:10"
-}
-],
-"resource": [
-{
-"reference_id": 6875,
-"content_id": 161856,
-"resource_code": "TyndaleBibleDictionary",
-"label": "Filemom, Carta A",
-"language": "por"
-}
-],
-"acai": [
-{
-"id": "person:Philemon",
-"type": "person",
-"preferred_label": "Filemom",
-"confidence": 0.65,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "161856",
 "reference_id": 6875,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Filemom, Carta A",
 "media_type": "Text",
-"index_reference": "filemom, carta a",
+"index_reference": "filemom carta a",
 "language": "por",
 "review_level": "Professional",
 "content": "<h1>FILEMOM, Carta a</h1><p>A menor das epístolas da prisão de Paulo.</p><p>Resumo</p><p>•&nbsp;Autor</p><p>•&nbsp;Origem</p><p>•&nbsp;Destinatário</p><p>•&nbsp;Contexto</p><p>•&nbsp;Propósito</p><p>•&nbsp;Ensino</p><h2>Autor</h2><p>De acordo com seu costume e com os cânones contemporâneos do gênero epistolar, o apóstolo Paulo se identifica como o autor desta carta. Ele diz que ele era um prisioneiro na época em que escrevia (<a href=\"https://ref.ly/Phlm1:9-Phlm1:10\">Fm 1.9–10,13,23</a>) por causa de seu testemunho de Jesus Cristo.</p><h2>Origem</h2><p>É difícil verificar a localização da prisão de Paulo no momento da escrita. De Cesareia, Éfeso, ou Roma, qualquer um dos últimos locais parece corresponder aos dados disponíveis nesta epístola e em Colossenses, com os quais está intimamente relacionado (<a href=\"https://ref.ly/Col4:7-Col4:14\">Cl 4.7–14</a>; cf. <a href=\"https://ref.ly/Phlm1:23-Phlm1:24\">Fm 1.23–24</a>). A menção de Marcos e Lucas como companheiros de Paulo favorece Roma como o ponto de origem da carta (<a href=\"https://ref.ly/Phlm1:24\">Fm 1.24</a>). No entanto, a proximidade relativa de Éfeso a Colossos, onde Filemom residia (cerca de 160,9 quilômetros de distância), e o anúncio da próxima visita de Paulo a Colossos (v. <a href=\"https://ref.ly/Phlm1:22\">22</a>) sugere Éfeso como o lugar de confinamento. Embora uma prisão de Éfeso não seja explicitamente mencionada no livro de Atos, o relato dos esforços missionários de Paulo naquela cidade deixa claro que ele encontrou uma oposição considerável (<a href=\"https://ref.ly/Acts20:19\">At 20.19</a>), que Paulo descreve em termos que poderiam implicar um tempo gasto na prisão (<a href=\"https://ref.ly/1Cor15:32\">1Co 15.32</a>; <a href=\"https://ref.ly/2Cor1:8-2Cor1:10\">2Co 1.8–10</a>).</p><h2>Destinatário</h2><p>Este documento é muitas vezes visto impropriamente como uma nota pessoal de Paulo a Filemom, seu convertido e amigo, líder da igreja em Colossos e proprietário de escravos. Na realidade, a epístola é dirigida a Filemom, a Áfia (presumivelmente a esposa de Filemom), a Arquipo e à congregação de crentes que se encontraram na casa de Filemom (<a href=\"https://ref.ly/Phlm1:1-Phlm1:2\">Fm 1.1–2</a>). As saudações são enviadas pelo moderador da epístola em nome de Epafras, Marcos, Aristarco, Demas e Lucas, que representam juntos um contingente impressionante de líderes da igreja (vv. <a href=\"https://ref.ly/Phlm1:23-Phlm1:24\">23–24</a>). O propósito de Paulo ao mencioná-los é fazer Filemom perceber que sua resposta ao apelo de Paulo não será uma decisão privada, mas pela qual ele será responsável perante a comunidade dos crentes da qual ele faz parte. No corpo de Cristo, questões que dizem respeito aos relacionamentos dos crentes entre si são de interesse para toda a comunidade. Tais assuntos podem não ser tratados como questões privadas, uma vez que eles necessariamente afetam o bem-estar de toda a igreja (<a href=\"https://ref.ly/Matt18:15-Matt18:20\">Mt 18.15–20</a>).</p><p>A epístola deixa claro que um laço caloroso de amor fraterno existia entre Paulo e Filemom. O apóstolo chama Filemom de seu “colega de trabalho amado” (<a href=\"https://ref.ly/Phlm1:1\">Fm 1.1</a>); ele o elogia em termos efusivos pelo envolvimento de Filemom no empreendimento missionário (vv. <a href=\"https://ref.ly/Phlm1:5-Phlm1:7\">5–7</a>); ele apela a ele com base no amor (v. <a href=\"https://ref.ly/Phlm1:9\">9</a>); ele evoca sua participação de uma parceria comum (v. <a href=\"https://ref.ly/Phlm1:17\">17</a>); ele lembra gentilmente a Filemom que ele deve sua salvação a Paulo (v. <a href=\"https://ref.ly/Phlm1:19\">19</a>), e ele diz que confia nele para fazer o que é pedido dele e ainda mais (v. <a href=\"https://ref.ly/Phlm1:21\">21</a>).</p><h2>Contexto</h2><p>O objeto da carta de Paulo pertence a um terceiro — Onésimo, o escravo fugitivo de Filemom. Depois de ter cometido alguma indiscrição não revelada na carta (v. <a href=\"https://ref.ly/Phlm1:18\">18</a>), o escravo havia escapado, e tendo viajado para a grande cidade, ele havia buscado o anonimato entre os grupos heterogêneos de pessoas que formam a subclasse de qualquer metrópole. Através de circunstâncias providenciais que permanecem envoltas em mistério, o escravo fugitivo havia chegado sob a influência de Paulo; ele havia sido convertido por ele (v. <a href=\"https://ref.ly/Phlm1:10\">10</a>), havia se tornado amigo do coração de Paulo (v. <a href=\"https://ref.ly/Phlm1:12\">12</a>), e havia se envolvido com ele na obra do evangelho na medida em que Paulo teria ficado feliz em mantê-lo em seu serviço como seu irmão fiel e querido (v. <a href=\"https://ref.ly/Phlm1:13\">13</a>; <a href=\"https://ref.ly/Col4:9\">Cl 4.9</a>).</p><p>Paulo sabia que, se ele tivesse mantido Onésimo ao seu lado como colega de trabalho, Filemom teria sido compelido a prestar atenção à sua decisão (<a href=\"https://ref.ly/Phlm1:13-Phlm1:14\">Fm 1.13–14</a>). No entanto, Paulo decidiu usar a situação ambígua que havia se desenvolvido como a ocasião para fazer Filemom pensar nas implicações de sua fé na escravidão, e fazê-lo libertar Onésimo e elevá-lo ao status de irmão, não apenas em um sentido espiritual (“no Senhor”), mas também em relação a seu status civil (“na carne”, v. <a href=\"https://ref.ly/Phlm1:16\">16</a>). Que Filemom aceitou o pedido de Paulo e concedeu a liberdade a Onésimo é atestado pela preservação deste documento. Se Filemom tivesse rejeitado o pedido de Paulo, ele teria provavelmente destruído a carta para apagar da memória humana o que teria se tornado evidência incriminadora de sua teimosia.</p><p>Um pós-escrito intrigante foi adicionado a esta história pela descoberta das repetidas referências a um bispo idoso chamado Onésimo que liderou a igreja em Éfeso no início do segundo século, de acordo com a carta de Inácio aos efésios. A identificação do bispo com o escravo de Filemom é sugerida pelo uso na carta de Inácio do jogo de Paulo sobre palavras com o nome de Onésimo nos versos <a href=\"https://ref.ly/Phlm1:11\">11</a> e <a href=\"https://ref.ly/Phlm1:20\">20</a> (Onésimo significa “útil” ou “benéfico”). Se este for o caso, é concebível que o ex-escravo fosse o indivíduo que coletava as cartas paulinas que foram eventualmente integradas no cânon do NT, incluindo a carta a Filemom.</p><h2>Propósito</h2><p>O propósito da carta de Paulo a Filemom era dramatizar a incompatibilidade da instituição da escravidão com o cristianismo e, assim, obter a libertação de Onésimo. Não há evidências na epístola de que Paulo estava receoso com a ideia de Filemom infligir a Onésimo as duras punições que foram prescritas pela lei romana para os escravos fugitivos. No entanto, Paulo estava preocupado de que Onésimo não fosse reintegrado como um escravo, mas que ele fosse recebido como um membro de pleno direito da família de Filemom, e que ele fosse tratado com pelo menos a mesmo respeito e dignidade que poderiam ter sido estendidas ao próprio Paulo (vv. <a href=\"https://ref.ly/Phlm1:17\">17,21</a>).</p><h2>Ensinamento</h2><p>Entre os muitos ensinamentos contidos nesta pequena epístola, três merecem menção especial.</p><p>Primeiro, a carta testifica do desafio revolucionário trazido pelo evangelho às instituições carregadas de pecado da sociedade. Como tal, constitui uma condenação da prática da escravidão. Jesus havia negado aos seus seguidores o direito de possuir ou controlar outros seres humanos. Dentro da comunidade cristã, o domínio ou liderança deveria ser exercido na servidão da parte inferior da escada social, em vez de hierarquicamente ao longo das linhas de autoridade (<a href=\"https://ref.ly/Mark10:42-Mark10:45\">Mc 10.42–45</a>). Como resultado, as diferenças de classes haviam se tornado irrelevantes entre os cristãos. Em Cristo, não havia nem escravo, nem livre, mas todos eram um nele (<a href=\"https://ref.ly/Gal3:28\">Gl 3.28</a>). Os cristãos escravos que poderiam obter sua liberdade deveriam se beneficiar da oportunidade (<a href=\"https://ref.ly/1Cor7:21\">1Co 7.21</a>), e aqueles que eram livres deveriam evitar se tornar escravos dos homens (<a href=\"https://ref.ly/1Cor7:23\">1Co 7.23</a>; <a href=\"https://ref.ly/Gal5:1\">Gl 5.1</a>). Por outro lado, os proprietários de escravos cristãos deveriam agir como servos de seus escravos (<a href=\"https://ref.ly/Eph6:9\">Ef 6.9</a>), e todos os cristãos deveriam ser servos uns dos outros (<a href=\"https://ref.ly/Gal5:13\">Gl 5.13</a>). Consequentemente, Filemom deveria receber Onésimo “não mais como um escravo” (<a href=\"https://ref.ly/Phlm1:16\">Fm 1.16</a>).</p><p>Segundo, se a adesão ao evangelho proíbe uma manutenção conservadora do status quo, também descarta sua derrubada violenta. O temperamento revolucionário do evangelho é&nbsp;expresso em uma postura de servidão, em vez de na hostilidade militante. Onésimo foi aconselhado por Paulo a demonstrar esta teologia da libertação voltando em submissão a Filemom para permitir que o Espírito Santo efetuasse uma mudança radical em seu relacionamento. O emprego dos métodos de Satanás para alcançar os resultados do reino descartam a intervenção divina e resulta no aumento da opressão.</p><p>Finalmente, a epístola fornece um modelo magistral de religiosidade inspirada. A situação que havia se desenvolvido entre Filemom e Onésimo exigiu a mediação de um defensor que poderia comandar o respeito do primeiro para falar com sucesso em nome deste último. Para ganhar seu caso, Paulo usou a psicologia da recomendação (vv. <a href=\"https://ref.ly/Phlm1:4-Phlm1:7\">4–7</a>); ele enfatizou seu próprio sofrimento autosacrificial por causa do evangelho (v. <a href=\"https://ref.ly/Phlm1:9\">9</a>); ele jogou com base na boa vontade de Filemom (v. <a href=\"https://ref.ly/Phlm1:14\">14</a>); ele apelou aos laços pessoais de amizade (vv. <a href=\"https://ref.ly/Phlm1:17\">17,20</a>); ele&nbsp;se ofereceu para assumir a responsabilidade pelas perdas incorridas (v. 18); ele lembrou a Filemom de sua própria dívida para com Paulo (v. <a href=\"https://ref.ly/Phlm1:19\">19</a>); e ele anunciou um próximo encontro que poderia ter causado o constrangimento se Filemom tivesse hesitado a seu pedido (v. <a href=\"https://ref.ly/Phlm1:22\">22</a>). A abordagem de Paulo é pessoal e pastoral, amigável, mas fervorosa. &nbsp;Exibe um equilíbrio perfeito de firmeza e sutileza. Demonstra como a liderança cristã genuína deve ser exercida através de persuasão e apelo, em vez de por imposições autoritárias pesadas.</p><p>Embora seja um dos menores documentos na Bíblia, a Carta a Filemom permanece como um monumento atemporal à dignidade e igualdade conferidas por Cristo a todos os seres humanos, independentemente de posição, gênero, classe ou status. Também oferece aos cristãos um mandato e uma metodologia para buscar uma reforma social eficaz.</p><p><em>Veja também</em> <span data-bnType=\"resourceReference\" data-resourceId=\"6782\" data-resourceType=\"TyndaleBibleDictionary\">Paulo, O Apóstolo</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"6876\" data-resourceType=\"TyndaleBibleDictionary\">Filemom (Pessoa)</span>.</p>",
@@ -3990,13 +4033,90 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Philemon",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Filemom"
+}
+]
+}
+},
+{
+"content_id": "816051",
+"reference_id": 6876,
+"version": "1.0.4",
+"title": "Filemom (Pessoa)",
+"media_type": "Text",
+"index_reference": "filemom pessoa",
+"language": "por",
+"review_level": "Professional",
+"content": "<h1>FILEMOM (Pessoa)</h1><p>Filemom era um cristão conhecido apenas pela carta que o apóstolo Paulo escreveu para ele. O Novo Testamento não o menciona em nenhum outro lugar.</p><p><a href=\"https://ref.ly/Col4:17\">Colossenses 4.17</a> menciona Arquipo, um homem de Colossos, junto com Filemom em <a href=\"https://ref.ly/Phlm1:2\">Filemom 1.2</a>. Arquipo pode ter sido filho de Filemom. Embora Paulo nunca tenha visitado Colossos, é claro que ele conhecia bem Filemom (<a href=\"https://ref.ly/Col2:1\">Cl 2.1</a>). Paulo o chamou de “nosso amigo e companheiro de trabalho” (<a href=\"https://ref.ly/Phlm1:1\">Fm 1.1</a>). Talvez Filemom tenha trabalhado com Paulo durante a missão de três anos de Paulo em Éfeso (<a href=\"https://ref.ly/Acts19:8-Acts19:10\">At 19.8–10</a>; <a href=\"https://ref.ly/Acts20:31\">20.31</a>).</p><p>Paulo sabia que podia apelar a Filemom em nome de Onésimo, que era o escravo fugitivo de Filemom. A carta a Filemom foca no pedido de Paulo para que Filemom aceite Onésimo de volta, não apenas como escravo, mas como um irmão em Cristo.</p><p><em>Veja também</em> <span data-bnType=\"resourceReference\" data-resourceId=\"6875\" data-resourceType=\"TyndaleBibleDictionary\">Filemom, Carta para</span>.</p>",
+"associations": {
+"passage": [
+{
+"start_ref": "44020031",
+"start_ref_usfm": "ACT 20:31",
+"end_ref": "44020031",
+"end_ref_usfm": "ACT 20:31"
+},
+{
+"start_ref": "51002001",
+"start_ref_usfm": "COL 2:1",
+"end_ref": "51002001",
+"end_ref_usfm": "COL 2:1"
+},
+{
+"start_ref": "51004017",
+"start_ref_usfm": "COL 4:17",
+"end_ref": "51004017",
+"end_ref_usfm": "COL 4:17"
+},
+{
+"start_ref": "57001001",
+"start_ref_usfm": "PHM 1:1",
+"end_ref": "57001001",
+"end_ref_usfm": "PHM 1:1"
+},
+{
+"start_ref": "57001002",
+"start_ref_usfm": "PHM 1:2",
+"end_ref": "57001002",
+"end_ref_usfm": "PHM 1:2"
+},
+{
+"start_ref": "44019008",
+"start_ref_usfm": "ACT 19:8",
+"end_ref": "44019010",
+"end_ref_usfm": "ACT 19:10"
+}
+],
+"resource": [
+{
+"reference_id": 6875,
+"content_id": 161856,
+"resource_code": "TyndaleBibleDictionary",
+"label": "Filemom, Carta A",
+"language": "por"
+}
+],
+"acai": [
+{
+"id": "person:Philemon",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Filemom"
+}
+]
 }
 },
 {
 "content_id": "830372",
 "reference_id": 6877,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Fileto",
 "media_type": "Text",
 "index_reference": "fileto",
@@ -4027,21 +4147,13 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:Philetus",
-"type": "person",
-"preferred_label": "Fileto",
-"confidence": 0.8,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "828514",
 "reference_id": 3933,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Filha",
 "media_type": "Text",
 "index_reference": "filha",
@@ -4065,7 +4177,7 @@
 {
 "content_id": "717228",
 "reference_id": 6861,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Filha do Faraó",
 "media_type": "Text",
 "index_reference": "filha do faraó",
@@ -4136,13 +4248,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Pharaoh.5",
+"type": "person",
+"confidence": 0.5887,
+"match_method": "scored",
+"preferred_label": "Faraó"
+}
+]
 }
 },
 {
 "content_id": "830896",
 "reference_id": 7744,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Filho",
 "media_type": "Text",
 "index_reference": "filho",
@@ -4174,21 +4294,13 @@
 "language": "por"
 }
 ],
-"acai": [
-{
-"id": "person:GenericSon",
-"type": "person",
-"preferred_label": "A Son",
-"confidence": 0.8246,
-"match_method": "embedding"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "125335",
 "reference_id": 7739,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Filho De Deus",
 "media_type": "Text",
 "index_reference": "filho de deus",
@@ -4558,7 +4670,7 @@
 {
 "content_id": "125336",
 "reference_id": 7740,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Filho Do Homem",
 "media_type": "Text",
 "index_reference": "filho do homem",
@@ -5048,7 +5160,7 @@
 {
 "content_id": "828368",
 "reference_id": 3691,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Filhos de Deus",
 "media_type": "Text",
 "index_reference": "filhos de deus",
@@ -5072,7 +5184,7 @@
 {
 "content_id": "828367",
 "reference_id": 3690,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Filhos do Éden",
 "media_type": "Text",
 "index_reference": "filhos do éden",
@@ -5101,16 +5213,9 @@
 {
 "id": "place:Eden",
 "type": "place",
-"preferred_label": "Éden",
-"confidence": 0.766,
-"match_method": "scored"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"preferred_label": "SENHOR",
-"confidence": 0.607,
-"match_method": "scored"
+"confidence": 0.73,
+"match_method": "scored",
+"preferred_label": "Éden"
 }
 ]
 }
@@ -5118,7 +5223,7 @@
 {
 "content_id": "125337",
 "reference_id": 7743,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Filhos Do Trovão",
 "media_type": "Text",
 "index_reference": "filhos do trovão",
@@ -5143,13 +5248,21 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:John.2",
+"type": "person",
+"confidence": 0.784,
+"match_method": "scored",
+"preferred_label": "João"
+}
+]
 }
 },
 {
 "content_id": "830895",
 "reference_id": 7742,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Filhos dos Profetas",
 "media_type": "Text",
 "index_reference": "filhos dos profetas",
@@ -5229,7 +5342,7 @@
 {
 "content_id": "481583",
 "reference_id": 7741,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Filhos e filhas de Deus",
 "media_type": "Text",
 "index_reference": "filhos e filhas de deus",
@@ -5318,7 +5431,7 @@
 {
 "content_id": "125316",
 "reference_id": 6880,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Filipe",
 "media_type": "Text",
 "index_reference": "filipe",
@@ -5478,32 +5591,32 @@
 ],
 "acai": [
 {
-"id": "person:Philip",
-"type": "person",
-"preferred_label": "Filipe",
-"confidence": 0.6519,
-"match_method": "scored"
-},
-{
-"id": "person:Philip.4",
-"type": "person",
-"preferred_label": "Filipe",
-"confidence": 0.6481,
-"match_method": "scored"
-},
-{
 "id": "person:Philip.2",
 "type": "person",
-"preferred_label": "Filipe",
-"confidence": 0.6074,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Filipe"
 },
 {
 "id": "person:Philip.3",
 "type": "person",
-"preferred_label": "Filipe",
-"confidence": 0.6037,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Filipe"
+},
+{
+"id": "person:Philip.4",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Filipe"
+},
+{
+"id": "person:Philip",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Filipe"
 }
 ]
 }
@@ -5511,10 +5624,10 @@
 {
 "content_id": "816052",
 "reference_id": 6878,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Filipenses, Carta aos",
 "media_type": "Text",
-"index_reference": "filipenses, carta aos",
+"index_reference": "filipenses carta aos",
 "language": "por",
 "review_level": "Professional",
 "content": "<h1>FILIPENSES, Carta aos</h1><p>Uma das cartas que Paulo escreveu enquanto estava preso.</p><p>Resumo</p><p>• Autor</p><p>• Data e origem</p><p>• Contexto</p><p>• Temas teológicos</p><p>• Conteúdo</p><h2>Autor</h2><p>Filipenses é semelhante a 2 Coríntios, Colossenses, 1 e 2 Tessalonicenses e Filemom porque Paulo compartilhou a autoria com Timóteo. O nome de Timóteo aparece no início dessas cartas, mas ele provavelmente atuou apenas como secretário de Paulo.</p><h2>Data e origem</h2><p>Paulo escreveu da prisão (<a href=\"https://ref.ly/Phil1:12-Phil1:13\">Fp 1.12–13</a>), mas não sabemos onde ele estava detido. Roma é o local mais provável, datando por volta de 62 d.C.. No entanto, alguns acham que as viagens mencionadas em <a href=\"https://ref.ly/Phil4:14\">Filipenses 4.14</a> e <a href=\"https://ref.ly/Phil2:25-Phil2:26\">2.25–26</a> tornam Roma improvável. Os filipenses ouviram que Paulo estava na prisão e enviaram um presente com Epafrodito. Epafrodito então ouviu em Roma que os filipenses sabiam que ele estava doente. Por causa disso, alguns sugerem Éfeso por volta de 55 d.C., ou Cesareia por volta de 58 d.C.. Paulo foi preso em Cesareia (<a href=\"https://ref.ly/Acts23:33-Acts23:35\">At 23.33–35</a>), mas a saudação “da casa de César” é difícil de explicar se escrita lá. Éfeso é perto o suficiente de Filipos para comunicação frequente, mas Atos não registra uma prisão lá. Teríamos que supor que o relato de Lucas em <a href=\"https://ref.ly/Acts19:1-Acts19:41\">Atos 19</a> está incompleto e que Paulo estava sob custódia protetora durante o tumulto (veja especialmente <a href=\"https://ref.ly/Acts19:30-Acts19:31\">Atos 19.30–31</a>). No entanto, tal prisão provavelmente não faria Paulo se perguntar se seu tempo “deixar esta vida e estar com Cristo” havia chegado (<a href=\"https://ref.ly/Phil1:23\">Fp 1.23</a>). No momento da escrita, ele estava claramente enfrentando uma acusação séria.</p><p>A localização tradicional, Roma, parece a mais adequada. Paulo foi preso lá por pelo menos dois anos (<a href=\"https://ref.ly/Acts28:30\">At 28.30</a>), e levava cerca de três semanas para viajar de Roma a Filipos.</p><h2>Contexto</h2><p>Filipos era uma colônia romana (<a href=\"https://ref.ly/Acts16:12\">At 16.12</a>), um privilégio raro para cidades fora da Itália. Cerca de 90 anos antes do evangelho chegar lá por volta de 50 d.C., muitos soldados romanos se estabeleceram na cidade, expandindo-a significativamente. Seus oficiais comandantes facilitaram esse assentamento. Como resultado, Filipos ganhou seu status de colônia, o que significava que seus cidadãos eram tratados como se vivessem na Itália, com uma administração totalmente romana. Paulo refere-se a esse status em <a href=\"https://ref.ly/Phil3:20\">Filipenses 3.20</a>, ensinando que os cristãos são cidadãos de uma cidade celestial enquanto vivem em outro lugar. Filipos era um lugar rico e movimentado, um importante centro na Macedônia. Era lar de seguidores de muitas religiões tanto do Leste quanto do Oeste. Havia uma forte comunidade judaica e muitos pagãos.</p><h2>Temas teológicos</h2><p>O encarceramento de Paulo é central para a mensagem da carta, não apenas como informações de fundo. Durante seu encarceramento, ele experimentou a humildade mencionada em <a href=\"https://ref.ly/Phil4:12\">Filipenses 4.12</a>, usando a mesma palavra encontrada em <a href=\"https://ref.ly/Phil2:8\">2.8</a> para descrever a auto-humilhação de Cristo até a morte. O padrão do ministério de Jesus descrito no &quot;hino&quot; de <a href=\"https://ref.ly/Phil2:6-Phil2:11\">Filipenses 2.6–11 </a>— humilhação seguida de glorificação — reflete a vida de Paulo e a visão que ele compartilha com os filipenses. Junto com a humilhação e o sofrimento, a alegria é outro tema importante da carta. A verdadeira alegria emerge do sofrimento e do autossacrifício. De fato, Filipenses poderia ser chamada de “A Epístola da Alegria”. Outros temas importantes incluem o evangelho, o Dia do Senhor, e uma comparação do passado judaico de Paulo com sua experiência cristã atual (<a href=\"https://ref.ly/Phil3:4-Phil3:16\">Fp 3.4–16</a>), além do famoso “hino” em <a href=\"https://ref.ly/Phil2:1-Phil2:30\">Filipenses 2</a>.</p><h2>Conteúdo</h2><h3>Saudação e oração de abertura (<a href=\"https://ref.ly/Phil1:1-Phil1:11\">1.1–11</a>)</h3><p>No primeiro parágrafo de sua carta, Paulo introduz os temas principais nos quais ele se concentrará. Seu calor pessoal em relação aos filipenses é claro: “Vocês estão sempre no meu coração... o meu grande amor por todos vocês” (<a href=\"https://ref.ly/Phil1:7-Phil1:8\">Fp 1.7–8</a>). Esta ideia de amor e sofrimento permeia toda a carta. Também é notável que a carta começa e termina com os temas de “graça” e “os santos” (<a href=\"https://ref.ly/Phil1:1-Phil1:2\">Fp 1.1–2</a>; <a href=\"https://ref.ly/Phil4:21-Phil4:23\">4.21–23</a>). A graça de Cristo, que alcança as pessoas pecadoras e as transforma, separando-as do mundo, é um foco chave para Paulo. “Os santos” são aqueles que, tocados por essa graça, são transformados em coração e mente, permitindo que seu amor cresça em conhecimento e discernimento (<a href=\"https://ref.ly/Phil1:9\">Fp 1.9</a>).</p><p>Dois temas importantes aparecem aqui. A palavra grega <em>phroneo</em>, que significa &quot;pensar&quot;, é usada mais em Filipenses do que em qualquer outra carta de Paulo, aparecendo nove vezes em comparação com sete em Romanos. Infelizmente, as traduções em português não a traduzem de forma consistente, tornando difícil para os leitores perceberem sua repetição e o foco no uso correto da mente. Para Paulo, isso é crucial: como pensamos é central para a vida cristã. Nestes versículos iniciais, ele deixa claro que o amor que sente pelos filipenses reflete a maneira cristã de pensar sobre eles (<a href=\"https://ref.ly/Phil1:7\">Fp 1.7</a>: &quot;E é justo que eu me sinta assim a respeito de vocês&quot;). Isso naturalmente leva a outro foco — crescimento. A &quot;mente cristã&quot; não se desenvolve da noite para o dia. Paulo ora para que essa mente cresça, dando aos filipenses discernimento que transformará seu caráter e os preparará para “o dia da vinda de Cristo” (<a href=\"https://ref.ly/Phil1:10-Phil1:11\">Fp 1.10–11</a>; veja também <a href=\"https://ref.ly/Phil1:6\">1.6</a>).</p><p>Nesta oração de abertura, vemos um foco no evangelho e na comunhão. Paulo agradece aos filipenses por sua parceria no evangelho (<a href=\"https://ref.ly/Phil1:5\">Fp 1.5</a>; veja também <a href=\"https://ref.ly/Phil1:7\">1.7</a>). Ele também introduz o importante tema da alegria (<a href=\"https://ref.ly/Phil1:4\">Fp 1.4</a>). Esses três elementos são cruciais para toda a carta.</p><h3>Paulo e seu encarceramento: Cristo exaltado (<a href=\"https://ref.ly/Phil1:12-Phil1:26\">1.12–26</a>)</h3><p>Paulo escreve sobre sua situação para destacar o cerne de sua mensagem. Quando ele diz: “Pois para mim viver é Cristo&quot; (<a href=\"https://ref.ly/Phil1:21\">Fp 1.21</a>), ele quer dizer mais do que apenas passar cada momento em comunhão com o Senhor e servi-lo. Ele também quer dizer que ele demonstra Cristo através de sua própria vida e experiências. Mais tarde, ele dirá: “Ponham em prática o que vocês receberam e aprenderam de mim, tanto com as minhas palavras como com as minhas ações” (<a href=\"https://ref.ly/Phil4:9\">Fp 4.9</a>). Poucos ministros cristãos fariam tal afirmação hoje. No entanto, Paulo acreditava que, como apóstolo de Cristo, ele tinha o privilégio não apenas de falar por Cristo, mas também de viver a vida de Cristo em suas próprias ações, mesmo que isso significasse sofrimento e humilhação.</p><p>Existem dois desafios principais aqui:</p><ol><li><p>É difícil entender a situação que Paulo menciona em <a href=\"https://ref.ly/Phil1:12-Phil1:18\">Filipenses 1.12–18</a>. A igreja em Roma, se esse for o local dele, estava dividida sobre sua prisão. Alguns crentes estavam realmente felizes que ele estava na cadeia. Sua prisão parecia motivá-los a pregar sua própria versão do evangelho. Em vez de ficar chateado, Paulo estava feliz. “Mas que importa?” ele pergunta (<a href=\"https://ref.ly/Phil1:18\">Fp 1.18</a>). Seja por amigo ou inimigo, Cristo estava sendo proclamado de uma nova maneira por causa de sua prisão (<a href=\"https://ref.ly/Phil1:14\">Fp 1.14</a>). Paulo geralmente defendia a pureza da Palavra, então esses rivais provavelmente não eram hereges.</p></li><li><p>O outro desafio histórico envolve <a href=\"https://ref.ly/Phil1:19-Phil1:26\">Filipenses 1.19–26</a>. A princípio, Paulo parece incerto sobre o resultado de sua prisão (<a href=\"https://ref.ly/Phil1:19-Phil1:21\">Fp 1.19–21</a>). Em seguida, ele sugere que pode escolher entre a vida e a morte (<a href=\"https://ref.ly/Phil1:22\">Fp 1.22</a>). Finalmente, ele diz aos filipenses que está confiante de que permanecerá vivo (<a href=\"https://ref.ly/Phil1:25\">Fp 1.25</a>). A melhor explicação é que Paulo acreditava que o Espírito Santo pessoalmente o assegurou de que sua prisão não levaria à sua execução.</p></li></ol><p>A atitude dele em relação à própria morte é muito comovente. Ele esperava ser resgatado, seja pela vida ou pela morte (<a href=\"https://ref.ly/Phil1:19-Phil1:20\">Fp 1.19–20</a>), e tinha forte confiança de que morrer é &quot;bem melhor&quot; (<a href=\"https://ref.ly/Phil1:23\">Fp 1.23</a>) porque significa estar &quot;com Cristo.&quot; Esta seção termina de forma alegre.</p><h3>A vida digna do evangelho (<a href=\"https://ref.ly/Phil1:27-Phil2:18\">1.27–2.18</a>)</h3><p>Esta seção termina com &quot;alegria&quot;, assim como a última, e sua mensagem principal está no chamado inicial de <a href=\"https://ref.ly/Phil1:27\">Filipenses 1.27</a>. Paulo desejava que os filipenses não tivessem diferença entre o que dizem e o que fazem, onde o evangelho que acreditam é o evangelho que vivem. A seção está dividida em quatro partes, intituladas da seguinte forma:</p><ol><li><p>Viver dignamente em um mundo desafiador (<a href=\"https://ref.ly/Phil1:27-Phil1:30\">Fp 1.27–30</a>)</p></li><li><p>Viver dignamente em comunhão cristã (<a href=\"https://ref.ly/Phil2:1-Phil2:4\">Fp 2.1–4)</a></p></li><li><p>O evangelho que nos inspira (<a href=\"https://ref.ly/Phil2:5-Phil2:11\">Fp 2.5–11)</a></p></li><li><p>Prioridades para vidas dignas do evangelho (<a href=\"https://ref.ly/Phil2:12-Phil2:18\">Fp 2.12–18</a>)</p></li></ol><p>Paulo não queria que os Filipenses pensassem que ele estava em uma situação pior do que a deles. Ele escreveu: “Agora vocês podem tomar parte comigo na luta. Como vocês sabem, a luta que vocês viram que tive no passado é a mesma que ainda continua” (<a href=\"https://ref.ly/Phil1:30\">Fp 1.30</a>). Sofrer em um mundo hostil faz parte de ser um discípulo cristão. Se acreditamos em um evangelho sobre alguém que, embora igual a Deus, deixou a glória do céu e enfrentou não apenas a encarnação, mas também uma morte terrível (<a href=\"https://ref.ly/Phil2:6-Phil2:8\">Fp 2.6–8</a>), então devemos ver o sofrimento não como um fardo, mas como um privilégio. “Pois ele tem dado a vocês o privilégio de servir a Cristo, não somente crendo nele, mas também sofrendo por ele” (<a href=\"https://ref.ly/Phil1:29\">Fp 1.29</a>).</p><p>Os crentes precisam de unidade para enfrentar a hostilidade do mundo. Eles devem permanecer juntos, lutando pelas boas-novas (<a href=\"https://ref.ly/Phil1:27\">Fp 1.27</a>). Acreditar em um único evangelho cria uma frente unida contra o mundo, não apenas uma defensiva. O tema da unidade continua em <a href=\"https://ref.ly/Phil2:1-Phil2:30\">Filipenses 2</a>, onde Paulo discute a vida dentro da comunhão (<a href=\"https://ref.ly/Phil2:1-Phil2:4\">2.1–4</a>). Ele sugere que a unidade externa é impossível sem verdadeira unidade em amor, espírito e propósito (<a href=\"https://ref.ly/Phil2:2\">Fp 2.2</a>), independentemente de sua situação. Essa unidade requer ternura e compaixão entre eles (<a href=\"https://ref.ly/Phil2:1\">Fp 2.1</a>). A progressão em <a href=\"https://ref.ly/Phil2:1\">Filipenses 2.1</a> atinge seu ápice com essa ideia, levando ao famoso “hino” em <a href=\"https://ref.ly/Phil2:6-Phil2:11\">Filipenses 2.6–11</a>. Tal ternura só prosperará se eles acreditarem no evangelho celebrado no hino.</p><p>É impossível saber se <a href=\"https://ref.ly/Phil2:6-Phil2:11\">Filipenses 2.6–11</a> era um hino real cantado no culto cristão primitivo. A linguagem de Paulo tem uma qualidade hínica, mas não é poética. Muitos estudiosos acreditam que Paulo não escreveu esses versos ele mesmo, mas citou uma peça litúrgica bem conhecida. O que é certo é que seu estilo de linguagem muda, e ele expressa ideias únicas aqui.</p><p>O hino se encaixa perfeitamente em seu contexto e é o coração de toda a carta. Ele mostra como prisão e libertação, juntamente com sofrimento e alegria, refletem as próprias experiências de Jesus. Jesus morreu e ressuscitou, foi humilhado e depois glorificado.</p><h3>Dois exemplos e amigos dignos (<a href=\"https://ref.ly/Phil2:19-Phil2:30\">2.19–30</a>)</h3><p>Paulo escreve sobre sua situação e planos, mas esta seção é mais do que apenas detalhes práticos. Ele explica por que enviou a carta com Epafrodito em vez de Timóteo. Ele os usa como exemplos de viver pelo evangelho, que ele havia acabado de discutir. Timóteo &quot;é o único que se preocupa com vocês... se interessa pelo bem-estar de vocês&quot; (<a href=\"https://ref.ly/Phil2:20\">Fp 2.20</a>) porque busca os interesses de Jesus Cristo, não os seus próprios (<a href=\"https://ref.ly/Phil2:21\">2.21</a>). Ele vive o evangelho e está comprometido com seu trabalho (<a href=\"https://ref.ly/Phil2:22\">Fp 2.22</a>). Epafrodito é semelhante, mas de uma maneira diferente. Sua conexão com Jesus se mostra em sua doença e na dor de estar separado dos outros. Como Jesus, ele arriscou sua vida (<a href=\"https://ref.ly/Phil2:30\">Fp 2.30</a>) e foi restaurado à vida (<a href=\"https://ref.ly/Phil2:27\">2.27</a>). Agora, ele retornará aos filipenses, e sua alegria compartilhada demonstrará ainda mais o evangelho.</p><h3>Avançando e mantendo-se firmes (<a href=\"https://ref.ly/Phil3:1-Phil4:1\">3.1–4.1</a>)</h3><p>Esta seção começa e termina com alegria (<a href=\"https://ref.ly/Phil3:1\">Fp 3.1</a>; <a href=\"https://ref.ly/Phil4:1\">4.1</a>) — não por acaso. O caminho da cruz que Paulo descreve é também um caminho de alegria (veja <a href=\"https://ref.ly/Heb12:2\">Hebreus 12.2</a>). Também começa e termina com a frase “meus irmãos”, o que é intencional. Paulo escreve sobre si mesmo, sugerindo que sua experiência é típica. Ele encoraja os leitores a esperar e buscar o mesmo padrão em suas vidas. Ele escreveu: “Meus irmãos, continuem a ser meus imitadores. E olhem com atenção também os que vivem de acordo com o exemplo que temos dado a vocês” (<a href=\"https://ref.ly/Phil3:17\">Fp 3.17</a>). Depois de apresentar Timóteo e Epafrodito como exemplos em <a href=\"https://ref.ly/Phil2:19-Phil2:30\">Filipenses 2.19–30</a>, Paulo agora usa a si mesmo como exemplo.</p><p>O tom muda drasticamente em <a href=\"https://ref.ly/Phil3:2\">Filipenses 3.2</a> quando Paulo adverte os filipenses sobre &quot;esses cachorros&quot;, provavelmente os mesmos que ele chama de &quot;seus inimigos&quot; em <a href=\"https://ref.ly/Phil1:28\">Filipenses 1.28</a>. Anteriormente, ele se concentrou na força interior dos filipenses contra eles, sem especificar quem eram. Agora, ele os examina de perto para mostrar aos filipenses que a vida cristã exige uma reversão completa dos valores de seus oponentes.</p><p>Eram provavelmente judeus, semelhantes aos de <a href=\"https://ref.ly/Acts17:5\">Atos 17.5</a>, que se opuseram ao trabalho de Paulo em Tessalônica. Eles acreditavam ser o povo escolhido de Deus, mas Paulo via isso como uma confiança no esforço humano (<a href=\"https://ref.ly/Phil3:4\">Fp 3.4</a>). Eles pensavam que a justiça vinha da obediência estrita à lei de Deus em todos os aspectos da vida. No entanto, Paulo argumentava que isso era buscar uma justiça pessoal (<a href=\"https://ref.ly/Phil3:9\">Fp 3.9</a>), não relacionada à justiça que Deus oferece. Paulo insistia apaixonadamente que o verdadeiro caminho para ser o povo de Deus é através da abnegação. Ele considerava tudo o que antes valorizava como judeu como sem valor (<a href=\"https://ref.ly/Phil3:8\">Fp 3.8</a>), uma perda por causa de Cristo (<a href=\"https://ref.ly/Phil3:7\">3.7</a>). A única maneira de alcançar a justiça é através da fé em Cristo (<a href=\"https://ref.ly/Phil3:9\">3.9</a>). Os cristãos devem se tornar como Cristo em sua morte para experimentar o poder de sua ressurreição (<a href=\"https://ref.ly/Phil3:10\">3.10</a>). Para Paulo, morrer com Cristo significava não apenas suportar a prisão e outras dificuldades por Cristo, mas também abrir mão de todos os aspectos valorizados de sua herança judaica.</p><h3>Pensando, regozijando, compartilhando (<a href=\"https://ref.ly/Phil4:2-Phil4:23\">4.2–23</a>)</h3><p>O tom muda repentinamente tanto em <a href=\"https://ref.ly/Phil4:2\">Filipenses 4.2</a> quanto em <a href=\"https://ref.ly/Phil4:10\">4.10</a>. Alguns estudiosos acreditam que um editor compilou Filipenses a partir de diferentes cartas. No entanto, quando Paulo se dirige a Evódia e Síntique em <a href=\"https://ref.ly/Phil4:2\">Filipenses 4.2</a>, ele não muda de assunto. A conexão com a última seção é semelhante à ligação entre <a href=\"https://ref.ly/Phil1:27-Phil1:30\">Filipenses 1.27–30</a> e o primeiro parágrafo em <a href=\"https://ref.ly/Phil2:1-Phil2:30\">Filipenses 2</a>. Como os cristãos podem se manter firmes contra os inimigos da cruz de Cristo (<a href=\"https://ref.ly/Phil3:18\">Fp 3.18</a>) se estão divididos? Se há apenas um evangelho, a desarmonia entre os cristãos significa que o evangelho não é totalmente eficaz. Portanto, Evódia e Síntique são instadas a &quot;viver bem uma com a outra como irmãs na fé&quot; (<a href=\"https://ref.ly/Phil4:2\">Fp 4.2</a>). Elas são lembradas de sua unidade passada quando trabalharam juntas pelo evangelho (<a href=\"https://ref.ly/Phil4:3\">Fp 4.3</a>).</p><p>Paulo os encoraja a concordar, mas isso não significa que eles devem ter as mesmas opiniões sobre tudo. Significa que eles devem compartilhar um amor comum por Cristo e pelo evangelho. No restante da carta, Paulo explica o que essa unidade significa na prática — tanto o que deveria significar quanto o que significou para os filipenses. Usar a mente é importante, e em <a href=\"https://ref.ly/Phil4:4-Phil4:9\">Filipenses 4.4–9</a>, Paulo descreve a vida cristã. Ele enfatiza a oração cuidadosa e inteligente (<a href=\"https://ref.ly/Phil4:6-Phil4:7\">Fp 4.6–7</a>) e o foco da mente em “tudo o que é bom e merece elogios&quot; (<a href=\"https://ref.ly/Phil4:8\">Fp 4.8</a>). Esse foco levará a uma vida cheia de paz e alegria, independentemente das circunstâncias.</p><p>Paulo agradece à igreja de Filipos por sua unidade e apoio, apesar de alguma desarmonia. Eles demonstraram sua unidade com Paulo enviando um presente através de Epafrodito. Paulo escreve, &quot;vocês fizeram bem em me ajudar nas minhas aflições&quot; (<a href=\"https://ref.ly/Phil4:14\">Fp 4.14</a>). Isso nos lembra do hino em <a href=\"https://ref.ly/Phil2:6-Phil2:11\">Filipenses 2.6–11</a>. O evangelho fala daquele que veio do céu para carregar nossos fardos, levando ao compartilhamento mútuo. Paulo mostra uma atitude positiva em relação à sua situação: &quot;Sei o que é estar necessitado [a mesma palavra que em <a href=\"https://ref.ly/Phil2:8\">Filipenses 2.8</a>] e sei também o que é ter mais do que é preciso&quot; (<a href=\"https://ref.ly/Phil4:12\">Fp 4.12</a>). Estando unidos com Cristo, não nos preocupamos com nossas necessidades. Em vez disso, compartilhamos quaisquer desafios ou sucessos que ele nos proporciona, confiando que Deus suprirá todas as nossas necessidades &quot;de acordo com as gloriosas riquezas que ele tem para oferecer por meio de Cristo Jesus&quot;. (<a href=\"https://ref.ly/Phil4:19\">Fp 4.19</a>).</p><p><em>Veja também</em> <span data-bnType=\"resourceReference\" data-resourceId=\"6782\" data-resourceType=\"TyndaleBibleDictionary\">Paulo, O Apóstolo</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"6879\" data-resourceType=\"TyndaleBibleDictionary\">Filipos</span>.</p>",
@@ -5969,13 +6082,21 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "group:Philippi",
+"type": "group",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Philippians"
+}
+]
 }
 },
 {
 "content_id": "816053",
 "reference_id": 6879,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Filipos",
 "media_type": "Text",
 "index_reference": "filipos",
@@ -6038,9 +6159,9 @@
 {
 "id": "place:Philippi",
 "type": "place",
-"preferred_label": "Filipos",
 "confidence": 1.0,
-"match_method": "embedding"
+"match_method": "content_id",
+"preferred_label": "Filipos"
 }
 ]
 }
@@ -6048,10 +6169,10 @@
 {
 "content_id": "658709",
 "reference_id": 6881,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Filístia, filisteus",
 "media_type": "Text",
-"index_reference": "filístia, filisteus",
+"index_reference": "filístia filisteus",
 "language": "por",
 "review_level": "Professional",
 "content": "<h1>FILÍSTIA, FILISTEUS</h1><p>Pequeno país situado no sudoeste da Palestina, ao longo da costa do Mediterrâneo; povo Egeu que se estabeleceu na planície marítima de Canaã.</p><p>Resumo</p><p>•&nbsp;Território</p><p>•&nbsp;O povo</p><p>•&nbsp;Governo</p><p>•&nbsp;Religião e objetos cerimoniais</p><p>•&nbsp;Os filisteus e Israel</p><h2>Território</h2><p>Estritamente falando, Filístia é aquela parte da planície marítima chamada de planície de Filístia, estendendo-se do Wadi el-Arish (Rio do Egito) no sul, cerca de 112 quilômetros ao norte até o Nahr el-Aujah, 8 quilômetros ao norte de Jope. Perto de Gaza, a planície atinge sua maior largura, cerca de 48&nbsp;quilômetros. Há dunas de areia perto da costa, mas a maior parte da área é muito fértil e produz uma abundância de grãos (cf. <a href=\"https://ref.ly/Judg15:1-Judg15:5\">Jz 15.1–5</a>) e frutas.</p><p>A principal rodovia entre o Leste e o Egito ficava ao longo da costa. Isso era uma vantagem comercial para os filisteus, mas os deixava vulneráveis a invasões estrangeiras. Deus não conduziu Israel do Egito a Canaã por essa rota mais curta através da terra dos filisteus, porque não queria que eles enfrentassem combates ferozes dos filisteus (ou talvez de uma guarnição egípcia estacionada lá) tão cedo (<a href=\"https://ref.ly/Exod13:17\">Êx 13.17</a>). Aparentemente, os filisteus tinham pouco a temer dos egípcios, pois alguns estudiosos pensam que os egípcios tiveram participação no estabelecimento dos filisteus na Palestina.</p><p>A partir dessa área restrita, os filisteus logo sentiram a necessidade de expandir. As passagens através da Sefelá proporcionavam acesso natural à região montanhosa de Israel. Eles estabeleceram postos avançados no território israelita, e na época da batalha em que Saul e seus filhos foram mortos, os filisteus exerciam controle sobre a cidade de Bete-Seã (<a href=\"https://ref.ly/1Sam31:10\">1Sm 31.10</a>).</p><h2>O povo</h2><p>A Bíblia afirma que os filisteus vieram de Caftor (<a href=\"https://ref.ly/Deut2:23\">Dt 2.23</a>; <a href=\"https://ref.ly/Jer47:4\">Jr 47.4</a>; <a href=\"https://ref.ly/Amos9:7\">Am 9.7</a>), geralmente considerado como Creta, embora alguns estudiosos o coloquem na Ásia Menor. A vestimenta dos filisteus, como mostrado em Medinet Habu, é semelhante à dos cretenses, especialmente o cocar. O nome dos queretitas foi equiparado aos cretenses, pois os nomes têm a mesma base consonantal: <em>c, r,</em> e <em>t.</em> Os queretitas eram aparentemente um subgrupo dos filisteus que viviam no Neguebe, não longe de Ziclague, lar de Davi entre os filisteus (cf. <a href=\"https://ref.ly/1Sam30:14\">1Sm 30.14</a>). Os queretitas e os peletitas estavam entre os guarda-costas de Davi, junto com 600 geteus (homens de Gate) (cf. <a href=\"https://ref.ly/2Sam15:19\">2Sm 15.19</a>; <a href=\"https://ref.ly/2Sam20:7,2Sam20:23\">20.7,23</a>; <a href=\"https://ref.ly/1Chr18:17\">1Cr 18.17</a>).</p><p>O nome filisteus é reconhecível em várias línguas. Em hebraico, eles são conhecidos como os Pelishtim<em>,</em> que foi traduzido para o português como filisteus. Nas fontes egípcias, eles estão listados entre os Povos do Mar e são chamados de <em>Peleset</em> ou <em>Peleste.</em> Eles são mais conhecidos por sua participação na invasão do Egito pelos Povos do Mar, que foram derrotados por Ramsés III em uma batalha terrestre e marítima no Delta. Cenas detalhadas dessa luta são mostradas em relevo profundo na parede externa norte do templo de Ramsés III em Medinet Habu, em frente a Luxor. Essas representações dão uma ideia do traje e armamento dos filisteus, que são facilmente identificados por seu cocar, feito de penas (ou juncos?).</p><p>Essas pessoas se estabeleceram ao longo da costa da Palestina após serem derrotadas por Ramsés, mas é possível que algumas tenham permanecido em Canaã a caminho do Egito. Talvez uma migração anterior para a Palestina tenha ocorrido, possivelmente antes da época dos patriarcas.</p><h2>Governo</h2><p>Filístia não tinha um único governante sobre toda a sua terra; as cidades eram independentes, funcionando como cidades-estado. Os líderes dessas cidades não eram chamados de reis, mas na Bíblia eram mencionados como &quot;senhores&quot; ou &quot;governantes&quot; (e.g., <a href=\"https://ref.ly/1Sam5:11\">1Sm 5.11</a>; <a href=\"https://ref.ly/1Sam6:12\">6.12</a>; <a href=\"https://ref.ly/1Sam29:2\">29.2</a>), e havia cinco deles, correspondendo às cinco principais cidades que compunham a Pentápolis Filisteia: Gaza, Asquelom, Asdode, Gate e Ecrom (<a href=\"https://ref.ly/1Sam6:17\">1Sm 6.17</a>; cf. <a href=\"https://ref.ly/Jer25:20\">Jr 25.20</a>). O povo tinha voz em questões que lhes diziam respeito — por exemplo, o retorno da Arca da Aliança (<a href=\"https://ref.ly/1Sam5:6-1Sam5:12\">1Sm 5.6–12</a>) — mas as grandes decisões eram tomadas por votação majoritária dos cinco senhores. Enquanto Davi e seus homens viviam em Ziclague, por exemplo, os filisteus planejaram uma grande campanha militar contra Israel. Davi estava sujeito a Aquis, rei de Gate, que pediu a Davi para se unir aos filisteus contra Israel. Davi concordou com isso, mas quando os senhores filisteus descobriram que Davi estava presente, eles reclamaram e votaram para excluí-lo (cap. <a href=\"https://ref.ly/1Sam29:1-1Sam29:11\">29</a>).</p><h2>Religião e objetos cerimoniais</h2><p>Os deuses que os filisteus trouxeram com eles parecem ter sido abandonados relativamente cedo em favor das divindades cananeias. Um deus filisteu primário mencionado na Bíblia é Dagom, um deus do grão. Templos para Dagom foram encontrados em Ras Shamra (Ugarit) e Mari. A Bíblia menciona um templo de Dagom em Gaza (<a href=\"https://ref.ly/Judg16:23-Judg16:30\">Jz 16.23–30</a>) e outro em Asdode (<a href=\"https://ref.ly/1Sam5:1-1Sam5:5\">1Sm 5.1–5</a>).</p><h2>Os filisteus e Israel</h2><p>As várias formas de “filisteu” e “Filístia” aparecem quase 300 vezes no AT, principalmente nos livros de Juízes e Samuel. A ocorrência mais antiga está em <a href=\"https://ref.ly/Gen10:14\">Gênesis 10.14</a>, onde é dito que os filisteus vieram dos Casluins, um povo não identificado relacionado aos Caftorins (cf. <a href=\"https://ref.ly/1Chr1:12\">1Cr 1.12</a>).</p><p>Tanto Abraão quanto Isaque tiveram contatos com os filisteus em Gerar, em incidentes paralelos envolvendo suas esposas (<a href=\"https://ref.ly/Gen20:1-Gen20:18\">Gn 20</a>; <a href=\"https://ref.ly/Gen26:1-Gen26:35\">26</a>). Aqui, no entanto, os filisteus não estão na costa, mas em Gerar e até o leste, em Berseba (<a href=\"https://ref.ly/Gen26:33\">26.33</a>). Em ambas as referências, o rei de Gerar é chamado Abimeleque — um bom nome semítico. Foi sugerido que os filisteus daquela época haviam migrado anteriormente de Creta, mas isso não foi demonstrado.</p><p>Após a conquista israelita de Canaã, os filisteus começaram a exercer superioridade sobre os israelitas. Um povo agressivo e militante, os filisteus tinham a vantagem de armas superiores, pois usavam ferro e mantinham um monopólio sobre a fabricação de ferro na área. Seu controle sobre Israel permitiu-lhes proibir a metalurgia em Israel, forçando os israelitas a irem aos filisteus até mesmo para afiar ferramentas (<a href=\"https://ref.ly/1Sam13:19-1Sam13:22\">1Sm 13.19–22</a>). Os israelitas estavam tão mal armados que apenas Saul e Jônatas tinham uma espada ou uma lança (v <a href=\"https://ref.ly/1Sam13:22\">22</a>). Instalações para fundição de ferro foram encontradas em Asdode, Tell Qasile, Tell Jemmeh e Tel Mor.</p><p>Os relevos de Medinet Habu mostram os filisteus armados com lanças e espadas longas e retas, utilizando grandes escudos redondos para proteção. Eles possuíam carruagens para três homens com rodas de seis raios e transportavam pessoas em carros sólidos de duas rodas puxados por quatro bois. Seus navios eram equipados com uma vela quadrada, semelhante à dos egípcios, e tinham uma proa em forma de pato, que possivelmente era usada para arremeter contra embarcações inimigas.</p><p>A apostasia surgiu cedo em Israel, e o Senhor usou os filisteus para castigar seu povo. Sangar libertou Israel matando 600 filisteus com uma aguilhada de boi (<a href=\"https://ref.ly/Judg3:31\">Jz 3.31</a>). O relato de Sansão contém muitos elementos da vida filisteia (<a href=\"https://ref.ly/Judg13:1-Judg16:31\">13.1–16.31</a>). Este registro demonstra que havia casamentos entre israelitas e filisteus, o que era contrário à lei do AT.</p><p>A guerra entre Israel e os filisteus é relatada em <a href=\"https://ref.ly/1Sam4:1\">1&nbsp;Samuel 4.1</a>, quando os israelitas estavam acampados em Ebenezer e os filisteus em Afeca. Os filisteus venceram aquela batalha e capturaram a Arca da Aliança (<a href=\"https://ref.ly/1Sam4:17\">1Sm 4.17</a>), que eles devolveram após sete meses porque o Senhor enviou pragas sobre eles (<a href=\"https://ref.ly/1Sam5:1-1Sam6:21\">5.1–6.21</a>). Mais tarde, quando Samuel se tornou líder, os filisteus atacaram Israel em Mispa, mas Deus deu a vitória a Israel. Nessa ocasião, Samuel ergueu uma pedra memorial e a chamou de Ebenezer (“Pedra de Ajuda”, <a href=\"https://ref.ly/1Sam7:12\">7.12</a>). Os filisteus não invadiram Israel novamente durante a vida de Samuel, e Israel recuperou cidades que haviam sido tomadas pelos filisteus (v <a href=\"https://ref.ly/1Sam7:14\">14</a>).</p><p>A maior atividade dos filisteus em território israelita ocorreu durante o reinado de Saul, o primeiro rei de Israel. Mais de 80 referências aos filisteus estão relacionadas a esse período. Os filisteus estabeleceram postos avançados ou guarnições em várias partes de Israel (cf. <a href=\"https://ref.ly/1Sam10:5\">1Sm 10.5</a>; <a href=\"https://ref.ly/1Sam13:3\">13.3</a>). Jônatas derrotou a guarnição em Geba (<a href=\"https://ref.ly/1Sam13:3\">13.3</a>); sua façanha relatada em <a href=\"https://ref.ly/1Sam14:1-1Sam14:15\">1&nbsp;Samuel 14.1–15</a> levou a uma derrota dos filisteus.</p><p>Um confronto entre os exércitos dos filisteus e dos Israelitas ocorreu no Vale de Elá, onde os Filisteus desafiaram Israel a fornecer um oponente para enfrentar seu campeão, Golias, em combate singular (<a href=\"https://ref.ly/1Sam17:1-1Sam17:11\">1Sm 17.1–11</a>). O jovem pastor Davi matou Golias; Davi tornou-se um herói, mas o ciúme de Saul fez de Davi um homem perseguido. Enquanto fugia do exército de Saul, os homens de Davi resgataram a cidade de Queila dos filisteus (<a href=\"https://ref.ly/1Sam23:1-1Sam23:5\">23.1–5</a>). Eventualmente, Davi buscou asilo político com Aquis, rei de Gate, que lhe deu a cidade de Ziclague, de onde Davi fez incursões no Neguebe (cap <a href=\"https://ref.ly/1Sam27:1-1Sam27:12\">27</a>).</p><p>Quando os filisteus estavam se preparando para a guerra contra Israel, Aquis pediu a Davi para se juntar às forças dos filisteus, e Davi concordou. No entanto, os senhores dos filisteus votaram contra essa participação, pois temiam que Davi se voltasse contra eles (<a href=\"https://ref.ly/1Sam28:1-1Sam28:2\">1Sm 28.1–2</a>; <a href=\"https://ref.ly/1Sam29:1-1Sam29:11\">29</a>). Na batalha que se seguiu, Saul e seus filhos foram mortos no Monte Gilboa pelos filisteus (<a href=\"https://ref.ly/1Sam31:1-1Sam31:7\">31.1–7</a>). Os filisteus cortaram a cabeça de Saul, colocaram sua armadura no templo de Astarote em Bete-Seã e penduraram seu corpo na muralha daquela cidade (vv <a href=\"https://ref.ly/1Sam31:8-1Sam31:11\">8–11</a>).</p><p>Quando os filisteus souberam que Davi havia se tornado rei, fizeram um esforço para destruí-lo, mas ele os derrotou &quot;de Geba a Gezer&quot; (<a href=\"https://ref.ly/2Sam5:17-2Sam5:25\">2Sm 5.17–25</a>). Davi quebrou o poder dos filisteus, e embora eles tenham tentado novamente guerrear contra Israel, não tiveram sucesso (<a href=\"https://ref.ly/2Sam21:15-2Sam21:21\">21.15–21</a>).</p><p>Uzias guerreou contra os filisteus; ele derrubou os muros de Gate, Jabne e Asdode e construiu cidades na Filístia (<a href=\"https://ref.ly/2Chr26:6-2Chr26:7\">2Cr 26.6–7</a>). No reinado de Acaz, os filisteus invadiram a Sefelá e o Neguebe e capturaram várias cidades (<a href=\"https://ref.ly/2Chr28:18\">28.18</a>). Ezequias lutou contra os filisteus até Gaza (<a href=\"https://ref.ly/2Kgs18:8\">2Rs 18.8</a>).</p><p>As referências aos filisteus nos profetas são relativamente poucas, embora Jeremias dedique um curto capítulo aos filisteus (<a href=\"https://ref.ly/Jer47:1-Jer47:7\">Jr 47</a>). Os filisteus foram gradualmente assimilados à cultura cananeia e desapareceram das páginas da Bíblia e da história secular, deixando o nome Palestina como um monumento à sua presença.</p>",
@@ -6367,18 +6488,18 @@
 "resource": [],
 "acai": [
 {
-"id": "group:Philistine",
-"type": "group",
-"preferred_label": "Filisteu",
-"confidence": 0.5731,
-"match_method": "scored"
-},
-{
 "id": "place:Philistine",
 "type": "place",
-"preferred_label": "Filístia",
-"confidence": 0.5501,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Filístia"
+},
+{
+"id": "group:Philistine",
+"type": "group",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Filisteu"
 }
 ]
 }
@@ -6386,10 +6507,10 @@
 {
 "content_id": "481568",
 "reference_id": 6882,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Filo, Judeu",
 "media_type": "Text",
-"index_reference": "filo, judeu",
+"index_reference": "filo judeu",
 "language": "por",
 "review_level": "Professional",
 "content": "<h1>FILO*, Judeu</h1><p>Filósofo judeu helenístico (c.&nbsp;25 a.C.– 40 d.C.) cujo pensamento apresenta o primeiro grande confronto da fé bíblica com o pensamento grego.</p><p>Filho de uma proeminente família alexandrina, Filo foi educado tanto na fé judaica quanto na filosofia e cultura grega. Dos eventos de sua vida, sabemos pouco, exceto que em 40 d.C. ele liderou uma delegação da comunidade judaica em Alexandria ao Imperador Calígula em Roma. A tensão étnica em Alexandria havia crescido à medida que a população judaica aumentava e prosperava. A tensão eclodiu em 42 d.C. em tumultos pelos gregos e na expulsão dos judeus das seções gentias nas quais eles haviam se espalhado. O sucesso comercial dos judeus, particularmente no comércio de trigo, levou a um anti-semitismo intensificado. Dos tumultos surgiram dois tratados apologéticos de Filo Judeu, <em>Contra Flaco</em> (Flaco estava governando em Alexandria) e <em>Embaixada a Calígula</em> (Calígula era Imperador em Roma).</p><p>A comunidade judaica em Alexandria estava completamente helenizada. Até mesmo as Escrituras eram lidas na tradução grega chamada Septuaginta. Apesar de esses judeus viverem e participarem da cultura grega, eles permaneciam ortodoxos. Filo não era exceção. Por um lado, ele observava cuidadosamente a lei mosaica e sustentava que ela é a vontade infalivelmente revelada de Deus, tanto para o povo escolhido de Deus — os judeus — quanto para os gentios. Por outro lado, Filo era muito grego. Provavelmente conhecia o hebraico apenas de forma imperfeita e recebeu uma educação liberal sob tutores gregos. Sua Bíblia era o AT, especialmente o Pentateuco, que ele considerava mais autoritativo, mas ele a lia na tradução grega. Porque ele acreditava que a Septuaginta era divinamente inspirada, Filo não tinha necessidade de se referir ao texto hebraico original.</p><p>Para entender o trabalho de Filo, é preciso reconhecer que a necessidade de chegar a um acordo com a cultura grega não surgiu apenas de uma necessidade prática, mas também do fato de que o judaísmo é uma religião missionária. Os judeus não podiam simplesmente virar as costas para o mundo grego, pois os profetas haviam chamado Israel para ser uma luz para os gentios. A partir de seus estudos, Filo também estava convencido de que há muito de verdadeiro na filosofia grega. Consequentemente, ele estava ansioso para encontrar alguma maneira de correlacionar e harmonizar a verdade revelada biblicamente com os ensinamentos dos filósofos. Como um crente judeu considerando as reivindicações da filosofia grega, Filo foi confrontado com problemas muito semelhantes aos que um cristão enfrenta com as teorias científicas da evolução em nossos dias.</p><p>O método que Filo usou para harmonizar as Escrituras com os ensinamentos dos filósofos foi a interpretação alegórica. Este método de interpretação já havia sido praticado por muitos antes de Filo, e muitos outros seguiram seu exemplo. Através do uso deste método, Gênesis poderia ser lido como um mito contemporâneo sobre a condição humana e a busca do homem pela salvação, em vez de uma lenda antiga e um tanto rude (como os gregos a veriam). A leitura adequada do texto não oferece história e geografia antigas, mas sim verdade filosófica e moral. Segundo Filo, Moisés — tanto porque foi divinamente instruído quanto porque alcançou o auge da filosofia — não recorreu a ficções míticas, como fazem poetas e sofistas; ele foi capaz de tornar as ideias visíveis. Usando a interpretação alegórica, Filo encontrou no relato histórico e na lei cerimonial um significado interior e espiritual que incorpora a verdade que ele encontrou no pensamento grego.</p><p>Ao lidar com a concepção de Deus, Filo abordou as visões gregas de forma crítica e rejeitou o que era contrário às Escrituras. No entanto, ao lidar com a estrutura e composição do mundo, as Escrituras são bastante vagas, e assim Filo se sentiu livre para adotar o que parecia mais razoável nos escritos dos filósofos. Ele acreditava que Deus é a fonte tanto da lei mosaica quanto das verdades da filosofia grega. A mente humana é feita à imagem do Logos divino, e por isso tem alguma capacidade de receber e descobrir verdades sobre realidades que vão além do que se sente.</p><p>Entre os filósofos, Filo encontrou a visão de Platão mais próxima da verdade. Deus existiu desde a eternidade sem um&nbsp;mundo, e depois de criar o mundo, continuou a existir acima e além dele. Deus é a causa ativa, e este mundo é passivo, incapaz de vida e movimento por si só, mas uma obra-prima perfeita quando posto em movimento, moldado e vivificado por Deus. Além disso, Deus não negligencia sua criação, mas cuida dela e a preserva. Este cuidado é chamado de providência. Enquanto os gregos falavam de uma providência universal que preserva os processos naturais, para Filo a providência adquiriu um novo significado. É o cuidado de Deus por seres individuais, de modo que inclui o poder de suspender as leis da natureza.</p><p>Deus é um, mas é a fonte de toda multiplicidade. Ele é imutável e autossuficiente e, portanto, não precisa do mundo. A criação tem sua origem em sua bondade. Embora Moisés tenha dito que o mundo foi criado em seis dias, Deus deve ser pensado como fazendo todas as coisas simultaneamente. O relato de seis dias serve para mostrar que há ordem nas coisas. O mundo visível foi criado a partir do não-ser, do nada. Toda a matéria disponível foi usada na criação, então o mundo é único. O mundo foi criado pela vontade de Deus e pode ser imperecível. Filo pensava que Platão seguiu Moisés ao pensar que o mundo foi criado por Deus.</p><p>Quanto à doutrina do Logos, Filo é tanto dependente quanto crítico dos filósofos gregos. Platão afirmou que existem ideias eternas às quais o Artesão ou Criador olhou ao formar o mundo. Filo não podia aceitar essa posição, porque somente Deus é eterno. Ele harmonizou as duas visões afirmando que, desde a eternidade, as ideias existiam como pensamentos de Deus, mas se tornaram um mundo inteligível totalmente formado apenas quando Deus quis criar o mundo visível. O universo das ideias, que não tem localização além da razão divina, é o padrão segundo o qual o mundo sensível foi feito.</p><p>Para Filo, o Logos é muito mais do que apenas o instrumento pelo qual o mundo visível foi feito. Também é descrito como &quot;a ideia das ideias&quot;, o Filho primogênito do Pai incriado e &quot;Segundo Deus&quot;, o arquétipo da razão humana. O Logos é o poder vital que mantém unida toda a hierarquia dos seres criados. Como vice-rei de Deus, ele medeia a revelação para a ordem criada. Ele está na fronteira entre Criador e criatura. Ele é o sumo sacerdote que intercede com Deus em nome dos mortais. Ele apareceu na sarça ardente e habitou em Moisés. Alguns pensam que o Logos é Deus, mas ele é realmente a imagem de Deus. Embora se possa ter certeza de que o Logos não era uma pessoa para Filo, o status exato desse poder em relação a Deus não é de forma alguma claro.</p><p>Vários aspectos deste ensino foram abordados por escritores cristãos, mais notavelmente João, que ensinou que o Logos (a Palavra) é o instrumento pelo qual Deus criou o mundo (veja <a href=\"https://ref.ly/John1:1-John1:4\">Jo 1.1–4</a>). Sobre as origens desta visão, muito menos se sabe. Parece que a noção do Logos era corrente no judaísmo helenístico. Sua função no pensamento de Filo parece indicar que foram considerações filosóficas, em vez de bíblicas, que foram mais significativas em seu ensino.</p><p>Filo tinha outras visões sobre a criação. Ele acreditava que, enquanto os corpos celestes são criaturas vivas dotadas de mente e não suscetíveis ao mal, o homem tem uma natureza mista, sujeita ao fracasso. Ele pode ser tanto sábio quanto tolo, justo e injusto. Deus fez todas as coisas boas por si mesmo, mas o homem, porque é suscetível tanto ao bem quanto ao mal, deve ter sido feito por deidades menores. É por isso que somos informados por Moisés que Deus disse: “<em>Façamos</em> o homem” (<a href=\"https://ref.ly/Gen1:26\">Gn 1.26</a>, ênfase adicionada). No caso do homem, então, ser criado envolveu uma Queda. Aqui também há dois passos na Criação. Primeiro, há o homem criado à imagem divina, e isso é uma ideia ou tipo, um objeto apenas de pensamento, incorpóreo, nem masculino nem feminino, e por natureza incorruptível (<a href=\"https://ref.ly/Gen1:26\">Gn 1.26</a>). Mais tarde, diz que “Deus formou o homem do pó da terra e soprou em suas narinas o fôlego da vida” (<a href=\"https://ref.ly/Gen2:7\">Gn 2.7</a>). Este homem tornou-se um objeto de percepção sensorial, consistindo de corpo e alma, homem ou mulher, por natureza mortal. A mulher tornou-se para o homem o início de uma vida censurável. Quando o homem e a mulher se viram, o desejo foi despertado, e esse desejo produziu prazer corporal. Este prazer é o início dos erros e da violação da lei. O Jardim do Éden também deve ser interpretado simbolicamente em vez de literalmente. Nunca houve árvores da vida ou de entendimento, nem é provável que alguma vez apareçam na terra. A árvore da vida significa reverência a Deus; a árvore do conhecimento do bem e do mal significa prudência moral.</p><p>Vê-se em Filo, então, uma tendência ao dualismo em que o espírito é bom e a matéria é má, uma tendência derivada do platonismo e lida no AT. Isso levou Filo a concordar com os estóicos que o único bem é o bem da alma. Deus nos dá o mundo para usar, não para possuir. Para ascender ao mundo eterno da mente, um homem deve suprimir todas as respostas ao mundo sensível. Em geral, Filo tendia a um ascetismo que negava o mundo.</p><p>O único templo digno de Deus é uma alma pura. A verdadeira religião consiste na devoção interior em vez de aspectos externos. Nesta vida, a alma é uma peregrina, como Abraão ou como os israelitas vagando no deserto. Através da autodisciplina espiritual, a alma percebe que o corpo é um grande obstáculo à perfeição. O objetivo desta espiritualidade é aproximar-se de Deus, que atraiu a mente para si. Deus é cognoscível pela mente, mas é incognoscível em si mesmo. Podemos saber apenas que ele é, não o que ele é. Para Filo, a alma em sua busca pela perfeição acaba descobrindo que deve deixar de confiar em si mesma e deve reconhecer que a virtude é um dom de Deus. O homem que descobriu suas próprias limitações vem a conhecer Deus e sua própria dependência de Deus.</p><p>Embora Josefo tenha emprestado algo de Filo, a maior influência de Filo foi sobre os escritores cristãos. O judaísmo helenístico tornou-se menos significativo à medida que o judaísmo dos rabinos se tornou a norma durante os dois séculos seguintes. Em contraste, os cristãos dos séculos segundo e terceiro tinham muito em comum com Filo. Partes de sua obra foram traduzidas para o latim e armênio. Clemente e Orígenes, entre os pais gregos, e Ambrósio, entre os pais latinos, foram especialmente devedores a ele.</p>",
@@ -6421,7 +6542,7 @@
 {
 "content_id": "830373",
 "reference_id": 6883,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Filólogo",
 "media_type": "Text",
 "index_reference": "filólogo",
@@ -6438,21 +6559,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Philologus",
-"type": "person",
-"preferred_label": "Filólogo",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "830374",
 "reference_id": 6884,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Filómetor",
 "media_type": "Text",
 "index_reference": "filómetor",
@@ -6483,7 +6596,7 @@
 {
 "content_id": "816054",
 "reference_id": 6885,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Filosofia",
 "media_type": "Text",
 "index_reference": "filosofia",
@@ -6533,7 +6646,7 @@
 {
 "content_id": "828694",
 "reference_id": 4245,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Fim do mundo",
 "media_type": "Text",
 "index_reference": "fim do mundo",
@@ -6571,7 +6684,7 @@
 {
 "content_id": "828802",
 "reference_id": 4426,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Finanças",
 "media_type": "Text",
 "index_reference": "finanças",
@@ -6602,7 +6715,7 @@
 {
 "content_id": "717229",
 "reference_id": 6886,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Fineias",
 "media_type": "Text",
 "index_reference": "fineias",
@@ -6765,25 +6878,25 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Phinehas",
-"type": "person",
-"preferred_label": "Fineias",
-"confidence": 0.6582,
-"match_method": "scored"
-},
-{
 "id": "person:Phinehas.2",
 "type": "person",
-"preferred_label": "Fineias",
-"confidence": 0.6218,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Fineias"
 },
 {
 "id": "person:Phinehas.3",
 "type": "person",
-"preferred_label": "Fineias",
-"confidence": 0.6036,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Fineias"
+},
+{
+"id": "person:Phinehas",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Fineias"
 }
 ]
 }
@@ -6791,7 +6904,7 @@
 {
 "content_id": "481536",
 "reference_id": 4431,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Firmamento",
 "media_type": "Text",
 "index_reference": "firmamento",
@@ -6850,7 +6963,7 @@
 {
 "content_id": "830631",
 "reference_id": 7338,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Flagelo",
 "media_type": "Text",
 "index_reference": "flagelo",
@@ -6874,7 +6987,7 @@
 {
 "content_id": "828819",
 "reference_id": 4451,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Flauta",
 "media_type": "Text",
 "index_reference": "flauta",
@@ -6898,7 +7011,7 @@
 {
 "content_id": "827870",
 "reference_id": 2932,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Flecha",
 "media_type": "Text",
 "index_reference": "flecha",
@@ -6922,7 +7035,7 @@
 {
 "content_id": "830375",
 "reference_id": 6887,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Flegonte",
 "media_type": "Text",
 "index_reference": "flegonte",
@@ -6939,21 +7052,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Phlegon",
-"type": "person",
-"preferred_label": "Flegonte",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "828818",
 "reference_id": 4450,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Flor",
 "media_type": "Text",
 "index_reference": "flor",
@@ -6977,7 +7082,7 @@
 {
 "content_id": "828716",
 "reference_id": 4280,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Floresta de Efraim",
 "media_type": "Text",
 "index_reference": "floresta de efraim",
@@ -7006,24 +7111,16 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "group:Ephraim",
-"type": "group",
-"preferred_label": "Efraim",
-"confidence": 0.5885,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "161783",
 "reference_id": 3442,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Fluxo De Sangue*",
 "media_type": "Text",
-"index_reference": "fluxo de sangue*",
+"index_reference": "fluxo de sangue",
 "language": "por",
 "review_level": "Professional",
 "content": "<h1>FLUXO DE SANGUE*</h1><p>1. Corrimento vaginal como o que ocorre durante a menstruação. <a href=\"https://ref.ly/Lev15:1-Lev15:33\">Lv 15</a> contém leis sociais e sanitárias que Deus deu a Moisés sobre fluxos genitais. Uma mulher com sangramento vaginal era considerada cerimonialmente impura durante o sangramento e por sete dias depois. Ela não poderia ir ao tabernáculo ou templo para cultuar enquanto estivesse impura, ou se misturar com multidões na rua ou no mercado. Qualquer um que tocasse nela ou em suas roupas, cama, cadeira e similares também seria declarado cerimonialmente impuro (<a href=\"https://ref.ly/Lev15:19-Lev15:28\">Lv 15.19–28</a>). A relação sexual não era permitida enquanto a mulher estava cerimonialmente impura. Sete dias após seu sangramento parar, uma mulher apresentaria ao sacerdote duas rolas ou jovens pombos como ofertas para expiar o tempo de sua impureza (<a href=\"https://ref.ly/Lev15:29-Lev15:30\">Lv 15.29–30</a>).</p><p>A cura milagrosa de Jesus de uma mulher que havia estado com hemorragia (lenta ou intermitentemente) por 12 anos foi registrada em três dos quatro Evangelhos (<a href=\"https://ref.ly/Matt9:20-Matt9:22\">Mt 9.20–22</a>; <a href=\"https://ref.ly/Mark5:25-Mark5:34\">Mc 5.25–34</a>; <a href=\"https://ref.ly/Luke8:43-Luke8:48\">Lc 8.43–48</a>). Se seu sangramento fosse vaginal, os anos de impureza cerimonial e separação devem ter sido especialmente angustiantes para ela. Além de ser ansiosa e desconfortável, ela também teria sido incapaz de ter filhos. Além disso, ela havia “sofrido muito com muitos médicos” e “havia gasto tudo o que tinha para pagar por eles, mas ela havia não melhorado” (<a href=\"https://ref.ly/Mark5:26\">Mc 5.26</a>). Em desespero, ela ignorou as regras sobre impureza e abriu caminho por uma multidão para tocar Jesus. Quando ela o tocou, o sangramento parou imediata e permanentemente.</p><p>2. Presença de sangue nas fezes. O “fluxo sangrento” (KJV) do qual o pai de Públio sofria era alguma forma de disenteria (<a href=\"https://ref.ly/Acts28:8\">At 28.8</a>).</p><p><em>Veja também</em> <span data-bnType=\"resourceReference\" data-resourceId=\"6179\" data-resourceType=\"TyndaleBibleDictionary\">Medicina e Prática Médica</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"4966\" data-resourceType=\"TyndaleBibleDictionary\">Hemorragia</span>.</p>",
@@ -7100,10 +7197,10 @@
 {
 "content_id": "828805",
 "reference_id": 4429,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Fogo, Coluna de",
 "media_type": "Text",
-"index_reference": "fogo, coluna de",
+"index_reference": "fogo coluna de",
 "language": "por",
 "review_level": "Professional",
 "content": "<h1>FOGO, Coluna de</h1><p>Fenômeno sobrenatural da presença de Deus que guiou os israelitas no deserto. <em>Veja </em><span data-bnType=\"resourceReference\" data-resourceId=\"6905\" data-resourceType=\"TyndaleBibleDictionary\">Coluna de fogo e nuvem</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"8231\" data-resourceType=\"TyndaleBibleDictionary\">Peregrinações no deserto</span>.</p>",
@@ -7131,10 +7228,10 @@
 {
 "content_id": "828804",
 "reference_id": 4428,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Fogo, Lago de",
 "media_type": "Text",
-"index_reference": "fogo, lago de",
+"index_reference": "fogo lago de",
 "language": "por",
 "review_level": "Professional",
 "content": "<h1>FOGO, Lago de</h1><p><em>Veja</em> <span data-bnType=\"resourceReference\" data-resourceId=\"5836\" data-resourceType=\"TyndaleBibleDictionary\">Lago de Fogo</span>.</p>",
@@ -7155,7 +7252,7 @@
 {
 "content_id": "830840",
 "reference_id": 7646,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Foice",
 "media_type": "Text",
 "index_reference": "foice",
@@ -7173,13 +7270,21 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Sickle",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Sickle"
+}
+]
 }
 },
 {
 "content_id": "682932",
 "reference_id": 4404,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Fome",
 "media_type": "Text",
 "index_reference": "fome",
@@ -7346,7 +7451,7 @@
 {
 "content_id": "827709",
 "reference_id": 2676,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Forasteiro",
 "media_type": "Text",
 "index_reference": "forasteiro",
@@ -7370,7 +7475,7 @@
 {
 "content_id": "828850",
 "reference_id": 4526,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Forca",
 "media_type": "Text",
 "index_reference": "forca",
@@ -7394,7 +7499,7 @@
 {
 "content_id": "806173",
 "reference_id": 2815,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Formiga",
 "media_type": "Text",
 "index_reference": "formiga",
@@ -7425,13 +7530,21 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "fauna:Ant",
+"type": "fauna",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Ant"
+}
+]
 }
 },
 {
 "content_id": "682935",
 "reference_id": 4491,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Fornalha",
 "media_type": "Text",
 "index_reference": "fornalha",
@@ -7556,13 +7669,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "realia:Kiln",
+"type": "realia",
+"confidence": 0.7236,
+"match_method": "scored",
+"preferred_label": "Kiln"
+}
+]
 }
 },
 {
 "content_id": "829680",
 "reference_id": 5751,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Fornalha",
 "media_type": "Text",
 "index_reference": "fornalha",
@@ -7586,10 +7707,10 @@
 {
 "content_id": "161809",
 "reference_id": 4464,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Fornicação*",
 "media_type": "Text",
-"index_reference": "fornicação*",
+"index_reference": "fornicação",
 "language": "por",
 "review_level": "Professional",
 "content": "<h1>FORNICAÇÃO*</h1><p>Impureza, imoralidade sexual. A palavra “fornicação” é usada nas Escrituras para significar várias coisas diferentes.</p><p>Seu significado geral se refere a todo tipo de relação sexual ilegal, isto é, qualquer relação sexual, exceto aquele entre um marido e uma esposa. Por exemplo, em <a href=\"https://ref.ly/1Cor5:1\">1Co 5.1</a> (NTLH), a palavra é usada duas vezes para se referir a um pecado que estava sendo tolerado pela igreja: um homem aparentemente estava coabitando com sua madrasta. Em uma lista de pecados terríveis em <a href=\"https://ref.ly/Rom1:29\">Rm 1.29</a>, o apóstolo Paulo incluiu fornicação, aparentemente pretendendo que o termo significasse todos os atos de imoralidade sexual (NTLH). Em 1&nbsp;Coríntios, o contexto sugere que Paulo usou a palavra em referência a todos os tipos de atividade sexual ilícita (<a href=\"https://ref.ly/1Cor6:13\">6.13,18</a>). Em <a href=\"https://ref.ly/1Cor7:2\">1Co 7.2</a> (NTLH), Paulo usou a palavra grega plural para “fornicações” para implicar as várias maneiras pelas quais o pecado pode se manifestar. Ele deu assim uma razão pela qual as pessoas em Corinto deveriam se casar e viver juntas corretamente. Um dos pecados incluídos no sentido geral da palavra é o adultério.</p><p>“Fornicação” também tem um senso mais limitado de atividade sexual imoral entre pessoas solteiras. Tal significado está implícito nessas listas bíblicas onde tanto a fornicação quanto o adultério se juntam. A lista de Jesus dos pecados contaminantes que procedem do coração de uma pessoa inclui “fornicação” e “adultério” (<a href=\"https://ref.ly/Matt15:19\">Mt 15.19</a>; <a href=\"https://ref.ly/Mark7:21\">Mc 7.21</a>). A lista de Paulo desses pecadores que não herdarão o reino de Deus também contém tanto os fornicadores quanto os adúlteros (<a href=\"https://ref.ly/1Cor6:9\">1Co 6.9</a>, NTLH).</p><p>“Fornicação” em <a href=\"https://ref.ly/Matt5:32\">Mt 5.32</a> e <a href=\"https://ref.ly/Matt19:9\">19.9</a> (como traduzido pela NTLH) é geralmente tomada por estudantes bíblicos hoje para se referir especificamente ao adultério (veja NTLH). A tradução de porneia tem a ver com interpretação, em vez de tradução. Os estudiosos discordam sobre se a frase citada por Jesus relativa ao divórcio tem a ver com fornicação em um sentido geral ou limitado. Ele poderia ter se referido apenas ao adultério, ou ele poderia ter estado incluindo geralmente com outros pecados sexuais.</p><p>Um uso figurativo da palavra “fornicação” aparece tanto no AT quanto no NT. Originando-se nas descrições de Israel e da igreja como a esposa do Senhor ou a noiva, a apostasia de Deus e idolatria são chamadas de fornicação (veja, p. ex., <a href=\"https://ref.ly/Jer2:1-Jer2:37\">Jr 2</a>). <a href=\"https://ref.ly/Ezek16:1-Ezek16:63\">Ezequiel 16</a> usa infidelidade aos votos de casamento como um símbolo do relacionamento rebelde de Jerusalém com Deus. Jerusalém havia se tornado uma “esposa infiel” a ele. Os primeiros três capítulos de Oseias usam o relacionamento do profeta Oseias e sua esposa infiel, Gômer, como uma ilustração de como a nação de Israel havia se tornado culpada de fornicação contra seu “marido”, o Senhor, indo atrás de outros deuses. No livro de Apocalipse, o uso figurativo de “fornicação” e “paixão impura” é atribuído à Babilônia, a grande mãe das prostitutas (<a href=\"https://ref.ly/Rev14:8\">Ap 14.8</a>; <a href=\"https://ref.ly/Rev17:2-Rev17:4\">17.2–4</a>; <a href=\"https://ref.ly/Rev18:3\">18.3</a>; <a href=\"https://ref.ly/Rev19:2\">19.2</a>).</p><p><em>Veja também</em> <span data-bnType=\"resourceReference\" data-resourceId=\"2572\" data-resourceType=\"TyndaleBibleDictionary\">Adultério</span>.</p>",
@@ -7707,7 +7828,7 @@
 {
 "content_id": "830271",
 "reference_id": 6704,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Forno",
 "media_type": "Text",
 "index_reference": "forno",
@@ -7731,10 +7852,10 @@
 {
 "content_id": "830270",
 "reference_id": 6703,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Fornos, Torre dos",
 "media_type": "Text",
-"index_reference": "fornos, torre dos",
+"index_reference": "fornos torre dos",
 "language": "por",
 "review_level": "Professional",
 "content": "<h1>FORNOS, Torre dos</h1><p>Estrutura na muralha de Jerusalém restaurada por Neemias e seus trabalhadores após o exílio (<a href=\"https://ref.ly/Neh3:11\">Ne 3.11</a>; <a href=\"https://ref.ly/Neh12:38\">12.38</a>). Malquias, filho de Harim, e Hassube, filho de Paate-Moabe, são mencionados como seus construtores. A torre era provavelmente uma obra defensiva na seção noroeste da muralha, nomeada por sua proximidade com fornos de panificação próximos.</p>",
@@ -7754,24 +7875,16 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "place:TowerOfTheOvens",
-"type": "place",
-"preferred_label": "Torre dos Fornos",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "806206",
 "reference_id": 4465,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Forte, Fortificação",
 "media_type": "Text",
-"index_reference": "forte, fortificação",
+"index_reference": "forte fortificação",
 "language": "por",
 "review_level": "Professional",
 "content": "<h1>FORTE, FORTIFICAÇÃO</h1><p>Um forte é um edifício ou local projetado para defesa. Uma fortificação é qualquer estrutura construída para proteger um local durante o ataque. Nos tempos antigos, as cidades eram protegidas por muros, fortes centrais (chamados de cidadelas) e, às vezes, por fossos profundos cheios de água.</p><h2>Cidades fortificadas</h2><p>As fortificações seguiam a paisagem natural da área que circundava uma cidade. As defesas das cidades antigas eram simples. Elas eram feitas amontoando terra contra as paredes e estruturas externas, o que dificultava a aproximação e entrada das forças inimigas na cidade. Ao construir uma cidade, as pessoas procuravam lugares que fossem naturalmente fáceis de defender, preferindo locais altos, como colinas íngremes ou áreas isoladas que ofereciam proteção natural.</p><p>As pessoas também construíram cidades em locais com abundância de água, acesso a vias navegáveis para viagens ou no cruzamento de estradas importantes. No entanto, esses locais eram mais difíceis de defender, então construir muralhas e defesas fortes exigia mais tempo e dinheiro.</p><h2>Materiais de construção</h2><p>As pessoas construíam fortificações usando qualquer material que pudessem encontrar, como pedras quebradas, rochas soltas e terra compactada. Elas cobriam esses materiais com uma camada espessa de argila ou gesso para ocultar o que estava por baixo. Isso tornava mais difícil para os inimigos saberem quão fortes as paredes realmente eram. Na frente das paredes, cavavam valas profundas ou fossos, às vezes cortando-os na rocha sólida. Essas valas dificultavam que os inimigos se aproximassem das paredes ou cavassem túneis por baixo delas.</p><h2>Torres</h2><p>As pessoas construíram torres nas partes mais vulneráveis das muralhas, como cantos, portões e locais onde a água entrava na cidade. Essas torres fortaleciam as defesas. Dentro de cada torre havia escadas e salas onde os soldados permaneciam para proteger a cidade. Vigias especiais nas torres alertavam a todos quando percebiam o perigo se aproximando.</p><h2>Portas</h2><p>Os portões da cidade eram muito resistentes. Eles eram feitos com barras e ferrolhos grossos de bronze ou ferro. Cada portão pendia em postes robustos que estavam fixados no chão abaixo e na viga acima da entrada. Para tornar os portões ainda mais difíceis de romper, as cidades frequentemente tinham vários portões, um atrás do outro. Entre esses portões, havia salas onde os guardas ficavam.</p><h2>Como as fortificações evoluíram ao longo do tempo?</h2><p>Escavações arqueológicas de antigos fortes mostram como os métodos de construção melhoraram ao longo do tempo, desde os começos simples até a época de Jesus. Os primeiros fortes foram construídos com tijolos básicos e pedras brutas. As pedras usadas nas paredes eram de tamanhos e formas diferentes e não eram cortadas suavemente. Os construtores preenchiam as lacunas entre as pedras com pequenas rochas e pedaços de calcário.</p><p>Mais tarde, os construtores aprenderam a fazer um material de cobertura forte (chamado argamassa) para aplicar sobre as paredes. Isso tornou as paredes mais resistentes. Somente muito tempo depois, durante a época em que o povo judeu governava sua terra, os construtores começaram a usar pedras cuidadosamente cortadas e moldadas.</p><h2>Deus como uma fortaleza</h2><p>A Bíblia frequentemente compara Deus a uma fortaleza ou torre alta. Isso nos ajuda a entender como Deus protege aqueles que confiam nele. Os profetas ensinaram que a verdadeira força da nação vinha de Deus, não de paredes de tijolos e pedras. Eles disseram ao povo para confiar em Deus como seu lugar seguro ou refúgio (<a href=\"https://ref.ly/2Sam22:2-2Sam22:3,2Sam22:33\">2Sm 22.2–3,33</a>; <a href=\"https://ref.ly/Prov10:29\">Pv 10.29</a>; <a href=\"https://ref.ly/Isa25:4\">Is 25.4</a>; <a href=\"https://ref.ly/Jer16:19\">Jr 16.19</a>; <a href=\"https://ref.ly/Hos8:14\">Os 8.14</a>; <a href=\"https://ref.ly/Joel3:16\">Jl 3.16</a>; <a href=\"https://ref.ly/Nah1:7\">Na 1.7</a>).</p><p><em>Consulte também</em> <span data-bnType=\"resourceReference\" data-resourceId=\"8197\" data-resourceType=\"TyndaleBibleDictionary\">Guerra</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"3746\" data-resourceType=\"TyndaleBibleDictionary\">Cidade</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"8202\" data-resourceType=\"TyndaleBibleDictionary\">Torre de Vigia</span>.</p>",
@@ -7851,11 +7964,11 @@
 ],
 "acai": [
 {
-"id": "realia:Fortress",
+"id": "realia:Fortification",
 "type": "realia",
-"preferred_label": "Fortress",
-"confidence": 0.6501,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Fortification"
 }
 ]
 }
@@ -7863,7 +7976,7 @@
 {
 "content_id": "828821",
 "reference_id": 4466,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Fortunato",
 "media_type": "Text",
 "index_reference": "fortunato",
@@ -7880,21 +7993,13 @@
 }
 ],
 "resource": [],
-"acai": [
-{
-"id": "person:Fortunatus",
-"type": "person",
-"preferred_label": "Fortunato",
-"confidence": 1.0,
-"match_method": "scored"
-}
-]
+"acai": []
 }
 },
 {
 "content_id": "815966",
 "reference_id": 4467,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Fórum",
 "media_type": "Text",
 "index_reference": "fórum",
@@ -7925,7 +8030,7 @@
 {
 "content_id": "759757",
 "reference_id": 4478,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Franja",
 "media_type": "Text",
 "index_reference": "franja",
@@ -7942,13 +8047,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "realia:Tassel",
+"type": "realia",
+"confidence": 0.6,
+"match_method": "scored",
+"preferred_label": "Tassel"
+}
+]
 }
 },
 {
 "content_id": "829288",
 "reference_id": 5188,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Fraqueza",
 "media_type": "Text",
 "index_reference": "fraqueza",
@@ -7979,7 +8092,7 @@
 {
 "content_id": "827904",
 "reference_id": 2985,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Freixo",
 "media_type": "Text",
 "index_reference": "freixo",
@@ -8017,7 +8130,7 @@
 {
 "content_id": "816057",
 "reference_id": 6891,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Frígia",
 "media_type": "Text",
 "index_reference": "frígia",
@@ -8050,9 +8163,9 @@
 {
 "id": "place:Phrygia",
 "type": "place",
-"preferred_label": "Frígia",
-"confidence": 0.7333,
-"match_method": "scored"
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Frígia"
 }
 ]
 }
@@ -8060,7 +8173,7 @@
 {
 "content_id": "717040",
 "reference_id": 4480,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Frontal",
 "media_type": "Text",
 "index_reference": "frontal",
@@ -8140,7 +8253,7 @@
 {
 "content_id": "828827",
 "reference_id": 4483,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Fruta",
 "media_type": "Text",
 "index_reference": "fruta",
@@ -8171,10 +8284,10 @@
 {
 "content_id": "828114",
 "reference_id": 3310,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Fruta vermelha (Baga)",
 "media_type": "Text",
-"index_reference": "fruta vermelha (baga)",
+"index_reference": "fruta vermelha baga",
 "language": "por",
 "review_level": "Professional",
 "content": "<h1>FRUTA VERMELHA (BAGA)</h1><p>Um fruto carnoso, geralmente com muitas sementes e sem uma cobertura dura para as sementes.</p><p><em>Veja</em> <span data-bnType=\"resourceReference\" data-resourceId=\"6929\" data-resourceType=\"TyndaleBibleDictionary\">Plantas (Espinheiro</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"3584\" data-resourceType=\"TyndaleBibleDictionary\">Planta de alcaparra).</span></p>",
@@ -8202,7 +8315,7 @@
 {
 "content_id": "828826",
 "reference_id": 4482,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Fruto do Espírito",
 "media_type": "Text",
 "index_reference": "fruto do espírito",
@@ -8255,7 +8368,7 @@
 {
 "content_id": "716946",
 "reference_id": 3460,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Furúnculo",
 "media_type": "Text",
 "index_reference": "furúnculo",
@@ -8348,7 +8461,7 @@
 {
 "content_id": "658710",
 "reference_id": 6893,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Fute",
 "media_type": "Text",
 "index_reference": "fute",
@@ -8386,13 +8499,28 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Put",
+"type": "person",
+"confidence": 0.8,
+"match_method": "scored",
+"preferred_label": "Pute"
+},
+{
+"id": "place:Put",
+"type": "place",
+"confidence": 0.8,
+"match_method": "scored",
+"preferred_label": "Pute"
+}
+]
 }
 },
 {
 "content_id": "828832",
 "reference_id": 4493,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "Futilidade",
 "media_type": "Text",
 "index_reference": "futilidade",

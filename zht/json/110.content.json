@@ -2,7 +2,7 @@
 {
 "content_id": "574010",
 "reference_id": 5108,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "謙卑",
 "media_type": "Text",
 "index_reference": "謙卑",
@@ -223,13 +223,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.8125,
+"match_method": "embedding",
+"preferred_label": "Kindness"
+}
+]
 }
 },
 {
 "content_id": "574043",
 "reference_id": 7033,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "錢囊",
 "media_type": "Text",
 "index_reference": "錢囊",
@@ -324,7 +332,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "realia:Bag",
+"type": "realia",
+"confidence": 0.9467,
+"match_method": "scored",
+"preferred_label": "Bag"
+}
+]
 }
 }
 ]

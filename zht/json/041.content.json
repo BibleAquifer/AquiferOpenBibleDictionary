@@ -2,7 +2,7 @@
 {
 "content_id": "340950",
 "reference_id": 4685,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "福音",
 "media_type": "Text",
 "index_reference": "福音",
@@ -1357,13 +1357,21 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:GoodNews",
+"type": "keyterm",
+"confidence": 0.6502,
+"match_method": "scored",
+"preferred_label": "Good News"
+}
+]
 }
 },
 {
 "content_id": "574047",
 "reference_id": 7179,
-"version": "1.0.2",
+"version": "1.0.4",
 "title": "復活",
 "media_type": "Text",
 "index_reference": "復活",
@@ -1809,7 +1817,15 @@
 "language": "zht"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.6268,
+"match_method": "scored",
+"preferred_label": "Resurrection"
+}
+]
 }
 }
 ]
