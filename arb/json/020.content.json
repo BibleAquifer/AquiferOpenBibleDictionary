@@ -2903,18 +2903,18 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:Net",
-"type": "realia",
-"confidence": 0.65,
-"match_method": "scored",
-"preferred_label": "Net"
-},
-{
 "id": "realia:Trap",
 "type": "realia",
 "confidence": 0.65,
 "match_method": "scored",
 "preferred_label": "Trap"
+},
+{
+"id": "realia:Net",
+"type": "realia",
+"confidence": 0.65,
+"match_method": "scored",
+"preferred_label": "Net"
 }
 ]
 }
@@ -3611,6 +3611,87 @@
 }
 },
 {
+"content_id": "335209",
+"reference_id": 3514,
+"version": "1.0.4",
+"title": "فراخ، أبناء، نسل",
+"media_type": "Text",
+"index_reference": "فراخ أبناء نسل",
+"language": "arb",
+"review_level": "None",
+"content": "<h1>فراخ، أبناء، نسل</h1><p>مصطلح يُستخدم غالبًا في الكتاب المقدّس للدلالة على صغار الحيوانات، ولا سيّما أفراخ الطيور، لكنه يُستخدَم أيضًا في سياقٍ أوسع.</p><p>ففي العهد القديم، تشير هذه الكلمة عادةً إلى جماعةٍ من الأشخاص يتّسمون بصفةٍ مشتركة. ومن الأمثلة على ذلك:</p><ul><li><p>&quot;<span>أُنَاسٍ خُطَاةٍ</span>&quot; (<a href=\"https://ref.ly/Num32:14\">عدد 32:14</a>)</p></li><li><p>&quot;<span>أَبْنَاءُ أُنَاسٍ بِلاَ اسْمٍ</span>&quot; (أيوب 30: 8)</p></li><li><p>&quot;<span>نَسْلِ فَاعِلِي الشَّرِّ</span>&quot; (إشعياء 1: 4)</p></li></ul><p>ثمة موضع واحد تشير فيه الكلمة إلى أفراخ الطيور حقيقةً (إشعياء 34: 15)، غير أنّ هذا الموضع يستخدم مصطلحًا عبريًا مختلفًا.</p><p>أمّا في العهد الجديد، فإنّ الكلمة اليونانيّة &quot;<em>gennēma</em>&quot; تُرجمت باستمرار إلى أولاد في عبارة &quot;يَا أَوْلَادَ ٱلْأَفَاعِي&quot; (<a href=\"https://ref.ly/Matt3:7\">متى 3:7</a>؛ <a href=\"https://ref.ly/Matt12:34\">12:34</a>؛ <a href=\"https://ref.ly/Luke3:7\">لوقا 3:7</a>)، حيث تعني الذرّيّة أو النسل (ولا صلة لها هنا بالطيور).</p><p><em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3418\" data-resourceType=\"TyndaleBibleDictionary\">الطيور (الدواجن، المنزلية؛ الحجل)</span>.</p>",
+"associations": {
+"passage": [
+{
+"start_ref": "04032014",
+"start_ref_usfm": "NUM 32:14",
+"end_ref": "04032014",
+"end_ref_usfm": "NUM 32:14"
+},
+{
+"start_ref": "18030008",
+"start_ref_usfm": "JOB 30:8",
+"end_ref": "18030008",
+"end_ref_usfm": "JOB 30:8"
+},
+{
+"start_ref": "23001004",
+"start_ref_usfm": "ISA 1:4",
+"end_ref": "23001004",
+"end_ref_usfm": "ISA 1:4"
+},
+{
+"start_ref": "23034015",
+"start_ref_usfm": "ISA 34:15",
+"end_ref": "23034015",
+"end_ref_usfm": "ISA 34:15"
+},
+{
+"start_ref": "40003007",
+"start_ref_usfm": "MAT 3:7",
+"end_ref": "40003007",
+"end_ref_usfm": "MAT 3:7"
+},
+{
+"start_ref": "40012034",
+"start_ref_usfm": "MAT 12:34",
+"end_ref": "40012034",
+"end_ref_usfm": "MAT 12:34"
+},
+{
+"start_ref": "40023033",
+"start_ref_usfm": "MAT 23:33",
+"end_ref": "40023033",
+"end_ref_usfm": "MAT 23:33"
+},
+{
+"start_ref": "42003007",
+"start_ref_usfm": "LUK 3:7",
+"end_ref": "42003007",
+"end_ref_usfm": "LUK 3:7"
+}
+],
+"resource": [
+{
+"reference_id": 3418,
+"content_id": 331748,
+"resource_code": "TyndaleBibleDictionary",
+"label": "الطيور",
+"language": "arb"
+}
+],
+"acai": [
+{
+"id": "flora:Broom",
+"type": "flora",
+"confidence": 0.8483,
+"match_method": "embedding",
+"preferred_label": "Broom"
+}
+]
+}
+},
+{
 "content_id": "510061",
 "reference_id": 3835,
 "version": "1.0.4",
@@ -3712,63 +3793,6 @@
 "confidence": 1.0,
 "match_method": "content_id",
 "preferred_label": "فرْتونَاتوسَ"
-}
-]
-}
-},
-{
-"content_id": "335209",
-"reference_id": 3514,
-"version": "1.0.4",
-"title": "فرخ",
-"media_type": "Text",
-"index_reference": "فرخ",
-"language": "arb",
-"review_level": "None",
-"content": "<h1>فرخ</h1><p>هو مصطلح يستخدم غالبًا في الكتاب المقدس للطيور الصغيرة، ولا سيما الطيور المدربة، كما يستخدم أيضًا للثعابين أو الأفاعي بصفة استعارة تشير إلى &quot;الخطاة&quot; (<a href=\"https://ref.ly/Num32:14\">عدد 32:14</a>; <a href=\"https://ref.ly/Matt3:7\">متى 3:7</a>; <a href=\"https://ref.ly/Matt12:34\">12:34</a>; <a href=\"https://ref.ly/Luke3:7\">لوقا 3:7</a>).</p><p><em>انظر</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3418\" data-resourceType=\"TyndaleBibleDictionary\">الطيور (الدواجن، المنزلية؛ الحجل)</span>.</p>",
-"associations": {
-"passage": [
-{
-"start_ref": "04032014",
-"start_ref_usfm": "NUM 32:14",
-"end_ref": "04032014",
-"end_ref_usfm": "NUM 32:14"
-},
-{
-"start_ref": "40003007",
-"start_ref_usfm": "MAT 3:7",
-"end_ref": "40003007",
-"end_ref_usfm": "MAT 3:7"
-},
-{
-"start_ref": "40012034",
-"start_ref_usfm": "MAT 12:34",
-"end_ref": "40012034",
-"end_ref_usfm": "MAT 12:34"
-},
-{
-"start_ref": "42003007",
-"start_ref_usfm": "LUK 3:7",
-"end_ref": "42003007",
-"end_ref_usfm": "LUK 3:7"
-}
-],
-"resource": [
-{
-"reference_id": 3418,
-"content_id": 331748,
-"resource_code": "TyndaleBibleDictionary",
-"label": "الطيور",
-"language": "arb"
-}
-],
-"acai": [
-{
-"id": "flora:Broom",
-"type": "flora",
-"confidence": 0.8483,
-"match_method": "embedding",
-"preferred_label": "Broom"
 }
 ]
 }
@@ -7812,15 +7836,15 @@
 ],
 "acai": [
 {
-"id": "person:Put",
-"type": "person",
+"id": "place:Put",
+"type": "place",
 "confidence": 0.8,
 "match_method": "scored",
 "preferred_label": "فوط"
 },
 {
-"id": "place:Put",
-"type": "place",
+"id": "person:Put",
+"type": "person",
 "confidence": 0.8,
 "match_method": "scored",
 "preferred_label": "فوط"
