@@ -16652,13 +16652,6 @@
 "preferred_label": "Altar"
 },
 {
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.7674,
-"match_method": "scored",
-"preferred_label": "Stone Altar"
-},
-{
 "id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.7674,
@@ -16671,6 +16664,13 @@
 "confidence": 0.7674,
 "match_method": "scored",
 "preferred_label": "Tabernacle Altar"
+},
+{
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.7674,
+"match_method": "scored",
+"preferred_label": "Stone Altar"
 }
 ]
 }
@@ -34796,18 +34796,18 @@
 "preferred_label": "Aroer"
 },
 {
-"id": "group:Aroer",
-"type": "group",
-"confidence": 0.6267,
-"match_method": "scored",
-"preferred_label": "Aroerites"
-},
-{
 "id": "group:Ashtaroth",
 "type": "group",
 "confidence": 0.6267,
 "match_method": "scored",
 "preferred_label": "Ashterathites"
+},
+{
+"id": "group:Aroer",
+"type": "group",
+"confidence": 0.6267,
+"match_method": "scored",
+"preferred_label": "Aroerites"
 }
 ]
 }
