@@ -12514,13 +12514,6 @@
 "preferred_label": "Heber"
 },
 {
-"id": "group:Heber",
-"type": "group",
-"confidence": 0.619,
-"match_method": "scored",
-"preferred_label": "Heberites"
-},
-{
 "id": "person:Eber.4",
 "type": "person",
 "confidence": 0.619,
@@ -12528,14 +12521,21 @@
 "preferred_label": "Eber"
 },
 {
-"id": "person:Eber",
+"id": "person:Eber.2",
 "type": "person",
 "confidence": 0.619,
 "match_method": "scored",
 "preferred_label": "Eber"
 },
 {
-"id": "person:Eber.2",
+"id": "group:Heber",
+"type": "group",
+"confidence": 0.619,
+"match_method": "scored",
+"preferred_label": "Heberites"
+},
+{
+"id": "person:Eber",
 "type": "person",
 "confidence": 0.619,
 "match_method": "scored",
@@ -16162,11 +16162,11 @@
 ],
 "acai": [
 {
-"id": "person:Hammath",
-"type": "person",
+"id": "group:Sucathite",
+"type": "group",
 "confidence": 1.0,
 "match_method": "scored",
-"preferred_label": "Hammath"
+"preferred_label": "Sucathites"
 },
 {
 "id": "group:Tirathite",
@@ -16176,18 +16176,18 @@
 "preferred_label": "Tirathites"
 },
 {
+"id": "person:Hammath",
+"type": "person",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "Hammath"
+},
+{
 "id": "group:Shimeathite",
 "type": "group",
 "confidence": 1.0,
 "match_method": "scored",
 "preferred_label": "Shimeathites"
-},
-{
-"id": "group:Sucathite",
-"type": "group",
-"confidence": 1.0,
-"match_method": "scored",
-"preferred_label": "Sucathites"
 }
 ]
 }
