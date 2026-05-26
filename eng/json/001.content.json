@@ -7131,18 +7131,18 @@
 ],
 "acai": [
 {
-"id": "person:Eder",
-"type": "person",
-"confidence": 1.0,
-"match_method": "scored",
-"preferred_label": "Eder"
-},
-{
 "id": "person:Arad",
 "type": "person",
 "confidence": 1.0,
 "match_method": "scored",
 "preferred_label": "Arad"
+},
+{
+"id": "person:Eder",
+"type": "person",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "Eder"
 }
 ]
 }
@@ -15907,13 +15907,6 @@
 "preferred_label": "Altar"
 },
 {
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.7674,
-"match_method": "scored",
-"preferred_label": "Tabernacle Altar"
-},
-{
 "id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.7674,
@@ -15926,6 +15919,13 @@
 "confidence": 0.7674,
 "match_method": "scored",
 "preferred_label": "Stone Altar"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.7674,
+"match_method": "scored",
+"preferred_label": "Tabernacle Altar"
 }
 ]
 }
@@ -36476,15 +36476,15 @@
 ],
 "acai": [
 {
-"id": "person:Ashkenaz",
-"type": "person",
+"id": "place:Ashkenaz",
+"type": "place",
 "confidence": 0.8,
 "match_method": "scored",
 "preferred_label": "Ashkenaz"
 },
 {
-"id": "place:Ashkenaz",
-"type": "place",
+"id": "person:Ashkenaz",
+"type": "person",
 "confidence": 0.8,
 "match_method": "scored",
 "preferred_label": "Ashkenaz"
@@ -43525,14 +43525,14 @@
 ],
 "acai": [
 {
-"id": "person:Azzur.2",
+"id": "person:Azzur.3",
 "type": "person",
 "confidence": 0.8,
 "match_method": "scored",
 "preferred_label": "Azzur"
 },
 {
-"id": "person:Azzur.3",
+"id": "person:Azzur.2",
 "type": "person",
 "confidence": 0.8,
 "match_method": "scored",
