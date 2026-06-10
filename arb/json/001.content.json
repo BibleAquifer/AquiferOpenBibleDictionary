@@ -98,7 +98,7 @@
 {
 "reference_id": 4096,
 "content_id": 510205,
-"resource_code": "Unknown",
+"resource_code": "TyndaleBibleDictionary",
 "label": "آبَص",
 "language": "arb"
 }
@@ -1602,14 +1602,14 @@
 {
 "reference_id": 7894,
 "content_id": 444045,
-"resource_code": "Unknown",
+"resource_code": "TyndaleBibleDictionary",
 "label": "الأثْل",
 "language": "arb"
 },
 {
 "reference_id": 209686,
 "content_id": 800800,
-"resource_code": "Unknown",
+"resource_code": "TyndaleBibleDictionary",
 "label": "العُلَّيق الشَّوكي",
 "language": "arb"
 }
@@ -3980,7 +3980,7 @@
 {
 "reference_id": 3806,
 "content_id": 510048,
-"resource_code": "Unknown",
+"resource_code": "TyndaleBibleDictionary",
 "label": "كوكبة",
 "language": "arb"
 }
@@ -6738,7 +6738,7 @@
 {
 "reference_id": 2469,
 "content_id": 335143,
-"resource_code": "Unknown",
+"resource_code": "TyndaleBibleDictionary",
 "label": "أبيَّا",
 "language": "arb"
 }
@@ -12906,18 +12906,18 @@
 "preferred_label": "أَخزَّامَ"
 },
 {
-"id": "person:Haahashtari",
-"type": "person",
-"confidence": 0.73,
-"match_method": "scored",
-"preferred_label": "ٱلْأَخَشْتَارِيَّ"
-},
-{
 "id": "person:Naarah",
 "type": "person",
 "confidence": 0.73,
 "match_method": "scored",
 "preferred_label": "نَعْرَة"
+},
+{
+"id": "person:Haahashtari",
+"type": "person",
+"confidence": 0.73,
+"match_method": "scored",
+"preferred_label": "ٱلْأَخَشْتَارِيَّ"
 }
 ]
 }
@@ -15375,7 +15375,7 @@
 {
 "reference_id": 2782,
 "content_id": 124471,
-"resource_code": "Unknown",
+"resource_code": "TyndaleBibleDictionary",
 "label": "حيوانات",
 "language": "arb"
 },
@@ -15456,7 +15456,7 @@
 {
 "reference_id": 6257,
 "content_id": 232597,
-"resource_code": "Unknown",
+"resource_code": "TyndaleBibleDictionary",
 "label": "بلاد ما بين النهرين",
 "language": "arb"
 },
@@ -24879,7 +24879,7 @@
 {
 "reference_id": 5922,
 "content_id": 511337,
-"resource_code": "Unknown",
+"resource_code": "TyndaleBibleDictionary",
 "label": "زَنبَق",
 "language": "arb"
 },
@@ -32062,7 +32062,7 @@
 {
 "reference_id": 2540,
 "content_id": 509247,
-"resource_code": "Unknown",
+"resource_code": "TyndaleBibleDictionary",
 "label": "أَدَر",
 "language": "arb"
 },
@@ -32108,7 +32108,7 @@
 {
 "reference_id": 2782,
 "content_id": 124471,
-"resource_code": "Unknown",
+"resource_code": "TyndaleBibleDictionary",
 "label": "حيوانات",
 "language": "arb"
 },
@@ -32189,7 +32189,7 @@
 {
 "reference_id": 8023,
 "content_id": 332001,
-"resource_code": "Unknown",
+"resource_code": "TyndaleBibleDictionary",
 "label": "تِيمُوثَاوُس (شخص)",
 "language": "arb"
 }
@@ -41207,7 +41207,7 @@
 {
 "reference_id": 7736,
 "content_id": 512403,
-"resource_code": "Unknown",
+"resource_code": "TyndaleBibleDictionary",
 "label": "نشيد الأنشاد",
 "language": "arb"
 }
@@ -42865,7 +42865,7 @@
 {
 "reference_id": 2782,
 "content_id": 124471,
-"resource_code": "Unknown",
+"resource_code": "TyndaleBibleDictionary",
 "label": "حيوانات",
 "language": "arb"
 }
@@ -60523,7 +60523,7 @@
 {
 "reference_id": 3964,
 "content_id": 510134,
-"resource_code": "Unknown",
+"resource_code": "TyndaleBibleDictionary",
 "label": "الْأَيَائِل",
 "language": "arb"
 }
@@ -63309,15 +63309,15 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Asher",
-"type": "person",
+"id": "group:Asher",
+"type": "group",
 "confidence": 0.5833,
 "match_method": "scored",
 "preferred_label": "أَشِيرَ"
 },
 {
-"id": "group:Asher",
-"type": "group",
+"id": "person:Asher",
+"type": "person",
 "confidence": 0.5833,
 "match_method": "scored",
 "preferred_label": "أَشِيرَ"
@@ -63446,20 +63446,6 @@
 "preferred_label": "Gate of Jeshanah"
 },
 {
-"id": "place:GuardGate",
-"type": "place",
-"confidence": 0.5848,
-"match_method": "scored",
-"preferred_label": "ٱلسِّجْنِ"
-},
-{
-"id": "place:SheepGate",
-"type": "place",
-"confidence": 0.5848,
-"match_method": "scored",
-"preferred_label": "ٱلضَّأْنِ"
-},
-{
 "id": "place:FishGate",
 "type": "place",
 "confidence": 0.5848,
@@ -63472,6 +63458,20 @@
 "confidence": 0.5848,
 "match_method": "scored",
 "preferred_label": "أَفْرَايِمَ"
+},
+{
+"id": "place:GuardGate",
+"type": "place",
+"confidence": 0.5848,
+"match_method": "scored",
+"preferred_label": "ٱلسِّجْنِ"
+},
+{
+"id": "place:SheepGate",
+"type": "place",
+"confidence": 0.5848,
+"match_method": "scored",
+"preferred_label": "ٱلضَّأْنِ"
 }
 ]
 }
@@ -64112,21 +64112,21 @@
 {
 "reference_id": 4398,
 "content_id": 490372,
-"resource_code": "Unknown",
+"resource_code": "TyndaleBibleDictionary",
 "label": "صقر",
 "language": "arb"
 },
 {
 "reference_id": 5797,
 "content_id": 490502,
-"resource_code": "Unknown",
+"resource_code": "TyndaleBibleDictionary",
 "label": "حِدَأَة",
 "language": "arb"
 },
 {
 "reference_id": 8191,
 "content_id": 512676,
-"resource_code": "Unknown",
+"resource_code": "TyndaleBibleDictionary",
 "label": "نِسر",
 "language": "arb"
 }
@@ -64872,7 +64872,7 @@
 {
 "reference_id": 3674,
 "content_id": 509968,
-"resource_code": "Unknown",
+"resource_code": "TyndaleBibleDictionary",
 "label": "كيفيرة",
 "language": "arb"
 }

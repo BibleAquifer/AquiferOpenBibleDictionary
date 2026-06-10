@@ -6616,14 +6616,14 @@
 {
 "reference_id": 3152,
 "content_id": 509662,
-"resource_code": "Unknown",
+"resource_code": "TyndaleBibleDictionary",
 "label": "بلسم",
 "language": "arb"
 },
 {
 "reference_id": 6421,
 "content_id": 511635,
-"resource_code": "Unknown",
+"resource_code": "TyndaleBibleDictionary",
 "label": "مُرُّ",
 "language": "arb"
 },
@@ -6999,7 +6999,7 @@
 {
 "reference_id": 2721,
 "content_id": 509376,
-"resource_code": "Unknown",
+"resource_code": "TyndaleBibleDictionary",
 "label": "اللا ألفية",
 "language": "arb"
 },
@@ -8500,7 +8500,7 @@
 {
 "reference_id": 2782,
 "content_id": 124471,
-"resource_code": "Unknown",
+"resource_code": "TyndaleBibleDictionary",
 "label": "حيوانات",
 "language": "arb"
 },
@@ -16351,6 +16351,13 @@
 "preferred_label": "Altar"
 },
 {
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.7674,
+"match_method": "scored",
+"preferred_label": "Tabernacle Altar"
+},
+{
 "id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.7674,
@@ -16363,13 +16370,6 @@
 "confidence": 0.7674,
 "match_method": "scored",
 "preferred_label": "Stone Altar"
-},
-{
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.7674,
-"match_method": "scored",
-"preferred_label": "Tabernacle Altar"
 }
 ]
 }
@@ -17730,14 +17730,14 @@
 {
 "reference_id": 5868,
 "content_id": 335367,
-"resource_code": "Unknown",
+"resource_code": "TyndaleBibleDictionary",
 "label": "لِعَازَر",
 "language": "arb"
 },
 {
 "reference_id": 6129,
 "content_id": 201499,
-"resource_code": "Unknown",
+"resource_code": "TyndaleBibleDictionary",
 "label": "مريم",
 "language": "arb"
 }
@@ -19116,14 +19116,14 @@
 "preferred_label": "مَرْيَم"
 },
 {
-"id": "person:HusbandOfMary",
+"id": "person:HusbandOfMary.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "scored",
 "preferred_label": "Husband of Mary"
 },
 {
-"id": "person:HusbandOfMary.2",
+"id": "person:HusbandOfMary",
 "type": "person",
 "confidence": 0.6,
 "match_method": "scored",
@@ -22103,7 +22103,7 @@
 {
 "reference_id": 6416,
 "content_id": 201505,
-"resource_code": "Unknown",
+"resource_code": "TyndaleBibleDictionary",
 "label": "موسيقى",
 "language": "arb"
 }
@@ -23147,7 +23147,7 @@
 {
 "reference_id": 2848,
 "content_id": 509455,
-"resource_code": "Unknown",
+"resource_code": "TyndaleBibleDictionary",
 "label": "تفاحة، شجرة تفاح",
 "language": "arb"
 },
@@ -24529,7 +24529,7 @@
 {
 "reference_id": 6786,
 "content_id": 443943,
-"resource_code": "Unknown",
+"resource_code": "TyndaleBibleDictionary",
 "label": "الخيمة* (ٱلْمَظَالّ)",
 "language": "arb"
 }
@@ -29397,16 +29397,9 @@
 {
 "id": "place:Mortar",
 "type": "place",
-"confidence": 0.8875,
+"confidence": 0.8425,
 "match_method": "scored",
 "preferred_label": "مَكْتِيشَ"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.58,
-"match_method": "scored",
-"preferred_label": "Money"
 }
 ]
 }
@@ -35399,14 +35392,14 @@
 ],
 "acai": [
 {
-"id": "person:Manasseh.2",
+"id": "person:Manasseh",
 "type": "person",
 "confidence": 0.65,
 "match_method": "scored",
 "preferred_label": "مَنَسَّى"
 },
 {
-"id": "person:Manasseh",
+"id": "person:Manasseh.2",
 "type": "person",
 "confidence": 0.65,
 "match_method": "scored",
@@ -39944,35 +39937,35 @@
 {
 "reference_id": 3812,
 "content_id": 490313,
-"resource_code": "Unknown",
+"resource_code": "TyndaleBibleDictionary",
 "label": "نَحَّاس",
 "language": "arb"
 },
 {
 "reference_id": 4673,
 "content_id": 490399,
-"resource_code": "Unknown",
+"resource_code": "TyndaleBibleDictionary",
 "label": "صائغ",
 "language": "arb"
 },
 {
 "reference_id": 6313,
 "content_id": 232599,
-"resource_code": "Unknown",
+"resource_code": "TyndaleBibleDictionary",
 "label": "المَعادِن والفِلزَّات",
 "language": "arb"
 },
 {
 "reference_id": 7666,
 "content_id": 331969,
-"resource_code": "Unknown",
+"resource_code": "TyndaleBibleDictionary",
 "label": "صائغ الفضة",
 "language": "arb"
 },
 {
 "reference_id": 5219,
 "content_id": 443785,
-"resource_code": "Unknown",
+"resource_code": "TyndaleBibleDictionary",
 "label": "حَدَّاد",
 "language": "arb"
 }
@@ -40154,14 +40147,7 @@
 ],
 "acai": [
 {
-"id": "person:Mica.2",
-"type": "person",
-"confidence": 0.68,
-"match_method": "scored",
-"preferred_label": "مِيخَا"
-},
-{
-"id": "person:Mica.3",
+"id": "person:Micah.2",
 "type": "person",
 "confidence": 0.68,
 "match_method": "scored",
@@ -40175,7 +40161,14 @@
 "preferred_label": "مِيخَا"
 },
 {
-"id": "person:Micah.2",
+"id": "person:Mica.3",
+"type": "person",
+"confidence": 0.68,
+"match_method": "scored",
+"preferred_label": "مِيخَا"
+},
+{
+"id": "person:Mica.2",
 "type": "person",
 "confidence": 0.68,
 "match_method": "scored",
@@ -40775,14 +40768,21 @@
 "preferred_label": "مِيخَا"
 },
 {
-"id": "person:Micaiah.3",
+"id": "person:Micaiah.7",
+"type": "person",
+"confidence": 0.65,
+"match_method": "scored",
+"preferred_label": "مَحْلَةَ"
+},
+{
+"id": "person:Micaiah.4",
 "type": "person",
 "confidence": 0.65,
 "match_method": "scored",
 "preferred_label": "مِيخَا"
 },
 {
-"id": "person:Micaiah.4",
+"id": "person:Micaiah.3",
 "type": "person",
 "confidence": 0.65,
 "match_method": "scored",
@@ -40794,13 +40794,6 @@
 "confidence": 0.65,
 "match_method": "scored",
 "preferred_label": "مِيخَا"
-},
-{
-"id": "person:Micaiah.7",
-"type": "person",
-"confidence": 0.65,
-"match_method": "scored",
-"preferred_label": "مَحْلَةَ"
 }
 ]
 }
