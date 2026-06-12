@@ -26579,15 +26579,15 @@
 ],
 "acai": [
 {
-"id": "place:Ashkenaz",
-"type": "place",
+"id": "person:Ashkenaz",
+"type": "person",
 "confidence": 0.8,
 "match_method": "scored",
 "preferred_label": "أَشْكَنَاز"
 },
 {
-"id": "person:Ashkenaz",
-"type": "person",
+"id": "place:Ashkenaz",
+"type": "place",
 "confidence": 0.8,
 "match_method": "scored",
 "preferred_label": "أَشْكَنَاز"
@@ -63446,18 +63446,11 @@
 "preferred_label": "Gate of Jeshanah"
 },
 {
-"id": "place:FishGate",
+"id": "place:SheepGate",
 "type": "place",
 "confidence": 0.5848,
 "match_method": "scored",
-"preferred_label": "باب ٱلسَّمَكِ"
-},
-{
-"id": "place:EphraimGate",
-"type": "place",
-"confidence": 0.5848,
-"match_method": "scored",
-"preferred_label": "أَفْرَايِمَ"
+"preferred_label": "ٱلضَّأْنِ"
 },
 {
 "id": "place:GuardGate",
@@ -63467,11 +63460,18 @@
 "preferred_label": "ٱلسِّجْنِ"
 },
 {
-"id": "place:SheepGate",
+"id": "place:EphraimGate",
 "type": "place",
 "confidence": 0.5848,
 "match_method": "scored",
-"preferred_label": "ٱلضَّأْنِ"
+"preferred_label": "أَفْرَايِمَ"
+},
+{
+"id": "place:FishGate",
+"type": "place",
+"confidence": 0.5848,
+"match_method": "scored",
+"preferred_label": "باب ٱلسَّمَكِ"
 }
 ]
 }
