@@ -8759,7 +8759,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Sharezer.2",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Scharetser"
+},
+{
+"id": "person:Sharezer",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Scharetser"
+}
+]
 }
 },
 {
@@ -12066,18 +12081,18 @@
 "preferred_label": "Shemaya"
 },
 {
-"id": "group:Shiphmites",
-"type": "group",
-"confidence": 0.607,
-"match_method": "scored",
-"preferred_label": "Shiphmites"
-},
-{
 "id": "group:Ramathites",
 "type": "group",
 "confidence": 0.607,
 "match_method": "scored",
 "preferred_label": "Ramathites"
+},
+{
+"id": "group:Shiphmites",
+"type": "group",
+"confidence": 0.607,
+"match_method": "scored",
+"preferred_label": "Shiphmites"
 }
 ]
 }
@@ -24387,18 +24402,18 @@
 ],
 "acai": [
 {
-"id": "realia:Quadrans",
-"type": "realia",
-"confidence": 0.6667,
-"match_method": "scored",
-"preferred_label": "Quadrans"
-},
-{
 "id": "realia:Assarion",
 "type": "realia",
 "confidence": 0.6667,
 "match_method": "scored",
 "preferred_label": "Assarion"
+},
+{
+"id": "realia:Quadrans",
+"type": "realia",
+"confidence": 0.6667,
+"match_method": "scored",
+"preferred_label": "Quadrans"
 }
 ]
 }

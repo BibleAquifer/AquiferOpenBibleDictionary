@@ -7292,18 +7292,18 @@
 "preferred_label": "Hégué"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.589,
-"match_method": "scored",
-"preferred_label": "House"
-},
-{
 "id": "keyterm:Appoint",
 "type": "keyterm",
 "confidence": 0.589,
 "match_method": "scored",
 "preferred_label": "charger"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.589,
+"match_method": "scored",
+"preferred_label": "House"
 }
 ]
 }
@@ -11747,7 +11747,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:HorMount",
+"type": "place",
+"confidence": 0.6923,
+"match_method": "scored",
+"preferred_label": "montagne de Hor"
+},
+{
+"id": "place:HorMount.2",
+"type": "place",
+"confidence": 0.6308,
+"match_method": "scored",
+"preferred_label": "montagne de Hor"
+}
+]
 }
 },
 {

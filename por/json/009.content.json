@@ -497,7 +497,15 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Hadad-rimmon",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Hadade-Rimom"
+}
+]
 }
 },
 {
@@ -6019,20 +6027,6 @@
 "preferred_label": "Heber"
 },
 {
-"id": "group:Heber",
-"type": "group",
-"confidence": 0.619,
-"match_method": "scored",
-"preferred_label": "Heberites"
-},
-{
-"id": "person:Eber.2",
-"type": "person",
-"confidence": 0.619,
-"match_method": "scored",
-"preferred_label": "Eber"
-},
-{
 "id": "person:Eber",
 "type": "person",
 "confidence": 0.619,
@@ -6041,6 +6035,20 @@
 },
 {
 "id": "person:Eber.4",
+"type": "person",
+"confidence": 0.619,
+"match_method": "scored",
+"preferred_label": "Eber"
+},
+{
+"id": "group:Heber",
+"type": "group",
+"confidence": 0.619,
+"match_method": "scored",
+"preferred_label": "Heberites"
+},
+{
+"id": "person:Eber.2",
 "type": "person",
 "confidence": 0.619,
 "match_method": "scored",
@@ -7489,18 +7497,18 @@
 "preferred_label": "Héfer"
 },
 {
-"id": "group:Mecherathites",
-"type": "group",
-"confidence": 0.7333,
-"match_method": "scored",
-"preferred_label": "Mecherathites"
-},
-{
 "id": "group:Hepher",
 "type": "group",
 "confidence": 0.7333,
 "match_method": "scored",
 "preferred_label": "Hepherites"
+},
+{
+"id": "group:Mecherathites",
+"type": "group",
+"confidence": 0.7333,
+"match_method": "scored",
+"preferred_label": "Mecherathites"
 }
 ]
 }

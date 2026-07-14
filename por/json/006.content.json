@@ -10919,7 +10919,22 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:En-gannim.2",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "En-Ganim"
+},
+{
+"id": "place:En-gannim",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "En-Ganim"
+}
+]
 }
 },
 {
@@ -11181,18 +11196,18 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:Net",
-"type": "realia",
-"confidence": 0.65,
-"match_method": "scored",
-"preferred_label": "Net"
-},
-{
 "id": "realia:Trap",
 "type": "realia",
 "confidence": 0.65,
 "match_method": "scored",
 "preferred_label": "Trap"
+},
+{
+"id": "realia:Net",
+"type": "realia",
+"confidence": 0.65,
+"match_method": "scored",
+"preferred_label": "Net"
 }
 ]
 }
@@ -13770,7 +13785,15 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Chosen",
+"type": "keyterm",
+"confidence": 1.0,
+"match_method": "embedding",
+"preferred_label": "escolhido"
+}
+]
 }
 },
 {
