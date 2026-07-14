@@ -10850,13 +10850,6 @@
 "confidence": 1.0,
 "match_method": "content_id",
 "preferred_label": "Osprey"
-},
-{
-"id": "fauna:Vulture",
-"type": "fauna",
-"confidence": 0.802,
-"match_method": "scored",
-"preferred_label": "Vulture"
 }
 ]
 }
@@ -16684,11 +16677,11 @@
 "preferred_label": "Altar"
 },
 {
-"id": "realia:StoneAltar",
+"id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.7674,
 "match_method": "scored",
-"preferred_label": "Stone Altar"
+"preferred_label": "Tabernacle Altar"
 },
 {
 "id": "realia:TempleAltar",
@@ -16698,11 +16691,11 @@
 "preferred_label": "Temple Altar"
 },
 {
-"id": "realia:TabernacleAltar",
+"id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.7674,
 "match_method": "scored",
-"preferred_label": "Tabernacle Altar"
+"preferred_label": "Stone Altar"
 }
 ]
 }
@@ -35070,18 +35063,18 @@
 "preferred_label": "Aroer"
 },
 {
-"id": "group:Ashtaroth",
-"type": "group",
-"confidence": 0.6267,
-"match_method": "scored",
-"preferred_label": "Ashterathites"
-},
-{
 "id": "group:Aroer",
 "type": "group",
 "confidence": 0.6267,
 "match_method": "scored",
 "preferred_label": "Aroerites"
+},
+{
+"id": "group:Ashtaroth",
+"type": "group",
+"confidence": 0.6267,
+"match_method": "scored",
+"preferred_label": "Ashterathites"
 }
 ]
 }

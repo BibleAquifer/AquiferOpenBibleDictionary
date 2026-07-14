@@ -4,7 +4,7 @@ This repository (`AquiferOpenBibleDictionary`) contains Aquifer resource data wi
 
 ## License
 
-_Tyndale Open Bible Dictionary_ © 2023 [Tyndale House Publishers](https://tyndaleopenresources.com/)
+_Aquifer Open Bible Dictionary_ © 2026 [Mission Mutual](https://missionmutual.org)
 
 This resource is licensed under the [CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en) license.
 

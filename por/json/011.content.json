@@ -14783,7 +14783,43 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:John.2",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "João"
+},
+{
+"id": "person:John.3",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "João"
+},
+{
+"id": "person:John.4",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "João"
+},
+{
+"id": "person:Mark",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Marcos"
+},
+{
+"id": "person:John",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "João"
+}
+]
 }
 },
 {
@@ -22527,18 +22563,18 @@
 "preferred_label": "Judas"
 },
 {
-"id": "person:Judah.3",
-"type": "person",
-"confidence": 0.6125,
-"match_method": "scored",
-"preferred_label": "Judá"
-},
-{
 "id": "person:Joda",
 "type": "person",
 "confidence": 0.6125,
 "match_method": "scored",
 "preferred_label": "Joda"
+},
+{
+"id": "person:Judah.3",
+"type": "person",
+"confidence": 0.6125,
+"match_method": "scored",
+"preferred_label": "Judá"
 }
 ]
 }
@@ -26949,7 +26985,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:HallOfJudgment",
+"type": "place",
+"confidence": 1.0,
+"match_method": "embedding",
+"preferred_label": "Hall of Judgment"
+}
+]
 }
 },
 {
