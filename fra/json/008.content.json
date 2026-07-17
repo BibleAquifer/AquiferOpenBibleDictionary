@@ -400,7 +400,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Hachmoni",
+"type": "person",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "Hacmoni"
+}
+]
 }
 },
 {
@@ -429,7 +437,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "group:Hachmonites",
+"type": "group",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "Hachmonites"
+}
+]
 }
 },
 {
@@ -7292,18 +7308,18 @@
 "preferred_label": "Hégué"
 },
 {
-"id": "keyterm:Appoint",
-"type": "keyterm",
-"confidence": 0.589,
-"match_method": "scored",
-"preferred_label": "charger"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.589,
 "match_method": "scored",
 "preferred_label": "House"
+},
+{
+"id": "keyterm:Appoint",
+"type": "keyterm",
+"confidence": 0.589,
+"match_method": "scored",
+"preferred_label": "charger"
 }
 ]
 }

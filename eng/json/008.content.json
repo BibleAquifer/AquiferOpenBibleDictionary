@@ -325,6 +325,37 @@
 }
 },
 {
+"content_id": "5566",
+"reference_id": 4734,
+"version": "1.0.4",
+"title": "Hachmoni",
+"media_type": "Text",
+"index_reference": "hachmoni",
+"language": "eng",
+"review_level": "None",
+"content": "<h1>HACHMONI</h1><p>Hachmoni was the name of Jehiel’s family. Jehiel was David’s servant (<a href=\"https://ref.ly/1Chr27:32\">1&nbsp;Chronicles 27:32</a>). He may have been a companion or teacher for David’s sons.</p>",
+"associations": {
+"passage": [
+{
+"start_ref": "13027032",
+"start_ref_usfm": "1CH 27:32",
+"end_ref": "13027032",
+"end_ref_usfm": "1CH 27:32"
+}
+],
+"resource": [],
+"acai": [
+{
+"id": "person:Hachmoni",
+"type": "person",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "Hachmoni"
+}
+]
+}
+},
+{
 "content_id": "5564",
 "reference_id": 4732,
 "version": "1.0.4",
@@ -333,7 +364,7 @@
 "index_reference": "hachmoni hachmonite",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>HACHMONI*, HACHMONITE*</h1><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4734\" data-resourceType=\"TyndaleBibleDictionary\">Hacmoni</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"4733\" data-resourceType=\"TyndaleBibleDictionary\">Hacmonite</span>.</p>",
+"content": "<h1>HACHMONI, HACHMONITE</h1><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4734\" data-resourceType=\"TyndaleBibleDictionary\">Hacmoni</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"4733\" data-resourceType=\"TyndaleBibleDictionary\">Hacmonite</span>.</p>",
 "associations": {
 "passage": [],
 "resource": [
@@ -341,14 +372,14 @@
 "reference_id": 4733,
 "content_id": 5565,
 "resource_code": "TyndaleBibleDictionary",
-"label": "Hacmonite",
+"label": "Hachmonite",
 "language": "eng"
 },
 {
 "reference_id": 4734,
 "content_id": 5566,
 "resource_code": "TyndaleBibleDictionary",
-"label": "Hacmoni",
+"label": "Hachmoni",
 "language": "eng"
 }
 ],
@@ -364,46 +395,15 @@
 }
 },
 {
-"content_id": "5566",
-"reference_id": 4734,
-"version": "1.0.4",
-"title": "Hacmoni",
-"media_type": "Text",
-"index_reference": "hacmoni",
-"language": "eng",
-"review_level": "None",
-"content": "<h1>HACMONI</h1><p>Name of Jehiel’s family. Jehiel was David’s servant (<a href=\"https://ref.ly/1Chr27:32\">1&nbsp;Chr 27:32</a>), apparently a companion or tutor of David’s sons.</p>",
-"associations": {
-"passage": [
-{
-"start_ref": "13027032",
-"start_ref_usfm": "1CH 27:32",
-"end_ref": "13027032",
-"end_ref_usfm": "1CH 27:32"
-}
-],
-"resource": [],
-"acai": [
-{
-"id": "person:Hachmoni",
-"type": "person",
-"confidence": 0.9685,
-"match_method": "scored",
-"preferred_label": "Hachmoni"
-}
-]
-}
-},
-{
 "content_id": "5565",
 "reference_id": 4733,
 "version": "1.0.4",
-"title": "Hacmonite",
+"title": "Hachmonite",
 "media_type": "Text",
-"index_reference": "hacmonite",
+"index_reference": "hachmonite",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>HACMONITE</h1><p>A title for Jashobeam. <a href=\"https://ref.ly/2Sam23:8\">2&nbsp;Samuel 23:8 </a>calls him &quot;Josheb-basshebeth.&quot; He was one of the personal guards of King David (<a href=\"https://ref.ly/1Chr11:11\">1&nbsp;Chronicles 11:11</a>). He is also called <span>Tahchemonite</span> in <a href=\"https://ref.ly/2Sam23:8\">2&nbsp;Samuel 23:8</a>, but this probably a textual error.</p>",
+"content": "<h1>HACHMONITE</h1><p>Hachmonite was a title used for Jashobeam, one of King David’s leading warriors (<a href=\"https://ref.ly/1Chr11:11\">1&nbsp;Chronicles 11:11</a>). In <a href=\"https://ref.ly/2Sam23:8\">2&nbsp;Samuel 23:8, </a>he is called Josheb-basshebeth and also described as a Tahchemonite. The word “Tahchemonite” may be the result of an error in copying the Hebrew text.</p>",
 "associations": {
 "passage": [
 {
@@ -424,7 +424,7 @@
 {
 "id": "group:Hachmonites",
 "type": "group",
-"confidence": 0.9775,
+"confidence": 1.0,
 "match_method": "scored",
 "preferred_label": "Hachmonites"
 }
@@ -4865,14 +4865,14 @@
 "preferred_label": "Hanani"
 },
 {
-"id": "person:Hananiah.8",
+"id": "person:Hananiah.3",
 "type": "person",
 "confidence": 0.5537,
 "match_method": "scored",
 "preferred_label": "Hananiah"
 },
 {
-"id": "person:Hananiah.3",
+"id": "person:Hananiah.8",
 "type": "person",
 "confidence": 0.5537,
 "match_method": "scored",
@@ -7257,18 +7257,18 @@
 ],
 "acai": [
 {
-"id": "group:Harod",
-"type": "group",
-"confidence": 1.0,
-"match_method": "scored",
-"preferred_label": "Harodites"
-},
-{
 "id": "place:Harod",
 "type": "place",
 "confidence": 1.0,
 "match_method": "scored",
 "preferred_label": "Harod"
+},
+{
+"id": "group:Harod",
+"type": "group",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "Harodites"
 }
 ]
 }
@@ -8464,7 +8464,7 @@
 "index_reference": "hasmonean",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>HASMONEAN*</h1><p>Family name of the Jews who instigated the Jewish revolt against the Greeks in 167 BC. <em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"5646\" data-resourceType=\"TyndaleBibleDictionary\">Judaism</span>.</p>",
+"content": "<h1>HASMONEAN</h1><p>Hasmonean was the family name of the Jewish leaders who began the revolt against Greek rule in 167 BC.</p><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"5646\" data-resourceType=\"TyndaleBibleDictionary\">Judaism</span>.</p>",
 "associations": {
 "passage": [],
 "resource": [
@@ -11814,7 +11814,7 @@
 "index_reference": "hearth",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>HEARTH</h1><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"5057\" data-resourceType=\"TyndaleBibleDictionary\">Homes and Dwellings</span>.</p>",
+"content": "<h1>HEARTH</h1><p>A hearth is the place in a home where people made a fire. They used the fire for cooking, warmth, and light.</p><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"5057\" data-resourceType=\"TyndaleBibleDictionary\">Homes and Dwellings</span>.</p>",
 "associations": {
 "passage": [],
 "resource": [
@@ -12567,14 +12567,14 @@
 "preferred_label": "Heber"
 },
 {
-"id": "person:Eber",
+"id": "person:Eber.4",
 "type": "person",
 "confidence": 0.619,
 "match_method": "scored",
 "preferred_label": "Eber"
 },
 {
-"id": "person:Eber.4",
+"id": "person:Eber.2",
 "type": "person",
 "confidence": 0.619,
 "match_method": "scored",
@@ -12588,7 +12588,7 @@
 "preferred_label": "Heberites"
 },
 {
-"id": "person:Eber.2",
+"id": "person:Eber",
 "type": "person",
 "confidence": 0.619,
 "match_method": "scored",
@@ -14197,18 +14197,18 @@
 "preferred_label": "Hegai"
 },
 {
-"id": "keyterm:Appoint",
-"type": "keyterm",
-"confidence": 0.589,
-"match_method": "scored",
-"preferred_label": "Appoint"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.589,
 "match_method": "scored",
 "preferred_label": "House"
+},
+{
+"id": "keyterm:Appoint",
+"type": "keyterm",
+"confidence": 0.589,
+"match_method": "scored",
+"preferred_label": "Appoint"
 }
 ]
 }
@@ -15927,7 +15927,7 @@
 "index_reference": "helmet",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>HELMET</h1><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"2918\" data-resourceType=\"TyndaleBibleDictionary\">Armor and Weapons</span>.</p>",
+"content": "<h1>HELMET</h1><p>A helmet is a hard covering worn on the head for protection in battle.</p><p>A soldier’s head was one of the most easily injured parts of the body. For this reason, soldiers have used helmets for protection since at least the end of the fourth millennium BC.</p><p>Goliath and Saul both wore bronze helmets (<a href=\"https://ref.ly/1Sam17:5,1Sam17:38\">1&nbsp;Samuel 17:5, 38</a>). For many centuries, helmets were standard equipment for heavily armed soldiers in foreign armies. However, helmets do not seem to have been common in Israel’s army during the time of the united kingdom.</p><p>King Uzziah later provided helmets for the army of Judah as part of his military reforms (<a href=\"https://ref.ly/2Chr26:14\">2&nbsp;Chronicles 26:14</a>).</p><p><em>See also</em> <span data-bnType=\"resourceReference\" data-resourceId=\"2918\" data-resourceType=\"TyndaleBibleDictionary\">Armor and Weapons</span>.</p>",
 "associations": {
 "passage": [],
 "resource": [
@@ -16222,6 +16222,13 @@
 "preferred_label": "Hammath"
 },
 {
+"id": "group:Shimeathite",
+"type": "group",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "Shimeathites"
+},
+{
 "id": "group:Sucathite",
 "type": "group",
 "confidence": 1.0,
@@ -16234,13 +16241,6 @@
 "confidence": 1.0,
 "match_method": "scored",
 "preferred_label": "Tirathites"
-},
-{
-"id": "group:Shimeathite",
-"type": "group",
-"confidence": 1.0,
-"match_method": "scored",
-"preferred_label": "Shimeathites"
 }
 ]
 }
@@ -28262,7 +28262,7 @@
 "index_reference": "hyrcanus",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>HYRCANUS</h1><p>1. John Hyrcanus, Hasmonean ruler. <em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4871\" data-resourceType=\"TyndaleBibleDictionary\">Hasmoneans</span>.</p><p>2. Tobias’s son who had a large amount of money deposited in the temple during the time of Heliodorus (<a href=\"https://ref.ly/2Macc3:11\">2&nbsp;Macc 3:11</a>).</p>",
+"content": "<h1>HYRCANUS</h1><ol><li><p>John Hyrcanus was a ruler from the Hasmonean family.</p><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4871\" data-resourceType=\"TyndaleBibleDictionary\">Hasmoneans</span>.</p></li><li><p>Hyrcanus was the son of Tobias. During the time of Heliodorus, he had a large amount of money stored in the temple (<a href=\"https://ref.ly/2Macc3:11\">2&nbsp;Maccabees 3:11</a>).</p></li></ol>",
 "associations": {
 "passage": [
 {
