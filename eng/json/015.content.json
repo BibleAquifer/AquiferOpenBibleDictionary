@@ -1284,7 +1284,7 @@
 "index_reference": "oblation",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>OBLATION*</h1><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"6630\" data-resourceType=\"TyndaleBibleDictionary\">Offerings and Sacrifices</span>.</p>",
+"content": "<h1>OBLATION</h1><p>An oblation is an offering presented to God as an act of worship. In the Bible, the term may refer to gifts such as grain, food, animals, or other items set apart for God. These offerings could express thanks, devotion, repentance, or obedience.</p><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"6630\" data-resourceType=\"TyndaleBibleDictionary\">Offerings and Sacrifices</span>.</p>",
 "associations": {
 "passage": [],
 "resource": [
@@ -4206,18 +4206,18 @@
 "preferred_label": "Gate of Jeshanah"
 },
 {
-"id": "place:FishGate",
-"type": "place",
-"confidence": 0.5848,
-"match_method": "scored",
-"preferred_label": "Fish Gate"
-},
-{
 "id": "place:GuardGate",
 "type": "place",
 "confidence": 0.5848,
 "match_method": "scored",
 "preferred_label": "Gate of the Guard"
+},
+{
+"id": "place:FishGate",
+"type": "place",
+"confidence": 0.5848,
+"match_method": "scored",
+"preferred_label": "Fish Gate"
 },
 {
 "id": "place:SheepGate",
@@ -4777,19 +4777,34 @@
 "index_reference": "olivet",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>OLIVET*</h1><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"6649\" data-resourceType=\"TyndaleBibleDictionary\">Olives, Mount of</span>.</p>",
+"content": "<h1>OLIVET</h1><p>Olivet is another name for the Mount of Olives, a ridge east of Jerusalem. The name appears in some English Bibles at <a href=\"https://ref.ly/Acts1:12\">Acts 1:12</a>, where Jesus ascended to heaven, and in older versions at <a href=\"https://ref.ly/2Sam15:30\">2 Samuel 15:30</a>. The Gospels call the same place the Mount of Olives and connect it with the teaching, prayer, and final days of Jesus before his crucifixion.</p><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"6649\" data-resourceType=\"TyndaleBibleDictionary\">Olives, Mount of</span>.</p>",
 "associations": {
-"passage": [],
+"passage": [
+{
+"start_ref": "44001012",
+"start_ref_usfm": "ACT 1:12",
+"end_ref": "44001012",
+"end_ref_usfm": "ACT 1:12"
+}
+],
 "resource": [
 {
 "reference_id": 6649,
 "content_id": 7481,
 "resource_code": "TyndaleBibleDictionary",
-"label": "Olives, Mount of",
+"label": "Mount of Olives",
 "language": "eng"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:OlivesMount",
+"type": "place",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "Mount of Olives"
+}
+]
 }
 },
 {

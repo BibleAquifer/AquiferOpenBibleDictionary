@@ -1721,7 +1721,15 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Battle-axe",
+"type": "realia",
+"confidence": 0.8554,
+"match_method": "embedding",
+"preferred_label": "Battle-Axe"
+}
+]
 }
 },
 {
@@ -10319,14 +10327,14 @@
 "preferred_label": "Maria Madalena"
 },
 {
-"id": "person:HusbandOfMary.2",
+"id": "person:HusbandOfMary",
 "type": "person",
 "confidence": 0.6,
 "match_method": "scored",
 "preferred_label": "Husband of Mary"
 },
 {
-"id": "person:HusbandOfMary",
+"id": "person:HusbandOfMary.2",
 "type": "person",
 "confidence": 0.6,
 "match_method": "scored",
@@ -10356,7 +10364,15 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Marymagdalene",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Maria Madalena"
+}
+]
 }
 },
 {
@@ -29385,7 +29401,15 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:GerizimMount",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Monte Gerizim"
+}
+]
 }
 },
 {

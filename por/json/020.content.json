@@ -1140,18 +1140,18 @@
 "preferred_label": "Sabtecá"
 },
 {
-"id": "person:Sheba",
-"type": "person",
-"confidence": 0.748,
-"match_method": "scored",
-"preferred_label": "Seba"
-},
-{
 "id": "person:Raamah",
 "type": "person",
 "confidence": 0.748,
 "match_method": "scored",
 "preferred_label": "Raamá"
+},
+{
+"id": "person:Sheba",
+"type": "person",
+"confidence": 0.748,
+"match_method": "scored",
+"preferred_label": "Seba"
 }
 ]
 }
@@ -12749,18 +12749,18 @@
 ],
 "acai": [
 {
-"id": "place:KingsValley",
-"type": "place",
-"confidence": 1.0,
-"match_method": "scored",
-"preferred_label": "King’s Valley"
-},
-{
 "id": "place:Shaveh",
 "type": "place",
 "confidence": 1.0,
 "match_method": "scored",
 "preferred_label": "Vale de Savé"
+},
+{
+"id": "place:KingsValley",
+"type": "place",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "King’s Valley"
 }
 ]
 }
@@ -18276,7 +18276,15 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Grave",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Grave"
+}
+]
 }
 },
 {
@@ -26961,18 +26969,18 @@
 "preferred_label": "Siquém"
 },
 {
-"id": "place:Shechem",
-"type": "place",
-"confidence": 0.6114,
-"match_method": "scored",
-"preferred_label": "Siquém"
-},
-{
 "id": "group:Shechem",
 "type": "group",
 "confidence": 0.6114,
 "match_method": "scored",
 "preferred_label": "Shechemites"
+},
+{
+"id": "place:Shechem",
+"type": "place",
+"confidence": 0.6114,
+"match_method": "scored",
+"preferred_label": "Siquém"
 }
 ]
 }

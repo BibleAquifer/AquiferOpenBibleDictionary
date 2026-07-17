@@ -24274,7 +24274,15 @@
 "language": "fra"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Weapons",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Weapons"
+}
+]
 }
 },
 {
@@ -26949,7 +26957,15 @@
 "language": "fra"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Refuge",
+"type": "keyterm",
+"confidence": 0.8356,
+"match_method": "embedding",
+"preferred_label": "refuge"
+}
+]
 }
 },
 {
@@ -29507,18 +29523,18 @@
 "preferred_label": "Altar"
 },
 {
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.7674,
-"match_method": "scored",
-"preferred_label": "Tabernacle Altar"
-},
-{
 "id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.7674,
 "match_method": "scored",
 "preferred_label": "Temple Altar"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.7674,
+"match_method": "scored",
+"preferred_label": "Tabernacle Altar"
 },
 {
 "id": "realia:StoneAltar",
