@@ -3869,18 +3869,18 @@
 "preferred_label": "سَبْتَكَا"
 },
 {
-"id": "person:Raamah",
-"type": "person",
-"confidence": 0.748,
-"match_method": "scored",
-"preferred_label": "رَعْمَة"
-},
-{
 "id": "person:Sheba",
 "type": "person",
 "confidence": 0.748,
 "match_method": "scored",
 "preferred_label": "شَبَا"
+},
+{
+"id": "person:Raamah",
+"type": "person",
+"confidence": 0.748,
+"match_method": "scored",
+"preferred_label": "رَعْمَة"
 }
 ]
 }
@@ -24689,7 +24689,22 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.7285,
+"match_method": "scored",
+"preferred_label": "Offering"
+},
+{
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.6786,
+"match_method": "scored",
+"preferred_label": "Wine"
+}
+]
 }
 },
 {
@@ -27372,18 +27387,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Samgar",
-"type": "person",
-"confidence": 0.9595,
-"match_method": "scored",
-"preferred_label": "Samgar"
-},
-{
 "id": "person:Nergal-shar-ezer",
 "type": "person",
 "confidence": 0.9595,
 "match_method": "scored",
 "preferred_label": "Nergal-shar-ezer"
+},
+{
+"id": "person:Samgar",
+"type": "person",
+"confidence": 0.9595,
+"match_method": "scored",
+"preferred_label": "Samgar"
 }
 ]
 }
@@ -30328,18 +30343,18 @@
 ],
 "acai": [
 {
-"id": "place:HermonMount",
-"type": "place",
-"confidence": 0.65,
-"match_method": "scored",
-"preferred_label": "حَرْمونَ"
-},
-{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.65,
 "match_method": "scored",
 "preferred_label": "أورشَلِيمَ"
+},
+{
+"id": "place:HermonMount",
+"type": "place",
+"confidence": 0.65,
+"match_method": "scored",
+"preferred_label": "حَرْمونَ"
 }
 ]
 }
@@ -31569,7 +31584,15 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:SinaiMount",
+"type": "place",
+"confidence": 0.6855,
+"match_method": "scored",
+"preferred_label": "سِينَاءَ"
+}
+]
 }
 },
 {

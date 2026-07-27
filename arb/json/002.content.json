@@ -34,18 +34,18 @@
 "preferred_label": "ٱلْجَدِيدِ"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.5935,
-"match_method": "scored",
-"preferred_label": "House"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.5935,
 "match_method": "scored",
 "preferred_label": "ٱلرَّبِّ"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.5935,
+"match_method": "scored",
+"preferred_label": "House"
 }
 ]
 }
@@ -4924,9 +4924,23 @@
 {
 "id": "place:DragonSpring",
 "type": "place",
-"confidence": 1.0,
+"confidence": 0.9055,
 "match_method": "scored",
 "preferred_label": "Dragon Spring"
+},
+{
+"id": "place:ValleyGate",
+"type": "place",
+"confidence": 0.7705,
+"match_method": "scored",
+"preferred_label": "ٱلْوَادِي"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.598,
+"match_method": "scored",
+"preferred_label": "أورشَلِيمَ"
 }
 ]
 }
@@ -6622,15 +6636,15 @@
 "preferred_label": "Shuthelahites"
 },
 {
-"id": "person:Ephraim",
-"type": "person",
+"id": "group:Ephraim",
+"type": "group",
 "confidence": 0.589,
 "match_method": "scored",
 "preferred_label": "أَفْرَايِمَ"
 },
 {
-"id": "group:Ephraim",
-"type": "group",
+"id": "person:Ephraim",
+"type": "person",
 "confidence": 0.589,
 "match_method": "scored",
 "preferred_label": "أَفْرَايِمَ"
@@ -20144,18 +20158,18 @@
 "preferred_label": "Oak"
 },
 {
-"id": "place:Bethel",
-"type": "place",
-"confidence": 0.589,
-"match_method": "scored",
-"preferred_label": "Bethel"
-},
-{
 "id": "flora:Vine",
 "type": "flora",
 "confidence": 0.589,
 "match_method": "scored",
 "preferred_label": "Vine"
+},
+{
+"id": "place:Bethel",
+"type": "place",
+"confidence": 0.589,
+"match_method": "scored",
+"preferred_label": "Bethel"
 }
 ]
 }

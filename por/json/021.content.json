@@ -12800,18 +12800,18 @@
 "preferred_label": "Tola"
 },
 {
-"id": "person:Tola.2",
-"type": "person",
-"confidence": 0.6286,
-"match_method": "scored",
-"preferred_label": "Elon"
-},
-{
 "id": "group:Tola",
 "type": "group",
 "confidence": 0.6286,
 "match_method": "scored",
 "preferred_label": "Tolaites"
+},
+{
+"id": "person:Tola.2",
+"type": "person",
+"confidence": 0.6286,
+"match_method": "scored",
+"preferred_label": "Elon"
 }
 ]
 }
@@ -13168,7 +13168,15 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Tower",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Tower"
+}
+]
 }
 },
 {
@@ -16354,7 +16362,15 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Grave",
+"type": "realia",
+"confidence": 0.6667,
+"match_method": "scored",
+"preferred_label": "Grave"
+}
+]
 }
 },
 {
@@ -16573,7 +16589,22 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Tunic.2",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Tunic"
+},
+{
+"id": "realia:Tunic",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Tunic"
+}
+]
 }
 },
 {

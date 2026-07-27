@@ -15825,7 +15825,15 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Parchment",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Parchment"
+}
+]
 }
 },
 {
@@ -19365,7 +19373,15 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Jezreel.2",
+"type": "place",
+"confidence": 0.589,
+"match_method": "scored",
+"preferred_label": "Jizreel"
+}
+]
 }
 },
 {
@@ -23077,7 +23093,29 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:DragonSpring",
+"type": "place",
+"confidence": 0.9055,
+"match_method": "scored",
+"preferred_label": "Dragon Spring"
+},
+{
+"id": "place:ValleyGate",
+"type": "place",
+"confidence": 0.7705,
+"match_method": "scored",
+"preferred_label": "Valley Gate"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.598,
+"match_method": "scored",
+"preferred_label": "Jerusalém"
+}
+]
 }
 },
 {
@@ -24900,7 +24938,15 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Door",
+"type": "realia",
+"confidence": 0.8998,
+"match_method": "embedding",
+"preferred_label": "Door"
+}
+]
 }
 },
 {
@@ -34027,18 +34073,18 @@
 ],
 "acai": [
 {
-"id": "group:Punite",
-"type": "group",
-"confidence": 0.937,
-"match_method": "scored",
-"preferred_label": "Punites"
-},
-{
 "id": "person:Puah",
 "type": "person",
 "confidence": 0.937,
 "match_method": "scored",
 "preferred_label": "Pua"
+},
+{
+"id": "group:Punite",
+"type": "group",
+"confidence": 0.937,
+"match_method": "scored",
+"preferred_label": "Punites"
 }
 ]
 }
