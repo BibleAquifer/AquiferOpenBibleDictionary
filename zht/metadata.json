@@ -29,7 +29,7 @@
 },
 "adaptation_notice": "<p><b>Aquifer Open Bible Dictionary</b></p><p>This work is an adaptation of <cite>Tyndale Open Bible Dictionary</cite> © 2023 Tyndale House Publishers, licensed under the CC BY-SA 4.0 license. The adaptation, <cite>Aquifer Open Bible Dictionary</cite>, was created by Mission Mutual and is also licensed under CC BY-SA 4.0.</p><p>This resource has been adapted into multiple languages, including English, Tok Pisin, Arabic (عربي), French (Français), Hindi (हिंदी), Indonesian (Bahasa Indonesia), Portuguese (Português), Russian (Русский), Spanish (Español), Swahili (Kiswahili), and Simplified Chinese (简体中文).</p>",
 "resource_code": "TyndaleBibleDictionary",
-"date_created": "2026-07-17",
+"date_created": "2026-07-27",
 "language": "zht",
 "localizations": [
 "eng",
@@ -44,7 +44,8 @@
 "nep",
 "apd",
 "tpi",
-"nld"
+"nld",
+"jpn"
 ],
 "order": "alphabetical",
 "content_type": "Html"
@@ -55,7 +56,7 @@
 "version": "1.0.0",
 "category": "source",
 "defaultLocale": "en",
-"dateCreated": "2026-07-17T11:29:54.995266"
+"dateCreated": "2026-07-27T08:05:24.650907"
 },
 "idAuthorities": {
 "aquifer": {
@@ -69,7 +70,7 @@
 "primary": {
 "aquifer": {
 "TyndaleBibleDictionary": {
-"timestamp": "2026-07-17T11:29:54.995266"
+"timestamp": "2026-07-27T08:05:24.650907"
 }
 }
 },
@@ -101,11 +102,14 @@
 "ingredients": {
 "json/001.content.json": {
 "mimeType": "text/json",
-"size": 40137,
+"size": 50832,
 "scope": {
 "a": [
 "阿斐 (人物)",
+"阿拉伯，阿拉伯人",
 "阿摩司書",
+"阿抹",
+"阿南",
 "阿轄"
 ]
 }
@@ -127,7 +131,7 @@
 },
 "json/003.content.json": {
 "mimeType": "text/json",
-"size": 44805,
+"size": 47433,
 "scope": {
 "an": [
 "安（地點）",
@@ -135,7 +139,8 @@
 "安息",
 "安息日",
 "安葬，安葬習俗",
-"暗拉非"
+"暗拉非",
+"暗蘭"
 ]
 }
 },
@@ -150,7 +155,7 @@
 },
 "json/005.content.json": {
 "mimeType": "text/json",
-"size": 37598,
+"size": 50534,
 "scope": {
 "ba": [
 "巴別",
@@ -158,9 +163,14 @@
 "巴底買",
 "巴拉迦",
 "巴蘭",
+"巴蘭",
+"巴勒‧哈南",
 "巴勒斯坦",
 "巴列（地點）",
-"巴珊"
+"巴珊",
+"巴實抹",
+"巴實抹（Bashemath）",
+"巴烏"
 ]
 }
 },
@@ -195,15 +205,20 @@
 },
 "json/009.content.json": {
 "mimeType": "text/json",
-"size": 139778,
+"size": 145996,
 "scope": {
 "bi": [
 "逼迫",
+"比達",
+"比珥",
 "比拉",
 "比拉（地點）",
+"比拉（人物）",
 "比勒達",
+"比利",
 "比利洗人",
 "比利亞",
+"比嫩",
 "比沙",
 "比遜河",
 "比遜河",
@@ -213,21 +228,33 @@
 "彼土利（人物）",
 "必達",
 "庇耳‧拉海‧萊",
-"婢女、少女"
+"婢女、少女",
+"婢女，使女"
 ]
 }
 },
 "json/010.content.json": {
 "mimeType": "text/json",
-"size": 10610,
+"size": 14199,
 "scope": {
 "bian": [
+"便‧俄尼",
+"便雅憫（人物）",
 "便‧亞米",
 "變像"
 ]
 }
 },
 "json/011.content.json": {
+"mimeType": "text/json",
+"size": 2384,
+"scope": {
+"bie": [
+"別是巴"
+]
+}
+},
+"json/012.content.json": {
 "mimeType": "text/json",
 "size": 14160,
 "scope": {
@@ -236,20 +263,23 @@
 ]
 }
 },
-"json/012.content.json": {
+"json/013.content.json": {
 "mimeType": "text/json",
-"size": 18753,
+"size": 32829,
 "scope": {
 "bo": [
+"波斯拉",
+"波提乏",
 "伯大尼",
 "伯法其",
+"伯利恆",
 "伯賽大",
 "伯‧珊，伯‧善",
 "伯特利（地點），伯特利人"
 ]
 }
 },
-"json/013.content.json": {
+"json/014.content.json": {
 "mimeType": "text/json",
 "size": 11734,
 "scope": {
@@ -260,7 +290,7 @@
 ]
 }
 },
-"json/014.content.json": {
+"json/015.content.json": {
 "mimeType": "text/json",
 "size": 17825,
 "scope": {
@@ -271,7 +301,7 @@
 ]
 }
 },
-"json/015.content.json": {
+"json/016.content.json": {
 "mimeType": "text/json",
 "size": 27634,
 "scope": {
@@ -280,7 +310,7 @@
 ]
 }
 },
-"json/016.content.json": {
+"json/017.content.json": {
 "mimeType": "text/json",
 "size": 5227,
 "scope": {
@@ -289,7 +319,7 @@
 ]
 }
 },
-"json/017.content.json": {
+"json/018.content.json": {
 "mimeType": "text/json",
 "size": 36578,
 "scope": {
@@ -301,7 +331,7 @@
 ]
 }
 },
-"json/018.content.json": {
+"json/019.content.json": {
 "mimeType": "text/json",
 "size": 58852,
 "scope": {
@@ -311,7 +341,7 @@
 ]
 }
 },
-"json/019.content.json": {
+"json/020.content.json": {
 "mimeType": "text/json",
 "size": 3111,
 "scope": {
@@ -320,7 +350,7 @@
 ]
 }
 },
-"json/020.content.json": {
+"json/021.content.json": {
 "mimeType": "text/json",
 "size": 77593,
 "scope": {
@@ -331,7 +361,7 @@
 ]
 }
 },
-"json/021.content.json": {
+"json/022.content.json": {
 "mimeType": "text/json",
 "size": 2095,
 "scope": {
@@ -340,7 +370,7 @@
 ]
 }
 },
-"json/022.content.json": {
+"json/023.content.json": {
 "mimeType": "text/json",
 "size": 1178,
 "scope": {
@@ -349,17 +379,18 @@
 ]
 }
 },
-"json/023.content.json": {
+"json/024.content.json": {
 "mimeType": "text/json",
-"size": 40363,
+"size": 44659,
 "scope": {
 "ci": [
 "次經",
+"刺刑",
 "賜福、祝福"
 ]
 }
 },
-"json/024.content.json": {
+"json/025.content.json": {
 "mimeType": "text/json",
 "size": 58792,
 "scope": {
@@ -373,7 +404,16 @@
 ]
 }
 },
-"json/025.content.json": {
+"json/026.content.json": {
+"mimeType": "text/json",
+"size": 3308,
+"scope": {
+"dan": [
+"但（人物）"
+]
+}
+},
+"json/027.content.json": {
 "mimeType": "text/json",
 "size": 42132,
 "scope": {
@@ -384,7 +424,7 @@
 ]
 }
 },
-"json/026.content.json": {
+"json/028.content.json": {
 "mimeType": "text/json",
 "size": 10852,
 "scope": {
@@ -394,12 +434,13 @@
 ]
 }
 },
-"json/027.content.json": {
+"json/029.content.json": {
 "mimeType": "text/json",
-"size": 55822,
+"size": 61783,
 "scope": {
 "di": [
 "地",
+"地界",
 "地獄",
 "地獄",
 "低加坡里",
@@ -407,11 +448,14 @@
 "底但（人物）",
 "底格里斯河",
 "底買",
+"底拿",
+"底珊",
+"底順",
 "第一次猶太起義"
 ]
 }
 },
-"json/028.content.json": {
+"json/030.content.json": {
 "mimeType": "text/json",
 "size": 2057,
 "scope": {
@@ -420,7 +464,7 @@
 ]
 }
 },
-"json/029.content.json": {
+"json/031.content.json": {
 "mimeType": "text/json",
 "size": 3601,
 "scope": {
@@ -429,7 +473,7 @@
 ]
 }
 },
-"json/030.content.json": {
+"json/032.content.json": {
 "mimeType": "text/json",
 "size": 29384,
 "scope": {
@@ -438,7 +482,7 @@
 ]
 }
 },
-"json/031.content.json": {
+"json/033.content.json": {
 "mimeType": "text/json",
 "size": 178378,
 "scope": {
@@ -447,7 +491,7 @@
 ]
 }
 },
-"json/032.content.json": {
+"json/034.content.json": {
 "mimeType": "text/json",
 "size": 25580,
 "scope": {
@@ -458,7 +502,7 @@
 ]
 }
 },
-"json/033.content.json": {
+"json/035.content.json": {
 "mimeType": "text/json",
 "size": 16138,
 "scope": {
@@ -469,27 +513,29 @@
 ]
 }
 },
-"json/034.content.json": {
+"json/036.content.json": {
 "mimeType": "text/json",
-"size": 948,
+"size": 2742,
 "scope": {
 "duo": [
-"多單"
+"多單",
+"多坍"
 ]
 }
 },
-"json/035.content.json": {
+"json/037.content.json": {
 "mimeType": "text/json",
-"size": 4930,
+"size": 6412,
 "scope": {
 "e": [
 "俄巴路",
 "俄斐 (地點)",
+"俄南",
 "蛾摩拉"
 ]
 }
 },
-"json/036.content.json": {
+"json/038.content.json": {
 "mimeType": "text/json",
 "size": 19543,
 "scope": {
@@ -499,7 +545,7 @@
 ]
 }
 },
-"json/037.content.json": {
+"json/039.content.json": {
 "mimeType": "text/json",
 "size": 21071,
 "scope": {
@@ -512,7 +558,7 @@
 ]
 }
 },
-"json/038.content.json": {
+"json/040.content.json": {
 "mimeType": "text/json",
 "size": 18684,
 "scope": {
@@ -522,7 +568,7 @@
 ]
 }
 },
-"json/039.content.json": {
+"json/041.content.json": {
 "mimeType": "text/json",
 "size": 43062,
 "scope": {
@@ -534,7 +580,7 @@
 ]
 }
 },
-"json/040.content.json": {
+"json/042.content.json": {
 "mimeType": "text/json",
 "size": 20481,
 "scope": {
@@ -548,17 +594,18 @@
 ]
 }
 },
-"json/041.content.json": {
+"json/043.content.json": {
 "mimeType": "text/json",
-"size": 12394,
+"size": 14227,
 "scope": {
 "feng": [
+"風茄",
 "風琴",
 "豐滿（充滿、豐盛）"
 ]
 }
 },
-"json/042.content.json": {
+"json/044.content.json": {
 "mimeType": "text/json",
 "size": 97643,
 "scope": {
@@ -571,7 +618,7 @@
 ]
 }
 },
-"json/043.content.json": {
+"json/045.content.json": {
 "mimeType": "text/json",
 "size": 7498,
 "scope": {
@@ -582,7 +629,7 @@
 ]
 }
 },
-"json/044.content.json": {
+"json/046.content.json": {
 "mimeType": "text/json",
 "size": 6978,
 "scope": {
@@ -591,17 +638,18 @@
 ]
 }
 },
-"json/045.content.json": {
+"json/047.content.json": {
 "mimeType": "text/json",
-"size": 12667,
+"size": 22811,
 "scope": {
 "gao": [
 "高拉尼提斯",
-"膏抹"
+"膏抹",
+"膏油"
 ]
 }
 },
-"json/046.content.json": {
+"json/048.content.json": {
 "mimeType": "text/json",
 "size": 102151,
 "scope": {
@@ -620,7 +668,7 @@
 ]
 }
 },
-"json/047.content.json": {
+"json/049.content.json": {
 "mimeType": "text/json",
 "size": 2131,
 "scope": {
@@ -629,11 +677,12 @@
 ]
 }
 },
-"json/048.content.json": {
+"json/050.content.json": {
 "mimeType": "text/json",
-"size": 93737,
+"size": 99509,
 "scope": {
 "gong": [
+"工價",
 "工作",
 "弓箭手、射箭",
 "公羊",
@@ -642,7 +691,7 @@
 ]
 }
 },
-"json/049.content.json": {
+"json/051.content.json": {
 "mimeType": "text/json",
 "size": 11801,
 "scope": {
@@ -654,7 +703,7 @@
 ]
 }
 },
-"json/050.content.json": {
+"json/052.content.json": {
 "mimeType": "text/json",
 "size": 54711,
 "scope": {
@@ -665,7 +714,7 @@
 ]
 }
 },
-"json/051.content.json": {
+"json/053.content.json": {
 "mimeType": "text/json",
 "size": 17863,
 "scope": {
@@ -674,7 +723,7 @@
 ]
 }
 },
-"json/052.content.json": {
+"json/054.content.json": {
 "mimeType": "text/json",
 "size": 29630,
 "scope": {
@@ -685,9 +734,9 @@
 ]
 }
 },
-"json/053.content.json": {
+"json/055.content.json": {
 "mimeType": "text/json",
-"size": 27892,
+"size": 29985,
 "scope": {
 "ha": [
 "哈達",
@@ -701,6 +750,7 @@
 "哈馬",
 "哈馬人",
 "哈麥（地點）",
+"哈抹",
 "哈母勒，哈母勒族",
 "哈諾",
 "哈薩瑪非",
@@ -710,7 +760,7 @@
 ]
 }
 },
-"json/054.content.json": {
+"json/056.content.json": {
 "mimeType": "text/json",
 "size": 6501,
 "scope": {
@@ -719,7 +769,7 @@
 ]
 }
 },
-"json/055.content.json": {
+"json/057.content.json": {
 "mimeType": "text/json",
 "size": 4242,
 "scope": {
@@ -728,21 +778,22 @@
 ]
 }
 },
-"json/056.content.json": {
+"json/058.content.json": {
 "mimeType": "text/json",
-"size": 68137,
+"size": 68967,
 "scope": {
 "he": [
 "何把",
 "何利人",
 "何西阿書",
 "和撒那",
+"荷幔（Hemam）",
 "赫",
 "赫人"
 ]
 }
 },
-"json/057.content.json": {
+"json/059.content.json": {
 "mimeType": "text/json",
 "size": 15863,
 "scope": {
@@ -751,7 +802,7 @@
 ]
 }
 },
-"json/058.content.json": {
+"json/060.content.json": {
 "mimeType": "text/json",
 "size": 9774,
 "scope": {
@@ -761,16 +812,17 @@
 ]
 }
 },
-"json/059.content.json": {
+"json/061.content.json": {
 "mimeType": "text/json",
-"size": 635,
+"size": 1305,
 "scope": {
 "hu": [
-"戶勒"
+"戶勒",
+"戶珊"
 ]
 }
 },
-"json/060.content.json": {
+"json/062.content.json": {
 "mimeType": "text/json",
 "size": 14608,
 "scope": {
@@ -779,7 +831,7 @@
 ]
 }
 },
-"json/061.content.json": {
+"json/063.content.json": {
 "mimeType": "text/json",
 "size": 7236,
 "scope": {
@@ -788,7 +840,7 @@
 ]
 }
 },
-"json/062.content.json": {
+"json/064.content.json": {
 "mimeType": "text/json",
 "size": 50006,
 "scope": {
@@ -800,7 +852,7 @@
 ]
 }
 },
-"json/063.content.json": {
+"json/065.content.json": {
 "mimeType": "text/json",
 "size": 31922,
 "scope": {
@@ -809,7 +861,7 @@
 ]
 }
 },
-"json/064.content.json": {
+"json/066.content.json": {
 "mimeType": "text/json",
 "size": 25051,
 "scope": {
@@ -821,9 +873,9 @@
 ]
 }
 },
-"json/065.content.json": {
+"json/067.content.json": {
 "mimeType": "text/json",
-"size": 147643,
+"size": 168984,
 "scope": {
 "ji": [
 "基達",
@@ -832,7 +884,10 @@
 "基督",
 "基督的再來",
 "基拉耳",
+"基蘭（Keran）",
 "基利心山",
+"基列（地點）",
+"基列乳香",
 "基列亭",
 "基列‧亞巴",
 "基路伯，基路伯們",
@@ -843,19 +898,23 @@
 "基提",
 "基帖",
 "基土拉",
+"基西他",
+"基悉",
 "基薛（Kesed）",
 "畸形",
 "饑荒",
+"妓女，賣淫",
 "紀念",
 "記號",
+"祭便",
 "祭司和利未人",
 "繼承人"
 ]
 }
 },
-"json/066.content.json": {
+"json/068.content.json": {
 "mimeType": "text/json",
-"size": 173081,
+"size": 178885,
 "scope": {
 "jia": [
 "加大拉，加大拉人",
@@ -863,15 +922,18 @@
 "加利利",
 "加利利海",
 "迦百農",
+"迦得（人物）",
 "迦斐託，迦斐託人，迦斐託族",
 "迦含",
 "迦拉",
 "迦勒底, 迦勒底人",
 "迦勒挪",
+"迦累得",
 "迦南，迦南人",
 "迦南人西門",
 "迦薩",
 "迦斯路希人，迦斯路希族",
+"迦坦",
 "家具",
 "家譜",
 "家庭",
@@ -881,7 +943,7 @@
 ]
 }
 },
-"json/067.content.json": {
+"json/069.content.json": {
 "mimeType": "text/json",
 "size": 63772,
 "scope": {
@@ -896,7 +958,7 @@
 ]
 }
 },
-"json/068.content.json": {
+"json/070.content.json": {
 "mimeType": "text/json",
 "size": 1386,
 "scope": {
@@ -905,7 +967,7 @@
 ]
 }
 },
-"json/069.content.json": {
+"json/071.content.json": {
 "mimeType": "text/json",
 "size": 68991,
 "scope": {
@@ -918,7 +980,7 @@
 ]
 }
 },
-"json/070.content.json": {
+"json/072.content.json": {
 "mimeType": "text/json",
 "size": 19496,
 "scope": {
@@ -929,7 +991,7 @@
 ]
 }
 },
-"json/071.content.json": {
+"json/073.content.json": {
 "mimeType": "text/json",
 "size": 26027,
 "scope": {
@@ -941,12 +1003,13 @@
 ]
 }
 },
-"json/072.content.json": {
+"json/074.content.json": {
 "mimeType": "text/json",
-"size": 64775,
+"size": 65624,
 "scope": {
 "jiu": [
 "酒",
+"酒政",
 "救恩",
 "救贖者，救贖",
 "救主",
@@ -954,7 +1017,7 @@
 ]
 }
 },
-"json/073.content.json": {
+"json/075.content.json": {
 "mimeType": "text/json",
 "size": 8474,
 "scope": {
@@ -963,7 +1026,7 @@
 ]
 }
 },
-"json/074.content.json": {
+"json/076.content.json": {
 "mimeType": "text/json",
 "size": 3656,
 "scope": {
@@ -972,7 +1035,7 @@
 ]
 }
 },
-"json/075.content.json": {
+"json/077.content.json": {
 "mimeType": "text/json",
 "size": 2930,
 "scope": {
@@ -981,7 +1044,7 @@
 ]
 }
 },
-"json/076.content.json": {
+"json/078.content.json": {
 "mimeType": "text/json",
 "size": 20524,
 "scope": {
@@ -990,17 +1053,19 @@
 ]
 }
 },
-"json/077.content.json": {
+"json/079.content.json": {
 "mimeType": "text/json",
-"size": 9643,
+"size": 17324,
 "scope": {
 "ke": [
+"可拉",
 "克里特",
+"克斯塔",
 "客店"
 ]
 }
 },
-"json/078.content.json": {
+"json/080.content.json": {
 "mimeType": "text/json",
 "size": 11730,
 "scope": {
@@ -1009,7 +1074,7 @@
 ]
 }
 },
-"json/079.content.json": {
+"json/081.content.json": {
 "mimeType": "text/json",
 "size": 7185,
 "scope": {
@@ -1018,7 +1083,7 @@
 ]
 }
 },
-"json/080.content.json": {
+"json/082.content.json": {
 "mimeType": "text/json",
 "size": 4054,
 "scope": {
@@ -1027,7 +1092,7 @@
 ]
 }
 },
-"json/081.content.json": {
+"json/083.content.json": {
 "mimeType": "text/json",
 "size": 64004,
 "scope": {
@@ -1038,15 +1103,18 @@
 ]
 }
 },
-"json/082.content.json": {
+"json/084.content.json": {
 "mimeType": "text/json",
-"size": 16767,
+"size": 30254,
 "scope": {
 "la": [
 "拉班（人物）",
 "拉比",
 "拉波尼",
 "拉海‧萊 （Lahai-Roi）",
+"拉結",
+"拉結的墓",
+"拉瑪",
 "拉瑪",
 "拉麥",
 "拉沙",
@@ -1054,7 +1122,7 @@
 ]
 }
 },
-"json/083.content.json": {
+"json/085.content.json": {
 "mimeType": "text/json",
 "size": 24343,
 "scope": {
@@ -1064,7 +1132,7 @@
 ]
 }
 },
-"json/084.content.json": {
+"json/086.content.json": {
 "mimeType": "text/json",
 "size": 1583,
 "scope": {
@@ -1074,9 +1142,9 @@
 ]
 }
 },
-"json/085.content.json": {
+"json/087.content.json": {
 "mimeType": "text/json",
-"size": 35377,
+"size": 43762,
 "scope": {
 "li": [
 "黎巴嫩",
@@ -1087,6 +1155,7 @@
 "利河伯",
 "利河伯",
 "利未（人名）",
+"利未支派",
 "利烏米族，利烏米人",
 "利鮮",
 "利亞",
@@ -1094,7 +1163,7 @@
 ]
 }
 },
-"json/086.content.json": {
+"json/088.content.json": {
 "mimeType": "text/json",
 "size": 23420,
 "scope": {
@@ -1104,7 +1173,7 @@
 ]
 }
 },
-"json/087.content.json": {
+"json/089.content.json": {
 "mimeType": "text/json",
 "size": 5162,
 "scope": {
@@ -1113,7 +1182,7 @@
 ]
 }
 },
-"json/088.content.json": {
+"json/090.content.json": {
 "mimeType": "text/json",
 "size": 12183,
 "scope": {
@@ -1122,7 +1191,7 @@
 ]
 }
 },
-"json/089.content.json": {
+"json/091.content.json": {
 "mimeType": "text/json",
 "size": 15601,
 "scope": {
@@ -1131,7 +1200,7 @@
 ]
 }
 },
-"json/090.content.json": {
+"json/092.content.json": {
 "mimeType": "text/json",
 "size": 18298,
 "scope": {
@@ -1140,11 +1209,13 @@
 ]
 }
 },
-"json/091.content.json": {
+"json/093.content.json": {
 "mimeType": "text/json",
-"size": 18126,
+"size": 23796,
 "scope": {
 "liu": [
+"流產",
+"流珥",
 "流放，放逐",
 "流瑪",
 "流人血的罪",
@@ -1152,7 +1223,7 @@
 ]
 }
 },
-"json/092.content.json": {
+"json/094.content.json": {
 "mimeType": "text/json",
 "size": 3087,
 "scope": {
@@ -1161,26 +1232,30 @@
 ]
 }
 },
-"json/093.content.json": {
+"json/095.content.json": {
 "mimeType": "text/json",
-"size": 12776,
+"size": 19060,
 "scope": {
 "lu": [
 "路得記",
-"路德、路德族、路低人"
+"路德、路德族、路低人",
+"路斯",
+"露水"
 ]
 }
 },
-"json/094.content.json": {
+"json/096.content.json": {
 "mimeType": "text/json",
-"size": 20482,
+"size": 29792,
 "scope": {
 "lv": [
+"呂便（人物）",
+"呂便支派",
 "旅行"
 ]
 }
 },
-"json/095.content.json": {
+"json/097.content.json": {
 "mimeType": "text/json",
 "size": 2870,
 "scope": {
@@ -1189,23 +1264,25 @@
 ]
 }
 },
-"json/096.content.json": {
+"json/098.content.json": {
 "mimeType": "text/json",
-"size": 7997,
+"size": 9063,
 "scope": {
 "luo": [
 "羅單",
 "羅得",
 "羅底",
-"羅實"
+"羅實",
+"羅坍"
 ]
 }
 },
-"json/097.content.json": {
+"json/099.content.json": {
 "mimeType": "text/json",
-"size": 155961,
+"size": 169886,
 "scope": {
 "ma": [
+"麻衣",
 "痲瘋病人，痲瘋病",
 "馬卡魯斯",
 "馬可福音",
@@ -1213,20 +1290,26 @@
 "馬太（人物）",
 "瑪代",
 "瑪各",
+"瑪哈拉（人物）",
+"瑪哈念",
+"瑪基疊",
 "瑪迦，瑪迦（地點）",
 "瑪迦（Maacah, Maachah）（人物）",
 "瑪結，瑪結族",
 "瑪拉基書",
 "瑪勒列",
+"瑪拿轄（人物）",
 "瑪撒",
 "瑪施",
+"瑪士利加",
+"瑪特列",
 "瑪土撒拉",
 "瑪土撒利",
 "瑪土撒利"
 ]
 }
 },
-"json/098.content.json": {
+"json/100.content.json": {
 "mimeType": "text/json",
 "size": 12569,
 "scope": {
@@ -1237,7 +1320,7 @@
 ]
 }
 },
-"json/099.content.json": {
+"json/101.content.json": {
 "mimeType": "text/json",
 "size": 3141,
 "scope": {
@@ -1248,7 +1331,7 @@
 ]
 }
 },
-"json/100.content.json": {
+"json/102.content.json": {
 "mimeType": "text/json",
 "size": 13257,
 "scope": {
@@ -1258,7 +1341,7 @@
 ]
 }
 },
-"json/101.content.json": {
+"json/103.content.json": {
 "mimeType": "text/json",
 "size": 8239,
 "scope": {
@@ -1267,7 +1350,7 @@
 ]
 }
 },
-"json/102.content.json": {
+"json/104.content.json": {
 "mimeType": "text/json",
 "size": 42459,
 "scope": {
@@ -1277,25 +1360,30 @@
 ]
 }
 },
-"json/103.content.json": {
+"json/105.content.json": {
 "mimeType": "text/json",
-"size": 60286,
+"size": 68883,
 "scope": {
 "mi": [
 "彌賽亞",
+"米比薩",
 "米比衫",
 "米但",
 "米甸、米甸人",
 "米戶雅利",
+"米撒",
+"米‧薩合",
 "米沙 (地點)",
 "米設",
 "米施瑪",
+"米斯巴",
+"米希她別，米希大別",
 "密迦",
 "蜜"
 ]
 }
 },
-"json/104.content.json": {
+"json/106.content.json": {
 "mimeType": "text/json",
 "size": 72924,
 "scope": {
@@ -1304,7 +1392,7 @@
 ]
 }
 },
-"json/105.content.json": {
+"json/107.content.json": {
 "mimeType": "text/json",
 "size": 72942,
 "scope": {
@@ -1317,7 +1405,7 @@
 ]
 }
 },
-"json/106.content.json": {
+"json/108.content.json": {
 "mimeType": "text/json",
 "size": 25189,
 "scope": {
@@ -1330,14 +1418,15 @@
 ]
 }
 },
-"json/107.content.json": {
+"json/109.content.json": {
 "mimeType": "text/json",
-"size": 28977,
+"size": 30321,
 "scope": {
 "na": [
 "拿但業",
 "拿非施",
 "拿弗土希人",
+"拿哈",
 "拿鶴 (人物)",
 "拿鶴（地點）",
 "拿瑪（人物）",
@@ -1347,7 +1436,7 @@
 ]
 }
 },
-"json/108.content.json": {
+"json/110.content.json": {
 "mimeType": "text/json",
 "size": 2778,
 "scope": {
@@ -1356,7 +1445,7 @@
 ]
 }
 },
-"json/109.content.json": {
+"json/111.content.json": {
 "mimeType": "text/json",
 "size": 21185,
 "scope": {
@@ -1371,7 +1460,7 @@
 ]
 }
 },
-"json/110.content.json": {
+"json/112.content.json": {
 "mimeType": "text/json",
 "size": 33198,
 "scope": {
@@ -1380,7 +1469,7 @@
 ]
 }
 },
-"json/111.content.json": {
+"json/113.content.json": {
 "mimeType": "text/json",
 "size": 2334,
 "scope": {
@@ -1389,7 +1478,7 @@
 ]
 }
 },
-"json/112.content.json": {
+"json/114.content.json": {
 "mimeType": "text/json",
 "size": 13198,
 "scope": {
@@ -1398,7 +1487,7 @@
 ]
 }
 },
-"json/113.content.json": {
+"json/115.content.json": {
 "mimeType": "text/json",
 "size": 17346,
 "scope": {
@@ -1408,7 +1497,7 @@
 ]
 }
 },
-"json/114.content.json": {
+"json/116.content.json": {
 "mimeType": "text/json",
 "size": 12128,
 "scope": {
@@ -1417,7 +1506,7 @@
 ]
 }
 },
-"json/115.content.json": {
+"json/117.content.json": {
 "mimeType": "text/json",
 "size": 9348,
 "scope": {
@@ -1429,7 +1518,7 @@
 ]
 }
 },
-"json/116.content.json": {
+"json/118.content.json": {
 "mimeType": "text/json",
 "size": 857,
 "scope": {
@@ -1438,16 +1527,27 @@
 ]
 }
 },
-"json/117.content.json": {
+"json/119.content.json": {
 "mimeType": "text/json",
-"size": 8725,
+"size": 1713,
 "scope": {
-"pi": [
-"皮革"
+"peng": [
+"棚"
 ]
 }
 },
-"json/118.content.json": {
+"json/120.content.json": {
+"mimeType": "text/json",
+"size": 11501,
+"scope": {
+"pi": [
+"皮革",
+"辟罕/比勒罕",
+"辟拉（人物）"
+]
+}
+},
+"json/121.content.json": {
 "mimeType": "text/json",
 "size": 23138,
 "scope": {
@@ -1457,7 +1557,7 @@
 ]
 }
 },
-"json/119.content.json": {
+"json/122.content.json": {
 "mimeType": "text/json",
 "size": 20228,
 "scope": {
@@ -1469,7 +1569,7 @@
 ]
 }
 },
-"json/120.content.json": {
+"json/123.content.json": {
 "mimeType": "text/json",
 "size": 67058,
 "scope": {
@@ -1479,7 +1579,7 @@
 ]
 }
 },
-"json/121.content.json": {
+"json/124.content.json": {
 "mimeType": "text/json",
 "size": 13226,
 "scope": {
@@ -1489,7 +1589,16 @@
 ]
 }
 },
-"json/122.content.json": {
+"json/125.content.json": {
+"mimeType": "text/json",
+"size": 1384,
+"scope": {
+"qiang": [
+"強姦"
+]
+}
+},
+"json/126.content.json": {
 "mimeType": "text/json",
 "size": 7081,
 "scope": {
@@ -1498,7 +1607,7 @@
 ]
 }
 },
-"json/123.content.json": {
+"json/127.content.json": {
 "mimeType": "text/json",
 "size": 15434,
 "scope": {
@@ -1508,7 +1617,7 @@
 ]
 }
 },
-"json/124.content.json": {
+"json/128.content.json": {
 "mimeType": "text/json",
 "size": 6968,
 "scope": {
@@ -1517,7 +1626,16 @@
 ]
 }
 },
-"json/125.content.json": {
+"json/129.content.json": {
+"mimeType": "text/json",
+"size": 16553,
+"scope": {
+"quan": [
+"權能"
+]
+}
+},
+"json/130.content.json": {
 "mimeType": "text/json",
 "size": 2662,
 "scope": {
@@ -1526,7 +1644,7 @@
 ]
 }
 },
-"json/126.content.json": {
+"json/131.content.json": {
 "mimeType": "text/json",
 "size": 4577,
 "scope": {
@@ -1535,7 +1653,7 @@
 ]
 }
 },
-"json/127.content.json": {
+"json/132.content.json": {
 "mimeType": "text/json",
 "size": 14513,
 "scope": {
@@ -1544,7 +1662,7 @@
 ]
 }
 },
-"json/128.content.json": {
+"json/133.content.json": {
 "mimeType": "text/json",
 "size": 60691,
 "scope": {
@@ -1556,7 +1674,7 @@
 ]
 }
 },
-"json/129.content.json": {
+"json/134.content.json": {
 "mimeType": "text/json",
 "size": 13136,
 "scope": {
@@ -1565,7 +1683,7 @@
 ]
 }
 },
-"json/130.content.json": {
+"json/135.content.json": {
 "mimeType": "text/json",
 "size": 23837,
 "scope": {
@@ -1574,7 +1692,7 @@
 ]
 }
 },
-"json/131.content.json": {
+"json/136.content.json": {
 "mimeType": "text/json",
 "size": 25207,
 "scope": {
@@ -1583,7 +1701,7 @@
 ]
 }
 },
-"json/132.content.json": {
+"json/137.content.json": {
 "mimeType": "text/json",
 "size": 4125,
 "scope": {
@@ -1592,7 +1710,7 @@
 ]
 }
 },
-"json/133.content.json": {
+"json/138.content.json": {
 "mimeType": "text/json",
 "size": 55195,
 "scope": {
@@ -1611,7 +1729,7 @@
 ]
 }
 },
-"json/134.content.json": {
+"json/139.content.json": {
 "mimeType": "text/json",
 "size": 1382,
 "scope": {
@@ -1620,30 +1738,41 @@
 ]
 }
 },
-"json/135.content.json": {
+"json/140.content.json": {
 "mimeType": "text/json",
-"size": 18010,
+"size": 729,
+"scope": {
+"sang": [
+"桑拉"
+]
+}
+},
+"json/141.content.json": {
+"mimeType": "text/json",
+"size": 20042,
 "scope": {
 "sao": [
+"掃羅",
 "掃羅"
 ]
 }
 },
-"json/136.content.json": {
+"json/142.content.json": {
 "mimeType": "text/json",
-"size": 6828,
+"size": 10708,
 "scope": {
 "sha": [
 "沙拉",
 "沙拉",
 "沙列",
+"沙瑪",
 "沙微谷",
 "沙微谷",
 "沙微‧基列亭"
 ]
 }
 },
-"json/137.content.json": {
+"json/143.content.json": {
 "mimeType": "text/json",
 "size": 7273,
 "scope": {
@@ -1653,7 +1782,7 @@
 ]
 }
 },
-"json/138.content.json": {
+"json/144.content.json": {
 "mimeType": "text/json",
 "size": 4291,
 "scope": {
@@ -1662,7 +1791,7 @@
 ]
 }
 },
-"json/139.content.json": {
+"json/145.content.json": {
 "mimeType": "text/json",
 "size": 26108,
 "scope": {
@@ -1674,7 +1803,7 @@
 ]
 }
 },
-"json/140.content.json": {
+"json/146.content.json": {
 "mimeType": "text/json",
 "size": 366446,
 "scope": {
@@ -1701,9 +1830,9 @@
 ]
 }
 },
-"json/141.content.json": {
+"json/147.content.json": {
 "mimeType": "text/json",
-"size": 424518,
+"size": 428334,
 "scope": {
 "sheng": [
 "生命",
@@ -1718,13 +1847,14 @@
 "聖經正典",
 "聖經中的律法概念",
 "聖經中名字的意義",
-"聖靈的洗禮"
+"聖靈的洗禮",
+"聖所"
 ]
 }
 },
-"json/142.content.json": {
+"json/148.content.json": {
 "mimeType": "text/json",
-"size": 480786,
+"size": 484608,
 "scope": {
 "shi": [
 "施洗約翰",
@@ -1747,8 +1877,12 @@
 "世代",
 "市場、市集",
 "示巴 (人物)",
+"示巴（Shebah）",
+"示巴（Shibah）",
+"示非，示玻",
 "示劍",
 "示劍 (地方)",
+"示劍（人物）",
 "示冷，示冷族",
 "示瑪(Shema)",
 "示拿",
@@ -1757,27 +1891,31 @@
 ]
 }
 },
-"json/143.content.json": {
+"json/149.content.json": {
 "mimeType": "text/json",
-"size": 25500,
+"size": 27586,
 "scope": {
 "shou": [
 "手",
+"手鼓",
 "守望台",
 "首飾，寶石",
 "獸"
 ]
 }
 },
-"json/144.content.json": {
+"json/150.content.json": {
 "mimeType": "text/json",
-"size": 67166,
+"size": 74767,
 "scope": {
 "shu": [
 "書珥",
 "書卷",
 "書尼，書尼族",
+"書亞",
 "書亞 （Shuah）",
+"書亞，拔書亞",
+"疏割",
 "贖價",
 "屬血氣的人",
 "數字和數字象徵學",
@@ -1786,7 +1924,7 @@
 ]
 }
 },
-"json/145.content.json": {
+"json/151.content.json": {
 "mimeType": "text/json",
 "size": 32987,
 "scope": {
@@ -1800,7 +1938,7 @@
 ]
 }
 },
-"json/146.content.json": {
+"json/152.content.json": {
 "mimeType": "text/json",
 "size": 8680,
 "scope": {
@@ -1809,7 +1947,16 @@
 ]
 }
 },
-"json/147.content.json": {
+"json/153.content.json": {
+"mimeType": "text/json",
+"size": 1796,
+"scope": {
+"shuo": [
+"朔巴"
+]
+}
+},
+"json/154.content.json": {
 "mimeType": "text/json",
 "size": 53213,
 "scope": {
@@ -1820,7 +1967,7 @@
 ]
 }
 },
-"json/148.content.json": {
+"json/155.content.json": {
 "mimeType": "text/json",
 "size": 1108,
 "scope": {
@@ -1829,7 +1976,7 @@
 ]
 }
 },
-"json/149.content.json": {
+"json/156.content.json": {
 "mimeType": "text/json",
 "size": 11424,
 "scope": {
@@ -1840,7 +1987,7 @@
 ]
 }
 },
-"json/150.content.json": {
+"json/157.content.json": {
 "mimeType": "text/json",
 "size": 15367,
 "scope": {
@@ -1853,17 +2000,18 @@
 ]
 }
 },
-"json/151.content.json": {
+"json/158.content.json": {
 "mimeType": "text/json",
-"size": 15322,
+"size": 18437,
 "scope": {
 "tai": [
+"太監",
 "太陽",
 "泰爾"
 ]
 }
 },
-"json/152.content.json": {
+"json/159.content.json": {
 "mimeType": "text/json",
 "size": 14521,
 "scope": {
@@ -1873,7 +2021,7 @@
 ]
 }
 },
-"json/153.content.json": {
+"json/160.content.json": {
 "mimeType": "text/json",
 "size": 1081,
 "scope": {
@@ -1882,7 +2030,7 @@
 ]
 }
 },
-"json/154.content.json": {
+"json/161.content.json": {
 "mimeType": "text/json",
 "size": 9282,
 "scope": {
@@ -1891,7 +2039,7 @@
 ]
 }
 },
-"json/155.content.json": {
+"json/162.content.json": {
 "mimeType": "text/json",
 "size": 1805,
 "scope": {
@@ -1900,7 +2048,7 @@
 ]
 }
 },
-"json/156.content.json": {
+"json/163.content.json": {
 "mimeType": "text/json",
 "size": 40215,
 "scope": {
@@ -1915,7 +2063,7 @@
 ]
 }
 },
-"json/157.content.json": {
+"json/164.content.json": {
 "mimeType": "text/json",
 "size": 57200,
 "scope": {
@@ -1928,7 +2076,7 @@
 ]
 }
 },
-"json/158.content.json": {
+"json/165.content.json": {
 "mimeType": "text/json",
 "size": 16477,
 "scope": {
@@ -1938,7 +2086,16 @@
 ]
 }
 },
-"json/159.content.json": {
+"json/166.content.json": {
+"mimeType": "text/json",
+"size": 779,
+"scope": {
+"ting": [
+"亭哈巴"
+]
+}
+},
+"json/167.content.json": {
 "mimeType": "text/json",
 "size": 11108,
 "scope": {
@@ -1948,7 +2105,7 @@
 ]
 }
 },
-"json/160.content.json": {
+"json/168.content.json": {
 "mimeType": "text/json",
 "size": 10552,
 "scope": {
@@ -1957,7 +2114,7 @@
 ]
 }
 },
-"json/161.content.json": {
+"json/169.content.json": {
 "mimeType": "text/json",
 "size": 18740,
 "scope": {
@@ -1968,7 +2125,7 @@
 ]
 }
 },
-"json/162.content.json": {
+"json/170.content.json": {
 "mimeType": "text/json",
 "size": 12552,
 "scope": {
@@ -1977,7 +2134,7 @@
 ]
 }
 },
-"json/163.content.json": {
+"json/171.content.json": {
 "mimeType": "text/json",
 "size": 2006,
 "scope": {
@@ -1986,7 +2143,7 @@
 ]
 }
 },
-"json/164.content.json": {
+"json/172.content.json": {
 "mimeType": "text/json",
 "size": 12404,
 "scope": {
@@ -1997,7 +2154,7 @@
 ]
 }
 },
-"json/165.content.json": {
+"json/173.content.json": {
 "mimeType": "text/json",
 "size": 14329,
 "scope": {
@@ -2007,7 +2164,7 @@
 ]
 }
 },
-"json/166.content.json": {
+"json/174.content.json": {
 "mimeType": "text/json",
 "size": 8039,
 "scope": {
@@ -2016,7 +2173,7 @@
 ]
 }
 },
-"json/167.content.json": {
+"json/175.content.json": {
 "mimeType": "text/json",
 "size": 24823,
 "scope": {
@@ -2027,7 +2184,7 @@
 ]
 }
 },
-"json/168.content.json": {
+"json/176.content.json": {
 "mimeType": "text/json",
 "size": 21676,
 "scope": {
@@ -2040,7 +2197,7 @@
 ]
 }
 },
-"json/169.content.json": {
+"json/177.content.json": {
 "mimeType": "text/json",
 "size": 25053,
 "scope": {
@@ -2050,7 +2207,7 @@
 ]
 }
 },
-"json/170.content.json": {
+"json/178.content.json": {
 "mimeType": "text/json",
 "size": 7786,
 "scope": {
@@ -2063,18 +2220,20 @@
 ]
 }
 },
-"json/171.content.json": {
+"json/179.content.json": {
 "mimeType": "text/json",
-"size": 231413,
+"size": 248685,
 "scope": {
 "xi": [
 "西巴",
 "西庇太",
 "西布倫（人物）",
+"西布倫支派",
 "西訂谷",
 "西頓（地點），西頓人",
 "西頓（人物）",
 "西珥 (地點)",
+"西珥（人物）",
 "西發",
 "西拉",
 "西烈，西烈族",
@@ -2094,19 +2253,23 @@
 "希律黨人",
 "希律、希律家族",
 "希羅底",
+"希幔",
 "希未人",
+"悉帕",
 "洗編",
 "洗編",
+"洗玻",
 "洗非芸",
 "洗拉",
 "洗禮",
 "洗瑪利人",
 "禧年",
+"禧年書",
 "細亞"
 ]
 }
 },
-"json/172.content.json": {
+"json/180.content.json": {
 "mimeType": "text/json",
 "size": 17281,
 "scope": {
@@ -2117,7 +2280,7 @@
 ]
 }
 },
-"json/173.content.json": {
+"json/181.content.json": {
 "mimeType": "text/json",
 "size": 23471,
 "scope": {
@@ -2126,7 +2289,16 @@
 ]
 }
 },
-"json/174.content.json": {
+"json/182.content.json": {
+"mimeType": "text/json",
+"size": 13253,
+"scope": {
+"xiang": [
+"香料"
+]
+}
+},
+"json/183.content.json": {
 "mimeType": "text/json",
 "size": 6906,
 "scope": {
@@ -2136,25 +2308,27 @@
 ]
 }
 },
-"json/175.content.json": {
+"json/184.content.json": {
 "mimeType": "text/json",
-"size": 9217,
+"size": 14917,
 "scope": {
 "xie": [
 "褻瀆",
+"謝拉",
 "謝拉（Zara, Zarah）"
 ]
 }
 },
-"json/176.content.json": {
+"json/185.content.json": {
 "mimeType": "text/json",
-"size": 100611,
+"size": 101358,
 "scope": {
 "xin": [
 "心",
 "心蘭",
 "心利 (地點)",
 "心硬",
+"欣但",
 "新的創造，新的受造物",
 "新耶路撒冷",
 "新約",
@@ -2162,7 +2336,7 @@
 ]
 }
 },
-"json/177.content.json": {
+"json/186.content.json": {
 "mimeType": "text/json",
 "size": 52708,
 "scope": {
@@ -2172,7 +2346,7 @@
 ]
 }
 },
-"json/178.content.json": {
+"json/187.content.json": {
 "mimeType": "text/json",
 "size": 11509,
 "scope": {
@@ -2182,7 +2356,7 @@
 ]
 }
 },
-"json/179.content.json": {
+"json/188.content.json": {
 "mimeType": "text/json",
 "size": 14299,
 "scope": {
@@ -2192,18 +2366,19 @@
 ]
 }
 },
-"json/180.content.json": {
+"json/189.content.json": {
 "mimeType": "text/json",
-"size": 20134,
+"size": 24435,
 "scope": {
 "xu": [
 "許願、願",
+"敘加",
 "敘利腓尼基",
 "敘利亞，敘利亞人"
 ]
 }
 },
-"json/181.content.json": {
+"json/190.content.json": {
 "mimeType": "text/json",
 "size": 11953,
 "scope": {
@@ -2212,7 +2387,7 @@
 ]
 }
 },
-"json/182.content.json": {
+"json/191.content.json": {
 "mimeType": "text/json",
 "size": 19339,
 "scope": {
@@ -2224,7 +2399,7 @@
 ]
 }
 },
-"json/183.content.json": {
+"json/192.content.json": {
 "mimeType": "text/json",
 "size": 3853,
 "scope": {
@@ -2233,9 +2408,9 @@
 ]
 }
 },
-"json/184.content.json": {
+"json/193.content.json": {
 "mimeType": "text/json",
-"size": 248678,
+"size": 289468,
 "scope": {
 "ya": [
 "押瑪",
@@ -2248,6 +2423,7 @@
 "雅各井",
 "雅各（人名）",
 "雅各書",
+"雅蘭",
 "雅利，雅利族",
 "雅列",
 "雅完（地點）",
@@ -2256,6 +2432,7 @@
 "亞比大",
 "亞比瑪利",
 "亞比米勒",
+"亞比亞撒",
 "亞比亞他",
 "亞伯拉罕",
 "亞伯蘭",
@@ -2265,24 +2442,34 @@
 "亞當（人物）",
 "亞發，亞瓦底人",
 "亞法撒",
+"亞干（Akan）",
 "亞古珥",
 "亞基人",
 "亞基衛",
 "亞甲",
 "亞拉巴",
 "亞拉臘",
+"亞蘭",
 "亞蘭（人物）",
+"亞蘭文",
 "亞蘭一納哈拉音",
 "亞勞拿",
 "亞勒腓",
+"亞勒瓦",
+"亞勒文",
 "亞哩達",
 "亞歷山卓",
 "亞略",
+"亞倫",
+"亞倫‧巴古",
+"亞瑪力，亞瑪力人",
 "亞捫，亞捫人",
 "亞摩答",
 "亞摩利人",
+"亞拿",
 "亞拿米，亞拿米人",
 "亞乃（人物）",
+"亞設（人物）",
 "亞實基拿",
 "亞書利族，亞書利人",
 "亞述",
@@ -2290,11 +2477,13 @@
 "亞斯他錄，亞施他拉人",
 "亞特律‧加寧",
 "亞提馬",
-"亞西納"
+"亞未得",
+"亞西納",
+"亞雅（Ajah）"
 ]
 }
 },
-"json/185.content.json": {
+"json/194.content.json": {
 "mimeType": "text/json",
 "size": 44005,
 "scope": {
@@ -2304,9 +2493,18 @@
 ]
 }
 },
-"json/186.content.json": {
+"json/195.content.json": {
 "mimeType": "text/json",
-"size": 273683,
+"size": 2796,
+"scope": {
+"yao": [
+"腰"
+]
+}
+},
+"json/196.content.json": {
+"mimeType": "text/json",
+"size": 274325,
 "scope": {
 "ye": [
 "耶布斯，耶布斯人",
@@ -2325,22 +2523,27 @@
 "耶穌基督的家譜",
 "耶穌基督的教導",
 "耶穌基督的靈",
+"耶帖",
 "夜",
 "葉忒羅"
 ]
 }
 },
-"json/187.content.json": {
+"json/197.content.json": {
 "mimeType": "text/json",
-"size": 446886,
+"size": 472904,
 "scope": {
 "yi": [
 "一神論",
 "伊甸",
 "伊甸園",
+"伊迦爾‧撒哈杜他",
 "伊勒",
 "伊勒‧巴蘭",
+"伊勒‧伯特利",
+"伊利‧伊羅伊‧以色列",
 "伊施巴",
+"伊是班",
 "伊突，伊突人",
 "衣服",
 "衣索比亞",
@@ -2349,6 +2552,9 @@
 "醫治、醫病",
 "以巴路山",
 "以巴錄",
+"以察",
+"以得（地點）",
+"以得（Edar）",
 "以東，以東人",
 "以法大",
 "以法（人物）",
@@ -2357,10 +2563,13 @@
 "以弗所書",
 "以拉撒",
 "以拉他",
+"以拉（Elah）",
 "以攔（地點），以攔人",
 "以攔（人物）",
+"以蘭",
 "以勒大",
 "以利",
+"以利法",
 "以利沙",
 "以利以謝",
 "以米，以米人",
@@ -2369,14 +2578,18 @@
 "以諾（地點）",
 "以諾（人物）",
 "以撒",
+"以薩迦（人物）",
 "以賽亞書",
 "以掃",
 "以色列的歷史",
 "以色列的筵席和節期",
 "以色列人",
+"以色列（人物）",
 "以實各（人物）",
 "以實瑪利",
+"以實瑪利人（Ishmeelite）",
 "以土利亞（Ituraea），以土利亞（Iturea），以土利亞人",
+"以土買，以土買人",
 "以西結書",
 "以希",
 "亦迦",
@@ -2384,13 +2597,14 @@
 "亦施瓦（Ishvah",
 "亦施韋（ISUI）",
 "益拉",
+"益蘭",
 "意念"
 ]
 }
 },
-"json/188.content.json": {
+"json/198.content.json": {
 "mimeType": "text/json",
-"size": 122836,
+"size": 131498,
 "scope": {
 "yin": [
 "音樂",
@@ -2402,11 +2616,12 @@
 "銀錢",
 "飲食律例",
 "隱‧基底",
+"印",
 "印度"
 ]
 }
 },
-"json/189.content.json": {
+"json/199.content.json": {
 "mimeType": "text/json",
 "size": 17112,
 "scope": {
@@ -2415,7 +2630,7 @@
 ]
 }
 },
-"json/190.content.json": {
+"json/200.content.json": {
 "mimeType": "text/json",
 "size": 18779,
 "scope": {
@@ -2425,14 +2640,15 @@
 ]
 }
 },
-"json/191.content.json": {
+"json/201.content.json": {
 "mimeType": "text/json",
-"size": 110468,
+"size": 118024,
 "scope": {
 "you": [
 "油",
 "猶八",
 "猶大",
+"猶大（人物）",
 "猶大（人物）",
 "猶大書",
 "猶太的斐洛",
@@ -2443,7 +2659,7 @@
 ]
 }
 },
-"json/192.content.json": {
+"json/202.content.json": {
 "mimeType": "text/json",
 "size": 88585,
 "scope": {
@@ -2456,7 +2672,7 @@
 ]
 }
 },
-"json/193.content.json": {
+"json/203.content.json": {
 "mimeType": "text/json",
 "size": 1471,
 "scope": {
@@ -2465,9 +2681,9 @@
 ]
 }
 },
-"json/194.content.json": {
+"json/204.content.json": {
 "mimeType": "text/json",
-"size": 111075,
+"size": 115154,
 "scope": {
 "yue": [
 "約巴",
@@ -2477,11 +2693,12 @@
 "約書亞記",
 "約坍",
 "約西",
+"約/遺囑（Testament）",
 "月亮"
 ]
 }
 },
-"json/195.content.json": {
+"json/205.content.json": {
 "mimeType": "text/json",
 "size": 12421,
 "scope": {
@@ -2490,7 +2707,7 @@
 ]
 }
 },
-"json/196.content.json": {
+"json/206.content.json": {
 "mimeType": "text/json",
 "size": 3992,
 "scope": {
@@ -2499,7 +2716,7 @@
 ]
 }
 },
-"json/197.content.json": {
+"json/207.content.json": {
 "mimeType": "text/json",
 "size": 47176,
 "scope": {
@@ -2512,19 +2729,20 @@
 ]
 }
 },
-"json/198.content.json": {
+"json/208.content.json": {
 "mimeType": "text/json",
-"size": 77741,
+"size": 78527,
 "scope": {
 "zhen": [
 "珍貴的寶石",
 "珍珠",
 "針",
+"榛",
 "箴言"
 ]
 }
 },
-"json/199.content.json": {
+"json/209.content.json": {
 "mimeType": "text/json",
 "size": 6903,
 "scope": {
@@ -2533,11 +2751,12 @@
 ]
 }
 },
-"json/200.content.json": {
+"json/210.content.json": {
 "mimeType": "text/json",
-"size": 141027,
+"size": 146719,
 "scope": {
 "zhi": [
+"枝子",
 "執事，女執事",
 "執政的和掌權的",
 "植物",
@@ -2545,7 +2764,7 @@
 ]
 }
 },
-"json/201.content.json": {
+"json/211.content.json": {
 "mimeType": "text/json",
 "size": 22751,
 "scope": {
@@ -2555,7 +2774,7 @@
 ]
 }
 },
-"json/202.content.json": {
+"json/212.content.json": {
 "mimeType": "text/json",
 "size": 7680,
 "scope": {
@@ -2564,7 +2783,7 @@
 ]
 }
 },
-"json/203.content.json": {
+"json/213.content.json": {
 "mimeType": "text/json",
 "size": 21558,
 "scope": {
@@ -2573,18 +2792,19 @@
 ]
 }
 },
-"json/204.content.json": {
+"json/214.content.json": {
 "mimeType": "text/json",
-"size": 26287,
+"size": 27588,
 "scope": {
 "zhu": [
 "諸水",
 "主餐（聖餐）",
-"主人"
+"主人",
+"祝禱"
 ]
 }
 },
-"json/205.content.json": {
+"json/215.content.json": {
 "mimeType": "text/json",
 "size": 7095,
 "scope": {
@@ -2593,7 +2813,7 @@
 ]
 }
 },
-"json/206.content.json": {
+"json/216.content.json": {
 "mimeType": "text/json",
 "size": 13705,
 "scope": {
@@ -2604,39 +2824,43 @@
 },
 "md/081.content.md": {
 "mimeType": "text/markdown",
-"size": 34303
+"size": 4219
 },
 "md/109.content.md": {
 "mimeType": "text/markdown",
-"size": 15252
+"size": 17805
 },
 "md/086.content.md": {
 "mimeType": "text/markdown",
-"size": 12586
+"size": 1390
 },
 "md/079.content.md": {
 "mimeType": "text/markdown",
-"size": 4219
+"size": 12055
 },
 "md/093.content.md": {
 "mimeType": "text/markdown",
-"size": 10784
+"size": 12602
 },
 "md/039.content.md": {
 "mimeType": "text/markdown",
-"size": 30381
+"size": 14690
 },
 "md/149.content.md": {
 "mimeType": "text/markdown",
-"size": 6635
+"size": 13927
 },
 "md/094.content.md": {
 "mimeType": "text/markdown",
-"size": 15301
+"size": 2198
+},
+"md/210.content.md": {
+"mimeType": "text/markdown",
+"size": 105001
 },
 "md/180.content.md": {
 "mimeType": "text/markdown",
-"size": 14807
+"size": 11407
 },
 "md/008.content.md": {
 "mimeType": "text/markdown",
@@ -2644,439 +2868,455 @@
 },
 "md/187.content.md": {
 "mimeType": "text/markdown",
-"size": 299467
+"size": 6807
 },
 "md/178.content.md": {
 "mimeType": "text/markdown",
-"size": 6807
+"size": 5162
 },
 "md/202.content.md": {
 "mimeType": "text/markdown",
-"size": 4704
+"size": 53190
 },
 "md/205.content.md": {
 "mimeType": "text/markdown",
-"size": 4689
+"size": 8547
 },
 "md/192.content.md": {
 "mimeType": "text/markdown",
-"size": 53190
+"size": 2671
 },
 "md/138.content.md": {
 "mimeType": "text/markdown",
-"size": 2866
+"size": 35233
 },
 "md/048.content.md": {
 "mimeType": "text/markdown",
-"size": 53184
+"size": 68086
 },
 "md/195.content.md": {
 "mimeType": "text/markdown",
-"size": 8547
+"size": 2098
 },
 "md/095.content.md": {
 "mimeType": "text/markdown",
-"size": 2638
+"size": 14323
 },
 "md/148.content.md": {
 "mimeType": "text/markdown",
-"size": 1344
+"size": 317039
 },
 "md/038.content.md": {
 "mimeType": "text/markdown",
-"size": 15061
+"size": 13832
 },
 "md/092.content.md": {
 "mimeType": "text/markdown",
-"size": 2198
+"size": 10001
 },
 "md/078.content.md": {
 "mimeType": "text/markdown",
-"size": 7072
+"size": 17372
 },
 "md/087.content.md": {
 "mimeType": "text/markdown",
-"size": 4176
+"size": 26121
 },
 "md/108.content.md": {
 "mimeType": "text/markdown",
-"size": 2686
+"size": 12916
 },
 "md/080.content.md": {
 "mimeType": "text/markdown",
-"size": 2881
+"size": 7072
 },
 "md/204.content.md": {
 "mimeType": "text/markdown",
-"size": 18046
+"size": 67942
 },
 "md/203.content.md": {
 "mimeType": "text/markdown",
-"size": 12594
+"size": 1690
 },
 "md/194.content.md": {
 "mimeType": "text/markdown",
-"size": 65108
+"size": 21657
 },
 "md/049.content.md": {
 "mimeType": "text/markdown",
-"size": 7295
+"size": 1731
 },
 "md/139.content.md": {
 "mimeType": "text/markdown",
-"size": 15477
+"size": 1300
 },
 "md/193.content.md": {
 "mimeType": "text/markdown",
-"size": 1690
+"size": 183723
+},
+"md/216.content.md": {
+"mimeType": "text/markdown",
+"size": 8620
+},
+"md/211.content.md": {
+"mimeType": "text/markdown",
+"size": 15525
 },
 "md/179.content.md": {
 "mimeType": "text/markdown",
-"size": 9701
+"size": 176390
 },
 "md/186.content.md": {
 "mimeType": "text/markdown",
-"size": 184052
+"size": 36385
 },
 "md/009.content.md": {
 "mimeType": "text/markdown",
-"size": 92011
+"size": 94947
 },
 "md/181.content.md": {
 "mimeType": "text/markdown",
-"size": 8326
+"size": 14816
 },
 "md/174.content.md": {
 "mimeType": "text/markdown",
-"size": 4490
+"size": 4769
 },
 "md/121.content.md": {
 "mimeType": "text/markdown",
-"size": 8441
+"size": 13266
 },
 "md/056.content.md": {
 "mimeType": "text/markdown",
-"size": 43960
+"size": 4061
 },
 "md/003.content.md": {
 "mimeType": "text/markdown",
-"size": 30404
+"size": 31767
 },
 "md/173.content.md": {
 "mimeType": "text/markdown",
-"size": 14816
+"size": 7632
 },
 "md/126.content.md": {
 "mimeType": "text/markdown",
-"size": 2731
+"size": 4399
 },
 "md/051.content.md": {
 "mimeType": "text/markdown",
-"size": 10385
+"size": 7295
 },
 "md/004.content.md": {
 "mimeType": "text/markdown",
 "size": 11301
 },
-"md/044.content.md": {
-"mimeType": "text/markdown",
-"size": 5678
-},
-"md/011.content.md": {
-"mimeType": "text/markdown",
-"size": 8713
-},
-"md/199.content.md": {
+"md/209.content.md": {
 "mimeType": "text/markdown",
 "size": 5427
 },
-"md/166.content.md": {
-"mimeType": "text/markdown",
-"size": 4769
-},
-"md/133.content.md": {
-"mimeType": "text/markdown",
-"size": 35233
-},
-"md/043.content.md": {
-"mimeType": "text/markdown",
-"size": 3816
-},
-"md/016.content.md": {
-"mimeType": "text/markdown",
-"size": 3649
-},
-"md/161.content.md": {
-"mimeType": "text/markdown",
-"size": 12748
-},
-"md/134.content.md": {
-"mimeType": "text/markdown",
-"size": 1300
-},
-"md/075.content.md": {
-"mimeType": "text/markdown",
-"size": 3138
-},
-"md/020.content.md": {
-"mimeType": "text/markdown",
-"size": 55030
-},
-"md/157.content.md": {
-"mimeType": "text/markdown",
-"size": 35037
-},
-"md/102.content.md": {
-"mimeType": "text/markdown",
-"size": 30840
-},
-"md/072.content.md": {
-"mimeType": "text/markdown",
-"size": 40267
-},
-"md/027.content.md": {
-"mimeType": "text/markdown",
-"size": 33135
-},
-"md/150.content.md": {
-"mimeType": "text/markdown",
-"size": 10935
-},
-"md/105.content.md": {
-"mimeType": "text/markdown",
-"size": 50963
-},
-"md/145.content.md": {
-"mimeType": "text/markdown",
-"size": 19046
-},
-"md/110.content.md": {
-"mimeType": "text/markdown",
-"size": 13046
-},
-"md/098.content.md": {
-"mimeType": "text/markdown",
-"size": 8938
-},
-"md/067.content.md": {
-"mimeType": "text/markdown",
-"size": 42019
-},
-"md/032.content.md": {
-"mimeType": "text/markdown",
-"size": 17703
-},
-"md/142.content.md": {
-"mimeType": "text/markdown",
-"size": 315207
-},
-"md/117.content.md": {
-"mimeType": "text/markdown",
-"size": 6756
-},
-"md/060.content.md": {
-"mimeType": "text/markdown",
-"size": 8297
-},
-"md/035.content.md": {
-"mimeType": "text/markdown",
-"size": 3327
-},
-"md/135.content.md": {
-"mimeType": "text/markdown",
-"size": 15272
-},
-"md/160.content.md": {
-"mimeType": "text/markdown",
-"size": 6105
-},
-"md/017.content.md": {
-"mimeType": "text/markdown",
-"size": 25221
-},
-"md/042.content.md": {
+"md/044.content.md": {
 "mimeType": "text/markdown",
 "size": 62346
 },
-"md/132.content.md": {
+"md/011.content.md": {
 "mimeType": "text/markdown",
-"size": 3226
+"size": 2317
 },
-"md/167.content.md": {
+"md/199.content.md": {
 "mimeType": "text/markdown",
-"size": 18099
+"size": 10091
 },
-"md/198.content.md": {
+"md/166.content.md": {
 "mimeType": "text/markdown",
-"size": 49251
+"size": 1030
 },
-"md/010.content.md": {
+"md/133.content.md": {
 "mimeType": "text/markdown",
-"size": 7682
+"size": 40704
 },
-"md/045.content.md": {
+"md/043.content.md": {
 "mimeType": "text/markdown",
-"size": 7976
+"size": 9840
 },
-"md/005.content.md": {
-"mimeType": "text/markdown",
-"size": 25618
-},
-"md/050.content.md": {
-"mimeType": "text/markdown",
-"size": 35124
-},
-"md/127.content.md": {
-"mimeType": "text/markdown",
-"size": 8467
-},
-"md/172.content.md": {
-"mimeType": "text/markdown",
-"size": 11407
-},
-"md/002.content.md": {
-"mimeType": "text/markdown",
-"size": 31166
-},
-"md/057.content.md": {
-"mimeType": "text/markdown",
-"size": 7637
-},
-"md/120.content.md": {
-"mimeType": "text/markdown",
-"size": 42963
-},
-"md/175.content.md": {
-"mimeType": "text/markdown",
-"size": 5360
-},
-"md/034.content.md": {
-"mimeType": "text/markdown",
-"size": 1043
-},
-"md/061.content.md": {
-"mimeType": "text/markdown",
-"size": 5118
-},
-"md/116.content.md": {
-"mimeType": "text/markdown",
-"size": 954
-},
-"md/143.content.md": {
-"mimeType": "text/markdown",
-"size": 13059
-},
-"md/033.content.md": {
-"mimeType": "text/markdown",
-"size": 10719
-},
-"md/066.content.md": {
-"mimeType": "text/markdown",
-"size": 115915
-},
-"md/099.content.md": {
-"mimeType": "text/markdown",
-"size": 2146
-},
-"md/111.content.md": {
-"mimeType": "text/markdown",
-"size": 2223
-},
-"md/144.content.md": {
-"mimeType": "text/markdown",
-"size": 42712
-},
-"md/104.content.md": {
-"mimeType": "text/markdown",
-"size": 45822
-},
-"md/151.content.md": {
-"mimeType": "text/markdown",
-"size": 9805
-},
-"md/026.content.md": {
-"mimeType": "text/markdown",
-"size": 6569
-},
-"md/073.content.md": {
-"mimeType": "text/markdown",
-"size": 5734
-},
-"md/103.content.md": {
-"mimeType": "text/markdown",
-"size": 34059
-},
-"md/156.content.md": {
-"mimeType": "text/markdown",
-"size": 29197
-},
-"md/021.content.md": {
-"mimeType": "text/markdown",
-"size": 2286
-},
-"md/074.content.md": {
-"mimeType": "text/markdown",
-"size": 3032
-},
-"md/047.content.md": {
-"mimeType": "text/markdown",
-"size": 1731
-},
-"md/012.content.md": {
-"mimeType": "text/markdown",
-"size": 13250
-},
-"md/165.content.md": {
-"mimeType": "text/markdown",
-"size": 7632
-},
-"md/130.content.md": {
-"mimeType": "text/markdown",
-"size": 12436
-},
-"md/040.content.md": {
-"mimeType": "text/markdown",
-"size": 12628
-},
-"md/015.content.md": {
+"md/016.content.md": {
 "mimeType": "text/markdown",
 "size": 15482
 },
-"md/162.content.md": {
+"md/161.content.md": {
 "mimeType": "text/markdown",
-"size": 8135
+"size": 8023
 },
-"md/137.content.md": {
+"md/134.content.md": {
 "mimeType": "text/markdown",
-"size": 4398
+"size": 7846
 },
-"md/177.content.md": {
+"md/075.content.md": {
 "mimeType": "text/markdown",
-"size": 36385
+"size": 5734
 },
-"md/122.content.md": {
+"md/020.content.md": {
 "mimeType": "text/markdown",
-"size": 4399
+"size": 2271
 },
-"md/188.content.md": {
+"md/157.content.md": {
 "mimeType": "text/markdown",
-"size": 84051
+"size": 10935
 },
-"md/055.content.md": {
+"md/102.content.md": {
+"mimeType": "text/markdown",
+"size": 8817
+},
+"md/072.content.md": {
+"mimeType": "text/markdown",
+"size": 14961
+},
+"md/027.content.md": {
+"mimeType": "text/markdown",
+"size": 27971
+},
+"md/150.content.md": {
+"mimeType": "text/markdown",
+"size": 47007
+},
+"md/105.content.md": {
+"mimeType": "text/markdown",
+"size": 38677
+},
+"md/145.content.md": {
+"mimeType": "text/markdown",
+"size": 15477
+},
+"md/110.content.md": {
+"mimeType": "text/markdown",
+"size": 2686
+},
+"md/098.content.md": {
+"mimeType": "text/markdown",
+"size": 6561
+},
+"md/067.content.md": {
+"mimeType": "text/markdown",
+"size": 106505
+},
+"md/032.content.md": {
+"mimeType": "text/markdown",
+"size": 20618
+},
+"md/142.content.md": {
+"mimeType": "text/markdown",
+"size": 5739
+},
+"md/117.content.md": {
+"mimeType": "text/markdown",
+"size": 6197
+},
+"md/060.content.md": {
+"mimeType": "text/markdown",
+"size": 5781
+},
+"md/035.content.md": {
+"mimeType": "text/markdown",
+"size": 10719
+},
+"md/208.content.md": {
+"mimeType": "text/markdown",
+"size": 49547
+},
+"md/135.content.md": {
+"mimeType": "text/markdown",
+"size": 12436
+},
+"md/160.content.md": {
+"mimeType": "text/markdown",
+"size": 1240
+},
+"md/017.content.md": {
+"mimeType": "text/markdown",
+"size": 3649
+},
+"md/042.content.md": {
+"mimeType": "text/markdown",
+"size": 12628
+},
+"md/132.content.md": {
+"mimeType": "text/markdown",
+"size": 8467
+},
+"md/167.content.md": {
+"mimeType": "text/markdown",
+"size": 6976
+},
+"md/198.content.md": {
+"mimeType": "text/markdown",
+"size": 90362
+},
+"md/010.content.md": {
+"mimeType": "text/markdown",
+"size": 9638
+},
+"md/045.content.md": {
+"mimeType": "text/markdown",
+"size": 3816
+},
+"md/005.content.md": {
+"mimeType": "text/markdown",
+"size": 33069
+},
+"md/050.content.md": {
+"mimeType": "text/markdown",
+"size": 55844
+},
+"md/127.content.md": {
+"mimeType": "text/markdown",
+"size": 9536
+},
+"md/172.content.md": {
+"mimeType": "text/markdown",
+"size": 9146
+},
+"md/002.content.md": {
+"mimeType": "text/markdown",
+"size": 31240
+},
+"md/057.content.md": {
 "mimeType": "text/markdown",
 "size": 3177
 },
-"md/170.content.md": {
+"md/120.content.md": {
 "mimeType": "text/markdown",
-"size": 5162
+"size": 8221
 },
-"md/125.content.md": {
+"md/175.content.md": {
+"mimeType": "text/markdown",
+"size": 18099
+},
+"md/034.content.md": {
+"mimeType": "text/markdown",
+"size": 17703
+},
+"md/061.content.md": {
+"mimeType": "text/markdown",
+"size": 1146
+},
+"md/116.content.md": {
+"mimeType": "text/markdown",
+"size": 9530
+},
+"md/143.content.md": {
+"mimeType": "text/markdown",
+"size": 4398
+},
+"md/033.content.md": {
+"mimeType": "text/markdown",
+"size": 121069
+},
+"md/066.content.md": {
+"mimeType": "text/markdown",
+"size": 13710
+},
+"md/099.content.md": {
+"mimeType": "text/markdown",
+"size": 104634
+},
+"md/111.content.md": {
+"mimeType": "text/markdown",
+"size": 15252
+},
+"md/144.content.md": {
+"mimeType": "text/markdown",
+"size": 2866
+},
+"md/104.content.md": {
+"mimeType": "text/markdown",
+"size": 30840
+},
+"md/151.content.md": {
+"mimeType": "text/markdown",
+"size": 19046
+},
+"md/026.content.md": {
+"mimeType": "text/markdown",
+"size": 2569
+},
+"md/073.content.md": {
+"mimeType": "text/markdown",
+"size": 16527
+},
+"md/103.content.md": {
+"mimeType": "text/markdown",
+"size": 5702
+},
+"md/156.content.md": {
+"mimeType": "text/markdown",
+"size": 6635
+},
+"md/021.content.md": {
+"mimeType": "text/markdown",
+"size": 55030
+},
+"md/074.content.md": {
+"mimeType": "text/markdown",
+"size": 40579
+},
+"md/047.content.md": {
+"mimeType": "text/markdown",
+"size": 13729
+},
+"md/012.content.md": {
+"mimeType": "text/markdown",
+"size": 8713
+},
+"md/165.content.md": {
+"mimeType": "text/markdown",
+"size": 11418
+},
+"md/130.content.md": {
 "mimeType": "text/markdown",
 "size": 2200
 },
+"md/040.content.md": {
+"mimeType": "text/markdown",
+"size": 15061
+},
+"md/015.content.md": {
+"mimeType": "text/markdown",
+"size": 10139
+},
+"md/162.content.md": {
+"mimeType": "text/markdown",
+"size": 2039
+},
+"md/137.content.md": {
+"mimeType": "text/markdown",
+"size": 3226
+},
+"md/177.content.md": {
+"mimeType": "text/markdown",
+"size": 13720
+},
+"md/122.content.md": {
+"mimeType": "text/markdown",
+"size": 10434
+},
+"md/188.content.md": {
+"mimeType": "text/markdown",
+"size": 9701
+},
+"md/055.content.md": {
+"mimeType": "text/markdown",
+"size": 16960
+},
+"md/170.content.md": {
+"mimeType": "text/markdown",
+"size": 8135
+},
+"md/125.content.md": {
+"mimeType": "text/markdown",
+"size": 1303
+},
 "md/052.content.md": {
 "mimeType": "text/markdown",
-"size": 16750
+"size": 35124
 },
 "md/007.content.md": {
 "mimeType": "text/markdown",
@@ -3084,71 +3324,71 @@
 },
 "md/146.content.md": {
 "mimeType": "text/markdown",
-"size": 5306
+"size": 231230
 },
 "md/113.content.md": {
 "mimeType": "text/markdown",
-"size": 11437
+"size": 2223
 },
 "md/064.content.md": {
 "mimeType": "text/markdown",
-"size": 13710
+"size": 31974
 },
 "md/031.content.md": {
 "mimeType": "text/markdown",
-"size": 121069
+"size": 3202
 },
 "md/141.content.md": {
 "mimeType": "text/markdown",
-"size": 292700
+"size": 16145
 },
 "md/114.content.md": {
 "mimeType": "text/markdown",
-"size": 9530
+"size": 8852
 },
 "md/063.content.md": {
 "mimeType": "text/markdown",
-"size": 20244
+"size": 5118
 },
 "md/036.content.md": {
 "mimeType": "text/markdown",
-"size": 13832
+"size": 2416
 },
 "md/076.content.md": {
 "mimeType": "text/markdown",
-"size": 17372
+"size": 3032
 },
 "md/023.content.md": {
 "mimeType": "text/markdown",
-"size": 19540
+"size": 1319
 },
 "md/089.content.md": {
 "mimeType": "text/markdown",
-"size": 10681
+"size": 4176
 },
 "md/154.content.md": {
 "mimeType": "text/markdown",
-"size": 8023
+"size": 32897
 },
 "md/101.content.md": {
 "mimeType": "text/markdown",
-"size": 5702
+"size": 2146
 },
 "md/071.content.md": {
 "mimeType": "text/markdown",
-"size": 16527
+"size": 49990
 },
 "md/024.content.md": {
 "mimeType": "text/markdown",
-"size": 40737
+"size": 22445
 },
 "md/153.content.md": {
 "mimeType": "text/markdown",
-"size": 1240
+"size": 1488
 },
 "md/106.content.md": {
 "mimeType": "text/markdown",
-"size": 12916
+"size": 45822
 },
 "md/006.content.md": {
 "mimeType": "text/markdown",
@@ -3156,279 +3396,299 @@
 },
 "md/053.content.md": {
 "mimeType": "text/markdown",
-"size": 15822
+"size": 10385
 },
 "md/124.content.md": {
 "mimeType": "text/markdown",
-"size": 4105
+"size": 8441
 },
 "md/171.content.md": {
 "mimeType": "text/markdown",
-"size": 165148
+"size": 1907
 },
 "md/001.content.md": {
 "mimeType": "text/markdown",
-"size": 29294
+"size": 36503
 },
 "md/054.content.md": {
 "mimeType": "text/markdown",
-"size": 4061
+"size": 16750
 },
 "md/189.content.md": {
 "mimeType": "text/markdown",
-"size": 10091
+"size": 17623
 },
 "md/123.content.md": {
 "mimeType": "text/markdown",
-"size": 9536
+"size": 42963
 },
 "md/176.content.md": {
 "mimeType": "text/markdown",
-"size": 58320
+"size": 14848
 },
 "md/136.content.md": {
 "mimeType": "text/markdown",
-"size": 3769
+"size": 18026
 },
 "md/163.content.md": {
 "mimeType": "text/markdown",
-"size": 1907
+"size": 29197
 },
 "md/014.content.md": {
 "mimeType": "text/markdown",
-"size": 10139
+"size": 7092
 },
 "md/041.content.md": {
 "mimeType": "text/markdown",
-"size": 8536
+"size": 30381
 },
 "md/131.content.md": {
 "mimeType": "text/markdown",
-"size": 18026
+"size": 2731
 },
 "md/164.content.md": {
 "mimeType": "text/markdown",
-"size": 9146
+"size": 35037
 },
 "md/013.content.md": {
 "mimeType": "text/markdown",
-"size": 7092
+"size": 21743
 },
 "md/046.content.md": {
 "mimeType": "text/markdown",
-"size": 68086
+"size": 5678
 },
 "md/107.content.md": {
 "mimeType": "text/markdown",
-"size": 17235
+"size": 50963
 },
 "md/152.content.md": {
 "mimeType": "text/markdown",
-"size": 8478
+"size": 5306
 },
 "md/025.content.md": {
 "mimeType": "text/markdown",
-"size": 27971
+"size": 40737
 },
 "md/070.content.md": {
 "mimeType": "text/markdown",
-"size": 14961
+"size": 1246
 },
 "md/100.content.md": {
 "mimeType": "text/markdown",
-"size": 8817
+"size": 8938
 },
 "md/155.content.md": {
 "mimeType": "text/markdown",
-"size": 2039
+"size": 1344
 },
 "md/088.content.md": {
 "mimeType": "text/markdown",
-"size": 8114
+"size": 12586
 },
 "md/022.content.md": {
 "mimeType": "text/markdown",
-"size": 1319
+"size": 2286
 },
 "md/077.content.md": {
 "mimeType": "text/markdown",
-"size": 7708
+"size": 3138
 },
 "md/037.content.md": {
 "mimeType": "text/markdown",
-"size": 14690
+"size": 4074
 },
 "md/062.content.md": {
 "mimeType": "text/markdown",
-"size": 31974
+"size": 8297
 },
 "md/115.content.md": {
 "mimeType": "text/markdown",
-"size": 6197
+"size": 11437
 },
 "md/140.content.md": {
 "mimeType": "text/markdown",
-"size": 231230
+"size": 988
 },
 "md/030.content.md": {
 "mimeType": "text/markdown",
-"size": 20618
+"size": 2018
 },
 "md/065.content.md": {
 "mimeType": "text/markdown",
-"size": 95592
+"size": 20244
 },
 "md/112.content.md": {
 "mimeType": "text/markdown",
-"size": 8852
+"size": 13046
 },
 "md/147.content.md": {
 "mimeType": "text/markdown",
-"size": 32834
+"size": 295168
 },
 "md/118.content.md": {
 "mimeType": "text/markdown",
-"size": 13266
+"size": 954
 },
 "md/090.content.md": {
 "mimeType": "text/markdown",
-"size": 10001
+"size": 8114
 },
 "md/068.content.md": {
 "mimeType": "text/markdown",
-"size": 1246
+"size": 118831
 },
 "md/097.content.md": {
 "mimeType": "text/markdown",
-"size": 97919
+"size": 2638
 },
 "md/028.content.md": {
 "mimeType": "text/markdown",
-"size": 2018
+"size": 6569
 },
 "md/082.content.md": {
 "mimeType": "text/markdown",
-"size": 9977
+"size": 2881
 },
 "md/085.content.md": {
 "mimeType": "text/markdown",
-"size": 21215
+"size": 17277
 },
 "md/158.content.md": {
 "mimeType": "text/markdown",
-"size": 11418
+"size": 11397
 },
 "md/019.content.md": {
 "mimeType": "text/markdown",
-"size": 2271
+"size": 43114
 },
 "md/191.content.md": {
 "mimeType": "text/markdown",
-"size": 79238
+"size": 12129
 },
 "md/169.content.md": {
 "mimeType": "text/markdown",
-"size": 13720
+"size": 12748
 },
 "md/196.content.md": {
 "mimeType": "text/markdown",
-"size": 2769
+"size": 184276
 },
 "md/201.content.md": {
 "mimeType": "text/markdown",
-"size": 15525
+"size": 83097
 },
 "md/206.content.md": {
 "mimeType": "text/markdown",
-"size": 8620
+"size": 2769
 },
 "md/129.content.md": {
 "mimeType": "text/markdown",
-"size": 7846
+"size": 8860
 },
 "md/183.content.md": {
 "mimeType": "text/markdown",
-"size": 2671
+"size": 4490
 },
 "md/184.content.md": {
 "mimeType": "text/markdown",
-"size": 160120
+"size": 8144
 },
 "md/059.content.md": {
 "mimeType": "text/markdown",
-"size": 888
+"size": 7637
+},
+"md/213.content.md": {
+"mimeType": "text/markdown",
+"size": 12594
+},
+"md/214.content.md": {
+"mimeType": "text/markdown",
+"size": 18541
 },
 "md/159.content.md": {
 "mimeType": "text/markdown",
-"size": 6976
+"size": 8478
 },
 "md/084.content.md": {
 "mimeType": "text/markdown",
-"size": 1390
+"size": 17566
 },
 "md/083.content.md": {
 "mimeType": "text/markdown",
-"size": 17277
+"size": 34303
 },
 "md/029.content.md": {
 "mimeType": "text/markdown",
-"size": 3202
+"size": 36186
 },
 "md/096.content.md": {
 "mimeType": "text/markdown",
-"size": 6126
+"size": 20593
 },
 "md/069.content.md": {
 "mimeType": "text/markdown",
-"size": 49990
+"size": 42019
 },
 "md/091.content.md": {
 "mimeType": "text/markdown",
-"size": 9770
+"size": 10681
 },
 "md/119.content.md": {
 "mimeType": "text/markdown",
-"size": 10434
+"size": 1447
 },
 "md/058.content.md": {
 "mimeType": "text/markdown",
-"size": 5781
+"size": 44301
 },
 "md/185.content.md": {
 "mimeType": "text/markdown",
-"size": 21657
+"size": 58649
 },
 "md/182.content.md": {
 "mimeType": "text/markdown",
-"size": 12129
+"size": 7479
 },
 "md/128.content.md": {
 "mimeType": "text/markdown",
-"size": 40704
+"size": 4105
+},
+"md/215.content.md": {
+"mimeType": "text/markdown",
+"size": 4689
+},
+"md/212.content.md": {
+"mimeType": "text/markdown",
+"size": 4704
 },
 "md/197.content.md": {
 "mimeType": "text/markdown",
-"size": 27315
+"size": 313659
 },
 "md/168.content.md": {
 "mimeType": "text/markdown",
-"size": 14848
+"size": 6105
 },
 "md/190.content.md": {
 "mimeType": "text/markdown",
-"size": 13219
+"size": 8326
 },
 "md/018.content.md": {
 "mimeType": "text/markdown",
-"size": 43114
+"size": 25221
+},
+"md/207.content.md": {
+"mimeType": "text/markdown",
+"size": 27315
 },
 "md/200.content.md": {
 "mimeType": "text/markdown",
-"size": 101786
+"size": 13219
 },
 "docx/001.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 56099
+"size": 59511
 },
 "docx/002.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
@@ -3436,7 +3696,7 @@
 },
 "docx/003.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 56474
+"size": 57224
 },
 "docx/004.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
@@ -3444,7 +3704,7 @@
 },
 "docx/005.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 54779
+"size": 57932
 },
 "docx/006.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
@@ -3460,799 +3720,839 @@
 },
 "docx/009.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 83519
+"size": 84872
 },
 "docx/010.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 45785
+"size": 46684
 },
 "docx/011.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 46436
+"size": 43173
 },
 "docx/012.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 48371
+"size": 46436
 },
 "docx/013.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 45525
+"size": 52403
 },
 "docx/014.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 46848
+"size": 45525
 },
 "docx/015.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 49619
+"size": 46848
 },
 "docx/016.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 43759
+"size": 49619
 },
 "docx/017.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 54843
+"size": 43759
 },
 "docx/018.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 62127
+"size": 54843
 },
 "docx/019.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 42980
+"size": 62127
 },
 "docx/020.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 69246
+"size": 42980
 },
 "docx/021.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 43192
+"size": 69246
 },
 "docx/022.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 42571
+"size": 43192
 },
 "docx/023.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 51226
+"size": 42571
 },
 "docx/024.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 61490
+"size": 52723
 },
 "docx/025.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 55642
+"size": 61490
 },
 "docx/026.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 45328
+"size": 43327
 },
 "docx/027.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 57876
+"size": 55642
 },
 "docx/028.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 43011
+"size": 45328
 },
 "docx/029.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 43753
+"size": 59223
 },
 "docx/030.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 52151
+"size": 43011
 },
 "docx/031.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 102276
+"size": 43753
 },
 "docx/032.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 50648
+"size": 52151
 },
 "docx/033.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 47200
+"size": 102276
 },
 "docx/034.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 42387
+"size": 50648
 },
 "docx/035.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 43737
+"size": 47200
 },
 "docx/036.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 48663
+"size": 43309
 },
 "docx/037.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 49468
+"size": 44122
 },
 "docx/038.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 49103
+"size": 48663
 },
 "docx/039.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 56422
+"size": 49468
 },
 "docx/040.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 47680
+"size": 49103
 },
 "docx/041.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 46258
+"size": 56422
 },
 "docx/042.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 69322
+"size": 47680
 },
 "docx/043.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 43762
+"size": 46971
 },
 "docx/044.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 45018
+"size": 69322
 },
 "docx/045.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 45853
+"size": 43762
 },
 "docx/046.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 72871
+"size": 45018
 },
 "docx/047.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 42821
+"size": 48714
 },
 "docx/048.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 64949
+"size": 72871
 },
 "docx/049.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 45783
+"size": 42821
 },
 "docx/050.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 58989
+"size": 66004
 },
 "docx/051.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 46861
+"size": 45783
 },
 "docx/052.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 50311
+"size": 58989
 },
 "docx/053.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 49479
+"size": 46861
 },
 "docx/054.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 44208
+"size": 50311
 },
 "docx/055.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 43558
+"size": 50033
 },
 "docx/056.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 62265
+"size": 44208
 },
 "docx/057.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 45460
+"size": 43558
 },
 "docx/058.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 44950
+"size": 62381
 },
 "docx/059.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 42240
+"size": 45460
 },
 "docx/060.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 46241
+"size": 44950
 },
 "docx/061.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 44600
+"size": 42360
 },
 "docx/062.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 57591
+"size": 46241
 },
 "docx/063.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 51852
+"size": 44600
 },
 "docx/064.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 48706
+"size": 57591
 },
 "docx/065.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 85306
+"size": 51852
 },
 "docx/066.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 94845
+"size": 48706
 },
 "docx/067.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 62738
+"size": 89938
 },
 "docx/068.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 42461
+"size": 96251
 },
 "docx/069.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 65076
+"size": 62738
 },
 "docx/070.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 49927
+"size": 42461
 },
 "docx/071.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 50263
+"size": 65076
 },
 "docx/072.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 60694
+"size": 49927
 },
 "docx/073.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 44973
+"size": 50263
 },
 "docx/074.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 43658
+"size": 60842
 },
 "docx/075.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 43548
+"size": 44973
 },
 "docx/076.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 51265
+"size": 43658
 },
 "docx/077.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 46005
+"size": 43548
 },
 "docx/078.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 45718
+"size": 51265
 },
 "docx/079.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 44164
+"size": 48127
 },
 "docx/080.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 43591
+"size": 45718
 },
 "docx/081.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 57715
+"size": 44164
 },
 "docx/082.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 46825
+"size": 43591
 },
 "docx/083.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 50263
+"size": 57715
 },
 "docx/084.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 42326
+"size": 50313
 },
 "docx/085.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 52060
+"size": 50263
 },
 "docx/086.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 48066
+"size": 42326
 },
 "docx/087.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 44168
+"size": 54302
 },
 "docx/088.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 46257
+"size": 48066
 },
 "docx/089.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 47332
+"size": 44168
 },
 "docx/090.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 46824
+"size": 46257
 },
 "docx/091.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 47038
+"size": 47332
 },
 "docx/092.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 42976
+"size": 46824
 },
 "docx/093.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 47813
+"size": 48415
 },
 "docx/094.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 49591
+"size": 42976
 },
 "docx/095.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 43440
+"size": 49661
 },
 "docx/096.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 45310
+"size": 52057
 },
 "docx/097.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 85319
+"size": 43440
 },
 "docx/098.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 46301
+"size": 45471
 },
 "docx/099.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 42838
+"size": 88238
 },
 "docx/100.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 46522
+"size": 46301
 },
 "docx/101.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 44823
+"size": 42838
 },
 "docx/102.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 56154
+"size": 46522
 },
 "docx/103.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 58043
+"size": 44823
 },
 "docx/104.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 62959
+"size": 56154
 },
 "docx/105.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 66628
+"size": 60048
 },
 "docx/106.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 47814
+"size": 62959
 },
 "docx/107.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 50060
+"size": 66628
 },
 "docx/108.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 43497
+"size": 47814
 },
 "docx/109.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 50144
+"size": 50300
 },
 "docx/110.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 47952
+"size": 43497
 },
 "docx/111.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 43123
+"size": 50144
 },
 "docx/112.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 46649
+"size": 47952
 },
 "docx/113.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 47867
+"size": 43123
 },
 "docx/114.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 46833
+"size": 46649
 },
 "docx/115.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 45286
+"size": 47867
 },
 "docx/116.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 42330
+"size": 46833
 },
 "docx/117.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 45499
+"size": 45286
 },
 "docx/118.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 48483
+"size": 42330
 },
 "docx/119.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 46952
+"size": 42645
 },
 "docx/120.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 63029
+"size": 46301
 },
 "docx/121.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 46271
+"size": 48483
 },
 "docx/122.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 44291
+"size": 46952
 },
 "docx/123.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 46821
+"size": 63029
 },
 "docx/124.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 44016
+"size": 46271
 },
 "docx/125.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 43088
+"size": 42658
 },
 "docx/126.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 43154
+"size": 44291
 },
 "docx/127.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 46108
+"size": 46821
 },
 "docx/128.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 60752
+"size": 44016
 },
 "docx/129.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 45803
+"size": 46443
 },
 "docx/130.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 47819
+"size": 43088
 },
 "docx/131.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 50253
+"size": 43154
 },
 "docx/132.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 43634
+"size": 46108
 },
 "docx/133.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 58892
+"size": 60752
 },
 "docx/134.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 42577
+"size": 45803
 },
 "docx/135.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 49524
+"size": 47819
 },
 "docx/136.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 43645
+"size": 50253
 },
 "docx/137.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 44110
+"size": 43634
 },
 "docx/138.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 43323
+"size": 58892
 },
 "docx/139.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 49680
+"size": 42577
 },
 "docx/140.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 144014
+"size": 42324
 },
 "docx/141.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 172250
+"size": 49887
 },
 "docx/142.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 180010
+"size": 44501
 },
 "docx/143.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 48528
+"size": 44110
 },
 "docx/144.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 62176
+"size": 43323
 },
 "docx/145.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 51948
+"size": 49680
 },
 "docx/146.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 44618
+"size": 144014
 },
 "docx/147.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 57401
+"size": 173387
 },
 "docx/148.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 42628
+"size": 180682
 },
 "docx/149.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 45238
+"size": 48859
 },
 "docx/150.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 47372
+"size": 64174
 },
 "docx/151.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 47062
+"size": 51948
 },
 "docx/152.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 46079
+"size": 44618
 },
 "docx/153.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 42518
+"size": 42671
 },
 "docx/154.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 46395
+"size": 57401
 },
 "docx/155.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 43028
+"size": 42628
 },
 "docx/156.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 55654
+"size": 45238
 },
 "docx/157.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 59085
+"size": 47372
 },
 "docx/158.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 47557
+"size": 48021
 },
 "docx/159.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 45319
+"size": 46079
 },
 "docx/160.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 45096
+"size": 42518
 },
 "docx/161.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 48248
+"size": 46395
 },
 "docx/162.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 46083
+"size": 43028
 },
 "docx/163.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 42836
+"size": 55654
 },
 "docx/164.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 46688
+"size": 59085
 },
 "docx/165.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 45420
+"size": 47557
 },
 "docx/166.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 44336
+"size": 42372
 },
 "docx/167.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 50629
+"size": 45319
 },
 "docx/168.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 49233
+"size": 45096
 },
 "docx/169.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 48603
+"size": 48248
 },
 "docx/170.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 44792
+"size": 46083
 },
 "docx/171.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 117023
+"size": 42836
 },
 "docx/172.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 47678
+"size": 46688
 },
 "docx/173.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 49232
+"size": 45420
 },
 "docx/174.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 44438
+"size": 44336
 },
 "docx/175.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 44621
+"size": 50629
 },
 "docx/176.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 68583
+"size": 49233
 },
 "docx/177.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 59379
+"size": 48603
 },
 "docx/178.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 45218
+"size": 44792
 },
 "docx/179.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 46556
+"size": 122202
 },
 "docx/180.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 49379
+"size": 47678
 },
 "docx/181.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 46075
+"size": 49232
 },
 "docx/182.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 47831
+"size": 45823
 },
 "docx/183.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 43320
+"size": 44438
 },
 "docx/184.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 114047
+"size": 45975
 },
 "docx/185.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 51622
+"size": 68733
 },
 "docx/186.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 121669
+"size": 59379
 },
 "docx/187.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 175094
+"size": 45218
 },
 "docx/188.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 81444
+"size": 46556
 },
 "docx/189.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 46765
+"size": 50785
 },
 "docx/190.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 48268
+"size": 46075
 },
 "docx/191.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 78598
+"size": 47831
 },
 "docx/192.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 66352
+"size": 43320
 },
 "docx/193.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 42800
+"size": 123758
 },
 "docx/194.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 70485
+"size": 51622
 },
 "docx/195.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 46409
+"size": 43038
 },
 "docx/196.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 43278
+"size": 121774
 },
 "docx/197.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 54091
+"size": 181000
 },
 "docx/198.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 64404
+"size": 84562
 },
 "docx/199.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 44929
+"size": 46765
 },
 "docx/200.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 89363
+"size": 48268
 },
 "docx/201.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 49959
+"size": 80294
 },
 "docx/202.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 44257
+"size": 66352
 },
 "docx/203.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 48128
+"size": 42800
 },
 "docx/204.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 50444
+"size": 71756
 },
 "docx/205.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 44406
+"size": 46409
 },
 "docx/206.content.docx": {
+"mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+"size": 43278
+},
+"docx/207.content.docx": {
+"mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+"size": 54091
+},
+"docx/208.content.docx": {
+"mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+"size": 64524
+},
+"docx/209.content.docx": {
+"mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+"size": 44929
+},
+"docx/210.content.docx": {
+"mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+"size": 90820
+},
+"docx/211.content.docx": {
+"mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+"size": 49959
+},
+"docx/212.content.docx": {
+"mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+"size": 44257
+},
+"docx/213.content.docx": {
+"mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+"size": 48128
+},
+"docx/214.content.docx": {
+"mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+"size": 50613
+},
+"docx/215.content.docx": {
+"mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+"size": 44406
+},
+"docx/216.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
 "size": 46417
 },
 "pdf/001.content.pdf": {
 "mimeType": "application/pdf",
-"size": 401996
+"size": 460091
 },
 "pdf/002.content.pdf": {
 "mimeType": "application/pdf",
@@ -4260,7 +4560,7 @@
 },
 "pdf/003.content.pdf": {
 "mimeType": "application/pdf",
-"size": 400549
+"size": 415210
 },
 "pdf/004.content.pdf": {
 "mimeType": "application/pdf",
@@ -4268,7 +4568,7 @@
 },
 "pdf/005.content.pdf": {
 "mimeType": "application/pdf",
-"size": 350921
+"size": 415532
 },
 "pdf/006.content.pdf": {
 "mimeType": "application/pdf",
@@ -4284,793 +4584,833 @@
 },
 "pdf/009.content.pdf": {
 "mimeType": "application/pdf",
-"size": 818826
+"size": 840718
 },
 "pdf/010.content.pdf": {
 "mimeType": "application/pdf",
-"size": 151611
+"size": 183739
 },
 "pdf/011.content.pdf": {
 "mimeType": "application/pdf",
-"size": 194794
+"size": 74288
 },
 "pdf/012.content.pdf": {
 "mimeType": "application/pdf",
-"size": 227454
+"size": 194794
 },
 "pdf/013.content.pdf": {
 "mimeType": "application/pdf",
-"size": 154406
+"size": 307543
 },
 "pdf/014.content.pdf": {
 "mimeType": "application/pdf",
-"size": 198105
+"size": 154406
 },
 "pdf/015.content.pdf": {
 "mimeType": "application/pdf",
-"size": 254138
+"size": 198105
 },
 "pdf/016.content.pdf": {
 "mimeType": "application/pdf",
-"size": 90408
+"size": 254138
 },
 "pdf/017.content.pdf": {
 "mimeType": "application/pdf",
-"size": 340200
+"size": 90408
 },
 "pdf/018.content.pdf": {
 "mimeType": "application/pdf",
-"size": 477419
+"size": 340200
 },
 "pdf/019.content.pdf": {
 "mimeType": "application/pdf",
-"size": 66867
+"size": 477419
 },
 "pdf/020.content.pdf": {
 "mimeType": "application/pdf",
-"size": 579354
+"size": 66867
 },
 "pdf/021.content.pdf": {
 "mimeType": "application/pdf",
-"size": 76611
+"size": 579354
 },
 "pdf/022.content.pdf": {
 "mimeType": "application/pdf",
-"size": 47731
+"size": 76611
 },
 "pdf/023.content.pdf": {
 "mimeType": "application/pdf",
-"size": 298643
+"size": 47731
 },
 "pdf/024.content.pdf": {
 "mimeType": "application/pdf",
-"size": 496175
+"size": 327745
 },
 "pdf/025.content.pdf": {
 "mimeType": "application/pdf",
-"size": 357954
+"size": 496175
 },
 "pdf/026.content.pdf": {
 "mimeType": "application/pdf",
-"size": 139424
+"size": 76708
 },
 "pdf/027.content.pdf": {
 "mimeType": "application/pdf",
-"size": 430898
+"size": 357954
 },
 "pdf/028.content.pdf": {
 "mimeType": "application/pdf",
-"size": 74422
+"size": 139424
 },
 "pdf/029.content.pdf": {
 "mimeType": "application/pdf",
-"size": 98990
+"size": 459460
 },
 "pdf/030.content.pdf": {
 "mimeType": "application/pdf",
-"size": 303530
+"size": 74422
 },
 "pdf/031.content.pdf": {
 "mimeType": "application/pdf",
-"size": 1085662
+"size": 98990
 },
 "pdf/032.content.pdf": {
 "mimeType": "application/pdf",
-"size": 273376
+"size": 303530
 },
 "pdf/033.content.pdf": {
 "mimeType": "application/pdf",
-"size": 203571
+"size": 1085662
 },
 "pdf/034.content.pdf": {
 "mimeType": "application/pdf",
-"size": 38083
+"size": 273376
 },
 "pdf/035.content.pdf": {
 "mimeType": "application/pdf",
-"size": 99985
+"size": 203571
 },
 "pdf/036.content.pdf": {
 "mimeType": "application/pdf",
-"size": 236745
+"size": 82329
 },
 "pdf/037.content.pdf": {
 "mimeType": "application/pdf",
-"size": 258236
+"size": 112858
 },
 "pdf/038.content.pdf": {
 "mimeType": "application/pdf",
-"size": 252149
+"size": 236745
 },
 "pdf/039.content.pdf": {
 "mimeType": "application/pdf",
-"size": 394353
+"size": 258236
 },
 "pdf/040.content.pdf": {
 "mimeType": "application/pdf",
-"size": 217950
+"size": 252149
 },
 "pdf/041.content.pdf": {
 "mimeType": "application/pdf",
-"size": 161668
+"size": 394353
 },
 "pdf/042.content.pdf": {
 "mimeType": "application/pdf",
-"size": 597935
+"size": 217950
 },
 "pdf/043.content.pdf": {
 "mimeType": "application/pdf",
-"size": 93049
+"size": 185243
 },
 "pdf/044.content.pdf": {
 "mimeType": "application/pdf",
-"size": 133683
+"size": 597935
 },
 "pdf/045.content.pdf": {
 "mimeType": "application/pdf",
-"size": 162459
+"size": 93049
 },
 "pdf/046.content.pdf": {
 "mimeType": "application/pdf",
-"size": 654416
+"size": 133683
 },
 "pdf/047.content.pdf": {
 "mimeType": "application/pdf",
-"size": 51961
+"size": 241132
 },
 "pdf/048.content.pdf": {
 "mimeType": "application/pdf",
-"size": 568034
+"size": 654416
 },
 "pdf/049.content.pdf": {
 "mimeType": "application/pdf",
-"size": 157575
+"size": 51961
 },
 "pdf/050.content.pdf": {
 "mimeType": "application/pdf",
-"size": 453162
+"size": 587025
 },
 "pdf/051.content.pdf": {
 "mimeType": "application/pdf",
-"size": 184610
+"size": 157575
 },
 "pdf/052.content.pdf": {
 "mimeType": "application/pdf",
-"size": 269374
+"size": 453162
 },
 "pdf/053.content.pdf": {
 "mimeType": "application/pdf",
-"size": 253453
+"size": 184610
 },
 "pdf/054.content.pdf": {
 "mimeType": "application/pdf",
-"size": 114215
+"size": 269374
 },
 "pdf/055.content.pdf": {
 "mimeType": "application/pdf",
-"size": 86904
+"size": 266018
 },
 "pdf/056.content.pdf": {
 "mimeType": "application/pdf",
-"size": 527315
+"size": 114215
 },
 "pdf/057.content.pdf": {
 "mimeType": "application/pdf",
-"size": 138012
+"size": 86904
 },
 "pdf/058.content.pdf": {
 "mimeType": "application/pdf",
-"size": 139472
+"size": 530116
 },
 "pdf/059.content.pdf": {
 "mimeType": "application/pdf",
-"size": 30990
+"size": 138012
 },
 "pdf/060.content.pdf": {
 "mimeType": "application/pdf",
-"size": 168459
+"size": 139472
 },
 "pdf/061.content.pdf": {
 "mimeType": "application/pdf",
-"size": 126541
+"size": 36015
 },
 "pdf/062.content.pdf": {
 "mimeType": "application/pdf",
-"size": 417416
+"size": 168459
 },
 "pdf/063.content.pdf": {
 "mimeType": "application/pdf",
-"size": 306214
+"size": 126541
 },
 "pdf/064.content.pdf": {
 "mimeType": "application/pdf",
-"size": 241717
+"size": 417416
 },
 "pdf/065.content.pdf": {
 "mimeType": "application/pdf",
-"size": 789186
+"size": 306214
 },
 "pdf/066.content.pdf": {
 "mimeType": "application/pdf",
-"size": 924097
+"size": 241717
 },
 "pdf/067.content.pdf": {
 "mimeType": "application/pdf",
-"size": 522125
+"size": 867207
 },
 "pdf/068.content.pdf": {
 "mimeType": "application/pdf",
-"size": 40408
+"size": 941409
 },
 "pdf/069.content.pdf": {
 "mimeType": "application/pdf",
-"size": 509427
+"size": 522125
 },
 "pdf/070.content.pdf": {
 "mimeType": "application/pdf",
-"size": 275406
+"size": 40408
 },
 "pdf/071.content.pdf": {
 "mimeType": "application/pdf",
-"size": 264637
+"size": 509427
 },
 "pdf/072.content.pdf": {
 "mimeType": "application/pdf",
-"size": 457676
+"size": 275406
 },
 "pdf/073.content.pdf": {
 "mimeType": "application/pdf",
-"size": 141929
+"size": 264637
 },
 "pdf/074.content.pdf": {
 "mimeType": "application/pdf",
-"size": 97386
+"size": 457377
 },
 "pdf/075.content.pdf": {
 "mimeType": "application/pdf",
-"size": 92626
+"size": 141929
 },
 "pdf/076.content.pdf": {
 "mimeType": "application/pdf",
-"size": 302713
+"size": 97386
 },
 "pdf/077.content.pdf": {
 "mimeType": "application/pdf",
-"size": 175634
+"size": 92626
 },
 "pdf/078.content.pdf": {
 "mimeType": "application/pdf",
-"size": 166293
+"size": 302713
 },
 "pdf/079.content.pdf": {
 "mimeType": "application/pdf",
-"size": 107784
+"size": 231821
 },
 "pdf/080.content.pdf": {
 "mimeType": "application/pdf",
-"size": 91709
+"size": 166293
 },
 "pdf/081.content.pdf": {
 "mimeType": "application/pdf",
-"size": 454984
+"size": 107784
 },
 "pdf/082.content.pdf": {
 "mimeType": "application/pdf",
-"size": 200206
+"size": 91709
 },
 "pdf/083.content.pdf": {
 "mimeType": "application/pdf",
-"size": 278337
+"size": 454984
 },
 "pdf/084.content.pdf": {
 "mimeType": "application/pdf",
-"size": 36836
+"size": 285323
 },
 "pdf/085.content.pdf": {
 "mimeType": "application/pdf",
-"size": 315508
+"size": 278337
 },
 "pdf/086.content.pdf": {
 "mimeType": "application/pdf",
-"size": 224654
+"size": 36836
 },
 "pdf/087.content.pdf": {
 "mimeType": "application/pdf",
-"size": 111519
+"size": 360575
 },
 "pdf/088.content.pdf": {
 "mimeType": "application/pdf",
-"size": 186046
+"size": 224654
 },
 "pdf/089.content.pdf": {
 "mimeType": "application/pdf",
-"size": 193701
+"size": 111519
 },
 "pdf/090.content.pdf": {
 "mimeType": "application/pdf",
-"size": 179276
+"size": 186046
 },
 "pdf/091.content.pdf": {
 "mimeType": "application/pdf",
-"size": 201483
+"size": 193701
 },
 "pdf/092.content.pdf": {
 "mimeType": "application/pdf",
-"size": 65905
+"size": 179276
 },
 "pdf/093.content.pdf": {
 "mimeType": "application/pdf",
-"size": 219987
+"size": 241034
 },
 "pdf/094.content.pdf": {
 "mimeType": "application/pdf",
-"size": 255005
+"size": 65905
 },
 "pdf/095.content.pdf": {
 "mimeType": "application/pdf",
-"size": 86701
+"size": 261543
 },
 "pdf/096.content.pdf": {
 "mimeType": "application/pdf",
-"size": 164782
+"size": 312903
 },
 "pdf/097.content.pdf": {
 "mimeType": "application/pdf",
-"size": 879233
+"size": 86701
 },
 "pdf/098.content.pdf": {
 "mimeType": "application/pdf",
-"size": 168960
+"size": 168551
 },
 "pdf/099.content.pdf": {
 "mimeType": "application/pdf",
-"size": 59030
+"size": 932494
 },
 "pdf/100.content.pdf": {
 "mimeType": "application/pdf",
-"size": 191680
+"size": 168960
 },
 "pdf/101.content.pdf": {
 "mimeType": "application/pdf",
-"size": 127157
+"size": 59030
 },
 "pdf/102.content.pdf": {
 "mimeType": "application/pdf",
-"size": 358395
+"size": 191680
 },
 "pdf/103.content.pdf": {
 "mimeType": "application/pdf",
-"size": 431105
+"size": 127157
 },
 "pdf/104.content.pdf": {
 "mimeType": "application/pdf",
-"size": 527672
+"size": 358395
 },
 "pdf/105.content.pdf": {
 "mimeType": "application/pdf",
-"size": 573247
+"size": 472855
 },
 "pdf/106.content.pdf": {
 "mimeType": "application/pdf",
-"size": 216738
+"size": 527672
 },
 "pdf/107.content.pdf": {
 "mimeType": "application/pdf",
-"size": 256422
+"size": 573247
 },
 "pdf/108.content.pdf": {
 "mimeType": "application/pdf",
-"size": 94262
+"size": 216738
 },
 "pdf/109.content.pdf": {
 "mimeType": "application/pdf",
-"size": 277849
+"size": 260919
 },
 "pdf/110.content.pdf": {
 "mimeType": "application/pdf",
-"size": 247064
+"size": 94262
 },
 "pdf/111.content.pdf": {
 "mimeType": "application/pdf",
-"size": 75485
+"size": 277849
 },
 "pdf/112.content.pdf": {
 "mimeType": "application/pdf",
-"size": 195526
+"size": 247064
 },
 "pdf/113.content.pdf": {
 "mimeType": "application/pdf",
-"size": 223691
+"size": 75485
 },
 "pdf/114.content.pdf": {
 "mimeType": "application/pdf",
-"size": 184390
+"size": 195526
 },
 "pdf/115.content.pdf": {
 "mimeType": "application/pdf",
-"size": 150073
+"size": 223691
 },
 "pdf/116.content.pdf": {
 "mimeType": "application/pdf",
-"size": 34420
+"size": 184390
 },
 "pdf/117.content.pdf": {
 "mimeType": "application/pdf",
-"size": 158754
+"size": 150073
 },
 "pdf/118.content.pdf": {
 "mimeType": "application/pdf",
-"size": 231209
+"size": 34420
 },
 "pdf/119.content.pdf": {
 "mimeType": "application/pdf",
-"size": 197973
+"size": 53666
 },
 "pdf/120.content.pdf": {
 "mimeType": "application/pdf",
-"size": 510223
+"size": 181170
 },
 "pdf/121.content.pdf": {
 "mimeType": "application/pdf",
-"size": 182932
+"size": 231209
 },
 "pdf/122.content.pdf": {
 "mimeType": "application/pdf",
-"size": 112287
+"size": 197973
 },
 "pdf/123.content.pdf": {
 "mimeType": "application/pdf",
-"size": 186591
+"size": 510223
 },
 "pdf/124.content.pdf": {
 "mimeType": "application/pdf",
-"size": 102873
+"size": 182932
 },
 "pdf/125.content.pdf": {
 "mimeType": "application/pdf",
-"size": 69792
+"size": 48267
 },
 "pdf/126.content.pdf": {
 "mimeType": "application/pdf",
-"size": 69254
+"size": 112287
 },
 "pdf/127.content.pdf": {
 "mimeType": "application/pdf",
-"size": 167968
+"size": 186591
 },
 "pdf/128.content.pdf": {
 "mimeType": "application/pdf",
-"size": 431155
+"size": 102873
 },
 "pdf/129.content.pdf": {
 "mimeType": "application/pdf",
-"size": 151134
+"size": 169214
 },
 "pdf/130.content.pdf": {
 "mimeType": "application/pdf",
-"size": 205358
+"size": 69792
 },
 "pdf/131.content.pdf": {
 "mimeType": "application/pdf",
-"size": 243994
+"size": 69254
 },
 "pdf/132.content.pdf": {
 "mimeType": "application/pdf",
-"size": 89324
+"size": 167968
 },
 "pdf/133.content.pdf": {
 "mimeType": "application/pdf",
-"size": 426498
+"size": 431155
 },
 "pdf/134.content.pdf": {
 "mimeType": "application/pdf",
-"size": 47214
+"size": 151134
 },
 "pdf/135.content.pdf": {
 "mimeType": "application/pdf",
-"size": 255634
+"size": 205358
 },
 "pdf/136.content.pdf": {
 "mimeType": "application/pdf",
-"size": 84807
+"size": 243994
 },
 "pdf/137.content.pdf": {
 "mimeType": "application/pdf",
-"size": 105449
+"size": 89324
 },
 "pdf/138.content.pdf": {
 "mimeType": "application/pdf",
-"size": 80240
+"size": 426498
 },
 "pdf/139.content.pdf": {
 "mimeType": "application/pdf",
-"size": 248955
+"size": 47214
 },
 "pdf/140.content.pdf": {
 "mimeType": "application/pdf",
-"size": 1494239
+"size": 34791
 },
 "pdf/141.content.pdf": {
 "mimeType": "application/pdf",
-"size": 1645559
+"size": 263883
 },
 "pdf/142.content.pdf": {
 "mimeType": "application/pdf",
-"size": 2002671
+"size": 111208
 },
 "pdf/143.content.pdf": {
 "mimeType": "application/pdf",
-"size": 248901
+"size": 105449
 },
 "pdf/144.content.pdf": {
 "mimeType": "application/pdf",
-"size": 482934
+"size": 80240
 },
 "pdf/145.content.pdf": {
 "mimeType": "application/pdf",
-"size": 313109
+"size": 248955
 },
 "pdf/146.content.pdf": {
 "mimeType": "application/pdf",
-"size": 123902
+"size": 1494239
 },
 "pdf/147.content.pdf": {
 "mimeType": "application/pdf",
-"size": 410292
+"size": 1654874
 },
 "pdf/148.content.pdf": {
 "mimeType": "application/pdf",
-"size": 52327
+"size": 2013934
 },
 "pdf/149.content.pdf": {
 "mimeType": "application/pdf",
-"size": 147347
+"size": 256734
 },
 "pdf/150.content.pdf": {
 "mimeType": "application/pdf",
-"size": 204372
+"size": 521473
 },
 "pdf/151.content.pdf": {
 "mimeType": "application/pdf",
-"size": 210201
+"size": 313109
 },
 "pdf/152.content.pdf": {
 "mimeType": "application/pdf",
-"size": 167940
+"size": 123902
 },
 "pdf/153.content.pdf": {
 "mimeType": "application/pdf",
-"size": 46917
+"size": 44634
 },
 "pdf/154.content.pdf": {
 "mimeType": "application/pdf",
-"size": 196955
+"size": 410292
 },
 "pdf/155.content.pdf": {
 "mimeType": "application/pdf",
-"size": 71186
+"size": 52327
 },
 "pdf/156.content.pdf": {
 "mimeType": "application/pdf",
-"size": 367283
+"size": 147347
 },
 "pdf/157.content.pdf": {
 "mimeType": "application/pdf",
-"size": 433088
+"size": 204372
 },
 "pdf/158.content.pdf": {
 "mimeType": "application/pdf",
-"size": 203136
+"size": 232773
 },
 "pdf/159.content.pdf": {
 "mimeType": "application/pdf",
-"size": 140902
+"size": 167940
 },
 "pdf/160.content.pdf": {
 "mimeType": "application/pdf",
-"size": 135928
+"size": 46917
 },
 "pdf/161.content.pdf": {
 "mimeType": "application/pdf",
-"size": 230846
+"size": 196955
 },
 "pdf/162.content.pdf": {
 "mimeType": "application/pdf",
-"size": 169716
+"size": 71186
 },
 "pdf/163.content.pdf": {
 "mimeType": "application/pdf",
-"size": 55355
+"size": 367283
 },
 "pdf/164.content.pdf": {
 "mimeType": "application/pdf",
-"size": 193348
+"size": 433088
 },
 "pdf/165.content.pdf": {
 "mimeType": "application/pdf",
-"size": 151375
+"size": 203136
 },
 "pdf/166.content.pdf": {
 "mimeType": "application/pdf",
-"size": 107086
+"size": 38446
 },
 "pdf/167.content.pdf": {
 "mimeType": "application/pdf",
-"size": 256772
+"size": 140902
 },
 "pdf/168.content.pdf": {
 "mimeType": "application/pdf",
-"size": 236821
+"size": 135928
 },
 "pdf/169.content.pdf": {
 "mimeType": "application/pdf",
-"size": 237803
+"size": 230846
 },
 "pdf/170.content.pdf": {
 "mimeType": "application/pdf",
-"size": 137276
+"size": 169716
 },
 "pdf/171.content.pdf": {
 "mimeType": "application/pdf",
-"size": 1139145
+"size": 55355
 },
 "pdf/172.content.pdf": {
 "mimeType": "application/pdf",
-"size": 231363
+"size": 193348
 },
 "pdf/173.content.pdf": {
 "mimeType": "application/pdf",
-"size": 242815
+"size": 151375
 },
 "pdf/174.content.pdf": {
 "mimeType": "application/pdf",
-"size": 122850
+"size": 107086
 },
 "pdf/175.content.pdf": {
 "mimeType": "application/pdf",
-"size": 128372
+"size": 256772
 },
 "pdf/176.content.pdf": {
 "mimeType": "application/pdf",
-"size": 575767
+"size": 236821
 },
 "pdf/177.content.pdf": {
 "mimeType": "application/pdf",
-"size": 452401
+"size": 237803
 },
 "pdf/178.content.pdf": {
 "mimeType": "application/pdf",
-"size": 143124
+"size": 137276
 },
 "pdf/179.content.pdf": {
 "mimeType": "application/pdf",
-"size": 178141
+"size": 1196085
 },
 "pdf/180.content.pdf": {
 "mimeType": "application/pdf",
-"size": 254883
+"size": 231363
 },
 "pdf/181.content.pdf": {
 "mimeType": "application/pdf",
-"size": 159113
+"size": 242815
 },
 "pdf/182.content.pdf": {
 "mimeType": "application/pdf",
-"size": 207425
+"size": 170103
 },
 "pdf/183.content.pdf": {
 "mimeType": "application/pdf",
-"size": 75269
+"size": 122850
 },
 "pdf/184.content.pdf": {
 "mimeType": "application/pdf",
-"size": 1185914
+"size": 169519
 },
 "pdf/185.content.pdf": {
 "mimeType": "application/pdf",
-"size": 330053
+"size": 579142
 },
 "pdf/186.content.pdf": {
 "mimeType": "application/pdf",
-"size": 1211158
+"size": 452401
 },
 "pdf/187.content.pdf": {
 "mimeType": "application/pdf",
-"size": 1819505
+"size": 143124
 },
 "pdf/188.content.pdf": {
 "mimeType": "application/pdf",
-"size": 771964
+"size": 178141
 },
 "pdf/189.content.pdf": {
 "mimeType": "application/pdf",
-"size": 179033
+"size": 285267
 },
 "pdf/190.content.pdf": {
 "mimeType": "application/pdf",
-"size": 198386
+"size": 159113
 },
 "pdf/191.content.pdf": {
 "mimeType": "application/pdf",
-"size": 684032
+"size": 207425
 },
 "pdf/192.content.pdf": {
 "mimeType": "application/pdf",
-"size": 552770
+"size": 75269
 },
 "pdf/193.content.pdf": {
 "mimeType": "application/pdf",
-"size": 59036
+"size": 1313966
 },
 "pdf/194.content.pdf": {
 "mimeType": "application/pdf",
-"size": 651466
+"size": 330053
 },
 "pdf/195.content.pdf": {
 "mimeType": "application/pdf",
-"size": 186833
+"size": 65292
 },
 "pdf/196.content.pdf": {
 "mimeType": "application/pdf",
-"size": 74750
+"size": 1212862
 },
 "pdf/197.content.pdf": {
 "mimeType": "application/pdf",
-"size": 342023
+"size": 1898257
 },
 "pdf/198.content.pdf": {
 "mimeType": "application/pdf",
-"size": 577193
+"size": 813455
 },
 "pdf/199.content.pdf": {
 "mimeType": "application/pdf",
-"size": 143839
+"size": 179033
 },
 "pdf/200.content.pdf": {
 "mimeType": "application/pdf",
-"size": 982502
+"size": 198386
 },
 "pdf/201.content.pdf": {
 "mimeType": "application/pdf",
-"size": 246202
+"size": 713315
 },
 "pdf/202.content.pdf": {
 "mimeType": "application/pdf",
-"size": 113113
+"size": 552770
 },
 "pdf/203.content.pdf": {
 "mimeType": "application/pdf",
-"size": 220785
+"size": 59036
 },
 "pdf/204.content.pdf": {
 "mimeType": "application/pdf",
-"size": 253683
+"size": 667739
 },
 "pdf/205.content.pdf": {
 "mimeType": "application/pdf",
-"size": 122025
+"size": 186833
 },
 "pdf/206.content.pdf": {
+"mimeType": "application/pdf",
+"size": 74750
+},
+"pdf/207.content.pdf": {
+"mimeType": "application/pdf",
+"size": 342023
+},
+"pdf/208.content.pdf": {
+"mimeType": "application/pdf",
+"size": 579841
+},
+"pdf/209.content.pdf": {
+"mimeType": "application/pdf",
+"size": 143839
+},
+"pdf/210.content.pdf": {
+"mimeType": "application/pdf",
+"size": 1005217
+},
+"pdf/211.content.pdf": {
+"mimeType": "application/pdf",
+"size": 246202
+},
+"pdf/212.content.pdf": {
+"mimeType": "application/pdf",
+"size": 113113
+},
+"pdf/213.content.pdf": {
+"mimeType": "application/pdf",
+"size": 220785
+},
+"pdf/214.content.pdf": {
+"mimeType": "application/pdf",
+"size": 257952
+},
+"pdf/215.content.pdf": {
+"mimeType": "application/pdf",
+"size": 122025
+},
+"pdf/216.content.pdf": {
 "mimeType": "application/pdf",
 "size": 180908
 }
@@ -38963,6 +39303,5049 @@
 "content_id": 761418,
 "language": "spa",
 "title": "Paz"
+}
+}
+},
+"908797": {
+"content_id": "908797",
+"reference_id": 2431,
+"index_reference": "亞倫",
+"localizations": {
+"eng": {
+"content_id": 3263,
+"language": "eng",
+"title": "Aaron"
+},
+"arb": {
+"content_id": 490178,
+"language": "arb",
+"title": "هَارون"
+},
+"fra": {
+"content_id": 831693,
+"language": "fra",
+"title": "Aaron"
+},
+"hin": {
+"content_id": 578860,
+"language": "hin",
+"title": "हारून"
+},
+"por": {
+"content_id": 716881,
+"language": "por",
+"title": "Arão"
+},
+"spa": {
+"content_id": 838113,
+"language": "spa",
+"title": "Aarón"
+},
+"jpn": {
+"content_id": 467477,
+"language": "jpn",
+"title": "アーロン"
+}
+}
+},
+"908798": {
+"content_id": "908798",
+"reference_id": 2455,
+"index_reference": "亞比亞撒",
+"localizations": {
+"eng": {
+"content_id": 3287,
+"language": "eng",
+"title": "Abiasaph"
+},
+"arb": {
+"content_id": 490181,
+"language": "arb",
+"title": "أَبِيَأَسَاف"
+},
+"fra": {
+"content_id": 831694,
+"language": "fra",
+"title": "Abiasaph"
+},
+"hin": {
+"content_id": 578861,
+"language": "hin",
+"title": "अबीआसाप"
+},
+"por": {
+"content_id": 716883,
+"language": "por",
+"title": "Abiasafe"
+},
+"spa": {
+"content_id": 838114,
+"language": "spa",
+"title": "Abiasaph"
+}
+}
+},
+"907243": {
+"content_id": "907243",
+"reference_id": 2648,
+"index_reference": "亞雅Ajah",
+"localizations": {
+"eng": {
+"content_id": 3480,
+"language": "eng",
+"title": "Ajah"
+},
+"arb": {
+"content_id": 443550,
+"language": "arb",
+"title": "أَيَّة"
+},
+"por": {
+"content_id": 716894,
+"language": "por",
+"title": "Aías"
+}
+}
+},
+"907244": {
+"content_id": "907244",
+"reference_id": 2650,
+"index_reference": "亞干Akan",
+"localizations": {
+"eng": {
+"content_id": 3482,
+"language": "eng",
+"title": "Akan"
+},
+"arb": {
+"content_id": 443551,
+"language": "arb",
+"title": "عَقَان"
+},
+"fra": {
+"content_id": 822851,
+"language": "fra",
+"title": "Akan"
+},
+"hin": {
+"content_id": 381289,
+"language": "hin",
+"title": "अकान"
+},
+"por": {
+"content_id": 716895,
+"language": "por",
+"title": "Acã"
+},
+"spa": {
+"content_id": 826880,
+"language": "spa",
+"title": "Acán"
+}
+}
+},
+"907245": {
+"content_id": "907245",
+"reference_id": 2682,
+"index_reference": "亞倫巴古",
+"localizations": {
+"eng": {
+"content_id": 3514,
+"language": "eng",
+"title": "Allon-Bachuth, Allon-Bacuth"
+},
+"arb": {
+"content_id": 443553,
+"language": "arb",
+"title": "أَلُّون بَاكُوت"
+},
+"fra": {
+"content_id": 822852,
+"language": "fra",
+"title": "Chêne des pleurs"
+},
+"hin": {
+"content_id": 381291,
+"language": "hin",
+"title": "अल्लोनबक्कूत"
+},
+"por": {
+"content_id": 716896,
+"language": "por",
+"title": "Alom-Bacute, Alom-Bacuth"
+},
+"spa": {
+"content_id": 826882,
+"language": "spa",
+"title": "Allon-Bacut"
+}
+}
+},
+"907246": {
+"content_id": "907246",
+"reference_id": 2700,
+"index_reference": "亞勒瓦",
+"localizations": {
+"eng": {
+"content_id": 3532,
+"language": "eng",
+"title": "Alvah"
+},
+"arb": {
+"content_id": 443555,
+"language": "arb",
+"title": "عَلْوَة"
+},
+"fra": {
+"content_id": 822853,
+"language": "fra",
+"title": "Alva"
+},
+"hin": {
+"content_id": 381294,
+"language": "hin",
+"title": "अल्वा"
+},
+"por": {
+"content_id": 716898,
+"language": "por",
+"title": "Alva"
+},
+"spa": {
+"content_id": 826884,
+"language": "spa",
+"title": "Alva"
+}
+}
+},
+"907247": {
+"content_id": "907247",
+"reference_id": 2701,
+"index_reference": "亞勒文",
+"localizations": {
+"eng": {
+"content_id": 3533,
+"language": "eng",
+"title": "Alvan"
+},
+"arb": {
+"content_id": 443556,
+"language": "arb",
+"title": "عَلْوَان"
+},
+"fra": {
+"content_id": 822854,
+"language": "fra",
+"title": "Alvan"
+},
+"hin": {
+"content_id": 381295,
+"language": "hin",
+"title": "आल्वान"
+},
+"por": {
+"content_id": 716899,
+"language": "por",
+"title": "Alvã"
+},
+"spa": {
+"content_id": 826885,
+"language": "spa",
+"title": "Alván"
+}
+}
+},
+"907248": {
+"content_id": "907248",
+"reference_id": 2703,
+"index_reference": "亞瑪力亞瑪力人",
+"localizations": {
+"eng": {
+"content_id": 3535,
+"language": "eng",
+"title": "Amalek, Amalekites"
+},
+"arb": {
+"content_id": 443557,
+"language": "arb",
+"title": "عَمَالِيق، العَمَالِقَة"
+},
+"fra": {
+"content_id": 822855,
+"language": "fra",
+"title": "Amalek, Amalécites"
+},
+"hin": {
+"content_id": 381296,
+"language": "hin",
+"title": "अमालेक, अमालेकी"
+},
+"por": {
+"content_id": 716900,
+"language": "por",
+"title": "Amaleque, Amalequitas"
+},
+"spa": {
+"content_id": 826886,
+"language": "spa",
+"title": "Amalec, amalecitas"
+}
+}
+},
+"907249": {
+"content_id": "907249",
+"reference_id": 2747,
+"index_reference": "暗蘭",
+"localizations": {
+"eng": {
+"content_id": 3579,
+"language": "eng",
+"title": "Amram"
+},
+"arb": {
+"content_id": 443560,
+"language": "arb",
+"title": "عَمْرَام"
+},
+"fra": {
+"content_id": 822856,
+"language": "fra",
+"title": "Amram"
+},
+"hin": {
+"content_id": 381299,
+"language": "hin",
+"title": "अम्राम"
+},
+"por": {
+"content_id": 716903,
+"language": "por",
+"title": "Anrão"
+},
+"spa": {
+"content_id": 826889,
+"language": "spa",
+"title": "Amram"
+}
+}
+},
+"907250": {
+"content_id": "907250",
+"reference_id": 2754,
+"index_reference": "亞拿",
+"localizations": {
+"eng": {
+"content_id": 3586,
+"language": "eng",
+"title": "Anah"
+},
+"arb": {
+"content_id": 443562,
+"language": "arb",
+"title": "عَنَى"
+},
+"fra": {
+"content_id": 822857,
+"language": "fra",
+"title": "Ana"
+},
+"hin": {
+"content_id": 381301,
+"language": "hin",
+"title": "अना"
+},
+"por": {
+"content_id": 716905,
+"language": "por",
+"title": "Aná"
+},
+"spa": {
+"content_id": 826891,
+"language": "spa",
+"title": "Ana"
+}
+}
+},
+"907251": {
+"content_id": "907251",
+"reference_id": 2856,
+"index_reference": "阿拉伯阿拉伯人",
+"localizations": {
+"eng": {
+"content_id": 3688,
+"language": "eng",
+"title": "Arabia, Arabs"
+},
+"arb": {
+"content_id": 443566,
+"language": "arb",
+"title": "الْعَرَبِيَّة، الْعَرَب"
+},
+"fra": {
+"content_id": 822858,
+"language": "fra",
+"title": "Arabie, Arabes"
+},
+"hin": {
+"content_id": 381306,
+"language": "hin",
+"title": "अरब, अरब के लोग"
+},
+"por": {
+"content_id": 716907,
+"language": "por",
+"title": "Arábia, Árabes"
+},
+"spa": {
+"content_id": 826895,
+"language": "spa",
+"title": "Arabia, Árabes"
+}
+}
+},
+"907252": {
+"content_id": "907252",
+"reference_id": 2862,
+"index_reference": "亞蘭文",
+"localizations": {
+"eng": {
+"content_id": 3694,
+"language": "eng",
+"title": "Aramaic"
+},
+"arb": {
+"content_id": 331724,
+"language": "arb",
+"title": "أَرَامِيَّة"
+},
+"fra": {
+"content_id": 788700,
+"language": "fra",
+"title": "Araméen"
+},
+"hin": {
+"content_id": 380990,
+"language": "hin",
+"title": "अरामी"
+},
+"por": {
+"content_id": 716909,
+"language": "por",
+"title": "Aramaico"
+},
+"spa": {
+"content_id": 817468,
+"language": "spa",
+"title": "Arameo"
+}
+}
+},
+"907253": {
+"content_id": "907253",
+"reference_id": 2871,
+"index_reference": "亞蘭",
+"localizations": {
+"eng": {
+"content_id": 3703,
+"language": "eng",
+"title": "Aran"
+},
+"arb": {
+"content_id": 443568,
+"language": "arb",
+"title": "أَرَان"
+},
+"fra": {
+"content_id": 822859,
+"language": "fra",
+"title": "Aran"
+},
+"hin": {
+"content_id": 381309,
+"language": "hin",
+"title": "अरान"
+},
+"por": {
+"content_id": 716910,
+"language": "por",
+"title": "Arã"
+},
+"spa": {
+"content_id": 826898,
+"language": "spa",
+"title": "Arán"
+}
+}
+},
+"907254": {
+"content_id": "907254",
+"reference_id": 2966,
+"index_reference": "亞設人物",
+"localizations": {
+"eng": {
+"content_id": 3798,
+"language": "eng",
+"title": "Asher (Person)"
+},
+"arb": {
+"content_id": 443584,
+"language": "arb",
+"title": "أَشِير (شخص)"
+},
+"fra": {
+"content_id": 822866,
+"language": "fra",
+"title": "Aser (Personne)"
+},
+"hin": {
+"content_id": 381326,
+"language": "hin",
+"title": "आशेर (व्यक्ति)"
+},
+"por": {
+"content_id": 682862,
+"language": "por",
+"title": "Aser (Pessoa)"
+},
+"spa": {
+"content_id": 826915,
+"language": "spa",
+"title": "Aser (Persona)"
+}
+}
+},
+"907255": {
+"content_id": "907255",
+"reference_id": 3056,
+"index_reference": "亞未得",
+"localizations": {
+"eng": {
+"content_id": 3888,
+"language": "eng",
+"title": "Avith"
+},
+"arb": {
+"content_id": 443593,
+"language": "arb",
+"title": "عَوِيت"
+},
+"fra": {
+"content_id": 822868,
+"language": "fra",
+"title": "Avith"
+},
+"hin": {
+"content_id": 381337,
+"language": "hin",
+"title": "अबीत"
+},
+"por": {
+"content_id": 716923,
+"language": "por",
+"title": "Avite"
+},
+"spa": {
+"content_id": 826926,
+"language": "spa",
+"title": "Avit"
+}
+}
+},
+"907256": {
+"content_id": "907256",
+"reference_id": 3102,
+"index_reference": "巴勒哈南",
+"localizations": {
+"eng": {
+"content_id": 3934,
+"language": "eng",
+"title": "Baal-Hanan"
+},
+"arb": {
+"content_id": 443594,
+"language": "arb",
+"title": "بَعْل حَانَان"
+},
+"fra": {
+"content_id": 822869,
+"language": "fra",
+"title": "Baal-Hanan"
+},
+"hin": {
+"content_id": 381338,
+"language": "hin",
+"title": "बाल्हानान"
+},
+"por": {
+"content_id": 716924,
+"language": "por",
+"title": "Baal-Hanã"
+},
+"spa": {
+"content_id": 826927,
+"language": "spa",
+"title": "Baal-hanan"
+}
+}
+},
+"907257": {
+"content_id": "907257",
+"reference_id": 3142,
+"index_reference": "巴蘭",
+"localizations": {
+"eng": {
+"content_id": 3974,
+"language": "eng",
+"title": "Balaam"
+},
+"arb": {
+"content_id": 443597,
+"language": "arb",
+"title": "بَلْعَام"
+},
+"fra": {
+"content_id": 822870,
+"language": "fra",
+"title": "Balaam"
+},
+"hin": {
+"content_id": 381341,
+"language": "hin",
+"title": "बिलाम"
+},
+"por": {
+"content_id": 682868,
+"language": "por",
+"title": "Balaão"
+},
+"spa": {
+"content_id": 826930,
+"language": "spa",
+"title": "Balaam"
+}
+}
+},
+"907258": {
+"content_id": "907258",
+"reference_id": 3190,
+"index_reference": "巴實抹",
+"localizations": {
+"eng": {
+"content_id": 4022,
+"language": "eng",
+"title": "Basemath"
+},
+"arb": {
+"content_id": 443599,
+"language": "arb",
+"title": "بَسْمَة"
+},
+"fra": {
+"content_id": 822871,
+"language": "fra",
+"title": "Basmath"
+},
+"hin": {
+"content_id": 381345,
+"language": "hin",
+"title": "बासमत"
+},
+"por": {
+"content_id": 682871,
+"language": "por",
+"title": "Basemate"
+},
+"spa": {
+"content_id": 826934,
+"language": "spa",
+"title": "Basemat"
+}
+}
+},
+"907259": {
+"content_id": "907259",
+"reference_id": 3193,
+"index_reference": "巴實抹Bashemath",
+"localizations": {
+"eng": {
+"content_id": 4025,
+"language": "eng",
+"title": "Bashemath"
+},
+"arb": {
+"content_id": 443601,
+"language": "arb",
+"title": "بَسْمَة"
+},
+"hin": {
+"content_id": 381347,
+"language": "hin",
+"title": "बासमत"
+}
+}
+},
+"907260": {
+"content_id": "907260",
+"reference_id": 3200,
+"index_reference": "書亞拔書亞",
+"localizations": {
+"eng": {
+"content_id": 4032,
+"language": "eng",
+"title": "Bathshua"
+},
+"arb": {
+"content_id": 443602,
+"language": "arb",
+"title": "بَثْشُوع"
+},
+"fra": {
+"content_id": 822873,
+"language": "fra",
+"title": "Schua, Bath-Schua"
+},
+"hin": {
+"content_id": 381348,
+"language": "hin",
+"title": "शूआ"
+},
+"por": {
+"content_id": 716928,
+"language": "por",
+"title": "Bate-Sua, Suá"
+},
+"spa": {
+"content_id": 826937,
+"language": "spa",
+"title": "Batsúa"
+}
+}
+},
+"907261": {
+"content_id": "907261",
+"reference_id": 3226,
+"index_reference": "比達",
+"localizations": {
+"eng": {
+"content_id": 4058,
+"language": "eng",
+"title": "Bedad"
+},
+"arb": {
+"content_id": 443606,
+"language": "arb",
+"title": "بَدَاد"
+},
+"fra": {
+"content_id": 822875,
+"language": "fra",
+"title": "Bedad"
+},
+"hin": {
+"content_id": 381352,
+"language": "hin",
+"title": "बदद"
+},
+"por": {
+"content_id": 716930,
+"language": "por",
+"title": "Bedade"
+},
+"spa": {
+"content_id": 826941,
+"language": "spa",
+"title": "Badad"
+}
+}
+},
+"907262": {
+"content_id": "907262",
+"reference_id": 3235,
+"index_reference": "比利",
+"localizations": {
+"eng": {
+"content_id": 4067,
+"language": "eng",
+"title": "Beeri"
+},
+"arb": {
+"content_id": 443607,
+"language": "arb",
+"title": "بِيرِي"
+},
+"fra": {
+"content_id": 822876,
+"language": "fra",
+"title": "Beéri"
+},
+"hin": {
+"content_id": 381353,
+"language": "hin",
+"title": "बेरी"
+},
+"por": {
+"content_id": 682875,
+"language": "por",
+"title": "Beeri"
+},
+"spa": {
+"content_id": 826942,
+"language": "spa",
+"title": "Beerí"
+}
+}
+},
+"907269": {
+"content_id": "907269",
+"reference_id": 3355,
+"index_reference": "伯利恆",
+"localizations": {
+"eng": {
+"content_id": 4187,
+"language": "eng",
+"title": "Bethlehem"
+},
+"arb": {
+"content_id": 335191,
+"language": "arb",
+"title": "بَيْت لَحْم"
+},
+"fra": {
+"content_id": 822884,
+"language": "fra",
+"title": "Bethléhem"
+},
+"hin": {
+"content_id": 381367,
+"language": "hin",
+"title": "बैतलहम"
+},
+"por": {
+"content_id": 716940,
+"language": "por",
+"title": "Belém"
+},
+"spa": {
+"content_id": 761384,
+"language": "spa",
+"title": "Belén"
+}
+}
+},
+"907424": {
+"content_id": "907424",
+"reference_id": 213106,
+"index_reference": "禧年書",
+"localizations": {
+"eng": {
+"content_id": 833328,
+"language": "eng",
+"title": "Book of Jubilees"
+},
+"arb": {
+"content_id": 852654,
+"language": "arb",
+"title": "سفر اليوبيلات"
+},
+"por": {
+"content_id": 907823,
+"language": "por",
+"title": "Livro dos Jubileus"
+},
+"spa": {
+"content_id": 838302,
+"language": "spa",
+"title": "Libro de los Jubileos"
+},
+"swh": {
+"content_id": 852590,
+"language": "swh",
+"title": "Kitabu cha Jubilees"
+}
+}
+},
+"907272": {
+"content_id": "907272",
+"reference_id": 3474,
+"index_reference": "棚",
+"localizations": {
+"eng": {
+"content_id": 4306,
+"language": "eng",
+"title": "Booth"
+},
+"arb": {
+"content_id": 443629,
+"language": "arb",
+"title": "مَظَلَّة"
+},
+"fra": {
+"content_id": 822888,
+"language": "fra",
+"title": "Cabane"
+},
+"hin": {
+"content_id": 381378,
+"language": "hin",
+"title": "झोपड़ी"
+},
+"por": {
+"content_id": 716951,
+"language": "por",
+"title": "Cabana"
+},
+"spa": {
+"content_id": 826966,
+"language": "spa",
+"title": "Cabina"
+}
+}
+},
+"907274": {
+"content_id": "907274",
+"reference_id": 3494,
+"index_reference": "枝子",
+"localizations": {
+"eng": {
+"content_id": 4326,
+"language": "eng",
+"title": "Branch"
+},
+"arb": {
+"content_id": 335205,
+"language": "arb",
+"title": "غُصن - فرع"
+},
+"fra": {
+"content_id": 822890,
+"language": "fra",
+"title": "Branche"
+},
+"hin": {
+"content_id": 381381,
+"language": "hin",
+"title": "डाली"
+},
+"por": {
+"content_id": 716953,
+"language": "por",
+"title": "Ramo"
+},
+"spa": {
+"content_id": 826969,
+"language": "spa",
+"title": "Rama"
+}
+}
+},
+"907275": {
+"content_id": "907275",
+"reference_id": 3536,
+"index_reference": "酒政",
+"localizations": {
+"eng": {
+"content_id": 4368,
+"language": "eng",
+"title": "Butler"
+},
+"arb": {
+"content_id": 443632,
+"language": "arb",
+"title": "السَّاقي"
+},
+"fra": {
+"content_id": 822891,
+"language": "fra",
+"title": "Majordome"
+},
+"hin": {
+"content_id": 381384,
+"language": "hin",
+"title": "पिलानेहारा"
+},
+"por": {
+"content_id": 716959,
+"language": "por",
+"title": "Mordomo"
+},
+"spa": {
+"content_id": 826972,
+"language": "spa",
+"title": "Mayordomo"
+}
+}
+},
+"907288": {
+"content_id": "907288",
+"reference_id": 4106,
+"index_reference": "以得Edar",
+"localizations": {
+"eng": {
+"content_id": 4938,
+"language": "eng",
+"title": "Edar"
+},
+"arb": {
+"content_id": 443668,
+"language": "arb",
+"title": "عِدْر"
+},
+"hin": {
+"content_id": 381430,
+"language": "hin",
+"title": "एदेर"
+},
+"por": {
+"content_id": 717002,
+"language": "por",
+"title": "Éder"
+}
+}
+},
+"907289": {
+"content_id": "907289",
+"reference_id": 4109,
+"index_reference": "以得地點",
+"localizations": {
+"eng": {
+"content_id": 4941,
+"language": "eng",
+"title": "Eder (Place)"
+},
+"arb": {
+"content_id": 443670,
+"language": "arb",
+"title": "عِدْر (مكان)"
+},
+"fra": {
+"content_id": 822904,
+"language": "fra",
+"title": "Éder (Lieu)"
+},
+"hin": {
+"content_id": 381432,
+"language": "hin",
+"title": "एदेर (स्थान)"
+},
+"por": {
+"content_id": 717003,
+"language": "por",
+"title": "Éder (lugar)"
+},
+"spa": {
+"content_id": 827018,
+"language": "spa",
+"title": "Eder (Lugar)"
+}
+}
+},
+"907299": {
+"content_id": "907299",
+"reference_id": 4315,
+"index_reference": "伊是班",
+"localizations": {
+"eng": {
+"content_id": 5147,
+"language": "eng",
+"title": "Eshban"
+},
+"arb": {
+"content_id": 443701,
+"language": "arb",
+"title": "أَشْبَان"
+},
+"fra": {
+"content_id": 822919,
+"language": "fra",
+"title": "Eschban"
+},
+"hin": {
+"content_id": 381468,
+"language": "hin",
+"title": "एशबान"
+},
+"por": {
+"content_id": 717028,
+"language": "por",
+"title": "Esbã"
+},
+"spa": {
+"content_id": 827053,
+"language": "spa",
+"title": "Esbán"
+}
+}
+},
+"907300": {
+"content_id": "907300",
+"reference_id": 4351,
+"index_reference": "太監",
+"localizations": {
+"eng": {
+"content_id": 5183,
+"language": "eng",
+"title": "Eunuch"
+},
+"arb": {
+"content_id": 331818,
+"language": "arb",
+"title": "خصي"
+},
+"fra": {
+"content_id": 756950,
+"language": "fra",
+"title": "Eunuque"
+},
+"hin": {
+"content_id": 381078,
+"language": "hin",
+"title": "खोजा"
+},
+"por": {
+"content_id": 717030,
+"language": "por",
+"title": "Eunuco"
+},
+"spa": {
+"content_id": 806610,
+"language": "spa",
+"title": "Eunuco"
+}
+}
+},
+"907301": {
+"content_id": "907301",
+"reference_id": 4387,
+"index_reference": "以察",
+"localizations": {
+"eng": {
+"content_id": 5219,
+"language": "eng",
+"title": "Ezer"
+},
+"arb": {
+"content_id": 443706,
+"language": "arb",
+"title": "عَازَر / إِيصَر"
+},
+"fra": {
+"content_id": 822921,
+"language": "fra",
+"title": "Ézer, Etser"
+},
+"hin": {
+"content_id": 381473,
+"language": "hin",
+"title": "एसेर"
+},
+"por": {
+"content_id": 717032,
+"language": "por",
+"title": "Ézer"
+},
+"spa": {
+"content_id": 827058,
+"language": "spa",
+"title": "Ezer"
+}
+}
+},
+"907306": {
+"content_id": "907306",
+"reference_id": 4541,
+"index_reference": "迦坦",
+"localizations": {
+"eng": {
+"content_id": 5373,
+"language": "eng",
+"title": "Gatam"
+},
+"arb": {
+"content_id": 443716,
+"language": "arb",
+"title": "جَعْثَام"
+},
+"fra": {
+"content_id": 822927,
+"language": "fra",
+"title": "Gaetham"
+},
+"hin": {
+"content_id": 381488,
+"language": "hin",
+"title": "गाताम"
+},
+"por": {
+"content_id": 717043,
+"language": "por",
+"title": "Gaetã"
+},
+"spa": {
+"content_id": 827072,
+"language": "spa",
+"title": "Gatam"
+}
+}
+},
+"907308": {
+"content_id": "907308",
+"reference_id": 4636,
+"index_reference": "基列地點",
+"localizations": {
+"eng": {
+"content_id": 5468,
+"language": "eng",
+"title": "Gilead (Place)"
+},
+"arb": {
+"content_id": 443724,
+"language": "arb",
+"title": "جِلْعَاد (مكان)"
+},
+"fra": {
+"content_id": 822931,
+"language": "fra",
+"title": "Galaad (Lieu)"
+},
+"hin": {
+"content_id": 381498,
+"language": "hin",
+"title": "गिलाद (स्थान)"
+},
+"por": {
+"content_id": 717048,
+"language": "por",
+"title": "Gileade (lugar)"
+},
+"spa": {
+"content_id": 827082,
+"language": "spa",
+"title": "Galaad (Lugar)"
+}
+}
+},
+"907307": {
+"content_id": "907307",
+"reference_id": 4633,
+"index_reference": "基列乳香",
+"localizations": {
+"eng": {
+"content_id": 5465,
+"language": "eng",
+"title": "Gilead, Balm of"
+},
+"arb": {
+"content_id": 443723,
+"language": "arb",
+"title": "بَلَسَان جِلْعَاد"
+},
+"fra": {
+"content_id": 822930,
+"language": "fra",
+"title": "Galaad, Baume de"
+},
+"hin": {
+"content_id": 381497,
+"language": "hin",
+"title": "गिलाद का बलसान"
+},
+"por": {
+"content_id": 717047,
+"language": "por",
+"title": "GILEADE, Bálsamo de"
+},
+"spa": {
+"content_id": 827081,
+"language": "spa",
+"title": "Galaad, Bálsamo de"
+}
+}
+},
+"907312": {
+"content_id": "907312",
+"reference_id": 4903,
+"index_reference": "榛",
+"localizations": {
+"eng": {
+"content_id": 5735,
+"language": "eng",
+"title": "Hazel"
+},
+"arb": {
+"content_id": 443752,
+"language": "arb",
+"title": "لَوْز"
+},
+"hin": {
+"content_id": 381527,
+"language": "hin",
+"title": "हेज़ल "
+},
+"por": {
+"content_id": 682955,
+"language": "por",
+"title": "Aveleira"
+}
+}
+},
+"907313": {
+"content_id": "907313",
+"reference_id": 4961,
+"index_reference": "荷幔Hemam",
+"localizations": {
+"eng": {
+"content_id": 5793,
+"language": "eng",
+"title": "Hemam"
+},
+"arb": {
+"content_id": 443758,
+"language": "arb",
+"title": "هَيْمَام"
+},
+"fra": {
+"content_id": 822942,
+"language": "fra",
+"title": "Hémam"
+},
+"hin": {
+"content_id": 381534,
+"language": "hin",
+"title": "हेमाम"
+}
+}
+},
+"907318": {
+"content_id": "907318",
+"reference_id": 5127,
+"index_reference": "戶珊",
+"localizations": {
+"eng": {
+"content_id": 5959,
+"language": "eng",
+"title": "Husham"
+},
+"arb": {
+"content_id": 443774,
+"language": "arb",
+"title": "حُوشَام"
+},
+"fra": {
+"content_id": 822951,
+"language": "fra",
+"title": "Huscham"
+},
+"hin": {
+"content_id": 381552,
+"language": "hin",
+"title": "हूशाम"
+},
+"por": {
+"content_id": 717084,
+"language": "por",
+"title": "Husão"
+},
+"spa": {
+"content_id": 827138,
+"language": "spa",
+"title": "Husam"
+}
+}
+},
+"907320": {
+"content_id": "907320",
+"reference_id": 5155,
+"index_reference": "以土買以土買人",
+"localizations": {
+"eng": {
+"content_id": 5987,
+"language": "eng",
+"title": "Idumea, Idumeans"
+},
+"arb": {
+"content_id": 443777,
+"language": "arb",
+"title": "أَدُوم، الْأَدُومِيُّون"
+},
+"fra": {
+"content_id": 822954,
+"language": "fra",
+"title": "Idumée, Idumée, Iduméens"
+},
+"hin": {
+"content_id": 381556,
+"language": "hin",
+"title": "इदूमिया, इदूमिया, इदूमियाई"
+},
+"por": {
+"content_id": 682965,
+"language": "por",
+"title": "Idumeia, Idumeus"
+},
+"spa": {
+"content_id": 827142,
+"language": "spa",
+"title": "Idumea, Idumeos"
+}
+}
+},
+"907321": {
+"content_id": "907321",
+"reference_id": 5178,
+"index_reference": "刺刑",
+"localizations": {
+"eng": {
+"content_id": 6010,
+"language": "eng",
+"title": "Impalement"
+},
+"arb": {
+"content_id": 443779,
+"language": "arb",
+"title": "خَوْزَقَة"
+},
+"fra": {
+"content_id": 756959,
+"language": "fra",
+"title": "Empalement"
+},
+"hin": {
+"content_id": 381558,
+"language": "hin",
+"title": "सूली पर चढ़ाना"
+},
+"por": {
+"content_id": 717090,
+"language": "por",
+"title": "Empalamento"
+},
+"spa": {
+"content_id": 827144,
+"language": "spa",
+"title": "Empalamiento"
+}
+}
+},
+"907323": {
+"content_id": "907323",
+"reference_id": 5213,
+"index_reference": "以蘭",
+"localizations": {
+"eng": {
+"content_id": 6045,
+"language": "eng",
+"title": "Iram"
+},
+"arb": {
+"content_id": 443784,
+"language": "arb",
+"title": "عِيرَام"
+},
+"fra": {
+"content_id": 822957,
+"language": "fra",
+"title": "Iram"
+},
+"hin": {
+"content_id": 381565,
+"language": "hin",
+"title": "ईराम"
+},
+"por": {
+"content_id": 717095,
+"language": "por",
+"title": "Irã"
+},
+"spa": {
+"content_id": 827151,
+"language": "spa",
+"title": "Iram"
+}
+}
+},
+"907324": {
+"content_id": "907324",
+"reference_id": 5243,
+"index_reference": "以實瑪利人Ishmeelite",
+"localizations": {
+"eng": {
+"content_id": 6075,
+"language": "eng",
+"title": "Ishmeelite"
+},
+"arb": {
+"content_id": 443789,
+"language": "arb",
+"title": "إِسْمَاعِيلِيِّينَ "
+},
+"hin": {
+"content_id": 381570,
+"language": "hin",
+"title": "इश्माएलियों"
+},
+"spa": {
+"content_id": 827156,
+"language": "spa",
+"title": "Ismaelita"
+}
+}
+},
+"907325": {
+"content_id": "907325",
+"reference_id": 5262,
+"index_reference": "以色列人物",
+"localizations": {
+"eng": {
+"content_id": 6094,
+"language": "eng",
+"title": "Israel (Person)"
+},
+"arb": {
+"content_id": 443794,
+"language": "arb",
+"title": "إِسْرَائِيل (شخص)"
+},
+"fra": {
+"content_id": 822962,
+"language": "fra",
+"title": "Israël (Personne)"
+},
+"hin": {
+"content_id": 381575,
+"language": "hin",
+"title": "इस्राएल (व्यक्ति)"
+},
+"por": {
+"content_id": 717100,
+"language": "por",
+"title": "Israel (pessoa)"
+},
+"spa": {
+"content_id": 827161,
+"language": "spa",
+"title": "Israel (Persona)"
+}
+}
+},
+"907326": {
+"content_id": "907326",
+"reference_id": 5264,
+"index_reference": "以薩迦人物",
+"localizations": {
+"eng": {
+"content_id": 6096,
+"language": "eng",
+"title": "Issachar (Person)"
+},
+"arb": {
+"content_id": 331855,
+"language": "arb",
+"title": "يَسَّاكَر (شخص)"
+},
+"fra": {
+"content_id": 769260,
+"language": "fra",
+"title": "Issacar (Personne)"
+},
+"hin": {
+"content_id": 381112,
+"language": "hin",
+"title": "इस्साकार (व्यक्ति)"
+},
+"por": {
+"content_id": 682976,
+"language": "por",
+"title": "Issacar (Pessoa)"
+},
+"spa": {
+"content_id": 806623,
+"language": "spa",
+"title": "Isacar (Persona)"
+}
+}
+},
+"907327": {
+"content_id": "907327",
+"reference_id": 5279,
+"index_reference": "益蘭",
+"localizations": {
+"eng": {
+"content_id": 6111,
+"language": "eng",
+"title": "Ithran"
+},
+"arb": {
+"content_id": 443796,
+"language": "arb",
+"title": "يِثْرَان"
+},
+"fra": {
+"content_id": 822964,
+"language": "fra",
+"title": "Jithran"
+},
+"hin": {
+"content_id": 381577,
+"language": "hin",
+"title": "यित्रान"
+},
+"por": {
+"content_id": 717103,
+"language": "por",
+"title": "Itrã"
+},
+"spa": {
+"content_id": 827163,
+"language": "spa",
+"title": "Itrán"
+}
+}
+},
+"907330": {
+"content_id": "907330",
+"reference_id": 5365,
+"index_reference": "雅蘭",
+"localizations": {
+"eng": {
+"content_id": 6197,
+"language": "eng",
+"title": "Jalam"
+},
+"arb": {
+"content_id": 443803,
+"language": "arb",
+"title": "يَعْلَام"
+},
+"fra": {
+"content_id": 822970,
+"language": "fra",
+"title": "Jaelam"
+},
+"hin": {
+"content_id": 381588,
+"language": "hin",
+"title": "यालाम"
+},
+"por": {
+"content_id": 717110,
+"language": "por",
+"title": "Jalã"
+},
+"spa": {
+"content_id": 827174,
+"language": "spa",
+"title": "Jalam"
+}
+}
+},
+"907331": {
+"content_id": "907331",
+"reference_id": 5431,
+"index_reference": "伊迦爾撒哈杜他",
+"localizations": {
+"eng": {
+"content_id": 6263,
+"language": "eng",
+"title": "Jegar-Sahadutha"
+},
+"arb": {
+"content_id": 443811,
+"language": "arb",
+"title": "يَجَرْ سَهْدُوث"
+},
+"fra": {
+"content_id": 822974,
+"language": "fra",
+"title": "Jegar-Sahadutha"
+},
+"hin": {
+"content_id": 381597,
+"language": "hin",
+"title": "जैगर सहादुथा"
+},
+"por": {
+"content_id": 717116,
+"language": "por",
+"title": "Jegar-Saaduta"
+},
+"spa": {
+"content_id": 827183,
+"language": "spa",
+"title": "Jegar-sahadutha"
+}
+}
+},
+"907332": {
+"content_id": "907332",
+"reference_id": 5526,
+"index_reference": "耶帖",
+"localizations": {
+"eng": {
+"content_id": 6358,
+"language": "eng",
+"title": "Jetheth"
+},
+"arb": {
+"content_id": 443815,
+"language": "arb",
+"title": "يَتِيت"
+},
+"fra": {
+"content_id": 822976,
+"language": "fra",
+"title": "Jetheth"
+},
+"hin": {
+"content_id": 381602,
+"language": "hin",
+"title": "यतेत"
+},
+"por": {
+"content_id": 717118,
+"language": "por",
+"title": "Jetete"
+},
+"spa": {
+"content_id": 827188,
+"language": "spa",
+"title": "Jetet"
+}
+}
+},
+"907334": {
+"content_id": "907334",
+"reference_id": 5644,
+"index_reference": "猶大人物",
+"localizations": {
+"eng": {
+"content_id": 6476,
+"language": "eng",
+"title": "Judah (Person)"
+},
+"arb": {
+"content_id": 335350,
+"language": "arb",
+"title": "يَهُوذَا (شخص)"
+},
+"fra": {
+"content_id": 822981,
+"language": "fra",
+"title": "Juda (Personne)"
+},
+"hin": {
+"content_id": 381617,
+"language": "hin",
+"title": "यहूदा (व्यक्ति)"
+},
+"por": {
+"content_id": 682989,
+"language": "por",
+"title": "Judá (Pessoa)"
+},
+"spa": {
+"content_id": 827203,
+"language": "spa",
+"title": "Judá (Persona)"
+}
+}
+},
+"907336": {
+"content_id": "907336",
+"reference_id": 5722,
+"index_reference": "基蘭Keran",
+"localizations": {
+"eng": {
+"content_id": 6554,
+"language": "eng",
+"title": "Keran"
+},
+"arb": {
+"content_id": 443839,
+"language": "arb",
+"title": "كَرَان"
+},
+"fra": {
+"content_id": 822984,
+"language": "fra",
+"title": "Karen"
+},
+"hin": {
+"content_id": 381632,
+"language": "hin",
+"title": "करान"
+},
+"spa": {
+"content_id": 827218,
+"language": "spa",
+"title": "Keran"
+}
+}
+},
+"907337": {
+"content_id": "907337",
+"reference_id": 5734,
+"index_reference": "克斯塔",
+"localizations": {
+"eng": {
+"content_id": 6566,
+"language": "eng",
+"title": "Kesitah"
+},
+"arb": {
+"content_id": 443841,
+"language": "arb",
+"title": "قَسِيطَة"
+},
+"fra": {
+"content_id": 822985,
+"language": "fra",
+"title": "Kesita"
+},
+"hin": {
+"content_id": 381634,
+"language": "hin",
+"title": "कसीत"
+},
+"spa": {
+"content_id": 827220,
+"language": "spa",
+"title": "Kesita"
+}
+}
+},
+"907338": {
+"content_id": "907338",
+"reference_id": 5739,
+"index_reference": "基悉",
+"localizations": {
+"eng": {
+"content_id": 6571,
+"language": "eng",
+"title": "Kezib"
+},
+"arb": {
+"content_id": 443843,
+"language": "arb",
+"title": "كَزِيب"
+},
+"fra": {
+"content_id": 822986,
+"language": "fra",
+"title": "Czib"
+},
+"hin": {
+"content_id": 381636,
+"language": "hin",
+"title": "कजीब"
+},
+"por": {
+"content_id": 717129,
+"language": "por",
+"title": "Quezibe"
+},
+"spa": {
+"content_id": 827222,
+"language": "spa",
+"title": "Kezib"
+}
+}
+},
+"907340": {
+"content_id": "907340",
+"reference_id": 5812,
+"index_reference": "可拉",
+"localizations": {
+"eng": {
+"content_id": 6644,
+"language": "eng",
+"title": "Korah"
+},
+"arb": {
+"content_id": 443851,
+"language": "arb",
+"title": "قُورَح"
+},
+"fra": {
+"content_id": 822989,
+"language": "fra",
+"title": "Koré"
+},
+"hin": {
+"content_id": 381645,
+"language": "hin",
+"title": "कोरह"
+},
+"por": {
+"content_id": 717134,
+"language": "por",
+"title": "Corá"
+},
+"spa": {
+"content_id": 827232,
+"language": "spa",
+"title": "Cora, Core"
+}
+}
+},
+"907341": {
+"content_id": "907341",
+"reference_id": 5845,
+"index_reference": "地界",
+"localizations": {
+"eng": {
+"content_id": 6677,
+"language": "eng",
+"title": "Landmark"
+},
+"arb": {
+"content_id": 443854,
+"language": "arb",
+"title": "التُّخْم- مَعْلَمًا لتمييز الحدود"
+},
+"fra": {
+"content_id": 822990,
+"language": "fra",
+"title": "Borne"
+},
+"hin": {
+"content_id": 381649,
+"language": "hin",
+"title": "सीमा का खम्भा"
+},
+"por": {
+"content_id": 717137,
+"language": "por",
+"title": "Marco"
+},
+"spa": {
+"content_id": 827236,
+"language": "spa",
+"title": "Término"
+}
+}
+},
+"907342": {
+"content_id": "907342",
+"reference_id": 5902,
+"index_reference": "利未支派",
+"localizations": {
+"eng": {
+"content_id": 6734,
+"language": "eng",
+"title": "Tribe of Levi"
+},
+"arb": {
+"content_id": 232590,
+"language": "arb",
+"title": "سبط لاوي"
+},
+"fra": {
+"content_id": 728131,
+"language": "fra",
+"title": "Tribu de Lévi"
+},
+"hin": {
+"content_id": 368611,
+"language": "hin",
+"title": "लेवी का गोत्र"
+},
+"por": {
+"content_id": 683016,
+"language": "por",
+"title": "Tribo de Levi"
+},
+"spa": {
+"content_id": 806627,
+"language": "spa",
+"title": "Tribu de Leví"
+},
+"swh": {
+"content_id": 811748,
+"language": "swh",
+"title": "Kabila la Walawi"
+}
+}
+},
+"907343": {
+"content_id": "907343",
+"reference_id": 5940,
+"index_reference": "腰",
+"localizations": {
+"eng": {
+"content_id": 6772,
+"language": "eng",
+"title": "Loins"
+},
+"arb": {
+"content_id": 335372,
+"language": "arb",
+"title": "حَقْوَيْن"
+},
+"fra": {
+"content_id": 822992,
+"language": "fra",
+"title": "Reins, Entrailles"
+},
+"hin": {
+"content_id": 381658,
+"language": "hin",
+"title": "कमर"
+},
+"por": {
+"content_id": 717148,
+"language": "por",
+"title": "Lombos"
+},
+"spa": {
+"content_id": 827245,
+"language": "spa",
+"title": "Lomos"
+}
+}
+},
+"907344": {
+"content_id": "907344",
+"reference_id": 5950,
+"index_reference": "羅坍",
+"localizations": {
+"eng": {
+"content_id": 6782,
+"language": "eng",
+"title": "Lotan"
+},
+"arb": {
+"content_id": 443861,
+"language": "arb",
+"title": "لُوطَان"
+},
+"fra": {
+"content_id": 822993,
+"language": "fra",
+"title": "Lothan"
+},
+"hin": {
+"content_id": 381659,
+"language": "hin",
+"title": "लोतान"
+},
+"por": {
+"content_id": 717151,
+"language": "por",
+"title": "Lotã"
+},
+"spa": {
+"content_id": 827246,
+"language": "spa",
+"title": "Lotán"
+}
+}
+},
+"907345": {
+"content_id": "907345",
+"reference_id": 5964,
+"index_reference": "路斯",
+"localizations": {
+"eng": {
+"content_id": 6796,
+"language": "eng",
+"title": "Luz"
+},
+"arb": {
+"content_id": 443863,
+"language": "arb",
+"title": "لُوز"
+},
+"fra": {
+"content_id": 822994,
+"language": "fra",
+"title": "Luz"
+},
+"hin": {
+"content_id": 381662,
+"language": "hin",
+"title": "लूज"
+},
+"por": {
+"content_id": 683018,
+"language": "por",
+"title": "Luz"
+},
+"spa": {
+"content_id": 827249,
+"language": "spa",
+"title": "Luz"
+}
+}
+},
+"907346": {
+"content_id": "907346",
+"reference_id": 6019,
+"index_reference": "瑪基疊",
+"localizations": {
+"eng": {
+"content_id": 6851,
+"language": "eng",
+"title": "Magdiel"
+},
+"arb": {
+"content_id": 443869,
+"language": "arb",
+"title": "مَجْدِيئِيل"
+},
+"fra": {
+"content_id": 822996,
+"language": "fra",
+"title": "Magdiel"
+},
+"hin": {
+"content_id": 381668,
+"language": "hin",
+"title": "मग्दीएल"
+},
+"por": {
+"content_id": 717153,
+"language": "por",
+"title": "Magdiel"
+},
+"spa": {
+"content_id": 827255,
+"language": "spa",
+"title": "Magdiel"
+}
+}
+},
+"907347": {
+"content_id": "907347",
+"reference_id": 6034,
+"index_reference": "瑪哈拉人物",
+"localizations": {
+"eng": {
+"content_id": 6866,
+"language": "eng",
+"title": "Mahalath (Person)"
+},
+"arb": {
+"content_id": 443871,
+"language": "arb",
+"title": "مَحْلَة (شخص)"
+},
+"fra": {
+"content_id": 822997,
+"language": "fra",
+"title": "Mahalath (Personne)"
+},
+"hin": {
+"content_id": 381671,
+"language": "hin",
+"title": "महलत (व्यक्ति)"
+},
+"por": {
+"content_id": 683022,
+"language": "por",
+"title": "Maalate (Pessoa)"
+},
+"spa": {
+"content_id": 827258,
+"language": "spa",
+"title": "Mahaleth (Persona)"
+}
+}
+},
+"907349": {
+"content_id": "907349",
+"reference_id": 6082,
+"index_reference": "瑪拿轄人物",
+"localizations": {
+"eng": {
+"content_id": 6914,
+"language": "eng",
+"title": "Manahath (Person)"
+},
+"arb": {
+"content_id": 443876,
+"language": "arb",
+"title": "مَنَاحَة (شخص)"
+},
+"fra": {
+"content_id": 823000,
+"language": "fra",
+"title": "Manahath (Personne)"
+},
+"hin": {
+"content_id": 381676,
+"language": "hin",
+"title": "मानहत (व्यक्ति)"
+},
+"por": {
+"content_id": 717159,
+"language": "por",
+"title": "Manaate (Pessoa)"
+},
+"spa": {
+"content_id": 827263,
+"language": "spa",
+"title": "Manahat (Persona)"
+}
+}
+},
+"907351": {
+"content_id": "907351",
+"reference_id": 6138,
+"index_reference": "瑪士利加",
+"localizations": {
+"eng": {
+"content_id": 6970,
+"language": "eng",
+"title": "Masrekah"
+},
+"arb": {
+"content_id": 443881,
+"language": "arb",
+"title": "مَسْرِيقَة"
+},
+"fra": {
+"content_id": 823004,
+"language": "fra",
+"title": "Masréka"
+},
+"hin": {
+"content_id": 381684,
+"language": "hin",
+"title": "मस्रेका"
+},
+"por": {
+"content_id": 717164,
+"language": "por",
+"title": "Masreca"
+},
+"spa": {
+"content_id": 827271,
+"language": "spa",
+"title": "Masreca"
+}
+}
+},
+"907352": {
+"content_id": "907352",
+"reference_id": 6144,
+"index_reference": "瑪特列",
+"localizations": {
+"eng": {
+"content_id": 6976,
+"language": "eng",
+"title": "Matred"
+},
+"arb": {
+"content_id": 443883,
+"language": "arb",
+"title": "مَطْرِد"
+},
+"fra": {
+"content_id": 823005,
+"language": "fra",
+"title": "Mathred"
+},
+"hin": {
+"content_id": 381686,
+"language": "hin",
+"title": "मत्रेद"
+},
+"por": {
+"content_id": 717166,
+"language": "por",
+"title": "Matrede"
+},
+"spa": {
+"content_id": 827273,
+"language": "spa",
+"title": "Matred"
+}
+}
+},
+"907353": {
+"content_id": "907353",
+"reference_id": 6185,
+"index_reference": "米希她別米希大別",
+"localizations": {
+"eng": {
+"content_id": 7017,
+"language": "eng",
+"title": "Mehetabel"
+},
+"arb": {
+"content_id": 443885,
+"language": "arb",
+"title": "مَهِيطَبْئِيل"
+},
+"fra": {
+"content_id": 823007,
+"language": "fra",
+"title": "Mehéthabeel"
+},
+"hin": {
+"content_id": 381688,
+"language": "hin",
+"title": "महेतबेल"
+},
+"por": {
+"content_id": 717168,
+"language": "por",
+"title": "Meetabel"
+},
+"spa": {
+"content_id": 827275,
+"language": "spa",
+"title": "Mehetabel"
+}
+}
+},
+"907354": {
+"content_id": "907354",
+"reference_id": 6266,
+"index_reference": "米薩合",
+"localizations": {
+"eng": {
+"content_id": 7098,
+"language": "eng",
+"title": "Mezahab"
+},
+"arb": {
+"content_id": 443893,
+"language": "arb",
+"title": "مَاءِ ذَهَب"
+},
+"fra": {
+"content_id": 823009,
+"language": "fra",
+"title": "Mézahab"
+},
+"hin": {
+"content_id": 381698,
+"language": "hin",
+"title": "मेज़ाहाब"
+},
+"por": {
+"content_id": 717173,
+"language": "por",
+"title": "Me-Zaabe"
+},
+"spa": {
+"content_id": 827285,
+"language": "spa",
+"title": "Mezaab"
+}
+}
+},
+"907355": {
+"content_id": "907355",
+"reference_id": 6272,
+"index_reference": "米比薩",
+"localizations": {
+"eng": {
+"content_id": 7104,
+"language": "eng",
+"title": "Mibzar"
+},
+"arb": {
+"content_id": 443895,
+"language": "arb",
+"title": "مِبْصَار"
+},
+"fra": {
+"content_id": 823010,
+"language": "fra",
+"title": "Mibtsar"
+},
+"hin": {
+"content_id": 381700,
+"language": "hin",
+"title": "मिबसार"
+},
+"por": {
+"content_id": 717175,
+"language": "por",
+"title": "Mibsar"
+},
+"spa": {
+"content_id": 827287,
+"language": "spa",
+"title": "Mibzar"
+}
+}
+},
+"907357": {
+"content_id": "907357",
+"reference_id": 6345,
+"index_reference": "米斯巴",
+"localizations": {
+"eng": {
+"content_id": 7177,
+"language": "eng",
+"title": "Mizpah"
+},
+"arb": {
+"content_id": 443900,
+"language": "arb",
+"title": "الْمِصْفَاة"
+},
+"fra": {
+"content_id": 823012,
+"language": "fra",
+"title": "Mitspa"
+},
+"hin": {
+"content_id": 381706,
+"language": "hin",
+"title": "मिस्पा"
+},
+"por": {
+"content_id": 717182,
+"language": "por",
+"title": "Mispa"
+},
+"spa": {
+"content_id": 827293,
+"language": "spa",
+"title": "Mizpa"
+}
+}
+},
+"907358": {
+"content_id": "907358",
+"reference_id": 6349,
+"index_reference": "米撒",
+"localizations": {
+"eng": {
+"content_id": 7181,
+"language": "eng",
+"title": "Mizzah"
+},
+"arb": {
+"content_id": 443902,
+"language": "arb",
+"title": "مِزَّة"
+},
+"fra": {
+"content_id": 823013,
+"language": "fra",
+"title": "Mizza"
+},
+"hin": {
+"content_id": 381708,
+"language": "hin",
+"title": "मिज्जा"
+},
+"por": {
+"content_id": 717183,
+"language": "por",
+"title": "Miza"
+},
+"spa": {
+"content_id": 827295,
+"language": "spa",
+"title": "Miza"
+}
+}
+},
+"907363": {
+"content_id": "907363",
+"reference_id": 6641,
+"index_reference": "膏油",
+"localizations": {
+"eng": {
+"content_id": 7473,
+"language": "eng",
+"title": "Ointment"
+},
+"arb": {
+"content_id": 201508,
+"language": "arb",
+"title": "الطِيب"
+},
+"fra": {
+"content_id": 734277,
+"language": "fra",
+"title": "baume, huile parfumée, onguent"
+},
+"hin": {
+"content_id": 184979,
+"language": "hin",
+"title": "मरहम"
+},
+"por": {
+"content_id": 717204,
+"language": "por",
+"title": "Unguento"
+},
+"spa": {
+"content_id": 724631,
+"language": "spa",
+"title": "Ungüento"
+}
+}
+},
+"907364": {
+"content_id": "907364",
+"reference_id": 6653,
+"index_reference": "阿抹",
+"localizations": {
+"eng": {
+"content_id": 7485,
+"language": "eng",
+"title": "Omar"
+},
+"arb": {
+"content_id": 443931,
+"language": "arb",
+"title": "أُومَار"
+},
+"fra": {
+"content_id": 823024,
+"language": "fra",
+"title": "Omar"
+},
+"hin": {
+"content_id": 381746,
+"language": "hin",
+"title": "ओमार"
+},
+"por": {
+"content_id": 717205,
+"language": "por",
+"title": "Omar"
+},
+"spa": {
+"content_id": 827333,
+"language": "spa",
+"title": "Omar"
+}
+}
+},
+"907365": {
+"content_id": "907365",
+"reference_id": 6661,
+"index_reference": "阿南",
+"localizations": {
+"eng": {
+"content_id": 7493,
+"language": "eng",
+"title": "Onam"
+},
+"arb": {
+"content_id": 443932,
+"language": "arb",
+"title": "أُونَام"
+},
+"fra": {
+"content_id": 823025,
+"language": "fra",
+"title": "Onam"
+},
+"hin": {
+"content_id": 381747,
+"language": "hin",
+"title": "ओनाम"
+},
+"por": {
+"content_id": 717207,
+"language": "por",
+"title": "Onã"
+},
+"spa": {
+"content_id": 827334,
+"language": "spa",
+"title": "Onam"
+}
+}
+},
+"907366": {
+"content_id": "907366",
+"reference_id": 6662,
+"index_reference": "俄南",
+"localizations": {
+"eng": {
+"content_id": 7494,
+"language": "eng",
+"title": "Onan"
+},
+"arb": {
+"content_id": 443933,
+"language": "arb",
+"title": "أونَان"
+},
+"fra": {
+"content_id": 823026,
+"language": "fra",
+"title": "Onan"
+},
+"hin": {
+"content_id": 381748,
+"language": "hin",
+"title": "ओनान"
+},
+"por": {
+"content_id": 717208,
+"language": "por",
+"title": "Onã"
+},
+"spa": {
+"content_id": 827335,
+"language": "spa",
+"title": "Onán"
+}
+}
+},
+"907367": {
+"content_id": "907367",
+"reference_id": 6784,
+"index_reference": "巴烏",
+"localizations": {
+"eng": {
+"content_id": 7616,
+"language": "eng",
+"title": "Pau"
+},
+"arb": {
+"content_id": 443942,
+"language": "arb",
+"title": "فَاعُو (فَاعِي)"
+},
+"fra": {
+"content_id": 823029,
+"language": "fra",
+"title": "Pau"
+},
+"hin": {
+"content_id": 381759,
+"language": "hin",
+"title": "पाऊ"
+},
+"por": {
+"content_id": 717216,
+"language": "por",
+"title": "Paú"
+},
+"spa": {
+"content_id": 827346,
+"language": "spa",
+"title": "Pau"
+}
+}
+},
+"907374": {
+"content_id": "907374",
+"reference_id": 6834,
+"index_reference": "香料",
+"localizations": {
+"eng": {
+"content_id": 7666,
+"language": "eng",
+"title": "Perfume"
+},
+"arb": {
+"content_id": 201513,
+"language": "arb",
+"title": "العطر"
+},
+"fra": {
+"content_id": 734279,
+"language": "fra",
+"title": "parfum"
+},
+"hin": {
+"content_id": 184985,
+"language": "hin",
+"title": "इत्र"
+},
+"por": {
+"content_id": 717226,
+"language": "por",
+"title": "Perfume"
+},
+"spa": {
+"content_id": 724636,
+"language": "spa",
+"title": "Perfume"
+}
+}
+},
+"907375": {
+"content_id": "907375",
+"reference_id": 6909,
+"index_reference": "比嫩",
+"localizations": {
+"eng": {
+"content_id": 7741,
+"language": "eng",
+"title": "Pinon"
+},
+"arb": {
+"content_id": 443956,
+"language": "arb",
+"title": "فِينُون"
+},
+"fra": {
+"content_id": 823037,
+"language": "fra",
+"title": "Pinon"
+},
+"hin": {
+"content_id": 381777,
+"language": "hin",
+"title": "पीनोन"
+},
+"por": {
+"content_id": 717233,
+"language": "por",
+"title": "Pinom"
+},
+"spa": {
+"content_id": 827365,
+"language": "spa",
+"title": "Pinón"
+}
+}
+},
+"907377": {
+"content_id": "907377",
+"reference_id": 6957,
+"index_reference": "波提乏",
+"localizations": {
+"eng": {
+"content_id": 7789,
+"language": "eng",
+"title": "Potiphar"
+},
+"arb": {
+"content_id": 443960,
+"language": "arb",
+"title": "فُوطِيفَار"
+},
+"fra": {
+"content_id": 823039,
+"language": "fra",
+"title": "Potiphar"
+},
+"hin": {
+"content_id": 381782,
+"language": "hin",
+"title": "पोतीपर"
+},
+"por": {
+"content_id": 717237,
+"language": "por",
+"title": "Potifar"
+},
+"spa": {
+"content_id": 827371,
+"language": "spa",
+"title": "Potifr"
+}
+}
+},
+"907378": {
+"content_id": "907378",
+"reference_id": 6968,
+"index_reference": "權能",
+"localizations": {
+"eng": {
+"content_id": 7800,
+"language": "eng",
+"title": "Power"
+},
+"arb": {
+"content_id": 232608,
+"language": "arb",
+"title": "القوة"
+},
+"fra": {
+"content_id": 713668,
+"language": "fra",
+"title": "Puissance"
+},
+"hin": {
+"content_id": 368629,
+"language": "hin",
+"title": "सामर्थ्य"
+},
+"ind": {
+"content_id": 369115,
+"language": "ind",
+"title": "Kuasa"
+},
+"por": {
+"content_id": 717239,
+"language": "por",
+"title": "Poder"
+},
+"spa": {
+"content_id": 796491,
+"language": "spa",
+"title": "Poder"
+},
+"swh": {
+"content_id": 468207,
+"language": "swh",
+"title": "Power"
+}
+}
+},
+"907379": {
+"content_id": "907379",
+"reference_id": 7004,
+"index_reference": "妓女賣淫",
+"localizations": {
+"eng": {
+"content_id": 7836,
+"language": "eng",
+"title": "Prostitute, Prostitution"
+},
+"arb": {
+"content_id": 335470,
+"language": "arb",
+"title": "عاهرة، زانية، دعارة"
+},
+"fra": {
+"content_id": 823041,
+"language": "fra",
+"title": "Prostituée, Prostitution"
+},
+"hin": {
+"content_id": 381788,
+"language": "hin",
+"title": "वेश्या, वेश्यावृत्ति"
+},
+"por": {
+"content_id": 717244,
+"language": "por",
+"title": "Prostituta, Prostituição"
+},
+"spa": {
+"content_id": 827377,
+"language": "spa",
+"title": "Ramera, Prostitución"
+}
+}
+},
+"907380": {
+"content_id": "907380",
+"reference_id": 7045,
+"index_reference": "基西他",
+"localizations": {
+"eng": {
+"content_id": 7877,
+"language": "eng",
+"title": "Qesitah"
+},
+"arb": {
+"content_id": 443971,
+"language": "arb",
+"title": "قَسِيطَة* "
+},
+"fra": {
+"content_id": 823043,
+"language": "fra",
+"title": "Kesita"
+},
+"hin": {
+"content_id": 381796,
+"language": "hin",
+"title": "कसीता"
+},
+"por": {
+"content_id": 717249,
+"language": "por",
+"title": "Quesitá"
+},
+"spa": {
+"content_id": 827385,
+"language": "spa",
+"title": "Qesitah"
+}
+}
+},
+"907383": {
+"content_id": "907383",
+"reference_id": 7089,
+"index_reference": "拉瑪",
+"localizations": {
+"eng": {
+"content_id": 7921,
+"language": "eng",
+"title": "Ramah"
+},
+"arb": {
+"content_id": 335478,
+"language": "arb",
+"title": "رَّامَة"
+},
+"fra": {
+"content_id": 823046,
+"language": "fra",
+"title": "Rama"
+},
+"hin": {
+"content_id": 381801,
+"language": "hin",
+"title": "रामाह"
+},
+"por": {
+"content_id": 717253,
+"language": "por",
+"title": "Ramá"
+},
+"spa": {
+"content_id": 827390,
+"language": "spa",
+"title": "Ramá, Ramat"
+}
+}
+},
+"907384": {
+"content_id": "907384",
+"reference_id": 7110,
+"index_reference": "強姦",
+"localizations": {
+"eng": {
+"content_id": 7942,
+"language": "eng",
+"title": "Rape"
+},
+"arb": {
+"content_id": 443974,
+"language": "arb",
+"title": "اغتصاب"
+},
+"fra": {
+"content_id": 823047,
+"language": "fra",
+"title": "Viol"
+},
+"hin": {
+"content_id": 381802,
+"language": "hin",
+"title": "कुकर्म"
+},
+"por": {
+"content_id": 717256,
+"language": "por",
+"title": "Estupro"
+},
+"spa": {
+"content_id": 827392,
+"language": "spa",
+"title": "Violación"
+}
+}
+},
+"907385": {
+"content_id": "907385",
+"reference_id": 7181,
+"index_reference": "呂便人物",
+"localizations": {
+"eng": {
+"content_id": 8013,
+"language": "eng",
+"title": "Reuben (Person)"
+},
+"arb": {
+"content_id": 443982,
+"language": "arb",
+"title": "رَأُوبَيْن (شخص)"
+},
+"fra": {
+"content_id": 823049,
+"language": "fra",
+"title": "Ruben (Personne)"
+},
+"hin": {
+"content_id": 381811,
+"language": "hin",
+"title": "रूबेन (व्यक्ति)"
+},
+"por": {
+"content_id": 683070,
+"language": "por",
+"title": "Rúben (Pessoa)"
+},
+"spa": {
+"content_id": 827401,
+"language": "spa",
+"title": "Rubén (Persona)"
+}
+}
+},
+"907386": {
+"content_id": "907386",
+"reference_id": 7183,
+"index_reference": "呂便支派",
+"localizations": {
+"eng": {
+"content_id": 8015,
+"language": "eng",
+"title": "Reuben, Tribe of"
+},
+"arb": {
+"content_id": 443983,
+"language": "arb",
+"title": "سبط رَأُوبَيْن"
+},
+"fra": {
+"content_id": 823050,
+"language": "fra",
+"title": "Ruben, Tribu de"
+},
+"hin": {
+"content_id": 381812,
+"language": "hin",
+"title": "रूबेन का गोत्र"
+},
+"por": {
+"content_id": 683071,
+"language": "por",
+"title": "Rúben, Tribo de"
+},
+"spa": {
+"content_id": 827402,
+"language": "spa",
+"title": "Rubén, Tribu de"
+}
+}
+},
+"907387": {
+"content_id": "907387",
+"reference_id": 7184,
+"index_reference": "流珥",
+"localizations": {
+"eng": {
+"content_id": 8016,
+"language": "eng",
+"title": "Reuel"
+},
+"arb": {
+"content_id": 443984,
+"language": "arb",
+"title": "رَعُوئِيل"
+},
+"fra": {
+"content_id": 823051,
+"language": "fra",
+"title": "Réuel"
+},
+"hin": {
+"content_id": 381813,
+"language": "hin",
+"title": "रूएल"
+},
+"por": {
+"content_id": 717260,
+"language": "por",
+"title": "Reuel"
+},
+"spa": {
+"content_id": 827403,
+"language": "spa",
+"title": "Reuel"
+}
+}
+},
+"907388": {
+"content_id": "907388",
+"reference_id": 7257,
+"index_reference": "麻衣",
+"localizations": {
+"eng": {
+"content_id": 8089,
+"language": "eng",
+"title": "Sackcloth"
+},
+"arb": {
+"content_id": 335492,
+"language": "arb",
+"title": "مُسُوح- مِسْحٍ"
+},
+"fra": {
+"content_id": 823053,
+"language": "fra",
+"title": "Toile de sac"
+},
+"hin": {
+"content_id": 381825,
+"language": "hin",
+"title": "टाट"
+},
+"por": {
+"content_id": 717264,
+"language": "por",
+"title": "Pano de saco"
+},
+"spa": {
+"content_id": 827415,
+"language": "spa",
+"title": "Saco de cilicio"
+}
+}
+},
+"907389": {
+"content_id": "907389",
+"reference_id": 7291,
+"index_reference": "桑拉",
+"localizations": {
+"eng": {
+"content_id": 8123,
+"language": "eng",
+"title": "Samlah"
+},
+"arb": {
+"content_id": 443995,
+"language": "arb",
+"title": "سَمْلَة"
+},
+"fra": {
+"content_id": 823054,
+"language": "fra",
+"title": "Samla"
+},
+"hin": {
+"content_id": 381828,
+"language": "hin",
+"title": "सम्ला"
+},
+"por": {
+"content_id": 717267,
+"language": "por",
+"title": "Samlá"
+},
+"spa": {
+"content_id": 827418,
+"language": "spa",
+"title": "Samla"
+}
+}
+},
+"907390": {
+"content_id": "907390",
+"reference_id": 7299,
+"index_reference": "聖所",
+"localizations": {
+"eng": {
+"content_id": 8131,
+"language": "eng",
+"title": "Sanctuary"
+},
+"arb": {
+"content_id": 443996,
+"language": "arb",
+"title": "مَقْدِس "
+},
+"fra": {
+"content_id": 823055,
+"language": "fra",
+"title": "Sanctuaire"
+},
+"hin": {
+"content_id": 381829,
+"language": "hin",
+"title": "पवित्रस्थान"
+},
+"por": {
+"content_id": 683077,
+"language": "por",
+"title": "Santuário"
+},
+"spa": {
+"content_id": 827419,
+"language": "spa",
+"title": "Santuario"
+}
+}
+},
+"907392": {
+"content_id": "907392",
+"reference_id": 7349,
+"index_reference": "印",
+"localizations": {
+"eng": {
+"content_id": 8181,
+"language": "eng",
+"title": "Seal"
+},
+"arb": {
+"content_id": 335503,
+"language": "arb",
+"title": "خَتم"
+},
+"fra": {
+"content_id": 756981,
+"language": "fra",
+"title": "Sceau"
+},
+"hin": {
+"content_id": 381834,
+"language": "hin",
+"title": "मुहर"
+},
+"por": {
+"content_id": 717272,
+"language": "por",
+"title": "Selo"
+},
+"spa": {
+"content_id": 827424,
+"language": "spa",
+"title": "Sello"
+}
+}
+},
+"907393": {
+"content_id": "907393",
+"reference_id": 7379,
+"index_reference": "西珥人物",
+"localizations": {
+"eng": {
+"content_id": 8211,
+"language": "eng",
+"title": "Seir (Person)"
+},
+"arb": {
+"content_id": 444002,
+"language": "arb",
+"title": "سير (شخص)"
+},
+"fra": {
+"content_id": 823056,
+"language": "fra",
+"title": "Séir (Personne)"
+},
+"hin": {
+"content_id": 381836,
+"language": "hin",
+"title": "सेईर (व्यक्ति)"
+},
+"por": {
+"content_id": 717273,
+"language": "por",
+"title": "Seir (Pessoa)"
+},
+"spa": {
+"content_id": 827426,
+"language": "spa",
+"title": "Seir (Persona)"
+}
+}
+},
+"907394": {
+"content_id": "907394",
+"reference_id": 7448,
+"index_reference": "沙瑪",
+"localizations": {
+"eng": {
+"content_id": 8280,
+"language": "eng",
+"title": "Shammah"
+},
+"arb": {
+"content_id": 444007,
+"language": "arb",
+"title": "شَمَّة"
+},
+"fra": {
+"content_id": 823059,
+"language": "fra",
+"title": "Schamma"
+},
+"hin": {
+"content_id": 381844,
+"language": "hin",
+"title": "शम्मा"
+},
+"por": {
+"content_id": 717277,
+"language": "por",
+"title": "Samá"
+},
+"spa": {
+"content_id": 827434,
+"language": "spa",
+"title": "Sama, Samma"
+}
+}
+},
+"907395": {
+"content_id": "907395",
+"reference_id": 7469,
+"index_reference": "掃羅",
+"localizations": {
+"eng": {
+"content_id": 8301,
+"language": "eng",
+"title": "Shaul"
+},
+"arb": {
+"content_id": 444008,
+"language": "arb",
+"title": "شَأُول"
+},
+"fra": {
+"content_id": 823060,
+"language": "fra",
+"title": "Saül"
+},
+"hin": {
+"content_id": 381845,
+"language": "hin",
+"title": "शाऊल"
+},
+"por": {
+"content_id": 717278,
+"language": "por",
+"title": "Saul"
+}
+}
+},
+"907396": {
+"content_id": "907396",
+"reference_id": 7478,
+"index_reference": "示巴Shebah",
+"localizations": {
+"eng": {
+"content_id": 8310,
+"language": "eng",
+"title": "Shebah"
+},
+"arb": {
+"content_id": 444011,
+"language": "arb",
+"title": "شِبْعَة"
+},
+"hin": {
+"content_id": 381848,
+"language": "hin",
+"title": "शेबा"
+},
+"por": {
+"content_id": 683085,
+"language": "por",
+"title": "Seba"
+}
+}
+},
+"907397": {
+"content_id": "907397",
+"reference_id": 7491,
+"index_reference": "示劍人物",
+"localizations": {
+"eng": {
+"content_id": 8323,
+"language": "eng",
+"title": "Shechem (Person)"
+},
+"arb": {
+"content_id": 444013,
+"language": "arb",
+"title": "شَكِيم (شخص)"
+},
+"fra": {
+"content_id": 823062,
+"language": "fra",
+"title": "Sichem (Personne)"
+},
+"hin": {
+"content_id": 381850,
+"language": "hin",
+"title": "शेकेम (व्यक्ति)"
+},
+"por": {
+"content_id": 717279,
+"language": "por",
+"title": "Siquém (Pessoa)"
+},
+"spa": {
+"content_id": 827440,
+"language": "spa",
+"title": "Siquem (Persona)"
+}
+}
+},
+"907398": {
+"content_id": "907398",
+"reference_id": 7537,
+"index_reference": "示非示玻",
+"localizations": {
+"eng": {
+"content_id": 8369,
+"language": "eng",
+"title": "Shephi, Shepho"
+},
+"arb": {
+"content_id": 444018,
+"language": "arb",
+"title": "شَفِي- شَفْو"
+},
+"fra": {
+"content_id": 823063,
+"language": "fra",
+"title": "Schephi, Schepho"
+},
+"hin": {
+"content_id": 381857,
+"language": "hin",
+"title": "शपी, शपो"
+},
+"por": {
+"content_id": 717280,
+"language": "por",
+"title": "Sefi, Sefô"
+},
+"spa": {
+"content_id": 827447,
+"language": "spa",
+"title": "Sefo, Sepho"
+}
+}
+},
+"907399": {
+"content_id": "907399",
+"reference_id": 7552,
+"index_reference": "示巴Shibah",
+"localizations": {
+"eng": {
+"content_id": 8384,
+"language": "eng",
+"title": "Shibah"
+},
+"arb": {
+"content_id": 444020,
+"language": "arb",
+"title": "شِبْعَة"
+},
+"fra": {
+"content_id": 823065,
+"language": "fra",
+"title": "Schiba"
+},
+"hin": {
+"content_id": 381859,
+"language": "hin",
+"title": "शिबा"
+},
+"por": {
+"content_id": 683089,
+"language": "por",
+"title": "Seba"
+},
+"spa": {
+"content_id": 827449,
+"language": "spa",
+"title": "Seba"
+}
+}
+},
+"907404": {
+"content_id": "907404",
+"reference_id": 7811,
+"index_reference": "疏割",
+"localizations": {
+"eng": {
+"content_id": 8643,
+"language": "eng",
+"title": "Succoth"
+},
+"arb": {
+"content_id": 444041,
+"language": "arb",
+"title": "سُكُّوت"
+},
+"fra": {
+"content_id": 823073,
+"language": "fra",
+"title": "Succoth"
+},
+"hin": {
+"content_id": 381882,
+"language": "hin",
+"title": "सुक्कोत"
+},
+"por": {
+"content_id": 717302,
+"language": "por",
+"title": "Sucote"
+},
+"spa": {
+"content_id": 827472,
+"language": "spa",
+"title": "Sucot "
+}
+}
+},
+"907405": {
+"content_id": "907405",
+"reference_id": 7844,
+"index_reference": "敘加",
+"localizations": {
+"eng": {
+"content_id": 8676,
+"language": "eng",
+"title": "Sychar"
+},
+"arb": {
+"content_id": 331983,
+"language": "arb",
+"title": "سُوخَار"
+},
+"fra": {
+"content_id": 769288,
+"language": "fra",
+"title": "Sychar"
+},
+"hin": {
+"content_id": 381236,
+"language": "hin",
+"title": "सूखार"
+},
+"por": {
+"content_id": 717304,
+"language": "por",
+"title": "Sicar"
+},
+"spa": {
+"content_id": 806660,
+"language": "spa",
+"title": "Sicar"
+}
+}
+},
+"907406": {
+"content_id": "907406",
+"reference_id": 7872,
+"index_reference": "手鼓",
+"localizations": {
+"eng": {
+"content_id": 8704,
+"language": "eng",
+"title": "Tabret"
+},
+"arb": {
+"content_id": 444043,
+"language": "arb",
+"title": "الدُّفّ"
+},
+"hin": {
+"content_id": 381885,
+"language": "hin",
+"title": "मृदंग"
+}
+}
+},
+"907410": {
+"content_id": "907410",
+"reference_id": 7963,
+"index_reference": "約遺囑Testament",
+"localizations": {
+"eng": {
+"content_id": 8795,
+"language": "eng",
+"title": "Testament"
+},
+"arb": {
+"content_id": 335536,
+"language": "arb",
+"title": "العهد أو الوصية"
+},
+"fra": {
+"content_id": 831680,
+"language": "fra",
+"title": "testament"
+},
+"hin": {
+"content_id": 620815,
+"language": "hin",
+"title": "नियम (टेस्टामेंट)  "
+},
+"por": {
+"content_id": 831039,
+"language": "por",
+"title": "Testamento"
+},
+"spa": {
+"content_id": 844362,
+"language": "spa",
+"title": "Testamento"
+}
+}
+},
+"907419": {
+"content_id": "907419",
+"reference_id": 8332,
+"index_reference": "西布倫支派",
+"localizations": {
+"eng": {
+"content_id": 9164,
+"language": "eng",
+"title": "Zebulun, Tribe of"
+},
+"arb": {
+"content_id": 335565,
+"language": "arb",
+"title": "زبولون، سبط"
+},
+"fra": {
+"content_id": 823089,
+"language": "fra",
+"title": "Zabulon, Tribu de"
+},
+"hin": {
+"content_id": 381926,
+"language": "hin",
+"title": "जबूलून, गोत्र का"
+},
+"por": {
+"content_id": 683118,
+"language": "por",
+"title": "Zebulom, Tribo de"
+},
+"spa": {
+"content_id": 827518,
+"language": "spa",
+"title": "Zabulón, Tribu de"
+}
+}
+},
+"907420": {
+"content_id": "907420",
+"reference_id": 8355,
+"index_reference": "洗玻",
+"localizations": {
+"eng": {
+"content_id": 9187,
+"language": "eng",
+"title": "Zepho"
+},
+"arb": {
+"content_id": 444078,
+"language": "arb",
+"title": "صَفِي -صَفْو"
+},
+"fra": {
+"content_id": 823091,
+"language": "fra",
+"title": "Tsepho"
+},
+"hin": {
+"content_id": 381929,
+"language": "hin",
+"title": "सपो"
+},
+"por": {
+"content_id": 717339,
+"language": "por",
+"title": "Zefo"
+},
+"spa": {
+"content_id": 827521,
+"language": "spa",
+"title": "Zefo, Zepho*"
+}
+}
+},
+"907421": {
+"content_id": "907421",
+"reference_id": 8358,
+"index_reference": "謝拉",
+"localizations": {
+"eng": {
+"content_id": 9190,
+"language": "eng",
+"title": "Zerah"
+},
+"arb": {
+"content_id": 335568,
+"language": "arb",
+"title": "زَارَح"
+},
+"fra": {
+"content_id": 823092,
+"language": "fra",
+"title": "Zérach"
+},
+"hin": {
+"content_id": 381930,
+"language": "hin",
+"title": "जेरह"
+},
+"por": {
+"content_id": 717340,
+"language": "por",
+"title": "Zerá"
+},
+"spa": {
+"content_id": 827522,
+"language": "spa",
+"title": "Zera"
+}
+}
+},
+"907422": {
+"content_id": "907422",
+"reference_id": 8379,
+"index_reference": "祭便",
+"localizations": {
+"eng": {
+"content_id": 9211,
+"language": "eng",
+"title": "Zibeon"
+},
+"arb": {
+"content_id": 444079,
+"language": "arb",
+"title": "صِبْعُون"
+},
+"fra": {
+"content_id": 823093,
+"language": "fra",
+"title": "Tsibeon"
+},
+"hin": {
+"content_id": 381931,
+"language": "hin",
+"title": "सिबोन"
+},
+"por": {
+"content_id": 717341,
+"language": "por",
+"title": "Zibeão"
+},
+"spa": {
+"content_id": 827523,
+"language": "spa",
+"title": "Zibeón"
+}
+}
+},
+"907423": {
+"content_id": "907423",
+"reference_id": 8392,
+"index_reference": "悉帕",
+"localizations": {
+"eng": {
+"content_id": 9224,
+"language": "eng",
+"title": "Zilpah"
+},
+"arb": {
+"content_id": 444082,
+"language": "arb",
+"title": "زِلْفَة"
+},
+"fra": {
+"content_id": 823094,
+"language": "fra",
+"title": "Zilpa"
+},
+"hin": {
+"content_id": 381934,
+"language": "hin",
+"title": "जिल्पा"
+},
+"por": {
+"content_id": 683120,
+"language": "por",
+"title": "Zilpa"
+},
+"spa": {
+"content_id": 827526,
+"language": "spa",
+"title": "Zilpa"
+}
+}
+},
+"907263": {
+"content_id": "907263",
+"reference_id": 3240,
+"index_reference": "別是巴",
+"localizations": {
+"eng": {
+"content_id": 4072,
+"language": "eng",
+"title": "Beersheba"
+},
+"arb": {
+"content_id": 443609,
+"language": "arb",
+"title": "بِئْر سَبْع"
+},
+"fra": {
+"content_id": 822877,
+"language": "fra",
+"title": "Beer-Schéba"
+},
+"hin": {
+"content_id": 381355,
+"language": "hin",
+"title": "बेर्शेबा"
+},
+"por": {
+"content_id": 682877,
+"language": "por",
+"title": "Berseba"
+},
+"spa": {
+"content_id": 826944,
+"language": "spa",
+"title": "Beerseba"
+}
+}
+},
+"907264": {
+"content_id": "907264",
+"reference_id": 3253,
+"index_reference": "比拉人物",
+"localizations": {
+"eng": {
+"content_id": 4085,
+"language": "eng",
+"title": "Bela (Person)"
+},
+"arb": {
+"content_id": 443610,
+"language": "arb",
+"title": "بَالَع (شخص)"
+},
+"fra": {
+"content_id": 822878,
+"language": "fra",
+"title": "Béla (Personne)"
+},
+"hin": {
+"content_id": 381356,
+"language": "hin",
+"title": "बेला (व्यक्ति)"
+},
+"por": {
+"content_id": 716932,
+"language": "por",
+"title": "Belá (Pessoa)"
+},
+"spa": {
+"content_id": 826945,
+"language": "spa",
+"title": "Bela (Persona)"
+}
+}
+},
+"907267": {
+"content_id": "907267",
+"reference_id": 3284,
+"index_reference": "便俄尼",
+"localizations": {
+"eng": {
+"content_id": 4116,
+"language": "eng",
+"title": "Ben-Oni"
+},
+"arb": {
+"content_id": 443614,
+"language": "arb",
+"title": "بَنْ أُونِي"
+},
+"fra": {
+"content_id": 822881,
+"language": "fra",
+"title": "Ben-Oni"
+},
+"hin": {
+"content_id": 381361,
+"language": "hin",
+"title": "बेनोनी"
+},
+"por": {
+"content_id": 716936,
+"language": "por",
+"title": "Benoni"
+},
+"spa": {
+"content_id": 826950,
+"language": "spa",
+"title": "Benoni"
+}
+}
+},
+"907265": {
+"content_id": "907265",
+"reference_id": 3270,
+"index_reference": "祝禱",
+"localizations": {
+"eng": {
+"content_id": 4102,
+"language": "eng",
+"title": "Benediction"
+},
+"arb": {
+"content_id": 335187,
+"language": "arb",
+"title": "بركة"
+},
+"hin": {
+"content_id": 381359,
+"language": "hin",
+"title": "आशीर्वाद"
+},
+"por": {
+"content_id": 682880,
+"language": "por",
+"title": "Bênção"
+},
+"spa": {
+"content_id": 826948,
+"language": "spa",
+"title": "Bendición"
+}
+}
+},
+"907266": {
+"content_id": "907266",
+"reference_id": 3281,
+"index_reference": "便雅憫人物",
+"localizations": {
+"eng": {
+"content_id": 4113,
+"language": "eng",
+"title": "Benjamin (Person)"
+},
+"arb": {
+"content_id": 443613,
+"language": "arb",
+"title": "بَنْيَامِين (شخص)"
+},
+"fra": {
+"content_id": 822880,
+"language": "fra",
+"title": "Benjamin (Personne)"
+},
+"hin": {
+"content_id": 381360,
+"language": "hin",
+"title": "बिन्यामीन (व्यक्ति)"
+},
+"por": {
+"content_id": 716934,
+"language": "por",
+"title": "Benjamim (Pessoa)"
+},
+"spa": {
+"content_id": 826949,
+"language": "spa",
+"title": "Benjamín (Persona)"
+}
+}
+},
+"907268": {
+"content_id": "907268",
+"reference_id": 3290,
+"index_reference": "比珥",
+"localizations": {
+"eng": {
+"content_id": 4122,
+"language": "eng",
+"title": "Beor"
+},
+"arb": {
+"content_id": 443615,
+"language": "arb",
+"title": "بَعُور"
+},
+"fra": {
+"content_id": 822882,
+"language": "fra",
+"title": "Beor"
+},
+"hin": {
+"content_id": 381362,
+"language": "hin",
+"title": "बोर"
+},
+"por": {
+"content_id": 716937,
+"language": "por",
+"title": "Beor"
+},
+"spa": {
+"content_id": 826951,
+"language": "spa",
+"title": "Beor"
+}
+}
+},
+"907270": {
+"content_id": "907270",
+"reference_id": 3410,
+"index_reference": "辟拉人物",
+"localizations": {
+"eng": {
+"content_id": 4242,
+"language": "eng",
+"title": "Bilhah (Person)"
+},
+"arb": {
+"content_id": 443622,
+"language": "arb",
+"title": "بِلْهَة (شخص)"
+},
+"fra": {
+"content_id": 822885,
+"language": "fra",
+"title": "Bilha (Personne)"
+},
+"hin": {
+"content_id": 381370,
+"language": "hin",
+"title": "बिल्हा (व्यक्ति)"
+},
+"por": {
+"content_id": 682886,
+"language": "por",
+"title": "Bila (Pessoa)"
+},
+"spa": {
+"content_id": 826958,
+"language": "spa",
+"title": "Bilha (Persona)"
+}
+}
+},
+"907271": {
+"content_id": "907271",
+"reference_id": 3412,
+"index_reference": "辟罕比勒罕",
+"localizations": {
+"eng": {
+"content_id": 4244,
+"language": "eng",
+"title": "Bilhan"
+},
+"arb": {
+"content_id": 443623,
+"language": "arb",
+"title": "بِلْهَان"
+},
+"fra": {
+"content_id": 822886,
+"language": "fra",
+"title": "Bilhan"
+},
+"hin": {
+"content_id": 381371,
+"language": "hin",
+"title": "बिल्हान"
+},
+"por": {
+"content_id": 716943,
+"language": "por",
+"title": "Bilã"
+},
+"spa": {
+"content_id": 826959,
+"language": "spa",
+"title": "Bilhán"
+}
+}
+},
+"907273": {
+"content_id": "907273",
+"reference_id": 3491,
+"index_reference": "波斯拉",
+"localizations": {
+"eng": {
+"content_id": 4323,
+"language": "eng",
+"title": "Bozrah"
+},
+"arb": {
+"content_id": 443630,
+"language": "arb",
+"title": "بُصْرَة"
+},
+"fra": {
+"content_id": 822889,
+"language": "fra",
+"title": "Botsra"
+},
+"hin": {
+"content_id": 381380,
+"language": "hin",
+"title": "बोस्रा"
+},
+"por": {
+"content_id": 716952,
+"language": "por",
+"title": "Bosra"
+},
+"spa": {
+"content_id": 826968,
+"language": "spa",
+"title": "Bosra"
+}
+}
+},
+"907281": {
+"content_id": "907281",
+"reference_id": 3919,
+"index_reference": "但人物",
+"localizations": {
+"eng": {
+"content_id": 4751,
+"language": "eng",
+"title": "Dan (Person)"
+},
+"arb": {
+"content_id": 443652,
+"language": "arb",
+"title": "دَان (شخص)"
+},
+"fra": {
+"content_id": 822896,
+"language": "fra",
+"title": "Dan (Personne)"
+},
+"hin": {
+"content_id": 381409,
+"language": "hin",
+"title": "दान (व्यक्ति)"
+},
+"por": {
+"content_id": 682901,
+"language": "por",
+"title": "Dã (Pessoa)"
+},
+"spa": {
+"content_id": 826997,
+"language": "spa",
+"title": "Dan (Persona)"
+}
+}
+},
+"907282": {
+"content_id": "907282",
+"reference_id": 3995,
+"index_reference": "露水",
+"localizations": {
+"eng": {
+"content_id": 4827,
+"language": "eng",
+"title": "Dew"
+},
+"arb": {
+"content_id": 443655,
+"language": "arb",
+"title": "النَّدَى"
+},
+"fra": {
+"content_id": 822897,
+"language": "fra",
+"title": "Rosée"
+},
+"hin": {
+"content_id": 381413,
+"language": "hin",
+"title": "ओस"
+},
+"por": {
+"content_id": 682905,
+"language": "por",
+"title": "Orvalho"
+},
+"spa": {
+"content_id": 827000,
+"language": "spa",
+"title": "Rocío"
+}
+}
+},
+"907283": {
+"content_id": "907283",
+"reference_id": 4016,
+"index_reference": "底拿",
+"localizations": {
+"eng": {
+"content_id": 4848,
+"language": "eng",
+"title": "Dinah"
+},
+"arb": {
+"content_id": 443657,
+"language": "arb",
+"title": "دِينَة"
+},
+"fra": {
+"content_id": 822898,
+"language": "fra",
+"title": "Dina"
+},
+"hin": {
+"content_id": 381415,
+"language": "hin",
+"title": "दीना"
+},
+"por": {
+"content_id": 682906,
+"language": "por",
+"title": "Diná"
+},
+"spa": {
+"content_id": 827002,
+"language": "spa",
+"title": "Dina"
+}
+}
+},
+"907284": {
+"content_id": "907284",
+"reference_id": 4018,
+"index_reference": "亭哈巴",
+"localizations": {
+"eng": {
+"content_id": 4850,
+"language": "eng",
+"title": "Dinhabah"
+},
+"arb": {
+"content_id": 443658,
+"language": "arb",
+"title": "دِنْهَابَة"
+},
+"fra": {
+"content_id": 822899,
+"language": "fra",
+"title": "Dinhaba"
+},
+"hin": {
+"content_id": 381416,
+"language": "hin",
+"title": "दिन्हाबा"
+},
+"por": {
+"content_id": 716993,
+"language": "por",
+"title": "Diná"
+},
+"spa": {
+"content_id": 827003,
+"language": "spa",
+"title": "Dinaba"
+}
+}
+},
+"907285": {
+"content_id": "907285",
+"reference_id": 4029,
+"index_reference": "底珊",
+"localizations": {
+"eng": {
+"content_id": 4861,
+"language": "eng",
+"title": "Dishan"
+},
+"arb": {
+"content_id": 443659,
+"language": "arb",
+"title": "دِيشَان"
+},
+"fra": {
+"content_id": 822900,
+"language": "fra",
+"title": "Dischan"
+},
+"hin": {
+"content_id": 381418,
+"language": "hin",
+"title": "दीशान"
+},
+"por": {
+"content_id": 716994,
+"language": "por",
+"title": "Disã"
+},
+"spa": {
+"content_id": 827005,
+"language": "spa",
+"title": "Disán"
+}
+}
+},
+"907286": {
+"content_id": "907286",
+"reference_id": 4030,
+"index_reference": "底順",
+"localizations": {
+"eng": {
+"content_id": 4862,
+"language": "eng",
+"title": "Dishon"
+},
+"arb": {
+"content_id": 443660,
+"language": "arb",
+"title": "دِيشُون"
+},
+"fra": {
+"content_id": 822901,
+"language": "fra",
+"title": "Dischon"
+},
+"hin": {
+"content_id": 381419,
+"language": "hin",
+"title": "दीशोन"
+},
+"por": {
+"content_id": 716995,
+"language": "por",
+"title": "Disom"
+},
+"spa": {
+"content_id": 827006,
+"language": "spa",
+"title": "Disón"
+}
+}
+},
+"907287": {
+"content_id": "907287",
+"reference_id": 4057,
+"index_reference": "多坍",
+"localizations": {
+"eng": {
+"content_id": 4889,
+"language": "eng",
+"title": "Dothan"
+},
+"arb": {
+"content_id": 443662,
+"language": "arb",
+"title": "دُوثَان"
+},
+"fra": {
+"content_id": 822902,
+"language": "fra",
+"title": "Dothan"
+},
+"hin": {
+"content_id": 381421,
+"language": "hin",
+"title": "दोतान"
+},
+"por": {
+"content_id": 716997,
+"language": "por",
+"title": "Dotã"
+},
+"spa": {
+"content_id": 827008,
+"language": "spa",
+"title": "Dotán"
+}
+}
+},
+"907291": {
+"content_id": "907291",
+"reference_id": 4139,
+"index_reference": "伊勒伯特利",
+"localizations": {
+"eng": {
+"content_id": 4971,
+"language": "eng",
+"title": "El-bethel"
+},
+"arb": {
+"content_id": 443676,
+"language": "arb",
+"title": "بَيْتِ إِيل"
+},
+"fra": {
+"content_id": 822908,
+"language": "fra",
+"title": "El-Béthel"
+},
+"hin": {
+"content_id": 381439,
+"language": "hin",
+"title": "एलबेतेल "
+},
+"por": {
+"content_id": 717008,
+"language": "por",
+"title": "El-Betel"
+},
+"spa": {
+"content_id": 827025,
+"language": "spa",
+"title": "El-betel"
+}
+}
+},
+"907292": {
+"content_id": "907292",
+"reference_id": 4151,
+"index_reference": "伊利伊羅伊以色列",
+"localizations": {
+"eng": {
+"content_id": 4983,
+"language": "eng",
+"title": "El-Elohe-Israel"
+},
+"arb": {
+"content_id": 443678,
+"language": "arb",
+"title": "إِيل إِلَه إِسْرَائِيل"
+},
+"fra": {
+"content_id": 822909,
+"language": "fra",
+"title": "El-Elohe-Israël"
+},
+"hin": {
+"content_id": 381441,
+"language": "hin",
+"title": "एल-एलोह-इस्राएल"
+},
+"por": {
+"content_id": 717010,
+"language": "por",
+"title": "El-Elohe-Israel"
+},
+"spa": {
+"content_id": 827027,
+"language": "spa",
+"title": "El-Elohe-Israel"
+}
+}
+},
+"907290": {
+"content_id": "907290",
+"reference_id": 4131,
+"index_reference": "以拉Elah",
+"localizations": {
+"eng": {
+"content_id": 4963,
+"language": "eng",
+"title": "Elah"
+},
+"arb": {
+"content_id": 443673,
+"language": "arb",
+"title": "أَيْلَة"
+},
+"fra": {
+"content_id": 822907,
+"language": "fra",
+"title": "Éla"
+},
+"hin": {
+"content_id": 381436,
+"language": "hin",
+"title": "एला"
+},
+"por": {
+"content_id": 717007,
+"language": "por",
+"title": "Elá"
+},
+"spa": {
+"content_id": 827022,
+"language": "spa",
+"title": "Ela"
+}
+}
+},
+"907293": {
+"content_id": "907293",
+"reference_id": 4186,
+"index_reference": "以利法",
+"localizations": {
+"eng": {
+"content_id": 5018,
+"language": "eng",
+"title": "Eliphaz"
+},
+"arb": {
+"content_id": 443680,
+"language": "arb",
+"title": "أَلِيفَاز"
+},
+"fra": {
+"content_id": 822910,
+"language": "fra",
+"title": "Éliphaz"
+},
+"hin": {
+"content_id": 381444,
+"language": "hin",
+"title": "एलीपज"
+},
+"por": {
+"content_id": 717013,
+"language": "por",
+"title": "Elifaz"
+},
+"spa": {
+"content_id": 827030,
+"language": "spa",
+"title": "Elifaz"
+}
+}
+},
+"907303": {
+"content_id": "907303",
+"reference_id": 4510,
+"index_reference": "迦得人物",
+"localizations": {
+"eng": {
+"content_id": 5342,
+"language": "eng",
+"title": "Gad (Person)"
+},
+"arb": {
+"content_id": 443711,
+"language": "arb",
+"title": "جَاد (شخص)"
+},
+"fra": {
+"content_id": 822924,
+"language": "fra",
+"title": "Gad (Personne)"
+},
+"hin": {
+"content_id": 381483,
+"language": "hin",
+"title": "गाद (व्यक्ति)"
+},
+"por": {
+"content_id": 682936,
+"language": "por",
+"title": "Gade (Pessoa)"
+},
+"spa": {
+"content_id": 827067,
+"language": "spa",
+"title": "Gad (Persona)"
+}
+}
+},
+"907305": {
+"content_id": "907305",
+"reference_id": 4520,
+"index_reference": "迦累得",
+"localizations": {
+"eng": {
+"content_id": 5352,
+"language": "eng",
+"title": "Galeed"
+},
+"arb": {
+"content_id": 443714,
+"language": "arb",
+"title": "جَلْعِيد"
+},
+"fra": {
+"content_id": 822926,
+"language": "fra",
+"title": "Galed"
+},
+"hin": {
+"content_id": 381486,
+"language": "hin",
+"title": "गिलियाद"
+},
+"por": {
+"content_id": 717042,
+"language": "por",
+"title": "Galeede"
+},
+"spa": {
+"content_id": 827070,
+"language": "spa",
+"title": "Galeed"
+}
+}
+},
+"907310": {
+"content_id": "907310",
+"reference_id": 4797,
+"index_reference": "哈抹",
+"localizations": {
+"eng": {
+"content_id": 5629,
+"language": "eng",
+"title": "Hamor"
+},
+"arb": {
+"content_id": 443741,
+"language": "arb",
+"title": "حَمُور"
+},
+"fra": {
+"content_id": 822936,
+"language": "fra",
+"title": "Hamor"
+},
+"hin": {
+"content_id": 381516,
+"language": "hin",
+"title": "हमोर"
+},
+"por": {
+"content_id": 717062,
+"language": "por",
+"title": "Hamor"
+},
+"spa": {
+"content_id": 827101,
+"language": "spa",
+"title": "Hamor"
+}
+}
+},
+"907311": {
+"content_id": "907311",
+"reference_id": 4810,
+"index_reference": "婢女使女",
+"localizations": {
+"eng": {
+"content_id": 5642,
+"language": "eng",
+"title": "Handmaid, Handmaiden"
+},
+"arb": {
+"content_id": 443745,
+"language": "arb",
+"title": "جارية، أَمَة"
+},
+"fra": {
+"content_id": 822938,
+"language": "fra",
+"title": "Servante"
+},
+"hin": {
+"content_id": 381520,
+"language": "hin",
+"title": "दासी, दासियाँ"
+},
+"por": {
+"content_id": 682950,
+"language": "por",
+"title": "Escrava, Empregada"
+},
+"spa": {
+"content_id": 827105,
+"language": "spa",
+"title": "Criada, Sierva"
+}
+}
+},
+"907314": {
+"content_id": "907314",
+"reference_id": 4962,
+"index_reference": "希幔",
+"localizations": {
+"eng": {
+"content_id": 5794,
+"language": "eng",
+"title": "Heman"
+},
+"arb": {
+"content_id": 443759,
+"language": "arb",
+"title": "هَيْمَام"
+},
+"fra": {
+"content_id": 822943,
+"language": "fra",
+"title": "Héman"
+},
+"hin": {
+"content_id": 381535,
+"language": "hin",
+"title": "हेमान"
+},
+"por": {
+"content_id": 717071,
+"language": "por",
+"title": "Homã"
+},
+"spa": {
+"content_id": 827120,
+"language": "spa",
+"title": "Hemán"
+}
+}
+},
+"907315": {
+"content_id": "907315",
+"reference_id": 4964,
+"index_reference": "欣但",
+"localizations": {
+"eng": {
+"content_id": 5796,
+"language": "eng",
+"title": "Hemdan"
+},
+"arb": {
+"content_id": 443760,
+"language": "arb",
+"title": "حَمْدَان"
+},
+"fra": {
+"content_id": 822944,
+"language": "fra",
+"title": "Hemdan"
+},
+"hin": {
+"content_id": 381536,
+"language": "hin",
+"title": "हेमदान"
+},
+"por": {
+"content_id": 717072,
+"language": "por",
+"title": "Hendã"
+},
+"spa": {
+"content_id": 827121,
+"language": "spa",
+"title": "Hemdán"
+}
+}
+},
+"907348": {
+"content_id": "907348",
+"reference_id": 6036,
+"index_reference": "瑪哈念",
+"localizations": {
+"eng": {
+"content_id": 6868,
+"language": "eng",
+"title": "Mahanaim"
+},
+"arb": {
+"content_id": 443872,
+"language": "arb",
+"title": "مَحَنَايِم"
+},
+"fra": {
+"content_id": 822998,
+"language": "fra",
+"title": "Mahanaïm"
+},
+"hin": {
+"content_id": 381672,
+"language": "hin",
+"title": "महनैम"
+},
+"por": {
+"content_id": 717156,
+"language": "por",
+"title": "Maanaim"
+},
+"spa": {
+"content_id": 827259,
+"language": "spa",
+"title": "Mahanaim"
+}
+}
+},
+"907350": {
+"content_id": "907350",
+"reference_id": 6088,
+"index_reference": "風茄",
+"localizations": {
+"eng": {
+"content_id": 6920,
+"language": "eng",
+"title": "Mandrake"
+},
+"arb": {
+"content_id": 443878,
+"language": "arb",
+"title": "اَللُّفَّاح"
+},
+"fra": {
+"content_id": 823003,
+"language": "fra",
+"title": "Mandragore"
+},
+"hin": {
+"content_id": 381679,
+"language": "hin",
+"title": "दूदाफल"
+},
+"por": {
+"content_id": 683026,
+"language": "por",
+"title": "Mandrágora"
+},
+"spa": {
+"content_id": 827266,
+"language": "spa",
+"title": "Mandrágora"
+}
+}
+},
+"907356": {
+"content_id": "907356",
+"reference_id": 6325,
+"index_reference": "流產",
+"localizations": {
+"eng": {
+"content_id": 7157,
+"language": "eng",
+"title": "Miscarriage"
+},
+"arb": {
+"content_id": 443898,
+"language": "arb",
+"title": "السَّقْط- الإجهاض"
+},
+"fra": {
+"content_id": 823011,
+"language": "fra",
+"title": "Fausse couche"
+},
+"hin": {
+"content_id": 381704,
+"language": "hin",
+"title": "गर्भपात"
+},
+"por": {
+"content_id": 717179,
+"language": "por",
+"title": "Aborto espontâneo"
+},
+"spa": {
+"content_id": 827291,
+"language": "spa",
+"title": "Aborto espontáneo"
+}
+}
+},
+"907359": {
+"content_id": "907359",
+"reference_id": 6456,
+"index_reference": "拿哈",
+"localizations": {
+"eng": {
+"content_id": 7288,
+"language": "eng",
+"title": "Nahath"
+},
+"arb": {
+"content_id": 443910,
+"language": "arb",
+"title": "نَحَث"
+},
+"fra": {
+"content_id": 823016,
+"language": "fra",
+"title": "Nahath"
+},
+"hin": {
+"content_id": 381718,
+"language": "hin",
+"title": "नहत"
+},
+"por": {
+"content_id": 717191,
+"language": "por",
+"title": "Naate"
+},
+"spa": {
+"content_id": 827305,
+"language": "spa",
+"title": "Nahat"
+}
+}
+},
+"907382": {
+"content_id": "907382",
+"reference_id": 7073,
+"index_reference": "拉結",
+"localizations": {
+"eng": {
+"content_id": 7905,
+"language": "eng",
+"title": "Rachel"
+},
+"arb": {
+"content_id": 335475,
+"language": "arb",
+"title": "رَاحِيل"
+},
+"fra": {
+"content_id": 823045,
+"language": "fra",
+"title": "Rachel"
+},
+"hin": {
+"content_id": 381799,
+"language": "hin",
+"title": "राहेल"
+},
+"por": {
+"content_id": 683067,
+"language": "por",
+"title": "Raquel"
+},
+"spa": {
+"content_id": 827388,
+"language": "spa",
+"title": "Raquel, Rachêl"
+}
+}
+},
+"907381": {
+"content_id": "907381",
+"reference_id": 7072,
+"index_reference": "拉結的墓",
+"localizations": {
+"eng": {
+"content_id": 7904,
+"language": "eng",
+"title": "Rachel’s Tomb"
+},
+"arb": {
+"content_id": 335474,
+"language": "arb",
+"title": "قبر راحيل"
+},
+"fra": {
+"content_id": 823044,
+"language": "fra",
+"title": "Sépulcre de Rachel"
+},
+"hin": {
+"content_id": 381798,
+"language": "hin",
+"title": "राहेल की कब्र"
+},
+"por": {
+"content_id": 717252,
+"language": "por",
+"title": "Túmulo de Raquel"
+},
+"spa": {
+"content_id": 827387,
+"language": "spa",
+"title": "Tumba de Raquel"
+}
+}
+},
+"907400": {
+"content_id": "907400",
+"reference_id": 7609,
+"index_reference": "朔巴",
+"localizations": {
+"eng": {
+"content_id": 8441,
+"language": "eng",
+"title": "Shobal"
+},
+"arb": {
+"content_id": 444025,
+"language": "arb",
+"title": "شُوبَال"
+},
+"fra": {
+"content_id": 823068,
+"language": "fra",
+"title": "Schobal"
+},
+"hin": {
+"content_id": 381864,
+"language": "hin",
+"title": "शोबाल"
+},
+"por": {
+"content_id": 717287,
+"language": "por",
+"title": "Sobal"
+},
+"spa": {
+"content_id": 827454,
+"language": "spa",
+"title": "Sobal"
+}
+}
+},
+"907401": {
+"content_id": "907401",
+"reference_id": 7623,
+"index_reference": "書亞",
+"localizations": {
+"eng": {
+"content_id": 8455,
+"language": "eng",
+"title": "Shua"
+},
+"arb": {
+"content_id": 444027,
+"language": "arb",
+"title": "شُوع"
+},
+"fra": {
+"content_id": 823069,
+"language": "fra",
+"title": "Schua"
+},
+"hin": {
+"content_id": 381866,
+"language": "hin",
+"title": "शूआ"
+},
+"por": {
+"content_id": 717288,
+"language": "por",
+"title": "Sua"
+},
+"spa": {
+"content_id": 827456,
+"language": "spa",
+"title": "Súa"
+}
+}
+},
+"907414": {
+"content_id": "907414",
+"reference_id": 8193,
+"index_reference": "工價",
+"localizations": {
+"eng": {
+"content_id": 9025,
+"language": "eng",
+"title": "Wages"
+},
+"arb": {
+"content_id": 335551,
+"language": "arb",
+"title": "أجور"
+},
+"fra": {
+"content_id": 823083,
+"language": "fra",
+"title": "Salaire"
+},
+"hin": {
+"content_id": 381916,
+"language": "hin",
+"title": "मज़दूरी"
+},
+"por": {
+"content_id": 683114,
+"language": "por",
+"title": "Salários"
+},
+"spa": {
+"content_id": 827508,
+"language": "spa",
+"title": "Salario"
 }
 }
 }

@@ -6622,7 +6622,22 @@
 "language": "spa"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Adam",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Adam"
+},
+{
+"id": "place:Adam",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Adam"
+}
+]
 }
 },
 {
@@ -17738,6 +17753,13 @@
 "preferred_label": "Altar"
 },
 {
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.7674,
+"match_method": "scored",
+"preferred_label": "Stone Altar"
+},
+{
 "id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.7674,
@@ -17750,13 +17772,6 @@
 "confidence": 0.7674,
 "match_method": "scored",
 "preferred_label": "Tabernacle Altar"
-},
-{
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.7674,
-"match_method": "scored",
-"preferred_label": "Stone Altar"
 }
 ]
 }
@@ -37827,7 +37842,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:BrookOfEgypt",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "arroyo"
+}
+]
 }
 },
 {
@@ -45099,7 +45122,15 @@
 "language": "spa"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.625,
+"match_method": "scored",
+"preferred_label": "Jehová"
+}
+]
 }
 },
 {

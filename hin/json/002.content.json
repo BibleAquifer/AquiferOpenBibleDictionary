@@ -3734,9 +3734,23 @@
 {
 "id": "place:DragonSpring",
 "type": "place",
-"confidence": 1.0,
+"confidence": 0.9055,
 "match_method": "scored",
 "preferred_label": "Dragon Spring"
+},
+{
+"id": "place:ValleyGate",
+"type": "place",
+"confidence": 0.7705,
+"match_method": "scored",
+"preferred_label": "Valley Gate"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.598,
+"match_method": "scored",
+"preferred_label": "यरूशलेम"
 }
 ]
 }
@@ -18066,18 +18080,18 @@
 ],
 "acai": [
 {
-"id": "place:Abana",
-"type": "place",
-"confidence": 0.8,
-"match_method": "scored",
-"preferred_label": "अबाना"
-},
-{
 "id": "place:Amana",
 "type": "place",
 "confidence": 0.8,
 "match_method": "scored",
 "preferred_label": "अमाना पर्वत"
+},
+{
+"id": "place:Abana",
+"type": "place",
+"confidence": 0.8,
+"match_method": "scored",
+"preferred_label": "अबाना"
 }
 ]
 }
@@ -20038,18 +20052,18 @@
 "preferred_label": "अम्राम"
 },
 {
-"id": "person:Hemdan",
-"type": "person",
-"confidence": 0.6571,
-"match_method": "scored",
-"preferred_label": "हेमदान"
-},
-{
 "id": "group:Amram",
 "type": "group",
 "confidence": 0.6571,
 "match_method": "scored",
 "preferred_label": "अम्रामी"
+},
+{
+"id": "person:Hemdan",
+"type": "person",
+"confidence": 0.6571,
+"match_method": "scored",
+"preferred_label": "हेमदान"
 }
 ]
 }
@@ -23344,18 +23358,18 @@
 "preferred_label": "अरोएर"
 },
 {
-"id": "group:Aroer",
-"type": "group",
-"confidence": 0.6267,
-"match_method": "scored",
-"preferred_label": "अरोएरी"
-},
-{
 "id": "group:Ashtaroth",
 "type": "group",
 "confidence": 0.6267,
 "match_method": "scored",
 "preferred_label": "अश्तारोती"
+},
+{
+"id": "group:Aroer",
+"type": "group",
+"confidence": 0.6267,
+"match_method": "scored",
+"preferred_label": "अरोएरी"
 }
 ]
 }
@@ -23740,7 +23754,22 @@
 "language": "hin"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.7285,
+"match_method": "scored",
+"preferred_label": "Offering"
+},
+{
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.6786,
+"match_method": "scored",
+"preferred_label": "Wine"
+}
+]
 }
 },
 {
@@ -25750,7 +25779,15 @@
 "associations": {
 "passage": [],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.5845,
+"match_method": "scored",
+"preferred_label": "Be a Disciple"
+}
+]
 }
 },
 {
@@ -25781,15 +25818,15 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Asher",
-"type": "person",
+"id": "group:Asher",
+"type": "group",
 "confidence": 0.5833,
 "match_method": "scored",
 "preferred_label": "आशेर"
 },
 {
-"id": "group:Asher",
-"type": "group",
+"id": "person:Asher",
+"type": "person",
 "confidence": 0.5833,
 "match_method": "scored",
 "preferred_label": "आशेर"

@@ -6673,7 +6673,22 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Adam",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Adão"
+},
+{
+"id": "place:Adam",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Adão"
+}
+]
 }
 },
 {
@@ -13023,7 +13038,15 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.625,
+"match_method": "scored",
+"preferred_label": "SENHOR"
+}
+]
 }
 },
 {
@@ -16677,6 +16700,13 @@
 "preferred_label": "Altar"
 },
 {
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.7674,
+"match_method": "scored",
+"preferred_label": "Stone Altar"
+},
+{
 "id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.7674,
@@ -16689,13 +16719,6 @@
 "confidence": 0.7674,
 "match_method": "scored",
 "preferred_label": "Tabernacle Altar"
-},
-{
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.7674,
-"match_method": "scored",
-"preferred_label": "Stone Altar"
 }
 ]
 }
@@ -27052,18 +27075,18 @@
 "preferred_label": "Amrão"
 },
 {
-"id": "person:Hemdan",
-"type": "person",
-"confidence": 0.6571,
-"match_method": "scored",
-"preferred_label": "Hendã"
-},
-{
 "id": "group:Amram",
 "type": "group",
 "confidence": 0.6571,
 "match_method": "scored",
 "preferred_label": "Amramites"
+},
+{
+"id": "person:Hemdan",
+"type": "person",
+"confidence": 0.6571,
+"match_method": "scored",
+"preferred_label": "Hendã"
 }
 ]
 }
@@ -35071,18 +35094,18 @@
 "preferred_label": "Aroer"
 },
 {
-"id": "group:Aroer",
-"type": "group",
-"confidence": 0.6267,
-"match_method": "scored",
-"preferred_label": "Aroerites"
-},
-{
 "id": "group:Ashtaroth",
 "type": "group",
 "confidence": 0.6267,
 "match_method": "scored",
 "preferred_label": "Ashterathites"
+},
+{
+"id": "group:Aroer",
+"type": "group",
+"confidence": 0.6267,
+"match_method": "scored",
+"preferred_label": "Aroerites"
 }
 ]
 }

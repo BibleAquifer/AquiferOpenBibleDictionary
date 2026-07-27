@@ -4206,11 +4206,11 @@
 "preferred_label": "Gate of Jeshanah"
 },
 {
-"id": "place:GuardGate",
+"id": "place:EphraimGate",
 "type": "place",
 "confidence": 0.5848,
 "match_method": "scored",
-"preferred_label": "Gate of the Guard"
+"preferred_label": "Ephraim Gate"
 },
 {
 "id": "place:FishGate",
@@ -4220,18 +4220,18 @@
 "preferred_label": "Fish Gate"
 },
 {
+"id": "place:GuardGate",
+"type": "place",
+"confidence": 0.5848,
+"match_method": "scored",
+"preferred_label": "Gate of the Guard"
+},
+{
 "id": "place:SheepGate",
 "type": "place",
 "confidence": 0.5848,
 "match_method": "scored",
 "preferred_label": "Sheep Gate"
-},
-{
-"id": "place:EphraimGate",
-"type": "place",
-"confidence": 0.5848,
-"match_method": "scored",
-"preferred_label": "Ephraim Gate"
 }
 ]
 }
@@ -4836,29 +4836,6 @@
 "preferred_label": "Olympas"
 }
 ]
-}
-},
-{
-"content_id": "7484",
-"reference_id": 6652,
-"version": "1.0.4",
-"title": "Olympian Zeus, Temple of",
-"media_type": "Text",
-"index_reference": "olympian zeus temple of",
-"language": "eng",
-"review_level": "None",
-"content": "<h1>OLYMPIAN ZEUS, Temple of</h1><p>Name given to the temple of Jerusalem by Antiochus Epiphanes in 168 BC when he turned the holy place into a shrine for the chief of the pagan gods of Greece (<a href=\"https://ref.ly/2Macc6:2\">2&nbsp;Macc 6:2</a>). Jews were forced to abandon ancestral customs and could no longer observe God’s law. The desecration included temple prostitution, forced cannibalism, and humiliation for the&nbsp;Jews.</p>",
-"associations": {
-"passage": [
-{
-"start_ref": "79006002",
-"start_ref_usfm": "2MA 6:2",
-"end_ref": "79006002",
-"end_ref_usfm": "2MA 6:2"
-}
-],
-"resource": [],
-"acai": []
 }
 },
 {
@@ -5738,7 +5715,7 @@
 "index_reference": "onyx",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>ONYX</h1><p>A semiprecious stone used on the breastplate of the high priest (<a href=\"https://ref.ly/Exod28:9\">Exodus 28:9</a>). </p><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"7796\" data-resourceType=\"TyndaleBibleDictionary\">Stones, Precious #18</span>.</p>",
+"content": "<h1>ONYX</h1><p>Onyx is a semiprecious form of chalcedony. It has straight layers or bands of different colors</p><p>In the Bible, onyx was used for decoration and jewelry. Two onyx stones were placed on the shoulder pieces of the high priest’s ephod (<a href=\"https://ref.ly/Exod28:9\">Exodus 28:9</a>). Onyx was also one of the stones on his breastpiece (<a href=\"https://ref.ly/Exod28:20\">Exodus 28:20</a>; <a href=\"https://ref.ly/Exod39:13\">39:13</a>).</p><p>The Bible also mentions “onyx” in descriptions of the garden of Eden, valuable building materials, wisdom, and the king of Tyre (<a href=\"https://ref.ly/Gen2:12\">Genesis 2:12</a>;  <a href=\"https://ref.ly/Exod25:7\">Exodus 25:7</a>; <a href=\"https://ref.ly/1Chr29:2\">1 Chronicles 29:2</a>; <a href=\"https://ref.ly/Job28:16\">Job 28:16</a>; <a href=\"https://ref.ly/Ezek28:13\">Ezekiel 28:13</a>).</p><p><em>See also</em> <span data-bnType=\"resourceReference\" data-resourceId=\"7796\" data-resourceType=\"TyndaleBibleDictionary\">Precious Stones</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"7316\" data-resourceType=\"TyndaleBibleDictionary\">Sardonyx</span>.</p>",
 "associations": {
 "passage": [
 {
@@ -5750,10 +5727,17 @@
 ],
 "resource": [
 {
+"reference_id": 7316,
+"content_id": 8148,
+"resource_code": "TyndaleBibleDictionary",
+"label": "Sardonyx",
+"language": "eng"
+},
+{
 "reference_id": 7796,
 "content_id": 8628,
 "resource_code": "TyndaleBibleDictionary",
-"label": "Stones, Precious",
+"label": "Precious Stones",
 "language": "eng"
 }
 ],
@@ -6686,6 +6670,43 @@
 "content_id": 4261,
 "resource_code": "TyndaleBibleDictionary",
 "label": "Water of Bitterness or Jealousy",
+"language": "eng"
+}
+],
+"acai": []
+}
+},
+{
+"content_id": "6031",
+"reference_id": 5199,
+"version": "1.0.4",
+"title": "Ordination Offering",
+"media_type": "Text",
+"index_reference": "ordination offering",
+"language": "eng",
+"review_level": "None",
+"content": "<h1>ORDINATION OFFERING</h1><p>An ordination offering was a sacrifice presented when priests were appointed and set apart for service to God. It formed part of the ceremony that installed Aaron and his sons as priests (<a href=\"https://ref.ly/Exod29:1-Exod29:37\">Exodus 29:1–37</a>; <a href=\"https://ref.ly/Lev8:1-Lev8:36\">Leviticus 8:1–36</a>).</p><p>Some Bible translations use “installation offering”<strong> </strong>for the same sacrifice.</p><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"6630\" data-resourceType=\"TyndaleBibleDictionary\">Offerings and Sacrifices</span>.</p>",
+"associations": {
+"passage": [
+{
+"start_ref": "03008001",
+"start_ref_usfm": "LEV 8:1",
+"end_ref": "03008036",
+"end_ref_usfm": "LEV 8:36"
+},
+{
+"start_ref": "02029001",
+"start_ref_usfm": "EXO 29:1",
+"end_ref": "02029037",
+"end_ref_usfm": "EXO 29:37"
+}
+],
+"resource": [
+{
+"reference_id": 6630,
+"content_id": 7462,
+"resource_code": "TyndaleBibleDictionary",
+"label": "Offerings and Sacrifices",
 "language": "eng"
 }
 ],
@@ -7908,9 +7929,22 @@
 "index_reference": "oven",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>OVEN</h1><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4454\" data-resourceType=\"TyndaleBibleDictionary\">Food and Food Preparation</span>.</p>",
+"content": "<h1>OVEN</h1><p>An oven was used for baking bread and cooking other foods. In Bible times, ovens were usually made from clay or stone and were heated by burning wood, dried grass, or animal dung. Some ovens were built into the ground, while others were portable<span> (</span><a href=\"https://ref.ly/Lev2:4\"><span>Leviticus 2:4</a></span><span>; </span><a href=\"https://ref.ly/Hos7:4-Hos7:7\"><span>Hosea 7:4–7)</a></span><span>.</span></p><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4454\" data-resourceType=\"TyndaleBibleDictionary\">Food and Food Preparation</span>.</p>",
 "associations": {
-"passage": [],
+"passage": [
+{
+"start_ref": "03002004",
+"start_ref_usfm": "LEV 2:4",
+"end_ref": "03002004",
+"end_ref_usfm": "LEV 2:4"
+},
+{
+"start_ref": "28007004",
+"start_ref_usfm": "HOS 7:4",
+"end_ref": "28007007",
+"end_ref_usfm": "HOS 7:7"
+}
+],
 "resource": [
 {
 "reference_id": 4454,

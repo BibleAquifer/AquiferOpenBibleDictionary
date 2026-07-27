@@ -1140,18 +1140,18 @@
 "preferred_label": "Sabtecá"
 },
 {
-"id": "person:Raamah",
-"type": "person",
-"confidence": 0.748,
-"match_method": "scored",
-"preferred_label": "Raamá"
-},
-{
 "id": "person:Sheba",
 "type": "person",
 "confidence": 0.748,
 "match_method": "scored",
 "preferred_label": "Seba"
+},
+{
+"id": "person:Raamah",
+"type": "person",
+"confidence": 0.748,
+"match_method": "scored",
+"preferred_label": "Raamá"
 }
 ]
 }
@@ -5909,7 +5909,15 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:SolomonsPortico",
+"type": "place",
+"confidence": 0.5893,
+"match_method": "scored",
+"preferred_label": "Solomon's Colonnade"
+}
+]
 }
 },
 {
@@ -10760,7 +10768,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Sachia",
+"type": "person",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "Sachia"
+}
+]
 }
 },
 {
@@ -15746,7 +15762,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Seleucia",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Selêucia"
+}
+]
 }
 },
 {
@@ -16711,7 +16735,15 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Week",
+"type": "keyterm",
+"confidence": 1.0,
+"match_method": "embedding",
+"preferred_label": "Week"
+}
+]
 }
 },
 {
@@ -23215,7 +23247,15 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Siloam",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Siloam"
+}
+]
 }
 },
 {
@@ -25423,7 +25463,15 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:SinaiMount",
+"type": "place",
+"confidence": 0.6855,
+"match_method": "scored",
+"preferred_label": "Monte Sinai"
+}
+]
 }
 },
 {
@@ -26969,18 +27017,18 @@
 "preferred_label": "Siquém"
 },
 {
-"id": "group:Shechem",
-"type": "group",
-"confidence": 0.6114,
-"match_method": "scored",
-"preferred_label": "Shechemites"
-},
-{
 "id": "place:Shechem",
 "type": "place",
 "confidence": 0.6114,
 "match_method": "scored",
 "preferred_label": "Siquém"
+},
+{
+"id": "group:Shechem",
+"type": "group",
+"confidence": 0.6114,
+"match_method": "scored",
+"preferred_label": "Shechemites"
 }
 ]
 }
