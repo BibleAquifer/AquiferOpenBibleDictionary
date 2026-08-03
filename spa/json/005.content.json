@@ -3554,7 +3554,15 @@
 "language": "spa"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Espíritu"
+}
+]
 }
 },
 {
@@ -6240,7 +6248,15 @@
 "language": "spa"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Sin",
+"type": "place",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "Sin"
+}
+]
 }
 },
 {
@@ -6658,7 +6674,22 @@
 "language": "spa"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.616,
+"match_method": "scored",
+"preferred_label": "Jerusalem"
+},
+{
+"id": "flora:Pine",
+"type": "flora",
+"confidence": 0.5845,
+"match_method": "scored",
+"preferred_label": "Stone Pine"
+}
+]
 }
 },
 {

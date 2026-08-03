@@ -288,6 +288,77 @@
 }
 },
 {
+"content_id": "6285",
+"reference_id": 5453,
+"version": "1.0.4",
+"title": "Valley of Jehoshaphat",
+"media_type": "Text",
+"index_reference": "valley of jehoshaphat",
+"language": "eng",
+"review_level": "None",
+"content": "<h1>VALLEY OF JEHOSHAPHAT</h1><p>The Valley of Jehoshaphat was a valley mentioned in prophecy as the place of future judgment (<a href=\"https://ref.ly/Joel3:2,Joel3:12\">Joel 3:2, 12</a>). It is sometimes called the valley of decision (<a href=\"https://ref.ly/Joel3:14\">Joel 3:14</a>). </p><p>People disagree on its exact location. Some, like Jerome, identify it with the Kidron Valley, east of Jerusalem. They point to early Christian tradition. Others prefer the valley of Hinnom, south of Jerusalem. This tradition may be traced back through Eusebius to the book of 1&nbsp;Enoch (1&nbsp;Enoch 53:1). Still others say the name is symbolic and refers only to coming judgment, not to a specific place.</p>",
+"associations": {
+"passage": [
+{
+"start_ref": "29003002",
+"start_ref_usfm": "JOL 3:2",
+"end_ref": "29003002",
+"end_ref_usfm": "JOL 3:2"
+},
+{
+"start_ref": "29003012",
+"start_ref_usfm": "JOL 3:12",
+"end_ref": "29003012",
+"end_ref_usfm": "JOL 3:12"
+},
+{
+"start_ref": "29003014",
+"start_ref_usfm": "JOL 3:14",
+"end_ref": "29003014",
+"end_ref_usfm": "JOL 3:14"
+}
+],
+"resource": [],
+"acai": [
+{
+"id": "person:Jehoshaphat.2",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Jehoshaphat"
+},
+{
+"id": "person:Jehoshaphat.3",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Jehoshaphat"
+},
+{
+"id": "person:Jehoshaphat.4",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Jehoshaphat"
+},
+{
+"id": "person:Jehoshaphat",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Jehoshaphat"
+},
+{
+"id": "place:Kidron",
+"type": "place",
+"confidence": 0.7167,
+"match_method": "scored",
+"preferred_label": "Kidron"
+}
+]
+}
+},
+{
 "content_id": "8999",
 "reference_id": 8167,
 "version": "1.0.4",
@@ -304,7 +375,7 @@
 "reference_id": 5453,
 "content_id": 6285,
 "resource_code": "TyndaleBibleDictionary",
-"label": "Jehoshaphat, Valley of",
+"label": "Valley of Jehoshaphat",
 "language": "eng"
 }
 ],
@@ -990,6 +1061,52 @@
 }
 ],
 "acai": []
+}
+},
+{
+"content_id": "8559",
+"reference_id": 7727,
+"version": "1.0.4",
+"title": "Vine of Sodom",
+"media_type": "Text",
+"index_reference": "vine of sodom",
+"language": "eng",
+"review_level": "None",
+"content": "<h1>VINE OF SODOM</h1><p>The vine of Sodom is a plant mentioned in the Bible as a symbol of corruption and judgment (<a href=\"https://ref.ly/Deut32:32\">Deuteronomy 32:32</a>). Its exact identity is uncertain. Some interpreters connect it with the wild gourd.</p><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"209539\" data-resourceType=\"TyndaleBibleDictionary\">Wild Gourd</span>.</p>",
+"associations": {
+"passage": [
+{
+"start_ref": "05032032",
+"start_ref_usfm": "DEU 32:32",
+"end_ref": "05032032",
+"end_ref_usfm": "DEU 32:32"
+}
+],
+"resource": [
+{
+"reference_id": 209539,
+"content_id": 718558,
+"resource_code": "TyndaleBibleDictionary",
+"label": "Wild Gourd",
+"language": "eng"
+}
+],
+"acai": [
+{
+"id": "place:Sodom",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Sodom"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.6115,
+"match_method": "scored",
+"preferred_label": "Vine"
+}
+]
 }
 },
 {
