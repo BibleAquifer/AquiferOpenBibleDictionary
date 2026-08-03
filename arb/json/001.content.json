@@ -12906,18 +12906,18 @@
 "preferred_label": "أَخزَّامَ"
 },
 {
-"id": "person:Haahashtari",
-"type": "person",
-"confidence": 0.73,
-"match_method": "scored",
-"preferred_label": "ٱلْأَخَشْتَارِيَّ"
-},
-{
 "id": "person:Naarah",
 "type": "person",
 "confidence": 0.73,
 "match_method": "scored",
 "preferred_label": "نَعْرَة"
+},
+{
+"id": "person:Haahashtari",
+"type": "person",
+"confidence": 0.73,
+"match_method": "scored",
+"preferred_label": "ٱلْأَخَشْتَارِيَّ"
 }
 ]
 }
@@ -26579,15 +26579,15 @@
 ],
 "acai": [
 {
-"id": "person:Ashkenaz",
-"type": "person",
+"id": "place:Ashkenaz",
+"type": "place",
 "confidence": 0.8,
 "match_method": "scored",
 "preferred_label": "أَشْكَنَاز"
 },
 {
-"id": "place:Ashkenaz",
-"type": "place",
+"id": "person:Ashkenaz",
+"type": "person",
 "confidence": 0.8,
 "match_method": "scored",
 "preferred_label": "أَشْكَنَاز"
@@ -60107,18 +60107,18 @@
 ],
 "acai": [
 {
-"id": "person:Abiezer",
-"type": "person",
-"confidence": 0.8605,
-"match_method": "scored",
-"preferred_label": "أَبِيعَزَر"
-},
-{
 "id": "group:Iezer",
 "type": "group",
 "confidence": 0.8605,
 "match_method": "scored",
 "preferred_label": "Iezerites"
+},
+{
+"id": "person:Abiezer",
+"type": "person",
+"confidence": 0.8605,
+"match_method": "scored",
+"preferred_label": "أَبِيعَزَر"
 },
 {
 "id": "person:Helek",
@@ -63325,15 +63325,15 @@
 "resource": [],
 "acai": [
 {
-"id": "group:Asher",
-"type": "group",
+"id": "person:Asher",
+"type": "person",
 "confidence": 0.5833,
 "match_method": "scored",
 "preferred_label": "أَشِيرَ"
 },
 {
-"id": "person:Asher",
-"type": "person",
+"id": "group:Asher",
+"type": "group",
 "confidence": 0.5833,
 "match_method": "scored",
 "preferred_label": "أَشِيرَ"
@@ -63462,20 +63462,6 @@
 "preferred_label": "Gate of Jeshanah"
 },
 {
-"id": "place:SheepGate",
-"type": "place",
-"confidence": 0.5848,
-"match_method": "scored",
-"preferred_label": "ٱلضَّأْنِ"
-},
-{
-"id": "place:GuardGate",
-"type": "place",
-"confidence": 0.5848,
-"match_method": "scored",
-"preferred_label": "ٱلسِّجْنِ"
-},
-{
 "id": "place:FishGate",
 "type": "place",
 "confidence": 0.5848,
@@ -63488,6 +63474,20 @@
 "confidence": 0.5848,
 "match_method": "scored",
 "preferred_label": "أَفْرَايِمَ"
+},
+{
+"id": "place:SheepGate",
+"type": "place",
+"confidence": 0.5848,
+"match_method": "scored",
+"preferred_label": "ٱلضَّأْنِ"
+},
+{
+"id": "place:GuardGate",
+"type": "place",
+"confidence": 0.5848,
+"match_method": "scored",
+"preferred_label": "ٱلسِّجْنِ"
 }
 ]
 }

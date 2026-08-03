@@ -7204,7 +7204,22 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "flora:Oak",
+"type": "flora",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Oak"
+},
+{
+"id": "place:DivinersOak",
+"type": "place",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "Diviners’ Oak"
+}
+]
 }
 },
 {
@@ -8882,7 +8897,15 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Holy Spirit"
+}
+]
 }
 },
 {
@@ -10729,7 +10752,15 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Merom",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Águas de Merom"
+}
+]
 }
 },
 {
@@ -15451,7 +15482,15 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.5749,
+"match_method": "scored",
+"preferred_label": "Covenant"
+}
+]
 }
 },
 {
@@ -16700,18 +16739,18 @@
 "preferred_label": "Altar"
 },
 {
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.7674,
-"match_method": "scored",
-"preferred_label": "Stone Altar"
-},
-{
 "id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.7674,
 "match_method": "scored",
 "preferred_label": "Temple Altar"
+},
+{
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.7674,
+"match_method": "scored",
+"preferred_label": "Stone Altar"
 },
 {
 "id": "realia:TabernacleAltar",
@@ -35094,18 +35133,18 @@
 "preferred_label": "Aroer"
 },
 {
-"id": "group:Aroer",
-"type": "group",
-"confidence": 0.6267,
-"match_method": "scored",
-"preferred_label": "Aroerites"
-},
-{
 "id": "group:Ashtaroth",
 "type": "group",
 "confidence": 0.6267,
 "match_method": "scored",
 "preferred_label": "Ashterathites"
+},
+{
+"id": "group:Aroer",
+"type": "group",
+"confidence": 0.6267,
+"match_method": "scored",
+"preferred_label": "Aroerites"
 }
 ]
 }
@@ -39212,7 +39251,15 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "keyterm:SheddingOfBlood",
+"type": "keyterm",
+"confidence": 0.8601,
+"match_method": "embedding",
+"preferred_label": "derramamento de sangue"
+}
+]
 }
 },
 {
@@ -42795,7 +42842,15 @@
 "language": "por"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Ivvah",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Iva"
+}
+]
 }
 },
 {

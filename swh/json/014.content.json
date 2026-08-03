@@ -858,7 +858,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.625,
+"match_method": "scored",
+"preferred_label": "BWANA"
+}
+]
 }
 },
 {
@@ -998,7 +1006,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Madai",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Madai"
+},
+{
+"id": "person:Magog",
+"type": "person",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "Magogu"
+}
+]
 }
 },
 {
@@ -20304,7 +20327,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "group:Casluhim",
+"type": "group",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Casluhim"
+},
+{
+"id": "person:Philistine",
+"type": "person",
+"confidence": 0.7345,
+"match_method": "scored",
+"preferred_label": "Wafilisti"
+}
+]
 }
 },
 {
@@ -32377,18 +32415,18 @@
 "preferred_label": "Brier"
 },
 {
-"id": "flora:Thistle",
-"type": "flora",
-"confidence": 0.65,
-"match_method": "scored",
-"preferred_label": "Thistle"
-},
-{
 "id": "flora:Boxthorn",
 "type": "flora",
 "confidence": 0.65,
 "match_method": "scored",
 "preferred_label": "Boxthorn"
+},
+{
+"id": "flora:Thistle",
+"type": "flora",
+"confidence": 0.65,
+"match_method": "scored",
+"preferred_label": "Thistle"
 }
 ]
 }

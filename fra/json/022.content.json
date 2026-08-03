@@ -2345,7 +2345,15 @@
 "language": "fra"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:CityOfDestruction",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "City of Destruction"
+}
+]
 }
 },
 {
@@ -2399,7 +2407,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:CityOfSalt",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "City of Salt"
+}
+]
 }
 },
 {
@@ -2430,7 +2446,43 @@
 "language": "fra"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:CityOfPalms.2",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "City of Palms"
+},
+{
+"id": "place:Jericho",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Jéricho"
+},
+{
+"id": "place:JerichoValley",
+"type": "place",
+"confidence": 0.7615,
+"match_method": "scored",
+"preferred_label": "vallée de Jéricho"
+},
+{
+"id": "flora:DatePalm",
+"type": "flora",
+"confidence": 0.6475,
+"match_method": "scored",
+"preferred_label": "Date Palm"
+},
+{
+"id": "place:Negeb",
+"type": "place",
+"confidence": 0.58,
+"match_method": "scored",
+"preferred_label": "Negev"
+}
+]
 }
 },
 {
@@ -2461,7 +2513,29 @@
 "language": "fra"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:CityOfDestruction",
+"type": "place",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "City of Destruction"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.589,
+"match_method": "scored",
+"preferred_label": "Éternel"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.5845,
+"match_method": "scored",
+"preferred_label": "Égypte"
+}
+]
 }
 },
 {

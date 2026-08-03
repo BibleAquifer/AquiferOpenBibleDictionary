@@ -2477,7 +2477,15 @@
 "language": "fra"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Gaza",
+"type": "place",
+"confidence": 0.85,
+"match_method": "scored",
+"preferred_label": "Gaza"
+}
+]
 }
 },
 {
@@ -5078,7 +5086,15 @@
 "language": "fra"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Goah",
+"type": "place",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "Goath"
+}
+]
 }
 },
 {
@@ -5453,7 +5469,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Golgotha",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Golgotha"
+}
+]
 }
 },
 {
@@ -6562,7 +6586,29 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "place:Gebal.2",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Gebal"
+},
+{
+"id": "place:Gebal",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Guebal"
+},
+{
+"id": "group:Gebal",
+"type": "group",
+"confidence": 0.8,
+"match_method": "scored",
+"preferred_label": "Guiblite"
+}
+]
 }
 },
 {
@@ -8695,7 +8741,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Gibea",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Guibea"
+}
+]
 }
 },
 {
@@ -8788,7 +8842,22 @@
 "language": "fra"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "group:Gebal",
+"type": "group",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "Guiblite"
+},
+{
+"id": "place:Gebal",
+"type": "place",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "Guebal"
+}
+]
 }
 },
 {

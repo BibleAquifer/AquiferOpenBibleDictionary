@@ -15975,7 +15975,15 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Scroll",
+"type": "realia",
+"confidence": 0.598,
+"match_method": "scored",
+"preferred_label": "Scroll"
+}
+]
 }
 },
 {
@@ -27387,18 +27395,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Samgar",
-"type": "person",
-"confidence": 0.9595,
-"match_method": "scored",
-"preferred_label": "Samgar"
-},
-{
 "id": "person:Nergal-shar-ezer",
 "type": "person",
 "confidence": 0.9595,
 "match_method": "scored",
 "preferred_label": "Nergal-shar-ezer"
+},
+{
+"id": "person:Samgar",
+"type": "person",
+"confidence": 0.9595,
+"match_method": "scored",
+"preferred_label": "Samgar"
 }
 ]
 }
@@ -30343,18 +30351,18 @@
 ],
 "acai": [
 {
-"id": "place:HermonMount",
-"type": "place",
-"confidence": 0.65,
-"match_method": "scored",
-"preferred_label": "حَرْمونَ"
-},
-{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.65,
 "match_method": "scored",
 "preferred_label": "أورشَلِيمَ"
+},
+{
+"id": "place:HermonMount",
+"type": "place",
+"confidence": 0.65,
+"match_method": "scored",
+"preferred_label": "حَرْمونَ"
 }
 ]
 }

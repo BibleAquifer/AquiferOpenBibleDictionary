@@ -4118,7 +4118,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Haahashtari",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Achaschthari"
+}
+]
 }
 },
 {
@@ -25764,7 +25772,15 @@
 "language": "fra"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Ashan",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Aschan"
+}
+]
 }
 },
 {
@@ -27262,7 +27278,22 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "person:Hassenuah",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Assenua"
+},
+{
+"id": "place:Senaah",
+"type": "place",
+"confidence": 0.7105,
+"match_method": "scored",
+"preferred_label": "Senaa"
+}
+]
 }
 },
 {
@@ -27792,7 +27823,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "fauna:Maggot",
+"type": "fauna",
+"confidence": 1.0,
+"match_method": "scored",
+"preferred_label": "Worm"
+}
+]
 }
 },
 {
@@ -29523,18 +29562,18 @@
 "preferred_label": "Altar"
 },
 {
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.7674,
-"match_method": "scored",
-"preferred_label": "Stone Altar"
-},
-{
 "id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.7674,
 "match_method": "scored",
 "preferred_label": "Temple Altar"
+},
+{
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.7674,
+"match_method": "scored",
+"preferred_label": "Stone Altar"
 },
 {
 "id": "realia:TabernacleAltar",
@@ -29923,7 +29962,15 @@
 "language": "fra"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "place:Ivvah",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Ivva"
+}
+]
 }
 },
 {
