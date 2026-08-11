@@ -1002,18 +1002,18 @@
 "preferred_label": "Oak"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.589,
-"match_method": "scored",
-"preferred_label": "Vine"
-},
-{
 "id": "place:Bethel",
 "type": "place",
 "confidence": 0.589,
 "match_method": "scored",
 "preferred_label": "Bethel"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.589,
+"match_method": "scored",
+"preferred_label": "Vine"
 }
 ]
 }
@@ -2886,18 +2886,18 @@
 "preferred_label": "Persia"
 },
 {
-"id": "place:Elam",
-"type": "place",
-"confidence": 0.652,
-"match_method": "scored",
-"preferred_label": "Elam"
-},
-{
 "id": "group:Elam",
 "type": "group",
 "confidence": 0.652,
 "match_method": "scored",
 "preferred_label": "Elamites"
+},
+{
+"id": "place:Elam",
+"type": "place",
+"confidence": 0.652,
+"match_method": "scored",
+"preferred_label": "Elam"
 },
 {
 "id": "group:Persia",
@@ -4856,7 +4856,7 @@
 "index_reference": "teman place",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>TEMAN (Place)</h1><p>In the prophetic writings, Teman seems to have been considered the principal city of Edom and is often used as a poetic parallel for the entire land of Edom (<a href=\"https://ref.ly/Jer49:7,Jer49:20\">Jer 49:7, 20</a>; <a href=\"https://ref.ly/Amos1:12\">Am 1:12</a>; <a href=\"https://ref.ly/Obad1:9\">Ob 1:9</a>). Since Teman means “south,” it is likely that Teman was located in the far south of Edom; however, its precise location remains unknown. The residents of Teman were evidently well known for their wisdom (<a href=\"https://ref.ly/Jer49:7\">Jer 49:7</a>; <a href=\"https://ref.ly/Obad1:9\">Ob 1:9</a>). This reputation may well derive from Eliphaz the Temanite, who was one of Job’s counselors (<a href=\"https://ref.ly/Job2:11,Job2:4\">Jb 2:11, 4:1</a>; <a href=\"https://ref.ly/Job15:1\">15:1</a>; <a href=\"https://ref.ly/Job22:1\">22:1</a>; <a href=\"https://ref.ly/Job42:7-Job42:9\">42:7–9</a>).</p>",
+"content": "<h1>TEMAN (Place)</h1><p>In the prophetic books, Teman seems to have been an important city in Edom. The name is sometimes used in poetry to represent the whole land of Edom (<a href=\"https://ref.ly/Jer49:7,Jer49:20\">Jeremiah 49:7, 20</a>; <a href=\"https://ref.ly/Amos1:12\">Amos 1:12</a>; <a href=\"https://ref.ly/Obad1:9\">Obadiah 1:9</a>). </p><p>Since Teman means “south,” it is likey that the city may have been in the southern part of Edom. However, its exact location is unknown.</p><p>The people of Teman were known for their wisdom (<a href=\"https://ref.ly/Jer49:7\">Jeremiah 49:7</a>; <a href=\"https://ref.ly/Obad1:8-Obad1:9\">Obadiah 1:8–9</a>). This reputation may be connected with Eliphaz the Temanite, one of Job’s counselors (<a href=\"https://ref.ly/Job2:11,Job2:4\">Job 2:11, 4:1</a>; <a href=\"https://ref.ly/Job15:1\">15:1</a>; <a href=\"https://ref.ly/Job22:1\">22:1</a>; <a href=\"https://ref.ly/Job42:7-Job42:9\">42:7–9</a>).</p><p><em>See also</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4112\" data-resourceType=\"TyndaleBibleDictionary\">Edom, Edomites</span>.</p>",
 "associations": {
 "passage": [
 {
@@ -4912,9 +4912,23 @@
 "start_ref_usfm": "JOB 42:7",
 "end_ref": "18042009",
 "end_ref_usfm": "JOB 42:9"
+},
+{
+"start_ref": "31001008",
+"start_ref_usfm": "OBA 1:8",
+"end_ref": "31001009",
+"end_ref_usfm": "OBA 1:9"
 }
 ],
-"resource": [],
+"resource": [
+{
+"reference_id": 4112,
+"content_id": 4944,
+"resource_code": "TyndaleBibleDictionary",
+"label": "Edom, Edomites",
+"language": "eng"
+}
+],
 "acai": [
 {
 "id": "place:Teman",
@@ -4926,7 +4940,7 @@
 {
 "id": "group:Teman",
 "type": "group",
-"confidence": 0.7818,
+"confidence": 0.7667,
 "match_method": "scored",
 "preferred_label": "Temanites"
 }
@@ -8322,18 +8336,18 @@
 "preferred_label": "Brier"
 },
 {
-"id": "flora:Boxthorn",
-"type": "flora",
-"confidence": 0.65,
-"match_method": "scored",
-"preferred_label": "Boxthorn"
-},
-{
 "id": "flora:Thistle",
 "type": "flora",
 "confidence": 0.65,
 "match_method": "scored",
 "preferred_label": "Thistle"
+},
+{
+"id": "flora:Boxthorn",
+"type": "flora",
+"confidence": 0.65,
+"match_method": "scored",
+"preferred_label": "Boxthorn"
 }
 ]
 }
