@@ -812,7 +812,7 @@
 "index_reference": "sachia sachiah",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>SACHIA*, SACHIAH*</h1><p>NASB and nkjv, respectively, for Sakia (nlt, niv). <em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"7265\" data-resourceType=\"TyndaleBibleDictionary\">Sakia</span>.</p>",
+"content": "<h1>SACHIA, SACHIAH</h1><p>Sachia and Sachiah are alternate forms of the name Sakia. The New American Standard Bible uses Sachia, while the New King James Version uses Sachiah.</p><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"7265\" data-resourceType=\"TyndaleBibleDictionary\">Sakia</span>.</p>",
 "associations": {
 "passage": [],
 "resource": [
@@ -820,7 +820,7 @@
 "reference_id": 7265,
 "content_id": 8097,
 "resource_code": "TyndaleBibleDictionary",
-"label": "Sakia",
+"label": "Sachia",
 "language": "eng"
 }
 ],
@@ -3332,18 +3332,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Nergal-shar-ezer",
-"type": "person",
-"confidence": 0.9595,
-"match_method": "scored",
-"preferred_label": "Nergal-shar-ezer"
-},
-{
 "id": "person:Samgar",
 "type": "person",
 "confidence": 0.9595,
 "match_method": "scored",
 "preferred_label": "Samgar"
+},
+{
+"id": "person:Nergal-shar-ezer",
+"type": "person",
+"confidence": 0.9595,
+"match_method": "scored",
+"preferred_label": "Nergal-shar-ezer"
 }
 ]
 }
@@ -5687,7 +5687,7 @@
 "index_reference": "sarai",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>SARAI</h1><p>Original name for Sarah, Abraham’s wife (<a href=\"https://ref.ly/Gen11:29\">Gn 11:29</a>). <em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"7308\" data-resourceType=\"TyndaleBibleDictionary\">Sarah #1</span>.</p>",
+"content": "<h1>SARAI</h1><p>Sarai was the original name for Sarah,<span> the wife of the patriarch </span>Abraham (<a href=\"https://ref.ly/Gen11:29\">Genesis 11:29</a>). God later changed her name from Sarai to Sarah (<a href=\"https://ref.ly/Gen17:15\">Genesis 17:15</a>).</p><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"7308\" data-resourceType=\"TyndaleBibleDictionary\">Sarah #1</span>.</p>",
 "associations": {
 "passage": [
 {
@@ -8908,6 +8908,38 @@
 }
 },
 {
+"content_id": "8558",
+"reference_id": 7726,
+"version": "1.0.4",
+"title": "Sea of Sodom",
+"media_type": "Text",
+"index_reference": "sea of sodom",
+"language": "eng",
+"review_level": "None",
+"content": "<h1>SEA OF SODOM</h1><p>The Sea of Sodom is another name for the Dead Sea, a large salt lake near the ancient city of Sodom.</p><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3947\" data-resourceType=\"TyndaleBibleDictionary\">Dead Sea</span>.</p>",
+"associations": {
+"passage": [],
+"resource": [
+{
+"reference_id": 3947,
+"content_id": 4779,
+"resource_code": "TyndaleBibleDictionary",
+"label": "Dead Sea",
+"language": "eng"
+}
+],
+"acai": [
+{
+"id": "place:Sodom",
+"type": "place",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Sodom"
+}
+]
+}
+},
+{
 "content_id": "3686",
 "reference_id": 2854,
 "version": "1.0.4",
@@ -12058,7 +12090,7 @@
 "index_reference": "septuagint",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>SEPTUAGINT*</h1><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3397\" data-resourceType=\"TyndaleBibleDictionary\">Bible, Versions of the (Ancient)</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"3392\" data-resourceType=\"TyndaleBibleDictionary\">Bible, Canon of the</span>.</p>",
+"content": "<h1>SEPTUAGINT</h1><p>The Septuagint is a Greek translation of the Hebrew Scriptures. Translation began with the Pentateuch (the first five books of the Bible) in Egypt during the third century BC. Other books were translated later by different translators. Their translations vary in how closely they follow the Hebrew text.</p><p>The name Septuagint comes from an ancient tradition about the translation of the Pentateuch. The Letter of Aristeas says that 72 Jewish elders produced the translation. This number was commonly rounded to 70, and the Septuagint became known by the abbreviation LXX, the Roman numeral for 70.</p><p>Manuscripts of the Septuagint also contain books that are not part of the Hebrew Bible. New Testament writers often quote the Septuagint, and in some places its wording differs from the Hebrew text.</p><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3397\" data-resourceType=\"TyndaleBibleDictionary\">Ancient Versions of the Bible</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"3392\" data-resourceType=\"TyndaleBibleDictionary\">Canon of the Bible</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"6644\" data-resourceType=\"TyndaleBibleDictionary\">Old Testament Canon</span>.</p>",
 "associations": {
 "passage": [],
 "resource": [
@@ -12066,14 +12098,21 @@
 "reference_id": 3392,
 "content_id": 4224,
 "resource_code": "TyndaleBibleDictionary",
-"label": "Bible, Canon of the",
+"label": "Canon of the Bible",
 "language": "eng"
 },
 {
 "reference_id": 3397,
 "content_id": 4229,
 "resource_code": "TyndaleBibleDictionary",
-"label": "Bible, Versions of the (Ancient)",
+"label": "Ancient Versions of the Bible",
+"language": "eng"
+},
+{
+"reference_id": 6644,
+"content_id": 7476,
+"resource_code": "TyndaleBibleDictionary",
+"label": "Old Testament Canon",
 "language": "eng"
 }
 ],
@@ -15328,18 +15367,18 @@
 ],
 "acai": [
 {
-"id": "person:Shomer.2",
-"type": "person",
-"confidence": 0.8,
-"match_method": "scored",
-"preferred_label": "Shomer"
-},
-{
 "id": "person:Shemer.2",
 "type": "person",
 "confidence": 0.8,
 "match_method": "scored",
 "preferred_label": "Shemer"
+},
+{
+"id": "person:Shomer.2",
+"type": "person",
+"confidence": 0.8,
+"match_method": "scored",
+"preferred_label": "Shomer"
 }
 ]
 }
@@ -15964,7 +16003,7 @@
 "index_reference": "shamsherai",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>SHAMSHERAI</h1><p>Jeroham’s son and a chief in Benjamin’s tribe (<a href=\"https://ref.ly/1Chr8:26\">1&nbsp;Chr 8:26</a>).</p>",
+"content": "<h1>SHAMSHERAI</h1><p>Shamsherai was Jeroham’s son and a chief in the tribe of Benjamin (<a href=\"https://ref.ly/1Chr8:26\">1&nbsp;Chronicles 8:26</a>).</p>",
 "associations": {
 "passage": [
 {
@@ -18401,7 +18440,7 @@
 "index_reference": "shekel",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>SHEKEL</h1><p>Weight, and later also a coin. <em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3779\" data-resourceType=\"TyndaleBibleDictionary\">Coins</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"8219\" data-resourceType=\"TyndaleBibleDictionary\">Weights and Measures</span>.</p>",
+"content": "<h1>SHEKEL</h1><p>A shekel was a unit of weight used in biblical times, especially for weighing silver and other valuable materials. Later, the term was also used for a coin.</p><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3779\" data-resourceType=\"TyndaleBibleDictionary\">Coins</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"8219\" data-resourceType=\"TyndaleBibleDictionary\">Weights and Measures</span>.</p>",
 "associations": {
 "passage": [],
 "resource": [
@@ -19113,7 +19152,7 @@
 "index_reference": "shelesh",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>SHELESH</h1><p>Helem’s son and a chief of Asher’s tribe (<a href=\"https://ref.ly/1Chr7:35\">1&nbsp;Chr 7:35</a>).</p>",
+"content": "<h1>SHELESH</h1><p>Shelesh was Helem’s son and a chief of the tribe of Asher (<a href=\"https://ref.ly/1Chr7:35\">1&nbsp;Chronicles 7:35</a>).</p>",
 "associations": {
 "passage": [
 {
@@ -22934,7 +22973,7 @@
 "index_reference": "shilshah",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>SHILSHAH</h1><p>Zophah’s son and a chief of Asher’s tribe (<a href=\"https://ref.ly/1Chr7:37\">1&nbsp;Chr 7:37</a>).</p>",
+"content": "<h1>SHILSHAH</h1><p>Shilshah was Zophah’s son and a chief of the tribe of Asher (<a href=\"https://ref.ly/1Chr7:37\">1&nbsp;Chronicles 7:37</a>).</p>",
 "associations": {
 "passage": [
 {
@@ -23593,18 +23632,18 @@
 "preferred_label": "Shimeites"
 },
 {
-"id": "group:Shiphmites",
-"type": "group",
-"confidence": 0.607,
-"match_method": "scored",
-"preferred_label": "Shiphmites"
-},
-{
 "id": "group:Ramathites",
 "type": "group",
 "confidence": 0.607,
 "match_method": "scored",
 "preferred_label": "Ramathites"
+},
+{
+"id": "group:Shiphmites",
+"type": "group",
+"confidence": 0.607,
+"match_method": "scored",
+"preferred_label": "Shiphmites"
 }
 ]
 }
@@ -24405,7 +24444,7 @@
 "index_reference": "shiphi",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>SHIPHI</h1><p>Ziza’s father and a prince in Simeon’s tribe (<a href=\"https://ref.ly/1Chr4:37\">1&nbsp;Chr 4:37</a>).</p>",
+"content": "<h1>SHIPHI</h1><p>Shiphi was Ziza’s father and a prince in the tribe of Simeon (<a href=\"https://ref.ly/1Chr4:37\">1&nbsp;Chronicles 4:37</a>).</p>",
 "associations": {
 "passage": [
 {
@@ -25281,7 +25320,7 @@
 "index_reference": "shoham",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>SHOHAM</h1><p>Merarite Levite, and Jaaziah’s son in David’s reign (<a href=\"https://ref.ly/1Chr24:27\">1&nbsp;Chr 24:27</a>).</p>",
+"content": "<h1>SHOHAM</h1><p>Shoham was a member of the tribe of Levi from the family of Merari. He was a son of Jaaziah and lived during the reign of King David (<a href=\"https://ref.ly/1Chr24:27\">1&nbsp;Chronicles 24:27</a>).</p>",
 "associations": {
 "passage": [
 {
@@ -25377,7 +25416,7 @@
 "index_reference": "shophach",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>SHOPHACH*</h1><p>Alternate form of Shobach in <a href=\"https://ref.ly/1Chr19:16-1Chr19:18\">1&nbsp;Chronicles 19:16–18</a> (nlt mg). <em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"7607\" data-resourceType=\"TyndaleBibleDictionary\">Shobach</span>.</p>",
+"content": "<h1>SHOPHACH</h1><p>Shophach is another form of Shobach in <a href=\"https://ref.ly/1Chr19:16-1Chr19:18\">1&nbsp;Chronicles 19:16–18</a>. </p><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"7607\" data-resourceType=\"TyndaleBibleDictionary\">Shobach</span>.</p>",
 "associations": {
 "passage": [
 {
@@ -25416,7 +25455,7 @@
 "index_reference": "shophar",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>SHOPHAR*</h1><p>Primitive musical instrument made from an animal’s horn. <em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"6414\" data-resourceType=\"TyndaleBibleDictionary\">Musical Instruments</span>.</p>",
+"content": "<h1>SHOPHAR</h1><p>A shophar was an ancient musical instrument made from an animal’s horn. People blew into it to produce a loud sound.</p><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"6414\" data-resourceType=\"TyndaleBibleDictionary\">Musical Instruments</span>.</p>",
 "associations": {
 "passage": [],
 "resource": [
@@ -25686,7 +25725,7 @@
 "index_reference": "shual person",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>SHUAL (Person)</h1><p>Zophah’s son and a leader in Asher’s tribe (<a href=\"https://ref.ly/1Chr7:36\">1&nbsp;Chr 7:36</a>).</p>",
+"content": "<h1>SHUAL (Person)</h1><p>Shual was Zophah’s son and a leader in the tribe of Asher (<a href=\"https://ref.ly/1Chr7:36\">1&nbsp;Chronicles 7:36</a>).</p>",
 "associations": {
 "passage": [
 {
@@ -26818,7 +26857,7 @@
 "index_reference": "sichem",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>SICHEM*</h1><p>KJV form of Shechem in <a href=\"https://ref.ly/Gen12:6\">Genesis 12:6</a>. <em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"7492\" data-resourceType=\"TyndaleBibleDictionary\">Shechem (Place)</span>.</p>",
+"content": "<h1>SICHEM</h1><p>Sichem is the King James Version form of Shechem in <a href=\"https://ref.ly/Gen12:6\">Genesis 12:6</a>. </p><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"7492\" data-resourceType=\"TyndaleBibleDictionary\">Shechem (Place)</span>.</p>",
 "associations": {
 "passage": [
 {
@@ -28179,7 +28218,7 @@
 "index_reference": "silver",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>SILVER</h1><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3779\" data-resourceType=\"TyndaleBibleDictionary\">Coins</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"6313\" data-resourceType=\"TyndaleBibleDictionary\">Minerals and Metals</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"7796\" data-resourceType=\"TyndaleBibleDictionary\">Stones, Precious</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"6362\" data-resourceType=\"TyndaleBibleDictionary\">Money</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"3158\" data-resourceType=\"TyndaleBibleDictionary\">Banker, Banking</span>.</p>",
+"content": "<h1>SILVER</h1><p>Silver is a valuable metal that is white and shiny when polished. In biblical times, it was second only to gold in value. Before people used coins, they weighed silver and used it as money.</p><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3779\" data-resourceType=\"TyndaleBibleDictionary\">Coins</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"6313\" data-resourceType=\"TyndaleBibleDictionary\">Minerals and Metals</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"7796\" data-resourceType=\"TyndaleBibleDictionary\">Stones, Precious</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"6362\" data-resourceType=\"TyndaleBibleDictionary\">Money</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"3158\" data-resourceType=\"TyndaleBibleDictionary\">Banker, Banking</span>.</p>",
 "associations": {
 "passage": [],
 "resource": [
@@ -28215,7 +28254,7 @@
 "reference_id": 7796,
 "content_id": 8628,
 "resource_code": "TyndaleBibleDictionary",
-"label": "Stones, Precious",
+"label": "Precious Stones",
 "language": "eng"
 }
 ],
@@ -30276,18 +30315,18 @@
 ],
 "acai": [
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.65,
-"match_method": "scored",
-"preferred_label": "Jerusalem"
-},
-{
 "id": "place:HermonMount",
 "type": "place",
 "confidence": 0.65,
 "match_method": "scored",
 "preferred_label": "Mount Hermon"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.65,
+"match_method": "scored",
+"preferred_label": "Jerusalem"
 }
 ]
 }
@@ -31763,18 +31802,18 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:Net",
-"type": "realia",
-"confidence": 0.65,
-"match_method": "scored",
-"preferred_label": "Net"
-},
-{
 "id": "realia:Trap",
 "type": "realia",
 "confidence": 0.65,
 "match_method": "scored",
 "preferred_label": "Trap"
+},
+{
+"id": "realia:Net",
+"type": "realia",
+"confidence": 0.65,
+"match_method": "scored",
+"preferred_label": "Net"
 }
 ]
 }
@@ -32288,38 +32327,6 @@
 }
 },
 {
-"content_id": "8558",
-"reference_id": 7726,
-"version": "1.0.4",
-"title": "Sodom, Sea of",
-"media_type": "Text",
-"index_reference": "sodom sea of",
-"language": "eng",
-"review_level": "None",
-"content": "<h1>SODOM*, Sea of</h1><p>Alternate name for the Dead Sea. <em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3947\" data-resourceType=\"TyndaleBibleDictionary\">Dead Sea</span>.</p>",
-"associations": {
-"passage": [],
-"resource": [
-{
-"reference_id": 3947,
-"content_id": 4779,
-"resource_code": "TyndaleBibleDictionary",
-"label": "Dead Sea",
-"language": "eng"
-}
-],
-"acai": [
-{
-"id": "place:Sodom",
-"type": "place",
-"confidence": 1.0,
-"match_method": "content_id",
-"preferred_label": "Sodom"
-}
-]
-}
-},
-{
 "content_id": "8560",
 "reference_id": 7728,
 "version": "1.0.4",
@@ -32776,7 +32783,7 @@
 "index_reference": "son",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>SON</h1><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4403\" data-resourceType=\"TyndaleBibleDictionary\">Family Life and Relations</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"4581\" data-resourceType=\"TyndaleBibleDictionary\">Genealogy</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"7739\" data-resourceType=\"TyndaleBibleDictionary\">Son of God</span>.</p>",
+"content": "<h1>SON</h1><p>A son is a male child in relation to his parents. In the Bible, the word can also refer to a male descendant or describe a special relationship. The title “Son of God” is used in important ways for Jesus Christ.</p><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"4403\" data-resourceType=\"TyndaleBibleDictionary\">Family Life and Relations</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"4581\" data-resourceType=\"TyndaleBibleDictionary\">Genealogy</span>; <span data-bnType=\"resourceReference\" data-resourceId=\"7739\" data-resourceType=\"TyndaleBibleDictionary\">Son of God</span>.</p>",
 "associations": {
 "passage": [],
 "resource": [
@@ -34140,7 +34147,7 @@
 "index_reference": "song of the three young men",
 "language": "eng",
 "review_level": "None",
-"content": "<h1>SONG OF THE THREE YOUNG MEN</h1><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3913\" data-resourceType=\"TyndaleBibleDictionary\">Daniel, Additions to</span>.</p>",
+"content": "<h1>SONG OF THE THREE YOUNG MEN</h1><p>The Song of the Three Young Men is a passage included in the Greek additions to the book of Daniel. It describes the three young Jewish men praising God while they are in the fiery furnace. It is included in the deuterocanonical books accepted as Scripture by Catholic and Orthodox traditions.</p><p><em>See</em> <span data-bnType=\"resourceReference\" data-resourceId=\"3913\" data-resourceType=\"TyndaleBibleDictionary\">Additions to Daniel</span>.</p>",
 "associations": {
 "passage": [],
 "resource": [
