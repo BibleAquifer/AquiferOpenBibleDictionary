@@ -18543,18 +18543,18 @@
 ],
 "acai": [
 {
-"id": "person:Puah",
-"type": "person",
-"confidence": 0.937,
-"match_method": "scored",
-"preferred_label": "पूआ"
-},
-{
 "id": "group:Punite",
 "type": "group",
 "confidence": 0.937,
 "match_method": "scored",
 "preferred_label": "Punites"
+},
+{
+"id": "person:Puah",
+"type": "person",
+"confidence": 0.937,
+"match_method": "scored",
+"preferred_label": "पूआ"
 }
 ]
 }
@@ -19836,13 +19836,6 @@
 "preferred_label": "Gate of Jeshanah"
 },
 {
-"id": "place:GuardGate",
-"type": "place",
-"confidence": 0.5848,
-"match_method": "scored",
-"preferred_label": "Gate of the Guard"
-},
-{
 "id": "place:EphraimGate",
 "type": "place",
 "confidence": 0.5848,
@@ -19850,11 +19843,11 @@
 "preferred_label": "Ephraim Gate"
 },
 {
-"id": "place:FishGate",
+"id": "place:GuardGate",
 "type": "place",
 "confidence": 0.5848,
 "match_method": "scored",
-"preferred_label": "Fish Gate"
+"preferred_label": "Gate of the Guard"
 },
 {
 "id": "place:SheepGate",
@@ -19862,6 +19855,13 @@
 "confidence": 0.5848,
 "match_method": "scored",
 "preferred_label": "भेड़ फाटक"
+},
+{
+"id": "place:FishGate",
+"type": "place",
+"confidence": 0.5848,
+"match_method": "scored",
+"preferred_label": "Fish Gate"
 }
 ]
 }
