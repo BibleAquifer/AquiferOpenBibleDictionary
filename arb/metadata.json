@@ -3,10 +3,10 @@
 "aquifer_type": "Dictionary",
 "resource_type": "Bible Dictionary",
 "title": "Aquifer Open Bible Dictionary",
-"aquifer_name": "قاموس الكتاب المقدس (تينديل)",
+"aquifer_name": "Aquifer Open Bible Dictionary",
 "version": "1.1.2",
 "collection_title": "Bible Dictionary (Tyndale)",
-"short_name": "TBD",
+"short_name": "AOBD",
 "license_info": {
 "title": "Aquifer Open Bible Dictionary",
 "copyright": {
@@ -29,7 +29,7 @@
 },
 "adaptation_notice": "<p><b>Aquifer Open Bible Dictionary</b></p><p>This work is an adaptation of <cite>Tyndale Open Bible Dictionary</cite> © 2023 Tyndale House Publishers, licensed under the CC BY-SA 4.0 license. The adaptation, <cite>Aquifer Open Bible Dictionary</cite>, was created by Mission Mutual and is also licensed under CC BY-SA 4.0.</p><p>This resource has been adapted into multiple languages, including English, Tok Pisin, Arabic (عربي), French (Français), Hindi (हिंदी), Indonesian (Bahasa Indonesia), Portuguese (Português), Russian (Русский), Spanish (Español), Swahili (Kiswahili), and Simplified Chinese (简体中文).</p>",
 "resource_code": "AquiferOpenBibleDictionary",
-"date_created": "2026-08-25",
+"date_created": "2026-08-28",
 "language": "arb",
 "localizations": [
 "eng",
@@ -56,7 +56,7 @@
 "version": "1.0.0",
 "category": "source",
 "defaultLocale": "en",
-"dateCreated": "2026-08-25T15:42:57.329427"
+"dateCreated": "2026-08-28T16:47:30.670654"
 },
 "idAuthorities": {
 "aquifer": {
@@ -70,7 +70,7 @@
 "primary": {
 "aquifer": {
 "AquiferOpenBibleDictionary": {
-"timestamp": "2026-08-25T15:42:57.329427"
+"timestamp": "2026-08-28T16:47:30.670654"
 }
 }
 },
@@ -78,7 +78,7 @@
 "ar": "Aquifer Open Bible Dictionary"
 },
 "abbreviation": {
-"ar": "TBD"
+"ar": "AOBD"
 }
 },
 "languages": [
@@ -102,7 +102,7 @@
 "ingredients": {
 "json/001.content.json": {
 "mimeType": "text/json",
-"size": 3707164,
+"size": 3978475,
 "scope": {
 "ا": [
 "آبَارِ بَنِي يَعْقَانَ",
@@ -1001,7 +1001,7 @@
 },
 "json/002.content.json": {
 "mimeType": "text/json",
-"size": 1355711,
+"size": 1484907,
 "scope": {
 "ب": [
 "الباب الجديد",
@@ -1459,7 +1459,7 @@
 },
 "json/003.content.json": {
 "mimeType": "text/json",
-"size": 1195489,
+"size": 1297248,
 "scope": {
 "ت": [
 "التأديب",
@@ -1482,11 +1482,11 @@
 "التعليم",
 "التعيين المسبق",
 "التفسير الرمزيّ",
-"التقاويم، القديمة والحديثة",
 "التَّقْدِمَات والذَّبَائِح",
 "التقديس",
 "التقسيم الثلاثي",
 "التقليد",
+"التقويمات القديمة والحديثة",
 "التكلم بألسنة",
 "التلمود*",
 "التلميذ المحبوب*",
@@ -1694,7 +1694,7 @@
 },
 "json/004.content.json": {
 "mimeType": "text/json",
-"size": 56427,
+"size": 59985,
 "scope": {
 "ث": [
 "الثروة",
@@ -1726,7 +1726,7 @@
 },
 "json/005.content.json": {
 "mimeType": "text/json",
-"size": 657956,
+"size": 715919,
 "scope": {
 "ج": [
 "الجب",
@@ -1950,7 +1950,7 @@
 },
 "json/006.content.json": {
 "mimeType": "text/json",
-"size": 1041688,
+"size": 1131939,
 "scope": {
 "ح": [
 "الحالة الوسطية",
@@ -2258,7 +2258,7 @@
 },
 "json/007.content.json": {
 "mimeType": "text/json",
-"size": 512249,
+"size": 566509,
 "scope": {
 "خ": [
 "الخادم-العبد",
@@ -2337,7 +2337,7 @@
 },
 "json/008.content.json": {
 "mimeType": "text/json",
-"size": 482846,
+"size": 513521,
 "scope": {
 "د": [
 "الدارسُ، الدَّرسُ، البَيْدَرُ",
@@ -2469,7 +2469,7 @@
 },
 "json/009.content.json": {
 "mimeType": "text/json",
-"size": 18400,
+"size": 18936,
 "scope": {
 "ذ": [
 "الذباب المزعج",
@@ -2498,7 +2498,7 @@
 },
 "json/010.content.json": {
 "mimeType": "text/json",
-"size": 999471,
+"size": 1088835,
 "scope": {
 "ر": [
 "الرابي",
@@ -2721,7 +2721,7 @@
 },
 "json/011.content.json": {
 "mimeType": "text/json",
-"size": 311728,
+"size": 340835,
 "scope": {
 "ز": [
 "الزَّحَّافَات",
@@ -2836,7 +2836,7 @@
 },
 "json/012.content.json": {
 "mimeType": "text/json",
-"size": 1828690,
+"size": 1998570,
 "scope": {
 "س": [
 "السَّارِيَة",
@@ -3036,7 +3036,7 @@
 "سليمان (شخص)",
 "سماوات جديدة وأرض جديدة",
 "سماويات، الـ",
-"سمة-خَتْم الله، وسمة الوحش",
+"سمة، خَتْم الله، وسمة الوحش",
 "سمجر نبو",
 "سمعان",
 "سمعان الغيور",
@@ -3123,7 +3123,7 @@
 },
 "json/013.content.json": {
 "mimeType": "text/json",
-"size": 699083,
+"size": 762585,
 "scope": {
 "ش": [
 "الشاهد",
@@ -3399,7 +3399,7 @@
 },
 "json/014.content.json": {
 "mimeType": "text/json",
-"size": 536711,
+"size": 587365,
 "scope": {
 "ص": [
 "الصَّانِع",
@@ -3537,7 +3537,7 @@
 },
 "json/015.content.json": {
 "mimeType": "text/json",
-"size": 75872,
+"size": 82709,
 "scope": {
 "ض": [
 "الضَّحِك",
@@ -3556,7 +3556,7 @@
 },
 "json/016.content.json": {
 "mimeType": "text/json",
-"size": 359078,
+"size": 389429,
 "scope": {
 "ط": [
 "الطب والممارسة الطبية",
@@ -3622,7 +3622,7 @@
 },
 "json/017.content.json": {
 "mimeType": "text/json",
-"size": 26709,
+"size": 30342,
 "scope": {
 "ظ": [
 "الظَّبْي",
@@ -3641,7 +3641,7 @@
 },
 "json/018.content.json": {
 "mimeType": "text/json",
-"size": 1260722,
+"size": 1357095,
 "scope": {
 "ع": [
 "العادات الجنائزية",
@@ -4042,7 +4042,7 @@
 },
 "json/019.content.json": {
 "mimeType": "text/json",
-"size": 194908,
+"size": 211900,
 "scope": {
 "غ": [
 "الغُرْلَة- غير المختون",
@@ -4081,7 +4081,7 @@
 },
 "json/020.content.json": {
 "mimeType": "text/json",
-"size": 557908,
+"size": 597891,
 "scope": {
 "ف": [
 "الفَتْروسيميون",
@@ -4255,7 +4255,7 @@
 },
 "json/021.content.json": {
 "mimeType": "text/json",
-"size": 655003,
+"size": 706604,
 "scope": {
 "ق": [
 "القانون المدني والعدالة",
@@ -4455,7 +4455,7 @@
 },
 "json/022.content.json": {
 "mimeType": "text/json",
-"size": 928641,
+"size": 988129,
 "scope": {
 "ك": [
 "الكاتب",
@@ -4664,7 +4664,7 @@
 },
 "json/023.content.json": {
 "mimeType": "text/json",
-"size": 346345,
+"size": 377127,
 "scope": {
 "ل": [
 "اللا ألفية",
@@ -4771,7 +4771,7 @@
 },
 "json/024.content.json": {
 "mimeType": "text/json",
-"size": 2225804,
+"size": 2431672,
 "scope": {
 "م": [
 "المؤمنون",
@@ -5264,7 +5264,7 @@
 },
 "json/025.content.json": {
 "mimeType": "text/json",
-"size": 1063472,
+"size": 1158530,
 "scope": {
 "ن": [
 "الناموس الجنائي والعقوبة",
@@ -5484,7 +5484,7 @@
 },
 "json/026.content.json": {
 "mimeType": "text/json",
-"size": 469057,
+"size": 502287,
 "scope": {
 "ه": [
 "الهاوية",
@@ -5592,7 +5592,7 @@
 },
 "json/027.content.json": {
 "mimeType": "text/json",
-"size": 249421,
+"size": 269166,
 "scope": {
 "و": [
 "الوالي (بروكيوراتور)",
@@ -5675,7 +5675,7 @@
 },
 "json/028.content.json": {
 "mimeType": "text/json",
-"size": 1324676,
+"size": 1442491,
 "scope": {
 "ي": [
 "الْيَائِيرِيّ",
@@ -6064,7 +6064,7 @@
 },
 "json/029.content.json": {
 "mimeType": "text/json",
-"size": 31046,
+"size": 32592,
 "scope": {
 "null": [
 "The Ten Commandments"
@@ -6073,351 +6073,351 @@
 },
 "md/008.content.md": {
 "mimeType": "text/markdown",
-"size": 365745
+"size": 343907
 },
 "md/009.content.md": {
 "mimeType": "text/markdown",
-"size": 8941
+"size": 8630
 },
 "md/003.content.md": {
 "mimeType": "text/markdown",
-"size": 890291
+"size": 836548
 },
 "md/004.content.md": {
 "mimeType": "text/markdown",
-"size": 37659
+"size": 35404
 },
 "md/011.content.md": {
 "mimeType": "text/markdown",
-"size": 210449
+"size": 190981
 },
 "md/016.content.md": {
 "mimeType": "text/markdown",
-"size": 264479
+"size": 246427
 },
 "md/020.content.md": {
 "mimeType": "text/markdown",
-"size": 409367
+"size": 385302
 },
 "md/027.content.md": {
 "mimeType": "text/markdown",
-"size": 171792
+"size": 159299
 },
 "md/017.content.md": {
 "mimeType": "text/markdown",
-"size": 14041
+"size": 11872
 },
 "md/010.content.md": {
 "mimeType": "text/markdown",
-"size": 714632
+"size": 657109
 },
 "md/005.content.md": {
 "mimeType": "text/markdown",
-"size": 446927
+"size": 408884
 },
 "md/002.content.md": {
 "mimeType": "text/markdown",
-"size": 937038
+"size": 862432
 },
 "md/026.content.md": {
 "mimeType": "text/markdown",
-"size": 350078
+"size": 325927
 },
 "md/021.content.md": {
 "mimeType": "text/markdown",
-"size": 458334
+"size": 424267
 },
 "md/012.content.md": {
 "mimeType": "text/markdown",
-"size": 1313452
+"size": 1192432
 },
 "md/015.content.md": {
 "mimeType": "text/markdown",
-"size": 54945
+"size": 50551
 },
 "md/007.content.md": {
 "mimeType": "text/markdown",
-"size": 357331
+"size": 335024
 },
 "md/023.content.md": {
 "mimeType": "text/markdown",
-"size": 243660
+"size": 230032
 },
 "md/024.content.md": {
 "mimeType": "text/markdown",
-"size": 1579492
+"size": 1452301
 },
 "md/006.content.md": {
 "mimeType": "text/markdown",
-"size": 739933
+"size": 684024
 },
 "md/001.content.md": {
 "mimeType": "text/markdown",
-"size": 2735412
+"size": 2548454
 },
 "md/014.content.md": {
 "mimeType": "text/markdown",
-"size": 374512
+"size": 343073
 },
 "md/013.content.md": {
 "mimeType": "text/markdown",
-"size": 463551
+"size": 423901
 },
 "md/025.content.md": {
 "mimeType": "text/markdown",
-"size": 762703
+"size": 710119
 },
 "md/022.content.md": {
 "mimeType": "text/markdown",
-"size": 704855
+"size": 667262
 },
 "md/028.content.md": {
 "mimeType": "text/markdown",
-"size": 940254
+"size": 856912
 },
 "md/019.content.md": {
 "mimeType": "text/markdown",
-"size": 141877
+"size": 131856
 },
 "md/029.content.md": {
 "mimeType": "text/markdown",
-"size": 28564
+"size": 27509
 },
 "md/018.content.md": {
 "mimeType": "text/markdown",
-"size": 898781
+"size": 830081
 },
 "docx/001.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 908143
+"size": 819080
 },
 "docx/002.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 336011
+"size": 301374
 },
 "docx/003.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 323733
+"size": 298247
 },
 "docx/004.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 55319
+"size": 53892
 },
 "docx/005.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 184792
+"size": 165958
 },
 "docx/006.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 279436
+"size": 251452
 },
 "docx/007.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 157284
+"size": 145830
 },
 "docx/008.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 160237
+"size": 149068
 },
 "docx/009.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 44205
+"size": 43870
 },
 "docx/010.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 270260
+"size": 242186
 },
 "docx/011.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 108149
+"size": 98911
 },
 "docx/012.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 470194
+"size": 414645
 },
 "docx/013.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 186424
+"size": 166452
 },
 "docx/014.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 165119
+"size": 149559
 },
 "docx/015.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 61078
+"size": 58612
 },
 "docx/016.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 128153
+"size": 119191
 },
 "docx/017.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 47150
+"size": 45871
 },
 "docx/018.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 326212
+"size": 293121
 },
 "docx/019.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 89479
+"size": 84210
 },
 "docx/020.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 174135
+"size": 161843
 },
 "docx/021.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 187390
+"size": 170040
 },
 "docx/022.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 261719
+"size": 242204
 },
 "docx/023.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 120576
+"size": 113295
 },
 "docx/024.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 547812
+"size": 486127
 },
 "docx/025.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 285382
+"size": 258801
 },
 "docx/026.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 153410
+"size": 141225
 },
 "docx/027.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 98690
+"size": 91990
 },
 "docx/028.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 332575
+"size": 294471
 },
 "docx/029.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 51734
+"size": 51104
 },
 "pdf/001.content.pdf": {
 "mimeType": "application/pdf",
-"size": 27428815
+"size": 17989638
 },
 "pdf/002.content.pdf": {
 "mimeType": "application/pdf",
-"size": 9972506
+"size": 6079511
 },
 "pdf/003.content.pdf": {
 "mimeType": "application/pdf",
-"size": 8435585
+"size": 5644884
 },
 "pdf/004.content.pdf": {
 "mimeType": "application/pdf",
-"size": 424663
+"size": 305844
 },
 "pdf/005.content.pdf": {
 "mimeType": "application/pdf",
-"size": 4876039
+"size": 2909956
 },
 "pdf/006.content.pdf": {
 "mimeType": "application/pdf",
-"size": 7504027
+"size": 4474491
 },
 "pdf/007.content.pdf": {
 "mimeType": "application/pdf",
-"size": 3775551
+"size": 2431406
 },
 "pdf/008.content.pdf": {
 "mimeType": "application/pdf",
-"size": 3645587
+"size": 2571364
 },
 "pdf/009.content.pdf": {
 "mimeType": "application/pdf",
-"size": 124072
+"size": 112703
 },
 "pdf/010.content.pdf": {
 "mimeType": "application/pdf",
-"size": 7538992
+"size": 4500280
 },
 "pdf/011.content.pdf": {
 "mimeType": "application/pdf",
-"size": 2464504
+"size": 1434569
 },
 "pdf/012.content.pdf": {
 "mimeType": "application/pdf",
-"size": 13738004
+"size": 8535501
 },
 "pdf/013.content.pdf": {
 "mimeType": "application/pdf",
-"size": 4893354
+"size": 2861793
 },
 "pdf/014.content.pdf": {
 "mimeType": "application/pdf",
-"size": 4006308
+"size": 2508564
 },
 "pdf/015.content.pdf": {
 "mimeType": "application/pdf",
-"size": 588838
+"size": 396102
 },
 "pdf/016.content.pdf": {
 "mimeType": "application/pdf",
-"size": 2693100
+"size": 1664336
 },
 "pdf/017.content.pdf": {
 "mimeType": "application/pdf",
-"size": 255238
+"size": 125697
 },
 "pdf/018.content.pdf": {
 "mimeType": "application/pdf",
-"size": 9315455
+"size": 5773054
 },
 "pdf/019.content.pdf": {
 "mimeType": "application/pdf",
-"size": 1506363
+"size": 951264
 },
 "pdf/020.content.pdf": {
 "mimeType": "application/pdf",
-"size": 3898064
+"size": 2768432
 },
 "pdf/021.content.pdf": {
 "mimeType": "application/pdf",
-"size": 4692302
+"size": 2897391
 },
 "pdf/022.content.pdf": {
 "mimeType": "application/pdf",
-"size": 6525931
+"size": 4489203
 },
 "pdf/023.content.pdf": {
 "mimeType": "application/pdf",
-"size": 2330324
+"size": 1598760
 },
 "pdf/024.content.pdf": {
 "mimeType": "application/pdf",
-"size": 16651878
+"size": 10035804
 },
 "pdf/025.content.pdf": {
 "mimeType": "application/pdf",
-"size": 7829854
+"size": 5042057
 },
 "pdf/026.content.pdf": {
 "mimeType": "application/pdf",
-"size": 3463107
+"size": 2230954
 },
 "pdf/027.content.pdf": {
 "mimeType": "application/pdf",
-"size": 1849992
+"size": 1108467
 },
 "pdf/028.content.pdf": {
 "mimeType": "application/pdf",
-"size": 10288396
+"size": 6180504
 },
 "pdf/029.content.pdf": {
 "mimeType": "application/pdf",
-"size": 279758
+"size": 240297
 }
 },
 "copyright": {
@@ -8178,10 +8178,25 @@
 "language": "eng",
 "title": "Acraba"
 },
+"fra": {
+"content_id": 914193,
+"language": "fra",
+"title": "Egrebel"
+},
 "hin": {
 "content_id": 732390,
 "language": "hin",
 "title": "अक्रबा"
+},
+"por": {
+"content_id": 827589,
+"language": "por",
+"title": "Acraba"
+},
+"spa": {
+"content_id": 840440,
+"language": "spa",
+"title": "Acraba"
 }
 }
 },
@@ -25531,7 +25546,7 @@
 "eng": {
 "content_id": 4224,
 "language": "eng",
-"title": "Bible, Canon of the"
+"title": "Canon of the Bible"
 },
 "fra": {
 "content_id": 662271,
@@ -29308,17 +29323,17 @@
 "331755": {
 "content_id": "331755",
 "reference_id": 3559,
-"index_reference": "التقاويم القديمة والحديثة",
+"index_reference": "التقويمات القديمة والحديثة",
 "localizations": {
 "eng": {
 "content_id": 4391,
 "language": "eng",
-"title": "Calendars, Ancient and Modern"
+"title": "Calendars (Ancient and Modern)"
 },
 "fra": {
 "content_id": 756935,
 "language": "fra",
-"title": "Calendriers, Anciens et modernes"
+"title": "calendriers, anciens et modernes"
 },
 "hin": {
 "content_id": 381020,
@@ -32300,6 +32315,11 @@
 "language": "por",
 "title": "Cronologia da Bíblia (Antigo Testamento)"
 },
+"spa": {
+"content_id": 826987,
+"language": "spa",
+"title": "Cronología de la Biblia (Antiguo Testamento)"
+},
 "swh": {
 "content_id": 778842,
 "language": "swh",
@@ -32535,15 +32555,10 @@
 "language": "eng",
 "title": "Circumcision"
 },
-"tpi": {
-"content_id": 26201,
-"language": "tpi",
-"title": "Katim Skin"
-},
 "fra": {
 "content_id": 27238,
 "language": "fra",
-"title": "La circoncision"
+"title": "circoncision"
 },
 "ind": {
 "content_id": 369044,
@@ -42584,6 +42599,11 @@
 "language": "eng",
 "title": "Elisha"
 },
+"fra": {
+"content_id": 831580,
+"language": "fra",
+"title": "Élisée"
+},
 "hin": {
 "content_id": 594505,
 "language": "hin",
@@ -42593,6 +42613,11 @@
 "content_id": 717014,
 "language": "por",
 "title": "Eliseu"
+},
+"spa": {
+"content_id": 838165,
+"language": "spa",
+"title": "Eliseo"
 }
 }
 },
@@ -50842,7 +50867,7 @@
 "fra": {
 "content_id": 806021,
 "language": "fra",
-"title": "Généalogie de Jésus-Christ"
+"title": "généalogie de Jésus-Christ"
 },
 "hin": {
 "content_id": 381490,
@@ -50858,6 +50883,16 @@
 "content_id": 761402,
 "language": "spa",
 "title": "Genealogía de Jesús Cristo"
+},
+"swh": {
+"content_id": 852515,
+"language": "swh",
+"title": "Ukoo wa Yesu Kristo"
+},
+"zht": {
+"content_id": 853344,
+"language": "zht",
+"title": "耶穌基督的家譜"
 }
 }
 },
@@ -60506,10 +60541,25 @@
 "language": "eng",
 "title": "Horonaim"
 },
+"fra": {
+"content_id": 905151,
+"language": "fra",
+"title": "Choronaïm"
+},
 "hin": {
 "content_id": 733204,
 "language": "hin",
 "title": "होरोनैम"
+},
+"por": {
+"content_id": 829218,
+"language": "por",
+"title": "Horonaim"
+},
+"spa": {
+"content_id": 842302,
+"language": "spa",
+"title": "Horonaim"
 }
 }
 },
@@ -74016,10 +74066,25 @@
 "language": "eng",
 "title": "Koa"
 },
+"fra": {
+"content_id": 905169,
+"language": "fra",
+"title": "Quoa, Koa, Coa, Qoa"
+},
 "hin": {
 "content_id": 733351,
 "language": "hin",
 "title": "कोआ"
+},
+"por": {
+"content_id": 829709,
+"language": "por",
+"title": "Coa"
+},
+"spa": {
+"content_id": 842852,
+"language": "spa",
+"title": "Coa"
 }
 }
 },
@@ -80537,17 +80602,32 @@
 "511447": {
 "content_id": "511447",
 "reference_id": 6120,
-"index_reference": "سمةخَتْم الله وسمة الوحش",
+"index_reference": "سمة خَتْم الله وسمة الوحش",
 "localizations": {
 "eng": {
 "content_id": 6952,
 "language": "eng",
 "title": "Mark of God, Mark of the Beast"
 },
+"fra": {
+"content_id": 905191,
+"language": "fra",
+"title": "marque de Dieu, marque de la Bête"
+},
 "hin": {
 "content_id": 733445,
 "language": "hin",
 "title": "परमेश्वर की मुहर, पशु का छाप"
+},
+"por": {
+"content_id": 829894,
+"language": "por",
+"title": "Marcas de Deus, Marcas da besta"
+},
+"spa": {
+"content_id": 843062,
+"language": "spa",
+"title": "Marca de Dios, Marca de la Bestia"
 }
 }
 },
@@ -118066,10 +118146,25 @@
 "language": "eng",
 "title": "Thebes"
 },
+"fra": {
+"content_id": 905275,
+"language": "fra",
+"title": "Thèbes"
+},
 "hin": {
 "content_id": 734015,
 "language": "hin",
 "title": "थेब्स"
+},
+"por": {
+"content_id": 831049,
+"language": "por",
+"title": "Tebas"
+},
+"spa": {
+"content_id": 844372,
+"language": "spa",
+"title": "Tebas"
 }
 }
 },
