@@ -3,10 +3,10 @@
 "aquifer_type": "Dictionary",
 "resource_type": "Bible Dictionary",
 "title": "Aquifer Open Bible Dictionary",
-"aquifer_name": "Dictionnaire biblique (Tyndale)",
+"aquifer_name": "Aquifer Open Bible Dictionary",
 "version": "1.1.2",
 "collection_title": "Bible Dictionary (Tyndale)",
-"short_name": "TBD",
+"short_name": "AOBD",
 "license_info": {
 "title": "Aquifer Open Bible Dictionary",
 "copyright": {
@@ -29,7 +29,7 @@
 },
 "adaptation_notice": "<p><b>Aquifer Open Bible Dictionary</b></p><p>This work is an adaptation of <cite>Tyndale Open Bible Dictionary</cite> © 2023 Tyndale House Publishers, licensed under the CC BY-SA 4.0 license. The adaptation, <cite>Aquifer Open Bible Dictionary</cite>, was created by Mission Mutual and is also licensed under CC BY-SA 4.0.</p><p>This resource has been adapted into multiple languages, including English, Tok Pisin, Arabic (عربي), French (Français), Hindi (हिंदी), Indonesian (Bahasa Indonesia), Portuguese (Português), Russian (Русский), Spanish (Español), Swahili (Kiswahili), and Simplified Chinese (简体中文).</p>",
 "resource_code": "AquiferOpenBibleDictionary",
-"date_created": "2026-08-25",
+"date_created": "2026-08-28",
 "language": "fra",
 "localizations": [
 "eng",
@@ -56,7 +56,7 @@
 "version": "1.0.0",
 "category": "source",
 "defaultLocale": "en",
-"dateCreated": "2026-08-25T15:42:43.136528"
+"dateCreated": "2026-08-28T16:47:19.393345"
 },
 "idAuthorities": {
 "aquifer": {
@@ -70,7 +70,7 @@
 "primary": {
 "aquifer": {
 "AquiferOpenBibleDictionary": {
-"timestamp": "2026-08-25T15:42:43.136528"
+"timestamp": "2026-08-28T16:47:19.393345"
 }
 }
 },
@@ -78,7 +78,7 @@
 "fr": "Aquifer Open Bible Dictionary"
 },
 "abbreviation": {
-"fr": "TBD"
+"fr": "AOBD"
 }
 },
 "languages": [
@@ -102,7 +102,7 @@
 "ingredients": {
 "json/001.content.json": {
 "mimeType": "text/json",
-"size": 1837770,
+"size": 2132503,
 "scope": {
 "a": [
 "Aaron",
@@ -117,10 +117,12 @@
 "Abdeel",
 "Abdi",
 "Abdias (Personne)",
+"Abdias (Vies des apôtres d’)",
 "Abdiel",
 "Abdon (Lieu)",
 "Abdon (Personne)",
 "Abed-Nego",
+"abeille",
 "Abel (Lieu)",
 "Abel (Personne)",
 "Abel-Beth-Maaca",
@@ -172,6 +174,7 @@
 "Abraham (Apocalypse d’)",
 "Abraham (sein d')",
 "Abram",
+"abricot, abricotier",
 "Abron",
 "Abrona",
 "Absalom",
@@ -314,6 +317,7 @@
 "Ahiézer, Achiézer",
 "Ahihud, Achichud",
 "Ahiman, Achiman",
+"Ahiqar (livre)",
 "Ahira",
 "Ahisamac",
 "Aholah",
@@ -338,20 +342,28 @@
 "Akisch",
 "Akiva, rabbin",
 "Akkad",
+"Akkadiens",
 "Akkôs",
 "Akkub",
+"Akrabattène",
 "Akrabbim",
 "Aksa",
 "Akshaf, Akshaph, Akchaph",
 "Akzib",
 "Alamoth",
+"albâtre",
 "Alema",
 "Alémeth (Personne)",
+"Alexandra, Salomé",
 "Alexandre",
+"Alexandre I Balas",
+"Alexandre Jannée (Janneus)",
 "Alexandrie",
+"Alexandrinus, Codex",
 "Aliboufier",
 "Alja",
 "Aljan",
+"Alkime, Alcime",
 "Allammélec",
 "allégorisation",
 "Alléluia",
@@ -359,11 +371,13 @@
 "Alliance",
 "Alliance de sel",
 "Alliance, Livre de l'",
+"Allogène",
 "Allon (Lieu)",
 "Allon (Personne)",
 "Almodad",
 "Almon",
 "Almon-Diblathaim",
+"aloès",
 "Alpha et Oméga",
 "Alphée",
 "Al-Tashkheth, Al-Tashehéth",
@@ -374,6 +388,7 @@
 "Amalek, Amalécites",
 "Amam",
 "Amana",
+"amande, amandier",
 "Amaria",
 "Amarna (tablettes d'argile d')",
 "Amasa",
@@ -387,8 +402,10 @@
 "Amead",
 "Amen",
 "amertume, bile, fiel, venin, poison",
+"améthyste",
 "Ami",
 "ami, amis",
+"amillénarisme",
 "Aminadab",
 "Aminadab, Haminadab, Ammi-Nadib",
 "Amitthaï",
@@ -407,8 +424,10 @@
 "Amon (Personne)",
 "Amoréens",
 "Amos, livre d'",
+"Amos (prophète)",
 "Amots",
 "Amphipolis",
+"Amplias, Ampliatus",
 "Amram",
 "Amramite",
 "Amraphel",
@@ -417,6 +436,7 @@
 "Ana",
 "Anab",
 "Anacharath",
+"Anaël",
 "Anaja",
 "Anak, Anakim, Anakites",
 "Anamim, Ananim",
@@ -425,14 +445,23 @@
 "Anani",
 "Anania (Personne)",
 "Ananias",
+"Ananiel",
 "Anath",
+"anathème",
 "Anathoth (Lieu), Anathothite",
 "Anathoth (Personne)",
+"Ancien des jours",
 "Ancre",
+"Andreas",
+"Andronique, Andronicus",
 "Anem",
+"anémone",
 "Aner (Lieu)",
 "Aner (Personne)",
+"aneth",
 "Ange",
+"Ange du Seigneur, Ange de l'Éternel",
+"Anges des sept Églises",
 "Aniam",
 "Anim",
 "Annan",
@@ -440,35 +469,57 @@
 "Anne",
 "Année du jubilé",
 "Annias",
+"Anniouth",
 "Annonciation",
 "Annunus",
+"Antéchrist",
+"antédiluvien",
 "Anthothija",
+"anthropologie",
+"Antigone",
+"Antilegomena (écrits chrétiens contestés)",
 "Anti-Liban",
 "Antilope",
 "Antioche de Pisidie",
 "Antioche de Syrie",
+"Antiochiens",
+"Antiochis",
 "Antiochus IV",
 "Antiochus V",
+"Antiochus VII",
+"Antipas",
+"Antipater",
 "Antipatris",
+"antitype",
 "Antothite",
 "Anub",
+"Apamè",
+"Apellès",
 "Aphek",
 "Aphéka",
+"Aphéréma",
 "Aphiach",
 "Aphik",
 "Apocalypse de Baruch",
+"apocalypse (genre littéraire)",
 "Apocalypse (livre)",
+"apocalypses apocryphes",
 "apocalyptique",
 "Apocryphes apocalyptiques",
 "apocryphes, livres",
 "Apollonie",
 "Apollonius",
+"Apollophane",
 "Apollos",
+"Apollyon",
 "Apophtegme",
 "Apostasie",
 "Apôtre, Apôtre",
 "Appaïm",
+"Apparitions de Christ",
 "Appel",
+"Apphia",
+"Apphous",
 "Aqueduc",
 "Aquilas",
 "Ar",
@@ -478,9 +529,13 @@
 "Arach",
 "Arad (Lieu)",
 "Arad (Personne)",
+"Aradus, Aradon, Arados",
 "Aram de Damas",
+"Aram (Lieu)",
 "Aram (Personne)",
 "Araméen",
+"Araméens",
+"Aram-Gueschur",
 "Aram-Naharaïm",
 "Aram-Tsoba",
 "Aran",
@@ -489,17 +544,27 @@
 "Aravna",
 "Arba",
 "Arbathite",
+"Arbatta",
+"Arbèles",
 "Arbite",
 "Arbre",
+"arbre à manne",
 "Arbre de la Connaissance du Bien et du Mal",
 "Arbre de Vie",
+"arc",
 "Arc-en-ciel",
+"archange",
 "arche",
 "Arche de l'Alliance",
+"Arche de Noé",
+"Archélaüs",
 "Archéologie biblique",
 "Archer, Tir à l'arc",
+"Archippe",
 "Architecture",
+"archives",
 "Archiviste",
+"Arcturus",
 "Ard, Ardite",
 "Ardon",
 "Areéli, Areélite",
@@ -509,6 +574,7 @@
 "Argent",
 "Argob (Lieu)",
 "Argob (Personne)",
+"Ariarathe",
 "Aridaï",
 "Aridatha",
 "Arié",
@@ -516,12 +582,15 @@
 "Ariel (Personne)",
 "Arimathée",
 "Aristarque",
+"Aristobule",
 "Arizaï",
 "Arjoc",
 "Arki, Arkien",
 "Arkien",
+"armée",
 "Arménie",
 "Armoni",
+"armure",
 "Armures et armes",
 "Arnan",
 "Arni",
@@ -529,14 +598,17 @@
 "Arod, Arodi, Arodite",
 "Aroër",
 "Aroérite",
+"Arpacschad",
 "Arpacschad, Arphaxad",
 "Arpad",
 "arpent",
 "Arpharsathachien, Apharsachien, Apharasien",
+"Arsace",
 "arsenal",
 "Artaxerxès",
 "Artemis",
 "Artisan",
+"artisan",
 "Artsa",
 "Arubboth",
 "Aruma",
@@ -545,8 +617,11 @@
 "Asaël",
 "Asaja",
 "Asaph",
+"Asaramel",
 "Asareel",
+"Ascalon",
 "Ascension de Christ",
+"Ascensions de Jacques",
 "Aschan",
 "Aschareéla",
 "Aschbéa",
@@ -570,23 +645,30 @@
 "Asiel",
 "Asile",
 "Askalon",
+"Asmodée",
 "Asnath",
 "Aspatha",
+"aspic",
 "Asriel, Asriélite",
 "Assarhaddon, Ésar-Haddon",
 "assemblée, montagne de l'",
 "Assenua",
 "Assir",
+"Assomption de Moïse",
 "Assos",
 "Assuérus",
 "Assur",
+"Assur, Assour (lieu)",
+"assurance",
 "Assurbanipal, Osnappar",
+"Assurnasirpal",
 "Assyrie, Assyriens",
 "Astarté",
 "Astarté, Astartés",
 "asticot",
 "Astrologie",
 "Astronomie",
+"Astyage",
 "Asur",
 "Athac",
 "Athad",
@@ -598,6 +680,7 @@
 "Atharoth-Addar",
 "Athbash",
 "Athènes",
+"Athénobius",
 "Ather",
 "Athlaï",
 "Athroth-Beth-Joab",
@@ -652,7 +735,7 @@
 },
 "json/002.content.json": {
 "mimeType": "text/json",
-"size": 780534,
+"size": 894072,
 "scope": {
 "b": [
 "Baal (Idole)",
@@ -667,6 +750,7 @@
 "Baal-Hanan",
 "Baal-Hatsor",
 "Baal-Hermon",
+"Baali",
 "Baalis",
 "Baal-Meon",
 "Baal-Peor",
@@ -678,17 +762,21 @@
 "Baana",
 "Baara",
 "Baaséja",
+"Baba Batra",
 "Babel",
 "Babylone, Babylonie",
+"Babylone (symbolisme)",
 "Baca, Vallée de",
 "Bachurim, Barchum, Bacharum",
 "Baescha",
+"baie",
 "Bain, Se Baigner",
 "Baiser, Baiser de paix",
 "Bajith, Baïth, Bayith",
 "Bakbakkar",
 "Bakbuk",
 "Bakbukia",
+"Bakkhidès",
 "Bala",
 "Balaam",
 "Baladan",
@@ -713,22 +801,26 @@
 "Bared (Lieu)",
 "Bariach",
 "Bar-Jésus",
+"Bar-Kokhba, Bar-Kochba",
 "Barkos",
 "Barnabas",
 "Barodis",
 "Barsabas, Barsabbas",
 "Barthélémy (Apocalypse de)",
 "Barthélemy (apôtre)",
+"Barthélémy (Livre de la résurrection de Christ par)",
 "Bartimée",
 "Baruc",
 "Barzillaï",
 "Basan",
 "basilic",
+"Baskama",
 "Basmath",
 "bath",
 "Bath-Rabbim, porte de",
 "Bath-Schéba",
 "Batslith, Batsluth",
+"Baume, balsamier",
 "baume, huile parfumée, onguent",
 "Bavvaï",
 "Bdellium",
@@ -743,6 +835,7 @@
 "Bédia",
 "Beéliada",
 "Béelzébul",
+"Béelzébul, Béelzéboul",
 "Beer",
 "Beéra",
 "Beer-Élim",
@@ -761,6 +854,7 @@
 "Béla (Personne)",
 "Bélial, Beliar",
 "Belle Porte",
+"Belschatsar",
 "Bema, tribunal",
 "Ben (Personne)",
 "Ben-Abinadab",
@@ -794,6 +888,7 @@
 "Béred (Personne)",
 "Bérée",
 "Bérékia",
+"Bèrèkya",
 "Bérénice",
 "berger",
 "Bergers",
@@ -805,6 +900,7 @@
 "Bésaï",
 "Besodia",
 "Besor, Torrent de",
+"bétail",
 "Bête",
 "Béthach",
 "Beth-Anath",
@@ -826,6 +922,7 @@
 "Beth-Émek",
 "Béthen",
 "Bether",
+"Béthesda",
 "Beth-Gader",
 "Beth-Gamul",
 "Beth-Guilgal",
@@ -897,6 +994,7 @@
 "Bizjothja",
 "Biztha",
 "Blaste",
+"bleu",
 "Boanerges",
 "Boaz (personne)",
 "Boaz (Pilier)",
@@ -922,6 +1020,7 @@
 "Brique, Four à briques",
 "Brodeur, Broderie",
 "Buis",
+"buisson",
 "Buisson ardent",
 "Buki, Bukki",
 "Bukkija",
@@ -940,7 +1039,7 @@
 },
 "json/003.content.json": {
 "mimeType": "text/json",
-"size": 1254152,
+"size": 1407102,
 "scope": {
 "c": [
 "Cab",
@@ -959,6 +1058,7 @@
 "Calébite",
 "calendriers, anciens et modernes",
 "calfeutrer, calfat",
+"Caligula",
 "Calné",
 "Calno",
 "Calvaire",
@@ -969,6 +1069,7 @@
 "Canalisation",
 "Candace",
 "Canné",
+"canne à sucre",
 "Cantique de Débora",
 "Cantique de Moïse",
 "Cantique des cantiques",
@@ -976,12 +1077,15 @@
 "Cantique des pèlerinages",
 "Caphtor, Caphtorim, Caphtorites",
 "Cappadoce",
+"câprier",
 "Caravane",
 "Carcas",
+"Carie",
 "Carkemisch",
 "Carmel",
 "Carmi",
 "Carmite",
+"caroube, carouge, caroubier",
 "Carschena",
 "Casiphia",
 "Casluhim",
@@ -993,6 +1097,8 @@
 "Cenchrées",
 "Cendres",
 "centurion",
+"Cérinthe",
+"César Auguste",
 "Césarée",
 "Césarée de Philippe",
 "Césars, les",
@@ -1006,6 +1112,7 @@
 "Cham (Personne)",
 "Chambellan",
 "chambre haute",
+"chameau, dromadaire",
 "Chamois",
 "Champ de Mars",
 "Champ du foulon",
@@ -1036,6 +1143,7 @@
 "Chêne des Pleurs",
 "Chêne du Pilier",
 "Chênes de Mamré",
+"chenille",
 "Chérubin",
 "Chio",
 "Choba",
@@ -1102,6 +1210,7 @@
 "Consomption",
 "Contremaître",
 "Convoiter, convoitise",
+"Coq (Livre du)",
 "Cor-Aschan",
 "Corazin, Corazaïn",
 "corban",
@@ -1123,6 +1232,7 @@
 "coupe",
 "couronne",
 "coutumes funéraires",
+"couvercle de l’arche",
 "Cozbi",
 "Cozéba",
 "Crâne (lieu du)",
@@ -1163,7 +1273,7 @@
 },
 "json/004.content.json": {
 "mimeType": "text/json",
-"size": 623389,
+"size": 691154,
 "scope": {
 "d": [
 "Dabbéscheth",
@@ -1172,6 +1282,7 @@
 "Dalmanutha",
 "Dalphon",
 "Daman",
+"daman",
 "Damaris",
 "Damas",
 "Dan (Lieu)",
@@ -1277,7 +1388,7 @@
 },
 "json/005.content.json": {
 "mimeType": "text/json",
-"size": 1261936,
+"size": 1386169,
 "scope": {
 "e": [
 "Eau d'amertume, Eau de jalousie",
@@ -1330,6 +1441,7 @@
 "Elchanan",
 "Eldaa",
 "Eldad",
+"Eldad et Médad (livre d')",
 "Élead",
 "Éleada",
 "Élealé",
@@ -1396,6 +1508,7 @@
 "Eluzaï",
 "Élymas",
 "Elzabad",
+"embuscade",
 "Émek-Ketsits",
 "Emim",
 "Emmanuel",
@@ -1521,6 +1634,8 @@
 "Euraquilon",
 "Eutychus, Eutyche, Eutyque",
 "Évangéliste",
+"Évangile arabe de l’Enfance",
+"Évangile arménien de l’Enfance",
 "Ève",
 "Évi",
 "Évil-Merodac",
@@ -1548,7 +1663,7 @@
 },
 "json/006.content.json": {
 "mimeType": "text/json",
-"size": 231612,
+"size": 259022,
 "scope": {
 "f": [
 "Faiseur de tentes",
@@ -1578,6 +1693,7 @@
 "Fils et filles de Dieu",
 "Fils unique (venu du Père)",
 "Firmament",
+"flèche",
 "Fleuve d'Égypte",
 "Foie",
 "Forêt d'Éphraïm",
@@ -1605,7 +1721,7 @@
 },
 "json/007.content.json": {
 "mimeType": "text/json",
-"size": 480134,
+"size": 525511,
 "scope": {
 "g": [
 "Gaal",
@@ -1763,13 +1879,14 @@
 },
 "json/008.content.json": {
 "mimeType": "text/json",
-"size": 651921,
+"size": 720896,
 "scope": {
 "h": [
 "Habakuk, Livre d'",
 "Habakuk (Personne)",
 "Habazinia",
 "Hacalia",
+"hache de guerre",
 "Hacmoni",
 "Hacmonite",
 "Hadad",
@@ -1796,6 +1913,7 @@
 "Hakkots",
 "Hakupha",
 "Halakah",
+"Halélou-yah",
 "Halhul",
 "Hali",
 "Hallel",
@@ -1831,6 +1949,7 @@
 "Hanniel",
 "Hanun",
 "Hapharaïm",
+"Haphra",
 "Happitsets",
 "Hara",
 "Harada",
@@ -1842,6 +1961,7 @@
 "Harhas",
 "Har-Hérès",
 "Harhur",
+"haricot",
 "Harim",
 "Hariph",
 "Harmaguédon",
@@ -1979,6 +2099,7 @@
 "Hillel",
 "Hira",
 "Hiram",
+"Histoire arabe de Joseph le charpentier",
 "Hizki",
 "Hobab",
 "Hobaja, Habaja",
@@ -2049,7 +2170,7 @@
 },
 "json/009.content.json": {
 "mimeType": "text/json",
-"size": 332805,
+"size": 365674,
 "scope": {
 "i": [
 "Ibis",
@@ -2069,6 +2190,7 @@
 "Image de Dieu",
 "Immer (Lieu)",
 "Immer (Person)",
+"immigrant, immigré",
 "Impôts et tributs",
 "impudicité, impudique, fornication",
 "Imputation",
@@ -2094,6 +2216,7 @@
 "Isaac",
 "Isaï (Personne)",
 "Isaï, Rejeton (Racine, Descendant) d'",
+"Isaïe (Ascension d')",
 "Isch-Boscheth",
 "Ischhod",
 "Ismaël",
@@ -2117,7 +2240,7 @@
 },
 "json/010.content.json": {
 "mimeType": "text/json",
-"size": 1185140,
+"size": 1312865,
 "scope": {
 "j": [
 "Jaakan",
@@ -2207,6 +2330,7 @@
 "Javan (Personne)",
 "Jaziz",
 "Jean (Évangile selon)",
+"Jean l’Évangéliste (Livre de)",
 "Jean Marc",
 "Jean (Personne)",
 "Jeanne",
@@ -2386,6 +2510,7 @@
 "Jonathan",
 "Jonathan",
 "Jonath-Élem-Réchokim, Jonath-élem-rehokim",
+"jonc",
 "Joppé",
 "Jora",
 "Joraï",
@@ -2448,7 +2573,7 @@
 },
 "json/011.content.json": {
 "mimeType": "text/json",
-"size": 154377,
+"size": 169930,
 "scope": {
 "k": [
 "Kab",
@@ -2544,7 +2669,7 @@
 },
 "json/012.content.json": {
 "mimeType": "text/json",
-"size": 1026029,
+"size": 1147200,
 "scope": {
 "l": [
 "La Crète",
@@ -2580,6 +2705,7 @@
 "Lascharon",
 "Lasée",
 "Latin",
+"laurier",
 "Lazare",
 "Le blasphème",
 "Le diacre, la diaconesse",
@@ -2603,6 +2729,7 @@
 "L'Éternel notre justice",
 "Lettre aux Galates",
 "Lettre aux Romains",
+"Lettres catholiques",
 "Lettres de Lakis",
 "Lettres écrites (antiques)",
 "Letuschim",
@@ -2637,7 +2764,10 @@
 "Livre de la vie",
 "Livre de l'alliance",
 "Livre de l'Ecclésiaste",
+"Livre de souvenir",
 "Livre des guerres de l'Éternel",
+"Livre des Jubilés",
+"Livre des morts",
 "Livre d'Esther",
 "Livre du Juste",
 "livres de sagesse, livres sapientiaux, livres saptientiels, littérature sapientiale, littérature sapientielle",
@@ -2674,7 +2804,7 @@
 },
 "json/013.content.json": {
 "mimeType": "text/json",
-"size": 1165954,
+"size": 1296457,
 "scope": {
 "m": [
 "Maaca (Lieu)",
@@ -2791,6 +2921,8 @@
 "mariage, coutumes de mariage",
 "Mariage mixte",
 "Marie",
+"Marie (Assomption de)",
+"Marie (Naissance de)",
 "Maroth",
 "marque de Dieu, marque de la Bête",
 "Marsena",
@@ -3011,7 +3143,7 @@
 },
 "json/014.content.json": {
 "mimeType": "text/json",
-"size": 509293,
+"size": 569853,
 "scope": {
 "n": [
 "Naam",
@@ -3099,6 +3231,7 @@
 "Nergal-Scharetser",
 "Néri",
 "Nérija",
+"nerprun",
 "Netaïm",
 "Nethaneel",
 "Nethania",
@@ -3129,8 +3262,10 @@
 "Nocha (Personne)",
 "Nod",
 "Nodab",
+"Noé (livre de)",
 "Noé, Noa",
 "Noga",
+"noir",
 "Nombres et numérologie",
 "Nombres, Livre des",
 "Nophach",
@@ -3141,6 +3276,7 @@
 "Nouveaux Cieux et Nouvelle Terre",
 "nouvelle alliance",
 "Nouvelle création, Nouvelle créature",
+"nouvelle naissance",
 "Nuit",
 "Nun",
 "Nuzi, Tablettes de Nuzi"
@@ -3149,7 +3285,7 @@
 },
 "json/015.content.json": {
 "mimeType": "text/json",
-"size": 390953,
+"size": 444757,
 "scope": {
 "o": [
 "Obal",
@@ -3199,6 +3335,7 @@
 "Oren",
 "Orfèvre",
 "Orfèvre, argentier",
+"orge",
 "Orient, Fils de l'",
 "Orient, Porte de l'",
 "Oronte",
@@ -3215,6 +3352,7 @@
 "oubli, terre de",
 "Oued",
 "Ougarit",
+"ours",
 "Ouvriers, Vallée des",
 "Ozias",
 "Ozias",
@@ -3224,7 +3362,7 @@
 },
 "json/016.content.json": {
 "mimeType": "text/json",
-"size": 1680872,
+"size": 1860864,
 "scope": {
 "p": [
 "Paaraï",
@@ -3338,6 +3476,7 @@
 "petit-duc",
 "Peulthaï",
 "Peuple de Dieu",
+"peuplier",
 "Peur",
 "Phalek",
 "Phanuel",
@@ -3400,6 +3539,7 @@
 "Poissons, Porte des",
 "Pokéreth-Hatsebaïm",
 "Pollux",
+"pomme, pommier",
 "Pont (région)",
 "Poratha",
 "porte de la poterie",
@@ -3409,6 +3549,7 @@
 "Porte entre les deux murs",
 "Porte neuve",
 "Porte Supérieure",
+"porteur d’armes",
 "Portique de Salomon",
 "Portique, vestibule",
 "possessions, richesses",
@@ -3477,7 +3618,7 @@
 },
 "json/017.content.json": {
 "mimeType": "text/json",
-"size": 12804,
+"size": 13129,
 "scope": {
 "q": [
 "Quirinius",
@@ -3488,7 +3629,7 @@
 },
 "json/018.content.json": {
 "mimeType": "text/json",
-"size": 517777,
+"size": 570580,
 "scope": {
 "r": [
 "Raamia",
@@ -3567,6 +3708,7 @@
 "Remalia",
 "Rémeth",
 "Remphan",
+"renoncule",
 "repas, importance des",
 "Réphach",
 "Rephaël",
@@ -3595,6 +3737,7 @@
 "Ribaï",
 "Ribla",
 "Richesse",
+"ricin",
 "Rimmon",
 "Rimmon (Lieu)",
 "Rimmon (Personne)",
@@ -3616,6 +3759,7 @@
 "Rois, Livres d'Un et Deux",
 "Romamthi-Ézer",
 "Rome, ville de",
+"ronce",
 "Rosch",
 "Roseau aromatique",
 "Rosée",
@@ -3635,7 +3779,7 @@
 },
 "json/019.content.json": {
 "mimeType": "text/json",
-"size": 1227214,
+"size": 1350533,
 "scope": {
 "s": [
 "Saba",
@@ -4041,7 +4185,7 @@
 },
 "json/020.content.json": {
 "mimeType": "text/json",
-"size": 681761,
+"size": 749667,
 "scope": {
 "t": [
 "Taanach",
@@ -4199,6 +4343,7 @@
 "Tortue",
 "Tour",
 "Tourbillon",
+"Tout-Puissant",
 "Trachonite",
 "Tradition",
 "Transjordanie",
@@ -4290,7 +4435,7 @@
 },
 "json/021.content.json": {
 "mimeType": "text/json",
-"size": 67659,
+"size": 74871,
 "scope": {
 "u": [
 "Ucal",
@@ -4325,7 +4470,7 @@
 },
 "json/022.content.json": {
 "mimeType": "text/json",
-"size": 190552,
+"size": 206927,
 "scope": {
 "v": [
 "Vaheb",
@@ -4381,7 +4526,7 @@
 },
 "json/023.content.json": {
 "mimeType": "text/json",
-"size": 1570,
+"size": 1606,
 "scope": {
 "y": [
 "Yom Kippour"
@@ -4390,7 +4535,7 @@
 },
 "json/024.content.json": {
 "mimeType": "text/json",
-"size": 145203,
+"size": 161960,
 "scope": {
 "z": [
 "Zaavan",
@@ -4457,291 +4602,291 @@
 },
 "md/008.content.md": {
 "mimeType": "text/markdown",
-"size": 411432
+"size": 378761
 },
 "md/009.content.md": {
 "mimeType": "text/markdown",
-"size": 232436
+"size": 217212
 },
 "md/003.content.md": {
 "mimeType": "text/markdown",
-"size": 840286
+"size": 780294
 },
 "md/004.content.md": {
 "mimeType": "text/markdown",
-"size": 409697
+"size": 366693
 },
 "md/011.content.md": {
 "mimeType": "text/markdown",
-"size": 84977
+"size": 74899
 },
 "md/016.content.md": {
 "mimeType": "text/markdown",
-"size": 1123346
+"size": 1005123
 },
 "md/020.content.md": {
 "mimeType": "text/markdown",
-"size": 433215
+"size": 388739
 },
 "md/017.content.md": {
 "mimeType": "text/markdown",
-"size": 11427
+"size": 11244
 },
 "md/010.content.md": {
 "mimeType": "text/markdown",
-"size": 742860
+"size": 657948
 },
 "md/005.content.md": {
 "mimeType": "text/markdown",
-"size": 837725
+"size": 757858
 },
 "md/002.content.md": {
 "mimeType": "text/markdown",
-"size": 523875
+"size": 516002
 },
 "md/021.content.md": {
 "mimeType": "text/markdown",
-"size": 40529
+"size": 35798
 },
 "md/012.content.md": {
 "mimeType": "text/markdown",
-"size": 696637
+"size": 630739
 },
 "md/015.content.md": {
 "mimeType": "text/markdown",
-"size": 245546
+"size": 216005
 },
 "md/007.content.md": {
 "mimeType": "text/markdown",
-"size": 307588
+"size": 277647
 },
 "md/023.content.md": {
 "mimeType": "text/markdown",
-"size": 1682
+"size": 1648
 },
 "md/024.content.md": {
 "mimeType": "text/markdown",
-"size": 85706
+"size": 74900
 },
 "md/006.content.md": {
 "mimeType": "text/markdown",
-"size": 145982
+"size": 128385
 },
 "md/001.content.md": {
 "mimeType": "text/markdown",
-"size": 1234746
+"size": 1212272
 },
 "md/014.content.md": {
 "mimeType": "text/markdown",
-"size": 326315
+"size": 293572
 },
 "md/013.content.md": {
 "mimeType": "text/markdown",
-"size": 731777
+"size": 647296
 },
 "md/022.content.md": {
 "mimeType": "text/markdown",
-"size": 129402
+"size": 118200
 },
 "md/019.content.md": {
 "mimeType": "text/markdown",
-"size": 763244
+"size": 680824
 },
 "md/018.content.md": {
 "mimeType": "text/markdown",
-"size": 332564
+"size": 300377
 },
 "docx/001.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 514987
+"size": 498588
 },
 "docx/002.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 237501
+"size": 230409
 },
 "docx/003.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 365692
+"size": 334590
 },
 "docx/004.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 203865
+"size": 182566
 },
 "docx/005.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 367041
+"size": 328061
 },
 "docx/006.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 99384
+"size": 90723
 },
 "docx/007.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 162929
+"size": 147248
 },
 "docx/008.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 199851
+"size": 182358
 },
 "docx/009.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 133774
+"size": 125565
 },
 "docx/010.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 328370
+"size": 287805
 },
 "docx/011.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 74800
+"size": 69555
 },
 "docx/012.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 309592
+"size": 277198
 },
 "docx/013.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 329399
+"size": 287921
 },
 "docx/014.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 170029
+"size": 153617
 },
 "docx/015.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 138347
+"size": 124393
 },
 "docx/016.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 480865
+"size": 424532
 },
 "docx/017.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 46835
+"size": 46639
 },
 "docx/018.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 173009
+"size": 155972
 },
 "docx/019.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 335094
+"size": 294096
 },
 "docx/020.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 212122
+"size": 189035
 },
 "docx/021.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 58601
+"size": 55945
 },
 "docx/022.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 92953
+"size": 87190
 },
 "docx/023.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 42590
+"size": 42495
 },
 "docx/024.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 75329
+"size": 70063
 },
 "pdf/001.content.pdf": {
 "mimeType": "application/pdf",
-"size": 4968002
+"size": 3173342
 },
 "pdf/002.content.pdf": {
 "mimeType": "application/pdf",
-"size": 2080857
+"size": 1416829
 },
 "pdf/003.content.pdf": {
 "mimeType": "application/pdf",
-"size": 3393574
+"size": 1963038
 },
 "pdf/004.content.pdf": {
 "mimeType": "application/pdf",
-"size": 1734900
+"size": 925849
 },
 "pdf/005.content.pdf": {
 "mimeType": "application/pdf",
-"size": 3439983
+"size": 1923038
 },
 "pdf/006.content.pdf": {
 "mimeType": "application/pdf",
-"size": 651149
+"size": 325649
 },
 "pdf/007.content.pdf": {
 "mimeType": "application/pdf",
-"size": 1296304
+"size": 732306
 },
 "pdf/008.content.pdf": {
 "mimeType": "application/pdf",
-"size": 1774771
+"size": 1037484
 },
 "pdf/009.content.pdf": {
 "mimeType": "application/pdf",
-"size": 905916
+"size": 563668
 },
 "pdf/010.content.pdf": {
 "mimeType": "application/pdf",
-"size": 3304167
+"size": 1702529
 },
 "pdf/011.content.pdf": {
 "mimeType": "application/pdf",
-"size": 428677
+"size": 232635
 },
 "pdf/012.content.pdf": {
 "mimeType": "application/pdf",
-"size": 2885327
+"size": 1541813
 },
 "pdf/013.content.pdf": {
 "mimeType": "application/pdf",
-"size": 3316293
+"size": 1717029
 },
 "pdf/014.content.pdf": {
 "mimeType": "application/pdf",
-"size": 1408800
+"size": 754678
 },
 "pdf/015.content.pdf": {
 "mimeType": "application/pdf",
-"size": 1146083
+"size": 559978
 },
 "pdf/016.content.pdf": {
 "mimeType": "application/pdf",
-"size": 4816504
+"size": 2604281
 },
 "pdf/017.content.pdf": {
 "mimeType": "application/pdf",
-"size": 66119
+"size": 61872
 },
 "pdf/018.content.pdf": {
 "mimeType": "application/pdf",
-"size": 1378102
+"size": 757203
 },
 "pdf/019.content.pdf": {
 "mimeType": "application/pdf",
-"size": 3341687
+"size": 1793427
 },
 "pdf/020.content.pdf": {
 "mimeType": "application/pdf",
-"size": 1841839
+"size": 996669
 },
 "pdf/021.content.pdf": {
 "mimeType": "application/pdf",
-"size": 208719
+"size": 122141
 },
 "pdf/022.content.pdf": {
 "mimeType": "application/pdf",
-"size": 550157
+"size": 346568
 },
 "pdf/023.content.pdf": {
 "mimeType": "application/pdf",
-"size": 30496
+"size": 29419
 },
 "pdf/024.content.pdf": {
 "mimeType": "application/pdf",
-"size": 449213
+"size": 241019
 }
 },
 "copyright": {
@@ -125067,6 +125212,4426 @@
 "content_id": 840693,
 "language": "spa",
 "title": "Apolonio"
+}
+}
+},
+"914217": {
+"content_id": "914217",
+"reference_id": 2654,
+"index_reference": "akkadiens",
+"localizations": {
+"eng": {
+"content_id": 3486,
+"language": "eng",
+"title": "Akkadians"
+},
+"arb": {
+"content_id": 509326,
+"language": "arb",
+"title": "أكاديون"
+},
+"hin": {
+"content_id": 732432,
+"language": "hin",
+"title": "अक्कादी लोग"
+},
+"por": {
+"content_id": 827691,
+"language": "por",
+"title": "Acádios"
+},
+"spa": {
+"content_id": 840554,
+"language": "spa",
+"title": "Acadios"
+}
+}
+},
+"914219": {
+"content_id": "914219",
+"reference_id": 2657,
+"index_reference": "akrabattène",
+"localizations": {
+"eng": {
+"content_id": 3489,
+"language": "eng",
+"title": "Akrabattene"
+},
+"arb": {
+"content_id": 509329,
+"language": "arb",
+"title": "أَقْرَبَتِّين"
+},
+"hin": {
+"content_id": 732434,
+"language": "hin",
+"title": "अक्रबत्तेने "
+},
+"por": {
+"content_id": 827694,
+"language": "por",
+"title": "Acrabatena"
+},
+"spa": {
+"content_id": 840557,
+"language": "spa",
+"title": "Acrabetane"
+}
+}
+},
+"914220": {
+"content_id": "914220",
+"reference_id": 2659,
+"index_reference": "albâtre",
+"localizations": {
+"eng": {
+"content_id": 3491,
+"language": "eng",
+"title": "Alabaster"
+},
+"arb": {
+"content_id": 509330,
+"language": "arb",
+"title": "مرمر"
+},
+"hin": {
+"content_id": 732435,
+"language": "hin",
+"title": "संगमरमर "
+},
+"por": {
+"content_id": 827695,
+"language": "por",
+"title": "Alabastro"
+},
+"spa": {
+"content_id": 840559,
+"language": "spa",
+"title": "Alabastro"
+}
+}
+},
+"914221": {
+"content_id": "914221",
+"reference_id": 2663,
+"index_reference": "alkime alcime",
+"localizations": {
+"eng": {
+"content_id": 3495,
+"language": "eng",
+"title": "Alcimus"
+},
+"arb": {
+"content_id": 509334,
+"language": "arb",
+"title": "أَلكيمُس"
+},
+"hin": {
+"content_id": 732436,
+"language": "hin",
+"title": "अलकिमस"
+},
+"por": {
+"content_id": 827698,
+"language": "por",
+"title": "Alcimo"
+},
+"spa": {
+"content_id": 840563,
+"language": "spa",
+"title": "Alcimo"
+}
+}
+},
+"914222": {
+"content_id": "914222",
+"reference_id": 2667,
+"index_reference": "alexandre i balas",
+"localizations": {
+"eng": {
+"content_id": 3499,
+"language": "eng",
+"title": "Alexander (Balas) Epiphanes"
+},
+"arb": {
+"content_id": 509338,
+"language": "arb",
+"title": "الإسكندر (بالاس) إبيفانيس"
+},
+"hin": {
+"content_id": 732437,
+"language": "hin",
+"title": "सिकन्दर (बालास) एपिफेनस"
+},
+"por": {
+"content_id": 827702,
+"language": "por",
+"title": "Alexandre (Balas) Epifânio"
+},
+"spa": {
+"content_id": 840567,
+"language": "spa",
+"title": "Alexander (Balas) Epífanes"
+}
+}
+},
+"914223": {
+"content_id": "914223",
+"reference_id": 2668,
+"index_reference": "alexandre jannée janneus",
+"localizations": {
+"eng": {
+"content_id": 3500,
+"language": "eng",
+"title": "Alexander Jannaeus (Janneus)"
+},
+"arb": {
+"content_id": 509339,
+"language": "arb",
+"title": "ألكسندر جنايوس (جانيوس)"
+},
+"hin": {
+"content_id": 732438,
+"language": "hin",
+"title": "सिकन्दर यन्नैउस (यन्नेयूस)"
+},
+"por": {
+"content_id": 827703,
+"language": "por",
+"title": "Alexandre Janeu (Janaeus)"
+},
+"spa": {
+"content_id": 840568,
+"language": "spa",
+"title": "Alejandro Janeo (Jannaeus)"
+}
+}
+},
+"914224": {
+"content_id": "914224",
+"reference_id": 2670,
+"index_reference": "alexandra salomé",
+"localizations": {
+"eng": {
+"content_id": 3502,
+"language": "eng",
+"title": "Alexandra"
+},
+"arb": {
+"content_id": 509340,
+"language": "arb",
+"title": "ألكسندرا"
+},
+"hin": {
+"content_id": 732439,
+"language": "hin",
+"title": "अलेक्जेंड्रा"
+},
+"por": {
+"content_id": 827704,
+"language": "por",
+"title": "Alexandra"
+},
+"spa": {
+"content_id": 840569,
+"language": "spa",
+"title": "Alejandra"
+}
+}
+},
+"914225": {
+"content_id": "914225",
+"reference_id": 2672,
+"index_reference": "alexandrinus codex",
+"localizations": {
+"eng": {
+"content_id": 3504,
+"language": "eng",
+"title": "Alexandrinus, Codex"
+},
+"arb": {
+"content_id": 509341,
+"language": "arb",
+"title": "المخطوطة السكندرية"
+},
+"hin": {
+"content_id": 732440,
+"language": "hin",
+"title": "अलेक्ज़ेन्ड्रिनस पाण्डुलिपि"
+},
+"por": {
+"content_id": 827705,
+"language": "por",
+"title": "Alexandrino, Códice"
+},
+"spa": {
+"content_id": 840570,
+"language": "spa",
+"title": "Alexandrinus, Códex"
+}
+}
+},
+"914226": {
+"content_id": "914226",
+"reference_id": 2676,
+"index_reference": "immigrant immigré",
+"localizations": {
+"eng": {
+"content_id": 3508,
+"language": "eng",
+"title": "Alien"
+},
+"arb": {
+"content_id": 509345,
+"language": "arb",
+"title": "أجنبي"
+},
+"hin": {
+"content_id": 732441,
+"language": "hin",
+"title": "परदेशी"
+},
+"por": {
+"content_id": 827709,
+"language": "por",
+"title": "Forasteiro"
+},
+"spa": {
+"content_id": 840574,
+"language": "spa",
+"title": "Forastero"
+}
+}
+},
+"914228": {
+"content_id": "914228",
+"reference_id": 2679,
+"index_reference": "halélouyah",
+"localizations": {
+"eng": {
+"content_id": 3511,
+"language": "eng",
+"title": "Alleluia"
+},
+"hin": {
+"content_id": 732442,
+"language": "hin",
+"title": "आलेलुया/आल्लेलूया"
+},
+"spa": {
+"content_id": 840577,
+"language": "spa",
+"title": "Alelu-JAH"
+}
+}
+},
+"914299": {
+"content_id": "914299",
+"reference_id": 213056,
+"index_reference": "allogène",
+"localizations": {
+"eng": {
+"content_id": 831877,
+"language": "eng",
+"title": "Allogenes Supreme"
+},
+"arb": {
+"content_id": 852604,
+"language": "arb",
+"title": "ألوجينيس الأسمى"
+},
+"por": {
+"content_id": 907775,
+"language": "por",
+"title": "Alógenes Supremo"
+},
+"spa": {
+"content_id": 844744,
+"language": "spa",
+"title": "Alógenes Supremo"
+}
+}
+},
+"914229": {
+"content_id": "914229",
+"reference_id": 2686,
+"index_reference": "toutpuissant",
+"localizations": {
+"eng": {
+"content_id": 3518,
+"language": "eng",
+"title": "Almighty"
+},
+"arb": {
+"content_id": 509352,
+"language": "arb",
+"title": "قدير"
+},
+"hin": {
+"content_id": 732443,
+"language": "hin",
+"title": "सर्वशक्तिमान"
+},
+"por": {
+"content_id": 827716,
+"language": "por",
+"title": "Todo-Poderoso"
+},
+"spa": {
+"content_id": 840582,
+"language": "spa",
+"title": "Todopoderoso"
+}
+}
+},
+"914230": {
+"content_id": "914230",
+"reference_id": 2689,
+"index_reference": "amande amandier",
+"localizations": {
+"eng": {
+"content_id": 3521,
+"language": "eng",
+"title": "Almond"
+},
+"arb": {
+"content_id": 509353,
+"language": "arb",
+"title": "لوز"
+},
+"hin": {
+"content_id": 732444,
+"language": "hin",
+"title": "बादाम"
+},
+"por": {
+"content_id": 827717,
+"language": "por",
+"title": "Amendoeira"
+},
+"spa": {
+"content_id": 840584,
+"language": "spa",
+"title": "Almendra"
+}
+}
+},
+"914231": {
+"content_id": "914231",
+"reference_id": 2693,
+"index_reference": "aloès",
+"localizations": {
+"eng": {
+"content_id": 3525,
+"language": "eng",
+"title": "Aloe"
+},
+"arb": {
+"content_id": 509356,
+"language": "arb",
+"title": "صبار"
+},
+"hin": {
+"content_id": 732445,
+"language": "hin",
+"title": "अगर (एलवा)"
+},
+"por": {
+"content_id": 827720,
+"language": "por",
+"title": "Aloés"
+},
+"spa": {
+"content_id": 840587,
+"language": "spa",
+"title": "Aloe"
+}
+}
+},
+"914233": {
+"content_id": "914233",
+"reference_id": 2718,
+"index_reference": "embuscade",
+"localizations": {
+"eng": {
+"content_id": 3550,
+"language": "eng",
+"title": "Ambush"
+},
+"arb": {
+"content_id": 509374,
+"language": "arb",
+"title": "كمين"
+},
+"hin": {
+"content_id": 732449,
+"language": "hin",
+"title": "घात"
+},
+"por": {
+"content_id": 827737,
+"language": "por",
+"title": "Emboscada"
+},
+"spa": {
+"content_id": 840607,
+"language": "spa",
+"title": "Emboscada"
+}
+}
+},
+"914234": {
+"content_id": "914234",
+"reference_id": 2720,
+"index_reference": "améthyste",
+"localizations": {
+"eng": {
+"content_id": 3552,
+"language": "eng",
+"title": "Amethyst"
+},
+"arb": {
+"content_id": 509375,
+"language": "arb",
+"title": "جَمَشْت"
+},
+"hin": {
+"content_id": 732450,
+"language": "hin",
+"title": "नीलम"
+},
+"por": {
+"content_id": 827738,
+"language": "por",
+"title": "Ametista"
+},
+"spa": {
+"content_id": 840609,
+"language": "spa",
+"title": "Amatista"
+}
+}
+},
+"914235": {
+"content_id": "914235",
+"reference_id": 2721,
+"index_reference": "amillénarisme",
+"localizations": {
+"eng": {
+"content_id": 3553,
+"language": "eng",
+"title": "Amillennialism"
+},
+"arb": {
+"content_id": 509376,
+"language": "arb",
+"title": "اللا ألفية"
+},
+"hin": {
+"content_id": 732451,
+"language": "hin",
+"title": "असहस्त्राब्दीवाद"
+},
+"por": {
+"content_id": 827739,
+"language": "por",
+"title": "Amilenismo"
+},
+"spa": {
+"content_id": 840610,
+"language": "spa",
+"title": "Amilenialismo"
+}
+}
+},
+"914236": {
+"content_id": "914236",
+"reference_id": 2742,
+"index_reference": "amos prophète",
+"localizations": {
+"eng": {
+"content_id": 3574,
+"language": "eng",
+"title": "Amos (Person)"
+},
+"arb": {
+"content_id": 509387,
+"language": "arb",
+"title": "عَامُوس (شخص)"
+},
+"hin": {
+"content_id": 732457,
+"language": "hin",
+"title": "आमोस (व्यक्ति)"
+},
+"por": {
+"content_id": 827751,
+"language": "por",
+"title": "Amós (Pessoa)"
+},
+"spa": {
+"content_id": 840626,
+"language": "spa",
+"title": "Amós (Persona)"
+}
+}
+},
+"914237": {
+"content_id": "914237",
+"reference_id": 2745,
+"index_reference": "amplias ampliatus",
+"localizations": {
+"eng": {
+"content_id": 3577,
+"language": "eng",
+"title": "Amplias, Ampliatus"
+},
+"arb": {
+"content_id": 509389,
+"language": "arb",
+"title": "أَمْبِلِيَاسَ"
+},
+"hin": {
+"content_id": 647137,
+"language": "hin",
+"title": "अम्पलियास, अम्पलियातुस"
+},
+"por": {
+"content_id": 827753,
+"language": "por",
+"title": "Amplias, Amplíato"
+},
+"spa": {
+"content_id": 840628,
+"language": "spa",
+"title": "Amplias"
+}
+}
+},
+"914238": {
+"content_id": "914238",
+"reference_id": 2752,
+"index_reference": "anaël",
+"localizations": {
+"eng": {
+"content_id": 3584,
+"language": "eng",
+"title": "Anael"
+},
+"arb": {
+"content_id": 509392,
+"language": "arb",
+"title": "عناييل"
+},
+"hin": {
+"content_id": 732458,
+"language": "hin",
+"title": "अनाएल"
+},
+"por": {
+"content_id": 827756,
+"language": "por",
+"title": "Anael"
+},
+"spa": {
+"content_id": 840632,
+"language": "spa",
+"title": "Anael"
+}
+}
+},
+"914239": {
+"content_id": "914239",
+"reference_id": 2762,
+"index_reference": "ananiel",
+"localizations": {
+"eng": {
+"content_id": 3594,
+"language": "eng",
+"title": "Ananiel"
+},
+"arb": {
+"content_id": 509398,
+"language": "arb",
+"title": "حنانئيل"
+},
+"hin": {
+"content_id": 732462,
+"language": "hin",
+"title": "अनानीएल"
+},
+"por": {
+"content_id": 827762,
+"language": "por",
+"title": "Ananiel"
+},
+"spa": {
+"content_id": 840639,
+"language": "spa",
+"title": "Ananiel"
+}
+}
+},
+"914240": {
+"content_id": "914240",
+"reference_id": 2765,
+"index_reference": "anathème",
+"localizations": {
+"eng": {
+"content_id": 3597,
+"language": "eng",
+"title": "Anathema"
+},
+"arb": {
+"content_id": 509401,
+"language": "arb",
+"title": "أناثيما"
+},
+"hin": {
+"content_id": 732464,
+"language": "hin",
+"title": "एनाथेमा"
+},
+"por": {
+"content_id": 827765,
+"language": "por",
+"title": "Anátema"
+},
+"spa": {
+"content_id": 840642,
+"language": "spa",
+"title": "Anatema"
+}
+}
+},
+"914241": {
+"content_id": "914241",
+"reference_id": 2770,
+"index_reference": "ancien des jours",
+"localizations": {
+"eng": {
+"content_id": 3602,
+"language": "eng",
+"title": "Ancient of Days, Ancient One"
+},
+"arb": {
+"content_id": 509405,
+"language": "arb",
+"title": "قديم الأيام، القديم"
+},
+"hin": {
+"content_id": 732465,
+"language": "hin",
+"title": "अति प्राचीन"
+},
+"por": {
+"content_id": 827769,
+"language": "por",
+"title": "Ancião de Dias, Ancião"
+},
+"spa": {
+"content_id": 840646,
+"language": "spa",
+"title": "Anciano de Días, Anciano"
+}
+}
+},
+"914242": {
+"content_id": "914242",
+"reference_id": 2771,
+"index_reference": "andreas",
+"localizations": {
+"eng": {
+"content_id": 3603,
+"language": "eng",
+"title": "Andreas"
+},
+"arb": {
+"content_id": 509406,
+"language": "arb",
+"title": "أندرياس"
+},
+"hin": {
+"content_id": 732466,
+"language": "hin",
+"title": "आंद्रेयास"
+},
+"por": {
+"content_id": 827770,
+"language": "por",
+"title": "Andreas"
+},
+"spa": {
+"content_id": 840647,
+"language": "spa",
+"title": "Andreas"
+}
+}
+},
+"914243": {
+"content_id": "914243",
+"reference_id": 2773,
+"index_reference": "andronique andronicus",
+"localizations": {
+"eng": {
+"content_id": 3605,
+"language": "eng",
+"title": "Andronicus"
+},
+"arb": {
+"content_id": 509407,
+"language": "arb",
+"title": "أَنْدَرُونِكُس"
+},
+"hin": {
+"content_id": 647138,
+"language": "hin",
+"title": "अन्द्रुनीकुस"
+},
+"por": {
+"content_id": 827771,
+"language": "por",
+"title": "Andrônico"
+},
+"spa": {
+"content_id": 840648,
+"language": "spa",
+"title": "Andrónico"
+}
+}
+},
+"914244": {
+"content_id": "914244",
+"reference_id": 2774,
+"index_reference": "anémone",
+"localizations": {
+"eng": {
+"content_id": 3606,
+"language": "eng",
+"title": "Anemone"
+},
+"arb": {
+"content_id": 509408,
+"language": "arb",
+"title": "شقائق النعمان"
+},
+"hin": {
+"content_id": 732467,
+"language": "hin",
+"title": "अनेमनी"
+},
+"por": {
+"content_id": 827772,
+"language": "por",
+"title": "Anêmona"
+},
+"spa": {
+"content_id": 840649,
+"language": "spa",
+"title": "Anémona"
+}
+}
+},
+"914320": {
+"content_id": "914320",
+"reference_id": 225386,
+"index_reference": "ange du seigneur ange de léternel",
+"localizations": {
+"eng": {
+"content_id": 911073,
+"language": "eng",
+"title": "Angel of the Lord"
+}
+}
+},
+"914321": {
+"content_id": "914321",
+"reference_id": 225387,
+"index_reference": "anges des sept églises",
+"localizations": {
+"eng": {
+"content_id": 911074,
+"language": "eng",
+"title": "Angels of the Seven Churches"
+}
+}
+},
+"914245": {
+"content_id": "914245",
+"reference_id": 2784,
+"index_reference": "aneth",
+"localizations": {
+"eng": {
+"content_id": 3616,
+"language": "eng",
+"title": "Anise"
+},
+"arb": {
+"content_id": 335162,
+"language": "arb",
+"title": "ينسون"
+},
+"hin": {
+"content_id": 620600,
+"language": "hin",
+"title": "सौंफ"
+},
+"spa": {
+"content_id": 840655,
+"language": "spa",
+"title": "Anís"
+}
+}
+},
+"914246": {
+"content_id": "914246",
+"reference_id": 2789,
+"index_reference": "anniouth",
+"localizations": {
+"eng": {
+"content_id": 3621,
+"language": "eng",
+"title": "Anniuth"
+},
+"arb": {
+"content_id": 509416,
+"language": "arb",
+"title": "أنيوث"
+},
+"hin": {
+"content_id": 732470,
+"language": "hin",
+"title": "अन्निउथ"
+},
+"por": {
+"content_id": 827782,
+"language": "por",
+"title": "Aniute"
+},
+"spa": {
+"content_id": 840658,
+"language": "spa",
+"title": "Anniuth"
+}
+}
+},
+"914247": {
+"content_id": "914247",
+"reference_id": 2794,
+"index_reference": "antédiluvien",
+"localizations": {
+"eng": {
+"content_id": 3626,
+"language": "eng",
+"title": "Antediluvian"
+},
+"arb": {
+"content_id": 509418,
+"language": "arb",
+"title": "ما قبل الطوفان"
+},
+"hin": {
+"content_id": 732472,
+"language": "hin",
+"title": "जलप्रलय-पूर्व काल "
+},
+"por": {
+"content_id": 827784,
+"language": "por",
+"title": "Antediluviano"
+},
+"spa": {
+"content_id": 840661,
+"language": "spa",
+"title": "Antediluviano"
+}
+}
+},
+"914248": {
+"content_id": "914248",
+"reference_id": 2797,
+"index_reference": "anthropologie",
+"localizations": {
+"eng": {
+"content_id": 3629,
+"language": "eng",
+"title": "Anthropology"
+},
+"arb": {
+"content_id": 509420,
+"language": "arb",
+"title": "علم الإنسان"
+},
+"hin": {
+"content_id": 732473,
+"language": "hin",
+"title": "मानव विज्ञान"
+},
+"por": {
+"content_id": 827786,
+"language": "por",
+"title": "Antropologia"
+},
+"spa": {
+"content_id": 840664,
+"language": "spa",
+"title": "Antropología"
+}
+}
+},
+"914249": {
+"content_id": "914249",
+"reference_id": 2798,
+"index_reference": "antéchrist",
+"localizations": {
+"eng": {
+"content_id": 3630,
+"language": "eng",
+"title": "Antichrist"
+},
+"arb": {
+"content_id": 509421,
+"language": "arb",
+"title": "ضِدَّ ٱلْمَسِيح"
+},
+"hin": {
+"content_id": 732474,
+"language": "hin",
+"title": "मसीह विरोधी"
+},
+"por": {
+"content_id": 827787,
+"language": "por",
+"title": "Anticristo"
+},
+"spa": {
+"content_id": 840665,
+"language": "spa",
+"title": "Anticristo"
+}
+}
+},
+"914250": {
+"content_id": "914250",
+"reference_id": 2799,
+"index_reference": "antigone",
+"localizations": {
+"eng": {
+"content_id": 3631,
+"language": "eng",
+"title": "Antigonus"
+},
+"arb": {
+"content_id": 509422,
+"language": "arb",
+"title": "أنتيغونوس"
+},
+"hin": {
+"content_id": 732475,
+"language": "hin",
+"title": "अंतिगोनुस"
+},
+"por": {
+"content_id": 827788,
+"language": "por",
+"title": "Antígono"
+},
+"spa": {
+"content_id": 840666,
+"language": "spa",
+"title": "Antígono"
+}
+}
+},
+"914251": {
+"content_id": "914251",
+"reference_id": 2801,
+"index_reference": "antilegomena écrits chrétiens contestés",
+"localizations": {
+"eng": {
+"content_id": 3633,
+"language": "eng",
+"title": "Antilegomena (Disputed Christian Writings)"
+},
+"arb": {
+"content_id": 509423,
+"language": "arb",
+"title": "الأسفار المرفوضة"
+},
+"hin": {
+"content_id": 732476,
+"language": "hin",
+"title": "विवादास्पद ग्रंथ (एंटिलिगोमेना)"
+},
+"por": {
+"content_id": 827789,
+"language": "por",
+"title": "Antilegomena"
+},
+"spa": {
+"content_id": 840668,
+"language": "spa",
+"title": "Antilegomena"
+}
+}
+},
+"914252": {
+"content_id": "914252",
+"reference_id": 2802,
+"index_reference": "antiochiens",
+"localizations": {
+"eng": {
+"content_id": 3634,
+"language": "eng",
+"title": "Antiochians"
+},
+"arb": {
+"content_id": 509424,
+"language": "arb",
+"title": "إنْطَاكِيَة، رعويَّة"
+},
+"hin": {
+"content_id": 732477,
+"language": "hin",
+"title": "अन्ताकियाई"
+},
+"por": {
+"content_id": 827790,
+"language": "por",
+"title": "Antioquianos"
+},
+"spa": {
+"content_id": 840669,
+"language": "spa",
+"title": "Antioqueños"
+}
+}
+},
+"914253": {
+"content_id": "914253",
+"reference_id": 2803,
+"index_reference": "antiochis",
+"localizations": {
+"eng": {
+"content_id": 3635,
+"language": "eng",
+"title": "Antiochis"
+},
+"arb": {
+"content_id": 509425,
+"language": "arb",
+"title": "أَنْطِيُوكِيس"
+},
+"hin": {
+"content_id": 732478,
+"language": "hin",
+"title": "अंतिओखिस"
+},
+"por": {
+"content_id": 827791,
+"language": "por",
+"title": "Antioquide"
+},
+"spa": {
+"content_id": 840670,
+"language": "spa",
+"title": "Antióquida"
+}
+}
+},
+"914255": {
+"content_id": "914255",
+"reference_id": 2807,
+"index_reference": "antiochus vii",
+"localizations": {
+"eng": {
+"content_id": 3639,
+"language": "eng",
+"title": "Antiochus Vii"
+},
+"arb": {
+"content_id": 509427,
+"language": "arb",
+"title": "أنطيوخس السابع"
+},
+"hin": {
+"content_id": 732480,
+"language": "hin",
+"title": "अंतिओकस सप्तम"
+},
+"por": {
+"content_id": 827793,
+"language": "por",
+"title": "Antíoco VII"
+},
+"spa": {
+"content_id": 840672,
+"language": "spa",
+"title": "Antíoco VII"
+}
+}
+},
+"914257": {
+"content_id": "914257",
+"reference_id": 2809,
+"index_reference": "antipas",
+"localizations": {
+"eng": {
+"content_id": 3641,
+"language": "eng",
+"title": "Antipas"
+},
+"arb": {
+"content_id": 509429,
+"language": "arb",
+"title": "أَنْتِيبَاس"
+},
+"hin": {
+"content_id": 732482,
+"language": "hin",
+"title": "अन्तिपास"
+},
+"por": {
+"content_id": 827795,
+"language": "por",
+"title": "Antipas"
+},
+"spa": {
+"content_id": 840674,
+"language": "spa",
+"title": "Antipas"
+}
+}
+},
+"914258": {
+"content_id": "914258",
+"reference_id": 2810,
+"index_reference": "antipater",
+"localizations": {
+"eng": {
+"content_id": 3642,
+"language": "eng",
+"title": "Antipater"
+},
+"arb": {
+"content_id": 509430,
+"language": "arb",
+"title": "أَنْتِيبَاتِير"
+},
+"hin": {
+"content_id": 732483,
+"language": "hin",
+"title": "अन्तिपातेर"
+},
+"por": {
+"content_id": 827796,
+"language": "por",
+"title": "Antípatro"
+},
+"spa": {
+"content_id": 840675,
+"language": "spa",
+"title": "antípatros"
+}
+}
+},
+"914259": {
+"content_id": "914259",
+"reference_id": 2812,
+"index_reference": "antitype",
+"localizations": {
+"eng": {
+"content_id": 3644,
+"language": "eng",
+"title": "Antitype"
+},
+"arb": {
+"content_id": 509431,
+"language": "arb",
+"title": "ظل عكسي"
+},
+"hin": {
+"content_id": 732484,
+"language": "hin",
+"title": "प्रतिरूप"
+},
+"por": {
+"content_id": 827797,
+"language": "por",
+"title": "Antítipo"
+},
+"spa": {
+"content_id": 840676,
+"language": "spa",
+"title": "Antitipo"
+}
+}
+},
+"914260": {
+"content_id": "914260",
+"reference_id": 2817,
+"index_reference": "apamè",
+"localizations": {
+"eng": {
+"content_id": 3649,
+"language": "eng",
+"title": "Apame"
+},
+"arb": {
+"content_id": 509436,
+"language": "arb",
+"title": "أفامي"
+},
+"hin": {
+"content_id": 732485,
+"language": "hin",
+"title": "अपामे"
+},
+"por": {
+"content_id": 827801,
+"language": "por",
+"title": "Apame"
+},
+"spa": {
+"content_id": 840681,
+"language": "spa",
+"title": "Apame"
+}
+}
+},
+"914261": {
+"content_id": "914261",
+"reference_id": 2818,
+"index_reference": "apellès",
+"localizations": {
+"eng": {
+"content_id": 3650,
+"language": "eng",
+"title": "Apelles"
+},
+"arb": {
+"content_id": 509437,
+"language": "arb",
+"title": "أَبَلِّس"
+},
+"hin": {
+"content_id": 647139,
+"language": "hin",
+"title": "अपिल्लेस"
+},
+"por": {
+"content_id": 827802,
+"language": "por",
+"title": "Apeles"
+},
+"spa": {
+"content_id": 840682,
+"language": "spa",
+"title": "Apeles"
+}
+}
+},
+"914262": {
+"content_id": "914262",
+"reference_id": 2820,
+"index_reference": "aphéréma",
+"localizations": {
+"eng": {
+"content_id": 3652,
+"language": "eng",
+"title": "Aphairema"
+},
+"arb": {
+"content_id": 509439,
+"language": "arb",
+"title": "أَفَيْرَمَة"
+},
+"hin": {
+"content_id": 732486,
+"language": "hin",
+"title": "अफैरेमा"
+},
+"por": {
+"content_id": 827804,
+"language": "por",
+"title": "Aferema"
+},
+"spa": {
+"content_id": 840684,
+"language": "spa",
+"title": "Afairema"
+}
+}
+},
+"914263": {
+"content_id": "914263",
+"reference_id": 2826,
+"index_reference": "haphra",
+"localizations": {
+"eng": {
+"content_id": 3658,
+"language": "eng",
+"title": "Aphrah"
+},
+"hin": {
+"content_id": 732488,
+"language": "hin",
+"title": "अप्रा"
+},
+"por": {
+"content_id": 827809,
+"language": "por",
+"title": "Bete-Ofra"
+},
+"spa": {
+"content_id": 840689,
+"language": "spa",
+"title": "Beth-le-aphrah"
+}
+}
+},
+"914265": {
+"content_id": "914265",
+"reference_id": 2829,
+"index_reference": "apocalypse genre littéraire",
+"localizations": {
+"eng": {
+"content_id": 3661,
+"language": "eng",
+"title": "Apocalypse"
+},
+"arb": {
+"content_id": 509447,
+"language": "arb",
+"title": "الرؤيوي"
+},
+"hin": {
+"content_id": 732490,
+"language": "hin",
+"title": "अन्तकालिक ग्रन्थ"
+},
+"por": {
+"content_id": 827812,
+"language": "por",
+"title": "Apocalipse"
+},
+"spa": {
+"content_id": 840692,
+"language": "spa",
+"title": "Apocalípsis"
+}
+}
+},
+"914264": {
+"content_id": "914264",
+"reference_id": 2828,
+"index_reference": "apocalypses apocryphes",
+"localizations": {
+"eng": {
+"content_id": 3660,
+"language": "eng",
+"title": "Apocalypses"
+},
+"arb": {
+"content_id": 509446,
+"language": "arb",
+"title": "الرؤيوي"
+},
+"hin": {
+"content_id": 732489,
+"language": "hin",
+"title": "अन्त्कालिक ग्रन्थ"
+},
+"por": {
+"content_id": 827811,
+"language": "por",
+"title": "Apocalipses"
+},
+"spa": {
+"content_id": 840691,
+"language": "spa",
+"title": "Apocalipsis"
+}
+}
+},
+"914267": {
+"content_id": "914267",
+"reference_id": 2834,
+"index_reference": "apollophane",
+"localizations": {
+"eng": {
+"content_id": 3666,
+"language": "eng",
+"title": "Apollophanes"
+},
+"arb": {
+"content_id": 509449,
+"language": "arb",
+"title": "أبولوفانيس"
+},
+"hin": {
+"content_id": 732492,
+"language": "hin",
+"title": "अपल्लोफ़ानेस"
+},
+"por": {
+"content_id": 827814,
+"language": "por",
+"title": "Apolofanes"
+},
+"spa": {
+"content_id": 840694,
+"language": "spa",
+"title": "Apolofanes"
+}
+}
+},
+"914268": {
+"content_id": "914268",
+"reference_id": 2836,
+"index_reference": "apollyon",
+"localizations": {
+"eng": {
+"content_id": 3668,
+"language": "eng",
+"title": "Apollyon"
+},
+"arb": {
+"content_id": 509450,
+"language": "arb",
+"title": "أَبولِّيّون"
+},
+"hin": {
+"content_id": 732493,
+"language": "hin",
+"title": "अपुल्लयोन"
+},
+"por": {
+"content_id": 827815,
+"language": "por",
+"title": "Apoliom"
+},
+"spa": {
+"content_id": 840695,
+"language": "spa",
+"title": "Apolión"
+}
+}
+},
+"914294": {
+"content_id": "914294",
+"reference_id": 213047,
+"index_reference": "abdias vies des apôtres d",
+"localizations": {
+"eng": {
+"content_id": 831868,
+"language": "eng",
+"title": "Apostolic History of Abdias"
+},
+"arb": {
+"content_id": 852595,
+"language": "arb",
+"title": "التاريخ الرسولي لعبدياس"
+},
+"por": {
+"content_id": 907766,
+"language": "por",
+"title": "História apostólica de Abdias"
+},
+"spa": {
+"content_id": 844735,
+"language": "spa",
+"title": "Historia Apostólica de Abdías"
+}
+}
+},
+"914269": {
+"content_id": "914269",
+"reference_id": 2843,
+"index_reference": "apparitions de christ",
+"localizations": {
+"eng": {
+"content_id": 3675,
+"language": "eng",
+"title": "Appearances of Christ"
+},
+"arb": {
+"content_id": 509452,
+"language": "arb",
+"title": "ظهورات المسيح"
+},
+"hin": {
+"content_id": 732494,
+"language": "hin",
+"title": "मसीह का प्रकटीकरण"
+},
+"por": {
+"content_id": 827817,
+"language": "por",
+"title": "Aparições de Cristo"
+},
+"spa": {
+"content_id": 840697,
+"language": "spa",
+"title": "Apariciones de Cristo"
+}
+}
+},
+"914270": {
+"content_id": "914270",
+"reference_id": 2844,
+"index_reference": "apphia",
+"localizations": {
+"eng": {
+"content_id": 3676,
+"language": "eng",
+"title": "Apphia"
+},
+"arb": {
+"content_id": 509453,
+"language": "arb",
+"title": "أَبْفِيَّةَ"
+},
+"hin": {
+"content_id": 732495,
+"language": "hin",
+"title": "अफफिया"
+},
+"por": {
+"content_id": 827818,
+"language": "por",
+"title": "Áfia"
+},
+"spa": {
+"content_id": 840698,
+"language": "spa",
+"title": "Afia"
+}
+}
+},
+"914271": {
+"content_id": "914271",
+"reference_id": 2845,
+"index_reference": "apphous",
+"localizations": {
+"eng": {
+"content_id": 3677,
+"language": "eng",
+"title": "Apphus"
+},
+"arb": {
+"content_id": 509454,
+"language": "arb",
+"title": "أبفوس"
+},
+"hin": {
+"content_id": 732496,
+"language": "hin",
+"title": "अफूस"
+},
+"por": {
+"content_id": 827819,
+"language": "por",
+"title": "Afos"
+},
+"spa": {
+"content_id": 840699,
+"language": "spa",
+"title": "Afo"
+}
+}
+},
+"914272": {
+"content_id": "914272",
+"reference_id": 2848,
+"index_reference": "pomme pommier",
+"localizations": {
+"eng": {
+"content_id": 3680,
+"language": "eng",
+"title": "Apple, Apple Tree"
+},
+"arb": {
+"content_id": 509455,
+"language": "arb",
+"title": "تفاحة، شجرة تفاح"
+},
+"hin": {
+"content_id": 732497,
+"language": "hin",
+"title": "सेब और सेब का पेड़"
+},
+"por": {
+"content_id": 827820,
+"language": "por",
+"title": "Maçã, macieira"
+},
+"spa": {
+"content_id": 840700,
+"language": "spa",
+"title": "Manzana, Manzano"
+}
+}
+},
+"914273": {
+"content_id": "914273",
+"reference_id": 2849,
+"index_reference": "abricot abricotier",
+"localizations": {
+"eng": {
+"content_id": 3681,
+"language": "eng",
+"title": "Apricot"
+},
+"arb": {
+"content_id": 509456,
+"language": "arb",
+"title": "مشمش"
+},
+"hin": {
+"content_id": 732498,
+"language": "hin",
+"title": "खुबानी"
+},
+"por": {
+"content_id": 827821,
+"language": "por",
+"title": "Damasco (Fruta)"
+},
+"spa": {
+"content_id": 840701,
+"language": "spa",
+"title": "Albaricoque"
+}
+}
+},
+"914303": {
+"content_id": "914303",
+"reference_id": 213062,
+"index_reference": "évangile arabe de lenfance",
+"localizations": {
+"eng": {
+"content_id": 831883,
+"language": "eng",
+"title": "Arabic Gospel of the Infancy"
+},
+"arb": {
+"content_id": 852610,
+"language": "arb",
+"title": "إنجيل الطفولة العربي"
+},
+"por": {
+"content_id": 907780,
+"language": "por",
+"title": "Evangelho árabe da infância"
+},
+"spa": {
+"content_id": 844750,
+"language": "spa",
+"title": "Evangelio Árabe de la Infancia"
+}
+}
+},
+"914304": {
+"content_id": "914304",
+"reference_id": 213063,
+"index_reference": "histoire arabe de joseph le charpentier",
+"localizations": {
+"eng": {
+"content_id": 831884,
+"language": "eng",
+"title": "Arabic History of Joseph the Carpenter"
+},
+"arb": {
+"content_id": 852611,
+"language": "arb",
+"title": "التاريخ العربي ليوسف النجار"
+},
+"por": {
+"content_id": 907781,
+"language": "por",
+"title": "História árabe de José, o carpinteiro"
+},
+"spa": {
+"content_id": 844751,
+"language": "spa",
+"title": "Historia árabe de José el Carpintero"
+}
+}
+},
+"914274": {
+"content_id": "914274",
+"reference_id": 2860,
+"index_reference": "aradus aradon arados",
+"localizations": {
+"eng": {
+"content_id": 3692,
+"language": "eng",
+"title": "Aradus"
+},
+"arb": {
+"content_id": 509461,
+"language": "arb",
+"title": "أرادوس"
+},
+"hin": {
+"content_id": 732499,
+"language": "hin",
+"title": "अरादस"
+},
+"por": {
+"content_id": 827825,
+"language": "por",
+"title": "Arado (Lugar)"
+},
+"spa": {
+"content_id": 840707,
+"language": "spa",
+"title": "Aradus"
+}
+}
+},
+"914277": {
+"content_id": "914277",
+"reference_id": 2869,
+"index_reference": "aram lieu",
+"localizations": {
+"eng": {
+"content_id": 3701,
+"language": "eng",
+"title": "Aram (Place)"
+},
+"arb": {
+"content_id": 509467,
+"language": "arb",
+"title": "أرام (مكان)"
+},
+"hin": {
+"content_id": 732502,
+"language": "hin",
+"title": "अराम (स्थान)"
+},
+"por": {
+"content_id": 827831,
+"language": "por",
+"title": "Arã (Lugar)"
+},
+"spa": {
+"content_id": 840713,
+"language": "spa",
+"title": "Aram (Lugar)"
+}
+}
+},
+"914276": {
+"content_id": "914276",
+"reference_id": 2864,
+"index_reference": "aramgueschur",
+"localizations": {
+"eng": {
+"content_id": 3696,
+"language": "eng",
+"title": "Aram-Geshur"
+},
+"arb": {
+"content_id": 509464,
+"language": "arb",
+"title": "آرام جشور"
+},
+"hin": {
+"content_id": 732501,
+"language": "hin",
+"title": "अराम-गशूर"
+},
+"por": {
+"content_id": 827828,
+"language": "por",
+"title": "Arã-Gesur"
+},
+"spa": {
+"content_id": 840710,
+"language": "spa",
+"title": "Aram-Guesur"
+}
+}
+},
+"914275": {
+"content_id": "914275",
+"reference_id": 2863,
+"index_reference": "araméens",
+"localizations": {
+"eng": {
+"content_id": 3695,
+"language": "eng",
+"title": "Arameans"
+},
+"arb": {
+"content_id": 509463,
+"language": "arb",
+"title": "أراميون"
+},
+"hin": {
+"content_id": 732500,
+"language": "hin",
+"title": "अरामी "
+},
+"por": {
+"content_id": 827827,
+"language": "por",
+"title": "Arameus"
+},
+"spa": {
+"content_id": 840709,
+"language": "spa",
+"title": "Arameos"
+}
+}
+},
+"914278": {
+"content_id": "914278",
+"reference_id": 2877,
+"index_reference": "arbatta",
+"localizations": {
+"eng": {
+"content_id": 3709,
+"language": "eng",
+"title": "Arbatta"
+},
+"arb": {
+"content_id": 509471,
+"language": "arb",
+"title": "أرباتا"
+},
+"hin": {
+"content_id": 732503,
+"language": "hin",
+"title": "अरबत्ता"
+},
+"por": {
+"content_id": 827834,
+"language": "por",
+"title": "Arbates"
+},
+"spa": {
+"content_id": 840717,
+"language": "spa",
+"title": "Arbata"
+}
+}
+},
+"914279": {
+"content_id": "914279",
+"reference_id": 2879,
+"index_reference": "arbèles",
+"localizations": {
+"eng": {
+"content_id": 3711,
+"language": "eng",
+"title": "Arbela"
+},
+"arb": {
+"content_id": 509473,
+"language": "arb",
+"title": "أَرْبِيل"
+},
+"hin": {
+"content_id": 732504,
+"language": "hin",
+"title": "अरबेला"
+},
+"por": {
+"content_id": 827836,
+"language": "por",
+"title": "Arbelas"
+},
+"spa": {
+"content_id": 840719,
+"language": "spa",
+"title": "Arbela"
+}
+}
+},
+"914280": {
+"content_id": "914280",
+"reference_id": 2882,
+"index_reference": "archange",
+"localizations": {
+"eng": {
+"content_id": 3714,
+"language": "eng",
+"title": "Archangel"
+},
+"arb": {
+"content_id": 509475,
+"language": "arb",
+"title": "ملائكة، رئيس"
+},
+"hin": {
+"content_id": 732505,
+"language": "hin",
+"title": "प्रधान स्वर्गदूत "
+},
+"por": {
+"content_id": 827838,
+"language": "por",
+"title": "Arcanjo"
+},
+"spa": {
+"content_id": 840721,
+"language": "spa",
+"title": "Arcángel"
+}
+}
+},
+"914281": {
+"content_id": "914281",
+"reference_id": 2883,
+"index_reference": "archélaüs",
+"localizations": {
+"eng": {
+"content_id": 3715,
+"language": "eng",
+"title": "Archelaus"
+},
+"arb": {
+"content_id": 335167,
+"language": "arb",
+"title": "أرخيلاوس"
+},
+"hin": {
+"content_id": 620603,
+"language": "hin",
+"title": "अरखिलाउस"
+},
+"por": {
+"content_id": 827839,
+"language": "por",
+"title": "Arquelau"
+},
+"spa": {
+"content_id": 840722,
+"language": "spa",
+"title": "Arquelao"
+}
+}
+},
+"914282": {
+"content_id": "914282",
+"reference_id": 2887,
+"index_reference": "archippe",
+"localizations": {
+"eng": {
+"content_id": 3719,
+"language": "eng",
+"title": "Archippus"
+},
+"arb": {
+"content_id": 509478,
+"language": "arb",
+"title": "لِأَرْخِبّس"
+},
+"hin": {
+"content_id": 647140,
+"language": "hin",
+"title": "अरखिप्पुस"
+},
+"por": {
+"content_id": 827842,
+"language": "por",
+"title": "Arquipo"
+},
+"spa": {
+"content_id": 840725,
+"language": "spa",
+"title": "Arquipo"
+}
+}
+},
+"914283": {
+"content_id": "914283",
+"reference_id": 2889,
+"index_reference": "archives",
+"localizations": {
+"eng": {
+"content_id": 3721,
+"language": "eng",
+"title": "Archives"
+},
+"arb": {
+"content_id": 509479,
+"language": "arb",
+"title": "خزائن (السجلات)"
+},
+"hin": {
+"content_id": 732507,
+"language": "hin",
+"title": "अभिलेखागार"
+},
+"por": {
+"content_id": 827843,
+"language": "por",
+"title": "Arquivos"
+},
+"spa": {
+"content_id": 840726,
+"language": "spa",
+"title": "Archivos"
+}
+}
+},
+"914284": {
+"content_id": "914284",
+"reference_id": 2891,
+"index_reference": "arcturus",
+"localizations": {
+"eng": {
+"content_id": 3723,
+"language": "eng",
+"title": "Arcturus"
+},
+"arb": {
+"content_id": 509481,
+"language": "arb",
+"title": "صَانِعُ ٱلنَّعْشِ، أركتوروس"
+},
+"hin": {
+"content_id": 732509,
+"language": "hin",
+"title": "आर्क्टुरस"
+},
+"por": {
+"content_id": 827845,
+"language": "por",
+"title": "Arcturus"
+},
+"spa": {
+"content_id": 840728,
+"language": "spa",
+"title": "Arcturo"
+}
+}
+},
+"914285": {
+"content_id": "914285",
+"reference_id": 2900,
+"index_reference": "ariarathe",
+"localizations": {
+"eng": {
+"content_id": 3732,
+"language": "eng",
+"title": "Ariarathes"
+},
+"arb": {
+"content_id": 509484,
+"language": "arb",
+"title": "أرياراثيس"
+},
+"hin": {
+"content_id": 732510,
+"language": "hin",
+"title": "अर्याराथेस"
+},
+"por": {
+"content_id": 827848,
+"language": "por",
+"title": "Ariarates"
+},
+"spa": {
+"content_id": 840732,
+"language": "spa",
+"title": "Ariarates"
+}
+}
+},
+"914286": {
+"content_id": "914286",
+"reference_id": 2910,
+"index_reference": "aristobule",
+"localizations": {
+"eng": {
+"content_id": 3742,
+"language": "eng",
+"title": "Aristobulus"
+},
+"arb": {
+"content_id": 509491,
+"language": "arb",
+"title": "أَرِسْطوبولس"
+},
+"hin": {
+"content_id": 647141,
+"language": "hin",
+"title": "अरिस्तुबुलुस"
+},
+"por": {
+"content_id": 827856,
+"language": "por",
+"title": "Aristóbulo"
+},
+"spa": {
+"content_id": 840739,
+"language": "spa",
+"title": "Aristóbulo"
+}
+}
+},
+"914287": {
+"content_id": "914287",
+"reference_id": 2912,
+"index_reference": "arche de noé",
+"localizations": {
+"eng": {
+"content_id": 3744,
+"language": "eng",
+"title": "Noah's Ark"
+},
+"arb": {
+"content_id": 509492,
+"language": "arb",
+"title": "فُلك نوح"
+},
+"hin": {
+"content_id": 732515,
+"language": "hin",
+"title": "नूह का जहाज"
+},
+"por": {
+"content_id": 827857,
+"language": "por",
+"title": "Arca de Noé"
+},
+"spa": {
+"content_id": 840740,
+"language": "spa",
+"title": "Arca de Noé"
+}
+}
+},
+"914288": {
+"content_id": "914288",
+"reference_id": 2914,
+"index_reference": "couvercle de larche",
+"localizations": {
+"eng": {
+"content_id": 3746,
+"language": "eng",
+"title": "Ark’s Cover"
+},
+"arb": {
+"content_id": 509493,
+"language": "arb",
+"title": "غطاء تابوت العهد"
+},
+"hin": {
+"content_id": 732516,
+"language": "hin",
+"title": "वाचा के सन्दूक का ढकना"
+},
+"por": {
+"content_id": 827858,
+"language": "por",
+"title": "Tampa da arca"
+},
+"spa": {
+"content_id": 840741,
+"language": "spa",
+"title": "Cubierta del Arca"
+}
+}
+},
+"914305": {
+"content_id": "914305",
+"reference_id": 213065,
+"index_reference": "évangile arménien de lenfance",
+"localizations": {
+"eng": {
+"content_id": 831886,
+"language": "eng",
+"title": "Armenian Gospel of the Infancy"
+},
+"arb": {
+"content_id": 852613,
+"language": "arb",
+"title": "إنجيل الطفولة الأرميني "
+},
+"por": {
+"content_id": 907783,
+"language": "por",
+"title": "Evangelho armênio da infância"
+},
+"spa": {
+"content_id": 844753,
+"language": "spa",
+"title": "Evangelio Armenio de la Infancia"
+}
+}
+},
+"914289": {
+"content_id": "914289",
+"reference_id": 2919,
+"index_reference": "porteur darmes",
+"localizations": {
+"eng": {
+"content_id": 3751,
+"language": "eng",
+"title": "Armor Bearer"
+},
+"arb": {
+"content_id": 509497,
+"language": "arb",
+"title": "حامل السلاح"
+},
+"hin": {
+"content_id": 732517,
+"language": "hin",
+"title": "हथियार ढोनेवाला"
+},
+"por": {
+"content_id": 827862,
+"language": "por",
+"title": "Porta-armas"
+},
+"spa": {
+"content_id": 840746,
+"language": "spa",
+"title": "Portador de armadura"
+}
+}
+},
+"914290": {
+"content_id": "914290",
+"reference_id": 2921,
+"index_reference": "armée",
+"localizations": {
+"eng": {
+"content_id": 3753,
+"language": "eng",
+"title": "Army"
+},
+"arb": {
+"content_id": 509499,
+"language": "arb",
+"title": "جيش"
+},
+"hin": {
+"content_id": 732519,
+"language": "hin",
+"title": "सेना"
+},
+"por": {
+"content_id": 827864,
+"language": "por",
+"title": "Exército"
+},
+"spa": {
+"content_id": 840748,
+"language": "spa",
+"title": "Ejército"
+}
+}
+},
+"914563": {
+"content_id": "914563",
+"reference_id": 2929,
+"index_reference": "arpacschad",
+"localizations": {
+"eng": {
+"content_id": 3761,
+"language": "eng",
+"title": "Arpachshad"
+},
+"por": {
+"content_id": 827868,
+"language": "por",
+"title": "Arpaxade"
+},
+"spa": {
+"content_id": 840754,
+"language": "spa",
+"title": "Arphaxad"
+}
+}
+},
+"914564": {
+"content_id": "914564",
+"reference_id": 2932,
+"index_reference": "flèche",
+"localizations": {
+"eng": {
+"content_id": 3764,
+"language": "eng",
+"title": "Arrow"
+},
+"arb": {
+"content_id": 509504,
+"language": "arb",
+"title": "سهم"
+},
+"hin": {
+"content_id": 732521,
+"language": "hin",
+"title": "तीर"
+},
+"por": {
+"content_id": 827870,
+"language": "por",
+"title": "Flecha"
+},
+"spa": {
+"content_id": 840756,
+"language": "spa",
+"title": "Flecha"
+}
+}
+},
+"914565": {
+"content_id": "914565",
+"reference_id": 2933,
+"index_reference": "arsace",
+"localizations": {
+"eng": {
+"content_id": 3765,
+"language": "eng",
+"title": "Arsaces"
+},
+"arb": {
+"content_id": 509505,
+"language": "arb",
+"title": "أَرْسَاكِيس"
+},
+"hin": {
+"content_id": 732522,
+"language": "hin",
+"title": "अर्सासेस"
+},
+"por": {
+"content_id": 827871,
+"language": "por",
+"title": "Arsaces"
+},
+"spa": {
+"content_id": 840757,
+"language": "spa",
+"title": "Arsaces"
+}
+}
+},
+"914566": {
+"content_id": "914566",
+"reference_id": 2938,
+"index_reference": "artisan",
+"localizations": {
+"eng": {
+"content_id": 3770,
+"language": "eng",
+"title": "Artisan"
+},
+"arb": {
+"content_id": 509507,
+"language": "arb",
+"title": "حرفي"
+},
+"hin": {
+"content_id": 732524,
+"language": "hin",
+"title": "शिल्पकार"
+},
+"por": {
+"content_id": 827873,
+"language": "por",
+"title": "Artesão"
+},
+"spa": {
+"content_id": 840760,
+"language": "spa",
+"title": "Artesano"
+}
+}
+},
+"914567": {
+"content_id": "914567",
+"reference_id": 2948,
+"index_reference": "asaramel",
+"localizations": {
+"eng": {
+"content_id": 3780,
+"language": "eng",
+"title": "Asaramel"
+},
+"arb": {
+"content_id": 509515,
+"language": "arb",
+"title": "سَرَمَال"
+},
+"hin": {
+"content_id": 732525,
+"language": "hin",
+"title": "असारामेल"
+},
+"por": {
+"content_id": 827880,
+"language": "por",
+"title": "Asaramel"
+},
+"spa": {
+"content_id": 840769,
+"language": "spa",
+"title": "Asaramel"
+}
+}
+},
+"914568": {
+"content_id": "914568",
+"reference_id": 2952,
+"index_reference": "ascalon",
+"localizations": {
+"eng": {
+"content_id": 3784,
+"language": "eng",
+"title": "Ascalon"
+},
+"hin": {
+"content_id": 732526,
+"language": "hin",
+"title": "अशकलोन"
+},
+"por": {
+"content_id": 827884,
+"language": "por",
+"title": "Ascalon"
+},
+"spa": {
+"content_id": 840773,
+"language": "spa",
+"title": "Ascalon"
+}
+}
+},
+"914734": {
+"content_id": "914734",
+"reference_id": 213066,
+"index_reference": "isaïe ascension d",
+"localizations": {
+"eng": {
+"content_id": 831887,
+"language": "eng",
+"title": "Ascension of Isaiah"
+},
+"arb": {
+"content_id": 852614,
+"language": "arb",
+"title": "صعود إشعياء"
+},
+"por": {
+"content_id": 907784,
+"language": "por",
+"title": "Ascensão de Isaías"
+},
+"spa": {
+"content_id": 844754,
+"language": "spa",
+"title": "Ascensión de Isaías"
+}
+}
+},
+"914735": {
+"content_id": "914735",
+"reference_id": 213067,
+"index_reference": "ascensions de jacques",
+"localizations": {
+"eng": {
+"content_id": 831888,
+"language": "eng",
+"title": "Ascents of James"
+},
+"arb": {
+"content_id": 852615,
+"language": "arb",
+"title": "صعود يعقوب"
+},
+"por": {
+"content_id": 907785,
+"language": "por",
+"title": "Ascensões de Tiago"
+},
+"spa": {
+"content_id": 844755,
+"language": "spa",
+"title": "Ascensiones de Jacobo"
+}
+}
+},
+"914736": {
+"content_id": "914736",
+"reference_id": 213070,
+"index_reference": "assomption de moïse",
+"localizations": {
+"eng": {
+"content_id": 831891,
+"language": "eng",
+"title": "Assumption of Moses"
+},
+"arb": {
+"content_id": 852618,
+"language": "arb",
+"title": "صعود موسى"
+},
+"por": {
+"content_id": 907788,
+"language": "por",
+"title": "Assunção de Moisés"
+},
+"spa": {
+"content_id": 844758,
+"language": "spa",
+"title": "Asunción de Moisés"
+}
+}
+},
+"914744": {
+"content_id": "914744",
+"reference_id": 213124,
+"index_reference": "marie assomption de",
+"localizations": {
+"eng": {
+"content_id": 833346,
+"language": "eng",
+"title": "Assumption of the Virgin"
+},
+"arb": {
+"content_id": 852672,
+"language": "arb",
+"title": "انتقال العذراء"
+},
+"por": {
+"content_id": 907841,
+"language": "por",
+"title": "Assunção da Virgem"
+},
+"spa": {
+"content_id": 844811,
+"language": "spa",
+"title": "Asunción de la Virgen"
+}
+}
+},
+"914592": {
+"content_id": "914592",
+"reference_id": 3045,
+"index_reference": "césar auguste",
+"localizations": {
+"eng": {
+"content_id": 3877,
+"language": "eng",
+"title": "Augustus Caesar"
+},
+"arb": {
+"content_id": 509579,
+"language": "arb",
+"title": "أوغسطس قيصر"
+},
+"hin": {
+"content_id": 732557,
+"language": "hin",
+"title": "औगुस्तुस कैसर"
+},
+"por": {
+"content_id": 827944,
+"language": "por",
+"title": "Augusto Cesar"
+},
+"spa": {
+"content_id": 840842,
+"language": "spa",
+"title": "Augusto César"
+}
+}
+},
+"914645": {
+"content_id": "914645",
+"reference_id": 3300,
+"index_reference": "bèrèkya",
+"localizations": {
+"eng": {
+"content_id": 4132,
+"language": "eng",
+"title": "Berekiah"
+},
+"hin": {
+"content_id": 732633,
+"language": "hin",
+"title": "बेरेक्याह "
+},
+"spa": {
+"content_id": 841036,
+"language": "spa",
+"title": "Beraquías"
+}
+}
+},
+"914738": {
+"content_id": "914738",
+"reference_id": 213080,
+"index_reference": "marie naissance de",
+"localizations": {
+"eng": {
+"content_id": 833302,
+"language": "eng",
+"title": "Birth of Mary"
+},
+"arb": {
+"content_id": 852628,
+"language": "arb",
+"title": "ميلاد مريم"
+},
+"por": {
+"content_id": 907797,
+"language": "por",
+"title": "Nascimento de Maria"
+},
+"spa": {
+"content_id": 844768,
+"language": "spa",
+"title": "Nacimiento de María"
+}
+}
+},
+"914733": {
+"content_id": "914733",
+"reference_id": 213053,
+"index_reference": "ahiqar livre",
+"localizations": {
+"eng": {
+"content_id": 831874,
+"language": "eng",
+"title": "Book of Ahikar"
+},
+"arb": {
+"content_id": 852601,
+"language": "arb",
+"title": "سفر أحيقار"
+},
+"por": {
+"content_id": 907772,
+"language": "por",
+"title": "Livro de Aicar"
+},
+"spa": {
+"content_id": 844741,
+"language": "spa",
+"title": "Libro de Ahikar"
+}
+}
+},
+"914740": {
+"content_id": "914740",
+"reference_id": 213090,
+"index_reference": "eldad et médad livre d",
+"localizations": {
+"eng": {
+"content_id": 833312,
+"language": "eng",
+"title": "Book of Eldad and Medad"
+},
+"arb": {
+"content_id": 852638,
+"language": "arb",
+"title": "سِفر ألداد وميداد"
+},
+"por": {
+"content_id": 907807,
+"language": "por",
+"title": "Livro de Eldade e Medade"
+},
+"spa": {
+"content_id": 844778,
+"language": "spa",
+"title": "Libro de Eldad y Medad"
+}
+}
+},
+"914741": {
+"content_id": "914741",
+"reference_id": 213104,
+"index_reference": "jean lévangéliste livre de",
+"localizations": {
+"eng": {
+"content_id": 833326,
+"language": "eng",
+"title": "Book of John the Evangelist"
+},
+"arb": {
+"content_id": 852652,
+"language": "arb",
+"title": "سفر يوحنا الإنجيلي"
+},
+"por": {
+"content_id": 907821,
+"language": "por",
+"title": "Livro de João, o evangelista"
+},
+"spa": {
+"content_id": 844792,
+"language": "spa",
+"title": "Libro de Juan el Evangelista"
+}
+}
+},
+"914742": {
+"content_id": "914742",
+"reference_id": 213106,
+"index_reference": "livre des jubilés",
+"localizations": {
+"eng": {
+"content_id": 833328,
+"language": "eng",
+"title": "Book of Jubilees"
+},
+"arb": {
+"content_id": 852654,
+"language": "arb",
+"title": "سفر اليوبيلات"
+},
+"por": {
+"content_id": 907823,
+"language": "por",
+"title": "Livro dos Jubileus"
+},
+"spa": {
+"content_id": 838302,
+"language": "spa",
+"title": "Libro de los Jubileos"
+},
+"swh": {
+"content_id": 852590,
+"language": "swh",
+"title": "Kitabu cha Jubilees"
+},
+"zht": {
+"content_id": 907424,
+"language": "zht",
+"title": "禧年書"
+}
+}
+},
+"914743": {
+"content_id": "914743",
+"reference_id": 213110,
+"index_reference": "noé livre de",
+"localizations": {
+"eng": {
+"content_id": 833332,
+"language": "eng",
+"title": "Book of Noah"
+},
+"arb": {
+"content_id": 852658,
+"language": "arb",
+"title": "سِفر نوح"
+},
+"por": {
+"content_id": 907827,
+"language": "por",
+"title": "Livro de Noé"
+},
+"spa": {
+"content_id": 844797,
+"language": "spa",
+"title": "Libro de Noé"
+}
+}
+},
+"914739": {
+"content_id": "914739",
+"reference_id": 213082,
+"index_reference": "coq livre du",
+"localizations": {
+"eng": {
+"content_id": 833304,
+"language": "eng",
+"title": "Book of the Cock"
+},
+"arb": {
+"content_id": 852630,
+"language": "arb",
+"title": "سِفْر الدِّيك"
+},
+"por": {
+"content_id": 907799,
+"language": "por",
+"title": "Livro do Galo"
+},
+"spa": {
+"content_id": 844770,
+"language": "spa",
+"title": "Libro del Gallo"
+}
+}
+},
+"914737": {
+"content_id": "914737",
+"reference_id": 213076,
+"index_reference": "barthélémy livre de la résurrection de christ par",
+"localizations": {
+"eng": {
+"content_id": 833298,
+"language": "eng",
+"title": "Book of the Resurrection of Christ by Bartholomew"
+},
+"arb": {
+"content_id": 852624,
+"language": "arb",
+"title": "سفر قيامة المسيح لبرثلماوس"
+},
+"por": {
+"content_id": 907793,
+"language": "por",
+"title": "Livro da ressurreição de Cristo por Bartolomeu"
+},
+"spa": {
+"content_id": 844764,
+"language": "spa",
+"title": "Libro de la Resurrección de Cristo por Bartolomé"
+}
+}
+},
+"914724": {
+"content_id": "914724",
+"reference_id": 3616,
+"index_reference": "bétail",
+"localizations": {
+"eng": {
+"content_id": 4448,
+"language": "eng",
+"title": "Cattle"
+},
+"arb": {
+"content_id": 509928,
+"language": "arb",
+"title": "ماشية، بهائم"
+},
+"hin": {
+"content_id": 732738,
+"language": "hin",
+"title": "मवेशी"
+},
+"por": {
+"content_id": 828312,
+"language": "por",
+"title": "Gado bovino"
+},
+"spa": {
+"content_id": 841261,
+"language": "spa",
+"title": "Ganado"
+}
+}
+},
+"914572": {
+"content_id": "914572",
+"reference_id": 2985,
+"index_reference": "arbre à manne",
+"localizations": {
+"eng": {
+"content_id": 3817,
+"language": "eng",
+"title": "Ash"
+},
+"arb": {
+"content_id": 509539,
+"language": "arb",
+"title": "آس"
+},
+"hin": {
+"content_id": 732530,
+"language": "hin",
+"title": "अंगू (ऐश)"
+},
+"por": {
+"content_id": 827904,
+"language": "por",
+"title": "Freixo"
+},
+"spa": {
+"content_id": 840795,
+"language": "spa",
+"title": "Fresno"
+}
+}
+},
+"914571": {
+"content_id": "914571",
+"reference_id": 2982,
+"index_reference": "assurnasirpal",
+"localizations": {
+"eng": {
+"content_id": 3814,
+"language": "eng",
+"title": "Ashurnasirpal"
+},
+"arb": {
+"content_id": 509536,
+"language": "arb",
+"title": "أشُّورنَاصِربَال"
+},
+"hin": {
+"content_id": 732529,
+"language": "hin",
+"title": "अश्शूरनासिरपाल"
+},
+"por": {
+"content_id": 827901,
+"language": "por",
+"title": "Assurnasirpal"
+},
+"spa": {
+"content_id": 840792,
+"language": "spa",
+"title": "Ashurnasirpal"
+}
+}
+},
+"914575": {
+"content_id": "914575",
+"reference_id": 2995,
+"index_reference": "peuplier",
+"localizations": {
+"eng": {
+"content_id": 3827,
+"language": "eng",
+"title": "Aspen"
+},
+"arb": {
+"content_id": 509547,
+"language": "arb",
+"title": "حور"
+},
+"hin": {
+"content_id": 732536,
+"language": "hin",
+"title": "एस्पेन"
+},
+"por": {
+"content_id": 827912,
+"language": "por",
+"title": "Álamo"
+},
+"spa": {
+"content_id": 840803,
+"language": "spa",
+"title": "Álamo"
+}
+}
+},
+"914581": {
+"content_id": "914581",
+"reference_id": 3006,
+"index_reference": "assurance",
+"localizations": {
+"eng": {
+"content_id": 3838,
+"language": "eng",
+"title": "Assurance"
+},
+"arb": {
+"content_id": 509552,
+"language": "arb",
+"title": "يقين"
+},
+"hin": {
+"content_id": 647142,
+"language": "hin",
+"title": "आश्वासन"
+},
+"por": {
+"content_id": 827918,
+"language": "por",
+"title": "Confiança"
+},
+"spa": {
+"content_id": 840810,
+"language": "spa",
+"title": "Seguridad"
+}
+}
+},
+"914747": {
+"content_id": "914747",
+"reference_id": 225389,
+"index_reference": "babylone symbolisme",
+"localizations": {
+"eng": {
+"content_id": 914178,
+"language": "eng",
+"title": "Babylon as a Symbol"
+}
+}
+},
+"914607": {
+"content_id": "914607",
+"reference_id": 3128,
+"index_reference": "bakkhidès",
+"localizations": {
+"eng": {
+"content_id": 3960,
+"language": "eng",
+"title": "Bacchides"
+},
+"arb": {
+"content_id": 509645,
+"language": "arb",
+"title": "بَكيدِيس"
+},
+"hin": {
+"content_id": 732582,
+"language": "hin",
+"title": "बक्खीदेस"
+},
+"por": {
+"content_id": 828010,
+"language": "por",
+"title": "Báquides"
+},
+"spa": {
+"content_id": 840917,
+"language": "spa",
+"title": "Báquides"
+}
+}
+},
+"914609": {
+"content_id": "914609",
+"reference_id": 3132,
+"index_reference": "daman",
+"localizations": {
+"eng": {
+"content_id": 3964,
+"language": "eng",
+"title": "Rock Badger"
+},
+"arb": {
+"content_id": 509648,
+"language": "arb",
+"title": "وَبْرَ، غُرَيْر"
+},
+"hin": {
+"content_id": 732584,
+"language": "hin",
+"title": "चट्टानी बिज्जू"
+},
+"por": {
+"content_id": 828012,
+"language": "por",
+"title": "Texugo"
+},
+"spa": {
+"content_id": 840921,
+"language": "spa",
+"title": "Tejón"
+}
+}
+},
+"914616": {
+"content_id": "914616",
+"reference_id": 3152,
+"index_reference": "baume balsamier",
+"localizations": {
+"eng": {
+"content_id": 3984,
+"language": "eng",
+"title": "Balm, Balsam"
+},
+"arb": {
+"content_id": 509662,
+"language": "arb",
+"title": "بلسم"
+},
+"hin": {
+"content_id": 732594,
+"language": "hin",
+"title": "बलसान, बलसान"
+},
+"por": {
+"content_id": 828026,
+"language": "por",
+"title": "Bálsamo"
+},
+"spa": {
+"content_id": 840938,
+"language": "spa",
+"title": "Bálsamo"
+}
+}
+},
+"914620": {
+"content_id": "914620",
+"reference_id": 3176,
+"index_reference": "barkokhba barkochba",
+"localizations": {
+"eng": {
+"content_id": 4008,
+"language": "eng",
+"title": "Bar-Kochba, Bar-Kokba"
+},
+"arb": {
+"content_id": 509668,
+"language": "arb",
+"title": "بار كوخبا، بار كوكبا"
+},
+"hin": {
+"content_id": 732596,
+"language": "hin",
+"title": "बार-कोखबा, बार-कोकबा"
+},
+"por": {
+"content_id": 828035,
+"language": "por",
+"title": "Bar-Kochba, Bar-Kosba"
+},
+"spa": {
+"content_id": 840949,
+"language": "spa",
+"title": "Bar-Kochba, Bar-Kokba"
+}
+}
+},
+"914622": {
+"content_id": "914622",
+"reference_id": 3179,
+"index_reference": "orge",
+"localizations": {
+"eng": {
+"content_id": 4011,
+"language": "eng",
+"title": "Barley"
+},
+"arb": {
+"content_id": 509671,
+"language": "arb",
+"title": "شعير"
+},
+"hin": {
+"content_id": 732599,
+"language": "hin",
+"title": "जौ"
+},
+"por": {
+"content_id": 828038,
+"language": "por",
+"title": "Cevada"
+},
+"spa": {
+"content_id": 840952,
+"language": "spa",
+"title": "Cebada"
+}
+}
+},
+"914627": {
+"content_id": "914627",
+"reference_id": 3207,
+"index_reference": "laurier",
+"localizations": {
+"eng": {
+"content_id": 4039,
+"language": "eng",
+"title": "Sweet Bay Tree, Bay Laurel"
+},
+"arb": {
+"content_id": 509685,
+"language": "arb",
+"title": "شجرة الغار"
+},
+"hin": {
+"content_id": 732610,
+"language": "hin",
+"title": "हरा पेड़, तज"
+},
+"por": {
+"content_id": 828051,
+"language": "por",
+"title": "Árvore de louro, Louro"
+},
+"spa": {
+"content_id": 840969,
+"language": "spa",
+"title": "Árbol de laurel"
+}
+}
+},
+"914628": {
+"content_id": "914628",
+"reference_id": 3213,
+"index_reference": "haricot",
+"localizations": {
+"eng": {
+"content_id": 4045,
+"language": "eng",
+"title": "Bean"
+},
+"arb": {
+"content_id": 509689,
+"language": "arb",
+"title": "حبوب"
+},
+"hin": {
+"content_id": 732612,
+"language": "hin",
+"title": "सेम"
+},
+"por": {
+"content_id": 828056,
+"language": "por",
+"title": "Feijão"
+},
+"spa": {
+"content_id": 840974,
+"language": "spa",
+"title": "Habas"
+}
+}
+},
+"914634": {
+"content_id": "914634",
+"reference_id": 3244,
+"index_reference": "abeille",
+"localizations": {
+"eng": {
+"content_id": 4076,
+"language": "eng",
+"title": "Bee"
+},
+"arb": {
+"content_id": 509705,
+"language": "arb",
+"title": "نَحْلة"
+},
+"hin": {
+"content_id": 732620,
+"language": "hin",
+"title": "मधुमक्खी"
+},
+"por": {
+"content_id": 828074,
+"language": "por",
+"title": "Abelha"
+},
+"spa": {
+"content_id": 840997,
+"language": "spa",
+"title": "Abeja"
+}
+}
+},
+"914746": {
+"content_id": "914746",
+"reference_id": 225388,
+"index_reference": "béelzébul béelzéboul",
+"localizations": {
+"eng": {
+"content_id": 914177,
+"language": "eng",
+"title": "Beelzebul, Beelzebub"
+}
+}
+},
+"914647": {
+"content_id": "914647",
+"reference_id": 3310,
+"index_reference": "baie",
+"localizations": {
+"eng": {
+"content_id": 4142,
+"language": "eng",
+"title": "Berry"
+},
+"arb": {
+"content_id": 509744,
+"language": "arb",
+"title": "توت"
+},
+"hin": {
+"content_id": 732635,
+"language": "hin",
+"title": "बेर"
+},
+"por": {
+"content_id": 828114,
+"language": "por",
+"title": "Fruta vermelha (Baga)"
+},
+"spa": {
+"content_id": 841044,
+"language": "spa",
+"title": "Baya"
+}
+}
+},
+"914651": {
+"content_id": "914651",
+"reference_id": 3341,
+"index_reference": "béthesda",
+"localizations": {
+"eng": {
+"content_id": 4173,
+"language": "eng",
+"title": "Bethesda"
+},
+"arb": {
+"content_id": 335190,
+"language": "arb",
+"title": "بَيْت حِسْدَا"
+},
+"hin": {
+"content_id": 620617,
+"language": "hin",
+"title": "बैतहसदा"
+},
+"por": {
+"content_id": 828143,
+"language": "por",
+"title": "Betesda"
+},
+"spa": {
+"content_id": 841072,
+"language": "spa",
+"title": "Betesda"
+}
+}
+},
+"914672": {
+"content_id": "914672",
+"reference_id": 3470,
+"index_reference": "livre des morts",
+"localizations": {
+"eng": {
+"content_id": 4302,
+"language": "eng",
+"title": "Book of the Dead"
+},
+"arb": {
+"content_id": 509845,
+"language": "arb",
+"title": "كتاب الموتى"
+},
+"hin": {
+"content_id": 732680,
+"language": "hin",
+"title": "मृतकों की पुस्तक"
+},
+"por": {
+"content_id": 828224,
+"language": "por",
+"title": "Livro dos Mortos"
+},
+"spa": {
+"content_id": 841162,
+"language": "spa",
+"title": "Libro de los Muertos"
+}
+}
+},
+"914682": {
+"content_id": "914682",
+"reference_id": 3493,
+"index_reference": "ronce",
+"localizations": {
+"eng": {
+"content_id": 4325,
+"language": "eng",
+"title": "Bramble"
+},
+"arb": {
+"content_id": 509859,
+"language": "arb",
+"title": "العَوْسَجِ"
+},
+"hin": {
+"content_id": 732689,
+"language": "hin",
+"title": "कंटीली झाड़ी"
+},
+"por": {
+"content_id": 828240,
+"language": "por",
+"title": "Amora-preta"
+},
+"spa": {
+"content_id": 841180,
+"language": "spa",
+"title": "Zarza"
+}
+}
+},
+"914730": {
+"content_id": "914730",
+"reference_id": 209531,
+"index_reference": "nerprun",
+"localizations": {
+"eng": {
+"content_id": 715986,
+"language": "eng",
+"title": "Buckthorn"
+},
+"arb": {
+"content_id": 800786,
+"language": "arb",
+"title": "السَّنْط الفلسطيني"
+},
+"hin": {
+"content_id": 734155,
+"language": "hin",
+"title": "झड़बेरी"
+},
+"por": {
+"content_id": 831337,
+"language": "por",
+"title": "Espinheiro-amarelo"
+},
+"spa": {
+"content_id": 844708,
+"language": "spa",
+"title": "Espino cerval"
+}
+}
+},
+"914696": {
+"content_id": "914696",
+"reference_id": 3527,
+"index_reference": "jonc",
+"localizations": {
+"eng": {
+"content_id": 4359,
+"language": "eng",
+"title": "Bulrush"
+},
+"arb": {
+"content_id": 509877,
+"language": "arb",
+"title": "ديس"
+},
+"hin": {
+"content_id": 732703,
+"language": "hin",
+"title": "सरकंडा"
+},
+"por": {
+"content_id": 828259,
+"language": "por",
+"title": "Juncos"
+},
+"spa": {
+"content_id": 841202,
+"language": "spa",
+"title": "Junco"
+}
+}
+},
+"914697": {
+"content_id": "914697",
+"reference_id": 3535,
+"index_reference": "buisson",
+"localizations": {
+"eng": {
+"content_id": 4367,
+"language": "eng",
+"title": "Bush"
+},
+"arb": {
+"content_id": 509881,
+"language": "arb",
+"title": "عُلَّيْقَة"
+},
+"hin": {
+"content_id": 732704,
+"language": "hin",
+"title": "झाड़ी"
+},
+"por": {
+"content_id": 828263,
+"language": "por",
+"title": "Sarça"
+},
+"spa": {
+"content_id": 841207,
+"language": "spa",
+"title": "Arbusto"
+}
+}
+},
+"914731": {
+"content_id": "914731",
+"reference_id": 209532,
+"index_reference": "renoncule",
+"localizations": {
+"eng": {
+"content_id": 715987,
+"language": "eng",
+"title": "Buttercup"
+},
+"arb": {
+"content_id": 800787,
+"language": "arb",
+"title": "نبات الحوذان"
+},
+"hin": {
+"content_id": 734156,
+"language": "hin",
+"title": "सोसनों के फूल"
+},
+"por": {
+"content_id": 831338,
+"language": "por",
+"title": "Ranúnculo"
+},
+"spa": {
+"content_id": 844709,
+"language": "spa",
+"title": "Ranúnculo"
+}
+}
+},
+"914700": {
+"content_id": "914700",
+"reference_id": 3562,
+"index_reference": "caligula",
+"localizations": {
+"eng": {
+"content_id": 4394,
+"language": "eng",
+"title": "Caligula"
+},
+"arb": {
+"content_id": 509893,
+"language": "arb",
+"title": "كاليجولا"
+},
+"hin": {
+"content_id": 732710,
+"language": "hin",
+"title": "कैलीगुला"
+},
+"por": {
+"content_id": 828275,
+"language": "por",
+"title": "Calígula"
+},
+"spa": {
+"content_id": 841221,
+"language": "spa",
+"title": "Calígula"
+}
+}
+},
+"914704": {
+"content_id": "914704",
+"reference_id": 3569,
+"index_reference": "chameau dromadaire",
+"localizations": {
+"eng": {
+"content_id": 4401,
+"language": "eng",
+"title": "Camel"
+},
+"arb": {
+"content_id": 509898,
+"language": "arb",
+"title": "جمَل"
+},
+"hin": {
+"content_id": 732715,
+"language": "hin",
+"title": "ऊँट"
+},
+"por": {
+"content_id": 828281,
+"language": "por",
+"title": "Camelo"
+},
+"spa": {
+"content_id": 841227,
+"language": "spa",
+"title": "Camello"
+}
+}
+},
+"914706": {
+"content_id": "914706",
+"reference_id": 3577,
+"index_reference": "canne à sucre",
+"localizations": {
+"eng": {
+"content_id": 4409,
+"language": "eng",
+"title": "Cane, Sweet Cane"
+},
+"arb": {
+"content_id": 509902,
+"language": "arb",
+"title": "قصب"
+},
+"hin": {
+"content_id": 732718,
+"language": "hin",
+"title": "गन्ना, मीठा गन्ना"
+},
+"por": {
+"content_id": 828286,
+"language": "por",
+"title": "Cana, Cana-de-Açúcar"
+},
+"spa": {
+"content_id": 841233,
+"language": "spa",
+"title": "Caña, Caña Dulce"
+}
+}
+},
+"914711": {
+"content_id": "914711",
+"reference_id": 3584,
+"index_reference": "câprier",
+"localizations": {
+"eng": {
+"content_id": 4416,
+"language": "eng",
+"title": "Caper Plant"
+},
+"arb": {
+"content_id": 509908,
+"language": "arb",
+"title": "شَّهْوَة (نبات القبار, الكَبَر)"
+},
+"hin": {
+"content_id": 732723,
+"language": "hin",
+"title": "करौल का पौधा"
+},
+"por": {
+"content_id": 828292,
+"language": "por",
+"title": "Alcaparreira"
+},
+"spa": {
+"content_id": 841239,
+"language": "spa",
+"title": "Alcaparra, Planta de"
+}
+}
+},
+"914719": {
+"content_id": "914719",
+"reference_id": 3603,
+"index_reference": "caroube carouge caroubier",
+"localizations": {
+"eng": {
+"content_id": 4435,
+"language": "eng",
+"title": "Carob Tree"
+},
+"arb": {
+"content_id": 509920,
+"language": "arb",
+"title": "شجرة الخروب"
+},
+"hin": {
+"content_id": 732732,
+"language": "hin",
+"title": "कैरब वृक्ष"
+},
+"por": {
+"content_id": 828304,
+"language": "por",
+"title": "Alfarrobeira"
+},
+"spa": {
+"content_id": 841252,
+"language": "spa",
+"title": "Árbol de algarrobo"
+}
+}
+},
+"914732": {
+"content_id": "914732",
+"reference_id": 209533,
+"index_reference": "ricin",
+"localizations": {
+"eng": {
+"content_id": 716003,
+"language": "eng",
+"title": "Castor Oil Plant"
+},
+"arb": {
+"content_id": 800788,
+"language": "arb",
+"title": "نبات الخروع"
+},
+"hin": {
+"content_id": 734157,
+"language": "hin",
+"title": "रेंड़ का पौधा (तेल)"
+},
+"por": {
+"content_id": 831339,
+"language": "por",
+"title": "Mamona"
+},
+"spa": {
+"content_id": 844710,
+"language": "spa",
+"title": "Ricino, Aceite de (Planta)"
+}
+}
+},
+"914574": {
+"content_id": "914574",
+"reference_id": 2992,
+"index_reference": "asmodée",
+"localizations": {
+"eng": {
+"content_id": 3824,
+"language": "eng",
+"title": "Asmodeus"
+},
+"arb": {
+"content_id": 509544,
+"language": "arb",
+"title": "أَزْمُودَاوُس"
+},
+"hin": {
+"content_id": 732533,
+"language": "hin",
+"title": "अस्मादेव"
+},
+"por": {
+"content_id": 827909,
+"language": "por",
+"title": "Asmodeu"
+},
+"spa": {
+"content_id": 840800,
+"language": "spa",
+"title": "Asmodeo"
+}
+}
+},
+"914578": {
+"content_id": "914578",
+"reference_id": 2998,
+"index_reference": "aspic",
+"localizations": {
+"eng": {
+"content_id": 3830,
+"language": "eng",
+"title": "Asp"
+},
+"arb": {
+"content_id": 509550,
+"language": "arb",
+"title": "أفعى، صِّلّ (الكوبرا)"
+},
+"hin": {
+"content_id": 732539,
+"language": "hin",
+"title": "नाग (एस्प)"
+},
+"por": {
+"content_id": 827915,
+"language": "por",
+"title": "Áspide"
+},
+"spa": {
+"content_id": 840806,
+"language": "spa",
+"title": "Áspid"
+}
+}
+},
+"914580": {
+"content_id": "914580",
+"reference_id": 3002,
+"index_reference": "assur assour lieu",
+"localizations": {
+"eng": {
+"content_id": 3834,
+"language": "eng",
+"title": "Asshur (Place)"
+},
+"arb": {
+"content_id": 509551,
+"language": "arb",
+"title": "أَشّور (مكان)"
+},
+"hin": {
+"content_id": 732540,
+"language": "hin",
+"title": "अश्शूर (स्थान)"
+},
+"por": {
+"content_id": 827917,
+"language": "por",
+"title": "Assur (Lugar)"
+},
+"spa": {
+"content_id": 840809,
+"language": "spa",
+"title": "Assur (Lugar)"
+}
+}
+},
+"914585": {
+"content_id": "914585",
+"reference_id": 3015,
+"index_reference": "astyage",
+"localizations": {
+"eng": {
+"content_id": 3847,
+"language": "eng",
+"title": "Astyages"
+},
+"arb": {
+"content_id": 509557,
+"language": "arb",
+"title": "أستياجيس"
+},
+"hin": {
+"content_id": 732544,
+"language": "hin",
+"title": "अस्त्याजेस"
+},
+"por": {
+"content_id": 827922,
+"language": "por",
+"title": "Astíages"
+},
+"spa": {
+"content_id": 840817,
+"language": "spa",
+"title": "Astíages"
+}
+}
+},
+"914588": {
+"content_id": "914588",
+"reference_id": 3031,
+"index_reference": "athénobius",
+"localizations": {
+"eng": {
+"content_id": 3863,
+"language": "eng",
+"title": "Athenobius"
+},
+"arb": {
+"content_id": 509570,
+"language": "arb",
+"title": " أَتِينُوبِيُوس"
+},
+"hin": {
+"content_id": 732550,
+"language": "hin",
+"title": "अथेनोबियस"
+},
+"por": {
+"content_id": 827935,
+"language": "por",
+"title": "Atenóbio"
+},
+"spa": {
+"content_id": 840832,
+"language": "spa",
+"title": "Atenobio"
+}
+}
+},
+"914603": {
+"content_id": "914603",
+"reference_id": 3107,
+"index_reference": "baali",
+"localizations": {
+"eng": {
+"content_id": 3939,
+"language": "eng",
+"title": "Baali"
+},
+"arb": {
+"content_id": 509628,
+"language": "arb",
+"title": "بعلي"
+},
+"hin": {
+"content_id": 732578,
+"language": "hin",
+"title": "बाली"
+},
+"por": {
+"content_id": 827994,
+"language": "por",
+"title": "Baali"
+},
+"spa": {
+"content_id": 840898,
+"language": "spa",
+"title": "Baali"
+}
+}
+},
+"914605": {
+"content_id": "914605",
+"reference_id": 3123,
+"index_reference": "baba batra",
+"localizations": {
+"eng": {
+"content_id": 3955,
+"language": "eng",
+"title": "Baba Bathra"
+},
+"arb": {
+"content_id": 509641,
+"language": "arb",
+"title": "بابَا باترا"
+},
+"hin": {
+"content_id": 732580,
+"language": "hin",
+"title": "बाबा बत्रा"
+},
+"por": {
+"content_id": 828007,
+"language": "por",
+"title": "Baba Bathra, Bava Bathra"
+},
+"spa": {
+"content_id": 840913,
+"language": "spa",
+"title": "Baba Batra"
+}
+}
+},
+"914624": {
+"content_id": "914624",
+"reference_id": 3195,
+"index_reference": "baskama",
+"localizations": {
+"eng": {
+"content_id": 4027,
+"language": "eng",
+"title": "Baskama"
+},
+"arb": {
+"content_id": 509678,
+"language": "arb",
+"title": " بَسْكَامَا"
+},
+"hin": {
+"content_id": 732604,
+"language": "hin",
+"title": "बसकामा"
+},
+"por": {
+"content_id": 828044,
+"language": "por",
+"title": "Bascama"
+},
+"spa": {
+"content_id": 840960,
+"language": "spa",
+"title": "Bascama"
+}
+}
+},
+"914626": {
+"content_id": "914626",
+"reference_id": 3203,
+"index_reference": "hache de guerre",
+"localizations": {
+"eng": {
+"content_id": 4035,
+"language": "eng",
+"title": "Battle-Ax"
+},
+"arb": {
+"content_id": 509683,
+"language": "arb",
+"title": "فأس الحرب"
+},
+"hin": {
+"content_id": 732608,
+"language": "hin",
+"title": "फरसा"
+},
+"por": {
+"content_id": 828049,
+"language": "por",
+"title": "Machado de batalha"
+},
+"spa": {
+"content_id": 840966,
+"language": "spa",
+"title": "Hacha de guerra"
+}
+}
+},
+"914629": {
+"content_id": "914629",
+"reference_id": 3214,
+"index_reference": "ours",
+"localizations": {
+"eng": {
+"content_id": 4046,
+"language": "eng",
+"title": "Bear (Animal)"
+},
+"arb": {
+"content_id": 509690,
+"language": "arb",
+"title": "دُب (حيوان)"
+},
+"hin": {
+"content_id": 732613,
+"language": "hin",
+"title": "रीछ (पशु)"
+},
+"por": {
+"content_id": 828057,
+"language": "por",
+"title": "Urso (Animal)"
+},
+"spa": {
+"content_id": 840975,
+"language": "spa",
+"title": "Oso (Animal)"
+}
+}
+},
+"914640": {
+"content_id": "914640",
+"reference_id": 3261,
+"index_reference": "belschatsar",
+"localizations": {
+"eng": {
+"content_id": 4093,
+"language": "eng",
+"title": "Belshazzar"
+},
+"arb": {
+"content_id": 509711,
+"language": "arb",
+"title": "بَيْلْشَاصَّر"
+},
+"hin": {
+"content_id": 732626,
+"language": "hin",
+"title": "बेलशस्सर"
+},
+"por": {
+"content_id": 828080,
+"language": "por",
+"title": "Belsazar"
+},
+"spa": {
+"content_id": 841007,
+"language": "spa",
+"title": "Belsasar"
+}
+}
+},
+"914661": {
+"content_id": "914661",
+"reference_id": 3420,
+"index_reference": "nouvelle naissance",
+"localizations": {
+"eng": {
+"content_id": 4252,
+"language": "eng",
+"title": "New Birth"
+},
+"arb": {
+"content_id": 335196,
+"language": "arb",
+"title": "ولادة، جديدة"
+},
+"hin": {
+"content_id": 620621,
+"language": "hin",
+"title": "नया जन्म"
+},
+"por": {
+"content_id": 828200,
+"language": "por",
+"title": "Novo Nascimento"
+},
+"spa": {
+"content_id": 841134,
+"language": "spa",
+"title": "Nuevo Nacimiento"
+}
+}
+},
+"914662": {
+"content_id": "914662",
+"reference_id": 3435,
+"index_reference": "noir",
+"localizations": {
+"eng": {
+"content_id": 4267,
+"language": "eng",
+"title": "Black"
+},
+"arb": {
+"content_id": 509830,
+"language": "arb",
+"title": "أسود"
+},
+"hin": {
+"content_id": 732670,
+"language": "hin",
+"title": "काला"
+},
+"por": {
+"content_id": 828208,
+"language": "por",
+"title": "Preto"
+},
+"spa": {
+"content_id": 841143,
+"language": "spa",
+"title": "Negro"
+}
+}
+},
+"914664": {
+"content_id": "914664",
+"reference_id": 3446,
+"index_reference": "bleu",
+"localizations": {
+"eng": {
+"content_id": 4278,
+"language": "eng",
+"title": "Blue"
+},
+"arb": {
+"content_id": 509832,
+"language": "arb",
+"title": "أزرق"
+},
+"hin": {
+"content_id": 732672,
+"language": "hin",
+"title": "नीला"
+},
+"por": {
+"content_id": 828211,
+"language": "por",
+"title": "Azul"
+},
+"spa": {
+"content_id": 841146,
+"language": "spa",
+"title": "Azul"
+}
+}
+},
+"914745": {
+"content_id": "914745",
+"reference_id": 225379,
+"index_reference": "armure",
+"localizations": {
+"eng": {
+"content_id": 909660,
+"language": "eng",
+"title": "Body Armor"
+}
+}
+},
+"914671": {
+"content_id": "914671",
+"reference_id": 3468,
+"index_reference": "livre de souvenir",
+"localizations": {
+"eng": {
+"content_id": 4300,
+"language": "eng",
+"title": "Scroll of Remembrance"
+},
+"arb": {
+"content_id": 509844,
+"language": "arb",
+"title": "سِفْرُ تَذْكَرَةٍ"
+},
+"hin": {
+"content_id": 732679,
+"language": "hin",
+"title": "स्मरण की पुस्तक"
+},
+"por": {
+"content_id": 828223,
+"language": "por",
+"title": "Livro de Memorial"
+},
+"spa": {
+"content_id": 841161,
+"language": "spa",
+"title": "Libro de Recuerdos"
+}
+}
+},
+"914680": {
+"content_id": "914680",
+"reference_id": 3487,
+"index_reference": "arc",
+"localizations": {
+"eng": {
+"content_id": 4319,
+"language": "eng",
+"title": "Bow"
+},
+"arb": {
+"content_id": 509854,
+"language": "arb",
+"title": "قوس"
+},
+"hin": {
+"content_id": 732686,
+"language": "hin",
+"title": "धनुष"
+},
+"por": {
+"content_id": 828235,
+"language": "por",
+"title": "Arco"
+},
+"spa": {
+"content_id": 841175,
+"language": "spa",
+"title": "Arco"
+}
+}
+},
+"914716": {
+"content_id": "914716",
+"reference_id": 3597,
+"index_reference": "carie",
+"localizations": {
+"eng": {
+"content_id": 4429,
+"language": "eng",
+"title": "Caria"
+},
+"arb": {
+"content_id": 509916,
+"language": "arb",
+"title": "كارية"
+},
+"hin": {
+"content_id": 732729,
+"language": "hin",
+"title": "कारिए"
+},
+"por": {
+"content_id": 828300,
+"language": "por",
+"title": "Cária"
+},
+"spa": {
+"content_id": 841247,
+"language": "spa",
+"title": "Caria"
+}
+}
+},
+"914722": {
+"content_id": "914722",
+"reference_id": 3614,
+"index_reference": "chenille",
+"localizations": {
+"eng": {
+"content_id": 4446,
+"language": "eng",
+"title": "Caterpillar"
+},
+"arb": {
+"content_id": 509926,
+"language": "arb",
+"title": "يَرَقة"
+},
+"hin": {
+"content_id": 732736,
+"language": "hin",
+"title": "इल्ली "
+},
+"por": {
+"content_id": 828310,
+"language": "por",
+"title": "Lagarta"
+},
+"spa": {
+"content_id": 841259,
+"language": "spa",
+"title": "Oruga"
+}
+}
+},
+"914723": {
+"content_id": "914723",
+"reference_id": 3615,
+"index_reference": "lettres catholiques",
+"localizations": {
+"eng": {
+"content_id": 4447,
+"language": "eng",
+"title": "Catholic Letters"
+},
+"arb": {
+"content_id": 509927,
+"language": "arb",
+"title": "رسائل الكاثوليكون (الرسائل الجامعة)"
+},
+"hin": {
+"content_id": 732737,
+"language": "hin",
+"title": "कैथोलिक पत्रीया  "
+},
+"por": {
+"content_id": 828311,
+"language": "por",
+"title": "Epístolas Gerais"
+},
+"spa": {
+"content_id": 841260,
+"language": "spa",
+"title": "Cartas Católicas"
+}
+}
+},
+"914729": {
+"content_id": "914729",
+"reference_id": 3629,
+"index_reference": "cérinthe",
+"localizations": {
+"eng": {
+"content_id": 4461,
+"language": "eng",
+"title": "Cerinthus"
+},
+"arb": {
+"content_id": 335215,
+"language": "arb",
+"title": "سيرينثوس"
+},
+"hin": {
+"content_id": 620631,
+"language": "hin",
+"title": "सेरिन्थस"
+},
+"por": {
+"content_id": 828320,
+"language": "por",
+"title": "Cerinto"
+},
+"spa": {
+"content_id": 841270,
+"language": "spa",
+"title": "Cerinto"
 }
 }
 }

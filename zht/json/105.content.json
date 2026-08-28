@@ -8,7 +8,7 @@
 "index_reference": "幔利 地點",
 "language": "zht",
 "review_level": "None",
-"content": "<h1>幔利（地點）</h1><p>這是亞伯拉罕所居住附近的重要的橡樹林，並以幫助他擊敗基大老瑪和拯救羅得的一位亞摩利人而命名（<a href=\"https://ref.ly/Gen14:13,Gen14:24\">創14:13</a>、<a href=\"https://ref.ly/Gen14:13,Gen14:24\">24</a>）。亞伯拉罕在幔利的橡樹下築了一座壇（<a href=\"https://ref.ly/Gen13:18\">13:18</a>）。亞伯拉罕坐在神聖的樹旁，迎接了三位神秘的客人（第<a href=\"https://ref.ly/Gen18:1-Gen18:33\">18</a>章）。幔利也可能是亞伯拉罕與神進行立約儀式的場地（第<a href=\"https://ref.ly/Gen15:1-Gen15:21\">15</a>章）。以撒和雅各也住在那裡（<a href=\"https://ref.ly/Gen35:27\">35:27</a>）。</p>",
+"content": "<h1>幔利（地點）</h1><p>這是亞伯拉罕所居住附近的重要的橡樹林，並以幫助他擊敗基大老瑪和拯救羅得的一位亞摩利人而命名（<data class=\"bible-ref\" data-start-ref=\"01014013\" data-end-ref=\"01014024\">創14:13</data>、<data class=\"bible-ref\" data-start-ref=\"01014013\" data-end-ref=\"01014024\">24</data>）。亞伯拉罕在幔利的橡樹下築了一座壇（<data class=\"bible-ref\" data-start-ref=\"01013018\" data-end-ref=\"01013018\">13:18</data>）。亞伯拉罕坐在神聖的樹旁，迎接了三位神秘的客人（第<data class=\"bible-ref\" data-start-ref=\"01018001\" data-end-ref=\"01018033\">18</data>章）。幔利也可能是亞伯拉罕與神進行立約儀式的場地（第<data class=\"bible-ref\" data-start-ref=\"01015001\" data-end-ref=\"01015021\">15</data>章）。以撒和雅各也住在那裡（<data class=\"bible-ref\" data-start-ref=\"01035027\" data-end-ref=\"01035027\">35:27</data>）。</p>",
 "associations": {
 "passage": [
 {
@@ -61,7 +61,7 @@
 "index_reference": "幔利 人物",
 "language": "zht",
 "review_level": "None",
-"content": "<h1>幔利（人物）</h1><p>幔利擁有一塊名為「幔利平原」的地。他是一位亞摩利人，有兩個兄弟：亞乃和以實各（<a href=\"https://ref.ly/Gen14:13\">創14:13</a>）。當亞伯拉罕為拯救他的侄子羅得而戰時，他們成為了亞伯拉罕的盟友。</p>",
+"content": "<h1>幔利（人物）</h1><p>幔利擁有一塊名為「幔利平原」的地。他是一位亞摩利人，有兩個兄弟：亞乃和以實各（<data class=\"bible-ref\" data-start-ref=\"01014013\" data-end-ref=\"01014013\">創14:13</data>）。當亞伯拉罕為拯救他的侄子羅得而戰時，他們成為了亞伯拉罕的盟友。</p>",
 "associations": {
 "passage": [
 {
@@ -84,7 +84,7 @@
 "index_reference": "幔利的橡樹",
 "language": "zht",
 "review_level": "None",
-"content": "<h1>幔利的橡樹*</h1><p>與亞伯拉罕和以撒相關的地點（<a href=\"https://ref.ly/Gen13:18\">創13:18</a>）。<em>見</em><span data-bnType=\"resourceReference\" data-resourceId=\"6080\" data-resourceType=\"TyndaleBibleDictionary\">幔利（地點）</span>。</p>",
+"content": "<h1>幔利的橡樹*</h1><p>與亞伯拉罕和以撒相關的地點（<data class=\"bible-ref\" data-start-ref=\"01013018\" data-end-ref=\"01013018\">創13:18</data>）。<em>見</em><data class=\"resource-ref\" data-content-id=\"6080\" data-resource-code=\"AquiferOpenBibleDictionary\">幔利（地點）</data>。</p>",
 "associations": {
 "passage": [
 {
@@ -98,12 +98,41 @@
 {
 "reference_id": 6080,
 "content_id": 853408,
-"resource_code": "TyndaleBibleDictionary",
+"resource_code": "AquiferOpenBibleDictionary",
 "label": "幔利 (地點)",
 "language": "zht"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "flora:Oak",
+"type": "flora",
+"confidence": 0.85,
+"match_method": "scored",
+"preferred_label": "Oak"
+},
+{
+"id": "place:Mamre",
+"type": "place",
+"confidence": 0.652,
+"match_method": "scored",
+"preferred_label": "Mamre"
+},
+{
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.589,
+"match_method": "scored",
+"preferred_label": "Stone Altar"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.58,
+"match_method": "scored",
+"preferred_label": "LORD"
+}
+]
 }
 }
 ]
