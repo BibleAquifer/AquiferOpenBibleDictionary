@@ -11459,18 +11459,18 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:Net",
-"type": "realia",
-"confidence": 0.65,
-"match_method": "scored",
-"preferred_label": "Net"
-},
-{
 "id": "realia:Trap",
 "type": "realia",
 "confidence": 0.65,
 "match_method": "scored",
 "preferred_label": "Trap"
+},
+{
+"id": "realia:Net",
+"type": "realia",
+"confidence": 0.65,
+"match_method": "scored",
+"preferred_label": "Net"
 }
 ]
 }
@@ -16956,7 +16956,7 @@
 "index_reference": "espírito",
 "language": "por",
 "review_level": "Professional",
-"content": "<h1>ESPÍRITO</h1><p>Designação daquele aspecto da existência que é incorpóreo e imaterial. Sua derivação latina (assim como as palavras hebraicas e gregas na Bíblia—<em>ruach</em> e <em>pneuma</em>) denota sopro ou respiração (<data class=\"bible-ref\" data-start-ref=\"18041016\" data-end-ref=\"18041016\">Jó 41.16</data>; <data class=\"bible-ref\" data-start-ref=\"23025004\" data-end-ref=\"23025004\">Is 25.4</data>). Assim, o substantivo <em>spiritus</em> significa sopro e vida. Deus, a fonte de toda vida, é ele mesmo Espírito (<data class=\"bible-ref\" data-start-ref=\"43004024\" data-end-ref=\"43004024\">Jó 4.24</data>). Ele colocou um espírito dentro de todos os seres humanos para que pudessem comungar com ele em seu reino e em sua natureza. A experiência de um cristão com Jesus Cristo se torna real quando essa pessoa experimenta o Espírito de Jesus Cristo em seu espírito.</p><p>Três artigos seguem, descrevendo três aspectos principais do espírito: (1) Espírito de Deus; (2) Espírito de Jesus Cristo; (3) espírito do homem.</p>",
+"content": "<h1>ESPÍRITO</h1><p>Designação daquele aspecto da existência que é incorpóreo e imaterial. Sua derivação latina (assim como as palavras hebraicas e gregas na Bíblia—<em>ruach</em> e <em>pneuma</em>) denota sopro ou respiração (<data class=\"bible-ref\" data-start-ref=\"18041016\" data-end-ref=\"18041016\">Jó 41.16</data>; <data class=\"bible-ref\" data-start-ref=\"23025004\" data-end-ref=\"23025004\">Is 25.4</data>). Assim, o substantivo <em>spiritus</em> significa sopro e vida. Deus, a fonte de toda vida, é ele mesmo Espírito (<data class=\"bible-ref\" data-start-ref=\"43004024\" data-end-ref=\"43004024\">Jó 4.24</data>). Ele colocou um espírito dentro de todos os seres humanos para que pudessem comungar com ele em seu reino e em sua natureza. A experiência de um cristão com Jesus Cristo se torna real quando essa pessoa experimenta o Espírito de Jesus Cristo em seu espírito.</p><p>Três artigos seguem, descrevendo três aspectos principais do espírito: (1) <data class=\"resource-ref\" data-content-id=\"7769\" data-resource-code=\"AquiferOpenBibleDictionary\">Espírito de Deus</data>; (2) <data class=\"resource-ref\" data-content-id=\"7770\" data-resource-code=\"AquiferOpenBibleDictionary\">Espírito de Jesus Cristo</data>; (3) <data class=\"resource-ref\" data-content-id=\"7771\" data-resource-code=\"AquiferOpenBibleDictionary\">espírito do homem</data>.</p>",
 "associations": {
 "passage": [
 {
@@ -16978,8 +16978,38 @@
 "end_ref_usfm": "JHN 4:24"
 }
 ],
-"resource": [],
-"acai": []
+"resource": [
+{
+"reference_id": 7769,
+"content_id": 125338,
+"resource_code": "AquiferOpenBibleDictionary",
+"label": "Espírito De Deus",
+"language": "por"
+},
+{
+"reference_id": 7770,
+"content_id": 481584,
+"resource_code": "AquiferOpenBibleDictionary",
+"label": "Espírito de Jesus Cristo",
+"language": "por"
+},
+{
+"reference_id": 7771,
+"content_id": 830912,
+"resource_code": "AquiferOpenBibleDictionary",
+"label": "Espírito Humano",
+"language": "por"
+}
+],
+"acai": [
+{
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.5833,
+"match_method": "scored",
+"preferred_label": "Spirit"
+}
+]
 }
 },
 {
@@ -18420,7 +18450,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.7015,
+"match_method": "scored",
+"preferred_label": "Spirit"
+}
+]
 }
 },
 {
