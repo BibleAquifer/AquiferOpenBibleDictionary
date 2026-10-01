@@ -5474,14 +5474,14 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Elijah.4",
+"id": "person:Elijah.2",
 "type": "person",
 "confidence": 0.8,
 "match_method": "scored",
 "preferred_label": "Élie"
 },
 {
-"id": "person:Elijah.2",
+"id": "person:Elijah.4",
 "type": "person",
 "confidence": 0.8,
 "match_method": "scored",
@@ -15989,7 +15989,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.7015,
+"match_method": "scored",
+"preferred_label": "esprit"
+}
+]
 }
 },
 {
@@ -16001,7 +16009,7 @@
 "index_reference": "esprit esprit",
 "language": "fra",
 "review_level": "None",
-"content": "<h1>ESPRIT</h1><p>La nature ou la partie d&apos;un être qui est immatérielle, souvent décrite en opposition à son corps ou au fait d&apos;avoir un corps. Ainsi, l&apos;être humain a un esprit distinct de son corps physique. Cependant, l&apos;Esprit de Dieu n&apos;a pas de corps, même s&apos;il peut se manifester et interagir avec le monde physique. Dieu lui-même, ainsi que les êtres angéliques, sont aussi décrits comme étant des «&nbsp;esprits&nbsp;» par nature. Les êtres angéliques incluent les « esprits impurs » ou « mauvais esprits&nbsp;» (démons). </p><p>Le mot français provient du latin <em>spiritus</em>, qui signifie <em>souffle</em> (de respiration ou vent). Il traduit bien le mot hébreu <em>ruach</em> et son équivalent grec <em>pneuma</em> (<data class=\"bible-ref\" data-start-ref=\"18041016\" data-end-ref=\"18041016\">Jb 41.16</data> ; <data class=\"bible-ref\" data-start-ref=\"23025004\" data-end-ref=\"23025004\">Es 25.4</data>). Dans la pensée biblique, le souffle est étroitement lié à la vie. Dieu, source de toute vie, est lui-même Esprit. Le fait que Dieu a donné aux êtres humains un esprit leur permet de communier avec lui « en esprit » (<data class=\"bible-ref\" data-start-ref=\"43004024\" data-end-ref=\"43004024\">Jn 4.24</data>). Le témoignage de l&apos;Esprit de Christ dans l&apos;esprit du chrétien est une démonstration essentielle du fait de lui appartenir (<data class=\"bible-ref\" data-start-ref=\"45008009\" data-end-ref=\"45008009\">Rm 8.9</data>).</p><p><em>Voir aussi</em> Esprit de Dieu ; Esprit de Christ ; esprit de l&apos;homme</p>",
+"content": "<h1>ESPRIT</h1><p>La nature ou la partie d&apos;un être qui est immatérielle, souvent décrite en opposition à son corps ou au fait d&apos;avoir un corps. Ainsi, l&apos;être humain a un esprit distinct de son corps physique. Cependant, l&apos;Esprit de Dieu n&apos;a pas de corps, même s&apos;il peut se manifester et interagir avec le monde physique. Dieu lui-même, ainsi que les êtres angéliques, sont aussi décrits comme étant des «&nbsp;esprits&nbsp;» par nature. Les êtres angéliques incluent les « esprits impurs » ou « mauvais esprits&nbsp;» (démons). </p><p>Le mot français provient du latin <em>spiritus</em>, qui signifie <em>souffle</em> (de respiration ou vent). Il traduit bien le mot hébreu <em>ruach</em> et son équivalent grec <em>pneuma</em> (<data class=\"bible-ref\" data-start-ref=\"18041016\" data-end-ref=\"18041016\">Jb 41.16</data> ; <data class=\"bible-ref\" data-start-ref=\"23025004\" data-end-ref=\"23025004\">Es 25.4</data>). Dans la pensée biblique, le souffle est étroitement lié à la vie. Dieu, source de toute vie, est lui-même Esprit. Le fait que Dieu a donné aux êtres humains un esprit leur permet de communier avec lui « en esprit » (<data class=\"bible-ref\" data-start-ref=\"43004024\" data-end-ref=\"43004024\">Jn 4.24</data>). Le témoignage de l&apos;Esprit de Christ dans l&apos;esprit du chrétien est une démonstration essentielle du fait de lui appartenir (<data class=\"bible-ref\" data-start-ref=\"45008009\" data-end-ref=\"45008009\">Rm 8.9</data>).</p><p><em>Voir aussi</em> <data class=\"resource-ref\" data-content-id=\"7769\" data-resource-code=\"AquiferOpenBibleDictionary\">Esprit de Dieu </data>; <data class=\"resource-ref\" data-content-id=\"7770\" data-resource-code=\"AquiferOpenBibleDictionary\">Esprit de Christ</data> ; <data class=\"resource-ref\" data-content-id=\"7771\" data-resource-code=\"AquiferOpenBibleDictionary\">esprit de l&apos;homme</data></p>",
 "associations": {
 "passage": [
 {
@@ -16023,8 +16031,31 @@
 "end_ref_usfm": "JHN 4:24"
 }
 ],
-"resource": [],
-"acai": []
+"resource": [
+{
+"reference_id": 7770,
+"content_id": 390350,
+"resource_code": "AquiferOpenBibleDictionary",
+"label": "Esprit de Jésus-Christ",
+"language": "fra"
+},
+{
+"reference_id": 7771,
+"content_id": 831674,
+"resource_code": "AquiferOpenBibleDictionary",
+"label": "esprit de l'homme",
+"language": "fra"
+}
+],
+"acai": [
+{
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.5833,
+"match_method": "scored",
+"preferred_label": "esprit"
+}
+]
 }
 },
 {

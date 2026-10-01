@@ -6352,14 +6352,14 @@
 "preferred_label": "Ramah"
 },
 {
-"id": "place:Ramah.4",
+"id": "place:Ramah.3",
 "type": "place",
 "confidence": 0.6071,
 "match_method": "scored",
 "preferred_label": "Ramah"
 },
 {
-"id": "place:Ramah.3",
+"id": "place:Ramah.4",
 "type": "place",
 "confidence": 0.6071,
 "match_method": "scored",
@@ -14362,18 +14362,18 @@
 "preferred_label": "رَكَابٍ"
 },
 {
-"id": "group:Rechab",
-"type": "group",
-"confidence": 0.6372,
-"match_method": "scored",
-"preferred_label": "Rechabites"
-},
-{
 "id": "person:Rechab",
 "type": "person",
 "confidence": 0.6372,
 "match_method": "scored",
 "preferred_label": "رَكَابٍ"
+},
+{
+"id": "group:Rechab",
+"type": "group",
+"confidence": 0.6372,
+"match_method": "scored",
+"preferred_label": "Rechabites"
 }
 ]
 }
@@ -15706,7 +15706,7 @@
 "index_reference": "روح",
 "language": "arb",
 "review_level": "None",
-"content": "<h1>روح</h1><p>هو ذلك الجانب من الوجود الذي هو غير مادي وغير ملموس. اشتقاقه اللاتيني (كما هو الحال مع الكلمات العبرية واليونانية في الكتاب المقدس - روح ونسمة) يدل على النفخ أو التنفس (<data class=\"bible-ref\" data-start-ref=\"18041016\" data-end-ref=\"18041016\">أيوب 41:16</data>; <data class=\"bible-ref\" data-start-ref=\"23025004\" data-end-ref=\"23025004\">إشعياء 25:4</data>). لذا فإن الاسم <em>روح</em> يعني التنفس والحياة. والله، مصدر كل الحياة، هو نفسه روح (<data class=\"bible-ref\" data-start-ref=\"43004024\" data-end-ref=\"43004024\">يوحنا 4:24</data>). ولقد وضع روحًا داخل جميع البشر حتى يتمكنوا من التواصل معه في محضره وفي طبيعته. ويصبح اختبار الشخص المسيحي ليسوع المسيح حقيقي عندما يختبر ذلك الشخص روح يسوع المسيح في روحه.</p><p>وهناك ثلاث مقالات تالية تصف ثلاثة جوانب رئيسية للروح: (1) روح الله؛ (2) روح يسوع المسيح؛ (3) روح الإنسان.</p>",
+"content": "<h1>روح</h1><p>هو ذلك الجانب من الوجود الذي هو غير مادي وغير ملموس. اشتقاقه اللاتيني (كما هو الحال مع الكلمات العبرية واليونانية في الكتاب المقدس - روح ونسمة) يدل على النفخ أو التنفس (<data class=\"bible-ref\" data-start-ref=\"18041016\" data-end-ref=\"18041016\">أيوب 41:16</data>; <data class=\"bible-ref\" data-start-ref=\"23025004\" data-end-ref=\"23025004\">إشعياء 25:4</data>). لذا فإن الاسم <em>روح</em> يعني التنفس والحياة. والله، مصدر كل الحياة، هو نفسه روح (<data class=\"bible-ref\" data-start-ref=\"43004024\" data-end-ref=\"43004024\">يوحنا 4:24</data>). ولقد وضع روحًا داخل جميع البشر حتى يتمكنوا من التواصل معه في محضره وفي طبيعته. ويصبح اختبار الشخص المسيحي ليسوع المسيح حقيقي عندما يختبر ذلك الشخص روح يسوع المسيح في روحه.</p><p>وهناك ثلاث مقالات تالية تصف ثلاثة جوانب رئيسية للروح: (1) <data class=\"resource-ref\" data-content-id=\"7769\" data-resource-code=\"AquiferOpenBibleDictionary\">روح الله</data>؛ (2) <data class=\"resource-ref\" data-content-id=\"7770\" data-resource-code=\"AquiferOpenBibleDictionary\">روح يسوع المسيح</data>؛ (3) <data class=\"resource-ref\" data-content-id=\"7771\" data-resource-code=\"AquiferOpenBibleDictionary\">روح الإنسان</data>.</p>",
 "associations": {
 "passage": [
 {
@@ -15728,7 +15728,29 @@
 "end_ref_usfm": "JHN 4:24"
 }
 ],
-"resource": [],
+"resource": [
+{
+"reference_id": 7769,
+"content_id": 124580,
+"resource_code": "AquiferOpenBibleDictionary",
+"label": "روح الله",
+"language": "arb"
+},
+{
+"reference_id": 7770,
+"content_id": 331977,
+"resource_code": "AquiferOpenBibleDictionary",
+"label": "روح يسوع المسيح",
+"language": "arb"
+},
+{
+"reference_id": 7771,
+"content_id": 335521,
+"resource_code": "AquiferOpenBibleDictionary",
+"label": "روح الإنسان ",
+"language": "arb"
+}
+],
 "acai": [
 {
 "id": "keyterm:Spirit.2",
@@ -15800,7 +15822,7 @@
 {
 "id": "keyterm:Spirit.2",
 "type": "keyterm",
-"confidence": 0.7192,
+"confidence": 0.7015,
 "match_method": "scored",
 "preferred_label": "Spirit"
 }
