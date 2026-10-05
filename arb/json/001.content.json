@@ -19474,7 +19474,64 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Jeremiah.2",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "إِرْمِيَا"
+},
+{
+"id": "person:Jeremiah.3",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "إِرْمِيَا"
+},
+{
+"id": "person:Jeremiah.4",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "إِرْمِيَا"
+},
+{
+"id": "person:Jeremiah.5",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "إِرْمِيَا"
+},
+{
+"id": "person:Jeremiah.6",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "إِرْمِيَا"
+},
+{
+"id": "person:Jeremiah.7",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "إِرْمِيَا"
+},
+{
+"id": "person:Jeremiah.8",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "إِرْمِيَا"
+},
+{
+"id": "person:Jeremiah",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "إِرْمِيَا"
+}
+]
 }
 },
 {
@@ -60089,18 +60146,18 @@
 ],
 "acai": [
 {
-"id": "group:Iezer",
-"type": "group",
-"confidence": 0.8605,
-"match_method": "scored",
-"preferred_label": "Iezerites"
-},
-{
 "id": "person:Abiezer",
 "type": "person",
 "confidence": 0.8605,
 "match_method": "scored",
 "preferred_label": "أَبِيعَزَر"
+},
+{
+"id": "group:Iezer",
+"type": "group",
+"confidence": 0.8605,
+"match_method": "scored",
+"preferred_label": "Iezerites"
 },
 {
 "id": "person:Helek",
@@ -63444,18 +63501,11 @@
 "preferred_label": "Gate of Jeshanah"
 },
 {
-"id": "place:FishGate",
+"id": "place:EphraimGate",
 "type": "place",
 "confidence": 0.5848,
 "match_method": "scored",
-"preferred_label": "باب ٱلسَّمَكِ"
-},
-{
-"id": "place:GuardGate",
-"type": "place",
-"confidence": 0.5848,
-"match_method": "scored",
-"preferred_label": "ٱلسِّجْنِ"
+"preferred_label": "أَفْرَايِمَ"
 },
 {
 "id": "place:SheepGate",
@@ -63465,11 +63515,18 @@
 "preferred_label": "ٱلضَّأْنِ"
 },
 {
-"id": "place:EphraimGate",
+"id": "place:GuardGate",
 "type": "place",
 "confidence": 0.5848,
 "match_method": "scored",
-"preferred_label": "أَفْرَايِمَ"
+"preferred_label": "ٱلسِّجْنِ"
+},
+{
+"id": "place:FishGate",
+"type": "place",
+"confidence": 0.5848,
+"match_method": "scored",
+"preferred_label": "باب ٱلسَّمَكِ"
 }
 ]
 }

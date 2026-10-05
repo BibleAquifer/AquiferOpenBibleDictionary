@@ -7050,7 +7050,15 @@
 "language": "arb"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "realia:Prison",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Prison"
+}
+]
 }
 },
 {
@@ -27389,18 +27397,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Samgar",
-"type": "person",
-"confidence": 0.9595,
-"match_method": "scored",
-"preferred_label": "Samgar"
-},
-{
 "id": "person:Nergal-shar-ezer",
 "type": "person",
 "confidence": 0.9595,
 "match_method": "scored",
 "preferred_label": "Nergal-shar-ezer"
+},
+{
+"id": "person:Samgar",
+"type": "person",
+"confidence": 0.9595,
+"match_method": "scored",
+"preferred_label": "Samgar"
 }
 ]
 }
