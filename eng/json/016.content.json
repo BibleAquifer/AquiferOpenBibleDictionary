@@ -8403,18 +8403,18 @@
 ],
 "acai": [
 {
-"id": "realia:Quadrans",
-"type": "realia",
-"confidence": 0.6667,
-"match_method": "scored",
-"preferred_label": "Quadrans"
-},
-{
 "id": "realia:Assarion",
 "type": "realia",
 "confidence": 0.6667,
 "match_method": "scored",
 "preferred_label": "Assarion"
+},
+{
+"id": "realia:Quadrans",
+"type": "realia",
+"confidence": 0.6667,
+"match_method": "scored",
+"preferred_label": "Quadrans"
 }
 ]
 }
@@ -16718,15 +16718,15 @@
 ],
 "acai": [
 {
-"id": "place:Put",
-"type": "place",
+"id": "person:Put",
+"type": "person",
 "confidence": 0.8,
 "match_method": "scored",
 "preferred_label": "Put"
 },
 {
-"id": "person:Put",
-"type": "person",
+"id": "place:Put",
+"type": "place",
 "confidence": 0.8,
 "match_method": "scored",
 "preferred_label": "Put"
@@ -26212,6 +26212,30 @@
 }
 },
 {
+"content_id": "7803",
+"reference_id": 6971,
+"version": "1.0.4",
+"title": "Prayer, Lord’s",
+"media_type": "Text",
+"index_reference": "prayer lords",
+"language": "eng",
+"review_level": "None",
+"content": "<h1>PRAYER, Lord’s</h1><p><em>See</em> <data class=\"resource-ref\" data-content-id=\"5946\" data-resource-code=\"AquiferOpenBibleDictionary\">Lord’s Prayer, The</data>.</p>",
+"associations": {
+"passage": [],
+"resource": [
+{
+"reference_id": 5946,
+"content_id": 6778,
+"resource_code": "AquiferOpenBibleDictionary",
+"label": "Lord’s Prayer, the",
+"language": "eng"
+}
+],
+"acai": []
+}
+},
+{
 "content_id": "3901",
 "reference_id": 3069,
 "version": "1.0.4",
@@ -27162,6 +27186,30 @@
 }
 },
 {
+"content_id": "7807",
+"reference_id": 6975,
+"version": "1.0.4",
+"title": "Precious Stones",
+"media_type": "Text",
+"index_reference": "precious stones",
+"language": "eng",
+"review_level": "None",
+"content": "<h1>PRECIOUS STONES</h1><p><em>See</em> <data class=\"resource-ref\" data-content-id=\"7796\" data-resource-code=\"AquiferOpenBibleDictionary\">Stones, Precious</data>.</p>",
+"associations": {
+"passage": [],
+"resource": [
+{
+"reference_id": 7796,
+"content_id": 8628,
+"resource_code": "AquiferOpenBibleDictionary",
+"label": "Precious Stones",
+"language": "eng"
+}
+],
+"acai": []
+}
+},
+{
 "content_id": "7808",
 "reference_id": 6976,
 "version": "1.0.4",
@@ -27352,6 +27400,30 @@
 "content_id": 8608,
 "resource_code": "AquiferOpenBibleDictionary",
 "label": "Spiritual Gifts",
+"language": "eng"
+}
+],
+"acai": []
+}
+},
+{
+"content_id": "7811",
+"reference_id": 6979,
+"version": "1.0.4",
+"title": "Presence, Bread of the",
+"media_type": "Text",
+"index_reference": "presence bread of the",
+"language": "eng",
+"review_level": "None",
+"content": "<h1>PRESENCE, Bread of the</h1><p><em>See</em> <data class=\"resource-ref\" data-content-id=\"3497\" data-resource-code=\"AquiferOpenBibleDictionary\">Bread of the Presence</data>.</p>",
+"associations": {
+"passage": [],
+"resource": [
+{
+"reference_id": 3497,
+"content_id": 4329,
+"resource_code": "AquiferOpenBibleDictionary",
+"label": "Bread of the Presence",
 "language": "eng"
 }
 ],
@@ -29174,18 +29246,50 @@
 "preferred_label": "Sheep Gate"
 },
 {
-"id": "place:FishGate",
-"type": "place",
-"confidence": 0.7885,
-"match_method": "scored",
-"preferred_label": "Fish Gate"
-},
-{
 "id": "place:EphraimGate",
 "type": "place",
 "confidence": 0.7885,
 "match_method": "scored",
 "preferred_label": "Ephraim Gate"
+},
+{
+"id": "place:FishGate",
+"type": "place",
+"confidence": 0.7885,
+"match_method": "scored",
+"preferred_label": "Fish Gate"
+}
+]
+}
+},
+{
+"content_id": "7823",
+"reference_id": 6991,
+"version": "1.0.4",
+"title": "Prison, Spirits in",
+"media_type": "Text",
+"index_reference": "prison spirits in",
+"language": "eng",
+"review_level": "None",
+"content": "<h1>PRISON, Spirits in</h1><p><em>See</em> <data class=\"resource-ref\" data-content-id=\"7773\" data-resource-code=\"AquiferOpenBibleDictionary\">Spirits in Prison</data>.</p>",
+"associations": {
+"passage": [],
+"resource": [
+{
+"reference_id": 7773,
+"content_id": 8605,
+"resource_code": "AquiferOpenBibleDictionary",
+"label": "Spirits in Prison",
+"language": "eng"
+}
+],
+"acai": [
+{
+"id": "realia:Prison",
+"type": "realia",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Prison"
 }
 ]
 }
@@ -35362,18 +35466,18 @@
 ],
 "acai": [
 {
-"id": "person:Puah",
-"type": "person",
-"confidence": 0.937,
-"match_method": "scored",
-"preferred_label": "Puah"
-},
-{
 "id": "group:Punite",
 "type": "group",
 "confidence": 0.937,
 "match_method": "scored",
 "preferred_label": "Punites"
+},
+{
+"id": "person:Puah",
+"type": "person",
+"confidence": 0.937,
+"match_method": "scored",
+"preferred_label": "Puah"
 }
 ]
 }

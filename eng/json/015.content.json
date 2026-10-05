@@ -3317,6 +3317,65 @@
 }
 },
 {
+"content_id": "7463",
+"reference_id": 6631,
+"version": "1.0.4",
+"title": "Officers in the Church",
+"media_type": "Text",
+"index_reference": "officers in the church",
+"language": "eng",
+"review_level": "None",
+"content": "<h1>OFFICERS IN THE CHURCH</h1><p><em>See</em> <data class=\"resource-ref\" data-content-id=\"3424\" data-resource-code=\"AquiferOpenBibleDictionary\">Bishop</data>; <data class=\"resource-ref\" data-content-id=\"3944\" data-resource-code=\"AquiferOpenBibleDictionary\">Deacon, Deaconess</data>; <data class=\"resource-ref\" data-content-id=\"4143\" data-resource-code=\"AquiferOpenBibleDictionary\">Elder</data>; <data class=\"resource-ref\" data-content-id=\"6771\" data-resource-code=\"AquiferOpenBibleDictionary\">Pastor</data>; <data class=\"resource-ref\" data-content-id=\"6978\" data-resource-code=\"AquiferOpenBibleDictionary\">Presbyter</data>; <data class=\"resource-ref\" data-content-id=\"7776\" data-resource-code=\"AquiferOpenBibleDictionary\">Spiritual Gifts</data>.</p>",
+"associations": {
+"passage": [],
+"resource": [
+{
+"reference_id": 3424,
+"content_id": 4256,
+"resource_code": "AquiferOpenBibleDictionary",
+"label": "Bishop",
+"language": "eng"
+},
+{
+"reference_id": 3944,
+"content_id": 4776,
+"resource_code": "AquiferOpenBibleDictionary",
+"label": "Deacon, Deaconess",
+"language": "eng"
+},
+{
+"reference_id": 4143,
+"content_id": 4975,
+"resource_code": "AquiferOpenBibleDictionary",
+"label": "Elder",
+"language": "eng"
+},
+{
+"reference_id": 6771,
+"content_id": 7603,
+"resource_code": "AquiferOpenBibleDictionary",
+"label": "Pastor",
+"language": "eng"
+},
+{
+"reference_id": 6978,
+"content_id": 7810,
+"resource_code": "AquiferOpenBibleDictionary",
+"label": "Presbyter",
+"language": "eng"
+},
+{
+"reference_id": 7776,
+"content_id": 8608,
+"resource_code": "AquiferOpenBibleDictionary",
+"label": "Spiritual Gifts",
+"language": "eng"
+}
+],
+"acai": []
+}
+},
+{
 "content_id": "7464",
 "reference_id": 6632,
 "version": "1.0.4",
@@ -4206,18 +4265,11 @@
 "preferred_label": "Gate of Jeshanah"
 },
 {
-"id": "place:FishGate",
+"id": "place:EphraimGate",
 "type": "place",
 "confidence": 0.5848,
 "match_method": "scored",
-"preferred_label": "Fish Gate"
-},
-{
-"id": "place:GuardGate",
-"type": "place",
-"confidence": 0.5848,
-"match_method": "scored",
-"preferred_label": "Gate of the Guard"
+"preferred_label": "Ephraim Gate"
 },
 {
 "id": "place:SheepGate",
@@ -4227,11 +4279,18 @@
 "preferred_label": "Sheep Gate"
 },
 {
-"id": "place:EphraimGate",
+"id": "place:GuardGate",
 "type": "place",
 "confidence": 0.5848,
 "match_method": "scored",
-"preferred_label": "Ephraim Gate"
+"preferred_label": "Gate of the Guard"
+},
+{
+"id": "place:FishGate",
+"type": "place",
+"confidence": 0.5848,
+"match_method": "scored",
+"preferred_label": "Fish Gate"
 }
 ]
 }
