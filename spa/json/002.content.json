@@ -1313,7 +1313,15 @@
 "language": "spa"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "fauna:Bee",
+"type": "fauna",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Bee"
+}
+]
 }
 },
 {
@@ -18037,18 +18045,18 @@
 "preferred_label": "Temple Altar"
 },
 {
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.7674,
-"match_method": "scored",
-"preferred_label": "Tabernacle Altar"
-},
-{
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.7674,
 "match_method": "scored",
 "preferred_label": "Stone Altar"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.7674,
+"match_method": "scored",
+"preferred_label": "Tabernacle Altar"
 }
 ]
 }
