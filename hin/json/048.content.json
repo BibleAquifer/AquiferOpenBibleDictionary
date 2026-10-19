@@ -20245,13 +20245,6 @@
 "preferred_label": "Gate of Jeshanah"
 },
 {
-"id": "place:EphraimGate",
-"type": "place",
-"confidence": 0.5848,
-"match_method": "scored",
-"preferred_label": "Ephraim Gate"
-},
-{
 "id": "place:SheepGate",
 "type": "place",
 "confidence": 0.5848,
@@ -20259,11 +20252,11 @@
 "preferred_label": "भेड़ फाटक"
 },
 {
-"id": "place:GuardGate",
+"id": "place:EphraimGate",
 "type": "place",
 "confidence": 0.5848,
 "match_method": "scored",
-"preferred_label": "Gate of the Guard"
+"preferred_label": "Ephraim Gate"
 },
 {
 "id": "place:FishGate",
@@ -20271,6 +20264,13 @@
 "confidence": 0.5848,
 "match_method": "scored",
 "preferred_label": "Fish Gate"
+},
+{
+"id": "place:GuardGate",
+"type": "place",
+"confidence": 0.5848,
+"match_method": "scored",
+"preferred_label": "Gate of the Guard"
 }
 ]
 }
@@ -22187,15 +22187,15 @@
 ],
 "acai": [
 {
-"id": "person:Put",
-"type": "person",
+"id": "place:Put",
+"type": "place",
 "confidence": 0.8,
 "match_method": "scored",
 "preferred_label": "पूत"
 },
 {
-"id": "place:Put",
-"type": "place",
+"id": "person:Put",
+"type": "person",
 "confidence": 0.8,
 "match_method": "scored",
 "preferred_label": "पूत"
@@ -24973,18 +24973,18 @@
 ],
 "acai": [
 {
-"id": "realia:Quadrans",
-"type": "realia",
-"confidence": 0.6667,
-"match_method": "scored",
-"preferred_label": "Quadrans"
-},
-{
 "id": "realia:Assarion",
 "type": "realia",
 "confidence": 0.6667,
 "match_method": "scored",
 "preferred_label": "Assarion"
+},
+{
+"id": "realia:Quadrans",
+"type": "realia",
+"confidence": 0.6667,
+"match_method": "scored",
+"preferred_label": "Quadrans"
 }
 ]
 }
