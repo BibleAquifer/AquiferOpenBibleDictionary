@@ -2364,14 +2364,7 @@
 "type": "group",
 "confidence": 0.7885,
 "match_method": "scored",
-"preferred_label": "Rephaim"
-},
-{
-"id": "group:Ammon",
-"type": "group",
-"confidence": 0.6115,
-"match_method": "scored",
-"preferred_label": "Ammonites"
+"preferred_label": "refains"
 },
 {
 "id": "place:Ammon",
@@ -2379,6 +2372,13 @@
 "confidence": 0.6115,
 "match_method": "scored",
 "preferred_label": "Amom"
+},
+{
+"id": "group:Ammon",
+"type": "group",
+"confidence": 0.6115,
+"match_method": "scored",
+"preferred_label": "amonitas"
 }
 ]
 }
@@ -2626,7 +2626,7 @@
 "type": "person",
 "confidence": 1.0,
 "match_method": "content_id",
-"preferred_label": "Salmuna"
+"preferred_label": "Zalmuna"
 },
 {
 "id": "person:Zebah",
@@ -2987,7 +2987,7 @@
 "type": "group",
 "confidence": 0.6,
 "match_method": "scored",
-"preferred_label": "Zebulom"
+"preferred_label": "tribo de Zebulom"
 }
 ]
 }
@@ -3129,7 +3129,7 @@
 "type": "group",
 "confidence": 0.8,
 "match_method": "scored",
-"preferred_label": "Zebulom"
+"preferred_label": "tribo de Zebulom"
 }
 ]
 }
@@ -3174,7 +3174,7 @@
 "type": "group",
 "confidence": 0.9775,
 "match_method": "scored",
-"preferred_label": "Zebulom"
+"preferred_label": "tribo de Zebulom"
 },
 {
 "id": "person:Zebulun",
@@ -3487,7 +3487,7 @@
 "type": "place",
 "confidence": 1.0,
 "match_method": "scored",
-"preferred_label": "Zephath"
+"preferred_label": "Zefate"
 }
 ]
 }
@@ -3954,7 +3954,7 @@
 "type": "group",
 "confidence": 0.5907,
 "match_method": "scored",
-"preferred_label": "Zelote"
+"preferred_label": "zelotes"
 }
 ]
 }
@@ -4087,7 +4087,7 @@
 "type": "group",
 "confidence": 1.0,
 "match_method": "content_id",
-"preferred_label": "Zemarites"
+"preferred_label": "zemareus"
 }
 ]
 }
@@ -4459,7 +4459,7 @@
 "type": "group",
 "confidence": 0.6085,
 "match_method": "scored",
-"preferred_label": "Zerahites"
+"preferred_label": "zeraítas"
 }
 ]
 }
@@ -4596,7 +4596,7 @@
 "type": "group",
 "confidence": 0.973,
 "match_method": "scored",
-"preferred_label": "Zerahites"
+"preferred_label": "zeraítas"
 }
 ]
 }
@@ -4647,14 +4647,14 @@
 "type": "place",
 "confidence": 1.0,
 "match_method": "content_id",
-"preferred_label": "Zereda"
+"preferred_label": "Zaretã"
 },
 {
 "id": "place:Zeredah.2",
 "type": "place",
 "confidence": 0.7333,
 "match_method": "scored",
-"preferred_label": "Zeredah"
+"preferred_label": "Zeredá"
 }
 ]
 }
@@ -4753,7 +4753,7 @@
 "type": "place",
 "confidence": 1.0,
 "match_method": "content_id",
-"preferred_label": "Zereda"
+"preferred_label": "Zaretã"
 }
 ]
 }
@@ -5011,7 +5011,7 @@
 "type": "person",
 "confidence": 1.0,
 "match_method": "content_id",
-"preferred_label": "Zetam"
+"preferred_label": "Zetã"
 }
 ]
 }
@@ -5065,7 +5065,15 @@
 }
 ],
 "resource": [],
-"acai": []
+"acai": [
+{
+"id": "deity:Zeus",
+"type": "deity",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Zeus"
+}
+]
 }
 },
 {
@@ -5663,14 +5671,7 @@
 "type": "place",
 "confidence": 0.84,
 "match_method": "scored",
-"preferred_label": "Wilderness of Ziph"
-},
-{
-"id": "group:Ziph",
-"type": "group",
-"confidence": 0.68,
-"match_method": "scored",
-"preferred_label": "Ziphites"
+"preferred_label": "Deserto de Zife"
 },
 {
 "id": "person:Ziph",
@@ -5678,6 +5679,13 @@
 "confidence": 0.68,
 "match_method": "scored",
 "preferred_label": "Zife"
+},
+{
+"id": "group:Ziph",
+"type": "group",
+"confidence": 0.68,
+"match_method": "scored",
+"preferred_label": "zifeus"
 }
 ]
 }
@@ -5781,7 +5789,7 @@
 "type": "group",
 "confidence": 0.8,
 "match_method": "scored",
-"preferred_label": "Zephonites"
+"preferred_label": "zefonitas"
 }
 ]
 }
@@ -5832,14 +5840,14 @@
 "type": "group",
 "confidence": 0.8352,
 "match_method": "scored",
-"preferred_label": "Ziphites"
+"preferred_label": "zifeus"
 },
 {
 "id": "place:Ziph.2",
 "type": "place",
 "confidence": 0.7167,
 "match_method": "scored",
-"preferred_label": "Wilderness of Ziph"
+"preferred_label": "Deserto de Zife"
 }
 ]
 }
@@ -5924,7 +5932,7 @@
 "type": "person",
 "confidence": 1.0,
 "match_method": "content_id",
-"preferred_label": "Zilla"
+"preferred_label": "Zilá"
 }
 ]
 }
@@ -6113,7 +6121,7 @@
 "type": "place",
 "confidence": 0.632,
 "match_method": "scored",
-"preferred_label": "Deserto de Zin"
+"preferred_label": "Deserto de Zim"
 }
 ]
 }
@@ -7115,7 +7123,7 @@
 "type": "person",
 "confidence": 1.0,
 "match_method": "content_id",
-"preferred_label": "Zofá"
+"preferred_label": "Zofa"
 }
 ]
 }
@@ -7318,7 +7326,7 @@
 "type": "group",
 "confidence": 0.964,
 "match_method": "scored",
-"preferred_label": "Zorathites"
+"preferred_label": "zoratitas"
 }
 ]
 }
@@ -7789,14 +7797,14 @@
 "type": "group",
 "confidence": 1.0,
 "match_method": "content_id",
-"preferred_label": "Zuzim"
+"preferred_label": "zuzins"
 },
 {
 "id": "group:Rephaim",
 "type": "group",
 "confidence": 0.7525,
 "match_method": "scored",
-"preferred_label": "Rephaim"
+"preferred_label": "refains"
 },
 {
 "id": "place:Ammon",
@@ -7810,7 +7818,7 @@
 "type": "group",
 "confidence": 0.5885,
 "match_method": "scored",
-"preferred_label": "Emim"
+"preferred_label": "emins"
 }
 ]
 }

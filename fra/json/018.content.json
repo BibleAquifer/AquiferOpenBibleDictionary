@@ -1207,7 +1207,7 @@
 "type": "fauna",
 "confidence": 0.8,
 "match_method": "scored",
-"preferred_label": "Sheep"
+"preferred_label": "agneau"
 }
 ]
 }
@@ -1550,7 +1550,7 @@
 "type": "place",
 "confidence": 1.0,
 "match_method": "content_id",
-"preferred_label": "Ramathaim-zophim"
+"preferred_label": "Ramathaïm-Tsophim"
 },
 {
 "id": "place:Ramah",
@@ -1588,7 +1588,7 @@
 "type": "group",
 "confidence": 1.0,
 "match_method": "scored",
-"preferred_label": "Ramathites"
+"preferred_label": "Ramathiens"
 }
 ]
 }
@@ -1627,7 +1627,7 @@
 "type": "place",
 "confidence": 1.0,
 "match_method": "content_id",
-"preferred_label": "de Rama"
+"preferred_label": "Ramath-Léchi"
 }
 ]
 }
@@ -1666,7 +1666,7 @@
 "type": "place",
 "confidence": 1.0,
 "match_method": "content_id",
-"preferred_label": "Mitspè"
+"preferred_label": "Ramath-Mitspé"
 }
 ]
 }
@@ -1991,7 +1991,7 @@
 "type": "fauna",
 "confidence": 0.643,
 "match_method": "scored",
-"preferred_label": "Vulture"
+"preferred_label": "vautour"
 }
 ]
 }
@@ -2454,18 +2454,18 @@
 "preferred_label": "Récab"
 },
 {
-"id": "group:Rechab",
-"type": "group",
-"confidence": 0.6372,
-"match_method": "scored",
-"preferred_label": "Réka"
-},
-{
 "id": "person:Rechab",
 "type": "person",
 "confidence": 0.6372,
 "match_method": "scored",
 "preferred_label": "Récab"
+},
+{
+"id": "group:Rechab",
+"type": "group",
+"confidence": 0.6372,
+"match_method": "scored",
+"preferred_label": "Récabites"
 }
 ]
 }
@@ -2511,7 +2511,7 @@
 "type": "group",
 "confidence": 0.6716,
 "match_method": "scored",
-"preferred_label": "Réka"
+"preferred_label": "Récabites"
 }
 ]
 }
@@ -3867,7 +3867,7 @@
 "type": "person",
 "confidence": 1.0,
 "match_method": "content_id",
-"preferred_label": "Reu"
+"preferred_label": "Rehu"
 }
 ]
 }
@@ -4867,7 +4867,7 @@
 "type": "group",
 "confidence": 1.0,
 "match_method": "content_id",
-"preferred_label": "Rephaim"
+"preferred_label": "Rephaïm"
 }
 ]
 }
@@ -7453,7 +7453,7 @@
 "type": "place",
 "confidence": 0.9,
 "match_method": "scored",
-"preferred_label": "Rock of Rimmon"
+"preferred_label": "rocher de Rimmon"
 }
 ]
 }
@@ -7583,7 +7583,7 @@
 "type": "person",
 "confidence": 1.0,
 "match_method": "content_id",
-"preferred_label": "Riphath"
+"preferred_label": "Riphat"
 }
 ]
 }
@@ -10119,7 +10119,7 @@
 "type": "flora",
 "confidence": 0.748,
 "match_method": "scored",
-"preferred_label": "Calamus"
+"preferred_label": "roseau aromatique"
 }
 ]
 }
@@ -10283,14 +10283,14 @@
 "type": "realia",
 "confidence": 1.0,
 "match_method": "content_id",
-"preferred_label": "Wheel"
+"preferred_label": "roue"
 },
 {
 "id": "realia:Wagon",
 "type": "realia",
 "confidence": 0.5632,
 "match_method": "scored",
-"preferred_label": "Wagon"
+"preferred_label": "char"
 }
 ]
 }
@@ -10854,7 +10854,7 @@
 "type": "place",
 "confidence": 0.8,
 "match_method": "scored",
-"preferred_label": "Dumah"
+"preferred_label": "Duma"
 }
 ]
 }
@@ -11001,7 +11001,15 @@
 "language": "fra"
 }
 ],
-"acai": []
+"acai": [
+{
+"id": "person:Ruth",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Ruth"
+}
+]
 }
 }
 ]
