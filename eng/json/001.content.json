@@ -16168,18 +16168,18 @@
 "preferred_label": "Temple Altar"
 },
 {
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.7674,
-"match_method": "scored",
-"preferred_label": "Tabernacle Altar"
-},
-{
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.7674,
 "match_method": "scored",
 "preferred_label": "Stone Altar"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.7674,
+"match_method": "scored",
+"preferred_label": "Tabernacle Altar"
 }
 ]
 }
@@ -16694,18 +16694,18 @@
 ],
 "acai": [
 {
-"id": "place:Abana",
-"type": "place",
-"confidence": 0.8,
-"match_method": "scored",
-"preferred_label": "Abanah"
-},
-{
 "id": "place:Amana",
 "type": "place",
 "confidence": 0.8,
 "match_method": "scored",
 "preferred_label": "Mount Amana"
+},
+{
+"id": "place:Abana",
+"type": "place",
+"confidence": 0.8,
+"match_method": "scored",
+"preferred_label": "Abanah"
 }
 ]
 }
@@ -26768,6 +26768,43 @@
 }
 },
 {
+"content_id": "5249",
+"reference_id": 4417,
+"version": "1.0.4",
+"title": "Antonius Felix",
+"media_type": "Text",
+"index_reference": "antonius felix",
+"language": "eng",
+"review_level": "None",
+"content": "<h1>ANTONIUS FELIX</h1><p>Antonius Felix was a Roman procurator (governor) of Judea from AD 52 to 60. The emperor Claudius appointed him to succeed Cumanus. Festus Porcius then succeeded Felix. </p><h2>His Character</h2><p>Pallas was Felix’s brother and a more influential Roman. He spoke in support of Felix after Nero removed Felix as governor. </p><p>Felix was an oppressive ruler. He used the help of robbers to murder the high priest Jonathan. It is probable that his tyranny caused the Jewish revolt. This happened six years after Nero recalled him. </p><h2>His Marriages</h2><p>Felix had three wives. One is unknown. Another was the granddaughter of Mark Antony and Cleopatra. </p><p>The third was the Jewish sister of Agrippa II. Her name was Drusilla. At the age of 16, Drusilla left her husband King Azizus of Emesa to marry Felix. She later had a son with him named Agrippa.</p><h2>Felix in the Bible</h2><p>Felix was governor when Lysias, a Roman military commander, brought the apostle Paul to him in Caesarea. There Paul had to answer charges after the riot in Jerusalem (<data class=\"bible-ref\" data-start-ref=\"44023024\" data-end-ref=\"44024027\">Acts 23:24–24:27</data>). There was a five-day delay. Then Tertullus, the spokesman for the Jews, arrived with others to state their charges. Felix delayed a decision until he could hear from Lysias. </p><p>In the meantime, Felix placed Paul in limited custody. Felix hoped to obtain bribe money for his release. So, Paul stayed for two years. During this time he and Felix often talked. </p><p> The apostle preached a message of “righteousness, self-control, and the coming judgment.” This frightened Felix (<data class=\"bible-ref\" data-start-ref=\"44024025\" data-end-ref=\"44024025\">Acts 24:25</data>). </p><p>After Emperor Nero removed Felix from his position as governor, nothing more is known about his life.</p>",
+"associations": {
+"passage": [
+{
+"start_ref": "44024025",
+"start_ref_usfm": "ACT 24:25",
+"end_ref": "44024025",
+"end_ref_usfm": "ACT 24:25"
+},
+{
+"start_ref": "44023024",
+"start_ref_usfm": "ACT 23:24",
+"end_ref": "44024027",
+"end_ref_usfm": "ACT 24:27"
+}
+],
+"resource": [],
+"acai": [
+{
+"id": "person:Felix",
+"type": "person",
+"confidence": 1.0,
+"match_method": "content_id",
+"preferred_label": "Felix"
+}
+]
+}
+},
+{
 "content_id": "3645",
 "reference_id": 2813,
 "version": "1.0.4",
@@ -34439,18 +34476,18 @@
 "preferred_label": "Aroer"
 },
 {
-"id": "group:Aroer",
-"type": "group",
-"confidence": 0.6267,
-"match_method": "scored",
-"preferred_label": "Aroerites"
-},
-{
 "id": "group:Ashtaroth",
 "type": "group",
 "confidence": 0.6267,
 "match_method": "scored",
 "preferred_label": "Ashterathites"
+},
+{
+"id": "group:Aroer",
+"type": "group",
+"confidence": 0.6267,
+"match_method": "scored",
+"preferred_label": "Aroerites"
 }
 ]
 }
@@ -36628,15 +36665,15 @@
 ],
 "acai": [
 {
-"id": "person:Ashkenaz",
-"type": "person",
+"id": "place:Ashkenaz",
+"type": "place",
 "confidence": 0.8,
 "match_method": "scored",
 "preferred_label": "Ashkenaz"
 },
 {
-"id": "place:Ashkenaz",
-"type": "place",
+"id": "person:Ashkenaz",
+"type": "person",
 "confidence": 0.8,
 "match_method": "scored",
 "preferred_label": "Ashkenaz"
