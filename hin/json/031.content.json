@@ -12826,18 +12826,18 @@
 "preferred_label": "भेड़ फाटक"
 },
 {
-"id": "place:EphraimGate",
-"type": "place",
-"confidence": 0.7885,
-"match_method": "scored",
-"preferred_label": "एप्रैम का फाटक"
-},
-{
 "id": "place:FishGate",
 "type": "place",
 "confidence": 0.7885,
 "match_method": "scored",
 "preferred_label": "मछली फाटक"
+},
+{
+"id": "place:EphraimGate",
+"type": "place",
+"confidence": 0.7885,
+"match_method": "scored",
+"preferred_label": "एप्रैम का फाटक"
 }
 ]
 }
@@ -20245,18 +20245,18 @@
 "preferred_label": "पुराना फाटक"
 },
 {
-"id": "place:EphraimGate",
-"type": "place",
-"confidence": 0.5848,
-"match_method": "scored",
-"preferred_label": "एप्रैम का फाटक"
-},
-{
 "id": "place:SheepGate",
 "type": "place",
 "confidence": 0.5848,
 "match_method": "scored",
 "preferred_label": "भेड़ फाटक"
+},
+{
+"id": "place:FishGate",
+"type": "place",
+"confidence": 0.5848,
+"match_method": "scored",
+"preferred_label": "मछली फाटक"
 },
 {
 "id": "place:GuardGate",
@@ -20266,11 +20266,11 @@
 "preferred_label": "पहरुओं का फाटक"
 },
 {
-"id": "place:FishGate",
+"id": "place:EphraimGate",
 "type": "place",
 "confidence": 0.5848,
 "match_method": "scored",
-"preferred_label": "मछली फाटक"
+"preferred_label": "एप्रैम का फाटक"
 }
 ]
 }
@@ -22187,15 +22187,15 @@
 ],
 "acai": [
 {
-"id": "place:Put",
-"type": "place",
+"id": "person:Put",
+"type": "person",
 "confidence": 0.8,
 "match_method": "scored",
 "preferred_label": "पूत"
 },
 {
-"id": "person:Put",
-"type": "person",
+"id": "place:Put",
+"type": "place",
 "confidence": 0.8,
 "match_method": "scored",
 "preferred_label": "पूत"

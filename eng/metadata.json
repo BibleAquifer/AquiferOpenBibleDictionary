@@ -29,7 +29,7 @@
 },
 "adaptation_notice": "<p><b>Aquifer Open Bible Dictionary</b></p><p>This work is an adaptation of <cite>Tyndale Open Bible Dictionary</cite> © 2023 Tyndale House Publishers, licensed under the CC BY-SA 4.0 license. The adaptation, <cite>Aquifer Open Bible Dictionary</cite>, was created by Mission Mutual and is also licensed under CC BY-SA 4.0.</p><p>This resource has been adapted into multiple languages, including English, Tok Pisin, Arabic (عربي), French (Français), Hindi (हिंदी), Indonesian (Bahasa Indonesia), Portuguese (Português), Russian (Русский), Spanish (Español), Swahili (Kiswahili), and Simplified Chinese (简体中文).</p>",
 "resource_code": "AquiferOpenBibleDictionary",
-"date_created": "2026-11-10",
+"date_created": "2026-11-17",
 "language": "eng",
 "localizations": [
 "arb",
@@ -56,7 +56,7 @@
 "version": "1.0.0",
 "category": "source",
 "defaultLocale": "en",
-"dateCreated": "2026-11-10T09:54:46.346625"
+"dateCreated": "2026-11-17T09:14:02.328081"
 },
 "idAuthorities": {
 "aquifer": {
@@ -70,7 +70,7 @@
 "primary": {
 "aquifer": {
 "AquiferOpenBibleDictionary": {
-"timestamp": "2026-11-10T09:54:46.346625"
+"timestamp": "2026-11-17T09:14:02.328081"
 }
 }
 },
@@ -805,7 +805,7 @@
 },
 "json/002.content.json": {
 "mimeType": "text/json",
-"size": 2093068,
+"size": 2093222,
 "scope": {
 "b": [
 "Baal (Idol)",
@@ -1656,7 +1656,7 @@
 },
 "json/004.content.json": {
 "mimeType": "text/json",
-"size": 714102,
+"size": 714033,
 "scope": {
 "d": [
 "Dabareh",
@@ -1757,6 +1757,7 @@
 "Dialogue of the Redeemer",
 "Diamond",
 "Diana",
+"Diaspora of the Jews",
 "Diblah",
 "Diblaim",
 "Diblath",
@@ -1793,7 +1794,6 @@
 "Dishan",
 "Dishon",
 "Dispersion of the Jews",
-"Dispersion of the Jews, Diaspora",
 "Dives",
 "Divination",
 "Divine Presence",
@@ -1846,7 +1846,7 @@
 },
 "json/005.content.json": {
 "mimeType": "text/json",
-"size": 928062,
+"size": 929405,
 "scope": {
 "e": [
 "Eagle",
@@ -2136,7 +2136,7 @@
 "Execution",
 "Exhortation",
 "Exile",
-"Exodus, the",
+"Exodus",
 "Exorcism, Exorcist",
 "Expiation",
 "Eye Paint",
@@ -3823,7 +3823,7 @@
 },
 "json/013.content.json": {
 "mimeType": "text/json",
-"size": 1485294,
+"size": 1487386,
 "scope": {
 "m": [
 "Maacah, Maachah (Person)",
@@ -6452,7 +6452,7 @@
 },
 "md/004.content.md": {
 "mimeType": "text/markdown",
-"size": 362417
+"size": 362347
 },
 "md/011.content.md": {
 "mimeType": "text/markdown",
@@ -6476,11 +6476,11 @@
 },
 "md/005.content.md": {
 "mimeType": "text/markdown",
-"size": 494703
+"size": 495931
 },
 "md/002.content.md": {
 "mimeType": "text/markdown",
-"size": 1076176
+"size": 1076243
 },
 "md/026.content.md": {
 "mimeType": "text/markdown",
@@ -6524,7 +6524,7 @@
 },
 "md/013.content.md": {
 "mimeType": "text/markdown",
-"size": 730878
+"size": 732747
 },
 "md/025.content.md": {
 "mimeType": "text/markdown",
@@ -6548,7 +6548,7 @@
 },
 "docx/002.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 440535
+"size": 440548
 },
 "docx/003.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
@@ -6556,11 +6556,11 @@
 },
 "docx/004.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 180959
+"size": 180904
 },
 "docx/005.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 225731
+"size": 225734
 },
 "docx/006.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
@@ -6592,7 +6592,7 @@
 },
 "docx/013.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 313440
+"size": 314104
 },
 "docx/014.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
@@ -6652,7 +6652,7 @@
 },
 "pdf/002.content.pdf": {
 "mimeType": "application/pdf",
-"size": 2875520
+"size": 2875654
 },
 "pdf/003.content.pdf": {
 "mimeType": "application/pdf",
@@ -6660,11 +6660,11 @@
 },
 "pdf/004.content.pdf": {
 "mimeType": "application/pdf",
-"size": 965713
+"size": 964512
 },
 "pdf/005.content.pdf": {
 "mimeType": "application/pdf",
-"size": 1277452
+"size": 1278241
 },
 "pdf/006.content.pdf": {
 "mimeType": "application/pdf",
@@ -6696,7 +6696,7 @@
 },
 "pdf/013.content.pdf": {
 "mimeType": "application/pdf",
-"size": 1989593
+"size": 1994677
 },
 "pdf/014.content.pdf": {
 "mimeType": "application/pdf",
@@ -28864,6 +28864,11 @@
 "content_id": 811711,
 "language": "swh",
 "title": "Damu"
+},
+"zht": {
+"content_id": 853301,
+"language": "zht",
+"title": "血"
 }
 }
 },
@@ -42779,7 +42784,7 @@
 "4831": {
 "content_id": "4831",
 "reference_id": 3999,
-"index_reference": "dispersion of the jews diaspora",
+"index_reference": "diaspora of the jews",
 "localizations": {
 "arb": {
 "content_id": 232567,
@@ -44079,6 +44084,16 @@
 "content_id": 732909,
 "language": "hin",
 "title": "गदहा"
+},
+"por": {
+"content_id": 828576,
+"language": "por",
+"title": "Jumento"
+},
+"spa": {
+"content_id": 841564,
+"language": "spa",
+"title": "Burro"
 }
 }
 },
@@ -51996,7 +52011,7 @@
 "5207": {
 "content_id": "5207",
 "reference_id": 4375,
-"index_reference": "exodus the",
+"index_reference": "exodus",
 "localizations": {
 "arb": {
 "content_id": 331822,
@@ -52022,6 +52037,16 @@
 "content_id": 806611,
 "language": "spa",
 "title": "Éxodo"
+},
+"swh": {
+"content_id": 852510,
+"language": "swh",
+"title": "Kutoka"
+},
+"zht": {
+"content_id": 853338,
+"language": "zht",
+"title": "出埃及"
 }
 }
 },
@@ -100310,10 +100335,20 @@
 "language": "arb",
 "title": "نجمة الصباح (كوكب الصبح)"
 },
+"fra": {
+"content_id": 831639,
+"language": "fra",
+"title": "Étoile du matin"
+},
 "hin": {
 "content_id": 620744,
 "language": "hin",
 "title": "भोर का तारा"
+},
+"por": {
+"content_id": 830065,
+"language": "por",
+"title": "Estrela da Manhã"
 },
 "spa": {
 "content_id": 761416,
