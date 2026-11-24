@@ -29,7 +29,7 @@
 },
 "adaptation_notice": "<p><b>Aquifer Open Bible Dictionary</b></p><p>This work is an adaptation of <cite>Tyndale Open Bible Dictionary</cite> © 2023 Tyndale House Publishers, licensed under the CC BY-SA 4.0 license. The adaptation, <cite>Aquifer Open Bible Dictionary</cite>, was created by Mission Mutual and is also licensed under CC BY-SA 4.0.</p><p>This resource has been adapted into multiple languages, including English, Tok Pisin, Arabic (عربي), French (Français), Hindi (हिंदी), Indonesian (Bahasa Indonesia), Portuguese (Português), Russian (Русский), Spanish (Español), Swahili (Kiswahili), and Simplified Chinese (简体中文).</p>",
 "resource_code": "AquiferOpenBibleDictionary",
-"date_created": "2026-11-17",
+"date_created": "2026-11-24",
 "language": "eng",
 "localizations": [
 "arb",
@@ -56,7 +56,7 @@
 "version": "1.0.0",
 "category": "source",
 "defaultLocale": "en",
-"dateCreated": "2026-11-17T09:14:02.328081"
+"dateCreated": "2026-11-24T10:49:51.744449"
 },
 "idAuthorities": {
 "aquifer": {
@@ -70,7 +70,7 @@
 "primary": {
 "aquifer": {
 "AquiferOpenBibleDictionary": {
-"timestamp": "2026-11-17T09:14:02.328081"
+"timestamp": "2026-11-24T10:49:51.744449"
 }
 }
 },
@@ -805,7 +805,7 @@
 },
 "json/002.content.json": {
 "mimeType": "text/json",
-"size": 2093222,
+"size": 2251126,
 "scope": {
 "b": [
 "Baal (Idol)",
@@ -1148,6 +1148,7 @@
 "Black Obelisk",
 "Blasphemy",
 "Blastus",
+"Bleeding",
 "Bless, Blessing",
 "Blindness",
 "Blood",
@@ -1185,7 +1186,9 @@
 "Book of Eldad and Medad",
 "Book of Esther",
 "Book of Exodus",
+"Book of Ezekiel",
 "Book of Ezra",
+"Book of Genesis",
 "Book of Habakkuk",
 "Book of Jashar",
 "Book of Jeremiah",
@@ -1846,7 +1849,7 @@
 },
 "json/005.content.json": {
 "mimeType": "text/json",
-"size": 929405,
+"size": 839594,
 "scope": {
 "e": [
 "Eagle",
@@ -2144,7 +2147,6 @@
 "Ezbai",
 "Ezbon",
 "Ezekias",
-"Ezekiel, Book of",
 "Ezekiel (Person)",
 "Ezel",
 "Ezem",
@@ -2160,7 +2162,7 @@
 },
 "json/006.content.json": {
 "mimeType": "text/json",
-"size": 695777,
+"size": 696938,
 "scope": {
 "f": [
 "Fair Havens",
@@ -2275,7 +2277,7 @@
 },
 "json/007.content.json": {
 "mimeType": "text/json",
-"size": 1100682,
+"size": 1041980,
 "scope": {
 "g": [
 "Gaal",
@@ -2366,7 +2368,6 @@
 "Genealogy",
 "Genealogy of Jesus Christ",
 "Genesis Apocryphon",
-"Genesis, Book of",
 "Geneva Bible",
 "Gennaeus, Genneus",
 "Gennesaret",
@@ -2399,7 +2400,7 @@
 "Gibea",
 "Gibeah",
 "Gibeath",
-"Gibeath-Elohim",
+"Gibeath-elohim",
 "Gibeath-Haaraloth",
 "Gibeathite",
 "Gibeon, Gibeonites",
@@ -2521,14 +2522,14 @@
 "Guni",
 "Gunite",
 "Gur, Ascent of",
-"Gurbaal",
+"Gur-baal",
 "Gymnasium"
 ]
 }
 },
 "json/008.content.json": {
 "mimeType": "text/json",
-"size": 1242731,
+"size": 1239838,
 "scope": {
 "h": [
 "Haahashtari",
@@ -2773,7 +2774,6 @@
 "Hemath",
 "Hemdan",
 "Hemlock",
-"Hemorrhage",
 "Hen",
 "Hen (Person)",
 "Hena",
@@ -4581,7 +4581,7 @@
 },
 "json/016.content.json": {
 "mimeType": "text/json",
-"size": 1868719,
+"size": 1859892,
 "scope": {
 "p": [
 "Paarai",
@@ -4651,7 +4651,6 @@
 "Pathrusites",
 "Patience",
 "Patmos",
-"Patriarchs, Period of the",
 "Patrimony",
 "Patrobas",
 "Patroclus",
@@ -5775,7 +5774,7 @@
 },
 "json/020.content.json": {
 "mimeType": "text/json",
-"size": 780362,
+"size": 790833,
 "scope": {
 "t": [
 "Taanach",
@@ -5941,6 +5940,7 @@
 "Timaeus",
 "Timbrel",
 "Time",
+"Time of the Patriarchs",
 "Timeus",
 "Timna (Person)",
 "Timnah (Place)",
@@ -6440,7 +6440,7 @@
 },
 "md/008.content.md": {
 "mimeType": "text/markdown",
-"size": 634341
+"size": 633373
 },
 "md/009.content.md": {
 "mimeType": "text/markdown",
@@ -6460,11 +6460,11 @@
 },
 "md/016.content.md": {
 "mimeType": "text/markdown",
-"size": 904534
+"size": 900511
 },
 "md/020.content.md": {
 "mimeType": "text/markdown",
-"size": 401019
+"size": 406866
 },
 "md/017.content.md": {
 "mimeType": "text/markdown",
@@ -6476,11 +6476,11 @@
 },
 "md/005.content.md": {
 "mimeType": "text/markdown",
-"size": 495931
+"size": 451436
 },
 "md/002.content.md": {
 "mimeType": "text/markdown",
-"size": 1076243
+"size": 1154918
 },
 "md/026.content.md": {
 "mimeType": "text/markdown",
@@ -6500,7 +6500,7 @@
 },
 "md/007.content.md": {
 "mimeType": "text/markdown",
-"size": 540296
+"size": 511460
 },
 "md/023.content.md": {
 "mimeType": "text/markdown",
@@ -6512,7 +6512,7 @@
 },
 "md/006.content.md": {
 "mimeType": "text/markdown",
-"size": 354127
+"size": 354867
 },
 "md/001.content.md": {
 "mimeType": "text/markdown",
@@ -6548,7 +6548,7 @@
 },
 "docx/002.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 440548
+"size": 470462
 },
 "docx/003.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
@@ -6560,19 +6560,19 @@
 },
 "docx/005.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 225734
+"size": 209260
 },
 "docx/006.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 178868
+"size": 179054
 },
 "docx/007.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 247110
+"size": 235289
 },
 "docx/008.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 276342
+"size": 275964
 },
 "docx/009.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
@@ -6604,7 +6604,7 @@
 },
 "docx/016.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 388630
+"size": 387109
 },
 "docx/017.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
@@ -6620,7 +6620,7 @@
 },
 "docx/020.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 191287
+"size": 193377
 },
 "docx/021.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
@@ -6652,7 +6652,7 @@
 },
 "pdf/002.content.pdf": {
 "mimeType": "application/pdf",
-"size": 2875654
+"size": 3074965
 },
 "pdf/003.content.pdf": {
 "mimeType": "application/pdf",
@@ -6664,19 +6664,19 @@
 },
 "pdf/005.content.pdf": {
 "mimeType": "application/pdf",
-"size": 1278241
+"size": 1195210
 },
 "pdf/006.content.pdf": {
 "mimeType": "application/pdf",
-"size": 913783
+"size": 918126
 },
 "pdf/007.content.pdf": {
 "mimeType": "application/pdf",
-"size": 1399552
+"size": 1338665
 },
 "pdf/008.content.pdf": {
 "mimeType": "application/pdf",
-"size": 1692882
+"size": 1693114
 },
 "pdf/009.content.pdf": {
 "mimeType": "application/pdf",
@@ -6708,7 +6708,7 @@
 },
 "pdf/016.content.pdf": {
 "mimeType": "application/pdf",
-"size": 2319973
+"size": 2311968
 },
 "pdf/017.content.pdf": {
 "mimeType": "application/pdf",
@@ -6724,7 +6724,7 @@
 },
 "pdf/020.content.pdf": {
 "mimeType": "application/pdf",
-"size": 1085467
+"size": 1098916
 },
 "pdf/021.content.pdf": {
 "mimeType": "application/pdf",
@@ -52217,7 +52217,7 @@
 "5215": {
 "content_id": "5215",
 "reference_id": 4383,
-"index_reference": "ezekiel book of",
+"index_reference": "book of ezekiel",
 "localizations": {
 "arb": {
 "content_id": 232574,
@@ -52253,6 +52253,11 @@
 "content_id": 811730,
 "language": "swh",
 "title": "Kitabu cha Ezekieli"
+},
+"zht": {
+"content_id": 853339,
+"language": "zht",
+"title": "以西結書"
 }
 }
 },
@@ -52552,11 +52557,6 @@
 "reference_id": 4397,
 "index_reference": "faith",
 "localizations": {
-"tpi": {
-"content_id": 26206,
-"language": "tpi",
-"title": "Bilip"
-},
 "arb": {
 "content_id": 124499,
 "language": "arb",
@@ -57330,7 +57330,7 @@
 "5414": {
 "content_id": "5414",
 "reference_id": 4582,
-"index_reference": "genesis book of",
+"index_reference": "book of genesis",
 "localizations": {
 "arb": {
 "content_id": 159121,
@@ -58165,10 +58165,25 @@
 "language": "arb",
 "title": "جِبْعَة الله"
 },
+"fra": {
+"content_id": 852895,
+"language": "fra",
+"title": "Guibea-Élohim"
+},
 "hin": {
 "content_id": 648754,
 "language": "hin",
 "title": "गिबा-एलोहिम"
+},
+"por": {
+"content_id": 828911,
+"language": "por",
+"title": "Gibeá-Eloim"
+},
+"spa": {
+"content_id": 841945,
+"language": "spa",
+"title": "Collado de Dios"
 }
 }
 },
@@ -58382,10 +58397,25 @@
 "language": "arb",
 "title": "جِدْعوم"
 },
+"fra": {
+"content_id": 840008,
+"language": "fra",
+"title": "Guideom"
+},
 "hin": {
 "content_id": 648762,
 "language": "hin",
 "title": "गिदोम"
+},
+"por": {
+"content_id": 828921,
+"language": "por",
+"title": "Gidom"
+},
+"spa": {
+"content_id": 841956,
+"language": "spa",
+"title": "Gidom"
 }
 }
 },
@@ -60725,10 +60755,25 @@
 "language": "arb",
 "title": "جُورِ بَعْل"
 },
+"fra": {
+"content_id": 868893,
+"language": "fra",
+"title": "Gur-Baal"
+},
 "hin": {
 "content_id": 648780,
 "language": "hin",
 "title": "गुर्बाल"
+},
+"por": {
+"content_id": 828973,
+"language": "por",
+"title": "Gur-Baal"
+},
+"spa": {
+"content_id": 842023,
+"language": "spa",
+"title": "Gurbaal"
 }
 }
 },
@@ -61839,10 +61884,25 @@
 "language": "arb",
 "title": "هِقَّاطَان"
 },
+"fra": {
+"content_id": 868903,
+"language": "fra",
+"title": "Hakkathan"
+},
 "hin": {
 "content_id": 733107,
 "language": "hin",
 "title": "हक्कातान "
+},
+"por": {
+"content_id": 829008,
+"language": "por",
+"title": "Hacatã"
+},
+"spa": {
+"content_id": 842061,
+"language": "spa",
+"title": "Hacatán"
 }
 }
 },
@@ -64089,10 +64149,25 @@
 "language": "arb",
 "title": "حشبنا"
 },
+"fra": {
+"content_id": 868913,
+"language": "fra",
+"title": "Haschabna"
+},
 "hin": {
 "content_id": 733132,
 "language": "hin",
 "title": "हशब्ना"
+},
+"por": {
+"content_id": 829078,
+"language": "por",
+"title": "Hasabna"
+},
+"spa": {
+"content_id": 842135,
+"language": "spa",
+"title": "Hasabna"
 }
 }
 },
@@ -66687,12 +66762,17 @@
 "5798": {
 "content_id": "5798",
 "reference_id": 4966,
-"index_reference": "hemorrhage",
+"index_reference": "bleeding",
 "localizations": {
 "arb": {
 "content_id": 159130,
 "language": "arb",
 "title": "النزف"
+},
+"fra": {
+"content_id": 831595,
+"language": "fra",
+"title": "saignement"
 },
 "por": {
 "content_id": 161822,
@@ -110190,7 +110270,7 @@
 "7610": {
 "content_id": "7610",
 "reference_id": 6778,
-"index_reference": "patriarchs period of the",
+"index_reference": "time of the patriarchs",
 "localizations": {
 "arb": {
 "content_id": 335453,
@@ -110211,6 +110291,11 @@
 "content_id": 481566,
 "language": "por",
 "title": "Patriarcas, Período dos"
+},
+"spa": {
+"content_id": 827345,
+"language": "spa",
+"title": "Patriarcas, Período de los"
 },
 "swh": {
 "content_id": 778875,
