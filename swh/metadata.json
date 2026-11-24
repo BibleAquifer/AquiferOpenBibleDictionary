@@ -29,7 +29,7 @@
 },
 "adaptation_notice": "<p><b>Aquifer Open Bible Dictionary</b></p><p>This work is an adaptation of <cite>Tyndale Open Bible Dictionary</cite> © 2023 Tyndale House Publishers, licensed under the CC BY-SA 4.0 license. The adaptation, <cite>Aquifer Open Bible Dictionary</cite>, was created by Mission Mutual and is also licensed under CC BY-SA 4.0.</p><p>This resource has been adapted into multiple languages, including English, Tok Pisin, Arabic (عربي), French (Français), Hindi (हिंदी), Indonesian (Bahasa Indonesia), Portuguese (Português), Russian (Русский), Spanish (Español), Swahili (Kiswahili), and Simplified Chinese (简体中文).</p>",
 "resource_code": "AquiferOpenBibleDictionary",
-"date_created": "2026-11-17",
+"date_created": "2026-11-24",
 "language": "swh",
 "localizations": [
 "eng",
@@ -55,7 +55,7 @@
 "version": "1.0.0",
 "category": "source",
 "defaultLocale": "en",
-"dateCreated": "2026-11-17T09:14:20.878157"
+"dateCreated": "2026-11-24T10:50:10.471107"
 },
 "idAuthorities": {
 "aquifer": {
@@ -69,7 +69,7 @@
 "primary": {
 "aquifer": {
 "AquiferOpenBibleDictionary": {
-"timestamp": "2026-11-17T09:14:20.878157"
+"timestamp": "2026-11-24T10:50:10.471107"
 }
 }
 },
@@ -114,7 +114,7 @@
 },
 "json/002.content.json": {
 "mimeType": "text/json",
-"size": 593426,
+"size": 612906,
 "scope": {
 "a": [
 "Abeli (Mtu)",
@@ -167,10 +167,16 @@
 "Apokaliptiki",
 "Apokrifa",
 "Arabah",
+"Arabuni, Waarabu",
 "Aramu (Mtu)",
 "Aramu-Naharaimu",
+"Arani",
 "Ararati",
+"Arauna",
 "Ardhi",
+"Ardi, Waardi",
+"Areli, Mwareli",
+"Areta",
 "Arfaksadi",
 "Arioko",
 "Arkeolojia na Biblia",
@@ -409,7 +415,7 @@
 },
 "json/012.content.json": {
 "mimeType": "text/json",
-"size": 1159032,
+"size": 1218003,
 "scope": {
 "k": [
 "Kabila la Walawi",
@@ -432,6 +438,7 @@
 "Kenani",
 "Kenazi",
 "Kerubu, Makerubi",
+"Kiaramu",
 "Kichwa",
 "Kijito cha Misri",
 "Kilimo",
@@ -441,6 +448,7 @@
 "Kirene, Wakirene",
 "Kiriathaimu",
 "Kisima cha Yakobo",
+"Kitabu cha Amosi",
 "Kitabu cha Ezekieli",
 "Kitabu cha Hesabu",
 "Kitabu cha Jubilees",
@@ -513,7 +521,7 @@
 },
 "json/014.content.json": {
 "mimeType": "text/json",
-"size": 2018268,
+"size": 2023770,
 "scope": {
 "m": [
 "Maarifa ya awali",
@@ -610,6 +618,7 @@
 "Mnyama",
 "Mose",
 "Moyo",
+"Mpiga mishale, Upigaji mishale",
 "Mrithi",
 "Msamaha",
 "Msamaha wa Dhambi",
@@ -770,7 +779,7 @@
 },
 "json/019.content.json": {
 "mimeType": "text/json",
-"size": 566650,
+"size": 587403,
 "scope": {
 "s": [
 "Sabato",
@@ -787,6 +796,7 @@
 "Salome",
 "Samani",
 "Samweli (Mtu)",
+"Sanduku la Agano",
 "Sanhedrin",
 "Sara",
 "Sarai",
@@ -872,7 +882,7 @@
 },
 "json/021.content.json": {
 "mimeType": "text/json",
-"size": 844442,
+"size": 845643,
 "scope": {
 "u": [
 "Ubatizo",
@@ -946,7 +956,7 @@
 },
 "json/023.content.json": {
 "mimeType": "text/json",
-"size": 345320,
+"size": 382055,
 "scope": {
 "w": [
 "Waamori",
@@ -971,6 +981,7 @@
 "Wanyama",
 "Wapathrusi",
 "Waperizi",
+"Waraka kwa Waefeso",
 "Warefai",
 "Wasamaria",
 "Wasini",
@@ -1079,15 +1090,15 @@
 },
 "md/002.content.md": {
 "mimeType": "text/markdown",
-"size": 390787
+"size": 401575
 },
 "md/021.content.md": {
 "mimeType": "text/markdown",
-"size": 415709
+"size": 416893
 },
 "md/012.content.md": {
 "mimeType": "text/markdown",
-"size": 598073
+"size": 633969
 },
 "md/015.content.md": {
 "mimeType": "text/markdown",
@@ -1099,7 +1110,7 @@
 },
 "md/023.content.md": {
 "mimeType": "text/markdown",
-"size": 156800
+"size": 177462
 },
 "md/024.content.md": {
 "mimeType": "text/markdown",
@@ -1115,7 +1126,7 @@
 },
 "md/014.content.md": {
 "mimeType": "text/markdown",
-"size": 973235
+"size": 975291
 },
 "md/013.content.md": {
 "mimeType": "text/markdown",
@@ -1131,7 +1142,7 @@
 },
 "md/019.content.md": {
 "mimeType": "text/markdown",
-"size": 263967
+"size": 273820
 },
 "md/018.content.md": {
 "mimeType": "text/markdown",
@@ -1143,7 +1154,7 @@
 },
 "docx/002.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 184513
+"size": 188606
 },
 "docx/003.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
@@ -1183,7 +1194,7 @@
 },
 "docx/012.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 259442
+"size": 272644
 },
 "docx/013.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
@@ -1191,7 +1202,7 @@
 },
 "docx/014.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 396788
+"size": 397520
 },
 "docx/015.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
@@ -1211,7 +1222,7 @@
 },
 "docx/019.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 136987
+"size": 140766
 },
 "docx/020.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
@@ -1219,7 +1230,7 @@
 },
 "docx/021.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 193447
+"size": 193873
 },
 "docx/022.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
@@ -1227,7 +1238,7 @@
 },
 "docx/023.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-"size": 95687
+"size": 103711
 },
 "docx/024.content.docx": {
 "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
@@ -1243,7 +1254,7 @@
 },
 "pdf/002.content.pdf": {
 "mimeType": "application/pdf",
-"size": 962884
+"size": 990677
 },
 "pdf/003.content.pdf": {
 "mimeType": "application/pdf",
@@ -1283,7 +1294,7 @@
 },
 "pdf/012.content.pdf": {
 "mimeType": "application/pdf",
-"size": 1387397
+"size": 1476765
 },
 "pdf/013.content.pdf": {
 "mimeType": "application/pdf",
@@ -1291,7 +1302,7 @@
 },
 "pdf/014.content.pdf": {
 "mimeType": "application/pdf",
-"size": 2359245
+"size": 2362596
 },
 "pdf/015.content.pdf": {
 "mimeType": "application/pdf",
@@ -1311,7 +1322,7 @@
 },
 "pdf/019.content.pdf": {
 "mimeType": "application/pdf",
-"size": 633053
+"size": 657355
 },
 "pdf/020.content.pdf": {
 "mimeType": "application/pdf",
@@ -1319,7 +1330,7 @@
 },
 "pdf/021.content.pdf": {
 "mimeType": "application/pdf",
-"size": 981421
+"size": 983088
 },
 "pdf/022.content.pdf": {
 "mimeType": "application/pdf",
@@ -1327,7 +1338,7 @@
 },
 "pdf/023.content.pdf": {
 "mimeType": "application/pdf",
-"size": 382950
+"size": 431250
 },
 "pdf/024.content.pdf": {
 "mimeType": "application/pdf",
@@ -29487,6 +29498,478 @@
 "content_id": 864874,
 "language": "zht",
 "title": "天使報喜"
+}
+}
+},
+"920615": {
+"content_id": "920615",
+"reference_id": 2741,
+"index_reference": "kitabu cha amosi",
+"localizations": {
+"eng": {
+"content_id": 3573,
+"language": "eng",
+"title": "Book of Amos"
+},
+"arb": {
+"content_id": 207143,
+"language": "arb",
+"title": "عاموس، سِفر"
+},
+"fra": {
+"content_id": 207161,
+"language": "fra",
+"title": "Amos, livre d'"
+},
+"hin": {
+"content_id": 207167,
+"language": "hin",
+"title": "आमोस, की पुस्तक "
+},
+"ind": {
+"content_id": 207173,
+"language": "ind",
+"title": "Kitab Amos"
+},
+"por": {
+"content_id": 207149,
+"language": "por",
+"title": "Amós, Livro de"
+},
+"rus": {
+"content_id": 207155,
+"language": "rus",
+"title": "Амос, Книга пророка Амоса"
+},
+"spa": {
+"content_id": 817455,
+"language": "spa",
+"title": "Amós, Libro de"
+},
+"zht": {
+"content_id": 232629,
+"language": "zht",
+"title": "阿摩司書"
+}
+}
+},
+"920619": {
+"content_id": "920619",
+"reference_id": 2856,
+"index_reference": "arabuni waarabu",
+"localizations": {
+"eng": {
+"content_id": 3688,
+"language": "eng",
+"title": "Arabia, Arabs"
+},
+"arb": {
+"content_id": 443566,
+"language": "arb",
+"title": "الْعَرَبِيَّة، الْعَرَب"
+},
+"fra": {
+"content_id": 822858,
+"language": "fra",
+"title": "Arabie, Arabes"
+},
+"hin": {
+"content_id": 381306,
+"language": "hin",
+"title": "अरब, अरब के लोग"
+},
+"por": {
+"content_id": 716907,
+"language": "por",
+"title": "Arábia, Árabes"
+},
+"spa": {
+"content_id": 826895,
+"language": "spa",
+"title": "Arabia, Árabes"
+},
+"zht": {
+"content_id": 907251,
+"language": "zht",
+"title": "阿拉伯，阿拉伯人"
+}
+}
+},
+"920620": {
+"content_id": "920620",
+"reference_id": 2862,
+"index_reference": "kiaramu",
+"localizations": {
+"eng": {
+"content_id": 3694,
+"language": "eng",
+"title": "Aramaic"
+},
+"arb": {
+"content_id": 331724,
+"language": "arb",
+"title": "أَرَامِيَّة"
+},
+"fra": {
+"content_id": 788700,
+"language": "fra",
+"title": "Araméen"
+},
+"hin": {
+"content_id": 380990,
+"language": "hin",
+"title": "अरामी"
+},
+"por": {
+"content_id": 716909,
+"language": "por",
+"title": "Aramaico"
+},
+"spa": {
+"content_id": 817468,
+"language": "spa",
+"title": "Arameo"
+},
+"zht": {
+"content_id": 907252,
+"language": "zht",
+"title": "亞蘭文"
+}
+}
+},
+"920621": {
+"content_id": "920621",
+"reference_id": 2871,
+"index_reference": "arani",
+"localizations": {
+"eng": {
+"content_id": 3703,
+"language": "eng",
+"title": "Aran"
+},
+"arb": {
+"content_id": 443568,
+"language": "arb",
+"title": "أَرَان"
+},
+"fra": {
+"content_id": 822859,
+"language": "fra",
+"title": "Aran"
+},
+"hin": {
+"content_id": 381309,
+"language": "hin",
+"title": "अरान"
+},
+"por": {
+"content_id": 716910,
+"language": "por",
+"title": "Arã"
+},
+"spa": {
+"content_id": 826898,
+"language": "spa",
+"title": "Arán"
+},
+"zht": {
+"content_id": 907253,
+"language": "zht",
+"title": "亞蘭"
+}
+}
+},
+"920622": {
+"content_id": "920622",
+"reference_id": 2874,
+"index_reference": "arauna",
+"localizations": {
+"eng": {
+"content_id": 3706,
+"language": "eng",
+"title": "Araunah"
+},
+"arb": {
+"content_id": 443570,
+"language": "arb",
+"title": "أَرُونَة"
+},
+"fra": {
+"content_id": 811790,
+"language": "fra",
+"title": "Aravna"
+},
+"hin": {
+"content_id": 381311,
+"language": "hin",
+"title": "अरौना"
+},
+"por": {
+"content_id": 682858,
+"language": "por",
+"title": "Araúna"
+},
+"spa": {
+"content_id": 826900,
+"language": "spa",
+"title": "Arauna"
+},
+"zht": {
+"content_id": 864875,
+"language": "zht",
+"title": "亞勞拿"
+}
+}
+},
+"920623": {
+"content_id": "920623",
+"reference_id": 2884,
+"index_reference": "mpiga mishale upigaji mishale",
+"localizations": {
+"eng": {
+"content_id": 3716,
+"language": "eng",
+"title": "Archer, Archery"
+},
+"arb": {
+"content_id": 443572,
+"language": "arb",
+"title": "الرَّامي، الرِمَاية"
+},
+"fra": {
+"content_id": 811791,
+"language": "fra",
+"title": "Archer, Tir à l'arc"
+},
+"hin": {
+"content_id": 381313,
+"language": "hin",
+"title": "धनुर्धर, तीरंदाजी"
+},
+"por": {
+"content_id": 682859,
+"language": "por",
+"title": "Arqueiro, Arco e flecha"
+},
+"spa": {
+"content_id": 826902,
+"language": "spa",
+"title": "Arquero, Tiro con arco"
+},
+"zht": {
+"content_id": 864876,
+"language": "zht",
+"title": "弓箭手、射箭"
+}
+}
+},
+"920624": {
+"content_id": "920624",
+"reference_id": 2892,
+"index_reference": "ardi waardi",
+"localizations": {
+"eng": {
+"content_id": 3724,
+"language": "eng",
+"title": "Ard, Ardite"
+},
+"arb": {
+"content_id": 443573,
+"language": "arb",
+"title": "أَرْد، الْأَرْدِيُّون"
+},
+"fra": {
+"content_id": 822860,
+"language": "fra",
+"title": "Ard, Ardite"
+},
+"hin": {
+"content_id": 381314,
+"language": "hin",
+"title": "अर्द, अर्दी"
+},
+"por": {
+"content_id": 716911,
+"language": "por",
+"title": "Arde, Ardita"
+},
+"spa": {
+"content_id": 826903,
+"language": "spa",
+"title": "Ard, Ardita"
+},
+"zht": {
+"content_id": 908671,
+"language": "zht",
+"title": "亞勒，亞勒族"
+}
+}
+},
+"920625": {
+"content_id": "920625",
+"reference_id": 2894,
+"index_reference": "areli mwareli",
+"localizations": {
+"eng": {
+"content_id": 3726,
+"language": "eng",
+"title": "Areli, Arelite"
+},
+"arb": {
+"content_id": 443574,
+"language": "arb",
+"title": "أَرْئِيلِي، الْأَرْئِيلِيُّون"
+},
+"fra": {
+"content_id": 822861,
+"language": "fra",
+"title": "Areéli, Areélite"
+},
+"hin": {
+"content_id": 381315,
+"language": "hin",
+"title": "अरेली, अरेलियों"
+},
+"por": {
+"content_id": 716912,
+"language": "por",
+"title": "Areli, Arelita"
+},
+"spa": {
+"content_id": 826904,
+"language": "spa",
+"title": "Areli, Arelita"
+},
+"zht": {
+"content_id": 908672,
+"language": "zht",
+"title": "亞列利，亞列利族"
+}
+}
+},
+"920626": {
+"content_id": "920626",
+"reference_id": 2897,
+"index_reference": "areta",
+"localizations": {
+"eng": {
+"content_id": 3729,
+"language": "eng",
+"title": "Aretas"
+},
+"arb": {
+"content_id": 443575,
+"language": "arb",
+"title": "أَرَتَاس"
+},
+"fra": {
+"content_id": 811792,
+"language": "fra",
+"title": "Arétas"
+},
+"hin": {
+"content_id": 381316,
+"language": "hin",
+"title": "अरितास"
+},
+"por": {
+"content_id": 682860,
+"language": "por",
+"title": "Aretas"
+},
+"spa": {
+"content_id": 826905,
+"language": "spa",
+"title": "Aretas"
+},
+"zht": {
+"content_id": 864877,
+"language": "zht",
+"title": "亞哩達"
+}
+}
+},
+"920627": {
+"content_id": "920627",
+"reference_id": 2913,
+"index_reference": "sanduku la agano",
+"localizations": {
+"eng": {
+"content_id": 3745,
+"language": "eng",
+"title": "Ark of the Covenant"
+},
+"arb": {
+"content_id": 443578,
+"language": "arb",
+"title": "تَابُوت العَهْد"
+},
+"fra": {
+"content_id": 822862,
+"language": "fra",
+"title": "Arche de l'Alliance"
+},
+"hin": {
+"content_id": 381319,
+"language": "hin",
+"title": "वाचा का सन्दूक"
+},
+"por": {
+"content_id": 716913,
+"language": "por",
+"title": "Arca da Aliança"
+},
+"spa": {
+"content_id": 826908,
+"language": "spa",
+"title": "Arca de la Alianza"
+},
+"zht": {
+"content_id": 908673,
+"language": "zht",
+"title": "約櫃"
+}
+}
+},
+"852506": {
+"content_id": "852506",
+"reference_id": 4273,
+"index_reference": "waraka kwa waefeso",
+"localizations": {
+"eng": {
+"content_id": 5105,
+"language": "eng",
+"title": "Letter to the Ephesians"
+},
+"arb": {
+"content_id": 331811,
+"language": "arb",
+"title": "أفسس، الرسالة إلى كنيسة "
+},
+"fra": {
+"content_id": 785192,
+"language": "fra",
+"title": "Éphésiens, Lettre aux"
+},
+"hin": {
+"content_id": 381072,
+"language": "hin",
+"title": "इफिसियों के नाम पत्री"
+},
+"por": {
+"content_id": 481530,
+"language": "por",
+"title": "Efésios, Carta aos"
+},
+"spa": {
+"content_id": 817540,
+"language": "spa",
+"title": "Efesios, Carta a los"
+},
+"zht": {
+"content_id": 826014,
+"language": "zht",
+"title": "以弗所書"
 }
 }
 }
